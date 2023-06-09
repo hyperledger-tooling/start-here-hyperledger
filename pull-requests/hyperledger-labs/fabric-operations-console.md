@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/493" class=".btn">#493</a>
+            </td>
+            <td>
+                <b>
+                    clear user's hashed password field during migrate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- when migrating, this will clear the user's password, and this will make it so the user is prompted to change their password on first login
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 18:44:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/492" class=".btn">#492</a>
             </td>
             <td>
@@ -207,76 +242,6 @@ updating fabric v251 API dependencies from fabric-operator repo / api branch
     </table>
     <div class="right-align">
         Created At 2023-06-02 16:07:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/489" class=".btn">#489</a>
-            </td>
-            <td>
-                <b>
-                    use absolute paths for logout/login links
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- changes the logout/login links from a url + path, to just an absolute path. more robust this way
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 19:48:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/488" class=".btn">#488</a>
-            </td>
-            <td>
-                <b>
-                    fix the deployer sync timing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- fixes the component data sync with deployer, now waits for the deployer changes to write to the db before rebuilding the url safelist
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 19:46:48 +0000 UTC
     </div>
 </div>
 

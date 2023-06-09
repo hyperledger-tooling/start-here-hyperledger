@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5552" class=".btn">#5552</a>
+            </td>
+            <td>
+                <b>
+                    fix spotless
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fix spotless
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 18:18:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5551" class=".btn">#5551</a>
             </td>
             <td>
@@ -498,44 +525,6 @@ Moved newPayload logging to trace
     </table>
     <div class="right-align">
         Created At 2023-06-02 14:54:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5527" class=".btn">#5527</a>
-            </td>
-            <td>
-                <b>
-                    Prevent rocksdb segfaults when accessing closed storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-gate transaction access on whether the underlying storage has closed.  This prevents segfaults at shutdown when we close rocksdb, but there are async processes attempting to access the db.
-
-Currently evaluating to ensure there is no noticeable performance regression.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#5362 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 23:56:05 +0000 UTC
     </div>
 </div>
 

@@ -42,33 +42,3 @@ We have come across the need for a goal code that we can use when doing nothing 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/784" class=".btn">#784</a>
-            </td>
-            <td>
-                <b>
-                    [RFC0721] Add generic revocation format for anoncreds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding a dedicated revocation format entry for AnonCreds in Revocation Notification V2 protocol.
-
-I'm not sure if it's actually needed, as we can probably use the existing 'indy-anoncreds' if we consider it appropriate for both indy and the standardized anoncreds specification. At least from the formatting (with the :: as separator) it seems it suits pretty well if all AnonCreds object IDs are URIs.
-
-Not sure also if it would be needed to version it (like `anoncreds-v1`) in case AnonCreds V2 data model require a different approach.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 20:57:01 +0000 UTC
-    </div>
-</div>
-

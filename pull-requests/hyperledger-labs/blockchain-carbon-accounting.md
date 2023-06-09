@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/680" class=".btn">#680</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/681" class=".btn">#681</a>
             </td>
             <td>
                 <b>
-                    Bump @openzeppelin/contracts from 4.7.3 to 4.8.3
+                    Bump @openzeppelin/contracts from 4.7.3 to 4.9.1
                 </b>
             </td>
         </tr>
@@ -27,127 +27,121 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) from 4.7.3 to 4.8.3.
+                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) from 4.7.3 to 4.9.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/releases"><code>@​openzeppelin/contracts</code>'s releases</a>.</em></p>
 <blockquote>
-<h2>v4.8.3</h2>
+<h2>v4.9.1</h2>
 <blockquote>
 <p><strong>Note</strong>
-This release contains fixes for <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-mx2q-35m2-x2rh">https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-mx2q-35m2-x2rh</a> and <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-93hq-5wgc-jc82">https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-93hq-5wgc-jc82</a>.</p>
+This release contains a fix for <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-5h3x-9wvq-w4m2">https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-5h3x-9wvq-w4m2</a>.</p>
 </blockquote>
 <ul>
-<li><code>GovernorCompatibilityBravo</code>: Fix encoding of proposal data when signatures are missing.</li>
-<li><code>TransparentUpgradeableProxy</code>: Fix transparency in case of selector clash with non-decodable calldata or payable mutability. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4154">#4154</a>)</li>
+<li><code>Governor</code>: Add a mechanism to restrict the address of the proposer using a suffix in the description.</li>
 </ul>
-<h2>v4.8.2</h2>
-<blockquote>
-<p><strong>Note</strong>
-This release contains a fix for <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-878m-3g6q-594q">https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-878m-3g6q-594q</a>.</p>
-</blockquote>
+<h2>v4.9.0</h2>
 <ul>
-<li><code>ERC721Consecutive</code>: Fixed a bug when <code>_mintConsecutive</code> is used for batches of size 1 that could lead to balance overflow. Refer to the breaking changes section in the changelog for a note on the behavior of <code>ERC721._beforeTokenTransfer</code>.</li>
+<li><code>ReentrancyGuard</code>: Add a <code>_reentrancyGuardEntered</code> function to expose the guard status. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3714">#3714</a>)</li>
+<li><code>ERC721Wrapper</code>: add a new extension of the <code>ERC721</code> token which wraps an underlying token. Deposit and withdraw guarantee that the ownership of each token is backed by a corresponding underlying token with the same identifier. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3863">#3863</a>)</li>
+<li><code>EnumerableMap</code>: add a <code>keys()</code> function that returns an array containing all the keys. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3920">#3920</a>)</li>
+<li><code>Governor</code>: add a public <code>cancel(uint256)</code> function. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3983">#3983</a>)</li>
+<li><code>Governor</code>: Enable timestamp operation for blockchains without a stable block time. This is achieved by connecting a Governor's internal clock to match a voting token's EIP-6372 interface. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3934">#3934</a>)</li>
+<li><code>Strings</code>: add <code>equal</code> method. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3774">#3774</a>)</li>
+<li><code>IERC5313</code>: Add an interface for EIP-5313 that is now final. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4013">#4013</a>)</li>
+<li><code>IERC4906</code>: Add an interface for ERC-4906 that is now Final. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4012">#4012</a>)</li>
+<li><code>StorageSlot</code>: Add support for <code>string</code> and <code>bytes</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4008">#4008</a>)</li>
+<li><code>Votes</code>, <code>ERC20Votes</code>, <code>ERC721Votes</code>: support timestamp checkpointing using EIP-6372. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3934">#3934</a>)</li>
+<li><code>ERC4626</code>: Add mitigation to the inflation attack through virtual shares and assets. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3979">#3979</a>)</li>
+<li><code>Strings</code>: add <code>toString</code> method for signed integers. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3773">#3773</a>)</li>
+<li><code>ERC20Wrapper</code>: Make the <code>underlying</code> variable private and add a public accessor. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4029">#4029</a>)</li>
+<li><code>EIP712</code>: add EIP-5267 support for better domain discovery. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3969">#3969</a>)</li>
+<li><code>AccessControlDefaultAdminRules</code>: Add an extension of <code>AccessControl</code> with additional security rules for the <code>DEFAULT_ADMIN_ROLE</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4009">#4009</a>)</li>
+<li><code>SignatureChecker</code>: Add <code>isValidERC1271SignatureNow</code> for checking a signature directly against a smart contract using ERC-1271. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3932">#3932</a>)</li>
+<li><code>SafeERC20</code>: Add a <code>forceApprove</code> function to improve compatibility with tokens behaving like USDT. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4067">#4067</a>)</li>
+<li><code>ERC1967Upgrade</code>: removed contract-wide <code>oz-upgrades-unsafe-allow delegatecall</code> annotation, replaced by granular annotation in <code>UUPSUpgradeable</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3971">#3971</a>)</li>
+<li><code>ERC20Wrapper</code>: self wrapping and deposit by the wrapper itself are now explicitly forbidden. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4100">#4100</a>)</li>
+<li><code>ECDSA</code>: optimize bytes32 computation by using assembly instead of <code>abi.encodePacked</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3853">#3853</a>)</li>
+<li><code>ERC721URIStorage</code>: Emit ERC-4906 <code>MetadataUpdate</code> in <code>_setTokenURI</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4012">#4012</a>)</li>
+<li><code>ShortStrings</code>: Added a library for handling short strings in a gas efficient way, with fallback to storage for longer strings. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4023">#4023</a>)</li>
+<li><code>SignatureChecker</code>: Allow return data length greater than 32 from EIP-1271 signers. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4038">#4038</a>)</li>
+<li><code>UUPSUpgradeable</code>: added granular <code>oz-upgrades-unsafe-allow-reachable</code> annotation to improve upgrade safety checks on latest version of the Upgrades Plugins (starting with <code>@openzeppelin/upgrades-core@1.21.0</code>). (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3971">#3971</a>)</li>
+<li><code>Initializable</code>: optimize <code>_disableInitializers</code> by using <code>!=</code> instead of <code>&lt;</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3787">#3787</a>)</li>
+<li><code>Ownable2Step</code>: make <code>acceptOwnership</code> public virtual to enable usecases that require overriding it. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3960">#3960</a>)</li>
+<li><code>UUPSUpgradeable.sol</code>: Change visibility to the functions <code>upgradeTo </code> and <code>upgradeToAndCall </code> from <code>external</code> to <code>public</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3959">#3959</a>)</li>
+<li><code>TimelockController</code>: Add the <code>CallSalt</code> event to emit on operation schedule. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4001">#4001</a>)</li>
+<li>Reformatted codebase with latest version of Prettier Solidity. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3898">#3898</a>)</li>
+<li><code>Math</code>: optimize <code>log256</code> rounding check. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3745">#3745</a>)</li>
+<li><code>ERC20Votes</code>: optimize by using unchecked arithmetic. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3748">#3748</a>)</li>
+<li><code>Multicall</code>: annotate <code>multicall</code> function as upgrade safe to not raise a flag for its delegatecall. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3961">#3961</a>)</li>
+<li><code>ERC20Pausable</code>, <code>ERC721Pausable</code>, <code>ERC1155Pausable</code>: Add note regarding missing public pausing functionality (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4007">#4007</a>)</li>
+<li><code>ECDSA</code>: Add a function <code>toDataWithIntendedValidatorHash</code> that encodes data with version 0x00 following EIP-191. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4063">#4063</a>)</li>
+<li><code>MerkleProof</code>: optimize by using unchecked arithmetic. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3745">#3745</a>)</li>
 </ul>
 <h3>Breaking changes</h3>
 <ul>
-<li><code>ERC721</code>: The internal function <code>_beforeTokenTransfer</code> no longer updates balances, which it previously did when <code>batchSize</code> was greater than 1. This change has no consequence unless a custom ERC721 extension is explicitly invoking <code>_beforeTokenTransfer</code>. Balance updates in extensions must now be done explicitly using <code>__unsafe_increaseBalance</code>, with a name that indicates that there is an invariant that has to be manually verified.</li>
+<li><code>EIP712</code>: Addition of ERC5267 support requires support for user defined value types, which was released in Solidity version 0.8.8. This requires a pragma change from <code>^0.8.0</code> to <code>^0.8.8</code>.</li>
+<li><code>EIP712</code>: Optimization of the cache for the upgradeable version affects the way <code>name</code> and <code>version</code> are set. This is no longer done through an initializer, and is instead part of the implementation's constructor. As a consequence, all proxies using the same implementation will necessarily share the same <code>name</code> and <code>version</code>. Additionally, an implementation upgrade risks changing the EIP712 domain unless the same <code>name</code> and <code>version</code> are used when deploying the new implementation contract.</li>
 </ul>
-<h2>v4.8.1</h2>
-<ul>
-<li><code>ERC4626</code>: Use staticcall instead of call when fetching underlying ERC-20 decimals. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3943">#3943</a>)</li>
-</ul>
-<h2>v4.8.0</h2>
-<blockquote>
-<p><strong>Note</strong>
-Don't miss the section on <strong>Breaking changes</strong> at the end.</p>
-</blockquote>
-<ul>
-<li><code>TimelockController</code>: Added a new <code>admin</code> constructor parameter that is assigned the admin role instead of the deployer account. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3722">#3722</a>)</li>
-<li><code>Initializable</code>: add internal functions <code>_getInitializedVersion</code> and <code>_isInitializing</code> (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3598">#3598</a>)</li>
-<li><code>ERC165Checker</code>: add <code>supportsERC165InterfaceUnchecked</code> for consulting individual interfaces without the full ERC165 protocol. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3339">#3339</a>)</li>
-<li><code>Address</code>: optimize <code>functionCall</code> by calling <code>functionCallWithValue</code> directly. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3468">#3468</a>)</li>
-<li><code>Address</code>: optimize <code>functionCall</code> functions by checking contract size only if there is no returned data. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3469">#3469</a>)</li>
-<li><code>Governor</code>: make the <code>relay</code> function payable, and add support for EOA payments. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3730">#3730</a>)</li>
-<li><code>GovernorCompatibilityBravo</code>: remove unused <code>using</code> statements. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3506">#3506</a>)</li>
-<li><code>ERC20</code>: optimize <code>_transfer</code>, <code>_mint</code> and <code>_burn</code> by using <code>unchecked</code> arithmetic when possible. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3513">#3513</a>)</li>
-<li><code>ERC20Votes</code>, <code>ERC721Votes</code>: optimize <code>getPastVotes</code> for looking up recent checkpoints. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3673">#3673</a>)</li>
-<li><code>ERC20FlashMint</code>: add an internal <code>_flashFee</code> function for overriding. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3551">#3551</a>)</li>
-<li><code>ERC4626</code>: use the same <code>decimals()</code> as the underlying asset by default (if available). (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3639">#3639</a>)</li>
-<li><code>ERC4626</code>: add internal <code>_initialConvertToShares</code> and <code>_initialConvertToAssets</code> functions to customize empty vaults behavior. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3639">#3639</a>)</li>
-<li><code>ERC721</code>: optimize transfers by making approval clearing implicit instead of emitting an event. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3481">#3481</a>)</li>
-<li><code>ERC721</code>: optimize burn by making approval clearing implicit instead of emitting an event. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3538">#3538</a>)</li>
-<li><code>ERC721</code>: Fix balance accounting when a custom <code>_beforeTokenTransfer</code> hook results in a transfer of the token under consideration. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3611">#3611</a>)</li>
-<li><code>ERC721</code>: use unchecked arithmetic for balance updates. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3524">#3524</a>)</li>
-<li><code>ERC721Consecutive</code>: Implementation of EIP-2309 that allows batch minting of ERC721 tokens during construction. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3311">#3311</a>)</li>
-<li><code>ReentrancyGuard</code>: Reduce code size impact of the modifier by using internal functions. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3515">#3515</a>)</li>
-<li><code>SafeCast</code>: optimize downcasting of signed integers. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3565">#3565</a>)</li>
-<li><code>ECDSA</code>: Remove redundant check on the <code>v</code> value. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3591">#3591</a>)</li>
-<li><code>VestingWallet</code>: add <code>releasable</code> getters. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3580">#3580</a>)</li>
-<li><code>VestingWallet</code>: remove unused library <code>Math.sol</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3605">#3605</a>)</li>
-<li><code>VestingWallet</code>: make constructor payable. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3665">#3665</a>)</li>
-<li><code>Create2</code>: optimize address computation by using assembly instead of <code>abi.encodePacked</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3600">#3600</a>)</li>
-<li><code>Clones</code>: optimized the assembly to use only the scratch space during deployments, and optimized <code>predictDeterministicAddress</code> to use fewer operations. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3640">#3640</a>)</li>
-<li><code>Checkpoints</code>: Use procedural generation to support multiple key/value lengths. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3589">#3589</a>)</li>
-</ul>
+<h3>Deprecations</h3>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.8.3/CHANGELOG.md"><code>@​openzeppelin/contracts</code>'s changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.1/CHANGELOG.md"><code>@​openzeppelin/contracts</code>'s changelog</a>.</em></p>
 <blockquote>
-<h2>4.8.3 (2023-04-13)</h2>
+<h2>4.9.1 (2023-06-07)</h2>
 <ul>
-<li><code>GovernorCompatibilityBravo</code>: Fix encoding of proposal data when signatures are missing.</li>
-<li><code>TransparentUpgradeableProxy</code>: Fix transparency in case of selector clash with non-decodable calldata or payable mutability. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4154">#4154</a>)</li>
+<li><code>Governor</code>: Add a mechanism to restrict the address of the proposer using a suffix in the description.</li>
 </ul>
-<h2>4.8.2 (2023-03-02)</h2>
+<h2>4.9.0 (2023-05-23)</h2>
 <ul>
-<li><code>ERC721Consecutive</code>: Fixed a bug when <code>_mintConsecutive</code> is used for batches of size 1 that could lead to balance overflow. Refer to the breaking changes section in the changelog for a note on the behavior of <code>ERC721._beforeTokenTransfer</code>.</li>
+<li><code>ReentrancyGuard</code>: Add a <code>_reentrancyGuardEntered</code> function to expose the guard status. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3714">#3714</a>)</li>
+<li><code>ERC721Wrapper</code>: add a new extension of the <code>ERC721</code> token which wraps an underlying token. Deposit and withdraw guarantee that the ownership of each token is backed by a corresponding underlying token with the same identifier. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3863">#3863</a>)</li>
+<li><code>EnumerableMap</code>: add a <code>keys()</code> function that returns an array containing all the keys. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3920">#3920</a>)</li>
+<li><code>Governor</code>: add a public <code>cancel(uint256)</code> function. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3983">#3983</a>)</li>
+<li><code>Governor</code>: Enable timestamp operation for blockchains without a stable block time. This is achieved by connecting a Governor's internal clock to match a voting token's EIP-6372 interface. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3934">#3934</a>)</li>
+<li><code>Strings</code>: add <code>equal</code> method. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3774">#3774</a>)</li>
+<li><code>IERC5313</code>: Add an interface for EIP-5313 that is now final. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4013">#4013</a>)</li>
+<li><code>IERC4906</code>: Add an interface for ERC-4906 that is now Final. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4012">#4012</a>)</li>
+<li><code>StorageSlot</code>: Add support for <code>string</code> and <code>bytes</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4008">#4008</a>)</li>
+<li><code>Votes</code>, <code>ERC20Votes</code>, <code>ERC721Votes</code>: support timestamp checkpointing using EIP-6372. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3934">#3934</a>)</li>
+<li><code>ERC4626</code>: Add mitigation to the inflation attack through virtual shares and assets. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3979">#3979</a>)</li>
+<li><code>Strings</code>: add <code>toString</code> method for signed integers. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3773">#3773</a>)</li>
+<li><code>ERC20Wrapper</code>: Make the <code>underlying</code> variable private and add a public accessor. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4029">#4029</a>)</li>
+<li><code>EIP712</code>: add EIP-5267 support for better domain discovery. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3969">#3969</a>)</li>
+<li><code>AccessControlDefaultAdminRules</code>: Add an extension of <code>AccessControl</code> with additional security rules for the <code>DEFAULT_ADMIN_ROLE</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4009">#4009</a>)</li>
+<li><code>SignatureChecker</code>: Add <code>isValidERC1271SignatureNow</code> for checking a signature directly against a smart contract using ERC-1271. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3932">#3932</a>)</li>
+<li><code>SafeERC20</code>: Add a <code>forceApprove</code> function to improve compatibility with tokens behaving like USDT. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4067">#4067</a>)</li>
+<li><code>ERC1967Upgrade</code>: removed contract-wide <code>oz-upgrades-unsafe-allow delegatecall</code> annotation, replaced by granular annotation in <code>UUPSUpgradeable</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3971">#3971</a>)</li>
+<li><code>ERC20Wrapper</code>: self wrapping and deposit by the wrapper itself are now explicitly forbidden. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4100">#4100</a>)</li>
+<li><code>ECDSA</code>: optimize bytes32 computation by using assembly instead of <code>abi.encodePacked</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3853">#3853</a>)</li>
+<li><code>ERC721URIStorage</code>: Emit ERC-4906 <code>MetadataUpdate</code> in <code>_setTokenURI</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4012">#4012</a>)</li>
+<li><code>ShortStrings</code>: Added a library for handling short strings in a gas efficient way, with fallback to storage for longer strings. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4023">#4023</a>)</li>
+<li><code>SignatureChecker</code>: Allow return data length greater than 32 from EIP-1271 signers. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4038">#4038</a>)</li>
+<li><code>UUPSUpgradeable</code>: added granular <code>oz-upgrades-unsafe-allow-reachable</code> annotation to improve upgrade safety checks on latest version of the Upgrades Plugins (starting with <code>@openzeppelin/upgrades-core@1.21.0</code>). (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3971">#3971</a>)</li>
+<li><code>Initializable</code>: optimize <code>_disableInitializers</code> by using <code>!=</code> instead of <code>&lt;</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3787">#3787</a>)</li>
+<li><code>Ownable2Step</code>: make <code>acceptOwnership</code> public virtual to enable usecases that require overriding it. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3960">#3960</a>)</li>
+<li><code>UUPSUpgradeable.sol</code>: Change visibility to the functions <code>upgradeTo </code> and <code>upgradeToAndCall </code> from <code>external</code> to <code>public</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3959">#3959</a>)</li>
+<li><code>TimelockController</code>: Add the <code>CallSalt</code> event to emit on operation schedule. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4001">#4001</a>)</li>
+<li>Reformatted codebase with latest version of Prettier Solidity. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3898">#3898</a>)</li>
+<li><code>Math</code>: optimize <code>log256</code> rounding check. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3745">#3745</a>)</li>
+<li><code>ERC20Votes</code>: optimize by using unchecked arithmetic. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3748">#3748</a>)</li>
+<li><code>Multicall</code>: annotate <code>multicall</code> function as upgrade safe to not raise a flag for its delegatecall. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3961">#3961</a>)</li>
+<li><code>ERC20Pausable</code>, <code>ERC721Pausable</code>, <code>ERC1155Pausable</code>: Add note regarding missing public pausing functionality (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4007">#4007</a>)</li>
+<li><code>ECDSA</code>: Add a function <code>toDataWithIntendedValidatorHash</code> that encodes data with version 0x00 following EIP-191. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4063">#4063</a>)</li>
+<li><code>MerkleProof</code>: optimize by using unchecked arithmetic. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3745">#3745</a>)</li>
 </ul>
 <h3>Breaking changes</h3>
 <ul>
-<li><code>ERC721</code>: The internal function <code>_beforeTokenTransfer</code> no longer updates balances, which it previously did when <code>batchSize</code> was greater than 1. This change has no consequence unless a custom ERC721 extension is explicitly invoking <code>_beforeTokenTransfer</code>. Balance updates in extensions must now be done explicitly using <code>__unsafe_increaseBalance</code>, with a name that indicates that there is an invariant that has to be manually verified.</li>
+<li><code>EIP712</code>: Addition of ERC5267 support requires support for user defined value types, which was released in Solidity version 0.8.8. This requires a pragma change from <code>^0.8.0</code> to <code>^0.8.8</code>.</li>
+<li><code>EIP712</code>: Optimization of the cache for the upgradeable version affects the way <code>name</code> and <code>version</code> are set. This is no longer done through an initializer, and is instead part of the implementation's constructor. As a consequence, all proxies using the same implementation will necessarily share the same <code>name</code> and <code>version</code>. Additionally, an implementation upgrade risks changing the EIP712 domain unless the same <code>name</code> and <code>version</code> are used when deploying the new implementation contract.</li>
 </ul>
-<h2>4.8.1 (2023-01-13)</h2>
+<h3>Deprecations</h3>
 <ul>
-<li><code>ERC4626</code>: Use staticcall instead of call when fetching underlying ERC-20 decimals. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3943">#3943</a>)</li>
-</ul>
-<h2>4.8.0 (2022-11-08)</h2>
-<ul>
-<li><code>TimelockController</code>: Added a new <code>admin</code> constructor parameter that is assigned the admin role instead of the deployer account. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3722">#3722</a>)</li>
-<li><code>Initializable</code>: add internal functions <code>_getInitializedVersion</code> and <code>_isInitializing</code> (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3598">#3598</a>)</li>
-<li><code>ERC165Checker</code>: add <code>supportsERC165InterfaceUnchecked</code> for consulting individual interfaces without the full ERC165 protocol. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3339">#3339</a>)</li>
-<li><code>Address</code>: optimize <code>functionCall</code> by calling <code>functionCallWithValue</code> directly. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3468">#3468</a>)</li>
-<li><code>Address</code>: optimize <code>functionCall</code> functions by checking contract size only if there is no returned data. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3469">#3469</a>)</li>
-<li><code>Governor</code>: make the <code>relay</code> function payable, and add support for EOA payments. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3730">#3730</a>)</li>
-<li><code>GovernorCompatibilityBravo</code>: remove unused <code>using</code> statements. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3506">#3506</a>)</li>
-<li><code>ERC20</code>: optimize <code>_transfer</code>, <code>_mint</code> and <code>_burn</code> by using <code>unchecked</code> arithmetic when possible. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3513">#3513</a>)</li>
-<li><code>ERC20Votes</code>, <code>ERC721Votes</code>: optimize <code>getPastVotes</code> for looking up recent checkpoints. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3673">#3673</a>)</li>
-<li><code>ERC20FlashMint</code>: add an internal <code>_flashFee</code> function for overriding. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3551">#3551</a>)</li>
-<li><code>ERC4626</code>: use the same <code>decimals()</code> as the underlying asset by default (if available). (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3639">#3639</a>)</li>
-<li><code>ERC4626</code>: add internal <code>_initialConvertToShares</code> and <code>_initialConvertToAssets</code> functions to customize empty vaults behavior. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3639">#3639</a>)</li>
-<li><code>ERC721</code>: optimize transfers by making approval clearing implicit instead of emitting an event. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3481">#3481</a>)</li>
-<li><code>ERC721</code>: optimize burn by making approval clearing implicit instead of emitting an event. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3538">#3538</a>)</li>
-<li><code>ERC721</code>: Fix balance accounting when a custom <code>_beforeTokenTransfer</code> hook results in a transfer of the token under consideration. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3611">#3611</a>)</li>
-<li><code>ERC721</code>: use unchecked arithmetic for balance updates. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3524">#3524</a>)</li>
-<li><code>ERC721Consecutive</code>: Implementation of EIP-2309 that allows batch minting of ERC721 tokens during construction. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3311">#3311</a>)</li>
-<li><code>ReentrancyGuard</code>: Reduce code size impact of the modifier by using internal functions. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3515">#3515</a>)</li>
-<li><code>SafeCast</code>: optimize downcasting of signed integers. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3565">#3565</a>)</li>
-<li><code>ECDSA</code>: Remove redundant check on the <code>v</code> value. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3591">#3591</a>)</li>
-<li><code>VestingWallet</code>: add <code>releasable</code> getters. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3580">#3580</a>)</li>
-<li><code>VestingWallet</code>: remove unused library <code>Math.sol</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3605">#3605</a>)</li>
-<li><code>VestingWallet</code>: make constructor payable. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3665">#3665</a>)</li>
-<li><code>Create2</code>: optimize address computation by using assembly instead of <code>abi.encodePacked</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3600">#3600</a>)</li>
-<li><code>Clones</code>: optimized the assembly to use only the scratch space during deployments, and optimized <code>predictDeterministicAddress</code> to use fewer operations. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3640">#3640</a>)</li>
-<li><code>Checkpoints</code>: Use procedural generation to support multiple key/value lengths. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3589">#3589</a>)</li>
-<li><code>Checkpoints</code>: Add new lookup mechanisms. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3589">#3589</a>)</li>
-<li><code>Arrays</code>: Add <code>unsafeAccess</code> functions that allow reading and writing to an element in a storage array bypassing Solidity's &quot;out-of-bounds&quot; check. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3589">#3589</a>)</li>
-<li><code>Strings</code>: optimize <code>toString</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3573">#3573</a>)</li>
-<li><code>Ownable2Step</code>: extension of <code>Ownable</code> that makes the ownership transfers a two step process. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3620">#3620</a>)</li>
-<li><code>Math</code> and <code>SignedMath</code>: optimize function <code>max</code> by using <code>&gt;</code> instead of <code>&gt;=</code>. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3679">#3679</a>)</li>
+<li><code>ERC20Permit</code>: Added the file <code>IERC20Permit.sol</code> and <code>ERC20Permit.sol</code> and deprecated <code>draft-IERC20Permit.sol</code> and <code>draft-ERC20Permit.sol</code> since <a href="https://eips.ethereum.org/EIPS/eip-2612">EIP-2612</a> is no longer a Draft. Developers are encouraged to update their imports. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3793">#3793</a>)</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -156,23 +150,23 @@ Don't miss the section on <strong>Breaking changes</strong> at the end.</p>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/0a25c1940ca220686588c4af3ec526f725fe2582"><code>0a25c19</code></a> 4.8.3</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/7bdd255a0594b5fd907a364c177cc2fea401332c"><code>7bdd255</code></a> Update changelog</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/ea595f59605534945a3d349a2f86a26fc7d3b9d1"><code>ea595f5</code></a> Merge pull request from GHSA-93hq-5wgc-jc82</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/61b45a28500e6996fc980c1101b9e0d321f80243"><code>61b45a2</code></a> Improve docs for transparent proxy (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4181">#4181</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/db9ee953a17166a51fff42b3c4a29203ef92a492"><code>db9ee95</code></a> Merge changesets for transparency improvements (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4165">#4165</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/c01ea99123a9be7494557b6b2ca5942c6be487f9"><code>c01ea99</code></a> Fix TransparentUpgradeableProxy's transparency (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4154">#4154</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/8dfeb5d79e6a31dce4ddcd6983db0e0456a02cf2"><code>8dfeb5d</code></a> Improve TransparentUpgradeableProxy's transparency (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/3977">#3977</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/9eee01c5a2757fa9bf8421a2810776b885995d2f"><code>9eee01c</code></a> Bump and pin Forge Std submodule (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4102">#4102</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/d00acef4059807535af0bd0dd0ddf619747a044b"><code>d00acef</code></a> 4.8.2</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/ab9cc4c4dbdd3be4a2e0935a76c160b31fb9deba"><code>ab9cc4c</code></a> Ignore reentrancy in<code>executeBatch</code> and update Slither config (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/3955">#3955</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v4.7.3...v4.8.3">compare view</a></li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/281550b71c3df9a83e6b80ceefc700852c287570"><code>281550b</code></a> Release v4.9.1 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4321">#4321</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/33ff9b086dab790e87948f6007aa4b00bf5252cc"><code>33ff9b0</code></a> Merge pull request from GHSA-5h3x-9wvq-w4m2</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/fa3a30a580e87dbc4f3a7693296901c0b83f06aa"><code>fa3a30a</code></a> Fix typo in crosschain.adoc</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4e6deb3c56c8b054396836f52bff9c67fde766e7"><code>4e6deb3</code></a> Fix import substitution for docs examples</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/819820517d70820f80a12dd835099c32d7cebb9b"><code>8198205</code></a> Fix doc MyGovernor example doesn't compile (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4282">#4282</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/a6e267169036f90d4244683d9709e3190622c9f6"><code>a6e2671</code></a> Fix release merge script (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4273">#4273</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/54b3f14346da01ba0d159114b399197fea8b7cda"><code>54b3f14</code></a> Release v4.9.0 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4272">#4272</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/813cc2b79d2822059dd507705953a0fb1e67e48a"><code>813cc2b</code></a> Exit release candidate</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4f7047ceecfadd5e3132182ea54a2616f732d667"><code>4f7047c</code></a> Release v4.9.0 (rc) (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4243">#4243</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/a43069e841c4a650448ef999d8842ceecf274f71"><code>a43069e</code></a> Reduce frequency of version comment updates (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4244">#4244</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v4.7.3...v4.9.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts&package-manager=npm_and_yarn&previous-version=4.7.3&new-version=4.8.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts&package-manager=npm_and_yarn&previous-version=4.7.3&new-version=4.9.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -203,7 +197,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-17 17:16:39 +0000 UTC
+        Created At 2023-06-08 18:25:17 +0000 UTC
     </div>
 </div>
 
