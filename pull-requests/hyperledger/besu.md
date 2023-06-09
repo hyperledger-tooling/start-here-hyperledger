@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5573" class=".btn">#5573</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] errorprone-checks - migrate to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #5565 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-09 05:21:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5572" class=".btn">#5572</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Datatypes - junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #5567 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-09 04:44:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5554" class=".btn">#5554</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Add dataGasUsed and dataGasPrice to receipts for 4844 txs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+[4844] Add dataGasUsed and dataGasPrice to receipts for 4844 txs
+
+## Fixed Issue(s)
+#5489
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-09 03:30:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5552" class=".btn">#5552</a>
             </td>
             <td>
@@ -85,6 +167,8 @@ Fix encoding/decoding issues with Blob Transactions for network
                 ## PR description
 
 As per a recent ACD, the opcode numbers for EOF and Transient Storage have been updated.  Update the code and test cases for the new numbers.
+
+Updated list https://hackmd.io/@shemnon/CancunOpcodeAllocation
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

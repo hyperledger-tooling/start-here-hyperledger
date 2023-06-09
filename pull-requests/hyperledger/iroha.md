@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3589" class=".btn">#3589</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: fix configuration macro test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Update failing `configuration_proxy_from_env_returns_err_on_parsing_error` test.
+
+### Linked issue
+
+_No linked issue_
+
+### Checklist
+
+- [x] I've run tests locally
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-09 04:46:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3588" class=".btn">#3588</a>
             </td>
             <td>
