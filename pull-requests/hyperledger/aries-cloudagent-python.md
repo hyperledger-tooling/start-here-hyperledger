@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2262" class=".btn">#2262</a>
+            </td>
+            <td>
+                <b>
+                    feat(did creation route): reject unregistered did methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change a small oversight in did creation admin route:
+
+* Missing `method` parameter will default to `sov`
+* Unknown (ie: not registed in `DIDMethods`) methods will be rejected
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-09 10:39:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2261" class=".btn">#2261</a>
             </td>
             <td>
