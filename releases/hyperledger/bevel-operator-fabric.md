@@ -42,7 +42,7 @@ permalink: /releases/hyperledger/bevel-operator-fabric
 * 7bb4696 Merge pull request #138 from adityajoshi12/git-templates
 * 98f52d2 added github forms
 
-
+Gateway feature by @rohitrj22 in the PR #164 
             </td>
         </tr>
     </table>
