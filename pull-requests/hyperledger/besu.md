@@ -50,32 +50,6 @@ Mostly parameterized test and mockito support changes.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5574" class=".btn">#5574</a>
-            </td>
-            <td>
-                <b>
-                    Migrate crypto tests from JUnit 4.0 to JUnit 5.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR should resolve #5568 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-09 13:01:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5573" class=".btn">#5573</a>
             </td>
             <td>

@@ -189,29 +189,3 @@ Fixes #1351
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1352" class=".btn">#1352</a>
-            </td>
-            <td>
-                <b>
-                    fix(docs): Minor typo fixes for installation documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR aims to fix minor typos in the installation documentation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-03 10:07:53 +0000 UTC
-    </div>
-</div>
-
