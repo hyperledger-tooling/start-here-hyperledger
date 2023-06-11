@@ -161,31 +161,3 @@ In addition, the error message for unused function parameter has been updated to
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1353" class=".btn">#1353</a>
-            </td>
-            <td>
-                <b>
-                    Do not pin `ink!` dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This was required for 4.1.0 because back then we were on rust 1.65 while 4.2.0 was on 1.68
-
-Fixes #1351 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-04 08:11:21 +0000 UTC
-    </div>
-</div>
-

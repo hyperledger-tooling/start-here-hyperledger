@@ -14,33 +14,6 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5578" class=".btn">#5578</a>
-            </td>
-            <td>
-                <b>
-                    Migrate util from JUnit 4.0 to JUnit 5.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrate util tests from JUnit 4.0 to JUnit 5.0
-fixes: #5556 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-10 19:48:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5575" class=".btn">#5575</a>
             </td>
             <td>
