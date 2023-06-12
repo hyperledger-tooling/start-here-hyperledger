@@ -282,29 +282,3 @@ Still to do
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/2" class=".btn">#2</a>
-            </td>
-            <td>
-                <b>
-                    First commit of writing in progress
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR contains a proposed location and structure for the R3 working paper docs, and the word-in-progress text as it currently stands.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 17:08:59 +0000 UTC
-    </div>
-</div>
-

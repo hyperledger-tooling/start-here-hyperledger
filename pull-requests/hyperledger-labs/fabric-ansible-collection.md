@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Deibm doc tutorial joining
+                    Deibm doc tutorial deploying
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                - Also some linting fixes
+                Also testing to verify that deploying a smart contract still works
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-30 10:23:38 +0000 UTC
+        Created At 2023-06-12 13:48:04 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Removed IBP references from building doc
+                    Specify zones feature
                 </b>
             </td>
         </tr>
@@ -53,12 +53,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                - Also deleted doc for `installing-fabric-operator-console` since it was not being used
+                Ordering and endorsing organisation roles now have the ability to specify zones
+
+Added a task which check if the number of zones specified doesn't match the number of peers
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-30 09:59:11 +0000 UTC
+        Created At 2023-06-12 13:34:45 +0000 UTC
     </div>
 </div>
 

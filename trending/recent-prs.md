@@ -1,13 +1,13 @@
 
-[16](https://github.com/hyperledger-labs/harmonia/pull/16) Proposed some additional paragraphs to hammer home a few points
+[256](https://github.com/hyperledger-labs/perun-node/pull/256) [IoT State Channels] Upgrade to go-perun v0.9.0
 
-[5584](https://github.com/hyperledger/besu/pull/5584) Use the node's configuration to decide if adding a peer with DNS in the enode is allowed
+[3599](https://github.com/hyperledger/aries-framework-go/pull/3599) chore: update to go 1.20
 
-[4274](https://github.com/hyperledger/fabric/pull/4274) Update install scripts for v2.5.2
+[12](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/12) Deibm doc tutorial deploying
 
-[15](https://github.com/hyperledger-labs/harmonia/pull/15) Added README
+[4278](https://github.com/hyperledger/fabric/pull/4278) BFT Block Puller: select BFT or CFT orderer
 
-[1362](https://github.com/hyperledger/solang/pull/1362) Implement `is_contract` builtin 
+[11](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/11) Specify zones feature
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
