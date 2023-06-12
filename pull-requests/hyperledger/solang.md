@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1362" class=".btn">#1362</a>
+            </td>
+            <td>
+                <b>
+                    Implement `is_contract` builtin 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1333
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-12 09:49:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1360" class=".btn">#1360</a>
             </td>
             <td>

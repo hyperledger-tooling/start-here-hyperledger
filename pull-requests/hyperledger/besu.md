@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5584" class=".btn">#5584</a>
+            </td>
+            <td>
+                <b>
+                    Use the node's configuration to decide if adding a peer with DNS in the enode is allowed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Uses the node configuration to decide if `admin_addPeer()` should allow enodes with DNS in them. Previously this was hard coded to DNS-disabled.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/5583
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-12 11:04:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5582" class=".btn">#5582</a>
             </td>
             <td>
@@ -580,36 +610,6 @@ relates to #5539
     </table>
     <div class="right-align">
         Created At 2023-06-05 14:57:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5534" class=".btn">#5534</a>
-            </td>
-            <td>
-                <b>
-                    Feature addition for tracing private transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Draft PR for adding priv_traceTransaction API
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/5280
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 07:17:20 +0000 UTC
     </div>
 </div>
 

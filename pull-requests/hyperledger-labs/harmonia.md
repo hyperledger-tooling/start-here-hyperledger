@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/16" class=".btn">#16</a>
+            </td>
+            <td>
+                <b>
+                    Proposed some additional paragraphs to hammer home a few points
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I've proposed a few extra paragraphs to hammer home why 'teach corda how to check the inclusion of an event but rely on the validator signatures for finality' is actually pretty cool
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-12 11:17:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    Added README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a simple readme, based on the lab proposal
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-12 10:12:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/harmonia/pull/14" class=".btn">#14</a>
             </td>
             <td>
@@ -253,32 +305,6 @@ Still to do
     </table>
     <div class="right-align">
         Created At 2023-06-05 17:08:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Added folders for Adhara contributions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 07:03:02 +0000 UTC
     </div>
 </div>
 

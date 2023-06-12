@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    doc(README): Update README to release v0.4.0
+                    chore(*): Bump Fabric to the latest
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                <nil>
+                This patch bumps Fabric to the latest.
+- Update Fabric 2.5.x to 2.5.2
+- Update Fabric 2.2.x to 2.2.12
+- Update fabric-sdks to 2.2.18
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-16 02:04:28 +0000 UTC
+        Created At 2023-06-12 07:53:23 +0000 UTC
     </div>
 </div>
 

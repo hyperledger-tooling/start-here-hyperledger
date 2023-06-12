@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/167" class=".btn">#167</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/170" class=".btn">#170</a>
             </td>
             <td>
                 <b>
-                    retries mechanism
+                    Conf cli
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                <nil>
+                work in progress
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-23 07:09:43 +0000 UTC
+        Created At 2023-06-12 07:58:23 +0000 UTC
     </div>
 </div>
 
