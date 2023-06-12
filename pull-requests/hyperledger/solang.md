@@ -161,29 +161,3 @@ In addition, the error message for unused function parameter has been updated to
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1355" class=".btn">#1355</a>
-            </td>
-            <td>
-                <b>
-                    Fix Anchor integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 14:04:13 +0000 UTC
-    </div>
-</div>
-

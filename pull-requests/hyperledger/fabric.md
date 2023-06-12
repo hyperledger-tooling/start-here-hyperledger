@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4278" class=".btn">#4278</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: select BFT or CFT orderer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+Change-Id: I8661f23e7a8c5db6422a09a183b042088da6f0e5
+
+#### Type of change
+- New feature
+
+#### Description
+- When a channel is created in the peer, inspect the channel config, and according to the Orderer's consensus type, instantiate a CFT or BFT block puller.
+
+- In addition, send the initial channel config and crypto provider to the deliverer, in preparation for it maintaining its own block verifier and connection source.
+
+- Separate the "sleeper" to a different file and test it separately such that it can be a subcomponent in multiple implementations.
+
+#### Related issues
+
+Issue: #4277 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-12 13:40:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4276" class=".btn">#4276</a>
+            </td>
+            <td>
+                <b>
+                    fix typo in config bft
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Typo fix
+
+#### Type of change
+
+- Documentation update
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-12 12:36:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4274" class=".btn">#4274</a>
             </td>
             <td>
@@ -197,46 +270,6 @@ Addresses #4264
     </table>
     <div class="right-align">
         Created At 2023-06-06 10:37:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4263" class=".btn">#4263</a>
-            </td>
-            <td>
-                <b>
-                    Raft WAL deadlock test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - There was a bug described at issue #4201. 
-- The bug caused a deadlock on etcd raft orderer chain apply change on orderer startup.
-- Issue #4201 fixed the issue. 
-- We wanted to add a test can check this scenario with high probability (because of the multiple go routines, and how the code is built, this can't be 100% test.)
-- We simulated the scenario of the deadlock using a test and debug logs (on the unfixed code) in #4262.
-- This PR adds the same test but without the debug logs.
-
-#### Type of change
-
-- Bug fix
-- Test update
-
-#### Description
-
-Please look at #4199, PR #4201 and PR #4262.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 13:12:17 +0000 UTC
     </div>
 </div>
 
