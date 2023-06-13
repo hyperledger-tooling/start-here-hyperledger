@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3600" class=".btn">#3600</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3246: Don't involve observing peer without fault.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Don't involve observing peers in consensus when view_change_index == 0.
+
+### Linked issue
+
+#3246
+
+I have verified that this PR has the intended effect by observing the output of the unstable network tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-12 21:05:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3599" class=".btn">#3599</a>
             </td>
             <td>

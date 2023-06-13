@@ -1,24 +1,24 @@
 ---
 layout: default
-title: aries-framework-go
+title: aries-protocol-test-suite
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/aries-framework-go
+permalink: /pull-requests/hyperledger/aries-protocol-test-suite
 ---
 
-# aries-framework-go <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-framework-go){: .btn .mr-4 }</span>
+# aries-protocol-test-suite <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-protocol-test-suite){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3599" class=".btn">#3599</a>
+                PR <a href="https://github.com/hyperledger/aries-protocol-test-suite/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    chore: update to go 1.20
+                    Update README.md to indicate the Archived status of the Repo
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-12 14:19:34 +0000 UTC
+        Created At 2023-06-12 23:26:00 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3598" class=".btn">#3598</a>
+                PR <a href="https://github.com/hyperledger/aries-protocol-test-suite/pull/47" class=".btn">#47</a>
             </td>
             <td>
                 <b>
-                    refactor: cleanup messy code in pEx implementation
+                    Archive repo
                 </b>
             </td>
         </tr>
@@ -53,13 +53,13 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                - pEx implementation no longer needs to replace Credential ID temporarily
-- assorted cleanup
+                Fixes #46
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-08 13:47:37 +0000 UTC
+        Created At 2023-06-12 18:38:26 +0000 UTC
     </div>
 </div>
 
