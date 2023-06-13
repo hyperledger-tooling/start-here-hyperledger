@@ -15,66 +15,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    Bevel Release 0.14.0
+                    node_quorum_validator-0.14.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.14.0.0
+                    node_quorum_validator-0.14.0
                 </span>
             </td>
             <td>
-                ## What's new in Bevel
-- Added support for substrate based DSCP platform
-- Added support for deployment on Kubernetes v1.23
-- New repository created bevel-samples to host reference application
-
-## New Features
-- HL Fabric
-  - Moved create/user role to Kubernetes jobs
-  - Enabled Cacti Connector deployment
-- HL Besu
-  - Moved create/crypto role to Kubernetes jobs
-  - Enabled Cacti Connector deployment
-  - Enabled node permissioning and monitoring
-  - Transaction manager 'none' option for disabled privacy
-  - Support for labels in deployment and service
-- Quorum 
-  - Transaction manager 'none' option for disabled privacy 
-## Deprecation
-  - No active support for older versions of platforms. Check [compatibility matrix](https://blockchain-automation-framework.readthedocs.io/en/latest/compatibilitymatrix.html)
-## Major Bug Fixes
-  -  Fixed fabric running upgrading from 1.4.x to 2.2.x using incorrect flag condition #2142
-  -  Fixed intermittent flux installation/uninstallation issues #2157
-  -  Fixed join channel job not starting #2212
-  -  Fixed add org for proxy none for fabric platform #2274
-
-## Known issue
-- Flux uninstallation taking longer time
-
-## Improvements
-- Besu
-    - Refactor genesis creation and crypto creation
-    - Single vault management script for sidecar containers
-- Quorum
-    - Refactor "tessera" role to move node creation logic to separate role.
-- Shared
-    - Created bevel-alpine-ext image with mysql
-## Documentation
-- Added cacti connector operations for HL Besu and HL Fabric platform
-## Application
-- Added deployment of supplychain smart contract automation for Besu
-
+                A Helm chart to deploy validator Quorum nodes
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/v0.14.0.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node_quorum_validator-0.14.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
+        Created At 2023-06-13 03:30:02 +0000 UTC
     </span>
 </div>
 
@@ -83,26 +43,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    tessera_key_mgmt-0.14.0
+                    node_quorum_member-0.14.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    tessera_key_mgmt-0.14.0
+                    node_quorum_member-0.14.0
                 </span>
             </td>
             <td>
-                A Helm3 chart for generating Tessera crypto
+                A Helm chart to deploy Quorum non-validator nodes with tessera transaction manager
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/tessera_key_mgmt-0.14.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node_quorum_member-0.14.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
+        Created At 2023-06-13 03:30:02 +0000 UTC
     </span>
 </div>
 
@@ -111,26 +71,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    orion_key_mgmt-0.14.0
+                    node_constellation-0.14.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    orion_key_mgmt-0.14.0
+                    node_constellation-0.14.0
                 </span>
             </td>
             <td>
-                A Helm3 chart for generating Orion crypto
+                A Helm chart to deploy Quorum nodes with constellation transaction manager
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/orion_key_mgmt-0.14.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node_constellation-0.14.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
+        Created At 2023-06-13 03:30:02 +0000 UTC
     </span>
 </div>
 
@@ -139,26 +99,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    node_validator-0.14.0
+                    crypto_raft-0.14.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    node_validator-0.14.0
+                    crypto_raft-0.14.0
                 </span>
             </td>
             <td>
-                A Helm chart to deploy Hyperledger Besu nodes with orion transaction manager
+                A Helm chart to generate the crypto material for raft consensus only if they are not already available in the vault.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_validator-0.14.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/crypto_raft-0.14.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
+        Created At 2023-06-13 03:30:02 +0000 UTC
     </span>
 </div>
 
@@ -167,26 +127,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    node_tessera-0.14.0
+                    crypto_ibft-0.14.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    node_tessera-0.14.0
+                    crypto_ibft-0.14.0
                 </span>
             </td>
             <td>
-                A Helm chart to deploy Tessera transaction manager nodes
+                A Helm chart to generate the crypto materials for ibft consensus only if they are not already available in the vault.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_tessera-0.14.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/crypto_ibft-0.14.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
+        Created At 2023-06-13 03:30:02 +0000 UTC
     </span>
 </div>
 
@@ -195,138 +155,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    node_orion-0.14.0
+                    certs-ambassador-quorum-0.14.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    node_orion-0.14.0
+                    certs-ambassador-quorum-0.14.0
                 </span>
             </td>
             <td>
-                A Helm chart to deploy Hyperledger Besu nodes with orion transaction manager
+                A Helm3 chart for Ambassador certificates creation, the purpose of this Helm Chart is to generate SSL/TLS certificates using OpenSSL, including a root CA certificate and node certificates, and storing them in a Vault server. These certificates enable secure communication and authentication between servers and clients in a system.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_orion-0.14.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/certs-ambassador-quorum-0.14.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    node_key_mgmt-0.14.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    node_key_mgmt-0.14.0
-                </span>
-            </td>
-            <td>
-                A Helm chart to perform node key generation
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_key_mgmt-0.14.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    node_besu-0.14.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    node_besu-0.14.0
-                </span>
-            </td>
-            <td>
-                A Helm chart to deploy Hyperledger Besu nodes
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_besu-0.14.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    generate_ambassador_certs-0.14.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    generate_ambassador_certs-0.14.0
-                </span>
-            </td>
-            <td>
-                A Helm3 chart for generating ambassador certificates
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/generate_ambassador_certs-0.14.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    besu_connector-0.14.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    besu_connector-0.14.0
-                </span>
-            </td>
-            <td>
-                A Helm chart for Cactus Besu Connector
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/besu_connector-0.14.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-06-01 19:15:32 +0000 UTC
+        Created At 2023-06-13 03:30:02 +0000 UTC
     </span>
 </div>
 
