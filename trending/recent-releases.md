@@ -1,13 +1,13 @@
 
-[v1.2.15](https://github.com/hyperledger/firefly-common/releases/tag/v1.2.15) v1.2.15
+[certs-ambassador-quorum-0.14.0](https://github.com/hyperledger/bevel/releases/tag/certs-ambassador-quorum-0.14.0) certs-ambassador-quorum-0.14.0
 
-[0.8.2-rc0](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.8.2-rc0) 0.8.2-rc0
+[node_quorum_validator-0.14.0](https://github.com/hyperledger/bevel/releases/tag/node_quorum_validator-0.14.0) node_quorum_validator-0.14.0
 
-[v1.2.14](https://github.com/hyperledger/firefly-common/releases/tag/v1.2.14) v1.2.14
+[node_quorum_member-0.14.0](https://github.com/hyperledger/bevel/releases/tag/node_quorum_member-0.14.0) node_quorum_member-0.14.0
 
-[1.0.0-rc2](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/1.0.0-rc2) 1.0.0-rc2
+[node_constellation-0.14.0](https://github.com/hyperledger/bevel/releases/tag/node_constellation-0.14.0) node_constellation-0.14.0
 
-[v0.4.0](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.4.0) v0.4.0
+[crypto_raft-0.14.0](https://github.com/hyperledger/bevel/releases/tag/crypto_raft-0.14.0) crypto_raft-0.14.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
