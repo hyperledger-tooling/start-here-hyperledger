@@ -15,6 +15,62 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
+                    tessera_key_mgmt-0.14.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    tessera_key_mgmt-0.14.1
+                </span>
+            </td>
+            <td>
+                A Helm3 chart for generating certificates and keys required by Tessera transaction manager
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/tessera_key_mgmt-0.14.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-06-13 08:42:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    node_tessera-0.14.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    node_tessera-0.14.1
+                </span>
+            </td>
+            <td>
+                A Helm chart to deploy Tessera transaction manager
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node_tessera-0.14.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-06-13 08:42:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     node_quorum_validator-0.14.0
                 </b>
             </td>
@@ -43,6 +99,34 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
+                    node_quorum_member-0.14.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    node_quorum_member-0.14.1
+                </span>
+            </td>
+            <td>
+                A Helm chart to deploy Quorum non-validator nodes.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node_quorum_member-0.14.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-06-13 08:42:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     node_quorum_member-0.14.0
                 </b>
             </td>
@@ -63,6 +147,34 @@ permalink: /releases/hyperledger/bevel
     </a>
     <span class="right-align">
         Created At 2023-06-13 03:30:02 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    node_quorum-0.14.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    node_quorum-0.14.1
+                </span>
+            </td>
+            <td>
+                A Helm chart to deploy Quorum nodes.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node_quorum-0.14.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-06-13 08:42:17 +0000 UTC
     </span>
 </div>
 
