@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1363" class=".btn">#1363</a>
+            </td>
+            <td>
+                <b>
+                    Update Address and Hash types to ink ABI v4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This slipped through integration tests because the frontends remain backwards compatibility. I added a test that would have caught it (based of it, more can be added in the future).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-13 08:33:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1362" class=".btn">#1362</a>
             </td>
             <td>

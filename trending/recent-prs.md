@@ -1,13 +1,13 @@
 
-[5588](https://github.com/hyperledger/besu/pull/5588) [CHANGELOG] moved 5131 to the right version section
+[5594](https://github.com/hyperledger/besu/pull/5594) Fix verification metadata for spotless task
 
-[5586](https://github.com/hyperledger/besu/pull/5586) [4844] Add dataGasUsed and excessDataGas to  Blockresult
+[3602](https://github.com/hyperledger/iroha/pull/3602) [fix] #3570: Correctly display client string query errors
 
-[5585](https://github.com/hyperledger/besu/pull/5585) Revert "Update Tuweni to 2.4.1 (#5513)"
+[5593](https://github.com/hyperledger/besu/pull/5593) Revert Console appender changes since it is managed programmatically
 
-[48](https://github.com/hyperledger/aries-protocol-test-suite/pull/48) Update README.md to indicate the Archived status of the Repo
+[5592](https://github.com/hyperledger/besu/pull/5592) update pipeline
 
-[3600](https://github.com/hyperledger/iroha/pull/3600) [fix] #3246: Don't involve observing peer without fault.
+[1363](https://github.com/hyperledger/solang/pull/1363) Update Address and Hash types to ink ABI v4
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
