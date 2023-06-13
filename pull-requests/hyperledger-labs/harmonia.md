@@ -256,29 +256,3 @@ Still to do
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Added architectural principles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-06 10:41:01 +0000 UTC
-    </div>
-</div>
-
