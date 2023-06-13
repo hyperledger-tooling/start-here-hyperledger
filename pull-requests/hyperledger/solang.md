@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1364" class=".btn">#1364</a>
+            </td>
+            <td>
+                <b>
+                    Fix codegen tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make the failing case less brittle
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-13 18:00:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1363" class=".btn">#1363</a>
             </td>
             <td>
@@ -117,32 +143,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2023-06-06 20:19:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1357" class=".btn">#1357</a>
-            </td>
-            <td>
-                <b>
-                    Use custom substrate CI image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use [a custom node](https://github.com/hyperledger/solang-substrate-ci) for the integration tests. This tests contains chain extension which I'll add integration tests for in a followup PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-06 17:51:35 +0000 UTC
     </div>
 </div>
 
