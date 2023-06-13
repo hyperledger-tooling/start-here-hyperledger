@@ -152,33 +152,3 @@ The fix originally discussed in #2259 is too aggressive and after reviewing the 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2255" class=".btn">#2255</a>
-            </td>
-            <td>
-                <b>
-                    Resolve definitions.py fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Include searching by the module base package when resolving plugin definitions location.
-
-Fixes #2224 
-
-This still depends on the module package names and file system paths matching up, which is not guaranteed. But without adding additional configuration in the plugin registry, I think this is all we can do.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 22:56:19 +0000 UTC
-    </div>
-</div>
-
