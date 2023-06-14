@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5600" class=".btn">#5600</a>
+            </td>
+            <td>
+                <b>
+                    metrics - migrate tests from Junit4 to Junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+metrics Tests
+Added dependency for junit.jupiter (junit5) and Removed dependency on junit 4
+Migrated test from junit4 to junit5
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5562
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 17:26:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5598" class=".btn">#5598</a>
             </td>
             <td>
@@ -675,74 +707,6 @@ java.lang.IllegalStateException: No hardfork found for predicate org.hyperledger
     </table>
     <div class="right-align">
         Created At 2023-06-08 05:35:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5542" class=".btn">#5542</a>
-            </td>
-            <td>
-                <b>
-                    Improve log of p2p messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-For most p2p messages the `toString` was not implemented, and that made it harder to trace exchanged messages. This PR implements a base `toString` that prints the raw data, and if implemented in the sub class also the decoded format of the data.
-
-Since message data could be quite large, the log system is configured to easily change the max amount of data written, according to the user needs, by default 1000 chars are written for raw data and decoded data.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-07 17:55:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5540" class=".btn">#5540</a>
-            </td>
-            <td>
-                <b>
-                    Remove deprecated Rinkeby network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Rinkeby has been [deprecated for removal](https://blog.ethereum.org/2022/06/21/testnet-deprecation) since last year and from June 1st it has been shutdown
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-07 12:31:56 +0000 UTC
     </div>
 </div>
 

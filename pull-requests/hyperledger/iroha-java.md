@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/339" class=".btn">#339</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/340" class=".btn">#340</a>
             </td>
             <td>
                 <b>
-                    feature (issue 268): fixed deserializer test
+                    Update to rc16
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                fixed deserializer test
-deserializers refactoring
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 05:59:19 +0000 UTC
+        Created At 2023-06-14 14:57:34 +0000 UTC
     </div>
 </div>
 

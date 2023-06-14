@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/401" class=".btn">#401</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/403" class=".btn">#403</a>
             </td>
             <td>
                 <b>
-                    Using the CLI provided gRPC configurations when starting the chaincode
+                    Avoid calling non-existent grpc-js duplex stream cancel() function
                 </b>
             </td>
         </tr>
@@ -27,15 +27,40 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                in external mode (#318)
-
-When utilizing the chaincode as a service, it is possible to pass some gRPC options as an argument, such as grpc.max_send_message_length. However, these server options were not utilized when declaring the server.
-Resolves #318
+                Closes #398
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 14:31:11 +0000 UTC
+        Created At 2023-06-14 17:26:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/402" class=".btn">#402</a>
+            </td>
+            <td>
+                <b>
+                    Release v2.5.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modify `updateversions.sh` script so that it runs on default MacOS bash version.
+
+Closes #397
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 15:47:21 +0000 UTC
     </div>
 </div>
 

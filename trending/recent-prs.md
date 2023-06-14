@@ -1,13 +1,13 @@
 
-[5598](https://github.com/hyperledger/besu/pull/5598) EnclaveFactoryTest - migrate tests from Junit4 to Junit5
+[5600](https://github.com/hyperledger/besu/pull/5600) metrics - migrate tests from Junit4 to Junit5
 
-[28](https://github.com/hyperledger-labs/harmonia/pull/28) EVM and Blockheader signature verification
+[403](https://github.com/hyperledger/fabric-chaincode-node/pull/403) Avoid calling non-existent grpc-js duplex stream cancel() function
 
-[27](https://github.com/hyperledger-labs/harmonia/pull/27) Fixed a typo and removed empty README.md
+[402](https://github.com/hyperledger/fabric-chaincode-node/pull/402) Release v2.5.4
 
-[26](https://github.com/hyperledger-labs/harmonia/pull/26) Added placeholder text and link to the Corda readme
+[31](https://github.com/hyperledger-labs/harmonia/pull/31) Minor edits
 
-[13](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/13) Removed IBP references from roles
+[3600](https://github.com/hyperledger/aries-framework-go/pull/3600) feat: add JWT Explicit typing basic support
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

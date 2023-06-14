@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3609" class=".btn">#3609</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3063: Map transaction hash to block height in wsv
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Store block height to which transaction belong.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3063 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Don't need to scan whole blockchain for single transaction.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 14:33:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3608" class=".btn">#3608</a>
             </td>
             <td>
@@ -508,54 +571,6 @@ We can automatise Docker Compose configurations generation and avoid problems wi
     </table>
     <div class="right-align">
         Created At 2023-06-08 00:25:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3575" class=".btn">#3575</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #3562: Fix PR-generator Jenkinsfile & Add Coverall badge & Set up JDK 11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-1. Change `README.MD` badge from `Codecov` to `Coveralls` tool.
-2. Update PR-generator `Jenkinsfile`.
-3. Add `docker.soramitsu.co.jp/iroha2/iroha2:dev-${{ github.event.pull_request.head.sha }}` iroha2 image tag to push to Soramitsu registry for PR-generator.
-4. Add JDK distribution to `Set up JDK 11` step into `java-api` job inside `I2::Release::Tests` workflow.
-
-### Linked issue
-1. We don't have `Coveralls` coverage tool badge.
-2. PR-generator deployment hasn't bee finished.
-3. #3562 
-
-### Benefits
-1. `Coveralls` badge.
-2. PR-generator should work after merging the corresponding PR with Jenkins library (I'LL NOTIFY WHEN IT WILL BE ABLE TO BE TESTED)!
-3. Fix JDK 11 Set up in the `Release-PR` workflow.
-
-### Checklist
-
-- [X] Done the work
-- [X] CI checks pass
-- [X] Commits are good
-- [ ] Addressed comments
-- [ ] Tested badge as UI element. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-07 14:13:16 +0000 UTC
     </div>
 </div>
 
