@@ -15,6 +15,62 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
+                    quorum_tessera_key_mgmt-0.14.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    quorum_tessera_key_mgmt-0.14.1
+                </span>
+            </td>
+            <td>
+                A Helm3 chart for generating certificates and keys required by Tessera transaction manager
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/quorum_tessera_key_mgmt-0.14.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-06-14 10:57:39 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    quorum_node_tessera-0.14.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    quorum_node_tessera-0.14.1
+                </span>
+            </td>
+            <td>
+                A Helm chart to deploy Tessera transaction manager
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/quorum_node_tessera-0.14.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-06-14 10:57:39 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     tessera_key_mgmt-0.14.1
                 </b>
             </td>
