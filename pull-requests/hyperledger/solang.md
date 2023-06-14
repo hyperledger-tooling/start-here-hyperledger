@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1365" class=".btn">#1365</a>
+            </td>
+            <td>
+                <b>
+                    `wasm-opt` for Substrate 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-13 21:16:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1364" class=".btn">#1364</a>
             </td>
             <td>
@@ -117,32 +143,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2023-06-07 18:44:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1358" class=".btn">#1358</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: Add an integration test for chain extensions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-06 20:19:09 +0000 UTC
     </div>
 </div>
 
