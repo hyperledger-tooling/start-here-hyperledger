@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2265" class=".btn">#2265</a>
+            </td>
+            <td>
+                <b>
+                    Allow awaiting in verification key strategy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR #2235 has just been merged, but I realized that having a non-async function could be too restrictive. For example, accessing storage with the current function's signature is hard. 
+
+This PR fixes this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 14:08:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2263" class=".btn">#2263</a>
             </td>
             <td>

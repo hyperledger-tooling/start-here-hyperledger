@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    EVM and Blockheader signature verification
+                    Minor edits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Correct a typo in one file, remove two currently unused files
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 15:06:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    Added links to the proof verification code
                 </b>
             </td>
         </tr>
@@ -32,7 +58,33 @@ permalink: /pull-requests/hyperledger-labs/harmonia
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-14 12:07:07 +0000 UTC
+        Created At 2023-06-14 13:59:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    EVM proof and block header signature verification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 12:44:08 +0000 UTC
     </div>
 </div>
 
@@ -59,32 +111,6 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     </table>
     <div class="right-align">
         Created At 2023-06-14 11:22:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    Added placeholder text and link to the Corda readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 11:07:35 +0000 UTC
     </div>
 </div>
 

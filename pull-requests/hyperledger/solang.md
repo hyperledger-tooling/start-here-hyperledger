@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                `wasm-opt` brings some great optimizations and we should use it (`cargo contract` uses it for ink contracts). For example, the Wasm blob of our flipper example (compile `--release`) goes down from 2.2kb to 1.2kb. 
             </td>
         </tr>
     </table>
