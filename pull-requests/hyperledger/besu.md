@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5598" class=".btn">#5598</a>
+            </td>
+            <td>
+                <b>
+                    EnclaveFactoryTest - migrate tests from Junit4 to Junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+EnclaveFactoryTest
+
+Added dependency for junit.jupiter (junit5)
+Removed dependency on junit 4
+Migrated test from junit4 to junit5
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5566
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 12:27:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5594" class=".btn">#5594</a>
             </td>
             <td>
