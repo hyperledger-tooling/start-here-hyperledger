@@ -97,30 +97,3 @@ I modify this line for making it use the same judgment logic as the function add
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1052" class=".btn">#1052</a>
-            </td>
-            <td>
-                <b>
-                    test-network-nano-bash chaincode id and waitForEvent improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Use calculatepackageid to set CHAINCODE_ID
-- Use waitForEvent to wait for commit event intead of 2s sleep
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-07 20:57:33 +0000 UTC
-    </div>
-</div>
-
