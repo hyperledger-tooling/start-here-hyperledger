@@ -1,13 +1,13 @@
 
-[32](https://github.com/hyperledger-labs/harmonia/pull/32) Updated interop principles
+[5607](https://github.com/hyperledger/besu/pull/5607) Removed GoQuorum permissioning interop
 
-[3610](https://github.com/hyperledger/iroha/pull/3610) [fix] #3473: Make `kagami validator` runnable from outside `iroha` dir
+[4285](https://github.com/hyperledger/fabric/pull/4285) BFT Block Puller: draft
 
-[5605](https://github.com/hyperledger/besu/pull/5605) [4844] Add VersionedHashes to TransactionCompleteResult
+[5606](https://github.com/hyperledger/besu/pull/5606) Option to disable txpool
 
-[5603](https://github.com/hyperledger/besu/pull/5603) [4844] Increase blob sidecar size
+[15](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/15) Deibm doc roles 2
 
-[411](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/411) fixed AssetTransferResponderRole receive Type in AssetTransferFlows
+[2269](https://github.com/hyperledger/aries-cloudagent-python/pull/2269) Fix: Do not replace public verkey on mediator
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

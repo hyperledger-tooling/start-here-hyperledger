@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4285" class=".btn">#4285</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: draft
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- New feature
+
+#### Description
+
+TBD
+
+#### Related issues
+
+TBD
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-15 15:26:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4283" class=".btn">#4283</a>
             </td>
             <td>
