@@ -115,38 +115,3 @@ Added content to the oauth readme
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/492" class=".btn">#492</a>
-            </td>
-            <td>
-                <b>
-                    Redact tlsca secrets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-- remove the tlsca datasource line from api output to protect sensitive values
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 18:18:36 +0000 UTC
-    </div>
-</div>
-

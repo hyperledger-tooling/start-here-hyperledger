@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5607" class=".btn">#5607</a>
+            </td>
+            <td>
+                <b>
+                    Removed GoQuorum permissioning interop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Removed GoQuorum permissioning from Besu
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5459
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-15 16:55:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5606" class=".btn">#5606</a>
+            </td>
+            <td>
+                <b>
+                    Option to disable txpool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-15 15:25:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5605" class=".btn">#5605</a>
             </td>
             <td>
@@ -603,68 +666,6 @@ Fix spotless
     </table>
     <div class="right-align">
         Created At 2023-06-08 18:18:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5551" class=".btn">#5551</a>
-            </td>
-            <td>
-                <b>
-                    Fix blob encoding/decoding for network issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix encoding/decoding issues with Blob Transactions for network
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 18:00:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5550" class=".btn">#5550</a>
-            </td>
-            <td>
-                <b>
-                    Renumber EOF and Transient storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-As per a recent ACD, the opcode numbers for EOF and Transient Storage have been updated.  Update the code and test cases for the new numbers.
-
-Updated list https://hackmd.io/@shemnon/CancunOpcodeAllocation
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 14:43:11 +0000 UTC
     </div>
 </div>
 

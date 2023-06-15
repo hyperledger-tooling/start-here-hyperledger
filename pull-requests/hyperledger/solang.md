@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Presently, we can declare an account on a Solana constructor using the `@payer(my_account)` annotation, while `@seed(my_seed)` refers to a constructor parameter. Such a construction is confusing for the same syntax have two different meanings.
+
+This PR limits the scope of annotation above a constructor to accept only literals as parameters (e.g. `@seed("pine_tree")`). Annotations that refer to function parameters must appear before them: `constructor (@seed bytes arg1)`. This is another in #1251.
             </td>
         </tr>
     </table>

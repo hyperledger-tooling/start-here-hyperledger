@@ -69,30 +69,3 @@ https://www.rfc-editor.org/rfc/rfc8725.html#section-3.11
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3598" class=".btn">#3598</a>
-            </td>
-            <td>
-                <b>
-                    refactor: cleanup messy code in pEx implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - pEx implementation no longer needs to replace Credential ID temporarily
-- assorted cleanup
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 13:47:37 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2269" class=".btn">#2269</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Do not replace public verkey on mediator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes a case when public verkey of the mediated agent is removed from the keylists of its mediator during establishing a connection.
+
+Assuming there is mediation established for an agent.
+If the DID was promoted to public via POST /wallet/did/public?did={}&mediation_id={non_empty_id} then an ATTRIB 'endpoint' transaction was created on the ledger with the url pointing to the mediator and the respective routing_keys.
+
+Next, the Inviter creates an invitation using the public=true (or use_public_did: true) flag, the communication of the Inviter goes through the mediator as it should. Then in the Inviter's accept-request phase, the public verkey is removed from the keylist of the mediator. 
+That prevents any next attempts to answer to the Inviter's invitations with its public DID since the mediator does no longer have the routing key (verkey) associated to the public DID.
+
+In conclusion, the public verkey must remain in the mediator as the routing key.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-15 14:11:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2268" class=".btn">#2268</a>
             </td>
             <td>
@@ -83,7 +117,7 @@ See Issue #2251 - this is only one small part of developer documentation. I want
                 
             </td>
             <td>
-                PR #2235 has just been merged, but I realized that not having access to `Profile` could be too restrictive. For example, accessing storage with the current function's signature is hard. 
+                PR #2235 has just been merged, but I realized that not having access to `Profile` could be too restrictive. For example, accessing storage with the current function's signature is hard. In fact, I thought that custom strategies could be initialized with an `InjectionContext` and query what they need, but it doesn't seem to be working. Let me know if there is a more idiomatic way of doing this.
 
 This PR fixes this by providing an optional `Profile` and switching to an `async` method.
             </td>
@@ -206,33 +240,6 @@ The fix originally discussed in #2259 is too aggressive and after reviewing the 
     </table>
     <div class="right-align">
         Created At 2023-06-08 18:24:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2258" class=".btn">#2258</a>
-            </td>
-            <td>
-                <b>
-                    Updating Maintainers list to be accurate and using the TOC format
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 17:14:56 +0000 UTC
     </div>
 </div>
 
