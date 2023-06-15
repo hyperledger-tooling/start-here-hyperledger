@@ -74,7 +74,7 @@ See Issue #2251 - this is only one small part of developer documentation. I want
             </td>
             <td>
                 <b>
-                    Allow awaiting in verification key strategy
+                    Provide an optional `Profile` to the verification key strategy
                 </b>
             </td>
         </tr>
@@ -83,9 +83,9 @@ See Issue #2251 - this is only one small part of developer documentation. I want
                 
             </td>
             <td>
-                PR #2235 has just been merged, but I realized that having a non-async function could be too restrictive. For example, accessing storage with the current function's signature is hard. 
+                PR #2235 has just been merged, but I realized that not having access to `Profile` could be too restrictive. For example, accessing storage with the current function's signature is hard. 
 
-This PR fixes this.
+This PR fixes this by providing an optional `Profile` and switching to an `async` method.
             </td>
         </tr>
     </table>

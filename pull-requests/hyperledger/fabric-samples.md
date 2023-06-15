@@ -63,37 +63,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1053" class=".btn">#1053</a>
-            </td>
-            <td>
-                <b>
-                    Update token_contract.go, modify the overflow judgment condition for function sub().
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The general overflow judgment condition for function sub is not in every case.
-The judgment result is wrong in the condition of b < 0 && q >=0
-for example, b = -3, q = 2, diff = -5, it's not overflow,
-but if (diff > b) == (b >= 0 && q >= 0) wil be true.
-
-for another example, b = -3, q = maxint, b-q is overflow,
-but if (diff > b) == (b >= 0 && q >= 0) wil be false.
-
-I modify this line for making it use the same judgment logic as the function add().
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 07:46:26 +0000 UTC
-    </div>
-</div>
-

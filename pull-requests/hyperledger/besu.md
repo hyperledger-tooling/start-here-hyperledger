@@ -668,38 +668,3 @@ Updated list https://hackmd.io/@shemnon/CancunOpcodeAllocation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5548" class=".btn">#5548</a>
-            </td>
-            <td>
-                <b>
-                    Fix graphql storageAt for bonsai
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR adds a check to the AccountAdapter used by the graphQL suite to ensure that if the account is a bonsaiAccount we open a new snapshot to retrieve the storage slot requested.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #5524
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 07:00:37 +0000 UTC
-    </div>
-</div>
-
