@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2268" class=".btn">#2268</a>
+            </td>
+            <td>
+                <b>
+                    Create .readthedocs.yaml file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add readthedocs YAML file as required by RTD.  Per this [blog post](https://blog.readthedocs.com/migrate-configuration-v2/), this file is now required for publishing the type of documentation we generate to the RTD sites. For those not aware, here is the link to the RTD site for ACA-Py -- https://aries-cloud-agent-python.readthedocs.io
+
+Here is the link to the version of the docs generated from this branch with this new file: https://aries-cloud-agent-python.readthedocs.io/en/swcurran-add-rtd/. LGTM!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 23:43:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2267" class=".btn">#2267</a>
+            </td>
+            <td>
+                <b>
+                    Add devcontainer for ACA-Py
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addressing an issue where it is difficult to get set up to debug and begin coding by adding a devcontainer.
+
+See Issue #2251 - this is only one small part of developer documentation. I wanted this out for feedback while we identify other areas of concern.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-14 23:36:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2265" class=".btn">#2265</a>
             </td>
             <td>

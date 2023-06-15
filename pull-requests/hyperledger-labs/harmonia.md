@@ -516,29 +516,3 @@ Still to do
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Create cross_chain_proofs.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Still need to clean up some language usage and thoughts, but perhaps good enough for a first draft?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-07 19:10:21 +0000 UTC
-    </div>
-</div>
-
