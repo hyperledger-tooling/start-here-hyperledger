@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5605" class=".btn">#5605</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Add VersionedHashes to TransactionCompleteResult
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                5604-add-VersionedHashes-transaction-result
+## PR description
+
+## Fixed Issue(s)
+fixes #5604 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-15 05:59:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5603" class=".btn">#5603</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Increase blob sidecar size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Increase blob sidecar size
+## PR description
+
+## Fixed Issue(s)
+fixes #5590 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-15 05:02:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5601" class=".btn">#5601</a>
             </td>
             <td>
@@ -640,99 +700,6 @@ Fixes #5524
     </table>
     <div class="right-align">
         Created At 2023-06-08 07:00:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5547" class=".btn">#5547</a>
-            </td>
-            <td>
-                <b>
-                    Make the return of hardforkfor optional
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Make the return of hardforkfor optional.
-
-For the EngineGetPayloadV3, when Shanghai and Cancun had the same milestone, an exception was 
-
-```
-java.lang.IllegalStateException: No hardfork found for predicate org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.engine.EngineGetPayloadV3$$Lambda$840/0x00000008010a4838@237b2852
-	at org.hyperledger.besu.ethereum.mainnet.DefaultProtocolSchedule.lambda$hardforkFor$4(DefaultProtocolSchedule.java:132)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-	at org.hyperledger.besu.ethereum.mainnet.DefaultProtocolSchedule.hardforkFor(DefaultProtocolSchedule.java:131)
-	at org.hyperledger.besu.consensus.merge.TransitionProtocolSchedule.lambda$hardforkFor$3(TransitionProtocolSchedule.java:210)
-	at org.hyperledger.besu.consensus.merge.TransitionUtils.dispatchFunctionAccordingToMergeState(TransitionUtils.java:75)
-	at org.hyperledger.besu.consensus.merge.TransitionProtocolSchedule.hardforkFor(TransitionProtocolSchedule.java:209)
-	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.engine.EngineGetPayloadV3.<init>(EngineGetPayloadV3.java:55)
-	at org.hyperledger.besu.ethereum.api.jsonrpc.methods.ExecutionEngineJsonRpcMethods.create(ExecutionEngineJsonRpcMethods.java:157)
-	at org.hyperledger.besu.ethereum.api.jsonrpc.methods.ApiGroupJsonRpcMethods.create(ApiGroupJsonRpcMethods.java:30)
-	at org.hyperledger.besu.ethereum.api.jsonrpc.methods.JsonRpcMethodsFactory.methods(JsonRpcMethodsFactory.java:144)
-	at org.hyperledger.besu.RunnerBuilder.jsonRpcMethods(RunnerBuilder.java:1201)
-	at org.hyperledger.besu.RunnerBuilder.build(RunnerBuilder.java:831)
-	at org.hyperledger.besu.cli.BesuCommand.synchronize(BesuCommand.java:3086)
-	at org.hyperledger.besu.cli.BesuCommand.buildRunner(BesuCommand.java:1725)
-	at org.hyperledger.besu.cli.BesuCommand.run(BesuCommand.java:1560)
-	at picocli.CommandLine.executeUserObject(CommandLine.java:2026)
-	at picocli.CommandLine.access$1500(CommandLine.java:148)
-	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
-	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
-	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
-	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
-	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
-	at picocli.CommandLine.execute(CommandLine.java:2170)
-	at org.hyperledger.besu.cli.util.ConfigOptionSearchAndRunHandler.handle(ConfigOptionSearchAndRunHandler.java:62)
-	at org.hyperledger.besu.cli.util.ConfigOptionSearchAndRunHandler.handle(ConfigOptionSearchAndRunHandler.java:33)
-	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
-	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
-	at picocli.CommandLine.execute(CommandLine.java:2170)
-	at org.hyperledger.besu.cli.BesuCommand.parse(BesuCommand.java:1717)
-	at org.hyperledger.besu.cli.BesuCommand.parse(BesuCommand.java:1512)
-	at org.hyperledger.besu.Besu.main(Besu.java:39)
-```
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 06:07:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5546" class=".btn">#5546</a>
-            </td>
-            <td>
-                <b>
-                    validate versioned hashes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                compare versioned hashes passed in with those from blob tx
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 05:35:01 +0000 UTC
     </div>
 </div>
 

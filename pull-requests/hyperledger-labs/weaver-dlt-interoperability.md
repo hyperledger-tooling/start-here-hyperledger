@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/408" class=".btn">#408</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/411" class=".btn">#411</a>
             </td>
             <td>
                 <b>
-                    fix(corda-at): interoppayload parse bug
+                    fixed AssetTransferResponderRole receive Type in AssetTransferFlows
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Closes #407 
+                as per https://github.com/hyperledger-labs/weaver-dlt-interoperability/issues/410
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-29 16:37:29 +0000 UTC
+        Created At 2023-06-15 01:45:16 +0000 UTC
     </div>
 </div>
 
