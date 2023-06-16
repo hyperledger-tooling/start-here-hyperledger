@@ -14,6 +14,125 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5611" class=".btn">#5611</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that blobs, proofs and  commitments have the same number of elements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Ensure blobs proofs commitments have the same size
+
+## Fixed Issue(s)
+fixes #5488 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 05:51:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5610" class=".btn">#5610</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Add toString to VersionedHash
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add toString to VersionedHash and set it to be the JsonValue of the VersionedHash object
+
+Actual: 
+```
+{
+...
+  blobVersionedHashes: [{
+      versionId: 1
+  }, {
+      versionId: 1
+  }, {
+      versionId: 1
+  }, {
+      versionId: 1
+  }, {
+      versionId: 1
+  }, {
+      versionId: 1
+  }],
+ ...
+}
+```
+Expected:
+
+```
+{
+...
+  blobVersionedHashes: ["0x01a8a4a49dcd1b91c376c87d7d6a6e73ee3792205864bf61781e8e3ad19d0092", 
+"0x01069693395fb9a698b257e6c25380f32393bc0cf17a290f9e7fcea3c4ae7b8b", 
+"0x01111dafbfcc0caa0803fc22f697fd3b9171252504e14ec0443f04a2b3288715", 
+"0x01d1dfff9c15b3201980d8f9b958a8ade73e3e1e0ca76c54785a33e09519be7a", 
+"0x01a7b4b55dd68d59685abcd629708c5de44c8e9edf3671602538eba23375893c", 
+"0x013586020d67ab6808e681c2e6a2d1e854c84e5bc49df2ed34e218eace844f8b"],
+...
+}
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 03:58:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5609" class=".btn">#5609</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 23.4.3-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare for version 23.4.3-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 01:31:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5608" class=".btn">#5608</a>
             </td>
             <td>
@@ -553,88 +672,6 @@ Mostly parameterized test and mockito support changes.
     </table>
     <div class="right-align">
         Created At 2023-06-09 17:28:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5573" class=".btn">#5573</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] errorprone-checks - migrate to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #5565 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-09 05:21:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5572" class=".btn">#5572</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Datatypes - junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #5567 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-09 04:44:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5554" class=".btn">#5554</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Add dataGasUsed and dataGasPrice to receipts for 4844 txs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-[4844] Add dataGasUsed and dataGasPrice to receipts for 4844 txs
-
-## Fixed Issue(s)
-#5489
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-09 03:30:12 +0000 UTC
     </div>
 </div>
 
