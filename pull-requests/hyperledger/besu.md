@@ -706,39 +706,3 @@ Fixes https://github.com/hyperledger/besu/issues/5583
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5575" class=".btn">#5575</a>
-            </td>
-            <td>
-                <b>
-                    Migrate EVM module to JUnit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Migrate EVM module tests to JUnit 5.
-Mostly parameterized test and mockito support changes.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-09 17:28:56 +0000 UTC
-    </div>
-</div>
-
