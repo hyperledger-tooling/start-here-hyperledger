@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1368" class=".btn">#1368</a>
+            </td>
+            <td>
+                <b>
+                    salt is of type bytes32
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                solang mistakenly uses `uint256` as the type for the salt argument. Change this to `bytes32` to be compatible with solc.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 15:35:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1366" class=".btn">#1366</a>
             </td>
             <td>
