@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5608" class=".btn">#5608</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.4.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 23.4.2
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 01:00:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5607" class=".btn">#5607</a>
             </td>
             <td>
@@ -70,36 +96,6 @@ https://github.com/hyperledger/besu/issues/5459
     </table>
     <div class="right-align">
         Created At 2023-06-15 15:25:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5605" class=".btn">#5605</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Add VersionedHashes to TransactionCompleteResult
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                5604-add-VersionedHashes-transaction-result
-## PR description
-
-## Fixed Issue(s)
-fixes #5604 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-15 05:59:50 +0000 UTC
     </div>
 </div>
 
@@ -639,33 +635,6 @@ Mostly parameterized test and mockito support changes.
     </table>
     <div class="right-align">
         Created At 2023-06-09 03:30:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5552" class=".btn">#5552</a>
-            </td>
-            <td>
-                <b>
-                    fix spotless
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix spotless
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 18:18:28 +0000 UTC
     </div>
 </div>
 
