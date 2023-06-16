@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5613" class=".btn">#5613</a>
+            </td>
+            <td>
+                <b>
+                    services - migrate to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #5558 
+fixes #5557
+Also pulled in some plugins tests, that extended testutil AbstractKeyValueStorageTest
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 10:17:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5612" class=".btn">#5612</a>
+            </td>
+            <td>
+                <b>
+                    Add lock to creation of pending transaction stream
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR does 2 things:
+
+1. Takes a lock on `pendingTransactions` when creating a stream of the transactions
+2. Creates a copy of the current transactions when creating the stream, rather than streaming the original list
+
+I have tested the changes with a cut down version `PendingTransactionsForSender` class. There are a couple of points to note for the PR reviewer:
+
+1. I don't know this area of the code well enough to know if there is likely to be a noticeable performance impact of this change. However, without it (or some alternative fix) we'll continue to see `ConcurrentModificationException` be thrown.
+2. `List.copyOf` will throw a `ConcurrentModificationException` if the underlying list is changed during the call. Currently `PendingTransactionsForSender.getPendingTransactions(...)` uses that call as well, but without taking a lock on the list. I think this call could fail in the same way and I'm happy to make that change in this PR but would appreciate feedback from the reviewer first.
+3. The code path that hit the issue was ultimately down to `AbstractPendingTransactionsSorter.signalInvalidAndRemoveDependentTransactions` being called which wasn't expected for the test I was running. However, the reason for the transaction and its dependent transactions being considered invalid is only logged out if trace is enabled. I wonder if this happens so often that logging it out as a `debug` message instead would be too noisy?
+
+## Fixed Issue(s)
+fixes https://github.com/hyperledger/besu/issues/5597
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 09:07:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5611" class=".btn">#5611</a>
             </td>
             <td>
