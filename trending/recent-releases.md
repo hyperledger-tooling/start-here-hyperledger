@@ -1,5 +1,5 @@
 
-[commit_chaincode-0.14.1](https://github.com/hyperledger/bevel/releases/tag/commit_chaincode-0.14.1) commit_chaincode-0.14.1
+[v1.2.16](https://github.com/hyperledger/firefly-common/releases/tag/v1.2.16) v1.2.16
 
 [catools-0.14.1](https://github.com/hyperledger/bevel/releases/tag/catools-0.14.1) catools-0.14.1
 
