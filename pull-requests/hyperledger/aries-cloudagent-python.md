@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2272" class=".btn">#2272</a>
+            </td>
+            <td>
+                <b>
+                    Minor revisions to the README.md and DevReadMe.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 19:22:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2269" class=".btn">#2269</a>
             </td>
             <td>
@@ -125,33 +152,6 @@ This PR fixes this by providing an optional `Profile` and switching to an `async
     </table>
     <div class="right-align">
         Created At 2023-06-14 14:08:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2263" class=".btn">#2263</a>
-            </td>
-            <td>
-                <b>
-                    Propose adding Jason Sherman usingtechnology as a Maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-09 22:37:47 +0000 UTC
     </div>
 </div>
 

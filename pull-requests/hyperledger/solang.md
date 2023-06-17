@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1370" class=".btn">#1370</a>
+            </td>
+            <td>
+                <b>
+                    Remove unnecessary code from lexer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The function `Lexer::next` has a `Result` as its returned type, but we never return `Err()`. This PR removes this unnecessary usage of `Result`.
+
+I found this while creating a new token for `@annotation`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 19:31:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1369" class=".btn">#1369</a>
+            </td>
+            <td>
+                <b>
+                    Allow returns values to be ignored in try catch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A try catch statement does not need to decode the return values if it is not interested.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 18:21:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1368" class=".btn">#1368</a>
             </td>
             <td>
