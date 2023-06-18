@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3619" class=".btn">#3619</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3318: Added block order index to rejected tx.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Adds an index on rejected transactions that is then used to revalidate in the same order as when the block was created.
+
+### Linked issue #3318
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-17 19:32:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3618" class=".btn">#3618</a>
             </td>
             <td>
