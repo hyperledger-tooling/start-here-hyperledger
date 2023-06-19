@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.5
+                    v1.2.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.5
+                    v1.2.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add /deactivatepool API for deleting listeners by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/136
+* Pass 409 Conflict back to FireFly Core by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/137
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.4...v1.2.5
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.5...v1.2.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-24 12:08:29 +0000 UTC
+        Created At 2023-06-19 15:06:17 +0000 UTC
     </span>
 </div>
 
