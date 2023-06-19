@@ -43,29 +43,3 @@ https://www.rfc-editor.org/rfc/rfc8725.html#section-3.11
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3599" class=".btn">#3599</a>
-            </td>
-            <td>
-                <b>
-                    chore: update to go 1.20
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-12 14:19:34 +0000 UTC
-    </div>
-</div>
-
