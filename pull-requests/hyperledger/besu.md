@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5618" class=".btn">#5618</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Check params earlier and move blob validation to a new method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Check the params earlier and move blob validation to a new method
+
+In case CL sends a payload with invalid blob params for a known header, we should return invalid. 
+
+Expected Behaviour: return invalid
+
+Actual Behaviour: Returns are valid because we have already seen that payload.
+
+This PR moves the validation earlier in the flow and encapsulates the validation login into a method for readability. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-19 04:13:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5617" class=".btn">#5617</a>
+            </td>
+            <td>
+                <b>
+                    Release without last flat dbpr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                reverting the flat db healing PR to see whether these changes caused the problems with the burn-in
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-19 03:55:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5613" class=".btn">#5613</a>
             </td>
             <td>
