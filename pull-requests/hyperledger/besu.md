@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5619" class=".btn">#5619</a>
+            </td>
+            <td>
+                <b>
+                    Reload flat db strategy on clear
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+During the snapsync we can have a nullpointer because of a clear we are doing when we are starting from scratch
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-19 08:56:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5618" class=".btn">#5618</a>
             </td>
             <td>
@@ -679,38 +714,6 @@ Reverting this library upgrade so that we can investigate further.
     </table>
     <div class="right-align">
         Created At 2023-06-13 02:56:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5584" class=".btn">#5584</a>
-            </td>
-            <td>
-                <b>
-                    Use the node's configuration to decide if adding a peer with DNS in the enode is allowed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Uses the node configuration to decide if `admin_addPeer()` should allow enodes with DNS in them. Previously this was hard coded to DNS-disabled.
-
-I had to flow the enode DNS configuration through from `RunnerBuilder` to the JSON RPC method factory so that AdminAddPeer` has access to it. It may be that this isn't necessary, but I couldn't see another way to do it.
-
-## Fixed Issue(s)
-Fixes https://github.com/hyperledger/besu/issues/5583
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-12 11:04:04 +0000 UTC
     </div>
 </div>
 

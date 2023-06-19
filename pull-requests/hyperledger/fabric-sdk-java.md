@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/281" class=".btn">#281</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/283" class=".btn">#283</a>
             </td>
             <td>
                 <b>
-                    Run scheduled build weekly instead of daily
+                    Update dependencies to address security vulnerabilities
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                - CVE-2023-32731
+- CVE-2022-45688
+- CVE-2023-2251
+- CVE-2022-1471
+- CVE-2022-3064
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 14:27:26 +0000 UTC
+        Created At 2023-06-19 11:47:19 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[5618](https://github.com/hyperledger/besu/pull/5618) [4844] Check params earlier and move blob validation to a new method
+[283](https://github.com/hyperledger/fabric-sdk-java/pull/283) Update dependencies to address security vulnerabilities
 
-[5617](https://github.com/hyperledger/besu/pull/5617) Release without last flat dbpr
+[16](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/16) Removed IBP references from modules' docs
 
-[3619](https://github.com/hyperledger/iroha/pull/3619) [fix] #3318: Added block order index to rejected tx.
+[4289](https://github.com/hyperledger/fabric/pull/4289) [WIP] BFT config doc
 
-[3618](https://github.com/hyperledger/iroha/pull/3618) [refactor]: strong type hash in Value
+[5619](https://github.com/hyperledger/besu/pull/5619) Reload flat db strategy on clear
 
-[3617](https://github.com/hyperledger/iroha/pull/3617) [feature] #3598: Permission token analysis (WASM side)
+[3621](https://github.com/hyperledger/iroha/pull/3621) [feature]  #3468: Lazy pagination
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
