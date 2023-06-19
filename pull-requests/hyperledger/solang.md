@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1374" class=".btn">#1374</a>
+            </td>
+            <td>
+                <b>
+                    Implicit accessor function should return struct members, not struct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If the acessor function returns a single struct, then the members should be returned. If any of those members are structs, then those members will remain structs.
+
+	contract C {
+		struct S { int a; bool b; }
+
+		S public s;
+
+		function foo() public {
+			(int a, bool b) = this.s();
+		}
+	}
+
+Also, the accesor function should be declared `external` and therefore not accessible as an internal function call.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-19 15:43:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1370" class=".btn">#1370</a>
             </td>
             <td>

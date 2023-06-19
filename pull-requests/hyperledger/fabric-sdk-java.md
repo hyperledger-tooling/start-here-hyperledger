@@ -27,11 +27,8 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                - CVE-2023-32731
-- CVE-2022-45688
-- CVE-2023-2251
+                - CVE-2022-45688
 - CVE-2022-1471
-- CVE-2022-3064
             </td>
         </tr>
     </table>
