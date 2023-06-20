@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/130" class=".btn">#130</a>
             </td>
             <td>
                 <b>
-                    Encourage projects to set annual goals
+                    June 22 2023 Agenda
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-08 23:36:59 +0000 UTC
+        Created At 2023-06-19 20:24:42 +0000 UTC
     </div>
 </div>
 
@@ -40,17 +40,43 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/124" class=".btn">#124</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/129" class=".btn">#129</a>
             </td>
             <td>
                 <b>
-                    On-demand trigger for reminders
+                    Create 2023-Q2-Hyperledger-Cello.md
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">quarterly-report</span>
+            </td>
+            <td>
+                Submit Cello's Q2 2023 Summary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-16 01:22:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/128" class=".btn">#128</a>
+            </td>
+            <td>
+                <b>
+                    Create 2023-Q2-Hyperledger-Sawtooth.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">quarterly-report</span>
             </td>
             <td>
                 <nil>
@@ -58,33 +84,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-08 22:32:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/123" class=".btn">#123</a>
-            </td>
-            <td>
-                <b>
-                    Annual review
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @hyperledger/toc : Opening a draft pull request so people can comment on the contents for the project annual review process.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-08 20:02:34 +0000 UTC
+        Created At 2023-06-14 14:47:07 +0000 UTC
     </div>
 </div>
 
