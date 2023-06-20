@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5621" class=".btn">#5621</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 23.4.4-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare for version 23.4.4-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 03:34:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5620" class=".btn">#5620</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.4.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 23.4.3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 03:13:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5619" class=".btn">#5619</a>
             </td>
             <td>
@@ -629,91 +681,6 @@ Increase blob throughput according to spec
     </table>
     <div class="right-align">
         Created At 2023-06-13 07:44:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5588" class=".btn">#5588</a>
-            </td>
-            <td>
-                <b>
-                    [CHANGELOG] moved 5131 to the right version section
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixing an issue reported here https://discord.com/channels/905194001349627914/938504958909747250/1117975723366436924
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-13 05:54:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5586" class=".btn">#5586</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Add dataGasUsed and excessDataGas to  Blockresult
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">4844</span>
-            </td>
-            <td>
-                ## PR description
-This PR adds dataGasUsed and excessDataGas to the BlockResult
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-13 03:52:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5585" class=".btn">#5585</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Update Tuweni to 2.4.1 (#5513)"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Besu nightly nodes showed threads blocked exceptions with DNS stack trace.
-
-Reverting this library upgrade so that we can investigate further.
-
-`
-"@timestamp":"2023-06-13T01:06:02,046","level":"WARN","thread":"vertx-blocked-thread-checker","class":"BlockedThreadChecker","message":"Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 15888080 ms, time limit is 2000 ms","throwable":" io.vertx.core.VertxException: Thread blocked\n\tat java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)\n\tat java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)\n\tat app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:88)\n\tat app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)\n\tat app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)\n\tat app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)\n\tat app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)\n\tat app//org.apache.tuweni.discovery.DNSTimerTask.run(DNSDaemon.kt:89)\n\tat app//org.apache.tuweni.discovery.DNSDaemon$$Lambda$1330/0x0000000801603c80.handle(Unknown Source)\n\tat app//io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:927)\n\tat app//io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:903)\n\tat app//io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)\n\tat app//io.vertx.core.impl.ContextBase.emit(ContextBase.java:239)\n\tat app//io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)\n\tat app//io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:921)\n\tat app//io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)\n\tat app//io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:159)\n\tat app//io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)\n\tat app//io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)\n\tat app//io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)\n\tat app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:406)\n\tat app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)\n\tat app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)\n\tat app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)\n\tat java.base@17.0.7/java.lang.Thread.run(Thread.java:833)\n"}
-`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-13 02:56:47 +0000 UTC
     </div>
 </div>
 
