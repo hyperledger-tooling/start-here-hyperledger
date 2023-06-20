@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2513" class=".btn">#2513</a>
+            </td>
+            <td>
+                <b>
+                    fix(dockerfile): changed the dockerfile to remove erroneous setup.py, to install all dependencies seperately.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes issue #2500 
+Changed the line 24 of the dockerfile, to remove the use of the erroneous setup.py to replace it with a full line of all the dependencies modeled from the same file. 
+
+@VRamakrishna Kindly check 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 14:36:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2512" class=".btn">#2512</a>
             </td>
             <td>
@@ -415,39 +444,6 @@ Closes: #2455
     </table>
     <div class="right-align">
         Created At 2023-06-14 06:58:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2453" class=".btn">#2453</a>
-            </td>
-            <td>
-                <b>
-                    feat(weaver): added multiple participants support for data sharing in…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                … corda
-
-    - refactor(weaver): add pledge verification in interop contract
-    - fix(corda-at): typo in ResponderRole for weaver asset transfer
-    - fix(ci): rename asset-transfer-fabric job to asset-transfer
-    - feat(weaver): add Consume command for external state
-    
-Closses #2447 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-13 14:39:39 +0000 UTC
     </div>
 </div>
 
