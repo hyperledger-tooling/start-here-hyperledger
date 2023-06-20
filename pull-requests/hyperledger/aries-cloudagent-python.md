@@ -30,6 +30,8 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 create/create-offer, send/send-offer now have replacement_id in the POST body to set the id
 
 Addresses #2218
+
+`replacement_id` for [RFC-0453](https://github.com/hyperledger/aries-rfcs/tree/main/features/0453-issue-credential-v2) was half implemented, just needed to expose it to the API for the issuer to set the value.
             </td>
         </tr>
     </table>

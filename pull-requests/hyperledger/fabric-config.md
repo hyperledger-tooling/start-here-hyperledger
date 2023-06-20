@@ -34,7 +34,7 @@ permalink: /pull-requests/hyperledger/fabric-config
 
 #### Description
 
-update fabric-proto-go dependency and expected errors in tests
+update fabric-proto-go dependency, go version, and expected errors in tests
 
 #### Related issues
 

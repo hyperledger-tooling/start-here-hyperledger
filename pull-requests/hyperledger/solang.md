@@ -94,6 +94,23 @@ I found this while creating a new token for `@annotation`.
             </td>
             <td>
                 A try catch statement does not need to decode the return values if it is not interested.
+
+```
+interface I {
+      function func()   externalpublic returns (int, bool);
+}
+
+contract C {
+     function test(I i) public {
+           try I.func() {
+           }
+           catch (bytes memory bs) { 
+           }
+     } 
+}
+```
+
+Here `func()` returns two values but the try statement does not use them at all. This means they do not have abi decoded either.
             </td>
         </tr>
     </table>
@@ -179,32 +196,6 @@ This PR limits the scope of annotation above a constructor to accept only litera
     </table>
     <div class="right-align">
         Created At 2023-06-13 21:16:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1364" class=".btn">#1364</a>
-            </td>
-            <td>
-                <b>
-                    Fix codegen tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Make the failing case less brittle
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-13 18:00:46 +0000 UTC
     </div>
 </div>
 
