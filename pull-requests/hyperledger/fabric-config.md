@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-config/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/fabric-config/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    Add MAINTAINERS.md file
+                    update fabric-proto-go dependency and tests
                 </b>
             </td>
         </tr>
@@ -27,14 +27,25 @@ permalink: /pull-requests/hyperledger/fabric-config
                 
             </td>
             <td>
-                Closes #51 
+                #### Type of change
 
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
+- Bug fix
+- Test update
+
+#### Description
+
+update fabric-proto-go dependency and expected errors in tests
+
+#### Related issues
+
+#54 
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-12 17:00:14 +0000 UTC
+        Created At 2023-06-14 11:26:20 +0000 UTC
     </div>
 </div>
 

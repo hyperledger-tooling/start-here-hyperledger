@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/693" class=".btn">#693</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/699" class=".btn">#699</a>
             </td>
             <td>
                 <b>
-                    Changes by create-pull-request action
+                    Fix acapy back channel builds.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                - Explicitly use python:3.7-slim-bullseye.  python:3.7-slim is now based on bookworm, and there are no Indy SDK packages for that release.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-07 03:04:03 +0000 UTC
+        Created At 2023-06-19 19:18:49 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/692" class=".btn">#692</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/695" class=".btn">#695</a>
             </td>
             <td>
                 <b>
-                    GENESIS_URL Support for Connectionless proof request on and external ledger
+                    ACA-Py Thread fix broke tests
                 </b>
             </td>
         </tr>
@@ -53,99 +53,48 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                This PR adds GENESIS_URL support to the test harness. You can now use GENESIS_URL instead of LEDGER_URL_CONFIG when running tests or starting agents as a service. There are currently no test run sets that use the GENESIS_URL. 
+                See ACA-Py issue [#2264](https://github.com/hyperledger/aries-cloudagent-python/issues/2264), issue [#2259](https://github.com/hyperledger/aries-cloudagent-python/issues/2259), PR [2261](https://github.com/hyperledger/aries-cloudagent-python/pull/2261)
 
-### Use Case
-The BC Wallet tests in Aries Mobile Test Harness uses AATH agents as a service to accomplish Issuer and Verifier roles with the wallet app tests. Some tests are using an issuer that is on the CANdy network. There was a need to a verifier to do a connectionless proof request with a credential from that issuer. The verifier agent needed to be started with the GENESIS_URL from the CANdy network, and the agent is started in read only mode since it does not need(could not get) write access to the ledger. If read only mode is set, then the ACA-Py agent does not register a did on the network.
+Tested using 3 different `acapy-main`:
 
-There is a new yaml file aries-backchannels/acapy/read_only_ledger_verifier_config.yaml that can be used if anyone wants to start an agent with read only ledger access and with all the auto responding turned on. 
+1. aries-cloudagent-python@main
+2. aries-cloudagent-python@88769c9a3e6044ca4b22f08d83520f1553c2f97e
+3. aries-cloudagent-python@0.8.2-rc0
 
-This allows us to do a command as follows to accomplish the use case. 
+Ran using `./manage runset acapy-aip10 -r`.
+
+aries-cloudagent-python@0.8.2-rc0 - all tests passed, others had failures:
 ```
-GENESIS_URL=https://whatever.genesis.url.you.want AGENT_CONFIG_FILE=/aries-backchannels/acapy/read_only_ledger_verifier_config.yaml ./manage start -b acapy-main
+Failing scenarios:
+  features/0036-issue-credential.feature:9  Issue a credential with the Holder beginning with a proposal
+  features/0036-issue-credential.feature:37  Issue a credential with the Holder beginning with a proposal with negotiation
+  features/0036-issue-credential.feature:66  Issue a credential with the Issuer beginning with an offer with negotiation
+  features/0037-present-proof.feature:19  Present Proof where the prover does not propose a presentation of the proof and is acknowledged -- @1.1
+  features/0037-present-proof.feature:20  Present Proof where the prover does not propose a presentation of the proof and is acknowledged -- @1.2
+  features/0037-present-proof.feature:55  Present Proof of specific types and proof is acknowledged with a Drivers License credential type -- @1.1
+  features/0037-present-proof.feature:56  Present Proof of specific types and proof is acknowledged with a Drivers License credential type -- @1.2
+  features/0037-present-proof.feature:74  Present Proof of specific types and proof is acknowledged with a Biological Indicators credential type -- @1.1
+  features/0037-present-proof.feature:91  Present Proof of specific types and proof is acknowledged with multiple credential types -- @1.1
+  features/0037-present-proof.feature:129  Present Proof where the prover has proposed the presentation of proof in response to a presentation request and is acknowledged -- @1.1
+  features/0037-present-proof.feature:130  Present Proof where the prover has proposed the presentation of proof in response to a presentation request and is acknowledged -- @1.2
+  features/0037-present-proof.feature:150  Present Proof where the prover has proposed the presentation of proof from a different credential in response to a presentation request and is acknowledged -- @1.1
+  features/0037-present-proof.feature:151  Present Proof where the prover has proposed the presentation of proof from a different credential in response to a presentation request and is acknowledged -- @1.2
+  features/0037-present-proof.feature:207  Present Proof where the prover starts with a proposal the presentation of proof and is acknowledged -- @1.1
+
+3 features passed, 2 failed, 9 skipped
+23 scenarios passed, 14 failed, 116 skipped
+193 steps passed, 14 failed, 1113 skipped, 0 undefined
+Took 13m32.559s
 ```
 
-### Other Enhancements
-To support the GENESIS_URL above I also refactored how environment variables were gathered and sent to the test containers. There is no longer multiple conditional calls to docker run based on what env vars are set. There is now one call. 
-
-The uniresolver was hardcoded to use the LEDGER_URL. It now will use the GENESIS_URL if it is set. 
-
-### Considerations
-
-- This works for the ACA-Py agent/backchannel. There may need to be work done in other backchannels if they wish to use the GENESIS_URL in their workflows. 
-
-- I tested this with a bunch of different run commands that are used in the interop regression tests. All seemed to be fine since they set the LEDGER_URL_CONFIG in the workflows. However, I did try a run command with no LEDGER_URL or GENESIS_URL. My expectation was that it would start a local ledger, then use that in the tests however there was an issue running a command like this, 
-```
-./manage run -d acapy-main -t @AcceptanceTest -t @AIP20 -t ~@wip -t @T004-RFC0211
-```
-The genesis transaction was setup and the agent started but would throw this error. 
-```
-2023-06-05 18:54:30,258 aries_cloudagent.commands.start ERROR Exception during startup:
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/site-packages/aries_cloudagent/commands/start.py", line 72, in init
-    await startup
-  File "/usr/local/lib/python3.7/site-packages/aries_cloudagent/commands/start.py", line 28, in start_app
-    await conductor.setup()
-  File "/usr/local/lib/python3.7/site-packages/aries_cloudagent/core/conductor.py", line 185, in setup
-    self.root_profile, self.setup_public_did and self.setup_public_did.did
-  File "/usr/local/lib/python3.7/site-packages/aries_cloudagent/config/ledger.py", line 136, in ledger_config
-    async with ledger:
-  File "/usr/local/lib/python3.7/site-packages/aries_cloudagent/ledger/indy.py", line 318, in __aenter__
-    await self.pool.context_open()
-  File "/usr/local/lib/python3.7/site-packages/aries_cloudagent/ledger/indy.py", line 239, in context_open
-    await self.open()
-  File "/usr/local/lib/python3.7/site-packages/aries_cloudagent/ledger/indy.py", line 204, in open
-    self.handle = await indy.pool.open_pool_ledger(self.name, pool_config)
-  File "/usr/local/lib/python3.7/site-packages/indy/pool.py", line 88, in open_pool_ledger
-    open_pool_ledger.cb)
-  File "/usr/local/lib/python3.7/asyncio/futures.py", line 263, in __await__
-    yield self  # This tells Task to wait for completion.
-  File "/usr/local/lib/python3.7/asyncio/tasks.py", line 318, in __wakeup
-    future.result()
-  File "/usr/local/lib/python3.7/asyncio/futures.py", line 176, in result
-    raise CancelledError
-concurrent.futures._base.CancelledError
-2023-06-05 18:54:30,267 aries_cloudagent.indy.sdk.profile DEBUG Profile finalizer called; closing wallet
-2023-06-05 18:54:30,324 asyncio ERROR Task exception was never retrieved
-future: <Task finished coro=<run_loop.<locals>.done() done, defined at /usr/local/lib/python3.7/site-packages/aries_cloudagent/commands/start.py:77> exception=RuntimeError('cannot reuse already awaited coroutine')>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/asyncio/tasks.py", line 249, in __step
-    result = coro.send(None)
-RuntimeError: cannot reuse already awaited coroutine
-```
-I don't believe any of my changes would affect this and I ~~am assuming~~ have confirmed this issue existed before my changes. There are no workflows that use the test harness in this manner as far as I know, so it should not impact the interop regression test cycle.
+The simple fix in this PR has all 3 `acapy-main` builds passing all tests. 
+I have updated the BDD test code to deal with thread ids being set on credential offers.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 18:58:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/691" class=".btn">#691</a>
-            </td>
-            <td>
-                <b>
-                    Changes by create-pull-request action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 03:11:31 +0000 UTC
+        Created At 2023-06-13 22:42:39 +0000 UTC
     </div>
 </div>
 
