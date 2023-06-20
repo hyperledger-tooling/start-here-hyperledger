@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2273" class=".btn">#2273</a>
+            </td>
+            <td>
+                <b>
+                    Add replacement_id to API.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                create/create-offer, send/send-offer now have replacement_id in the POST body to set the id
+
+Addresses #2218
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 00:46:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2272" class=".btn">#2272</a>
             </td>
             <td>

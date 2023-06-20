@@ -182,13 +182,13 @@ fixes https://github.com/hyperledger/besu/issues/5597
             </td>
             <td>
                 <b>
-                    Ensure that blobs, proofs and  commitments have the same number of elements
+                    [4844] Ensure that blobs, proofs and  commitments have the same number of elements
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -218,7 +218,7 @@ fixes #5488
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -396,7 +396,7 @@ https://github.com/hyperledger/besu/issues/5459
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">4844</span>
             </td>
             <td>
                 Increase blob sidecar size
@@ -672,7 +672,7 @@ Increase blob throughput according to spec
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">4844</span>
             </td>
             <td>
                 ## PR description

@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3625" class=".btn">#3625</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3624: General purpose permission tokens
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+To be reviewed **after #3617 is merged**
+
+* This PR generalizes tokens so that they can have any structure
+* token structure is described with `iroha_schema` and serialized as JSON string
+* token value is encoded with SCALE
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 00:45:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3621" class=".btn">#3621</a>
             </td>
             <td>
@@ -538,40 +599,6 @@ After:
     </table>
     <div class="right-align">
         Created At 2023-06-13 10:34:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3600" class=".btn">#3600</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3246: Don't involve observing peer without fault.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Don't involve observing peers in consensus when view_change_index == 0.
-
-### Linked issue
-
-#3246
-
-I have verified that this PR has the intended effect by observing the output of the unstable network tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-12 21:05:17 +0000 UTC
     </div>
 </div>
 
