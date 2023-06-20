@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/681" class=".btn">#681</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/682" class=".btn">#682</a>
             </td>
             <td>
                 <b>
-                    Bump @openzeppelin/contracts from 4.7.3 to 4.9.1
+                    Bump @openzeppelin/contracts from 4.7.3 to 4.9.2
                 </b>
             </td>
         </tr>
@@ -27,11 +27,19 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) from 4.7.3 to 4.9.1.
+                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) from 4.7.3 to 4.9.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/releases"><code>@​openzeppelin/contracts</code>'s releases</a>.</em></p>
 <blockquote>
+<h2>v4.9.2</h2>
+<blockquote>
+<p><strong>Note</strong>
+This release contains a fix for <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-wprv-93r4-jj2p">https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-wprv-93r4-jj2p</a>.</p>
+</blockquote>
+<ul>
+<li><code>MerkleProof</code>: Fix a bug in <code>processMultiProof</code> and <code>processMultiProofCalldata</code> that allows proving arbitrary leaves if the tree contains a node with value 0 at depth 1.</li>
+</ul>
 <h2>v4.9.1</h2>
 <blockquote>
 <p><strong>Note</strong>
@@ -79,19 +87,18 @@ This release contains a fix for <a href="https://github.com/OpenZeppelin/openzep
 <li><code>MerkleProof</code>: optimize by using unchecked arithmetic. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3745">#3745</a>)</li>
 </ul>
 <h3>Breaking changes</h3>
-<ul>
-<li><code>EIP712</code>: Addition of ERC5267 support requires support for user defined value types, which was released in Solidity version 0.8.8. This requires a pragma change from <code>^0.8.0</code> to <code>^0.8.8</code>.</li>
-<li><code>EIP712</code>: Optimization of the cache for the upgradeable version affects the way <code>name</code> and <code>version</code> are set. This is no longer done through an initializer, and is instead part of the implementation's constructor. As a consequence, all proxies using the same implementation will necessarily share the same <code>name</code> and <code>version</code>. Additionally, an implementation upgrade risks changing the EIP712 domain unless the same <code>name</code> and <code>version</code> are used when deploying the new implementation contract.</li>
-</ul>
-<h3>Deprecations</h3>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.1/CHANGELOG.md"><code>@​openzeppelin/contracts</code>'s changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.2/CHANGELOG.md"><code>@​openzeppelin/contracts</code>'s changelog</a>.</em></p>
 <blockquote>
+<h2>4.9.2 (2023-06-16)</h2>
+<ul>
+<li><code>MerkleProof</code>: Fix a bug in <code>processMultiProof</code> and <code>processMultiProofCalldata</code> that allows proving arbitrary leaves if the tree contains a node with value 0 at depth 1.</li>
+</ul>
 <h2>4.9.1 (2023-06-07)</h2>
 <ul>
 <li><code>Governor</code>: Add a mechanism to restrict the address of the proposer using a suffix in the description.</li>
@@ -139,10 +146,6 @@ This release contains a fix for <a href="https://github.com/OpenZeppelin/openzep
 <li><code>EIP712</code>: Addition of ERC5267 support requires support for user defined value types, which was released in Solidity version 0.8.8. This requires a pragma change from <code>^0.8.0</code> to <code>^0.8.8</code>.</li>
 <li><code>EIP712</code>: Optimization of the cache for the upgradeable version affects the way <code>name</code> and <code>version</code> are set. This is no longer done through an initializer, and is instead part of the implementation's constructor. As a consequence, all proxies using the same implementation will necessarily share the same <code>name</code> and <code>version</code>. Additionally, an implementation upgrade risks changing the EIP712 domain unless the same <code>name</code> and <code>version</code> are used when deploying the new implementation contract.</li>
 </ul>
-<h3>Deprecations</h3>
-<ul>
-<li><code>ERC20Permit</code>: Added the file <code>IERC20Permit.sol</code> and <code>ERC20Permit.sol</code> and deprecated <code>draft-IERC20Permit.sol</code> and <code>draft-ERC20Permit.sol</code> since <a href="https://eips.ethereum.org/EIPS/eip-2612">EIP-2612</a> is no longer a Draft. Developers are encouraged to update their imports. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/3793">#3793</a>)</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -150,23 +153,23 @@ This release contains a fix for <a href="https://github.com/OpenZeppelin/openzep
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/e50c24f5839db17f46991478384bfda14acfb830"><code>e50c24f</code></a> Release v4.9.2 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4364">#4364</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4d2383e17186be3e8ccf5a442e9686ecc7de1c55"><code>4d2383e</code></a> Merge pull request from GHSA-wprv-93r4-jj2p</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/f03420b5c77ae3cfa73fce4ffc7f4778cfa2b503"><code>f03420b</code></a> Remove automatic conflict resolution for merge from release branch (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4362">#4362</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/ded8c9eedb9a03b0703b65d430e6d0076cb0e444"><code>ded8c9e</code></a> Update index.adoc (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4336">#4336</a>)</li>
 <li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/281550b71c3df9a83e6b80ceefc700852c287570"><code>281550b</code></a> Release v4.9.1 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4321">#4321</a>)</li>
 <li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/33ff9b086dab790e87948f6007aa4b00bf5252cc"><code>33ff9b0</code></a> Merge pull request from GHSA-5h3x-9wvq-w4m2</li>
 <li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/fa3a30a580e87dbc4f3a7693296901c0b83f06aa"><code>fa3a30a</code></a> Fix typo in crosschain.adoc</li>
 <li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4e6deb3c56c8b054396836f52bff9c67fde766e7"><code>4e6deb3</code></a> Fix import substitution for docs examples</li>
 <li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/819820517d70820f80a12dd835099c32d7cebb9b"><code>8198205</code></a> Fix doc MyGovernor example doesn't compile (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4282">#4282</a>)</li>
 <li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/a6e267169036f90d4244683d9709e3190622c9f6"><code>a6e2671</code></a> Fix release merge script (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4273">#4273</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/54b3f14346da01ba0d159114b399197fea8b7cda"><code>54b3f14</code></a> Release v4.9.0 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4272">#4272</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/813cc2b79d2822059dd507705953a0fb1e67e48a"><code>813cc2b</code></a> Exit release candidate</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4f7047ceecfadd5e3132182ea54a2616f732d667"><code>4f7047c</code></a> Release v4.9.0 (rc) (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4243">#4243</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/a43069e841c4a650448ef999d8842ceecf274f71"><code>a43069e</code></a> Reduce frequency of version comment updates (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4244">#4244</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v4.7.3...v4.9.1">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v4.7.3...v4.9.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts&package-manager=npm_and_yarn&previous-version=4.7.3&new-version=4.9.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts&package-manager=npm_and_yarn&previous-version=4.7.3&new-version=4.9.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -197,7 +200,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-08 18:25:17 +0000 UTC
+        Created At 2023-06-19 19:51:22 +0000 UTC
     </div>
 </div>
 
