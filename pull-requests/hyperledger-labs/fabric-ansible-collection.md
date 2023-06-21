@@ -89,29 +89,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/13" class=".btn">#13</a>
-            </td>
-            <td>
-                <b>
-                    Removed IBP references from roles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 11:04:24 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[5627](https://github.com/hyperledger/besu/pull/5627) [CHANGELOG] tuweni update was reverted
+[3634](https://github.com/hyperledger/iroha/pull/3634) [refactor] #3615: Preserve wsv after validation
 
-[1377](https://github.com/hyperledger/solang/pull/1377) Avoid repeated global strings
+[33](https://github.com/hyperledger-labs/harmonia/pull/33) Added Bank Side Patterns
 
-[1376](https://github.com/hyperledger/solang/pull/1376) Substrate: Implement call flags
+[4291](https://github.com/hyperledger/fabric/pull/4291) update of fabric-config version
 
-[500](https://github.com/hyperledger-labs/fabric-operations-console/pull/500) if comp is migrated choose correct route when getting the component status
+[1378](https://github.com/hyperledger/solang/pull/1378) Wasm linker: Do not strip off empty data sections
 
-[789](https://github.com/hyperledger/aries-rfcs/pull/789) Add clarification to thread RFC about handling an empty thread decorator
+[5628](https://github.com/hyperledger/besu/pull/5628) Make fork id the default and try to recover the DiscoveryPeer for incoming connections from the PeerTable
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
