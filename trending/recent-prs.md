@@ -1,13 +1,13 @@
 
-[3634](https://github.com/hyperledger/iroha/pull/3634) [refactor] #3615: Preserve wsv after validation
+[4292](https://github.com/hyperledger/fabric/pull/4292) BFT Block Puller: isolate common subcomponents
 
-[33](https://github.com/hyperledger-labs/harmonia/pull/33) Added Bank Side Patterns
+[5629](https://github.com/hyperledger/besu/pull/5629) Decouple JsonRpcError enum from the data field
 
-[4291](https://github.com/hyperledger/fabric/pull/4291) update of fabric-config version
+[85](https://github.com/hyperledger/sawtooth-sdk-rust/pull/85) avoid use-after-free in dependency
 
-[1378](https://github.com/hyperledger/solang/pull/1378) Wasm linker: Do not strip off empty data sections
+[17](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/17) Fixed ansible-galaxy command
 
-[5628](https://github.com/hyperledger/besu/pull/5628) Make fork id the default and try to recover the DiscoveryPeer for incoming connections from the PeerTable
+[502](https://github.com/hyperledger-labs/fabric-operations-console/pull/502) retry for smart contract error
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

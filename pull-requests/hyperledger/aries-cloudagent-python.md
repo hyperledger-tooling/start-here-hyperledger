@@ -157,31 +157,3 @@ See Issue #2251 - this is only one small part of developer documentation. I want
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2265" class=".btn">#2265</a>
-            </td>
-            <td>
-                <b>
-                    Provide an optional `Profile` to the verification key strategy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR #2235 has just been merged, but I realized that not having access to `Profile` could be too restrictive. For example, accessing storage with the current function's signature is hard. In fact, I thought that custom strategies could be initialized with an `InjectionContext` and query what they need, but it doesn't seem to be working. Let me know if there is a more idiomatic way of doing this.
-
-This PR fixes this by providing an optional `Profile` and switching to an `async` method.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 14:08:07 +0000 UTC
-    </div>
-</div>
-

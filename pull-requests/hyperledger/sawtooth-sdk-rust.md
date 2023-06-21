@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    Fix new lints
+                    avoid use-after-free in dependency
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                Address lints present with the current version of rust.
+                see https://github.com/rust-bitcoin/rust-secp256k1/issues/543
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-12 17:51:13 +0000 UTC
+        Created At 2023-06-21 15:31:41 +0000 UTC
     </div>
 </div>
 

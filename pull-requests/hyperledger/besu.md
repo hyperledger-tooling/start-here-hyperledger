@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5629" class=".btn">#5629</a>
+            </td>
+            <td>
+                <b>
+                    Decouple JsonRpcError enum from the data field
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Moves data field from JsonRpcError enum to JsonRpcErrorResponse to avoid its reset when enum is reused.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+Fixes #5437
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 16:25:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5628" class=".btn">#5628</a>
             </td>
             <td>
@@ -575,38 +611,6 @@ fixes #5590
     </table>
     <div class="right-align">
         Created At 2023-06-14 22:30:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5600" class=".btn">#5600</a>
-            </td>
-            <td>
-                <b>
-                    metrics - migrate tests from Junit4 to Junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-metrics Tests
-Added dependency for junit.jupiter (junit5) and Removed dependency on junit 4
-Migrated test from junit4 to junit5
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/5562
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 17:26:48 +0000 UTC
     </div>
 </div>
 
