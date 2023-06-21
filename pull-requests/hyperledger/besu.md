@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5627" class=".btn">#5627</a>
+            </td>
+            <td>
+                <b>
+                    [CHANGELOG] tuweni update was reverted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix changelog.
+Tuweni update was reverted #5585 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 00:27:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5623" class=".btn">#5623</a>
+            </td>
+            <td>
+                <b>
+                    t8n server implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                ## PR description
+When used as a tool for cross testing, the `evm t8s` tool shows performance issues caused by the continous JVM context load which prevents the tool to be included in the [cross testing integration suite](http://retesteth.ethdevops.io/).
+This PR adds a subcommand to `evm` named `t8n-sever, which starts a HTTP server able to handle JSON request with the following structure:
+```json
+{
+  "state": {
+    "fork": ...,
+    "chainid": ...,
+    "reward": ...
+  },
+  "input": {
+    "env": { ... },
+    "alloc": { ... },
+    "txs": [ ... ]
+  }
+}
+```
+each field matches the parameters of the `evm t8n` tool, but for when a path is expected, the full content of the file has to be passed.
+
+This implementation was tested by @winsvega who confirmed the performance boost
+
+### Developer considerations
+ - This server doesn't need to be a subcommand. It's there just to follow the existing `t8n` _pattern_, but no `evm` option will have any effect on its behavior.
+ - This type of server for `t8n` tests is also used by at least one other client, i.e. [ethereumjs](https://github.com/ethereumjs/ethereumjs-monorepo/blob/%40ethereumjs/vm%406.5.0/packages/vm/test/retesteth/transition-cluster.ts#L53), but in their case they expect the server to have access to the tests executor file system.
+ - Eventually we could analyze to deprecate the existing [retesteth RPC Interface](https://ethereum-tests.readthedocs.io/en/latest/rpc-ref.html) ([reference code](https://github.com/hyperledger/besu/blob/23.4.3/besu/src/main/java/org/hyperledger/besu/cli/subcommands/RetestethSubCommand.java)) as it doesn't provide all the features required after the transtion of ETH to PoS.
+ - The performance of this new server doesn't match the one that once had the mentioned RPC retesteth service.
+ - This server has been tested using a modified version of [ethereum/retesteth](https://github.com/ethereum/retesteth/)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 18:33:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5621" class=".btn">#5621</a>
             </td>
             <td>

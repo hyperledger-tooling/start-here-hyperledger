@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/785" class=".btn">#785</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/789" class=".btn">#789</a>
             </td>
             <td>
                 <b>
-                    Revise the well known goal codes aries.rel and aries.rel.build
+                    Add clarification to thread RFC about handling an empty thread decorator
                 </b>
             </td>
         </tr>
@@ -27,18 +27,15 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Updates the definition of where to use "aries.rel" and "aries.rel.build to remove the "can't be used to establish a DIDComm connection". We see no reason for that limitation. 
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-We have come across the need for a goal code that we can use when doing nothing more than making a DIDComm connection between agents controlled by humans. Scenarios:
-
-- Two Mobile Wallet apps, with an invitation from one for the other in order to establish a connection to be used for a variety of purposes - messaging, issuance, and verification.
-- An enterprise agent sends an invitation to a Mobile Agent (via a QR code) to establish a connection for a variety of purposes - messaging, issuance, and verification.
+See issue [#875 in Aries VCX](https://github.com/hyperledger/aries-vcx/issues/875).  This PR clarifies that while it is not recommended, an Aries agent MAY put an empty `~thread: {}` item in the first message of a protocol instance, and a recipient Aries agent MUST be able to handle that.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 22:39:45 +0000 UTC
+        Created At 2023-06-20 18:39:15 +0000 UTC
     </div>
 </div>
 

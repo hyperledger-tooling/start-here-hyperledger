@@ -1,13 +1,13 @@
 
-[1639](https://github.com/hyperledger/indy-plenum/pull/1639) indy-plenum Maintainers as of today
+[5627](https://github.com/hyperledger/besu/pull/5627) [CHANGELOG] tuweni update was reverted
 
-[2513](https://github.com/hyperledger/cacti/pull/2513) fix(dockerfile): changed the dockerfile to remove erroneous setup.py, to install all dependencies seperately.
+[1377](https://github.com/hyperledger/solang/pull/1377) Avoid repeated global strings
 
-[499](https://github.com/hyperledger-labs/fabric-operations-console/pull/499) if in read-only disable actions in the access tab
+[1376](https://github.com/hyperledger/solang/pull/1376) Substrate: Implement call flags
 
-[95](https://github.com/hyperledger-labs/hlf-connector/pull/95) Add XSS protection in Header config and minor refactorings
+[500](https://github.com/hyperledger-labs/fabric-operations-console/pull/500) if comp is migrated choose correct route when getting the component status
 
-[2302](https://github.com/hyperledger/bevel/pull/2302) [ci-skip] improved descriptions in Chart.yaml files for all Helm charts
+[789](https://github.com/hyperledger/aries-rfcs/pull/789) Add clarification to thread RFC about handling an empty thread decorator
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
