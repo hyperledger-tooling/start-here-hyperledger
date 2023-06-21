@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Fixed ansible-galaxy command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some command fixes I missed the first time around
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 15:11:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/16" class=".btn">#16</a>
             </td>
             <td>
@@ -59,33 +85,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     </table>
     <div class="right-align">
         Created At 2023-06-15 15:02:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Adding offline flag to ansible-lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - New 6.17.1 version of ansible-lint introduced a race condition bug with this workaround noted
-- Race condition issue is noted in the ansible-lint repo: https://github.com/ansible/ansible-lint/issues/3560
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 14:25:09 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/502" class=".btn">#502</a>
+            </td>
+            <td>
+                <b>
+                    retry for smart contract error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+retry for smart contract error
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 13:20:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/500" class=".btn">#500</a>
             </td>
             <td>
