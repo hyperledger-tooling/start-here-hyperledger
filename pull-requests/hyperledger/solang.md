@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1377" class=".btn">#1377</a>
+            </td>
+            <td>
+                <b>
+                    Avoid repeated global strings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When debugging the issue #1367, I found out that we keep emitting repeated global strings. The LLVM IR for the contract pointed in such an issue had the string `math overflow,\0A` defined 1008 times.
+
+This PR DOES NOT solve #1367, but it is something that needed a fix.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 21:13:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1376" class=".btn">#1376</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Implement call flags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Substrate knows [flags](https://github.com/paritytech/substrate/blob/6e0059a416a5768e58765a49b33c21920c0b0eb9/frame/contracts/src/wasm/runtime.rs#LL392C27-L392C27) for contract calls. Until now we just always set them to 0. However we'll need them for more ergonomic `delegatecall` support and giving contract authors manual control over contract reentrancy. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 19:56:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1374" class=".btn">#1374</a>
             </td>
             <td>
@@ -170,32 +226,6 @@ This PR limits the scope of annotation above a constructor to accept only litera
     </table>
     <div class="right-align">
         Created At 2023-06-14 21:06:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1365" class=".btn">#1365</a>
-            </td>
-            <td>
-                <b>
-                    `wasm-opt` for Substrate 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `wasm-opt` brings some great optimizations and we should use it (`cargo contract` uses it for ink contracts). For example, the Wasm blob of our flipper example (compile `--release`) goes down from 2.2kb to 1.2kb. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-13 21:16:30 +0000 UTC
     </div>
 </div>
 
