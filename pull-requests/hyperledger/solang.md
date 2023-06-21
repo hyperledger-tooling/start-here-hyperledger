@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1378" class=".btn">#1378</a>
+            </td>
+            <td>
+                <b>
+                    Wasm linker: Do not strip off empty data sections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR gets rid of the wasm-opt complaining about `warning: data index out of bounds in name section, data subsection: .bss at index 0`.
+
+
+This was caused by us just skipping these sections. By doing so, the resulting Wasm blob size will be smaller without (it's just uninitialized data):
+
+```
+ - segment[10] <.bss.selector> memory=0 size=4 - init i32=608
+  - 0000260: 0000 0000                                ....
+ - segment[11] <.bss.calldata_len> memory=0 size=4 - init i32=612
+  - 0000264: 0000 0000                                ....
+ - segment[12] <.bss.scratch_len> memory=0 size=4 - init i32=616
+  - 0000268: 0000 0000                                ....
+ - segment[13] <.bss.scratch> memory=0 size=32768 - init i32=624
+  - 0000270: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+  - ...
+```
+
+However, `wasm-opt` will do the same, so we can just rely on `wasm-opt` to do it correctly. I additionally checked the Wasm blob size of various contracts (with `wasm-opt` enabled) and the code sizes stay exactly the same after this change.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 08:15:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1377" class=".btn">#1377</a>
             </td>
             <td>

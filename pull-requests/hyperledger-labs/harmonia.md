@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/33" class=".btn">#33</a>
+            </td>
+            <td>
+                <b>
+                    Added Bank Side Patterns
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 10:46:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/harmonia/pull/32" class=".btn">#32</a>
             </td>
             <td>
@@ -111,84 +137,6 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     </table>
     <div class="right-align">
         Created At 2023-06-14 12:44:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    Fixed a typo and removed empty README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed a typo in atomic-swap/corda/README.md and removed empty atomic-swap/README.md
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 11:22:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Update vision_requirements.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                with correct reference to read me
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 10:42:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Updated README.md and LICENSE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added README.md and Apache License references
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 09:34:40 +0000 UTC
     </div>
 </div>
 
