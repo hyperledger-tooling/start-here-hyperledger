@@ -65,29 +65,3 @@ Updated README.md file.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    Updated interop principles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-15 08:19:11 +0000 UTC
-    </div>
-</div>
-
