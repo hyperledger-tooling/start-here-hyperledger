@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5632" class=".btn">#5632</a>
+            </td>
+            <td>
+                <b>
+                    consensus/merge junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                Refs #5569
+Added lenient() in some spots
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 06:10:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5631" class=".btn">#5631</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] config module - junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                Fixes #5570
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 04:30:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5630" class=".btn">#5630</a>
             </td>
             <td>
@@ -589,36 +642,6 @@ https://github.com/hyperledger/besu/issues/5459
     </table>
     <div class="right-align">
         Created At 2023-06-15 15:25:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5603" class=".btn">#5603</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Increase blob sidecar size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">4844</span>
-            </td>
-            <td>
-                Increase blob sidecar size
-## PR description
-
-## Fixed Issue(s)
-fixes #5590 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-15 05:02:46 +0000 UTC
     </div>
 </div>
 
