@@ -168,29 +168,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    fixed AssetTransferResponderRole receive Type in AssetTransferFlows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                as per https://github.com/hyperledger-labs/weaver-dlt-interoperability/issues/410
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-15 01:45:16 +0000 UTC
-    </div>
-</div>
-
