@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3600" class=".btn">#3600</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3601" class=".btn">#3601</a>
             </td>
             <td>
                 <b>
-                    feat: add JWT Explicit typing basic support
+                    chore: move kmssigner to component/kmscrypto
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                **Title:**
-Add JWT Explicit typing basic support
-
-**Summary:**
-
-https://www.rfc-editor.org/rfc/rfc8725.html#section-3.11
-
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-14 15:02:20 +0000 UTC
+        Created At 2023-06-21 22:27:19 +0000 UTC
     </div>
 </div>
 

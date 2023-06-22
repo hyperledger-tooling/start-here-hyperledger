@@ -244,31 +244,3 @@ Here `func()` returns two values but the try statement does not use them at all.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1366" class=".btn">#1366</a>
-            </td>
-            <td>
-                <b>
-                    Refactor constructor annotations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Presently, we can declare an account on a Solana constructor using the `@payer(my_account)` annotation, while `@seed(my_seed)` refers to a constructor parameter. Such a construction is confusing for the same syntax have two different meanings.
-
-This PR limits the scope of annotation above a constructor to accept only literals as parameters (e.g. `@seed("pine_tree")`). Annotations that refer to function parameters must appear before them: `constructor (@seed bytes arg1)`. This is another in #1251.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 21:06:26 +0000 UTC
-    </div>
-</div>
-

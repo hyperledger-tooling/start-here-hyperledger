@@ -1,13 +1,13 @@
 
-[4292](https://github.com/hyperledger/fabric/pull/4292) BFT Block Puller: isolate common subcomponents
+[503](https://github.com/hyperledger-labs/fabric-operations-console/pull/503) Fixes instantiate chaincode - blank screen
 
-[5629](https://github.com/hyperledger/besu/pull/5629) Decouple JsonRpcError enum from the data field
+[1060](https://github.com/hyperledger/fabric-samples/pull/1060) Fix transferFrom function in erc-1155 sample so that we only delete token balances after…
 
-[85](https://github.com/hyperledger/sawtooth-sdk-rust/pull/85) avoid use-after-free in dependency
+[413](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/413) build(deps): Bump openssl from 0.10.48 to 0.10.55 in /core/relay
 
-[17](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/17) Fixed ansible-galaxy command
+[3601](https://github.com/hyperledger/aries-framework-go/pull/3601) chore: move kmssigner to component/kmscrypto
 
-[502](https://github.com/hyperledger-labs/fabric-operations-console/pull/502) retry for smart contract error
+[284](https://github.com/hyperledger/fabric-sdk-java/pull/284) Update version following release
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
