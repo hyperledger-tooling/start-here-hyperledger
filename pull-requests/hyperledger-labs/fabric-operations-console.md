@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/503" class=".btn">#503</a>
+            </td>
+            <td>
+                <b>
+                    Fixes instantiate chaincode - blank screen
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- fixes the blank screen bug when clicking the instantiate fabric 1.4 chaincode (overflow) button
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 00:15:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/502" class=".btn">#502</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/284" class=".btn">#284</a>
+            </td>
+            <td>
+                <b>
+                    Update version following release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 22:06:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/283" class=".btn">#283</a>
             </td>
             <td>

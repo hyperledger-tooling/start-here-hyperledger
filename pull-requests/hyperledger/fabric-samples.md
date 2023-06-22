@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1057" class=".btn">#1057</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1060" class=".btn">#1060</a>
             </td>
             <td>
                 <b>
-                    FSAT: Extend sleep time to stabilize integration test
+                    Fix transferFrom function in erc-1155 sample so that we only delete token balances after…
                 </b>
             </td>
         </tr>
@@ -27,39 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This patch extends the sleep time to wait for starting nginx by following the description on [full-stack-asset-transfer-guide/justfile](https://github.com/hyperledger/fabric-samples/blob/ae9e7e8df8e2932e235a89b79c31dc54c47a3cf6/full-stack-asset-transfer-guide/justfile#L79) to stabilize the intergration test.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-12 08:24:16 +0000 UTC
-    </div>
-</div>
+                … we've verified the funds are available first - not before
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1056" class=".btn">#1056</a>
-            </td>
-            <td>
-                <b>
-                    Minor improvements on test-network-nano-bash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fix typos
-- Update gitignore
+Deleting the state before the necessary funds are identified first results in funds disappearing without a recipient receiving them since the transaction then results in an error state being returned.  
+
+This update defers the deleteState calls so that they do not occur if `partialBalance < neededAmount` is true (not enough funds available)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-12 07:52:33 +0000 UTC
+        Created At 2023-06-21 23:40:51 +0000 UTC
     </div>
 </div>
 
