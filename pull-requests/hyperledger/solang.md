@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1380" class=".btn">#1380</a>
+            </td>
+            <td>
+                <b>
+                    Fix a bunch of subxt-tests rust warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If you don't have a substrate node running you still get errors. I don't know what to do about that.
+
+I've tried putting it in `#[cfg(test)]` which didn't help.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 14:53:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1378" class=".btn">#1378</a>
             </td>
             <td>

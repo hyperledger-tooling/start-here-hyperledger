@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    Create 2023-Q2-Hyperledger-Sawtooth.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 14:47:07 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,104 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3638" class=".btn">#3638</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Iroha2 pr-generator test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">experimental_environment</span>
+            </td>
+            <td>
+                Just test, please skip.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 17:34:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3636" class=".btn">#3636</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3627: Transaction atomicity through cloning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Apply transaction on cloned wsv and replace original one in case of successful execution. 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Partially closes #3627 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Transaction execution within block is atomic.
+
+### Drawbacks
+
+Cloning `wsv` will be costly in case of large wsv.
+
+However on the current benchmarks i don't see significant differences.
+
+We should explore time/space tradeoffs for improved solution.
+Consider implementation of transaction rollbacks.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 15:16:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3635" class=".btn">#3635</a>
             </td>
             <td>
@@ -156,6 +254,7 @@ To be reviewed **after #3617 is merged**
 * This PR generalizes tokens so that they can have any structure
 * token structure is described with `iroha_schema` and serialized as JSON string
 * token value is encoded with SCALE
+* as a consequence of this change permission token naming convention was moved from snake_case to KebabCase and directly reflects the name of the struct in the validator file
 
 ### Linked issue
 

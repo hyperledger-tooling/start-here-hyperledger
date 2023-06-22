@@ -152,29 +152,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1340" class=".btn">#1340</a>
-            </td>
-            <td>
-                <b>
-                    Fix broken links.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix broken links identified in the nightly build.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-14 03:59:30 +0000 UTC
-    </div>
-</div>
-

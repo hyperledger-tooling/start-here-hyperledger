@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2447" class=".btn">#2447</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2452" class=".btn">#2452</a>
             </td>
             <td>
                 <b>
-                    Fix of medium vulnerabilities - Weak Cryptography
+                    fix REST API URL in intro xo transaction family docs
                 </b>
             </td>
         </tr>
@@ -27,24 +27,46 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                ### What was wrong?
+                This intends to fix a step of the [XO transaction family tutorial](https://sawtooth.hyperledger.org/docs/1.2/app_developers_guide/intro_xo_transaction_family.html).
 
-When software generates predictable values in a context requiring unpredictability, it may be possible for an attacker to guess the next value that will be generated, and use this guess to impersonate another user or access sensitive information.
-
-### How was it fixed?
-
-I just changed the PRNG lib from random to secrets (OWASP recommendation).
-
-### CWEs:
-- [CWE-338](https://cwe.mitre.org/data/definitions/338): Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG);
-- [CWE-330](https://cwe.mitre.org/data/definitions/330): Use of Insufficiently Random Values;
-- [CWE-326](https://cwe.mitre.org/data/definitions/326): Inadequate Encryption Strength;
-- [CWE-1241](https://cwe.mitre.org/data/definitions/1241): Use of Predictable Algorithm in Random Number Generator.
+---
+[SAW-14](https://blockchaintp.atlassian.net/browse/SAW-14)
+Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-24 18:36:45 +0000 UTC
+        Created At 2023-06-22 18:12:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2451" class=".btn">#2451</a>
+            </td>
+            <td>
+                <b>
+                    use 'chime' instead of 'nightly' images for sawtooth-default-poet.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This responds to difficulties experienced by users of the [Creating a Sawtooth Test Network](https://sawtooth.hyperledger.org/docs/1.2/app_developers_guide/creating_sawtooth_network.html) tutorial. Switching the configured images from `nightly` to `chime` allows me to complete the tutorial successfully.
+
+---
+[SAW-14](https://blockchaintp.atlassian.net/browse/SAW-14)
+Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 16:16:45 +0000 UTC
     </div>
 </div>
 

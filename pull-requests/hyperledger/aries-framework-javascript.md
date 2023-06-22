@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1485" class=".btn">#1485</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1488" class=".btn">#1488</a>
             </td>
             <td>
                 <b>
-                    fix: check if URL already encoded
+                    fix(indy-vdr): role property not included in nym request
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Check to make sure an URL is not already encoded before encoding it. If this happens it will create an erronious URL.
-
-Fixes #1484
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-14 17:18:15 +0000 UTC
+        Created At 2023-06-20 19:20:56 +0000 UTC
     </div>
 </div>
 

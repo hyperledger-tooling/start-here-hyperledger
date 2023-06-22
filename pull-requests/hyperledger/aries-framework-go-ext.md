@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/344" class=".btn">#344</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/349" class=".btn">#349</a>
             </td>
             <td>
                 <b>
-                    fix: Retry if VDR orb:did resolve fails
+                    chore: use go 1.20 and afgo components in vc/status, vdr/jwk, vdr/longform
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-18 18:27:16 +0000 UTC
+        Created At 2023-06-22 17:57:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/348" class=".btn">#348</a>
+            </td>
+            <td>
+                <b>
+                    chore: use go 1.20 and afgo components in vdr/sidetree
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-21 22:43:41 +0000 UTC
     </div>
 </div>
 
