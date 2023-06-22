@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4297" class=".btn">#4297</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: Stop deliver service correctly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                Change-Id: Icd1725913e3be913b3628b3f37e252c8e13a0461
+
+#### Type of change
+- Bug fix
+
+#### Description
+
+After the delivery service StopDeliveryForChannel is called, it should be possible to call StartDeliveryForChannel  again.
+After the delivery service Stop is called, it should not be possible to call <Start/Stop>DeliveryForChannel  again.
+
+This was introduced by #4260
+
+#### Related issues
+
+#4261 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 16:18:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4292" class=".btn">#4292</a>
             </td>
             <td>
@@ -109,43 +149,6 @@ update fabric-config version in go.mod
     </table>
     <div class="right-align">
         Created At 2023-06-19 10:55:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4285" class=".btn">#4285</a>
-            </td>
-            <td>
-                <b>
-                    BFT Block Puller: draft
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-
-- New feature
-
-#### Description
-
-TBD
-
-#### Related issues
-
-TBD
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-15 15:26:47 +0000 UTC
     </div>
 </div>
 

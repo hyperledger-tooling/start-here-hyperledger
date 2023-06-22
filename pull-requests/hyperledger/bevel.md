@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2303" class=".btn">#2303</a>
+            </td>
+            <td>
+                <b>
+                    Add README.md files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add readme files for all charts
+Add _helpers.tpl files for all charts
+
+platforms/hyperledger-indy/charts/indy-auth-job/README.md
+platforms/hyperledger-indy/charts/indy-auth-job/templates/_helpers.tpl
+platforms/hyperledger-indy/charts/indy-domain-genesis/README.md
+platforms/hyperledger-indy/charts/indy-domain-genesis/templates/_helpers.tpl
+platforms/hyperledger-indy/charts/indy-key-mgmt/README.md
+platforms/hyperledger-indy/charts/indy-key-mgmt/templates/_helpers.tpl
+platforms/hyperledger-indy/charts/indy-ledger-txn/templates/_helpers.tpl
+platforms/hyperledger-indy/charts/indy-node/README.md
+platforms/hyperledger-indy/charts/indy-node/Readme.md
+platforms/hyperledger-indy/charts/indy-node/templates/_helpers.tpl
+platforms/hyperledger-indy/charts/indy-pool-genesis/README.md
+platforms/hyperledger-indy/charts/indy-pool-genesis/templates/_helpers.tpl
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 16:24:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2302" class=".btn">#2302</a>
             </td>
             <td>
@@ -35,6 +75,9 @@ permalink: /pull-requests/hyperledger/bevel
 ```
 - This commit enhances the descriptions in the Chart.yaml files for all Quorum platform Helm charts.
 - The updates ensure that the descriptions accurately reflect the functionality and purpose of each Helm chart.
+
+Additionally:
+- Fix the Verification section of each README.md's file.
 ```
             </td>
         </tr>
@@ -124,32 +167,6 @@ Fixes #2287
     </table>
     <div class="right-align">
         Created At 2023-06-16 12:33:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2298" class=".btn">#2298</a>
-            </td>
-            <td>
-                <b>
-                    [chore] Latest from main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-15 15:54:50 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/148" class=".btn">#148</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/150" class=".btn">#150</a>
             </td>
             <td>
                 <b>
-                    feat/no indy
+                    fix: change indicio testnet genesis url to main from master
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                <nil>
+                Prior to this change, running the demo with Alice and Bob resulted in an Indy error: CommonInvalidState for both Alice and Bob that caused both agents to exit. This change updates the Indicio testnet url to use "main" instead of "master," which makes this demo up-to-date with naming conventions and thus resolves the Indy error. #149 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-12 18:56:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/147" class=".btn">#147</a>
-            </td>
-            <td>
-                <b>
-                    feat: no indy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-08 16:49:39 +0000 UTC
+        Created At 2023-06-21 17:00:23 +0000 UTC
     </div>
 </div>
 

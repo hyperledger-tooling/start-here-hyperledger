@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/606" class=".btn">#606</a>
+            </td>
+            <td>
+                <b>
+                    Fix Java OSV-Scanner scan
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Transitive dependencies were missed from the effective POM generated using the Maven Help plugin. Instead, generate a CycloneDX Software Bill of Materials (SBOM), and run OSV-Scanner on that SBOM.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 19:08:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/603" class=".btn">#603</a>
             </td>
             <td>

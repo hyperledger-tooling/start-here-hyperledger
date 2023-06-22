@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/15" class=".btn">#15</a>
-            </td>
-            <td>
-                <b>
-                    Deibm doc roles 2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-15 15:02:09 +0000 UTC
-    </div>
-</div>
-
