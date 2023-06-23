@@ -249,8 +249,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             <td>
                 ## Description
 
-To be reviewed **after #3617 is merged**
-
 * This PR generalizes tokens so that they can have any structure
 * token structure is described with `iroha_schema` and serialized as JSON string
 * token value is encoded with SCALE
@@ -260,7 +258,7 @@ To be reviewed **after #3617 is merged**
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #3624 
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -503,69 +501,6 @@ No more duplication of `PermissionTokenDefinition`s which currently should be th
     </table>
     <div class="right-align">
         Created At 2023-06-16 23:27:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3614" class=".btn">#3614</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3353: Remove eyre from block.rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Replace eyre error messages with structured errors.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Partially closes #3353 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Less vague errors.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [x] (optional) I've written unit tests for the code changes
-- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-16 09:23:00 +0000 UTC
     </div>
 </div>
 

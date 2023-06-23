@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2305" class=".btn">#2305</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] Add README.md files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary Changes
+--------------
+1. Add readme files for all charts
+2. Update the values.yaml files
+3. Update the version in chart.yaml file
+
+Modifications in charts
+platforms/r3-corda/charts/doorman-tls
+platforms/r3-corda/charts/doorman
+platforms/r3-corda/charts/generate-certs
+platforms/r3-corda/charts/h2-addUser
+platforms/r3-corda/charts/h2-password-change
+platforms/r3-corda/charts/h2
+platforms/r3-corda/charts/mongodb-tls
+platforms/r3-corda/charts/mongodb
+platforms/r3-corda/charts/nms-tls
+platforms/r3-corda/charts/nms
+platforms/r3-corda/charts/node-initial-registration 
+platforms/r3-corda/charts/node 
+platforms/r3-corda/charts/notary-initial-registration 
+platforms/r3-corda/charts/notary platforms/r3-corda/charts/storage
+
+Fixes #2285
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 11:51:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2304" class=".btn">#2304</a>
             </td>
             <td>
