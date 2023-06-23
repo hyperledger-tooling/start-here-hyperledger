@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3643" class=".btn">#3643</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3195: Also panic when receiving rejected genesis.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Simple fix for attached issue but needs to be confirmed by QA.
+
+Closes #3195
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 12:42:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3638" class=".btn">#3638</a>
             </td>
             <td>

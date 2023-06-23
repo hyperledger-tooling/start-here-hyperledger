@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
 
 After:
 ![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/b7124c3f-4985-4f6f-a2df-e6c4a9ec98b6)
-![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/a57b257b-3708-406a-a159-6e9e758d864b)
+![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/87186051-93c8-494f-91f8-06112b08d200)
 
             </td>
         </tr>

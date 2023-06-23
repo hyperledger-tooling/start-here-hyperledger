@@ -14,36 +14,6 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2452" class=".btn">#2452</a>
-            </td>
-            <td>
-                <b>
-                    fix REST API URL in intro xo transaction family docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This intends to fix a step of the [XO transaction family tutorial](https://sawtooth.hyperledger.org/docs/1.2/app_developers_guide/intro_xo_transaction_family.html).
-
----
-[SAW-14](https://blockchaintp.atlassian.net/browse/SAW-14)
-Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-22 18:12:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2451" class=".btn">#2451</a>
             </td>
             <td>

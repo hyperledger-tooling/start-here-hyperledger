@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    implement parse SignaturePolicyEnvelope to human readable expression
+                    Remove OSV-Scanner from vulnerability scan
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 
             </td>
             <td>
-                fix #127
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-05 08:53:09 +0000 UTC
-    </div>
-</div>
+                Running OSV-Scanner on the Node package-lock.json file could also detect vulnerabilities in dev dependencies. The intention of the vulnerability scan is to ensure that the production dependencies do not contain vulnerabilities, not the dev dependencies. This could be resolved by generating a Software Bill of Materials (SBOM) for the Node project, omitting dev dependencies, and running OSV-Scanner on the SBOM. Unfortunately, the use of non-semver tags (such as `latest`) in the dependency tree causes errors in npm ls when generating an SBOM.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/132" class=".btn">#132</a>
-            </td>
-            <td>
-                <b>
-                    implements for PeerMembershipQuery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #125 
+Govulncheck and npm audit already do a good job of detecting vulnerabilities in Go and Node respectively so, for now at least, remove OSV-Scanner.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 06:37:18 +0000 UTC
+        Created At 2023-06-23 16:54:04 +0000 UTC
     </div>
 </div>
 
