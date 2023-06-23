@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/130" class=".btn">#130</a>
+            </td>
+            <td>
+                <b>
+                    Always pass numbers as base 10 to blockchain connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While evmconnect supports base 10 or base 16 inputs, ethconnect only supports numbers in base 10.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 17:32:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/129" class=".btn">#129</a>
             </td>
             <td>

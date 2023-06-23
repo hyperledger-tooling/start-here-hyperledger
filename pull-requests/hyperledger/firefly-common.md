@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/79" class=".btn">#79</a>
+            </td>
+            <td>
+                <b>
+                    adding a function to retrive distinct values of a column
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding a function in the CRUD interface for getting distinct values of a column
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 15:02:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/76" class=".btn">#76</a>
             </td>
             <td>

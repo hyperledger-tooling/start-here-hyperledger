@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1353" class=".btn">#1353</a>
+            </td>
+            <td>
+                <b>
+                    feat: expose retry and HTTP options for webhooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A few considerations when reviewing:
+- I modified the interface for the events plugin to pass the context through as we were using the global plugin context for events which I believe was incorrect.
+- Instead of copying the client for each request in the webhook, we store the client in the subscription object. We populate it when reading a subscription from the DB or creating a new one through the API. I thought here about exposing a new function at the interface level such as `ParseSubscriptionOptions` where each plugin could parse the options and modify it but seem redundant do `ValidateOptions` so did it there instead
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 16:09:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1352" class=".btn">#1352</a>
             </td>
             <td>
