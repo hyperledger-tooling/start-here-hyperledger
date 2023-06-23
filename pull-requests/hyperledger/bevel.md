@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2303" class=".btn">#2303</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2304" class=".btn">#2304</a>
             </td>
             <td>
                 <b>
-                    Add README.md files
+                    [ci-skip] Added readme's for all the helm charts
                 </b>
             </td>
         </tr>
@@ -27,26 +27,17 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Add readme files for all charts
-Add _helpers.tpl files for all charts
+                docs(indy): Added readme's for all the helm charts for platform indy
 
-platforms/hyperledger-indy/charts/indy-auth-job/README.md
-platforms/hyperledger-indy/charts/indy-auth-job/templates/_helpers.tpl
-platforms/hyperledger-indy/charts/indy-domain-genesis/README.md
-platforms/hyperledger-indy/charts/indy-domain-genesis/templates/_helpers.tpl
-platforms/hyperledger-indy/charts/indy-key-mgmt/README.md
-platforms/hyperledger-indy/charts/indy-key-mgmt/templates/_helpers.tpl
-platforms/hyperledger-indy/charts/indy-ledger-txn/templates/_helpers.tpl
-platforms/hyperledger-indy/charts/indy-node/README.md
-platforms/hyperledger-indy/charts/indy-node/Readme.md
-platforms/hyperledger-indy/charts/indy-node/templates/_helpers.tpl
-platforms/hyperledger-indy/charts/indy-pool-genesis/README.md
-platforms/hyperledger-indy/charts/indy-pool-genesis/templates/_helpers.tpl
+Add readme files for all charts
+Add _helpers.tpl files for all charts
+fixes #2288
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 16:24:04 +0000 UTC
+        Created At 2023-06-23 05:37:03 +0000 UTC
     </div>
 </div>
 

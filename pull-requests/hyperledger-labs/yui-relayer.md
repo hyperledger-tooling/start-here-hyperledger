@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/90" class=".btn">#90</a>
+            </td>
+            <td>
+                <b>
+                    Improve packet relay (event query)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 05:01:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/89" class=".btn">#89</a>
             </td>
             <td>

@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/129" class=".btn">#129</a>
-            </td>
-            <td>
-                <b>
-                    Create 2023-Q2-Hyperledger-Cello.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                Submit Cello's Q2 2023 Summary.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-16 01:22:20 +0000 UTC
-    </div>
-</div>
-

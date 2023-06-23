@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1338" class=".btn">#1338</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1352" class=".btn">#1352</a>
             </td>
             <td>
                 <b>
-                    v1.2: Backport fixes
+                    Add E2E test for indexing an existing ERC1155
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Backport of the following fixes:
-
-https://github.com/hyperledger/firefly/pull/1249
-https://github.com/hyperledger/firefly/pull/1275
-https://github.com/hyperledger/firefly/pull/1313
-https://github.com/hyperledger/firefly/pull/1316
+                Requires https://github.com/hyperledger/firefly-tokens-erc1155/pull/129
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-07 18:14:04 +0000 UTC
+        Created At 2023-06-22 15:58:21 +0000 UTC
     </div>
 </div>
 
@@ -45,11 +40,11 @@ https://github.com/hyperledger/firefly/pull/1316
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1337" class=".btn">#1337</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1351" class=".btn">#1351</a>
             </td>
             <td>
                 <b>
-                    Fix coverage drop in aggregator
+                    Use NetworkName instead of Name for definition topics
                 </b>
             </td>
         </tr>
@@ -58,12 +53,14 @@ https://github.com/hyperledger/firefly/pull/1316
                 
             </td>
             <td>
-                <nil>
+                Fixes #1349
+
+Related fix that will also need to be integrated: https://github.com/hyperledger/firefly-common/pull/76
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-07 16:38:39 +0000 UTC
+        Created At 2023-06-22 15:55:43 +0000 UTC
     </div>
 </div>
 
@@ -71,11 +68,11 @@ https://github.com/hyperledger/firefly/pull/1316
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1336" class=".btn">#1336</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1348" class=".btn">#1348</a>
             </td>
             <td>
                 <b>
-                    Surface message rejection reason to API
+                    Docs improvements
                 </b>
             </td>
         </tr>
@@ -84,14 +81,15 @@ https://github.com/hyperledger/firefly/pull/1316
                 
             </td>
             <td>
-                Proposal to add a "reject_reason" to messages (ie to database and API), which will be populated with the error text whenever a message is rejected. Previously this reason would only be logged, so the hope is that this assists in debugging when a message is rejected for an unexpected reason.
+                Adding two improvements in docs:
 
-Note that this does slightly reduce the performance of inserting rejected messages, because we must insert them one-by-one instead of in one large update (but I think the net benefit of having the extra info far outweighs the cost, since this is a non-happy path anyway).
+- adding a note for macOS users (port 5000 already in use)
+- updating the command to be consistent with previous page (created `dev` stack but next page started `demo`)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-07 15:40:00 +0000 UTC
+        Created At 2023-06-21 17:27:20 +0000 UTC
     </div>
 </div>
 
@@ -99,11 +97,11 @@ Note that this does slightly reduce the performance of inserting rejected messag
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1335" class=".btn">#1335</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1346" class=".btn">#1346</a>
             </td>
             <td>
                 <b>
-                    Update idempotency.md to fix sentence
+                    Fix uniqueness check in InsertOrGetFFI to match indexes
                 </b>
             </td>
         </tr>
@@ -112,12 +110,14 @@ Note that this does slightly reduce the performance of inserting rejected messag
                 
             </td>
             <td>
-                <nil>
+                When guessing the reason for an insert conflict, the query needs to exactly match the configured database indexes. That means that the "name" and "networkName" queries need to both include "version" as well, otherwise we risk grabbing a row that isn't actually a conflict.
+
+Fixes #1347 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-07 09:53:13 +0000 UTC
+        Created At 2023-06-19 15:58:28 +0000 UTC
     </div>
 </div>
 
@@ -125,122 +125,30 @@ Note that this does slightly reduce the performance of inserting rejected messag
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1334" class=".btn">#1334</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1345" class=".btn">#1345</a>
             </td>
             <td>
                 <b>
-                    Move idempotency key architecture docs into main docs site
+                    FabConnect does not / can not set transactionIndex and eventIndex
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">migration_consideration</span>
             </td>
             <td>
-                <nil>
+                Fabric chaincode events when dispatched to FabConnect by the Fabric SDK do not contain the index within the block:
+https://github.com/hyperledger/fabric-sdk-go/blob/7af45cede6afa3939a9574bc9948cca9fb424257/pkg/common/providers/fab/eventservice.go#L43C1-L59
+
+So the only information upon which to build a unique `ProtocolID` for the event is the block number, and the transaction index (noting Hyperledger Fabric has a restriction of one transaction per block).
+
+Under load when multiple events are packed into a single block in Fabric, the FireFly Core code was de-duplicating them as a single event, because they all had the same `ProtocolID`, such as `000000000295/000000/000000` (where the second and third parts are always zeros).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-07 01:44:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1333" class=".btn">#1333</a>
-            </td>
-            <td>
-                <b>
-                    fix: multiple named tuple result from contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                Fixes EVM queries for:
-
-### Functions with multiple return values
-
-```solidity
-function myFunction() public view returns (uint256, uint256) 
-```
-
-Result of JSON will become:
-
-```js
-{
-  "output": "12345",
-  "output1": "12345" // prior to this PR, this value was missing
-}
-```
-
-### Functions with  named return values
-
-```solidity
-function myFunction() public view returns (myvalue uint256) 
-```
-
-```js
-{
-  "myvalue": "12345" // prior to this PR, this value was missing (empty object returned)
-}
-```
-
-### Functions with multiple named return values
-
-```solidity
-function myFunction() public view returns (my1 uint256, my2 uint256, my3 uint256) 
-```
-
-```js
-{
-  "my1": "12345", // all these values were missing (empty object returned)
-  "my2": "12345",
-  "my3": "12345" 
-}
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-06 14:38:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1332" class=".btn">#1332</a>
-            </td>
-            <td>
-                <b>
-                    Add fftokens docs on /deactivatepool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                New API added to fftokens API spec by these PRs:
-
-https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/136
-https://github.com/hyperledger/firefly-tokens-erc1155/pull/125
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-02 14:21:38 +0000 UTC
+        Created At 2023-06-19 02:15:36 +0000 UTC
     </div>
 </div>
 
