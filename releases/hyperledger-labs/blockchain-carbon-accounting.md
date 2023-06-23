@@ -15,26 +15,26 @@ permalink: /releases/hyperledger-labs/blockchain-carbon-accounting
         <tr>
             <td colspan="2">
                 <b>
-                    1.0.0
+                    Version 2.0.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.0
+                    v2.0.0
                 </span>
             </td>
             <td>
-                Functioning European and USA utility emissions accounting on Hyperledger Fabric with web-socket-security and Vault integration for Ethereum contracts.
+                Completed implementation of tokenizing emissions, transacting in carbon credits, DAO voting of carbon credits, deployment scripts.  See emissions-test.opentaps.org for Avalanche Fuji testnet and emissions.opentaps.org for Avalanche mainnet deployments.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/releases/tag/v1.0.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/releases/tag/v2.0.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-08 19:04:18 +0000 UTC
+        Created At 2023-03-28 16:08:25 +0000 UTC
     </span>
 </div>
 
