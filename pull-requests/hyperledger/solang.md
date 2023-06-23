@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1381" class=".btn">#1381</a>
+            </td>
+            <td>
+                <b>
+                    Followup regarding subxt test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Do not rely on a CI node to be able to compile the tests
+* Compile the tests in parallel
+* Add a short README  hinting about how to maintain this
+* Set me as the codeowner
+
+@extraymond if you see this and wondering why providing the metadata directly (again) instead of fetching from the node. I did not think about that if we fetch it directly, anyone clonening the Solang repo will also have to have our CI node running, otherwise compilation fails. This is a bit awkward so we decided to change it again.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 20:17:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1380" class=".btn">#1380</a>
             </td>
             <td>

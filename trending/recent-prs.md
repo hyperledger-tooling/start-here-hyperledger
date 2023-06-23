@@ -1,13 +1,13 @@
 
+[5635](https://github.com/hyperledger/besu/pull/5635) Add debug_getRawTransaction
+
+[1381](https://github.com/hyperledger/solang/pull/1381) Followup regarding subxt test
+
+[198](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/198) build(deps): bump github.com/cosmos/cosmos-sdk from 0.45.7 to 0.47.3
+
+[5634](https://github.com/hyperledger/besu/pull/5634) Start with txpool disabled
+
 [2452](https://github.com/hyperledger/sawtooth-core/pull/2452) fix REST API URL in intro xo transaction family docs
-
-[349](https://github.com/hyperledger/aries-framework-go-ext/pull/349) chore: use go 1.20 and afgo components in vc/status, vdr/jwk, vdr/longform
-
-[3603](https://github.com/hyperledger/aries-framework-go/pull/3603) refactor: didconfig client and verifier moved to new component
-
-[3638](https://github.com/hyperledger/iroha/pull/3638) [ci]: Iroha2 pr-generator test
-
-[2276](https://github.com/hyperledger/aries-cloudagent-python/pull/2276) feat: add anoncreds interface
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
