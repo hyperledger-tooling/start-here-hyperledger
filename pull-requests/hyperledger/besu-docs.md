@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1348" class=".btn">#1348</a>
+            </td>
+            <td>
+                <b>
+                    Update index.md, fix display code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix the snip code display
+
+<img width="513" alt="Screenshot 2023-06-23 at 14 00 23" src="https://github.com/hyperledger/besu-docs/assets/17565440/69ccd916-df69-415c-bf57-cef42bdffe55">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 06:59:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1343" class=".btn">#1343</a>
             </td>
             <td>
