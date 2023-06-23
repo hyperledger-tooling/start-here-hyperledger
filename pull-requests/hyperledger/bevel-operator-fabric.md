@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/165" class=".btn">#165</a>
+                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/177" class=".btn">#177</a>
             </td>
             <td>
                 <b>
-                    added k8s-gateway-api support 
+                    added support for auto cert renewal flags in hlf-operator helm chart
                 </b>
             </td>
         </tr>
@@ -27,51 +27,124 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
                 
             </td>
             <td>
-                <!--  Thanks for sending a pull request!
+                <!--  Thanks for sending a pull request! 
 -->
+
+
 #### What this PR does / why we need it:
+This PR allows the users to pass the auto-renewal flags while installing the hlf-operator. 
 #### Which issue(s) this PR fixes:
 <!--
 *Automatically closes linked issue when PR is merged.
-Usage: `Fixes #160`, or `Fixes https://github.com/hyperledger/bevel-operator-fabric/issues/160`.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #160
+Fixes #
+
 #### Special notes for your reviewer:
-@dviejokfs as discussed, have implemented gateway-api but have not removed istio support. Also , note that this feature does not cover the grpc proxy configuration yet that might be required by the fabric-operations console.But , everything else seems to be working fine
+
 #### Does this PR introduce a user-facing change?
 <!--
 If no, just write "NONE" in the release-note block below.
 If yes, a release note is required:
 Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
 -->
 ```release-note
-Yes. k8s-gateway-api must be installed in the cluster and a GatewayClass must be configured beforehand.
+
 ```
+
 #### Additional documentation, usage docs, etc.:
+
 <!--
 This section can be blank if this pull request does not require a release note.
+
 When adding links which point to resources within git repositories, like
 supporting documentation, please reference a specific commit and avoid
 linking directly to the master branch. This ensures that links reference a
 specific point in time, rather than a document that may change over time.
+
+
 -->
 ```docs
-Setup gateway-api:
 
-https://gateway-api.sigs.k8s.io/guides/#installing-gateway-api
-
-Install CRD's from the experimental channel from the link above
-
-Follow any of the implementation given here in the doc and have a GatewayClass configured with  any proxy of your choice (Eg. traefik, istio etc)
-
-https://gateway-api.sigs.k8s.io/implementations/
 ```
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-30 07:24:01 +0000 UTC
+        Created At 2023-06-23 05:16:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/175" class=".btn">#175</a>
+            </td>
+            <td>
+                <b>
+                    support for custom environment variable in chaincode instance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                <!--  Thanks for sending a pull request! 
+-->
+
+
+#### What this PR does / why we need it:
+Added support for custom environment variable in chaincode instance, this will allow setting up the environment variables in the chaincode instance.
+
+#### Which issue(s) this PR fixes:
+<!--
+*Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
+-->
+Fixes #174 
+
+#### Special notes for your reviewer:
+
+#### Does this PR introduce a user-facing change?
+<!--
+If no, just write "NONE" in the release-note block below.
+If yes, a release note is required:
+Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
+-->
+```release-note
+No
+```
+
+#### Additional documentation, usage docs, etc.:
+
+<!--
+This section can be blank if this pull request does not require a release note.
+
+When adding links which point to resources within git repositories, like
+supporting documentation, please reference a specific commit and avoid
+linking directly to the master branch. This ensures that links reference a
+specific point in time, rather than a document that may change over time.
+
+
+-->
+Users can now pass environment variables using `--env` flag
+```docs
+kubectl hlf externalchaincode sync --env=key=value --env=version=v1 ...................
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-17 08:05:41 +0000 UTC
     </div>
 </div>
 

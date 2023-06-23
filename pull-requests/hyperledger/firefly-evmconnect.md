@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/89" class=".btn">#89</a>
             </td>
             <td>
                 <b>
-                    pick fftm 1.2.14 with fix for mtls in fftm client
+                    A few more unit tests
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                pick fftm 1.2.14 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-31 14:47:58 +0000 UTC
+        Created At 2023-06-16 15:06:34 +0000 UTC
     </div>
 </div>
 

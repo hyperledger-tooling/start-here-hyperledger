@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/172" class=".btn">#172</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/176" class=".btn">#176</a>
             </td>
             <td>
                 <b>
-                    Replace pcft verifier in Test Harness and BC Wallet tests
+                    BCW fix message checkon remove contact
                 </b>
             </td>
         </tr>
@@ -27,13 +27,64 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                This PR replaces the Pan Canadian Chat verifier with an AATH verifier agent to do connectionless proof requests with CANdy Unverified Person Credentials. Half of the work for this was done in aries-agent-test-harness PR https://github.com/hyperledger/aries-agent-test-harness/pull/692.
-
+                This PR just changes the message check for the BC Wallet remove contact test to the proper case. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 21:07:40 +0000 UTC
+        Created At 2023-06-20 14:19:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/175" class=".btn">#175</a>
+            </td>
+            <td>
+                <b>
+                    change the check order for GENESIS or LEDGER URL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 12:58:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/174" class=".btn">#174</a>
+            </td>
+            <td>
+                <b>
+                    updated workflow to correctly start agents with correct ledgers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the workflows to properly set LEDGER URL or GENESIS URL depending on what is passed to start the test agents with.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-20 12:38:14 +0000 UTC
     </div>
 </div>
 

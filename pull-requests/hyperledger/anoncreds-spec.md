@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/146" class=".btn">#146</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/148" class=".btn">#148</a>
             </td>
             <td>
                 <b>
-                    chore(docs): fix discord link
+                    Added tails file prime generation and tails file hashing
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                <nil>
+                Before:
+![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/18d4fc6e-9662-484a-94b0-61752ba47ce2)
+
+After:
+![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/b7124c3f-4985-4f6f-a2df-e6c4a9ec98b6)
+![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/a57b257b-3708-406a-a159-6e9e758d864b)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 13:30:01 +0000 UTC
+        Created At 2023-06-19 16:04:34 +0000 UTC
     </div>
 </div>
 
