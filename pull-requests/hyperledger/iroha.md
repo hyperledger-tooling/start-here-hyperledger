@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3646" class=".btn">#3646</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3042: Fix bad request message.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Turns out this issue is kind of already fixed. I've just simply corrected the error message to exactly match the *expected* section of the issue.
+
+### Linked issue #3042
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-24 17:11:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3645" class=".btn">#3645</a>
             </td>
             <td>
@@ -453,63 +485,6 @@ Adds an index on rejected transactions that is then used to revalidate in the sa
     </table>
     <div class="right-align">
         Created At 2023-06-17 19:32:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3618" class=".btn">#3618</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: strong type hash in Value
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-* use strongly typed hashes in `Value` enum
-* remove unnecessary boxing of structs
-* move `TransactionValue`/`TransactionQueryResult` from `transaction.rs` into `query.rs`
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-17 13:32:16 +0000 UTC
     </div>
 </div>
 

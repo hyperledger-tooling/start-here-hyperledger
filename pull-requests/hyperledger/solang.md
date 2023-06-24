@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1390" class=".btn">#1390</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Implement `delegatecall()`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Required by upgradable proxy patterns.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-24 17:29:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1389" class=".btn">#1389</a>
+            </td>
+            <td>
+                <b>
+                    Bump Solana, Anchor and Ubuntu
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-24 13:20:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1386" class=".btn">#1386</a>
             </td>
             <td>
