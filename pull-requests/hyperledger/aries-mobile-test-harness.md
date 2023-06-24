@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/177" class=".btn">#177</a>
+            </td>
+            <td>
+                <b>
+                    Fix BCW revocation notification test post 969 updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR calibrates the tests to fixes to Credential Revocation features in BC Wallet, in part to BCW issue 969. This now should pass on Android, however since this 969 update iOS is not finding the Dismiss TestID on the Credential Details page so it should fail on iOS. See https://github.com/bcgov/bc-wallet-mobile/issues/951
+
+This PR also includes the opening up of iOS/Android devices including tablets, along with lifting some older platform version restrictions to see what happens in the regression tests. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 21:41:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/176" class=".btn">#176</a>
             </td>
             <td>

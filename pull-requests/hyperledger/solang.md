@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1386" class=".btn">#1386</a>
+            </td>
+            <td>
+                <b>
+                    Do not inline `vector_new`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 18:26:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1384" class=".btn">#1384</a>
             </td>
             <td>
@@ -257,77 +283,6 @@ Also, the accesor function should be declared `external` and therefore not acces
     </table>
     <div class="right-align">
         Created At 2023-06-19 15:43:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1370" class=".btn">#1370</a>
-            </td>
-            <td>
-                <b>
-                    Remove unnecessary code from lexer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The function `Lexer::next` has a `Result` as its returned type, but we never return `Err()`. This PR removes this unnecessary usage of `Result`.
-
-I found this while creating a new token for `@annotation`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-16 19:31:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1369" class=".btn">#1369</a>
-            </td>
-            <td>
-                <b>
-                    Allow returns values to be ignored in try catch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A try catch statement does not need to decode the return values if it is not interested.
-
-```
-interface I {
-      function func()   externalpublic returns (int, bool);
-}
-
-contract C {
-     function test(I i) public {
-           try I.func() {
-           }
-           catch (bytes memory bs) { 
-           }
-     } 
-}
-```
-
-Here `func()` returns two values but the try statement does not use them at all. This means they do not have abi decoded either.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-16 18:21:19 +0000 UTC
     </div>
 </div>
 

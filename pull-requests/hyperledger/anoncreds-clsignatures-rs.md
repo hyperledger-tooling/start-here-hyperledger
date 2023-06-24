@@ -219,31 +219,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/8" class=".btn">#8</a>
-            </td>
-            <td>
-                <b>
-                    Perform issuer operations without accessing tails file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A revocation witness is now created during the issuance process, which matches the usual pattern of usage, and is much faster for the issuer to create than for the prover.
-
-Large updates to the revocation registry may be faster depending on I/O speed (which is no longer a factor).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-17 00:06:50 +0000 UTC
-    </div>
-</div>
-
