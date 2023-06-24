@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/153" class=".btn">#153</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #152 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 21:58:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/151" class=".btn">#151</a>
             </td>
             <td>

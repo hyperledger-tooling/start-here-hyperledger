@@ -155,30 +155,3 @@ Addresses #2218
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2272" class=".btn">#2272</a>
-            </td>
-            <td>
-                <b>
-                    Minor revisions to the README.md and DevReadMe.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-16 19:22:56 +0000 UTC
-    </div>
-</div>
-

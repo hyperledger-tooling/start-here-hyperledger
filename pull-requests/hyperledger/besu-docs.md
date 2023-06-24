@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1349" class=".btn">#1349</a>
+            </td>
+            <td>
+                <b>
+                    Update versioning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update versioning to make the [release process](https://wiki.hyperledger.org/display/BESU/Documentation+release+process) simpler.
+
+Rename the `stable` version to the version number, so creating new versions doesn't require renaming the previous version. Keep the `stable` label and path for user-friendliness and so footer links and external links to the docs don't need to be changed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-23 20:30:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1348" class=".btn">#1348</a>
             </td>
             <td>
