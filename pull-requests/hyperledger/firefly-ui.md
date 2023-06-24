@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/217" class=".btn">#217</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/219" class=".btn">#219</a>
             </td>
             <td>
                 <b>
-                    add chinese translation
+                    modified readme
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                add chinese translation
+                While creating my ff-stack, it did throw some regex error(Error: stack name may not contain any character matching the regex: [^-_a-z0-9]) while naming it ;had to put the platform name- ethereum or fabric before the stack name too.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-17 04:05:22 +0000 UTC
+        Created At 2023-06-24 02:27:30 +0000 UTC
     </div>
 </div>
 
