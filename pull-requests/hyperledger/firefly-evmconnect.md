@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/89" class=".btn">#89</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/90" class=".btn">#90</a>
             </td>
             <td>
                 <b>
-                    A few more unit tests
+                    pick up rich query with groupby filter
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                <nil>
+                Picks up https://github.com/kaleido-io/firefly-transaction-manager/pull/3
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-16 15:06:34 +0000 UTC
+        Created At 2023-06-24 12:14:44 +0000 UTC
     </div>
 </div>
 

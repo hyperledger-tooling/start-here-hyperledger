@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    adding a function to retrive distinct values of a column
+                    adding support for groupby
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Adding a function in the CRUD interface for getting distinct values of a column
+                Add groupBy support for the sql filter builder
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-23 15:02:38 +0000 UTC
+        Created At 2023-06-24 11:55:44 +0000 UTC
     </div>
 </div>
 
