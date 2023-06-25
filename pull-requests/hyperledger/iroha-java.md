@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/341" class=".btn">#341</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/343" class=".btn">#343</a>
             </td>
             <td>
                 <b>
-                    [ci]: Update iroha2-java Actions versions
+                    feature (issue 342): fix deserializers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                fix deserializers
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-16 11:09:26 +0000 UTC
+        Created At 2023-06-25 14:22:18 +0000 UTC
     </div>
 </div>
 
