@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/601" class=".btn">#601</a>
-            </td>
-            <td>
-                <b>
-                    Update documentation for v1.3 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-18 14:58:08 +0000 UTC
-    </div>
-</div>
-
