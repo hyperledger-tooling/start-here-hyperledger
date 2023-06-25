@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-ios</span><span class="chip">skip-napi-m1</span>
             </td>
             <td>
                 <nil>
