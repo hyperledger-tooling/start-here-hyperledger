@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/478" class=".btn">#478</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/480" class=".btn">#480</a>
             </td>
             <td>
                 <b>
-                    standalone
+                    load idemix as produced by fabric-ca
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                This PR allows an FSC node to not fail when it is alone in the network
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-31 06:51:16 +0000 UTC
+        Created At 2023-06-26 08:16:03 +0000 UTC
     </div>
 </div>
 

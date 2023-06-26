@@ -1,13 +1,13 @@
 
-[171](https://github.com/hyperledger-labs/orion-sdk-go/pull/171) Improve readme, update maintainers
+[886](https://github.com/hyperledger/aries-vcx/pull/886) Support peer:did:3
 
-[403](https://github.com/hyperledger-labs/blockchain-explorer/pull/403) BE-399 | Show transaction details for the first Config type transaction
+[131](https://github.com/hyperledger/toc/pull/131) Add Caliper 2023 Q2 project update
 
-[402](https://github.com/hyperledger-labs/blockchain-explorer/pull/402) fix incorrect default password on README.md
+[3650](https://github.com/hyperledger/iroha/pull/3650) [ci]: Update rustup toolchain & add musl-x86_64 component
 
-[1392](https://github.com/hyperledger/solang/pull/1392) add contract author and version flags
+[1396](https://github.com/hyperledger/solang/pull/1396) Add markdown formatting to hover messages
 
-[343](https://github.com/hyperledger/iroha-java/pull/343) feature (issue 342): fix deserializers
+[1395](https://github.com/hyperledger/solang/pull/1395) Drop diagnostics on closing the file
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/473" class=".btn">#473</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/474" class=".btn">#474</a>
             </td>
             <td>
                 <b>
-                    standalone
+                    F fabricca
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                This PR allows the FTS to not fail when it is alone in the network.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-31 06:51:36 +0000 UTC
+        Created At 2023-06-26 08:15:46 +0000 UTC
     </div>
 </div>
 

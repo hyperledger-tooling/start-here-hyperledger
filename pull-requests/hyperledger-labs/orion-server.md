@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/510" class=".btn">#510</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/511" class=".btn">#511</a>
             </td>
             <td>
                 <b>
-                    Cache last snapshot after commit
+                    Update maintainers
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">performance</span>
+                
             </td>
             <td>
-                - Caching DB snapshot after commit to avoid creating a snapshot for each Get operation
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 09:34:08 +0000 UTC
+        Created At 2023-06-26 06:27:21 +0000 UTC
     </div>
 </div>
 

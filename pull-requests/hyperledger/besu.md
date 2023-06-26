@@ -195,9 +195,16 @@ Part of #5377
 
 ## PR description
 
+This PR review the way the txpool is enabled/disabled in a more intuitive way and also[ fix a bug ](https://github.com/hyperledger/besu/issues/5636)that happens when enabling the layered txpool when not synced.
+
+The main point of disabling the txpool, is to avoid its overhead during the initial sync (or resync) phases, since pending transactions are always evaluated and processed against the current head, so if we are syncing there is no value in processing them, and we can wait until the sync is done to enabled the txpool.
+The current implementation is a bit convoluted, since the txpool is always enabled at startup, but if the initial sync is not done, then the txpool is disabled, to be re-enabled after the sync is done, while it is straightforward to just start with the txpool disabled, and enabled it when the sync is done.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+fixes #5636 
             </td>
         </tr>
     </table>
@@ -518,41 +525,6 @@ This implementation was tested by @winsvega who confirmed the performance boost
     </table>
     <div class="right-align">
         Created At 2023-06-20 03:13:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5619" class=".btn">#5619</a>
-            </td>
-            <td>
-                <b>
-                    Reload flat db strategy on clear
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-During the snapsync we can have a nullpointer because of a clear we are doing when we are starting from scratch
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 08:56:03 +0000 UTC
     </div>
 </div>
 

@@ -202,7 +202,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                     feat (cacti-cmd-gui-app): feat extend common cacti gui app to operate with fabric hyperledger
+                    feat(cacti-cmd-gui-app): add new feat to extend common cacti gui app to operate with fabric hyperledger and ethereum
                 </b>
             </td>
         </tr>
@@ -214,10 +214,10 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 Add feature and options to switch in GUI app to visualize fabric hyperledger ledger data stored in supabase by persistence plugins
 
 Depends on: https://github.com/hyperledger/cacti/pull/2331
-
+former  pull 2363
 Signed-off-by: Barnaba Pawelczak [barnaba.pawelczak@fujitsu.com](mailto:barnaba.pawelczak@fujitsu.com)
 
-former  pull 2363
+
             </td>
         </tr>
     </table>
