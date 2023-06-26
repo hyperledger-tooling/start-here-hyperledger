@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1397" class=".btn">#1397</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Implement builtin for `set_code_hash` API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Exposes a low-level builtin function for calling `seal_set_code_hash`. The code hash arguments is of type `bytes` intentionally (and not of type `Hash`, so that it matches the the pointer expected by the API function. `Hash`, which is just an alias to `bytes32`, will internally be represented as an `i256`. I came to the conclusion that, given this type conversion can easily be written in Solidity, we do and should not want to deal with that in the compiler, be it in emit or in codegen or elsewhere. 
+Instead, a more high level function, that asks for a `Hash` argument and converts that to `bytes`, should rather be implement in the substrate Solidity library (once we have it).
+Additionally, if some parachain decides to use a hash longer than 32bytes, using just a `bytes` pointer will still work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-26 15:19:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1396" class=".btn">#1396</a>
             </td>
             <td>
@@ -217,32 +245,6 @@ The user can set this in `User Settings` (press ctrl/cmd+,) and then searching f
     </table>
     <div class="right-align">
         Created At 2023-06-24 13:20:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1386" class=".btn">#1386</a>
-            </td>
-            <td>
-                <b>
-                    Do not inline `vector_new`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-23 18:26:11 +0000 UTC
     </div>
 </div>
 
@@ -455,44 +457,6 @@ This PR DOES NOT solve #1367, but it is something that needed a fix.
     </table>
     <div class="right-align">
         Created At 2023-06-20 19:56:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1374" class=".btn">#1374</a>
-            </td>
-            <td>
-                <b>
-                    Implicit accessor function should return struct members, not struct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If the acessor function returns a single struct, then the members should be returned. If any of those members are structs, then those members will remain structs.
-
-	contract C {
-		struct S { int a; bool b; }
-
-		S public s;
-
-		function foo() public {
-			(int a, bool b) = this.s();
-		}
-	}
-
-Also, the accesor function should be declared `external` and therefore not accessible as an internal function call.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 15:43:36 +0000 UTC
     </div>
 </div>
 

@@ -167,31 +167,3 @@ Related fix that will also need to be integrated: https://github.com/hyperledger
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1346" class=".btn">#1346</a>
-            </td>
-            <td>
-                <b>
-                    Fix uniqueness check in InsertOrGetFFI to match indexes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When guessing the reason for an insert conflict, the query needs to exactly match the configured database indexes. That means that the "name" and "networkName" queries need to both include "version" as well, otherwise we risk grabbing a row that isn't actually a conflict.
-
-Fixes #1347 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 15:58:28 +0000 UTC
-    </div>
-</div>
-
