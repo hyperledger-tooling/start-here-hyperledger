@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-blssignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-blssignatures-rs/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger/indy-blssignatures-rs/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Adding governance documents to repo
+                    Fix Timo's name
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/indy-blssignatures-rs
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 15:00:15 +0000 UTC
+        Created At 2023-06-26 17:33:20 +0000 UTC
     </div>
 </div>
 

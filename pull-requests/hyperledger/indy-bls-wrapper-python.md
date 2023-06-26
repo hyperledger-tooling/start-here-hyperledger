@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-bls-wrapper-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-bls-wrapper-python/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger/indy-bls-wrapper-python/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    Initial governance and README docs for the repository
+                    Fix Timo's name
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/indy-bls-wrapper-python
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 20:35:30 +0000 UTC
+        Created At 2023-06-26 17:33:12 +0000 UTC
     </div>
 </div>
 
