@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Try to fix ci (running out of space)
+                    CI: Skip test-android job
                 </b>
             </td>
         </tr>

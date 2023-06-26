@@ -29,8 +29,21 @@ permalink: /pull-requests/hyperledger/firefly
             <td>
                 In PR chain with #1343 
 
-> Still work in progress
-
+- Creates a new `txwriter` package that depends on both `operations` and `txcommon` to do batched inserts
+   - Dispatches to a pool of background workers
+   - Assigns a new ID to each transaction in the batch
+   - Splits to transactions with/without `idempotencyKey` set
+   - Attempts to insert all with new `InsertTransactions` multi-insert function in DB layer
+   - Handles partial results on the `idempotencyKey` set TX, by querying those idempotency keys
+   - Compares ID of the transactions in the DB, with the inserts, to find the duplicates
+   - Inserts the `operations` with a new multi-insert function in the DB layer (these always have new IDs)
+- Updates `contracts` package to use ^^^ instead of one-by-one insertion of tx+ops
+   - The inbound thread for invoke/deploy requests doesn't even have a DB transaction now (`RunAsGroup` call removed)
+   - Creation of the `core.Operation` moved up the function, as need to be passed in
+   - Idempotency handling to resubmit operations in the case of a clash, unchanged
+- Adds caching to `contracts` package
+   - For requests referencing an FFI: FFI ID + `methodPath` -> `FFIMethod` + `[]*FFIError`
+   - For all requests: Hash of compiled JSON Schema, to the JSON Schema object
 
             </td>
         </tr>
