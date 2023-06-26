@@ -1,13 +1,13 @@
 
-[v1.2.17](https://github.com/hyperledger/firefly-common/releases/tag/v1.2.17) v1.2.17
+[node_orion-0.14.1](https://github.com/hyperledger/bevel/releases/tag/node_orion-0.14.1) node_orion-0.14.1
 
-[v0.2.0](https://github.com/hyperledger/fabric-config/releases/tag/v0.2.0) v0.2.0
+[node_key_mgmt-0.14.1](https://github.com/hyperledger/bevel/releases/tag/node_key_mgmt-0.14.1) node_key_mgmt-0.14.1
 
-[v1.2.6](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.6) v1.2.6
+[node_besu-0.14.1](https://github.com/hyperledger/bevel/releases/tag/node_besu-0.14.1) node_besu-0.14.1
 
-[v2.2.22](https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.22) v2.2.22
+[generate_ambassador_certs-0.14.1](https://github.com/hyperledger/bevel/releases/tag/generate_ambassador_certs-0.14.1) generate_ambassador_certs-0.14.1
 
-[v1.3.0](https://github.com/hyperledger/fabric-gateway/releases/tag/v1.3.0) v1.3.0
+[besu_connector-0.14.1](https://github.com/hyperledger/bevel/releases/tag/besu_connector-0.14.1) besu_connector-0.14.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
