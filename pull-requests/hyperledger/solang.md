@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1392" class=".btn">#1392</a>
+            </td>
+            <td>
+                <b>
+                    add contract author and version flags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements a way to specify the author and version of all contracts via the CLI or via "solang.toml"
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-26 02:37:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1391" class=".btn">#1391</a>
             </td>
             <td>

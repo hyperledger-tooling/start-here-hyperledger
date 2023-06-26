@@ -41,9 +41,12 @@ permalink: /pull-requests/hyperledger/firefly
    - The inbound thread for invoke/deploy requests doesn't even have a DB transaction now (`RunAsGroup` call removed)
    - Creation of the `core.Operation` moved up the function, as need to be passed in
    - Idempotency handling to resubmit operations in the case of a clash, unchanged
+- Updates blockchain connector interface to split parsing with execution
+   - We were compiling the FFI schema twice per transaction in the blockchain connector
 - Adds caching to `contracts` package
    - For requests referencing an FFI: FFI ID + `methodPath` -> `FFIMethod` + `[]*FFIError`
    - For all requests: Hash of compiled JSON Schema, to the JSON Schema object
+   - Also builds a hash-of-hashes across the combination of method+errors, which is used to cache the result from the blockchain connector validation
 
             </td>
         </tr>
@@ -189,37 +192,6 @@ Fixes #1347
     </table>
     <div class="right-align">
         Created At 2023-06-19 15:58:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1345" class=".btn">#1345</a>
-            </td>
-            <td>
-                <b>
-                    FabConnect does not / can not set transactionIndex and eventIndex
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Fabric chaincode events when dispatched to FabConnect by the Fabric SDK do not contain the index within the block:
-https://github.com/hyperledger/fabric-sdk-go/blob/7af45cede6afa3939a9574bc9948cca9fb424257/pkg/common/providers/fab/eventservice.go#L43C1-L59
-
-So the only information upon which to build a unique `ProtocolID` for the event is the block number, and the transaction index (noting Hyperledger Fabric has a restriction of one transaction per block).
-
-Under load when multiple events are packed into a single block in Fabric, the FireFly Core code was de-duplicating them as a single event, because they all had the same `ProtocolID`, such as `000000000295/000000/000000` (where the second and third parts are always zeros).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 02:15:36 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
+[171](https://github.com/hyperledger-labs/orion-sdk-go/pull/171) Improve readme, update maintainers
+
+[403](https://github.com/hyperledger-labs/blockchain-explorer/pull/403) BE-399 | Show transaction details for the first Config type transaction
+
+[402](https://github.com/hyperledger-labs/blockchain-explorer/pull/402) fix incorrect default password on README.md
+
+[1392](https://github.com/hyperledger/solang/pull/1392) add contract author and version flags
+
 [343](https://github.com/hyperledger/iroha-java/pull/343) feature (issue 342): fix deserializers
-
-[1391](https://github.com/hyperledger/solang/pull/1391) Optimize modifier CFGs
-
-[1390](https://github.com/hyperledger/solang/pull/1390) Substrate: Implement `delegatecall()`
-
-[3646](https://github.com/hyperledger/iroha/pull/3646) [fix] #3042: Fix bad request message.
-
-[5639](https://github.com/hyperledger/besu/pull/5639) Update evmtool graalvm build
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
