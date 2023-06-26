@@ -92,31 +92,3 @@ This also removes some remaining reliance on "instancePath", which is now deprec
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/126" class=".btn">#126</a>
-            </td>
-            <td>
-                <b>
-                    Package lock v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `npm install` in the `samples/solidity` directory is taking longer than it should on supported node versions as it is having to convert the package lock from v1 to v2 format. The switch to v2 came with npm 7. npm 6 was supported for as long as node 14 was still supported, but node 14 is now EOL.
-
-I've also removed the truffle dependency as it is a large dependency which looks to be superseded by hardhat now.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 10:41:08 +0000 UTC
-    </div>
-</div>
-

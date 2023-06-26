@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/283" class=".btn">#283</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies to address security vulnerabilities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - CVE-2022-45688
-- CVE-2022-1471
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 11:47:19 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4298" class=".btn">#4298</a>
+            </td>
+            <td>
+                <b>
+                    update Fabric to include fabric-config latest commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- dependency update
+
+
+#### Description
+
+update fabric-config version to include the latest commit
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-26 08:08:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4297" class=".btn">#4297</a>
             </td>
             <td>
@@ -119,36 +153,6 @@ update fabric-config version in go.mod
     </table>
     <div class="right-align">
         Created At 2023-06-21 08:33:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4289" class=".btn">#4289</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] BFT config doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add BFT config documentation 
-
-#### Type of change
-
-- Documentation update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 10:55:08 +0000 UTC
     </div>
 </div>
 

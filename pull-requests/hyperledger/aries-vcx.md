@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/886" class=".btn">#886</a>
+            </td>
+            <td>
+                <b>
+                    Support peer:did:3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds support for peer did method 3.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-26 12:27:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/885" class=".btn">#885</a>
             </td>
             <td>
@@ -27,7 +53,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">skip-ios</span><span class="chip">skip-napi-m1</span>
             </td>
             <td>
-                <nil>
+                - Android builds recently started failing due to lack of disk space on github runners
+- This pr fixes the andorid-build job itself, but the problem re-occurs in android test jobs
+   - do not install `npm`
+   - moves downloading emulator to scripts to latter phase, just before testing. This significantly decreases size of the job
+   - remove seemingly unnecessary nodejs/react-native related items from java wrapper directory
+- Fixing the disk space issue would require bigger revision of the entire approach to find places where we can be more efficient. Having other higher priority in backlog, and libvcx being deprecated, this skips the android test job in CI instead of fixing the issue. 
             </td>
         </tr>
     </table>
