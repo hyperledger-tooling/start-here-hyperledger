@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5642" class=".btn">#5642</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Set CancunGasCalculator maxPrecompile to KZG_POINT_EVAL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Cancun implements a new precompile and the gas calculator needs to consider its new address.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 04:13:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5641" class=".btn">#5641</a>
             </td>
             <td>
@@ -548,58 +575,6 @@ This implementation was tested by @winsvega who confirmed the performance boost
     </table>
     <div class="right-align">
         Created At 2023-06-20 18:33:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5621" class=".btn">#5621</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 23.4.4-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for version 23.4.4-SNAPSHOT
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 03:34:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5620" class=".btn">#5620</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.4.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 23.4.3
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 03:13:03 +0000 UTC
     </div>
 </div>
 
