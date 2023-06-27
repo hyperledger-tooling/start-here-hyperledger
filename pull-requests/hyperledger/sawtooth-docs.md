@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/198" class=".btn">#198</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/200" class=".btn">#200</a>
             </td>
             <td>
                 <b>
-                    Add Inclusive Language information
+                    link to 1-2 PoET yaml in creating sawtooth network guide
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                This fixes a number of issues reported via Discord with the usability of PoET consensus in the [Creating a Sawtooth Network](https://sawtooth.hyperledger.org/docs/1.2/app_developers_guide/creating_sawtooth_network.html) by linking to the `1-2` branch docker compose yaml file, which uses `chime` images.  
+
+---
+[SAW-16](https://blockchaintp.atlassian.net/browse/SAW-16)
+
+Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-25 20:23:18 +0000 UTC
+        Created At 2023-06-27 15:02:36 +0000 UTC
     </div>
 </div>
 
