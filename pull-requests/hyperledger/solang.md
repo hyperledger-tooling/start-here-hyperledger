@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1402" class=".btn">#1402</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that a constructor cannot be run twice on the same data account
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The constructor code path was not checking that the data account magic number is not populated.
+
+The change also exposed another issue: when a pure function is called, there should be no load of data magic number, this may result in a access violation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 09:22:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1401" class=".btn">#1401</a>
+            </td>
+            <td>
+                <b>
+                    Make rust analyzer work again
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This slipped in, nuke it to fix RA
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 08:04:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1400" class=".btn">#1400</a>
             </td>
             <td>
@@ -270,7 +324,9 @@ The user can set this in `User Settings` (press ctrl/cmd+,) and then searching f
                 
             </td>
             <td>
-                <nil>
+                Solana 1.16.1
+Ubuntu 22.04 rather than 20.04
+Anchor 0.28.0
             </td>
         </tr>
     </table>

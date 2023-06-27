@@ -1,13 +1,13 @@
 
-[5642](https://github.com/hyperledger/besu/pull/5642) [4844] Set CancunGasCalculator maxPrecompile to KZG_POINT_EVAL
+[708](https://github.com/hyperledger/fabric-private-chaincode/pull/708) Updates
 
-[2519](https://github.com/hyperledger/cacti/pull/2519) build(tools): bump DinD base images - fix cgroup v2 sed: write error
+[1402](https://github.com/hyperledger/solang/pull/1402) Ensure that a constructor cannot be run twice on the same data account
 
-[5641](https://github.com/hyperledger/besu/pull/5641) Remove BLS12 from cancun
+[1401](https://github.com/hyperledger/solang/pull/1401) Make rust analyzer work again
 
-[1491](https://github.com/hyperledger/aries-framework-javascript/pull/1491) feat(anoncreds): allow automatic create link secret
+[1400](https://github.com/hyperledger/solang/pull/1400) Runtime error strings must be LLVM constant strings instead of dynamically allocated
 
-[1350](https://github.com/hyperledger/besu-docs/pull/1350) Move Nico and Roland to emeritus maintainers
+[1397](https://github.com/hyperledger/solang/pull/1397) Substrate: Implement builtin for `set_code_hash` API
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

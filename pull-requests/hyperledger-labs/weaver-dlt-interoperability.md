@@ -168,29 +168,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/412" class=".btn">#412</a>
-            </td>
-            <td>
-                <b>
-                    fix(besu): fix web3 verison to 1.10
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes issue with besu testnet not able to start
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 08:48:42 +0000 UTC
-    </div>
-</div>
-
