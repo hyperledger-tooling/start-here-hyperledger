@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2519" class=".btn">#2519</a>
+            </td>
+            <td>
+                <b>
+                    build(tools): bump DinD base images - fix cgroup v2 sed: write error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump the versions across the board so that all our
+test container images are fixed.
+
+Once this is merged, we can start upgrading the
+images that the test cases are using (for now
+they remain pinned to the previous, buggy images)
+
+Fixes #2518
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 00:51:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2517" class=".btn">#2517</a>
             </td>
             <td>
@@ -514,186 +549,6 @@ Changed the line 24 of the dockerfile, to remove the use of the erroneous setup.
     </table>
     <div class="right-align">
         Created At 2023-06-20 14:36:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2512" class=".btn">#2512</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump @openzeppelin/contracts from 4.9.1 to 4.9.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) from 4.9.1 to 4.9.2.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/releases"><code>@​openzeppelin/contracts</code>'s releases</a>.</em></p>
-<blockquote>
-<h2>v4.9.2</h2>
-<blockquote>
-<p><strong>Note</strong>
-This release contains a fix for <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-wprv-93r4-jj2p">https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-wprv-93r4-jj2p</a>.</p>
-</blockquote>
-<ul>
-<li><code>MerkleProof</code>: Fix a bug in <code>processMultiProof</code> and <code>processMultiProofCalldata</code> that allows proving arbitrary leaves if the tree contains a node with value 0 at depth 1.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.2/CHANGELOG.md"><code>@​openzeppelin/contracts</code>'s changelog</a>.</em></p>
-<blockquote>
-<h2>4.9.2 (2023-06-16)</h2>
-<ul>
-<li><code>MerkleProof</code>: Fix a bug in <code>processMultiProof</code> and <code>processMultiProofCalldata</code> that allows proving arbitrary leaves if the tree contains a node with value 0 at depth 1.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/e50c24f5839db17f46991478384bfda14acfb830"><code>e50c24f</code></a> Release v4.9.2 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4364">#4364</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4d2383e17186be3e8ccf5a442e9686ecc7de1c55"><code>4d2383e</code></a> Merge pull request from GHSA-wprv-93r4-jj2p</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/f03420b5c77ae3cfa73fce4ffc7f4778cfa2b503"><code>f03420b</code></a> Remove automatic conflict resolution for merge from release branch (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4362">#4362</a>)</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/ded8c9eedb9a03b0703b65d430e6d0076cb0e444"><code>ded8c9e</code></a> Update index.adoc (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4336">#4336</a>)</li>
-<li>See full diff in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v4.9.1...v4.9.2">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts&package-manager=npm_and_yarn&previous-version=4.9.1&new-version=4.9.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cacti/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 20:16:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2511" class=".btn">#2511</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump @openzeppelin/contracts-upgradeable from 4.9.1 to 4.9.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [@openzeppelin/contracts-upgradeable](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable) from 4.9.1 to 4.9.2.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/releases"><code>@​openzeppelin/contracts-upgradeable</code>'s releases</a>.</em></p>
-<blockquote>
-<h2>v4.9.2</h2>
-<blockquote>
-<p><strong>Note</strong>
-This release contains a fix for <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-wprv-93r4-jj2p">https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-wprv-93r4-jj2p</a>.</p>
-</blockquote>
-<ul>
-<li><code>MerkleProof</code>: Fix a bug in <code>processMultiProof</code> and <code>processMultiProofCalldata</code> that allows proving arbitrary leaves if the tree contains a node with value 0 at depth 1.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/v4.9.2/CHANGELOG.md"><code>@​openzeppelin/contracts-upgradeable</code>'s changelog</a>.</em></p>
-<blockquote>
-<h2>4.9.2 (2023-06-16)</h2>
-<ul>
-<li><code>MerkleProof</code>: Fix a bug in <code>processMultiProof</code> and <code>processMultiProofCalldata</code> that allows proving arbitrary leaves if the tree contains a node with value 0 at depth 1.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/commit/bc95521e34dcd49792065e264a7ad2b5a86f0091"><code>bc95521</code></a> Transpile e50c24f5</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/commit/e7d20ee1cecbfa36bd75ffb4b2e5dad4c47801f1"><code>e7d20ee</code></a> Transpile 4d2383e1</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/commit/8aac85b00f7f0a96b431a85ab96db81d356514a7"><code>8aac85b</code></a> Transpile f03420b5</li>
-<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/commit/953a201b0b60f70337ea4d2245500552f58fb5d5"><code>953a201</code></a> Transpile ded8c9ee</li>
-<li>See full diff in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/compare/v4.9.1...v4.9.2">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts-upgradeable&package-manager=npm_and_yarn&previous-version=4.9.1&new-version=4.9.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cacti/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 19:50:46 +0000 UTC
     </div>
 </div>
 

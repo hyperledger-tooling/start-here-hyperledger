@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/130" class=".btn">#130</a>
-            </td>
-            <td>
-                <b>
-                    June 22 2023 Agenda
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 20:24:42 +0000 UTC
-    </div>
-</div>
-

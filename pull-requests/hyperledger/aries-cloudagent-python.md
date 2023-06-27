@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2282" class=".btn">#2282</a>
+            </td>
+            <td>
+                <b>
+                    0.8.2-rc1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR for Release 0.8.2-rc1.  This may be the final PR before 0.8.2.  We'd still like to get 2233 into the release, but at this point it's looking like too high a risk.
+
+- 0.8.2-rc1
+- Add note about PR 2255, and change its title
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-26 21:51:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2276" class=".btn">#2276</a>
             </td>
             <td>
@@ -117,41 +147,13 @@ post /anoncreds/publish-revocations
 - Updates to tests. Sorry :grimacing: -- we have been testing using an integration style test that calls the added admin API endpoints. I have not included these tests in this PR for the sake of cleanliness. I uploaded the test as a gist here: https://gist.github.com/dbluhm/4d33d8946d23dbaced9be825c49a9d5c
 - Automated setup of revocation artifacts -- I have some WIP but opted to hurry up and open this PR rather than wait for me to finish.
 - did:indy and did:web implementations
+- Endorser support -- this can be implemented through a separate Indy registry plugin or through `options` to the existing registry
+- Revocation recovery is still Indy specific at the moment
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-06-22 17:01:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2273" class=".btn">#2273</a>
-            </td>
-            <td>
-                <b>
-                    Add replacement_id to API.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                create/create-offer, send/send-offer now have replacement_id in the POST body to set the id
-
-Addresses #2218
-
-`replacement_id` for [RFC-0453](https://github.com/hyperledger/aries-rfcs/tree/main/features/0453-issue-credential-v2) was half implemented, just needed to expose it to the API for the issuer to set the value.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 00:46:56 +0000 UTC
     </div>
 </div>
 

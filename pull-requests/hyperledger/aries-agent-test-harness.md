@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/699" class=".btn">#699</a>
-            </td>
-            <td>
-                <b>
-                    Fix acapy back channel builds.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Explicitly use python:3.7-slim-bullseye.  python:3.7-slim is now based on bookworm, and there are no Indy SDK packages for that release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-19 19:18:49 +0000 UTC
-    </div>
-</div>
-
