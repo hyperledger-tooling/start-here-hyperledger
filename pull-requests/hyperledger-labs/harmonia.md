@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/37" class=".btn">#37</a>
+            </td>
+            <td>
+                <b>
+                    Update README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix ERC 721
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 16:06:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/harmonia/pull/36" class=".btn">#36</a>
             </td>
             <td>

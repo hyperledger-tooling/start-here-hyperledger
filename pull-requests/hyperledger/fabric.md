@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4299" class=".btn">#4299</a>
+            </td>
+            <td>
+                <b>
+                    Create CITATION.cff
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+Please create a CITATION.cff file so researchers can cite this repo. Thank you.
+
+#### Additional details
+
+
+#### Related issues
+
+
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 14:50:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4298" class=".btn">#4298</a>
             </td>
             <td>

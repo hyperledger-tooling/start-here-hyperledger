@@ -92,29 +92,3 @@ https://hyperledger.github.io/fabric-gateway-java/release-2.2/org/hyperledger/fa
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/95" class=".btn">#95</a>
-            </td>
-            <td>
-                <b>
-                    Add XSS protection in Header config and minor refactorings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 13:03:08 +0000 UTC
-    </div>
-</div>
-
