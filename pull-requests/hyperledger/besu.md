@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5641" class=".btn">#5641</a>
+            </td>
+            <td>
+                <b>
+                    Remove BLS12 from cancun
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+BLS12 signatures were speculatively added in cancun in late 2022.  This is no longer accurate.  Move the implementation to the "Future_EIPs" fork so that it will remain testable and not accidentally get included accidentally.  Also add missing fluent APIs.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 00:18:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5640" class=".btn">#5640</a>
             </td>
             <td>
@@ -40,7 +72,7 @@ DEBUG[06-19|15:15:40.360] Message handling failed in `eth`         id=a1697db12e
 DEBUG[06-19|15:15:40.360] Removing p2p peer                        peercount=10 id=a1697db12e1f2986 duration=12.956ms     req=false err="invalid message: message msg #8 (157028 bytes): invalid message: (code 8) (size 157028) rlp: non-canonical integer (leading zero bytes) for uint32, decoding into (eth.NewPooledTransactionHashesPacket68).Sizes[0]"
 ```
 
-Contacting the author of the EIP for making it clearer in which data type is used for this message.
+Contacting the author of the EIP for making it clearer in which data type is used for this message, see https://github.com/ethereum/EIPs/pull/7233
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1400" class=".btn">#1400</a>
+            </td>
+            <td>
+                <b>
+                    Runtime error strings must be LLVM constant strings instead of dynamically allocated
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The contract linked at #1367 calls `vector_new` too many times, because the runtime error strings are dynamically allocated during execution. This PR makes the runtime error strings constant attributes in LLVM, so they are not allocated.
+
+In addition, this PR has these changes:
+1. The test case caused a stack overflow in constant folding, so I split `fn expression` into multiple small functions.
+2. `log_runtime_error` contained repeated code for both targets and has been removed from the `trait TargetRuntime`.
+3. `error_message_with_loc` now adds the new line character.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-26 21:26:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1397" class=".btn">#1397</a>
             </td>
             <td>
