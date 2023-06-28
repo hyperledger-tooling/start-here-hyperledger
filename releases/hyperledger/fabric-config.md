@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/fabric-config
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.0
+                    v0.2.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.0
+                    v0.2.1
                 </span>
             </td>
             <td>
-                Update to github.com/hyperledger/fabric-protos-go v0.3.0.
+                Add support for SmartBFT protos.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-config/releases/tag/v0.2.0" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-config/releases/tag/v0.2.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-20 13:10:51 +0000 UTC
+        Created At 2023-06-23 08:46:11 +0000 UTC
     </span>
 </div>
 
