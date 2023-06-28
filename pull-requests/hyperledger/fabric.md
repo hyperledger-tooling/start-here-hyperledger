@@ -166,36 +166,3 @@ Change-Id: I274d8883add91fac08da5202199d1bac53e99adb
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4291" class=".btn">#4291</a>
-            </td>
-            <td>
-                <b>
-                    update of fabric-config version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- update
-
-#### Description
-
-update fabric-config version in go.mod
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-21 08:33:14 +0000 UTC
-    </div>
-</div>
-

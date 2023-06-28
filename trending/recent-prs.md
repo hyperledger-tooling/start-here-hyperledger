@@ -1,13 +1,13 @@
 
+[39](https://github.com/hyperledger-labs/harmonia/pull/39) Test proof of inclusion
+
+[410](https://github.com/hyperledger-labs/blockchain-explorer/pull/410) Display correct chaincode metadata fix in the backend
+
+[409](https://github.com/hyperledger-labs/blockchain-explorer/pull/409) BE-401 | piechart css fix
+
+[407](https://github.com/hyperledger-labs/blockchain-explorer/pull/407) Blocks pagination query fix in the backend
+
 [1405](https://github.com/hyperledger/solang/pull/1405) Substrate: Distinct dispatch CFG for `call` and `deploy`
-
-[1404](https://github.com/hyperledger/solang/pull/1404) June release
-
-[1403](https://github.com/hyperledger/solang/pull/1403) Move stdlib build output to `target` folder
-
-[37](https://github.com/hyperledger-labs/harmonia/pull/37) Update README.md
-
-[200](https://github.com/hyperledger/sawtooth-docs/pull/200) link to 1-2 PoET yaml in creating sawtooth network guide
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
