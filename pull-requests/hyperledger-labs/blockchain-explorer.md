@@ -14,6 +14,154 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/412" class=".btn">#412</a>
+            </td>
+            <td>
+                <b>
+                    BE-406 | send channelhash to metadata api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--  Thanks for sending a pull request! 
+-->
+
+
+#### What this PR does / why we need it:
+By sending the channelhash to fetch metadata, The Chaincode Metadata fetches and displays for the correct Chaincodes present in the correct Channel that we are in.
+#### Which issue(s) this PR fixes:
+<!--
+*Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
+-->
+Fixes #406 
+
+#### Special notes for your reviewer:
+Has dependency on PR rasied for https://github.com/hyperledger-labs/blockchain-explorer/issues/405
+#### Does this PR introduce a user-facing change?
+<!--
+If no, just write "NONE" in the release-note block below.
+If yes, a release note is required:
+Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
+-->
+```release-note
+
+```
+
+#### Additional documentation, usage docs, etc.:
+
+<!--
+This section can be blank if this pull request does not require a release note.
+
+When adding links which point to resources within git repositories, like
+supporting documentation, please reference a specific commit and avoid
+linking directly to the master branch. This ensures that links reference a
+specific point in time, rather than a document that may change over time.
+
+
+-->
+```docs
+
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 14:28:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/411" class=".btn">#411</a>
+            </td>
+            <td>
+                <b>
+                    Backend- Improper updation of Txn Count and Chaincodes list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--  Thanks for sending a pull request! 
+-->
+
+
+#### What this PR does / why we need it:
+Backend - Issue in updating the Txn count w.r.t mutiple versions of the same chaincode and issue in fetching the chaincodes list w.r.t to other channel.
+Considerations:
+Tested with Hyperledger Fabric Version 2.2 and 2.4.7
+No of Channels -2
+channel Name:"mychannelb" In this channel the deployed chaincode name is "basic" and with versions 1 and 2. The other deployed chaincode is "auction" with version 1.
+channel name: "channel2" In this channel the deployed chaincode name is "auction" - version 1.
+
+Issue#1: When we invoke a Txn, the Txn count is incrementing by one in all the available versions of the same chaincode.
+Isse#2: Issue in fetching the list of chaincodes when there are multiple channels.
+The chaincode installed in channel2 is only "auction" but it is picking even the "basic- V2" chaincode which is installed in channel - mychannelb.
+Expected Correct Behaviour:
+The correct Txn count w.r.t chaincode version.
+Fetch the correct list of chaincodes installed with specific to channels.
+#### Which issue(s) this PR fixes:
+<!--
+*Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
+-->
+Fixes #408
+
+#### Special notes for your reviewer:
+
+#### Does this PR introduce a user-facing change?
+<!--
+If no, just write "NONE" in the release-note block below.
+If yes, a release note is required:
+Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
+-->
+```release-note
+NONE
+```
+
+#### Additional documentation, usage docs, etc.:
+
+<!--
+This section can be blank if this pull request does not require a release note.
+
+When adding links which point to resources within git repositories, like
+supporting documentation, please reference a specific commit and avoid
+linking directly to the master branch. This ensures that links reference a
+specific point in time, rather than a document that may change over time.
+
+
+-->
+```docs
+
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 12:35:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/410" class=".btn">#410</a>
             </td>
             <td>
@@ -76,74 +224,6 @@ specific point in time, rather than a document that may change over time.
     </table>
     <div class="right-align">
         Created At 2023-06-28 10:40:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/409" class=".btn">#409</a>
-            </td>
-            <td>
-                <b>
-                    BE-401 | piechart css fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--  Thanks for sending a pull request! 
--->
-
-
-#### What this PR does / why we need it:
-In the Dashboard - Transaction by Orgs Pie chart, we will be able to see the organisation names below, without any crop.
-#### Which issue(s) this PR fixes:
-<!--
-*Automatically closes linked issue when PR is merged.
-Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
-_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
--->
-Fixes #401 
-
-#### Special notes for your reviewer:
-
-#### Does this PR introduce a user-facing change?
-<!--
-If no, just write "NONE" in the release-note block below.
-If yes, a release note is required:
-Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
-
--->
-```release-note
-yes
-```
-
-#### Additional documentation, usage docs, etc.:
-
-<!--
-This section can be blank if this pull request does not require a release note.
-
-When adding links which point to resources within git repositories, like
-supporting documentation, please reference a specific commit and avoid
-linking directly to the master branch. This ensures that links reference a
-specific point in time, rather than a document that may change over time.
-
-
--->
-```docs
-
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 10:27:18 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4301" class=".btn">#4301</a>
+            </td>
+            <td>
+                <b>
+                    remove kafka from documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+update documentation regarding the removal of Kafka
+
+#### Related issues
+
+issue #3513 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 15:05:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4299" class=".btn">#4299</a>
             </td>
             <td>
@@ -124,45 +161,6 @@ This was introduced by #4260
     </table>
     <div class="right-align">
         Created At 2023-06-22 16:18:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4292" class=".btn">#4292</a>
-            </td>
-            <td>
-                <b>
-                    BFT Block Puller: isolate common subcomponents
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Change-Id: I274d8883add91fac08da5202199d1bac53e99adb
-
-#### Type of change
-
-- New feature
-
-#### Description
-- Isolate subcomponents from the CFT Deliverer that can be used in the BFT Deliverer
-- A skeleton of the BFT Deliverer (no censurship monitor, no tests)
-
-#### Related issues
-#4293 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-21 16:25:58 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/40" class=".btn">#40</a>
+            </td>
+            <td>
+                <b>
+                    Recursion
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR makes the `put`, `get`, `generateMerkleProof` and `verifyMerkleProof` functions fully recursive, and delegates the implementation to each node type's class, removing a lot of pattern-matching code. It also adds some inline comments around some of the nastier details of updating the trie, and missing copyright notices on some file headers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 13:33:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/harmonia/pull/39" class=".btn">#39</a>
             </td>
             <td>
@@ -95,35 +121,6 @@ A shortcoming of Kotlin 1.2.17 appears to be that members of sealed classes can 
     </table>
     <div class="right-align">
         Created At 2023-06-23 15:43:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    [FEAT] Patricia Merkle Trie
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a new implementation of Patricia Merkle trie with support for proofs generation and verification.
-Added test for new Patricia Merkle trie implementation.
-
-Updated README.md file.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-21 12:57:46 +0000 UTC
     </div>
 </div>
 
