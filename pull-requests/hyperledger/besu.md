@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5629" class=".btn">#5629</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5631" class=".btn">#5631</a>
             </td>
             <td>
                 <b>
-                    Decouple JsonRpcError enum from the data field
+                    [MINOR] config module - junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                Fixes #5570
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-22 04:30:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5630" class=".btn">#5630</a>
+            </td>
+            <td>
+                <b>
+                    Faster MCOPY implementation
                 </b>
             </td>
         </tr>
@@ -27,22 +53,21 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+                wire in deep call to System.arrayCopy instead of buffer copy.
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Moves data field from JsonRpcError enum to JsonRpcErrorResponse to avoid its reset when enum is reused.
-
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-Fixes #5437
-
+<!-- Example: "fixes #2" -->
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-21 16:25:42 +0000 UTC
+        Created At 2023-06-21 20:27:29 +0000 UTC
     </div>
 </div>
 
