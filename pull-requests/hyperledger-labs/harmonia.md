@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/39" class=".btn">#39</a>
+            </td>
+            <td>
+                <b>
+                    Test proof of inclusion
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added test that proves event was generated from a transaction that was actually included in a block.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 12:13:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/harmonia/pull/37" class=".btn">#37</a>
             </td>
             <td>
@@ -98,32 +124,6 @@ Updated README.md file.
     </table>
     <div class="right-align">
         Created At 2023-06-21 12:57:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/33" class=".btn">#33</a>
-            </td>
-            <td>
-                <b>
-                    Added Bank Side Patterns
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-21 10:46:17 +0000 UTC
     </div>
 </div>
 
