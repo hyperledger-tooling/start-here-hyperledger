@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1405" class=".btn">#1405</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Distinct dispatch CFG for `call` and `deploy`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix an oversight form #1249. The dispatch logic can not be the same for `call` and `deploy` as constructors must _not_ be allowed to be accessed from the `call` function.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 00:09:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1404" class=".btn">#1404</a>
+            </td>
+            <td>
+                <b>
+                    June release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release tests are running [here](https://github.com/LucasSte/solang/actions/runs/5395030402).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 22:03:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1403" class=".btn">#1403</a>
+            </td>
+            <td>
+                <b>
+                    Move stdlib build output to `target` folder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a fix for #1321.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-27 21:11:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1402" class=".btn">#1402</a>
             </td>
             <td>
@@ -488,62 +566,6 @@ However, `wasm-opt` will do the same, so we can just rely on `wasm-opt` to do it
     </table>
     <div class="right-align">
         Created At 2023-06-21 08:15:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1377" class=".btn">#1377</a>
-            </td>
-            <td>
-                <b>
-                    Avoid repeated global strings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When debugging the issue #1367, I found out that we keep emitting repeated global strings. The LLVM IR for the contract pointed in such an issue had the string `math overflow,\0A` defined 1008 times.
-
-This PR DOES NOT solve #1367, but it is something that needed a fix.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 21:13:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1376" class=".btn">#1376</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: Implement call flags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Substrate knows [flags](https://github.com/paritytech/substrate/blob/6e0059a416a5768e58765a49b33c21920c0b0eb9/frame/contracts/src/wasm/runtime.rs#LL392C27-L392C27) for contract calls. Until now we just always set them to 0. However we'll need them for more ergonomic `delegatecall` support and giving contract authors manual control over contract reentrancy. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 19:56:37 +0000 UTC
     </div>
 </div>
 
