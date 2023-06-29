@@ -270,9 +270,9 @@ In addition, this PR has these changes:
                 
             </td>
             <td>
-                Exposes a low-level builtin function for calling `seal_set_code_hash`. The code hash arguments is of type `bytes` intentionally (and not of type `Hash`, so that it matches the the pointer expected by the API function. `Hash`, which is just an alias to `bytes32`, will internally be represented as an `i256`. I came to the conclusion that, given this type conversion can easily be written in Solidity, we do and should not want to deal with that in the compiler, be it in emit or in codegen or elsewhere. 
-Instead, a more high level function, that asks for a `Hash` argument and converts that to `bytes`, should rather be implement in the substrate Solidity library (once we have it).
-Additionally, if some parachain decides to use a hash longer than 32bytes, using just a `bytes` pointer will still work.
+                Exposes a low-level builtin function for calling `seal_set_code_hash`. The code hash arguments is of type ~~`bytes`~~ `uint8[N]` intentionally (and not of type `Hash`, so that it matches the the pointer expected by the API function. `Hash`, which is just an alias to `bytes32`, will internally be represented as an `i256`. I came to the conclusion that, given this type conversion can easily be written in Solidity, we do and should not want to deal with that in the compiler, be it in emit or in codegen or elsewhere. 
+Instead, a more high level function, that asks for a `Hash` argument and converts that to ~~`bytes`~~ `uint8[N]`, should rather be implement in the substrate Solidity library (once we have it).
+Additionally, if some parachain decides to use a hash longer than 32bytes, using just a ~~`bytes`~~ `uint8[N]` pointer will still work.
             </td>
         </tr>
     </table>
@@ -575,34 +575,6 @@ The documentation I wrote is very terse, because my plan is to add more details 
     </table>
     <div class="right-align">
         Created At 2023-06-22 20:17:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1380" class=".btn">#1380</a>
-            </td>
-            <td>
-                <b>
-                    Fix a bunch of subxt-tests rust warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If you don't have a substrate node running you still get errors. I don't know what to do about that.
-
-I've tried putting it in `#[cfg(test)]` which didn't help.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-22 14:53:28 +0000 UTC
     </div>
 </div>
 

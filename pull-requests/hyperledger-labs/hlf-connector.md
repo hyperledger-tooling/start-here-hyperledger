@@ -62,33 +62,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    Fix duplicate Chaincode-Events from being pushed to subscription topic.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `registerChaincodeEventListener()` on the Channel object provided by the Fabric Java SDK comes with a disclaimer of generating duplicate and out-of-order Events.
-
-This PR contains the changeset to use `addContractListener()` on `Contract` object for registering Event listeners, which gurantees unique and ordered Events.
-
-https://hyperledger.github.io/fabric-gateway-java/release-2.2/org/hyperledger/fabric/gateway/Contract.html
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-22 16:31:41 +0000 UTC
-    </div>
-</div>
-

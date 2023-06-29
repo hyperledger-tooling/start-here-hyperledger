@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/359" class=".btn">#359</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/363" class=".btn">#363</a>
             </td>
             <td>
                 <b>
-                    Update operations_guide.rst
+                    Idemix Update
                 </b>
             </td>
         </tr>
@@ -27,29 +27,25 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                FIX: CA Admin identities for org1, org2 must be properly registered as admin
+                #### Type of change
 
-#### Type of change
-
-- Documentation update
+- Improvement (improvement to code, performance, etc)
 
 #### Description
 
-Following the documentation I got error on [create-and-join-channel](https://hyperledger-fabric-ca.readthedocs.io/en/latest/operations_guide.html#create-and-join-channel) part, getting the following error:
-```
-Error: got unexpected status: BAD_REQUEST -- error validating channel creation transaction for new channel 'mychannel', could not successfully apply update to template configuration: error authorizing update: error validating DeltaSet: policy for [Group]  /Channel/Application not satisfied: implicit policy evaluation failed - 0 sub-policies were satisfied, but this policy requires 1 of the 'Admins' sub-policies to be satisfied
-```
-I looked up orderer log to find out that OU being `user` is causing the problem not meeting the policy. I suggest the documentation to use `admin` OU for CA identities of org1 and org2.
+This PR update the Idemix dependency to its latest version that is used by the Fabric Token SDK too.
+Now, the SignerConfig struct also exports the RevocationHandle that is used by the Fabric Token SDK for audit purpose.
+The way the revocation handle is encoded has changed to align to what the Idemix library expects.
+The unit-tests have been updated.
 
-#### Additional details
+#### Release Note
 
-#### Related issues
-
+The changes to the encoding of the revocation handle should impact anyway given that Fabric is not currently using it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-23 01:51:57 +0000 UTC
+        Created At 2023-06-29 15:00:22 +0000 UTC
     </div>
 </div>
 
