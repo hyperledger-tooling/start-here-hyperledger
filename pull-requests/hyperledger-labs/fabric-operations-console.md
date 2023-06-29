@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/504" class=".btn">#504</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/505" class=".btn">#505</a>
             </td>
             <td>
                 <b>
-                    fix the channel dropdown select box for chaincode
+                    update required resources text  in migration page
                 </b>
             </td>
         </tr>
@@ -31,17 +31,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 
 <!--- What type of change? Pick one option and delete the others. -->
 
-- Bug fix
+- Documentation update
 
 #### Description
-- fixes the channel selection drop down box during the instantiate chaincode menu
+Changed the suggested cpu resources for console from 0.6 CPU to 1.2 CPU.
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 15:00:23 +0000 UTC
+        Created At 2023-06-29 17:12:44 +0000 UTC
     </div>
 </div>
 
