@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/117" class=".btn">#117</a>
             </td>
             <td>
                 <b>
-                    Update apis for fabric v2.5.1
+                    Donot update tls cert for 2.4.x -> 2.5.x osn upgrades
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/111
-
-Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
+                https://github.com/hyperledger-labs/fabric-operator/issues/116
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-02 15:53:29 +0000 UTC
+        Created At 2023-06-29 03:01:58 +0000 UTC
     </div>
 </div>
 
