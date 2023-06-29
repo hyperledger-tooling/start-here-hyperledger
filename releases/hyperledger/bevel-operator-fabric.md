@@ -15,42 +15,31 @@ permalink: /releases/hyperledger/bevel-operator-fabric
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.9.0
+                    Version 1.9.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.9.0
+                    v1.9.1
                 </span>
             </td>
             <td>
                 ## Changelog
-* afc3fc5 krew fix
-* 097cf44 update veresion helm install 1.9.0
-* 03bf898 1.9.0 version (#151)
-* fd7171d Change the Discord channel to #bevel-operator-fabric (#163)
-* 806ce65 Merge pull request #158 from luca-simonetti/main
-* 15907f6 empty commit
-* af16e3c fix: swap username and password
-* 1a0a024 Add arm64 and arm for goarch docker (#145)
-* 7816dd9 Update and rename settings.yaml to settings.yml
-* 14b0cba Fix repo pointers (#144)
-* 621d0ef Update settings.yaml
-* 3099725 Update settings.yaml
-* 7bb4696 Merge pull request #138 from adityajoshi12/git-templates
-* 98f52d2 added github forms
+* 1e42c98 Bugfix/kubectl operator api (#178)
+* 8a9db8c support for custom environment variable in chaincode instance (#175)
+* d7ed444 fix gateway-api docs (#170)
 
-Gateway feature by @rohitrj22 in the PR #164 
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.9.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.9.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-03 09:54:07 +0000 UTC
+        Created At 2023-06-28 23:43:08 +0000 UTC
     </span>
 </div>
 
