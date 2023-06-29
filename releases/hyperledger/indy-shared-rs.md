@@ -15,27 +15,26 @@ permalink: /releases/hyperledger/indy-shared-rs
         <tr>
             <td colspan="2">
                 <b>
-                    indy-credx 0.3.2
+                    indy-credx 0.3.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.2
+                    v0.3.3
                 </span>
             </td>
             <td>
-                - Add linux/arm64 build, updated Github pipeline
-- Fixes for Python wrapper type hints
+                
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-shared-rs/releases/tag/v0.3.2" class=".btn">
+    <a href="https://github.com/hyperledger/indy-shared-rs/releases/tag/v0.3.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-12 20:55:42 +0000 UTC
+        Created At 2023-06-28 20:01:52 +0000 UTC
     </span>
 </div>
 
