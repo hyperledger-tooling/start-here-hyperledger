@@ -26,10 +26,14 @@ permalink: /releases/hyperledger/besu
                 </span>
             </td>
             <td>
-                Besu 23.4.4 is an optional update for proof of stake and has a variety of enhancements
-- ***NOTE*** A DB migration is performed at startup. After this upgrade, if you want to downgrade besu to a previous version, you need to run Besu with the subcommand `storage revert-variables` with the same configuration used to run Besu. 
-- The new experimental healing mechanism for the flat db aims to improve the performance of your node by enabling faster block processing time. Since the processing time will be faster, you should further reduce the chances of missing attestations, making your validator even better. The cost of this feature is a slightly larger database size and a slightly longer sync time. For more detail see https://github.com/hyperledger/besu/pull/5319
-- Use BlobDB for blockchain storage to reduce initial sync time and write amplification (PR #5475). This PR reduces sync time by 14 hours on m6a.xlarge VM (1 day 8 hours 27 minutes instead of 1 day 22 hours 4 minutes).
+                Besu 23.4.4 is an optional update for proof of stake and has a variety of enhancements. Please note: we are in the process of reworking and enhancing the Besu database for improvements to sync time, database size, disk usage, execution/attestation performance, and more. These changes (starting with #5471) will _alter_, but not block the downgrade process. Read carefully for details.
+
+In this update, we have a variety of updates targeted at performance with more to come. Some highlights include:
+- A new flat database structure and new experimental healing mechanism fully flattens the state trie used in Bonsai. The node has more consistent access to state info, speeding up SLOAD and other operations in the EVM. This aims to improve the performance of your node by enabling faster block processing time. Since the processing time will be faster, you should further reduce the chances of missing attestations, making your validator even better. The cost of this feature is a slightly larger database size and a slightly longer sync time. For more detail see #5319 
+- New usage of BlobDB database in RocksDB for blockchain storage. This reduces initial sync time and write amplification/disk wear and tear (PR #5475). This reduces sync time by 14 hours on AWZ m6a.xlarge VM (1 day 8 hours 27 minutes instead of 1 day 22 hours 4 minutes).
+- A few fixes for sync bugs and database inconsistencies. 
+
+***NOTE*** With the upgrade to 23.4.4, a DB migration is performed at startup. After this upgrade, if you want to downgrade Besu to a previous version, you need to run Besu with the subcommand `storage revert-variables` with the same configuration used to run Besu. 
 
 ### Breaking Changes
 - Move blockchain related variables in a dedicated storage, to pave the way to future optimizations [#5471](https://github.com/hyperledger/besu/pull/5471). The migration is performed automatically at startup,
