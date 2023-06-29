@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1409" class=".btn">#1409</a>
+            </td>
+            <td>
+                <b>
+                    Fix undefined variable detection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The contract I added in the tests was working properly in Solang v0.3.0, but it caused a panic in [this line](https://github.com/hyperledger/solang/blob/a84b0ad3b67a17b524ef6b7437fd4c5376833807/src/codegen/strength_reduce/expression_values.rs#L79) on the main branch. 
+
+I couldn't identify what has changed from the release till now, but I deemed the logic for reporting undefined variables and stop optimizations erroneous.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 21:11:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1408" class=".btn">#1408</a>
             </td>
             <td>
