@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/indy-node-container
         <tr>
             <td colspan="2">
                 <b>
-                    Ubuntu 20 Experimental image now features indy 1.13.2~rc5
+                    base container refresh
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.4
+                    v1.2.5
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/indy-node-container
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.4" class=".btn">
+    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-10 09:40:22 +0000 UTC
+        Created At 2023-04-28 10:04:38 +0000 UTC
     </span>
 </div>
 
