@@ -1,13 +1,13 @@
 
+[532](https://github.com/hyperledger/cello/pull/532) Listed the commands that are not working
+
+[413](https://github.com/hyperledger-labs/blockchain-explorer/pull/413) Code changes for Issue #404 SSL enable Sequelize
+
+[530](https://github.com/hyperledger/cello/pull/530) Fix make command error
+
+[506](https://github.com/hyperledger-labs/fabric-operations-console/pull/506) retry for smart contract error
+
 [1063](https://github.com/hyperledger/fabric-samples/pull/1063) fix(test-network): ignore the error output when killing CCAAS containers
-
-[505](https://github.com/hyperledger-labs/fabric-operations-console/pull/505) update required resources text  in migration page
-
-[363](https://github.com/hyperledger/fabric-ca/pull/363) Idemix Update
-
-[117](https://github.com/hyperledger-labs/fabric-operator/pull/117) Donot update tls cert for 2.4.x -> 2.5.x osn upgrades
-
-[1409](https://github.com/hyperledger/solang/pull/1409) Fix undefined variable detection
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
