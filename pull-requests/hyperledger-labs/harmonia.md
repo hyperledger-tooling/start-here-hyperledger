@@ -88,39 +88,3 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/36" class=".btn">#36</a>
-            </td>
-            <td>
-                <b>
-                    Refactor to clarify path logic and simplify node creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does the following:
-
-* Represents the "nibble array" concept in EVM's path encoding using a dedicated class, `NibbleArray`, which provides a range of methods for querying and manipulating paths, and translating between nibble and byte array representations.
-* Represents the prefix logic in EVM's path encoding using a pair of enums, `PatriciaTriePathType` and `PatriciaTriePathPrefix`.
-* Assimilates the different `Node` subclasses to inner classes of `Node`, and makes `Node` itself a sealed class.
-* Rationalises the ways a `Node` can be created, so that everything uses the standard set of methods supplied in `Node`'s companion object.
-* Removes boilerplate in test cases by introducing some helpful builder functions for populating tries and constructing trees of nested `Node`s.
-
-The overall intention is to improve code readability and reduce ambiguity (when is this `ByteArray` really an array of bytes, and when is it an array of nibbles?).
-
-A shortcoming of Kotlin 1.2.17 appears to be that members of sealed classes can only be defined as inner classes of the sealed class, which makes `Node` a little cumbersome.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-23 15:43:28 +0000 UTC
-    </div>
-</div>
-
