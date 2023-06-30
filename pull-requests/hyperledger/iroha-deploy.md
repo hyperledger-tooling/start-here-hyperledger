@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/38" class=".btn">#38</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Add `Maintainers.md`
+                    Feature/dops 2267/fix imports
                 </b>
             </td>
         </tr>
@@ -29,19 +29,21 @@ permalink: /pull-requests/hyperledger/iroha-deploy
             <td>
                 # Task
 
+[DOPS-2267]: Title.
+
 ## Changes
 
-1. Fix #33 
+1. Replace include by import_task 
 
 ## Author
 
-Signed-off-by: A. Petrosyan <petrosyan@soramitsu.co.jp>
+Signed-off-by: Safin Insaf <safin@soramitsu.co.jp>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 15:30:38 +0000 UTC
+        Created At 2023-06-28 08:41:05 +0000 UTC
     </div>
 </div>
 

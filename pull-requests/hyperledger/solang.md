@@ -493,31 +493,3 @@ Anchor 0.28.0
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1384" class=".btn">#1384</a>
-            </td>
-            <td>
-                <b>
-                    Access payer account using `tx.accounts.account_name`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR creates the infrastructure for accessing accounts with `tx.accounts.account_name`. Presently, we can only access accounts declared with the `@payer` annotation, but our goal is to make this possible for all accounts declared with annotations (this is not implemented yet). 
-
-The documentation I wrote is very terse, because my plan is to add more details when I have the `@reader`, `@mutable`, `@signer` and `@mutableSigner` implemented.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-23 14:50:24 +0000 UTC
-    </div>
-</div>
-
