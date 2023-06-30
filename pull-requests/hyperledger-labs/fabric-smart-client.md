@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 <nil>
