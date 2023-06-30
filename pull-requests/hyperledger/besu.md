@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5639" class=".btn">#5639</a>
+            </td>
+            <td>
+                <b>
+                    Update evmtool graalvm build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Update EVMTool's GraalVM build
+* add new class to reflection config
+* move CLI output to be system-err oriented
+* make logger in evmtool nop
+* exclude some problematic jars from compilation
+  - mixed versions of bouncy castle
+  - netty initializations of log4j
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-24 15:55:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5638" class=".btn">#5638</a>
             </td>
             <td>
