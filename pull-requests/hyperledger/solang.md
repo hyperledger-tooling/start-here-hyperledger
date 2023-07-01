@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1412" class=".btn">#1412</a>
+            </td>
+            <td>
+                <b>
+                    Fix some typos in docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-01 14:37:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1411" class=".btn">#1411</a>
+            </td>
+            <td>
+                <b>
+                    Implement Goto Definition functionality in the language server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-01 13:26:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1409" class=".btn">#1409</a>
             </td>
             <td>
@@ -436,60 +488,6 @@ The user can set this in `User Settings` (press ctrl/cmd+,) and then searching f
     </table>
     <div class="right-align">
         Created At 2023-06-25 11:46:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1390" class=".btn">#1390</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: Implement `delegatecall()`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Required by upgradable proxy patterns.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-24 17:29:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1389" class=".btn">#1389</a>
-            </td>
-            <td>
-                <b>
-                    Bump Solana, Anchor and Ubuntu
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solana 1.16.1
-Ubuntu 22.04 rather than 20.04
-Anchor 0.28.0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-24 13:20:56 +0000 UTC
     </div>
 </div>
 
