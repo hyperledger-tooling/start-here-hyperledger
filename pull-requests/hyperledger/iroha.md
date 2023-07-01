@@ -484,35 +484,3 @@ Should help to fix `registry` job in `I2::Dev::Publish` workflow.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3646" class=".btn">#3646</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3042: Fix bad request message.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Turns out this issue is kind of already fixed. I've just simply corrected the error message to exactly match the *expected* section of the issue.
-
-### Linked issue #3042
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-24 17:11:35 +0000 UTC
-    </div>
-</div>
-
