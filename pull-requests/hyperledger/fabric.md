@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4303" class=".btn">#4303</a>
+            </td>
+            <td>
+                <b>
+                    Ledger block cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit introduces an in-memory cache for the block storage of the ledger. It caches new blocks that are committed and assumes blocks are committed in-order and with consecutive sequences.
+
+The block iterators now attempt to retrieve the blocks from the cache if possible before going to the block storage.
+
+The intent is twofold:
+
+1) Speedup the block Deliver API by not doing disk I/O when clients (peers, orderers) fetch blocks. 
+
+2) Reduce the impact of the deliver API on the performance of writing new blocks into the ledger.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-30 19:27:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4301" class=".btn">#4301</a>
             </td>
             <td>
