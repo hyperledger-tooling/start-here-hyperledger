@@ -465,29 +465,3 @@ The user can set this in `User Settings` (press ctrl/cmd+,) and then searching f
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1391" class=".btn">#1391</a>
-            </td>
-            <td>
-                <b>
-                    Optimize modifier CFGs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                Closes #1385 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-25 11:46:51 +0000 UTC
-    </div>
-</div>
-
