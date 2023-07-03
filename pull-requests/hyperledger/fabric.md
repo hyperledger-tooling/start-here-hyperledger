@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4307" class=".btn">#4307</a>
+            </td>
+            <td>
+                <b>
+                    [Fix]: Provide a meaningful error for cert sanitization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit handles the error where the certificate sanitization procedure fails to construct the certificate chain due to misconfiguration. Before this commit, the peer will simply fail with panic without a clear explanation of what exactly was wrong.
+
+Addresses (#4302).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 11:52:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4305" class=".btn">#4305</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: censorship monitor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- New feature
+
+#### Description
+
+BFT Block Puller: censorship monitor
+
+- BFT header receivers that pull headers from the orderers, and keep the time and number of the last one.
+- A BFT censorship monitor which compares the progress of headers relative to blocks, and triggers an alert if a header is ahead of the block stream for more than a certain time.
+
+#### Related issues
+#4306 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 08:43:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4304" class=".btn">#4304</a>
+            </td>
+            <td>
+                <b>
+                    Add SmartBFT consensus knobs to configtx.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The configtx.yaml now has the SmartBFT consensus knobs as in the Fabric samples
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/4295
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 08:03:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4303" class=".btn">#4303</a>
             </td>
             <td>
@@ -122,40 +218,6 @@ Please create a CITATION.cff file so researchers can cite this repo. Thank you.
     </table>
     <div class="right-align">
         Created At 2023-06-27 14:50:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4298" class=".btn">#4298</a>
-            </td>
-            <td>
-                <b>
-                    update Fabric to include fabric-config latest commit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- dependency update
-
-
-#### Description
-
-update fabric-config version to include the latest commit
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 08:08:22 +0000 UTC
     </div>
 </div>
 

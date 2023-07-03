@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1415" class=".btn">#1415</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: `AssertFailure` emits revert instead trap
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using the `seal_return` API with the revert flag instead of just trapping the contract execution allows to return data. This is required for further alignment with [solc](https://docs.soliditylang.org/en/latest/control-structures.html#panic-via-assert-and-error-via-require). 
+
+Closes #1292
+Unblocks #916
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 07:23:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1414" class=".btn">#1414</a>
             </td>
             <td>
@@ -390,112 +419,6 @@ Additionally, if some parachain decides to use a hash longer than 32bytes, using
     </table>
     <div class="right-align">
         Created At 2023-06-26 15:19:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1396" class=".btn">#1396</a>
-            </td>
-            <td>
-                <b>
-                    Add markdown formatting to hover messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 09:45:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1395" class=".btn">#1395</a>
-            </td>
-            <td>
-                <b>
-                    Drop diagnostics on closing the file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When closing a file in VS code, all the warnings and errors remain in the list of problems. This removes all diagnostics pertaining to the close file. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 08:29:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1394" class=".btn">#1394</a>
-            </td>
-            <td>
-                <b>
-                    Pick up unsaved changes in a file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently the language server reads the file, rather than using the source code which is sent to it over language server requests. In order for the language server to update with the latest text of the source file, one needs to save the file. 
-These changes enable the language server to update as one types. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 08:26:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1393" class=".btn">#1393</a>
-            </td>
-            <td>
-                <b>
-                    add option to set trace level
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This allows the user to configure the verbosity of trace of messages exchanged between client and the server.
-The user can set this in `User Settings` (press ctrl/cmd+,) and then searching for solidity related configuration. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 08:23:19 +0000 UTC
     </div>
 </div>
 
