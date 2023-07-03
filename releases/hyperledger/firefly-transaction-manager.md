@@ -15,32 +15,32 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.14
+                    v1.3.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.14
+                    v1.3.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* add tls support for FFMT client to that evmconnect client mode can use it by @alexwood in https://github.com/hyperledger/firefly-transaction-manager/pull/83
+* Persistence enhancements - including adding PostgreSQL support by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/85
+* Add suspend/resume transaction actions, and tweaks to history API by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/89
+* Expose filters for rich query by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/91
 
-## New Contributors
-* @alexwood made their first contribution in https://github.com/hyperledger/firefly-transaction-manager/pull/83
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.13...v1.2.14
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.14...v1.3.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.14" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-31 14:38:29 +0000 UTC
+        Created At 2023-07-03 19:51:37 +0000 UTC
     </span>
 </div>
 
