@@ -510,35 +510,3 @@ Should help to fix `registry` jon in `I2::Dev::Publish` workflow.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3652" class=".btn">#3652</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3352: Split up control flow and data messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Create a second incomming packet queue inside sumeragi.
-
-Closes #3352
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 16:42:43 +0000 UTC
-    </div>
-</div>
-
