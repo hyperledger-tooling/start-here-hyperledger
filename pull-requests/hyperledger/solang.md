@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1417" class=".btn">#1417</a>
+            </td>
+            <td>
+                <b>
+                    Bump all crate dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I tried updating subxt tests, but there are breaking changes which I don't understand
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 13:30:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1416" class=".btn">#1416</a>
+            </td>
+            <td>
+                <b>
+                    Bump solana-rbpf crate to 0.5.0.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This makes it possible to use rust 1.70.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 13:23:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1415" class=".btn">#1415</a>
             </td>
             <td>
@@ -391,34 +443,6 @@ In addition, this PR has these changes:
     </table>
     <div class="right-align">
         Created At 2023-06-26 21:26:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1397" class=".btn">#1397</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: Implement builtin for `set_code_hash` API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Exposes a low-level builtin function for calling `seal_set_code_hash`. The code hash arguments is of type ~~`bytes`~~ `uint8[N]` intentionally (and not of type `Hash`, so that it matches the the pointer expected by the API function. `Hash`, which is just an alias to `bytes32`, will internally be represented as an `i256`. I came to the conclusion that, given this type conversion can easily be written in Solidity, we do and should not want to deal with that in the compiler, be it in emit or in codegen or elsewhere. 
-Instead, a more high level function, that asks for a `Hash` argument and converts that to ~~`bytes`~~ `uint8[N]`, should rather be implement in the substrate Solidity library (once we have it).
-Additionally, if some parachain decides to use a hash longer than 32bytes, using just a ~~`bytes`~~ `uint8[N]` pointer will still work.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 15:19:41 +0000 UTC
     </div>
 </div>
 
