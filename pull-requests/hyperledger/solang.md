@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                As per #1398 
             </td>
         </tr>
     </table>
@@ -53,7 +53,15 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Annotations stop doc tags from working on functions
+
+```solidity
+contract c {
+      /// comment is free
+      @selector([1,2,3,4])
+      function foo() public {}
+}
+```
             </td>
         </tr>
     </table>
