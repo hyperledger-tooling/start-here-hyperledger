@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3669" class=".btn">#3669</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #3648: include `docker-compose.*.yml` check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description
+
+This PR adds a CI/CD check that `docker-compose.*.yml` files stored in the repo are generated with `kagami swarm` tool. This PR includes updated Docker Compose configurations as well.
+
+### Linked issue
+
+Closes #3648
+
+### Benefits
+
+It will help to be sure that those files are up-to-date, therefore to avoid confusion of any Iroha users.
+
+### Checklist
+
+- [ ] Ensure that the PR covers **all** Docker Compose files that should be covered.
+- [ ] Discuss `docker-compose.TML.yml` in the `check.sh`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 06:56:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3667" class=".btn">#3667</a>
             </td>
             <td>
@@ -498,48 +539,6 @@ Closes #3352
     </table>
     <div class="right-align">
         Created At 2023-06-26 16:42:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3650" class=".btn">#3650</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Update rustup toolchain & add musl-x86_64 component
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-1. Add rustup toolchain `nightly-2023-06-25`.
-2. Add [musl-x86_64](https://aur.archlinux.org/packages/musl-x86_64) Arch package. Probably should help to fix ` error occurred: Failed to find tool. Is `musl-g++` installed?` error.
-
-### Linked issue
-[Broken iroha2-dev compilation](https://github.com/hyperledger/iroha/actions/runs/5346333962/jobs/9693207108).
-
-### Benefits
-Should help to fix `registry` job in `I2::Dev::Publish` workflow.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [x] (optional) I've written unit tests for the code changes
-- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 10:00:29 +0000 UTC
     </div>
 </div>
 

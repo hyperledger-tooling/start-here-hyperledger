@@ -1,13 +1,13 @@
 
-[1414](https://github.com/hyperledger/solang/pull/1414) Rename Substrate to Polkadot
+[4307](https://github.com/hyperledger/fabric/pull/4307) [Fix]: Provide a meaningful error for cert sanitization
 
-[1413](https://github.com/hyperledger/solang/pull/1413) Ensure that doccomments still work when a function has an annotation
+[350](https://github.com/hyperledger/iroha-java/pull/350) create MAINTAINERS.md
 
-[5665](https://github.com/hyperledger/besu/pull/5665) Add Xlayered-tx-pool to the config log printout
+[4305](https://github.com/hyperledger/fabric/pull/4305) BFT Block Puller: censorship monitor
 
-[5664](https://github.com/hyperledger/besu/pull/5664) [4844] Read ExcessDataGas and ExcessDataGas from genesis if Cancun is present
+[4304](https://github.com/hyperledger/fabric/pull/4304) Add SmartBFT consensus knobs to configtx.yaml
 
-[3667](https://github.com/hyperledger/iroha/pull/3667) [refactor]: reject incorrect config topology early
+[1415](https://github.com/hyperledger/solang/pull/1415) Substrate: `AssertFailure` emits revert instead trap
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
