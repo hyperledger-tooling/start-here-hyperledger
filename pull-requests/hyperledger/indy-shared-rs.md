@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    (python) Update object finalizers and add keepalives
+                    Replace `tempfile` with custom implementation for tails file
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                Borrows some wrapper updates from aries-askar, and replaces `__del__` magic methods with finalizers.
+                Fixes #21 
 
-Fixes #22
+Also adds an end-to-end issuance test exercising revocation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-12 22:09:12 +0000 UTC
+        Created At 2023-06-29 18:43:01 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +42,11 @@ Fixes #22
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    Python type hint fixes
+                    Update python wrapper version
                 </b>
             </td>
         </tr>
@@ -60,7 +60,7 @@ Fixes #22
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-12 20:20:32 +0000 UTC
+        Created At 2023-06-28 19:35:46 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +68,11 @@ Fixes #22
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    Build updates
+                    Update minimum Rust version, package version
                 </b>
             </td>
         </tr>
@@ -81,12 +81,12 @@ Fixes #22
                 
             </td>
             <td>
-                In line with aries-askar and indy-vdr build updates, adding support for the linux/arm64 platform.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-10 19:42:18 +0000 UTC
+        Created At 2023-06-28 16:38:28 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/179" class=".btn">#179</a>
             </td>
             <td>
                 <b>
-                    added support for auto cert renewal flags in hlf-operator helm chart
+                    channel management api added
                 </b>
             </td>
         </tr>
@@ -32,14 +32,14 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
 
 
 #### What this PR does / why we need it:
-This PR allows the users to pass the auto-renewal flags while installing the hlf-operator. 
+
 #### Which issue(s) this PR fixes:
 <!--
 *Automatically closes linked issue when PR is merged.
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #
+Fixes #171 
 
 #### Special notes for your reviewer:
 
@@ -51,7 +51,7 @@ Enter your extended release note in the block below. If the PR requires addition
 
 -->
 ```release-note
-
+This PR adds to the legacy channel management API.
 ```
 
 #### Additional documentation, usage docs, etc.:
@@ -74,7 +74,49 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-23 05:16:36 +0000 UTC
+        Created At 2023-07-01 04:16:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/178" class=".btn">#178</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix/kubectl operator api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### What this PR does / why we need it:
+
+#### Which issue(s) this PR fixes:
+Fixes the creation of the operator explorer using kubectl plugin.
+
+Also fixes the creation of peers, cas and orderers with missing resource limits/requests.
+
+#### Special notes for your reviewer:
+
+#### Does this PR introduce a user-facing change?
+No
+
+
+#### Additional documentation, usage docs, etc.:
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-28 23:08:04 +0000 UTC
     </div>
 </div>
 

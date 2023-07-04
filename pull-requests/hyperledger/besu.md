@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5667" class=".btn">#5667</a>
+            </td>
+            <td>
+                <b>
+                    [4844] NewPayloadV3 - Add fork validation and fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- This PR implements a fork validation for the newPayloadV3
+
+Unrelated: 
+
+-  Change the type of dataGasUsed to `Long` instead of `long`
+- Add acceptance tests for Engine API  - Cancun
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 08:09:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5666" class=".btn">#5666</a>
             </td>
             <td>
@@ -556,66 +589,6 @@ Part of #5377
     </table>
     <div class="right-align">
         Created At 2023-06-28 00:53:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5644" class=".btn">#5644</a>
-            </td>
-            <td>
-                <b>
-                    init snap opti
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 08:25:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5643" class=".btn">#5643</a>
-            </td>
-            <td>
-                <b>
-                    [4844] CancunGasCalculator ->  Fix Excess Data Gas Calculation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fixing the formula according to `calc_excess_data_gas` in https://eips.ethereum.org/EIPS/eip-4844
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 06:38:16 +0000 UTC
     </div>
 </div>
 

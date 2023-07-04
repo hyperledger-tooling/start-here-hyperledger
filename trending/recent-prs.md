@@ -1,13 +1,13 @@
 
-[481](https://github.com/hyperledger-labs/fabric-smart-client/pull/481) fabric 2.5.3
+[3676](https://github.com/hyperledger/iroha/pull/3676) [ci]: update dependabot
 
-[5666](https://github.com/hyperledger/besu/pull/5666) Comment out backwards sync for newPayload
+[1421](https://github.com/hyperledger/solang/pull/1421) Bugfix: Type of `Error(string)` selectors should be `bytes4`
 
-[391](https://github.com/hyperledger-labs/fablo/pull/391)  Fix NPM issues causing errors 
+[3675](https://github.com/hyperledger/iroha/pull/3675) [feature] #3383: Implement a macro that parses a socket address at compile time
 
-[1419](https://github.com/hyperledger/solang/pull/1419) Add resolved files to FileResolver
+[5667](https://github.com/hyperledger/besu/pull/5667) [4844] NewPayloadV3 - Add fork validation and fixes
 
-[1418](https://github.com/hyperledger/solang/pull/1418) Unbreak build updating target to Solana in solana tests
+[91](https://github.com/hyperledger-labs/yui-relayer/pull/91) Bump up to ibc-go v7.2.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

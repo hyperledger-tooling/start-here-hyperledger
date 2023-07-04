@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/155" class=".btn">#155</a>
             </td>
             <td>
                 <b>
-                    Update dependencies
+                    Fix build error and warnings
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                Fixes #152 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-23 21:58:55 +0000 UTC
+        Created At 2023-06-30 22:02:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/154" class=".btn">#154</a>
+            </td>
+            <td>
+                <b>
+                    Correct Daniel Hardman's github id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-30 17:51:02 +0000 UTC
     </div>
 </div>
 
