@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/480" class=".btn">#480</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/481" class=".btn">#481</a>
             </td>
             <td>
                 <b>
-                    load idemix as produced by fabric-ca
+                    fabric 2.5.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
                 <nil>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-26 08:16:03 +0000 UTC
+        Created At 2023-07-04 06:21:04 +0000 UTC
     </div>
 </div>
 

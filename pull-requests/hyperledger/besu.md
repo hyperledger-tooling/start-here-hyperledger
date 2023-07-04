@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5666" class=".btn">#5666</a>
+            </td>
+            <td>
+                <b>
+                    Comment out backwards sync for newPayload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Running a quick feasibility test based on https://github.com/hyperledger/besu/issues/5411#issuecomment-1600401704
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 01:57:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5665" class=".btn">#5665</a>
             </td>
             <td>
@@ -581,33 +616,6 @@ Fixing the formula according to `calc_excess_data_gas` in https://eips.ethereum.
     </table>
     <div class="right-align">
         Created At 2023-06-27 06:38:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5642" class=".btn">#5642</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Set CancunGasCalculator maxPrecompile to KZG_POINT_EVAL
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Cancun implements a new precompile and the gas calculator needs to consider its new address.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 04:13:34 +0000 UTC
     </div>
 </div>
 
