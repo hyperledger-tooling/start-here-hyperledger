@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3678" class=".btn">#3678</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: add @DCNick3 to the CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 14:09:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3676" class=".btn">#3676</a>
             </td>
             <td>
@@ -92,7 +118,7 @@ Closes #3383
 
 ### Limitations
 
-This can't replace all uses of the existing `socket_addr!` macro, as it parses only literal addresses. Some of the `socket_addr!` usages use an expression as port number: . Supporting this is possible, but would require a more complicated parser.
+This can't replace all uses of the existing `socket_addr!` macro, as it parses only literal addresses. Some of the `socket_addr!` usages use an expression as port number: https://github.com/hyperledger/iroha/blob/19984d91c2add850a197050e6cbee52af1bc6fa2/core/test_network/src/lib.rs#L598. Supporting this is possible, but would require a more complicated parser.
 
 As 5/11 usages of the original macro use it, it probably doesn't make sense to merge it without support for variable ports
 
@@ -570,48 +596,6 @@ Closes #3543
     </table>
     <div class="right-align">
         Created At 2023-06-28 12:22:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3655" class=".btn">#3655</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Update rust toolchain in the Dockerfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-Update rustup toolchain iroha2 `Dockerfile`.
-
-### Linked issue
-[Failed CI after updating Dockerfile.build](https://github.com/hyperledger/iroha/actions/runs/5388372729).
-
-### Benefits
-Should help to fix `registry` jon in `I2::Dev::Publish` workflow.
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 12:43:36 +0000 UTC
     </div>
 </div>
 

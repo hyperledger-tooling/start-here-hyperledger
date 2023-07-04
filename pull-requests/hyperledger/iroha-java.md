@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/354" class=".btn">#354</a>
+            </td>
+            <td>
+                <b>
+                    version update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 17:27:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/353" class=".btn">#353</a>
+            </td>
+            <td>
+                <b>
+                    PeerTest fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 13:26:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/352" class=".btn">#352</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: update dependabot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 12:35:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/350" class=".btn">#350</a>
             </td>
             <td>
@@ -59,58 +137,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2023-06-28 08:05:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/347" class=".btn">#347</a>
-            </td>
-            <td>
-                <b>
-                    feature: added revoke role and permission
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added revoke role and permission
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 13:58:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/346" class=".btn">#346</a>
-            </td>
-            <td>
-                <b>
-                    feature: revoke role and permission
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                new instructions to revoke role and permission
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 13:45:18 +0000 UTC
     </div>
 </div>
 
