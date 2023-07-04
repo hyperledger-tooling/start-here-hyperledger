@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/126" class=".btn">#126</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/129" class=".btn">#129</a>
             </td>
             <td>
                 <b>
-                    fix: corrected two links
+                    feat: update extension packages docs
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                The two links to askar and indy storage setup 404'd currently, corrected them so they point to the right location like the links immediately below them work.
+                Simplify structure, update to work with new versions of packages, and move some docs over from the readme of the packages
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-03 15:31:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/125" class=".btn">#125</a>
-            </td>
-            <td>
-                <b>
-                    chore: updates for 0.4.0 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-02 17:41:35 +0000 UTC
+        Created At 2023-06-29 11:41:59 +0000 UTC
     </div>
 </div>
 

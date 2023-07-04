@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/81" class=".btn">#81</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    adding support for groupby
+                    Add behaviors to cache rather than muddying the Get function
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Add groupBy support for the sql filter builder
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-24 11:55:44 +0000 UTC
+        Created At 2023-06-29 21:15:01 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/76" class=".btn">#76</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/82" class=".btn">#82</a>
             </td>
             <td>
                 <b>
-                    Use NetworkName instead of Name for FFI definition topic
+                    Provide alternative operation mode for cache for code users
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                https://github.com/hyperledger/firefly/issues/1349
+                Pulls in https://github.com/kaleido-io/firefly-common/pull/2
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 15:48:04 +0000 UTC
+        Created At 2023-06-28 10:40:46 +0000 UTC
     </div>
 </div>
 

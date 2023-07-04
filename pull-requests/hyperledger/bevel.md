@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2305" class=".btn">#2305</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2308" class=".btn">#2308</a>
             </td>
             <td>
                 <b>
-                    [ci-skip] Add README.md files
+                    [ci-skip] Update HAProxy port to 443 and related hlf changes
                 </b>
             </td>
         </tr>
@@ -27,34 +27,13 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Primary Changes
---------------
-1. Add readme files for all charts
-2. Update the values.yaml files
-3. Update the version in chart.yaml file
-
-Modifications in charts
-platforms/r3-corda/charts/doorman-tls
-platforms/r3-corda/charts/doorman
-platforms/r3-corda/charts/generate-certs
-platforms/r3-corda/charts/h2-addUser
-platforms/r3-corda/charts/h2-password-change
-platforms/r3-corda/charts/h2
-platforms/r3-corda/charts/mongodb-tls
-platforms/r3-corda/charts/mongodb
-platforms/r3-corda/charts/nms-tls
-platforms/r3-corda/charts/nms
-platforms/r3-corda/charts/node-initial-registration 
-platforms/r3-corda/charts/node 
-platforms/r3-corda/charts/notary-initial-registration 
-platforms/r3-corda/charts/notary platforms/r3-corda/charts/storage
-
-Fixes #2285
+                Update HA Proxy port to 443 and remove all reference to 8443 from Fabric
+Also includes merge from main
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-23 11:51:43 +0000 UTC
+        Created At 2023-06-28 12:21:05 +0000 UTC
     </div>
 </div>
 
@@ -62,42 +41,11 @@ Fixes #2285
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2304" class=".btn">#2304</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2307" class=".btn">#2307</a>
             </td>
             <td>
                 <b>
-                    [ci-skip] Added readme's for all the helm charts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                docs(indy): Added readme's for all the helm charts for platform indy
-
-Add readme files for all charts
-Add _helpers.tpl files for all charts
-fixes #2288
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-23 05:37:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2302" class=".btn">#2302</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip] improved descriptions in Chart.yaml files for all Helm charts
+                    [ci-skip] generate storage class through a single template file.
                 </b>
             </td>
         </tr>
@@ -109,20 +57,30 @@ fixes #2288
                 ### **Commit to be reviewed**
 ---
 
-**feat(quorum): improved descriptions in Chart.yaml files for Quorum platform Helm charts**
+**feat(shared): dynamically generate storage class through a single template file for various cloud providers**
 
-```
-- This commit enhances the descriptions in the Chart.yaml files for all Quorum platform Helm charts.
-- The updates ensure that the descriptions accurately reflect the functionality and purpose of each Helm chart.
+This commit introduces a solution to simplify the process of generating storage classes for various cloud providers in the bevel project.
 
-Additionally:
-- Fix the Verification section of each README.md's file.
-```
+**Changes**:
+- Created Helm chart `storage_class` with a single template file for dynamic generation of storage classes based on various cloud providers.
+- Implemented Helm Release (HR) template file to configure the `storage_class` chart.
+
+ 
+**Additional changes**:
+- Fixed code to generate the StorageClass HR file inside the organization directory, ensuring proper deletion during network reset.
+- Fixed deletion code to effectively remove deployed StorageClasses from the Kubernetes cluster.
+
+**Benefits**:
+- Simplifies switching between cloud providers by updating the `cloud_provider`field in the network configuration file.
+- Streamlines the generation and management of storage classes in the bevel project.
+- Reduces code duplication and maintenance overhead by utilizing a single template file for all cloud providers.
+
+fixes #2306
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-20 11:11:44 +0000 UTC
+        Created At 2023-06-27 13:23:14 +0000 UTC
     </div>
 </div>
 

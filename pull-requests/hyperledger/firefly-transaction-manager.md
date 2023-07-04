@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/85" class=".btn">#85</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    Persistence enhancements - including adding PostgreSQL support
+                    Provide a way for policy engines to pass additional state to callbacks
                 </b>
             </td>
         </tr>
@@ -27,31 +27,75 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Work in progress - release should be marked v1.3 when complete/merged.
-
-Making as pragmatic as possible change to the persistence mechanism, to support PostgreSQL as an alternative to LevelDB when persisting transactions, checkpoints, subscriptions, and listeners.
-
-Aiming to make the impact on policy engine extensions as minimal as possible, but there are some changes shaping up:
-- `TXHistory` moving into persistence, as implementation will be fundamentally different for PSQL to LevelDB
-     - Updates to substatus history & actions are discrete operations
-     - Can now return `error` and only take the `ID` of the `ManagedTX` object (not the full object)
-     - History limits only likely to apply to LevelDB (as expensive to implement in SQL)
-- Reconciling the `ManagedTX` object into core object fields, and related objects that can be merged in during a `GET` operation for backwards compatibility
-     - `History` / `HistorySummary` were the big things
-     - `TransactionHeaders` ended up a bit confused, so I've attempted to reconcile it (more info owed by me here)
-     - `Receipt` - TBD if this stays separate
-      - LevelDB continues to be a single fat JSON payload
-- Rather than a single `WriteTransaction` function  with a `new` boolean, moved to `InsertTransaction` and `UpdateTransaction` - with clearer update semantics
-      - This avoid re-writing huge JSON blobs to SQL DBs when simply tweaking a status field
-- Updating `Confirmations` notification system:
-      - Notifying for all confirmations as we detect them, rather than only once the full set is completed (UX improvement)
-      - Providing a more rich confirmations notification that can distinguish incremental adding of confirmations, from a new fork
-
+                Provides an alternative approach the 2nd item in #91 , allowing any policy engine implementation to pass a closure in with additional variables it's safe for that implementation to pass through. For example, a transaction-specific context object.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-06 03:11:17 +0000 UTC
+        Created At 2023-07-03 20:29:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/91" class=".btn">#91</a>
+            </td>
+            <td>
+                <b>
+                    Expose filters for rich query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - expose the filters for rich query tables so that they can be used externally.
+- ~also updated the event handler callback function signatures to pass through the entire managed transactions so the other information (e.g. "from" field) becomes accessible.~
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 12:27:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/89" class=".btn">#89</a>
+            </td>
+            <td>
+                <b>
+                    Add suspend/resume transaction actions, and tweaks to history API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Adds `/suspend` and `/resume` `POST` actions to transactions
+   - Uses the same approach as `DELETE` API
+   - Response is `202` or `200` based on policy engine processing
+- Disables compaction by default
+    - It seems to add little value as policy engines usually are in cycles of multiple actions
+    - It can get to the point the overhead is so high when 1000s of transactions are in flight with a 5min time window, and 100s of thousands of TX History entires per TX, that the transaction writer is overloaded and times out flushing `suspend`/`resume` actions in 30s.
+- Does not include `history` array by default on transaction `GET` by ID
+   - New `history` boolean option to return that value
+- Renames the query parameter `count` for the `/history` API to `occurrences`
+  - Avoid clash with the pagination option `count`
+  - Does not change the JSON object to ensure backwards compatibility
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-30 17:58:30 +0000 UTC
     </div>
 </div>
 

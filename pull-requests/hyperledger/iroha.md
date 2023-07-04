@@ -14,6 +14,110 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3676" class=".btn">#3676</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: update dependabot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 12:28:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3675" class=".btn">#3675</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3383: Implement a macro that parses a socket address at compile time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Linked issue
+
+Closes #3383 
+
+### Limitations
+
+This can't replace all uses of the existing `socket_addr!` macro, as it parses only literal addresses. Some of the `socket_addr!` usages use an expression as port number: . Supporting this is possible, but would require a more complicated parser.
+
+As 5/11 usages of the original macro use it, it probably doesn't make sense to merge it without support for variable ports
+
+It also doesn't support hostname addresses, but they are not used anywhere except in the doc-test for the `socket_addr!` macro. Probably fine going without it, but should be relatively easy to implement if needed.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 11:52:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3669" class=".btn">#3669</a>
             </td>
             <td>
@@ -43,6 +147,7 @@ It will help to be sure that those files are up-to-date, therefore to avoid conf
 
 - [ ] Ensure that the PR covers **all** Docker Compose files that should be covered.
 - [ ] Discuss `docker-compose.TML.yml` in the `check.sh`
+- [ ] Discuss/ensure that the check runs in the correct time, as described in #3648: selective run on changes in data model / kagami swarm code, etc
             </td>
         </tr>
     </table>
@@ -368,7 +473,7 @@ Upgrades `wasmtime` to the latest version.
             </td>
             <td>
                 <b>
-                    [feature] #3236: Cache `iroha_wasm_builder` output
+                    [feature] #3236: Enhance iroha_wasm_builder with cache, better errors and minor API changes
                 </b>
             </td>
         </tr>

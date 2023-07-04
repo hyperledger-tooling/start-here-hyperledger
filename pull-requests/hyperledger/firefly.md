@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1354" class=".btn">#1354</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1361" class=".btn">#1361</a>
             </td>
             <td>
                 <b>
-                    Further optimize blockchain transaction inserts to DB
+                    Do not set operation state to failed if we get a 409 - leave unchanged
                 </b>
             </td>
         </tr>
@@ -27,32 +27,21 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                In PR chain with #1343 
+                In PR chain with #1342 - where the build failed, and the logs showed we'd now successfully got a 409 after FFTM update in https://github.com/hyperledger/firefly-transaction-manager/pull/85, but then had gone on within the operation updater to set the operation to failed:
 
-- Creates a new `txwriter` package that depends on both `operations` and `txcommon` to do batched inserts
-   - Dispatches to a pool of background workers
-   - Assigns a new ID to each transaction in the batch
-   - Splits to transactions with/without `idempotencyKey` set
-   - Attempts to insert all with new `InsertTransactions` multi-insert function in DB layer
-   - Handles partial results on the `idempotencyKey` set TX, by querying those idempotency keys
-   - Compares ID of the transactions in the DB, with the inserts, to find the duplicates
-   - Inserts the `operations` with a new multi-insert function in the DB layer (these always have new IDs)
-- Updates `contracts` package to use ^^^ instead of one-by-one insertion of tx+ops
-   - The inbound thread for invoke/deploy requests doesn't even have a DB transaction now (`RunAsGroup` call removed)
-   - Creation of the `core.Operation` moved up the function, as need to be passed in
-   - Idempotency handling to resubmit operations in the case of a clash, unchanged
-- Updates blockchain connector interface to split parsing with execution
-   - We were compiling the FFI schema twice per transaction in the blockchain connector
-- Adds caching to `contracts` package
-   - For requests referencing an FFI: FFI ID + `methodPath` -> `FFIMethod` + `[]*FFIError`
-   - For all requests: Hash of compiled JSON Schema, to the JSON Schema object
-   - Also builds a hash-of-hashes across the combination of method+errors, which is used to cache the result from the blockchain connector validation
-
+```
+[36;1mfirefly_core_1_1  |[0m [2023-07-03T20:25:06.334Z]  INFO Executing token_transfer operation fc1bed3c-cf0a-49c6-93ca-53bc84b0816f via handler AssetManager httpreq=Lzru5k4n pid=1 req=UQydjKKy
+[36;1mfirefly_core_1_1  |[0m [2023-07-03T20:25:06.334Z] DEBUG ==> POST http://tokens_1_0:3000/api/v1/transfer breq=l0uT1OYU pid=1 proto=fftokens
+[36;1mfirefly_core_1_1  |[0m [2023-07-03T20:25:06.342Z] ERROR <== POST http://tokens_1_0:3000/api/v1/transfer [409] (7.97ms) breq=l0uT1OYU pid=1 proto=fftokens
+[36;1mfirefly_core_1_1  |[0m [2023-07-03T20:25:06.342Z] DEBUG fftokens updating operation default:fc1bed3c-cf0a-49c6-93ca-53bc84b0816f status=Failed error=FF10457: Conflict from tokens service: Conflict: FF21065: ID 'default:fc1bed3c-cf0a-49c6-93ca-53bc84b0816f' is not unique ns=default pid=1
+[36;1mfirefly_core_1_1  |[0m [2023-07-03T20:25:06.342Z] DEBUG Submitting operation update id=fc1bed3c-cf0a-49c6-93ca-53bc84b0816f status=Failed blockchainTX= worker=opu_003 ns=default pid=1
+[36;1mfirefly_core_1_1  |[0m [2023-07-03T20:25:06.342Z]  INFO <-- POST /api/v1/namespaces/default/tokens/transfers [409] (14.28ms): FF10457: Conflict from tokens service: Conflict: FF21065: ID 'default:fc1bed3c-cf0a-49c6-93ca-53bc84b0816f' is not unique httpreq=Lzru5k4n pid=1 req=UQydjKKy
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-24 03:32:12 +0000 UTC
+        Created At 2023-07-04 04:18:30 +0000 UTC
     </div>
 </div>
 
@@ -60,11 +49,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1353" class=".btn">#1353</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1359" class=".btn">#1359</a>
             </td>
             <td>
                 <b>
-                    feat: expose retry and HTTP options for webhooks
+                    feat: batching events and webhook plugin support
                 </b>
             </td>
         </tr>
@@ -73,14 +62,18 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                A few considerations when reviewing:
-- I modified the interface for the events plugin to pass the context through as we were using the global plugin context for events which I believe was incorrect.
-- Instead of copying the client for each request in the webhook, we store the client in the subscription object. We populate it when reading a subscription from the DB or creating a new one through the API. I thought here about exposing a new function at the interface level such as `ParseSubscriptionOptions` where each plugin could parse the options and modify it but seem redundant do `ValidateOptions` so did it there instead
+                Enable batching for subscriptions
+
+
+In draft as left to do:
+- Write more robust tests to match coverage
+- Handle the firstData for events and decide what we do there
+- Refactor the webhook plugin to make it more modular instead of copying code across functions
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-23 16:09:38 +0000 UTC
+        Created At 2023-06-29 13:32:38 +0000 UTC
     </div>
 </div>
 
@@ -88,11 +81,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1352" class=".btn">#1352</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1356" class=".btn">#1356</a>
             </td>
             <td>
                 <b>
-                    Add E2E test for indexing an existing ERC1155
+                    Remove token pools from the cache upon deletion
                 </b>
             </td>
         </tr>
@@ -101,69 +94,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Requires https://github.com/hyperledger/firefly-tokens-erc1155/pull/129
+                Fixes #1355 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 15:58:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1351" class=".btn">#1351</a>
-            </td>
-            <td>
-                <b>
-                    Use NetworkName instead of Name for definition topics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1349
-
-Related fix that will also need to be integrated: https://github.com/hyperledger/firefly-common/pull/76
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-22 15:55:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1348" class=".btn">#1348</a>
-            </td>
-            <td>
-                <b>
-                    Docs improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding two improvements in docs:
-
-- adding a note for macOS users (port 5000 already in use)
-- updating the command to be consistent with previous page (created `dev` stack but next page started `demo`)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-21 17:27:20 +0000 UTC
+        Created At 2023-06-27 14:49:40 +0000 UTC
     </div>
 </div>
 

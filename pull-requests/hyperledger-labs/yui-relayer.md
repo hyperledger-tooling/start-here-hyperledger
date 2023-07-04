@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
-                    Improve packet relay (event query)
+                    Bump up to ibc-go v7.2.0
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-23 05:01:26 +0000 UTC
+        Created At 2023-07-04 07:56:06 +0000 UTC
     </div>
 </div>
 

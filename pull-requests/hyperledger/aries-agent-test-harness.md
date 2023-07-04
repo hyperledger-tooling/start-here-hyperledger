@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/704" class=".btn">#704</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/705" class=".btn">#705</a>
             </td>
             <td>
                 <b>
@@ -32,34 +32,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-24 03:08:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/701" class=".btn">#701</a>
-            </td>
-            <td>
-                <b>
-                    Make redis-cluster wrapper.sh executable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-22 14:30:08 +0000 UTC
+        Created At 2023-06-28 02:13:24 +0000 UTC
     </div>
 </div>
 

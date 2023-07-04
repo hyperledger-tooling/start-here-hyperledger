@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1421" class=".btn">#1421</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Type of `Error(string)` selectors should be `bytes4`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Avoiding using the integer type for [`Error(string)`](https://docs.soliditylang.org/en/latest/control-structures.html#panic-via-assert-and-error-via-require) selectors avoids endianess swaps resulting in the wrong value.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 12:27:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1420" class=".btn">#1420</a>
+            </td>
+            <td>
+                <b>
+                    `Display` our compilation targets with capitalization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As Lucas suggested on #1414
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 07:52:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1419" class=".btn">#1419</a>
             </td>
             <td>
@@ -415,60 +467,6 @@ I couldn't identify what has changed from the release till now, but I deemed the
     </table>
     <div class="right-align">
         Created At 2023-06-27 21:11:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1402" class=".btn">#1402</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that a constructor cannot be run twice on the same data account
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The constructor code path was not checking that the data account magic number is not populated.
-
-The change also exposed another issue: when a pure function is called, there should be no load of data magic number, this may result in a access violation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 09:22:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1401" class=".btn">#1401</a>
-            </td>
-            <td>
-                <b>
-                    Make rust analyzer work again
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This slipped in, nuke it to fix RA
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 08:04:01 +0000 UTC
     </div>
 </div>
 
