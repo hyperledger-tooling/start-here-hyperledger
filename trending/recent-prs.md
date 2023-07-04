@@ -1,13 +1,13 @@
 
-[3676](https://github.com/hyperledger/iroha/pull/3676) [ci]: update dependabot
+[354](https://github.com/hyperledger/iroha-java/pull/354) version update
 
-[1421](https://github.com/hyperledger/solang/pull/1421) Bugfix: Type of `Error(string)` selectors should be `bytes4`
+[5670](https://github.com/hyperledger/besu/pull/5670) Test updates for cancun execution-spec-tests
 
-[3675](https://github.com/hyperledger/iroha/pull/3675) [feature] #3383: Implement a macro that parses a socket address at compile time
+[3678](https://github.com/hyperledger/iroha/pull/3678) [chore]: add @DCNick3 to the CODEOWNERS
 
-[5667](https://github.com/hyperledger/besu/pull/5667) [4844] NewPayloadV3 - Add fork validation and fixes
+[353](https://github.com/hyperledger/iroha-java/pull/353) PeerTest fix
 
-[91](https://github.com/hyperledger-labs/yui-relayer/pull/91) Bump up to ibc-go v7.2.0
+[5669](https://github.com/hyperledger/besu/pull/5669) Add genesis configuration isPoa() convenience function, and use it in validation of `--miner-enabled` option
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
