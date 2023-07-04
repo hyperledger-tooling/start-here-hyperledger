@@ -611,35 +611,3 @@ Cancun implements a new precompile and the gas calculator needs to consider its 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5641" class=".btn">#5641</a>
-            </td>
-            <td>
-                <b>
-                    Remove BLS12 from cancun
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-BLS12 signatures were speculatively added in cancun in late 2022.  This is no longer accurate.  Move the implementation to the "Future_EIPs" fork so that it will remain testable and not accidentally get included accidentally.  Also add missing fluent APIs.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 00:18:37 +0000 UTC
-    </div>
-</div>
-
