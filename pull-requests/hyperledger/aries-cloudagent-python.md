@@ -118,33 +118,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2282" class=".btn">#2282</a>
-            </td>
-            <td>
-                <b>
-                    0.8.2-rc1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR for Release 0.8.2-rc1.  This may be the final PR before 0.8.2.  We'd still like to get 2233 into the release, but at this point it's looking like too high a risk.
-
-- 0.8.2-rc1
-- Add note about PR 2255, and change its title
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 21:51:34 +0000 UTC
-    </div>
-</div>
-

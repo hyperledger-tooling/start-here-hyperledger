@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1419" class=".btn">#1419</a>
+            </td>
+            <td>
+                <b>
+                    Add resolved files to FileResolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR:
+1. Adds a `resolved_files: Vec<ResolvedFile>` field to `FileResolver`;
+2. Populates it during the execution of `FileResolver.resolve_file()`;
+3. Extends `FileResolver`'s API with `get_resolved_file(file_no: usize)` to allow access of this data.
+ 
+Prior to this PR, the resolution root of each file is discarded after `parse_and_resolve` and has to be recomputed by a client (and this recomputation depends on implementation-specifics such as source root visit order during file resolution). This PR persists this data.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 20:49:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1418" class=".btn">#1418</a>
+            </td>
+            <td>
+                <b>
+                    Unbreak build updating target to Solana in solana tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Merging https://github.com/hyperledger/solang/pull/1413 broke the build as `.substrate_default()` no longer exists.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-03 20:31:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1417" class=".btn">#1417</a>
             </td>
             <td>
@@ -44,7 +101,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Bump solana-rbpf crate to 0.5.0.
+                    Bump solana-rbpf crate to 0.5.0
                 </b>
             </td>
         </tr>
@@ -412,37 +469,6 @@ The change also exposed another issue: when a pure function is called, there sho
     </table>
     <div class="right-align">
         Created At 2023-06-27 08:04:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1400" class=".btn">#1400</a>
-            </td>
-            <td>
-                <b>
-                    Runtime error strings must be LLVM constant strings instead of dynamically allocated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The contract linked at #1367 calls `vector_new` too many times, because the runtime error strings are dynamically allocated during execution. This PR makes the runtime error strings constant attributes in LLVM, so they are not allocated.
-
-In addition, this PR has these changes:
-1. The test case caused a stack overflow in constant folding, so I split `fn expression` into multiple small functions.
-2. `log_runtime_error` contained repeated code for both targets and has been removed from the `trait TargetRuntime`.
-3. `error_message_with_loc` now adds the new line character.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-26 21:26:09 +0000 UTC
     </div>
 </div>
 
