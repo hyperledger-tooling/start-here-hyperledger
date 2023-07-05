@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-common
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/82" class=".btn">#82</a>
-            </td>
-            <td>
-                <b>
-                    Provide alternative operation mode for cache for code users
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Pulls in https://github.com/kaleido-io/firefly-common/pull/2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 10:40:46 +0000 UTC
-    </div>
-</div>
-

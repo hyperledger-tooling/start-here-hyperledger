@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/237" class=".btn">#237</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/251" class=".btn">#251</a>
             </td>
             <td>
                 <b>
-                    Create test-network1.yaml
+                    Create go-ossf-slsa3-publish.yml
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">question</span>
             </td>
             <td>
-                Signed-off-by: KhadijaSabiri <khadija.sabiry@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-08 17:28:15 +0000 UTC
+        Created At 2023-07-05 06:30:17 +0000 UTC
     </div>
 </div>
 
