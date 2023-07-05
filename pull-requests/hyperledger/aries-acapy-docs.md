@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
-                    1.0.0-rc2
+                    Latest updates to the main docs
                 </b>
             </td>
         </tr>
@@ -29,13 +29,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
             <td>
                 Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-To be merged into a new branch for 1.0.0-rc2
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-06 22:23:59 +0000 UTC
+        Created At 2023-07-04 22:00:55 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +41,11 @@ To be merged into a new branch for 1.0.0-rc2
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Updates to the naming of the build script, refresh updated main branch docs
+                    0.8.1 updates
                 </b>
             </td>
         </tr>
@@ -56,17 +54,38 @@ To be merged into a new branch for 1.0.0-rc2
                 
             </td>
             <td>
-                Instead of having the script named by the ACA-Py release tag, just use the same name. It's tag in this repo is sufficient to know that.
-
-Also tweaked the "diffMDs.sh" script that detects if there are MD files in ACA-Py that aren't in the documentation site.
-
-Updated the MDs that have changed in ACA-Py since the last published release, and added the "Publishing" document to the generated site, because...why not?
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 18:01:27 +0000 UTC
+        Created At 2023-07-04 20:04:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/44" class=".btn">#44</a>
+            </td>
+            <td>
+                <b>
+                    0.8.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 19:59:41 +0000 UTC
     </div>
 </div>
 

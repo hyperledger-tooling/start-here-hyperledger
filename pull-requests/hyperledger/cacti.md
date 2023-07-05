@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2535" class=".btn">#2535</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-plugin-ledger-connector-ethereum): add new connector plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add new plugin for connecting with Ethereum ledgers. New connector is based on already existing quorum connector. The main reason for introducing yet another plugin is a need for web3js upgrade (to 4.X) which is imposible in current quorum / besu connectors due to dependency to `web3js-quorum` which requires web3js 1.X.
+
+We have plans to make web3js library pluggable and reduce code duplication among other connectors in the future, but it will be delivered later on in a separate PR.
+
+Changes:
+- Add new plugin based on quorum connector.
+- Removed private transaction and other quorum related functionalities.
+- Update web3js to 1.10 - will be updated to 4.X in a separate commit.
+- Add missing `web3-eth-contract` dependencies to besu and xdai connectors.
+- Add new connector to cactus-verifier-client
+- Add integration tests in `cactus-test-plugin-ledger-connector-ethereum` (based on similar ones for quorum connector.)
+- Add new connector to CI.
+- Add `web3*` 1.5.2 dependencies to root `package.json` because they are already required in a root level (by `typings/web3js-quorum`). Ideally this could be put into another package (quorum connector?) and have the dependencies there, but for now I think it's important to be explicit about it since it's easy to mess up if wrong web3js library is hoisted up from any monorepo package.
+- Sort main `package.json`
+- Remove tap test scripts from the root `package.json` - they don't use `.taprc` and cause bunch of errors when they try to execute jest tests. This is confusing for the users because of all false negative errors printed.
+- Reorganize jest config and taprc to keep tests from quorum and ethereum conenctors grouped.
+
+Closes: #2534
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-04 15:17:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2533" class=".btn">#2533</a>
             </td>
             <td>
@@ -202,34 +245,6 @@ Signed-off-by: adrianbatuto <adrian.batuto@accenture.com>
     </table>
     <div class="right-align">
         Created At 2023-06-29 00:55:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2522" class=".btn">#2522</a>
-            </td>
-            <td>
-                <b>
-                    docs(weaver): Fixed broken links in, and referring to, Weaver RFCs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Weaver RFCs (`weaver/rfcs/`) contain several cross-specification links as relative paths rather than absolute URLs.
-Some RFCs are also referenced in other parts of the `weaver` code.
-The last refactoring of the `weaver/rfcs/` folder resulted in several broken links. This PR identifies and fixes those links.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 20:19:32 +0000 UTC
     </div>
 </div>
 
