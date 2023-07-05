@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Recursion
+                    Add appendix on externally verirfiable transaction properties
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/harmonia
                 
             </td>
             <td>
-                This PR makes the `put`, `get`, `generateMerkleProof` and `verifyMerkleProof` functions fully recursive, and delegates the implementation to each node type's class, removing a lot of pattern-matching code. It also adds some inline comments around some of the nastier details of updating the trie, and missing copyright notices on some file headers.
+                Following discussion with Adhara about the need to verify a specific property of the Corda transaction in the Adhara cross-chain swap protocol, an appendix explains how this works, what the drawbacks of the approach are, and how a future improvement might address it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-28 13:33:06 +0000 UTC
+        Created At 2023-07-05 15:27:40 +0000 UTC
     </div>
 </div>
 

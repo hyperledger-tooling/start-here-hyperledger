@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5675" class=".btn">#5675</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade BouncyCastle libraries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Upgrade bouncy castle to v1.75.  This involved a change in maven
+coordinates for other modules.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 15:20:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5674" class=".btn">#5674</a>
+            </td>
+            <td>
+                <b>
+                    Txvalidator builder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 14:56:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5673" class=".btn">#5673</a>
             </td>
             <td>
@@ -523,75 +589,6 @@ Add hooks for a successful contract create, a failed contract create, and an inv
     </table>
     <div class="right-align">
         Created At 2023-06-28 22:41:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5654" class=".btn">#5654</a>
-            </td>
-            <td>
-                <b>
-                    DataGas all the longs!!!!
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use the DataGas type instead of longs everywhere possible.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 15:41:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5653" class=".btn">#5653</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Store RLP encoding to avoid encoding operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">performance</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-The goal of this PR is to store RLP encoding bytes insides different objects  (transaction, transactionReceipt, BlockBody and BlockHeader) to avoid encoding operations when we need the get the RLP encoding.
-
-This PR has also an improvement on Sync process to avoid transaction root validation and receipt root validation twice.
-
-Before this PR
-![image](https://github.com/hyperledger/besu/assets/5099602/e4521b7e-cbf4-4db6-99e9-bed70453b120)
-
-After this PR (We can notice that receipts root validation appears only once)
-![image](https://github.com/hyperledger/besu/assets/5099602/67df51a6-38d6-4290-ad52-aa9edb395c81)
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 13:07:00 +0000 UTC
     </div>
 </div>
 

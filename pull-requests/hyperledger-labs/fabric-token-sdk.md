@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/475" class=".btn">#475</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/476" class=".btn">#476</a>
             </td>
             <td>
                 <b>
-                    Mixed chaincode test
+                    two TMS on the same fabric network
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-05 07:41:14 +0000 UTC
+        Created At 2023-07-05 14:10:05 +0000 UTC
     </div>
 </div>
 

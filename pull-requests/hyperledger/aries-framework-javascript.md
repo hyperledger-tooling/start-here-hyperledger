@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1496" class=".btn">#1496</a>
+            </td>
+            <td>
+                <b>
+                    feat: Create Connection record when receive DidCommV2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Added optional `autoCreateConnectionOnPing` field into Agent config and implemented corresponding logic - indicating whether we should create connection state records when receiving a trust ping message targeted to the DID in the wallet, but with a non-existing pairwise record 
+* Updated MessageSender: Unified `sendDidCommV1message` and `sendDidCommV2message` functions into single method `sendMessage`. 
+  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 14:41:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1495" class=".btn">#1495</a>
             </td>
             <td>

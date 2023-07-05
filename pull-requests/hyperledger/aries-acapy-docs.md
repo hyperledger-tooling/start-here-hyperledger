@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    Fix GHA on the 0.8.2 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 17:25:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Fix to GHA -- don't delete site as deploy does that
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Latest updates to the main docs
+- Fix to GHA
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 17:21:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/46" class=".btn">#46</a>
             </td>
             <td>
