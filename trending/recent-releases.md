@@ -1,7 +1,7 @@
 
-[v0.8.1](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.8.1) v0.8.1
-
 [v0.8.2](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.8.2) v0.8.2
+
+[v0.8.1](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.8.1) v0.8.1
 
 [v1.3.0](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.0) v1.3.0
 
