@@ -90,31 +90,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2283" class=".btn">#2283</a>
-            </td>
-            <td>
-                <b>
-                    Update anoncreds-rs to v0.1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                updating references to the anoncreds lib to use the v0.1.0 release.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 18:30:38 +0000 UTC
-    </div>
-</div>
-
