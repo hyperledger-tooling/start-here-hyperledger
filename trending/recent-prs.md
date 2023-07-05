@@ -1,13 +1,13 @@
 
-[248](https://github.com/hyperledger/firefly-cli/pull/248) Add an option '--remote-node-deploy' to treat remote nodes like local nodes
+[48](https://github.com/hyperledger/aries-acapy-docs/pull/48) Fix GHA on the 0.8.2 branch
 
-[1495](https://github.com/hyperledger/aries-framework-javascript/pull/1495) fix: race condition singleton records
+[47](https://github.com/hyperledger/aries-acapy-docs/pull/47) Fix to GHA -- don't delete site as deploy does that
 
-[201](https://github.com/hyperledger/sawtooth-docs/pull/201) myriad small docs fixes
+[41](https://github.com/hyperledger-labs/harmonia/pull/41) Add appendix on externally verirfiable transaction properties
 
-[1423](https://github.com/hyperledger/solang/pull/1423) Minor code improvements (nfc)
+[5675](https://github.com/hyperledger/besu/pull/5675) Upgrade BouncyCastle libraries
 
-[3683](https://github.com/hyperledger/iroha/pull/3683) [refactor] #3672: Replace HashMap with FxHashMap in derive macros
+[5674](https://github.com/hyperledger/besu/pull/5674) Txvalidator builder
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

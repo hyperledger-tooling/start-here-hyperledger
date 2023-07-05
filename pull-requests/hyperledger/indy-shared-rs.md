@@ -64,29 +64,3 @@ Also adds an end-to-end issuance test exercising revocation.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    Update minimum Rust version, package version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 16:38:28 +0000 UTC
-    </div>
-</div>
-
