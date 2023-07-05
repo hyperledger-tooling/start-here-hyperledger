@@ -260,29 +260,3 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/212" class=".btn">#212</a>
-            </td>
-            <td>
-                <b>
-                    chore: update dev dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 09:03:29 +0000 UTC
-    </div>
-</div>
-

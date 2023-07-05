@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/200" class=".btn">#200</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/201" class=".btn">#201</a>
             </td>
             <td>
                 <b>
-                    link to 1-2 PoET yaml in creating sawtooth network guide
+                    myriad small docs fixes
                 </b>
             </td>
         </tr>
@@ -27,17 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                This fixes a number of issues reported via Discord with the usability of PoET consensus in the [Creating a Sawtooth Network](https://sawtooth.hyperledger.org/docs/1.2/app_developers_guide/creating_sawtooth_network.html) by linking to the `1-2` branch docker compose yaml file, which uses `chime` images.  
+                This PR fixes various typos, formatting issues, and broken links, focusing on the FAQ and the 1.2 docs. It isn't comprehensive but I wanted to get  this in as a milestone along the docs review process before I get further, as the diff's already getting large. I'm happy to discuss any of the changes here or on discord (sawtooth-contributors).
 
----
-[SAW-16](https://blockchaintp.atlassian.net/browse/SAW-16)
-
-Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works)
+This also fixes #188.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-27 15:02:36 +0000 UTC
+        Created At 2023-07-05 11:52:55 +0000 UTC
     </div>
 </div>
 

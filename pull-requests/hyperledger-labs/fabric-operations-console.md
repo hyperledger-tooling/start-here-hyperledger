@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/507" class=".btn">#507</a>
+            </td>
+            <td>
+                <b>
+                    Updated login text to work with both IBP and HFL Support console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+Updated login text to work with both IBP and HFL Support console
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 06:37:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/506" class=".btn">#506</a>
             </td>
             <td>

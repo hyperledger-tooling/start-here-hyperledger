@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Test proof of inclusion
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added test that proves event was generated from a transaction that was actually included in a block.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 12:13:32 +0000 UTC
-    </div>
-</div>
-

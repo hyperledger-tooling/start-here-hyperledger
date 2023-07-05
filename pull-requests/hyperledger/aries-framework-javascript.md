@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1491" class=".btn">#1491</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1495" class=".btn">#1495</a>
             </td>
             <td>
                 <b>
-                    feat(anoncreds): allow automatic create link secret
+                    fix: race condition singleton records
                 </b>
             </td>
         </tr>
@@ -27,40 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Automatically create a default link secret for AnonCreds to make it more intuitive how setup and Agent to receive credential offers.
+                Fixes https://github.com/hyperledger/aries-framework-javascript/issues/968
 
-Fixed #1490
+This just handles the multiple creation and then erroring of signleton records. 
+
+We still have an issue with multiple writes to the same document, which we should be able to fix with locks
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-26 23:52:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1488" class=".btn">#1488</a>
-            </td>
-            <td>
-                <b>
-                    fix(indy-vdr): role property not included in nym request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 19:20:56 +0000 UTC
+        Created At 2023-07-05 12:14:03 +0000 UTC
     </div>
 </div>
 

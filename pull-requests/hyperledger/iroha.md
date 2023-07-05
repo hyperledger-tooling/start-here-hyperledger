@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3683" class=".btn">#3683</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3672: Replace HashMap with FxHashMap in derive macros
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Closes #3672 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 10:39:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3680" class=".btn">#3680</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: #3679 add @DCNick3 to the MAINTAINERS.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Requested in https://github.com/hyperledger/governance/issues/118
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 07:51:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3678" class=".btn">#3678</a>
             </td>
             <td>
@@ -126,11 +178,9 @@ It also doesn't support hostname addresses, but they are not used anywhere excep
 
 ### Checklist
 
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [x] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+- [x] Parse IPv4 and IPv6 addresses
+- [x] Allow usage of arbitrary expressions in port position
+- [x] Replace old usages of `socket_addr!` macro
 
             </td>
         </tr>
@@ -562,40 +612,6 @@ Cached wasm binaries allows us not to rebuild them everytime from scratch. I.e. 
     </table>
     <div class="right-align">
         Created At 2023-06-29 14:13:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3659" class=".btn">#3659</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3543: Increment quantity change, not total
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3543
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 12:22:32 +0000 UTC
     </div>
 </div>
 
