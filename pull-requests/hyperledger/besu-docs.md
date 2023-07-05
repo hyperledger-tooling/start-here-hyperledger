@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/besu-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1351" class=".btn">#1351</a>
-            </td>
-            <td>
-                <b>
-                    Wording Fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 21:42:32 +0000 UTC
-    </div>
-</div>
-

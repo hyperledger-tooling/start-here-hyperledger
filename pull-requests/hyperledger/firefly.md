@@ -77,29 +77,3 @@ In draft as left to do:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1356" class=".btn">#1356</a>
-            </td>
-            <td>
-                <b>
-                    Remove token pools from the cache upon deletion
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1355 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-27 14:49:40 +0000 UTC
-    </div>
-</div>
-
