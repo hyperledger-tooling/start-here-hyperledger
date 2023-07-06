@@ -15,32 +15,82 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.1
+                    v1.2.2-alpha.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.1
+                    v1.2.2-alpha.3
                 </span>
             </td>
             <td>
-                ## What's Changed
-* Do not set firstEvent to empty string by @nguyer in https://github.com/hyperledger/firefly-cli/pull/245
-* Add Fabric option for a global (channel-wide) batch pin listener by @awrichar in https://github.com/hyperledger/firefly-cli/pull/244
-* Allow longer before giving up on dev starting a firefly core by @peterbroadhurst in https://github.com/hyperledger/firefly-cli/pull/246
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.2.0...v1.2.1
+                **Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.2.2-alpha.2...v1.2.2-alpha.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.2.2-alpha.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-04 14:05:00 +0000 UTC
+        Created At 2023-07-05 20:53:01 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v1.2.2-alpha.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.2-alpha.2
+                </span>
+            </td>
+            <td>
+                This is a test release using the updated goreleaser config
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.2.2-alpha.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-07-05 20:42:34 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v1.2.2-alpha.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.2-alpha.1
+                </span>
+            </td>
+            <td>
+                This is a test release using the updated goreleaser config
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.2.2-alpha.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-07-05 20:31:29 +0000 UTC
     </span>
 </div>
 
