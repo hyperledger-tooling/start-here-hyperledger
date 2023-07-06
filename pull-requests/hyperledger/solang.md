@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1432" class=".btn">#1432</a>
+            </td>
+            <td>
+                <b>
+                    Identify externally callable functions in `sema`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The information whether a given function is supposed to be reachable via an external call to the contract is currently done directly in `codegen`. However, we need this information during the ABI generation too. This fixes a bug where inherited public functions would end up duplicated in the contract metadata.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 16:32:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1431" class=".btn">#1431</a>
+            </td>
+            <td>
+                <b>
+                    Remove unwanted files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These files are temporary and automatically generated during tests. They have been included in the repository.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 15:47:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1427" class=".btn">#1427</a>
             </td>
             <td>
@@ -98,7 +150,7 @@ Converting from `size_t` to `uint32_t` could cause an overflow on Solana.
             </td>
             <td>
                 <b>
-                    Add Solana rent library WIP
+                    Add Solana minimum balance library
                 </b>
             </td>
         </tr>
@@ -107,7 +159,7 @@ Converting from `size_t` to `uint32_t` could cause an overflow on Solana.
                 
             </td>
             <td>
-                <nil>
+                Add runtime function for calculating the balance required for instantiating a contract of a certain size.
             </td>
         </tr>
     </table>

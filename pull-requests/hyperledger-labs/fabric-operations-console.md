@@ -77,38 +77,3 @@ retry for smart contract error
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/505" class=".btn">#505</a>
-            </td>
-            <td>
-                <b>
-                    update required resources text  in migration page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Changed the suggested cpu resources for console from 0.6 CPU to 1.2 CPU.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-29 17:12:44 +0000 UTC
-    </div>
-</div>
-
