@@ -14,6 +14,167 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5682" class=".btn">#5682</a>
+            </td>
+            <td>
+                <b>
+                    Txvalidator remove set filter 1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 16:53:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5681" class=".btn">#5681</a>
+            </td>
+            <td>
+                <b>
+                    add global transaction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 15:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5680" class=".btn">#5680</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Fix Data Gas Price Calculation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This pull request addresses two issues: fixing the data gas price calculation and adjusting the genesis state methods to verify forks. The details of each issue are described below:
+
+### Data Gas Price Calculation
+The previous implementation of data gas price calculation had a flaw. It only considered the parent's excessDataGas to determine the dataPricePerGas, which overlooked the data gas used by the parent header itself. Consequently, when a large number of transactions were sent and the gas price increased, blocks were generated with transactions that should not have been included due to their price.
+
+To rectify this, the calculation now incorporates both the parent's excessDataGas and the data gas used by the parent header. The code snippet from the specification is provided below:
+
+
+```
+def get_data_gasprice(header: Header) -> int:
+    return fake_exponential(
+        MIN_DATA_GASPRICE,
+        header.excess_data_gas,
+        DATA_GASPRICE_UPDATE_FRACTION
+    )
+```
+
+This modification ensures that the assertion in block creation and transaction processing considers the correct data gas price, preventing inclusion of transactions with insufficient data gas price.
+
+### Genesis State Verification for Cancun Fork
+For the Cancun fork, there was an issue with the genesis state not including WithdrawsRoot in the genesis block. The problematic code snippet was as follows:
+
+`return shanghaiTimestamp.getAsLong() == genesis.getTimestamp();`
+To address this issue, the code has been updated as follows:
+
+`return genesis.getTimestamp() >= shanghaiTimestamp.getAsLong();`
+
+This change ensures that the genesis block's timestamp is greater than or equal to the shanghaiTimestamp, correctly reflecting the inclusion of WithdrawsRoot in the genesis state for the Cancun fork.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 13:07:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5679" class=".btn">#5679</a>
+            </td>
+            <td>
+                <b>
+                    Avoid doing two validations on transactionsRoot and ReceiptsRoot during sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR enhances the Sync process by eliminating duplicate validations for transaction root and receipt root.
+
+**Before this PR**
+
+<img width="1228" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/63c05dc5-8ffe-48d5-b53b-20111f53094d">
+
+**After this PR**
+
+<img width="1367" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/754c7b18-05f0-491f-ba4a-2ed1b25997a5">
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 12:56:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5678" class=".btn">#5678</a>
             </td>
             <td>
@@ -111,39 +272,6 @@ coordinates for other modules.
     </table>
     <div class="right-align">
         Created At 2023-07-05 15:20:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5674" class=".btn">#5674</a>
-            </td>
-            <td>
-                <b>
-                    Txvalidator builder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 14:56:59 +0000 UTC
     </div>
 </div>
 

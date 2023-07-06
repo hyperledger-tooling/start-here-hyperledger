@@ -29,9 +29,7 @@ permalink: /pull-requests/hyperledger/iroha
             <td>
                 ## Description
 
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
+the less functionality we expose in public API the better
 
 ### Linked issue
 
@@ -654,80 +652,6 @@ Upgrades `wasmtime` to the latest version.
     </table>
     <div class="right-align">
         Created At 2023-06-30 16:36:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3661" class=".btn">#3661</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3236: Enhance iroha_wasm_builder with cache, better errors and minor API changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Optimization</span>
-            </td>
-            <td>
-                ## Description
-
-Now you can configure `iroha_wasm_builder` output dir in a three ways (in order of priority):
-
-1. Explicitly use `out_dir()` method
-2. Set `IROHA_WASM_BUILDER_OUT_DIR` env var
-3. Do nothing if you are in a build-script. Directory will be inherited from `OUT_DIR` env var which is set by `cargo`
-
-By default `target` directory of running crate will be used.
-
-Other than that optimization *caching* is also implemented.
-This is done by comparing `sha256` hashes of non-omptimized wasm-files. If hash before and after build are equal, then non-omptimized file wasn't changed, which means that optimized wasm file should also stay unchanged and we don't have to spent time on running `wasm-opt`.
-
-Also `build()` will fail now if it's being called on workspace. I think, it was an error that we didn't have that before. It's an error because we run `build()` only to get `Output` from it, where `Output` is a binary encoded WASM file, which we can't choose if we build workspace.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-- Closes #3236 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Cached wasm binaries allows us not to rebuild them everytime from scratch. I.e. cached validator builds now take much less time. Same for tests which sumbit wasm.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-29 14:13:08 +0000 UTC
     </div>
 </div>
 
