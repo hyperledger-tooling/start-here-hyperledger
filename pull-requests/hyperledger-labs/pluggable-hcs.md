@@ -14,118 +14,79 @@ permalink: /pull-requests/hyperledger-labs/pluggable-hcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pluggable-hcs/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger-labs/pluggable-hcs/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    Bump requests from 2.26.0 to 2.31.0 in /docs
+                    Bump google.golang.org/grpc from 1.36.0 to 1.53.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
+                <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [requests](https://github.com/psf/requests) from 2.26.0 to 2.31.0.
+                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.36.0 to 1.53.0.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
 <blockquote>
-<h2>v2.31.0</h2>
-<h2>2.31.0 (2023-05-22)</h2>
-<p><strong>Security</strong></p>
+<h2>Release 1.53.0</h2>
+<h1>API Changes</h1>
 <ul>
-<li>
-<p>Versions of Requests between v2.3.0 and v2.30.0 are vulnerable to potential
-forwarding of <code>Proxy-Authorization</code> headers to destination servers when
-following HTTPS redirects.</p>
-<p>When proxies are defined with user info (<a href="https://user:pass@proxy:8080">https://user:pass@proxy:8080</a>), Requests
-will construct a <code>Proxy-Authorization</code> header that is attached to the request to
-authenticate with the proxy.</p>
-<p>In cases where Requests receives a redirect response, it previously reattached
-the <code>Proxy-Authorization</code> header incorrectly, resulting in the value being
-sent through the tunneled connection to the destination server. Users who rely on
-defining their proxy credentials in the URL are <em>strongly</em> encouraged to upgrade
-to Requests 2.31.0+ to prevent unintentional leakage and rotate their proxy
-credentials once the change has been fully deployed.</p>
-<p>Users who do not use a proxy or do not supply their proxy credentials through
-the user information portion of their proxy URL are not subject to this
-vulnerability.</p>
-<p>Full details can be read in our <a href="https://github.com/psf/requests/security/advisories/GHSA-j8r2-6x86-q33q">Github Security Advisory</a>
-and <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32681">CVE-2023-32681</a>.</p>
+<li>balancer: support injection of per-call metadata from LB policies (<a href="https://redirect.github.com/grpc/grpc-go/issues/5853">#5853</a>)</li>
+<li>resolver: remove deprecated field <code>resolver.Target.Endpoint</code> and replace with <code>resolver.Target.Endpoint()</code> (<a href="https://redirect.github.com/grpc/grpc-go/issues/5852">#5852</a>)
+<ul>
+<li>Special Thanks: <a href="https://github.com/kylejb"><code>@​kylejb</code></a></li>
+</ul>
 </li>
 </ul>
-<h2>v2.30.0</h2>
-<h2>2.30.0 (2023-05-03)</h2>
-<p><strong>Dependencies</strong></p>
+<h1>New Features</h1>
 <ul>
-<li>
-<p>⚠️ Added support for urllib3 2.0. ⚠️</p>
-<p>This may contain minor breaking changes so we advise careful testing and
-reviewing <a href="https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html">https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html</a>
-prior to upgrading.</p>
-<p>Users who wish to stay on urllib3 1.x can pin to <code>urllib3&lt;2</code>.</p>
+<li>xds/ringhash: introduce <code>GRPC_RING_HASH_CAP</code> environment variable to override the maximum ring size. (<a href="https://redirect.github.com/grpc/grpc-go/issues/5884">#5884</a>)</li>
+<li>rls: propagate headers received in RLS response to backends (<a href="https://redirect.github.com/grpc/grpc-go/issues/5883">#5883</a>)</li>
+</ul>
+<h1>Bug Fixes</h1>
+<ul>
+<li>transport: drain client transport when streamID approaches MaxStreamID (<a href="https://redirect.github.com/grpc/grpc-go/issues/5889">#5889</a>)</li>
+<li>server: after GracefulStop, ensure connections are closed when final RPC completes (<a href="https://redirect.github.com/grpc/grpc-go/issues/5968">#5968</a>)</li>
+<li>server: fix a few issues where grpc server uses RST_STREAM for non-HTTP/2 errors (<a href="https://redirect.github.com/grpc/grpc-go/issues/5893">#5893</a>)</li>
+<li>xdsclient: fix race which can happen when multiple load reporting calls are made at the same time. (<a href="https://redirect.github.com/grpc/grpc-go/issues/5927">#5927</a>)</li>
+<li>rls: fix a data race involving the LRU cache (<a href="https://redirect.github.com/grpc/grpc-go/issues/5925">#5925</a>)</li>
+<li>xds: fix panic involving double close of channel in xDS transport (<a href="https://redirect.github.com/grpc/grpc-go/issues/5959">#5959</a>)</li>
+<li>gcp/observability: update method name validation (<a href="https://redirect.github.com/grpc/grpc-go/issues/5951">#5951</a>)</li>
+</ul>
+<h1>Documentation</h1>
+<ul>
+<li>credentials/oauth: mark <code>NewOauthAccess</code> as deprecated (<a href="https://redirect.github.com/grpc/grpc-go/issues/5882">#5882</a>)
+<ul>
+<li>Special Thanks: <a href="https://github.com/buzzsurfr"><code>@​buzzsurfr</code></a></li>
+</ul>
 </li>
 </ul>
-<h2>v2.29.0</h2>
-<h2>2.29.0 (2023-04-26)</h2>
-<p><strong>Improvements</strong></p>
+<h2>Release 1.52.3</h2>
+<h1>Bug Fixes</h1>
 <ul>
-<li>Requests now defers chunked requests to the urllib3 implementation to improve
-standardization. (<a href="https://redirect.github.com/psf/requests/issues/6226">#6226</a>)</li>
-<li>Requests relaxes header component requirements to support bytes/str subclasses. (<a href="https://redirect.github.com/psf/requests/issues/6356">#6356</a>)</li>
+<li>Fix user-agent version</li>
 </ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
-<blockquote>
-<h2>2.31.0 (2023-05-22)</h2>
-<p><strong>Security</strong></p>
+<h2>Release 1.52.2</h2>
+<h1>Bug Fixes</h1>
 <ul>
-<li>
-<p>Versions of Requests between v2.3.0 and v2.30.0 are vulnerable to potential
-forwarding of <code>Proxy-Authorization</code> headers to destination servers when
-following HTTPS redirects.</p>
-<p>When proxies are defined with user info (<a href="https://user:pass@proxy:8080">https://user:pass@proxy:8080</a>), Requests
-will construct a <code>Proxy-Authorization</code> header that is attached to the request to
-authenticate with the proxy.</p>
-<p>In cases where Requests receives a redirect response, it previously reattached
-the <code>Proxy-Authorization</code> header incorrectly, resulting in the value being
-sent through the tunneled connection to the destination server. Users who rely on
-defining their proxy credentials in the URL are <em>strongly</em> encouraged to upgrade
-to Requests 2.31.0+ to prevent unintentional leakage and rotate their proxy
-credentials once the change has been fully deployed.</p>
-<p>Users who do not use a proxy or do not supply their proxy credentials through
-the user information portion of their proxy URL are not subject to this
-vulnerability.</p>
-<p>Full details can be read in our <a href="https://github.com/psf/requests/security/advisories/GHSA-j8r2-6x86-q33q">Github Security Advisory</a>
-and <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32681">CVE-2023-32681</a>.</p>
-</li>
+<li>xds: fix panic involving double close of channel in xDS transport (<a href="https://redirect.github.com/grpc/grpc-go/issues/5959">#5959</a>)</li>
 </ul>
-<h2>2.30.0 (2023-05-03)</h2>
-<p><strong>Dependencies</strong></p>
+<h2>Release 1.52.1</h2>
+<h1>Bug Fixes</h1>
 <ul>
-<li>
-<p>⚠️ Added support for urllib3 2.0. ⚠️</p>
-<p>This may contain minor breaking changes so we advise careful testing and
-reviewing <a href="https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html">https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html</a>
-prior to upgrading.</p>
-<p>Users who wish to stay on urllib3 1.x can pin to <code>urllib3&lt;2</code>.</p>
-</li>
+<li>grpclb: rename grpclbstate package back to state (<a href="https://redirect.github.com/grpc/grpc-go/issues/5963">#5963</a>)</li>
 </ul>
-<h2>2.29.0 (2023-04-26)</h2>
-<p><strong>Improvements</strong></p>
+<h2>Release 1.52.0</h2>
+<h1>New Features</h1>
 <ul>
-<li>Requests now defers chunked requests to the urllib3 implementation to improve
-standardization. (<a href="https://redirect.github.com/psf/requests/issues/6226">#6226</a>)</li>
-<li>Requests relaxes header component requirements to support bytes/str subclasses. (<a href="https://redirect.github.com/psf/requests/issues/6356">#6356</a>)</li>
+<li>xdsclient: log node ID with verbosity INFO (<a href="https://redirect.github.com/grpc/grpc-go/issues/5860">#5860</a>)</li>
+<li>ringhash: impose cap on <code>max_ring_size</code> to reduce possibility of OOMs (<a href="https://redirect.github.com/grpc/grpc-go/issues/5801">#5801</a>)</li>
 </ul>
-<h2>2.28.2 (2023-01-12)</h2>
+<h1>Behavior Changes</h1>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -133,23 +94,23 @@ standardization. (<a href="https://redirect.github.com/psf/requests/issues/6226"
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/psf/requests/commit/147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4"><code>147c851</code></a> v2.31.0</li>
-<li><a href="https://github.com/psf/requests/commit/74ea7cf7a6a27a4eeb2ae24e162bcc942a6706d5"><code>74ea7cf</code></a> Merge pull request from GHSA-j8r2-6x86-q33q</li>
-<li><a href="https://github.com/psf/requests/commit/302225334678490ec66b3614a9dddb8a02c5f4fe"><code>3022253</code></a> test on pypy 3.8 and pypy 3.9 on windows and macos (<a href="https://redirect.github.com/psf/requests/issues/6424">#6424</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/b639e66c816514e40604d46f0088fbceec1a5149"><code>b639e66</code></a> test on py3.12 (<a href="https://redirect.github.com/psf/requests/issues/6448">#6448</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/d3d504436ef0c2ac7ec8af13738b04dcc8c694be"><code>d3d5044</code></a> Fixed a small typo (<a href="https://redirect.github.com/psf/requests/issues/6452">#6452</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/2ad18e0e10e7d7ecd5384c378f25ec8821a10a29"><code>2ad18e0</code></a> v2.30.0</li>
-<li><a href="https://github.com/psf/requests/commit/f2629e9e3c7ce3c3c8c025bcd8db551101cbc773"><code>f2629e9</code></a> Remove strict parameter (<a href="https://redirect.github.com/psf/requests/issues/6434">#6434</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/87d63de8739263bbe17034fba2285c79780da7e8"><code>87d63de</code></a> v2.29.0</li>
-<li><a href="https://github.com/psf/requests/commit/51716c4ef390136b0d4b800ec7665dd5503e64fc"><code>51716c4</code></a> enable the warnings plugin (<a href="https://redirect.github.com/psf/requests/issues/6416">#6416</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/a7da1ab3498b10ec3a3582244c94b2845f8a8e71"><code>a7da1ab</code></a> try on ubuntu 22.04 (<a href="https://redirect.github.com/psf/requests/issues/6418">#6418</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v2.26.0...v2.31.0">compare view</a></li>
+<li><a href="https://github.com/grpc/grpc-go/commit/dba26e15a07f43875ccf806a2dd6cbcbc1c12eab"><code>dba26e1</code></a> Change version to 1.53.0 (<a href="https://redirect.github.com/grpc/grpc-go/issues/5983">#5983</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/2a1e9348ff7b5d9f4b5039e84e6c9873b5b3e26e"><code>2a1e934</code></a> server: after GracefulStop, ensure connections are closed when final RPC comp...</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/e2d69aa076dd070e3668784c4dc8bcf7131b3f67"><code>e2d69aa</code></a> tests: fix spelling of variable (<a href="https://redirect.github.com/grpc/grpc-go/issues/5966">#5966</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/a6376c9893f56fc3819bee9ef5d71f55cc2d38dd"><code>a6376c9</code></a> xds/resolver: cleanup tests to use real xDS client 3/n (<a href="https://redirect.github.com/grpc/grpc-go/issues/5953">#5953</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/bf8fc46fa6eb913e4ed0f6dee6c6a7b75e85fbf0"><code>bf8fc46</code></a> xds/resolver: cleanup tests to use real xDS client 5/n (<a href="https://redirect.github.com/grpc/grpc-go/issues/5955">#5955</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/3930549b38c0fc4cd94a95efccf7cef5f90515fd"><code>3930549</code></a> resolver: replace resolver.Target.Endpoint field with Endpoint() method (<a href="https://redirect.github.com/grpc/grpc-go/issues/5852">#5852</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/894816c487f8dd48fc971c45a7c5baa4b86ef7de"><code>894816c</code></a> grpclb: rename <code>grpclbstate</code> package back to <code>state</code> (<a href="https://redirect.github.com/grpc/grpc-go/issues/5962">#5962</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/e5a0237a46a5f95fa571624929be10c7afebb180"><code>e5a0237</code></a> encoding: fix duplicate compressor names (<a href="https://redirect.github.com/grpc/grpc-go/issues/5958">#5958</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/4adb2a7a00d8b62df5ea34d520fe3ca13bffd31a"><code>4adb2a7</code></a> xds/resolver: cleanup tests to use real xDS client 2/n (<a href="https://redirect.github.com/grpc/grpc-go/issues/5952">#5952</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/52a8392f374b8cd60e176b67925a7f8c1605d014"><code>52a8392</code></a> gcp/observability: update method name validation (<a href="https://redirect.github.com/grpc/grpc-go/issues/5951">#5951</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.36.0...v1.53.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=requests&package-manager=pip&previous-version=2.26.0&new-version=2.31.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.36.0&new-version=1.53.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -180,7 +141,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-23 20:09:03 +0000 UTC
+        Created At 2023-07-05 21:04:39 +0000 UTC
     </div>
 </div>
 

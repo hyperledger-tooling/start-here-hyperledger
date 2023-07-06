@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5677" class=".btn">#5677</a>
+            </td>
+            <td>
+                <b>
+                    [4844] [Hive] Fix for genesis mismatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Fix from @spencer-tb 
+
+https://github.com/hyperledger/besu/pull/5664#issuecomment-1620559037
+
+> We recently added the hive pyspec simulator to https://hivecancun.ethdevops.io/, which runs the tests from https://github.com/ethereum/execution-spec-tests using the EngineAPI
+> 
+> In order to start running the tests the genesis state needs to include the `excessDataGas` and `dataGasUsed`, otherwise we get a genesis mismatch -> leading to a `SYNCING` status when adding the first block with `NewPayloadV3` via the EngineAPI, as opposed to a `VALID` or expected `INVALID` status.
+
+
+
+> We recently added the hive pyspec simulator to https://hivecancun.ethdevops.io/, which runs the tests from https://github.com/ethereum/execution-spec-tests using the EngineAPI
+> 
+> In order to start running the tests the genesis state needs to include the `excessDataGas` and `dataGasUsed`, otherwise we get a genesis mismatch -> leading to a `SYNCING` status when adding the first block with `NewPayloadV3` via the EngineAPI, as opposed to a `VALID` or expected `INVALID` status.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 00:11:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5675" class=".btn">#5675</a>
             </td>
             <td>
@@ -277,7 +317,7 @@ Unrelated:
             </td>
             <td>
                 <b>
-                    Comment out backwards sync for newPayload
+                    [POC] Comment out backwards sync for newPayload
                 </b>
             </td>
         </tr>
@@ -336,34 +376,6 @@ Running a quick feasibility test based on https://github.com/hyperledger/besu/is
     </table>
     <div class="right-align">
         Created At 2023-07-02 05:06:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5664" class=".btn">#5664</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Read ExcessDataGas and ExcessDataGas from genesis if Cancun is present
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix for genesis mismatch
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-02 04:49:42 +0000 UTC
     </div>
 </div>
 
@@ -554,41 +566,6 @@ Update the acceptance test with the right hash value since the header now also h
     </table>
     <div class="right-align">
         Created At 2023-06-29 08:47:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5656" class=".btn">#5656</a>
-            </td>
-            <td>
-                <b>
-                    Add hooks to AbstractCreateOperation for library users
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add hooks for a successful contract create, a failed contract create, and an invalid contact create. Users of the library will be able to customize create responses without having to replace core logic.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 22:41:49 +0000 UTC
     </div>
 </div>
 

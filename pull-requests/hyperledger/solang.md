@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1427" class=".btn">#1427</a>
+            </td>
+            <td>
+                <b>
+                    Do not return arguments of revert
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR solves #1152. @salaheldinsoliman has already done most of the job. I certified that the parameter string in `revert` is indeed printed and removed all returns on Solana, as they have no effect (Anchor does not decode return data when a function reverts).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 21:24:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1426" class=".btn">#1426</a>
+            </td>
+            <td>
+                <b>
+                    Avoid narrowing casts from `size_t` to `uint32_t`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I changed all occurrences of `size_t` to `uint32_t`, except for `sol_memset` from `solana_sdk.h`.
+Converting from `size_t` to `uint32_t` could cause an overflow on Solana.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 18:37:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1423" class=".btn">#1423</a>
             </td>
             <td>
@@ -361,34 +415,6 @@ contract c {
     </table>
     <div class="right-align">
         Created At 2023-07-01 13:26:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1409" class=".btn">#1409</a>
-            </td>
-            <td>
-                <b>
-                    Fix undefined variable detection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The contract I added in the tests was working properly in Solang v0.3.0, but it caused a panic in [this line](https://github.com/hyperledger/solang/blob/a84b0ad3b67a17b524ef6b7437fd4c5376833807/src/codegen/strength_reduce/expression_values.rs#L79) on the main branch. 
-
-I couldn't identify what has changed from the release till now, but I deemed the logic for reporting undefined variables and stop optimizations erroneous.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-28 21:11:08 +0000 UTC
     </div>
 </div>
 

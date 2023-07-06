@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/789" class=".btn">#789</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/791" class=".btn">#791</a>
             </td>
             <td>
                 <b>
-                    Add clarification to thread RFC about handling an empty thread decorator
+                    Update Index file
                 </b>
             </td>
         </tr>
@@ -29,13 +29,45 @@ permalink: /pull-requests/hyperledger/aries-rfcs
             <td>
                 Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-See issue [#875 in Aries VCX](https://github.com/hyperledger/aries-vcx/issues/875).  This PR clarifies that while it is not recommended, an Aries agent MAY put an empty `~thread: {}` item in the first message of a protocol instance, and a recipient Aries agent MUST be able to handle that.
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-20 18:39:15 +0000 UTC
+        Created At 2023-07-06 00:11:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/790" class=".btn">#790</a>
+            </td>
+            <td>
+                <b>
+                    Update the AIP 2.0 RFC links to include clarifications
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A number of RFCs that are part of AIP 2.0 have been updated with clarifications, and this PR updates the links in AIP 2.0 to point to the commits of the clarified versions.  Includes a list of the newly clarified RFCs, and a link to the change made for each one.
+
+I did not include changes to the following RFCs that are part of AIP 2.0:
+
+- 0453 Issue Credential v2.0: The update to RFC included minor version updates, not just a clarification (multiple issuances, supplements)
+- 0454 Present Proof v2.0: The update to RFC included minor version updates, not just a clarification (multiple issuances, supplements)
+- 0592 Indy Attachments: I think the change that was done (proposed by me...) is wrong and needs to be corrected.
+
+In the list of changes to the links, I've included a link to the PR that added the clarification.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 00:09:13 +0000 UTC
     </div>
 </div>
 
