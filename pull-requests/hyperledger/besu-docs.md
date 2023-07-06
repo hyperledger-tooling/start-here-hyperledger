@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1355" class=".btn">#1355</a>
+            </td>
+            <td>
+                <b>
+                    Updated docs for TOML config files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated docs for TOML config files.
+Issue #1347 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 03:36:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1354" class=".btn">#1354</a>
             </td>
             <td>
