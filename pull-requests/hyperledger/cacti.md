@@ -442,37 +442,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2529" class=".btn">#2529</a>
-            </td>
-            <td>
-                <b>
-                    docs(readme): fix broken VS-code badge in the readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Replaced the Open in VSCode badge to be backed by the shields.io
-service which actually works.
-2. Removed the codecov badge for now because it does not work
-at the moment due to us having broken up the test execution into
-smaller CI jobs that are separate from each other.
-
-Fixes #2169
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-29 07:41:35 +0000 UTC
-    </div>
-</div>
-

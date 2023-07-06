@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2288" class=".btn">#2288</a>
+            </td>
+            <td>
+                <b>
+                    Fix routing in set public did
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Having a multitenancy mode and a base wallet mediator, when a DID was being promoted to public the base wallet mediator was not taken into consideration - the returned mediation record was always None. As a result, the agent's endpoint is written to ledger instead of the mediator's.
+
+This PR fixes this issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 09:50:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2287" class=".btn">#2287</a>
             </td>
             <td>
