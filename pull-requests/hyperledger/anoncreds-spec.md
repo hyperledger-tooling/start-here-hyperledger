@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/148" class=".btn">#148</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/151" class=".btn">#151</a>
             </td>
             <td>
                 <b>
-                    Added tails file prime generation and tails file hashing
+                    updated notations section with new notations
                 </b>
             </td>
         </tr>
@@ -27,18 +27,17 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                Before:
-![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/18d4fc6e-9662-484a-94b0-61752ba47ce2)
+                Fixes #150 
+Updated the `notations` section in the spec
 
-After:
-![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/b7124c3f-4985-4f6f-a2df-e6c4a9ec98b6)
-![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/87186051-93c8-494f-91f8-06112b08d200)
+![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/df53605e-41ff-4b92-b81a-209d096e1025)
 
+Let me know if anything I missed here
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-19 16:04:34 +0000 UTC
+        Created At 2023-07-06 06:00:11 +0000 UTC
     </div>
 </div>
 
