@@ -285,7 +285,7 @@ Prior to this PR, the resolution root of each file is discarded after `parse_and
             </td>
             <td>
                 <b>
-                    Substrate: `AssertFailure` emits revert instead trap
+                    Polkadot: `AssertFailure` emits revert instead trap
                 </b>
             </td>
         </tr>

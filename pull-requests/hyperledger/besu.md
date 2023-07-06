@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5678" class=".btn">#5678</a>
+            </td>
+            <td>
+                <b>
+                    Ethereum - migrated tests from Junit4 to Junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR removes junit4 dependency from ethereum modules
+Converts junit4 tests to junit5 according to https://blogs.oracle.com/javamagazine/post/migrating-from-junit-4-to-junit-5-important-differences-and-benefits
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5564
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 07:06:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5677" class=".btn">#5677</a>
             </td>
             <td>
@@ -539,33 +570,6 @@ We only need to update the peers chain state with the highest block header, whic
     </table>
     <div class="right-align">
         Created At 2023-06-30 00:06:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5657" class=".btn">#5657</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Acceptance Test - Update block hash with correct value 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">4844</span>
-            </td>
-            <td>
-                ## PR description
-Update the acceptance test with the right hash value since the header now also has dataGasUsed
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-29 08:47:17 +0000 UTC
     </div>
 </div>
 
