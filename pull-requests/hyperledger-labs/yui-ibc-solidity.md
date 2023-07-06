@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/198" class=".btn">#198</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/199" class=".btn">#199</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump github.com/cosmos/cosmos-sdk from 0.45.7 to 0.47.3
+                    build(deps): bump google.golang.org/grpc from 1.48.0 to 1.53.0
                 </b>
             </td>
         </tr>
@@ -27,99 +27,66 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [github.com/cosmos/cosmos-sdk](https://github.com/cosmos/cosmos-sdk) from 0.45.7 to 0.47.3.
+                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.48.0 to 1.53.0.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/cosmos/cosmos-sdk/releases">github.com/cosmos/cosmos-sdk's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
 <blockquote>
-<h2>v0.47.3</h2>
-<h1>Cosmos SDK v0.47.3 Release Notes</h1>
-<p>💬 <a href="https://github.com/orgs/cosmos/discussions/categories/announcements"><strong>Release Discussion</strong></a></p>
-<h2>🚀 Highlights</h2>
-<p>Missed the v0.47.0 announcement? Read it <a href="https://github.com/cosmos/cosmos-sdk/releases/tag/v0.47.0">here</a>.
-For this third patch release of the <code>v0.47.x</code> line, some of the notable changes include:</p>
+<h2>Release 1.53.0</h2>
+<h1>API Changes</h1>
 <ul>
-<li>The <a href="https://forum.cosmos.network/t/cosmos-sdk-security-advisory-barberry/10825">barberry</a> security vulnerability is resolved. All chains using Cosmos SDK <code>v0.47.0-v0.47.2</code> are advised to upgrade to <code>v0.47.3</code> <strong>immediately</strong>. A chain is not affected by the vulnerability as soon as <strong>33%+1</strong> of the voting power has upgraded. A chain is safe from halting as soon as <strong>66%+1</strong> of the voting power has upgraded. Coordinate with your validators to upgrade as soon as possible. The upgrade can be applied as a rolling upgrade across the validators or as a coordinated upgrade. Networks should decide which option gets them upgraded quicker.</li>
-<li>A command to be able to bootstrap comet from a local snapshot with <a href="https://docs.cosmos.network/v0.47/run-node/run-node#local-state-sync"><code>&lt;app&gt; comet bootstrap-state</code></a>.</li>
-<li>Commands to manage snapshots: Add <code>snapshot.Cmd(appCreator)</code> to your chain root command for using them.</li>
-<li>The default logger is now <code>cosmossdk.io/log</code>, which supports coloring 🟥🟩🟪🟦 and filtering again.</li>
-<li>A bug fix in <code>x/group</code> migration. Chains migrating from v0.46.x to v0.47.x must use at least v0.47.<strong>3</strong>.</li>
-</ul>
-<p>Check out the <a href="https://github.com/cosmos/cosmos-sdk/blob/v0.47.3/CHANGELOG.md">changelog</a> for an exhaustive list of changes or <a href="https://github.com/cosmos/cosmos-sdk/compare/v0.47.2...v0.47.3">compare changes</a> from last release.</p>
-<p>Refer to the <a href="https://github.com/cosmos/cosmos-sdk/blob/release/v0.47.x/UPGRADING.md">upgrading guide</a> when migrating from <code>v0.46.x</code> to <code>v0.47.0</code>.</p>
-<h2>v0.47.2</h2>
-<h1>Cosmos SDK v0.47.2 Release Notes</h1>
-<p>💬 <a href="https://github.com/orgs/cosmos/discussions/6"><strong>Release Discussion</strong></a></p>
-<h2>📝 Changelog</h2>
-<p>Check out the <a href="https://github.com/cosmos/cosmos-sdk/blob/v0.47.2/CHANGELOG.md">changelog</a> for an exhaustive list of changes or <a href="https://github.com/cosmos/cosmos-sdk/compare/v0.47.1...v0.47.2">compare changes</a> from last release.</p>
-<p>Refer to the <a href="https://github.com/cosmos/cosmos-sdk/blob/release/v0.47.x/UPGRADING.md">upgrading guide</a> when migrating from <code>v0.46.x</code> to <code>v0.47.0</code>.</p>
-<h2>🚀 Highlights</h2>
-<p>For this second patch release of the <code>v0.47.x</code> line, we focused on fixing bugs and improving the developer experience.
-Missed the v0.47.0 announcement? Read it <a href="https://github.com/cosmos/cosmos-sdk/releases/tag/v0.47.0">here</a>.</p>
-<p>Notably, <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15683">a fix</a> for loading archival states (thank you <a href="https://github.com/catShaark"><code>@​catShaark</code></a>).
-Additionally, the release fixes an issue where querying previous block heights would return an incorrect timestamp.</p>
-<h2>v0.47.1</h2>
-<h1>Cosmos SDK v0.47.1 Release Notes</h1>
-<p>💬 <a href="https://github.com/cosmos/community"><strong>Release Discussion</strong></a></p>
-<h2>📝 Changelog</h2>
-<p>Check out the <a href="https://github.com/cosmos/cosmos-sdk/blob/v0.47.1/CHANGELOG.md">changelog</a> for an exhaustive list of changes, or <a href="https://github.com/cosmos/cosmos-sdk/compare/v0.47.0...v0.47.1">compare changes</a> from last release.</p>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/cosmos/cosmos-sdk/blob/main/CHANGELOG.md">github.com/cosmos/cosmos-sdk's changelog</a>.</em></p>
-<blockquote>
-<h2><a href="https://github.com/cosmos/cosmos-sdk/releases/tag/v0.47.3">v0.47.3</a> - 2023-06-08</h2>
-<h3>Features</h3>
+<li>balancer: support injection of per-call metadata from LB policies (<a href="https://redirect.github.com/grpc/grpc-go/issues/5853">#5853</a>)</li>
+<li>resolver: remove deprecated field <code>resolver.Target.Endpoint</code> and replace with <code>resolver.Target.Endpoint()</code> (<a href="https://redirect.github.com/grpc/grpc-go/issues/5852">#5852</a>)
 <ul>
-<li>(baseapp) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16290">#16290</a> Add circuit breaker setter in baseapp.</li>
-<li>(x/group) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16191">#16191</a> Add EventProposalPruned event to group module whenever a proposal is pruned.</li>
-<li>(tx) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15992">#15992</a> Add <code>WithExtensionOptions</code> in tx Factory to allow <code>SetExtensionOptions</code> with given extension options.</li>
+<li>Special Thanks: <a href="https://github.com/kylejb"><code>@​kylejb</code></a></li>
 </ul>
-<h3>Improvements</h3>
+</li>
+</ul>
+<h1>New Features</h1>
 <ul>
-<li>(baseapp) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16407">#16407</a> Make <code>DefaultProposalHandler.ProcessProposalHandler</code> return a ProcessProposal NoOp when using none or a NoOp mempool.</li>
-<li>(deps) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16083">#16083</a> Bumps <code>proto-builder</code> image to 0.13.0.</li>
-<li>(client) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16075">#16075</a> Partly revert <a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/15953">#15953</a> and <code>factory.Prepare</code> now does nothing in offline mode.</li>
-<li>(server) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15984">#15984</a> Use <code>cosmossdk.io/log</code> package for logging instead of CometBFT logger. NOTE: v0.45 and v0.46 were not using CometBFT logger either. This keeps the same underlying logger (zerolog) as in v0.45.x+ and v0.46.x+ but now properly supporting filtered logging.</li>
-<li>(gov) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15979">#15979</a> Improve gov error message when failing to convert v1 proposal to v1beta1.</li>
-<li>(store) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16067">#16067</a> Add local snapshots management commands.</li>
-<li>(server) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16061">#16061</a> Add Comet bootstrap command.</li>
-<li>(snapshots) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16060">#16060</a> Support saving and restoring snapshot locally.</li>
-<li>(x/staking) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16068">#16068</a> Update simulation to allow non-EOA accounts to stake.</li>
-<li>(server) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16142">#16142</a> Remove JSON Indentation from the GRPC to REST gateway's responses. (Saving bandwidth)</li>
-<li>(types) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16145">#16145</a> Rename interface <code>ExtensionOptionI</code> back to <code>TxExtensionOptionI</code> to avoid breaking change.</li>
-<li>(baseapp) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16193">#16193</a> Add <code>Close</code> method to <code>BaseApp</code> for custom app to cleanup resource in graceful shutdown.</li>
+<li>xds/ringhash: introduce <code>GRPC_RING_HASH_CAP</code> environment variable to override the maximum ring size. (<a href="https://redirect.github.com/grpc/grpc-go/issues/5884">#5884</a>)</li>
+<li>rls: propagate headers received in RLS response to backends (<a href="https://redirect.github.com/grpc/grpc-go/issues/5883">#5883</a>)</li>
 </ul>
-<h3>Bug Fixes</h3>
+<h1>Bug Fixes</h1>
 <ul>
-<li>Fix <a href="https://forum.cosmos.network/t/cosmos-sdk-security-advisory-barberry/10825">barberry</a> security vulnerability.</li>
-<li>(server) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16395">#16395</a> Do not override some Comet config is purposely set differently in <code>InterceptConfigsPreRunHandler</code>.</li>
-<li>(store) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16449">#16449</a> Fix StateSync Restore by excluding memory store.</li>
-<li>(cli) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16312">#16312</a> Allow any addresses in <code>client.ValidatePromptAddress</code>.</li>
-<li>(x/group) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/16017">#16017</a> Correctly apply account number in group v2 migration.</li>
+<li>transport: drain client transport when streamID approaches MaxStreamID (<a href="https://redirect.github.com/grpc/grpc-go/issues/5889">#5889</a>)</li>
+<li>server: after GracefulStop, ensure connections are closed when final RPC completes (<a href="https://redirect.github.com/grpc/grpc-go/issues/5968">#5968</a>)</li>
+<li>server: fix a few issues where grpc server uses RST_STREAM for non-HTTP/2 errors (<a href="https://redirect.github.com/grpc/grpc-go/issues/5893">#5893</a>)</li>
+<li>xdsclient: fix race which can happen when multiple load reporting calls are made at the same time. (<a href="https://redirect.github.com/grpc/grpc-go/issues/5927">#5927</a>)</li>
+<li>rls: fix a data race involving the LRU cache (<a href="https://redirect.github.com/grpc/grpc-go/issues/5925">#5925</a>)</li>
+<li>xds: fix panic involving double close of channel in xDS transport (<a href="https://redirect.github.com/grpc/grpc-go/issues/5959">#5959</a>)</li>
+<li>gcp/observability: update method name validation (<a href="https://redirect.github.com/grpc/grpc-go/issues/5951">#5951</a>)</li>
 </ul>
-<h3>API Breaking Changes</h3>
+<h1>Documentation</h1>
 <ul>
-<li>(testutil) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/14991">#14991</a> The <code>testutil/testdata_pulsar</code> package has moved to <code>testutil/testdata/testpb</code>.  Chains will not notice this breaking change as this package contains testing utilities only used by the SDK internally.</li>
-</ul>
-<h2><a href="https://github.com/cosmos/cosmos-sdk/releases/tag/v0.47.2">v0.47.2</a> - 2023-04-27</h2>
-<h3>Improvements</h3>
+<li>credentials/oauth: mark <code>NewOauthAccess</code> as deprecated (<a href="https://redirect.github.com/grpc/grpc-go/issues/5882">#5882</a>)
 <ul>
-<li>(x/evidence) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15908">#15908</a> Update the equivocation handler to work with ICS by removing a pubkey check that was performing a no-op for consumer chains.</li>
-<li>(x/slashing) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15908">#15908</a> Remove the validators' pubkey check in the signature handler in order to work with ICS.</li>
-<li>(deps) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15957">#15957</a> Bump CometBFT to <a href="https://github.com/cometbft/cometbft/blob/v0.37.1/CHANGELOG.md#v0371">v0.37.1</a>.</li>
-<li>(store) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15683">#15683</a> <code>rootmulti.Store.CacheMultiStoreWithVersion</code> now can handle loading archival states that don't persist any of the module stores the current state has.</li>
-<li><a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15448">#15448</a> Automatically populate the block timestamp for historical queries. In contexts where the block timestamp is needed for previous states, the timestamp will now be set. Note, when querying against a node it must be re-synced in order to be able to automatically populate the block timestamp. Otherwise, the block timestamp will be populated for heights going forward once upgraded.</li>
-<li><a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/14019">#14019</a> Remove the interface casting to allow other implementations of a <code>CommitMultiStore</code>.</li>
-<li>(simtestutil) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15903">#15903</a> Add <code>AppStateFnWithExtendedCbs</code> with moduleStateCb callback function to allow access moduleState.</li>
+<li>Special Thanks: <a href="https://github.com/buzzsurfr"><code>@​buzzsurfr</code></a></li>
 </ul>
-<h3>Bug Fixes</h3>
+</li>
+</ul>
+<h2>Release 1.52.3</h2>
+<h1>Bug Fixes</h1>
 <ul>
-<li>(baseapp) <a href="https://redirect.github.com/cosmos/cosmos-sdk/pull/15789">#15789</a> Ensure <code>PrepareProposal</code> and <code>ProcessProposal</code> respect <code>InitialHeight</code> set by CometBFT when set to a value greater than 1.</li>
+<li>Fix user-agent version</li>
 </ul>
+<h2>Release 1.52.2</h2>
+<h1>Bug Fixes</h1>
+<ul>
+<li>xds: fix panic involving double close of channel in xDS transport (<a href="https://redirect.github.com/grpc/grpc-go/issues/5959">#5959</a>)</li>
+</ul>
+<h2>Release 1.52.1</h2>
+<h1>Bug Fixes</h1>
+<ul>
+<li>grpclb: rename grpclbstate package back to state (<a href="https://redirect.github.com/grpc/grpc-go/issues/5963">#5963</a>)</li>
+</ul>
+<h2>Release 1.52.0</h2>
+<h1>New Features</h1>
+<ul>
+<li>xdsclient: log node ID with verbosity INFO (<a href="https://redirect.github.com/grpc/grpc-go/issues/5860">#5860</a>)</li>
+<li>ringhash: impose cap on <code>max_ring_size</code> to reduce possibility of OOMs (<a href="https://redirect.github.com/grpc/grpc-go/issues/5801">#5801</a>)</li>
+</ul>
+<h1>Behavior Changes</h1>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -127,23 +94,23 @@ Additionally, the release fixes an issue where querying previous block heights w
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/666c345ad23ddda9523cc5cd1b71187d91c26f34"><code>666c345</code></a> fix: patch barberry (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16465">#16465</a>)</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/cfc757dc5043fb2758c47c146d2912fd010c1a45"><code>cfc757d</code></a> chore: prepare v0.47.3 (2/2) (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16444">#16444</a>)</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/3bbc0aaed7d3270d5aaecd86d950aca33a5cecfb"><code>3bbc0aa</code></a> fix: StateSync Restore by excluding memory store (backport <a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16449">#16449</a>) (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16452">#16452</a>)</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/48becdf19a342e7478aa5839e6c10c985cbfc63b"><code>48becdf</code></a> docs: improve upgrading.md and changelog (backport <a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16429">#16429</a>) (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16431">#16431</a>)</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/dda81a2275d7a9553a74068e5edd22d942ad9124"><code>dda81a2</code></a> refactor: avoid breaking change due to <a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16415">#16415</a> included in v0.50 (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16430">#16430</a>)</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/ba2f1be04c4386b4b224415f0075d0ff99357d98"><code>ba2f1be</code></a> chore: change prepare and process proposal to be NoOps by default (backport #...</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/616841b9704dac92285834382a8aa7be89845d7b"><code>616841b</code></a> chore: small snapshot commands &amp; docs improvement (backport <a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16404">#16404</a>) (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16408">#16408</a>)</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/2cd72b74ba8e0e5cdd31d7a3aeb2bd2e0da68875"><code>2cd72b7</code></a> chore: prepare v0.47.3 (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16248">#16248</a>)</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/2e70efc10af3793acddbd285d4c300e1e63b34e2"><code>2e70efc</code></a> fix: do not overwrite comet config when set in `InterceptConfigsPreRunHandler...</li>
-<li><a href="https://github.com/cosmos/cosmos-sdk/commit/6d959001169ce78360887faf882680bf52b09ae8"><code>6d95900</code></a> feat: support extension options for build tx (backport: <a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/15992">#15992</a>) (<a href="https://redirect.github.com/cosmos/cosmos-sdk/issues/16317">#16317</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/cosmos/cosmos-sdk/compare/v0.45.7...v0.47.3">compare view</a></li>
+<li><a href="https://github.com/grpc/grpc-go/commit/dba26e15a07f43875ccf806a2dd6cbcbc1c12eab"><code>dba26e1</code></a> Change version to 1.53.0 (<a href="https://redirect.github.com/grpc/grpc-go/issues/5983">#5983</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/2a1e9348ff7b5d9f4b5039e84e6c9873b5b3e26e"><code>2a1e934</code></a> server: after GracefulStop, ensure connections are closed when final RPC comp...</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/e2d69aa076dd070e3668784c4dc8bcf7131b3f67"><code>e2d69aa</code></a> tests: fix spelling of variable (<a href="https://redirect.github.com/grpc/grpc-go/issues/5966">#5966</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/a6376c9893f56fc3819bee9ef5d71f55cc2d38dd"><code>a6376c9</code></a> xds/resolver: cleanup tests to use real xDS client 3/n (<a href="https://redirect.github.com/grpc/grpc-go/issues/5953">#5953</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/bf8fc46fa6eb913e4ed0f6dee6c6a7b75e85fbf0"><code>bf8fc46</code></a> xds/resolver: cleanup tests to use real xDS client 5/n (<a href="https://redirect.github.com/grpc/grpc-go/issues/5955">#5955</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/3930549b38c0fc4cd94a95efccf7cef5f90515fd"><code>3930549</code></a> resolver: replace resolver.Target.Endpoint field with Endpoint() method (<a href="https://redirect.github.com/grpc/grpc-go/issues/5852">#5852</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/894816c487f8dd48fc971c45a7c5baa4b86ef7de"><code>894816c</code></a> grpclb: rename <code>grpclbstate</code> package back to <code>state</code> (<a href="https://redirect.github.com/grpc/grpc-go/issues/5962">#5962</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/e5a0237a46a5f95fa571624929be10c7afebb180"><code>e5a0237</code></a> encoding: fix duplicate compressor names (<a href="https://redirect.github.com/grpc/grpc-go/issues/5958">#5958</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/4adb2a7a00d8b62df5ea34d520fe3ca13bffd31a"><code>4adb2a7</code></a> xds/resolver: cleanup tests to use real xDS client 2/n (<a href="https://redirect.github.com/grpc/grpc-go/issues/5952">#5952</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/52a8392f374b8cd60e176b67925a7f8c1605d014"><code>52a8392</code></a> gcp/observability: update method name validation (<a href="https://redirect.github.com/grpc/grpc-go/issues/5951">#5951</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.48.0...v1.53.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/cosmos/cosmos-sdk&package-manager=go_modules&previous-version=0.45.7&new-version=0.47.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.48.0&new-version=1.53.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -174,7 +141,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 20:09:52 +0000 UTC
+        Created At 2023-07-05 21:27:17 +0000 UTC
     </div>
 </div>
 

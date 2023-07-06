@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1498" class=".btn">#1498</a>
+            </td>
+            <td>
+                <b>
+                    fix(askar): in memory wallet creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Quick fix to allow the creation of an in-memory wallet (for test purposes). Previously, the parameter was supported but, due to a particular error thrown by `@hyperledger/askar-shared` it was not working.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-05 22:50:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1496" class=".btn">#1496</a>
             </td>
             <td>
