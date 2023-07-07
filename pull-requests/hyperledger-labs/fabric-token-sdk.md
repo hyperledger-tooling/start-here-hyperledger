@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/481" class=".btn">#481</a>
+            </td>
+            <td>
+                <b>
+                    Sig on transfers cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 16:36:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/480" class=".btn">#480</a>
+            </td>
+            <td>
+                <b>
+                    Sig on transfers cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 14:29:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/479" class=".btn">#479</a>
             </td>
             <td>
@@ -181,16 +233,16 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    two TMS on the same fabric network
+                    Two TMS on the same fabric network
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">testing</span>
             </td>
             <td>
-                <nil>
+                This PR introduces a new integration test that checks that two different TMS can leave in the same Fabric channel.
             </td>
         </tr>
     </table>

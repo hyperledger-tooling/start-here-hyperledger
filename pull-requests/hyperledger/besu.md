@@ -73,7 +73,7 @@ Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
             </td>
             <td>
                 <b>
-                    Txvalidator remove set filter 1
+                    Introduce transaction validator interface (phase 2)
                 </b>
             </td>
         </tr>
@@ -87,9 +87,10 @@ Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+The focus of this PR is to complete the work started in #5673 and remove the odd `setPermissionTransactionFilter` from the interface.
+The `setPermissionTransactionFilter` method is only relevant for private network when [permissioning](https://besu.hyperledger.org/stable/private-networks/concepts/permissioning) is enabled, so it make sense to have a dedicated validator for that, so `PermissionTransactionValidator` has been introduced to handle that use case, while it delegates all the other validations to `MainnetTransactionValidator`.
+To obtain that, as common, another layer of indirection was required, since it is not possible to create the `PermissionTransactionValidator` when building the protocol schedule, due to a cyclic dependency, so the need for `TransactionValidatorFactory` that is available through the protocol schedule, and for efficiency create and memoize the actual transaction validator on first usage when all the required prerequisite, to build any kind of transaction validator, are satisfied.
+
             </td>
         </tr>
     </table>
@@ -119,6 +120,10 @@ Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+This PR enables handling commits of the world state with a single transaction. This helps prevent inconsistencies between different columns in case of power failure or OOM, for example. With this PR, we will have a single global transaction for everything, and if anything goes wrong, all columns will be rollback.
+
+Additionally, this PR removes the unused version 0 of the database, which adds unnecessary code.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -207,7 +212,7 @@ This change ensures that the genesis block's timestamp is greater than or equal 
 
 ## PR description
 
-This PR enhances the Sync process by eliminating duplicate validations for transactions root and receipts root.
+This PR enhances the Sync process by eliminating duplicate validations for transactions root and receipts root. We've noticed in CPU profiles during sync that receipts root and transactions root are calculated twice. The first time when data is retrieved from other peers, and the second time during block import when validating block body. This PR implements a mechanism to maintain a record of previously validated transactions and receipts roots, ensuring that redundant validations are avoided.
 
 ### **Sync time improvement (on a 4 vCPU/ 32 GiB RAM VM)**
 

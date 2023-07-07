@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3687" class=".btn">#3687</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #2398: Add integration tests for query filters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Tests</span>
+            </td>
+            <td>
+                ## Description
+
+Add query filtering functionality for the `client_cli` + integration test for pytest suit. 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #2398 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+The more tests the better.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] Extend partially tagged (de)serialize for generics
+- [x] Make `Raw` tag optional for `PredicateBox`
+- [x] Add ability to skip multi-signature checks in `client_cli`: works faster + correctly for our test
+- [x] Fix outdated or buggy test in pytest suit + minor refactoring 
+- [x] Add test for query filtersing
+- [ ] Still have failures from time to time on some test (my guess it's because we use random peer every time for querying and in case of observing peer it might not be updated on time) 
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 15:47:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3686" class=".btn">#3686</a>
             </td>
             <td>
@@ -629,62 +693,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-06-30 22:18:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3663" class=".btn">#3663</a>
-            </td>
-            <td>
-                <b>
-                    [bump] #3309: `wasmtime`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-1. Replaces error lifting from `Trap` with `wasmtime::Error` that is `anyhow::Error` actually.
-2. Replaces all codec errors with structured errors.
-3. Replaces `eyre` with `wasmtime::Error` in structured errors related to executing smart-contracts.
-
-### Linked issue
-
-Closes #3309 
-
-### Benefits
-
-Upgrades `wasmtime` to the latest version.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-- [ ] Fix FFI troubles
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 16:36:40 +0000 UTC
     </div>
 </div>
 

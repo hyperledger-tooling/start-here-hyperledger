@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    further small docs fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Follows on from #201.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 15:09:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/201" class=".btn">#201</a>
             </td>
             <td>
