@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5684" class=".btn">#5684</a>
+            </td>
+            <td>
+                <b>
+                    Update tuweni2.4.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Update Tuweni to 2.4.2.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 06:26:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5683" class=".btn">#5683</a>
             </td>
             <td>
@@ -179,7 +207,20 @@ This change ensures that the genesis block's timestamp is greater than or equal 
 
 ## PR description
 
-This PR enhances the Sync process by eliminating duplicate validations for transaction root and receipt root.
+This PR enhances the Sync process by eliminating duplicate validations for transactions root and receipts root.
+
+### **Sync time improvement (on a 4 vCPU/ 32 GiB RAM VM)**
+
+<img width="1627" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/8268a40d-627b-4a98-9eb8-e321a4010efc">
+
+**Without this PR**
+Checkpoint sync time : 19 hours 54 minutes
+
+**With this PR**
+ Checkpoint sync time : 16 hours 42 minutes
+
+### **CPU profiling** 
+We can notice in the profiling screenshots that Besu does the receipts root validation only once with this PR when getting the receipts from the peers.
 
 **Before this PR**
 
@@ -562,42 +603,6 @@ Running a quick feasibility test based on https://github.com/hyperledger/besu/is
     </table>
     <div class="right-align">
         Created At 2023-07-02 05:06:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5663" class=".btn">#5663</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Check params earlier and move blob validation to a new method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Check the params earlier and move blob validation to a new method
-
-In case CL sends a payload with invalid blob params for a known header, we should return invalid.
-
-Expected Behaviour: return invalid
-
-Actual Behaviour: Returns are valid because we have already seen that payload.
-
-This PR moves the validation earlier in the flow and encapsulates the validation login into a method for readability.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 07:11:40 +0000 UTC
     </div>
 </div>
 

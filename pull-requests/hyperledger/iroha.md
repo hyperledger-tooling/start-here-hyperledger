@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3686" class=".btn">#3686</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3607: do not allow decoding/deserialization of SignedTransaction in no_std
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                No way to validate signatures (ursa is not available) - no way to enforce the "signatures are valid" invariant
+
+Better to not support the decoding at all
+
+IMO it still makes sense to decode `SignedTransactionCandidate`, as it does not carry invariants (at least I think so?)
+
+Closes #3607
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 09:58:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3685" class=".btn">#3685</a>
             </td>
             <td>
@@ -607,7 +640,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    [feature] #3309: Bumps `wasmtime` version
+                    [bump] #3309: `wasmtime`
                 </b>
             </td>
         </tr>

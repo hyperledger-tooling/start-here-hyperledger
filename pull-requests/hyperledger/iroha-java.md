@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/356" class=".btn">#356</a>
+            </td>
+            <td>
+                <b>
+                    fearure (issue#113) client-side load balancing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 08:30:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/355" class=".btn">#355</a>
             </td>
             <td>
@@ -44,7 +70,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    version update
+                    dependency bump
                 </b>
             </td>
         </tr>

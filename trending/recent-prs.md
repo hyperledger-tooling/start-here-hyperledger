@@ -1,13 +1,13 @@
 
-[5683](https://github.com/hyperledger/besu/pull/5683) [4844] Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
+[895](https://github.com/hyperledger/aries-vcx/pull/895) Added capability of migrating wallet through the node.js wrapper
 
-[2540](https://github.com/hyperledger/cacti/pull/2540) docs(examples): upgrade Angular to v15
+[3686](https://github.com/hyperledger/iroha/pull/3686) [fix] #3607: do not allow decoding/deserialization of SignedTransaction in no_std
 
-[137](https://github.com/hyperledger/toc/pull/137) Corrections
+[894](https://github.com/hyperledger/aries-vcx/pull/894) Update dependencies and AriesMessage Deserialize impl
 
-[707](https://github.com/hyperledger/aries-agent-test-harness/pull/707) upgrade acapy backchannels to python 3.9
+[356](https://github.com/hyperledger/iroha-java/pull/356) fearure (issue#113) client-side load balancing
 
-[874](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/874) fix: verifier notifications
+[5684](https://github.com/hyperledger/besu/pull/5684) Update tuweni2.4.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
