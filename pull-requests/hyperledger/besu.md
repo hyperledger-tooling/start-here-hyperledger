@@ -674,30 +674,3 @@ Both take a block header and a block body as a parameter. It was required to use
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5659" class=".btn">#5659</a>
-            </td>
-            <td>
-                <b>
-                    Only update peer with the first and last block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-We only need to update the peers chain state with the highest block header, which is the first or the last block in the list. Currently we are trying to update with every block header, which can be 200 or so.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 00:06:38 +0000 UTC
-    </div>
-</div>
-
