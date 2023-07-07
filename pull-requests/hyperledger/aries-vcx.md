@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/895" class=".btn">#895</a>
+            </td>
+            <td>
+                <b>
+                    Added capability of migrating wallet through the node.js wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Exposes the wallet migration functionality in the Node.js wrapper
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 11:53:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/894" class=".btn">#894</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies and AriesMessage Deserialize impl
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #893.
+
+Also updates `transitive` dependency and simplifies the `Deserialize` impl for `AriesMessage` to require less of `serde`'s internal components. 
+
+Now only `Content` and `ContentDeserializer` are used merely at a type level, and these have been around for a very long time and are pretty much stable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 09:32:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/892" class=".btn">#892</a>
             </td>
             <td>
@@ -75,40 +131,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2023-07-03 11:08:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/890" class=".btn">#890</a>
-            </td>
-            <td>
-                <b>
-                    Enable compiling the workspace with --tests --all-features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                A hotfix to enable compiling the workspace with `--tests --all-features`.
-
-It is [recommended](https://doc.rust-lang.org/cargo/reference/features.html#feature-unification) that
-
-> [...] features should be additive. That is, enabling a feature should not disable functionality, and it should usually be safe to enable any combination of features. [...]
-
-meaning the code should compile with all features enabled as well.
-
-(Selfish reason is that I am using these cargo options in the rust-analyzer settings globally to enable code completion and error / warnings hints in any Rust project in all code, including code compiled conditionally using features and all tests. If the workspace stops compiling before it reaches the code I am working on, I get no error hints.)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 07:10:53 +0000 UTC
     </div>
 </div>
 

@@ -41,39 +41,3 @@ Updated login text to work with both IBP and HFL Support console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/506" class=".btn">#506</a>
-            </td>
-            <td>
-                <b>
-                    retry for smart contract error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-retry for smart contract error
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 06:25:57 +0000 UTC
-    </div>
-</div>
-
