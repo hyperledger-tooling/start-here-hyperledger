@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    Auto-label PRs
+                    Corrections
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-29 13:32:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/134" class=".btn">#134</a>
-            </td>
-            <td>
-                <b>
-                    Auto-label PRs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-29 12:51:15 +0000 UTC
+        Created At 2023-07-06 20:41:51 +0000 UTC
     </div>
 </div>
 

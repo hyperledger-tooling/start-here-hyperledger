@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/87" class=".btn">#87</a>
             </td>
             <td>
                 <b>
-                    Add behaviors to cache rather than muddying the Get function
+                    Fix escaping in LIKE expressions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                <nil>
+                Explicitly specify '[' as the escape character in all cases, and use it to escape the wildcards '%' and '_' in LIKE expressions. Works for Postgres and SQLite.
+
+Fixes #83
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-29 21:15:01 +0000 UTC
+        Created At 2023-07-06 16:23:07 +0000 UTC
     </div>
 </div>
 

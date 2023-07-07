@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1364" class=".btn">#1364</a>
+            </td>
+            <td>
+                <b>
+                    Add unit test for LIKE filters with escaped characters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Validates proper escaping of '%' and '_'.
+
+Requires https://github.com/hyperledger/firefly-common/pull/87
+Fixes #1084 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 16:25:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1363" class=".btn">#1363</a>
+            </td>
+            <td>
+                <b>
+                    Docs SEO Updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @nguyer this pull request should address the items I've listed in issue #1362. It removes the output from the jekyll-seo-tag plugin and instead uses only the theme to add the page title and various meta tags. It includes custom page titles and meta descriptions for all of the docs pages so they'll be better crawled and displayed by search engines. And last, it hooks up Google Tag Manager so we'll be able to have Google Analytics for the site and see what kind of traffic it's getting. Let me know if you see anything you'd like me to adjust.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 13:54:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1361" class=".btn">#1361</a>
             </td>
             <td>
@@ -42,38 +97,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2023-07-04 04:18:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1359" class=".btn">#1359</a>
-            </td>
-            <td>
-                <b>
-                    feat: batching events and webhook plugin support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Enable batching for subscriptions
-
-
-In draft as left to do:
-- Write more robust tests to match coverage
-- Handle the firstData for events and decide what we do there
-- Refactor the webhook plugin to make it more modular instead of copying code across functions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-29 13:32:38 +0000 UTC
     </div>
 </div>
 
