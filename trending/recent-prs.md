@@ -1,13 +1,13 @@
 
-[5682](https://github.com/hyperledger/besu/pull/5682) Txvalidator remove set filter 1
+[5683](https://github.com/hyperledger/besu/pull/5683) [4844] Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
 
-[419](https://github.com/hyperledger-labs/blockchain-explorer/pull/419) Integrate SonarCloud
+[2540](https://github.com/hyperledger/cacti/pull/2540) docs(examples): upgrade Angular to v15
 
-[1432](https://github.com/hyperledger/solang/pull/1432) Identify externally callable functions in `sema`
+[137](https://github.com/hyperledger/toc/pull/137) Corrections
 
-[1431](https://github.com/hyperledger/solang/pull/1431) Remove unwanted files
+[707](https://github.com/hyperledger/aries-agent-test-harness/pull/707) upgrade acapy backchannels to python 3.9
 
-[5681](https://github.com/hyperledger/besu/pull/5681) add global transaction
+[874](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/874) fix: verifier notifications
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

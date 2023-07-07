@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5683" class=".btn">#5683</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 05:59:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5682" class=".btn">#5682</a>
             </td>
             <td>
@@ -571,106 +598,6 @@ This PR moves the validation earlier in the flow and encapsulates the validation
     </table>
     <div class="right-align">
         Created At 2023-06-30 07:11:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5662" class=".btn">#5662</a>
-            </td>
-            <td>
-                <b>
-                    Extend OperationTracer with new methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR extends the `OperationTracer` with 2 new methods:
-
-* traceStartTransaction, which complements the existing traceEndTransaction
-* isExtendedTracing, which returns `false` by default, but can be overrriden by other tracer implementations
-
-Extended tracing is needed in cases where the current tracing implementations does not provide sufficient insight into a transaction. This is for example required for zkEVM implementations as those often require a more detailed insight into a transaction for the proof generation. This PR introduces extended tracing in case of a successful contract creation. More extending tracing will be added in future PRs.
-
-Further the plugin API for tracing is extended as well. It adds 2 new methods:
-
-* traceStartBlock
-* traceEndBlock
-
-Both take a block header and a block body as a parameter. It was required to use those 2 instead of a `Block` object, because the latter is causing circular dependency issues that would require a very big refactoring to resolve them.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 05:49:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5661" class=".btn">#5661</a>
-            </td>
-            <td>
-                <b>
-                    Add --amend to docker manifest create to fix docker latest tag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We need to replace previous release's latest tag. Might be broken due to a recent change in the docker command implementation
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 03:58:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5660" class=".btn">#5660</a>
-            </td>
-            <td>
-                <b>
-                    Put download links into CHANGELOG and do some clean up
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 03:30:53 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2540" class=".btn">#2540</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples): upgrade Angular to v15
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Upgraded from Angular v14 to v15 for both GUI packages that use it.
+2. Upgraded the Typescript compiler project-wide to 4.8.4
+3. Due to 2) There was a change needed in the file
+examples/cactus-example-discounted-asset-trade/transaction-fabric.ts
+which introduces a constraint on the T type parameter.
+4. Disabled the staged files linting because right now ESLint is broken
+due to our Typescript version being >=4.8.0 (and upgrading it was not
+an option because then it is broken due to ESM issues...)
+5. Cleaned out a lot of the unused dev dependencies of the front-end
+packages where angular was upgraded. These dependencies were related to
+end-to-end browser testing which we haven't set up yet to be executed
+because all the front-end packages are just example code that - while
+important to test - does not have the highest priority in this sense.
+6. Set the rootDir property in the electricity trade example's tsconfig.json
+    file to the standard value (./) because without it the new tsc compiler
+    version seems to be putting the compiled source files in a different
+    location by default (probably an accidental breaking change on the compiler's
+    part or just a lack of my understanding of how the configuration of it
+    should work). With the rootDir explicitly specified, it appears to be
+    compiling the files in the correct location as before.
+
+Fixes #2229
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-06 22:47:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2538" class=".btn">#2538</a>
             </td>
             <td>
@@ -385,60 +434,6 @@ Closes: #2534
     </table>
     <div class="right-align">
         Created At 2023-07-03 18:58:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2530" class=".btn">#2530</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): upgrade Angular to v14
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Upgraded Angular from v13 to v14
-2. Also bumped up the Ionic Framework dependencies
-as needed because older versions that we were using
-were not compatible [1] with Angular v14
-3. Also did some of the Cactus -> Cacti renaming
-in the front-end code namely the front-page of
-both the supply chain and the carbon accounting
-app examples.
-
-[1] https://stackoverflow.com/a/72508644
-
-Verbatim copy of the above link's comment:
-
-==================================
-The current version of Ionic v6.1.8 is not
-compatible with Angular 14. Apparently,
-it's been fixed in a dev release but it's not
-stable yet. Have a look here
-https://github.com/ionic-team/ionic-framework/issues/25353
-you can update @ionic/angular to
-version 6.1.9-dev.11654275237.1b595be3
-and re-run npm install.
-Should work fine for now, if you wanna be on the edge.
-
-==================================
-
-Fixes #2377
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-29 20:21:56 +0000 UTC
     </div>
 </div>
 
