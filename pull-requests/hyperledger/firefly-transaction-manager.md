@@ -63,39 +63,3 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/89" class=".btn">#89</a>
-            </td>
-            <td>
-                <b>
-                    Add suspend/resume transaction actions, and tweaks to history API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Adds `/suspend` and `/resume` `POST` actions to transactions
-   - Uses the same approach as `DELETE` API
-   - Response is `202` or `200` based on policy engine processing
-- Disables compaction by default
-    - It seems to add little value as policy engines usually are in cycles of multiple actions
-    - It can get to the point the overhead is so high when 1000s of transactions are in flight with a 5min time window, and 100s of thousands of TX History entires per TX, that the transaction writer is overloaded and times out flushing `suspend`/`resume` actions in 30s.
-- Does not include `history` array by default on transaction `GET` by ID
-   - New `history` boolean option to return that value
-- Renames the query parameter `count` for the `/history` API to `occurrences`
-  - Avoid clash with the pagination option `count`
-  - Does not change the JSON object to ensure backwards compatibility
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 17:58:30 +0000 UTC
-    </div>
-</div>
-

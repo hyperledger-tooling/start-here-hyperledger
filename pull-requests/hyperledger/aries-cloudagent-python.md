@@ -64,29 +64,3 @@ This PR fixes this issue.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2286" class=".btn">#2286</a>
-            </td>
-            <td>
-                <b>
-                    Correct Daniel Hardman's github id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-30 17:50:26 +0000 UTC
-    </div>
-</div>
-
