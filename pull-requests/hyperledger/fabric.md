@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4310" class=".btn">#4310</a>
+            </td>
+            <td>
+                <b>
+                    docu:typo-fix-in-gateway.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+- Documentation update
+
+#### Description
+
+By referring the issues no #3271
+fixes the typo mistake in "Have"--->> "Having"
+fix issue #3271
+
+
+#### Additional details
+
+Step to resolved issue 
+Go to website 
+[clickhere](https://hyperledger-fabric.readthedocs.io/en/latest/gateway.html#)
+
+Screenshot :- 
+![image](https://github.com/hyperledger/fabric/assets/109129126/f01e0e56-6e1b-4e61-9597-d5fe8e296e9f)
+
+
+
+Here  i am solved that issue #3271
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-08 05:58:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4309" class=".btn">#4309</a>
             </td>
             <td>
@@ -75,6 +128,7 @@ Checklist (DELETE AFTER READING):
 - For additional contribution guidelines see the project's CONTRIBUTING.md file
 -->
 
+Resolves #4076
             </td>
         </tr>
     </table>
