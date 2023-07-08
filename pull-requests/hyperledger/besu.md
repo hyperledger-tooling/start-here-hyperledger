@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5686" class=".btn">#5686</a>
+            </td>
+            <td>
+                <b>
+                    Bonsai based reference test worldstate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+@shemnon pointed out that the reference tests support in besu does not use bonsai worldstate, nor does evmtool.  This PR creates a bonsai-based worldstate and accumulator for ReferenceTestsWorldState.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 22:44:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5684" class=".btn">#5684</a>
             </td>
             <td>
@@ -107,7 +142,7 @@ To obtain that, as common, another layer of indirection was required, since it i
             </td>
             <td>
                 <b>
-                    add global transaction
+                    add global transaction to avoid worldstate inconsistencies 
                 </b>
             </td>
         </tr>

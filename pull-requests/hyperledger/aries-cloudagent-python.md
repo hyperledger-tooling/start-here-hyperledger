@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2290" class=".btn">#2290</a>
+            </td>
+            <td>
+                <b>
+                    1.0.0-rc3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR to enable creating a 1.0.0-rc3 release that matches ACA-Py Release 0.8.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 21:02:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2288" class=".btn">#2288</a>
             </td>
             <td>
