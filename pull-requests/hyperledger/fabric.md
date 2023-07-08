@@ -71,7 +71,7 @@ Here  i am solved that issue #3271
             </td>
             <td>
                 <b>
-                    add change and add unit tests
+                    feat(peer): enable empty env variable 
                 </b>
             </td>
         </tr>
@@ -88,23 +88,21 @@ Here  i am solved that issue #3271
 
 <!--- What type of change? Pick one option and delete the others. -->
 
-- Bug fix
-- New feature
 - Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
 
 #### Description
-
+Enable empty value to be set for environment variable, and not have it overwrite it with a default value. 
 <!--- Describe your changes in detail, including motivation. -->
 
 #### Additional details
-
+- Pulled the viper configuration into a utility function 
+- Added a viper configuration to allow empty env variables 
+- Added a test that verifies empty env variables to take precedence over defaults
 <!--- Additional implementation details or comments to reviewers. -->
 <!--- Summarize how the pull request was tested (if not obvious from commit). -->
 
 #### Related issues
-
+None
 <!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
 
 <!---

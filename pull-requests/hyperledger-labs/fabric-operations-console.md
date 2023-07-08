@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/510" class=".btn">#510</a>
+            </td>
+            <td>
+                <b>
+                    Added checks for few private data collection parameters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+Added missing parameter checks to copy sdk's field to fabric's for private data collection fields
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-08 13:39:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/509" class=".btn">#509</a>
             </td>
             <td>
