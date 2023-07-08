@@ -15,26 +15,27 @@ permalink: /releases/hyperledger-labs/fabric-operator
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.5-1
+                    v1.0.5-3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.5-2
+                    v1.0.5-3
                 </span>
             </td>
             <td>
-                v1.0.5-2 Release notes - June 02, 2023
+                v1.0.5-3 Release notes - July 08, 2023
 ------------------------
 
 Release Notes
 -------------
 
-v1.0.5-2 is a patch release, providing updates for the following issues in the operator: 
+v1.0.5-3 is a patch release, providing updates for the following issues in the operator: 
 
-- Adding support for fabric v2.5.x in operator along with upgrade flows https://github.com/hyperledger-labs/fabric-operator/pull/112
+- Donot update tls cert for 2.4.x -> 2.5.x osn upgrades  https://github.com/hyperledger-labs/fabric-operator/pull/117
+- Include legacy dns in the tlscerts to fix post migration issues   https://github.com/hyperledger-labs/fabric-operator/pull/119
 
 Known Vulnerabilities
 ---------------------
@@ -55,11 +56,11 @@ none
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.5-2" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.5-3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-02 15:11:03 +0000 UTC
+        Created At 2023-07-08 03:54:53 +0000 UTC
     </span>
 </div>
 
