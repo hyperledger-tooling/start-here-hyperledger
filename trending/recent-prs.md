@@ -1,13 +1,13 @@
 
-[690](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/690) Bump protobufjs from 7.2.2 to 7.2.4 in /hardhat/hedera
+[4310](https://github.com/hyperledger/fabric/pull/4310) docu:typo-fix-in-gateway.md
 
-[792](https://github.com/hyperledger/aries-rfcs/pull/792) Goal Code for a flow that simulates a connectionless present proof using a connection
+[82](https://github.com/hyperledger-labs/fabric-opssc/pull/82) chore(deps): Bump tough-cookie from 4.1.2 to 4.1.3 in /opssc-agent/src
 
-[5686](https://github.com/hyperledger/besu/pull/5686) Bonsai based reference test worldstate
+[83](https://github.com/hyperledger-labs/fabric-opssc/pull/83) chore(deps): Bump tough-cookie from 4.1.2 to 4.1.3 in /common/src
 
-[6](https://github.com/hyperledger-labs/nft-community-footprint/pull/6) Bump protobufjs, fabric-ca-client, fabric-network and ipfs-http-client in /application
+[81](https://github.com/hyperledger-labs/fabric-opssc/pull/81) chore(deps): Bump tough-cookie from 4.1.2 to 4.1.3 in /opssc-api-server/src
 
-[108](https://github.com/hyperledger-labs/karma-charity-platform/pull/108) Bump protobufjs and fabric-network in /explorer/backend
+[1070](https://github.com/hyperledger/fabric-samples/pull/1070) Bump tough-cookie from 4.0.0 to 4.1.3 in /asset-transfer-basic/rest-api-typescript
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
