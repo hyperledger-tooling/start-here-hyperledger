@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/117" class=".btn">#117</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/119" class=".btn">#119</a>
             </td>
             <td>
                 <b>
-                    Donot update tls cert for 2.4.x -> 2.5.x osn upgrades
+                    Include legacy dns in the tlscerts to fix post migration issues
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/116
+                https://github.com/hyperledger-labs/fabric-operator/issues/118
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-29 03:01:58 +0000 UTC
+        Created At 2023-07-07 18:51:46 +0000 UTC
     </div>
 </div>
 
