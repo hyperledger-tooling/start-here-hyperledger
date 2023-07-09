@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/112" class=".btn">#112</a>
-            </td>
-            <td>
-                <b>
-                    Use an LRU cache for the signing identities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-02 00:36:17 +0000 UTC
-    </div>
-</div>
-

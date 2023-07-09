@@ -611,38 +611,3 @@ Running a quick feasibility test based on https://github.com/hyperledger/besu/is
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5665" class=".btn">#5665</a>
-            </td>
-            <td>
-                <b>
-                    Add Xlayered-tx-pool to the config log printout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unrelated: clarify epoch length in javadoc
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-02 05:06:24 +0000 UTC
-    </div>
-</div>
-

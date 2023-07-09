@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Adding latest doc updates, including devcontainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-07 23:28:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/48" class=".btn">#48</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
-                    pick up rich query with groupby filter
+                    Add LevelDB to PostgreSQL Data Migration command
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Picks up https://github.com/kaleido-io/firefly-transaction-manager/pull/3
+                Depends on https://github.com/hyperledger/firefly-transaction-manager/pull/93
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-24 12:14:44 +0000 UTC
+        Created At 2023-07-08 00:59:34 +0000 UTC
     </div>
 </div>
 
