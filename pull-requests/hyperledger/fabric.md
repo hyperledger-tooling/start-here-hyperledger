@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    add workflow for checking broken links
+                    feat(workflow): add workflow for checking broken links
                 </b>
             </td>
         </tr>
@@ -35,23 +35,41 @@ permalink: /pull-requests/hyperledger/fabric
 
 <!--- What type of change? Pick one option and delete the others. -->
 
-- Bug fix
-- New feature
 - Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
 
 #### Description
-
+- Add a Github Action to look for broken links on the latest version of the documentations / release notes
+- This does NOT resolve the broken links, this PR adds a way to continuously check for them
 <!--- Describe your changes in detail, including motivation. -->
 
 #### Additional details
+- Resolving the broken links are not handled within this PR to limit the scope of work
+- Add a Github Action using the [muffet](https://github.com/raviqqe/muffet) library 
+- Schedule the Github Action workflow to be everyday at 01:50 UTC 
+- Set the option commands 
+
+`--max-response-body-size=100000000` 
+`--buffer-size=2147483647`
+-> set extra body size to handle downloads links (ex. zip files)
+
+`--rate-limit=10`
+`--timeout=20`
+-> resolves rate-limit / timeout error seen during the execution on Github action job 
+
+`--color=always`
+-> always enable all colored output during the execution on Github action job 
+
+`--exclude="^(https:\/\/hyperledger-fabric.readthedocs.io\/[A-z_]+\/(v[\d]+.[\d]+.[\d]+|release)).*$" https://hyperledger-fabric.readthedocs.io/en/latest/`
+-> Exclude any links that direct to the documentation or release notes of the non-latest version to limit the scanning to target to that of the latest version
+
+
 
 <!--- Additional implementation details or comments to reviewers. -->
 <!--- Summarize how the pull request was tested (if not obvious from commit). -->
 
 #### Related issues
-
+**Partially**-solves https://github.com/hyperledger/fabric/issues/2814
+The remaining scope is to resolve the broken links reported by this workflow.
 <!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
 
 <!---

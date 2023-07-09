@@ -82,7 +82,7 @@ The more tests the better.
             </td>
             <td>
                 <b>
-                    [fix] #3607: do not allow decoding/deserialization of SignedTransaction in no_std
+                    [fix] #3607: Do not allow decoding/deserialization of SignedTransaction in `no_std`
                 </b>
             </td>
         </tr>
