@@ -1,13 +1,13 @@
 
-[395](https://github.com/hyperledger-labs/fablo/pull/395) Bump tough-cookie from 4.0.0 to 4.1.3 in /samples/chaincodes/chaincode-kv-node
+[110](https://github.com/hyperledger-labs/karma-charity-platform/pull/110) Bump tough-cookie from 4.0.0 to 4.1.3 in /explorer/frontend
 
-[394](https://github.com/hyperledger-labs/fablo/pull/394) Bump tough-cookie from 4.0.0 to 4.1.3
+[109](https://github.com/hyperledger-labs/karma-charity-platform/pull/109) Bump tough-cookie from 4.0.0 to 4.1.3 in /platform/frontend
 
-[35](https://github.com/hyperledger/bevel-samples/pull/35) Bump tough-cookie and web3 in /examples/supplychain-app/quorum/smartContracts
+[96](https://github.com/hyperledger/firefly-transaction-manager/pull/96) Avoid double-locking the read-lock calling GetTransactionByIDWithStatus
 
-[34](https://github.com/hyperledger/bevel-samples/pull/34) Bump tough-cookie and web3 in /examples/supplychain-app/besu/express_nodeJS
+[417](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/417) build(deps): Bump tough-cookie from 4.0.0 to 4.1.3 in /common/policy-dsl
 
-[33](https://github.com/hyperledger/bevel-samples/pull/33) Bump tough-cookie and web3 in /examples/supplychain-app/quorum/express_nodeJS
+[68](https://github.com/hyperledger/firefly-perf-cli/pull/68) Fix nil pointer checking for SupportsData
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
