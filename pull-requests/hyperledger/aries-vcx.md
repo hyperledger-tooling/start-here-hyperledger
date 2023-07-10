@@ -135,29 +135,3 @@ Now only `Content` and `ContentDeserializer` are used merely at a type level, an
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/891" class=".btn">#891</a>
-            </td>
-            <td>
-                <b>
-                    Partially #870 - Simple Message Relay for testing/demo purposes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                TODO
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-03 11:08:16 +0000 UTC
-    </div>
-</div>
-

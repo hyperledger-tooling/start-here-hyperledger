@@ -1,13 +1,13 @@
 
-[896](https://github.com/hyperledger/aries-vcx/pull/896) Initialize UniFFI demo and scripts
+[2291](https://github.com/hyperledger/aries-cloudagent-python/pull/2291) fix: use python 3.9 in run_docker
 
-[878](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/878) chore(deps): bump tough-cookie from 4.1.2 to 4.1.3
+[3691](https://github.com/hyperledger/iroha/pull/3691) [fix] #3690: Fix C++ musl docker build
 
-[111](https://github.com/hyperledger-labs/karma-charity-platform/pull/111) Bump tough-cookie from 4.1.2 to 4.1.3 in /explorer/backend
+[3689](https://github.com/hyperledger/iroha/pull/3689) [refactor]: Include the actual error message in InternalError
 
-[2547](https://github.com/hyperledger/cacti/pull/2547) build(deps): bump tough-cookie from 4.0.0 to 4.1.3 in /weaver/common/policy-dsl
+[116](https://github.com/hyperledger-labs/karma-charity-platform/pull/116) Bump semver, @angular/cli, @ts-core/angular, @angular-devkit/build-angular and @babel/core in /platform/frontend
 
-[15](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/15) Optimize generate_prime_in_range; misc cleanups
+[115](https://github.com/hyperledger-labs/karma-charity-platform/pull/115) Bump semver from 7.3.8 to 7.5.4 in /platform/backend
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

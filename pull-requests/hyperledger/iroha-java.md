@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    fearure (issue#113) client-side load balancing
+                    feature (issue#113) client-side load balancing
                 </b>
             </td>
         </tr>
@@ -137,32 +137,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2023-07-04 12:35:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/350" class=".btn">#350</a>
-            </td>
-            <td>
-                <b>
-                    create MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-03 11:23:45 +0000 UTC
     </div>
 </div>
 

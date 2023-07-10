@@ -117,30 +117,3 @@ I found that we were re-dispatching the whole set of confirmations each time, in
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/91" class=".btn">#91</a>
-            </td>
-            <td>
-                <b>
-                    Expose filters for rich query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - expose the filters for rich query tables so that they can be used externally.
-- ~also updated the event handler callback function signatures to pass through the entire managed transactions so the other information (e.g. "from" field) becomes accessible.~
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-03 12:27:34 +0000 UTC
-    </div>
-</div>
-

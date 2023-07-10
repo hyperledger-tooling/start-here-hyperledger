@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1358" class=".btn">#1358</a>
+            </td>
+            <td>
+                <b>
+                    Remove 'raft' from sample helm values.yml, replace 'ibft' with 'ibft2'
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I noticed that the Besu docs have `raft` in the example helm chart options, which Besu doesn't support. Also `ibft` is deprecated and has been replaced with `ibft2` so thought I'd update that as well.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 10:29:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1357" class=".btn">#1357</a>
             </td>
             <td>
