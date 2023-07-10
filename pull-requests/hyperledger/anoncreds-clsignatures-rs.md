@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Tails generation updates
+                    Optimize generate_prime_in_range; misc cleanups
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                - Add a public method to regenerate a tails file from the registry private key
-- Output g_dash for unused index in tails file
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-28 17:47:17 +0000 UTC
+        Created At 2023-07-09 19:51:05 +0000 UTC
     </div>
 </div>
 
