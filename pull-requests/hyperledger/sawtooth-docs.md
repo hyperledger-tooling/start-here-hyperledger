@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/203" class=".btn">#203</a>
+            </td>
+            <td>
+                <b>
+                    Mention PoET alongside PBFT in v1.2 introduction.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @suchapalaver noticed that it seemed odd to mention PBFT but not PoET in the introduction's enumeration of Sawtooth software.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 10:28:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/202" class=".btn">#202</a>
             </td>
             <td>

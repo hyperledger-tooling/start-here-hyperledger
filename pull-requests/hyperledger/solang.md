@@ -381,32 +381,3 @@ Prior to this PR, the resolution root of each file is discarded after `parse_and
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1415" class=".btn">#1415</a>
-            </td>
-            <td>
-                <b>
-                    Polkadot: `AssertFailure` emits revert instead trap
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using the `seal_return` API with the revert flag instead of just trapping the contract execution allows to return data. This is required for further alignment with [solc](https://docs.soliditylang.org/en/latest/control-structures.html#panic-via-assert-and-error-via-require). 
-
-Closes #1292
-Unblocks #916
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-03 07:23:44 +0000 UTC
-    </div>
-</div>
-

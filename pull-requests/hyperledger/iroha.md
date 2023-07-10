@@ -14,6 +14,109 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3691" class=".btn">#3691</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3690: Fix C++ musl docker build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">build</span><span class="chip">high-priority</span>
+            </td>
+            <td>
+                ## Description
+
+### Problem
+
+1. I used `wasm-opt` crate in #3635 
+2. This crates uses [`wasm-opt`](https://github.com/WebAssembly/binaryen/tree/main) tool written in C++
+3. In fact it compiles this tool from source and links with it
+4. In Dockerfile we use `musl` build. It's a minimalistic `libc` implementation
+5. Turns out `musl` doesn't support `C++` out of the box, only `C`
+
+### Fix
+
+Download `musl` pre-built toolchain which supports `C++` from thier site and make `Rust` use it.
+
+### Additional changes
+
+1. Bumped version of `wasm-opt` crate
+2. Updated toolchain in the `wasm_builder`. That should have been done in #3655
+3. Added more suitable pattern to ignore `target` directories to `.dockerignore`
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+- Closes #3690 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 12:25:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3689" class=".btn">#3689</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Include the actual error message in InternalError
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                This improves the error message experienced in https://github.com/hyperledger/iroha/pull/3686#issuecomment-1625195109
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 11:39:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3687" class=".btn">#3687</a>
             </td>
             <td>
@@ -82,7 +185,7 @@ The more tests the better.
             </td>
             <td>
                 <b>
-                    [fix] #3607: Do not allow decoding/deserialization of SignedTransaction in `no_std`
+                    [fix] #3607: Do not allow decoding/deserialization of `SignedTransaction` in `no_std`
                 </b>
             </td>
         </tr>
@@ -142,11 +245,11 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [x] (optional) I've written unit tests for the code changes
+- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
 
 <!-- HINT:  Add more points to checklist for large draft PRs-->
 
@@ -398,48 +501,6 @@ It also doesn't support hostname addresses, but they are not used anywhere excep
     </table>
     <div class="right-align">
         Created At 2023-07-04 11:52:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3669" class=".btn">#3669</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #3648: include `docker-compose.*.yml` check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-
-This PR adds a CI/CD check that `docker-compose.*.yml` files stored in the repo are generated with `kagami swarm` tool. This PR includes updated Docker Compose configurations as well.
-
-### Linked issue
-
-Closes #3648
-
-### Benefits
-
-It will help to be sure that those files are up-to-date, therefore to avoid confusion of any Iroha users.
-
-### Checklist
-
-- [ ] Ensure that the PR covers **all** Docker Compose files that should be covered.
-- [ ] Discuss `docker-compose.TML.yml` in the `check.sh`
-- [ ] Discuss/ensure that the check runs in the correct time, as described in #3648: selective run on changes in data model / kagami swarm code, etc
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-03 06:56:07 +0000 UTC
     </div>
 </div>
 
