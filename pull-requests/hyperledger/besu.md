@@ -142,7 +142,7 @@ To obtain that, as common, another layer of indirection was required, since it i
             </td>
             <td>
                 <b>
-                    add global transaction to avoid worldstate inconsistencies 
+                    add global transaction to address the inconsistencies that occur after a dirty stop
                 </b>
             </td>
         </tr>
@@ -158,7 +158,27 @@ To obtain that, as common, another layer of indirection was required, since it i
 
 This PR enables handling commits of the world state with a single transaction. This helps prevent inconsistencies between different columns in case of power failure or OOM, for example. With this PR, we will have a single global transaction for everything, and if anything goes wrong, all columns will be rollback.
 
-Additionally, this PR removes the unused version 0 of the database, which adds unnecessary code.
+Additionally, this PR removes the unused version 0 of the database, which adds unnecessary code
+
+**In the future it would be interesting to pass in Memory and Snapshot also to a global mode to simplify the code**
+
+To do the test :
+1. Start Besu and Teku: Launch both Besu and Teku on your system.
+2. Check available disk space: Before filling up the disk, check how much free space is available on the disk. This can be done using a command or utility specific to your operating system.
+3. Fill up the disk: Use the command "fallocate -l 194G fileee" (assuming "fallocate" is a tool or command you have that can fill up the disk) to start filling up the disk. Allow it to run for a while until the disk space is almost full.
+4. Observe Besu behavior: While the disk is being filled, observe the logs of Besu and check if it reports "No space left on device" errors. 
+5. Verify the error source: Once you see the "No space left on device" errors in Besu's logs, verify that it is indeed Besu encountering this issue and not any other component. 
+6. Free up disk space: After verifying the error source, free up some disk space 
+7. Restart Besu: Start Besu again after freeing up disk space.
+8. Monitor the behavior: Observe the logs and monitor the behavior of Besu to ensure it operates normally 
+
+Without the PR you have inconsistency after 2 or 3 retries (depending where we have the not enough space)
+> {"@timestamp":"2023-07-10T12:51:37,771","level":"ERROR","thread":"vert.x-worker-thread-0","class":"RocksDBColumnarKeyValueStorage","message":"While appending to file: /data/besu/database/541600.log: No space left on device","throwable":""}
+
+with the PR it's fine everytime
+
+
+
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

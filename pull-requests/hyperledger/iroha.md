@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3695" class=".btn">#3695</a>
+            </td>
+            <td>
+                <b>
+                    [TEST]: DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 13:51:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3694" class=".btn">#3694</a>
+            </td>
+            <td>
+                <b>
+                    [bump]: Rust toolchain and CI container to `nightly-2023-06-25`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Caution, make sure all CI checks pass before merging. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 13:32:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3691" class=".btn">#3691</a>
             </td>
             <td>
