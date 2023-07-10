@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2292" class=".btn">#2292</a>
+            </td>
+            <td>
+                <b>
+                    feat(anoncreds): Implement automated setup of revocation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements automated setup of revocation by introducing an `AnonCredsRevocationSetupManager` base class and `DefaultRevocationSetup` concrete class and adding the appropriate hooks to the artifact registration steps.
+
+Overall, I'm very pleased with the simplicity of this setup manager as compared to our original mechanism. It works in more or less the same way, listening for events and triggering the next step in the flow; however, all the event listeners are defined in one place (rather than across 2 or 3 modules) and the event objects themselves have been formalized to make accessing the information in the event simpler. Additionally, encapsulation of the anoncreds interface is better than what we had previously so the event listeners themselves are fewer lines with significantly more straightforward logic.
+
+I've left the door open for enabling plugins to implement their own `AnonCredsRevocationSetupManager` if there is ever a need to customize the setup behavior. I'm considering moving the `handle_full_registry` logic to this same component for the same reason -- giving plugin authors the ability to customize if needed -- but I'm not sure how likely it is anyone will actually need or want to do customizations.
+
+This PR invalidates the following temporary endpoints we added for testing:
+
+- `POST /anoncreds/revocation-registry-definition`
+- `PUT /anoncreds/registry/{rev_reg_def_id}/tails-file`
+- `PUT /anoncreds/registry/{rev_reg_def_id}/active`
+- `POST /anoncreds/revocation-list`
+
+I haven't removed these endpoints just yet in this PR though.
+
+This PR adds `max_cred_num` to the expected options of the `POST /anoncreds/credential-definition` endpoint.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 15:03:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2291" class=".btn">#2291</a>
             </td>
             <td>

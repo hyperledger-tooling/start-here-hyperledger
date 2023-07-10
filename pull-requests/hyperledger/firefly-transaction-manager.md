@@ -53,8 +53,9 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                In PR chain with #93 
-Also contains commit from #96 
+                ~In PR chain with #93 ~
+~Also contains commit from #96 ~
+Rebased on main with 93/96 merged to aid review
 
 I found that we were re-dispatching the whole set of confirmations each time, in the incremental case where `NewFork: false`
             </td>

@@ -1,13 +1,13 @@
 
-[2291](https://github.com/hyperledger/aries-cloudagent-python/pull/2291) fix: use python 3.9 in run_docker
+[1359](https://github.com/hyperledger/besu-docs/pull/1359) Remove github preview in favor of Vercel
 
-[3691](https://github.com/hyperledger/iroha/pull/3691) [fix] #3690: Fix C++ musl docker build
+[205](https://github.com/hyperledger/sawtooth-docs/pull/205) Elaborate explanation of "local" validation rule.
 
-[3689](https://github.com/hyperledger/iroha/pull/3689) [refactor]: Include the actual error message in InternalError
+[482](https://github.com/hyperledger-labs/fabric-token-sdk/pull/482) double spending bugfix
 
-[116](https://github.com/hyperledger-labs/karma-charity-platform/pull/116) Bump semver, @angular/cli, @ts-core/angular, @angular-devkit/build-angular and @babel/core in /platform/frontend
+[2292](https://github.com/hyperledger/aries-cloudagent-python/pull/2292) feat(anoncreds): Implement automated setup of revocation
 
-[115](https://github.com/hyperledger-labs/karma-charity-platform/pull/115) Bump semver from 7.3.8 to 7.5.4 in /platform/backend
+[1365](https://github.com/hyperledger/firefly/pull/1365) v1.2: fix: multiple named tuple result from contract
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
