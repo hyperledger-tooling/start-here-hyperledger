@@ -1,13 +1,13 @@
 
-[69](https://github.com/hyperledger/indy-sdk-react-native/pull/69) chore(deps): bump semver from 5.7.1 to 5.7.2
+[3699](https://github.com/hyperledger/iroha/pull/3699) [ci]: Remove i2 PR-build & Update rust nightly toolchain-2023-06-25
 
-[97](https://github.com/hyperledger/firefly-transaction-manager/pull/97) Preserve timestamps on migration from LevelDB to Postgres
+[2311](https://github.com/hyperledger/bevel/pull/2311) [ci-skip] utilize the common vault-k8s-mgmt Helm chart
 
-[1504](https://github.com/hyperledger/aries-framework-javascript/pull/1504) build(deps): bump semver from 5.7.1 to 5.7.2
+[5693](https://github.com/hyperledger/besu/pull/5693) Do not leak references to PendingTransactions
 
-[5](https://github.com/hyperledger/anoncreds-revocation/pull/5) Update render-specs.yml
+[1072](https://github.com/hyperledger/fabric-samples/pull/1072) Bump semver from 6.3.0 to 6.3.1 in /asset-transfer-basic/rest-api-typescript
 
-[4](https://github.com/hyperledger/anoncreds-revocation/pull/4) Bump terser from 4.8.0 to 4.8.1
+[197](https://github.com/hyperledger/indy-vdr/pull/197) build(deps): bump semver from 5.7.1 to 5.7.2 in /wrappers/javascript
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

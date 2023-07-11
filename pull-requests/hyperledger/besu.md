@@ -14,6 +14,98 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5693" class=".btn">#5693</a>
+            </td>
+            <td>
+                <b>
+                    Do not leak references to PendingTransactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-11 10:52:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5691" class=".btn">#5691</a>
+            </td>
+            <td>
+                <b>
+                    [4844] KZGPointEvalPrecompiled - Use PrecompileContractResult methods to halt and succeed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- Use PrecompileContractResult methods to halt and succeed;
+- Do not return Bytes.Empty
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-11 06:47:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5690" class=".btn">#5690</a>
+            </td>
+            <td>
+                <b>
+                    [4844] New Payload V3 - Return Invalid Payload instead of Invalid Params for invalid versionedHash version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- Return an invalid payload instead of an internal error in case of an invalid version hash.
+- Fix calculated hashes validation
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-11 06:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5686" class=".btn">#5686</a>
             </td>
             <td>
@@ -561,39 +653,6 @@ No specific issue is open for this.
     </table>
     <div class="right-align">
         Created At 2023-07-04 12:52:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5667" class=".btn">#5667</a>
-            </td>
-            <td>
-                <b>
-                    [4844] NewPayloadV3 - Add fork validation and fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-- This PR implements a fork validation for the newPayloadV3
-
-Unrelated: 
-
--  Change the type of dataGasUsed to `Long` instead of `long`
-- Add acceptance tests for Engine API  - Cancun
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 08:09:55 +0000 UTC
     </div>
 </div>
 
