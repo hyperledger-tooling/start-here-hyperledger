@@ -15,32 +15,34 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.4
+                    v1.2.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.4
+                    v1.2.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* v1.1: Replace "UpsertBatch" with "InsertOrGetBatch" by @awrichar in https://github.com/hyperledger/firefly/pull/1211
-* v1.1 backport: Re-poll immediately on full batch by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/1205
-* Include signing key in batch processor identifier by @awrichar in https://github.com/hyperledger/firefly/pull/1273
+* v1.2: Fix postgres optimizations, fail gracefully when inserting many data rows by @awrichar in https://github.com/hyperledger/firefly/pull/1283
+* v1.2: Replace "UpsertBatch" with "InsertOrGetBatch" by @awrichar in https://github.com/hyperledger/firefly/pull/1284
+* Enable workflows for release branch by @awrichar in https://github.com/hyperledger/firefly/pull/1285
+* v1.2: Backport fixes by @awrichar in https://github.com/hyperledger/firefly/pull/1338
+* v1.2: fix: multiple named tuple result from contract by @awrichar in https://github.com/hyperledger/firefly/pull/1365
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.1.3...v1.1.4
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.2.0...v1.2.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.1.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.2.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-17 14:32:38 +0000 UTC
+        Created At 2023-07-11 18:33:29 +0000 UTC
     </span>
 </div>
 
