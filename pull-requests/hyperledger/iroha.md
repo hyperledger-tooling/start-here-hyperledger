@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [ci]: Remove i2 PR-build & Update rust nightly toolchain-2023-06-25
+                    [ci]: Remove i2 PR-build trigger
                 </b>
             </td>
         </tr>
@@ -30,8 +30,7 @@ permalink: /pull-requests/hyperledger/iroha
                 [ci]: Remove i2 PR-build & Update rust nightly toolchain
 
 ## Description
-1. Update CI-image to rust `nightly-2023-06-25`
-2. Remove PR-trigger from `I2::Dev::Publish` workflow. It doesn't make sense it is always executed in base branch context. `pull_request` trigger makes sense only if PR is coming from internal repo PR branch. But it fails while PR from fork. Increasing workflow permission doesn't help as well. Instead of this, to check if PR-image is buildable, we can try PR-generator feature soon with the whole k8s CI/CD process when it's really necessary. Or to invent an another approach like keeping Actions secrets in an external place.
+1. Remove PR-trigger from `I2::Dev::Publish` workflow. It doesn't make sense it is always executed in base branch context. `pull_request` trigger makes sense only if PR is coming from internal repo PR branch. But it fails while PR from fork. Increasing workflow permission doesn't help as well. Instead of this, to check if PR-image is buildable, we can try PR-generator feature soon with the whole k8s CI/CD process when it's really necessary. Or to invent an another approach like keeping Actions secrets in an external place.
 
 ### Linked issue
 [Failed Actions](https://github.com/hyperledger/iroha/actions/runs/5517090208)
@@ -86,9 +85,10 @@ Closes #3374
 - [x] `iroha_promitives`
 - [x] `iroha_data_model`
 - [x] `iroha_p2p`
-- [ ] `iroha_config`
-- [ ] `iroha_core`
-- [ ] `iroha`
+- [x] `iroha_config`
+- [x] `iroha_client`
+- [x] `iroha_core`
+- [x] `iroha`
 - [ ] make sure all tests pass
 
 
@@ -483,32 +483,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-07-05 07:51:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3678" class=".btn">#3678</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: add @DCNick3 to the CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 14:09:12 +0000 UTC
     </div>
 </div>
 

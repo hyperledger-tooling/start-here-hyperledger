@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -116,7 +116,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -207,7 +207,7 @@ Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -241,7 +241,7 @@ To obtain that, as common, another layer of indirection was required, since it i
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -352,7 +352,7 @@ This change ensures that the genesis block's timestamp is greater than or equal 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -556,103 +556,6 @@ The work is not completed yet, and more PRs will be made, the next one will addr
     </table>
     <div class="right-align">
         Created At 2023-07-04 22:28:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5670" class=".btn">#5670</a>
-            </td>
-            <td>
-                <b>
-                    Test updates for cancun execution-spec-tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Update t8n tool to support new fields (data gas related) for Cancun in the execution-spec-tests,
-also, refactor so the t8n server benefits from the changes.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 14:11:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5669" class=".btn">#5669</a>
-            </td>
-            <td>
-                <b>
-                    Add genesis configuration isPoa() convenience function, and use it in validation of `--miner-enabled` option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR indirectly relates to issue https://github.com/hyperledger/besu/issues/5528.
-
-The intention of the PR is to change the validation logic of the `--miner-enabled` option, particularly with regard to `--min-gas-price` option which is a common requirement for private POA chains.
-
-Specifically, in the case where a POA consensus algorithm has been configured (`qbft`, `ibft2`, `ibft`, or `clique`) validation of options that would otherwise require `--miner-enabled` to be set, is skipped.
-
-## Fixed Issue(s)
-No specific issue is open for this.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 13:14:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5668" class=".btn">#5668</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Swap parameters order and remove unused method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-- Swap parameters order and 
-- remove unused method
-- move the method to a more relevant class
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 12:52:17 +0000 UTC
     </div>
 </div>
 
