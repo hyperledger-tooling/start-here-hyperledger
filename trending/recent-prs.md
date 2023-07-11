@@ -1,13 +1,13 @@
 
-[1359](https://github.com/hyperledger/besu-docs/pull/1359) Remove github preview in favor of Vercel
+[5](https://github.com/hyperledger/anoncreds-revocation/pull/5) Update render-specs.yml
 
-[205](https://github.com/hyperledger/sawtooth-docs/pull/205) Elaborate explanation of "local" validation rule.
+[4](https://github.com/hyperledger/anoncreds-revocation/pull/4) Bump terser from 4.8.0 to 4.8.1
 
-[482](https://github.com/hyperledger-labs/fabric-token-sdk/pull/482) double spending bugfix
+[3](https://github.com/hyperledger/anoncreds-revocation/pull/3) Bump decode-uri-component from 0.2.0 to 0.2.2
 
-[2292](https://github.com/hyperledger/aries-cloudagent-python/pull/2292) feat(anoncreds): Implement automated setup of revocation
+[2](https://github.com/hyperledger/anoncreds-revocation/pull/2) Bump semver from 5.7.1 to 5.7.2
 
-[1365](https://github.com/hyperledger/firefly/pull/1365) v1.2: fix: multiple named tuple result from contract
+[1](https://github.com/hyperledger/anoncreds-revocation/pull/1) First draft of the spec and basic content
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

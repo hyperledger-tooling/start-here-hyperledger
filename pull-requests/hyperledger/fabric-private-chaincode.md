@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/713" class=".btn">#713</a>
+            </td>
+            <td>
+                <b>
+                    Resolves #693, upgrade ego to v1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                What this PR does / why we need it:
+Upgrade ego to v1.2, current ego version is v1.0
+
+Which issue(s) this PR fixes:
+
+Fixes https://github.com/hyperledger/fabric-private-chaincode/issues/693
+
+Special notes for your reviewer:
+Successfully build docker-dev in local
+
+can build local dev and test ego using the code below
+```
+cd $FPC_PATH/utils/docker
+make build-dev
+make run-dev
+```
+
+Here is the result:
+```
+root@docker-desktop:/project/src/github.com/hyperledger/fabric-private-chaincode# ego
+EGo v1.2.0 (f272b3f4430c819530e33ef5ff6c930b3dd2afa0)
+Manage and run EGo enclaves.
+...
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 20:39:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/712" class=".btn">#712</a>
             </td>
             <td>
