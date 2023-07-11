@@ -37,6 +37,7 @@ permalink: /pull-requests/hyperledger/besu
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+#5688
             </td>
         </tr>
     </table>

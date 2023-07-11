@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2294" class=".btn">#2294</a>
+            </td>
+            <td>
+                <b>
+                    Add Goal and Goal Code to OOB and DIDex Request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add support for `goal` and `goal_code` in API and messages for `out-of-band` and `didexchange`
+
+Closes #1652
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-10 23:19:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2292" class=".btn">#2292</a>
             </td>
             <td>

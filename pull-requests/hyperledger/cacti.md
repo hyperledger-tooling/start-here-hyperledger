@@ -538,29 +538,3 @@ Closes: #2534
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2533" class=".btn">#2533</a>
-            </td>
-            <td>
-                <b>
-                    fix(weaver-corda): throw error correctly in responder flows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bug fix in corda interop app (weaver), where flows would get stuck if responder flow verification fails.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-03 18:58:53 +0000 UTC
-    </div>
-</div>
-

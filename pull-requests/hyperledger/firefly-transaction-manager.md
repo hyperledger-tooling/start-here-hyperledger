@@ -92,29 +92,3 @@ I found that we were re-dispatching the whole set of confirmations each time, in
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/92" class=".btn">#92</a>
-            </td>
-            <td>
-                <b>
-                    Provide a way for policy engines to pass additional state to callbacks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Provides an alternative approach the 2nd item in #91 , allowing any policy engine implementation to pass a closure in with additional variables it's safe for that implementation to pass through. For example, a transaction-specific context object.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-03 20:29:42 +0000 UTC
-    </div>
-</div>
-
