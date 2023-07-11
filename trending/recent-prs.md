@@ -1,13 +1,13 @@
 
-[3699](https://github.com/hyperledger/iroha/pull/3699) [ci]: Remove i2 PR-build & Update rust nightly toolchain-2023-06-25
+[2299](https://github.com/hyperledger/aries-cloudagent-python/pull/2299) Add build step for indy-base image in run_demo
 
-[2311](https://github.com/hyperledger/bevel/pull/2311) [ci-skip] utilize the common vault-k8s-mgmt Helm chart
+[513](https://github.com/hyperledger-labs/fabric-operations-console/pull/513) update npm deps
 
-[5693](https://github.com/hyperledger/besu/pull/5693) Do not leak references to PendingTransactions
+[512](https://github.com/hyperledger-labs/fabric-operations-console/pull/512) redact registry fields even if manager
 
-[1072](https://github.com/hyperledger/fabric-samples/pull/1072) Bump semver from 6.3.0 to 6.3.1 in /asset-transfer-basic/rest-api-typescript
+[511](https://github.com/hyperledger-labs/fabric-operations-console/pull/511) Fix component status
 
-[197](https://github.com/hyperledger/indy-vdr/pull/197) build(deps): bump semver from 5.7.1 to 5.7.2 in /wrappers/javascript
+[30](https://github.com/hyperledger/indy-shared-rs/pull/30) Switch from Ursa to anoncreds-clsignatures
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

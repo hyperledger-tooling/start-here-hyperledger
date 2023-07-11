@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Replace `tempfile` with custom implementation for tails file
+                    Switch from Ursa to anoncreds-clsignatures
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                Fixes #21 
-
-Also adds an end-to-end issuance test exercising revocation.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-29 18:43:01 +0000 UTC
+        Created At 2023-07-11 16:43:25 +0000 UTC
     </div>
 </div>
 
