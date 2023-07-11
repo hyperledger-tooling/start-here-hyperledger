@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3699" class=".btn">#3699</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Remove i2 PR-build & Update rust nightly toolchain-2023-06-25
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                [ci]: Remove i2 PR-build & Update rust nightly toolchain
+
+## Description
+1. Update CI-image to rust `nightly-2023-06-25`
+2. Remove PR-trigger from `I2::Dev::Publish` workflow. It doesn't make sense it is always executed in base branch context. `pull_request` trigger makes sense only if PR is coming from internal repo PR branch. But it fails while PR from fork. Increasing workflow permission doesn't help as well. Instead of this, to check if PR-image is buildable, we can try PR-generator feature soon with the whole k8s CI/CD process when it's really necessary. Or to invent an another approach like keeping Actions secrets in an external place.
+
+### Linked issue
+[Failed Actions](https://github.com/hyperledger/iroha/actions/runs/5517090208)
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-11 11:35:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3698" class=".btn">#3698</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3374: Unify error's doc-comments and Display impl
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Use `displaydoc` instead of `derive_more`'s `Display` derive or `thiserror`'s `error` attribute.
+
+This unifies error's doc-comments and `Display` implementation, as they are often repeated/convey the same information.
+
+Sometimes `#[ignore_extra_doc_attributes]` is used. In this case only the first line of the doc-comment is used for the `Display`, leaving the others only for documentation
+
+### Linked issue
+
+Closes #3374
+
+### Checklist
+
+- [x] `iroha_promitives`
+- [x] `iroha_data_model`
+- [x] `iroha_p2p`
+- [ ] `iroha_config`
+- [ ] `iroha_core`
+- [ ] `iroha`
+- [ ] make sure all tests pass
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-11 08:38:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3695" class=".btn">#3695</a>
             </td>
             <td>
@@ -98,6 +188,7 @@ Download `musl` pre-built toolchain which supports `C++` from thier site and mak
 1. Bumped version of `wasm-opt` crate
 2. Updated toolchain in the `wasm_builder`. That should have been done in #3655
 3. Added more suitable pattern to ignore `target` directories to `.dockerignore`
+4. Fixed new clippy lints
 
 <!-- Just describe what you did. -->
 
@@ -226,39 +317,6 @@ The more tests the better.
     </table>
     <div class="right-align">
         Created At 2023-07-07 15:47:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3686" class=".btn">#3686</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3607: Do not allow decoding/deserialization of `SignedTransaction` in `no_std`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                No way to validate signatures (ursa is not available) - no way to enforce the "signatures are valid" invariant
-
-Better to not support the decoding at all
-
-IMO it still makes sense to decode `SignedTransactionCandidate`, as it does not carry invariants (at least I think so?)
-
-Closes #3607
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-07 09:58:37 +0000 UTC
     </div>
 </div>
 
@@ -451,108 +509,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-07-04 14:09:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3676" class=".btn">#3676</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: update dependabot
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 12:28:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3675" class=".btn">#3675</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3383: Implement a macro that parses a socket address at compile time
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Linked issue
-
-Closes #3383 
-
-### Limitations
-
-This can't replace all uses of the existing `socket_addr!` macro, as it parses only literal addresses. Some of the `socket_addr!` usages use an expression as port number: https://github.com/hyperledger/iroha/blob/19984d91c2add850a197050e6cbee52af1bc6fa2/core/test_network/src/lib.rs#L598. Supporting this is possible, but would require a more complicated parser.
-
-As 5/11 usages of the original macro use it, it probably doesn't make sense to merge it without support for variable ports
-
-It also doesn't support hostname addresses, but they are not used anywhere except in the doc-test for the `socket_addr!` macro. Probably fine going without it, but should be relatively easy to implement if needed.
-
-### Checklist
-
-- [x] Parse IPv4 and IPv6 addresses
-- [x] Allow usage of arbitrary expressions in port position
-- [x] Replace old usages of `socket_addr!` macro
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 11:52:42 +0000 UTC
     </div>
 </div>
 

@@ -46,29 +46,3 @@ Messages and information such as transactions can now be viewed when an error oc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/91" class=".btn">#91</a>
-            </td>
-            <td>
-                <b>
-                    Bump up to ibc-go v7.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 07:56:06 +0000 UTC
-    </div>
-</div>
-
