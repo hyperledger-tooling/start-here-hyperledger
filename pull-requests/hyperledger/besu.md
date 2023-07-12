@@ -496,36 +496,3 @@ coordinates for other modules.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5673" class=".btn">#5673</a>
-            </td>
-            <td>
-                <b>
-                    Introduce transaction validator interface (phase 1)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-The main goal of this PR is the introduction of the `TransactionValidator` interface to pave the way for future simpler custom transaction validation necessary on private networks and/or specialized networks.
-The work is not completed yet, and more PRs will be made, the next one will address the removal of the odd method `setPermissionTransactionFilter` from the interface
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 09:56:34 +0000 UTC
-    </div>
-</div>
-
