@@ -1,13 +1,13 @@
 
-[3702](https://github.com/hyperledger/iroha/pull/3702) PR-generator test: DO NOT MERGE OR REVIEW
+[153](https://github.com/hyperledger/anoncreds-spec/pull/153) chore(deps): bump semver from 5.7.1 to 5.7.2
 
-[117](https://github.com/hyperledger-labs/karma-charity-platform/pull/117) Bump semver from 6.3.0 to 6.3.1 in /platform/backend
+[3706](https://github.com/hyperledger/iroha/pull/3706) [ci]: Trigger iroha2 PR-build only for PR-generator case
 
-[882](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/882) chore(deps): bump semver from 5.7.1 to 5.7.2
+[883](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/883) feat: Implement the remote OCA resolver
 
-[252](https://github.com/hyperledger/caliper-benchmarks/pull/252) Add new ERC Workloads to Caliper
+[397](https://github.com/hyperledger-labs/fablo/pull/397) Bump semver from 5.7.1 to 5.7.2
 
-[3701](https://github.com/hyperledger/iroha/pull/3701) Kura init mode, wsv serialization basics
+[223](https://github.com/hyperledger/anoncreds-rs/pull/223) Update settings.yml
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

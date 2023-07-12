@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5698" class=".btn">#5698</a>
+            </td>
+            <td>
+                <b>
+                    remove v0 version of the database
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This version of the database is not used anymore so we can remove it 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-12 13:28:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5693" class=".btn">#5693</a>
             </td>
             <td>
@@ -32,9 +67,17 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+This PR complete the work done in #5634, basically since the latter is creating and modifying the `pendingTransactions` object at runtime, references to that field outside the txpool, must not be allowed anymore, otherwise object that cached a reference to `pendingTransactions` could see an uninitialized or stale object.
+
+With this PR it is not possible anymore to get references directly to the `pendingTransactions` object and all the interaction previously done with it, now go through `TransactionPool` that manages that lifecycle of the `pendingTransactions` object.
+
+Do not be scared by the number of changes in this PR, since the it is mostly about using `TransactionPool` instead of `PendingTransactions` and unit tests adjustments.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+fix an issue introduced by #5634 that causes block proposals with 0 transactions.
             </td>
         </tr>
     </table>
@@ -460,39 +503,6 @@ https://github.com/hyperledger/besu/pull/5664#issuecomment-1620559037
     </table>
     <div class="right-align">
         Created At 2023-07-06 00:11:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5675" class=".btn">#5675</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade BouncyCastle libraries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Upgrade bouncy castle to v1.75.  This involved a change in maven
-coordinates for other modules.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 15:20:52 +0000 UTC
     </div>
 </div>
 

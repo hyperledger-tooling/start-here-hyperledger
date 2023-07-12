@@ -14,26 +14,80 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3702" class=".btn">#3702</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3706" class=".btn">#3706</a>
             </td>
             <td>
                 <b>
-                    PR-generator test: DO NOT MERGE OR REVIEW
+                    [ci]: Trigger iroha2 PR-build only for PR-generator case
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span><span class="chip">experimental_environment</span>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
             </td>
             <td>
-                PR-generator TEST
-DO NOT MERGE OR REVIEW
+                ## Description
+
+1. Add the trigger to build iroha2 PR-image from INTERNAL repository `hyperledger/iroha` branch if it's a PR-generator case.
+
+## Requirements
+1. INTERNAL branch should start from `iroha2-pr-deploy/`
+2. PR should has `experimental_environment` label
+
+### Benefits
+
+Check if iroha2 PR-image is properly buildable when it's necessary.
+
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-12 12:10:54 +0000 UTC
+        Created At 2023-07-12 17:20:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3703" class=".btn">#3703</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3613: Do not tolerate invalid signatures on transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Fail deserializing/decoding transactions with invalid signatures 
+
+## Unsolved questions
+
+1. There are other places where the "retain valid signatures" logic is used: https://github.com/hyperledger/iroha/blob/c0a59c002b822a9dbca9bba376651d0e7457547a/core/src/sumeragi/network_topology.rs#L233 and https://github.com/hyperledger/iroha/blob/c0a59c002b822a9dbca9bba376651d0e7457547a/core/src/sumeragi/main_loop.rs#L1042 Maybe the logic in these places should be changed too? Or would it break some assumptions?
+
+2. Error handling here is a bit funky. It returns an ad-hoc `&'static str` as an error type, potentially losing some context. It _could_ make sense to defined another error type just for this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-12 14:28:46 +0000 UTC
     </div>
 </div>
 
