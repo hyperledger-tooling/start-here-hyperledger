@@ -227,29 +227,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/476" class=".btn">#476</a>
-            </td>
-            <td>
-                <b>
-                    Two TMS on the same fabric network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                This PR introduces a new integration test that checks that two different TMS can leave in the same Fabric channel.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 14:10:05 +0000 UTC
-    </div>
-</div>
-

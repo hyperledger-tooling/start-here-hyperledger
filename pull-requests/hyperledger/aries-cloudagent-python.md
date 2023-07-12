@@ -300,29 +300,3 @@ This PR fixes this issue.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2287" class=".btn">#2287</a>
-            </td>
-            <td>
-                <b>
-                    Webhook over websocket clarification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Supersedes #2220. Thank you for your contributions @miroslav-inc!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 13:51:22 +0000 UTC
-    </div>
-</div>
-
