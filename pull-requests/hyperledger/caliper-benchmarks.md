@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/251" class=".btn">#251</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/252" class=".btn">#252</a>
             </td>
             <td>
                 <b>
-                    Create go-ossf-slsa3-publish.yml
+                    Add new ERC Workloads to Caliper
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">question</span>
+                
             </td>
             <td>
-                <nil>
+                Add new ERC-20, ERC-721 workloads to Caliper
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-05 06:30:17 +0000 UTC
+        Created At 2023-07-12 08:33:53 +0000 UTC
     </div>
 </div>
 

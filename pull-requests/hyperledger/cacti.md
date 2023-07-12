@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2550" class=".btn">#2550</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): upgrade web3 project-wide to v1.6.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2332
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-12 07:07:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2549" class=".btn">#2549</a>
+            </td>
+            <td>
+                <b>
+                    fix(tessera): updated tessera version error in quorum-all-in-one #2411
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #2411
+
+related to: #2240 and #2274
+
+Tessera version was updated and some flags were deprecated. It has been
+fixed in this commit. Also, the quorum and tessera compatibility with
+quorum-all-in-one. The container and image has been built and ran
+successfully.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-12 06:42:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2548" class=".btn">#2548</a>
+            </td>
+            <td>
+                <b>
+                    fix flaky watchBlocksAsyncV1 test#1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-12 06:34:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2547" class=".btn">#2547</a>
             </td>
             <td>

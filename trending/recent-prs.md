@@ -1,13 +1,13 @@
 
-[156](https://github.com/hyperledger/aries-askar/pull/156) build(deps): bump semver from 5.7.1 to 5.7.2 in /wrappers/javascript
+[3702](https://github.com/hyperledger/iroha/pull/3702) PR-generator test: DO NOT MERGE OR REVIEW
 
-[881](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/881) feat: add new feature flagged scan screen flows
+[117](https://github.com/hyperledger-labs/karma-charity-platform/pull/117) Bump semver from 6.3.0 to 6.3.1 in /platform/backend
 
-[793](https://github.com/hyperledger/aries-rfcs/pull/793) Unqualified DID Community Coordinated Update
+[882](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/882) chore(deps): bump semver from 5.7.1 to 5.7.2
 
-[32](https://github.com/hyperledger/indy-shared-rs/pull/32) Update to version 1.0 to avoid breakage
+[252](https://github.com/hyperledger/caliper-benchmarks/pull/252) Add new ERC Workloads to Caliper
 
-[2303](https://github.com/hyperledger/aries-cloudagent-python/pull/2303) Cancel in-progress workflows when PR is updated
+[3701](https://github.com/hyperledger/iroha/pull/3701) Kura init mode, wsv serialization basics
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

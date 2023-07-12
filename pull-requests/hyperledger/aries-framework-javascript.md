@@ -266,33 +266,3 @@ Change to larger runners
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1495" class=".btn">#1495</a>
-            </td>
-            <td>
-                <b>
-                    fix: race condition singleton records
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/aries-framework-javascript/issues/968
-
-This just handles the multiple creation and then erroring of signleton records. 
-
-We still have an issue with multiple writes to the same document, which we should be able to fix with locks
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 12:14:03 +0000 UTC
-    </div>
-</div>
-
