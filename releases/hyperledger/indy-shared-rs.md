@@ -38,7 +38,7 @@ There are also important security fixes:
 
 - For issuers, new revocation registries must be created due to changes to the tails file contents. Credentials should be re-issued.
 - For provers, the proof of non-revocation has been updated. This means that verifiers that have not been upgraded will not be able to verify the new proof.
-- For verifiers, a new FFI method is added to verify either the older non-revocation proof format or the new proof format. This is only added to allow for a more gradual upgrade of the ecosystem, and will be removed in version 0.5.
+- For verifiers, a new FFI method is added to verify either the older non-revocation proof format or the new proof format. This is only added to allow for a more gradual upgrade of the ecosystem, and will be removed in a future version.
 
 Performance is generally improved, especially for operations such as creating a new revocation registry.
             </td>
