@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    Update to indy-credx 0.4
+                    Update to indy-credx 1.0
                 </b>
             </td>
         </tr>
