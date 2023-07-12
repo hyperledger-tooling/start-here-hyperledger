@@ -1,13 +1,13 @@
 
-[2299](https://github.com/hyperledger/aries-cloudagent-python/pull/2299) Add build step for indy-base image in run_demo
+[793](https://github.com/hyperledger/aries-rfcs/pull/793) Unqualified DID Community Coordinated Update
 
-[513](https://github.com/hyperledger-labs/fabric-operations-console/pull/513) update npm deps
+[32](https://github.com/hyperledger/indy-shared-rs/pull/32) Update to version 1.0 to avoid breakage
 
-[512](https://github.com/hyperledger-labs/fabric-operations-console/pull/512) redact registry fields even if manager
+[2303](https://github.com/hyperledger/aries-cloudagent-python/pull/2303) Cancel in-progress workflows when PR is updated
 
-[511](https://github.com/hyperledger-labs/fabric-operations-console/pull/511) Fix component status
+[2302](https://github.com/hyperledger/aries-cloudagent-python/pull/2302) Update to indy-credx 0.4
 
-[30](https://github.com/hyperledger/indy-shared-rs/pull/30) Switch from Ursa to anoncreds-clsignatures
+[36](https://github.com/hyperledger/bevel-samples/pull/36) Bump semver from 5.6.0 to 5.7.2 in /examples/supplychain-app/fabric/chaincode_rest_server/rest-server
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

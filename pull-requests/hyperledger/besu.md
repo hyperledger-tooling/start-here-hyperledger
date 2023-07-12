@@ -57,7 +57,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -86,7 +86,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -180,7 +180,7 @@ Update Tuweni to 2.4.2.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -298,7 +298,7 @@ with the PR it's fine everytime
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -437,7 +437,7 @@ https://github.com/hyperledger/besu/issues/5564
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -526,36 +526,6 @@ The work is not completed yet, and more PRs will be made, the next one will addr
     </table>
     <div class="right-align">
         Created At 2023-07-05 09:56:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5671" class=".btn">#5671</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Add Engine Api  Cancun Acceptance Test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-04 22:28:17 +0000 UTC
     </div>
 </div>
 
