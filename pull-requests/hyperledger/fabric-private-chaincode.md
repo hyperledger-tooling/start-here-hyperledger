@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    Resolves #693, upgrade ego to v1.2
+                    Resolves #693, upgrade ego to v1.3
                 </b>
             </td>
         </tr>
@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 What this PR does / why we need it:
-Upgrade ego to v1.2, current ego version is v1.0
+Upgrade ego to v1.3, current ego version is v1.0
 
 Which issue(s) this PR fixes:
 
@@ -47,7 +47,7 @@ make run-dev
 Here is the result:
 ```
 root@docker-desktop:/project/src/github.com/hyperledger/fabric-private-chaincode# ego
-EGo v1.2.0 (f272b3f4430c819530e33ef5ff6c930b3dd2afa0)
+EGo v1.3.0 (360a6a40836461465fdbd0742dfb0f980b68c638)
 Manage and run EGo enclaves.
 ...
 ```
