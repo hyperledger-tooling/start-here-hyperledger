@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5699" class=".btn">#5699</a>
+            </td>
+            <td>
+                <b>
+                    update fcu
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+We have identified a potential issue with the FCU mechanism. Based on the logs, it seems that Besu considers each new head as a reorganization (reorg) because of this line https://github.com/hyperledger/besu/blob/main/consensus/merge/src/main/java/org/hyperledger/besu/consensus/merge/blockcreation/MergeCoordinator.java#L610 so we are not updating the worldstate if the new head is not a direct descendant of the current head, which is rare in general. As a result, we enter the "rewindToBlock" method https://github.com/hyperledger/besu/blob/main/consensus/merge/src/main/java/org/hyperledger/besu/consensus/merge/blockcreation/MergeCoordinator.java#L633, which performs a chain reorg (in this case, a move forward of the chain) without changing the world state. However, with Prysm, we only encounter this case and keep advancing the chain without advancing the world state. Consequently, with each "engineNewPayload" call, we need to apply a larger number of trie logs to process the new block, which leads to a node crash.
+
+Upon examining the code, it is indeed not normal to have a scenario where we change the blockchain without changing the world state.
+
+Indeed, the same issue applies to the engineNewPayload operation. If the distance between the head and the payload we want to execute is too large, it is necessary to trigger a backward sync to reach the latest finalized block instead of attempting to roll forward an impossible number of trie log operations. This ensures the stability and proper functioning of the node.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-13 09:17:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5698" class=".btn">#5698</a>
             </td>
             <td>
@@ -432,37 +471,6 @@ We can notice in the profiling screenshots that Besu does the receipts root vali
     </table>
     <div class="right-align">
         Created At 2023-07-06 12:56:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5678" class=".btn">#5678</a>
-            </td>
-            <td>
-                <b>
-                    Ethereum - migrated tests from Junit4 to Junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR removes junit4 dependency from ethereum modules
-Converts junit4 tests to junit5 according to https://blogs.oracle.com/javamagazine/post/migrating-from-junit-4-to-junit-5-important-differences-and-benefits
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/5564
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 07:06:46 +0000 UTC
     </div>
 </div>
 

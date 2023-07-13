@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/51" class=".btn">#51</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Fix ack message expect response problem
+                    fix revocation registry delta deserialize error.
                 </b>
             </td>
         </tr>
@@ -34,12 +34,12 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
 
 # Description
 
-Some agents, such as aca-py, wait for a response from it's handler with holding the inbound transport when the transport decorator is received. So, when client sends ack message with transport decorator with return_route attribute, the result is that client get a connection timeout error.
+json format was deferent with indy ledger.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-26 09:37:03 +0000 UTC
+        Created At 2023-07-13 08:49:58 +0000 UTC
     </div>
 </div>
 
