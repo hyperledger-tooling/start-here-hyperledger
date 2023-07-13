@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/811" class=".btn">#811</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/813" class=".btn">#813</a>
             </td>
             <td>
                 <b>
-                    Docs id_ID
+                    [ja_JP] Translate metrics_reference.rst into Japanese
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                <nil>
+                This patch translates "[ja_JP] Operations Guides » Metrics Referencer" into Japanese.
+
+#603 
+
+Signed-off-by: Daiki Nakashima Nakashima.Daiki@df.MitsubishiElectric.co.jp
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 12:43:53 +0000 UTC
+        Created At 2023-07-13 08:22:36 +0000 UTC
     </div>
 </div>
 
