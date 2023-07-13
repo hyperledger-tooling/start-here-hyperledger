@@ -1,13 +1,13 @@
 
-[3707](https://github.com/hyperledger/iroha/pull/3707) [feature] #3692: Validator migration
+[885](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/885) fix: add iPad and iOS simulator support
 
-[5699](https://github.com/hyperledger/besu/pull/5699) update fcu
+[37](https://github.com/hyperledger/bevel-samples/pull/37) Bump semver from 5.7.1 to 5.7.2 in /examples/supplychain-app/quorum/smartContracts
 
-[52](https://github.com/hyperledger/aries-framework-swift/pull/52) fix revocation registry delta deserialize error.
+[5701](https://github.com/hyperledger/besu/pull/5701) Changes to allow evmtool t8n-server to work with execution-spec-tests
 
-[813](https://github.com/hyperledger/fabric-docs-i18n/pull/813) [ja_JP] Translate metrics_reference.rst into Japanese
+[898](https://github.com/hyperledger/aries-vcx/pull/898) Cleanup/constant
 
-[154](https://github.com/hyperledger/anoncreds-spec/pull/154) Added Credential definition generation process
+[2313](https://github.com/hyperledger/bevel/pull/2313) [ci-skip] Add operator support for Fabric
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

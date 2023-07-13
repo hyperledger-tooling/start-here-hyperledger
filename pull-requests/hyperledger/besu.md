@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5701" class=".btn">#5701</a>
+            </td>
+            <td>
+                <b>
+                    Changes to allow evmtool t8n-server to work with execution-spec-tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An omnibus of minor changes needed for t8n-server to work with the EFs new execution-spec-tests framework
+
+* Reduce logging output
+* Fix json library mismatch between t8n and t8n-server
+* Add hook to enumerate supported forks
+* temporarily map Shanghai+6780 to Cancun
+* add to main distro under 'evmtool' name
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-13 15:37:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5700" class=".btn">#5700</a>
+            </td>
+            <td>
+                <b>
+                    Promote segmented storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+DRAFT STATUS - WIP
+
+At a high level, this PR promotes SegmentedKeyValueStorage into the plugin-api for storage.  
+
+The primary benefit of this besides addressing tech debt is that we can directly use segmented storage and atomically commit across multiple segments.  This is mainly beneficial for bonsai worldstate, which comprises four separate key value store segments.  
+
+This is motivated by "unclean" worldstate storage that can result from besu app or the host machine crashing for a variety of reasons.  RocksDB handles unclean shutdowns very well, but if the besu application was in the midst of a worldstate commit, each of the individual worldstate storages might be in different states of commit/rollback at the time of the crash.  By having composed storage, we can rely on the guarantees of rocksdb to atomically commit or rollback changes in the event of a crash or halt, like what resulted in #5576 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5362 #5576 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-13 14:02:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5699" class=".btn">#5699</a>
             </td>
             <td>
@@ -272,205 +354,6 @@ Add excessDataGas and dataGasUsed validation to EngineNewPayloadV3
     </table>
     <div class="right-align">
         Created At 2023-07-07 05:59:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5682" class=".btn">#5682</a>
-            </td>
-            <td>
-                <b>
-                    Introduce transaction validator interface (phase 2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamChupa</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-The focus of this PR is to complete the work started in #5673 and remove the odd `setPermissionTransactionFilter` from the interface.
-The `setPermissionTransactionFilter` method is only relevant for private network when [permissioning](https://besu.hyperledger.org/stable/private-networks/concepts/permissioning) is enabled, so it make sense to have a dedicated validator for that, so `PermissionTransactionValidator` has been introduced to handle that use case, while it delegates all the other validations to `MainnetTransactionValidator`.
-To obtain that, as common, another layer of indirection was required, since it is not possible to create the `PermissionTransactionValidator` when building the protocol schedule, due to a cyclic dependency, so the need for `TransactionValidatorFactory` that is available through the protocol schedule, and for efficiency create and memoize the actual transaction validator on first usage when all the required prerequisite, to build any kind of transaction validator, are satisfied.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 16:53:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5681" class=".btn">#5681</a>
-            </td>
-            <td>
-                <b>
-                    add global transaction to address the inconsistencies that occur after a dirty stop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamChupa</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR enables handling commits of the world state with a single transaction. This helps prevent inconsistencies between different columns in case of power failure or OOM, for example. With this PR, we will have a single global transaction for everything, and if anything goes wrong, all columns will be rollback.
-
-Additionally, this PR removes the unused version 0 of the database, which adds unnecessary code
-
-**In the future it would be interesting to pass in Memory and Snapshot also to a global mode to simplify the code**
-
-To do the test :
-1. Start Besu and Teku: Launch both Besu and Teku on your system.
-2. Check available disk space: Before filling up the disk, check how much free space is available on the disk. This can be done using a command or utility specific to your operating system.
-3. Fill up the disk: Use the command "fallocate -l 194G fileee" (assuming "fallocate" is a tool or command you have that can fill up the disk) to start filling up the disk. Allow it to run for a while until the disk space is almost full.
-4. Observe Besu behavior: While the disk is being filled, observe the logs of Besu and check if it reports "No space left on device" errors. 
-5. Verify the error source: Once you see the "No space left on device" errors in Besu's logs, verify that it is indeed Besu encountering this issue and not any other component. 
-6. Free up disk space: After verifying the error source, free up some disk space 
-7. Restart Besu: Start Besu again after freeing up disk space.
-8. Monitor the behavior: Observe the logs and monitor the behavior of Besu to ensure it operates normally 
-
-Without the PR you have inconsistency after 2 or 3 retries (depending where we have the not enough space)
-> {"@timestamp":"2023-07-10T12:51:37,771","level":"ERROR","thread":"vert.x-worker-thread-0","class":"RocksDBColumnarKeyValueStorage","message":"While appending to file: /data/besu/database/541600.log: No space left on device","throwable":""}
-
-with the PR it's fine everytime
-
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 15:24:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5680" class=".btn">#5680</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Fix Data Gas Price Calculation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">4844</span>
-            </td>
-            <td>
-                ## PR description
-This pull request addresses two issues: fixing the data gas price calculation and adjusting the genesis state methods to verify forks. The details of each issue are described below:
-
-### Data Gas Price Calculation
-The previous implementation of data gas price calculation had a flaw. It only considered the parent's excessDataGas to determine the dataPricePerGas, which overlooked the data gas used by the parent header itself. Consequently, when a large number of transactions were sent and the gas price increased, blocks were generated with transactions that should not have been included due to their price.
-
-To rectify this, the calculation now incorporates both the parent's excessDataGas and the data gas used by the parent header. The code snippet from the specification is provided below:
-
-
-```
-def get_data_gasprice(header: Header) -> int:
-    return fake_exponential(
-        MIN_DATA_GASPRICE,
-        header.excess_data_gas,
-        DATA_GASPRICE_UPDATE_FRACTION
-    )
-```
-
-This modification ensures that the assertion in block creation and transaction processing considers the correct data gas price, preventing inclusion of transactions with insufficient data gas price.
-
-### Genesis State Verification for Cancun Fork
-For the Cancun fork, there was an issue with the genesis state not including WithdrawsRoot in the genesis block. The problematic code snippet was as follows:
-
-`return shanghaiTimestamp.getAsLong() == genesis.getTimestamp();`
-To address this issue, the code has been updated as follows:
-
-`return genesis.getTimestamp() >= shanghaiTimestamp.getAsLong();`
-
-This change ensures that the genesis block's timestamp is greater than or equal to the shanghaiTimestamp, correctly reflecting the inclusion of WithdrawsRoot in the genesis state for the Cancun fork.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 13:07:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5679" class=".btn">#5679</a>
-            </td>
-            <td>
-                <b>
-                    Avoid doing two validations on transactionsRoot and ReceiptsRoot during sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamChupa</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR enhances the Sync process by eliminating duplicate validations for transactions root and receipts root. We've noticed in CPU profiles during sync that receipts root and transactions root are calculated twice. The first time when data is retrieved from other peers, and the second time during block import when validating block body. This PR implements a mechanism to maintain a record of previously validated transactions and receipts roots, ensuring that redundant validations are avoided.
-
-### **Sync time improvement (on a 4 vCPU/ 32 GiB RAM VM)**
-
-<img width="1627" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/8268a40d-627b-4a98-9eb8-e321a4010efc">
-
-**Without this PR**
-Checkpoint sync time : 19 hours 54 minutes
-
-**With this PR**
- Checkpoint sync time : 16 hours 42 minutes
-
-### **CPU profiling** 
-We can notice in the profiling screenshots that Besu does the receipts root validation only once with this PR when getting the receipts from the peers.
-
-**Before this PR**
-
-<img width="1228" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/63c05dc5-8ffe-48d5-b53b-20111f53094d">
-
-**After this PR**
-
-<img width="1367" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/754c7b18-05f0-491f-ba4a-2ed1b25997a5">
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 12:56:13 +0000 UTC
     </div>
 </div>
 
