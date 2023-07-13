@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1440" class=".btn">#1440</a>
+            </td>
+            <td>
+                <b>
+                    Bump should be hashed by last
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-12 18:38:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1438" class=".btn">#1438</a>
             </td>
             <td>
@@ -111,60 +137,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2023-07-06 15:47:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1427" class=".btn">#1427</a>
-            </td>
-            <td>
-                <b>
-                    Do not return arguments of revert
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR solves #1152. @salaheldinsoliman has already done most of the job. I certified that the parameter string in `revert` is indeed printed and removed all returns on Solana, as they have no effect (Anchor does not decode return data when a function reverts).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 21:24:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1426" class=".btn">#1426</a>
-            </td>
-            <td>
-                <b>
-                    Avoid narrowing casts from `size_t` to `uint32_t`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I changed all occurrences of `size_t` to `uint32_t`, except for `sol_memset` from `solana_sdk.h`.
-Converting from `size_t` to `uint32_t` could cause an overflow on Solana.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-05 18:37:24 +0000 UTC
     </div>
 </div>
 

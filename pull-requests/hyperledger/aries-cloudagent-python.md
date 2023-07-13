@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2305" class=".btn">#2305</a>
+            </td>
+            <td>
+                <b>
+                    Fix alice/faber demo execution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds the `--debug-webhooks` flag for all demo agents, as it is required to distinguish between credential offers and presentation requests for different credential types.
+
+It also works around an issue with #2234 which causes the agents to exit with a RuntimeError due to the call to `loop.run_until_complete` within the logging configuration. I think a more complete fix might be to use a ContextVar to store the current DID identifier and set that when a tenant context is initialized, to avoid any async operations in the logger config.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-12 21:03:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2303" class=".btn">#2303</a>
             </td>
             <td>
