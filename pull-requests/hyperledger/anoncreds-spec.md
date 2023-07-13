@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/154" class=".btn">#154</a>
+            </td>
+            <td>
+                <b>
+                    Added Credential definition generation process
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replaced "TODO: add credential definition generation process" with credential definition generation process from the rust implementation and whitepaper
+
+![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/20bf64b7-e18e-4c98-999c-d586597ea0ee)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-13 05:03:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/153" class=".btn">#153</a>
             </td>
             <td>
@@ -137,37 +166,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-07-12 17:31:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/151" class=".btn">#151</a>
-            </td>
-            <td>
-                <b>
-                    updated notations section with new notations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #150 
-Updated the `notations` section in the spec
-
-![image](https://github.com/hyperledger/anoncreds-spec/assets/92646038/df53605e-41ff-4b92-b81a-209d096e1025)
-
-Let me know if anything I missed here
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 06:00:11 +0000 UTC
     </div>
 </div>
 
