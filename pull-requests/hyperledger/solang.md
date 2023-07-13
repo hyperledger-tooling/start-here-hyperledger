@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Presently, we hash include the bump in the `seeds` array passed to a Solana runtime call in the same order specified by developers when they are writing the contract's constructor. This is not the intended behavior, though. The bump must always be the last element in the array. This PR ensures that.
             </td>
         </tr>
     </table>
@@ -85,58 +85,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2023-07-07 13:17:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1432" class=".btn">#1432</a>
-            </td>
-            <td>
-                <b>
-                    Identify externally callable functions in `sema`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The information whether a given function is supposed to be reachable via an external call to the contract is currently done directly in `codegen`. However, we need this information during the ABI generation too. This fixes a bug where inherited public functions would end up duplicated in the contract metadata.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 16:32:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1431" class=".btn">#1431</a>
-            </td>
-            <td>
-                <b>
-                    Remove unwanted files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These files are temporary and automatically generated during tests. They have been included in the repository.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 15:47:10 +0000 UTC
     </div>
 </div>
 

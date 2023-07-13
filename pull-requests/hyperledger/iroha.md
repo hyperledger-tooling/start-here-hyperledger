@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3708" class=".btn">#3708</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3289: Use workspace inheritance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This PR extracts all common dependencies (2 usages or more) into a workspace level, so that it is easier to update them in lockstep.
+
+Also, all iroha crates besides except inner `_derive` crates are also specified at workspace level.
+
+### Issues
+
+There are two places where I couldn't unify the dependencies:
+
+1. `tokio-tungstenite` of versions 0.16 and 0.17 is used
+https://github.com/hyperledger/iroha/blob/39504a5a8029080e0a7fe93b0f06a74710dba347/client/Cargo.toml#L44-L43
+
+2. `clap` v3 and v4 is used:
+https://github.com/hyperledger/iroha/blob/39504a5a8029080e0a7fe93b0f06a74710dba347/client_cli/Cargo.toml#L31-L30
+
+I haven't tried too hard, but it seems that it would require some code changes to update these places. 
+
+### Linked issue
+
+Closes #3232 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-13 14:18:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3707" class=".btn">#3707</a>
             </td>
             <td>
