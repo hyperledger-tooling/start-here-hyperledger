@@ -271,34 +271,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2538" class=".btn">#2538</a>
-            </td>
-            <td>
-                <b>
-                    refactor(plugin-htlc-eth-besu): stop using the deprecated api.encodePacked
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Add tests to vanilla HashTimeLock
-2. Replace abi.encodePacked by abi.encode
-3. Compile and replace generated ABIs (for HashTimeLock and PrivateHashTimeLock)
-
-Addresses #2531 
-cc @petermetz 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 05:35:11 +0000 UTC
-    </div>
-</div>
-
