@@ -1,13 +1,13 @@
 
-[153](https://github.com/hyperledger/anoncreds-spec/pull/153) chore(deps): bump semver from 5.7.1 to 5.7.2
+[884](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/884) fix: chat details for cred and proof notification
 
-[3706](https://github.com/hyperledger/iroha/pull/3706) [ci]: Trigger iroha2 PR-build only for PR-generator case
+[398](https://github.com/hyperledger-labs/fablo/pull/398) Bump semver from 5.7.1 to 5.7.2 in /samples/chaincodes/chaincode-kv-node-1.4
 
-[883](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/883) feat: Implement the remote OCA resolver
+[1360](https://github.com/hyperledger/besu-docs/pull/1360) [MINOR] fix typo
 
-[397](https://github.com/hyperledger-labs/fablo/pull/397) Bump semver from 5.7.1 to 5.7.2
+[89](https://github.com/hyperledger/firefly-common/pull/89) config for always returning pagination response
 
-[223](https://github.com/hyperledger/anoncreds-rs/pull/223) Update settings.yml
+[88](https://github.com/hyperledger/firefly-common/pull/88) Add extra HTTP client / retry options
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
