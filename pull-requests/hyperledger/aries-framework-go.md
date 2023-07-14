@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3605" class=".btn">#3605</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3606" class=".btn">#3606</a>
             </td>
             <td>
                 <b>
-                    fix: pEx excludes non-SD VCs when SD is required
+                    Pex Nested Submission Requirement handling
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                <nil>
+                Fixes https://github.com/hyperledger/aries-framework-go/issues/2109
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-30 16:15:25 +0000 UTC
+        Created At 2023-07-14 05:53:03 +0000 UTC
     </div>
 </div>
 

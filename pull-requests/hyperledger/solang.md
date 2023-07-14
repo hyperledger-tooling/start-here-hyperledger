@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1441" class=".btn">#1441</a>
+            </td>
+            <td>
+                <b>
+                    Fix compiler output section in solang.toml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The compiler output section was not desterilized correctly from the `solang.toml` file created by `solang new`. this adds a fix for this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-14 02:34:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1440" class=".btn">#1440</a>
             </td>
             <td>
