@@ -47,7 +47,7 @@ I haven't tried too hard, but it seems that it would require some code changes t
 
 ### Linked issue
 
-Closes #3232 
+Closes #3289 
 
 
             </td>
@@ -233,31 +233,20 @@ This PR is not done. But I want to get feedback on the strategy taken for serial
 
 ### Linked issue
 
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
 Closes #1915 
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
 
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+Fast init and boot for peers after power outage. 
 
 ### Checklist
 
-- [x] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
+- [ ] Draft PR released
+- [ ] Strategy analysed
+- [ ] Weakpoints discovered
+- [ ] Weakpoints addressed
+- [ ] Regular PR
+- [ ] Tests (via Pytest)
 
             </td>
         </tr>

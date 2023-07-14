@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/356" class=".btn">#356</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/357" class=".btn">#357</a>
             </td>
             <td>
                 <b>
-                    feature (issue#113) client-side load balancing
+                    Endless block streaming
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-07 08:30:18 +0000 UTC
+        Created At 2023-07-14 08:04:45 +0000 UTC
     </div>
 </div>
 
