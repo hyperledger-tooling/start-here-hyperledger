@@ -127,7 +127,7 @@ _PR template adapted from the Python attrs project._
             </td>
             <td>
                 <b>
-                    feat: Implement the remote OCA resolver
+                    feat: implement the remote OCA resolver
                 </b>
             </td>
         </tr>
