@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2314" class=".btn">#2314</a>
+            </td>
+            <td>
+                <b>
+                    [besu] use default securityContext
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ```
+This commit implements the following changes:
+- use the securityContext in the besu and validator nodes.
+
+These changes enable besu and validator nodes to run with default securityContext.
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-14 15:10:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2313" class=".btn">#2313</a>
             </td>
             <td>
@@ -29,6 +60,8 @@ permalink: /pull-requests/hyperledger/bevel
             <td>
                 This PR adds support for bevel-operator-fabric in traditional Bevel using Ansible. gitops and vault is optional, but proxy = none is not supported because bevel-operator-fabric itself has istio as mandatory.
 This PR adds support till channel creation and joining, chaincode management is not supported.
+
+Solves #2310
             </td>
         </tr>
     </table>

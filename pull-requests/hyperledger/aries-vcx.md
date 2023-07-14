@@ -53,7 +53,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                - Refactor tests (way of creating tails directory)
+- Clear up confusion calling variables `tails_file` what actually is `tails_directory`
+- Remove duplicated method for creating tmp directories and files
+
+CI: 
+- Small adjustment, when building android docker image, in case of cache miss, do not try to load up `main` branch revision of that image (this is happening to optimize CI in order to reuse some docker layers)
             </td>
         </tr>
     </table>
