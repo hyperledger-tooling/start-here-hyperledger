@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/707" class=".btn">#707</a>
-            </td>
-            <td>
-                <b>
-                    upgrade acapy backchannels to python 3.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ACAPy was just updated to python 3.9 with loss of support for lower. Changed the python backchannel containers to python 3.9. Also needed to fix an asyncio call that was moved in later version of python.  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-06 20:28:12 +0000 UTC
-    </div>
-</div>
-
