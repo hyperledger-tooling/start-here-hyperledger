@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/53" class=".btn">#53</a>
+            </td>
+            <td>
+                <b>
+                    fix unable to download tails file error when tails directory not exists.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Checklist
+
+- [x] have run AriesFrameworkTests
+- [x] I have run AllTests
+
+# Description
+
+There's no tails folder in document in first place which cause fail to download tails file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-14 09:13:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/52" class=".btn">#52</a>
             </td>
             <td>

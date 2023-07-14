@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    [ci-skip] Add operator support for Fabric
+                    [ci-skip] Add operator support
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">fabric</span>
             </td>
             <td>
                 This PR adds support for bevel-operator-fabric in traditional Bevel using Ansible. gitops and vault is optional, but proxy = none is not supported because bevel-operator-fabric itself has istio as mandatory.
