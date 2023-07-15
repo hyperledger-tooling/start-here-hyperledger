@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/708" class=".btn">#708</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/709" class=".btn">#709</a>
             </td>
             <td>
                 <b>
-                    Update README.md -- remove .NET references
+                    Changes by create-pull-request action
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Fixes #698
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-07 23:36:44 +0000 UTC
+        Created At 2023-07-15 03:14:04 +0000 UTC
     </div>
 </div>
 
