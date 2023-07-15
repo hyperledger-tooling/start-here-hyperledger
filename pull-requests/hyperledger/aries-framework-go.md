@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    Pex Nested Submission Requirement handling
+                    feat: handle PEx nested submission requirement logic 
                 </b>
             </td>
         </tr>
