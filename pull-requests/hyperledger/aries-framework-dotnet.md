@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/240" class=".btn">#240</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/243" class=".btn">#243</a>
             </td>
             <td>
                 <b>
-                    Update IBasicMessageService.cs
+                    adjust HttpMessageDispatcher to support content type "application/didcomm-envelope-enc"
                 </b>
             </td>
         </tr>
@@ -28,14 +28,12 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
             </td>
             <td>
                 #### Short description of what this resolves:
-Features/BasicMessage/IBasicMessageService.cs(4,50): error CS1514: { expected [/aries-framework-dotnet/src/Hyperledger.Aries/Hyperledger.Aries.csproj]
-Features/BasicMessage/IBasicMessageService.cs(19,2): error CS1513: } expected [/aries-framework-dotnet/src/Hyperledger.Aries/Hyperledger.Aries.csproj]
+Adds support for content type "application/didcomm-envelope-enc" and supports fallback values as described here: https://github.com/hyperledger/aries-rfcs/blob/main/features/0025-didcomm-transports/README.md
 
 #### Changes proposed in this pull request:
-replace ";" with two brackets "{" and "}" for the namespace
--
--
--
+- Adds support for content type "application/didcomm-envelope-enc"
+- supports fallback to "application/ssi-agent-wire" and "application/json"
+- uses the same content type as the request for the response 
 
 **Fixes**: #
 
@@ -43,7 +41,7 @@ replace ";" with two brackets "{" and "}" for the namespace
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-16 20:43:34 +0000 UTC
+        Created At 2023-07-14 21:10:07 +0000 UTC
     </div>
 </div>
 
@@ -51,11 +49,11 @@ replace ";" with two brackets "{" and "}" for the namespace
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/239" class=".btn">#239</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/242" class=".btn">#242</a>
             </td>
             <td>
                 <b>
-                    Update DefaultBasicMessageService.cs
+                    add UpsertDeviceInfoMessage
                 </b>
             </td>
         </tr>
@@ -65,13 +63,10 @@ replace ";" with two brackets "{" and "}" for the namespace
             </td>
             <td>
                 #### Short description of what this resolves:
-Features/BasicMessage/DefaultBasicMessageService.cs(9,50): error CS1514: { expected [/aries-framework-dotnet/src/Hyperledger.Aries/Hyperledger.Aries.csproj]
-#0 2.640 Features/BasicMessage/DefaultBasicMessageService.cs(52,2): error CS1513: } expected [/aries-framework-dotnet/src/Hyperledger.Aries/Hyperledger.Aries.csproj]
+Adds support to update existing DeviceInfoRecords with an UpsertDeviceMessage.
 
 #### Changes proposed in this pull request:
-change ";" with two brackets "{" and "}" for the namespace
--
--
+- Adds support to update existing DeviceInfoRecords with an UpsertDeviceMessage.
 
 **Fixes**: #
 
@@ -79,7 +74,7 @@ change ";" with two brackets "{" and "}" for the namespace
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-16 20:41:24 +0000 UTC
+        Created At 2023-07-14 21:04:51 +0000 UTC
     </div>
 </div>
 

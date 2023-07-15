@@ -92,29 +92,3 @@ I found that we were re-dispatching the whole set of confirmations each time, in
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/93" class=".btn">#93</a>
-            </td>
-            <td>
-                <b>
-                    Migration command - leveldb2postgres
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Command line tool helper to perform a LevelDB to PostgreSQL migration.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-07 19:45:32 +0000 UTC
-    </div>
-</div>
-
