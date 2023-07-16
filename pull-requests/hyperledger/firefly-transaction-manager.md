@@ -62,33 +62,3 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/94" class=".btn">#94</a>
-            </td>
-            <td>
-                <b>
-                    Fix confirmations incremental dispatch 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~In PR chain with #93 ~
-~Also contains commit from #96 ~
-Rebased on main with 93/96 merged to aid review
-
-I found that we were re-dispatching the whole set of confirmations each time, in the incremental case where `NewFork: false`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-08 22:50:47 +0000 UTC
-    </div>
-</div>
-
