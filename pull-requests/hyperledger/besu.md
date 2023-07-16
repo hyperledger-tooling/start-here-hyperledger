@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5708" class=".btn">#5708</a>
+            </td>
+            <td>
+                <b>
+                    replace ArrayList with HashSet for rpcMethodExists check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+When executing the RpcMethod.rpcMethodExists(String rpcMethod) method, using HashSet instead of ArrayList provides a very very small performance improvement of a few nanoseconds. 😂😂
+
+
+## Fixed Issue(s)
+nothing
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-16 09:09:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5706" class=".btn">#5706</a>
             </td>
             <td>
