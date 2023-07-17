@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    Add LevelDB to PostgreSQL Data Migration command
+                    adding the mapping for different error messages of known transaction
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Depends on https://github.com/hyperledger/firefly-transaction-manager/pull/93
+                adding the mapping for a different variant of error messages of known transactions
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-08 00:59:34 +0000 UTC
+        Created At 2023-07-17 16:33:15 +0000 UTC
     </div>
 </div>
 

@@ -58,16 +58,15 @@ nothing
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 ## PR description
-Currently in draft. Todo:
+Todo:
 
 - [x] eth_call unit tests
-- [ ] eth_estimateGas unit tests
+- [x] eth_estimateGas unit tests
 - [x] Changelog
-- [ ] Docs update
 
 This PR does the following:
 
@@ -75,7 +74,7 @@ This PR does the following:
 - Adds a private member variable `reason` to `JsonRpcError` which can optionally be set
 - Appends the `reason` to the response from `JsonRpcError.getMessage()` so that whenever the message for a JSON RPC error is retrieved, any reason that is set is included e.g. `Execution reverted: ERC20: transfer amount exceeds balance`
 
-__Note__: this is proposed as a change to existing behaviour. It is assumed (rightly or wrongly) that existing applications will most likely use `startsWith("Execution reverted")` or other language equivalent, to parse error responses today. The fact that Quorum returns errors in this format (and that there isn't an option to exclude the decoded reason) suggests that any application not using `startsWith` semantics for error parsing is already brittle to different ethereum clients. It could be made configurable in Besu (perhaps with a `--exclude-decoded-reason` or similar option) but my personal view is to treat this as a fix to existing behaviour and document it in the changelog accordingly. I'm open to other opinions on this from reviewers.
+__Note__: this is proposed as a change to existing behaviour. I have assumed (rightly or wrongly) that existing applications will most likely use `startsWith("Execution reverted")` or other language equivalent, to parse error responses today. The fact that Quorum returns errors in this format (and that there isn't an option to exclude the decoded reason) suggests that any application not using `startsWith` semantics for error parsing is already brittle to different ethereum clients. It could be made configurable in Besu (perhaps with a `--exclude-decoded-reason` or similar option) but my personal view is to treat this as a fix to existing behaviour and document it in the changelog accordingly. I'm open to other opinions on this from reviewers.
 
 Example error response before this PR:
 

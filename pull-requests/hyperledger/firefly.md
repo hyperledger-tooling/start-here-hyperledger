@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/firefly
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1365" class=".btn">#1365</a>
-            </td>
-            <td>
-                <b>
-                    v1.2: fix: multiple named tuple result from contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of https://github.com/hyperledger/firefly/pull/1333
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-10 14:11:46 +0000 UTC
-    </div>
-</div>
-

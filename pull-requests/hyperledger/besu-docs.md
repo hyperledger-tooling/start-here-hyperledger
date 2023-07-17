@@ -193,29 +193,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1359" class=".btn">#1359</a>
-            </td>
-            <td>
-                <b>
-                    Remove github preview in favor of Vercel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Now that Vercel is deployed, no need for GitHub preview
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-10 16:09:48 +0000 UTC
-    </div>
-</div>
-
