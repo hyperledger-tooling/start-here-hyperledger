@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                 Remove unused constants
             </td>
         </tr>
     </table>

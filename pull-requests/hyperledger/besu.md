@@ -64,8 +64,9 @@ nothing
                 ## PR description
 Currently in draft. Todo:
 
-- [ ] Unit tests
-- [ ] Changelog
+- [x] eth_call unit tests
+- [ ] eth_estimateGas unit tests
+- [x] Changelog
 - [ ] Docs update
 
 This PR does the following:

@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3710" class=".btn">#3710</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3688: Implement basic arithmetic as proc macro
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Implement skeleton DSL crate. Arithmetic and boolean logic handled as a procedural macro. Uses `data_model::expression`. 
+
+### Linked issue
+
+Closes #3688 
+
+### Benefits
+
+DSL for expressions.
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-17 07:44:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3708" class=".btn">#3708</a>
             </td>
             <td>
@@ -369,110 +422,6 @@ Closes #3374
     </table>
     <div class="right-align">
         Created At 2023-07-10 13:32:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3691" class=".btn">#3691</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3690: Fix C++ musl docker build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">build</span><span class="chip">high-priority</span>
-            </td>
-            <td>
-                ## Description
-
-### Problem
-
-1. I used `wasm-opt` crate in #3635 
-2. This crates uses [`wasm-opt`](https://github.com/WebAssembly/binaryen/tree/main) tool written in C++
-3. In fact it compiles this tool from source and links with it
-4. In Dockerfile we use `musl` build. It's a minimalistic `libc` implementation
-5. Turns out `musl` doesn't support `C++` out of the box, only `C`
-
-### Fix
-
-Download `musl` pre-built toolchain which supports `C++` from thier site and make `Rust` use it.
-
-### Additional changes
-
-1. Bumped version of `wasm-opt` crate
-2. Updated toolchain in the `wasm_builder`. That should have been done in #3655
-3. Added more suitable pattern to ignore `target` directories to `.dockerignore`
-4. Fixed new clippy lints
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-- Closes #3690 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-10 12:25:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3689" class=".btn">#3689</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: Include the actual error message in InternalError
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                This improves the error message experienced in https://github.com/hyperledger/iroha/pull/3686#issuecomment-1625195109
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-10 11:39:16 +0000 UTC
     </div>
 </div>
 

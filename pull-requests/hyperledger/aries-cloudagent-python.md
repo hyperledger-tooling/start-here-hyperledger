@@ -248,29 +248,3 @@ This PR adds `max_cred_num` to the expected options of the `POST /anoncreds/cred
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2291" class=".btn">#2291</a>
-            </td>
-            <td>
-                <b>
-                    fix: use python 3.9 in run_docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We overlooked one other instance of von-image getting used; this PR is a quick correction to the `Dockerfile.run` that gets used by the `run_docker` script.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-10 12:30:47 +0000 UTC
-    </div>
-</div>
-
