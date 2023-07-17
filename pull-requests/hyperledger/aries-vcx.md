@@ -67,30 +67,3 @@ CI:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/896" class=".btn">#896</a>
-            </td>
-            <td>
-                <b>
-                    Initialize UniFFI demo and scripts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Initializes the base for building and testing uniffi demo application.
-- Added convenience scripts for setting up and compiling uniffi_aries_vcx project for android.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-10 02:23:46 +0000 UTC
-    </div>
-</div>
-

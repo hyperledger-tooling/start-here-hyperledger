@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1363" class=".btn">#1363</a>
+            </td>
+            <td>
+                <b>
+                    Added rpc-http-max-request-content-length
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Documented rpc-http-max-request-content-length
+Issue #1341 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-17 05:40:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1362" class=".btn">#1362</a>
             </td>
             <td>
