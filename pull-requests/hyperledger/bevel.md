@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2315" class=".btn">#2315</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] simplify Storage Class generation with a common Helm Chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+**feat(shared): simplify Storage Class generation with a Shared Helm Chart**
+
+```
+Simplifies the process of generating storage classes by utilizing a shared Helm chart. The four platforms that have been modified to make them compatible with the shared "storage_class" Helm Chart are:
+ • Hyperledger-Fabric
+ • R3-corda-Ent
+ • Hyperledger-Besu
+ • Quorum
+
+The following changes have been implemented:
+ • Updated variables to align with the shared Helm chart.
+ • Introduced common variables to streamline the configuration of storage classes across different platforms.
+ • Updated the HR file responsible for configuring the shared "storage_class" Helm chart.
+
+These changes will simplify the generation of various storage classes by utilizing a single template file. Additionally, they will improve compatibility with the shared "storage_class" Helm chart across multiple platforms.
+```
+
+fixes #2306
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-17 10:16:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2314" class=".btn">#2314</a>
             </td>
             <td>
