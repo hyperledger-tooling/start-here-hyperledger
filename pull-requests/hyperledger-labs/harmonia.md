@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    Add appendix on externally verirfiable transaction properties
+                    Added the docs/fnality folder
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/harmonia
                 
             </td>
             <td>
-                Following discussion with Adhara about the need to verify a specific property of the Corda transaction in the Adhara cross-chain swap protocol, an appendix explains how this works, what the drawbacks of the approach are, and how a future improvement might address it.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-05 15:27:40 +0000 UTC
+        Created At 2023-07-17 13:58:24 +0000 UTC
     </div>
 </div>
 

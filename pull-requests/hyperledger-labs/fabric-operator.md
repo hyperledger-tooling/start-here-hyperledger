@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/119" class=".btn">#119</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    Include legacy dns in the tlscerts to fix post migration issues
+                    Donot append the image tags when requested image is passed
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/118
+                Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-07 18:51:46 +0000 UTC
+        Created At 2023-07-17 17:55:03 +0000 UTC
     </div>
 </div>
 

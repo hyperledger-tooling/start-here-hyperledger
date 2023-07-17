@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3711" class=".btn">#3711</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #3654: Add Dockerfiles to build iroha2 on GNU libc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description
+Add `Dockerfile.build.glibc` and `Dockerfile.glibc` files to build `iroha2-ci` and `iroha2` images on GNU libc library and without `musl`.
+
+### Linked issue
+#3654 
+
+### Benefits
+1. To have a `iroha2` CI on GNU libc and without `musl`.
+2. To reduce the sizes of `iroha2-ci` and `iroha2` final images.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-17 14:26:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3710" class=".btn">#3710</a>
             </td>
             <td>
@@ -396,32 +438,6 @@ Closes #3374
     </table>
     <div class="right-align">
         Created At 2023-07-11 08:38:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3694" class=".btn">#3694</a>
-            </td>
-            <td>
-                <b>
-                    [bump]: Rust toolchain and CI container to `nightly-2023-06-25`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Caution, make sure all CI checks pass before merging. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-10 13:32:24 +0000 UTC
     </div>
 </div>
 
