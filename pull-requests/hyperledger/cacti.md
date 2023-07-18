@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2556" class=".btn">#2556</a>
+            </td>
+            <td>
+                <b>
+                    ci(tools/docker): stop compiling Iroha as part of the all-in-one image build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Upgraded the Iroha AIO image to use v1.4.0-patch-3
+2. The new Iroha version now supports configuraton via ENV variables
+3. Because of 2) we don't need to apply config file changes in the
+entrypoint script of the container anymore, yay.
+4. The new image uses the iroha release image as the base and  it
+does NOT recompile the entire project which makes the build
+orders of magnitude faster, wasting much less CI time/resources.
+5. Exposed the healthcheck port for through the IrohaTestLedger class
+so the other improvement we'll be able to do after this is to phase out
+the hacky python script that does the healthcheck at the moment if
+the new built-in healthcheck endpoint does actually work fine.
+6. Migrated all the test cases to the new image version.
+
+Fixes #2524
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-17 18:27:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2554" class=".btn">#2554</a>
             </td>
             <td>
