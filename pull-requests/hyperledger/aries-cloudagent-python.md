@@ -205,31 +205,3 @@ Co-authored-by: Daniel Bluhm <daniel@indicio.tech>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2295" class=".btn">#2295</a>
-            </td>
-            <td>
-                <b>
-                    Allow any did to be public
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Having a universal resolver set in the configuration, I want to be able to create and receive invitations containing a public DID other than did:sov (Indy DID). In order to do that I must promote the DID to public after it has been created in the wallet.
-
-This PR adds checks of the DID format to associate ledger operations to the did:sov only in the said operation, thus allowing any DID format to be set as public.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-11 12:42:08 +0000 UTC
-    </div>
-</div>
-

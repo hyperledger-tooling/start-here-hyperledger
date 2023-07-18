@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-socketdock
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/11" class=".btn">#11</a>
+            </td>
+            <td>
+                <b>
+                    Add Maintainers file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 14:14:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-socketdock/pull/10" class=".btn">#10</a>
             </td>
             <td>

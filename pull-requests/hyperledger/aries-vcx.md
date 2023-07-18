@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/903" class=".btn">#903</a>
+            </td>
+            <td>
+                <b>
+                    CI: Do not publish napi wrapper when running in fork PR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Should prevent this https://github.com/hyperledger/aries-vcx/pull/884 kind of failures
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 15:46:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/902" class=".btn">#902</a>
+            </td>
+            <td>
+                <b>
+                    Feature/anoncreds rs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A draft implementation of the `anoncreds-rs` crate. This PR is mainly created as a reference point for the future when the (working) implementation can be done without all kinds of crazy workarounds and code smell.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 12:38:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/901" class=".btn">#901</a>
             </td>
             <td>

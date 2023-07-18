@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1448" class=".btn">#1448</a>
+            </td>
+            <td>
+                <b>
+                    Allow modification of AcconuntInfo lamports field
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 14:44:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1447" class=".btn">#1447</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Accessing virtual function selectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The added test case panics in current `main` because accessing the selector of a virtual function which is not used in any other way will put the function in `all_functions` but not `virtual_functions`.  `check_inheritance` will insert the function into `all_functions` because we have this symbol, however because we only access the selector it's not a virtual function to the contract. The fix is that when we walk `all_functions` to find the externally callable ones, do not assume every function marked `virtual` is present in the `virtual_functions` of this contract.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 12:59:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1446" class=".btn">#1446</a>
             </td>
             <td>
