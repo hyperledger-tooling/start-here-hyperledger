@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    Fix for missing linux packages and docker-composer check
+                    Add support for sh in shell command.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
                 
             </td>
             <td>
-                <nil>
+                - Fixes the issue shelling into the prometheus container.
+
+Note:
+- The main change was made to openShell.  Everything else is whitespace additions or cleanup.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-25 17:31:06 +0000 UTC
+        Created At 2023-07-17 20:08:48 +0000 UTC
     </div>
 </div>
 
