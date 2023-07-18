@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/250" class=".btn">#250</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/251" class=".btn">#251</a>
             </td>
             <td>
                 <b>
-                    Fix Goreleaser Job
+                    Have ff info print to stdout without --verbose
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Resolves https://github.com/hyperledger/firefly-cli/issues/249
-
-Also updates the goreleaser action to v4
+                Closes #241 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-05 20:51:21 +0000 UTC
+        Created At 2023-07-18 15:35:20 +0000 UTC
     </div>
 </div>
 
