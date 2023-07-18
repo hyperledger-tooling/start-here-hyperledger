@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2309" class=".btn">#2309</a>
+            </td>
+            <td>
+                <b>
+                    API endpoint to decommission revocation registry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes issue #2304 
+
+In draft state, need to write some tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 02:12:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2308" class=".btn">#2308</a>
             </td>
             <td>
