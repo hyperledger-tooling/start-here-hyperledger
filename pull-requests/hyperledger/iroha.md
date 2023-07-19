@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3722" class=".btn">#3722</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3622: Granular clippy lints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Drive-by refactoring and experiment with granular linting on a per-crate basis. 
+
+### Linked issue
+
+Partially addresses #3622 
+
+### Checklist
+
+- [ ] Ci checks pass
+- [ ] Approval of draft ideas
+- [ ] Final execution
+- [ ] Final review
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-19 07:54:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3721" class=".btn">#3721</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #3700: CI check for `kagami validator`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+Added a dumb CI check to verify that we can run `kagami validator` as a standalone binary with no errors.
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3700 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+Peace of mind. Even though this is not the most intended usage, our QA already came across this problem. 
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-19 07:52:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3711" class=".btn">#3711</a>
             </td>
             <td>
@@ -219,135 +316,6 @@ Closes #3289
     </table>
     <div class="right-align">
         Created At 2023-07-13 12:29:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3706" class=".btn">#3706</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Trigger iroha2 PR-build only for PR-generator case
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-
-1. Add the trigger to build iroha2 PR-image from INTERNAL repository `hyperledger/iroha` branch if it's a PR-generator case.
-
-## Requirements
-1. INTERNAL branch should start from `iroha2-pr-deploy/`
-2. PR should has `experimental_environment` label
-
-### Benefits
-
-Check if iroha2 PR-image is properly buildable when it's necessary.
-
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-12 17:20:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3703" class=".btn">#3703</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3613: Do not tolerate invalid signatures on transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Fail deserializing/decoding transactions with invalid signatures 
-
-Closes #3613 
-
-## Unsolved questions
-
-1. There are other places where the "retain valid signatures" logic is used: https://github.com/hyperledger/iroha/blob/c0a59c002b822a9dbca9bba376651d0e7457547a/core/src/sumeragi/network_topology.rs#L233 and https://github.com/hyperledger/iroha/blob/c0a59c002b822a9dbca9bba376651d0e7457547a/core/src/sumeragi/main_loop.rs#L1042 Maybe the logic in these places should be changed too? Or would it break some assumptions?
-
-2. Error handling here is a bit funky. It returns an ad-hoc `&'static str` as an error type, potentially losing some context. It _could_ make sense to defined another error type just for this.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-12 14:28:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3701" class=".btn">#3701</a>
-            </td>
-            <td>
-                <b>
-                    Kura init mode, wsv serialization basics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-This PR is not done. But I want to get feedback on the strategy taken for serializing the WSV. If you think I should do something differently or that I've missed something please tell me.
-
-### Linked issue
-
-Closes #1915 
-
-### Benefits
-
-Fast init and boot for peers after power outage. 
-
-### Checklist
-
-- [ ] Draft PR released
-- [ ] Strategy analysed
-- [ ] Weakpoints discovered
-- [ ] Weakpoints addressed
-- [ ] Regular PR
-- [ ] Tests (via Pytest)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-12 07:50:08 +0000 UTC
     </div>
 </div>
 

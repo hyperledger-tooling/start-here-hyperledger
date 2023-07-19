@@ -327,38 +327,3 @@ Indeed, the same issue applies to the engineNewPayload operation. If the distanc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5698" class=".btn">#5698</a>
-            </td>
-            <td>
-                <b>
-                    remove v0 version of the database
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This version of the database is not used anymore so we can remove it 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-12 13:28:37 +0000 UTC
-    </div>
-</div>
-

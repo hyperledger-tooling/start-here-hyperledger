@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1449" class=".btn">#1449</a>
+            </td>
+            <td>
+                <b>
+                    Polkadot: Reverts return encoded error data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a continuation of #1415. `require()`, `assert()` and `revert()` now return error data, according to the [Solidity documentation](https://docs.soliditylang.org/en/v0.8.20/control-structures.html#panic-via-assert-and-error-via-require). Additionally, many reverts inserted by the compiler now return the corresponding `Panic(uint256)`  error data, to align Solang closer with `solc`.
+
+The error types known to the contract are added in the metadata `lang_error` field. At the moment there are only `Error` and `Panic` because we don't support custom errors yet.
+
+Refactored revert-related code into a dedicated `codegen` module to. Refactored the `polkadot::errors` into distinct tests, made them less brittle and added assertions for the execution output.
+
+I'm now working on a follow-up PR for bubbling up uncaught exceptions (this is why it's already included that in the documentation).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-19 17:24:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1448" class=".btn">#1448</a>
             </td>
             <td>
@@ -30,7 +62,7 @@ permalink: /pull-requests/hyperledger/solang
                 The field `lamports` of the struct `AccountInfo` is mutable, so we should allow its modification. For this we needed two modifications:
 
 1. lamports is of type `Type::Ref(Type::Ref(Type::Uint(64)))` after accessing the struct member, we needed to include an extra load in sema do deal with the double pointer.
-2. When we have `AccountInfo ai = tx.accounts[0];`, `ai` becomes a pointer to AccountInfo. The unused variable elimination was not properly designed to work with pointers and was eliminating assignments to the members of `ai`, so I added a special case to it. I believe we should start considering a liveness analysis pass to eliminate the hack we have in codegen to eliminate variables (this is what I wanted to do in 2021).
+2. When we have `AccountInfo ai = tx.accounts[0];`, `ai` becomes a pointer to AccountInfo. The unused variable elimination was incorrectly eliminating references to structs, so I fixed such an issue.
             </td>
         </tr>
     </table>
