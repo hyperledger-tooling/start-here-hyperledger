@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4319" class=".btn">#4319</a>
+            </td>
+            <td>
+                <b>
+                    Clarify endorsement policy documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The documentation for the default 'majority' endorsement policy was misleading. This commit clarifies it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 21:19:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4318" class=".btn">#4318</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[903](https://github.com/hyperledger/aries-vcx/pull/903) CI: Do not publish napi wrapper when running in fork PR
+[418](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/418) build(deps-dev): Bump word-wrap from 1.2.3 to 1.2.4 in /common/policy-dsl
 
-[251](https://github.com/hyperledger/firefly-cli/pull/251) Have ff info print to stdout without --verbose
+[401](https://github.com/hyperledger-labs/fablo/pull/401) Bump word-wrap from 1.2.3 to 1.2.4 in /samples/chaincodes/chaincode-kv-node
 
-[1448](https://github.com/hyperledger/solang/pull/1448) Allow modification of AcconuntInfo lamports field
+[87](https://github.com/hyperledger-labs/fabric-opssc/pull/87) chore(deps-dev): Bump word-wrap from 1.2.3 to 1.2.4 in /opssc-api-server/src
 
-[11](https://github.com/hyperledger/aries-socketdock/pull/11) Add Maintainers file
+[86](https://github.com/hyperledger-labs/fabric-opssc/pull/86) chore(deps-dev): Bump word-wrap from 1.2.3 to 1.2.4 in /opssc-agent/src
 
-[1447](https://github.com/hyperledger/solang/pull/1447) Bugfix: Accessing virtual function selectors
+[85](https://github.com/hyperledger-labs/fabric-opssc/pull/85) chore(deps-dev): Bump word-wrap from 1.2.3 to 1.2.4 in /integration
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

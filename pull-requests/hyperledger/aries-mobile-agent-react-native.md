@@ -14,6 +14,118 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/894" class=".btn">#894</a>
+            </td>
+            <td>
+                <b>
+                    fix: make infobox content scrollable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+InfoBox content wasn't scrollable, now it is! 
+
+Here's what it looked like before on larger zoom devices (not scrollable, this is all you could see):
+![wac_before](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/f7509710-595b-4cf4-9335-98f9721fe090)
+
+
+And here's what it looks like now on Android, and then iOS:
+![wac_android](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/a39ae7b9-4634-45d0-8229-bc46ba83f721)
+![wac_ios](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/59b9fa91-f639-4aaa-96bc-d2d69018eb54)
+
+
+# Related Issues
+
+Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-19 00:07:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/893" class=".btn">#893</a>
+            </td>
+            <td>
+                <b>
+                    fix: handle connectionless proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Fix issue where connectionless proof requests were not being automatically processed.
+
+
+# Related Issues
+
+bcgov/bc-wallet-mobile#1258
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-18 21:19:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/892" class=".btn">#892</a>
             </td>
             <td>
@@ -715,57 +827,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2023-07-12 03:08:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/880" class=".btn">#880</a>
-            </td>
-            <td>
-                <b>
-                    feat: restore verifier flow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-becuase we didn't have goal codes set up before, when Jason implemented the changes to the connection flow, he had to remove the loading screen functionality in the mobile verifier flow. This PR restores the origional flow and adds a hook to fetch the oob record from a conneciton ID which gives you the goal code. 
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-11 22:34:13 +0000 UTC
     </div>
 </div>
 
