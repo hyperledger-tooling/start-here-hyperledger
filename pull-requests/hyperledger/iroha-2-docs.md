@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/349" class=".btn">#349</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/356" class=".btn">#356</a>
             </td>
             <td>
                 <b>
-                    fix last commit
+                    Display the compatibility matrix
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                <nil>
+                ## Linked issue
+
+Closes #355 
+
+## TODO
+
+- [ ] Specify the actual URL of the service in `.env`
+- [ ] Display the matrix in an appropriate place in the docs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-22 12:41:06 +0000 UTC
+        Created At 2023-07-19 08:22:26 +0000 UTC
     </div>
 </div>
 

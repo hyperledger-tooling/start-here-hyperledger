@@ -1,13 +1,13 @@
 
-[221](https://github.com/hyperledger/aries-framework-javascript-ext/pull/221) build(deps): bump word-wrap from 1.2.3 to 1.2.4
+[4323](https://github.com/hyperledger/fabric/pull/4323) Bump Go to 1.20.6 (release-2.2)
 
-[712](https://github.com/hyperledger/aries-agent-test-harness/pull/712) Changes by create-pull-request action
+[4322](https://github.com/hyperledger/fabric/pull/4322) Bump Go to 1.20.6 (release-2.5)
 
-[402](https://github.com/hyperledger-labs/fablo/pull/402) Bump word-wrap from 1.2.3 to 1.2.4 in /samples/chaincodes/chaincode-kv-node-1.4
+[4321](https://github.com/hyperledger/fabric/pull/4321) Bump Go to 1.20.6
 
-[904](https://github.com/hyperledger/aries-vcx/pull/904) Bump word-wrap from 1.2.3 to 1.2.4 in /wrappers/node
+[4320](https://github.com/hyperledger/fabric/pull/4320) [Fix]: Provide a meaningful error for cert sanitization (backport #4307)
 
-[418](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/418) build(deps-dev): Bump word-wrap from 1.2.3 to 1.2.4 in /common/policy-dsl
+[158](https://github.com/hyperledger/aries-askar/pull/158) build(deps): bump word-wrap from 1.2.3 to 1.2.4 in /wrappers/javascript
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
