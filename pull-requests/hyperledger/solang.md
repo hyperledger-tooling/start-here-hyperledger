@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                The field `lamports` of the struct `AccountInfo` is mutable, so we should allow its modification. For this we needed two modifications:
+
+1. lamports is of type `Type::Ref(Type::Ref(Type::Uint(64)))` after accessing the struct member, we needed to include an extra load in sema do deal with the double pointer.
+2. When we have `AccountInfo ai = tx.accounts[0];`, `ai` becomes a pointer to AccountInfo. The unused variable elimination was not properly designed to work with pointers and was eliminating assignments to the members of `ai`, so I added a special case to it. I believe we should start considering a liveness analysis pass to eliminate the hack we have in codegen to eliminate variables (this is what I wanted to do in 2021).
             </td>
         </tr>
     </table>

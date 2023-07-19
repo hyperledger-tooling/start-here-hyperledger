@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/179" class=".btn">#179</a>
             </td>
             <td>
                 <b>
-                    Fix BCW revocation notification test post 969 updates
+                    Align BCW tests to new scan/connection flow
                 </b>
             </td>
         </tr>
@@ -27,92 +27,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                This PR calibrates the tests to fixes to Credential Revocation features in BC Wallet, in part to BCW issue 969. This now should pass on Android, however since this 969 update iOS is not finding the Dismiss TestID on the Credential Details page so it should fail on iOS. See https://github.com/bcgov/bc-wallet-mobile/issues/951
+                This PR updates the BC Wallet test flows to the new Scan and Connection workflow in the app. 
 
-This PR also includes the opening up of iOS/Android devices including tablets, along with lifting some older platform version restrictions to see what happens in the regression tests. 
+It also sneaks in a fix to another test that was still looking at the decline proof request done screen.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-23 21:41:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/176" class=".btn">#176</a>
-            </td>
-            <td>
-                <b>
-                    BCW fix message checkon remove contact
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR just changes the message check for the BC Wallet remove contact test to the proper case. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 14:19:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/175" class=".btn">#175</a>
-            </td>
-            <td>
-                <b>
-                    change the check order for GENESIS or LEDGER URL
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 12:58:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/174" class=".btn">#174</a>
-            </td>
-            <td>
-                <b>
-                    updated workflow to correctly start agents with correct ledgers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the workflows to properly set LEDGER URL or GENESIS URL depending on what is passed to start the test agents with.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-20 12:38:14 +0000 UTC
+        Created At 2023-07-18 21:45:30 +0000 UTC
     </div>
 </div>
 
