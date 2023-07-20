@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    node_orion-0.14.1
+                    notary-initial-registration-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    node_orion-0.14.1
+                    notary-initial-registration-0.14.1
                 </span>
             </td>
             <td>
-                Hyperledger Besu: Deploys Hyperledger Besu nodes with orion transaction manager
+                R3-corda-os: Job for initial notary node registration.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_orion-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/notary-initial-registration-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 04:48:42 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -43,26 +43,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    node_key_mgmt-0.14.1
+                    notary-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    node_key_mgmt-0.14.1
+                    notary-0.14.1
                 </span>
             </td>
             <td>
-                Hyperledger Besu: Generates and stores node cryptographic materials
+                R3-corda-os: Deploys the notary node.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_key_mgmt-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/notary-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 04:48:42 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -71,26 +71,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    node_besu-0.14.1
+                    node-initial-registration-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    node_besu-0.14.1
+                    node-initial-registration-0.14.1
                 </span>
             </td>
             <td>
-                Hyperledger Besu: Deploys Hyperledger Besu nodes
+                R3-corda-os: Job for initial node registration.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/node_besu-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node-initial-registration-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 04:48:42 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -99,26 +99,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    indy-pool-genesis-0.14.1
+                    node-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    indy-pool-genesis-0.14.1
+                    node-0.14.1
                 </span>
             </td>
             <td>
-                hyperledger-indy: indy-pool-genesis
+                R3-corda-os: Deploys the r3corda node.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/indy-pool-genesis-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/node-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 12:50:16 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -127,26 +127,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    indy-node-0.14.1
+                    nms-tls-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    indy-node-0.14.1
+                    nms-tls-0.14.1
                 </span>
             </td>
             <td>
-                hyperledger-indy: charts for indy-node StatefulSet
+                R3-corda-os: Deploys networkmap sevice with TLS.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/indy-node-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/nms-tls-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 12:50:16 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -155,26 +155,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    indy-ledger-chart-0.14.1
+                    nms-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    indy-ledger-chart-0.14.1
+                    nms-0.14.1
                 </span>
             </td>
             <td>
-                hyperledger-indy: Indy Ledger Script for Issuing a NYM Transaction
+                R3-corda-os: Deploys networkmap service without TLS.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/indy-ledger-chart-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/nms-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 12:50:16 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -183,26 +183,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    indy-key-mgmt-0.14.1
+                    mongodb-tls-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    indy-key-mgmt-0.14.1
+                    mongodb-tls-0.14.1
                 </span>
             </td>
             <td>
-                hyperledger-indy: indy-key-mgmt
+                R3-corda-os: Deploys mongodb with tls enabled, used for doorman and networkmap.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/indy-key-mgmt-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/mongodb-tls-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 12:50:16 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -211,26 +211,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    indy-domain-genesis-0.14.1
+                    mongodb-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    indy-domain-genesis-0.14.1
+                    mongodb-0.14.1
                 </span>
             </td>
             <td>
-                hyperledger-indy: Creates config map for domain transactions genesis
+                R3-corda-os: Deploys MongoDB, used for doorman and networkmap.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/indy-domain-genesis-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/mongodb-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 12:50:16 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -239,26 +239,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    indy-auth-job-0.14.1
+                    h2-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    indy-auth-job-0.14.1
+                    h2-0.14.1
                 </span>
             </td>
             <td>
-                hyperledger-indy: Creates an indy authorization job
+                R3-corda-os: Deploys H2 DB.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/indy-auth-job-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/h2-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 12:50:16 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -267,26 +267,26 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    generate_ambassador_certs-0.14.1
+                    generate-certs-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    generate_ambassador_certs-0.14.1
+                    generate-certs-0.14.1
                 </span>
             </td>
             <td>
-                Hyperledger Besu: Generates and stores ambassador certificates
+                R3-corda-os: Generates the ca-certificates.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/generate_ambassador_certs-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/generate-certs-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 04:48:42 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
@@ -295,26 +295,54 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    besu_connector-0.14.1
+                    doorman-tls-0.14.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    besu_connector-0.14.1
+                    doorman-tls-0.14.1
                 </span>
             </td>
             <td>
-                Hyperledger Besu: Deploys Cactus Besu Connector
+                R3-corda-os: Deploys the doorman with TLS connection enabled.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/besu_connector-0.14.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/doorman-tls-0.14.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-26 04:48:42 +0000 UTC
+        Created At 2023-07-20 09:13:00 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    doorman-0.14.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    doorman-0.14.1
+                </span>
+            </td>
+            <td>
+                R3-corda-os: Deploys the doorman service.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/doorman-0.14.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-07-20 09:13:00 +0000 UTC
     </span>
 </div>
 
