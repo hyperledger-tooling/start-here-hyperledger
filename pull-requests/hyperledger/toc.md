@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/139" class=".btn">#139</a>
-            </td>
-            <td>
-                <b>
-                    docs(project-reports): add Cacti 2023 Q3 Project Report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-13 14:09:39 +0000 UTC
-    </div>
-</div>
-

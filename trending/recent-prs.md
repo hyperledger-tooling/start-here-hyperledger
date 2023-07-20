@@ -1,13 +1,13 @@
 
-[3724](https://github.com/hyperledger/iroha/pull/3724) [feature] #3651: WSV snapshots
+[1452](https://github.com/hyperledger/solang/pull/1452) Bugfix: Strength reduce must not optimize mul into shl if overflow
 
-[225](https://github.com/hyperledger/anoncreds-rs/pull/225) build(deps): bump word-wrap from 1.2.3 to 1.2.4 in /wrappers/javascript
+[357](https://github.com/hyperledger/iroha-2-docs/pull/357) Bump word-wrap from 1.2.3 to 1.2.4
 
-[2560](https://github.com/hyperledger/cacti/pull/2560) build(deps-dev): bump word-wrap from 1.2.3 to 1.2.4 in /weaver/common/policy-dsl
+[897](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/897) chore: code cleanup
 
-[56](https://github.com/hyperledger/aries-framework-swift/pull/56) Update README.md
+[2331](https://github.com/hyperledger/aries-cloudagent-python/pull/2331) Fix: Track endorser and author roles in per-tenant settings
 
-[54](https://github.com/hyperledger/aries-framework-swift/pull/54) filter out revoked credentials from requested credentials when auto s…
+[1366](https://github.com/hyperledger/besu-docs/pull/1366) Bump word-wrap from 1.2.3 to 1.2.4
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
