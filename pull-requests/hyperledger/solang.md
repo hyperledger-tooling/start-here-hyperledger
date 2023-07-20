@@ -212,29 +212,3 @@ Possible issues include:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1440" class=".btn">#1440</a>
-            </td>
-            <td>
-                <b>
-                    Bump should be hashed by last
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Presently, we hash include the bump in the `seeds` array passed to a Solana runtime call in the same order specified by developers when they are writing the contract's constructor. This is not the intended behavior, though. The bump must always be the last element in the array. This PR ensures that.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-12 18:38:16 +0000 UTC
-    </div>
-</div>
-

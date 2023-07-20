@@ -37,29 +37,3 @@ For debugging it's very important to be able to see the exact payload, and impor
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1369" class=".btn">#1369</a>
-            </td>
-            <td>
-                <b>
-                    Backport: FabConnect does not / can not set transactionIndex and eventIndex
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a PR to backport https://github.com/hyperledger/firefly/pull/1345 into the 1.2 release branch. I did have to tweak the tests slightly because there are other somewhat related changes around event batching that were not pulled in.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-12 18:54:16 +0000 UTC
-    </div>
-</div>
-

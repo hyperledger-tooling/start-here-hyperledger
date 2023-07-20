@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/54" class=".btn">#54</a>
+            </td>
+            <td>
+                <b>
+                    filter out revoked credentials from requested credentials when auto s…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Checklist
+
+- [x] have run AriesFrameworkTests
+- [x] I have run AllTests
+
+# Description
+
+filter out revoked credentials from requested credentials in auto selection.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-20 00:47:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/53" class=".btn">#53</a>
             </td>
             <td>

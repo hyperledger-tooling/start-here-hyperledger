@@ -167,29 +167,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1360" class=".btn">#1360</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added comma
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-12 22:43:47 +0000 UTC
-    </div>
-</div>
-
