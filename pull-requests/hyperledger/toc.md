@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/141" class=".btn">#141</a>
+            </td>
+            <td>
+                <b>
+                    Add Fabric 2023 Q3 report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">quarterly-report</span>
+            </td>
+            <td>
+                Add Fabric 2023 Q3 report.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-19 21:53:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/toc/pull/140" class=".btn">#140</a>
             </td>
             <td>
