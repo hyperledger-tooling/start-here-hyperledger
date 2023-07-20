@@ -1,13 +1,13 @@
 
+[3724](https://github.com/hyperledger/iroha/pull/3724) [feature] #3651: WSV snapshots
+
+[225](https://github.com/hyperledger/anoncreds-rs/pull/225) build(deps): bump word-wrap from 1.2.3 to 1.2.4 in /wrappers/javascript
+
+[2560](https://github.com/hyperledger/cacti/pull/2560) build(deps-dev): bump word-wrap from 1.2.3 to 1.2.4 in /weaver/common/policy-dsl
+
+[56](https://github.com/hyperledger/aries-framework-swift/pull/56) Update README.md
+
 [54](https://github.com/hyperledger/aries-framework-swift/pull/54) filter out revoked credentials from requested credentials when auto s…
-
-[896](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/896) feat: auto publish alpha packages
-
-[141](https://github.com/hyperledger/toc/pull/141) Add Fabric 2023 Q3 report
-
-[8](https://github.com/hyperledger-labs/nft-community-footprint/pull/8) Bump word-wrap from 1.2.3 to 1.2.4 in /application
-
-[895](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/895) feat: adding fallback branding overlays to resolver
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
