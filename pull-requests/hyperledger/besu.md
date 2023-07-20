@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5711" class=".btn">#5711</a>
+            </td>
+            <td>
+                <b>
+                    Return all not selected transactions, not only invalid ones
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-20 15:09:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5710" class=".btn">#5710</a>
+            </td>
+            <td>
+                <b>
+                    Updated from main, disposable pr.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-20 12:43:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5708" class=".btn">#5708</a>
             </td>
             <td>
@@ -203,127 +269,6 @@ Builds off commits in #5582 from @7suyash7  - thanks for you contribution!
     </table>
     <div class="right-align">
         Created At 2023-07-13 23:44:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5701" class=".btn">#5701</a>
-            </td>
-            <td>
-                <b>
-                    Changes to allow evmtool t8n-server to work with execution-spec-tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                An omnibus of minor changes needed for t8n-server to work with the EFs new execution-spec-tests framework
-
-* Reduce logging output
-* Fix json library mismatch between t8n and t8n-server
-* Add hook to enumerate supported forks
-* temporarily map Shanghai+6780 to Cancun
-* add to main distro under 'evmtool' name
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-13 15:37:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5700" class=".btn">#5700</a>
-            </td>
-            <td>
-                <b>
-                    Promote segmented storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-DRAFT STATUS - WIP
-
-At a high level, this PR promotes SegmentedKeyValueStorage into the plugin-api for storage.  
-
-The primary benefit of this besides addressing tech debt is that we can directly use segmented storage and atomically commit across multiple segments.  This is mainly beneficial for bonsai worldstate, which comprises four separate key value store segments.  
-
-This is motivated by "unclean" worldstate storage that can result from besu app or the host machine crashing for a variety of reasons.  RocksDB handles unclean shutdowns very well, but if the besu application was in the midst of a worldstate commit, each of the individual worldstate storages might be in different states of commit/rollback at the time of the crash.  By having composed storage, we can rely on the guarantees of rocksdb to atomically commit or rollback changes in the event of a crash or halt, like what resulted in #5576 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5362 #5576 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-13 14:02:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5699" class=".btn">#5699</a>
-            </td>
-            <td>
-                <b>
-                    update fcu
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-We have identified a potential issue with the FCU mechanism. Based on the logs, it seems that Besu considers each new head as a reorganization (reorg) because of this line https://github.com/hyperledger/besu/blob/main/consensus/merge/src/main/java/org/hyperledger/besu/consensus/merge/blockcreation/MergeCoordinator.java#L610 so we are not updating the worldstate if the new head is not a direct descendant of the current head, which is rare in general. As a result, we enter the "rewindToBlock" method https://github.com/hyperledger/besu/blob/main/consensus/merge/src/main/java/org/hyperledger/besu/consensus/merge/blockcreation/MergeCoordinator.java#L633, which performs a chain reorg (in this case, a move forward of the chain) without changing the world state. However, with Prysm, we only encounter this case and keep advancing the chain without advancing the world state. Consequently, with each "engineNewPayload" call, we need to apply a larger number of trie logs to process the new block, which leads to a node crash.
-
-Upon examining the code, it is indeed not normal to have a scenario where we change the blockchain without changing the world state.
-
-Indeed, the same issue applies to the engineNewPayload operation. If the distance between the head and the payload we want to execute is too large, it is necessary to trigger a backward sync to reach the latest finalized block instead of attempting to roll forward an impossible number of trie log operations. This ensures the stability and proper functioning of the node.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-13 09:17:42 +0000 UTC
     </div>
 </div>
 

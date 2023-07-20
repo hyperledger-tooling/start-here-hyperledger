@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1452" class=".btn">#1452</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Strength reduce must not optimize mul into shl if overflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Optimizing multiplications with a SHL must not disable overflow checks.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-20 18:06:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1449" class=".btn">#1449</a>
             </td>
             <td>

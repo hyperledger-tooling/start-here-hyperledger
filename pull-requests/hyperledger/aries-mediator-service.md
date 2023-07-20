@@ -14,6 +14,143 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/88" class=".btn">#88</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump @feathersjs/transport-commons from 4.5.12 to 4.5.18 in /acapy/controller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [@feathersjs/transport-commons](https://github.com/feathersjs/feathers/tree/HEAD/packages/transport-commons) from 4.5.12 to 4.5.18.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/feathersjs/feathers/releases"><code>@​feathersjs/transport-commons</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v4.5.18</h2>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.17...v4.5.18">4.5.18</a> (2023-07-19)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>transport-commons:</strong> Handle invalid service paths on socket lookups (<a href="https://redirect.github.com/feathersjs/feathers/issues/3242">#3242</a>) (<a href="https://github.com/feathersjs/feathers/commit/0b9a6b19b12ad05934e4c8bd9917448ed39d1ed8">0b9a6b1</a>)</li>
+</ul>
+<h2>v4.5.17</h2>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.16...v4.5.17">4.5.17</a> (2023-07-17)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>core:</strong> Ensure .service does not access Object properties (<a href="https://redirect.github.com/feathersjs/feathers/issues/3240">#3240</a>) (<a href="https://github.com/feathersjs/feathers/commit/7969334ae9d3cfb4ae0e63564a99a18454482cb0">7969334</a>)</li>
+</ul>
+<h2>v4.5.16</h2>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.15...v4.5.16">4.5.16</a> (2023-02-24)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>dependencies:</strong> Update dependencies (<a href="https://github.com/feathersjs/feathers/commit/70335c4c7c0fd15ab6d1c2a617eb17fcf864fadf">70335c4</a>)</li>
+<li><strong>transport-commons:</strong> Crow - fix array dispatching (<a href="https://redirect.github.com/feathersjs/feathers/issues/3073">#3073</a>) (<a href="https://github.com/feathersjs/feathers/commit/1936c64d89e549712ec302e56c2aebd52ca36e3f">1936c64</a>)</li>
+</ul>
+<h2>v4.5.15</h2>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.14...v4.5.15">4.5.15</a> (2022-05-17)</h2>
+<p><strong>Note:</strong> Version bump only for package feathers</p>
+<h2>v4.5.14</h2>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.13...v4.5.14">4.5.14</a> (2022-04-13)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>rest-client:</strong> Import errors from <code>@​feathers/errors</code> (<a href="https://redirect.github.com/feathersjs/feathers/issues/2591">#2591</a>) (<a href="https://github.com/feathersjs/feathers/commit/445e8045af29922161a145e143625a6881139cfd">445e804</a>)</li>
+<li><strong>transport-commons:</strong> Ensure socket queries are always plain objects (<a href="https://redirect.github.com/feathersjs/feathers/issues/2598">#2598</a>) (<a href="https://github.com/feathersjs/feathers/commit/5ec2ec8ecae21a047ccaac5608e6917a3095bc58">5ec2ec8</a>)</li>
+</ul>
+<h2>v4.5.13</h2>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.12...v4.5.13">4.5.13</a> (2022-01-10)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fix socket.io type dependency (<a href="https://redirect.github.com/feathersjs/feathers/issues/2526">#2526</a>) (<a href="https://github.com/feathersjs/feathers/commit/32356a5271ad6f3453f597ad855f385492105ddb">32356a5</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/feathersjs/feathers/blob/v4.5.18/packages/transport-commons/CHANGELOG.md"><code>@​feathersjs/transport-commons</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.17...v4.5.18">4.5.18</a> (2023-07-19)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>transport-commons:</strong> Handle invalid service paths on socket lookups (<a href="https://redirect.github.com/feathersjs/feathers/issues/3242">#3242</a>) (<a href="https://github.com/feathersjs/feathers/commit/0b9a6b19b12ad05934e4c8bd9917448ed39d1ed8">0b9a6b1</a>)</li>
+</ul>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.16...v4.5.17">4.5.17</a> (2023-07-17)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​feathersjs/transport-commons</code></p>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.15...v4.5.16">4.5.16</a> (2023-02-24)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>transport-commons:</strong> Crow - fix array dispatching (<a href="https://redirect.github.com/feathersjs/feathers/issues/3073">#3073</a>) (<a href="https://github.com/feathersjs/feathers/commit/1936c64d89e549712ec302e56c2aebd52ca36e3f">1936c64</a>)</li>
+</ul>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.14...v4.5.15">4.5.15</a> (2022-05-17)</h2>
+<p><strong>Note:</strong> Version bump only for package <code>@​feathersjs/transport-commons</code></p>
+<h2><a href="https://github.com/feathersjs/feathers/compare/v4.5.13...v4.5.14">4.5.14</a> (2022-04-13)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>transport-commons:</strong> Ensure socket queries are always plain objects (<a href="https://redirect.github.com/feathersjs/feathers/issues/2598">#2598</a>) (<a href="https://github.com/feathersjs/feathers/commit/5ec2ec8ecae21a047ccaac5608e6917a3095bc58">5ec2ec8</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/feathersjs/feathers/commit/2d3671d2e3ff88034181bccf2bfda04de856aa4f"><code>2d3671d</code></a> chore(release): publish v4.5.18</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/0b9a6b19b12ad05934e4c8bd9917448ed39d1ed8"><code>0b9a6b1</code></a> fix(transport-commons): Handle invalid service paths on socket lookups (<a href="https://github.com/feathersjs/feathers/tree/HEAD/packages/transport-commons/issues/3242">#3242</a>)</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/022a407dab1e813d23b283d145dfff9a870541ee"><code>022a407</code></a> chore(release): publish v4.5.17</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/18872c070d9db0258f06cc66f08c0c6a9311b0b2"><code>18872c0</code></a> chore(release): publish v4.5.16</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/1936c64d89e549712ec302e56c2aebd52ca36e3f"><code>1936c64</code></a> fix(transport-commons): Crow - fix array dispatching (<a href="https://github.com/feathersjs/feathers/tree/HEAD/packages/transport-commons/issues/3073">#3073</a>)</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/1774fe01c61b525ec2834b93c4a8ea771429b5ab"><code>1774fe0</code></a> chore: Update changelog</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/d0e9600002975296ab8de926acd317d0a73fce5c"><code>d0e9600</code></a> chore(release): publish v4.5.15</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/25b6fb546768e4396333368d57a26b24f5489010"><code>25b6fb5</code></a> chore(release): publish v4.5.14</li>
+<li><a href="https://github.com/feathersjs/feathers/commit/5ec2ec8ecae21a047ccaac5608e6917a3095bc58"><code>5ec2ec8</code></a> fix(transport-commons): Ensure socket queries are always plain objects (<a href="https://github.com/feathersjs/feathers/tree/HEAD/packages/transport-commons/issues/2598">#2598</a>)</li>
+<li>See full diff in <a href="https://github.com/feathersjs/feathers/commits/v4.5.18/packages/transport-commons">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@feathersjs/transport-commons&package-manager=npm_and_yarn&previous-version=4.5.12&new-version=4.5.18)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-mediator-service/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-20 14:56:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/87" class=".btn">#87</a>
             </td>
             <td>
