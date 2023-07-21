@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1372" class=".btn">#1372</a>
+            </td>
+            <td>
+                <b>
+                    Add httpOptions.proxyURL option to Subscription
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                So that you can configure the HTTP Proxy on a per-subscription setting, like you can with the mTLS certificates, or the other HTTP options
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-20 18:32:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1371" class=".btn">#1371</a>
             </td>
             <td>

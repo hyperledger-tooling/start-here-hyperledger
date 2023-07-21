@@ -243,32 +243,3 @@ Builds off commits in #5582 from @7suyash7  - thanks for you contribution!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5702" class=".btn">#5702</a>
-            </td>
-            <td>
-                <b>
-                    EIP-4844 testing support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Add two new fields to reference tests (versionedHashes, maxFeePerDataGas) 
-* Rename DataHash to BlobHash (to align with EIP4844 text)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-13 23:44:11 +0000 UTC
-    </div>
-</div>
-

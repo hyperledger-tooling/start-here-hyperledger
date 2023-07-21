@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/153" class=".btn">#153</a>
+            </td>
+            <td>
+                <b>
+                    Add -f docker/Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor change (w/o Issue)
+In a [commit dated Nov. 27, 2020](https://github.com/hyperledger/aries-acapy-plugin-toolbox/commit/2838b13bb62503d706869b75192c2ca8e2024158) `Dockerfile` was moved into a subdirectory `docker`. To get the `docker build` commands in the `docker/README.md` to work, I had to add `-f docker/Dockerfile` to those commands.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-20 21:53:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/152" class=".btn">#152</a>
             </td>
             <td>
