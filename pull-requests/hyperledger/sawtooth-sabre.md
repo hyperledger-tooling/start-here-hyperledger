@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/198" class=".btn">#198</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/200" class=".btn">#200</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Fix lint introduced in 1.71.0 Rust
                 </b>
             </td>
         </tr>
@@ -27,21 +27,38 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 20:20:05 +0000 UTC
+        Created At 2023-07-21 17:32:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/199" class=".btn">#199</a>
+            </td>
+            <td>
+                <b>
+                    Retire Logan from maintainers and codeowners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                They have previously indicated they wished to be retired.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-21 15:30:42 +0000 UTC
     </div>
 </div>
 

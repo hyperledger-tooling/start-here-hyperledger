@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Retire Anne and Darian from maintainers and codeowners
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                They have previously indicated they wished to be retired.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 20:15:03 +0000 UTC
+        Created At 2023-07-21 15:47:20 +0000 UTC
     </div>
 </div>
 

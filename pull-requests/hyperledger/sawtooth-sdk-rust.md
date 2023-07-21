@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/85" class=".btn">#85</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    avoid use-after-free in dependency
+                    Retire Anne and Darian from maintainers and codeowners
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                see https://github.com/rust-bitcoin/rust-secp256k1/issues/543
+                They have previously indicated they wished to be retired.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-21 15:31:41 +0000 UTC
+        Created At 2023-07-21 16:08:35 +0000 UTC
     </div>
 </div>
 

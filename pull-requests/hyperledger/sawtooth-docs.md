@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/205" class=".btn">#205</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/207" class=".btn">#207</a>
             </td>
             <td>
                 <b>
-                    Elaborate explanation of "local" validation rule.
+                    Retire Anne and Darian from maintainers and codeowners
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                Fleshes out `local:0` with a bit more example as for the other rules.
+                They have previously indicated they wished to be retired.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-10 15:52:53 +0000 UTC
+        Created At 2023-07-21 14:55:41 +0000 UTC
     </div>
 </div>
 
