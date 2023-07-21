@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
+                https://github.com/hyperledger-labs/fabric-operator/issues/121
+
+Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
 
             </td>
         </tr>

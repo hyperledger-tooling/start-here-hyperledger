@@ -1,13 +1,13 @@
 
-[1511](https://github.com/hyperledger/aries-framework-javascript/pull/1511) feat: oob without handhsake improvements and routing
+[200](https://github.com/hyperledger/sawtooth-sabre/pull/200) Fix lint introduced in 1.71.0 Rust
 
-[2336](https://github.com/hyperledger/aries-cloudagent-python/pull/2336) ⬆️ upgrade `requests` to latest
+[172](https://github.com/hyperledger/sawtooth-lib/pull/172) Fix lint introduced by Rust 1.71.0
 
-[2335](https://github.com/hyperledger/aries-cloudagent-python/pull/2335) ⬆️ upgrade `pyjwt` to latest
+[33](https://github.com/hyperledger/sawtooth-sdk-cxx/pull/33) Retire Anne and Darian from maintainers and codeowners
 
-[2334](https://github.com/hyperledger/aries-cloudagent-python/pull/2334) ⬆️ upgrade `packaging` to latest
+[18](https://github.com/hyperledger/sawtooth-sdk-swift/pull/18) Retire Darian and Eloá from maintainers and codeowners
 
-[3733](https://github.com/hyperledger/iroha/pull/3733) [ci]: TEST Iroha2 pr deploy/21 07 23 test
+[86](https://github.com/hyperledger/sawtooth-sdk-rust/pull/86) Retire Anne and Darian from maintainers and codeowners
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

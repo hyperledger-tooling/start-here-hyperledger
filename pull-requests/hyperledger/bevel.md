@@ -184,34 +184,3 @@ fixes #2306
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2314" class=".btn">#2314</a>
-            </td>
-            <td>
-                <b>
-                    [besu] use default securityContext
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ```
-This commit implements the following changes:
-- use the securityContext in the besu and validator nodes.
-
-These changes enable besu and validator nodes to run with default securityContext.
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-14 15:10:35 +0000 UTC
-    </div>
-</div>
-

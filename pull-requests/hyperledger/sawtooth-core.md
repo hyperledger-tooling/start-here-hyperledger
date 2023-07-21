@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2451" class=".btn">#2451</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2457" class=".btn">#2457</a>
             </td>
             <td>
                 <b>
-                    use 'chime' instead of 'nightly' images for sawtooth-default-poet.yaml
+                    Retire Anne, Darian and Logan from maintainers and codeowners
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                This responds to difficulties experienced by users of the [Creating a Sawtooth Test Network](https://sawtooth.hyperledger.org/docs/1.2/app_developers_guide/creating_sawtooth_network.html) tutorial. Switching the configured images from `nightly` to `chime` allows me to complete the tutorial successfully.
-
----
-[SAW-14](https://blockchaintp.atlassian.net/browse/SAW-14)
-Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works)
+                They have previously indicated they wished to be retired.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 16:16:45 +0000 UTC
+        Created At 2023-07-21 14:24:18 +0000 UTC
     </div>
 </div>
 

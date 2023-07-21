@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2339" class=".btn">#2339</a>
+            </td>
+            <td>
+                <b>
+                    Feat: Support Selectable Write Ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - WIP [under testing and debugging]
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-21 15:57:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2338" class=".btn">#2338</a>
+            </td>
+            <td>
+                <b>
+                    0.9.0-rc0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-21 13:53:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2336" class=".btn">#2336</a>
             </td>
             <td>
