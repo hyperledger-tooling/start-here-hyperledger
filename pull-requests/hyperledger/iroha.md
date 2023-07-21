@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3733" class=".btn">#3733</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: TEST Iroha2 pr deploy/21 07 23 test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span><span class="chip">experimental_environment</span>
+            </td>
+            <td>
+                DO NOT MERGE & REVIEW
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-21 08:30:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3728" class=".btn">#3728</a>
             </td>
             <td>
@@ -310,8 +336,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 This PR adds `syn` 2.0 to the workspace (under the name of `syn2`, to allow co-existence of different versions).
 
 It then updates `iroha_version_derive` to use syn2, as well as moving from unmaintained `proc-macro-error` to `manyhow`.
-
-There are some rough edges in the API, but they are pretty minor and, seemingly, will be resolved soon (see https://github.com/ModProg/manyhow/issues/2#issuecomment-1643604170, https://github.com/ModProg/manyhow/issues/6).
 
 Additionally, this PR also uses `darling` to parse attributes, eliminating a lot of boilerplate and producing good quality errors.
 

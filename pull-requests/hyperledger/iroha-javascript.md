@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/162" class=".btn">#162</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/170" class=".btn">#170</a>
             </td>
             <td>
                 <b>
-                    Iroha `2.0.0-pre-rc.15` update
+                    Update to Iroha `v2.0.0-pre-rc.17`
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                <nil>
+                ## Description
+
+This PR introduces the general update for `rc.17`, as well as some architectural changes to core packages.
+
+## Checklist
+
+- [ ] Use final hash of the `rc.17` release in the `config.js`, READMEs, and CHANGELOGs
+- [ ] Specify changes comprehensively
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-03 04:32:43 +0000 UTC
+        Created At 2023-07-21 06:27:09 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[181](https://github.com/hyperledger/aries-mobile-test-harness/pull/181) BCW fix QR Code border to allow scanning on iPad/tablets
+[1511](https://github.com/hyperledger/aries-framework-javascript/pull/1511) feat: oob without handhsake improvements and routing
 
-[153](https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/153) Add -f docker/Dockerfile
+[2336](https://github.com/hyperledger/aries-cloudagent-python/pull/2336) ⬆️ upgrade `requests` to latest
 
-[898](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/898) fix: don't display connection message on ephemeral connection
+[2335](https://github.com/hyperledger/aries-cloudagent-python/pull/2335) ⬆️ upgrade `pyjwt` to latest
 
-[159](https://github.com/hyperledger/aries-askar/pull/159) Support copying individual profiles or a whole Store
+[2334](https://github.com/hyperledger/aries-cloudagent-python/pull/2334) ⬆️ upgrade `packaging` to latest
 
-[2333](https://github.com/hyperledger/aries-cloudagent-python/pull/2333) Add revocation registry rotate to faber demo
+[3733](https://github.com/hyperledger/iroha/pull/3733) [ci]: TEST Iroha2 pr deploy/21 07 23 test
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
