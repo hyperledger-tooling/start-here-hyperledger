@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3606" class=".btn">#3606</a>
-            </td>
-            <td>
-                <b>
-                    feat: handle PEx nested submission requirement logic 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/aries-framework-go/issues/2109
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-14 05:53:03 +0000 UTC
-    </div>
-</div>
-
