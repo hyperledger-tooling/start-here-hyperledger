@@ -214,32 +214,3 @@ Fixes https://github.com/hyperledger/besu/issues/5705
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5703" class=".btn">#5703</a>
-            </td>
-            <td>
-                <b>
-                    Plugins migrate to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                Migrate the plugins module from JUnit 4.0 to JUnit 5.0
-fixes https://github.com/hyperledger/besu/issues/5559
-
-Builds off commits in #5582 from @7suyash7  - thanks for you contribution!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-14 01:34:07 +0000 UTC
-    </div>
-</div>
-
