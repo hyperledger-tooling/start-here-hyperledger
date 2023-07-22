@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    Adding latest doc updates, including devcontainer
+                    Updates after 0.9.0-rc0
                 </b>
             </td>
         </tr>
@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-07 23:28:39 +0000 UTC
+        Created At 2023-07-21 18:31:43 +0000 UTC
     </div>
 </div>
 

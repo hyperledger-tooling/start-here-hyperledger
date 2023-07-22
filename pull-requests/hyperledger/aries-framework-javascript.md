@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1519" class=".btn">#1519</a>
+            </td>
+            <td>
+                <b>
+                    ci: set npm registry for releases
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Explicitly set npm registry in order to attempt to fix #1518 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-21 21:02:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1517" class=".btn">#1517</a>
             </td>
             <td>

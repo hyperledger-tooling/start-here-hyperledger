@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    Fix lint introduced through 1.71.0 Rust
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-21 19:32:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/188" class=".btn">#188</a>
             </td>
             <td>
