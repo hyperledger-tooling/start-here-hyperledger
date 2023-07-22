@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/179" class=".btn">#179</a>
+                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/182" class=".btn">#182</a>
             </td>
             <td>
                 <b>
-                    channel management api added
+                    Allow null limits in resources
                 </b>
             </td>
         </tr>
@@ -27,54 +27,29 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
                 
             </td>
             <td>
-                <!--  Thanks for sending a pull request! 
--->
+                #### What this PR does / why we need it:
 
+Affiliation can be empty when registering a user in a Fabric CA.
 
-#### What this PR does / why we need it:
 
 #### Which issue(s) this PR fixes:
-<!--
-*Automatically closes linked issue when PR is merged.
-Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
-_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
--->
-Fixes #171 
+
+Fixes no issue
 
 #### Special notes for your reviewer:
 
 #### Does this PR introduce a user-facing change?
-<!--
-If no, just write "NONE" in the release-note block below.
-If yes, a release note is required:
-Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+No
 
--->
-```release-note
-This PR adds to the legacy channel management API.
-```
 
 #### Additional documentation, usage docs, etc.:
 
-<!--
-This section can be blank if this pull request does not require a release note.
-
-When adding links which point to resources within git repositories, like
-supporting documentation, please reference a specific commit and avoid
-linking directly to the master branch. This ensures that links reference a
-specific point in time, rather than a document that may change over time.
-
-
--->
-```docs
-
-```
-
+None
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-01 04:16:41 +0000 UTC
+        Created At 2023-07-22 09:24:41 +0000 UTC
     </div>
 </div>
 
