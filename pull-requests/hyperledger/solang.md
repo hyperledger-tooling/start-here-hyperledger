@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1454" class=".btn">#1454</a>
+            </td>
+            <td>
+                <b>
+                    Bubble reverts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-21 20:52:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1452" class=".btn">#1452</a>
             </td>
             <td>
@@ -146,69 +172,6 @@ I'm now working on a follow-up PR for bubbling up uncaught exceptions (this is w
     </table>
     <div class="right-align">
         Created At 2023-07-18 01:29:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1443" class=".btn">#1443</a>
-            </td>
-            <td>
-                <b>
-                    Make import_no Optional
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does 2 things:
-1. Makes `ResolvedFile::import_no` an `Option<usize>`
-2. Improves test suite for import logic
-
-This is a first attempt, I imagine there are a few things that can be improved.
-
-Possible issues include:
-1. Some `import_no`s are set to `0` when no import is used [per this conversation](https://github.com/hyperledger/solang/pull/1419#discussion_r1259358226); in this case, the `import_no` should be set to `None`. However, I imagine others are set to 0 because it is the first import that is performed. I currently just changed all literal `import_no: 0` to `import_no: Some(0)` to get it to type check, but I'm guessing they may actually want to be `import_no: None`.
-2. @seanyoung you wanted more tests, and in particular for:
-    1. when no import path is used, and
-    2. "when a file is resolved via relative paths and not via import paths/maps". 
-  Could you expand on these more? For (i), how would I set up a case when no import path is used? For (ii), do you mean in an import statement (like `import ./blah.sol`)? I have a test that does this (imports `integrations/polkadots/createpair.sol` which has a relative import), but I'm not sure exactly what we want to test.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-14 21:08:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1442" class=".btn">#1442</a>
-            </td>
-            <td>
-                <b>
-                    Update Release Checklist
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We must update the parser version on Anchor's repository.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-14 19:15:36 +0000 UTC
     </div>
 </div>
 
