@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2564" class=".btn">#2564</a>
+            </td>
+            <td>
+                <b>
+                    Besu view
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                feat(weaver): added proto file and rfc for besu view.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-22 15:47:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2563" class=".btn">#2563</a>
             </td>
             <td>
