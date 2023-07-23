@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1456" class=".btn">#1456</a>
+            </td>
+            <td>
+                <b>
+                    Remove unnecessary .into_iter() and raw string
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These are clippies in the next rust version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-23 13:48:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1455" class=".btn">#1455</a>
             </td>
             <td>
