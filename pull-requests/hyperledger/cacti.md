@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/cacti
             </td>
             <td>
                 <b>
-                    Besu view
+                    feat(weaver/common): add data view protocol buffer spec & RFCs for Besu
                 </b>
             </td>
         </tr>
