@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1455" class=".btn">#1455</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Do not make assumptions about storage variable reads
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contracts can get upgraded so we must not make any assumptions whether a storage variable is read or not; writes to storage variables must happen regardless whether the variable is never read.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-23 12:14:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1454" class=".btn">#1454</a>
             </td>
             <td>
