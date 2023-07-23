@@ -1,7 +1,7 @@
 
 [1521](https://github.com/hyperledger/aries-framework-javascript/pull/1521) feat(anoncreds): auto create link secret
 
-[2564](https://github.com/hyperledger/cacti/pull/2564) Besu view
+[2564](https://github.com/hyperledger/cacti/pull/2564) feat(weaver/common): add data view protocol buffer spec & RFCs for Besu
 
 [182](https://github.com/hyperledger/bevel-operator-fabric/pull/182) Allow null limits in resources
 
