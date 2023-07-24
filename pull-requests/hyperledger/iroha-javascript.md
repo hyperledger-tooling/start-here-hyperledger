@@ -35,6 +35,7 @@ This PR introduces the general update for `rc.17`, as well as some architectural
 
 - [ ] Use final hash of the `rc.17` release in the `config.js`, READMEs, and CHANGELOGs
 - [ ] Specify changes comprehensively
+- [ ] Pass CI
             </td>
         </tr>
     </table>
