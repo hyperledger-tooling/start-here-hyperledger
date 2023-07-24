@@ -46,30 +46,3 @@ permalink: /pull-requests/hyperledger/firefly-common
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/90" class=".btn">#90</a>
-            </td>
-            <td>
-                <b>
-                    convert int value unset log to trace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As described in the title, I'm using the behaviour of getting the 0 big.Int back when the string is empty, it starts to become annoying to see this log line at debug level.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-17 12:45:59 +0000 UTC
-    </div>
-</div>
-

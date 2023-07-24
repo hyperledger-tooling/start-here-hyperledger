@@ -549,35 +549,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4318" class=".btn">#4318</a>
-            </td>
-            <td>
-                <b>
-                    bft chain unit tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added unit tests to BFT chain
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-- Test update
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-17 13:13:32 +0000 UTC
-    </div>
-</div>
-
