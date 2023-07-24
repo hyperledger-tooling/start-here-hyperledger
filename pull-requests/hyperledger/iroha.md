@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3739" class=".btn">#3739</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #3654: Fix iroha2 glibc-based Dockerfiles to be deployed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description
+1. Fix `Dockerfile.build.glibc` and `Dockerfile.glibc` to be adopted for fully deployment scenario.
+2. Bump `alpine` base image version to the stable one iroha2 musl-based image.
+
+### Linked issue
+
+#3654 
+
+Closes #3654 
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-24 15:57:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3738" class=".btn">#3738</a>
+            </td>
+            <td>
+                <b>
+                    Syn2 updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+NOTE: This PR is based on #3727, so only last 3 commits are _actually_ belong to this PR
+
+This PR refactors `iroha_primitives_derive` crate and `VariantCount` macro in `iroha_derive`. The gist of the changes: use `manyhow` to report errors and `darling` to parse attributes. Try to improve UX where possible. 
+
+I've kept API the same for all the macros, but it may be useful to change some of them: 
+- confusingly, attributes for `VariantCount` are placed on fields instead of enum variants. I suggest we move them to variants, as it's really a property of the variant
+- the naming of `#[skip_try_from]` is confusing in the context of `#[skip_from]`: the different in names is in the `try`, but they correspond to different directions of the generated conversions: `from` is for `Variant` ->  `Enum` and `try_from` is for `Enum` -> `Variant`. I suggest changing the name to `#[skip_into]` or `#[skip_try_into]` to properly represent the change of conversion direction, even if the actual generated trait is `From`
+- Maybe change `#[skip_container]` to `#[skip_from_container]`?
+
+I would like some input on this from other team members though ^^
+
+
+### Checklist
+
+- [ ] #3727 merged
+- [ ] All macros documented properly
+- [ ] API changes figured out 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-24 14:06:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3735" class=".btn">#3735</a>
             </td>
             <td>
@@ -560,48 +646,6 @@ Partially addresses #3622
     </table>
     <div class="right-align">
         Created At 2023-07-19 07:54:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3711" class=".btn">#3711</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #3654: Add Dockerfiles to build iroha2 on GNU libc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-Add `Dockerfile.build.glibc` and `Dockerfile.glibc` files to build `iroha2-ci` and `iroha2` images on GNU libc library and without `musl`.
-
-### Linked issue
-#3654 
-
-### Benefits
-1. To have a `iroha2` CI on GNU libc and without `musl`.
-2. To reduce the sizes of `iroha2-ci` and `iroha2` final images.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-17 14:26:54 +0000 UTC
     </div>
 </div>
 
