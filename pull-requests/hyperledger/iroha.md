@@ -430,23 +430,33 @@ Using `darling` streamlines parsing of (most) attributes by using a declarative 
             <td>
                 ## Description
 
-TODO
+Implement `Serialize`/`Deserialize` for `WorldStateView` and down the tree.
+Initial implementation of `Fast` init mode for Kura - for now just saves serialized WSV on Kura shutdown, restore when Kura is in `Fast` init mode. In the future this behaviour could be expanded to save snapshots periodically and/or on request, snapshot pruning, etc.
 
 ### Linked issue
 
 #3651
 
-
 ### Benefits
 
-TODO
+Faster start-up time.
+Possibly useful for debugging of block stores - WSV snapshot is easier to inspect than a blockchain.
+
+### Drawbacks
+
+Contains manual implementations of serde traits that will need to be maintained. Deriving doesn't seem possible, since there's no support for `DeserializeSeed` in `serde_derive` (and [not planned](https://github.com/serde-rs/serde/issues/881#issuecomment-1627865581)). 
+
+### Alternate designs
+
+Instead of `serde` we could possibly use Parity SCALE, but I believe writing `Decode`/`Encode` implementations would require significant effort.
+Instead of serializing `WorldStateView` directly we could use some sort of proxy struct. That would come with performance overhead.
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
 <!-- HINT:  Add more points to checklist for large draft PRs-->
