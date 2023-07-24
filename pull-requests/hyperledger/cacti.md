@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2565" class=".btn">#2565</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): vulnerabilities found in keychain-vault-server #2058
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #2058
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-24 00:29:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2564" class=".btn">#2564</a>
             </td>
             <td>
@@ -231,43 +257,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2023-07-17 18:27:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2554" class=".btn">#2554</a>
-            </td>
-            <td>
-                <b>
-                    fix(plugin-odap-hermes): fix duplicate enum values of OdapMessageType
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                CommitFinalResponse and CommitPreparationResponse
-were accidentally having the same enum value, fixed it by
-providing the correct enum value (as per the specs) for
-CommitFinalResponse.
-
-Links:
-1. https://datatracker.ietf.org/doc/bofreq-hardjono-secure-asset-transfer-protocol/
-2. https://www.ietf.org/archive/id/draft-hargreaves-odap-03.txt
-
-Fixes #2553
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-16 20:40:19 +0000 UTC
     </div>
 </div>
 

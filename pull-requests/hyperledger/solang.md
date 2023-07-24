@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1458" class=".btn">#1458</a>
+            </td>
+            <td>
+                <b>
+                    Polkadot does not yet support catching Panics or custom errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This isn't implemented yet in codegen and it won't make it into the July release (planned for August).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-23 20:33:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1457" class=".btn">#1457</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: External functions read their variable if they are called
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-23 18:59:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1456" class=".btn">#1456</a>
             </td>
             <td>
@@ -70,7 +122,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Bubble reverts
+                    Polkadot: Bubble up reverts
                 </b>
             </td>
         </tr>
@@ -79,7 +131,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                This is a continuation of #1415. To align Solang with `solc` further, any uncaught reverts must be bubbled up back to the caller. To do so, handling of the return code for `call`, `instantiate` and `transfer` runtime API calls is now done in codegen and no longer treated as a bool.
+
+Parts of this PR can be tested much better after #1449 is in `main`, but it is ready for a first review round.
             </td>
         </tr>
     </table>
