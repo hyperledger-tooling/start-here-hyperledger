@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/910" class=".btn">#910</a>
+            </td>
+            <td>
+                <b>
+                    Make vdrtools wallet usable standalone
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Previously to use wallet in `aries-vcx` you need to import and initialize entire `vdrtools`. This PR should make it possible to setup wallet without all the other vdrtools stuff (ledger zmq, anoncreds, ... )
+- Reorganize files in `aries-vcx` such that all wallet APIs are under `aries_vcx_core/wallet` module
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-24 10:36:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/909" class=".btn">#909</a>
+            </td>
+            <td>
+                <b>
+                    Default to modular libs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-24 07:08:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/908" class=".btn">#908</a>
             </td>
             <td>
@@ -27,7 +81,8 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                - fix build for libvcx ios/java artifacts (no features flags are selected for ios/java builds, will fail in runtime)
+- fail on compile if no implementation is selected via feature flags
             </td>
         </tr>
     </table>
