@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/257" class=".btn">#257</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                     [IoT State Channels] Organize needed protobuf defintions into a single directory
+                    Implement Funding component for IoT State Channels
                 </b>
             </td>
         </tr>
@@ -36,13 +36,7 @@ other open pull requests targeting the same issue. -->
 #### Description
 <!-- Describe your changes in detail. -->
 
-- In preparation for adding new apis - funding and watching.
-
-- Split "api.proto" file into three smaller parts, so that they can be extended later and move them to a separate directory.
-
-- Also, split the related files in api/grpc accordingly.
-
-- Move the file with "go generate" directory to project root.
+Implements funding component for IoT state channels.
 
 ##### Category
 <!-- Tell us what type of issue does your pull request target.
@@ -50,7 +44,6 @@ You can uncomment one of the following options: -->
 
 <!-- Bug Fix -->
 <!-- Improvement -->
-
 Implementation Task
 
 ##### Relevant issue
@@ -61,12 +54,13 @@ We accept only pull requests related to open issues. If you're suggesting a new
 feature, improvement or fixing a bug that is not yet reported, please discuss it in
 an issue before submitting a pull request. -->
 
-Closes #248
+Closes #251
 
 #### Testing
 <!-- Tell us how you have tested the changes. -->
 
-All existing tests should run.
+Tests for this component has not yet been added. It will be done after implementing #252 and #250.
+Until then, all linter checks and existing tests should pass.
 
 ##### Steps to run the tests
 <!-- Describe a set of steps to run the tests relevant to this change. -->
@@ -85,7 +79,7 @@ All existing tests should run.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-10 06:52:42 +0000 UTC
+        Created At 2023-07-24 06:41:40 +0000 UTC
     </div>
 </div>
 
