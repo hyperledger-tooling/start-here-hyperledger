@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2581" class=".btn">#2581</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-plugin-ledger-connector-ethereum): update web3js to 4.X
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Update web3js packages from 1.10 to 4.0.3 in `cactus-plugin-ledger-connector-ethereum` and
+    `cactus-test-plugin-ledger-connector-ethereum`. This allows interacting
+    with most recent geth nodes.
+- Refactor all ethereum tests. Most of the test cases were duplicated multiple times
+    (between different quorum ledger versions test and deployment methods). I've removed all this
+    duplication while maintaining similar level of test coverage.
+    New tests use Geth test ledger instead of Quorum one.
+- Add web3js type conversions methods to minimize impact of poor dynamic typing
+    in this early release of 4.X.
+- Update API. In 4.X all numeric responses has been converted to BigNum.
+    To keep up with this some fields has been changed to string instead of number when necessary.
+    Add some missing fields as well.
+- Add `estimateMaxFeePerGas` method for estimating current transaction cost.
+- Fix invalid `runTransact` response type.
+- Add test script for checking integration with Alchemy that must be executed manually
+    (it's excluded from CI at the moment) - `geth-alchemy-integration-manual-check.test`.
+    Instructions on how to run it has been added to package README.
+
+Future improvements:
+- Support London fork gas fees (i.e. EIP-1559)
+- Refactor API to allow future extensions.
+- Fix several TODO items in this connector.
+
+Closes: https://github.com/hyperledger/cacti/issues/2580
+
+Depends on https://github.com/hyperledger/cacti/pull/2535
+Depends on https://github.com/hyperledger/cacti/pull/2578
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-25 12:12:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2578" class=".btn">#2578</a>
+            </td>
+            <td>
+                <b>
+                    feat(geth-all-in-one): add ethereum test image and helper class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add new `geth-all-in-one` test image for running ethereum tests in mainnet-like environment. Image is based on `client-go:v1.12.0` and uses Clique (PoS). There is one coinbase account with publicly available keys like in other, similar packages in cacti.
+- New image was introduced because currently used open-ethereum one is deprecated.
+- Add `geth-all-in-one-publish` CI for publishing new images.
+- Add `@hyperledger/cactus-test-geth-ledger` for using new geth ledger container in the tests. The class has been moved out of `cactus-test-tooling` because of conflicting `web3js` versions. Other than that, it's similar to open-ethereum test class.
+- Add basic tests for `@hyperledger/cactus-test-geth-ledger`. More tests are being developed right now, and should be available in subsequent PRs.
+
+Closes: #2577
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-25 09:07:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2575" class=".btn">#2575</a>
             </td>
             <td>

@@ -321,30 +321,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/901" class=".btn">#901</a>
-            </td>
-            <td>
-                <b>
-                    Rename tails variables in prover code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">breaking</span>
-            </td>
-            <td>
-                - This is breaking change for provers constructing "selected credentials" datastructure when creating proof. While previously they had option to specify field `tails_file`, now they have to use `tails_dir`. It's essentially forced renamed, semantics didn't change. Previously `tails_file` attribute was actually expected to point to a directory (containing tails file)
-(eg. see https://github.com/hyperledger/aries-vcx/pull/901/files#diff-7542b0e9db422e41b81fc4f3bf5da974a9e5ec73a1a6a2d08d4698d4a9eb9b89R26 as example of prover accommodating this breaking change)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-18 11:33:30 +0000 UTC
-    </div>
-</div>
-

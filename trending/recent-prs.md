@@ -1,13 +1,13 @@
 
-[58](https://github.com/hyperledger/aries-framework-swift/pull/58) Fix typo
+[2581](https://github.com/hyperledger/cacti/pull/2581) feat(cactus-plugin-ledger-connector-ethereum): update web3js to 4.X
 
-[425](https://github.com/hyperledger-labs/blockchain-explorer/pull/425) BE-422 | UI Responsiveness and Misc
+[2348](https://github.com/hyperledger/aries-cloudagent-python/pull/2348) Extract getting verification key for proof signing into VerificationKeyStrategy class
 
-[5723](https://github.com/hyperledger/besu/pull/5723) Prepare for version 23.7.1-SNAPSHOT
+[905](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/905) chore: fixing the export of oca OverlayType and CaptureBaseAttributeType
 
-[55](https://github.com/hyperledger/aries-acapy-docs/pull/55) Change 0.8.2 to not be the newest branch
+[271](https://github.com/hyperledger/fabric-sdk-go/pull/271) chore: unnecessary use of fmt.Sprintf
 
-[54](https://github.com/hyperledger/aries-acapy-docs/pull/54) Update how to flag current/old versions
+[3744](https://github.com/hyperledger/iroha/pull/3744) Add removeSignatory cmd to iroha-lib
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
