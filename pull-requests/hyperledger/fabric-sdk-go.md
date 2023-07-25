@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/261" class=".btn">#261</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/271" class=".btn">#271</a>
             </td>
             <td>
                 <b>
-                    Ignore expired CA/TLS CA certs on msp init
+                    chore: unnecessary use of fmt.Sprintf
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                This is a picked commit from
-
-https://github.com/hyperledger/fabric/pull/3249.
-
-Fix the issue that expired certs can block using sdk.
-
-Change-Id: Idff5f8913c772a51844b4b4d39adbfccb28d5bec
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-10 18:32:12 +0000 UTC
+        Created At 2023-07-25 10:06:24 +0000 UTC
     </div>
 </div>
 
