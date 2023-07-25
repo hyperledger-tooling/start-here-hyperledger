@@ -281,29 +281,3 @@ I'm now working on a follow-up PR for bubbling up uncaught exceptions (this is w
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1446" class=".btn">#1446</a>
-            </td>
-            <td>
-                <b>
-                    Add debug implementations required to print Namespace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Derive `Debug` implementations for structs and enums required to print `struct Namespace`. This is of use when one needs to print `Namespace` struct for debugging purposes. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-18 01:29:39 +0000 UTC
-    </div>
-</div>
-
