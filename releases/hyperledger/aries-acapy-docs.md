@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/aries-acapy-docs
         <tr>
             <td colspan="2">
                 <b>
-                    v0.8.2
+                    v0.9.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.8.2
+                    v0.9.0
                 </span>
             </td>
             <td>
-                Documentation for Release 0.8.2 of Aries Cloud Agent Python.
+                Documentation for Release 0.9.0 of Aries Cloud Agent Python.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.8.2" class=".btn">
+    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.9.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-07-05 17:25:47 +0000 UTC
+        Created At 2023-07-24 23:44:25 +0000 UTC
     </span>
 </div>
 
