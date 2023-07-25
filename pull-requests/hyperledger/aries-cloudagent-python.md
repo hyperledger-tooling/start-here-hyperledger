@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2350" class=".btn">#2350</a>
+            </td>
+            <td>
+                <b>
+                    Oob problem report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Supersedes #2150. Closes #2101. I am volunteering to help get this change in; looks like things are nearly there, just need to fix some issues with tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-25 17:00:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2348" class=".btn">#2348</a>
             </td>
             <td>
@@ -29,7 +55,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 Following the logic in PR [2235](https://github.com/hyperledger/aries-cloudagent-python/pull/2235) it is also beneficial to have the strategy for getting verification key itself overridable by plugins.
 
-Such a use case would be to use the universal resolver to get a DID Document and fetch a verkey identified by the key ID.
+Such a use case would be to use the universal resolver to get a DID Document and fetch a verkey identified by the key ID. Then search the wallet by the verkey to obtain DIDInfo.
             </td>
         </tr>
     </table>

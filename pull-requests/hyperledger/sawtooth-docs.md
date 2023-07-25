@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/208" class=".btn">#208</a>
+            </td>
+            <td>
+                <b>
+                    Add community maintainership page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This includes an updated set of rules for adding and removing maintainers and is intended to make it easier to understand the process and expectations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-25 17:33:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/207" class=".btn">#207</a>
             </td>
             <td>

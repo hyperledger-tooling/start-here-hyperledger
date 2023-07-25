@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/513" class=".btn">#513</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/516" class=".btn">#516</a>
             </td>
             <td>
                 <b>
-                    update npm deps
+                    version check for node warnings
                 </b>
             </td>
         </tr>
@@ -34,84 +34,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 - Improvement (improvement to code, performance, etc)
 
 #### Description
-Update npm dependencies to fix a few CVEs.
+<!--- Describe your changes in detail, including motivation. -->
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-11 18:03:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/512" class=".btn">#512</a>
-            </td>
-            <td>
-                <b>
-                    redact registry fields even if manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-The `registry` field in some apis revels sensitive information to users with the manager role, this info is now removed.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-11 17:57:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/511" class=".btn">#511</a>
-            </td>
-            <td>
-                <b>
-                    Fix component status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-fix status icon on components that do not have the legacy url route
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-11 17:44:47 +0000 UTC
+        Created At 2023-07-25 13:18:22 +0000 UTC
     </div>
 </div>
 
