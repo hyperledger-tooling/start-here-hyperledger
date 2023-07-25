@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2344" class=".btn">#2344</a>
+            </td>
+            <td>
+                <b>
+                    0.9.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-24 20:03:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2343" class=".btn">#2343</a>
             </td>
             <td>
@@ -187,7 +214,7 @@ See changelogs here: https://github.com/psf/requests/releases
             </td>
             <td>
                 <b>
-                    ⬆️ upgrade `pyjwt`
+                    ⬆️ upgrade `pyjwt` to latest; introduce leeway to `jwt.decode`
                 </b>
             </td>
         </tr>
@@ -199,6 +226,8 @@ See changelogs here: https://github.com/psf/requests/releases
                 Latest release (2.8) introduces support for python 3.10+
 
 Release notes: https://github.com/jpadilla/pyjwt/releases
+
+Note: `jwt.decode` can fail spuriously due to breaking changes introduced in https://github.com/jpadilla/pyjwt/pull/797, where an exception is raised if the 'issued at' time of the JWT is in the future when decoding, with default 0 leeway. This means that a miniscule mismatch in clock synchronization, between generation and decoding of JWT, can now cause a failure when decoding. This arose in the integration tests, and is resolved with a leeway of 1 second.
             </td>
         </tr>
     </table>
@@ -643,32 +672,6 @@ Note that the `pytest` doesn't have a handler to transition the `init` state reg
     </table>
     <div class="right-align">
         Created At 2023-07-18 02:12:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2308" class=".btn">#2308</a>
-            </td>
-            <td>
-                <b>
-                    Add .indy_client folder to Askar only image.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/aries-cloudagent-python/issues/2307
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-17 22:41:06 +0000 UTC
     </div>
 </div>
 
