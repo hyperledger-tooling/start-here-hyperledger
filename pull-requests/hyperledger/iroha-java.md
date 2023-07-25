@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/359" class=".btn">#359</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/362" class=".btn">#362</a>
             </td>
             <td>
                 <b>
-                    Failed to lookup address information fix
+                    Allure ids
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-15 07:53:44 +0000 UTC
+        Created At 2023-07-25 13:42:08 +0000 UTC
     </div>
 </div>
 
