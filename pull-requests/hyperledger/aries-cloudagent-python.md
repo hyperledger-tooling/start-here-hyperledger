@@ -645,33 +645,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2309" class=".btn">#2309</a>
-            </td>
-            <td>
-                <b>
-                    API endpoint to decommission revocation registry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes issue #2304 
-
-There are two active registries at a given time, this API endpoint - given a `cred_def_id` - will find and decommission the active revocation registries and will kick off the procedure to create new active registries (same as when a registry is full).
-
-Note that the `pytest` doesn't have a handler to transition the `init` state registries to `active`, so we simulate that before testing the decommission code. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-18 02:12:20 +0000 UTC
-    </div>
-</div>
-

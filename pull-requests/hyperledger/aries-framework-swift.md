@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-25 05:33:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/56" class=".btn">#56</a>
             </td>
             <td>

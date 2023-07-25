@@ -233,7 +233,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
             <td>
                 <b>
-                    fix(security): vulnerabilities found in keychain-vault-server #2058
+                    fix(keychain-vault-server): address CVEs: CVE-2021-22946, CVE-2022-1304, CVE-2018-12886, CVE-2022-29458, CVE-2019-3843, CVE-2019-3844, CVE-2022-29458, CVE-2020-16156
                 </b>
             </td>
         </tr>
