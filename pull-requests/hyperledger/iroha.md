@@ -14,6 +14,124 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3748" class=".btn">#3748</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3741: Fix tempfile error in `kagami validator`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+Getting rid of `tempdir` was a driveby fix I did in the CI PR that wasn't merged. Also fixing two other smaller bugs that didn't even have an issue assigned.
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3741. <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+`kagami validator` and `kagami swarm` working as expected.
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 16:34:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3747" class=".btn">#3747</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3451: Fix docker build on M1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+The docker build on M1 was failing because of lacking `platform` tag at first, and then because of some missing links to `wasm-opt`'s musl binaries.
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3451. <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+Finally local docker launching as expected on M1 machines, abysmal build times notwithstanding.
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 16:30:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3746" class=".btn">#3746</a>
             </td>
             <td>
@@ -234,57 +352,13 @@ Closes #3654
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
+- [x] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-07-24 15:57:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3738" class=".btn">#3738</a>
-            </td>
-            <td>
-                <b>
-                    Syn2 updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-NOTE: This PR is based on #3727, so only last 3 commits are _actually_ belong to this PR
-
-This PR refactors `iroha_primitives_derive` crate and `VariantCount` macro in `iroha_derive`. The gist of the changes: use `manyhow` to report errors and `darling` to parse attributes. Try to improve UX where possible. 
-
-I've kept API the same for all the macros, but it may be useful to change some of them: 
-- confusingly, attributes for `VariantCount` are placed on fields instead of enum variants. I suggest we move them to variants, as it's really a property of the variant
-- the naming of `#[skip_try_from]` is confusing in the context of `#[skip_from]`: the different in names is in the `try`, but they correspond to different directions of the generated conversions: `from` is for `Variant` ->  `Enum` and `try_from` is for `Enum` -> `Variant`. I suggest changing the name to `#[skip_into]` or `#[skip_try_into]` to properly represent the change of conversion direction, even if the actual generated trait is `From`
-- Maybe change `#[skip_container]` to `#[skip_from_container]`?
-
-I would like some input on this from other team members though ^^
-
-
-### Checklist
-
-- [ ] #3727 merged
-- [ ] All macros documented properly
-- [ ] API changes figured out 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 14:06:58 +0000 UTC
     </div>
 </div>
 
@@ -646,9 +720,14 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 This PR adds `syn` 2.0 to the workspace (under the name of `syn2`, to allow co-existence of different versions).
 
-It then updates `iroha_version_derive` to use syn2, as well as moving from unmaintained `proc-macro-error` to `manyhow`.
+It then updates `iroha_version_derive`, `iroha_primitives_derive` and `iroha_derive` to use syn2, as well as moving from unmaintained `proc-macro-error` to `manyhow`.
 
-Additionally, this PR also uses `darling` to parse attributes, eliminating a lot of boilerplate and producing good quality errors.
+It also changes some macro APIs:
+
+I also propose the following changes for `VariantCount` macro (not yet implemented): 
+   - confusingly, attributes for `VariantCount` are placed on fields instead of enum variants. I suggest we move them to variants, as it's really a property of the variant
+   - the naming of `#[skip_try_from]` is confusing in the context of #[skip_from]: the different in names is in the try, but they correspond to different directions of the generated conversions: from is for `Variant` -> `Enum` and `try_from` is for `Enum` -> `Variant`. I suggest changing the name to `#[skip_into]` or `#[skip_try_into]` to properly represent the change of conversion direction, even if the actual generated trait is `From`
+   - Maybe change `#[skip_container]` to `#[skip_from_container]`?
 
 ### Benefits
 
@@ -799,45 +878,6 @@ Also removed `WorldStateView::upgraded_validator` field, as it was redundant aft
     </table>
     <div class="right-align">
         Created At 2023-07-19 19:23:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3722" class=".btn">#3722</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3622: Granular clippy lints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Drive-by refactoring and experiment with granular linting on a per-crate basis. 
-
-### Linked issue
-
-Partially addresses #3622 
-
-### Checklist
-
-- [ ] Ci checks pass
-- [ ] Approval of draft ideas
-- [ ] Final execution
-- [ ] Final review
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-19 07:54:14 +0000 UTC
     </div>
 </div>
 
