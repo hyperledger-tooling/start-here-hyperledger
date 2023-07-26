@@ -1,13 +1,13 @@
 
-[208](https://github.com/hyperledger/sawtooth-docs/pull/208) Add community maintainership page
+[2354](https://github.com/hyperledger/aries-cloudagent-python/pull/2354) chore(deps): Bump certifi from 2023.5.7 to 2023.7.22 in /demo/playground/scripts
 
-[2350](https://github.com/hyperledger/aries-cloudagent-python/pull/2350) Oob problem report
+[2353](https://github.com/hyperledger/aries-cloudagent-python/pull/2353) Accept did:peer:2 and optionally send. 
 
-[362](https://github.com/hyperledger/iroha-java/pull/362) Allure ids
+[241](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/241) Benchmarking Cross-Chain Bridges
 
-[516](https://github.com/hyperledger-labs/fabric-operations-console/pull/516) version check for node warnings
+[535](https://github.com/hyperledger/cello/pull/535) Bump certifi from 2022.12.7 to 2023.7.22 in /src/api-engine
 
-[2348](https://github.com/hyperledger/aries-cloudagent-python/pull/2348) Extract getting verification key for proof signing into VerificationKeyStrategy class
+[3746](https://github.com/hyperledger/iroha/pull/3746) Bump certifi from 2022.12.7 to 2023.7.22 in /docs/source
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

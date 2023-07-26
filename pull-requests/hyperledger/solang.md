@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1460" class=".btn">#1460</a>
+            </td>
+            <td>
+                <b>
+                    Constructors on Polkadot can be non-payable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We use the `seal1` `instantiate` runtime API, and with this runtime host function there is no need to send the minimum balance on instantiation (the comment in the docs is not correct).
+
+Hence, constructors on Polkadot can and should actually be non-payble
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-25 19:47:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1459" class=".btn">#1459</a>
             </td>
             <td>
