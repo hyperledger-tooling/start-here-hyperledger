@@ -14,6 +14,117 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2356" class=".btn">#2356</a>
+            </td>
+            <td>
+                <b>
+                    Implement JsonUtil Class to Replace json with orjson
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [orjson](https://github.com/ijl/orjson) provides superior performance over the built-in json module. Please see their readme for an overview of features.
+
+One note is: `orjson.dumps` serializes to `bytes`, instead of `str`, so it's not a drop in replacement.
+
+There are 449 usages of `json.dumps` throughout the codebase. To refactor, I would just want to regex replace all of those with `orjson.dumps`, but then it would require appending `.decode()` as well.
+
+That inspired me to create a JsonUtil class in `utils.json.py`. So, I could replace all instances of `json.loads` and `json.dumps` with `JsonUtil.*`.
+
+This also has the benefit of providing an abstraction layer to simplify future transitions between different JSON libraries.
+
+Note: I had to replace `import json` with `from aries_cloudagent.utils.json import JsonUtils`. Re-added `import json` where needed. However, that means the import organisation is no longer consistent, because json is a top-level import, and the utils import shouldn't be. Nitpick, bit I would want to do a import sort across all files to fix this ...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 17:40:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2355" class=".btn">#2355</a>
+            </td>
+            <td>
+                <b>
+                    Correct the response type in `send_rev_reg_def`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Simple fix: the `send_rev_reg_def` method can return a `rev_reg: IssuerRevRegRecord`, which doesn't line up with the expected schema (`TxnOrRevRegResultSchema`).
+
+TLDR: 
+- the OpenAPI spec says the response is a `TxnOrRevRegResultSchema`, 
+- but it's actually a `Union[RevRegResult, TxnOrRevRegResult]`.
+
+As the name suggests, the `RevRegResult` should be wrapped in a `TxnOrRevRegResult`, which this PR fixes.
+
+Initially typed out an issue, so just to show my working:
+___
+In the definition for the `send_rev_reg_def` method (in [`/aries_cloudagent/revocation/routes.py`](https://github.com/hyperledger/aries-cloudagent-python/blob/8b6c87fba2a6dc6cce4ced92d4db554fb4cad37a/aries_cloudagent/revocation/routes.py#L1019)), the response schema is indicated to be a `TxnOrRevRegResultSchema`:
+```py
+@response_schema(TxnOrRevRegResultSchema(), 200, description="")
+async def send_rev_reg_def(request: web.BaseRequest):
+```
+which has the definition:
+```py
+class TxnOrRevRegResultSchema(OpenAPISchema):
+    """Result schema for credential definition send request."""
+
+    sent = fields.Nested(
+        RevRegResultSchema(),
+        required=False,
+        definition="Content sent",
+    )
+    txn = fields.Nested(
+        TransactionRecordSchema(),
+        required=False,
+        description="Revocation registry definition transaction to endorse",
+    )
+```
+
+In the [`aries-cloudcontroller-python`](https://github.com/didx-xyz/aries-cloudcontroller-python) project, we have to manually alter the model, generated from the OpenAPI spec, to correct that the response can actually be a `Union[RevRegResult, TxnOrRevRegResult]`, because that's what the server gives.
+
+So, something is wrong with the implementation. Let's inspect [the code](https://github.com/hyperledger/aries-cloudagent-python/blob/8b6c87fba2a6dc6cce4ced92d4db554fb4cad37a/aries_cloudagent/revocation/routes.py#L1019):
+```py
+@response_schema(TxnOrRevRegResultSchema(), 200, description="")
+async def send_rev_reg_def(request: web.BaseRequest):
+    ...
+    if not create_transaction_for_endorser:
+        return web.json_response({"result": rev_reg.serialize()})
+
+    else:
+        ...
+        return web.json_response({"txn": transaction.serialize()})
+```
+
+There are two return statements, providing either `rev_reg: IssuerRevRegRecord`, or `transaction: TransactionRecord`.
+
+The problem seems to be the key "result" that's being used in the rev_reg response, which should presumably be "sent", in order to correctly map to the key in the `TxnOrRevRegResultSchema`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 10:58:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2354" class=".btn">#2354</a>
             </td>
             <td>
@@ -808,34 +919,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-07-20 10:41:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2313" class=".btn">#2313</a>
-            </td>
-            <td>
-                <b>
-                    Add workaround for ARM based macs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - ARM based macs caused dependency issues with indy-vdr and ursa-bbs-signatures
-- Solution checks for architecture and updates DOCKER_DEFAULT_PLATFORM
-- Closes #2311 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-19 14:53:25 +0000 UTC
     </div>
 </div>
 

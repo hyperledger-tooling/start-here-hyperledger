@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/123" class=".btn">#123</a>
             </td>
             <td>
                 <b>
-                    Donot append the image tags when requested image is passed
+                    Update dependencies to remove the vulnerabilities
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/121
+                https://github.com/hyperledger-labs/fabric-operator/issues/122
 
 Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-17 17:55:03 +0000 UTC
+        Created At 2023-07-26 16:32:32 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1464" class=".btn">#1464</a>
+            </td>
+            <td>
+                <b>
+                    Remove duplicate dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If a dependency appears under `[dependencies]`, it does not need to be under `[dev-dependencies]`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 18:02:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1462" class=".btn">#1462</a>
+            </td>
+            <td>
+                <b>
+                    a.b.selector adds b() as function to current contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Compile the Solidity below and we end up with the non-base function in our contract.
+
+```bash
+$ solang compile --target polkadot --emit cfg
+# function C::A::function::a public:true selector:0dbe671f nonpayable:true
+# params: 
+# returns: 
+block0: # entry
+	return 
+```
+
+```solidity
+contract C {
+    function ext_func_call(uint128 amount) public payable {
+        A a = new A();
+        (bool ok, bytes b) = address(a).call(
+            bytes4(A.a.selector)
+        );
+	b = abi.encodeCall(A.a);
+    }
+}
+
+contract A {
+    function a() public pure {}
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 10:23:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1460" class=".btn">#1460</a>
             </td>
             <td>
@@ -219,38 +296,6 @@ Parts of this PR can be tested much better after #1449 is in `main`, but it is r
     </table>
     <div class="right-align">
         Created At 2023-07-20 18:06:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1449" class=".btn">#1449</a>
-            </td>
-            <td>
-                <b>
-                    Polkadot: Reverts return encoded error data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a continuation of #1415. `require()`, `assert()` and `revert()` now return error data, according to the [Solidity documentation](https://docs.soliditylang.org/en/v0.8.20/control-structures.html#panic-via-assert-and-error-via-require). Additionally, many reverts inserted by the compiler now return the corresponding `Panic(uint256)`  error data, to align Solang closer with `solc`.
-
-The error types known to the contract are added in the metadata `lang_error` field. At the moment there are only `Error` and `Panic` because we don't support custom errors yet.
-
-Refactored revert-related code into a dedicated `codegen` module to. Refactored the `polkadot::errors` into distinct tests, made them less brittle and added assertions for the execution output.
-
-I'm now working on a follow-up PR for bubbling up uncaught exceptions (this is why it's already included that in the documentation).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-19 17:24:49 +0000 UTC
     </div>
 </div>
 

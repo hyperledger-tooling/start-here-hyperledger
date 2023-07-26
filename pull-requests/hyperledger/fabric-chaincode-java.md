@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/304" class=".btn">#304</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/310" class=".btn">#310</a>
             </td>
             <td>
                 <b>
-                    Update setEvent documentation
+                    Update dependencies to address security vulnerabilities
                 </b>
             </td>
         </tr>
@@ -27,12 +27,40 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Update setEvent documentation to indicate that only one chaincode event can be included in a transaction.
+                - CVE-2020-15522
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-15 21:36:22 +0000 UTC
+        Created At 2023-07-26 16:02:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/309" class=".btn">#309</a>
+            </td>
+            <td>
+                <b>
+                    Remove redundant fabric-sdk-java integration test dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tidy-up integration test code, including removing redundant code.
+
+Contributes to #307
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 09:16:28 +0000 UTC
     </div>
 </div>
 

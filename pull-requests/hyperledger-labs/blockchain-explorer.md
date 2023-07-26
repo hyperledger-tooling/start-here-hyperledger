@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/425" class=".btn">#425</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/427" class=".btn">#427</a>
             </td>
             <td>
                 <b>
@@ -42,7 +42,7 @@ Fixes minor issue regarding the dashboard search functionality and redesign the 
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #422
+Fixes #422 
 
 #### Special notes for your reviewer:
 
@@ -51,7 +51,7 @@ Fixes #422
 If no, just write "NONE" in the release-note block below.
 If yes, a release note is required:
 Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
-yes
+
 -->
 ```release-note
 yes
@@ -77,7 +77,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-25 03:18:10 +0000 UTC
+        Created At 2023-07-26 14:34:05 +0000 UTC
     </div>
 </div>
 
