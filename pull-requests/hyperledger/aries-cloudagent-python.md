@@ -897,29 +897,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2322" class=".btn">#2322</a>
-            </td>
-            <td>
-                <b>
-                    ⬆️ upgrade `marshmallow` to latest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `marshmallow` dependency is currently pinned to `3.5.1`. There are no breaking changes in marshmallow's minor releases, so this PR unpins the dependency and upgrades to latest `3.19.0`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-20 10:41:47 +0000 UTC
-    </div>
-</div>
-

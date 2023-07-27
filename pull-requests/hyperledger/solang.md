@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1466" class=".btn">#1466</a>
+            </td>
+            <td>
+                <b>
+                    Ensure build works with latest contract-build and contract-metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The build is failing with errors about missing argument. The argument is for a container image name which we don't support.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 09:47:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1465" class=".btn">#1465</a>
+            </td>
+            <td>
+                <b>
+                    Relative imports are only done with relative paths and expose import_no
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When importing in Solidity, `import "foo";` does not check path relative to the currrent file, only `import "./foo";` does.
+
+This work is also a re-write of https://github.com/hyperledger/solang/pull/1443
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 08:46:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1464" class=".btn">#1464</a>
             </td>
             <td>
