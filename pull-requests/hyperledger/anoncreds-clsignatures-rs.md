@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Optimize generate_prime_in_range; misc cleanups
+                    Rename master secret to link secret
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                <nil>
+                Note: this does not rename the default signature attribute used for the link secret, is it still called "master_secret" for compatibility.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-09 19:51:05 +0000 UTC
+        Created At 2023-07-26 22:21:20 +0000 UTC
     </div>
 </div>
 

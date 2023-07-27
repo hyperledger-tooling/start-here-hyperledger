@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/72" class=".btn">#72</a>
             </td>
             <td>
                 <b>
-                    Add publish boolean parameter for creation of token pools, interfaces…
+                    baseURL options
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                …, and APIs
+                Optional overrides for the baseURLs used by the SDK when calling firefly
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-31 09:51:40 +0000 UTC
+        Created At 2023-07-27 09:25:42 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1467" class=".btn">#1467</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Ensure build works with latest contract-build and contract-metadata (#1466)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The contract-build crate 3.1 was yanked: https://crates.io/crates/contract-build/versions
+
+This reverts commit 665e550c0d5591c0453ddd2f06d455f9fe078d4a.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 13:18:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1466" class=".btn">#1466</a>
             </td>
             <td>
@@ -324,32 +352,6 @@ Parts of this PR can be tested much better after #1449 is in `main`, but it is r
     </table>
     <div class="right-align">
         Created At 2023-07-21 20:52:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1452" class=".btn">#1452</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: Strength reduce must not optimize mul into shl if overflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Optimizing multiplications with a SHL must not disable overflow checks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-20 18:06:07 +0000 UTC
     </div>
 </div>
 
