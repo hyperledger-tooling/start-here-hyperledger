@@ -15,34 +15,31 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.1
+                    v1.2.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.1
+                    v1.2.2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* v1.2: Fix postgres optimizations, fail gracefully when inserting many data rows by @awrichar in https://github.com/hyperledger/firefly/pull/1283
-* v1.2: Replace "UpsertBatch" with "InsertOrGetBatch" by @awrichar in https://github.com/hyperledger/firefly/pull/1284
-* Enable workflows for release branch by @awrichar in https://github.com/hyperledger/firefly/pull/1285
-* v1.2: Backport fixes by @awrichar in https://github.com/hyperledger/firefly/pull/1338
-* v1.2: fix: multiple named tuple result from contract by @awrichar in https://github.com/hyperledger/firefly/pull/1365
+* v1.2: FabConnect does not / can not set transactionIndex and eventIndex by @nguyer in https://github.com/hyperledger/firefly/pull/1369
+* Correctly parse blockchain subscription name when delivering events by @nguyer in https://github.com/hyperledger/firefly/pull/1379
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.2.0...v1.2.1
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.2.1...v1.2.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.2.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-07-11 18:33:29 +0000 UTC
+        Created At 2023-07-27 17:01:58 +0000 UTC
     </span>
 </div>
 
