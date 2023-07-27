@@ -28,6 +28,13 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
             </td>
             <td>
                 - CVE-2020-15522
+- CVE-2023-32732
+- CVE-2022-3171
+- CVE-2022-3509
+- CVE-2022-3510
+- CVE-2022-45688
+
+Also update dependency-check version.
             </td>
         </tr>
     </table>
