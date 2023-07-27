@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4334" class=".btn">#4334</a>
+            </td>
+            <td>
+                <b>
+                    Address Docs Dependency Vulnerability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+- Documentation update
+
+#### Description
+
+Updates the version of Sphinx used to generate the Fabric Documentation to v7.1 from v1.8.2, which was released many years ago.  
+
+#### Additional details
+
+Along the way, it addresses two security vulnerabilities that have been discovered for Pygments. I tested it by running `make docs` in my local clone of the fabric repo and then checking the resultant output using Chrome on my Mac laptop.  It looked identical to https://hyperledger-fabric.readthedocs.io/
+
+#### Related issues
+
+As per https://github.com/hyperledger/fabric/issues/4333.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 18:09:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4330" class=".btn">#4330</a>
+            </td>
+            <td>
+                <b>
+                    Remove ReplicationBackgroundRefrshInterval
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It's not used anymore.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 13:48:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4328" class=".btn">#4328</a>
             </td>
             <td>

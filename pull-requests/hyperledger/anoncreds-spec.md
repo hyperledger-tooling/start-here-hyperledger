@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/157" class=".btn">#157</a>
+            </td>
+            <td>
+                <b>
+                    Added blinded secret proof and signature correctness proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated `terminologies` section
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-26 16:55:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/156" class=".btn">#156</a>
             </td>
             <td>

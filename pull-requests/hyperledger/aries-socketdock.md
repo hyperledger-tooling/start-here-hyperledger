@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-socketdock
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Add Maintainers file
+                    Feature/new connection notification
                 </b>
             </td>
         </tr>
@@ -27,13 +27,18 @@ permalink: /pull-requests/hyperledger/aries-socketdock
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                Add the following:
 
+Message on connect
+Headers on connect
+Ability to send text instead of binary messages.
+Add disconnect functionality
+Only process log messages if log level is high enough
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-18 14:14:36 +0000 UTC
+        Created At 2023-07-26 16:03:42 +0000 UTC
     </div>
 </div>
 

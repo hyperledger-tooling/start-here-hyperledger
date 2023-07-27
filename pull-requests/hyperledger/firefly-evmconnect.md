@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/93" class=".btn">#93</a>
             </td>
             <td>
                 <b>
-                    adding the mapping for different error messages of known transaction
+                    Error matching and throttling fix
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                adding the mapping for a different variant of error messages of known transactions
+                As per title.
+- Adding a new pattern matching for known transactions
+- Expose the maxConcurrentRequests option introduced by https://github.com/hyperledger/firefly-signer/pull/36 for connector level request concurrency control
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-17 16:33:15 +0000 UTC
+        Created At 2023-07-25 17:33:56 +0000 UTC
     </div>
 </div>
 

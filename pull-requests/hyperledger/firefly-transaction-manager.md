@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/97" class=".btn">#97</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/98" class=".btn">#98</a>
             </td>
             <td>
                 <b>
-                    Preserve timestamps on migration from LevelDB to Postgres
+                    avoid using internal interface in public pkg
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                <nil>
+                In order to using mockery in another golang module, we need to make sure the interfaces are defined in the external packages and consumed by the internal interface, not the other way around. 
+
+Otherwise the consumer will hit problem like the following:
+<img width="1523" alt="image" src="https://github.com/hyperledger/firefly-transaction-manager/assets/5425125/48ba106e-fd11-4661-af68-bf44241f5f63">
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-11 04:36:12 +0000 UTC
+        Created At 2023-07-26 15:32:49 +0000 UTC
     </div>
 </div>
 

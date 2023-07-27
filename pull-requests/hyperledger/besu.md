@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5726" class=".btn">#5726</a>
+            </td>
+            <td>
+                <b>
+                    Correctly cache the TransactionValidator instance on creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+in #5682 `Suppliers.memoize` was misused and so a new instance was created at every `get` invocation, instead of correctly return the cached instance created at creation time
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 18:04:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5724" class=".btn">#5724</a>
+            </td>
+            <td>
+                <b>
+                    Consolidated EIP-4844
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements EIP-4844.
+
+- introduces a Hardfork class to the protocol schedule system
+- new Engine APIs required for CL to work on 4844
+- refactors Engine API tests to reuse OR override prior versions
+- new DataGas type for tracking block cost for 4844 data
+- new VersionedHash type to reflect that a versioned hash is not quite a pure sha256
+- incorporates wrapped jc-kzg library for KZG point evaluations
+- New transaction type, and domain objects for constituent parts to represent the Blobs, KZGCommitments, and Proofs used for 4844
+- RLP encoders and decoders to support new transaction type
+- gas pricing calculators for the new type of gas
+- plugin-api version was changed
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-25 15:53:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5723" class=".btn">#5723</a>
             </td>
             <td>
@@ -316,39 +388,6 @@ https://github.com/hyperledger/besu/issues/5564
     </table>
     <div class="right-align">
         Created At 2023-07-24 20:18:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5711" class=".btn">#5711</a>
-            </td>
-            <td>
-                <b>
-                    Return all not selected transactions, not only invalid ones
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-20 15:09:46 +0000 UTC
     </div>
 </div>
 
