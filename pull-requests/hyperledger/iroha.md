@@ -14,6 +14,109 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3750" class=".btn">#3750</a>
+            </td>
+            <td>
+                <b>
+                    TEST: DO NOT MERGE! 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 08:18:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3749" class=".btn">#3749</a>
+            </td>
+            <td>
+                <b>
+                    [release] RC18: release PR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+The official merge from `iroha2-dev` to `iroha2-stable` to signify the release of the RC18 version of Iroha (LTS candidate)
+
+### Checklist
+
+- [ ] Version bump
+- [ ] CHANGELOG
+- [ ] Dependencies pruned
+- [ ] Test flakiness recorded
+- [ ] All features compile and run
+- [ ] All crates can compile independently with 
+  - [ ] No default features
+  - [ ] All features
+- [ ] All clear from JavaScript SDK
+- [ ] All clear from Python SDK
+- [ ] All clear from the Java SDK
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-27 08:05:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3748" class=".btn">#3748</a>
             </td>
             <td>
@@ -696,49 +799,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-07-20 13:11:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3727" class=".btn">#3727</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: introduce syn 2.0, manyhow and darling for proc-macros
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-This PR adds `syn` 2.0 to the workspace (under the name of `syn2`, to allow co-existence of different versions).
-
-It then updates `iroha_version_derive`, `iroha_primitives_derive` and `iroha_derive` to use syn2, as well as moving from unmaintained `proc-macro-error` to `manyhow`.
-
-It also changes some macro APIs:
-
-I also propose the following changes for `VariantCount` macro (not yet implemented): 
-   - confusingly, attributes for `VariantCount` are placed on fields instead of enum variants. I suggest we move them to variants, as it's really a property of the variant
-   - the naming of `#[skip_try_from]` is confusing in the context of #[skip_from]: the different in names is in the try, but they correspond to different directions of the generated conversions: from is for `Variant` -> `Enum` and `try_from` is for `Enum` -> `Variant`. I suggest changing the name to `#[skip_into]` or `#[skip_try_into]` to properly represent the change of conversion direction, even if the actual generated trait is `From`
-   - Maybe change `#[skip_container]` to `#[skip_from_container]`?
-
-### Benefits
-
-Unlike `proc-macro-error`, `manyhow` is actively maintained and has cleaner API that does not rely on global state.
-
-Using `darling` streamlines parsing of (most) attributes by using a declarative serde-like model, also providing reasonable error messages.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-20 11:44:06 +0000 UTC
     </div>
 </div>
 
