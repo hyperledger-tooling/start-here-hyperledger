@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    Implement JsonUtil Class to Replace json with orjson
+                    :rocket: Performance Boost: Replace json with orjson through JsonUtil class
                 </b>
             </td>
         </tr>
@@ -27,11 +27,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                [orjson](https://github.com/ijl/orjson) provides superior performance over the built-in json module. Please see their readme for an overview of features.
+                The [orjson](https://github.com/ijl/orjson) library provides superior performance over the built-in json module. Please see their readme for an overview of features and performance/runtime comparisons.
 
 One note is: `orjson.dumps` serializes to `bytes`, instead of `str`, so it's not a drop in replacement.
+Edit: it also omits whitespace between keys and values. i.e. json.dumps: `{"k": [1, 2, 3]}`. orjson.dumps:  `{"k":[1,2,3]}`
 
-There are 449 usages of `json.dumps` throughout the codebase. To refactor, I would just want to regex replace all of those with `orjson.dumps`, but then it would require appending `.decode()` as well.
+There are 449 usages of `json.dumps` throughout the codebase. To refactor, I would just want to regex replace all of those with `orjson.dumps`, but then it would require appending `.decode()` as well (for bytes -> string).
 
 That inspired me to create a JsonUtil class in `utils.json.py`. So, I could replace all instances of `json.loads` and `json.dumps` with `JsonUtil.*`.
 

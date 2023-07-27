@@ -362,32 +362,3 @@ Look at #4294
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4324" class=".btn">#4324</a>
-            </td>
-            <td>
-                <b>
-                    [Fix]: Provide a meaningful error for cert sanitization (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit handles the error where the certificate sanitization procedure fails to construct the certificate chain due to misconfiguration. Before this commit, the peer will simply fail with panic without a clear explanation of what exactly was wrong.
-
-Addresses (#4302).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-19 18:25:19 +0000 UTC
-    </div>
-</div>
-

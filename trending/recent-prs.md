@@ -3,7 +3,7 @@
 
 [484](https://github.com/hyperledger-labs/fabric-smart-client/pull/484) support for token-sdk f-remotew
 
-[2356](https://github.com/hyperledger/aries-cloudagent-python/pull/2356) Implement JsonUtil Class to Replace json with orjson
+[2356](https://github.com/hyperledger/aries-cloudagent-python/pull/2356) :rocket: Performance Boost: Replace json with orjson through JsonUtil class
 
 [3748](https://github.com/hyperledger/iroha/pull/3748) [fix] #3741: Fix tempfile error in `kagami validator`
 
