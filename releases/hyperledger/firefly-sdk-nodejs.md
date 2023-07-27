@@ -15,30 +15,32 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.10
+                    v1.2.11
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.10
+                    v1.2.11
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add publish boolean parameter for creation of token pools, interfaces… by @chrisbygrave in https://github.com/hyperledger/firefly-sdk-nodejs/pull/69
+* baseURL options by @mjc-dev in https://github.com/hyperledger/firefly-sdk-nodejs/pull/72
 
+## New Contributors
+* @mjc-dev made their first contribution in https://github.com/hyperledger/firefly-sdk-nodejs/pull/72
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.9...v1.2.10
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.10...v1.2.11
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.10" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.11" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-31 12:56:09 +0000 UTC
+        Created At 2023-07-27 19:16:22 +0000 UTC
     </span>
 </div>
 

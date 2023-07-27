@@ -26,7 +26,7 @@ permalink: /releases/hyperledger-labs/fabric-operator
                 </span>
             </td>
             <td>
-                v1.0.5-4 Release notes - July 25, 2023
+                v1.0.5-4 Release notes - July 27, 2023
 ------------------------
 
 Release Notes
@@ -35,6 +35,7 @@ Release Notes
 v1.0.5-4 is a patch release, providing updates for the following issues in the operator: 
 
 - Donot repeat the registry URLs for the images used in deployer configmaps  https://github.com/hyperledger-labs/fabric-operator/pull/120
+- Remove vulnerabilities by updating the dependency modules https://github.com/hyperledger-labs/fabric-operator/issues/122
 
 Known Vulnerabilities
 ---------------------
@@ -59,7 +60,7 @@ none
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-07-24 12:24:41 +0000 UTC
+        Created At 2023-07-27 12:30:57 +0000 UTC
     </span>
 </div>
 
