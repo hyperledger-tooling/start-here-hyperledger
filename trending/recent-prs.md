@@ -1,13 +1,13 @@
 
-[3760](https://github.com/hyperledger/iroha/pull/3760) [fix] #3758: Individual crates build without errors
+[4338](https://github.com/hyperledger/fabric/pull/4338) Update docs requirements to latest v1 Sphinx for dep vulnerabilities (backport #4337)
 
-[3759](https://github.com/hyperledger/iroha/pull/3759) [refactor]: update `iroha_schema_derive` to use syn 2.0
+[367](https://github.com/hyperledger/fabric-ca/pull/367) Upgrade docs to address security issues in dependencies for Sphinx.
 
-[2324](https://github.com/hyperledger/bevel/pull/2324) [ci-skip] Add README.md files
+[2588](https://github.com/hyperledger/cacti/pull/2588) test(test-geth-ledger): add test for test-geth-ledger
 
-[2362](https://github.com/hyperledger/aries-cloudagent-python/pull/2362) Fix empty ServiceDecorator in OobRecord causing 422 Unprocessable Entity Error
+[209](https://github.com/hyperledger/sawtooth-docs/pull/209) Run merge github action on push of main and workflow_dispatch
 
-[5727](https://github.com/hyperledger/besu/pull/5727) Make smart contract permissioning features work with london fork
+[5729](https://github.com/hyperledger/besu/pull/5729) Add type to PendingTransactionDetail
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

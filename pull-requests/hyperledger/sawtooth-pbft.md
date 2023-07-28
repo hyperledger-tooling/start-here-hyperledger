@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/188" class=".btn">#188</a>
-            </td>
-            <td>
-                <b>
-                    Retire Anne and Logan from maintainers and codeowners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                They have previously indicated they wished to be retired.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 15:11:06 +0000 UTC
-    </div>
-</div>
-

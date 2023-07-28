@@ -44,16 +44,22 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    support for token-sdk f-remotew
+                    bidirectional channel between the invoker of a view and the view itself
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                <nil>
+                This PR introduces the support for a bidirectional channel between the invoker of a view and the view itself.
+This PR supports this channel in two ways:
+- Using GRPC stream, and
+- Using WebSockets
+
+The `pingpong` integration test has been extended to test this functionality. 
+This PR is in support of https://github.com/hyperledger-labs/fabric-token-sdk/pull/478 
             </td>
         </tr>
     </table>

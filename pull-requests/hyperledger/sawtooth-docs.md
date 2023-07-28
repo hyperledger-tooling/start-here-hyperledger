@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/209" class=".btn">#209</a>
+            </td>
+            <td>
+                <b>
+                    Run merge github action on push of main and workflow_dispatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This removes the cron entry (no need to run this via cron). Also adds restriction to only publish on main push, which is usually triggered during a OR merge. And finally, add workflow_dispatch so we can run the job manually in the github UI.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 15:35:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/208" class=".btn">#208</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     </table>
     <div class="right-align">
         Created At 2023-07-25 17:33:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/207" class=".btn">#207</a>
-            </td>
-            <td>
-                <b>
-                    Retire Anne and Darian from maintainers and codeowners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                They have previously indicated they wished to be retired.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 14:55:41 +0000 UTC
     </div>
 </div>
 
