@@ -539,32 +539,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2565" class=".btn">#2565</a>
-            </td>
-            <td>
-                <b>
-                    fix(keychain-vault-server): address CVEs: CVE-2021-22946, CVE-2022-1304, CVE-2018-12886, CVE-2022-29458, CVE-2019-3843, CVE-2019-3844, CVE-2022-29458, CVE-2020-16156
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes: #2058
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 00:29:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2564" class=".btn">#2564</a>
             </td>
             <td>

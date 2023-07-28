@@ -1,13 +1,13 @@
 
+[917](https://github.com/hyperledger/aries-vcx/pull/917) Release/0.57.1
+
+[81](https://github.com/hyperledger/fabric-chaincode-go/pull/81) Bump Go to 1.20
+
+[17](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/17) Allow infinity point for accumulator values
+
+[1079](https://github.com/hyperledger/fabric-samples/pull/1079) Smart Contract Dev Spanish Translation - FullStackAssetTransfer
+
 [4334](https://github.com/hyperledger/fabric/pull/4334) Address Docs Dependency Vulnerability
-
-[5726](https://github.com/hyperledger/besu/pull/5726) Correctly cache the TransactionValidator instance on creation
-
-[485](https://github.com/hyperledger-labs/fabric-smart-client/pull/485) Support for websockets
-
-[94](https://github.com/hyperledger/firefly-common/pull/94) Convenience function for dynamic scoping, and fix to filtering in StringFieldLower
-
-[1380](https://github.com/hyperledger/firefly/pull/1380) log: add debug logs for webhook
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
