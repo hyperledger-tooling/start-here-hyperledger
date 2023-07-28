@@ -73,29 +73,3 @@ Closes #180
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/182" class=".btn">#182</a>
-            </td>
-            <td>
-                <b>
-                    BCW fix double call of open cred from contact
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 14:47:08 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    Allure ids
+                    Allure ids and permission token test
                 </b>
             </td>
         </tr>

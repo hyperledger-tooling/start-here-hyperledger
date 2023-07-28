@@ -27,8 +27,13 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                - Define features more granularly on `aries-vcx-core` level - this will come handy in subsequent PR's removing parts of vdrtools
-- Move some files / tweak `aries-vcx` to enable compilation with `--no-default-features`
+                At high level, this re-enables building aries-vcx, aries-vcx-core without any features enabled. Comes along with some refactoring to make sense of things and prepare ground for gradual removal of vdrtools based components.
+
+- `aries-vcx-core`: define more granular features - this will come handy in subsequent PR's removing parts of vdrtools `vdrtools_anoncreds`, `vdrtools_wallet`, `vdrtools_ledger`
+- move non-indy specific files out of indy directories (eg `ToBaseAgencyClientWallet` moved from `aries_vcx_core::wallet::indy::agency_client_wallet` to `aries_vcx_core::wallet::agency_client_wallet`
+- `aries-vcx-core`: include `indy-api-types` as dependency to access `indy_api_types::errors` directly to simplify error mapping (`aries_vcx_core/src/errors/mapping_vdrtools.rs` )
+- remove support for `vdrtools` based ledger client from `did_resolver_sov` - it was causing some complications which won't be relevant as soon as this https://github.com/hyperledger/aries-vcx/pull/914 get merged
+
             </td>
         </tr>
     </table>
@@ -275,91 +280,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2023-07-23 15:41:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/907" class=".btn">#907</a>
-            </td>
-            <td>
-                <b>
-                    testing/remove-mixed-breed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                One less thing to worry about - since "mixed breed" testing profile was introduced, we have increased coverage with different profile significantly, and also introduced 4x different testing combinations on `libvcx_core` level. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 13:08:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/906" class=".btn">#906</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Added capability of migrating wallet through the node.js wrap…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This reverts commit be57e49e5fb15c790e68d8f060e8328922a7e7a1 / https://github.com/hyperledger/aries-vcx/pull/895
-
-The PR is causing CI to fail, because it added migrator as dependency of `libvcx_core`. The migrator imports `ariesvcx_core` with `modular_libs` feature, I believe that's the culprit of the issues - as both vdrtool and indyvdr become part of the build - altough seems to work with major scenarios, in tests etc, there are probably some interplay of dependencies during the build process when building for ios/android/linux musl (napi wrapper build)
-
-Strategic way to go about this is to to default to `indy-vdr` ledger client, delete vdrtools based ledger client (and therefore the zmq dependencies coming from `vdrtools`) and then re-apply the changes in reverted commit. 
-That might solve the issue, or at least make it simpler to investigate.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 12:48:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/905" class=".btn">#905</a>
-            </td>
-            <td>
-                <b>
-                    Build artifacts with indy-vdr as ledger client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 12:36:39 +0000 UTC
     </div>
 </div>
 

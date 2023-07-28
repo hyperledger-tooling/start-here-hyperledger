@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/365" class=".btn">#365</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/367" class=".btn">#367</a>
             </td>
             <td>
                 <b>
-                    Clarify doc generation error
+                    Upgrade docs to address security issues in dependencies for Sphinx.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,33 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                If the generated docs don't match the existing docs, CI fails with a confusing error message.
-This commit clarifies the error so that contributor can resolve the problem.
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+- Documentation update
+
+#### Description
+
+* Upgrade docs to address security issues in dependencies for Sphinx.
+
+#### Additional details
+
+* Also add a Make command "build-docs" that quickly/easily builds the docs using Docker for local testing/consumption.
+* Also modify a copyright in the conf.py file.
+* Also adjust to using Python v3.7.
+
+As per https://github.com/hyperledger/fabric-ca/issues/366
+
+#### Related issues
+
+N/A
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-20 19:40:17 +0000 UTC
+        Created At 2023-07-28 17:17:03 +0000 UTC
     </div>
 </div>
 

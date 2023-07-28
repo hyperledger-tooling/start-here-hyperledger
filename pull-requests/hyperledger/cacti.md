@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2588" class=".btn">#2588</a>
+            </td>
+            <td>
+                <b>
+                    test(test-geth-ledger): add test for test-geth-ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add tests for geth-test-ledger
+- fix small errors in GethTestLedger class
+    
+Closes: #2579 
+Depends on: #2577
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 15:41:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2587" class=".btn">#2587</a>
             </td>
             <td>

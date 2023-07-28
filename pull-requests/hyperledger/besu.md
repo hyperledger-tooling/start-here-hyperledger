@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5729" class=".btn">#5729</a>
+            </td>
+            <td>
+                <b>
+                    Add type to PendingTransactionDetail
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add type to PendingTransactionDetail class as it was missing. No unit test needs to be updated as all are using by default refEq comparison with the expected result. Till now couldn't be spotted as it was missing from the expected result.
+
+## Fixed Issue(s)
+fixes #5615 
+
+Results:
+echo '{"method":"eth_subscribe","params":["newPendingTransactions",{"includeTransactions":true}],"id":3,"jsonrpc":"2.0"}' | websocat --no-close ws://127.0.0.1:8546 | jq
+
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0xa5262b20f8066659e9492535ce470ace9670c24521798e719f19598543492f5f"],"id":1}' http://127.0.0.1:8545
+
+<img width="1060" alt="Screenshot 2023-07-28 at 17 52 30" src="https://github.com/hyperledger/besu/assets/99179176/b5af5309-ec25-4917-8a58-2d9951345289">
+
+
+<img width="1051" alt="Screenshot 2023-07-28 at 17 52 57" src="https://github.com/hyperledger/besu/assets/99179176/de321252-035d-4827-9b5d-d0f782ba4977">
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 14:54:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5727" class=".btn">#5727</a>
             </td>
             <td>
