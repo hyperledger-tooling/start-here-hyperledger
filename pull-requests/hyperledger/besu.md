@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5727" class=".btn">#5727</a>
+            </td>
+            <td>
+                <b>
+                    Make smart contract permissioning features work with london fork
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Override the transactionSimulator's default TransactionValidationParams with one that allows for exceeding the account balance (which effectively zeros the baseFee). This mimics the way that eth_estimateGas and eth_call are implemented. Similar change to #5277
+
+Update ATs to use londonBlock (existing genesis allocs necessitate zeroBaseFee as well)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 08:26:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5726" class=".btn">#5726</a>
             </td>
             <td>

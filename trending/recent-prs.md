@@ -1,13 +1,13 @@
 
-[917](https://github.com/hyperledger/aries-vcx/pull/917) Release/0.57.1
+[3760](https://github.com/hyperledger/iroha/pull/3760) [fix] #3758: Individual crates build without errors
 
-[81](https://github.com/hyperledger/fabric-chaincode-go/pull/81) Bump Go to 1.20
+[3759](https://github.com/hyperledger/iroha/pull/3759) [refactor]: update `iroha_schema_derive` to use syn 2.0
 
-[17](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/17) Allow infinity point for accumulator values
+[2324](https://github.com/hyperledger/bevel/pull/2324) [ci-skip] Add README.md files
 
-[1079](https://github.com/hyperledger/fabric-samples/pull/1079) Smart Contract Dev Spanish Translation - FullStackAssetTransfer
+[2362](https://github.com/hyperledger/aries-cloudagent-python/pull/2362) Fix empty ServiceDecorator in OobRecord causing 422 Unprocessable Entity Error
 
-[4334](https://github.com/hyperledger/fabric/pull/4334) Address Docs Dependency Vulnerability
+[5727](https://github.com/hyperledger/besu/pull/5727) Make smart contract permissioning features work with london fork
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

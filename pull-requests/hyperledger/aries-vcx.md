@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/918" class=".btn">#918</a>
+            </td>
+            <td>
+                <b>
+                    Refactor features, enable build with --no-default-features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Define features more granularly on `aries-vcx-core` level - this will come handy in subsequent PR's removing parts of vdrtools
+- Move some files / tweak `aries-vcx` to enable compilation with `--no-default-features`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 07:54:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/917" class=".btn">#917</a>
             </td>
             <td>

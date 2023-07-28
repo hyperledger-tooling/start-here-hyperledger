@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3760" class=".btn">#3760</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3758: Individual crates build without errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Due to `#[model]` some struct fields was private for `client` crate.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3758 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Builds correctly.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] Checked that individual crates build correctly (except `kagami` will be fixed by #3748)
+
+### How to test
+
+1. Cd into crate folders
+2. Run `cargo build --tests --examples`
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 10:11:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3759" class=".btn">#3759</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: update `iroha_schema_derive` to use syn 2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Also parse attributes with `darling` and handle errors with `manyhow`
+
+## Description
+
+This is continuation of work started in #3727, touching on `iroha_schema_derive`.
+
+There was an unused API in `TypeId` derive: `#[type_id(bound = "...")]`, I removed support for it for now.
+
+### Benefits
+
+Same as before: less code, better error messages.
+
+### Checklist
+
+- [x] update the `iroha_schema_derive` crate
+- [ ] add more ui tests covering all the API
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 09:41:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3750" class=".btn">#3750</a>
             </td>
             <td>
