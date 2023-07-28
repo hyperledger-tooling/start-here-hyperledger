@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2362" class=".btn">#2362</a>
+            </td>
+            <td>
+                <b>
+                    Fix empty ServiceDecorator in OobRecord causing 422 Unprocessable Entity Error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves  #2242
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 08:28:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2356" class=".btn">#2356</a>
             </td>
             <td>
@@ -481,95 +507,6 @@ So, to summarize, the two modifications implemented here:
     </table>
     <div class="right-align">
         Created At 2023-07-21 13:53:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2336" class=".btn">#2336</a>
-            </td>
-            <td>
-                <b>
-                    ⬆️ upgrade `requests` to latest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `requests` dependency for ACA-py is currently using version `2.25.1` (Dec 2020), and has seen numerous improvements since then ito vulnerability fixes, speed optimizations, and support for python 3.10+
-
-See changelogs here: https://github.com/psf/requests/releases
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 09:08:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2335" class=".btn">#2335</a>
-            </td>
-            <td>
-                <b>
-                    ⬆️ upgrade `pyjwt` to latest; introduce leeway to `jwt.decode`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Latest release (2.8) introduces support for python 3.10+
-
-Release notes: https://github.com/jpadilla/pyjwt/releases
-
-Note: `jwt.decode` can fail spuriously due to breaking changes introduced in https://github.com/jpadilla/pyjwt/pull/797, where an exception is raised if the 'issued at' time of the JWT is in the future when decoding, with default 0 leeway. This means that a miniscule mismatch in clock synchronization, between generation and decoding of JWT, can now cause a failure when decoding. This arose in the integration tests, and is resolved with a leeway of 1 second.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 09:02:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2334" class=".btn">#2334</a>
-            </td>
-            <td>
-                <b>
-                    ⬆️ upgrade `packaging` to latest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `packaging` dependency is pinned to version 20. This is incompatible with the latest release of the `black` formatter:
-```
-black 23.7.0 requires packaging>=22.0, but you have packaging 20.9 which is incompatible.
-```
-
-There doesn't seem to be any breaking changes in the new packaging release, so this PR bumps the dependency to latest
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 08:32:27 +0000 UTC
     </div>
 </div>
 
