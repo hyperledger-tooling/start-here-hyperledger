@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1468" class=".btn">#1468</a>
+            </td>
+            <td>
+                <b>
+                    Decouple data account from contract in the Solana mock VM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As we start representing contracts by their program id (#1430), we bump into an incompatibility in our VM. The program id and the contract's data account are tightly coupled!
+
+In order for us to decouple them from Solang as whole, we need to refactor the VM so that it accepts contracts without a data account.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 20:52:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1467" class=".btn">#1467</a>
             </td>
             <td>
@@ -324,34 +352,6 @@ Hence, constructors on Polkadot can and should actually be non-payble
     </table>
     <div class="right-align">
         Created At 2023-07-23 12:14:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1454" class=".btn">#1454</a>
-            </td>
-            <td>
-                <b>
-                    Polkadot: Bubble up reverts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a continuation of #1415. To align Solang with `solc` further, any uncaught reverts must be bubbled up back to the caller. To do so, handling of the return code for `call`, `instantiate` and `transfer` runtime API calls is now done in codegen and no longer treated as a bool.
-
-Parts of this PR can be tested much better after #1449 is in `main`, but it is ready for a first review round.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 20:52:39 +0000 UTC
     </div>
 </div>
 
