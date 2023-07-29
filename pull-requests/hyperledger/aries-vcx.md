@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/919" class=".btn">#919</a>
+            </td>
+            <td>
+                <b>
+                    Added capability of migrating wallet through the node.js wrapper (#895)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We have previously reverted https://github.com/hyperledger/aries-vcx/pull/906 feature to expose wallet migration in nodejs wrapper. This brings the code back - reverts the revert. 
+
+* Added capability of migrating wallet through the node.js wrapper
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-29 15:56:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/918" class=".btn">#918</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/284" class=".btn">#284</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/286" class=".btn">#286</a>
             </td>
             <td>
                 <b>
-                    Update version following release
+                    Update dependencies to address CVE-2023-2976
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                Also ensure checkstyle checks run correctly. Current versions require Java 11 or later.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-21 22:06:29 +0000 UTC
+        Created At 2023-07-29 11:46:34 +0000 UTC
     </div>
 </div>
 
