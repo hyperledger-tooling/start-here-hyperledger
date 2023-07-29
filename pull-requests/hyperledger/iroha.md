@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3763" class=".btn">#3763</a>
+            </td>
+            <td>
+                <b>
+                    [fix]: Ensure that Iroha crates compile with feature combinations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Ensure that all feature combinations are explicitly checked for compile errors. 
+
+Making sure that implicit features are explicitly enabled in the respective `Cargo.toml`s. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-28 18:55:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3760" class=".btn">#3760</a>
             </td>
             <td>
