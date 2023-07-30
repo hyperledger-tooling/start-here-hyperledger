@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Experimental support for Hyperledger Fabric v2.5
+                    Create GO-Institute/blockchain-verifier
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This PR adds experimental support for Hyperledger Fabric v2.5 as it adds integration tests with v2.5.0-beta. It also upgrades the version of v2.4 used in the integration test to the latest.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 09:19:09 +0000 UTC
+        Created At 2023-07-30 09:01:29 +0000 UTC
     </div>
 </div>
 
