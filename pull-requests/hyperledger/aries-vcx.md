@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/920" class=".btn">#920</a>
+            </td>
+            <td>
+                <b>
+                    Bump word-wrap from 1.2.3 to 1.2.5 in /wrappers/node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [word-wrap](https://github.com/jonschlinkert/word-wrap) from 1.2.3 to 1.2.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/jonschlinkert/word-wrap/releases">word-wrap's releases</a>.</em></p>
+<blockquote>
+<h2>1.2.5</h2>
+<p><strong>Changes</strong>:</p>
+<p>Reverts default value for <code>options.indent</code> to two spaces <code>'  '</code>.</p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/jonschlinkert/word-wrap/compare/1.2.4...1.2.5">https://github.com/jonschlinkert/word-wrap/compare/1.2.4...1.2.5</a></p>
+<h2>1.2.4</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Remove default indent by <a href="https://github.com/mohd-akram"><code>@​mohd-akram</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/24">jonschlinkert/word-wrap#24</a></li>
+<li>🔒fix: CVE 2023 26115 (2) by <a href="https://github.com/OlafConijn"><code>@​OlafConijn</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/41">jonschlinkert/word-wrap#41</a></li>
+<li>:lock: fix: CVE-2023-26115 by <a href="https://github.com/aashutoshrathi"><code>@​aashutoshrathi</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/33">jonschlinkert/word-wrap#33</a></li>
+<li>chore: publish workflow by <a href="https://github.com/OlafConijn"><code>@​OlafConijn</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/42">jonschlinkert/word-wrap#42</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/mohd-akram"><code>@​mohd-akram</code></a> made their first contribution in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/24">jonschlinkert/word-wrap#24</a></li>
+<li><a href="https://github.com/OlafConijn"><code>@​OlafConijn</code></a> made their first contribution in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/41">jonschlinkert/word-wrap#41</a></li>
+<li><a href="https://github.com/aashutoshrathi"><code>@​aashutoshrathi</code></a> made their first contribution in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/33">jonschlinkert/word-wrap#33</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.4">https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.4</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/207044ebda1dd3809d15b6000a48409266536771"><code>207044e</code></a> 1.2.5</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/98943154855b0dd79b707462b9202614990c7f61"><code>9894315</code></a> revert default indent</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/f64b188c7261d26b99e1e2075d6b12f21798e83a"><code>f64b188</code></a> run verb to generate README</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/03ea08256ba0c8e8b02b1b304f0f5bd2b1863207"><code>03ea082</code></a> Merge pull request <a href="https://redirect.github.com/jonschlinkert/word-wrap/issues/42">#42</a> from jonschlinkert/chore/publish-workflow</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/420dce9a2412b21881202b73a3c34f0edc53cb2e"><code>420dce9</code></a> Merge pull request <a href="https://redirect.github.com/jonschlinkert/word-wrap/issues/41">#41</a> from jonschlinkert/fix/CVE-2023-26115-2</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/bfa694edf55bb84ff84512f13da6d68bf7593f06"><code>bfa694e</code></a> Update .github/workflows/publish.yml</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/ace0b3c78f81aaf43040bab3bc91d3c5546d3fd2"><code>ace0b3c</code></a> chore: bump version to 1.2.4</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/6fd727594676f3e1b196b08a320908bec2f4ca02"><code>6fd7275</code></a> chore: add publish workflow</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/30d6daf60fce429f5f559252fa86ee78200652c4"><code>30d6daf</code></a> chore: fix test</li>
+<li><a href="https://github.com/jonschlinkert/word-wrap/commit/655929cabea6299dddf3b4a21fc3713fca701b48"><code>655929c</code></a> chore: remove package-lock</li>
+<li>Additional commits viewable in <a href="https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.5">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=word-wrap&package-manager=npm_and_yarn&previous-version=1.2.3&new-version=1.2.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-vcx/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 12:06:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/919" class=".btn">#919</a>
             </td>
             <td>
@@ -87,7 +184,8 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                Previous release https://github.com/hyperledger/aries-vcx/releases/tag/0.57.0 was incorrectly built for ios/java libvcx artifacts, as the anoncreds and ledger implementation was not selected in built time, causing library to fail upon calling basic functions.
+The issue has been fixed in this release.
             </td>
         </tr>
     </table>
@@ -113,7 +211,23 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">skip-ci</span>
             </td>
             <td>
-                TODO
+                ## This is a **POC**.
+
+Reimplementation of the `Connection` protocol by making state machines transitions infallible and adding a handler layer on top. This makes transitions completely I/O-less.
+
+The handler layer would take care of retrieving/inserting state machines through an interface, and then handle message processing as usual, without the users needing to know/deal with implementation details of the protocols or state machines.
+
+The `Connection` trimmed down states are due to the handler layer abstracting operations, hence making some states simply redundant. For instance, `Initial` states have no purpose anymore, while something like an `InviteeConnection<Invited>` also makes no sense. The handler layer processes an invitation and directly generates a `Request` that can then be sent by consumer code, thus putting the state machine directly in `Requested`.
+
+One caveat that I don't really have a strong opinion over is the fact that the `InviterConnection` only has one state now: `Complete`. 
+
+As an inviter, you generate an invitation and doing that within the state machine does not make sense because:
+- for public invitations, you're expecting multiple people to respond, without knowing how many will -> the protocol really started when `Request` messages start coming in.
+- for pairwise invitations, you're only expecting one `Request` from the other peer -> so, with the proposed implementation, the information of whether the `Invitation` was responded to or not is not being tracked by us, but there's nothing stopping users from keeping track of it themselves, especially since the invitation is created outside of the state machines.
+
+Then, after receiving a `Request`, you will process it and generate a `Response` which the consumer code can send. We then consider the state machine to be complete, losing the information of whether the other party sent a message or not after the consumer code sends the `Response`. This is because we would have to handle **any** message for determining that, and this bit of information might not even be relevant to some users. If it is, it can also be handled in consumer code.
+
+DidExchange does this much better by standardizing the acknowledgement of the `Response`, which pretty much any communication protocol worth its bacon does. Since there's no standard for `Connection` and anything flies, as well as this being an old protocol which is technically superseded by `DidExchange`, I suggest to leave it to users keep track of this separation between *response sent and message received* and *response sent but no message received yet*. 
             </td>
         </tr>
     </table>
@@ -226,61 +340,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2023-07-25 15:50:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/910" class=".btn">#910</a>
-            </td>
-            <td>
-                <b>
-                    Refactor aries_vcx_core
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Small vdrtools adjustment to make indy-wallet compilable without zmq dependency (original intention of PR was to extract wallet out of vdrtools, a strategy I decided to abandon, so this dependency/feature changed in `vdrtools` are here just as "why not" improvement)
-- Reorganize files in `aries_vcx_core` such that all wallet APIs are under `aries_vcx_core/wallet` module
-- Reorganize `aries_vcx_core` to move files out of `src/indy` into `src/anoncreds` / `src/ledger` / `src/wallet` to keep things together. Previously things been a bit scatter in `src/indy` and other directories. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 10:36:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/909" class=".btn">#909</a>
-            </td>
-            <td>
-                <b>
-                    Default to modular libs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 07:08:47 +0000 UTC
     </div>
 </div>
 

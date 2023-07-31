@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4340" class=".btn">#4340</a>
+            </td>
+            <td>
+                <b>
+                    Wal file size bug fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix WAL file size limit exceeded bug as described in #4290
+
+#### Type of change
+
+- Bug fix
+- Test update
+
+#### Related issues
+
+#4290
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 10:35:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4339" class=".btn">#4339</a>
+            </td>
+            <td>
+                <b>
+                    WIP: WAL "max entry size limit exceeded" bug reproduction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reproducing bug #4290.
+Please do not merge this PR, it is simply for demonstrating the bug.
+
+#### Type of change
+
+- Bug fix
+- Test update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 09:37:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4338" class=".btn">#4338</a>
             </td>
             <td>

@@ -93,7 +93,7 @@ fixes #5731
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">snack</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

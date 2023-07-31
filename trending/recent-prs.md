@@ -1,13 +1,13 @@
 
-[1368](https://github.com/hyperledger/besu-docs/pull/1368) update routing paths
+[920](https://github.com/hyperledger/aries-vcx/pull/920) Bump word-wrap from 1.2.3 to 1.2.5 in /wrappers/node
 
-[5733](https://github.com/hyperledger/besu/pull/5733) Reference tests 12.3
+[1469](https://github.com/hyperledger/solang/pull/1469) Add optimizations test
 
-[5732](https://github.com/hyperledger/besu/pull/5732) Add missing methods to transaction interface
+[4340](https://github.com/hyperledger/fabric/pull/4340) Wal file size bug fix
 
-[611](https://github.com/hyperledger/fabric-gateway/pull/611) Update Java dependencies to address CVE-2023-2976
+[2329](https://github.com/hyperledger/bevel/pull/2329) [ci-skip] enable prometheus for besu node metrics
 
-[919](https://github.com/hyperledger/aries-vcx/pull/919) Added capability of migrating wallet through the node.js wrapper (#895)
+[4339](https://github.com/hyperledger/fabric/pull/4339) WIP: WAL "max entry size limit exceeded" bug reproduction
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
