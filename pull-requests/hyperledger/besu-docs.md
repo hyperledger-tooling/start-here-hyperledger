@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1368" class=".btn">#1368</a>
+            </td>
+            <td>
+                <b>
+                    update routing paths
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - remove stable from path 
+- redirect no version paths to use the latest stable version
+- move en/latest and en/stable to vercel.js
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 04:02:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1367" class=".btn">#1367</a>
             </td>
             <td>
