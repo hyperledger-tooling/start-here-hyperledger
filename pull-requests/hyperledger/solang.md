@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1469" class=".btn">#1469</a>
+            </td>
+            <td>
+                <b>
+                    Add optimizations test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a test to do the following, with various Solidity programs and associated test vectors:
+1. Compile the program with optimizations enabled.
+1. Run the resulting binary on the test vectors.
+1. Compile the same program with optimizations disabled.
+1. Run the resulting binary on the same set of test vectors.
+1. Verify that the two binaries’ outputs are equal.
+
+Nits are welcome.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 12:00:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1468" class=".btn">#1468</a>
             </td>
             <td>

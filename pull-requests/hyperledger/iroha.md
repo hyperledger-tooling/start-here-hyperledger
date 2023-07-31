@@ -147,8 +147,8 @@ The official merge from `iroha2-dev` to `iroha2-stable` to signify the release o
 - [x] All crates can compile independently with 
   - [x] No default features
   - [x] All features
-- [ ] All clear from JavaScript SDK
-- [ ] All clear from Python SDK
+- [x] All clear from JavaScript SDK
+- [x] All clear from Python SDK
 - [ ] All clear from the Java SDK
 
 

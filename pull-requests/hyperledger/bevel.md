@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2329" class=".btn">#2329</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] enable prometheus for besu node metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                feat(besu): enable prometheus for besu node metrics 
+
+prometheus server deployments for individual organizations
+
+fixes: 2290
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 09:47:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2324" class=".btn">#2324</a>
             </td>
             <td>
