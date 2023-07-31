@@ -14,37 +14,6 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3763" class=".btn">#3763</a>
-            </td>
-            <td>
-                <b>
-                    [fix]: Ensure that Iroha crates compile with feature combinations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Ensure that all feature combinations are explicitly checked for compile errors. 
-
-Making sure that implicit features are explicitly enabled in the respective `Cargo.toml`s. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-28 18:55:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3760" class=".btn">#3760</a>
             </td>
             <td>
@@ -151,65 +120,6 @@ Same as before: less code, better error messages.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3750" class=".btn">#3750</a>
-            </td>
-            <td>
-                <b>
-                    TEST: DO NOT MERGE! 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 08:18:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3749" class=".btn">#3749</a>
             </td>
             <td>
@@ -229,14 +139,14 @@ The official merge from `iroha2-dev` to `iroha2-stable` to signify the release o
 
 ### Checklist
 
-- [ ] Version bump
-- [ ] CHANGELOG
-- [ ] Dependencies pruned
-- [ ] Test flakiness recorded
-- [ ] All features compile and run
-- [ ] All crates can compile independently with 
-  - [ ] No default features
-  - [ ] All features
+- [x] Version bump
+- [x] CHANGELOG (not possible, `gitchangelog` is no longer installable)
+- [x] Dependencies pruned 
+- [x] Test flakiness recorded (post release)
+- [x] All features compile and run
+- [x] All crates can compile independently with 
+  - [x] No default features
+  - [x] All features
 - [ ] All clear from JavaScript SDK
 - [ ] All clear from Python SDK
 - [ ] All clear from the Java SDK
