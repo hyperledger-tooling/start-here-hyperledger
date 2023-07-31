@@ -39,7 +39,7 @@ A few todo items still remain to be resolved notably:
 
 - [ ] review configuration and defaults. Some defaults no longer seem to be valid and some configuration items may have been missed. 
 - [ ] out-of-band proof API seems to have been completely removed from the framework. My guess looking at the PRs there is that it's somehow been roled into the `oob` functionality but it's unclear how to replicate this or if it's even possible
-- [ ] on the proof request restrictions there are properties that use a pattern matched key such as `attr::${string}::value` that I cannot reproduce using TSOA. I'm not sure how or if these should be represented.
+- [x] on the proof request restrictions there are properties that use a pattern matched key such as `attr::${string}::value` that I cannot reproduce using TSOA. I'm not sure how or if these should be represented.
 - [ ] test coverage needs improvement in a few areas and I'd like to do that as part of this PR to make sure I have messed anything up. One place I've noticed and marked is in the credential definition creation tests
 
 Next, whilst the tests are currently passing 2 suites fail due to a cleanup issue that still needs to be resolved. Essentially when two of the tests suites shut down I'm getting an error I'm struggling to debug around the Askar wallet being closed:

@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1472" class=".btn">#1472</a>
+            </td>
+            <td>
+                <b>
+                    Minor fixes to the Solana library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I fixed an incorrect comment and a wrong index when encoding data.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 17:27:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1471" class=".btn">#1471</a>
+            </td>
+            <td>
+                <b>
+                    Automatically apply suggestions of clippy pedantic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I've run `cargo clippy --fix --bin "solang" -- -W clippy::pedantic`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 16:46:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1470" class=".btn">#1470</a>
+            </td>
+            <td>
+                <b>
+                    General fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR has general fixes in Solang, namely:
+
+1. Rename `must_fail` to `may_fail` as the usage of this function does not imply the function will fail.
+2. Rename `edges` to `successors`, as the function returns the successors of a block.
+3. Rename `clone_for_parent_block` to `deep_clone`.
+4. Rename `set_maxi_signed` to `get_max_signed`
+5. Rename `set_max_unsigned` to `set_max_unsigned`
+6. Fix typos in comments and in function names.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 16:37:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1469" class=".btn">#1469</a>
             </td>
             <td>
