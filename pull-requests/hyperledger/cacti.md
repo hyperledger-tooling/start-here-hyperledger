@@ -378,35 +378,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2574" class=".btn">#2574</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): pin ALL dependency versions in package.json files 2023-07-24
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replaced all tilde and caret characters in package.json
-files with nothing so that all versions are pinned down
-for safety and stability of the build/publishing process.
-
-Fixes #2571
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 18:14:08 +0000 UTC
-    </div>
-</div>
-

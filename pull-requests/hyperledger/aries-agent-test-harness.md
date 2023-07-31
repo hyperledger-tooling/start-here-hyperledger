@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/714" class=".btn">#714</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/715" class=".btn">#715</a>
             </td>
             <td>
                 <b>
-                    Changes by create-pull-request action
+                    Add --preserve-exchange-records flag to ACA-Py startup
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-24 03:13:57 +0000 UTC
+        Created At 2023-07-31 16:16:12 +0000 UTC
     </div>
 </div>
 
