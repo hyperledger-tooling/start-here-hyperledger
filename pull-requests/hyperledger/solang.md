@@ -343,29 +343,3 @@ Hence, constructors on Polkadot can and should actually be non-payble
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1459" class=".btn">#1459</a>
-            </td>
-            <td>
-                <b>
-                    Do not overwrite accounts' signer and writer flags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When we traverse a functions to collect accounts, we may add the same account multiple times. IndexMap overwrites the entry in the table, whenever we add the same key again. We should not overwrite the writer and signer flags, however.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 21:30:49 +0000 UTC
-    </div>
-</div>
-

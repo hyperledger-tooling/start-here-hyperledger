@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2589" class=".btn">#2589</a>
+            </td>
+            <td>
+                <b>
+                    build(openapi): license presence check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Adds a custom check that ensures that all the properties of the
+license object are specified (name, identifier, url).
+2. Optimized the custom-check that verifies the opan API json specs so
+that it ignores **/node_modules/ not just node_modules (meaning that it
+was only excluding the root dir not all sub-dirs of the packages as well)
+
+Fixes #490
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-01 00:41:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2588" class=".btn">#2588</a>
             </td>
             <td>
@@ -347,34 +381,6 @@ Closes: #2577
     </table>
     <div class="right-align">
         Created At 2023-07-25 09:07:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2575" class=".btn">#2575</a>
-            </td>
-            <td>
-                <b>
-                    refactor(cacti-cmd-gui-app): rename to cacti-gui-tx-viewer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2572
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 18:35:52 +0000 UTC
     </div>
 </div>
 
