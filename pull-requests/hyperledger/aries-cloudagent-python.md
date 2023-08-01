@@ -407,31 +407,3 @@ Closes #2206
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2348" class=".btn">#2348</a>
-            </td>
-            <td>
-                <b>
-                    Extract getting verification key for proof signing into VerificationKeyStrategy class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Following the logic in PR [2235](https://github.com/hyperledger/aries-cloudagent-python/pull/2235) it is also beneficial to have the strategy for getting verification key itself overridable by plugins.
-
-Such a use case would be to use the universal resolver to get a DID Document and fetch a verkey identified by the key ID. Then search the wallet by the verkey to obtain DIDInfo.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-25 12:08:53 +0000 UTC
-    </div>
-</div>
-
