@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1473" class=".btn">#1473</a>
+            </td>
+            <td>
+                <b>
+                    Updates for Solidity 0.8.21
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solidity introduces an experimental feature:
+
+	pragma experimental solidity;
+
+	import std.stub;
+
+Note it is not supported yet, but we've added it to the Solidity parser and formatter, and Solang now gives nice error messages when it encounters these.
+
+Note that the evm test failures have gone up, but this is not a regression. There are simply more tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-01 13:11:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1472" class=".btn">#1472</a>
             </td>
             <td>
@@ -70,7 +104,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    General fixes
+                    Improve function names and other minor changes (nfc)
                 </b>
             </td>
         </tr>
@@ -81,12 +115,15 @@ permalink: /pull-requests/hyperledger/solang
             <td>
                 This PR has general fixes in Solang, namely:
 
-1. Rename `must_fail` to `may_fail` as the usage of this function does not imply the function will fail.
+1. Added an assertion at `fn must_fail` to make sure the called function returns an error.
 2. Rename `edges` to `successors`, as the function returns the successors of a block.
 3. Rename `clone_for_parent_block` to `deep_clone`.
 4. Rename `set_maxi_signed` to `get_max_signed`
 5. Rename `set_max_unsigned` to `set_max_unsigned`
 6. Fix typos in comments and in function names.
+
+Edit: I slipped in another change.
+7. Use `.expect("reason")` instead of `if {} else { unreachable!()}` at `dead_storage.rs`.
             </td>
         </tr>
     </table>

@@ -381,29 +381,3 @@ Closes #2206
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2350" class=".btn">#2350</a>
-            </td>
-            <td>
-                <b>
-                    Oob problem report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Supersedes #2150. Closes #2101. I am volunteering to help get this change in; looks like things are nearly there, just need to fix some issues with tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-25 17:00:03 +0000 UTC
-    </div>
-</div>
-
