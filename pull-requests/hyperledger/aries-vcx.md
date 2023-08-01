@@ -317,29 +317,3 @@ DidExchange does this much better by standardizing the acknowledgement of the `R
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/911" class=".btn">#911</a>
-            </td>
-            <td>
-                <b>
-                    Move PublicKey to a separate crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This allows using `PublicKey` in the forthcoming `did_key` crate without importing the entire `did_peer` crate unnecessarily. The only reason `PublicKey` resided in the `did_peer` in the first place was because it was not used anywhere else yet.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-25 15:50:48 +0000 UTC
-    </div>
-</div>
-

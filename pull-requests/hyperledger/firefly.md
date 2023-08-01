@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1386" class=".btn">#1386</a>
+            </td>
+            <td>
+                <b>
+                    Prevent inserting token transfers with invalid blockchain event refs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If an existing blockchain event is found, be sure to look up and use the existing ID when inserting token transfers/approvals.
+
+Fixes #1385
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-01 15:40:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1380" class=".btn">#1380</a>
             </td>
             <td>
@@ -115,32 +143,6 @@ Fixes #1376
     </table>
     <div class="right-align">
         Created At 2023-07-26 16:35:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1373" class=".btn">#1373</a>
-            </td>
-            <td>
-                <b>
-                    Update CODEOWNERS and MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-25 18:09:40 +0000 UTC
     </div>
 </div>
 
