@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2391" class=".btn">#2391</a>
+            </td>
+            <td>
+                <b>
+                    fix: keylist update response race condition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When receiving an OOB invitation and automatically accepting by sending a DID Exchange request, it is possible to send a keylist update to the mediator and receive a response back before the connection is saved. This resulted in errors like:
+
+```
+Traceback (most recent call last):
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/protocols/coordinate_mediation/v1_0/route_manager.py", line 273, in connection_from_recipient_key
+    conn = await ConnRecord.retrieve_by_tag_filter(
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/messaging/models/base_record.py", line 284, in retrieve_by_tag_filter
+    raise StorageNotFoundError(
+aries_cloudagent.storage.error.StorageNotFoundError: ConnRecord record not found for {'invitation_key': 'qHFoiMYB58Y25wRkFfYajhFLSUvJFZZbJStiaKL1LvW'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/protocols/coordinate_mediation/v1_0/handlers/keylist_update_response_handler.py", line 45, in notify_keylist_updated
+    key_to_connection = {
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/protocols/coordinate_mediation/v1_0/handlers/keylist_update_response_handler.py", line 46, in <dictcomp>
+    updated.recipient_key: await route_manager.connection_from_recipient_key(
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/protocols/coordinate_mediation/v1_0/route_manager.py", line 280, in connection_from_recipient_key
+    conn = await ConnRecord.retrieve_by_did(session, my_did=did_info.did)
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/connections/models/conn_record.py", line 313, in retrieve_by_did
+    return await cls.retrieve_by_tag_filter(session, tag_filter, post_filter)
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/messaging/models/base_record.py", line 284, in retrieve_by_tag_filter
+    raise StorageNotFoundError(
+aries_cloudagent.storage.error.StorageNotFoundError: ConnRecord record not found for {'my_did': '2XamEWAbXkzx4eKW24PmSY'}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/core/dispatcher.py", line 269, in handle_message
+    await handler(context, responder)
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/protocols/coordinate_mediation/v1_0/handlers/keylist_update_response_handler.py", line 31, in handle
+    await self.notify_keylist_updated(
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/protocols/coordinate_mediation/v1_0/handlers/keylist_update_response_handler.py", line 52, in notify_keylist_updated
+    raise HandlerException(
+aries_cloudagent.messaging.base_handler.HandlerException: Unknown recipient key received in keylist update response
+```
+
+Under this condition, this makes it impossible for the keylist update response event emitter to know what connection the updated key was associated with. This PR addresses this by ensuring the DID is associated with the connection record before emitting a keylist update to the mediator.
+
+~~There is a side effect to this change: one additional connection webhook will be emitted where the only change from the previous webhook will be a value for `my_did`; the state will not change from `invitation-received`. It's possible a controller might not like this -- though I think that would be a sign of other issues.~~ Nevermind, I solved this issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 22:22:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2365" class=".btn">#2365</a>
             </td>
             <td>
@@ -365,33 +432,6 @@ Such a use case would be to use the universal resolver to get a DID Document and
     </table>
     <div class="right-align">
         Created At 2023-07-25 12:08:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2344" class=".btn">#2344</a>
-            </td>
-            <td>
-                <b>
-                    0.9.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 20:03:11 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    Initial agenda for August 3, 2023
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">meeting-minutes</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-07-31 21:46:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/toc/pull/143" class=".btn">#143</a>
             </td>
             <td>
@@ -24,10 +50,10 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">decision-log</span>
             </td>
             <td>
-                TODO: need to work on hyperlinks in markdown.
+                <nil>
             </td>
         </tr>
     </table>

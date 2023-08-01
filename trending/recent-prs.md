@@ -1,13 +1,13 @@
 
-[143](https://github.com/hyperledger/toc/pull/143) Introduce Hyperledger Foundation's security policy
+[2589](https://github.com/hyperledger/cacti/pull/2589) build(openapi): license presence check
 
-[1472](https://github.com/hyperledger/solang/pull/1472) Minor fixes to the Solana library
+[2391](https://github.com/hyperledger/aries-cloudagent-python/pull/2391) fix: keylist update response race condition
 
-[1471](https://github.com/hyperledger/solang/pull/1471) Automatically apply suggestions of clippy pedantic
+[144](https://github.com/hyperledger/toc/pull/144) Initial agenda for August 3, 2023
 
-[1470](https://github.com/hyperledger/solang/pull/1470) General fixes
+[185](https://github.com/hyperledger/aries-mobile-test-harness/pull/185) streamline the iOS scroll to bottom
 
-[3770](https://github.com/hyperledger/iroha/pull/3770) [refactor] #3752: Replace `MockValidator` with `Initial`
+[125](https://github.com/hyperledger-labs/fabric-operator/pull/125) Let console handle auth_scheme
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
