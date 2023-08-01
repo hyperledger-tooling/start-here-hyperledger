@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/bevel
 
 prometheus server deployments for individual organizations
 
-fixes: 2290
+fixes #2290
             </td>
         </tr>
     </table>

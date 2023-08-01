@@ -1,13 +1,13 @@
 
-[3772](https://github.com/hyperledger/iroha/pull/3772) [feature] #3276: Add `Log` isi 
+[1534](https://github.com/hyperledger/aries-framework-javascript/pull/1534) build(deps): bump @digitalcredentials/jsonld-signatures from 9.3.1 to 9.3.2
 
-[2589](https://github.com/hyperledger/cacti/pull/2589) build(openapi): license presence check
+[1533](https://github.com/hyperledger/aries-framework-javascript/pull/1533) build(deps): bump @types/ws from 8.5.4 to 8.5.5
 
-[2391](https://github.com/hyperledger/aries-cloudagent-python/pull/2391) fix: keylist update response race condition
+[1532](https://github.com/hyperledger/aries-framework-javascript/pull/1532) build(deps): bump @cosmjs/proto-signing from 0.29.5 to 0.31.0
 
-[144](https://github.com/hyperledger/toc/pull/144) Initial agenda for August 3, 2023
+[1531](https://github.com/hyperledger/aries-framework-javascript/pull/1531) build(deps): bump tsyringe from 4.7.0 to 4.8.0
 
-[185](https://github.com/hyperledger/aries-mobile-test-harness/pull/185) streamline the iOS scroll to bottom
+[1530](https://github.com/hyperledger/aries-framework-javascript/pull/1530) build(deps): bump web-did-resolver from 2.0.23 to 2.0.27
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
