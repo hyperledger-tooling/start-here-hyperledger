@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1369" class=".btn">#1369</a>
+            </td>
+            <td>
+                <b>
+                    Update revert reason docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update revert reason docs to specify that revert reason is included by default in `eth_estimateGas` and `eth_call` errors. Also, fixed formatting issues of code blocks. 
+
+See https://besu-docs-8m1vtnb6j-hyperledger.vercel.app/development/private-networks/how-to/send-transactions/revert-reason for changes.
+
+Fixes #1361 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-01 18:59:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1368" class=".btn">#1368</a>
             </td>
             <td>

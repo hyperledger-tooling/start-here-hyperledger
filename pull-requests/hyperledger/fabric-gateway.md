@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                 Also update dependencies for Go and Node implementation to stay current.
             </td>
         </tr>
     </table>

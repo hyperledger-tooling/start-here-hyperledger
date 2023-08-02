@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1535" class=".btn">#1535</a>
+            </td>
+            <td>
+                <b>
+                    fix: force did:key resolver/registrar presence
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1528 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-01 23:53:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1534" class=".btn">#1534</a>
             </td>
             <td>

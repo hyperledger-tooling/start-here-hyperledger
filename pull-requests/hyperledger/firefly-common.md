@@ -67,32 +67,3 @@ This PR provides those features as optional base functionality in `CRUD` to avoi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/92" class=".btn">#92</a>
-            </td>
-            <td>
-                <b>
-                    Add mods to fields, specifically for "lower(field)" in SQL
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Have a microservice with a requirement to use `lower(address)` function on query filters against the DB, in order to work with a PostgreSQL index on `lower(address)`. This allows efficient indexed query, using case insensitive searches (for example using the checksumed Eth address).
-
-With this PR, it should be as simple as:
-https://github.com/hyperledger/firefly-common/blob/8c28b1d53192521a17931bed7dfd8c68de37d5c2/pkg/dbsql/filter_sql_test.go#L43
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-25 23:09:11 +0000 UTC
-    </div>
-</div>
-

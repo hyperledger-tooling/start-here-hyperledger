@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4344" class=".btn">#4344</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v2.5.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add docs and release notes for v2.5.4 release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-01 23:03:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4343" class=".btn">#4343</a>
             </td>
             <td>
@@ -71,38 +97,6 @@ Backport of https://github.com/hyperledger/fabric/pull/4340
     </table>
     <div class="right-align">
         Created At 2023-07-31 10:35:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4339" class=".btn">#4339</a>
-            </td>
-            <td>
-                <b>
-                    WIP: WAL "max entry size limit exceeded" bug reproduction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reproducing bug #4290.
-Please do not merge this PR, it is simply for demonstrating the bug.
-
-#### Type of change
-
-- Bug fix
-- Test update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-31 09:37:09 +0000 UTC
     </div>
 </div>
 
