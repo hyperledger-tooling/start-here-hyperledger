@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/145" class=".btn">#145</a>
+            </td>
+            <td>
+                <b>
+                    Add Iroha 2023 Q3 Report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">quarterly-report</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-02 01:01:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/toc/pull/144" class=".btn">#144</a>
             </td>
             <td>
@@ -59,32 +85,6 @@ permalink: /pull-requests/hyperledger/toc
     </table>
     <div class="right-align">
         Created At 2023-07-31 17:47:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/142" class=".btn">#142</a>
-            </td>
-            <td>
-                <b>
-                    Create 2023-Q3-Hyperledger-Sawtooth.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                Update will be made ready for review after the contributor call on July 26th and https://github.com/hyperledger/sawtooth-docs/pull/208/ is merged
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-25 21:35:06 +0000 UTC
     </div>
 </div>
 

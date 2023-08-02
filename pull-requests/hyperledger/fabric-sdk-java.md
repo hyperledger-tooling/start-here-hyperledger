@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
             </td>
             <td>
                 Also ensure checkstyle checks run correctly. Current versions require Java 11 or later.
+
+Contributes to #285
             </td>
         </tr>
     </table>
