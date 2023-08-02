@@ -275,29 +275,3 @@ This work is also a re-write of https://github.com/hyperledger/solang/pull/1443
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1464" class=".btn">#1464</a>
-            </td>
-            <td>
-                <b>
-                    Remove duplicate dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If a dependency appears under `[dependencies]`, it does not need to be under `[dev-dependencies]`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-26 18:02:10 +0000 UTC
-    </div>
-</div>
-
