@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3610" class=".btn">#3610</a>
-            </td>
-            <td>
-                <b>
-                    sd-jwt 5 issuance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-26 14:43:48 +0000 UTC
-    </div>
-</div>
-

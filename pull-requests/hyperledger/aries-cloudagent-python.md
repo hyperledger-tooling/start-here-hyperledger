@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2394" class=".btn">#2394</a>
+            </td>
+            <td>
+                <b>
+                    feat: add DID Exchange specific problem reports and reject endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR makes problem reports sent during the DID Exchange protocol have the DID Exchange protocol adopted problem report rather than the generic problem report. This is defined in RFC 23 but has not been implemented by ACA-Py to this point. In other words, this is a correction to bring ACA-Py more in line with the RFC. These problem reports were automatically sent if there was an issue in processing the DID Exchange messages.
+
+In addition to the above changes, this PR also introduces a `POST /didexchange/{conn-id}/reject` endpoint, enabling the controller to explicitly reject an OOB invitation that specifies DID Exchange as the handshake protocol or a DID Exchange request. Rejecting a response is not supported; don't send a request if you're going to reject the response. This will send a problem report to the originator of the invitation/request and will mark the (local) connection record as abandoned. It won't delete the record though (maybe it should)?
+
+This at least partially supersedes #2350, covering the rejection of invitations to exchange DIDs. However, it does not introduce automatic handling of timeouts for invitations, as was discussed in the comments.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-02 13:27:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2393" class=".btn">#2393</a>
             </td>
             <td>
@@ -182,43 +212,6 @@ Under this condition, this makes it impossible for the keylist update response e
     </table>
     <div class="right-align">
         Created At 2023-07-28 08:28:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2356" class=".btn">#2356</a>
-            </td>
-            <td>
-                <b>
-                    :rocket: Performance Boost: Replace json with orjson through JsonUtil class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The [orjson](https://github.com/ijl/orjson) library provides superior performance over the built-in json module. Please see their readme for an overview of features and performance/runtime comparisons.
-
-One note is: `orjson.dumps` serializes to `bytes`, instead of `str`, so it's not a drop in replacement.
-Edit: it also omits whitespace between keys and values. i.e. json.dumps: `{"k": [1, 2, 3]}`. orjson.dumps:  `{"k":[1,2,3]}`
-
-There are 449 usages of `json.dumps` throughout the codebase. To refactor, I would just want to regex replace all of those with `orjson.dumps`, but then it would require appending `.decode()` as well (for bytes -> string).
-
-That inspired me to create a JsonUtil class in `utils.json.py`. So, I could replace all instances of `json.loads` and `json.dumps` with `JsonUtil.*`.
-
-This also has the benefit of providing an abstraction layer to simplify future transitions between different JSON libraries.
-
-Note: I had to replace `import json` with `from aries_cloudagent.utils.json import JsonUtils`. Re-added `import json` where needed. However, that means the import organisation is no longer consistent, because json is a top-level import, and the utils import shouldn't be. Nitpick, bit I would want to do a import sort across all files to fix this ...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-26 17:40:15 +0000 UTC
     </div>
 </div>
 

@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    BCW updated request and offer TestIDs on Contact page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the TestID locators on the contact page for the Credential Offer and the Proof Request view buttons changed in BC Wallet build 1087.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-26 13:51:33 +0000 UTC
-    </div>
-</div>
-
