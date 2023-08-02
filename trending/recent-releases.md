@@ -1,13 +1,13 @@
 
-[v2.5.4](https://github.com/hyperledger/fabric/releases/tag/v2.5.4) v2.5.4
+[v1.2.14](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.2.14) v1.2.14
 
-[0.57.1](https://github.com/hyperledger/aries-vcx/releases/tag/0.57.1) Release 0.57.1
+[v2.2.13](https://github.com/hyperledger/fabric/releases/tag/v2.2.13) v2.2.13
 
-[v1.2.11](https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.11) v1.2.11
+[anchorpeer-0.14.1](https://github.com/hyperledger/bevel/releases/tag/anchorpeer-0.14.1) anchorpeer-0.14.1
 
-[v1.2.2](https://github.com/hyperledger/firefly/releases/tag/v1.2.2) v1.2.2
+[v1.3.2](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.2) v1.3.2
 
-[v1.0.5-4](https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.5-4) v1.0.5-4
+[v1.3.1](https://github.com/hyperledger/fabric-gateway/releases/tag/v1.3.1) v1.3.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
