@@ -15,34 +15,30 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.3.1
+                    v1.3.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.3.1
+                    v1.3.2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Migration command - leveldb2postgres by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/93
-* Avoid double-locking the read-lock calling GetTransactionByIDWithStatus by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/96
-* Provide a way for policy engines to pass additional state to callbacks by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/92
-* Fix confirmations incremental dispatch  by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/94
-* Preserve timestamps on migration from LevelDB to Postgres by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/97
+* Fixing a nonce conflict issue when the cached nonce expired. by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/99
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.0...v1.3.1
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.1...v1.3.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-07-14 18:32:24 +0000 UTC
+        Created At 2023-08-02 15:06:39 +0000 UTC
     </span>
 </div>
 
