@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5743" class=".btn">#5743</a>
+            </td>
+            <td>
+                <b>
+                    fix: Move maintainers to emeritus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I propose moving maintainers @mark-terry and @wcgcyx to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity since January 2023.
+
+We very much appreciate their contributions, but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
+
+I propose this vote remain open until either both maintainers mentioned above confirm on this PR their acceptance of this change, OR an absolute majority of active maintainers votes for the same outcome, OR until two weeks has passed, after which a voting majority will determine the outcome (with a tie resulting in no change).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-02 02:41:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5742" class=".btn">#5742</a>
             </td>
             <td>
