@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2393" class=".btn">#2393</a>
+            </td>
+            <td>
+                <b>
+                    fix: outbound send status missing on path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This corrects a flow through the `queue_outbound` method that could result in no `OutboundSendStatus` being returned. The method is strictly expected to return a status so this could cause less than graceful errors in some circumstances.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-02 11:52:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2392" class=".btn">#2392</a>
             </td>
             <td>
@@ -193,81 +219,6 @@ Note: I had to replace `import json` with `from aries_cloudagent.utils.json impo
     </table>
     <div class="right-align">
         Created At 2023-07-26 17:40:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2355" class=".btn">#2355</a>
-            </td>
-            <td>
-                <b>
-                    Correct the response type in `send_rev_reg_def`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Simple fix: the `send_rev_reg_def` method can return a `rev_reg: IssuerRevRegRecord`, which doesn't line up with the expected schema (`TxnOrRevRegResultSchema`).
-
-TLDR: 
-- the OpenAPI spec says the response is a `TxnOrRevRegResultSchema`, 
-- but it's actually a `Union[RevRegResult, TxnOrRevRegResult]`.
-
-As the name suggests, the `RevRegResult` should be wrapped in a `TxnOrRevRegResult`, which this PR fixes.
-
-Initially typed out an issue, so just to show my working:
-___
-In the definition for the `send_rev_reg_def` method (in [`/aries_cloudagent/revocation/routes.py`](https://github.com/hyperledger/aries-cloudagent-python/blob/8b6c87fba2a6dc6cce4ced92d4db554fb4cad37a/aries_cloudagent/revocation/routes.py#L1019)), the response schema is indicated to be a `TxnOrRevRegResultSchema`:
-```py
-@response_schema(TxnOrRevRegResultSchema(), 200, description="")
-async def send_rev_reg_def(request: web.BaseRequest):
-```
-which has the definition:
-```py
-class TxnOrRevRegResultSchema(OpenAPISchema):
-    """Result schema for credential definition send request."""
-
-    sent = fields.Nested(
-        RevRegResultSchema(),
-        required=False,
-        definition="Content sent",
-    )
-    txn = fields.Nested(
-        TransactionRecordSchema(),
-        required=False,
-        description="Revocation registry definition transaction to endorse",
-    )
-```
-
-In the [`aries-cloudcontroller-python`](https://github.com/didx-xyz/aries-cloudcontroller-python) project, we have to manually alter the model, generated from the OpenAPI spec, to correct that the response can actually be a `Union[RevRegResult, TxnOrRevRegResult]`, because that's what the server gives.
-
-So, something is wrong with the implementation. Let's inspect [the code](https://github.com/hyperledger/aries-cloudagent-python/blob/8b6c87fba2a6dc6cce4ced92d4db554fb4cad37a/aries_cloudagent/revocation/routes.py#L1019):
-```py
-@response_schema(TxnOrRevRegResultSchema(), 200, description="")
-async def send_rev_reg_def(request: web.BaseRequest):
-    ...
-    if not create_transaction_for_endorser:
-        return web.json_response({"result": rev_reg.serialize()})
-
-    else:
-        ...
-        return web.json_response({"txn": transaction.serialize()})
-```
-
-There are two return statements, providing either `rev_reg: IssuerRevRegRecord`, or `transaction: TransactionRecord`.
-
-The problem seems to be the key "result" that's being used in the rev_reg response, which should presumably be "sent", in order to correctly map to the key in the `TxnOrRevRegResultSchema`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-26 10:58:24 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/159" class=".btn">#159</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/161" class=".btn">#161</a>
             </td>
             <td>
                 <b>
-                    Support copying individual profiles or a whole Store
+                    fix(js): storeRekey in React Native
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                Fixes #18
-
-Also adds methods to get and set the default profile (opened when none is specified).
-
+                StoreRekey for React Native was not calling the proper method.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-20 20:24:00 +0000 UTC
+        Created At 2023-08-02 12:08:20 +0000 UTC
     </div>
 </div>
 

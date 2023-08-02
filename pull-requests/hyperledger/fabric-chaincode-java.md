@@ -45,31 +45,3 @@ Contributes to #307
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/309" class=".btn">#309</a>
-            </td>
-            <td>
-                <b>
-                    Remove redundant fabric-sdk-java integration test dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Tidy-up integration test code, including removing redundant code.
-
-Contributes to #307
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-26 09:16:28 +0000 UTC
-    </div>
-</div>
-

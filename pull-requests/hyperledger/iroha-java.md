@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/362" class=".btn">#362</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/367" class=".btn">#367</a>
             </td>
             <td>
                 <b>
-                    Allure ids and permission token test
+                    Duty/02-08-23: Update i2 JDK to liberica distribution
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                Duty/02-08-23: Update i2 JDK to liberica distribution
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-25 13:42:08 +0000 UTC
+        Created At 2023-08-02 10:06:01 +0000 UTC
     </div>
 </div>
 
