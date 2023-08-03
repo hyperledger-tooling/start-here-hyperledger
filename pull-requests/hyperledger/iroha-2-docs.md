@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/357" class=".btn">#357</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/365" class=".btn">#365</a>
             </td>
             <td>
                 <b>
-                    Bump word-wrap from 1.2.3 to 1.2.4
+                    Bump vite from 4.3.2 to 4.3.9
                 </b>
             </td>
         </tr>
@@ -27,48 +27,68 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [word-wrap](https://github.com/jonschlinkert/word-wrap) from 1.2.3 to 1.2.4.
+                Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 4.3.2 to 4.3.9.
 <details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/jonschlinkert/word-wrap/releases">word-wrap's releases</a>.</em></p>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md">vite's changelog</a>.</em></p>
 <blockquote>
-<h2>1.2.4</h2>
-<h2>What's Changed</h2>
+<h2><!-- raw HTML omitted -->4.3.9 (2023-05-26)<!-- raw HTML omitted --></h2>
 <ul>
-<li>Remove default indent by <a href="https://github.com/mohd-akram"><code>@​mohd-akram</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/24">jonschlinkert/word-wrap#24</a></li>
-<li>🔒fix: CVE 2023 26115 (2) by <a href="https://github.com/OlafConijn"><code>@​OlafConijn</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/41">jonschlinkert/word-wrap#41</a></li>
-<li>:lock: fix: CVE-2023-26115 by <a href="https://github.com/aashutoshrathi"><code>@​aashutoshrathi</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/33">jonschlinkert/word-wrap#33</a></li>
-<li>chore: publish workflow by <a href="https://github.com/OlafConijn"><code>@​OlafConijn</code></a> in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/42">jonschlinkert/word-wrap#42</a></li>
+<li>fix: fs.deny with leading double slash (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13348">#13348</a>) (<a href="https://github.com/vitejs/vite/commit/813ddd6">813ddd6</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13348">#13348</a></li>
+<li>fix: optimizeDeps during build and external ids (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13274">#13274</a>) (<a href="https://github.com/vitejs/vite/commit/e3db771">e3db771</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13274">#13274</a></li>
+<li>fix(css): return deps if have no postcss plugins (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13344">#13344</a>) (<a href="https://github.com/vitejs/vite/commit/28923fb">28923fb</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13344">#13344</a></li>
+<li>fix(legacy): style insert order (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13266">#13266</a>) (<a href="https://github.com/vitejs/vite/commit/e444375">e444375</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13266">#13266</a></li>
+<li>chore: revert prev release commit (<a href="https://github.com/vitejs/vite/commit/2a30a07">2a30a07</a>)</li>
+<li>release: v4.3.9 (<a href="https://github.com/vitejs/vite/commit/5c9abf7">5c9abf7</a>)</li>
+<li>docs: optimizeDeps.needsInterop (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13323">#13323</a>) (<a href="https://github.com/vitejs/vite/commit/b34e79c">b34e79c</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13323">#13323</a></li>
+<li>test: respect commonjs options in playgrounds (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13273">#13273</a>) (<a href="https://github.com/vitejs/vite/commit/19e8c68">19e8c68</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13273">#13273</a></li>
+<li>refactor: simplify SSR options' if statement (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13254">#13254</a>) (<a href="https://github.com/vitejs/vite/commit/8013a66">8013a66</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13254">#13254</a></li>
+<li>perf(ssr): calculate stacktrace offset lazily (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13256">#13256</a>) (<a href="https://github.com/vitejs/vite/commit/906c4c1">906c4c1</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13256">#13256</a></li>
 </ul>
-<h2>New Contributors</h2>
+<h2><!-- raw HTML omitted -->4.3.8 (2023-05-18)<!-- raw HTML omitted --></h2>
 <ul>
-<li><a href="https://github.com/mohd-akram"><code>@​mohd-akram</code></a> made their first contribution in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/24">jonschlinkert/word-wrap#24</a></li>
-<li><a href="https://github.com/OlafConijn"><code>@​OlafConijn</code></a> made their first contribution in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/41">jonschlinkert/word-wrap#41</a></li>
-<li><a href="https://github.com/aashutoshrathi"><code>@​aashutoshrathi</code></a> made their first contribution in <a href="https://redirect.github.com/jonschlinkert/word-wrap/pull/33">jonschlinkert/word-wrap#33</a></li>
+<li>fix: avoid outdated module to crash in importAnalysis after restart (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13231">#13231</a>) (<a href="https://github.com/vitejs/vite/commit/3609e79">3609e79</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13231">#13231</a></li>
+<li>fix(ssr): skip updateCjsSsrExternals if legacy flag disabled (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13230">#13230</a>) (<a href="https://github.com/vitejs/vite/commit/13fc345">13fc345</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13230">#13230</a></li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.4">https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.4</a></p>
+<h2><!-- raw HTML omitted -->4.3.7 (2023-05-16)<!-- raw HTML omitted --></h2>
+<ul>
+<li>fix: revert only watch .env files in envDir (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/12587">#12587</a>) (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13217">#13217</a>) (<a href="https://github.com/vitejs/vite/commit/0fd4616">0fd4616</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/12587">#12587</a> <a href="https://redirect.github.com/vitejs/vite/issues/13217">#13217</a></li>
+<li>fix(assetImportMetaUrl): allow ternary operator in template literal urls (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13121">#13121</a>) (<a href="https://github.com/vitejs/vite/commit/d5d9a31">d5d9a31</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13121">#13121</a></li>
+</ul>
+<h2><!-- raw HTML omitted -->4.3.6 (2023-05-15)<!-- raw HTML omitted --></h2>
+<ul>
+<li>fix: avoid dev-server crash when ws proxy error (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/12829">#12829</a>) (<a href="https://github.com/vitejs/vite/commit/87e1f58">87e1f58</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/12829">#12829</a></li>
+<li>fix: call <code>tryFsResolve</code> for relative <code>new URL(foo, import.meta.url)</code> (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13142">#13142</a>) (<a href="https://github.com/vitejs/vite/commit/eeb0617">eeb0617</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13142">#13142</a></li>
+<li>fix: don't inject CSS sourcemap for direct requests (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13115">#13115</a>) (<a href="https://github.com/vitejs/vite/commit/7d80a47">7d80a47</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13115">#13115</a></li>
+<li>fix: handle more yarn pnp load errors (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13160">#13160</a>) (<a href="https://github.com/vitejs/vite/commit/adf61d9">adf61d9</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13160">#13160</a></li>
+<li>fix(build): declare moduleSideEffects for vite:modulepreload-polyfill (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13099">#13099</a>) (<a href="https://github.com/vitejs/vite/commit/d63129b">d63129b</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13099">#13099</a></li>
+<li>fix(css): respect <code>esbuild.charset</code> when minify (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13190">#13190</a>) (<a href="https://github.com/vitejs/vite/commit/4fd35ed">4fd35ed</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13190">#13190</a></li>
+<li>fix(server): intercept ping requests (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13117">#13117</a>) (<a href="https://github.com/vitejs/vite/commit/d06cc42">d06cc42</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13117">#13117</a></li>
+<li>fix(ssr): stacktrace uses abs path with or without sourcemap (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/12902">#12902</a>) (<a href="https://github.com/vitejs/vite/commit/88c855e">88c855e</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/12902">#12902</a></li>
+<li>perf: skip windows absolute paths for node resolve (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13162">#13162</a>) (<a href="https://github.com/vitejs/vite/commit/e640939">e640939</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13162">#13162</a></li>
+<li>chore: remove useless dep (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13165">#13165</a>) (<a href="https://github.com/vitejs/vite/commit/9a7ec98">9a7ec98</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13165">#13165</a></li>
+<li>chore(reporter): reuse clearLine (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13156">#13156</a>) (<a href="https://github.com/vitejs/vite/commit/535795a">535795a</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13156">#13156</a></li>
+</ul>
+<h2><!-- raw HTML omitted -->4.3.5 (2023-05-05)<!-- raw HTML omitted --></h2>
+<ul>
+<li>fix: location is not defined error in cleanScssBugUrl (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13100">#13100</a>) (<a href="https://github.com/vitejs/vite/commit/91d7b67">91d7b67</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13100">#13100</a></li>
+<li>fix: unwrapId and pass ssr flag when adding to moduleGraph in this.load (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13083">#13083</a>) (<a href="https://github.com/vitejs/vite/commit/9041e19">9041e19</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13083">#13083</a></li>
+<li>fix(assetImportMetaUrl): reserve dynamic template literal query params (<a href="https://github.com/vitejs/vite/tree/HEAD/packages/vite/issues/13034">#13034</a>) (<a href="https://github.com/vitejs/vite/commit/7089528">7089528</a>), closes <a href="https://redirect.github.com/vitejs/vite/issues/13034">#13034</a></li>
+</ul>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/f64b188c7261d26b99e1e2075d6b12f21798e83a"><code>f64b188</code></a> run verb to generate README</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/03ea08256ba0c8e8b02b1b304f0f5bd2b1863207"><code>03ea082</code></a> Merge pull request <a href="https://redirect.github.com/jonschlinkert/word-wrap/issues/42">#42</a> from jonschlinkert/chore/publish-workflow</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/420dce9a2412b21881202b73a3c34f0edc53cb2e"><code>420dce9</code></a> Merge pull request <a href="https://redirect.github.com/jonschlinkert/word-wrap/issues/41">#41</a> from jonschlinkert/fix/CVE-2023-26115-2</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/bfa694edf55bb84ff84512f13da6d68bf7593f06"><code>bfa694e</code></a> Update .github/workflows/publish.yml</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/ace0b3c78f81aaf43040bab3bc91d3c5546d3fd2"><code>ace0b3c</code></a> chore: bump version to 1.2.4</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/6fd727594676f3e1b196b08a320908bec2f4ca02"><code>6fd7275</code></a> chore: add publish workflow</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/30d6daf60fce429f5f559252fa86ee78200652c4"><code>30d6daf</code></a> chore: fix test</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/655929cabea6299dddf3b4a21fc3713fca701b48"><code>655929c</code></a> chore: remove package-lock</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/49e08bbc32a84da5d79e6b7e0fa74ff6217f6d81"><code>49e08bb</code></a> chore: added an additional testcase</li>
-<li><a href="https://github.com/jonschlinkert/word-wrap/commit/9f626935f3fac6ec0f3c4b26baea4eb9740d9645"><code>9f62693</code></a> fix: cve 2023-26115</li>
-<li>Additional commits viewable in <a href="https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.4">compare view</a></li>
+<li>See full diff in <a href="https://github.com/vitejs/vite/commits/v4.3.9/packages/vite">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=word-wrap&package-manager=npm_and_yarn&previous-version=1.2.3&new-version=1.2.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=vite&package-manager=npm_and_yarn&previous-version=4.3.2&new-version=4.3.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -99,40 +119,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-20 17:47:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/356" class=".btn">#356</a>
-            </td>
-            <td>
-                <b>
-                    Display the compatibility matrix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Linked issue
-
-Closes #355 
-
-## TODO
-
-- [ ] Specify the actual URL of the service in `.env`
-- [ ] Display the matrix in an appropriate place in the docs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-19 08:22:26 +0000 UTC
+        Created At 2023-08-03 05:26:32 +0000 UTC
     </div>
 </div>
 
