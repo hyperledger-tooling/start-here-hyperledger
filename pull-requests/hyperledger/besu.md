@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5748" class=".btn">#5748</a>
+            </td>
+            <td>
+                <b>
+                    Force the use of jdk18 version of Bouncy Castle library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This avoid that any dependency can include the jdk15 version in the distribution.
+
+Implement the solution described here https://docs.gradle.org/7.6/userguide/dependency_capability_conflict.html
+
+Had to inline the `xor` function since it is now deprecated in newer versions of Bouncy Castle.
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-03 14:26:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5746" class=".btn">#5746</a>
             </td>
             <td>
@@ -351,41 +392,6 @@ Update ATs to use londonBlock (existing genesis allocs necessitate zeroBaseFee a
     </table>
     <div class="right-align">
         Created At 2023-07-28 08:26:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5726" class=".btn">#5726</a>
-            </td>
-            <td>
-                <b>
-                    Correctly cache the TransactionValidator instance on creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-in #5682 `Suppliers.memoize` was misused and so a new instance was created at every `get` invocation, instead of correctly return the cached instance created at creation time
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 18:04:32 +0000 UTC
     </div>
 </div>
 

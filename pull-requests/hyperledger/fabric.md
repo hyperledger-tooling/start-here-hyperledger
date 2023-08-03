@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4352" class=".btn">#4352</a>
+            </td>
+            <td>
+                <b>
+                    policy update protection test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Issue #4331 
+
+#### Type of change
+
+- Bug fix
+- Test update
+
+#### Related issues
+
+#4331 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-03 13:19:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4345" class=".btn">#4345</a>
             </td>
             <td>
@@ -221,33 +256,6 @@ As per https://github.com/hyperledger/fabric/issues/4333.
     </table>
     <div class="right-align">
         Created At 2023-07-28 14:34:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4330" class=".btn">#4330</a>
-            </td>
-            <td>
-                <b>
-                    Remove ReplicationBackgroundRefrshInterval
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It's not used anymore.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 13:48:21 +0000 UTC
     </div>
 </div>
 
