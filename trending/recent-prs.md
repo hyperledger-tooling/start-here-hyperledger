@@ -1,13 +1,13 @@
 
-[287](https://github.com/hyperledger/fabric-sdk-java/pull/287) Update version following v2.2.23 release
+[33](https://github.com/hyperledger/indy-shared-rs/pull/33) Update to anoncreds-clsignatures 0.2, lighten indy-utils
 
-[616](https://github.com/hyperledger/fabric-gateway/pull/616) Update versions following v1.3.1 release
+[148](https://github.com/hyperledger/toc/pull/148) Hyperledger Aries Q3 Quarterly Report
 
-[2336](https://github.com/hyperledger/bevel/pull/2336) [ci-skip] Updated docs for minikube
+[147](https://github.com/hyperledger/toc/pull/147) Hyperledger AnonCreds Q3 Quarterly Report
 
-[162](https://github.com/hyperledger/aries-askar/pull/162) (python) Add autocommit flag to transaction
+[146](https://github.com/hyperledger/toc/pull/146) Q3 Quarterly Report for Hyperledger Indy
 
-[4345](https://github.com/hyperledger/fabric/pull/4345) Release commit for v2.2.13
+[2395](https://github.com/hyperledger/aries-cloudagent-python/pull/2395) Multitenant check endorser_info before saving
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
