@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    baseURL options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Optional overrides for the baseURLs used by the SDK when calling firefly
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 09:25:42 +0000 UTC
-    </div>
-</div>
-

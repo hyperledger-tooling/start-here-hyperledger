@@ -154,29 +154,3 @@ Depends on: #2577
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2587" class=".btn">#2587</a>
-            </td>
-            <td>
-                <b>
-                    fix(security): vulnerabilities found in example-carbon-accounting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2062
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 06:25:21 +0000 UTC
-    </div>
-</div>
-
