@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/157" class=".btn">#157</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/158" class=".btn">#158</a>
             </td>
             <td>
                 <b>
-                    Added blinded secret proof and signature correctness proof
+                    Added description of the nonce in the credential request data model and document how the nonce from the Credential Offer is used.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                Updated `terminologies` section
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-26 16:55:56 +0000 UTC
+        Created At 2023-08-03 18:07:40 +0000 UTC
     </div>
 </div>
 

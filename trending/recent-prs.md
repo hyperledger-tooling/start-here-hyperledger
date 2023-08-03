@@ -1,13 +1,13 @@
 
-[94](https://github.com/hyperledger-labs/yui-relayer/pull/94) Fix StrategyI::Unrelayed{Packet,Acknowledgements}
+[158](https://github.com/hyperledger/anoncreds-spec/pull/158) Added description of the nonce in the credential request data model and document how the nonce from the Credential Offer is used.
 
-[2338](https://github.com/hyperledger/bevel/pull/2338) [docs] Fix Sphinx version to solve build error
+[113](https://github.com/hyperledger/besu-native/pull/113) Next release 0.8.1
 
-[1538](https://github.com/hyperledger/aries-framework-javascript/pull/1538) feat: support askar profiles for multi-tenancy
+[112](https://github.com/hyperledger/besu-native/pull/112) Release 0.8.0
 
-[365](https://github.com/hyperledger/iroha-2-docs/pull/365) Bump vite from 4.3.2 to 4.3.9
+[3778](https://github.com/hyperledger/iroha/pull/3778) [fix] #3777: Validate role registration
 
-[111](https://github.com/hyperledger/besu-native/pull/111) Aurura modexp
+[228](https://github.com/hyperledger/anoncreds-rs/pull/228) refactor: services function signatures improvements
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

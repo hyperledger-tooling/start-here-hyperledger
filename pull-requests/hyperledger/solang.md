@@ -193,31 +193,3 @@ In order for us to decouple them from Solang as whole, we need to refactor the V
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1467" class=".btn">#1467</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Ensure build works with latest contract-build and contract-metadata (#1466)"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The contract-build crate 3.1 was yanked: https://crates.io/crates/contract-build/versions
-
-This reverts commit 665e550c0d5591c0453ddd2f06d455f9fe078d4a.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 13:18:12 +0000 UTC
-    </div>
-</div>
-

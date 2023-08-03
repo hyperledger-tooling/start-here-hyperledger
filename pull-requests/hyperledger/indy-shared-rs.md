@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                <nil>
+                Includes some cleanups related to https://github.com/hyperledger/indy-vdr/pull/126. indy-vdr was also using TreeHash directly instead of going through MerkleTree (included in indy-data-types) so a new method is added to help avoid that.
             </td>
         </tr>
     </table>
