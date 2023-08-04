@@ -1,13 +1,13 @@
 
-[158](https://github.com/hyperledger/anoncreds-spec/pull/158) Added description of the nonce in the credential request data model and document how the nonce from the Credential Offer is used.
+[1372](https://github.com/hyperledger/besu-docs/pull/1372) Updated topics to be both public & private
 
-[113](https://github.com/hyperledger/besu-native/pull/113) Next release 0.8.1
+[229](https://github.com/hyperledger/anoncreds-rs/pull/229) Update to anoncreds-clsignatures 0.2, update tails access
 
-[112](https://github.com/hyperledger/besu-native/pull/112) Release 0.8.0
+[5750](https://github.com/hyperledger/besu/pull/5750)  23.7.1-RC burn in
 
-[3778](https://github.com/hyperledger/iroha/pull/3778) [fix] #3777: Validate role registration
+[921](https://github.com/hyperledger/aries-vcx/pull/921) Refactor test setup, add interface to write DIDs on ledger
 
-[228](https://github.com/hyperledger/anoncreds-rs/pull/228) refactor: services function signatures improvements
+[5749](https://github.com/hyperledger/besu/pull/5749) Update native libraries
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

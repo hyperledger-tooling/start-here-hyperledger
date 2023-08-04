@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/921" class=".btn">#921</a>
+            </td>
+            <td>
+                <b>
+                    Refactor test setup, add interface to write DIDs on ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-03 19:01:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/920" class=".btn">#920</a>
             </td>
             <td>
@@ -164,33 +190,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-07-28 07:54:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/917" class=".btn">#917</a>
-            </td>
-            <td>
-                <b>
-                    Release/0.57.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previous release https://github.com/hyperledger/aries-vcx/releases/tag/0.57.0 was incorrectly built for ios/java libvcx artifacts, as the anoncreds and ledger implementation was not selected in built time, causing library to fail upon calling basic functions.
-The issue has been fixed in this release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 23:03:38 +0000 UTC
     </div>
 </div>
 
