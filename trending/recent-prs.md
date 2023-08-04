@@ -1,13 +1,13 @@
 
-[2340](https://github.com/hyperledger/bevel/pull/2340) [ci-skip] fix default values in values.yaml
+[617](https://github.com/hyperledger/fabric-gateway/pull/617) Use Java 17 for publishing
 
-[3615](https://github.com/hyperledger/aries-framework-go/pull/3615) feat: verifiable credential and presentation support data integrity proof
+[183](https://github.com/hyperledger/bevel-operator-fabric/pull/183) doc: Add June workshop video to the Readme
 
-[1372](https://github.com/hyperledger/besu-docs/pull/1372) Updated topics to be both public & private
+[923](https://github.com/hyperledger/aries-vcx/pull/923) Draft: issue 922 Prover revocation states fix up
 
-[229](https://github.com/hyperledger/anoncreds-rs/pull/229) Update to anoncreds-clsignatures 0.2, update tails access
+[3782](https://github.com/hyperledger/iroha/pull/3782) [tests]: Iroha2 dev client cli tests refactoring
 
-[5750](https://github.com/hyperledger/besu/pull/5750)  23.7.1-RC burn in
+[5752](https://github.com/hyperledger/besu/pull/5752) [WIP] Rebase current EIP-6110 prototype to Cancun
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
