@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/923" class=".btn">#923</a>
+            </td>
+            <td>
+                <b>
+                    Draft: issue 922 Prover revocation states fix up
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #922 
+
+TODO
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 10:15:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/921" class=".btn">#921</a>
             </td>
             <td>
@@ -27,7 +55,8 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                - Add interface to write endorser DIDs on Indy ledger
+- In order to reasonably implement its test `test_pool_write_new_endorser_did` I have refactored code related to test setup - mainly separating building "Profiles" from building and setting up wallet. This the mentioned test to create one instance of "Faber agent" with known trusteee DID, and one instance of "Faber agent" with a random did in its wallet.
             </td>
         </tr>
     </table>
@@ -158,38 +187,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-07-29 15:56:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/918" class=".btn">#918</a>
-            </td>
-            <td>
-                <b>
-                    Refactor features, enable build with --no-default-features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                At high level, this re-enables building aries-vcx, aries-vcx-core without any features enabled. Comes along with some refactoring to make sense of things and prepare ground for gradual removal of vdrtools based components.
-
-- `aries-vcx-core`: define more granular features - this will come handy in subsequent PR's removing parts of vdrtools `vdrtools_anoncreds`, `vdrtools_wallet`, `vdrtools_ledger`
-- move non-indy specific files out of indy directories (eg `ToBaseAgencyClientWallet` moved from `aries_vcx_core::wallet::indy::agency_client_wallet` to `aries_vcx_core::wallet::agency_client_wallet`
-- `aries-vcx-core`: include `indy-api-types` as dependency to access `indy_api_types::errors` directly to simplify error mapping (`aries_vcx_core/src/errors/mapping_vdrtools.rs` )
-- remove support for `vdrtools` based ledger client from `did_resolver_sov` - it was causing some complications which won't be relevant as soon as this https://github.com/hyperledger/aries-vcx/pull/914 get merged
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-28 07:54:32 +0000 UTC
     </div>
 </div>
 

@@ -217,29 +217,3 @@ Under this condition, this makes it impossible for the keylist update response e
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2362" class=".btn">#2362</a>
-            </td>
-            <td>
-                <b>
-                    Fix empty ServiceDecorator in OobRecord causing 422 Unprocessable Entity Error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves  #2242
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-28 08:28:25 +0000 UTC
-    </div>
-</div>
-

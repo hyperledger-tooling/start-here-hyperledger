@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5752" class=".btn">#5752</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Rebase current EIP-6110 prototype to Cancun
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This is to rebase the existed implementation of EIP-6110 from Shanghai to Cancun. As well, it updates the implementation according to the latest Engine API [specification](https://github.com/ethereum/execution-apis/blob/main/src/engine/experimental/eip6110.md).
+Changes include:
+
+- [ ] Remove 6110 related changes from `engine_newPayloadV2` and `engine_getPayloadV2`
+- [ ] Rename `deposits` to `depositReceipts` in `EnginePayloadParameter`
+- [ ] Introduce `engine_newPayloadV6110` and `engine_getPayloadV6110` that are based on `engine_newPayloadV3` and `engine_getPayloadV3`
+- [ ] Revamp the existed 6110 acceptance test
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 08:32:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5750" class=".btn">#5750</a>
             </td>
             <td>
@@ -436,35 +477,6 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","param
     </table>
     <div class="right-align">
         Created At 2023-07-28 14:54:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5727" class=".btn">#5727</a>
-            </td>
-            <td>
-                <b>
-                    Make smart contract permissioning features work with london fork
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Override the transactionSimulator's default TransactionValidationParams with one that allows for exceeding the account balance (which effectively zeros the baseFee). This mimics the way that eth_estimateGas and eth_call are implemented. Similar change to #5277
-
-Update ATs to use londonBlock (existing genesis allocs necessitate zeroBaseFee as well)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-28 08:26:52 +0000 UTC
     </div>
 </div>
 

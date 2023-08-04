@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1540" class=".btn">#1540</a>
+            </td>
+            <td>
+                <b>
+                    fix: DidCommV2 - avoid breaking changes 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR aims to avoid breaking changes compared to the main branches.
+
+- Preserved export of `AgentMessage` class which actually is `DidCommV1Message`. 
+  - `AgentBaseMessage` is a common interface for V1/V2 - used internally
+- Preserved name `Attachment` for DidCommV1 message attachments       
+- Preserved name `SigningProvider`
+
+Differences with the `main`
+- `outOfBandInvitation` field of the OutOfBand record is optional
+  - Reason: for DidCommV2 added separate field `v2OutOfBandInvitation`   
+- `TransportSession` - `keys` and `inboundMessage`refers to different types but it should not break implementations.
+
+
+
+TransportSession
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 07:49:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1538" class=".btn">#1538</a>
             </td>
             <td>
