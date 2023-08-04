@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2340" class=".btn">#2340</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] fix default values in values.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                docs(corda): fix default values in values.yaml
+
+fix default values in values.yaml
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 04:57:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2339" class=".btn">#2339</a>
             </td>
             <td>
