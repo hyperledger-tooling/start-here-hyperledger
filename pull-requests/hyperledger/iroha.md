@@ -48,7 +48,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 ### Checklist
 
 - [ ] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
 - [ ] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up

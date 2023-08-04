@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/924" class=".btn">#924</a>
+            </td>
+            <td>
+                <b>
+                    fix(aries-vcx): fixed dependency listing in README for `Cargo.toml`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using path does not work and crates from git sources need be specified through `git=...`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 17:38:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/923" class=".btn">#923</a>
             </td>
             <td>

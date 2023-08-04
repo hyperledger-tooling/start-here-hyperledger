@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/209" class=".btn">#209</a>
-            </td>
-            <td>
-                <b>
-                    Run merge github action on push of main and workflow_dispatch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This removes the cron entry (no need to run this via cron). Also adds restriction to only publish on main push, which is usually triggered during a OR merge. And finally, add workflow_dispatch so we can run the job manually in the github UI.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-28 15:35:50 +0000 UTC
-    </div>
-</div>
-
