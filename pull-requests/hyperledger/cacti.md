@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2596" class=".btn">#2596</a>
+            </td>
+            <td>
+                <b>
+                    build(docker-compose): upgrade to docker compose V2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - `quorum-multi-party-all-in-one`: use newest `quorum-quorum-dev-quickstart`, update quorum versions to most recent available. Run ledger as `quorum` user (required by newer versions). Use docker compose V2 from alpine package registry instead of V1 from pip.
+- `besu-multi-party-all-in-one`: similar changes as for quorum-multi-party-all-in-on. Fix broken besu private transaction tests.
+- `fabric-all-in-one`: Use docker compose V2 from alpine package registry instead of V1 from pip.
+- `sawtooth-all-in-one`: Use docker compose V2 from alpine package registry instead of V1 from pip.
+
+Closes: #2593
+Closes: #2557
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 17:50:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2592" class=".btn">#2592</a>
             </td>
             <td>
@@ -121,36 +153,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2023-08-01 00:41:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2588" class=".btn">#2588</a>
-            </td>
-            <td>
-                <b>
-                    test(test-geth-ledger): add test for test-geth-ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add tests for geth-test-ledger
-- fix small errors in GethTestLedger class
-    
-Closes: #2579 
-Depends on: #2577
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-28 15:41:44 +0000 UTC
     </div>
 </div>
 
