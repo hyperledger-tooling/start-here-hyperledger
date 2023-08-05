@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/519" class=".btn">#519</a>
+            </td>
+            <td>
+                <b>
+                    add blank page and route for audit logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+- 
+#### Description
+inits a blank component, left nav button, route and a placeholder page for audit logging 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 19:32:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/518" class=".btn">#518</a>
             </td>
             <td>

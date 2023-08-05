@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1474" class=".btn">#1474</a>
+            </td>
+            <td>
+                <b>
+                    Represent contracts by their program id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-04 20:24:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1473" class=".btn">#1473</a>
             </td>
             <td>
@@ -162,34 +188,6 @@ Nits are welcome.
     </table>
     <div class="right-align">
         Created At 2023-07-31 12:00:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1468" class=".btn">#1468</a>
-            </td>
-            <td>
-                <b>
-                    Decouple data account from contract in the Solana mock VM
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As we start representing contracts by their program id (#1430), we bump into an incompatibility in our VM. The program id and the contract's data account are tightly coupled!
-
-In order for us to decouple them from Solang as whole, we need to refactor the VM so that it accepts contracts without a data account.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-28 20:52:13 +0000 UTC
     </div>
 </div>
 
