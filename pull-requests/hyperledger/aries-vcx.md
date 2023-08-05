@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/925" class=".btn">#925</a>
+            </td>
+            <td>
+                <b>
+                    Remove init_issuer_config function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-05 18:00:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/924" class=".btn">#924</a>
             </td>
             <td>
@@ -81,8 +107,12 @@ TODO
                 
             </td>
             <td>
-                - Add interface to write endorser DIDs on Indy ledger
+                - Add interface to write endorser DIDs on Indy ledger `write_endorser_did`
 - In order to reasonably implement its test `test_pool_write_new_endorser_did` I have refactored code related to test setup - mainly separating building "Profiles" from building and setting up wallet. This the mentioned test to create one instance of "Faber agent" with known trusteee DID, and one instance of "Faber agent" with a random did in its wallet.
+- Change `libvcx` function `wallet_create_pairwise_did` to `wallet_create_and_store_did(seed: Option<&str>)` - the original name is bit deceiving, sometimes you just want to generate a key even when and you are not dealing with any pairwise relationship. So this name is more general and also provide option to pass in seed for did/verkey generation.
+- Minor CI improvements - making `needs` declaration bit simpler and consistent
+- Added some integration tests directly to `node` wrapper, rather than propagating the APIs to `vcxagent-core`.
+
             </td>
         </tr>
     </table>
@@ -185,34 +215,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-07-31 12:06:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/919" class=".btn">#919</a>
-            </td>
-            <td>
-                <b>
-                    Added capability of migrating wallet through the node.js wrapper (#895)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We have previously reverted https://github.com/hyperledger/aries-vcx/pull/906 feature to expose wallet migration in nodejs wrapper. This brings the code back - reverts the revert. 
-
-* Added capability of migrating wallet through the node.js wrapper
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-29 15:56:38 +0000 UTC
     </div>
 </div>
 

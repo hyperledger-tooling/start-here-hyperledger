@@ -50,6 +50,8 @@ WHOLE_NUM_EXAMPLE = WholeNumber.EXAMPLE
 ```
 
 I then updated the imports, and replaced usages of `**INT_EPOCH`, for example, to `validate=INT_EPOCH_VALIDATE, example=INT_EPOCH_EXAMPLE`. Then could I run the marshmallow-upgrade tool created by dbluhm to correctly wrap examples in the metadata.
+
+Additionally: upgrade marshmallow to latest (3.20)
             </td>
         </tr>
     </table>

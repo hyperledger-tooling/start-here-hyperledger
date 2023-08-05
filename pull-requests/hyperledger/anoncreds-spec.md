@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/159" class=".btn">#159</a>
+            </td>
+            <td>
+                <b>
+                    blinded link secret generation and data model
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Verify how the blinding link secret is generated.
+Document the items in the blinded link secret data model and how they are generated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-05 12:39:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/158" class=".btn">#158</a>
             </td>
             <td>
