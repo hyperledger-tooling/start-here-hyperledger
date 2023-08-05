@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2398" class=".btn">#2398</a>
+            </td>
+            <td>
+                <b>
+                    Chore: fix marshmallow warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #2342
+
+I used the [acapy-marshmallow-upgrade](https://github.com/dbluhm/acapy-marshmallow-upgrade) tool created by @dbluhm (as described here: https://github.com/hyperledger/aries-cloudagent-python/pull/1854#issuecomment-1189381980), which iterates over usages of marshmallow fields, to wrap deprecated arguments in a metadata dictionary.
+
+The only hairy part to this task was the schemas defined in `aries_cloudagent/messaging/valid.py`:
+```py
+INT_EPOCH = {"validate": IntEpoch(), "example": IntEpoch.EXAMPLE}
+WHOLE_NUM = {"validate": WholeNumber(), "example": WholeNumber.EXAMPLE}
+# etc ...
+```
+These definitions were used in marshmallow fields by calling e.g. `fields.Int(..., **INT_EPOCH)`, which would be missed by the upgrade tool. Also, validate is a supported argument, while example should be moved to metadata.
+
+To account for this, I refactored the schema specifications (using regex):
+```py
+INT_EPOCH_VALIDATE = IntEpoch()
+INT_EPOCH_EXAMPLE = IntEpoch.EXAMPLE
+
+WHOLE_NUM_VALIDATE = WholeNumber()
+WHOLE_NUM_EXAMPLE = WholeNumber.EXAMPLE
+# etc ...
+```
+
+I then updated the imports, and replaced usages of `**INT_EPOCH`, for example, to `validate=INT_EPOCH_VALIDATE, example=INT_EPOCH_EXAMPLE`. Then could I run the marshmallow-upgrade tool created by dbluhm to correctly wrap examples in the metadata.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-05 10:42:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2395" class=".btn">#2395</a>
             </td>
             <td>
