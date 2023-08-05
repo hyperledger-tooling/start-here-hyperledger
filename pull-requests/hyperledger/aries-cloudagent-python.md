@@ -191,29 +191,3 @@ Under this condition, this makes it impossible for the keylist update response e
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2365" class=".btn">#2365</a>
-            </td>
-            <td>
-                <b>
-                    Corrected typo on mediator invitation configuration argument
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-29 00:04:23 +0000 UTC
-    </div>
-</div>
-
