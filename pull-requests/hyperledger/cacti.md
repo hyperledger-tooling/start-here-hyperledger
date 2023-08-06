@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2597" class=".btn">#2597</a>
+            </td>
+            <td>
+                <b>
+                    test(jest): reduce Jest log verbosity - make logs more compact
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Configure jest to override it's internal console logger with the
+regular console object provided by the JS runtime.
+This way it does not have the extra information printed that is
+not useful for 99% of our use-cases (100% of the known ones).
+
+Fixes #2595
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-05 19:44:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2596" class=".btn">#2596</a>
             </td>
             <td>
