@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2399" class=".btn">#2399</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade pre-commit and flake8 dependencies; fix flake8 warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Edit: flake8 must remain pinned to v4.0 as pytest-flake8 is unmaintained and doesn't support flake8 > 5.0 (latest = 6.1)
+I propose migrating to [ruff](https://beta.ruff.rs/docs/) and [pytest-ruff](https://github.com/businho/pytest-ruff). Created issue: https://github.com/hyperledger/aries-cloudagent-python/issues/2400
+
+___
+
+Upgrades `.pre-commit-config.yaml` to use latest versions for pre-commit-hook, black, and flake8.
+This fixes pre-commit not being in sync with black/flake8 enforcement in the github actions.
+
+Additionally we upgrade flake8, flake8-docstrings, and pydocstyle to latest. 
+
+Includes fixes for all flake8 warnings in ./aries_cloudagent, because if PR tests enforces flake8, then the existing code should abide by it too :-)
+
+The remaining flake8 warnings are primarily for missing docstrings in ./demo
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-06 09:34:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2398" class=".btn">#2398</a>
             </td>
             <td>
