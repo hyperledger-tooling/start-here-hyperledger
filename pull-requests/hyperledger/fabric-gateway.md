@@ -92,29 +92,3 @@ Fix some broken links in Javadoc.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/611" class=".btn">#611</a>
-            </td>
-            <td>
-                <b>
-                    Update Java dependencies to address CVE-2023-2976
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 Also update dependencies for Go and Node implementation to stay current.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-30 16:23:49 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    DidCommV2: Sync with the main branch
+                    chore: DidCommV2: Sync with the main branch
                 </b>
             </td>
         </tr>

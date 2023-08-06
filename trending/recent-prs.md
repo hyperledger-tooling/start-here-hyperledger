@@ -1,5 +1,5 @@
 
-[1541](https://github.com/hyperledger/aries-framework-javascript/pull/1541) DidCommV2: Sync with the main branch
+[1541](https://github.com/hyperledger/aries-framework-javascript/pull/1541) chore: DidCommV2: Sync with the main branch
 
 [2399](https://github.com/hyperledger/aries-cloudagent-python/pull/2399) Upgrade pre-commit and flake8 dependencies; fix flake8 warnings
 

@@ -438,34 +438,3 @@ Address a performance regression observed in import testing -
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5732" class=".btn">#5732</a>
-            </td>
-            <td>
-                <b>
-                    Add missing methods to transaction interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Missing methods which exist in the transaction class, but not the interface were added. This required the creation of a `AccessListEntry` interface in `org.hyperledger.besu.datatypes` and it's use in all the places that have used the class directly before.
-
-## Fixed Issue(s)
-fixes #5731
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-30 16:54:57 +0000 UTC
-    </div>
-</div>
-
