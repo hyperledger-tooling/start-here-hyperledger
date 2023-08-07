@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/210" class=".btn">#210</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/211" class=".btn">#211</a>
             </td>
             <td>
                 <b>
-                    Remove slack notification of failures
+                    Adjust documentation for Raft decommissioning
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                Notification of slack is no longer desired, so remove it to prevent the associated failures.
+                Recent contributor meetings anticipate a decommissioning of Sawtooth Raft which has been somewhat neglected for years rather than readied for production. For non-forking consensus, people use PBFT instead.
+
+The Sawtooth Raft work remains captured in the git history so could be resurrected if desired.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-28 19:16:49 +0000 UTC
+        Created At 2023-08-07 12:35:42 +0000 UTC
     </div>
 </div>
 

@@ -145,29 +145,3 @@ Signed-off-by: Stephen Curran <swcurran@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/143" class=".btn">#143</a>
-            </td>
-            <td>
-                <b>
-                    Introduce Hyperledger Foundation's security policy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">decision-log</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-31 17:47:17 +0000 UTC
-    </div>
-</div>
-

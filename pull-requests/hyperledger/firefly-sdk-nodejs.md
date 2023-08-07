@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/74" class=".btn">#74</a>
+            </td>
+            <td>
+                <b>
+                    use correct options object for baseURLs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Use the correct option defaults for baseURLs
+- Extra check for websocket host
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-07 13:09:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/73" class=".btn">#73</a>
             </td>
             <td>

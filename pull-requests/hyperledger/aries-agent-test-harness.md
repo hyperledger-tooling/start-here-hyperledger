@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/717" class=".btn">#717</a>
+            </td>
+            <td>
+                <b>
+                    Update AFGo docker to use golang 1.20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-07 14:34:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/716" class=".btn">#716</a>
             </td>
             <td>
@@ -33,33 +60,6 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </table>
     <div class="right-align">
         Created At 2023-08-05 03:01:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/715" class=".btn">#715</a>
-            </td>
-            <td>
-                <b>
-                    Add --preserve-exchange-records flag to ACA-Py startup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-31 16:16:12 +0000 UTC
     </div>
 </div>
 
