@@ -127,38 +127,3 @@ Backport of https://github.com/hyperledger/fabric/pull/4340
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4340" class=".btn">#4340</a>
-            </td>
-            <td>
-                <b>
-                    Wal file size bug fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix WAL file size limit exceeded bug as described in #4290
-
-#### Type of change
-
-- Bug fix
-- Test update
-
-#### Related issues
-
-#4290
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-31 10:35:58 +0000 UTC
-    </div>
-</div>
-

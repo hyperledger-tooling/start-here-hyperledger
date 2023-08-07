@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2598" class=".btn">#2598</a>
+            </td>
+            <td>
+                <b>
+                    fix(indy-validator): fix package dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update indy validator python dependencies.
+- Add README chapter on updating python dependencies to simplify this process in the future.
+- Use pinend ubuntu base image in indy-sdk-cli dockerfile.
+- Do some minor README improvements and cleanups.
+
+Tested with `discounted-asset-trade` (should work without an issue now, at least dockerless one)
+
+Depends on: #2596
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-07 09:36:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2597" class=".btn">#2597</a>
             </td>
             <td>
