@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [tests]: Iroha2 dev client cli tests refactoring
+                    [feature] #3324: Add client cli burn checks and refactoring
                 </b>
             </td>
         </tr>
@@ -37,7 +37,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #3324 <!-- Replace with an actual number,  -->
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -47,8 +47,8 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [ ] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
