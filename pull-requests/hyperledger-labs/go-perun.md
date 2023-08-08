@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/389" class=".btn">#389</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/392" class=".btn">#392</a>
             </td>
             <td>
                 <b>
-                    Grant access to SignedState
+                    README: Update backend compatibility list and link the backend reposi…
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                This PR adds a new channel wrapper `TransparentChannel` that grants access to the channel's `SignedState`.
+                …tories
 
-In the context of light clients using the Perun WebSocket, the ability to send them the signed state of their channel as a backup allows the light clients to register the channel on-chain even if the WebSocket should be offline.
+This PR updates the list of completed and currently developed backends for [go-perun](https://github.com/hyperledger-labs/go-perun) in ```README.md```.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-15 14:07:04 +0000 UTC
+        Created At 2023-08-08 08:41:07 +0000 UTC
     </div>
 </div>
 
