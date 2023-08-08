@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/aries-sdk-mendix
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/aries-sdk-mendix/pull/3" class=".btn">#3</a>
+            </td>
+            <td>
+                <b>
+                    Initialized repo with module Aries_SDK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Initialized repo with module Aries_SDK exported from Farmworker WalletOS source repository
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-08 04:13:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/aries-sdk-mendix/pull/1" class=".btn">#1</a>
             </td>
             <td>
