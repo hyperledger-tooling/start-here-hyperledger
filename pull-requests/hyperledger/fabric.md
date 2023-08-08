@@ -98,32 +98,3 @@ permalink: /pull-requests/hyperledger/fabric
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4343" class=".btn">#4343</a>
-            </td>
-            <td>
-                <b>
-                    Wal file size bug fix (Bump Raft to 3.5.9) release-2.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Upgraded etcd Raft 3.5.1 -> 3.5.9
-
-Backport of https://github.com/hyperledger/fabric/pull/4340
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-01 16:10:06 +0000 UTC
-    </div>
-</div>
-

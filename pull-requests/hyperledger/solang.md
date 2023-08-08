@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                The deserialization of `struct TokenAccountData` in the Solana library is incorrect. This PR fixes the issue and tests the deserialization of both `struct TokenAccountData` and `struct MintAccountData`.
             </td>
         </tr>
     </table>
@@ -79,46 +79,17 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                This PR changes the inner representation of Solana contracts from their data account to their program id.
+All the changes are listed here: https://github.com/hyperledger/solang/issues/1430
+
+Constructors will still require an account to be initialized, even if the contract has no storage variables and no function requires a data account. This setting does not influence the overall functionality of Solang, but it is something we must solve as I have described in #1480 .
+
+There are small changes in Polkadot tests, because I found the mutability check to be incomplete. We were not recursing down all expressions, so reads and writes from the state went unnoticed. I fixed this as well.
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-08-04 20:24:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1473" class=".btn">#1473</a>
-            </td>
-            <td>
-                <b>
-                    Updates for Solidity 0.8.21
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solidity introduces an experimental feature:
-
-	pragma experimental solidity;
-
-	import std.stub;
-
-Note it is not supported yet, but we've added it to the Solidity parser and formatter, and Solang now gives nice error messages when it encounters these.
-
-Note that the evm test failures have gone up, but this is not a regression. There are simply more tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-01 13:11:16 +0000 UTC
     </div>
 </div>
 

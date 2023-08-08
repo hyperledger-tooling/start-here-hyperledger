@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-blssignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-blssignatures-rs/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger/indy-blssignatures-rs/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Fix Timo's name
+                    Validate curve points
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-blssignatures-rs
                 
             </td>
             <td>
-                <nil>
+                Merges updates from anoncreds-clsignatures
+
+Adds a basic benchmark of signing and verifying operations
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-26 17:33:20 +0000 UTC
+        Created At 2023-08-08 17:03:52 +0000 UTC
     </div>
 </div>
 
