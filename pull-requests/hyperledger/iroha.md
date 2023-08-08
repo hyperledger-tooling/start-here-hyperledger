@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3790" class=".btn">#3790</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Fix I2:Release  job & Remove badge and load-rs job & Update i2 …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                [ci]: Update iroha2 `I2::Dev::Publish` and `I2::Release::Publish` workflows.
+
+## Description
+1. Fix I2:Release `configs` job.
+2. Remove `coveralls` badge (it works only on the default repository branch).
+3. Remove `load-rs` CI dispatch trigger workflow (there is no need to trigger load-rs script build anymore).
+4. Fix iroha2 user rootless `GID` inside i2 Alpine image.
+5. Modify iroha2:stable and iroha2:lts images tags. Now it will be `iroha2:stable-2.0.0-pre-rc.18` or  `iroha2:lts-2.0.0-pre-rc.19`tags. I think there is not a read need to add `${{ github.sha }}` there into tags names like `lts-${{ env.VERSION }}-${{ github.sha }}`.
+
+### Linked issue
+Covers #3430 and #3771 
+
+### Benefits
+Cover issues requests and improve iroha2 CI.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-08 17:27:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3789" class=".btn">#3789</a>
             </td>
             <td>
