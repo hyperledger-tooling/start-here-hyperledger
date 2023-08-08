@@ -15,31 +15,32 @@ permalink: /releases/hyperledger/bevel-operator-fabric
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.9.1
+                    Version 1.9.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.9.1
+                    v1.9.2
                 </span>
             </td>
             <td>
                 ## Changelog
-* 1e42c98 Bugfix/kubectl operator api (#178)
-* 8a9db8c support for custom environment variable in chaincode instance (#175)
-* d7ed444 fix gateway-api docs (#170)
+* 25c0a86 Merge pull request #179 from adityajoshi12/main
+* 46c57a4 Merge branch 'main' into main
+* 371c616 added support for auto cert renewal in hlf-operator chart (#177)
+* 4175cd4 channel management api added
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.9.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.9.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-28 23:43:08 +0000 UTC
+        Created At 2023-08-03 11:46:09 +0000 UTC
     </span>
 </div>
 
