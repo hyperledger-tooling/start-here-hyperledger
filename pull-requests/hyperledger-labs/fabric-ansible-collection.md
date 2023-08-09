@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
             </td>
             <td>
                 <b>
-                    Nikhil further updates
+                    Further updates
                 </b>
             </td>
         </tr>
