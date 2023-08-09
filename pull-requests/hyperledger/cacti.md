@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2599" class=".btn">#2599</a>
+            </td>
+            <td>
+                <b>
+                    test(connector-fabric): fix tests - package io/fs is not in GOROOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The simple answer was to upgrade to go v1.20.x from v1.15.x, but this caused a series of other problems that also needed to address so the complete list of changes and their motivations are below:
+
+1. The upgrade to go v1.20.6 1.1. We no longer install docker-compose via pip because since v2 it ships with the main docker package itself (they rewrote it in go) 1.2. Added a new "gcompat" apk package which is necessary because of go v1.20.6 as well. Details on this can be found here: https://github.com/golang/go/issues/59305#issuecomment-1488478737 1.3. As  part of installing the OpenSSH server, we now must first wipe all openssh* packages due to newly surfaced package version conflicts due to the ones that are prepackaged with the alpine image. Without the purge step it fails like this:
+
+       => ERROR [17/64] RUN apk add --no-cache openssh augeas                   1.1s
+       ------
+       > [17/64] RUN apk add --no-cache openssh augeas:
+       0.300 fetch https://dl-cdn.alpinelinux.org/alpine/v3.18/main/x86_64/APKINDEX.tar.gz
+       0.560 fetch https://dl-cdn.alpinelinux.org/alpine/v3.18/community/x86_64/APKINDEX.tar.gz
+       1.041 ERROR: unable to select packages:
+       1.043   openssh-client-common-9.3_p1-r3:
+       1.043     breaks: openssh-client-default-9.3_p2-r0[openssh-client-common=9.3_p2-r0]
+3. Upgraded the node-ssh library to v13 because v12 was broken due to
+changes introduced by the new OpenSSH server.
+4. Modified the container image definition so that we have the ability
+to customize the version of fabric-nodeenv images used internally by the
+peers of the fabric-samples repository. This was needed so that we can
+control what version of npm and NodeJS are being used when the chain code
+installation process is happening (which is just the peer running the
+`npm install --production` command within the fabric-nodeenv container)
+5. The default Fabric version used by the testing infrastructure is now
+Fabric v2.2.13 and for the NodeJS chain code it is 2.4.2
+6. Slightly rearranged the imports & constants in some of the tests
+which made it easier to verify that the new image is working as intended.
+
+Fixes #2358
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-08 22:27:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2598" class=".btn">#2598</a>
             </td>
             <td>

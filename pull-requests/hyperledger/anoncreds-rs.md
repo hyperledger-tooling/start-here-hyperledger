@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                This merges some changes to the tails file handling from indy-credx: the tempfile library is not compatible with some filesystems like on Azure (https://github.com/hyperledger/indy-shared-rs/issues/21). This removes that dependency and adds buffering to the IO operations which helps performance.
+                This merges some changes to the tails file handling from indy-credx. The tempfile library is not compatible with some filesystems like on Azure (https://github.com/hyperledger/indy-shared-rs/issues/21). This removes that dependency and adds buffering to the IO operations which helps performance.
 
 The tails file path is no longer required for the credential revocation config when issuing, this would require a JS wrapper update as well.
             </td>

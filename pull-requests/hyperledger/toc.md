@@ -93,29 +93,3 @@ Signed-off-by: Stephen Curran <swcurran@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    Add Iroha 2023 Q3 Report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 01:01:13 +0000 UTC
-    </div>
-</div>
-

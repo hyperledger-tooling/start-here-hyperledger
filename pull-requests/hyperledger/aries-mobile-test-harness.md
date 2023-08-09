@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/185" class=".btn">#185</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/186" class=".btn">#186</a>
             </td>
             <td>
                 <b>
-                    streamline the iOS scroll to bottom
+                    Handle BCW scan failures better
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                This PR streamlines the scroll to bottom function for iOS. Something changed in the infrastructure that now returns the different page xml even if it looks the same, we were using xml compare to determine if we were at the bottom of the page. This was causing some BC Wallet tests using this scroll to continue the scroll attempt to over an hour. The routine now checks for the last app element in the viewport and compares it to the before scroll last app element. 
+                This BC Wallet PR adds handling for scanning QR codes and following issue credential issues. 
+When scanning a QR code, the wallet with sometimes says the QR code is invalid. At times, on android, it also just sits on the scan screen with no error. This update will now check for that, so a soft assert so that we are aware of an issue, close the scan screen, re-upload the QR Code to the device and scan again. 
+
+If there is a problem accepting a credential offer. The tests will now check for that error, show the details if there are any, and then log it for debugging use later. 
+
+If there is a problem initializing, the tests will now check for an error, show the details if there are any, then do a soft assert so that we are aware of the issue, and then retry initialization. 
+
+This PR also externalizes the BCW test environments setting external of the test. So now you can specify an environment variable or a tag in the feature file to tell the tests to use a specific environment that is set in BCW developer settings. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-31 21:17:04 +0000 UTC
+        Created At 2023-08-08 19:58:37 +0000 UTC
     </div>
 </div>
 

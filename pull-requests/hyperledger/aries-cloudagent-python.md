@@ -234,33 +234,3 @@ This at least partially supersedes #2350, covering the rejection of invitations 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2392" class=".btn">#2392</a>
-            </td>
-            <td>
-                <b>
-                    fix: additional tweaks for did:web and other methods as public DIDs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adjusts the request schema for the set public DID endpoint to permit `GENERIC_DID`s. It seems that the work to support a generic DID in this endpoint was already done and just the request schema was missed by mistake (or perhaps it's a merge artifact :man_shrugging:).
-
-Additionally, this PR adjusts the behavior of DID Exchange requests so that if we're using a public DID, no DID Doc attachment is included in the request. This enables us to form connections using a did:web or other DID that is resolvable without worrying about ACA-Py's DID Doc creation process not being quite up to snuff on multi-method support.
-
-And some minor type hint corrections.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-01 19:00:14 +0000 UTC
-    </div>
-</div>
-

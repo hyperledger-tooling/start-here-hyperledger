@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4355" class=".btn">#4355</a>
+            </td>
+            <td>
+                <b>
+                    Bump google.golang.org/grpc to 1.53.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Note that grpc 1.52.0 changed behavior of Dial(),
+empty string can no longer be passed.
+Therefore this PR also updates tests that passed empty string.
+
+Also remove the go.mod `replace` for github.com/cespare/xxhash/v2,
+it is no longer needed and the grpc update also updates github.com/cespare/xxhash/v2.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-08 21:02:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4352" class=".btn">#4352</a>
             </td>
             <td>
@@ -69,32 +101,6 @@ permalink: /pull-requests/hyperledger/fabric
     </table>
     <div class="right-align">
         Created At 2023-08-02 15:38:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4344" class=".btn">#4344</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v2.5.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add docs and release notes for v2.5.4 release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-01 23:03:09 +0000 UTC
     </div>
 </div>
 
