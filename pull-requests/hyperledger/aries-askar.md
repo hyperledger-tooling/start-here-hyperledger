@@ -66,29 +66,3 @@ Also adds a version compatibility between Aries Askar version and the JS wrapper
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/161" class=".btn">#161</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): storeRekey in React Native
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                StoreRekey for React Native was not calling the proper method.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 12:08:20 +0000 UTC
-    </div>
-</div>
-

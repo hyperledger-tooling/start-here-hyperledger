@@ -42,29 +42,3 @@ Related to [this](https://github.com/hyperledger/iroha-2-docs/issues/364) issue
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/367" class=".btn">#367</a>
-            </td>
-            <td>
-                <b>
-                    Duty/02-08-23: Update i2 JDK to liberica distribution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Duty/02-08-23: Update i2 JDK to liberica distribution
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 10:06:01 +0000 UTC
-    </div>
-</div>
-

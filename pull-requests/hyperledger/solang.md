@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1482" class=".btn">#1482</a>
+            </td>
+            <td>
+                <b>
+                    Polkadot: Integration tests use Polkadot v1.0.0 node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update integration tests to use the latest CI node build containing a substrate node built against `polkadot-v1.0.0`.
+
+Some test required changes in their weight calculations. I took some shortcuts with upgrading the subxt tests. Because we have a student working on making the extrinsics library from cargo-contract re-usable, it'd be a waste spending too much time there.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-09 10:58:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1481" class=".btn">#1481</a>
             </td>
             <td>

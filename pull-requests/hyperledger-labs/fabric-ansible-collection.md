@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                     Changes in docs/source/tasks files
+                    Nikhil further updates
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                Changes made to the folder docs/source/tasks
+                - Removed more IBP references
+- Updated GitHub action workflow files to reflect new locations for the docker image and collection name
+- Added a maintainers file
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 12:01:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/18" class=".btn">#18</a>
-            </td>
-            <td>
-                <b>
-                    Testing and fixing examples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-22 11:05:59 +0000 UTC
+        Created At 2023-08-09 09:46:08 +0000 UTC
     </div>
 </div>
 
