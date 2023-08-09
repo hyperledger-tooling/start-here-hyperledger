@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2404" class=".btn">#2404</a>
+            </td>
+            <td>
+                <b>
+                    feat: add legacy peer did resolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds support for resolving legacy peer DIDs to DID Documents previously stored in our wallet.
+
+This is one part of some additional changes I have in mind; using these changes, I'd like to make "resolving" connection targets for a DID consistent regardless of whether the DID we're resolving is did:web, did:indy, did:sov, unqualified local did, did:peer, etc. I'm hopeful those changes will also help ease the transition to proper peer DIDs. I'm still fleshing out those changes but I think this resolver is useful regardless of the outcome.
+
+As noted in the docstrings of the methods in the resolver, due to the nature of ACA-Py's use of did:sov and unqualified DIDs for both public (posted to a ledger) and pairwise/peer DIDs, this resolver requires a bit of trial and error. If the DID has a doc associated with it in the wallet, it will report that it supports resolving the DID. The cache is employed to help make this check slightly more efficient but there's still some open questions. For instance, how long should the cache be considered valid?
+
+As implemented, this resolver will only return the DID Documents we've received through the Connections or DID Exchange protocols. In other words, we can only resolve the DID of the remote party, or "their DID." We could also store the docs for our own DIDs, making them resolvable as well. I'm not sure if this is valuable or not yet.
+
+For Indy "style" DIDs that are created outside of the context of a connection, such as Public DIDs, there is no DID Document associated with it stored in our wallet. This means that this resolver will not be selected and the document for the DID will be resolved by the `IndyDIDResolver`, as usual.
+
+In the interest of that consistent connection target goal I mentioned above, I currently have this resolver configured to transform documents retrieved from our wallet to be better aligned with updates to DIDComm/DID Document conventions.
+
+Resolves #2161. I think. lol
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-09 02:35:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2401" class=".btn">#2401</a>
             </td>
             <td>

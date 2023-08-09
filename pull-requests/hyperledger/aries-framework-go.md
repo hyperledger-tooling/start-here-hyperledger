@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3612" class=".btn">#3612</a>
-            </td>
-            <td>
-                <b>
-                    feat: data-integrity support for ecdsa-2019 suite
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 01:22:04 +0000 UTC
-    </div>
-</div>
-
