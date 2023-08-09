@@ -246,29 +246,3 @@ This at least partially supersedes #2350, covering the rejection of invitations 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2393" class=".btn">#2393</a>
-            </td>
-            <td>
-                <b>
-                    fix: outbound send status missing on path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This corrects a flow through the `queue_outbound` method that could result in no `OutboundSendStatus` being returned. The method is strictly expected to return a status so this could cause less than graceful errors in some circumstances.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 11:52:43 +0000 UTC
-    </div>
-</div>
-

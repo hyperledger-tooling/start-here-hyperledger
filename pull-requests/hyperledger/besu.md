@@ -298,35 +298,3 @@ Looking at `MainnetProtocolSpecs` I found that the fee market is passed in diffe
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5745" class=".btn">#5745</a>
-            </td>
-            <td>
-                <b>
-                    Migrate to blobGas in execution-spec-tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Execution-spec-tests migrated from DataGas to BlobGas and checks for its inclusion in tests now. Add needed support.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 06:36:17 +0000 UTC
-    </div>
-</div>
-
