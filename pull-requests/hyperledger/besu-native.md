@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    update modexp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update modexp to handle data formatting and zero exponent issues.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-09 05:00:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/113" class=".btn">#113</a>
             </td>
             <td>
