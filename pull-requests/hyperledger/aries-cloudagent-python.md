@@ -216,33 +216,3 @@ This checks to see if we have endorser information before we try to persist it.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2394" class=".btn">#2394</a>
-            </td>
-            <td>
-                <b>
-                    feat: add DID Exchange specific problem reports and reject endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR makes problem reports sent during the DID Exchange protocol have the DID Exchange protocol adopted problem report rather than the generic problem report. This is defined in RFC 23 but has not been implemented by ACA-Py to this point. In other words, this is a correction to bring ACA-Py more in line with the RFC. These problem reports were automatically sent if there was an issue in processing the DID Exchange messages.
-
-In addition to the above changes, this PR also introduces a `POST /didexchange/{conn-id}/reject` endpoint, enabling the controller to explicitly reject an OOB invitation that specifies DID Exchange as the handshake protocol or a DID Exchange request. Rejecting a response is not supported; don't send a request if you're going to reject the response. This will send a problem report to the originator of the invitation/request and will mark the (local) connection record as abandoned. It won't delete the record though (maybe it should)?
-
-This at least partially supersedes #2350, covering the rejection of invitations to exchange DIDs. However, it does not introduce automatic handling of timeouts for invitations, as was discussed in the comments.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 13:27:01 +0000 UTC
-    </div>
-</div>
-

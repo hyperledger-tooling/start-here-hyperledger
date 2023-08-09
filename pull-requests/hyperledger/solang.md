@@ -29,7 +29,9 @@ permalink: /pull-requests/hyperledger/solang
             <td>
                 Update integration tests to use the latest CI node build containing a substrate node built against `polkadot-v1.0.0`.
 
-Some test required changes in their weight calculations. I took some shortcuts with upgrading the subxt tests. Because we have a student working on making the extrinsics library from cargo-contract re-usable, it'd be a waste spending too much time there.
+Some tests required changes in their weight calculations.
+
+I allowed to take some shortcuts with upgrading the subxt tests. Because we have a student working on making the extrinsics library from cargo-contract re-usable, it'd be a waste spending too much time there (plan is to then use this in the CLI and the integration).
             </td>
         </tr>
     </table>

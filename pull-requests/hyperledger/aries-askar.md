@@ -40,29 +40,3 @@ Also adds a version compatibility between Aries Askar version and the JS wrapper
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/162" class=".btn">#162</a>
-            </td>
-            <td>
-                <b>
-                    (python) Add autocommit flag to transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I don't think we can change the default commit behaviour for transactions as in #52 (at least not yet), but this allows them to auto-commit as long as an exception isn't raised.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 16:58:40 +0000 UTC
-    </div>
-</div>
-

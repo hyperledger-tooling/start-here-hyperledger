@@ -266,35 +266,3 @@ Had to inline the `xor` function since it is now deprecated in newer versions of
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5746" class=".btn">#5746</a>
-            </td>
-            <td>
-                <b>
-                    Uniform the way fee market is used in ProtocolSpecBuilder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Looking at `MainnetProtocolSpecs` I found that the fee market is passed in different way to objects that require it, while the intended way is to set it via `ProcotocolSpecBuilder::feeMarket` and the pass it via builders to object that require it, so we are sure that always the same fee market is used in that milestone definition, so this PR removes any set of the fee market that does not follow the said approach.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 14:14:51 +0000 UTC
-    </div>
-</div>
-
