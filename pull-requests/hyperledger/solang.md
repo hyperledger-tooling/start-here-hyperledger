@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1481" class=".btn">#1481</a>
+            </td>
+            <td>
+                <b>
+                    Improve math tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes the overflowing error in an a math overflowing tests that was not supposed to overflow and exchanges `pow`/`truncate_biguint` by `modpow`, which is more efficient.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-08 20:20:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1478" class=".btn">#1478</a>
             </td>
             <td>
