@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/75" class=".btn">#75</a>
+            </td>
+            <td>
+                <b>
+                    Allow custom app logic to trigger when a websocket connects/reconnects
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When using an ephemeral WebSocket to listen for completion of a FireFly action, you need to know the socket is connected before you submit the action. This isn't currently possible in the SDK.
+
+It's also not possible to send custom commands over the WebSocket, or trigger other processing as a side-effect of a reconnect.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 02:41:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/74" class=".btn">#74</a>
             </td>
             <td>
