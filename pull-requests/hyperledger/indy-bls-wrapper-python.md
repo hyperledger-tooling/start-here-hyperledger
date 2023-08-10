@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-bls-wrapper-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-bls-wrapper-python/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger/indy-bls-wrapper-python/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Fix Timo's name
+                    Sync with indy-blssignatures-rs, clean up and add workflow
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-bls-wrapper-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-26 17:33:12 +0000 UTC
+        Created At 2023-08-10 17:27:28 +0000 UTC
     </div>
 </div>
 

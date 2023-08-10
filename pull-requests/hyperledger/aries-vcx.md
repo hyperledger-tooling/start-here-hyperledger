@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/932" class=".btn">#932</a>
+            </td>
+            <td>
+                <b>
+                    Rebuild cargo.lock, restore indy-vdr-proxy txn submitter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - used `indy-vdr` dependencies with following fix https://github.com/mirgee/indy-vdr/pull/2/file
+- rebuilt lock file
+
+It seems due to issue in the `indy-vdr-proxy-client` cargo.toml file, it was bringing in wrong `indy-vdr` version and then our dependency tree ended up with 2 versions of indy-vdr. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 17:36:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/931" class=".btn">#931</a>
+            </td>
+            <td>
+                <b>
+                    Updated indy-credx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #926 .
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 14:31:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/928" class=".btn">#928</a>
             </td>
             <td>
@@ -27,7 +83,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                TODO
+                Initial version of [DID Exchange protocol](https://github.com/hyperledger/aries-rfcs/blob/main/features/0023-did-exchange/README.md#request-message-attributes) implementation with support for peer DIDs (peer:did:2 for now), new `DidDocument` crate, and JWS signing / verification.
+
+The primary aim is not to achieve perfection at this stage but to roll out a first iteration prototype.
+
+Correctness has been tested (so far only) using AATH tests running against AcaPy peer:did branch (or against aries-vcx itself), where all didx tests are passing whether the requester or responder role is assumed by either side.
             </td>
         </tr>
     </table>
