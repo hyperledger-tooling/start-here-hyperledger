@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/127" class=".btn">#127</a>
             </td>
             <td>
                 <b>
-                    Let console handle auth_scheme
+                    reduce keepalive interval to avoid connection issues on VPC
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/124
+                https://github.com/hyperledger-labs/fabric-operator/issues/126
 
 Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-31 19:15:43 +0000 UTC
+        Created At 2023-08-09 18:55:09 +0000 UTC
     </div>
 </div>
 

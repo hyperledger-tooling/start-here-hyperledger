@@ -188,31 +188,3 @@ Additionally: upgrade marshmallow to latest (3.20)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2395" class=".btn">#2395</a>
-            </td>
-            <td>
-                <b>
-                    Multitenant check endorser_info before saving
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                While testing PR #2339 I was using an instance without an endorser and encountered an error while saving the new write ledger: `UnboundLocalError: local variable 'endorser_alias' referenced before assignment`.
-
-This checks to see if we have endorser information before we try to persist it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-02 18:50:09 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/94" class=".btn">#94</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    pick up transaction manager v1.3.2
+                    pick up fftm 1.3.3
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Picks up https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.2
+                picks up https://github.com/hyperledger/firefly-transaction-manager/pull/98
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-02 15:15:06 +0000 UTC
+        Created At 2023-08-09 20:47:27 +0000 UTC
     </div>
 </div>
 
