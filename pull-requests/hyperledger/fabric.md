@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4359" class=".btn">#4359</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a cherry-pick of this PR:
+https://github.com/hyperledger/fabric-docs-i18n/pull/816
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+There is a double paren when there should be a single paren, which breaks a link
+
+#### Additional details
+
+#### Related issues
+
+#### Release Note
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 14:23:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4356" class=".btn">#4356</a>
             </td>
             <td>
@@ -69,41 +111,6 @@ it is no longer needed and the grpc update also updates github.com/cespare/xxhas
     </table>
     <div class="right-align">
         Created At 2023-08-08 21:02:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4352" class=".btn">#4352</a>
-            </td>
-            <td>
-                <b>
-                    policy update protection test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Issue #4331 
-
-#### Type of change
-
-- Bug fix
-- Test update
-
-#### Related issues
-
-#4331 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-03 13:19:15 +0000 UTC
     </div>
 </div>
 

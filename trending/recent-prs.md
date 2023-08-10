@@ -1,13 +1,13 @@
 
-[928](https://github.com/hyperledger/aries-vcx/pull/928) DID Exchange Protocol
+[932](https://github.com/hyperledger/aries-vcx/pull/932) Rebuild cargo.lock, restore indy-vdr-proxy txn submitter
 
-[160](https://github.com/hyperledger/anoncreds-spec/pull/160) Blinded Link Secret proof model completed
+[619](https://github.com/hyperledger/fabric-gateway/pull/619) Add testing with Go 1.21
 
-[207](https://github.com/hyperledger/indy-vdr/pull/207) Mismatch arguments requirements for GetAcceptanceMechanismsRequestOptions in indy-vdr-shared and indy-vdr-react-native/cpp
+[18](https://github.com/hyperledger/indy-bls-wrapper-python/pull/18) Sync with indy-blssignatures-rs, clean up and add workflow
 
-[205](https://github.com/hyperledger/indy-vdr/pull/205) Incorrect arguments order passing in buildGetAttribRequest
+[2409](https://github.com/hyperledger/aries-cloudagent-python/pull/2409) feat: resolve connection targets and permit connecting via public DID
 
-[24](https://github.com/hyperledger/solang-llvm/pull/24) Use Ubuntu 20.04 rather than 22.04
+[931](https://github.com/hyperledger/aries-vcx/pull/931) Updated indy-credx
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2409" class=".btn">#2409</a>
+            </td>
+            <td>
+                <b>
+                    feat: resolve connection targets and permit connecting via public DID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR builds on #2404 to adjust DID -> ConnectionTarget look up to use the DID Resolver interface and also to permit connecting via DID Exchange with public DIDs. This enables DIDComm over exclusively did:web and other methods (permits not rotating to a peer DID during the exchange) or just initializing a DID Exchange with a resolvable DID that supports DIDComm.
+
+I believe this change is a significant improvement for consistently handling DIDs and DID Documents during connections as there is no longer a distinction between local/peer DIDs and public DIDs, at least in terms of determining how to look up the associated document.
+
+This PR is currently in development. Once #2404 is in, I'll rebase this branch to clean up the history. There's a few more pieces I'm still working on as well:
+- Unit tests. I've tested these changes manually and it's currently working as expected but I'll be a good citizen and make sure my additions are covered.
+- Caching resolved DID Documents. This change relies on resolving DID Documents to determine connection targets. For exchanged (legacy) peer DIDs, this means it will look up the document in the wallet, which is more or less the same as it was before. However, if you're resolving public DIDs, we probably don't want to query a ledger every time we send a message, especially since DIDComm message exchanges tend to be burst-y. #2404 includes caching for legacy peer DIDs; however, I'm not certain whether caching should be handled at the method resolver layer or at the global resolver layer. I'll put some more thought into this.
+
+cc @swcurran @Jsyro I'll elaborate how I think this should affect the Peer DID work further in #2249 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 14:59:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2404" class=".btn">#2404</a>
             </td>
             <td>
