@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/207" class=".btn">#207</a>
+            </td>
+            <td>
+                <b>
+                    Mismatch arguments requirements for GetAcceptanceMechanismsRequestOptions in indy-vdr-shared and indy-vdr-react-native/cpp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ticket https://github.com/hyperledger/indy-vdr/issues/206
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 10:08:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/205" class=".btn">#205</a>
+            </td>
+            <td>
+                <b>
+                    Incorrect arguments order passing in buildGetAttribRequest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ticket https://github.com/hyperledger/indy-vdr/issues/204
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 09:48:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/203" class=".btn">#203</a>
             </td>
             <td>

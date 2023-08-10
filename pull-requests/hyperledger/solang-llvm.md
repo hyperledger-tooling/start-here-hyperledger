@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    Bump rust and solana
+                    Use Ubuntu 20.04 rather than 22.04
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang-llvm
                 
             </td>
             <td>
-                <nil>
+                We've had a few users reporting that solang does not work in their environment; usually this is ubuntu 20.04 WSL.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-26 21:55:43 +0000 UTC
+        Created At 2023-08-10 08:01:13 +0000 UTC
     </div>
 </div>
 

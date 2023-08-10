@@ -82,31 +82,3 @@ fixes #2323
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2338" class=".btn">#2338</a>
-            </td>
-            <td>
-                <b>
-                    [docs] Fix Sphinx version to solve build error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix Sphinx build errors on readthedocs
-
-#2337
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-03 10:42:31 +0000 UTC
-    </div>
-</div>
-

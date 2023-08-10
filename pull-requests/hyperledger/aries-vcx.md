@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/928" class=".btn">#928</a>
+            </td>
+            <td>
+                <b>
+                    DID Exchange Protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TODO
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 12:06:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/927" class=".btn">#927</a>
             </td>
             <td>

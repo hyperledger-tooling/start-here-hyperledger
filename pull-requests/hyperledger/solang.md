@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1483" class=".btn">#1483</a>
+            </td>
+            <td>
+                <b>
+                    Use Ubuntu 20.04 rather than 22.04
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We've had a few users reporting that solang does not work in their environment; usually this is ubuntu 20.04 WSL.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-10 08:00:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1482" class=".btn">#1482</a>
             </td>
             <td>
