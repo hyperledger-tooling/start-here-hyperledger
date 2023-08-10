@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                * Introduced mock context
+* Optionally disable TLS option for FSC-node metrics, and added metrics for libp2p
+* Added support for execution of views with web sockets (instead of HTTP requests). Support for remote wallets
+* Client and server utilities for web sockets.
             </td>
         </tr>
     </table>

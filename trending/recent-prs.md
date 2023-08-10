@@ -1,13 +1,13 @@
 
-[7](https://github.com/hyperledger/indy-blssignatures-rs/pull/7) Add FFI support
+[928](https://github.com/hyperledger/aries-vcx/pull/928) DID Exchange Protocol
 
-[75](https://github.com/hyperledger/firefly-sdk-nodejs/pull/75) Allow custom app logic to trigger when a websocket connects/reconnects
+[160](https://github.com/hyperledger/anoncreds-spec/pull/160) Blinded Link Secret proof model completed
 
-[922](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/922) feat: use vertical notifications on home screen
+[207](https://github.com/hyperledger/indy-vdr/pull/207) Mismatch arguments requirements for GetAcceptanceMechanismsRequestOptions in indy-vdr-shared and indy-vdr-react-native/cpp
 
-[203](https://github.com/hyperledger/indy-vdr/pull/203) Update JS wrapper dependencies
+[205](https://github.com/hyperledger/indy-vdr/pull/205) Incorrect arguments order passing in buildGetAttribRequest
 
-[927](https://github.com/hyperledger/aries-vcx/pull/927) Use credx anoncreds in napi wrapper
+[24](https://github.com/hyperledger/solang-llvm/pull/24) Use Ubuntu 20.04 rather than 22.04
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

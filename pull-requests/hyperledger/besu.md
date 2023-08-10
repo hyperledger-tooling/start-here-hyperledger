@@ -119,7 +119,7 @@ Add a new benchmarking sub-command to `evmtool`
             </td>
             <td>
                 <b>
-                    [WIP] Rebase current EIP-6110 prototype to Cancun
+                    Rebase current EIP-6110 prototype to Cancun
                 </b>
             </td>
         </tr>
@@ -135,10 +135,10 @@ Add a new benchmarking sub-command to `evmtool`
 This is to rebase the existed implementation of EIP-6110 from Shanghai to Cancun. As well, it updates the implementation according to the latest Engine API [specification](https://github.com/ethereum/execution-apis/blob/main/src/engine/experimental/eip6110.md).
 Changes include:
 
-- [ ] Remove 6110 related changes from `engine_newPayloadV2` and `engine_getPayloadV2`
-- [ ] Rename `deposits` to `depositReceipts` in `EnginePayloadParameter`
-- [ ] Introduce `engine_newPayloadV6110` and `engine_getPayloadV6110` that are based on `engine_newPayloadV3` and `engine_getPayloadV3`
-- [ ] Revamp the existed 6110 acceptance test
+- [x] Remove 6110 related changes from `engine_newPayloadV2` and `engine_getPayloadV2`
+- [x] Rename `deposits` to `depositReceipts` in `EnginePayloadParameter`
+- [x] Introduce `engine_newPayloadV6110` and `engine_getPayloadV6110` that are based on `engine_newPayloadV3` and `engine_getPayloadV3`
+- [x] Revamp the existed 6110 acceptance test
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

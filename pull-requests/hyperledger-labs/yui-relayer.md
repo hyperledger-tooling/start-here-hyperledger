@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/94" class=".btn">#94</a>
-            </td>
-            <td>
-                <b>
-                    Fix StrategyI::Unrelayed{Packet,Acknowledgements}
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-03 12:22:49 +0000 UTC
-    </div>
-</div>
-
