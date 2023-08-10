@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/besu-native
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/111" class=".btn">#111</a>
-            </td>
-            <td>
-                <b>
-                    Aurura modexp
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-03 01:17:59 +0000 UTC
-    </div>
-</div>
-
