@@ -1,13 +1,13 @@
 
-[174](https://github.com/hyperledger/sawtooth-lib/pull/174) Move transact::protocol::* to protocol::*
+[922](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/922) feat: use vertical notifications on home screen
 
-[200](https://github.com/hyperledger/indy-vdr/pull/200) Switch to indy-blssignatures
+[203](https://github.com/hyperledger/indy-vdr/pull/203) Update JS wrapper dependencies
 
-[4356](https://github.com/hyperledger/fabric/pull/4356) Bump google.golang.org/grpc to 1.53.0 (release-2.5)
+[927](https://github.com/hyperledger/aries-vcx/pull/927) Use credx anoncreds in napi wrapper
 
-[714](https://github.com/hyperledger/fabric-private-chaincode/pull/714) Bump github.com/libp2p/go-libp2p from 0.26.4 to 0.27.8 in /integration/go_chaincode
+[818](https://github.com/hyperledger/fabric-docs-i18n/pull/818) Updates to id_ID
 
-[484](https://github.com/hyperledger-labs/fabric-token-sdk/pull/484) Bump github.com/libp2p/go-libp2p from 0.26.4 to 0.27.8
+[202](https://github.com/hyperledger/indy-vdr/pull/202) Add enums for ledger role, ledger role update action
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

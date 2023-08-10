@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/816" class=".btn">#816</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/818" class=".btn">#818</a>
             </td>
             <td>
                 <b>
-                    Update peerchecklist.md, Redundant symbols "("
+                    Updates to id_ID
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Redundant symbols "(" [example](../hsm.html)
+                Signed-off-by: nikofebrianur <nikofebrianur@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-26 09:46:11 +0000 UTC
+        Created At 2023-08-09 22:04:28 +0000 UTC
     </div>
 </div>
 
