@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.3.2
+                    v1.3.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.3.2
+                    v1.3.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fixing a nonce conflict issue when the cached nonce expired. by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/99
+* avoid using internal interface in public pkg by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/98
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.1...v1.3.2
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.2...v1.3.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-02 15:06:39 +0000 UTC
+        Created At 2023-08-09 20:44:07 +0000 UTC
     </span>
 </div>
 

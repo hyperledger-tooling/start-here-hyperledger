@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-evmconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.14
+                    v1.3.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.14
+                    v1.3.0
                 </span>
             </td>
             <td>
@@ -31,17 +31,18 @@ permalink: /releases/hyperledger/firefly-evmconnect
 * Error matching and throttling fix by @Chengxuan in https://github.com/hyperledger/firefly-evmconnect/pull/93
 * Add LevelDB to PostgreSQL Data Migration command by @peterbroadhurst in https://github.com/hyperledger/firefly-evmconnect/pull/91
 * pick up transaction manager v1.3.2 by @Chengxuan in https://github.com/hyperledger/firefly-evmconnect/pull/94
+* pick up fftm 1.3.3 by @Chengxuan in https://github.com/hyperledger/firefly-evmconnect/pull/95
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.2.13...v1.2.14
+**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.2.13...v1.3.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.2.14" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-02 16:51:04 +0000 UTC
+        Created At 2023-08-09 20:51:17 +0000 UTC
     </span>
 </div>
 
