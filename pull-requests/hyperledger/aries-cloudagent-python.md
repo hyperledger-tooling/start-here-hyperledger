@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2413" class=".btn">#2413</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Ensure event/webhook is emitted for multi-use invitations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As a consequence of the fix in #2223, events/webhooks for new connections created responding to multi-use invitations were not being emitted. This happened because events are emitted, unless specified with the appropriate flag, only when the connection record being saved is new OR the state has changed.
+
+Neither of those conditions is true for a multi-use invitation since the record is "cloned" and contextually set to state `request`  (see #2099). 
+
+The fix ensures an event (and webhook) is always emitted when a new connection transitions to the `request` state.
+Resolves #2406 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-11 02:38:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2412" class=".btn">#2412</a>
+            </td>
+            <td>
+                <b>
+                    Anoncreds API BDD Tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WIP - quick commit to see if tails server works on GH.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-11 02:21:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2409" class=".btn">#2409</a>
             </td>
             <td>
