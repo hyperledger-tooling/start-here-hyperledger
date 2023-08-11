@@ -174,31 +174,3 @@ Correctness has been tested (so far only) using AATH tests running against AcaPy
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/923" class=".btn">#923</a>
-            </td>
-            <td>
-                <b>
-                    Draft: issue 922 Prover revocation states fix up
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #922 
-
-TODO
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-04 10:15:32 +0000 UTC
-    </div>
-</div>
-

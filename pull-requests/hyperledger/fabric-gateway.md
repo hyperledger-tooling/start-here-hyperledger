@@ -64,33 +64,3 @@ Contributes to #612
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/617" class=".btn">#617</a>
-            </td>
-            <td>
-                <b>
-                    Use Java 17 for publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Java 8 was used for safety, since the intention is to maintain compatibility with Java 8 by compiling compatible bytecode and only using Java 8 standard libraries. This caused a Javadoc failure when linking to Javadoc built with later versions of Java, since they produce a different format of package-list / element-list file. This problem surfaced when gRPC-Java started to publish builds using Java 11 instead of Java 8, and caused Javadoc warnings linking to their published Javadoc.
-
-Use Java 17 for publishing, relying on the maven.compiler.release (javac --release) option to ensure that compiled output links to the Java 8 standard libraries. To allow this, no longer enforce exactly Java 8 in the Maven release profile.
-
-Fix some broken links in Javadoc.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-04 11:28:55 +0000 UTC
-    </div>
-</div>
-

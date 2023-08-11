@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    Fix typo
+                    Assert the mediator invitation url is same to that of mediation record
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                <nil>
+                If the mediatorInvitationUrl in AgentConfig is changed, we remove the old mediation record and do the mediation protocol again.
+There was a path that we omit the url check.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-25 05:33:21 +0000 UTC
+        Created At 2023-08-11 07:33:55 +0000 UTC
     </div>
 </div>
 
