@@ -46,29 +46,3 @@ https://www.ietf.org/archive/id/draft-ietf-oauth-selective-disclosure-jwt-05.htm
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3615" class=".btn">#3615</a>
-            </td>
-            <td>
-                <b>
-                    feat: verifiable credential and presentation support data integrity proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-04 03:50:50 +0000 UTC
-    </div>
-</div>
-
