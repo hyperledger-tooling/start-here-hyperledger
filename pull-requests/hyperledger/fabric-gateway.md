@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             </td>
             <td>
                 Also update scenario test chaincode dependencies.
+
+Contributes to #612 
             </td>
         </tr>
     </table>

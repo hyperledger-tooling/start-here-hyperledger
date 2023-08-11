@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3795" class=".btn">#3795</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Add Configuration RFC document
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">config-changes</span>
+            </td>
+            <td>
+                I think this place is the most convenient to gather the team's feedback.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-11 00:47:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3790" class=".btn">#3790</a>
             </td>
             <td>
