@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/indy-bls-wrapper-python
                 
             </td>
             <td>
-                <nil>
+                Includes builds for manylinux-aarch64, manylinux-x86_64, and windows-x86_64. No MacOS build just yet.
             </td>
         </tr>
     </table>

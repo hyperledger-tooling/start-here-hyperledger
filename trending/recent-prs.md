@@ -1,13 +1,13 @@
 
-[932](https://github.com/hyperledger/aries-vcx/pull/932) Rebuild cargo.lock, restore indy-vdr-proxy txn submitter
+[3795](https://github.com/hyperledger/iroha/pull/3795) [documentation]: Add Configuration RFC document
 
-[619](https://github.com/hyperledger/fabric-gateway/pull/619) Add testing with Go 1.21
+[209](https://github.com/hyperledger/indy-vdr/pull/209) Remove indy-test-utils dependency
 
-[18](https://github.com/hyperledger/indy-bls-wrapper-python/pull/18) Sync with indy-blssignatures-rs, clean up and add workflow
+[819](https://github.com/hyperledger/fabric-docs-i18n/pull/819) Spanish Translation for What's New
 
-[2409](https://github.com/hyperledger/aries-cloudagent-python/pull/2409) feat: resolve connection targets and permit connecting via public DID
+[1388](https://github.com/hyperledger/firefly/pull/1388) Use separate event stream per namespace
 
-[931](https://github.com/hyperledger/aries-vcx/pull/931) Updated indy-credx
+[718](https://github.com/hyperledger/aries-agent-test-harness/pull/718) Update to tails-server 1.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
