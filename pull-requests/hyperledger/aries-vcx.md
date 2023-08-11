@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/934" class=".btn">#934</a>
+            </td>
+            <td>
+                <b>
+                    Eliminate dependence of indy-ledger-response-parser on indy-api-types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Eliminates dependence of `indy-ledger-response-parser`  on `indy-api-types`, which now leak out of `libvdrtools` only through `indy-wallet`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-11 13:23:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/932" class=".btn">#932</a>
             </td>
             <td>
@@ -58,6 +84,10 @@ It seems due to issue in the `indy-vdr-proxy-client` cargo.toml file, it was bri
             </td>
             <td>
                 Fixes #926 .
+
+This introduces yet another feature flag, `legacy_proof`, because after a lot of digging the proof request and verification appear to change in credx in a way that's not backwards compatible. However, the feature flag enables a second check of the proof using the legacy method.
+
+This is not the default behavior because people might not want to have this enabled at all times.
             </td>
         </tr>
     </table>
@@ -145,32 +175,6 @@ Correctness has been tested (so far only) using AATH tests running against AcaPy
     </table>
     <div class="right-align">
         Created At 2023-08-05 18:00:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/924" class=".btn">#924</a>
-            </td>
-            <td>
-                <b>
-                    fix(aries-vcx): fixed dependency listing in README for `Cargo.toml`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using path does not work and crates from git sources need be specified through `git=...`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-04 17:38:38 +0000 UTC
     </div>
 </div>
 

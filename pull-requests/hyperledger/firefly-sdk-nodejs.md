@@ -30,6 +30,10 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 When using an ephemeral WebSocket to listen for completion of a FireFly action, you need to know the socket is connected before you submit the action. This isn't currently possible in the SDK.
 
 It's also not possible to send custom commands over the WebSocket, or trigger other processing as a side-effect of a reconnect.
+
+Also in unit tests in a framework like Jest, you cannot allow a test to write log statements after the test exits (see https://github.com/jestjs/jest/issues/9324#issuecomment-1396968497).
+
+This drives a requirement for a `close()` function that allows us to await the logging of the close, which is also included as an option in this PR.
             </td>
         </tr>
     </table>
