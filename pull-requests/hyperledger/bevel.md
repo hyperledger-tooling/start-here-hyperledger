@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2340" class=".btn">#2340</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2342" class=".btn">#2342</a>
             </td>
             <td>
                 <b>
-                    [ci-skip] fix default values in values.yaml
+                    feat(besu): added support for azure storageclass for Hyperledger Besu
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                docs(corda): fix default values in values.yaml
-
-fix default values in values.yaml
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-04 04:57:03 +0000 UTC
+        Created At 2023-08-11 18:01:22 +0000 UTC
     </div>
 </div>
 
