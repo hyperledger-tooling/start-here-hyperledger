@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3803" class=".btn">#3803</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #3802: Unicode "kagami crypto" seed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+A small Kagami help update
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+Closes #3802
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-11 09:13:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3795" class=".btn">#3795</a>
             </td>
             <td>
@@ -316,9 +358,9 @@ Partially closes #2245  <!-- Replace with an actual number,  -->
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
@@ -335,52 +377,6 @@ Partially closes #2245  <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-08-08 07:26:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3785" class=".btn">#3785</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3780: Add tini to forward signals to processes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Add [Tini](https://github.com/krallin/tini) to pass signals to the Iroha processes.
-Sets up Tini using its current builds, and uses GPG for the certificate checks.
-**GPG build part unchecked; this is a draft.**
-
-Modifies Dockerfiles:
-
-* https://github.com/hyperledger/iroha/blob/iroha2-dev/Dockerfile
-* https://github.com/hyperledger/iroha/blob/iroha2-dev/Dockerfile.build
-
-* https://github.com/hyperledger/iroha/blob/iroha2-dev/Dockerfile.glibc
-* https://github.com/hyperledger/iroha/blob/iroha2-dev/Dockerfile.build.glibc
-
-### Linked issue
-
-https://github.com/hyperledger/iroha/issues/3780
-
-### Benefits
-
-The Iroha processes will shut down normally.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-08 06:23:05 +0000 UTC
     </div>
 </div>
 
@@ -448,65 +444,6 @@ The Iroha processes will shut down normally.
     </table>
     <div class="right-align">
         Created At 2023-08-07 19:22:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3782" class=".btn">#3782</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3324: Add client cli burn checks and refactoring
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3324 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-04 10:07:38 +0000 UTC
     </div>
 </div>
 

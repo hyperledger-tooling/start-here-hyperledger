@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2602" class=".btn">#2602</a>
+            </td>
+            <td>
+                <b>
+                    fix: use common package convention
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - change package.json and tsconfig.json files to follow common convention
+
+Closes: #2216
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-11 09:47:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2599" class=".btn">#2599</a>
             </td>
             <td>

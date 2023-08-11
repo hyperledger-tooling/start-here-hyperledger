@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    Rebased remotew
+                    Various Utilities in Support of the Token-SDK
                 </b>
             </td>
         </tr>

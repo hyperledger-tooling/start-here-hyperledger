@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Expose additional protojson marshal options. 
+                    Improvement token and patch envelope 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                This is in relation to issue #31 and storing the state a json objects. This exposes two additional options for json serialization and enables them by default for the json sterilization. The first option has it encode the enums as an int instead of a string. This will reduce the size of the objects stored in the ledger. The second option is to enable it to encode default values when translating the proto to json. This will ensure that the objects in the CouchDB will have the expected shape so that rich queries can be ran on the world state db for objects that have default values. 
+                New features in token extensions (LockBatch and GetUTXO). 
+Some changes for envelope.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-19 18:53:54 +0000 UTC
+        Created At 2023-08-11 10:03:27 +0000 UTC
     </div>
 </div>
 
