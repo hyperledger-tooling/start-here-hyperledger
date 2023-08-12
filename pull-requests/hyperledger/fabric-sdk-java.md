@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/287" class=".btn">#287</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/288" class=".btn">#288</a>
             </td>
             <td>
                 <b>
-                    Update version following v2.2.23 release
+                    Update OpenTelemetry and SnakeYAML dependencies
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-02 18:15:01 +0000 UTC
+        Created At 2023-08-12 09:16:04 +0000 UTC
     </div>
 </div>
 
