@@ -152,29 +152,3 @@ Correctness has been tested (so far only) using AATH tests running against AcaPy
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/925" class=".btn">#925</a>
-            </td>
-            <td>
-                <b>
-                    Remove init_issuer_config function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-05 18:00:47 +0000 UTC
-    </div>
-</div>
-

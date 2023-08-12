@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2609" class=".btn">#2609</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples): fix CVE-2022-24785 - test-run-transaction/supply-chain-app-stub
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CVE-2022-24785
+- https://nvd.nist.gov/vuln/detail/cve-2022-24785
+
+GHSA-8hfj-j24r-96c4
+- https://github.com/advisories/GHSA-8hfj-j24r-96c4
+
+Fixes #2608
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-12 15:50:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2607" class=".btn">#2607</a>
             </td>
             <td>
