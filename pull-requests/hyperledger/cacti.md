@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2607" class=".btn">#2607</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): upgrade Jest to v29.6.2 project-wide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also upgraded these packages to make sure that
+they all work correctly together:
+1. @types/jest
+2. jest-extended
+3. ts-jest
+
+Also disabled build scripts for nodemon which was
+crashing during yarn install.
+
+Fixes #2606
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-12 05:48:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2604" class=".btn">#2604</a>
             </td>
             <td>
