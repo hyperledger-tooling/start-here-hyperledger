@@ -144,34 +144,3 @@ I allowed to take some shortcuts with upgrading the subxt tests. Because we have
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1474" class=".btn">#1474</a>
-            </td>
-            <td>
-                <b>
-                    Represent contracts by their program id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR changes the inner representation of Solana contracts from their data account to their program id.
-All the changes are listed here: https://github.com/hyperledger/solang/issues/1430
-
-Constructors will still require an account to be initialized, even if the contract has no storage variables and no function requires a data account. This setting does not influence the overall functionality of Solang, but it is something we must solve as I have described in #1480 .
-
-There are small changes in Polkadot tests, because I found the mutability check to be incomplete. We were not recursing down all expressions, so reads and writes from the state went unnoticed. I fixed this as well.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-04 20:24:06 +0000 UTC
-    </div>
-</div>
-
