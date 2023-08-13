@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3807" class=".btn">#3807</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Formalise the release process
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Added two documents describing the release process and cadence recommendations. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-12 22:23:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3806" class=".btn">#3806</a>
             </td>
             <td>
