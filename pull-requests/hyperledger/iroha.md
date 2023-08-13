@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3808" class=".btn">#3808</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3529: Fix topology for 3 or less peers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Make `Topology` methods consistent with each other and add bunch of tests.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3529 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Work properly.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### How to test
+
+1. Run tests
+
+```bash
+cargo test --package iroha_core --lib -- sumeragi::network_topology::tests --nocapture 
+```
+
+2. Startup iroha with 1-3 peers
+```bash
+# build iroha
+cargo build
+
+# run iroha network
+./scripts/test_env 1-3
+```
+
+### Checklist
+
+- [x]: Fix topology methods to be consistent
+- [x]: Add test to verify
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-13 11:43:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3807" class=".btn">#3807</a>
             </td>
             <td>
