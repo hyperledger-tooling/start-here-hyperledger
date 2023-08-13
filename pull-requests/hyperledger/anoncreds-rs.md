@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/229" class=".btn">#229</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/231" class=".btn">#231</a>
             </td>
             <td>
                 <b>
-                    Update to anoncreds-clsignatures 0.2, update tails access
+                    fix: JS wrapper updates
                 </b>
             </td>
         </tr>
@@ -27,14 +27,19 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                This merges some changes to the tails file handling from indy-credx. The tempfile library is not compatible with some filesystems like on Azure (https://github.com/hyperledger/indy-shared-rs/issues/21). This removes that dependency and adds buffering to the IO operations which helps performance.
+                Some updates to JavaScript wrappers to match main `branch` status:
 
-The tails file path is no longer required for the credential revocation config when issuing, this would require a JS wrapper update as well.
+- update React Native wrapper to match changes merged after #226. It also fixes an error in `UpdateRevocationStatusList` for NodeJS
+- update both NodeJs and React Native according to #229. In that PR I've seen that `FfiCredRevInfo` structure has not been changed, even if `tails_path` is not used anymore. @andrewwhitehead is this on purpose or should be removed from there as well?
+
+I went a bit more further and updated minimum node version to 18, which is in fact the minimum _usable_ version due to the known performance issue of `ref-napi` (which is patched). node 16 will reach its EOL next month anyway.
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-03 21:03:20 +0000 UTC
+        Created At 2023-08-12 21:24:23 +0000 UTC
     </div>
 </div>
 
