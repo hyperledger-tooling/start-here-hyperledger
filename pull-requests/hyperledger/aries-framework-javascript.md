@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    DidCommV2: Checking compatibility with Aries GO
+                    chore: DidCommV2 compatibility with Aries GO
                 </b>
             </td>
         </tr>

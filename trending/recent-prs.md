@@ -1,13 +1,13 @@
 
-[1543](https://github.com/hyperledger/aries-framework-javascript/pull/1543) DidCommV2: Checking compatibility with Aries GO
+[2345](https://github.com/hyperledger/bevel/pull/2345) [fabric] Added creation of Vault auths through cluster_id.
 
-[720](https://github.com/hyperledger/aries-agent-test-harness/pull/720) Changes by create-pull-request action
+[21](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/21) IBP References removal 
 
-[5758](https://github.com/hyperledger/besu/pull/5758) Eip4788 parentBeaconBlockRoot 
+[935](https://github.com/hyperledger/aries-vcx/pull/935) Update indy-vdr
 
-[2615](https://github.com/hyperledger/cacti/pull/2615) fix(cactus-validator-socketio-indy): upgrade pyjwt to 2.4.0
+[2344](https://github.com/hyperledger/bevel/pull/2344) [fabric] move hashicorp vault functions to a single script
 
-[403](https://github.com/hyperledger-labs/fablo/pull/403) Initial step to implementing support for invoke command 
+[188](https://github.com/hyperledger/fabric-protos/pull/188) Update dependencies to address CVE-2023-2976 (0.2.x branch)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

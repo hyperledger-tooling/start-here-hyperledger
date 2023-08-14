@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    Update tool versions and dependencies
+                    Update dependencies to address CVE-2023-2976 (0.2.x branch)
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                - Remove several unnecessary dependencies from Java package.
-- Update Makefile to latest toolchain and to work on Arm64 Mac.
-- Add security vulnerability scan.
+                Also update build tool versions and rework build process so that it can run on Apple silicon Mac.
+
+Cherry-pick of f8bbc7f9f4bb35ad6d07289510eca8a9ff67ea10 and f4e976cd8eaafeed15f9764a80b7a841cf8d2f6f from main branch.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-02 18:43:51 +0000 UTC
+        Created At 2023-08-14 08:44:29 +0000 UTC
     </div>
 </div>
 
