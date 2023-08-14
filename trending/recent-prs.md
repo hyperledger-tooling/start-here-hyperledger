@@ -1,13 +1,13 @@
 
-[3808](https://github.com/hyperledger/iroha/pull/3808) [fix] #3529: Fix topology for 3 or less peers
+[5758](https://github.com/hyperledger/besu/pull/5758) Eip4788 parentBeaconBlockRoot 
 
-[161](https://github.com/hyperledger/anoncreds-spec/pull/161) Added credential offer nonce details in issuace data flow
+[2615](https://github.com/hyperledger/cacti/pull/2615) fix(cactus-validator-socketio-indy): upgrade pyjwt to 2.4.0
 
-[3807](https://github.com/hyperledger/iroha/pull/3807) [documentation]: Formalise the release process
+[403](https://github.com/hyperledger-labs/fablo/pull/403) Initial step to implementing support for invoke command 
 
-[539](https://github.com/hyperledger/cello/pull/539) [trivial] Fix local development environment
+[3809](https://github.com/hyperledger/iroha/pull/3809) [documentation]: Release roadmap
 
-[231](https://github.com/hyperledger/anoncreds-rs/pull/231) fix: JS wrapper updates
+[22](https://github.com/hyperledger-labs/mosaique-decentralized-workflows/pull/22) Documentation updates
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

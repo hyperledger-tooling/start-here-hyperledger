@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2615" class=".btn">#2615</a>
+            </td>
+            <td>
+                <b>
+                    fix(cactus-validator-socketio-indy): upgrade pyjwt to 2.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CVE ID CVE-2022-29217
+
+GHSA ID GHSA-ffqj-6fqr-9h24
+
+https://github.com/advisories/GHSA-ffqj-6fqr-9h24
+
+https://github.com/hyperledger/cacti/security/dependabot/175
+
+Fixes #2614
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-13 22:07:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2613" class=".btn">#2613</a>
+            </td>
+            <td>
+                <b>
+                    fix(cactus-core-api): address CVE-2021-38192 - GHSA-x4qm-mcjq-v2gf
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Performs a minor semver upgrades to tonic, tonic-build and prost so
+that the vulnerable version of prost-types is no longer in the
+dependency tree.
+
+Fixes #2612
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-13 19:27:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2611" class=".btn">#2611</a>
             </td>
             <td>
