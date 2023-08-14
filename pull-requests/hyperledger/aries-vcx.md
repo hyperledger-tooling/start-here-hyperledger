@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/936" class=".btn">#936</a>
+            </td>
+            <td>
+                <b>
+                    Allow parsing unqualified DIDs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enables parsing of unqualified DIDs in `did_parser`, a temporary measure for the purposes of gracefully transitioning to using fully qualified DIDs, and will be reverted once the transition is complete.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 13:51:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/935" class=".btn">#935</a>
             </td>
             <td>

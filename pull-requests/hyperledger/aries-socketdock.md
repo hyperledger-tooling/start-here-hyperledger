@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-socketdock
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Feature/new connection notification
+                    Feature/performance test
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/aries-socketdock
                 
             </td>
             <td>
-                Add the following:
-
-Message on connect
-Headers on connect
-Ability to send text instead of binary messages.
-Add disconnect functionality
-Only process log messages if log level is high enough
+                Add locust performance test of socketdock.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-26 16:03:42 +0000 UTC
+        Created At 2023-08-14 14:56:22 +0000 UTC
     </div>
 </div>
 
