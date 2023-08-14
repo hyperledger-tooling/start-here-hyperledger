@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3809" class=".btn">#3809</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Release roadmap
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                The proposed release roadmap submitted for review as a recommendation. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-13 20:17:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3808" class=".btn">#3808</a>
             </td>
             <td>
