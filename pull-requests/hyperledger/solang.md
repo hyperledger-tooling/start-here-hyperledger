@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1485" class=".btn">#1485</a>
+            </td>
+            <td>
+                <b>
+                    Avoid overflow in transfer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `address.transfer` and `address.send` utilize `void sol_transfer` from `solana.c` under the hood, which was saving the overflowed valued to the account balance. This PR fixes such an issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 17:56:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1483" class=".btn">#1483</a>
             </td>
             <td>
