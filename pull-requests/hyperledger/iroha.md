@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3810" class=".btn">#3810</a>
+            </td>
+            <td>
+                <b>
+                    [release]: RC19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Checklist
+- [x] Tests pass
+- [x] All crates compile individually
+- [x] Changelog
+- [x] SDKs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 08:02:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3809" class=".btn">#3809</a>
             </td>
             <td>

@@ -118,29 +118,3 @@ I allowed to take some shortcuts with upgrading the subxt tests. Because we have
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1476" class=".btn">#1476</a>
-            </td>
-            <td>
-                <b>
-                    Link to the Solana getting started guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/solang/issues/1475.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-07 08:02:47 +0000 UTC
-    </div>
-</div>
-

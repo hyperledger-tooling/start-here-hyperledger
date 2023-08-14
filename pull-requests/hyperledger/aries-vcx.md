@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/935" class=".btn">#935</a>
+            </td>
+            <td>
+                <b>
+                    Update indy-vdr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update indy-vdr to latest main rev (as it contains `vdr-proxy-client` (unlike any (pre-)release)).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 10:52:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/934" class=".btn">#934</a>
             </td>
             <td>
