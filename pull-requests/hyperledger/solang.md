@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1488" class=".btn">#1488</a>
+            </td>
+            <td>
+                <b>
+                    Produce error diagnostics if overflow occurs in constant folding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The negate operator does not check for overflow, add this too.
+
+Fixes https://github.com/hyperledger/solang/issues/1484
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 08:37:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1487" class=".btn">#1487</a>
             </td>
             <td>
