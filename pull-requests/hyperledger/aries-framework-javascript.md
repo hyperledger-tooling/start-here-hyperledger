@@ -64,29 +64,3 @@ This happened to Faber in the demo, and may happen to you as well!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1542" class=".btn">#1542</a>
-            </td>
-            <td>
-                <b>
-                    fix: listen to incoming messages on agent initialize not constructor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-08 10:07:58 +0000 UTC
-    </div>
-</div>
-

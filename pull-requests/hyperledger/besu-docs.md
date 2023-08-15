@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1372" class=".btn">#1372</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1377" class=".btn">#1377</a>
             </td>
             <td>
                 <b>
-                    Updated topics to be both public & private
+                    Updated Sirato to Chainlens
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Update the Public networks > How to > Use the Besu API topics with both the public networks tag so that now these topics have both the public networks and private networks tags.
-
-Fixes #1371 
-
+                Updated Sirato to Chainlens and some steps to spin up Chainlens free for Besu Developer Quickstart
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-03 23:50:32 +0000 UTC
+        Created At 2023-08-15 09:14:22 +0000 UTC
     </div>
 </div>
 

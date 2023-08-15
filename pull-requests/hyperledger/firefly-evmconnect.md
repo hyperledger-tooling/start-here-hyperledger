@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/96" class=".btn">#96</a>
+            </td>
+            <td>
+                <b>
+                    Auto-backoff catchupPageSize if error matches configured regex pattern
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 09:53:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/95" class=".btn">#95</a>
             </td>
             <td>
