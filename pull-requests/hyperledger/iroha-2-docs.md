@@ -55,12 +55,17 @@ I wonder if we need to do something about the Java and JavaScript articles, as `
                 
             </td>
             <td>
-                PR #332 has been split for the sake of granularity.
+                ## Description
+Introducing the "Security" section of the documentation. The original documentation—PR #332—has been split for the sake of granularity.
 
-Changes:
+## Changes:
 - Original PR #332 turned into the 'Security' section.
 - Original topics restructured.
 - Additional information added.
+
+## Notes
+- The "Password Security" topic is planned to be a part of the next PR.
+
             </td>
         </tr>
     </table>

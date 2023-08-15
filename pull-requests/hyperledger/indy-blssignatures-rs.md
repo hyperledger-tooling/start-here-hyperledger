@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/indy-blssignatures-rs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-blssignatures-rs/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Validate curve points
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Merges updates from anoncreds-clsignatures
-
-Adds a basic benchmark of signing and verifying operations
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-08 17:03:52 +0000 UTC
-    </div>
-</div>
-
