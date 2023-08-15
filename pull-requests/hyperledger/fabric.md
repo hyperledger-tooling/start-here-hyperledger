@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4366" class=".btn">#4366</a>
+            </td>
+            <td>
+                <b>
+                    Add readthedocs config file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add readthedocs config file.
+
+For more background see https://blog.readthedocs.com/migrate-configuration-v2/
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 16:04:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4365" class=".btn">#4365</a>
             </td>
             <td>

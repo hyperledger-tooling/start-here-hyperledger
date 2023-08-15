@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/232" class=".btn">#232</a>
+            </td>
+            <td>
+                <b>
+                    Hashmap uniformization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is somewhat of a continuation to the discussion in #228 . 
+
+It allows both FFI and native code to use the services API in an organic manner through the use of generics, particularly referring to instances where there are containers of references in FFI, but in native code the container would be over owned types.
+
+Also, the first commit simplifies the `TailsFileReader`; some lints were getting triggered and I figured I might as well do that while I was at it. If it's a problem to have both of these things in the same PR I can create a separate one for the first commit and cherry-pick the others in a separate PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 16:23:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/231" class=".btn">#231</a>
             </td>
             <td>

@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2421" class=".btn">#2421</a>
+            </td>
+            <td>
+                <b>
+                    Issue #2250 Nightly publish workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This issue resolves #2250
+
+Here I have created a GitHub workflow that will execute the tests just as they are handled in `nightly-tests.yml` excluding the indy tests as mentioned in this comment.
+
+https://github.com/hyperledger/aries-cloudagent-python/issues/2250#issuecomment-1674918887
+
+The workflow acts as follows
+```python
+run nightly tests
+If (tests are successful):
+   build a nightly release
+   publish this release with the `nightly` tag
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 15:47:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2420" class=".btn">#2420</a>
             </td>
             <td>
