@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/540" class=".btn">#540</a>
+            </td>
+            <td>
+                <b>
+                    Nominate Xichen Pan as maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Xichen Pan was the intern student last year, he is actively contributing into the project in terms of code, features, and bug fixes.
+
+After his intern program, he continues to contribute to the project as an individual developer for more than half a year.
+
+I believe the nomination will help the project move on more efficiently.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 04:48:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/539" class=".btn">#539</a>
             </td>
             <td>

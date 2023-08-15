@@ -14,6 +14,107 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1487" class=".btn">#1487</a>
+            </td>
+            <td>
+                <b>
+                    Bring import resolution in line w/ Solc's
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solang's import resolution departs from solc's in several key ways. I've spent quite a bit of time trying to understand how solc's import system works (it's very bad), and how Solang differs. This has been both through reading code and through experimenting with both systems.
+
+I've compiled a set of tests [here](https://github.com/BenTheKush/solc_remapping_behavior_test). These tests show differences in behavior between the import resolution (this includes filename resolution specified from CLI, remapping behavior, import path behavior, etc etc).
+
+This PR is attempting to bring solang's implementation in line with my understanding of the solidity documentation. It's currently a draft and is rough around the edges (including debug println statements so I can figure out control flow, etc).
+
+## Differences between Solang and Solc
+
+### 1. Remap Targets
+Solang and Solc treat the target of a remapping `map=target` very differently.
+
++ **Solc:** In solc, when an import statement of the form `import "map/path/to/Foo.sol";` is encountered, solc will attempt to remplace `map` with `target` and then resolve this new replaced version of the import path against the base-path and any specified include-paths.
+
+  **Note:** from the current working director, the path specified by `target` DOES NOT NEED TO EXIST!
+  
++ **Solang:** Solang [canonicalizes the target](https://github.com/hyperledger/solang/blob/90c687ecb52dd4c75adda3c52443c0b5725ab16c/src/file_resolver.rs#L43); if the target does not exist compilation immediately fails. Worse, this canonicalization may be valid but point to a _different_ target than what was expected by the developers. This could silently lead to incorrect files being imported, leading to potential security risks.
+
+The fix is to remove the call to `.canonicalize()`
+
+### 2. Incorrect Direct Imports
+
+A _direct import_ is any import that doesn't start with `"./"` or `"../"` (these are relative imports). 
+
++ **Solc:** resolves direct imports against the `--base-path` and any specified `--include-path`s
+
++ **Solang:** currently attempts to [resolve an import path by canonicalizing it in the host filesystem](https://github.com/hyperledger/solang/blob/90c687ecb52dd4c75adda3c52443c0b5725ab16c/src/file_resolver.rs#L209-L213)
+  ```rust
+        if let Some(file) = self.try_file(filename, &path, None)? {
+            return Ok(file);
+        } else if path.is_absolute() {
+            return Err(format!("file not found '{}'", filename.to_string_lossy()));
+        }
+  ```
+  
+  This is correct behavior only when this is a file specified from CLI, which is true iff parent is `None` (at least, according to the current implementation). The easiest solution is to change the above lines to:
+  
+  ```rust
+    if parent.is_none(){
+        if let Some(file) = self.try_file(filename, &path, None)? {
+            return Ok(file);
+        }
+        return Err(format!("file not found '{}'", filename.to_string_lossy()));
+    }
+  ```
+  
+  **Note:** when parent is none and try_file failed we fail (as opposed to only when it was an absolute path). Why? Because a file specified from CLI is a path in the _host file system_, not the _virtual file system_. This means that if `canonicalize()` fails, it's a bad filename.
+
+### 3. Ambiguous Imports should Fail
+
+An ambiguous import (i.e., an import path that can be resolved multiple ways given the configuration) should fail. This is specified in solidity docs. It's also undesirable to have import map order not commute (i.e., `-I a -I b` results in a different binary than `-I b -I a`). 
+
+
+The fix for this is to create a list of resolved files and then, if there is more than one, report an error and list all resolved file paths. Example from solc where I specified the same import root twice, causing multiple resolutions, once for each redundant occurance of the `.` import root:
+
+![Screen Shot 2023-08-14 at 9 51 33 PM](https://github.com/hyperledger/solang/assets/128326394/fbe9510a-af59-437b-a71d-58da569b01c9)
+
+### 4. Remapping's maps should support multi-path segments
+
+A remap like `a/b/c=target` is valid according to solidity docs/solc. I've replaced the [previous `iter()`/`first()` based implementation](https://github.com/hyperledger/solang/blob/90c687ecb52dd4c75adda3c52443c0b5725ab16c/src/file_resolver.rs#L216-L218):
+
+```rust
+        let mut iter = path.iter();
+        if let Some(first_part) = iter.next() {
+            let relpath: &PathBuf = &iter.collect();
+```
+
+with a `strip_prefix()` based implementation.
+
+### 5. VFS  paths resolved in the host filesystem
+_TODO:_ Elaborate
+
+### 6. Solc's import path specification is _non-monotonic_
+
+By this I mean that you can add an import path (specifically `--base-path`), and previously valid imports will now become _invalid_. YUCK.
+
+This is because the default `--base-path` is `""`, and this gets _replaced_ when you specify an import path. This is gross and leads to disgusting edge cases. I'll expand more on this later
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 05:00:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1486" class=".btn">#1486</a>
             </td>
             <td>
