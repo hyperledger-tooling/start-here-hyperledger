@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/937" class=".btn">#937</a>
+            </td>
+            <td>
+                <b>
+                    Modify connection inviter to extract msg sending out
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @nain-F49FF806 will soon start integrating connection protocol into mediator service. Since clients connecting to mediator have no inbound endpoint to receive messages on, the clients will need to request transport return route https://github.com/hyperledger/aries-rfcs/blob/main/features/0092-transport-return-route/README.md
+to receive aries responses in http responses.
+Naian will be using only inviter side of Connection, and it's important the state machine implementation doesn't include response sending.  While `send_response` with some in-memory transport channel could still work to deliver responses, getting rid seems cleaner.
+Hence:
+- removed `InviterConnection<Requested>::send_response`
+- added  `InviterConnection<Requested>::get_connection_response_msg`, `InviterConnection<Requested>::mark_response_sent`
+
+No breaking changes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 21:54:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/936" class=".btn">#936</a>
             </td>
             <td>

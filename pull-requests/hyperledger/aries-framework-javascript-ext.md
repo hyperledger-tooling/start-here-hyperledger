@@ -14,31 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/224" class=".btn">#224</a>
             </td>
             <td>
                 <b>
-                    fix(push-notifications)!: align to RFCs 0699/0734
+                    chore: release @aries-framework/push-notifications 0.6.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">autorelease: pending</span>
             </td>
             <td>
-                Updates Push Notifications modules to support all features mentioned in Aries RFCs [0699](https://github.com/hyperledger/aries-rfcs/tree/main/features/0699-push-notifications-apns) (for APNS) and [0734](https://github.com/hyperledger/aries-rfcs/tree/main/features/0734-push-notifications-fcm) (for FCM).
+                :robot: I have created a release \*beep\* \*boop\*
+---
+## [0.6.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/push-notifications-v0.5.0...push-notifications-v0.6.0) (2023-08-14)
 
-There are only two changes in the API for both mechanisms:
-- `deviceInfo()` now needs an additional parameter, because to create a `device-info` message it's needed to specify the threadId (as it is generated as a response for a `get-device-info` message)
-- `DeviceInfo` data can now accept both `string` and `null`
 
-This adds some basic error handling, like throwing a Problem Report in case that either device_token or device_platform are null. Maybe it could be interesting in a further PR to add records (or use Connection Metadata) to do automated responses and more checks.
+### ⚠ BREAKING CHANGES
+
+* **push-notifications:** align to RFCs 0699/0734 (#223)
+
+### Bug Fixes
+
+* **push-notifications:** align to RFCs 0699/0734 ([#223](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/223)) ([15e9f1f](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/15e9f1f76a4048e386b6023f0e0361a863e3a56f))
+---
+
+
+This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-05 14:11:36 +0000 UTC
+        Created At 2023-08-14 22:01:20 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1486" class=".btn">#1486</a>
+            </td>
+            <td>
+                <b>
+                    Use named constants instead of magic numbers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using magic numbers degrades code readability.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 20:51:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1485" class=".btn">#1485</a>
             </td>
             <td>
@@ -115,32 +141,6 @@ I allowed to take some shortcuts with upgrading the subxt tests. Because we have
     </table>
     <div class="right-align">
         Created At 2023-08-08 20:20:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1478" class=".btn">#1478</a>
-            </td>
-            <td>
-                <b>
-                    Fix incorrect deserialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The deserialization of `struct TokenAccountData` in the Solana library is incorrect. This PR fixes the issue and tests the deserialization of both `struct TokenAccountData` and `struct MintAccountData`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-07 21:52:16 +0000 UTC
     </div>
 </div>
 

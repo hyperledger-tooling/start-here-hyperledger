@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/211" class=".btn">#211</a>
+            </td>
+            <td>
+                <b>
+                    Issue #210 InvalidClientTaaAcceptanceError time too precise error if container timezone is not UTC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds timezone.utc to datetime.combine to ensure time will be midnight in UTC regardless of the default timezone
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 23:15:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/209" class=".btn">#209</a>
             </td>
             <td>
