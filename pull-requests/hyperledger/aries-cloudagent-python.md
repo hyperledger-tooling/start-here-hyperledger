@@ -14,11 +14,91 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2420" class=".btn">#2420</a>
+            </td>
+            <td>
+                <b>
+                    Issue #2419 InvalidClientTaaAcceptanceError time too precise error if container timezone is not UTC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds timezone.utc to datetime.combine to ensure time will be midnight in UTC regardless of the default timezone
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 23:16:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2418" class=".btn">#2418</a>
+            </td>
+            <td>
+                <b>
+                    Enable Snyk scanning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                addresses #2087 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 20:23:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2416" class=".btn">#2416</a>
+            </td>
+            <td>
+                <b>
+                    feat: Proof Negotiation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a rebased version of #2033. Thank you for your contributions, @Przytua!
+
+I think these changes are likely to be better suited to a new endpoint (i.e. `POST /present-proof/{pres_ex_id}/counter-request` or something) rather than changing the behavior of `POST /present-proof/{pres_ex_id}/request`. I'll open this as a draft for now and look at making these changes when I can.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 19:01:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2415" class=".btn">#2415</a>
             </td>
             <td>
                 <b>
-                    Remove Indy from tests run on PRs
+                    Remove Indy tests from workflows
                 </b>
             </td>
         </tr>
@@ -111,7 +191,14 @@ Resolves #2406
                 
             </td>
             <td>
-                WIP - quick commit to see if tails server works on GH.
+                Add BDD tests for issue v2 and proof presentation v2.
+The tests include create schema, create cred def and revocation through the new `/anoncreds` API.
+
+Note that I encountered some weirdness running the tests in the devcontainer... some messages didn't appear to be fully fleshed out (see comments about "by_format"). Running using the `run_bdd` script was fine.
+
+Also, on proof presentation, I could not get it working using restriction with "schema_name" and "schema_version" like other presentations. I used restrictions by `cred_def_id` to pass the tests.  Not sure if that is something that needs to be looked at further as it would impact migrations to `anoncreds` if current presentation requests don't work.
+
+
             </td>
         </tr>
     </table>
@@ -189,58 +276,6 @@ Resolves #2161. I think. lol
     </table>
     <div class="right-align">
         Created At 2023-08-09 02:35:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2401" class=".btn">#2401</a>
-            </td>
-            <td>
-                <b>
-                    Anoncreds BDD test preparation.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Relates to #2297.
-
-This is step one to onboard `anoncreds-rs`. 
-
-Changes to ledger base classes has "broken" schemas and cred defs. This is expected as we are transition. This PR merely allows us to run `BDD` tests, `pytest`, `Flake8` and `black` so we can commit and merge future PRs.
-
-BDD tests that are failing due to anoncreds restructuring of Base ledger are now labelled/tagged: `@GHA-Anoncreds-break`. Fix and reintroduce these tests as needed.
-
-Flake8 class documentation is a placeholder, these have: `TODO: update this docstring - Anoncreds-break.` and should be updated with useful documentation.
-
-Pytests that are broken have been skipped with: `@pytest.mark.skip(reason="Anoncreds-break")`.
-
-Please note that I have added in the `devcontainer` from `main`.
-
-BDD Tests Run:
-
-```
-LEDGER_URL=http://test.bcovrin.vonx.io PUBLIC_TAILS_URL=https://tails-test.vonx.io LOG_LEVEL=warning NO_TTY=1 ./run_bdd -t @GHA```
-
-BDD Tests Results:
-
-```
-2 features passed, 0 failed, 3 skipped
-7 scenarios passed, 0 failed, 57 skipped
-37 steps passed, 0 failed, 703 skipped, 0 undefined
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-07 18:58:31 +0000 UTC
     </div>
 </div>
 

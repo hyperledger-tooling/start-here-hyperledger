@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1079" class=".btn">#1079</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1081" class=".btn">#1081</a>
             </td>
             <td>
                 <b>
-                    Smart Contract Dev Spanish Translation - FullStackAssetTransfer
+                    chore: add missing deps of application-gateway-typescript
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This is the translation into spanish of the samples documentation in the Full Stack Asset Transfer sample for the Smart Contract Development unit. Included also in this PR are update to the Readme so user can access the translated pages as well as minor corrections to the English pages.
+                - there were a couple of **deps** missing like `@grpc/grpc-js`
+- added 'em
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-27 18:26:41 +0000 UTC
+        Created At 2023-08-15 00:28:21 +0000 UTC
     </div>
 </div>
 

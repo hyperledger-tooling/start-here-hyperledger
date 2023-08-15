@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4364" class=".btn">#4364</a>
+            </td>
+            <td>
+                <b>
+                    invalid identity error="MSP \"Org3MSP\" is not defined on channel"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                see https://github.com/hyperledger/fabric/issues/4358
+
+Type of change
+Documentation update
+Description
+specifying a CORE_PEER_LOCALMSPID with quotation marks leads to misleading error message =>
+
+Error: proposal failed (err: rpc error: code = Unknown desc = error validating proposal: access denied: channel [] creator org unknown, creator is malformed)
+
+Related issues
+https://github.com/hyperledger/fabric/issues/4358
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-14 19:46:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4362" class=".btn">#4362</a>
             </td>
             <td>
