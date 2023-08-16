@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/939" class=".btn">#939</a>
+            </td>
+            <td>
+                <b>
+                    Extract subset of changes made in #928
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Extracts changes made to `did_doc`, `did_doc_sov`, `did_doc_sov`, `did_peer`, and `public_key` crates in #928. Most of these changes are either consequences of #913 or additions of features found to be useful during #928.
+
+The reason for extracting these changes is that
+* doing so will minimize conflicts encountered when rebasing #928 after changes made to the modified crates (e.g. in  #938),
+* they are independent and useful outside of #928.
+
+TODO: Prune
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 10:01:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/938" class=".btn">#938</a>
+            </td>
+            <td>
+                <b>
+                    Attempt to convert legacy DID documents to new during deserialization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Introduces a lightweight, easy-to-remove legacy DDO data structure to the `did_document_sov` crate. During the deserialization of `DidDocumentSov`, if the incoming data matches the legacy structure, it is converted to `DidDocumentSov` with `IndyAgent` service type.
+
+EDIT: Found [this](https://github.com/TimoGlastra/legacy-did-transformation) document. This implementation should (eventually) follow the described algorithm.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 07:09:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/937" class=".btn">#937</a>
             </td>
             <td>

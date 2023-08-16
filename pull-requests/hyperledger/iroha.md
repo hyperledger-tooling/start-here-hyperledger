@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3815" class=".btn">#3815</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3276: Add `Snapshotter` actor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+Separate wsv snapshots into separate actor.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3276 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+More configuration options.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] Create actor for snapshot creation
+- [x] Add periodic snapshots
+- [ ] Write snapshot to tmp file
+- [ ] Check consistency between `kura` and snapshot
+- [ ] Save `finalized_wsv` instead of `wsv`
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 11:07:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3813" class=".btn">#3813</a>
             </td>
             <td>
@@ -27,13 +90,7 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
-                # Review only the latest commit!
-
-- The other ones are from #3804 
-
-## Description
-
-This PR is based on #3804 
+                ## Description
 
 - Added `iroha_trigger` crate under `wasm/trigger` directory
 - Removed `get_authority()` wasm imports
