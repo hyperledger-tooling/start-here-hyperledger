@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/96" class=".btn">#96</a>
             </td>
             <td>
                 <b>
-                    implement noack mode
+                    Finality delay
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-09 01:33:16 +0000 UTC
+        Created At 2023-08-16 05:42:46 +0000 UTC
     </div>
 </div>
 

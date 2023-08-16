@@ -45,6 +45,8 @@ URL https://github.com/advisories/GHSA-wm7h-9275-46v2
 CVE ID CVE-2022-24434
 GHSA ID GHSA-wm7h-9275-46v2
 
+Fixes https://github.com/hyperledger/cacti/issues/2616
+
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
