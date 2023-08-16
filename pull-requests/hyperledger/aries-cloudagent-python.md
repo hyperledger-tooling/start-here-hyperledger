@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2425" class=".btn">#2425</a>
+            </td>
+            <td>
+                <b>
+                    Per Tenant Logging - Complete Implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolve #2359 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 17:56:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2423" class=".btn">#2423</a>
             </td>
             <td>

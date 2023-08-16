@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Allow infinity point for accumulator values
+                    Tails and accumulator refactoring
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                <nil>
+                Adds wrappers around the Accumulator and Tail types instead of exposing PointG2 (no compatiblity change for indy-credx or anoncreds-rs).
+
+Adds utility methods to RevocationRegistry for generating the initial state and a future state with a set of issued indexes, for use in anoncreds-rs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-27 18:30:13 +0000 UTC
+        Created At 2023-08-16 18:03:17 +0000 UTC
     </div>
 </div>
 

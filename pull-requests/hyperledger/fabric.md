@@ -261,33 +261,3 @@ There is a double paren when there should be a single paren, which breaks a link
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4356" class=".btn">#4356</a>
-            </td>
-            <td>
-                <b>
-                    Bump google.golang.org/grpc to 1.53.0 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Note that grpc 1.52.0 changed behavior of Dial(),
-empty string can no longer be passed.
-Therefore this PR also updates tests that passed empty string.
-
-Also remove the go.mod replace for github.com/cespare/xxhash/v2, it is no longer needed and the grpc update also updates github.com/cespare/xxhash/v2.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-09 14:17:06 +0000 UTC
-    </div>
-</div>
-

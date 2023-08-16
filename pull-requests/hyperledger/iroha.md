@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [refactor] #3276: Add `Snapshotter` actor
+                    [refactor] #3796: Add `SnapshotMaker` actor
                 </b>
             </td>
         </tr>
@@ -39,7 +39,7 @@ Separate wsv snapshots into separate actor.
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #3276 <!-- Replace with an actual number,  -->
+Closes #3796  <!-- Replace with an actual number,  -->
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -53,8 +53,8 @@ More configuration options.
 
 - [x] Create actor for snapshot creation
 - [x] Add periodic snapshots
-- [ ] Write snapshot to tmp file
-- [ ] Check consistency between `kura` and snapshot
+- [x] Write snapshot to tmp file
+- [x] Check consistency between `kura` and snapshot
 - [ ] Save `finalized_wsv` instead of `wsv`
 
 <!-- HINT:  Add more points to checklist for large draft PRs-->
