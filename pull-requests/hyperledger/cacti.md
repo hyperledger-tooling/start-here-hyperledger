@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2617" class=".btn">#2617</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): crash in HeaderParser in dicer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses the advisory:
+https://github.com/hyperledger/cacti/security/dependabot/176
+
+The dicer dependency is included via the express-openapi-validator
+package which needed to be upgraded project-wide for a fix.
+
+The test cases for verifying that the OpenAPI validation still works had
+to be updated because the way invalid field names are represented by
+the new version of the validator have been changed. It used to say if
+in the request body there was a problematic field ".body.SOME_FIELD"
+but now it says instead "/body/SOME_FIELD" so a minor change was needed
+in the test cases assertions to make sure they are not ending up with
+false negative results.
+
+URL https://github.com/advisories/GHSA-wm7h-9275-46v2
+CVE ID CVE-2022-24434
+GHSA ID GHSA-wm7h-9275-46v2
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 23:24:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2615" class=".btn">#2615</a>
             </td>
             <td>
@@ -392,74 +436,6 @@ Closes: #2216
     </table>
     <div class="right-align">
         Created At 2023-08-11 09:47:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2599" class=".btn">#2599</a>
-            </td>
-            <td>
-                <b>
-                    test(connector-fabric): fix tests - package io/fs is not in GOROOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                  The simple answer was to upgrade to go v1.20.x from v1.15.x, but
-  this caused a series of other problems that also needed to address
-  so the complete list of changes and their motivations are below:
-  
-  1. The upgrade to go v1.20.6
-  1.1. We no longer install docker-compose via pip because since v2
-  it ships with the main docker package itself (they rewrote it in go)
-  1.2. Added a new "gcompat" apk package which is necessary because
-  of go v1.20.6 as well. Details on this can be found here:
-  https://github.com/golang/go/issues/59305#issuecomment-1488478737
-  1.3. As  part of installing the OpenSSH server, we now must first wipe all
-  openssh* packages due to newly surfaced package version conflicts due
-  to the ones that are prepackaged with the alpine image.
-  Without the purge step it fails like this:
-```
-        => ERROR [17/64] RUN apk add --no-cache openssh augeas                   1.1s
-       ------
-        > [17/64] RUN apk add --no-cache openssh augeas:
-       0.300 fetch https://dl-cdn.alpinelinux.org/alpine/v3.18/main/x86_64/APKINDEX.tar.gz
-       0.560 fetch https://dl-cdn.alpinelinux.org/alpine/v3.18/community/x86_64/APKINDEX.tar.gz
-       1.041 ERROR: unable to select packages:
-       1.043   openssh-client-common-9.3_p1-r3:
-       1.043     breaks: openssh-client-default-9.3_p2-r0[openssh-client-common=9.3_p2-r0]
-```
-  2. Upgraded the node-ssh library to v13 because v12 was broken due to
-  changes introduced by the new OpenSSH server.
-  3. Modified the container image definition so that we have the ability
-  to customize the version of fabric-nodeenv images used internally by the
-  peers of the fabric-samples repository. This was needed so that we can
-  control what version of npm and NodeJS are being used when the chain code
-  installation process is happening (which is just the peer running the
-  `npm install --production` command within the fabric-nodeenv container)
-  4. The default Fabric version used by the testing infrastructure is now
-  Fabric v2.2.13 and for the NodeJS chain code it is 2.4.2
-  5. Slightly rearranged the imports & constants in some of the tests
-  which made it easier to verify that the new image is working as intended.
-  6. The new image built from this dockerfile for Fabric AIO 2.x is tagged
-  on the registry as:
-  `ghcr.io/hyperledger/cactus-fabric2-all-in-one:2023-08-05-issue2358`
-  
-  Fixes #2358
-  
-  Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-08 22:27:30 +0000 UTC
     </div>
 </div>
 
