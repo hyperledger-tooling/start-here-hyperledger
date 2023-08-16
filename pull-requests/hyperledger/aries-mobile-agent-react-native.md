@@ -31,7 +31,8 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
 
 After this PR there are now 4 in app guides: on the home screen, the credential list screen, the proof request screen, and the credential offer screen. Some of them have multiple steps, some have only one. That functionality is also added in this PR.
 
-Will add a gif once the coverage is sufficient.
+Here's what they look like:
+![in-app-tours](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/0647dfd9-590a-413e-8b92-518ef6569c67)
 
 # Related Issues
 

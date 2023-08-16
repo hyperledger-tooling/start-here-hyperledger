@@ -86,6 +86,7 @@ Fixes
             </td>
             <td>
                 ### **Commit to be reviewed**
+---
 
 **feat(fabric): move hashicorp vault functions to a single script**
 
