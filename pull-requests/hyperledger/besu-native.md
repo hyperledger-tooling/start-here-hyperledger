@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/117" class=".btn">#117</a>
+            </td>
+            <td>
+                <b>
+                    CodeQL fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Address CodeQL findings.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-15 20:36:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/116" class=".btn">#116</a>
             </td>
             <td>

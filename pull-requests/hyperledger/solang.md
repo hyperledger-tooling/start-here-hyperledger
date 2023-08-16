@@ -74,6 +74,25 @@ Solang and Solc treat the target of a remapping `map=target` very differently.
 
 The fix is to remove the call to `.canonicalize()`
 
+Another bug is that when a remapping applies then it _must_ be applied.
+
+Consider the following setup:`Contract.sol` imports `import "lib/A.sol";`, which exists in `resources/node_modules/lib/A.sol`. 
+
++ **Solc:** Compiling with `solc Contract.sol lib=resources/node_modules/lib --base-path node_modules` fails, _even though the imported path `lib/A.sol` can be appended to the base path `resoucres/node_modules` to get the correct path `resources/node_modules/lib/A.sol`_. This is because the remapping `lib=node_modules/lib` __modifies__ the imported path `lib/A.sol` to `node_modules/lib/A.sol`, and then _this path_, not the original imported path, is used to resolve against the base-path.
+
++ **Solang:** Compiling with `solang --target solana Contract.sol -m lib=resources/node_modules/lib -Inode_modules` succeeds.
+
+The fix is to apply a remapping when possible and not allow the original imported path to be used for resolution.
+**EDIT:** After some experimenting with solc it appears that _the last remapping_ is always the one that is applied!
+Note that these are not cumulative: each successive remapping is applied to the original import path, replacing any other remappings that applied:
+
+```
+solc a=good C.sol                 # good
+solc a=good a=bad C.sol           # bad
+solc a=bad a=good C.sol           # good
+solc a=good a=bad a=good C.sol    # good
+```
+
 ### 2. Incorrect Direct Imports
 
 A _direct import_ is any import that doesn't start with `"./"` or `"../"` (these are relative imports). 
@@ -123,10 +142,8 @@ A remap like `a/b/c=target` is valid according to solidity docs/solc. I've repla
 
 with a `strip_prefix()` based implementation.
 
-### 5. VFS  paths resolved in the host filesystem
-_TODO:_ Elaborate
 
-### 6. Solc's import path specification is _non-monotonic_
+### 5. Solc's import path specification is _non-monotonic_
 
 By this I mean that you can add an import path (specifically `--base-path`), and previously valid imports will now become _invalid_. YUCK.
 
@@ -244,32 +261,6 @@ I allowed to take some shortcuts with upgrading the subxt tests. Because we have
     </table>
     <div class="right-align">
         Created At 2023-08-09 10:58:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1481" class=".btn">#1481</a>
-            </td>
-            <td>
-                <b>
-                    Improve math tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes the overflowing error in an a math overflowing tests that was not supposed to overflow and exchanges `pow`/`truncate_biguint` by `modpow`, which is more efficient.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-08 20:20:43 +0000 UTC
     </div>
 </div>
 
