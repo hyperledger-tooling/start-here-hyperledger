@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2620" class=".btn">#2620</a>
+            </td>
+            <td>
+                <b>
+                    fix: ejs critical vulnerability CVE-2022-29078
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                    https://nvd.nist.gov/vuln/detail/CVE-2022-29078
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 06:22:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2617" class=".btn">#2617</a>
             </td>
             <td>

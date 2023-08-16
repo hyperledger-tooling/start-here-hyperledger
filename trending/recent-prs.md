@@ -1,13 +1,13 @@
 
-[96](https://github.com/hyperledger-labs/yui-relayer/pull/96) Finality delay
+[4367](https://github.com/hyperledger/fabric/pull/4367) Remove usage of deprecated ioutil package functions [ledger]
 
-[1490](https://github.com/hyperledger/solang/pull/1490) Implement goto-references, goto-implementations, goto-type-definitions
+[3815](https://github.com/hyperledger/iroha/pull/3815) [refactor] #3276: Add `Snapshotter` actor
 
-[9](https://github.com/hyperledger-labs/nft-community-footprint/pull/9) Bump protobufjs from 6.11.3 to 6.11.4 in /application
+[405](https://github.com/hyperledger-labs/fablo/pull/405) release 1.2.0
 
-[404](https://github.com/hyperledger-labs/fablo/pull/404) Bump protobufjs from 6.11.3 to 6.11.4 in /samples/chaincodes/chaincode-kv-node
+[939](https://github.com/hyperledger/aries-vcx/pull/939) Extract subset of changes made in #928
 
-[1082](https://github.com/hyperledger/fabric-samples/pull/1082) Bump protobufjs from 6.11.3 to 6.11.4 in /asset-transfer-basic/rest-api-typescript
+[60](https://github.com/hyperledger/aries-framework-swift/pull/60) Delete mediation record if it's not ready
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

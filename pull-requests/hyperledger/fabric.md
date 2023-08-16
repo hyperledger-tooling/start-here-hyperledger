@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4367" class=".btn">#4367</a>
+            </td>
+            <td>
+                <b>
+                    Remove usage of deprecated ioutil package functions [ledger]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Go std lib deprecated package ioutils since go ver 1.16, while Fabric still uses it in several places. This commit removes usage of ioutils from ledger-related packages.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 11:51:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4366" class=".btn">#4366</a>
             </td>
             <td>
@@ -55,16 +81,19 @@ For more background see https://blog.readthedocs.com/migrate-configuration-v2/
                 
             </td>
             <td>
-                
-#### Type of change
+                #### Type of change
 - New feature
 
 #### Description
 
+- A BFTDeliverer that fetches blocks using a block receiver and maintains a BFTCensorshipMonitor.
+- Abstract the creation of a BFTCensorshipMonitor via an abstract factory, so that we can use a mock for it in testing.
+- Add a "ShuffledEndpoints" method to the connection source and test it. 
+- Unit testing of BFTDeliverer.
 
 #### Related issues
 
-
+#4348 
             </td>
         </tr>
     </table>

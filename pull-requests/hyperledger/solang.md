@@ -260,33 +260,3 @@ This is because the default `--base-path` is `""`, and this gets _replaced_ when
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1482" class=".btn">#1482</a>
-            </td>
-            <td>
-                <b>
-                    Polkadot: Integration tests use Polkadot v1.0.0 node
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update integration tests to use the latest CI node build containing a substrate node built against `polkadot-v1.0.0`.
-
-Some tests required changes in their weight calculations.
-
-I allowed to take some shortcuts with upgrading the subxt tests. Because we have a student working on making the extrinsics library from cargo-contract re-usable, it'd be a waste spending too much time there (plan is to then use this in the CLI and the integration).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-09 10:58:39 +0000 UTC
-    </div>
-</div>
-

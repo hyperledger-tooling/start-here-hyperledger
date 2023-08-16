@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    Delete mediation record if it's not ready
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix a bug introduced by the previous PR #59 
+We have to delete the old mediation record in both cases:
+1. when the mediatorConnectionsInvite has changed
+2. when the mediation status is not ready (mediation protocol started but not completed)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 08:57:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/59" class=".btn">#59</a>
             </td>
             <td>
