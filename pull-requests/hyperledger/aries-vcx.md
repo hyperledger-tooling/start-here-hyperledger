@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/940" class=".btn">#940</a>
+            </td>
+            <td>
+                <b>
+                    Try Hide indy-api-types from modular_libs consumers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Testing...
+
+i _believe_ that modular_libs should not need anything to do with indy-api-types after this great PR: https://github.com/hyperledger/aries-vcx/pull/934, therefore we should make it optional in aries_vcx_core..
+
+this takes the dep count from `554` to `300` for:
+```
+cargo check --features modular_libs --no-default-features -p aries-vcx
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 09:02:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/939" class=".btn">#939</a>
             </td>
             <td>
@@ -238,36 +271,6 @@ This is not the default behavior because people might not want to have this enab
     </table>
     <div class="right-align">
         Created At 2023-08-10 14:31:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/928" class=".btn">#928</a>
-            </td>
-            <td>
-                <b>
-                    DID Exchange Protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Initial version of [DID Exchange protocol](https://github.com/hyperledger/aries-rfcs/blob/main/features/0023-did-exchange/README.md#request-message-attributes) implementation with support for peer DIDs (peer:did:2 for now), new `DidDocument` crate, and JWS signing / verification.
-
-The primary aim is not to achieve perfection at this stage but to roll out a first iteration prototype.
-
-Correctness has been tested (so far only) using AATH tests running against AcaPy peer:did branch (or against aries-vcx itself), where all didx tests are passing whether the requester or responder role is assumed by either side.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-10 12:06:59 +0000 UTC
     </div>
 </div>
 

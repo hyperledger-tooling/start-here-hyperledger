@@ -14,25 +14,29 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/485" class=".btn">#485</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/487" class=".btn">#487</a>
             </td>
             <td>
                 <b>
-                    Test remotew
+                    idemix: validate identities
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                <nil>
+                This PR addresses the following issue: For the DLog driver, the identity of a token owner was not validated against the Issuer public key. This PR makes sure that this happens and that validation enforces the presence of the commitments to the EID and RH respectively. 
+
+1. add to the public params the revocation public key
+2. when deserializing idemix identities, check the validity of the identity and forse the presence of the nyms
+3. unit-test added
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-09 18:36:37 +0000 UTC
+        Created At 2023-08-17 08:42:13 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[3620](https://github.com/hyperledger/aries-framework-go/pull/3620) [Snyk] Upgrade minimist from 1.2.5 to 1.2.8
+[150](https://github.com/hyperledger/toc/pull/150) 2023 Q3 Hyperledger Bevel report
 
-[3619](https://github.com/hyperledger/aries-framework-go/pull/3619) [Snyk] Upgrade axios from 0.23.0 to 0.27.2
+[61](https://github.com/hyperledger/aries-framework-swift/pull/61) Fix implicit pickup
 
-[2622](https://github.com/hyperledger/cacti/pull/2622) build(deps): bump jose from 4.1.0 to 4.9.2
+[4373](https://github.com/hyperledger/fabric/pull/4373) BFT Block Puller: delivery client integration
 
-[2427](https://github.com/hyperledger/aries-cloudagent-python/pull/2427) Update /schemas to use anoncreds
+[940](https://github.com/hyperledger/aries-vcx/pull/940) Try Hide indy-api-types from modular_libs consumers
 
-[5765](https://github.com/hyperledger/besu/pull/5765) fix: prioritize fork error over missing payload fields
+[4372](https://github.com/hyperledger/fabric/pull/4372) Remove usage of deprecated functions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4373" class=".btn">#4373</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: delivery client integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- New feature
+
+#### Description
+Integrate the BFT block deliverer with the deliver client.
+If the consensus-type is BFT, the BFTDeliverer is created.
+
+#### Related issues
+
+#4348 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 09:20:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4372" class=".btn">#4372</a>
+            </td>
+            <td>
+                <b>
+                    Remove usage of deprecated functions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove usage of deprecated functions:
+- math/rand
+- protobuf/proto
+- protobuf/ptypes
+- grpc
+- crypto/x509
+- fsouza/go-dockerclient
+- net
+- grpc/grpclog
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 08:49:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4369" class=".btn">#4369</a>
             </td>
             <td>
