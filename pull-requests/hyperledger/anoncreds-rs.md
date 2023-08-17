@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/233" class=".btn">#233</a>
+            </td>
+            <td>
+                <b>
+                    Revocation registry cleanups
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates to anoncreds-clsignatures 0.2.1 and simplifies revocation registry handling.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 20:43:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/232" class=".btn">#232</a>
             </td>
             <td>

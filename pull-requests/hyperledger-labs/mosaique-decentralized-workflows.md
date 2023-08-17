@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/mosaique-decentralized-workflows
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/mosaique-decentralized-workflows/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    create explainer_script.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                text for explainer video.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-09 19:18:31 +0000 UTC
-    </div>
-</div>
-
