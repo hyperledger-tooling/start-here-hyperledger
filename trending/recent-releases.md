@@ -7,7 +7,7 @@
 
 [v0.1.0](https://github.com/hyperledger/indy-bls-wrapper-python/releases/tag/v0.1.0) v0.1.0
 
-[v1.3.0](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.0) v1.3.0
+[v2.0.0-pre-rc.19](https://github.com/hyperledger/iroha/releases/tag/v2.0.0-pre-rc.19) v2.0.0-pre-rc.19 (lts-candidate)
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
