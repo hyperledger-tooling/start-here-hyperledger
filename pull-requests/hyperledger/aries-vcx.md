@@ -94,7 +94,7 @@ TODO: Prune
             <td>
                 Introduces a lightweight, easy-to-remove legacy DDO data structure to the `did_document_sov` crate. During the deserialization of `DidDocumentSov`, if the incoming data matches the legacy structure, it is converted to `DidDocumentSov` with `IndyAgent` service type.
 
-EDIT: Found [this](https://github.com/TimoGlastra/legacy-did-transformation) document. This implementation should (eventually) follow the described algorithm.
+Received legacy DDO is first converted to did:peer:2 following [this](https://github.com/TimoGlastra/legacy-did-transformation) document, and from it then back-resolved to the new DDO format following the did:peer:2 spec.
             </td>
         </tr>
     </table>
@@ -211,66 +211,6 @@ No breaking changes
     </table>
     <div class="right-align">
         Created At 2023-08-11 13:23:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/932" class=".btn">#932</a>
-            </td>
-            <td>
-                <b>
-                    Rebuild cargo.lock, restore indy-vdr-proxy txn submitter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - used `indy-vdr` dependencies with following fix https://github.com/mirgee/indy-vdr/pull/2/file
-- rebuilt lock file
-
-It seems due to issue in the `indy-vdr-proxy-client` cargo.toml file, it was bringing in wrong `indy-vdr` version and then our dependency tree ended up with 2 versions of indy-vdr. 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-10 17:36:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/931" class=".btn">#931</a>
-            </td>
-            <td>
-                <b>
-                    Updated indy-credx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #926 .
-
-This introduces yet another feature flag, `legacy_proof`, because after a lot of digging the proof request and verification appear to change in credx in a way that's not backwards compatible. However, the feature flag enables a second check of the proof using the legacy method.
-
-This is not the default behavior because people might not want to have this enabled at all times.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-10 14:31:17 +0000 UTC
     </div>
 </div>
 

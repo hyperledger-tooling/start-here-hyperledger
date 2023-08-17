@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1546" class=".btn">#1546</a>
+            </td>
+            <td>
+                <b>
+                    feat: Basic Messages V2 for DIDComm V2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refactor Basic Messages modules to support both V1 and V2 protocols. At the moment, in order to not introduce breaking changes in API level, when messages are sent
+
+TODO
+- Fix and create new tests
+- Add protocolVersion record for BasicMessageRecord. This can be optional and make permanent when making a new release (migration script included)
+- Analyze how to support DIDComm V1 for Basic Messages 2.0, as the protocol might work with both versions. This will apply also for Discover Features 2.0 and others
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 12:39:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1545" class=".btn">#1545</a>
             </td>
             <td>

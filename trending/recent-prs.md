@@ -1,13 +1,13 @@
 
-[150](https://github.com/hyperledger/toc/pull/150) 2023 Q3 Hyperledger Bevel report
+[169](https://github.com/hyperledger/aries-askar/pull/169) Add profile management and store export to JS wrapper
 
-[61](https://github.com/hyperledger/aries-framework-swift/pull/61) Fix implicit pickup
+[4378](https://github.com/hyperledger/fabric/pull/4378) fix warnings
 
-[4373](https://github.com/hyperledger/fabric/pull/4373) BFT Block Puller: delivery client integration
+[189](https://github.com/hyperledger/aries-mobile-test-harness/pull/189) BCW BC Digital ID test calibration to build 1119
 
-[940](https://github.com/hyperledger/aries-vcx/pull/940) Try Hide indy-api-types from modular_libs consumers
+[430](https://github.com/hyperledger-labs/blockchain-explorer/pull/430) Release v2.0.0
 
-[4372](https://github.com/hyperledger/fabric/pull/4372) Remove usage of deprecated functions
+[4374](https://github.com/hyperledger/fabric/pull/4374) Add readthedocs config file (backport #4366)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

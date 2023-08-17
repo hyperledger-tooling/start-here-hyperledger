@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4378" class=".btn">#4378</a>
+            </td>
+            <td>
+                <b>
+                    fix warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Leading whitespaces before Go directives in comments.
+- Incorrect usages of fmt.Printf, fmt.Println, and similar formatting and printing functions.
+- Redundant parentheses in expressions and types.
+- Types in variable and constant declarations that can be omitted since they can be inferred by the compiler. Such types are redundant, omitting them may improve readability of the code.
+- Type conversions that may be omitted.
+- Aliases of imported packages that may be omitted.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 16:18:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4374" class=".btn">#4374</a>
+            </td>
+            <td>
+                <b>
+                    Add readthedocs config file (backport #4366)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #4366 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 14:43:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4373" class=".btn">#4373</a>
             </td>
             <td>
@@ -339,48 +422,6 @@ https://github.com/hyperledger/fabric/issues/4358
     </table>
     <div class="right-align">
         Created At 2023-08-10 18:59:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4359" class=".btn">#4359</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a cherry-pick of this PR:
-https://github.com/hyperledger/fabric-docs-i18n/pull/816
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-There is a double paren when there should be a single paren, which breaks a link
-
-#### Additional details
-
-#### Related issues
-
-#### Release Note
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-10 14:23:48 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2347" class=".btn">#2347</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] update orderer pods and update required image versions compatible with 2.5.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Primary Changes
+--------------
+1. Updated port of operations in orderers pods to avoid errors
+2. Added fabric 2.5.x compatible versions of images: couchdb and ca_image
+3. Removed fabrictools image in generate_cacerts job as it is not being used
+
+Modifications in charts
+-----------------------
+platforms/hyperledger-fabric/charts/generate_cacerts/values.yaml 
+platforms/hyperledger-fabric/charts/orderernode/templates/configmap.yaml 
+platforms/hyperledger-fabric/charts/orderernode/templates/deployment.yaml 
+platforms/hyperledger-fabric/charts/orderernode/templates/service.yaml
+
+Modifications in roles and tpl files
+-----------------------
+platforms/hyperledger-fabric/configuration/roles/create/ca_server/tasks/main.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/ca_server/vars/main.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/peers/vars/main.yaml 
+platforms/hyperledger-fabric/configuration/roles/helm_component/templates/cacerts_job.tpl
+
+Fixes
+#2346 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 13:00:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2345" class=".btn">#2345</a>
             </td>
             <td>
