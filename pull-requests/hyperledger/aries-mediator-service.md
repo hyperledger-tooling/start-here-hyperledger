@@ -43,6 +43,10 @@ Notes:
 - Currently there is no unit tests (todo)
 - While I know poetry is preferred over pip I was having a lot of trouble getting it to working with the plugin. Can address this later but this was working.
 - Currently the sensitive service account json is being loaded as an env variable. This should perhaps be changed to read a file in the directory and force users of it to load the file in their CI/CD pipeline.
+
+TODO: 
+
+- Currently the plugin data store never removes connection <-> token rows when connections are removed. I thought of doing a daemon type service to check the connection table and removing orphaned rows in the token table. Another approach would be to add a connection removed event onto the event bus and then subscribe to it in the plugin. 
             </td>
         </tr>
     </table>

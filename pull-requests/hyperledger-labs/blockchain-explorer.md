@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/427" class=".btn">#427</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/430" class=".btn">#430</a>
             </td>
             <td>
                 <b>
-                    BE-422 | UI Responsiveness and Misc
+                    Release v2.0.0
                 </b>
             </td>
         </tr>
@@ -32,17 +32,14 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
 
 
 #### What this PR does / why we need it:
-To increase the responsiveness of the app and make some necessary minor UI related issues.
-To fix minor issue regarding the dashboard search functionality and redesign the search box.
+Contains the Readme, package.json and related files with respect to the release version 2.0.0
 #### Which issue(s) this PR fixes:
-Increases the responsiveness of the app and make some necessary minor UI related issues.
-Fixes minor issue regarding the dashboard search functionality and redesign the search box.
 <!--
 *Automatically closes linked issue when PR is merged.
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #422 
+Fixes #
 
 #### Special notes for your reviewer:
 
@@ -54,7 +51,7 @@ Enter your extended release note in the block below. If the PR requires addition
 
 -->
 ```release-note
-yes
+
 ```
 
 #### Additional documentation, usage docs, etc.:
@@ -77,7 +74,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-26 14:34:05 +0000 UTC
+        Created At 2023-08-17 14:56:57 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    BCW BC Digital ID test calibration to build 1119
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the BC Wallet Credential Offer page object with the updates `Viewoffer` test ID. It also brings the related BC Digital tests scenarios up to build 1119 including the new process of scanning the QR code and going to the contact screen instead of the red offer right away.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 15:39:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/188" class=".btn">#188</a>
             </td>
             <td>
