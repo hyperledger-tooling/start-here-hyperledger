@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                additional rpc error code for unsupported fork per https://github.com/ethereum/execution-apis/pull/426/files
+                * prioritize fork error over missing payload fields
+* additional rpc error code for unsupported fork per https://github.com/ethereum/execution-apis/pull/426/files
 
 fixes #5738
             </td>

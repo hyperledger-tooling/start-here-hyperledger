@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    Fix implicit pickup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ACA-Py Implicit pickup requires TrustPing messages have return-route option.
+Maybe this was initially set as true and later changed to false.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 11:12:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/60" class=".btn">#60</a>
             </td>
             <td>
