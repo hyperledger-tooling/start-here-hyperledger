@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Update to anoncreds-clsignatures 0.2, lighten indy-utils
+                    Simplify tails reader
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                Includes some cleanups related to https://github.com/hyperledger/indy-vdr/pull/126. indy-vdr was also using TreeHash directly instead of going through MerkleTree (included in indy-data-types) so a new method is added to help avoid that.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-02 23:55:59 +0000 UTC
+        Created At 2023-08-16 20:32:48 +0000 UTC
     </div>
 </div>
 

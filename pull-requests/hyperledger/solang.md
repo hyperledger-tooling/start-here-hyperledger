@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1492" class=".btn">#1492</a>
+            </td>
+            <td>
+                <b>
+                    AccountInfo data field is not readonly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1489 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-16 21:26:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1490" class=".btn">#1490</a>
             </td>
             <td>
