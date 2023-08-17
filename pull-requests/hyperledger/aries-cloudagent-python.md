@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2427" class=".btn">#2427</a>
+            </td>
+            <td>
+                <b>
+                    Update /schemas to use anoncreds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WIP needs feedback to determine if this is the right direction.
+
+Have updated:
+- [POST /schemas](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/schemas/routes.py#L168)
+- [POST /credential-definitions](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/credential_definitions/routes.py#L167)
+- [GET /credential-definitions/<id>](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/credential_definitions/routes.py#L483)
+
+Added/enabled 2 tests to use the updated endpoints
+- [Issue a credential with the Issuer beginning with an offer](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/demo/features/0453-issue-credential.feature#L40)
+- [Present Proof where the prover does not propose a presentation of the proof and is acknowledged](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/demo/features/0454-present-proof.feature#L40)
+
+
+Have not included revocation yet, just want to get feedback before doing more work. A little concerned that there appears to be a lot more logic in the `/schemas` and `credential-definitions` endpoints than in `anoncreds`.  Granted, the `anoncreds` endpoints are more service oriented and have the services doing a lot of the work that is buried in routes... however, I'm not finding much about where the endorser fits in? Does that work still need to be done in `anoncreds`, I think the multi-ledger came after we split, but that needs addressing to - correct?
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 02:14:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2425" class=".btn">#2425</a>
             </td>
             <td>

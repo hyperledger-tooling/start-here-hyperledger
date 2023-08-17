@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5765" class=".btn">#5765</a>
+            </td>
+            <td>
+                <b>
+                    fix: prioritize fork error over missing payload fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                additional rpc error code for unsupported fork per https://github.com/ethereum/execution-apis/pull/426/files
+
+fixes #5738
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 01:01:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5764" class=".btn">#5764</a>
             </td>
             <td>
