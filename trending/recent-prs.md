@@ -1,13 +1,13 @@
 
-[93](https://github.com/hyperledger/aries-mediator-service/pull/93) feature:: Firebase push notification plugin
+[3620](https://github.com/hyperledger/aries-framework-go/pull/3620) [Snyk] Upgrade minimist from 1.2.5 to 1.2.8
 
-[4369](https://github.com/hyperledger/fabric/pull/4369) Bump Go to 1.21.0
+[3619](https://github.com/hyperledger/aries-framework-go/pull/3619) [Snyk] Upgrade axios from 0.23.0 to 0.27.2
 
-[4368](https://github.com/hyperledger/fabric/pull/4368) Remove usage of deprecated ioutil package functions [internal]
+[2622](https://github.com/hyperledger/cacti/pull/2622) build(deps): bump jose from 4.1.0 to 4.9.2
 
-[261](https://github.com/hyperledger-labs/perun-node/pull/261)  Implement watching component for IoT State Channels
+[2427](https://github.com/hyperledger/aries-cloudagent-python/pull/2427) Update /schemas to use anoncreds
 
-[260](https://github.com/hyperledger-labs/perun-node/pull/260)  Implement adjudicator component for IoT State Channels
+[5765](https://github.com/hyperledger/besu/pull/5765) fix: prioritize fork error over missing payload fields
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
