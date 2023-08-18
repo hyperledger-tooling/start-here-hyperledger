@@ -291,6 +291,8 @@ This addresses the issue I've seen with multiple PRs for blob gas testing having
                 ## PR description
 Adds support for EIP 4788 
 
+fixes #5655 
+
             </td>
         </tr>
     </table>
