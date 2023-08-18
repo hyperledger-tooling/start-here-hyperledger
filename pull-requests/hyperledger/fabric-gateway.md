@@ -53,38 +53,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Contributes to #613
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-08-16 13:12:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/620" class=".btn">#620</a>
-            </td>
-            <td>
-                <b>
-                    Update compatibility matrix for Go 1.21
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #612 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-11 17:48:08 +0000 UTC
     </div>
 </div>
 

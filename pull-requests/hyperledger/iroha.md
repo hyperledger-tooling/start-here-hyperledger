@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3824" class=".btn">#3824</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3761: Rewrite `scripts/test-env.sh`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+Rewrite the `test_env.sh` script as python. This should help with running it on systems that don't have bash as default due to python being more ubiquitous.
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3761. <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+Slightly more descriptive docs and messages produced by the script, presumably increased readability.
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] I've run the script with multiple configurations and with the oldest officially supported version of python to make sure it's sufficiently backwards compatible
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 17:53:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3823" class=".btn">#3823</a>
             </td>
             <td>
@@ -826,75 +883,6 @@ Check original issues for steps to reproduce.
     </table>
     <div class="right-align">
         Created At 2023-08-12 11:26:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3804" class=".btn">#3804</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3791: Wasm entrypoint payloads
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Two tasks done.
-
-- Entrypoint name constants moved to the data model
-- These constants used on Iroha and Wasm side
-- Introduced payloads for different entrypoints
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-- Closes #3757
-- Closes #3791
-- Openned #3794 
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-- Better code structure
-- Easy to modify entrypoint input arguments
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-11 14:44:30 +0000 UTC
     </div>
 </div>
 
