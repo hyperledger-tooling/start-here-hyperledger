@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5771" class=".btn">#5771</a>
+            </td>
+            <td>
+                <b>
+                    Initial commit with new JSON/RPC method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Adds `eth_getBlockReceipts` JSON/RPC method
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/5751
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 12:22:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5768" class=".btn">#5768</a>
             </td>
             <td>
