@@ -56,16 +56,16 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 WIP needs feedback to determine if this is the right direction.
 
 Have updated:
-- [POST /schemas](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/schemas/routes.py#L168)
+- [All /schemas routes](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/schemas/routes.py)
 - [POST /credential-definitions](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/credential_definitions/routes.py#L167)
 - [GET /credential-definitions/<id>](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/credential_definitions/routes.py#L483)
+- [POST /revocations/revoke](https://github.com/hyperledger/aries-cloudagent-python/blob/1f6cbf6635fc53e5c945b95353bff48706ed9638/aries_cloudagent/revocation/routes.py#L440)
 
-Added/enabled 2 tests to use the updated endpoints
-- [Issue a credential with the Issuer beginning with an offer](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/demo/features/0453-issue-credential.feature#L40)
-- [Present Proof where the prover does not propose a presentation of the proof and is acknowledged](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/demo/features/0454-present-proof.feature#L40)
+Enabled all "broken" BDD tests (except in sign-transaction due to endorser).
 
+More credential definition routes to fix as well as revocation. The BDD tests pass now, so that means BDD does not do complete coverage.
 
-Have not included revocation yet, just want to get feedback before doing more work. A little concerned that there appears to be a lot more logic in the `/schemas` and `credential-definitions` endpoints than in `anoncreds`.  Granted, the `anoncreds` endpoints are more service oriented and have the services doing a lot of the work that is buried in routes... however, I'm not finding much about where the endorser fits in? Does that work still need to be done in `anoncreds`, I think the multi-ledger came after we split, but that needs addressing to - correct?
+Will have to address the pytests at some point too.
 
 
             </td>
@@ -296,70 +296,6 @@ I think these changes are likely to be better suited to a new endpoint (i.e. `PO
     </table>
     <div class="right-align">
         Created At 2023-08-11 18:38:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2413" class=".btn">#2413</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Ensure event/webhook is emitted for multi-use invitations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As a consequence of the fix in #2223, events/webhooks for new connections created responding to multi-use invitations were not being emitted. This happened because events are emitted, unless specified with the appropriate flag, only when the connection record being saved is new OR the state has changed.
-
-Neither of those conditions is true for a multi-use invitation since the record is "cloned" and contextually set to state `request`  (see #2099). 
-
-The fix ensures an event (and webhook) is always emitted when a new connection transitions to the `request` state.
-Resolves #2406 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-11 02:38:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2412" class=".btn">#2412</a>
-            </td>
-            <td>
-                <b>
-                    Anoncreds API BDD Tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add BDD tests for issue v2 and proof presentation v2.
-The tests include create schema, create cred def and revocation through the new `/anoncreds` API.
-
-Note that I encountered some weirdness running the tests in the devcontainer... some messages didn't appear to be fully fleshed out (see comments about "by_format"). Running using the `run_bdd` script was fine.
-
-Also, on proof presentation, I could not get it working using restriction with "schema_name" and "schema_version" like other presentations. I used restrictions by `cred_def_id` to pass the tests.  Not sure if that is something that needs to be looked at further as it would impact migrations to `anoncreds` if current presentation requests don't work.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-11 02:21:11 +0000 UTC
     </div>
 </div>
 

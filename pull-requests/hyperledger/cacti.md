@@ -624,7 +624,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    fix: use common package convention
+                    fix: use common conventions: tsconfig.json, package.json
                 </b>
             </td>
         </tr>
@@ -633,9 +633,21 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                - change package.json and tsconfig.json files to follow common convention
+                - change package.json and tsconfig.json files to follow common
+convention
 
-Closes: #2216
+Peter's additions to fix the broken build:
+- Included shelljs typings as a dev dependency for the package called
+cactus-plugin-ledger-connector-go-ethereum-socketio
+- Also included "socket.io-client" as another missing dev dependency for
+the package above.
+
+Closes: https://github.com/hyperledger/cacti/issues/2216
+
+Co-authored-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+Signed-off-by: Tomasz Awramski <tomasz.awramski@fujitsu.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
