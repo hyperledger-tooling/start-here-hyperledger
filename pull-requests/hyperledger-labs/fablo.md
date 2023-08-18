@@ -127,6 +127,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 2. Created a new script `chaincode-scripts.sh ` to handle `docker exec` 
 3. Created the invoke command for its simplest use case
+4. Update `CHANGELOG.md` with the new changes
             </td>
         </tr>
     </table>

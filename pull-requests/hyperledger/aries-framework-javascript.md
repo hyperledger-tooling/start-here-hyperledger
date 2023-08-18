@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1548" class=".btn">#1548</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): v0.4.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release version 0.4.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 11:30:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1547" class=".btn">#1547</a>
+            </td>
+            <td>
+                <b>
+                    fix(cheqd): make cosmos payer seed optional
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Makes the cosmos payer seed optional, as you can also used it as a holder without payer seed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 10:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1546" class=".btn">#1546</a>
             </td>
             <td>

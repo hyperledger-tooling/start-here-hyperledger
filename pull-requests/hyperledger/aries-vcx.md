@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/941" class=".btn">#941</a>
+            </td>
+            <td>
+                <b>
+                    Expose public key getter on verification method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Introduces a `public_key::Key` getter in `VerificationMethod` to facilitate easy retrieval of the key representation derived from `VerificationMethod`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 06:54:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/940" class=".btn">#940</a>
             </td>
             <td>
