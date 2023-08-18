@@ -56,7 +56,7 @@ fixes #5735
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">RPC</span><span class="chip">ux</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
