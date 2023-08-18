@@ -160,29 +160,3 @@ fixes #2323
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2342" class=".btn">#2342</a>
-            </td>
-            <td>
-                <b>
-                    feat(besu): added support for azure storageclass for Hyperledger Besu
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-11 18:01:22 +0000 UTC
-    </div>
-</div>
-

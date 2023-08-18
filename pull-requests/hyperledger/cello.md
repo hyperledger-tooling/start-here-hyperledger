@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/541" class=".btn">#541</a>
+            </td>
+            <td>
+                <b>
+                    add setup-troubleshoot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add setup-troubleshoot
+Operation not permitted when using Docker Desktop
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 17:32:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/540" class=".btn">#540</a>
             </td>
             <td>

@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/944" class=".btn">#944</a>
+            </td>
+            <td>
+                <b>
+                    Proposal/processor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 16:17:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/943" class=".btn">#943</a>
+            </td>
+            <td>
+                <b>
+                    Remove libvcx-c, libvcx java, libvcx ios
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After ~9 months of deprecation, we remove libvcx-c and associated java and ios wrappers.
+
+However, anyone with strong interest to keep this components "alive" is welcome to take owner their ownership and maintenance. Please contact us if you are interested and we can provide some guidance.
+
+However, recommended strategy for mobile devices is building custom FFI layer on top of aries-vcx crate. There's project in progress https://github.com/hyperledger/aries-vcx/pull/896 demonstrating such approaching using UniFFI library. While not complete, it's great starting point for anyone looking to build native, aries enabled, mobile app.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 14:15:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/942" class=".btn">#942</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.58.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - First release with removed libvcx-c, libcx java and ios wrappers. See https://github.com/hyperledger/aries-vcx/pull/943
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-18 14:00:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/941" class=".btn">#941</a>
             </td>
             <td>
@@ -211,32 +293,6 @@ No breaking changes
     </table>
     <div class="right-align">
         Created At 2023-08-14 10:52:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/934" class=".btn">#934</a>
-            </td>
-            <td>
-                <b>
-                    Eliminate dependence of indy-ledger-response-parser on indy-api-types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Eliminates dependence of `indy-ledger-response-parser`  on `indy-api-types`, which now leak out of `libvdrtools` only through `indy-wallet`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-11 13:23:00 +0000 UTC
     </div>
 </div>
 
