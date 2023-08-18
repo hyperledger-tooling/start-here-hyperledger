@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/819" class=".btn">#819</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/820" class=".btn">#820</a>
             </td>
             <td>
                 <b>
-                    Spanish Translation for What's New
+                    translation key concepts-introduction to spanish
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Added the 2.5 release What's New and translated it all to spanish
+                translated the text in the introduction topic in the Key Concepts category.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-10 22:41:29 +0000 UTC
+        Created At 2023-08-17 21:14:46 +0000 UTC
     </div>
 </div>
 

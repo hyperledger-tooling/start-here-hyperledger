@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/487" class=".btn">#487</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/488" class=".btn">#488</a>
             </td>
             <td>
                 <b>
-                    Various Utilities in Support of the Token-SDK
+                    F idemix aries
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                * Introduced mock context
-* Optionally disable TLS option for FSC-node metrics, and added metrics for libp2p
-* Added support for execution of views with web sockets (instead of HTTP requests). Support for remote wallets
-* Client and server utilities for web sockets.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-09 18:34:54 +0000 UTC
+        Created At 2023-08-17 18:20:14 +0000 UTC
     </div>
 </div>
 

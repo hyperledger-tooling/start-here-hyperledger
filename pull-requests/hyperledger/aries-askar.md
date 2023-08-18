@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/171" class=".btn">#171</a>
+            </td>
+            <td>
+                <b>
+                    fix(js)!: use patched ref-napi/ffi-napi for nodejs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Similar approach as https://github.com/hyperledger/anoncreds-rs/pull/231 to make an easier set up in Node.js environment.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 19:16:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/170" class=".btn">#170</a>
+            </td>
+            <td>
+                <b>
+                    feat(js): use buffer instead of text-decoder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Do not depend on fast-decoding anymore
+- added simple example app which can be used for testing.
+  - NOTE: it is currently rather annoying to fully recompile aries-askar for all the android and iOS architectures so we would have to find a solution for that.
+
+This is by no means a perfect app for testing and if we would rather wait for a better testing app I can remove it from this PR and create it later.
+
+Ideally I would like to move to use `pnpm` as it makes dealing with workspaces a whole lot easier. And create some way to "quickly" (still need to compile askar like 6 times...) use custom askar builds.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 18:25:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/169" class=".btn">#169</a>
             </td>
             <td>

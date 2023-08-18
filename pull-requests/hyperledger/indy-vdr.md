@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/212" class=".btn">#212</a>
+            </td>
+            <td>
+                <b>
+                    fix(js)!: use patched ref-napi/ffi-napi for nodejs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Similar approach as https://github.com/hyperledger/anoncreds-rs/pull/231 to make an easier set up in Node.js environment.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-17 19:17:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/211" class=".btn">#211</a>
             </td>
             <td>
@@ -33,58 +60,6 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </table>
     <div class="right-align">
         Created At 2023-08-14 23:15:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/209" class=".btn">#209</a>
-            </td>
-            <td>
-                <b>
-                    Remove indy-test-utils dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-10 23:22:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/208" class=".btn">#208</a>
-            </td>
-            <td>
-                <b>
-                    Update clap and git2 dependencies for proxy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-10 18:39:25 +0000 UTC
     </div>
 </div>
 
