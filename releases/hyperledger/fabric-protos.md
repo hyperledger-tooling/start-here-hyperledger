@@ -15,28 +15,34 @@ permalink: /releases/hyperledger/fabric-protos
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.6
+                    v0.2.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.6
+                    v0.2.1
                 </span>
             </td>
             <td>
-                Initial v0.1.x release
+                Protocol buffer bindings for Fabric v2.5.
 
-Note: v0.1.x releases are now intended to match Fabric 2.4.x protos. Previous v0.1.x releases prior to v0.1.6 were experimental and were based on more recent Fabric proto versions.
+## What's Changed
+* Update Java proto library by @mbwhite in https://github.com/hyperledger/fabric-protos/pull/167
+* Bump Go to 1.20.2 by @denyeart in https://github.com/hyperledger/fabric-protos/pull/180
+* Update dependencies to address CVE-2023-2976 by @bestbeforetoday in https://github.com/hyperledger/fabric-protos/pull/188
+
+
+**Full Changelog**: https://github.com/hyperledger/fabric-protos/compare/v0.2.0...v0.2.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.1.6" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.2.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-11-22 13:17:15 +0000 UTC
+        Created At 2023-08-17 18:52:14 +0000 UTC
     </span>
 </div>
 
