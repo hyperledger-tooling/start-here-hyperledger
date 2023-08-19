@@ -1,13 +1,13 @@
 
-[721](https://github.com/hyperledger/aries-agent-test-harness/pull/721) Changes by create-pull-request action
+[4384](https://github.com/hyperledger/fabric/pull/4384) change from ioutil.TempDir to os.MkdirTemp
 
-[542](https://github.com/hyperledger/cello/pull/542) Merge the latest code into the 1.0 branch
+[4383](https://github.com/hyperledger/fabric/pull/4383) change from ioutil.ReadAll to io.ReadAll
 
-[2436](https://github.com/hyperledger/aries-cloudagent-python/pull/2436) #2289 Migrate to Poetry
+[4382](https://github.com/hyperledger/fabric/pull/4382) change from ioutil.ReadFile to os.ReadFile
 
-[936](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/936) fix: home screen background updates
+[4381](https://github.com/hyperledger/fabric/pull/4381) change from ioutil.WriteFile to os.WriteFile
 
-[935](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/935) feat: added data retention option
+[4380](https://github.com/hyperledger/fabric/pull/4380) Remove usage of deprecated ioutil package functions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
