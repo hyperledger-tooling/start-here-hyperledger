@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4386" class=".btn">#4386</a>
+            </td>
+            <td>
+                <b>
+                    change from ioutil.TempFile to os.CreateTemp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-19 15:17:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4384" class=".btn">#4384</a>
             </td>
             <td>
@@ -111,32 +137,6 @@ permalink: /pull-requests/hyperledger/fabric
     </table>
     <div class="right-align">
         Created At 2023-08-18 16:51:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4380" class=".btn">#4380</a>
-            </td>
-            <td>
-                <b>
-                    Remove usage of deprecated ioutil package functions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-18 16:06:05 +0000 UTC
     </div>
 </div>
 
