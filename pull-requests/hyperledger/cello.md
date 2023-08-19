@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/542" class=".btn">#542</a>
+            </td>
+            <td>
+                <b>
+                    Merge the latest code into the 1.0 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Merge the latest code into the 1.0 branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-19 02:43:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/541" class=".btn">#541</a>
             </td>
             <td>
