@@ -55,9 +55,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             <td>
                 This PR addresses the following issue: For the DLog driver, the identity of a token owner was not validated against the Issuer public key. This PR makes sure that this happens and that validation enforces the presence of the commitments to the EID and RH respectively. 
 
-1. add to the public params the revocation public key
-2. when deserializing idemix identities, check the validity of the identity and forse the presence of the nyms
-3. unit-test added
+1. when deserializing idemix identities, check the validity of the identity and forse the presence of the nyms
+2. unit-test added
+3. the above is done by leveraging the latest FSC version with support for aries too.
             </td>
         </tr>
     </table>

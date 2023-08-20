@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    F idemix aries
+                    idemix aries
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                This PR add support for the latest version of idemix and refactor the package `platform/fabric/core/generic/msp/idemix` for greater flexibility.
             </td>
         </tr>
     </table>
