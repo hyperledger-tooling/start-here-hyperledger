@@ -118,9 +118,9 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             <td>
                 This PR fixes a few issues caused by npm and implements support for invoke command for the simplest use case in issue #390:
 1. Fixes errors caused by npm when running tests:
-    - Removing unsupported test library for fabric that depends on packages that fail to compile
-    - Bumps nodejs version from 12 to 16 at samples/chaincodes/chaincode-kv-node/.nvmrc
-    - Removing non-crucial tests from the sample chaincode
+    - Removes unsupported test library for fabric that depends on packages that fail to compile
+    - Bumps nodejs version from 12 to 16 at `samples/chaincodes/chaincode-kv-node/.nvmrc`
+    - Removes non-crucial tests from the sample chaincode
        Possible fix for: 
      #348 
      #328
