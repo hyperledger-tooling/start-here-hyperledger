@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4387" class=".btn">#4387</a>
+            </td>
+            <td>
+                <b>
+                    Fix linter errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+A recent commit introduced some linter errors.
+This commit corrects the formatting.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-20 08:42:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4386" class=".btn">#4386</a>
             </td>
             <td>
