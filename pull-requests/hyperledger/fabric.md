@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    delete ioutil pkg
+                    delete ioutil pkg and redundant type casting
                 </b>
             </td>
         </tr>
@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/fabric
             <td>
                 ioutil.Discard -> os.Discard
 ioutil.NopCloser -> io.NopCloser
-
+delete redundant type casting
             </td>
         </tr>
     </table>
@@ -493,34 +493,6 @@ If the consensus-type is BFT, the BFTDeliverer is created.
     </table>
     <div class="right-align">
         Created At 2023-08-16 11:51:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4366" class=".btn">#4366</a>
-            </td>
-            <td>
-                <b>
-                    Add readthedocs config file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add readthedocs config file.
-
-For more background see https://blog.readthedocs.com/migrate-configuration-v2/
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 16:04:55 +0000 UTC
     </div>
 </div>
 
