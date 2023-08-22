@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release aries-vcx@0.57.1
+                    Release 0.58.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    aries-vcx@0.57.1
+                    0.58.0
                 </span>
             </td>
             <td>
@@ -127,8 +127,6 @@ permalink: /releases/hyperledger/aries-vcx
 - Basic implementation of did:web resolver [\#828](https://github.com/hyperledger/aries-vcx/pull/828) ([mirgee](https://github.com/mirgee))
 - Do not run libvcx publishing from fork PRs [\#827](https://github.com/hyperledger/aries-vcx/pull/827) ([Patrik-Stas](https://github.com/Patrik-Stas))
 -  move common stuff from the messages crate to shared\_vcx [\#826](https://github.com/hyperledger/aries-vcx/pull/826) ([swaptr](https://github.com/swaptr))
-- Cleanup/ffi leftovers [\#825](https://github.com/hyperledger/aries-vcx/pull/825) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Fix setting txn author agreement [\#824](https://github.com/hyperledger/aries-vcx/pull/824) ([Patrik-Stas](https://github.com/Patrik-Stas))
 
 ## [0.55.0](https://github.com/hyperledger/aries-vcx/tree/0.55.0) (2023-04-27)
 
@@ -384,11 +382,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/aries-vcx%400.57.1" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.58.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-20 23:16:36 +0000 UTC
+        Created At 2023-08-21 22:20:22 +0000 UTC
     </span>
 </div>
 
