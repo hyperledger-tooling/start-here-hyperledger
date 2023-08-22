@@ -58,8 +58,16 @@ This release is focused primarily on performance and stability improvements, upd
 - Update native libraries that have JPMS friendly module names [#5749](https://github.com/hyperledger/besu/pull/5749)
 
 ### Download Links
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/23.7.1/besu-23.7.1.tar.gz / sha256: f17a236e9e3fc2fb024d381b43ca8de8937379b3b255cc79eb0e2bbe1fdb452d
+~85dce66c2dbd21b4e5d3310770434dd373018a046b78d5037f6d4955256793cd~ invalidated by build error
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/23.7.1/besu-23.7.1.zip / sha256: 75361e1815877bbd10eeeb5a6f9b82a8a15efec137dac816426b6e13ae461b09
+~dfac11b2d6d9e8076ab2f86324d48d563badf76fd2a4aadc4469a97aef374ef5~ invalidated by build error
+
+### Release Artifact SHA Errata
+These SHAs are valid and originate from the same git commit, but the archives are no longer published due to a build error:
 https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/23.7.1/besu-23.7.1.tar.gz / sha256: 85dce66c2dbd21b4e5d3310770434dd373018a046b78d5037f6d4955256793cd
 https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/23.7.1/besu-23.7.1.zip / sha256: dfac11b2d6d9e8076ab2f86324d48d563badf76fd2a4aadc4469a97aef374ef5
+
 
             </td>
         </tr>
