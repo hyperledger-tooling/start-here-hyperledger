@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4392" class=".btn">#4392</a>
+            </td>
+            <td>
+                <b>
+                    delete ioutil pkg
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ioutil.Discard -> os.Discard
+ioutil.NopCloser -> io.NopCloser
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-22 08:00:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4391" class=".btn">#4391</a>
             </td>
             <td>
@@ -493,44 +521,6 @@ For more background see https://blog.readthedocs.com/migrate-configuration-v2/
     </table>
     <div class="right-align">
         Created At 2023-08-15 16:04:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4365" class=".btn">#4365</a>
-            </td>
-            <td>
-                <b>
-                    BFT Block Puller: BFTDeliverer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- New feature
-
-#### Description
-
-- A BFTDeliverer that fetches blocks using a block receiver and maintains a BFTCensorshipMonitor.
-- Abstract the creation of a BFTCensorshipMonitor via an abstract factory, so that we can use a mock for it in testing.
-- Add a "ShuffledEndpoints" method to the connection source and test it. 
-- Unit testing of BFTDeliverer.
-
-#### Related issues
-
-#4348 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 10:18:00 +0000 UTC
     </div>
 </div>
 
