@@ -1,13 +1,13 @@
 
+[4393](https://github.com/hyperledger/fabric/pull/4393) BFT Block Puller: seek content type header+sig to send full config bl…
+
+[50](https://github.com/hyperledger-labs/harmonia/pull/50) Enable wiki in code
+
+[432](https://github.com/hyperledger-labs/blockchain-explorer/pull/432) BE431 | Fix-Test-case Failing
+
 [520](https://github.com/hyperledger-labs/fabric-operations-console/pull/520) Feature file added for import-export cases
 
 [246](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/246) Add information about DCO and other important requirements
-
-[101](https://github.com/hyperledger-labs/hlf-connector/pull/101) Increment version after release
-
-[4392](https://github.com/hyperledger/fabric/pull/4392) delete ioutil pkg and redundant type casting
-
-[100](https://github.com/hyperledger-labs/hlf-connector/pull/100) Improve REST endpoint details in prometheus metrics endpoint
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
