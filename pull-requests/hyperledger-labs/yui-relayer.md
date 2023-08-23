@@ -55,47 +55,31 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
             <td>
                 Add edit command to config commands
 ```
-$RELAY config edit $PATH_NAME [key] [value]
+$RELAY paths edit $PATH_NAME [key] [src/dst] [value]
 ```
 example
 ```
-$RELAY config edit $PATH_NAME client-id clinet-abc
-$RELAY config edit $PATH_NAME channel-id channel-abc
-$RELAY config edit $PATH_NAME connection-id connection-abc
-$RELAY config edit $PATH_NAME port-id port-abc
+$RLY paths edit $PATH_NAME src client-id clinet-id-src
+$RLY paths edit $PATH_NAME dst client-id clinet-id-dst
+
+$RLY paths edit $PATH_NAME src connection-id connection-id-src
+$RLY paths edit $PATH_NAME dst connection-id connection-id-dst
+
+$RLY paths edit $PATH_NAME src channel-id channel-id-src
+$RLY paths edit $PATH_NAME dst channel-id channel-id-dst
+
+$RLY paths edit $PATH_NAME src port-id port-id-src
+$RLY paths edit $PATH_NAME dst port-id port-id-dst
+
+$RLY paths edit $PATH_NAME aaa port-id port-id-dst
 ```
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-08-18 08:13:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    Finality delay
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-16 05:42:46 +0000 UTC
     </div>
 </div>
 
