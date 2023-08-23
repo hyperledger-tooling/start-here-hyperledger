@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/519" class=".btn">#519</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/520" class=".btn">#520</a>
             </td>
             <td>
                 <b>
-                    add blank page and route for audit logs
+                    Feature file added for import-export cases
                 </b>
             </td>
         </tr>
@@ -30,18 +30,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 #### Type of change
 
 <!--- What type of change? Pick one option and delete the others. -->
+- Test update: feature file have been added to test for the import/export-related cases
 
-- New feature
-- 
 #### Description
-inits a blank component, left nav button, route and a placeholder page for audit logging 
+This change involves writing the step definitions for the import-export cases in 9-MiscellaneousCases.feature under the packages/apollo/test/functional/features. There has been a folder added under the packages/apollo/test/functional/assets which contains the exported environment for testing this scenario.
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-04 19:32:11 +0000 UTC
+        Created At 2023-08-23 07:06:27 +0000 UTC
     </div>
 </div>
 

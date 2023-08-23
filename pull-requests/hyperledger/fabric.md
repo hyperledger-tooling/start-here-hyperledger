@@ -470,29 +470,3 @@ If the consensus-type is BFT, the BFTDeliverer is created.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4367" class=".btn">#4367</a>
-            </td>
-            <td>
-                <b>
-                    Remove usage of deprecated ioutil package functions [ledger]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Go std lib deprecated package ioutils since go ver 1.16, while Fabric still uses it in several places. This commit removes usage of ioutils from ledger-related packages.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-16 11:51:16 +0000 UTC
-    </div>
-</div>
-
