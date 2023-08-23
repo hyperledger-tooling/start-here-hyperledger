@@ -18,16 +18,19 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    F idemix aries
+                    idemix aries support
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                <nil>
+                This PR brings the following:
+- Integrate the latest FSC version
+- Simplify the idemix package for tokens by leveraging what offered by FSC
+- All the integration tests use aries as backend for idemix. In the topology, this is enabled by using `dlog.WithAries(tms)`.
             </td>
         </tr>
     </table>
