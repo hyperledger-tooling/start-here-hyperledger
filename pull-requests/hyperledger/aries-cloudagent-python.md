@@ -14,6 +14,156 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2443" class=".btn">#2443</a>
+            </td>
+            <td>
+                <b>
+                    Add symlink to /home/indy/.indy_client for backwards compatibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should resolve an issue happening when migrating an indy-based agent to an askar-only image: the home directories will change, however the database will contain references to previously created artifacts (specifically tails files in the case that triggered this fix) that will not be resolvable anymore.
+
+Creating a symlink for `/home/indy/.indy-client/` pointing to `/home/aries/.indy_client` should resolve issues with path resolution without needing to update path references stored in the database.
+
+We could potentially create a symlink between `/home/indy` and `/home/aries`, but I don't like the idea of symlinking home directories.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 00:55:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2442" class=".btn">#2442</a>
+            </td>
+            <td>
+                <b>
+                    0.10.0-rc1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 00:09:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2440" class=".btn">#2440</a>
+            </td>
+            <td>
+                <b>
+                    migrate credential definition routes to anoncreds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Set existing `/credential-definitions` endpoints to use `anoncreds`.
+
+As per the discussion, the `write_record` methods and endpoints were removed for both schema and cred defs.
+
+Closes #2431 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-22 22:54:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2439" class=".btn">#2439</a>
+            </td>
+            <td>
+                <b>
+                    Draft update to the security policy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A draft PR that builds on the pending new Hyperledger Foundation Security Vulnerability Reporting policy. It too is still a PR -- here: https://github.com/hyperledger/toc/pull/143
+
+This is a proposed instance of the Security.md file for a project.  Once the new Hyperledger policy is merged, and this PR is aligned with that policy, this PR will be ready to be reviewed by the ACA-Py and broader Aries community.
+
+Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-22 19:48:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2438" class=".btn">#2438</a>
+            </td>
+            <td>
+                <b>
+                    Swap out flake8 in favor of Ruff
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #2400.
+
+This PR replaces flake8 with Ruff as suggested by @ff137. I've selected a "reasonable" set of selected and ignored error codes for now. I think we should add/no longer ignore more in the future.
+
+One in particular that I think should have it's own issue raised over is C901 or cyclomatic complexity checks. By default, Ruff sets the threshold at 10. This is a pretty common threshold. There are 81 instances of ACA-Py exceeding that threshold. These are ignored for the time being as it's likely each instance will require individual attention.
+
+I've also moved miscellaneous configuration for dev tools out of `setup.cfg` and translated them into `pyproject.toml`. We'll need to make sure this meshes well with changes in #2436.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-21 23:03:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2436" class=".btn">#2436</a>
             </td>
             <td>
@@ -108,242 +258,6 @@ This leads to the following exception
     </table>
     <div class="right-align">
         Created At 2023-08-17 18:35:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2427" class=".btn">#2427</a>
-            </td>
-            <td>
-                <b>
-                    Update /schemas to use anoncreds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                WIP needs feedback to determine if this is the right direction.
-
-Have updated:
-- [All /schemas routes](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/schemas/routes.py)
-- [POST /credential-definitions](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/credential_definitions/routes.py#L167)
-- [GET /credential-definitions/<id>](https://github.com/hyperledger/aries-cloudagent-python/blob/2565fe84e2716fcda44a3b1bb32095e9c6fd62bd/aries_cloudagent/messaging/credential_definitions/routes.py#L483)
-- [POST /revocations/revoke](https://github.com/hyperledger/aries-cloudagent-python/blob/1f6cbf6635fc53e5c945b95353bff48706ed9638/aries_cloudagent/revocation/routes.py#L440)
-
-Enabled all "broken" BDD tests (except in sign-transaction due to endorser).
-
-More credential definition routes to fix as well as revocation. The BDD tests pass now, so that means BDD does not do complete coverage.
-
-Will have to address the pytests at some point too.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 02:14:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2425" class=".btn">#2425</a>
-            </td>
-            <td>
-                <b>
-                    Per Tenant Logging - Complete Implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                resolve #2359 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-16 17:56:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2423" class=".btn">#2423</a>
-            </td>
-            <td>
-                <b>
-                    the anoncreds proof presentation with schema restriction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                missed this file... 🤦 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 22:04:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2421" class=".btn">#2421</a>
-            </td>
-            <td>
-                <b>
-                    Issue #2250 Nightly publish workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This issue resolves #2250
-
-Here I have created a GitHub workflow that will execute the tests just as they are handled in `nightly-tests.yml` excluding the indy tests as mentioned in this comment.
-
-https://github.com/hyperledger/aries-cloudagent-python/issues/2250#issuecomment-1674918887
-
-The workflow acts as follows
-```python
-run nightly tests
-If (tests are successful):
-   build a nightly release
-   publish this release with the `nightly` tag
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 15:47:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2420" class=".btn">#2420</a>
-            </td>
-            <td>
-                <b>
-                    Issue #2419 InvalidClientTaaAcceptanceError time too precise error if container timezone is not UTC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds timezone.utc to datetime.combine to ensure time will be midnight in UTC regardless of the default timezone
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 23:16:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2418" class=".btn">#2418</a>
-            </td>
-            <td>
-                <b>
-                    Enable Snyk scanning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                addresses #2087 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 20:23:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2416" class=".btn">#2416</a>
-            </td>
-            <td>
-                <b>
-                    feat: Proof Negotiation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a rebased version of #2033. Thank you for your contributions, @Przytua!
-
-I think these changes are likely to be better suited to a new endpoint (i.e. `POST /present-proof/{pres_ex_id}/counter-request` or something) rather than changing the behavior of `POST /present-proof/{pres_ex_id}/request`. I'll open this as a draft for now and look at making these changes when I can.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 19:01:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2415" class=".btn">#2415</a>
-            </td>
-            <td>
-                <b>
-                    Remove Indy tests from workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As discussed recently and captured in #2402, this PR removes Indy specific tests from PR test runs. This also adjusts other images and examples in the demo folder to use the non-indy variant of images.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 14:41:27 +0000 UTC
     </div>
 </div>
 

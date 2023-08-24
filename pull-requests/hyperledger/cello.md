@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/546" class=".btn">#546</a>
+            </td>
+            <td>
+                <b>
+                    Fix refresh token expired
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes an unhandled exception on access/refresh token verification process.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-20 18:59:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/544" class=".btn">#544</a>
+            </td>
+            <td>
+                <b>
+                    [ISSUE-533]Fix demo admin user creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes demo admin user creation #533  by fixing its email and role. Also, we introduce an environment variable `CELLO_STORAGE_PATH` to specify the local storage for api enginer service
+
+Small refactor code by renaming the abstract class `BasicEnv` to `Command` that reads local environment variables  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-20 04:25:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/542" class=".btn">#542</a>
             </td>
             <td>
@@ -28,6 +82,8 @@ permalink: /pull-requests/hyperledger/cello
             </td>
             <td>
                 Merge the latest code into the 1.0 branch
+
+Signed-off-by: fengyang_sy fengyang.09186@h3c.com
             </td>
         </tr>
     </table>
@@ -60,90 +116,6 @@ Operation not permitted when using Docker Desktop
     </table>
     <div class="right-align">
         Created At 2023-08-18 17:32:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/540" class=".btn">#540</a>
-            </td>
-            <td>
-                <b>
-                    Nominate Xichen Pan as maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Xichen Pan was the intern student last year, he is actively contributing into the project in terms of code, features, and bug fixes.
-
-After his intern program, he continues to contribute to the project as an individual developer for more than half a year.
-
-I believe the nomination will help the project move on more efficiently.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 04:48:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/539" class=".btn">#539</a>
-            </td>
-            <td>
-                <b>
-                    [trivial] Fix local development environment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: Yuanmao Zhu [yuanmao@ualberta.ca](mailto:yuanmao@ualberta.ca)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-12 21:37:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/538" class=".btn">#538</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade FE test image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Based on the discussion in #536, upgrade the node image 
-used by FE test to 14.17.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-12 07:00:34 +0000 UTC
     </div>
 </div>
 

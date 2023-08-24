@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1388" class=".btn">#1388</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1391" class=".btn">#1391</a>
             </td>
             <td>
                 <b>
-                    Use separate event stream per namespace
+                    Enrich events for contract deploy success/failure
                 </b>
             </td>
         </tr>
@@ -27,18 +27,58 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                This PR resolves https://github.com/hyperledger/firefly/issues/1381
-
-Because we are moving from a single event stream to one per namespace, existing subscriptions will be recreated and events will be replayed on a new event stream the first time a FireFly Core node starts with these changes. Otherwise there is no user impacting change in this PR.
-
-Event streams now follow the format `<plugin_topic_name>/<namespace_name>`. For example, event stream for the `default` namespace with a plugin topic of `0` would now be: `0/default`.
-
-There is still outstanding work to do in the tokens plugin and tokens connectors, but I'm splitting those out into separate PRs. 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-10 20:53:53 +0000 UTC
+        Created At 2023-08-21 18:58:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1389" class=".btn">#1389</a>
+            </td>
+            <td>
+                <b>
+                    Two functions with the same param types, but different names, cannot share a cache entry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Issue
+
+If you invoke a Method FFI to FireFly with one set of parameter names like:
+
+- `myfunc(uint256 var1, address var2)`
+
+Then you invoke another function with an identical ABI, but different parameter names like:
+
+- `myfunc(uint256 _var1, address _var2)`
+
+Then you will see the following error from EVMConnect, with valid inputs:
+
+`FF10111: Error from ethereum connector: FF22034: Unable to parse input of type <nil>`
+
+This is because the cache we use to avoid expensive JSON Schema compilation, uses a cache key that does not factor in the names of the parameters.
+
+However, when we look at the input JSON Object to extract the parameters in order to pass them into EVMConnect, we need to know the exact parameter names.
+
+### Fix
+
+This PR proposes including all parameter names from the FFI in the calculation of the cache key.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-21 18:44:44 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    Change 0.8.2 to not be the newest branch
+                    Fix Logos - 0.8.0 Branch
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
                 
             </td>
             <td>
-                - 0.8.2
-- Fix GHA on the 0.8.2 branch
-- Change 0.8.2 to not be the newest branch
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-24 23:51:52 +0000 UTC
+        Created At 2023-08-24 02:34:44 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +40,37 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    Update how to flag current/old versions
+                    Fix logo for 0.7.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 02:21:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    Fix logo paths
                 </b>
             </td>
         </tr>
@@ -62,7 +85,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-24 23:47:43 +0000 UTC
+        Created At 2023-08-24 02:16:43 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +93,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    0.9.0
+                    Add logos to repo
                 </b>
             </td>
         </tr>
@@ -89,7 +112,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-24 23:43:26 +0000 UTC
+        Created At 2023-08-24 02:09:21 +0000 UTC
     </div>
 </div>
 
@@ -97,11 +120,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    Update for 0.9.0
+                    Update logos
                 </b>
             </td>
         </tr>
@@ -116,35 +139,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-24 23:37:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    Latest updates to docs on main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updates after 0.9.0-rc0
-- Latest updates to docs on main
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-24 19:54:13 +0000 UTC
+        Created At 2023-08-22 20:54:04 +0000 UTC
     </div>
 </div>
 

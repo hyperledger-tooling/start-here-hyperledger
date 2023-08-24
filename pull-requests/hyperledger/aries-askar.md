@@ -113,37 +113,13 @@ Ideally I would like to move to use `pnpm` as it makes dealing with workspaces a
             </td>
             <td>
                 Currently in draft because I can't build or test the react-native updates.
+
+Also adds a missing store export test for the Python wrapper.
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-08-17 16:57:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/168" class=".btn">#168</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): add p384 key algo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This simply adds a constant for P384 key algo support (added in #157) from JS. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 20:01:55 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/103" class=".btn">#103</a>
             </td>
             <td>
                 <b>
-                    update to 23.4.4
+                    Republish of 23.7.1
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                Update the version of Besu to 23.4.4
+                reflect the republished SHAs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-29 23:50:38 +0000 UTC
+        Created At 2023-08-22 22:33:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/102" class=".btn">#102</a>
+            </td>
+            <td>
+                <b>
+                    release for 23.7.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                update homebrew to 23.7.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-21 17:35:35 +0000 UTC
     </div>
 </div>
 

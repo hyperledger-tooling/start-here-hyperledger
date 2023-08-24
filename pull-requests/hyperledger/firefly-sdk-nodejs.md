@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    Allow custom app logic to trigger when a websocket connects/reconnects
+                    Add deployContract
                 </b>
             </td>
         </tr>
@@ -27,18 +27,38 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                When using an ephemeral WebSocket to listen for completion of a FireFly action, you need to know the socket is connected before you submit the action. This isn't currently possible in the SDK.
-
-It's also not possible to send custom commands over the WebSocket, or trigger other processing as a side-effect of a reconnect.
-
-Also in unit tests in a framework like Jest, you cannot allow a test to write log statements after the test exits (see https://github.com/jestjs/jest/issues/9324#issuecomment-1396968497).
-
-This drives a requirement for a `close()` function that allows us to await the logging of the close, which is also included as an option in this PR.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-10 02:41:28 +0000 UTC
+        Created At 2023-08-22 02:36:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/76" class=".btn">#76</a>
+            </td>
+            <td>
+                <b>
+                    Up package to v1.2.13 ready for release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-21 16:29:16 +0000 UTC
     </div>
 </div>
 

@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/150" class=".btn">#150</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/152" class=".btn">#152</a>
             </td>
             <td>
                 <b>
-                    2023 Q3 Hyperledger Bevel report
+                    August 24, 2023 Meeting Agenda +
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">quarterly-report</span>
+                <span class="chip">quarterly-report</span><span class="chip">meeting-minutes</span>
             </td>
             <td>
                 <nil>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-17 12:16:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/149" class=".btn">#149</a>
-            </td>
-            <td>
-                <b>
-                    August 17, 2023 Meeting Minutes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">meeting-minutes</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 20:51:54 +0000 UTC
+        Created At 2023-08-22 17:49:50 +0000 UTC
     </div>
 </div>
 

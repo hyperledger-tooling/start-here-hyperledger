@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/191" class=".btn">#191</a>
+            </td>
+            <td>
+                <b>
+                    Added apple.com to sauce tunnel direct domains
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding apple.com to the direct domains of the sauce tunnel.  In newer profiles for newer devices, Apple auto-enabled the PPQCheck flag to true which results in an extra API call to Apple. This extra PPQCheck API call is typically not allowed by default in most users' network configurations.
+
+This is to test if the skipped iOS tests in the highly test pipeline are eliminated or diminished. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-22 15:51:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/190" class=".btn">#190</a>
             </td>
             <td>
@@ -59,32 +87,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </table>
     <div class="right-align">
         Created At 2023-08-17 15:39:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/188" class=".btn">#188</a>
-            </td>
-            <td>
-                <b>
-                    Try pipeline without fullReset remedy for skipped tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 13:26:22 +0000 UTC
     </div>
 </div>
 
