@@ -26,359 +26,43 @@ permalink: /releases/hyperledger/aries-vcx
                 </span>
             </td>
             <td>
-                # Changelog
-
-## [0.57.1](https://github.com/hyperledger/aries-vcx/tree/0.57.1) (2023-07-31)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.57.0...0.57.1)
-
-### Breaking changes
-
-- Rename tails variables in prover code [\#901](https://github.com/hyperledger/aries-vcx/pull/901) ([Patrik-Stas](https://github.com/Patrik-Stas))
-
-### Other pull requests
-
-- Refactor features, enable build with --no-default-features [\#918](https://github.com/hyperledger/aries-vcx/pull/918) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Release/0.57.1 [\#917](https://github.com/hyperledger/aries-vcx/pull/917) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Refactor aries\_vcx\_core [\#910](https://github.com/hyperledger/aries-vcx/pull/910) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Specify default libvcx feature flags [\#908](https://github.com/hyperledger/aries-vcx/pull/908) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- testing/remove-mixed-breed [\#907](https://github.com/hyperledger/aries-vcx/pull/907) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Revert "Added capability of migrating wallet through the node.js wrap… [\#906](https://github.com/hyperledger/aries-vcx/pull/906) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- CI: Do not publish napi wrapper when running in fork PR [\#903](https://github.com/hyperledger/aries-vcx/pull/903) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Added capability of migrating wallet through the node.js wrapper [\#895](https://github.com/hyperledger/aries-vcx/pull/895) ([bobozaur](https://github.com/bobozaur))
-- Partially \#870 - Simple Message Relay for testing/demo purposes [\#891](https://github.com/hyperledger/aries-vcx/pull/891) ([gmulhearn](https://github.com/gmulhearn))
-
-## [0.57.0](https://github.com/hyperledger/aries-vcx/tree/0.57.0) (2023-07-19)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.56.0...0.57.0)
-
-### Hotfixes
-
-- Enable compiling the workspace with --tests --all-features [\#890](https://github.com/hyperledger/aries-vcx/pull/890) ([mirgee](https://github.com/mirgee))
-
-### Refactoring
-
-- Remove reliance of IndyVdrLedger on global state [\#863](https://github.com/hyperledger/aries-vcx/pull/863) ([mirgee](https://github.com/mirgee))
-- Split IndyVdrLedger and IndySdkLedger [\#862](https://github.com/hyperledger/aries-vcx/pull/862) ([mirgee](https://github.com/mirgee))
-- Split BaseLedger trait [\#861](https://github.com/hyperledger/aries-vcx/pull/861) ([mirgee](https://github.com/mirgee))
-- Remove vcx\_schema\_prepare\_for\_endorser [\#860](https://github.com/hyperledger/aries-vcx/pull/860) ([mirgee](https://github.com/mirgee))
-
-### Other issues
-
-- Recent versions of serde \(e.g. 1.0.167\) cause messages crate to not compile [\#893](https://github.com/hyperledger/aries-vcx/issues/893)
-- Typestate Connection sends an empty string for it's publickey controller in the Invitee Request message [\#877](https://github.com/hyperledger/aries-vcx/issues/877)
-
-### Other pull requests
-
-- Release 0.57.0 [\#900](https://github.com/hyperledger/aries-vcx/pull/900) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Tweak CI to fix build-docker-android on main branch [\#899](https://github.com/hyperledger/aries-vcx/pull/899) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Cleanup/constant [\#898](https://github.com/hyperledger/aries-vcx/pull/898) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Refactor dealing with tails\_dir in tests [\#897](https://github.com/hyperledger/aries-vcx/pull/897) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Update dependencies and AriesMessage Deserialize impl [\#894](https://github.com/hyperledger/aries-vcx/pull/894) ([bobozaur](https://github.com/bobozaur))
-- libvcx implementation profiles [\#892](https://github.com/hyperledger/aries-vcx/pull/892) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Make PeerDid generic over numalgo [\#887](https://github.com/hyperledger/aries-vcx/pull/887) ([mirgee](https://github.com/mirgee))
-- Support peer:did:3 [\#886](https://github.com/hyperledger/aries-vcx/pull/886) ([mirgee](https://github.com/mirgee))
-- CI: Skip test-android job [\#885](https://github.com/hyperledger/aries-vcx/pull/885) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Implementation of did:peer:2 DID method [\#883](https://github.com/hyperledger/aries-vcx/pull/883) ([mirgee](https://github.com/mirgee))
-- Remove unused lockfiles [\#882](https://github.com/hyperledger/aries-vcx/pull/882) ([mirgee](https://github.com/mirgee))
-- Refactor/testing [\#880](https://github.com/hyperledger/aries-vcx/pull/880) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Remove unnecessary bound on DDO service [\#879](https://github.com/hyperledger/aries-vcx/pull/879) ([mirgee](https://github.com/mirgee))
-- Fix 877: Connection Requests with empty DIDDoc pubkey controller [\#878](https://github.com/hyperledger/aries-vcx/pull/878) ([gmulhearn-anonyome](https://github.com/gmulhearn-anonyome))
-- Fix ci [\#876](https://github.com/hyperledger/aries-vcx/pull/876) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Inject only required components, not entire profiles [\#873](https://github.com/hyperledger/aries-vcx/pull/873) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Refactor/do not consume profile [\#872](https://github.com/hyperledger/aries-vcx/pull/872) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Sovrin-specific DDO facade [\#871](https://github.com/hyperledger/aries-vcx/pull/871) ([mirgee](https://github.com/mirgee))
-- Minor DDO service builder improvement [\#868](https://github.com/hyperledger/aries-vcx/pull/868) ([mirgee](https://github.com/mirgee))
-- Feature/cred migrator [\#867](https://github.com/hyperledger/aries-vcx/pull/867) ([bobozaur](https://github.com/bobozaur))
-- Make DidDocument's service generic over method-specific fields [\#865](https://github.com/hyperledger/aries-vcx/pull/865) ([mirgee](https://github.com/mirgee))
-- Feature/credx issuer [\#854](https://github.com/hyperledger/aries-vcx/pull/854) ([bobozaur](https://github.com/bobozaur))
-- Issue \#847: Prover Handler Types [\#848](https://github.com/hyperledger/aries-vcx/pull/848) ([gmulhearn](https://github.com/gmulhearn))
-- Refactor basewallet and corresponding consumers [\#843](https://github.com/hyperledger/aries-vcx/pull/843) ([tech-bash](https://github.com/tech-bash))
-
-## [0.56.0](https://github.com/hyperledger/aries-vcx/tree/0.56.0) (2023-05-23)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.55.0...0.56.0)
-
-### Other issues
-
-- Consolidate transaction endorsing into a single function [\#856](https://github.com/hyperledger/aries-vcx/issues/856)
-- Update dependencies of messages\_macros crate [\#846](https://github.com/hyperledger/aries-vcx/issues/846)
-- Move MaybeKnown enum to shared\_vcx [\#839](https://github.com/hyperledger/aries-vcx/issues/839)
-- Add ProblemReport to the IssueCredential message family [\#836](https://github.com/hyperledger/aries-vcx/issues/836)
-- Add ProblemReport to the PresentProof message family [\#835](https://github.com/hyperledger/aries-vcx/issues/835)
-
-### Other pull requests
-
-- Release 0.56.0 [\#859](https://github.com/hyperledger/aries-vcx/pull/859) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- upgrade messages\_macros deps to latest [\#857](https://github.com/hyperledger/aries-vcx/pull/857) ([swaptr](https://github.com/swaptr))
-- In memory response cacher [\#855](https://github.com/hyperledger/aries-vcx/pull/855) ([mirgee](https://github.com/mirgee))
-- Remove dependency on BaseWallet from IndyVdrLedger [\#853](https://github.com/hyperledger/aries-vcx/pull/853) ([mirgee](https://github.com/mirgee))
-- Implement txn endorsing for IndyVdrLedger [\#852](https://github.com/hyperledger/aries-vcx/pull/852) ([mirgee](https://github.com/mirgee))
-- Ledger response parser [\#851](https://github.com/hyperledger/aries-vcx/pull/851) ([mirgee](https://github.com/mirgee))
-- Rename crates: did\_doc\_builder-\>did\_doc; rename diddoc-\>diddoc\_legacy [\#850](https://github.com/hyperledger/aries-vcx/pull/850) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Support referrent-explicit format creating presentation request [\#844](https://github.com/hyperledger/aries-vcx/pull/844) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- refactor maybe\_known.rs: MaybeKnown enum [\#842](https://github.com/hyperledger/aries-vcx/pull/842) ([nachiketkanore](https://github.com/nachiketkanore))
-- Fix/protocols problem report [\#840](https://github.com/hyperledger/aries-vcx/pull/840) ([bobozaur](https://github.com/bobozaur))
-- Split publish\_local\_revocations in BaseAnoncreds [\#838](https://github.com/hyperledger/aries-vcx/pull/838) ([mirgee](https://github.com/mirgee))
-- Add indy-vdr-proxy profile [\#837](https://github.com/hyperledger/aries-vcx/pull/837) ([mirgee](https://github.com/mirgee))
-- Fix/notification problem report [\#833](https://github.com/hyperledger/aries-vcx/pull/833) ([bobozaur](https://github.com/bobozaur))
-- Remove extra warn log [\#832](https://github.com/hyperledger/aries-vcx/pull/832) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Verifier presentation failure adjustments [\#830](https://github.com/hyperledger/aries-vcx/pull/830) ([bobozaur](https://github.com/bobozaur))
-- Basic implementation of did:web resolver [\#828](https://github.com/hyperledger/aries-vcx/pull/828) ([mirgee](https://github.com/mirgee))
-- Do not run libvcx publishing from fork PRs [\#827](https://github.com/hyperledger/aries-vcx/pull/827) ([Patrik-Stas](https://github.com/Patrik-Stas))
--  move common stuff from the messages crate to shared\_vcx [\#826](https://github.com/hyperledger/aries-vcx/pull/826) ([swaptr](https://github.com/swaptr))
-
-## [0.55.0](https://github.com/hyperledger/aries-vcx/tree/0.55.0) (2023-04-27)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.54.1...0.55.0)
-
-## [0.54.1](https://github.com/hyperledger/aries-vcx/tree/0.54.1) (2023-04-14)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.54.0...0.54.1)
-
-## [0.54.0](https://github.com/hyperledger/aries-vcx/tree/0.54.0) (2023-04-13)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.53.0...0.54.0)
-
-## [0.53.0](https://github.com/hyperledger/aries-vcx/tree/0.53.0) (2023-03-22)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.52.0...0.53.0)
-
-## [0.52.0](https://github.com/hyperledger/aries-vcx/tree/0.52.0) (2023-02-19)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.51.1...0.52.0)
-
-## [0.51.1](https://github.com/hyperledger/aries-vcx/tree/0.51.1) (2023-01-10)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.51.0...0.51.1)
-
-## [0.51.0](https://github.com/hyperledger/aries-vcx/tree/0.51.0) (2023-01-09)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.50.0...0.51.0)
-
-## [0.50.0](https://github.com/hyperledger/aries-vcx/tree/0.50.0) (2022-12-05)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.49.1...0.50.0)
-
-## [0.49.1](https://github.com/hyperledger/aries-vcx/tree/0.49.1) (2022-12-04)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.49.0...0.49.1)
-
-## [0.49.0](https://github.com/hyperledger/aries-vcx/tree/0.49.0) (2022-12-04)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.48.0...0.49.0)
-
-## [0.48.0](https://github.com/hyperledger/aries-vcx/tree/0.48.0) (2022-12-02)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.47.0...0.48.0)
-
-## [0.47.0](https://github.com/hyperledger/aries-vcx/tree/0.47.0) (2022-11-22)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.46.0...0.47.0)
-
-## [0.46.0](https://github.com/hyperledger/aries-vcx/tree/0.46.0) (2022-11-21)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.45.0...0.46.0)
-
-## [0.45.0](https://github.com/hyperledger/aries-vcx/tree/0.45.0) (2022-11-01)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.44.0...0.45.0)
-
-## [0.44.0](https://github.com/hyperledger/aries-vcx/tree/0.44.0) (2022-10-07)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.43.0...0.44.0)
-
-## [0.43.0](https://github.com/hyperledger/aries-vcx/tree/0.43.0) (2022-10-06)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.42.0...0.43.0)
-
-## [0.42.0](https://github.com/hyperledger/aries-vcx/tree/0.42.0) (2022-09-20)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.41.0...0.42.0)
-
-## [0.41.0](https://github.com/hyperledger/aries-vcx/tree/0.41.0) (2022-09-05)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.40.0...0.41.0)
-
-## [0.40.0](https://github.com/hyperledger/aries-vcx/tree/0.40.0) (2022-08-24)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.39.0...0.40.0)
-
-## [0.39.0](https://github.com/hyperledger/aries-vcx/tree/0.39.0) (2022-08-04)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.38.0...0.39.0)
-
-## [0.38.0](https://github.com/hyperledger/aries-vcx/tree/0.38.0) (2022-07-28)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.37.0...0.38.0)
-
-## [0.37.0](https://github.com/hyperledger/aries-vcx/tree/0.37.0) (2022-07-01)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.36.0...0.37.0)
-
-## [0.36.0](https://github.com/hyperledger/aries-vcx/tree/0.36.0) (2022-06-07)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.35.0...0.36.0)
-
-## [0.35.0](https://github.com/hyperledger/aries-vcx/tree/0.35.0) (2022-04-13)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.34.0...0.35.0)
-
-## [0.34.0](https://github.com/hyperledger/aries-vcx/tree/0.34.0) (2022-03-22)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.33.0...0.34.0)
-
-## [0.33.0](https://github.com/hyperledger/aries-vcx/tree/0.33.0) (2022-03-02)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.32.0...0.33.0)
-
-## [0.32.0](https://github.com/hyperledger/aries-vcx/tree/0.32.0) (2022-02-25)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.31.0...0.32.0)
-
-## [0.31.0](https://github.com/hyperledger/aries-vcx/tree/0.31.0) (2022-02-10)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.30.0...0.31.0)
-
-## [0.30.0](https://github.com/hyperledger/aries-vcx/tree/0.30.0) (2022-02-08)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.29.0...0.30.0)
-
-## [0.29.0](https://github.com/hyperledger/aries-vcx/tree/0.29.0) (2022-01-26)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.28.0...0.29.0)
-
-## [0.28.0](https://github.com/hyperledger/aries-vcx/tree/0.28.0) (2022-01-12)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.27.0...0.28.0)
-
-## [0.27.0](https://github.com/hyperledger/aries-vcx/tree/0.27.0) (2021-12-17)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.26.0...0.27.0)
-
-## [0.26.0](https://github.com/hyperledger/aries-vcx/tree/0.26.0) (2021-12-09)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.25.0...0.26.0)
-
-## [0.25.0](https://github.com/hyperledger/aries-vcx/tree/0.25.0) (2021-12-06)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.24.2...0.25.0)
-
-## [0.24.2](https://github.com/hyperledger/aries-vcx/tree/0.24.2) (2021-11-30)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.24.1...0.24.2)
-
-## [0.24.1](https://github.com/hyperledger/aries-vcx/tree/0.24.1) (2021-11-25)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.23.0...0.24.1)
-
-## [0.23.0](https://github.com/hyperledger/aries-vcx/tree/0.23.0) (2021-10-27)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.22.0...0.23.0)
-
-## [0.22.0](https://github.com/hyperledger/aries-vcx/tree/0.22.0) (2021-10-21)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.21.0...0.22.0)
-
-## [0.21.0](https://github.com/hyperledger/aries-vcx/tree/0.21.0) (2021-10-05)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.20.2...0.21.0)
-
-## [0.20.2](https://github.com/hyperledger/aries-vcx/tree/0.20.2) (2021-09-01)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.20.1...0.20.2)
-
-## [0.20.1](https://github.com/hyperledger/aries-vcx/tree/0.20.1) (2021-09-01)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.20.0...0.20.1)
-
-## [0.20.0](https://github.com/hyperledger/aries-vcx/tree/0.20.0) (2021-07-19)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.19.0...0.20.0)
-
-## [0.19.0](https://github.com/hyperledger/aries-vcx/tree/0.19.0) (2021-06-28)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.18.3...0.19.0)
-
-## [0.18.3](https://github.com/hyperledger/aries-vcx/tree/0.18.3) (2021-06-16)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.18.2...0.18.3)
-
-## [0.18.2](https://github.com/hyperledger/aries-vcx/tree/0.18.2) (2021-06-09)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.18.1...0.18.2)
-
-## [0.18.1](https://github.com/hyperledger/aries-vcx/tree/0.18.1) (2021-06-03)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.18.0...0.18.1)
-
-## [0.18.0](https://github.com/hyperledger/aries-vcx/tree/0.18.0) (2021-05-31)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.17.3...0.18.0)
-
-## [0.17.3](https://github.com/hyperledger/aries-vcx/tree/0.17.3) (2021-04-30)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.17.2...0.17.3)
-
-## [0.17.2](https://github.com/hyperledger/aries-vcx/tree/0.17.2) (2021-04-27)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.17.1...0.17.2)
-
-## [0.17.1](https://github.com/hyperledger/aries-vcx/tree/0.17.1) (2021-03-29)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.17.0...0.17.1)
-
-## [0.17.0](https://github.com/hyperledger/aries-vcx/tree/0.17.0) (2021-03-24)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.16.0...0.17.0)
-
-## [0.16.0](https://github.com/hyperledger/aries-vcx/tree/0.16.0) (2021-01-21)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.15.0...0.16.0)
-
-## [0.15.0](https://github.com/hyperledger/aries-vcx/tree/0.15.0) (2020-12-22)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.14.2...0.15.0)
-
-## [0.14.2](https://github.com/hyperledger/aries-vcx/tree/0.14.2) (2020-12-04)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.14.0...0.14.2)
-
-## [0.14.0](https://github.com/hyperledger/aries-vcx/tree/0.14.0) (2020-11-26)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.13.1...0.14.0)
-
-## [0.13.1](https://github.com/hyperledger/aries-vcx/tree/0.13.1) (2020-11-10)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.13.0...0.13.1)
-
-## [0.13.0](https://github.com/hyperledger/aries-vcx/tree/0.13.0) (2020-11-10)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.12.0...0.13.0)
-
-## [0.12.0](https://github.com/hyperledger/aries-vcx/tree/0.12.0) (2020-10-27)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.11.0...0.12.0)
-
-## [0.11.0](https://github.com/hyperledger/aries-vcx/tree/0.11.0) (2020-10-02)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.10.0...0.11.0)
-
-## [0.10.0](https://github.com/hyperledger/aries-vcx/tree/0.10.0) (2020-09-24)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.9.1...0.10.0)
-
-## [0.9.1](https://github.com/hyperledger/aries-vcx/tree/0.9.1) (2020-08-25)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.8.0...0.9.1)
-
-## [0.8.0](https://github.com/hyperledger/aries-vcx/tree/0.8.0) (2020-03-31)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/d48fe2d71a839a873113890d9808c531da643288...0.8.0)
-
-
-
-
+                # New components
+* Modular did:key representation by @mirgee in https://github.com/hyperledger/aries-vcx/pull/912
+
+# Features
+* Add interface to write DIDs on ledger by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/921
+* Allow parsing unqualified DIDs by @mirgee in https://github.com/hyperledger/aries-vcx/pull/936
+* Attempt to convert legacy DID documents to new during deserialization by @mirgee in https://github.com/hyperledger/aries-vcx/pull/938
+
+# Refactoring
+* Move PublicKey to a separate crate by @mirgee in https://github.com/hyperledger/aries-vcx/pull/911
+* Allow storing resolvers with varying extra fields in the registry by @mirgee in https://github.com/hyperledger/aries-vcx/pull/913
+* Eliminate dependence of indy-ledger-response-parser on indy-api-types by @mirgee in https://github.com/hyperledger/aries-vcx/pull/934
+* Refactor test setup by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/921
+* Extract subset of changes made in #928 by @mirgee in https://github.com/hyperledger/aries-vcx/pull/939
+* Expose public key getter on verification method by @mirgee in https://github.com/hyperledger/aries-vcx/pull/941
+
+# Dependencies
+* Bump word-wrap from 1.2.3 to 1.2.5 in /wrappers/node by @dependabot in https://github.com/hyperledger/aries-vcx/pull/920
+* Updated indy-credx by @bobozaur in https://github.com/hyperledger/aries-vcx/pull/931
+* Update indy-vdr by @mirgee in https://github.com/hyperledger/aries-vcx/pull/935
+* Try Hide indy-api-types from modular_libs consumers by @gmulhearn in https://github.com/hyperledger/aries-vcx/pull/940
+
+# Changes
+* Remove libvcx-c, libvcx java, libvcx ios by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/943
+* Replace vdrtool ledger client by indy-vdr client by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/914
+
+# Fixes
+* fix(aries-vcx): fixed dependency listing in README for `Cargo.toml` by @arminveres in https://github.com/hyperledger/aries-vcx/pull/924
+
+# Other
+* Rebuild cargo.lock, restore indy-vdr-proxy txn submitter by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/932
+
+
+## New Contributors
+* @arminveres made their first contribution in https://github.com/hyperledger/aries-vcx/pull/924
+
+**Full Changelog**: https://github.com/hyperledger/aries-vcx/compare/0.57.1...0.58.0
             </td>
         </tr>
     </table>
