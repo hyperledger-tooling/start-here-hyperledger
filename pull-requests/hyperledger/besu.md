@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5797" class=".btn">#5797</a>
+            </td>
+            <td>
+                <b>
+                    Add Holešky as predefined network name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 15:01:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5795" class=".btn">#5795</a>
+            </td>
+            <td>
+                <b>
+                    add log for unexpected pipeline error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR allows displaying unexpected errors during the sync. Indeed, until now, it was necessary to go into debug mode to see them and therefore we could have stuck pipelines without knowing what the error is.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 13:51:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5794" class=".btn">#5794</a>
             </td>
             <td>
@@ -504,75 +572,6 @@ Closes https://github.com/hyperledger/besu/issues/5751
     </table>
     <div class="right-align">
         Created At 2023-08-18 12:22:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5768" class=".btn">#5768</a>
-            </td>
-            <td>
-                <b>
-                    Forkchoice v3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-fixes #5735 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 14:16:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5766" class=".btn">#5766</a>
-            </td>
-            <td>
-                <b>
-                    Issue 5719 - remove Pretty JSON and make it user configurable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">RPC</span><span class="chip">ux</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Added --pretty-json-enabled as CLI option as it was asked in the issue mentioned bellow.
-
-Here I attached an example with the output of a RPC request when Besu was ran with --pretty-json-enabled (first case) and without the argument in second case:
-<img width="1255" alt="Screenshot 2023-08-17 at 16 44 00" src="https://github.com/hyperledger/besu/assets/99179176/e8e57de7-6afe-460c-a295-ad97f37dea42">
-
-
-## Fixed Issue(s)
-Fixes #5712 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 13:55:11 +0000 UTC
     </div>
 </div>
 

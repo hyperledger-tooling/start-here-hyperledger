@@ -95,31 +95,3 @@ Ideally I would like to move to use `pnpm` as it makes dealing with workspaces a
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/169" class=".btn">#169</a>
-            </td>
-            <td>
-                <b>
-                    Add profile management and store export to JS wrapper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently in draft because I can't build or test the react-native updates.
-
-Also adds a missing store export test for the Python wrapper.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 16:57:58 +0000 UTC
-    </div>
-</div>
-
