@@ -14,188 +14,11 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2622" class=".btn">#2622</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2638" class=".btn">#2638</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump jose from 4.1.0 to 4.9.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [jose](https://github.com/panva/jose) from 4.1.0 to 4.9.2.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/panva/jose/releases">jose's releases</a>.</em></p>
-<blockquote>
-<h2>v4.9.2</h2>
-<h3>Fixes</h3>
-<ul>
-<li>limit default PBES2 alg's computational expense (<a href="https://github.com/panva/jose/commit/03d6d013bf6e070e85adfe5731f526978e3e8e4d">03d6d01</a>)</li>
-</ul>
-<h2>v4.9.1</h2>
-<h3>Fixes</h3>
-<ul>
-<li><strong>deno:</strong> add a Deno package entrypoint (<a href="https://github.com/panva/jose/commit/9f3c459e30b71eec54163d500edb59f5c72bf7c9">9f3c459</a>)</li>
-</ul>
-<h2>v4.9.0</h2>
-<h3>Features</h3>
-<ul>
-<li>add support for RFC 9278 - JWK Thumbprint URI (<a href="https://github.com/panva/jose/commit/d06ce654666c5f584716f39843534118407c14e0">d06ce65</a>)</li>
-</ul>
-<h3>Refactor</h3>
-<ul>
-<li>consume some base64url decode errors (<a href="https://redirect.github.com/panva/jose/issues/436">#436</a>) (<a href="https://github.com/panva/jose/commit/caaf2c38dc51209d7adc493029f416c61759b1b1">caaf2c3</a>)</li>
-<li>unify JOSENotSupported throw on key export (<a href="https://github.com/panva/jose/commit/fe5d093bf74b812ecd3ee92d40dd02619e88e06c">fe5d093</a>)</li>
-</ul>
-<h2>v4.8.3</h2>
-<p>This release contains only code refactoring and documentation updates.</p>
-<h2>v4.8.1</h2>
-<h3>Fixes</h3>
-<ul>
-<li><strong>typescript:</strong> add types export for nodenext module resolution (<a href="https://redirect.github.com/panva/jose/issues/406">#406</a>) (<a href="https://github.com/panva/jose/commit/5a6d8f0a2a3283bd1e832f1e71906d70f74c1262">5a6d8f0</a>)</li>
-</ul>
-<h2>v4.8.0</h2>
-<h3>Features</h3>
-<ul>
-<li>add &quot;worker&quot; export in package.json (<a href="https://redirect.github.com/panva/jose/issues/400">#400</a>) (<a href="https://github.com/panva/jose/commit/c58c80ae98b7a55b3b95e72438040983ae9a23de">c58c80a</a>)</li>
-<li>optional headers options for createRemoteJWKSet (<a href="https://redirect.github.com/panva/jose/issues/397">#397</a>) (<a href="https://github.com/panva/jose/commit/b4612f5d256b773ab7a1144ac839bdf0f8ccff53">b4612f5</a>)</li>
-</ul>
-<h2>v4.7.0</h2>
-<h3>Features</h3>
-<ul>
-<li>add createRemoteJWKSet cacheMaxAge option (<a href="https://github.com/panva/jose/commit/5017d95764b3aca551631c1a2fbe7cc40cbb6055">5017d95</a>), closes <a href="https://redirect.github.com/panva/jose/issues/394">#394</a></li>
-</ul>
-<h2>v4.6.2</h2>
-<h3>Fixes</h3>
-<ul>
-<li>dont check JWT iat is in the past unless maxTokenAge is used (<a href="https://github.com/panva/jose/commit/96d85c70033d2249de41ed07d97ed6843c15eb2a">96d85c7</a>)</li>
-</ul>
-<h2>v4.6.1</h2>
-<p>This release contains only code refactoring and documentation updates.</p>
-<h2>v4.6.0</h2>
-<h3>Features</h3>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/panva/jose/blob/main/CHANGELOG.md">jose's changelog</a>.</em></p>
-<blockquote>
-<h2><a href="https://github.com/panva/jose/compare/v4.9.1...v4.9.2">4.9.2</a> (2022-09-01)</h2>
-<h3>Fixes</h3>
-<ul>
-<li>limit default PBES2 alg's computational expense (<a href="https://github.com/panva/jose/commit/03d6d013bf6e070e85adfe5731f526978e3e8e4d">03d6d01</a>)</li>
-</ul>
-<h2><a href="https://github.com/panva/jose/compare/v4.9.0...v4.9.1">4.9.1</a> (2022-08-29)</h2>
-<h3>Fixes</h3>
-<ul>
-<li><strong>deno:</strong> add a Deno package entrypoint (<a href="https://github.com/panva/jose/commit/9f3c459e30b71eec54163d500edb59f5c72bf7c9">9f3c459</a>)</li>
-</ul>
-<h2><a href="https://github.com/panva/jose/compare/v4.8.3...v4.9.0">4.9.0</a> (2022-08-17)</h2>
-<h3>Features</h3>
-<ul>
-<li>add support for RFC 9278 - JWK Thumbprint URI (<a href="https://github.com/panva/jose/commit/d06ce654666c5f584716f39843534118407c14e0">d06ce65</a>)</li>
-</ul>
-<h3>Refactor</h3>
-<ul>
-<li>consume some base64url decode errors (<a href="https://redirect.github.com/panva/jose/issues/436">#436</a>) (<a href="https://github.com/panva/jose/commit/caaf2c38dc51209d7adc493029f416c61759b1b1">caaf2c3</a>)</li>
-<li>unify JOSENotSupported throw on key export (<a href="https://github.com/panva/jose/commit/fe5d093bf74b812ecd3ee92d40dd02619e88e06c">fe5d093</a>)</li>
-</ul>
-<h2><a href="https://github.com/panva/jose/compare/v4.8.1...v4.8.3">4.8.3</a> (2022-06-29)</h2>
-<h2><a href="https://github.com/panva/jose/compare/v4.8.0...v4.8.1">4.8.1</a> (2022-05-02)</h2>
-<h3>Fixes</h3>
-<ul>
-<li><strong>typescript:</strong> add types export for nodenext module resolution (<a href="https://redirect.github.com/panva/jose/issues/406">#406</a>) (<a href="https://github.com/panva/jose/commit/5a6d8f0a2a3283bd1e832f1e71906d70f74c1262">5a6d8f0</a>)</li>
-</ul>
-<h2><a href="https://github.com/panva/jose/compare/v4.7.0...v4.8.0">4.8.0</a> (2022-04-26)</h2>
-<h3>Features</h3>
-<ul>
-<li>add &quot;worker&quot; export in package.json (<a href="https://redirect.github.com/panva/jose/issues/400">#400</a>) (<a href="https://github.com/panva/jose/commit/c58c80ae98b7a55b3b95e72438040983ae9a23de">c58c80a</a>)</li>
-<li>optional headers options for createRemoteJWKSet (<a href="https://redirect.github.com/panva/jose/issues/397">#397</a>) (<a href="https://github.com/panva/jose/commit/b4612f5d256b773ab7a1144ac839bdf0f8ccff53">b4612f5</a>)</li>
-</ul>
-<h2><a href="https://github.com/panva/jose/compare/v4.6.2...v4.7.0">4.7.0</a> (2022-04-21)</h2>
-<h3>Features</h3>
-<ul>
-<li>add createRemoteJWKSet cacheMaxAge option (<a href="https://github.com/panva/jose/commit/5017d95764b3aca551631c1a2fbe7cc40cbb6055">5017d95</a>), closes <a href="https://redirect.github.com/panva/jose/issues/394">#394</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/panva/jose/commit/db71b3d15254b27666754fa2ec85b666b4cf1306"><code>db71b3d</code></a> chore(release): 4.9.2</li>
-<li><a href="https://github.com/panva/jose/commit/03d6d013bf6e070e85adfe5731f526978e3e8e4d"><code>03d6d01</code></a> fix: limit default PBES2 alg's computational expense</li>
-<li><a href="https://github.com/panva/jose/commit/8c5cc34eb558ce52b319107b4faeb26703994556"><code>8c5cc34</code></a> chore: cleanup after publish</li>
-<li><a href="https://github.com/panva/jose/commit/8ed39d67cd1bb58c39641544758d905930a047d3"><code>8ed39d6</code></a> chore(release): 4.9.1</li>
-<li><a href="https://github.com/panva/jose/commit/9f3c459e30b71eec54163d500edb59f5c72bf7c9"><code>9f3c459</code></a> fix(deno): add a Deno package entrypoint</li>
-<li><a href="https://github.com/panva/jose/commit/d07c6e9abb0da94134cbd23e1de73e3a30069694"><code>d07c6e9</code></a> test: update expectations for P-384 ECDH</li>
-<li><a href="https://github.com/panva/jose/commit/664279d468a508635c55c2c466a207790ce13ed7"><code>664279d</code></a> chore: cleanup after publish</li>
-<li><a href="https://github.com/panva/jose/commit/24484d641500647fb5b2d07af57e868984cb7ee9"><code>24484d6</code></a> chore(release): 4.9.0</li>
-<li><a href="https://github.com/panva/jose/commit/ebf277bedd4237d2382d13e2e3b5c786b99722b9"><code>ebf277b</code></a> chore: add refactors to version logs</li>
-<li><a href="https://github.com/panva/jose/commit/d06ce654666c5f584716f39843534118407c14e0"><code>d06ce65</code></a> feat: add support for RFC 9278 - JWK Thumbprint URI</li>
-<li>Additional commits viewable in <a href="https://github.com/panva/jose/compare/v4.1.0...v4.9.2">compare view</a></li>
-</ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~panva">panva</a>, a new releaser for jose since your current version.</p>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jose&package-manager=npm_and_yarn&previous-version=4.1.0&new-version=4.9.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cacti/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 02:23:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2620" class=".btn">#2620</a>
-            </td>
-            <td>
-                <b>
-                    fix: ejs critical vulnerability CVE-2022-29078
+                    feat(weaver-corda): support array of remote views, consequent user fl…
                 </b>
             </td>
         </tr>
@@ -204,12 +27,13 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                    https://nvd.nist.gov/vuln/detail/CVE-2022-29078
+                …ow call
+Closes #2470 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-16 06:22:03 +0000 UTC
+        Created At 2023-08-24 12:13:02 +0000 UTC
     </div>
 </div>
 
@@ -217,11 +41,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2617" class=".btn">#2617</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2637" class=".btn">#2637</a>
             </td>
             <td>
                 <b>
-                    fix(security): crash in HeaderParser in dicer
+                    ci(actionlint): add linting of GitHub action workflow files
                 </b>
             </td>
         </tr>
@@ -230,32 +54,14 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Addresses the advisory:
-https://github.com/hyperledger/cacti/security/dependabot/176
-
-The dicer dependency is included via the express-openapi-validator
-package which needed to be upgraded project-wide for a fix.
-
-The test cases for verifying that the OpenAPI validation still works had
-to be updated because the way invalid field names are represented by
-the new version of the validator have been changed. It used to say if
-in the request body there was a problematic field ".body.SOME_FIELD"
-but now it says instead "/body/SOME_FIELD" so a minor change was needed
-in the test cases assertions to make sure they are not ending up with
-false negative results.
-
-URL https://github.com/advisories/GHSA-wm7h-9275-46v2
-CVE ID CVE-2022-24434
-GHSA ID GHSA-wm7h-9275-46v2
-
-Fixes https://github.com/hyperledger/cacti/issues/2616
+                Fixes #2634
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-15 23:24:02 +0000 UTC
+        Created At 2023-08-24 07:02:41 +0000 UTC
     </div>
 </div>
 
@@ -263,11 +69,11 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2615" class=".btn">#2615</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2636" class=".btn">#2636</a>
             </td>
             <td>
                 <b>
-                    fix(cactus-validator-socketio-indy): upgrade pyjwt to 2.4.0
+                    test(connector-quorum): fix flaky v2.3.0-deploy-contract-from-json-private.test
                 </b>
             </td>
         </tr>
@@ -276,22 +82,19 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                CVE ID CVE-2022-29217
+                Added an extra wait for the member 2 contract invocation
+where we first obtain the receipt thereby forcing
+the execution to wait until it has been mined on
+member 2 as well.
 
-GHSA ID GHSA-ffqj-6fqr-9h24
-
-https://github.com/advisories/GHSA-ffqj-6fqr-9h24
-
-https://github.com/hyperledger/cacti/security/dependabot/175
-
-Fixes #2614
+Fixes #2635
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-13 22:07:23 +0000 UTC
+        Created At 2023-08-24 06:46:47 +0000 UTC
     </div>
 </div>
 
@@ -299,11 +102,11 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2613" class=".btn">#2613</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2633" class=".btn">#2633</a>
             </td>
             <td>
                 <b>
-                    fix(cactus-core-api): address CVE-2021-38192 - GHSA-x4qm-mcjq-v2gf
+                    ci(codegen)!: fix the yarn codegen job in ci.yaml
                 </b>
             </td>
         </tr>
@@ -312,18 +115,46 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                Performs a minor semver upgrades to tonic, tonic-build and prost so
-that the vulnerable version of prost-types is no longer in the
-dependency tree.
+                BREAKING CHANGES:
+1. Fabric connector endpoints are using base64 encoding instead of JSON
+when needing to transfer otherwise binary data (UInt8Array)
+2. Same as the above for the Iroha 1 and Iroha 2 connectors.
 
-Fixes #2612
+Primary changes:
+-----------------
+1. Removed the `"identifier": "Apache-2.0",` section from all OpenAPI
+specification documents (./**/openapi.json) project-wide because the
+OpenAPI generator is not yet compatible with it and because of that the
+new property just makes it crash with a false-negative validation error.
+2. Downgraded all OpenAPI specification documents version from `v3.1.0` to
+`v3.0.3` (which is how it used to be) because the generator is not yet
+compatible with it and it had caused types to be mangled.
+3. Eliminated incorrect usage of the "format": "binary" declarations in
+the OpenAPI specifications where the format was declared as binary but
+the data was still traveling as JSON strings despite it (divergence
+between our spec .json files and the implementation under the hood)
+4. Updated the tests and their related endpoints to use base64 encoding
+instead of JSON serializing UInt8Array instances: It is more efficient
+this way and also has the benefit of honoring the specification. The
+reason why it's more efficient is because JSON serializing a typed UInt8Array
+results in an object literal that maps every single byte to a property
+of said object, roughly tripling the size of the network transfer. It
+probably also is slower to serialize/deserialize but I haven't actually
+measured this.
+5. All of the packages are now using the OpenAPI generator v6.6.0 instead
+of some being stuck on v5.2.1. This might cause build issues in kotlin
+API clients but because we don't have a freeze on breaking changes right
+now (leading up to v2.0.0) it is the right time to make drastic changes
+like this.
+
+Fixes #2618
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-13 19:27:01 +0000 UTC
+        Created At 2023-08-23 22:50:29 +0000 UTC
     </div>
 </div>
 
@@ -331,11 +162,11 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2611" class=".btn">#2611</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2632" class=".btn">#2632</a>
             </td>
             <td>
                 <b>
-                    fix(security): upgrade fabric 2.x deps to 2.2.18
+                    build(tools): fix tooling globs where cactus is hardcoded
                 </b>
             </td>
         </tr>
@@ -344,16 +175,12 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                Also performed a snapshot upgrade where needed.
-
-Fixes #2610
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+                Fixes #2576
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-12 18:29:47 +0000 UTC
+        Created At 2023-08-23 05:51:24 +0000 UTC
     </div>
 </div>
 
@@ -361,11 +188,11 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2609" class=".btn">#2609</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2631" class=".btn">#2631</a>
             </td>
             <td>
                 <b>
-                    docs(examples): fix CVE-2022-24785 - test-run-transaction/supply-chain-app-stub
+                    feat(cactus-plugin-ledger-connector-ethereum): refactor connector API
                 </b>
             </td>
         </tr>
@@ -374,20 +201,129 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                CVE-2022-24785
-- https://nvd.nist.gov/vuln/detail/cve-2022-24785
+                - Refactor to single `invokeContract` endpoint that can accept multiple methods of 
+    supplying contract definition (directly, from keychain, etc..).
+- Same for `deployContract` method.
+- Update cactus-common `safeStringifyException` function to better handle axios errors
+    (and other custom exceptions that support `toJSON()` method.).
+- Use common error handling in all connector endpoints (except prometheus).
+- Fix the tests.
+- Switch to `Cacti` work in entire connector (except for package name)
 
-GHSA-8hfj-j24r-96c4
-- https://github.com/advisories/GHSA-8hfj-j24r-96c4
+Depends on: #2630
 
-Fixes #2608
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-22 08:50:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2630" class=".btn">#2630</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-plugin-ledger-connector-ethereum): support London fork gas prices
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add legacy and EIP1559 gas configuration options to transaction requests.
+- Legacy gas configuration is updated to EIP1559 using the same logic as web3 libraries.
+- Update the tests to work with new API.
+- Added test suite to test new features - `geth-transact-and-gas-fees.test.ts`
+
+Depends on: #2581
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-21 15:38:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2629" class=".btn">#2629</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): overall minor upgrade of npm dependencies - 2023-08-18
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2627
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-12 15:50:33 +0000 UTC
+        Created At 2023-08-20 09:45:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2628" class=".btn">#2628</a>
+            </td>
+            <td>
+                <b>
+                    test(connector-fabric): fix flaky test 2.2.x deploy-cc-from-javascript
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary changes:
+---------------
+
+1. Added robust debug logging to the express middleware of the API server
+so that problems like this are easier to debug in the future (e.g.
+trouble with the Open API spec documents themselves)
+2. Refactored the ci.yaml document so that there are separate jobs for
+each tape based Fabric connector integration test. This has reduced
+(or potentially eliminated) the presence of the flake that we were
+encountering during the contract deployment test cases. It also has the
+upside of faster CI because of more parallelism in the CI jobs.
+3. Updated the assertions in a couple of test cases where the newer Fabric
+versions were causing the assertions to fail because the returned JSON
+response in the example asset transfer chaincode is now referring to the
+asset owner via a property named "Owner" not "owner" (casing difference)
+
+Fixes #1471
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-20 06:32:42 +0000 UTC
     </div>
 </div>
 

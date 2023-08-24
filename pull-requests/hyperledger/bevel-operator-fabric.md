@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/183" class=".btn">#183</a>
+                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/187" class=".btn">#187</a>
             </td>
             <td>
                 <b>
-                    doc: Add June workshop video to the Readme
+                    chore: update license to Apache 2.0
                 </b>
             </td>
         </tr>
@@ -27,11 +27,8 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
                 
             </td>
             <td>
-                <!--  Thanks for sending a pull request! 
--->
-
-
-#### What this PR does / why we need it:
+                #### What this PR does / why we need it:
+Updates incompatible licenses to Apcahe 2.0 as required by Hyperledger.
 
 #### Which issue(s) this PR fixes:
 <!--
@@ -39,7 +36,7 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #
+Fixes #184
 
 #### Special notes for your reviewer:
 
@@ -51,7 +48,7 @@ Enter your extended release note in the block below. If the PR requires addition
 
 -->
 ```release-note
-
+NONE
 ```
 
 #### Additional documentation, usage docs, etc.:
@@ -74,7 +71,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-04 11:06:33 +0000 UTC
+        Created At 2023-08-23 08:17:33 +0000 UTC
     </div>
 </div>
 

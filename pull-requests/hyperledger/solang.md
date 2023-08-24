@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1492" class=".btn">#1492</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1503" class=".btn">#1503</a>
             </td>
             <td>
                 <b>
-                    AccountInfo data field is not readonly
+                    Bugfix: Incorrect size width calculation of dynamic primitive arrays in SCALE
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Fixes #1489 
+                Calculate the size width of dynamic primitive arrays based on the array length instead of the array size.
+
+Partially fixes #1502
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-16 21:26:27 +0000 UTC
+        Created At 2023-08-24 10:28:23 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,91 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1490" class=".btn">#1490</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1501" class=".btn">#1501</a>
             </td>
             <td>
                 <b>
-                    Implement goto-references, goto-implementations, goto-type-definitions
+                    Polkadot: Prevent storage initializers overwriting the contract input in scratch buf
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ~~Store the contract input on the stack instead of in the scratch buffer to avoid overwriting it in the storage initializer.~~
+
+The call to the storage initializer must happen before reading the input into the scratch buffer. Otherwise, the storage initializers can overwrite the input data in the scratch buffer.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-23 12:16:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1500" class=".btn">#1500</a>
+            </td>
+            <td>
+                <b>
+                    Polkadot: Do not emit the storage initializer twice 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is no need to deliberately emit the storage initializer CFG a second time. It just ends up as dead code because it's  being emitted anyways.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-23 09:26:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1499" class=".btn">#1499</a>
+            </td>
+            <td>
+                <b>
+                    Optimize and check dispatch CFG
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The dispatch CFG were not optimized; I think this is an oversight as I don't see why they shouldn't be optimized.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-23 06:00:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1498" class=".btn">#1498</a>
+            </td>
+            <td>
+                <b>
+                    Remove some dead code in emit
                 </b>
             </td>
         </tr>
@@ -58,7 +140,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-16 03:58:50 +0000 UTC
+        Created At 2023-08-22 14:16:12 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +148,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1488" class=".btn">#1488</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1497" class=".btn">#1497</a>
             </td>
             <td>
                 <b>
-                    Produce error diagnostics if overflow occurs in constant folding
+                    Solana: Allow address and bytes to be used as @seed
                 </b>
             </td>
         </tr>
@@ -79,132 +161,17 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                The negate operator does not check for overflow, add this too.
+                Allows `address` or `bytesN` to have the @seed annotation on constructors.
 
-Fixes https://github.com/hyperledger/solang/issues/1484
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 08:37:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1487" class=".btn">#1487</a>
-            </td>
-            <td>
-                <b>
-                    Bring import resolution in line w/ Solc's
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solang's import resolution departs from solc's in several key ways. I've spent quite a bit of time trying to understand how solc's import system works (it's very bad), and how Solang differs. This has been both through reading code and through experimenting with both systems.
-
-I've compiled a set of tests [here](https://github.com/BenTheKush/solc_remapping_behavior_test). These tests show differences in behavior between the import resolution (this includes filename resolution specified from CLI, remapping behavior, import path behavior, etc etc).
-
-This PR is attempting to bring solang's implementation in line with my understanding of the solidity documentation. It's currently a draft and is rough around the edges (including debug println statements so I can figure out control flow, etc).
-
-## Differences between Solang and Solc
-
-### 1. Remap Targets
-Solang and Solc treat the target of a remapping `map=target` very differently.
-
-+ **Solc:** In solc, when an import statement of the form `import "map/path/to/Foo.sol";` is encountered, solc will attempt to remplace `map` with `target` and then resolve this new replaced version of the import path against the base-path and any specified include-paths.
-
-  **Note:** from the current working director, the path specified by `target` DOES NOT NEED TO EXIST!
-  
-+ **Solang:** Solang [canonicalizes the target](https://github.com/hyperledger/solang/blob/90c687ecb52dd4c75adda3c52443c0b5725ab16c/src/file_resolver.rs#L43); if the target does not exist compilation immediately fails. Worse, this canonicalization may be valid but point to a _different_ target than what was expected by the developers. This could silently lead to incorrect files being imported, leading to potential security risks.
-
-The fix is to remove the call to `.canonicalize()`
-
-Another bug is that when a remapping applies then it _must_ be applied.
-
-Consider the following setup:`Contract.sol` imports `import "lib/A.sol";`, which exists in `resources/node_modules/lib/A.sol`. 
-
-+ **Solc:** Compiling with `solc Contract.sol lib=resources/node_modules/lib --base-path node_modules` fails, _even though the imported path `lib/A.sol` can be appended to the base path `resoucres/node_modules` to get the correct path `resources/node_modules/lib/A.sol`_. This is because the remapping `lib=node_modules/lib` __modifies__ the imported path `lib/A.sol` to `node_modules/lib/A.sol`, and then _this path_, not the original imported path, is used to resolve against the base-path.
-
-+ **Solang:** Compiling with `solang --target solana Contract.sol -m lib=resources/node_modules/lib -Inode_modules` succeeds.
-
-The fix is to apply a remapping when possible and not allow the original imported path to be used for resolution.
-**EDIT:** After some experimenting with solc it appears that _the last remapping_ is always the one that is applied!
-Note that these are not cumulative: each successive remapping is applied to the original import path, replacing any other remappings that applied:
-
-```
-solc a=good C.sol                 # good
-solc a=good a=bad C.sol           # bad
-solc a=bad a=good C.sol           # good
-solc a=good a=bad a=good C.sol    # good
-```
-
-### 2. Incorrect Direct Imports
-
-A _direct import_ is any import that doesn't start with `"./"` or `"../"` (these are relative imports). 
-
-+ **Solc:** resolves direct imports against the `--base-path` and any specified `--include-path`s
-
-+ **Solang:** currently attempts to [resolve an import path by canonicalizing it in the host filesystem](https://github.com/hyperledger/solang/blob/90c687ecb52dd4c75adda3c52443c0b5725ab16c/src/file_resolver.rs#L209-L213)
-  ```rust
-        if let Some(file) = self.try_file(filename, &path, None)? {
-            return Ok(file);
-        } else if path.is_absolute() {
-            return Err(format!("file not found '{}'", filename.to_string_lossy()));
+        contract bar {
+            @payer(wallet)
+            constructor(@seed address seed, @seed bytes2 seed2, @bump byte b) {}
         }
-  ```
-  
-  This is correct behavior only when this is a file specified from CLI, which is true iff parent is `None` (at least, according to the current implementation). The easiest solution is to change the above lines to:
-  
-  ```rust
-    if parent.is_none(){
-        if let Some(file) = self.try_file(filename, &path, None)? {
-            return Ok(file);
-        }
-        return Err(format!("file not found '{}'", filename.to_string_lossy()));
-    }
-  ```
-  
-  **Note:** when parent is none and try_file failed we fail (as opposed to only when it was an absolute path). Why? Because a file specified from CLI is a path in the _host file system_, not the _virtual file system_. This means that if `canonicalize()` fails, it's a bad filename.
-
-### 3. Ambiguous Imports should Fail
-
-An ambiguous import (i.e., an import path that can be resolved multiple ways given the configuration) should fail. This is specified in solidity docs. It's also undesirable to have import map order not commute (i.e., `-I a -I b` results in a different binary than `-I b -I a`). 
-
-
-The fix for this is to create a list of resolved files and then, if there is more than one, report an error and list all resolved file paths. Example from solc where I specified the same import root twice, causing multiple resolutions, once for each redundant occurance of the `.` import root:
-
-![Screen Shot 2023-08-14 at 9 51 33 PM](https://github.com/hyperledger/solang/assets/128326394/fbe9510a-af59-437b-a71d-58da569b01c9)
-
-### 4. Remapping's maps should support multi-path segments
-
-A remap like `a/b/c=target` is valid according to solidity docs/solc. I've replaced the [previous `iter()`/`first()` based implementation](https://github.com/hyperledger/solang/blob/90c687ecb52dd4c75adda3c52443c0b5725ab16c/src/file_resolver.rs#L216-L218):
-
-```rust
-        let mut iter = path.iter();
-        if let Some(first_part) = iter.next() {
-            let relpath: &PathBuf = &iter.collect();
-```
-
-with a `strip_prefix()` based implementation.
-
-
-### 5. Solc's import path specification is _non-monotonic_
-
-By this I mean that you can add an import path (specifically `--base-path`), and previously valid imports will now become _invalid_. YUCK.
-
-This is because the default `--base-path` is `""`, and this gets _replaced_ when you specify an import path. This is gross and leads to disgusting edge cases. I'll expand more on this later
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-15 05:00:41 +0000 UTC
+        Created At 2023-08-22 09:03:29 +0000 UTC
     </div>
 </div>
 
@@ -212,11 +179,11 @@ This is because the default `--base-path` is `""`, and this gets _replaced_ when
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1486" class=".btn">#1486</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1496" class=".btn">#1496</a>
             </td>
             <td>
                 <b>
-                    Use named constants instead of magic numbers
+                    v0.3.2 Brasília
                 </b>
             </td>
         </tr>
@@ -225,12 +192,27 @@ This is because the default `--base-path` is `""`, and this gets _replaced_ when
                 
             </td>
             <td>
-                Using magic numbers degrades code readability.
+                The language server is much improved, and many fixes all over.
+
+### Added
+- Go to definition is now implemented in the language server. [chioni16](https://github.com/chioni16)
+- The parser has been updated to be compatible with Ethereum Solidity v0.8.21. [seanyoung](https://github.com/seanyoung)
+
+### Fixed
+- **breaking** Resolving import paths now matches solc more closely, and only resolves relative paths when specified as `./foo` or `../foo`. [seanyoung](https://github.com/seanyoung)
+- **Solana** The `lamports` and `data` fields of `tx.accounts` can be modified again. [LucasSte](https://github.com/LucasSte)
+- It is not longer necessary to save a Solidity file, in order for the language server to pick up changes to the file. [chioni16](https://github.com/chioni16)
+- The negate operator `-` now checks for overflow at runtime, and other math overflow fixes. [seanyoung](https://github.com/seanyoung)
+
+### Changed
+- The Substrate target has been renamed to Polkadot. [xermicus](https://github.com/xermicus)
+- **Polkadot** `assert()` and `require()` is now implemented as a transction revert, rather than a trap. The error data is returned, and encoded the same as on Ethereum. Error data is now passed to the calling contract, all the way up the call stack. [xermicus](https://github.com/xermicus)
+- **Polkadot** constructor can be non-payable. [xermicus](https://github.com/xermicus)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-14 20:51:46 +0000 UTC
+        Created At 2023-08-21 10:47:01 +0000 UTC
     </div>
 </div>
 
@@ -238,11 +220,11 @@ This is because the default `--base-path` is `""`, and this gets _replaced_ when
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1485" class=".btn">#1485</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1494" class=".btn">#1494</a>
             </td>
             <td>
                 <b>
-                    Avoid overflow in transfer
+                    Bump crate dependencies
                 </b>
             </td>
         </tr>
@@ -251,12 +233,12 @@ This is because the default `--base-path` is `""`, and this gets _replaced_ when
                 
             </td>
             <td>
-                `address.transfer` and `address.send` utilize `void sol_transfer` from `solana.c` under the hood, which was saving the overflowed valued to the account balance. This PR fixes such an issue.
+                Update all dependencies that can be updated.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-14 17:56:00 +0000 UTC
+        Created At 2023-08-19 08:06:26 +0000 UTC
     </div>
 </div>
 

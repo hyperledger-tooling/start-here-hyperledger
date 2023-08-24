@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/158" class=".btn">#158</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/160" class=".btn">#160</a>
             </td>
             <td>
                 <b>
-                    Reduce scheduled build frequency to weekly
+                    Update dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                <nil>
+                Also suppress false positive vulnerability detections.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 14:30:46 +0000 UTC
+        Created At 2023-08-19 11:02:34 +0000 UTC
     </div>
 </div>
 

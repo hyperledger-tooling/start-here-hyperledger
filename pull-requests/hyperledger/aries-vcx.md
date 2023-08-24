@@ -14,6 +14,217 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/955" class=".btn">#955</a>
+            </td>
+            <td>
+                <b>
+                    Added 'names' attribute field parsing in credx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses #948 .
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 09:47:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/954" class=".btn">#954</a>
+            </td>
+            <td>
+                <b>
+                    Uniffi demo qr scan
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Merge only after #896 
+This PR elaborates the Uniffi demo and API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 06:05:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/953" class=".btn">#953</a>
+            </td>
+            <td>
+                <b>
+                    Refacotr/ledger trait
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ci</span>
+            </td>
+            <td>
+                TODO
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 05:10:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/952" class=".btn">#952</a>
+            </td>
+            <td>
+                <b>
+                    Demo for aries vcx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - alice & faber demo to establish connection
+- modifies `simple_message_relay` to enable its consumption also as library, rather than executable only
+- extends `simple_message_relay` with mpsc channels which forward any incoming message to mpsc receiver. This is nice because in the demo, I don't need to call relay's API at all - just await receiver to wait for new incoming message
+
+Having to interact with aries-vcx from scratch from new application, some improvements I've identified:
+- https://github.com/hyperledger/aries-vcx/issues/949
+- https://github.com/hyperledger/aries-vcx/issues/951
+
+## Note
+This can be thought of as temporary solution to demonstrate the APIs and usage. And while far from ideal yet (todos left, issues created), it's a lot easier to understand than pointing someone to integration tests today. Main issue of integration tests is that they are all couploed with vcxagency-node mediator, but also other issues.
+After integration tests are in better shape after:
+- https://github.com/hyperledger/aries-vcx/pull/945
+- https://github.com/hyperledger/aries-vcx/pull/946
+- and subsequent removal of IO, and therefore coupling with vcxagency-node mediator
+- and some refactoring of "Alice" "Faber" devsetup agents
+
+I believe that integration tests could be in condition to demonstrate the usage (and surface outstanding API issues) equally good as this demo.
+But for the time being, this demo is a lot simpler than the existing integration tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-22 15:33:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/946" class=".btn">#946</a>
+            </td>
+            <td>
+                <b>
+                    IO for issuer and holder as opt-in
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">breaking</span>
+            </td>
+            <td>
+                #### Note:
+WIP, yet missing completing the work on Holder, but changes so far are meant to be final in scope of this PR and ready for review.
+
+### Changes
+##### Issuer: Removed state `OfferSent`
+- Remove `OfferSent` state, keep only `OfferSet`; treat `OfferSet` as `OfferSent`
+- To keep Issuer dependant works, Issuer still has its original method `send_credential_offer` which unlike before, does not modify state. Hence existing code should still keep working.
+
+##### Issuer: Removed state `CredentialSent`
+- Remove state `CredentialSent`, introduce state `CredentialSet` instead
+- The semantic reason between them is self-explaining, "set" doesn't imply the message has been sent
+- Structural reason between the 2 is `CredentialSet` has additional field `msg_issue_credential: IssueCredential` to decouple construction of credential from sending `issue-credential` msg
+
+#### Holder: Removed state `RequestSent`
+- Remove state `RequestSent`, introduce state `RequestSet` instead
+- Generally change analogic to the ones above.
+
+### Strategy
+- This PR keep SM's ability to "send" messages, which it keeps in SM's state, however, these calls are opt-in, so callers can choose to send the messages on their own instead.
+- In the next stage, we will remove `send_*` methods and required callers to assure msg sending on their own.
+  - That will mean that tests can run much faster and do not need to establish didcomm connection and interact with mediator
+  - State machines will be generally well position for further transition to typestate pattern followin https://github.com/hyperledger/aries-vcx/pull/928 pattern where transitions function include "msg to be sent out" in return type.
+
+### Breaking
+- Issuer: state machines in the intermediate `OfferSent` state won't be valid anymore (state removed)
+- Issuer: state machines in the intermediate `CredentialSent` state won't be valid anymore (state removed)
+- Issuer: If constructing anoncreds credential / issue-credential message fails, the state machine transitions to failed `Finished` state, but doesn't sends the problem report. You have to check the state and send problem report yourself.
+- Holder: state machines in the intermediate `RequestSent` state won't be valid anymore (state removed)
+- Holder: if construction anoncreds credential-request / request-credential message fails, the state machine transitions to failed `Finished` state, but doesn't sends the problem report. You have to check the state and send problem report yourself.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-20 10:40:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/945" class=".btn">#945</a>
+            </td>
+            <td>
+                <b>
+                    Declutter issuance&presentation protocols
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Changes
+- No breaking changes
+- Remove concept of "Action" as way to trigger actions/process messages from both Holder and Issuer handlers & state machines
+- Externalize interactions with mediated connections and related code to files `mediated_holder.rs`, `mediated_issuer.rs` etc. out of state machine/handlers code itself
+- Removed disabled unit tests - majority of tests was testing validity of sequence of FSM transitions. These will be irellevant with typestate pattern
+
+### Next steps:
+- We can follow this up with changes to states to remove IO - that itself has higher value than transformation to typestate pattern. 
+  - After that, we can in parallel boost up testing performance significantly https://github.com/hyperledger/aries-vcx/issues/786
+- In last stage we could rewrite thing to typestate + abstracting out & unifying approach for message processing as drafted in https://github.com/hyperledger/aries-vcx/pull/944
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-19 13:48:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/944" class=".btn">#944</a>
             </td>
             <td>
@@ -115,184 +326,6 @@ However, recommended strategy for mobile devices is building custom FFI layer on
     </table>
     <div class="right-align">
         Created At 2023-08-18 06:54:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/940" class=".btn">#940</a>
-            </td>
-            <td>
-                <b>
-                    Try Hide indy-api-types from modular_libs consumers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Testing...
-
-i _believe_ that modular_libs should not need anything to do with indy-api-types after this great PR: https://github.com/hyperledger/aries-vcx/pull/934, therefore we should make it optional in aries_vcx_core..
-
-this takes the dep count from `554` to `300` for:
-```
-cargo check --features modular_libs --no-default-features -p aries-vcx
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 09:02:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/939" class=".btn">#939</a>
-            </td>
-            <td>
-                <b>
-                    Extract subset of changes made in #928
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Extracts changes made to `did_doc`, `did_doc_sov`, `did_doc_sov`, `did_peer`, and `public_key` crates in #928. Most of these changes are either consequences of #913 or additions of features found to be useful during #928.
-
-The reason for extracting these changes is that
-* doing so will minimize conflicts encountered when rebasing #928 after changes made to the modified crates (e.g. in  #938),
-* they are independent and useful outside of #928.
-
-TODO: Prune
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-16 10:01:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/938" class=".btn">#938</a>
-            </td>
-            <td>
-                <b>
-                    Attempt to convert legacy DID documents to new during deserialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Introduces a lightweight, easy-to-remove legacy DDO data structure to the `did_document_sov` crate. During the deserialization of `DidDocumentSov`, if the incoming data matches the legacy structure, it is converted to `DidDocumentSov` with `IndyAgent` service type.
-
-Received legacy DDO is first converted to did:peer:2 following [this](https://github.com/TimoGlastra/legacy-did-transformation) document, and from it then back-resolved to the new DDO format following the did:peer:2 spec.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-16 07:09:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/937" class=".btn">#937</a>
-            </td>
-            <td>
-                <b>
-                    Modify connection inviter to extract msg sending out
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @nain-F49FF806 will soon start integrating connection protocol into mediator service. Since clients connecting to mediator have no inbound endpoint to receive messages on, the clients will need to request transport return route https://github.com/hyperledger/aries-rfcs/blob/main/features/0092-transport-return-route/README.md
-to receive aries responses in http responses.
-Naian will be using only inviter side of Connection, and it's important the state machine implementation doesn't include response sending.  While `send_response` with some in-memory transport channel could still work to deliver responses, getting rid seems cleaner.
-Hence:
-- removed `InviterConnection<Requested>::send_response`
-- added  `InviterConnection<Requested>::get_connection_response_msg`, `InviterConnection<Requested>::mark_response_sent`
-
-No breaking changes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 21:54:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/936" class=".btn">#936</a>
-            </td>
-            <td>
-                <b>
-                    Allow parsing unqualified DIDs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Enables parsing of unqualified DIDs in `did_parser`, a temporary measure for the purposes of gracefully transitioning to using fully qualified DIDs, and will be reverted once the transition is complete.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 13:51:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/935" class=".btn">#935</a>
-            </td>
-            <td>
-                <b>
-                    Update indy-vdr
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update indy-vdr to latest main rev (as it contains `vdr-proxy-client` (unlike any (pre-)release)).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-14 10:52:03 +0000 UTC
     </div>
 </div>
 
