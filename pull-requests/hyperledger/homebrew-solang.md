@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Update cask for v0.3.1 release
+                    Solang v0.3.2
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/homebrew-solang
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-30 19:06:00 +0000 UTC
+        Created At 2023-08-24 12:50:32 +0000 UTC
     </div>
 </div>
 

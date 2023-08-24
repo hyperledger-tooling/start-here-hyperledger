@@ -72,29 +72,3 @@ Local compilation is confirmed to be working as expected with this change
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/48" class=".btn">#48</a>
-            </td>
-            <td>
-                <b>
-                    Add Table of Contents to arch doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 13:18:41 +0000 UTC
-    </div>
-</div>
-

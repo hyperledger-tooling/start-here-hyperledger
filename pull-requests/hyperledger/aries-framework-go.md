@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3625" class=".btn">#3625</a>
-            </td>
-            <td>
-                <b>
-                    wip: use trustbloc/kms-go instead of kmscrypto component
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 06:06:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3624" class=".btn">#3624</a>
             </td>
             <td>

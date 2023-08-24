@@ -126,34 +126,3 @@ Note: when using `did:peer:2`, both DID Exchange Requests and Responses are not 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1546" class=".btn">#1546</a>
-            </td>
-            <td>
-                <b>
-                    feat: Basic Messages V2 for DIDComm V2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Refactor Basic Messages modules to support both V1 and V2 protocols. At the moment, in order to not introduce breaking changes in API level, when messages are sent, the framework determines whether to use 1.0 or 2.0 according to connection's DIDComm version.
-
-Some remaining work (either for a further PR or to discuss here):
-- Add protocolVersion record for BasicMessageRecord. This can be optional and make permanent when making a new release (migration script included)
-- Analyze how to support DIDComm V1 for Basic Messages 2.0, as the protocol might work with both versions. This will apply also for Discover Features 2.0 and others
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 12:39:03 +0000 UTC
-    </div>
-</div>
-
