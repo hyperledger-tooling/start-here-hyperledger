@@ -15,27 +15,27 @@ permalink: /releases/hyperledger-labs/fabric-operator
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.5-4
+                    v1.0.6-1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.5-4
+                    v1.0.6-1
                 </span>
             </td>
             <td>
-                v1.0.5-4 Release notes - July 27, 2023
+                v1.0.6-1 Release notes - August 24, 2023
 ------------------------
 
 Release Notes
 -------------
 
-v1.0.5-4 is a patch release, providing updates for the following issues in the operator: 
+v1.0.6-1 is a patch release, providing updates for the following issues in the operator: 
 
-- Donot repeat the registry URLs for the images used in deployer configmaps  https://github.com/hyperledger-labs/fabric-operator/pull/120
-- Remove vulnerabilities by updating the dependency modules https://github.com/hyperledger-labs/fabric-operator/issues/122
+- Update default keepalive values to fix connectivity issues on VPC clusters  https://github.com/hyperledger-labs/fabric-operator/pull/127
+- Don't set auth_scheme from operator and allow console to deal with it https://github.com/hyperledger-labs/fabric-operator/issues/125
 
 Known Vulnerabilities
 ---------------------
@@ -56,11 +56,11 @@ none
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.5-4" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.6-1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-07-27 12:30:57 +0000 UTC
+        Created At 2023-08-10 13:18:19 +0000 UTC
     </span>
 </div>
 
