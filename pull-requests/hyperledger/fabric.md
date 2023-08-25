@@ -91,7 +91,7 @@ https://github.com/hyperledger/fabric/issues/4332
             </td>
             <td>
                 <b>
-                    up smartbft and connecting smartbft metrics
+                    connecting smartbft metrics
                 </b>
             </td>
         </tr>
