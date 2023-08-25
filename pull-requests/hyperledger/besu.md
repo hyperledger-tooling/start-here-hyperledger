@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5806" class=".btn">#5806</a>
+            </td>
+            <td>
+                <b>
+                    evmtool: update readme for execution-spec-tests python 3.11 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update [execution-spec-tests](https://github.com/ethereum/execution-spec-tests) installation in the evmtool's README
+
+execution-spec-tests now additionally supports Python 3.11 ([ethereum/execution-spec-tests#193](https://github.com/ethereum/execution-spec-tests/pull/193), but requires additional packages on macOS (https://github.com/ethereum/execution-spec-tests/issues/274).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 12:05:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5805" class=".btn">#5805</a>
+            </td>
+            <td>
+                <b>
+                    mark account when proof is invalid during snapsync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 10:00:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5804" class=".btn">#5804</a>
             </td>
             <td>
@@ -657,41 +718,6 @@ If the work done for txpool options, is found to be effective, then I can apply 
     </table>
     <div class="right-align">
         Created At 2023-08-18 14:32:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5771" class=".btn">#5771</a>
-            </td>
-            <td>
-                <b>
-                    Add eth_getBlockReceipts() JSON/RPC method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                ## PR description
-Adds `eth_getBlockReceipts` JSON/RPC method as described by Ethereum API specification https://github.com/ethereum/execution-apis/pull/438
-
-**Notes for PR reviewer & docs**:
-
-- The specification says that the correct response for a block that cannot be found is an empty array, e.g. https://github.com/ethereum/execution-apis/blob/main/tests/eth_getBlockReceipts/get-block-receipts-future.io Besu  appears to have a convention of returning a `-32000` error code with message `Block not found` for such cases. I have done the same with this new JSON/RPC method but welcome any thoughts on this from the PR reviewer.
-- I don't think this query requires any changes/additions to graphql. The current schema covers the basic EVM objects (block, transaction, log etc) and is already designed to provide an alternative way of doing what this new JSON/RPC method adds (getting all receipts for a block in a single call) so I haven't made any graphql changes.
-
-## Fixed Issue(s)
-Closes https://github.com/hyperledger/besu/issues/5751
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-18 12:22:36 +0000 UTC
     </div>
 </div>
 
