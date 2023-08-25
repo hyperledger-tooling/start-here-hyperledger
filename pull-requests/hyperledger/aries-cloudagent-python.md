@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2446" class=".btn">#2446</a>
+            </td>
+            <td>
+                <b>
+                    fix: more doc corrections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2445. ACA-Py's `DIDDoc` class performs transformations prior to storing. This PR accounts for these transformations better.
+
+cc @WadeBarnes @nodlesh
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 21:14:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2443" class=".btn">#2443</a>
             </td>
             <td>
@@ -232,32 +260,6 @@ This leads to the following exception
     </table>
     <div class="right-align">
         Created At 2023-08-18 21:13:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2429" class=".btn">#2429</a>
-            </td>
-            <td>
-                <b>
-                    Don't run Snyk on forks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2428
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 18:35:22 +0000 UTC
     </div>
 </div>
 
