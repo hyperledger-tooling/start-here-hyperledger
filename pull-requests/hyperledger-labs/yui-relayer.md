@@ -40,37 +40,6 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/99" class=".btn">#99</a>
-            </td>
-            <td>
-                <b>
-                    Add sleep-duration flag to tx connection, channel command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add sleep-duration flag to tx connection, channel command
-
-```
-$RLY tx connection $PATH_NAME --sleep-duration 10s
-$RLY tx channel $PATH_NAME --sleep-duration 10s
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 06:41:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/98" class=".btn">#98</a>
             </td>
             <td>

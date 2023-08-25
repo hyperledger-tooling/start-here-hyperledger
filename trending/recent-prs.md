@@ -1,13 +1,13 @@
 
-[2446](https://github.com/hyperledger/aries-cloudagent-python/pull/2446) fix: more doc corrections
+[5804](https://github.com/hyperledger/besu/pull/5804) don't check block timestamp drift for PoS
 
-[548](https://github.com/hyperledger/cello/pull/548) Bump uwsgi from 2.0.18 to 2.0.22 in /src/api-engine
+[4398](https://github.com/hyperledger/fabric/pull/4398) up smartbft library
 
-[724](https://github.com/hyperledger/aries-agent-test-harness/pull/724) fix-646: Implemented Re-try failed scenarios
+[5803](https://github.com/hyperledger/besu/pull/5803) EngineNewPayload -  Fix Invalid Block Hash return
 
-[21](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/21) Reject missing attribute when signing or processing credential
+[5802](https://github.com/hyperledger/besu/pull/5802) EngineNewPayloadV2  -  Reject non-null Blob fields 
 
-[1551](https://github.com/hyperledger/aries-framework-javascript/pull/1551) fix(transport): Use connection in WebSocket ID
+[1083](https://github.com/hyperledger/fabric-samples/pull/1083) Improve BFT sample on test-network
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

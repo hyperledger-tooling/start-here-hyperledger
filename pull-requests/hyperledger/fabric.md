@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4398" class=".btn">#4398</a>
+            </td>
+            <td>
+                <b>
+                    up smartbft library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 05:06:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4397" class=".btn">#4397</a>
+            </td>
+            <td>
+                <b>
+                    Improve add_orderer.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates add_orderer.md to improve it from the user's perspective.
+
+#### Type of change
+- Documentation update
+
+#### Description
+I'm trying out the BFT samples in fabric-samples recently.
+As part of this process, I also tried to add an orderer following the instructions in the doc added by https://github.com/hyperledger/fabric/pull/4390.
+
+I've identified some areas from a user's perspective that might benefit from further improvements.
+This PR updates add_orderer.md for the above improvements.
+
+#### Other possible improvements, or points that were not clear after trying the procedure
+
+- I interpreted that [such a file path description](https://github.com/hyperledger/fabric/blob/17b77cf1d8750263df89316cd0c888f18b872022/docs/source/create_channel/add_orderer.md?plain=1#L185) in Add the fifth orderer to the config should actually be filled in with the result of base64 encoding of the certificate in the file, but some readers may overlook it.
+  - It may be less misleading to explicitly state in a snippet, such as `<The result of base64 encoding of the contents in ...>`.
+
+- It might be more user-friendly if the command snippets for entering `cli` container and copying between cli and local were also illustrated in the doc.
+
+#### Related issues
+https://github.com/hyperledger/fabric/issues/4332
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 03:56:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4396" class=".btn">#4396</a>
             </td>
             <td>
