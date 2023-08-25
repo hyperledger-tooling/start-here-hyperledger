@@ -14,6 +14,126 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5804" class=".btn">#5804</a>
+            </td>
+            <td>
+                <b>
+                    don't check block timestamp drift for PoS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Geth has removed this check (block too far in the future) since the merge. Fixes #5800 - and 9 related hive tests that start with `cancun/eip4788_beacon_root/beacon_root_contract/`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 05:47:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5803" class=".btn">#5803</a>
+            </td>
+            <td>
+                <b>
+                    EngineNewPayload -  Fix Invalid Block Hash return
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                EngineNewPayload should not return the  latestValidHash when blockHash validation fails:
+
+Current:
+{status: INVALID_BLOCK_HASH, latestValidHash: `latestValidHash`, validationError: errorMessage | null} if the blockHash validation has failed
+
+Expected:
+{status: INVALID_BLOCK_HASH, latestValidHash: `null`, validationError: errorMessage | null} if the blockHash validation has failed
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 05:02:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5802" class=".btn">#5802</a>
+            </td>
+            <td>
+                <b>
+                    EngineNewPayloadV2  -  Reject non-null Blob fields 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">4844</span>
+            </td>
+            <td>
+                ## PR description
+Validate blobGasUsed and excessblobGas pre-Cancun. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 04:38:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5801" class=".btn">#5801</a>
+            </td>
+            <td>
+                <b>
+                    Improve Reference Test Performance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+
+Improve reference test performance by caching protocol specs and stacked world state values.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 03:01:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5797" class=".btn">#5797</a>
             </td>
             <td>
@@ -124,7 +244,7 @@ Another small PR to allow running checkSpdxHeader task on Windows
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 Remove versionedHashes from EngineNewPayload. 
@@ -153,7 +273,7 @@ https://github.com/ethereum/execution-apis/blob/main/src/engine/cancun.md#execut
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 Parameters validation should occur before fork validation
