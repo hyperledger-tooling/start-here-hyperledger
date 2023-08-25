@@ -279,34 +279,3 @@ See https://besu-docs-dcqb4nvsq-hyperledger.vercel.app/development/private-netwo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1379" class=".btn">#1379</a>
-            </td>
-            <td>
-                <b>
-                    Doc new debug methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Document `debug_getRawTransaction` and `debug_getRawReceipts`.
-
-Preview: https://besu-docs-40jpyeiid-hyperledger.vercel.app/development/public-networks/reference/api#debug_getrawreceipts
-
-fixes #1342 
-fixes #1364 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-17 21:23:02 +0000 UTC
-    </div>
-</div>
-

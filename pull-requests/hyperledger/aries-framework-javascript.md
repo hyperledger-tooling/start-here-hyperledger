@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1551" class=".btn">#1551</a>
+            </td>
+            <td>
+                <b>
+                    fix(transport): Use connection in WebSocket ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated `WsOutboundTransport` to use `connectionId` as part of WS connection identifier. In current implementation, only `endpoint` value is used.
+
+This change fixes issue in use cases where tenant agent acts as a mediator:
+- For instance, we have mediator and issuer agents hosted inside same multi-tenant AFJ instance and we also have a holder agent on mobile device. Holder on a mobile device has an active WS connection with a mediator.
+- Currently, WS connection will be reused if it's already open for the same endpoint. This means that message sent from holder to issuer via WS transport will go through mediator WS connection
+- On multi-tenant instance side, this message will be received with existing transport session of mediator WS connection
+- This will cause transport session (along with mediator WS connection) to be closed as message addressed to issuer will not specify `return_route` (see [implementation](https://github.com/hyperledger/aries-framework-javascript/blob/main/packages/core/src/agent/MessageReceiver.ts#L148))
+- Closed WS connection will trigger reconnection process
+
+Above-metioned issue is causing unnecessary load in mediator interaction and may cause overlapping reconnection processes if there are a lot of messages being sent from holder to issuer in a short period of time (in our case, we were testing this with large amount of credential offers being accepted one by one).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-24 19:51:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1550" class=".btn">#1550</a>
             </td>
             <td>
