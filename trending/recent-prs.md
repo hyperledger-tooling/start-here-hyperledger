@@ -1,13 +1,13 @@
 
-[5806](https://github.com/hyperledger/besu/pull/5806) evmtool: update readme for execution-spec-tests python 3.11 support
+[2448](https://github.com/hyperledger/aries-cloudagent-python/pull/2448) 0.10.0-rc2
 
-[5805](https://github.com/hyperledger/besu/pull/5805) mark account when proof is invalid during snapsync
+[2447](https://github.com/hyperledger/aries-cloudagent-python/pull/2447) fix: ignore duplicate record errors on add key
 
-[3837](https://github.com/hyperledger/iroha/pull/3837) [refactor] #3574: make all numeric values serialize as string literals
+[521](https://github.com/hyperledger-labs/fabric-operations-console/pull/521) update release notes
 
-[1506](https://github.com/hyperledger/solang/pull/1506) Require rust 1.70.0
+[1](https://github.com/hyperledger-labs/pdo-contracts/pull/1) Initial commit
 
-[1505](https://github.com/hyperledger/solang/pull/1505) Fix address name mangling
+[490](https://github.com/hyperledger-labs/fabric-smart-client/pull/490) F idemix provider ver
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
