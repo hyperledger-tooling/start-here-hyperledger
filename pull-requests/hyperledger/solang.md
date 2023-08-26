@@ -270,29 +270,3 @@ The call to the storage initializer must happen before reading the input into th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1494" class=".btn">#1494</a>
-            </td>
-            <td>
-                <b>
-                    Bump crate dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update all dependencies that can be updated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-19 08:06:26 +0000 UTC
-    </div>
-</div>
-
