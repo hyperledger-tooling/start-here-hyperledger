@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4402" class=".btn">#4402</a>
+            </td>
+            <td>
+                <b>
+                    CFT Block Puller: reset total sleep 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+In internal/pkg/peer/blocksprovider/deliverer.go:150
+
+Local variable `totalDuration` measures the total sleep during retries. If it exceeds `reconnectTotalTimeThreshold` the Deliverer may exit if `MaxRetryDurationExceededHandler` returns true. 
+
+However, it does not reset on success (block reception), so `DeliverBlocks()` may exit eventually if the cumulative sleep time is large, but no consecutive reconnect failure sequence exceeds the threshold for stopping retries.
+
+The solution is to reset `totalDuration` together when we reset `failureCounter`.
+
+
+#### Related issues
+
+Issue: #4394 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-27 11:56:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4398" class=".btn">#4398</a>
             </td>
             <td>
@@ -266,42 +311,6 @@ Issue: #4332
     </table>
     <div class="right-align">
         Created At 2023-08-21 09:47:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4387" class=".btn">#4387</a>
-            </td>
-            <td>
-                <b>
-                    Fix linter errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-A recent commit introduced some linter errors.
-This commit corrects the formatting.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-20 08:42:17 +0000 UTC
     </div>
 </div>
 
