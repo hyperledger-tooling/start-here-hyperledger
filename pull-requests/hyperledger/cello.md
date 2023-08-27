@@ -99,31 +99,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/544" class=".btn">#544</a>
-            </td>
-            <td>
-                <b>
-                    [ISSUE-533]Fix demo admin user creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes demo admin user creation #533  by fixing its email and role. Also, we introduce an environment variable `CELLO_STORAGE_PATH` to specify the local storage for api enginer service
-
-Small refactor code by renaming the abstract class `BasicEnv` to `Command` that reads local environment variables  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-20 04:25:28 +0000 UTC
-    </div>
-</div>
-
