@@ -73,29 +73,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/546" class=".btn">#546</a>
-            </td>
-            <td>
-                <b>
-                    Fix refresh token expired
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes an unhandled exception on access/refresh token verification process.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-20 18:59:48 +0000 UTC
-    </div>
-</div>
-
