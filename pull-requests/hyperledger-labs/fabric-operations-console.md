@@ -65,12 +65,12 @@ update release notes
                 #### Type of change
 
 <!--- What type of change? Pick one option and delete the others. -->
-- Test update: feature file have been added to test for the import/export-related cases
+- Test update: Feature file have been added to test for the import/export-related cases
 
 #### Description
-This change involves writing the step definitions for the import-export cases in 9-MiscellaneousCases.feature under the packages/apollo/test/functional/features. There has been a folder added under the packages/apollo/test/functional/assets which contains the exported environment for testing this scenario.
+This change involves writing the step definitions for the import-export cases in the 9-MiscellaneousCases.feature under the packages/apollo/test/functional/features. A folder has been added under the packages/apollo/test/functional/assets containing the exported environment for testing this scenario.
 
-
+Reviewer: @dshuffma-ibm 
             </td>
         </tr>
     </table>
