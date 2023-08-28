@@ -14,6 +14,182 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3847" class=".btn">#3847</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3762: Fix `irrefutable_let_patterns` in the `#[model]` macro
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+Slightly amended `#[derive(FromVariant)]` macro to account for the degenerate case of a single variant enum, thus fixing the lint.
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3762. <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+No annoying warnings
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-28 15:05:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3846" class=".btn">#3846</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3843: Treat genesis account as owner during validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3843
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-28 14:00:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3844" class=".btn">#3844</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3843: Fix genesis validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3843
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-28 13:54:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3842" class=".btn">#3842</a>
             </td>
             <td>
@@ -350,54 +526,6 @@ Closes #3059  <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-08-21 18:29:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3830" class=".btn">#3830</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3814: Update `iroha_ffi_derive` to use syn 2.0 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Separate parsing & (some) validation of attributes and codegen using `darling`, by storing this information into a strongly typed struct (`FfiTypeInput` and alike).
-
-To facilitate this, add  parsers for `derive(FfiType)`, `getset` crate and built-in `repr` and `derive` attributes and tests for them.
-
-One unfortunate concern is that now `ffi_derive` has stopped supporting unions completely, due to a limitation of `darling`. I don't think they are _that_ useful though, especially in context of a high level API iroha provides
-
-### Linked issue
-
-Closes #3814 
-
-### Benefits
-
-Cleaner code, better macro errors
-
-### Checklist
-
-- [x] Rebase (need less commits and proper messages)
-- ~~[ ] Move utility classes to a common place (`iroha-derive-primitives`, probably)~~ not a good idea until `iroha-derive-primitives` is syn2-only
-- [x] Make codegen for `ffi!`, `#[ffi_import]` and `#[ffi_export]` `emit!` errors rather than `bail!`ing
-- [x] Clean up stray commented out code
-- [x] Fix lints
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 15:07:29 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[5811](https://github.com/hyperledger/besu/pull/5811) try add child request pipeline during snapsync
+[5817](https://github.com/hyperledger/besu/pull/5817) Burn in release of 23.7.2
 
-[3842](https://github.com/hyperledger/iroha/pull/3842) #3836: Add Bogdan Yamkovoy to MAINTAINERS.md file
+[5816](https://github.com/hyperledger/besu/pull/5816) Remove Kotti network support (ETC)
 
-[5810](https://github.com/hyperledger/besu/pull/5810) Make rocksdb timeouts configurable
+[447](https://github.com/hyperledger-labs/private-data-objects/pull/447) Replace the eservice json database with a more functional database that can be used for all service types
 
-[3841](https://github.com/hyperledger/iroha/pull/3841) [refactor] #3833, #2373: Split off Kagami
+[3847](https://github.com/hyperledger/iroha/pull/3847) [fix] #3762: Fix `irrefutable_let_patterns` in the `#[model]` macro
 
-[4405](https://github.com/hyperledger/fabric/pull/4405) Update install scripts for v2.5.4
+[4407](https://github.com/hyperledger/fabric/pull/4407) timestamp encoding bug fix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

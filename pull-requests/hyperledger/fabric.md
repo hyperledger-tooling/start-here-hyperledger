@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4407" class=".btn">#4407</a>
+            </td>
+            <td>
+                <b>
+                    timestamp encoding bug fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See #4406
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+#4406
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-28 14:31:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4405" class=".btn">#4405</a>
             </td>
             <td>

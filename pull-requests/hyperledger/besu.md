@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5811" class=".btn">#5811</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5817" class=".btn">#5817</a>
             </td>
             <td>
                 <b>
-                    try add child request pipeline during snapsync
+                    Burn in release of 23.7.2
                 </b>
             </td>
         </tr>
@@ -39,7 +39,34 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-28 08:41:13 +0000 UTC
+        Created At 2023-08-28 18:02:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5816" class=".btn">#5816</a>
+            </td>
+            <td>
+                <b>
+                    Remove Kotti network support (ETC)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Following core-geth's [decision](https://github.com/etclabscore/core-geth/pull/552), this PR removes the Kotti network as one of the preconfigured ones. If needed, this network can be still synced using the genesis definition explicitly from the CLI.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-28 15:43:28 +0000 UTC
     </div>
 </div>
 
@@ -604,71 +631,6 @@ fixes #5739
     </table>
     <div class="right-align">
         Created At 2023-08-21 23:59:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5779" class=".btn">#5779</a>
-            </td>
-            <td>
-                <b>
-                    update changelog and version for 23.7.2-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-title says it all, update version for 23.7.2-SNAPSHOT
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 17:40:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5778" class=".btn">#5778</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.7.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-bump version after 23.7.1-RC2 burn-in
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 16:20:10 +0000 UTC
     </div>
 </div>
 

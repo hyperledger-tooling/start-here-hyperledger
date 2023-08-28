@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    Add OTel metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 13:14:36 +0000 UTC
-    </div>
-</div>
-
