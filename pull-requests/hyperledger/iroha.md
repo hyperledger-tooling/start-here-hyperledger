@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3842" class=".btn">#3842</a>
+            </td>
+            <td>
+                <b>
+                    #3836: Add Bogdan Yamkovoy to MAINTAINERS.md file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: 6r1d <vic.6r1d@gmail.com>
+
+## Description
+
+### Linked issue
+
+Closes #3836
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Requested by TOC
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-28 06:24:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3841" class=".btn">#3841</a>
             </td>
             <td>
@@ -62,7 +108,7 @@ Closes #3833, #2373
 
 - [ ] Investigate the logic behind the `format` option in `iroha_wasm_builder::Builder`, maybe open an issue to refactor it.
 - [x] Self-review
-- [ ] Add README to `iroha_swarm`
+- [x] Add README to `iroha_swarm`
 
             </td>
         </tr>
@@ -352,64 +398,6 @@ Cleaner code, better macro errors
     </table>
     <div class="right-align">
         Created At 2023-08-21 15:07:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3827" class=".btn">#3827</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3674: Elide `.cloned()` in `data_model/src/block.rs`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-Get rid of unnecessary `iter::cloned()` call.
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3674. <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 08:00:41 +0000 UTC
     </div>
 </div>
 
