@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/149" class=".btn">#149</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/156" class=".btn">#156</a>
             </td>
             <td>
                 <b>
-                    [ci] update actions
+                    Add new protobuf parameters
                 </b>
             </td>
         </tr>
@@ -32,59 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-02 12:41:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/147" class=".btn">#147</a>
-            </td>
-            <td>
-                <b>
-                    [ci] update actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 12:32:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/145" class=".btn">#145</a>
-            </td>
-            <td>
-                <b>
-                    Use hosted runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 12:10:56 +0000 UTC
+        Created At 2023-08-27 21:58:08 +0000 UTC
     </div>
 </div>
 
