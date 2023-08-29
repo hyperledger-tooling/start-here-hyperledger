@@ -673,38 +673,3 @@ This fixes an issue where we were calculating the excess blob gas in a wrong way
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5783" class=".btn">#5783</a>
-            </td>
-            <td>
-                <b>
-                    adds manifestDocker task to release workflows, renames some vars in b…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …uild.gradle for clarity
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-22 17:11:59 +0000 UTC
-    </div>
-</div>
-

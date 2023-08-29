@@ -172,29 +172,3 @@ The call to the storage initializer must happen before reading the input into th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1498" class=".btn">#1498</a>
-            </td>
-            <td>
-                <b>
-                    Remove some dead code in emit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-22 14:16:12 +0000 UTC
-    </div>
-</div>
-

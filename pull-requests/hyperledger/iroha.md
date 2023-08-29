@@ -520,29 +520,3 @@ Closes #3574
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3835" class=".btn">#3835</a>
-            </td>
-            <td>
-                <b>
-                    [RFC]: on-chain scripting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-22 16:29:15 +0000 UTC
-    </div>
-</div>
-
