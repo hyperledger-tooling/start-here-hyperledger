@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5819" class=".btn">#5819</a>
+            </td>
+            <td>
+                <b>
+                    fix ForkId if there are no Forks and the starting timestamp is not 0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Make sure that we are passing the fork id check if there are no forks and the genesis timestamp is not 0
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-29 03:30:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5817" class=".btn">#5817</a>
             </td>
             <td>

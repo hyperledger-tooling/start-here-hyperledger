@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/100" class=".btn">#100</a>
-            </td>
-            <td>
-                <b>
-                    Improve REST endpoint details in prometheus metrics endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-22 04:36:38 +0000 UTC
-    </div>
-</div>
-
