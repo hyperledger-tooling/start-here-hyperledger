@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5823" class=".btn">#5823</a>
+            </td>
+            <td>
+                <b>
+                    [4844] EngineNewPayloadV3 - Validate non null required paremeters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">4844</span>
+            </td>
+            <td>
+                ## Description
+This PR enhances the validation of null for the `EngineNewPayloadV3` parameters. Previously, these parameters were extracted using the `getOptionalParameter` method, which returns an `Optional.empty `if the parameters are null. This approach was insufficient as the engine can accept empty lists of versionedHashes, but cannot accept a null parameter.
+
+The main changes introduced by this PR include:
+
+- Modification of the parameter extraction method to allow for more robust null validation.
+- Adjustment of the validation logic to correctly handle empty lists of versionedHashes and reject null parameters.
+- Will now return "Invalid Parameters" if any required parameters are null.
+- Renames `EnginePayloadParameter` to `EngineExecutionPayloadParameter` to match spec naming
+
+Fixes the following Hive tests:
+
+- NewPayloadV3 Versioned Hashes, Nil Hashes
+- NewPayloadV3 Versioned Hashes, Nil Hashes (Syncing) 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-29 08:29:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5820" class=".btn">#5820</a>
+            </td>
+            <td>
+                <b>
+                    [4844] BlobTransactions - Add decodeType to TransactionDecoder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">4844</span>
+            </td>
+            <td>
+                ## PR description
+Incorporated a new parameter into the transaction decoding function to support decoding blob transactions from two different flows. This enhancement allows for the appropriate decoding method to be selected and invoked depending on the specific flow of the transaction processing.
+
+## Fixed Issue(s)
+fixes #5818
+
+Fixes hive tests:
+
+- blob_txs_full/reject_valid_full_blob_in_block_rlp/000-fork=Cancun-one_full_blob_one_tx
+- blob_txs_full/reject_valid_full_blob_in_block_rlp/001-fork=Cancun-one_full_blob_max_txs
+- blob_txs_full/reject_valid_full_blob_in_block_rlp/002-fork=Cancun-one_full_blob_at_the_end_max_txs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-29 06:38:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5819" class=".btn">#5819</a>
             </td>
             <td>

@@ -198,34 +198,3 @@ The call to the storage initializer must happen before reading the input into th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1497" class=".btn">#1497</a>
-            </td>
-            <td>
-                <b>
-                    Solana: Allow address and bytes to be used as @seed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allows `address` or `bytesN` to have the @seed annotation on constructors.
-
-        contract bar {
-            @payer(wallet)
-            constructor(@seed address seed, @seed bytes2 seed2, @bump byte b) {}
-        }
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-22 09:03:29 +0000 UTC
-    </div>
-</div>
-
