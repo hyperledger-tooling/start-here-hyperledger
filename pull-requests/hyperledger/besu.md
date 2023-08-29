@@ -604,33 +604,3 @@ This fixes an issue where we were calculating the excess blob gas in a wrong way
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5780" class=".btn">#5780</a>
-            </td>
-            <td>
-                <b>
-                    fix: added shouldOverrideBuilder field to engine_getPayloadV3 response
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                simply default to false for now. 
-
-This should fix some failing hive tests.
-
-fixes #5739 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 23:59:04 +0000 UTC
-    </div>
-</div>
-
