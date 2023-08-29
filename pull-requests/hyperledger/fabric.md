@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4408" class=".btn">#4408</a>
+            </td>
+            <td>
+                <b>
+                     BFT Block Puller: a common block verifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- New feature
+
+#### Description
+ BFT Block Puller: a common block verifier to the peer the orderer.
+
+The new implementation verifies the integrity and signatures of a block stream, while keeping a copy of the latest configuration.
+
+Every time a config block arrives, it must first be verified using VerifyBlock and then used as an argument to the UpdateConfig method.  
+
+The block stream could be composed of either:
+
+- full blocks, which are verified using the VerifyBlock method, or
+- block attestations (a header+metadata, with nil data) which are verified using the VerifyBlockAttestation method.
+
+In both cases, config blocks must arrive in full.
+
+This commit also moved `BlockVerifierAssembler` form `orderer/common/cluster/util.go` to `common/deliverclient/verifier_assembler.go`, as it is now used by both orderer and peer. In addition, `VerificationRegistry` was removed from  `orderer/common/cluster/util.go`  as it is no longer in use.
+
+#### Related issues
+
+#4346 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-29 13:19:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4407" class=".btn">#4407</a>
             </td>
             <td>

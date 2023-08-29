@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/793" class=".btn">#793</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/794" class=".btn">#794</a>
             </td>
             <td>
                 <b>
-                    Unqualified DID Community Coordinated Update
+                    DID Rotate Protocol
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-12 00:39:06 +0000 UTC
+        Created At 2023-08-29 15:02:34 +0000 UTC
     </div>
 </div>
 

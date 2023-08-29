@@ -18,16 +18,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    F idemix provider ver
+                    improved idemix provider
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                <nil>
+                This PR improves the idemix provider to better serve the token-sdk.
             </td>
         </tr>
     </table>

@@ -112,29 +112,3 @@ _:c14n0 <https://w3id.org/security#verificationMethod> <did:foo:bar#key-1> .
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3623" class=".btn">#3623</a>
-            </td>
-            <td>
-                <b>
-                    feat: create DI options aliases
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Follow up PR for https://github.com/hyperledger/aries-framework-go/pull/3621
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-22 14:04:39 +0000 UTC
-    </div>
-</div>
-
