@@ -1,13 +1,13 @@
 
-[5819](https://github.com/hyperledger/besu/pull/5819) fix ForkId if there are no Forks and the starting timestamp is not 0
+[3851](https://github.com/hyperledger/iroha/pull/3851) BACKPORT [fix] #3843: Allow genesis to execute any ISI
 
-[5817](https://github.com/hyperledger/besu/pull/5817) Burn in release of 23.7.2
+[3850](https://github.com/hyperledger/iroha/pull/3850) [fix] #3843: Allow genesis to execute any ISI
 
-[5816](https://github.com/hyperledger/besu/pull/5816) Remove Kotti network support (ETC)
+[5823](https://github.com/hyperledger/besu/pull/5823) [4844] EngineNewPayloadV3 - Validate non null required paremeters
 
-[447](https://github.com/hyperledger-labs/private-data-objects/pull/447) Replace the eservice json database with a more functional database that can be used for all service types
+[1085](https://github.com/hyperledger/fabric-samples/pull/1085) Fix OrdererEndpoints in test-network's bft sample
 
-[3847](https://github.com/hyperledger/iroha/pull/3847) [fix] #3762: Fix `irrefutable_let_patterns` in the `#[model]` macro
+[434](https://github.com/hyperledger-labs/blockchain-explorer/pull/434) BE-433 | Fix package related breaking issues
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -296,31 +296,3 @@ issue #4354
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4392" class=".btn">#4392</a>
-            </td>
-            <td>
-                <b>
-                    delete ioutil pkg and redundant type casting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ioutil.Discard -> os.Discard
-ioutil.NopCloser -> io.NopCloser
-delete redundant type casting
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-22 08:00:46 +0000 UTC
-    </div>
-</div>
-
