@@ -328,35 +328,3 @@ Signed-off-by: Stephen Curran <swcurran@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2438" class=".btn">#2438</a>
-            </td>
-            <td>
-                <b>
-                    Swap out flake8 in favor of Ruff
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #2400.
-
-This PR replaces flake8 with Ruff as suggested by @ff137. I've selected a "reasonable" set of selected and ignored error codes for now. I think we should add/no longer ignore more in the future.
-
-One in particular that I think should have it's own issue raised over is C901 or cyclomatic complexity checks. By default, Ruff sets the threshold at 10. This is a pretty common threshold. There are 81 instances of ACA-Py exceeding that threshold. These are ignored for the time being as it's likely each instance will require individual attention.
-
-I've also moved miscellaneous configuration for dev tools out of `setup.cfg` and translated them into `pyproject.toml`. We'll need to make sure this meshes well with changes in #2436.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 23:03:51 +0000 UTC
-    </div>
-</div>
-
