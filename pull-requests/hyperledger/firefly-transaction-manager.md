@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/99" class=".btn">#99</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/100" class=".btn">#100</a>
             </td>
             <td>
                 <b>
-                    Fixing a nonce conflict issue when the cached nonce expired.
+                    Update CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,14 +27,19 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                There is a problem when two different batches of transaction inserts happen in parallel, one of them will read the incorrect nonce back from the DB + the nonce callback when the cached nonce expires. 
+                Update code owners file to use the github team
 
-The fix in the PR is to check the expired cached nonce first to avoid pending transactions that have clashing nonces between them.
+
+@nguyer Not sure what to do with the Doc maintainers, there isn't a github team for them.
+
+<img width="1167" alt="image" src="https://github.com/hyperledger/firefly-transaction-manager/assets/5425125/472e5080-8c09-4687-820c-0802ac977b43">
+
+@nickgaski also lost access to the repo.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-02 07:46:31 +0000 UTC
+        Created At 2023-08-30 15:23:13 +0000 UTC
     </div>
 </div>
 

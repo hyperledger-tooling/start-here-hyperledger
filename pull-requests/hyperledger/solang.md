@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1509" class=".btn">#1509</a>
+            </td>
+            <td>
+                <b>
+                    Multiply known bits were not calculated correctly for unsigned multiply
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/solang/issues/1507
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 13:37:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1506" class=".btn">#1506</a>
             </td>
             <td>

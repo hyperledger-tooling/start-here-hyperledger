@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Updating manage to work with docker v2 and tweak to docker-compose.yml
+                    --log-level is already set in dockerCompose variable
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                Prevents a `unknown flag: --log-level` error when starting endorser
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 22:26:30 +0000 UTC
+        Created At 2023-08-25 19:25:31 +0000 UTC
     </div>
 </div>
 

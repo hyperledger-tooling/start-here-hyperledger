@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    Go-Ethereum 1.11.3 compatibility (no version bump)
+                    Log nonce
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                Go-Ethereum 1.11.3 changes how `BlockChain.CurrentBlock()` works: Instead of returning a `*types.Block` it returns a `*types.Header`. This commit changes it to use `BlockChain.CurrentHeader()`, which is sufficient for us and will not break when bumping Go-Ethereum to version 1.11.3.
+                The branch resolves issue https://github.com/hyperledger-labs/perun-eth-backend/issues/41
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-14 11:49:42 +0000 UTC
+        Created At 2023-08-30 16:53:17 +0000 UTC
     </div>
 </div>
 

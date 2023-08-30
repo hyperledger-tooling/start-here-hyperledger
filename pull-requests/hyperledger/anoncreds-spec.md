@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/162" class=".btn">#162</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/166" class=".btn">#166</a>
             </td>
             <td>
                 <b>
-                    Added request nonce details in issuance section
+                    Added revocation credential signature and proof
                 </b>
             </td>
         </tr>
@@ -32,7 +32,85 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-17 19:40:10 +0000 UTC
+        Created At 2023-08-30 17:44:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/165" class=".btn">#165</a>
+            </td>
+            <td>
+                <b>
+                    Added credential signature correctness proof data models
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-26 20:35:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/164" class=".btn">#164</a>
+            </td>
+            <td>
+                <b>
+                    Completed credential signature data model
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pull request should be merged only after merging #162, otherwise the changes does not make much sense
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-26 20:07:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    Added credential offer nonce details in issuace data flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-25 12:39:58 +0000 UTC
     </div>
 </div>
 

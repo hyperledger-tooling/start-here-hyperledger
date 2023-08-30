@@ -1,13 +1,13 @@
 
-[4414](https://github.com/hyperledger/fabric/pull/4414) [WIP] delete in test "Resubmitting the same transaction", …
+[166](https://github.com/hyperledger/anoncreds-spec/pull/166) Added revocation credential signature and proof
 
-[408](https://github.com/hyperledger-labs/fablo/pull/408) Update CHANGELOG.md
+[42](https://github.com/hyperledger-labs/perun-eth-backend/pull/42) Log nonce
 
-[202](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/202) Clarify getTimestampAtHeight returns nanoseconds from unix epoch
+[157](https://github.com/hyperledger/toc/pull/157) Add Hyperledger Solang Q3 report
 
-[4413](https://github.com/hyperledger/fabric/pull/4413) Tutorial doc on test network with BFT ordering service
+[100](https://github.com/hyperledger/firefly-transaction-manager/pull/100) Update CODEOWNERS
 
-[4412](https://github.com/hyperledger/fabric/pull/4412) Fix orderer endpoints in add_orderer.md
+[97](https://github.com/hyperledger/firefly-evmconnect/pull/97) Update CODEOWNERS
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
