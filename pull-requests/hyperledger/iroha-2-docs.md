@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/376" class=".btn">#376</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/388" class=".btn">#388</a>
             </td>
             <td>
                 <b>
-                    [chore] Fix client config path (#358)
+                    [chore]: #381 add @yamkovoy to the MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                `cp ./configs/client_cli/config.json test_docker/` command won't work anymore; `cp ./configs/client/config.json test_docker/` would work in `iroha2-dev`, `dae3113496`.
-
-I wonder if we need to do something about the Java and JavaScript articles, as `config.json` is mentioned there briefly, but Bash is the first thing to try. I think I will update those as well.
+                Closes https://github.com/hyperledger/iroha-2-docs/issues/381
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-15 06:57:00 +0000 UTC
+        Created At 2023-08-28 06:47:17 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ I wonder if we need to do something about the Java and JavaScript articles, as `
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/374" class=".btn">#374</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/387" class=".btn">#387</a>
             </td>
             <td>
                 <b>
-                    [docs] Introducing 'Security' section
+                    Update wasm.md
                 </b>
             </td>
         </tr>
@@ -55,22 +53,38 @@ I wonder if we need to do something about the Java and JavaScript articles, as `
                 
             </td>
             <td>
-                ## Description
-Introducing the "Security" section of the documentation. The original documentation—PR #332—has been split for the sake of granularity.
-
-## Changes:
-- Original PR #332 turned into the 'Security' section.
-- Original topics restructured.
-- Additional information added.
-
-## Notes
-- The "Password Security" topic is planned to be a part of the next PR.
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-14 17:55:23 +0000 UTC
+        Created At 2023-08-28 03:07:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/386" class=".btn">#386</a>
+            </td>
+            <td>
+                <b>
+                    Update csd-rtgs.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://Nextjs.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-28 01:12:57 +0000 UTC
     </div>
 </div>
 
