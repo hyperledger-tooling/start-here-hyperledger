@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5826" class=".btn">#5826</a>
+            </td>
+            <td>
+                <b>
+                    enforce that BlobTransactions have at least one blob
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+make sure that a blob transaction has at least one blob. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 05:40:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5823" class=".btn">#5823</a>
             </td>
             <td>
@@ -58,7 +85,7 @@ Fixes the following Hive tests:
             </td>
             <td>
                 <b>
-                    [4844] BlobTransactions - Add decodeType to TransactionDecoder
+                    WIP [4844] BlobTransactions - Add decodeType to TransactionDecoder
                 </b>
             </td>
         </tr>
@@ -610,33 +637,6 @@ fixes #5744
     </table>
     <div class="right-align">
         Created At 2023-08-23 06:43:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5786" class=".btn">#5786</a>
-            </td>
-            <td>
-                <b>
-                    fix excess blob gas calculation when creating blobs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This fixes an issue where we were calculating the excess blob gas in a wrong way when generating a block proposal.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-23 01:32:46 +0000 UTC
     </div>
 </div>
 

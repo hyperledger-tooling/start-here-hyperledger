@@ -146,29 +146,3 @@ The call to the storage initializer must happen before reading the input into th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1499" class=".btn">#1499</a>
-            </td>
-            <td>
-                <b>
-                    Optimize and check dispatch CFG
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The dispatch CFG were not optimized; I think this is an oversight as I don't see why they shouldn't be optimized.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-23 06:00:03 +0000 UTC
-    </div>
-</div>
-
