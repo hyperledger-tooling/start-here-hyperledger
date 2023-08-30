@@ -45,37 +45,3 @@ update release notes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/520" class=".btn">#520</a>
-            </td>
-            <td>
-                <b>
-                    Feature file added for import-export cases
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-- Test update: Feature file have been added to test for the import/export-related cases
-
-#### Description
-This change involves writing the step definitions for the import-export cases in the 9-MiscellaneousCases.feature under the packages/apollo/test/functional/features. A folder has been added under the packages/apollo/test/functional/assets containing the exported environment for testing this scenario.
-
-Reviewer: @dshuffma-ibm 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-23 07:06:27 +0000 UTC
-    </div>
-</div>
-

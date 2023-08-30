@@ -14,6 +14,218 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4414" class=".btn">#4414</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] delete in test "Resubmitting the same transaction", …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ... but the test completes successfully
+
+Illustration of gateway submit (broadcastToAll) malfunction returning an error when it should return success.
+In my opinion, the broadcastToAll function is implemented incorrectly
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 11:18:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4413" class=".btn">#4413</a>
+            </td>
+            <td>
+                <b>
+                    Tutorial doc on test network with BFT ordering service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+Since v3.0.0-preview users will be expected to be very interested in trying out the BFT ordering service,
+I think it would be beneficial for the users to easily try its end-to-end operation, like other features (CouchDB, CCaaS, etc.).
+
+This patch updates test_network.md:
+- To update the network.sh help text output
+- Add brief instructions for running a test network with BFT ordering service
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+- https://github.com/hyperledger/fabric/issues/4296
+- https://github.com/hyperledger/fabric/issues/4332
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 08:57:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4412" class=".btn">#4412</a>
+            </td>
+            <td>
+                <b>
+                    Fix orderer endpoints in add_orderer.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+This patch fixes orderer endpoints in add_orderer.md.
+
+
+#### Additional details
+
+#### Related PRs
+
+https://github.com/hyperledger/fabric-samples/pull/1085
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 07:19:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4411" class=".btn">#4411</a>
+            </td>
+            <td>
+                <b>
+                    Fix occurring unexpected cert expiration warnings in orderer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+This patch adds setting a cert's expireAt in RemoteContext so that checkExpiration() will not occur cert expiraration warnings that were not expected.
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/4404
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 06:31:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4410" class=".btn">#4410</a>
             </td>
             <td>
