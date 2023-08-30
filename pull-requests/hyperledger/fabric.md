@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4410" class=".btn">#4410</a>
+            </td>
+            <td>
+                <b>
+                    Add BFT to ordering service overview
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 00:24:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4409" class=".btn">#4409</a>
+            </td>
+            <td>
+                <b>
+                    Bft bp deliveryclient block censorship timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code)
+- Test update
+
+
+#### Description
+
+As described in issue #4401 
+
+
+#### Related issues
+
+issue #4401 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-29 22:03:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4408" class=".btn">#4408</a>
             </td>
             <td>
