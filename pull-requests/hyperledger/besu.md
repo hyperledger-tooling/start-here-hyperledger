@@ -14,6 +14,101 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5833" class=".btn">#5833</a>
+            </td>
+            <td>
+                <b>
+                    ]POC] modify blockchain sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 09:45:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5832" class=".btn">#5832</a>
+            </td>
+            <td>
+                <b>
+                    Update RocksDB version from 8.0.0 to 8.3.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Update RocksDB version from 8.0.0 to [8.3.2](https://github.com/facebook/rocksdb/releases/tag/v8.3.2).
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 09:37:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5831" class=".btn">#5831</a>
+            </td>
+            <td>
+                <b>
+                    add versioned hashes and number of blobs to toString()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Adding missing information to the toString() method of Transaction
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 06:45:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5830" class=".btn">#5830</a>
             </td>
             <td>
@@ -107,6 +202,7 @@ The main changes introduced by this PR include:
 - Adjustment of the validation logic to correctly handle empty lists of versionedHashes and reject null parameters.
 - Will now return "Invalid Parameters" if any required parameters are null.
 - Renames `EnginePayloadParameter` to `EngineExecutionPayloadParameter` to match spec naming
+- validateParams becomes `getAndCheckEngineNewPayloadRequestParams`
 
 Fixes the following Hive tests:
 
@@ -491,38 +587,6 @@ This PR allows displaying unexpected errors during the sync. Indeed, until now, 
     </table>
     <div class="right-align">
         Created At 2023-08-24 13:51:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5794" class=".btn">#5794</a>
-            </td>
-            <td>
-                <b>
-                    Make checkSpdxHeader task cross platform
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Another small PR to allow running checkSpdxHeader task on Windows
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 08:55:32 +0000 UTC
     </div>
 </div>
 

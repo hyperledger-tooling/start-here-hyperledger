@@ -90,31 +90,3 @@ Fixes https://github.com/hyperledger/solang/issues/1495
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1503" class=".btn">#1503</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: Incorrect size width calculation of dynamic primitive arrays in SCALE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Calculate the size width of dynamic primitive arrays based on the array length instead of the array size.
-
-Partially fixes #1502
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 10:28:23 +0000 UTC
-    </div>
-</div>
-

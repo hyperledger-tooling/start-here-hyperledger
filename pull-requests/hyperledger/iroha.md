@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3855" class=".btn">#3855</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3853: Compare permission token payload as JSON
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+1. `StringWithJson` should implement `PartialEq` comparison as JSON
+this was causing bugs when `iroha-java` would serialize token payload vs when `iroha` `serde` would do so 
+2. remove `DefaultValidator` struct from `iroha_validator`
+it's been used incorrectly, because the delegated method must always call back into original validator whereas calling into `DefaultValidator` would prevent this. Interestingly, removing `DefaultValidator` didn't increase code duplication which was the argument for introducing it in the first place
+3. removed `DoesAccountHavePermissionToken`
+there is little reason to think it measurably optimizes the operation of finding a token for an account especially since it's only executed from the validator
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3853 
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 12:12:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3854" class=".btn">#3854</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #2573: Use a more efficient representation for immutable bytes values
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Introduce an `ImmutableBytes` type that is a newtype around `Box<[u8]>` and use it in `PublicKey`, `PrivateKey`, `Signature` and `Multihash` objects.
+
+While `PublicKey` and `PrivateKey` can be further specialized, as their size can be known without storing separately, this is not true for `Signature`, as it can take any user-provided slice as its payload. `Multihash` can also be specialized, but it's used as a temporary representation, so it is not really helpful in reducing resident memory consumption.
+
+### Linked issue
+
+Closes #2573
+
+### Benefits
+
+- This uses 8 bytes less memory for every `PublicKey`, `PrivateKey`, `Signature`and `Multihash` objects
+
+### Checklist
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 11:24:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3852" class=".btn">#3852</a>
             </td>
             <td>
@@ -577,7 +683,7 @@ Closes #3833, #2373
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">good first issue</span><span class="chip">1.x</span><span class="chip">api-changes</span><span class="chip">1.5</span><span class="chip">queries</span>
             </td>
             <td>
                 ## Description

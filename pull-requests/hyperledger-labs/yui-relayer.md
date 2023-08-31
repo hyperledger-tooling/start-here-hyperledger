@@ -78,29 +78,3 @@ sts/eth2eth/scripts/../demo/.urelayer tx connection ibc01
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/100" class=".btn">#100</a>
-            </td>
-            <td>
-                <b>
-                    add `ChainInfo::Timestamp` and implement it for the tendermint chain module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 08:10:49 +0000 UTC
-    </div>
-</div>
-
