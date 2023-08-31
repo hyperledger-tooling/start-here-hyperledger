@@ -1,13 +1,13 @@
 
-[437](https://github.com/hyperledger-labs/blockchain-explorer/pull/437) updated node version in ci files
+[4417](https://github.com/hyperledger/fabric/pull/4417) change submit bft
 
-[238](https://github.com/hyperledger/anoncreds-rs/pull/238) fix(js): free native strings
+[3855](https://github.com/hyperledger/iroha/pull/3855) [fix] #3853: Compare permission token payload as JSON
 
-[5830](https://github.com/hyperledger/besu/pull/5830) Do not create ignorable segments on `revert storage-variables`
+[4416](https://github.com/hyperledger/fabric/pull/4416) Change evaluation method in gateway.
 
-[203](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/203) build(deps): bump apollo-server-core from 3.12.0 to 3.12.1
+[3854](https://github.com/hyperledger/iroha/pull/3854) [refactor] #2573: Use a more efficient representation for immutable bytes values
 
-[3852](https://github.com/hyperledger/iroha/pull/3852) Trying to fix sfinae problems by reverting vcpkg upgrade (Iroha 1)
+[204](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/204) follow-up #202: fix timeout check
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
