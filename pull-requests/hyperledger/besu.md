@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5830" class=".btn">#5830</a>
+            </td>
+            <td>
+                <b>
+                    Better error messages for RocksDB column family failures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Parse RocksDB column family errors to better indicate storage issues when opening the database
+
+example output for unidentified column family:
+```
+2023-08-30 16:41:44.132-07:00 | main | INFO  | DatabaseMetadata | Lookup database metadata file in data directory: /Users/garyschulte/test/downgrade-test/data
+2023-08-30 16:41:44.152-07:00 | main | INFO  | RocksDBKeyValueStorageFactory | Existing database detected at /Users/garyschulte/test/downgrade-test/data. Version 1
+RocksDBException: Unhandled column families: [unknown segment:{0x12}]
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to #5808 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-30 23:45:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5826" class=".btn">#5826</a>
             </td>
             <td>
