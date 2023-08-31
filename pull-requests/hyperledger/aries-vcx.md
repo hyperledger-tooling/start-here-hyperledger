@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/965" class=".btn">#965</a>
+            </td>
+            <td>
+                <b>
+                    Extract message sending from prover & verifier SMs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                TODO
+
+* Extracts message sending out of prover and verifier state machines and handlers.
+* Transition functions are now returning messages constructed to be sent and are not accepting message-sending closures.
+
+TODO
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 07:15:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/964" class=".btn">#964</a>
             </td>
             <td>
@@ -118,58 +149,6 @@ Proper solution though, should be removing `vdrtools` as default feature
     </table>
     <div class="right-align">
         Created At 2023-08-29 16:48:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/956" class=".btn">#956</a>
-            </td>
-            <td>
-                <b>
-                    Include did:peer:3 in alsoKnownAs field in resolved DDOs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 15:08:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/955" class=".btn">#955</a>
-            </td>
-            <td>
-                <b>
-                    Added 'names' attribute field parsing in credx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses #948 .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 09:47:51 +0000 UTC
     </div>
 </div>
 

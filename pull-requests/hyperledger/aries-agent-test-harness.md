@@ -63,29 +63,3 @@ Screenshots
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/723" class=".btn">#723</a>
-            </td>
-            <td>
-                <b>
-                    aries-vcx: implement did-exchange protocol (with peer did support)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 08:46:21 +0000 UTC
-    </div>
-</div>
-

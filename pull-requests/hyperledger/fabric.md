@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                <nil>
+                https://github.com/hyperledger/fabric/issues/4415
             </td>
         </tr>
     </table>
@@ -91,6 +91,8 @@ Following that changed the [https://github.com/hyperledger/fabric/blob/main/inte
 
 Illustration of gateway submit (broadcastToAll) malfunction returning an error when it should return success.
 In my opinion, the broadcastToAll function is implemented incorrectly
+
+https://github.com/hyperledger/fabric/issues/4415
             </td>
         </tr>
     </table>
@@ -606,35 +608,6 @@ https://github.com/hyperledger/fabric/issues/4332
     </table>
     <div class="right-align">
         Created At 2023-08-24 19:25:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4395" class=".btn">#4395</a>
-            </td>
-            <td>
-                <b>
-                    Do not send channel name as part of each message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In the new communication infrastructure implementation, as per the RFC [0], the channel name for the entire lifetime of the gRPC stream, is determined at the time of establishing and authenticating the gRPC stream, and therefore there is no need to send the channel name in each message.
-
-[0] https://hyperledger.github.io/fabric-rfcs/text/orderer-v3.html#orderer-to-orderer-authentication-and-communication
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 13:21:07 +0000 UTC
     </div>
 </div>
 

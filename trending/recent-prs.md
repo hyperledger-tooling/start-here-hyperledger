@@ -1,13 +1,13 @@
 
-[4417](https://github.com/hyperledger/fabric/pull/4417) change submit bft
+[3628](https://github.com/hyperledger/aries-framework-go/pull/3628) feat: update Data Integrity error handling
 
-[3855](https://github.com/hyperledger/iroha/pull/3855) [fix] #3853: Compare permission token payload as JSON
+[159](https://github.com/hyperledger/toc/pull/159) 2023 09 07 Agenda
 
-[4416](https://github.com/hyperledger/fabric/pull/4416) Change evaluation method in gateway.
+[489](https://github.com/hyperledger-labs/fabric-token-sdk/pull/489) Fix typos
 
-[3854](https://github.com/hyperledger/iroha/pull/3854) [refactor] #2573: Use a more efficient representation for immutable bytes values
+[448](https://github.com/hyperledger-labs/private-data-objects/pull/448) DRAFT: Update for OpenSSL 3.x, SGXSSL/SGXSDK 2.21
 
-[204](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/204) follow-up #202: fix timeout check
+[492](https://github.com/hyperledger-labs/fabric-smart-client/pull/492) Update dependencies
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

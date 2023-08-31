@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1511" class=".btn">#1511</a>
+            </td>
+            <td>
+                <b>
+                    improve resolve pragma
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                reopen https://github.com/hyperledger/solang/pull/1218
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 13:28:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1509" class=".btn">#1509</a>
             </td>
             <td>

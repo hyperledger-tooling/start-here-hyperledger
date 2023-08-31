@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Enable wiki in code
+                    Added unlock by transaction event feature with sample project
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/harmonia
                 
             </td>
             <td>
-                Please make these changes in code, not the web UI :)
+                Added feature to unlock a generic corda asset based on a generic EVM event.
+Added sample project to issue, lock, and unlock a Corda asset based on EVM event expectations.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-23 13:12:56 +0000 UTC
+        Created At 2023-08-31 13:21:20 +0000 UTC
     </div>
 </div>
 
