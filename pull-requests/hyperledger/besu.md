@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Better error messages for RocksDB column family failures
+                    Do not create ignorable segments on `revert storage-variables`
                 </b>
             </td>
         </tr>
@@ -31,19 +31,21 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Parse RocksDB column family errors to better indicate storage issues when opening the database
+The `revert storage-variables` subcommand correctly reverts the storage-variable column family move, but inadvertently creates ignorable column family segments.  This behavior breaks backward compatibility prior to 23.1.0.  
+
+This PR exposes `setIgnorableStorageSegments()` from BesuCommand and calls it from the revert storage-variables subcommand.
+
+Additionally, this PR adds much needed visibility into the column family errors that RocksDB reports by parsing the RocksDBException and translating them into printable strings for more useful/actionable error messages.
 
 example output for unidentified column family:
 ```
-2023-08-30 16:41:44.132-07:00 | main | INFO  | DatabaseMetadata | Lookup database metadata file in data directory: /Users/garyschulte/test/downgrade-test/data
-2023-08-30 16:41:44.152-07:00 | main | INFO  | RocksDBKeyValueStorageFactory | Existing database detected at /Users/garyschulte/test/downgrade-test/data. Version 1
-RocksDBException: Unhandled column families: [unknown segment:{0x12}]
+RocksDBException: Unhandled column families: ['Donny'(0x446f6e6e79), 'Walter'(0x57616c746572), 'Maude'(0x4d61756465), 'Dude'(0x44756465)]
 ```
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-related to #5808 
+fixes #5808 
             </td>
         </tr>
     </table>
@@ -521,69 +523,6 @@ Another small PR to allow running checkSpdxHeader task on Windows
     </table>
     <div class="right-align">
         Created At 2023-08-24 08:55:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5793" class=".btn">#5793</a>
-            </td>
-            <td>
-                <b>
-                    Remove versionedHashes from EngineNewPayload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">4844</span>
-            </td>
-            <td>
-                Remove versionedHashes from EngineNewPayload. 
-
-It does not belong to the payload parameter:
-https://github.com/ethereum/execution-apis/blob/main/src/engine/cancun.md#executionpayloadv3
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 05:41:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5792" class=".btn">#5792</a>
-            </td>
-            <td>
-                <b>
-                    EngineNewPayload - Validate parameters before fork validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">4844</span>
-            </td>
-            <td>
-                Parameters validation should occur before fork validation
-
-> Specification
-> This method follows the same specification as [engine_newPayloadV2](https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md#engine_newpayloadv2) with the addition of the following:
-> 
-> 1. Client software MUST check that provided set of parameters and their fields strictly matches the expected one and return -32602: Invalid params error if this check fails. Any field having null value MUST be considered as not provided.
-> 
-> 2. Client software MUST return -38005: Unsupported fork error if the timestamp of the payload does not fall within the time frame of the Cancun fork.
-> ...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 05:38:12 +0000 UTC
     </div>
 </div>
 
