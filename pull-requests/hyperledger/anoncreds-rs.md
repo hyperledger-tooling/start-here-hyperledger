@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/237" class=".btn">#237</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/238" class=".btn">#238</a>
             </td>
             <td>
                 <b>
-                    Simplify LinkSecret handling
+                    fix(js): free native strings
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                This updates to anoncreds-clsignatures 0.2.2 to take advantage of simple conversion from the link secret to a BigNumber. I don't think there's any reason to support conversion from ClLinkSecret to LinkSecret anymore as the `build_credential_values` method is updated to use LinkSecret.
+                Not completely sure if it's the right approach (especially in react-native) but here is a simple attempt to free strings automatically in JS wrappers before returning to the caller, as discussed in https://github.com/hyperledger/anoncreds-rs/issues/236. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-18 20:00:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/235" class=".btn">#235</a>
-            </td>
-            <td>
-                <b>
-                    Remove tails path from FfiCredRevInfo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-18 19:05:31 +0000 UTC
+        Created At 2023-08-31 01:23:51 +0000 UTC
     </div>
 </div>
 

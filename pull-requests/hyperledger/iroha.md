@@ -113,6 +113,9 @@ Date:   Sat Feb 25 06:08:21 2023 +0800
 | zlib                 | 1.2.11#10      | 1.2.13        |
 | zstd                 | 1.4.9          | 1.5.4         |
 
+[vcpkg_libraries_new.txt](https://github.com/hyperledger/iroha/files/12482605/vcpkg_libraries_new.txt)
+[vcpkg_libraries_old.txt](https://github.com/hyperledger/iroha/files/12482606/vcpkg_libraries_old.txt)
+
 # Future plans:
 If my fix works packages can be upgraded one by one until we face the SFINAE problem again - that package/packages would stay in older version. Of course this can be done in another PR.
 
@@ -148,6 +151,7 @@ Iroha 1 starts compilling again and another release 1.6 would be possible.
  - https://discord.gg/hyperledger (please ask us any questions)
  - https://t.me/hyperledgeriroha (if you prefer telegram)
 -->
+
 
             </td>
         </tr>
