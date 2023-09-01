@@ -37,6 +37,7 @@ this was causing bugs when `iroha-java` would serialize token payload vs when `i
 it's been used incorrectly, because the delegated method must always call back into original validator whereas calling into `DefaultValidator` would prevent this. Interestingly, removing `DefaultValidator` didn't increase code duplication which was the argument for introducing it in the first place
 3. removed `DoesAccountHavePermissionToken`
 there is little reason to think it measurably optimizes the operation of finding a token for an account especially since it's only executed from the validator
+4. discovered #3857
 
 ### Linked issue
 
