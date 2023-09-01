@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2649" class=".btn">#2649</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): upgrade web3js-quorum to v22.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgraded to v22.4.0 but did not yet delete our hand-built typings
+because the ones that v22.4.0 ships with are broken (do not match the
+actual implementation forcing programmers to fight the compiler
+needlessly)
+
+Fixes #2648
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 19:35:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2647" class=".btn">#2647</a>
             </td>
             <td>
@@ -237,94 +270,6 @@ Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
     </table>
     <div class="right-align">
         Created At 2023-08-28 21:27:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2638" class=".btn">#2638</a>
-            </td>
-            <td>
-                <b>
-                    feat(weaver-corda): support array of remote views, consequent user fl…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …ow call
-Closes #2470 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 12:13:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2637" class=".btn">#2637</a>
-            </td>
-            <td>
-                <b>
-                    ci(actionlint): add linting of GitHub action workflow files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2634
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 07:02:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2636" class=".btn">#2636</a>
-            </td>
-            <td>
-                <b>
-                    test(connector-quorum): fix flaky v2.3.0-deploy-contract-from-json-private.test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added an extra wait for the member 2 contract invocation
-where we first obtain the receipt thereby forcing
-the execution to wait until it has been mined on
-member 2 as well.
-
-Fixes #2635
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 06:46:47 +0000 UTC
     </div>
 </div>
 

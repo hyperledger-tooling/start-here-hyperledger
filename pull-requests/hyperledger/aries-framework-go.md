@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3628" class=".btn">#3628</a>
+            </td>
+            <td>
+                <b>
+                    feat: update Data Integrity error handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Update Data Integrity error handling
+
+**Description:**
+Given PR solves issues with error handling for Data Integrity proof signing and verification. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 17:06:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3627" class=".btn">#3627</a>
             </td>
             <td>

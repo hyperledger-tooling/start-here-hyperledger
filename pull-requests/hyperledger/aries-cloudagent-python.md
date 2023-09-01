@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2456" class=".btn">#2456</a>
+            </td>
+            <td>
+                <b>
+                    Update Python image version to 3.9.18
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Reduces the number of vulnerabilities in the image.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 12:25:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2454" class=".btn">#2454</a>
             </td>
             <td>
@@ -233,34 +259,6 @@ cc @swcurran @WadeBarnes and others
     </table>
     <div class="right-align">
         Created At 2023-08-25 18:20:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2446" class=".btn">#2446</a>
-            </td>
-            <td>
-                <b>
-                    fix: more doc corrections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2445. ACA-Py's `DIDDoc` class performs transformations prior to storing. This PR accounts for these transformations better.
-
-cc @WadeBarnes @nodlesh
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 21:14:07 +0000 UTC
     </div>
 </div>
 

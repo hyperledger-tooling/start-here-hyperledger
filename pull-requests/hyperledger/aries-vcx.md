@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/965" class=".btn">#965</a>
+            </td>
+            <td>
+                <b>
+                    Extract message sending from prover & verifier SMs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                Extracts message sending out of prover and verifier state machines and handlers. Transition functions are now returning messages constructed to be sent and are not accepting message-sending closures.
+
+## Prover
+### Handlers
+
+- `send_proposal` -> `build_presentation_proposal`
+- `send_presentation` -> `mark_presentation_sent`
+- Removed `set_presentation`
+
+### State machine
+
+- `send_presentation_proposal` -> `build_presentation_proposal`
+- `send_presentation` -> `mark_presentation_sent`
+- Added `get_problem_report`, `get_presentation_proposal`
+- Removed `set_presentation`
+
+## Verifier
+### Handlers
+
+- `send_presentation_request` -> `mark_presentation_request_sent` (TODO: better name)
+- `set_request` -> `set_presentation_request`
+- Removed `mark_presentation_request_msg_sent`, `get_presentation_request`
+
+### State machine
+
+- `set_request` -> `set_presentation_request`
+- `mark_presentation_request_msg_sent` -> `mark_presentation_request_sent`
+- Added `get_final_message`
+
+`verify_presentation` now generates and stores either presentation or problem report, which can then be retrieved via `get_final_message`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-08-31 07:15:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/964" class=".btn">#964</a>
             </td>
             <td>
@@ -118,58 +173,6 @@ Proper solution though, should be removing `vdrtools` as default feature
     </table>
     <div class="right-align">
         Created At 2023-08-29 16:48:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/956" class=".btn">#956</a>
-            </td>
-            <td>
-                <b>
-                    Include did:peer:3 in alsoKnownAs field in resolved DDOs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 15:08:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/955" class=".btn">#955</a>
-            </td>
-            <td>
-                <b>
-                    Added 'names' attribute field parsing in credx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses #948 .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 09:47:51 +0000 UTC
     </div>
 </div>
 

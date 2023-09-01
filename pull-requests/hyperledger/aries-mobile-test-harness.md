@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/191" class=".btn">#191</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/192" class=".btn">#192</a>
             </td>
             <td>
                 <b>
-                    Added apple.com to sauce tunnel direct domains
+                    Feature/bcw give feedback test dev
                 </b>
             </td>
         </tr>
@@ -27,40 +27,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                Adding apple.com to the direct domains of the sauce tunnel.  In newer profiles for newer devices, Apple auto-enabled the PPQCheck flag to true which results in an extra API call to Apple. This extra PPQCheck API call is typically not allowed by default in most users' network configurations.
+                Test Scenario for Give Feedback in BC Wallet.
 
-This is to test if the skipped iOS tests in the highly test pipeline are eliminated or diminished. 
+Also an expansion of the BasePage find_by method caused a failure on Android for the Onboarding pages. Fixed that as well with a conditional check based on platform. This isn't ideal, but wanted this to work to get the Give Feedback tests in. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-22 15:51:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/190" class=".btn">#190</a>
-            </td>
-            <td>
-                <b>
-                    Fixed View request testID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-18 13:21:45 +0000 UTC
+        Created At 2023-08-31 19:50:30 +0000 UTC
     </div>
 </div>
 
