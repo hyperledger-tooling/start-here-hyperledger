@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    [WIP] Updates and fixes to sync this branch with changes of #937
+                    Updates and fixes to sync this branch with changes of #937
                 </b>
             </td>
         </tr>
