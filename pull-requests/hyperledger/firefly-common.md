@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/94" class=".btn">#94</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    Convenience function for dynamic scoping, and fix to filtering in StringFieldLower
+                    add option to specify variables in openapi base path
                 </b>
             </td>
         </tr>
@@ -27,43 +27,23 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                <nil>
+                Adds the option to specify base path variables to openapi generation.
+
+E.g.
+```yaml
+servers:
+  - url: http://example.com/{param}
+    variables:
+      param:
+        default: default-value
+```
+
+Since the same route object can be used for swagger generation and route handling, I've also added the option to specify a base path and base path parameters to the handler factory so that path parameters can be parsed out of the request url without them needing to be specified in the route object (which would make them appear under the path in the openapi doc).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-27 16:10:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/93" class=".btn">#93</a>
-            </td>
-            <td>
-                <b>
-                    Add optional name/get-first semantics to CRUD
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It's common (including in FireFly core) to have:
-- A special `name` column, that can be used in paths as an alternative to UUID
-- To have IDs that must conform to a special syntax - especially UUIDs
-- To want to do a get that returns zero/one entry for some filter combination that is not the ID
-
-This PR provides those features as optional base functionality in `CRUD` to avoid the need to implement many times.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-27 15:19:36 +0000 UTC
+        Created At 2023-09-01 13:09:03 +0000 UTC
     </div>
 </div>
 
