@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/966" class=".btn">#966</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Updates and fixes to sync this branch with changes of #937
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-01 11:45:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/965" class=".btn">#965</a>
             </td>
             <td>
@@ -39,14 +65,14 @@ permalink: /pull-requests/hyperledger/aries-vcx
 ### State machine
 
 - `send_presentation_proposal` -> `build_presentation_proposal`
-- `send_presentation` -> `mark_presentation_sent`
+- `send_presentation` -> `mark_presentation_sent` (now throws in invalid state)
 - Added `get_problem_report`, `get_presentation_proposal`
 - Removed `set_presentation`
 
 ## Verifier
 ### Handlers
 
-- `send_presentation_request` -> `mark_presentation_request_sent` (TODO: better name)
+- `send_presentation_request` -> `mark_presentation_request_sent` (now throws in invalid state, TODO: better name)
 - `set_request` -> `set_presentation_request`
 - Removed `mark_presentation_request_msg_sent`, `get_presentation_request`
 

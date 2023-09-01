@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4421" class=".btn">#4421</a>
+            </td>
+            <td>
+                <b>
+                    Add v3.* tags as a trigger to release job
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add v3.* tags as a trigger to release job.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-01 11:28:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4419" class=".btn">#4419</a>
             </td>
             <td>
@@ -69,32 +96,6 @@ Also delete old v2.5.x release notes that are now maintained in release-2.5 bran
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4417" class=".btn">#4417</a>
-            </td>
-            <td>
-                <b>
-                    change submit bft
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger/fabric/issues/4415
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 12:20:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4416" class=".btn">#4416</a>
             </td>
             <td>
@@ -122,37 +123,6 @@ Following that changed the [https://github.com/hyperledger/fabric/blob/main/inte
     </table>
     <div class="right-align">
         Created At 2023-08-31 11:40:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4414" class=".btn">#4414</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] delete in test "Resubmitting the same transaction", …
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ... but the test completes successfully
-
-Illustration of gateway submit (broadcastToAll) malfunction returning an error when it should return success.
-In my opinion, the broadcastToAll function is implemented incorrectly
-
-https://github.com/hyperledger/fabric/issues/4415
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-30 11:18:01 +0000 UTC
     </div>
 </div>
 

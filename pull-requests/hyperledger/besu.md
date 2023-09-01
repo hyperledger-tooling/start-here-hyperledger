@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5836" class=".btn">#5836</a>
+            </td>
+            <td>
+                <b>
+                    Add world context to transaction tracing API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Add world context to the start/end transaction hooks in the tracing API.
+
+## Fixed Issue(s)
+
+fixes: #5835 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-01 08:00:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5833" class=".btn">#5833</a>
             </td>
             <td>
@@ -338,67 +370,6 @@ Following core-geth's [decision](https://github.com/etclabscore/core-geth/pull/5
     </table>
     <div class="right-align">
         Created At 2023-08-28 15:43:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5806" class=".btn">#5806</a>
-            </td>
-            <td>
-                <b>
-                    evmtool: update readme for execution-spec-tests python 3.11 support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update [execution-spec-tests](https://github.com/ethereum/execution-spec-tests) installation in the evmtool's README
-
-execution-spec-tests now additionally supports Python 3.11 ([ethereum/execution-spec-tests#193](https://github.com/ethereum/execution-spec-tests/pull/193), but requires additional packages on macOS (https://github.com/ethereum/execution-spec-tests/issues/274).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-25 12:05:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5805" class=".btn">#5805</a>
-            </td>
-            <td>
-                <b>
-                    mark account when proof is invalid during snapsync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-25 10:00:02 +0000 UTC
     </div>
 </div>
 
