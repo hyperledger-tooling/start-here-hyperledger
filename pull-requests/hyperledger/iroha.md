@@ -616,7 +616,7 @@ Requested by TOC
             </td>
             <td>
                 <b>
-                    [refactor] #3833, #2373: Split off Kagami
+                    [refactor] #3833, #2373, #3601: Split off Kagami
                 </b>
             </td>
         </tr>
@@ -647,7 +647,7 @@ Outline:
 
 ### Linked issue
 
-Closes #3833, #2373
+Closes #3833 #2373 #3601
 
 ### Benefits
 

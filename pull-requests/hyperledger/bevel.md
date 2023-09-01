@@ -152,29 +152,3 @@ Fixes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2353" class=".btn">#2353</a>
-            </td>
-            <td>
-                <b>
-                    feat(shared, besu): added support for azure storage class in shared and besu
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull request adds basic configuration for Azure storage classes in the Shared directory. It also adds a value for "azure-storageclass" in the Besu configuration.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-25 04:23:12 +0000 UTC
-    </div>
-</div>
-
