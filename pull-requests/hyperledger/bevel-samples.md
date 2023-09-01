@@ -62,34 +62,3 @@ permalink: /pull-requests/hyperledger/bevel-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    Added external chaincode for Supplychain Fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #40 
-
-- Added support for Fabric external code in Supplychain App
-- Updated old hyperledgerlabs references 
-- Updated docker image names to be consistent with what has been used in bevel 
-- Updated github actions to run on main and removed release options
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-25 11:51:08 +0000 UTC
-    </div>
-</div>
-
