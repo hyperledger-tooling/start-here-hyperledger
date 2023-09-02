@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2458" class=".btn">#2458</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Revocation API using anoncreds-rs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Still in infancy, having troubles mapping anoncreds-rs to current revocation API.
+See issue #2432.
+
+Next step is to work on the BDD tests in `0586-sign-transaction.feature`, enable those and get those working. Perhaps should have started there earlier and would have given me a more focused path forward. 🤷 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-01 22:13:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2456" class=".btn">#2456</a>
             </td>
             <td>
@@ -204,61 +235,6 @@ Fixes #2449
     </table>
     <div class="right-align">
         Created At 2023-08-26 18:48:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2448" class=".btn">#2448</a>
-            </td>
-            <td>
-                <b>
-                    0.10.0-rc2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-25 21:55:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2447" class=".btn">#2447</a>
-            </td>
-            <td>
-                <b>
-                    fix: ignore duplicate record errors on add key
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a bandaid solution to prevent routing keys from being stored for multiple DIDs. It would be nice to correct behavior of the DIDDoc class to not turn routing keys into values in the publicKey list and then claiming that the DID is the controller (with no evidence). However, given the impending replacement of this behavior with did:peer, it doesn't seem worth it to go through that effort right now.
-
-cc @swcurran @WadeBarnes and others
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-25 18:20:43 +0000 UTC
     </div>
 </div>
 
