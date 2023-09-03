@@ -37,14 +37,14 @@ Corrections (marked as [x] when CI passed):
 - [x] benchmark 1.5.2 -> 1.7.1
 - [x] gflags 2.2.2-1 -> 2.2.2#5
 - [x] nlohmann-json 3.9.1 -> 3.11.2
-- [ ] rapidjson 2020-09-14 -> 2022-06-28#3
+- [x] rapidjson 2020-09-14 -> 2022-06-28#3
+- [x] rxcpp 4.1.0-1 -> 4.1.1#1
+- [x] rocksdb 6.14.6 -> 7.9.2
+- [ ] fmt 7.1.3#4 -> 9.1.0#1
 - [ ] spdlog 1.8.5#2 -> 1.11.0
 - [ ] gtest 1.10.0#4 -> 1.13.0
 - [ ] grpc 1.37.0#1 -> 1.51.1
-- [ ] rocksdb 6.14.6 -> 7.9.2
 - [ ] soci[boost,postgresql]
-- [ ] fmt 7.1.3#4 -> 9.1.0#1
-- [ ] rxcpp 4.1.0-1 -> 4.1.1#1
 - [ ] prometheus-cpp 0.12.2 -> 1.1.0
 - [ ] boost-*
 
@@ -199,7 +199,7 @@ this was causing bugs when `iroha-java` would serialize token payload vs when `i
 2. remove `DefaultValidator` struct from `iroha_validator`
 it's been used incorrectly, because the delegated method must always call back into original validator whereas calling into `DefaultValidator` would prevent this. Interestingly, removing `DefaultValidator` didn't increase code duplication which was the argument for introducing it in the first place
 3. removed `DoesAccountHavePermissionToken`
-there is little reason to think it measurably optimizes the operation of finding a token for an account especially since it's only executed from the validator
+As is discussed in #3857 the comparison of `PermissionToken`s on the host side is broken and cannot be relied upon. Additionally, there is little reason to think it measurably optimizes the operation of finding a token for an account especially since it's only executed from the validator
 4. discovered #3857
 
 ### Linked issue
