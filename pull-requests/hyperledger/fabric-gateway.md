@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/622" class=".btn">#622</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/625" class=".btn">#625</a>
             </td>
             <td>
                 <b>
-                    Update fabric-protos dependency to v0.2.1
+                    Fixed Documentation Issue
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-18 10:48:47 +0000 UTC
+        Created At 2023-09-03 05:02:02 +0000 UTC
     </div>
 </div>
 
