@@ -30,8 +30,24 @@ permalink: /pull-requests/hyperledger/iroha
                 ## Description
 In PR https://github.com/hyperledger/iroha/pull/3852/ I needed to revert upgrading VCPKG. It caused libraries to downgrade. So now we need to try to upgrade libraries manually one by one.
 
-Corrections:
-- [ ] protobuf 3.15.8->3.21.12(waiting for CI)
+Corrections (marked as [x] when CI passed):
+- [x] iroha-ed25519 (no updates)
+- [x] protobuf 3.15.8 -> 3.21.12
+- [x] abseil 2021-03-24 -> 20230125.0
+- [x] benchmark 1.5.2 -> 1.7.1
+- [x] gflags 2.2.2-1 -> 2.2.2#5
+- [x] nlohmann-json 3.9.1 -> 3.11.2
+- [ ] rapidjson 2020-09-14 -> 2022-06-28#3
+- [ ] spdlog 1.8.5#2 -> 1.11.0
+- [ ] gtest 1.10.0#4 -> 1.13.0
+- [ ] grpc 1.37.0#1 -> 1.51.1
+- [ ] rocksdb 6.14.6 -> 7.9.2
+- [ ] soci[boost,postgresql]
+- [ ] fmt 7.1.3#4 -> 9.1.0#1
+- [ ] rxcpp 4.1.0-1 -> 4.1.1#1
+- [ ] prometheus-cpp 0.12.2 -> 1.1.0
+- [ ] boost-*
+
 <!-- Just describe what you did. -->
 
 <!-- Skip if the title of the PR is self-explanatory -->
@@ -45,6 +61,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
+Newer packages - it will compile longer, less bugs, more security etc.
 
 <!-- EXAMPLE: users can't revoke their own right to revoke rights -->
 
@@ -64,6 +81,31 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
  - https://t.me/hyperledgeriroha (if you prefer telegram)
 -->
 
+# More information:
+I was using the tutorial (as inspiration): https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package
+1. First I've build all packages with VCPKG in newest versions (details: https://github.com/hyperledger/iroha/pull/3852)
+2. Then I used older version of vcpkg (+ packages).
+3. I've created repository in `./vcpkg-build`
+4. For each patch I've used the function:
+```
+function update_library
+{
+    # this function should be run in vcpkg-build directory, where sub-repository is initialised 
+    # according to: https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package
+    library_name=$1
+    source_directory_name_to_copy_files='vcpkg-build_newest' # remember to set proper name
+    echo "Trying to update: $library_name, from version: $(./vcpkg list | grep $library_name)"
+    
+    rm ports/${library_name}/*
+    cp ../${source_directory_name_to_copy_files}/ports/${library_name}/* ports/${library_name}/
+    git add ports/${library_name}/
+    git status
+    git diff --cached > ../vcpkg/patches/upgrade_${library_name}_to_.patch
+    git reset --hard
+}
+# example:
+update_library protobuf
+```
             </td>
         </tr>
     </table>
