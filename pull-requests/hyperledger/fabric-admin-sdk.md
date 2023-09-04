@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/141" class=".btn">#141</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/142" class=".btn">#142</a>
             </td>
             <td>
                 <b>
-                    Test only with current LTS release of Fabric
+                    Mark lifecycle transaction names as not hard-coded credentials
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 
             </td>
             <td>
-                Fabric v2.4 has been superseded by Fabric v2.5 LTS, and the current release is v2.5.3.
+                Triggered a false positive in gosec.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-18 13:46:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/140" class=".btn">#140</a>
-            </td>
-            <td>
-                <b>
-                    Update Go dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-18 13:20:21 +0000 UTC
+        Created At 2023-09-04 11:24:07 +0000 UTC
     </div>
 </div>
 

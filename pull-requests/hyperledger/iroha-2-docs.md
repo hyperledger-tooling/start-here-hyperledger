@@ -72,29 +72,3 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/388" class=".btn">#388</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: #381 add @yamkovoy to the MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes https://github.com/hyperledger/iroha-2-docs/issues/381
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 06:47:17 +0000 UTC
-    </div>
-</div>
-

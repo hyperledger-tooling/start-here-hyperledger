@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/625" class=".btn">#625</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/626" class=".btn">#626</a>
             </td>
             <td>
                 <b>
-                    Fixed Documentation Issue
+                    Remove dev dependency on jsrsasign
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Refactor generation of key identifiers for hardware security module configuration in Node scenario tests to use Node crypto library, avoiding the need for dependency on jsrsasign.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-03 05:02:02 +0000 UTC
+        Created At 2023-09-04 09:13:33 +0000 UTC
     </div>
 </div>
 

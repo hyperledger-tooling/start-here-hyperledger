@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3864" class=".btn">#3864</a>
+            </td>
+            <td>
+                <b>
+                    [fix] 3712: Add genesis account public key to dev docker compose
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Add missing `IROHA_GENESIS_ACCOUNT_PUBLIC_KEY` env vars into `docker-compose.dev.yml`
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+- Closes #3712 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+`docker compose -f docker-compose.dev.yml up` works
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-04 12:22:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3862" class=".btn">#3862</a>
             </td>
             <td>
@@ -40,13 +103,13 @@ Corrections (marked as [x] when CI passed):
 - [x] rapidjson 2020-09-14 -> 2022-06-28#3
 - [x] rxcpp 4.1.0-1 -> 4.1.1#1
 - [x] rocksdb 6.14.6 -> 7.9.2
-- [ ] fmt 7.1.3#4 -> 9.1.0#1 - PROBLEM
-- [ ] spdlog 1.8.5#2 -> 1.11.0 - PROBLEM
-- [ ] gtest 1.10.0#4 -> 1.13.0 - PROBLEM
-- [ ] grpc 1.37.0#1 -> 1.51.1 - PROBLEM
-- [ ] soci[boost,postgresql] - PROBLEM
-- [ ] prometheus-cpp 0.12.2 -> 1.1.0 - PROBLEM
-- [ ] boost-* - PROBLEM
+- [ ] fmt 7.1.3#4 -> 9.1.0#1 - PROBLEM with upgrading library with patch
+- [ ] spdlog 1.8.5#2 -> 1.11.0 - PROBLEM with upgrading library with patch
+- [ ] gtest 1.10.0#4 -> 1.13.0 - PROBLEM with upgrading library with patch
+- [ ] grpc 1.37.0#1 -> 1.51.1 - PROBLEM with upgrading library with patch
+- [ ] soci[boost,postgresql] - PROBLEM with upgrading library with patch
+- [ ] prometheus-cpp 0.12.2 -> 1.1.0 - PROBLEM with upgrading library with patch
+- [ ] boost-* - PROBLEM with upgrading library with patch
 
 <!-- Just describe what you did. -->
 
@@ -722,52 +785,6 @@ Closes #3843
     </table>
     <div class="right-align">
         Created At 2023-08-28 13:54:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3842" class=".btn">#3842</a>
-            </td>
-            <td>
-                <b>
-                    #3836: Add Bogdan Yamkovoy to MAINTAINERS.md file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: 6r1d <vic.6r1d@gmail.com>
-
-## Description
-
-### Linked issue
-
-Closes #3836
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Requested by TOC
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 06:24:57 +0000 UTC
     </div>
 </div>
 
