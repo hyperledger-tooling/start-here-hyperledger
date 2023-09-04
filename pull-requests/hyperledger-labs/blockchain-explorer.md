@@ -33,6 +33,10 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
 
 #### What this PR does / why we need it:
 
+Load only the blocks and transactions as per the configuration. Currently the configuration defines to archive or delete old data from the database. But at the bootstrap time, the Explorer tries to read every data from block 0. This can be configured to load only the data from certain point in time that is as expected by the Explorer's configuration.
+
+_This will help in speeding up the bootstrap time of Explorer, the tool and the UI will be ready in shorter period._
+
 #### Which issue(s) this PR fixes:
 <!--
 *Automatically closes linked issue when PR is merged.
@@ -51,7 +55,7 @@ Enter your extended release note in the block below. If the PR requires addition
 
 -->
 ```release-note
-
+NO
 ```
 
 #### Additional documentation, usage docs, etc.:

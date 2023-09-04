@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    Update readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add guides for AAR usage
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-04 08:01:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Fix tags expression
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-04 06:36:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/5" class=".btn">#5</a>
             </td>
             <td>
