@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/405" class=".btn">#405</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/406" class=".btn">#406</a>
             </td>
             <td>
                 <b>
-                    Update dependency versions in updateversions.sh
+                    Avoid build failure due to warning running docker build
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                <nil>
+                Rush interpreted output to stderr from the docker build command as a build warning. This failed the build pipeline.
+
+Also:
+
+- Update version of Rush and pnpm.
+- Remove use of toolchain package since it has been unpublished from the npm registry.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-16 15:31:44 +0000 UTC
+        Created At 2023-09-03 22:07:23 +0000 UTC
     </div>
 </div>
 

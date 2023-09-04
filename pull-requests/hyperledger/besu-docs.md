@@ -91,29 +91,3 @@ Fixes #1393
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1390" class=".btn">#1390</a>
-            </td>
-            <td>
-                <b>
-                    migrate truffle to hardhat
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-27 22:36:26 +0000 UTC
-    </div>
-</div>
-

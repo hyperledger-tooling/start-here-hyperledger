@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Scheduled build began failing last week, with the typing / import errors related to the version of the `long` package inherited from the protobuf packages. Add explicit dependencies on the `long` package and adjust imports accordingly.
             </td>
         </tr>
     </table>
