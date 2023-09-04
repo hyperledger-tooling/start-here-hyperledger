@@ -121,31 +121,3 @@ Next step is to work on the BDD tests in `0586-sign-transaction.feature`, enable
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2451" class=".btn">#2451</a>
-            </td>
-            <td>
-                <b>
-                    chore: relax connections filter DID format
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Relax the connection filter on `my_did`, `their_did` and `their_public_did` fields of the `/connections` endpoints.
-
-These values were restricted to `did:sov` and are now open to the generic DID format.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 13:16:30 +0000 UTC
-    </div>
-</div>
-

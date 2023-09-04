@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    IBP References removal 
+                    Docker Image location correction in readme
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                IBP References have been removed from the contributing. md. All the new links have been updated. 
-
-Reviewer @modemn 
-
+                This change includes the correction of the location of the new docker image in the fabric-ansible-collection repository
+@modemn 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-14 10:59:30 +0000 UTC
+        Created At 2023-09-04 13:29:46 +0000 UTC
     </div>
 </div>
 

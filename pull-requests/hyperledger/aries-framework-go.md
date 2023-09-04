@@ -96,29 +96,3 @@ Given PR solves issues with error handling for Data Integrity proof signing and 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3627" class=".btn">#3627</a>
-            </td>
-            <td>
-                <b>
-                    fix: data-integrity ecdsa2019 signer uses common signer interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 13:49:31 +0000 UTC
-    </div>
-</div>
-
