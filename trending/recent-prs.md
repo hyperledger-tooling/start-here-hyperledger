@@ -1,13 +1,13 @@
 
+[406](https://github.com/hyperledger/fabric-chaincode-node/pull/406) Avoid build failure due to warning running docker build
+
+[726](https://github.com/hyperledger/aries-agent-test-harness/pull/726) Add new public DID option for ACA-Py
+
+[4422](https://github.com/hyperledger/fabric/pull/4422) up consensus library
+
 [682](https://github.com/hyperledger/fabric-sdk-node/pull/682) Fixes required by changes to typing in dependencies
 
 [2653](https://github.com/hyperledger/cacti/pull/2653) feat: Add VSCode extension
-
-[236](https://github.com/hyperledger/firefly-ethconnect/pull/236) Added priv_call functionality to generated contract APIs
-
-[3862](https://github.com/hyperledger/iroha/pull/3862) Trying to upgrade libraries in VCPKG
-
-[725](https://github.com/hyperledger/aries-agent-test-harness/pull/725) Changes by create-pull-request action
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
