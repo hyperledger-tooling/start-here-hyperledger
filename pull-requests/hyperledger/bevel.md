@@ -88,39 +88,3 @@ permalink: /pull-requests/hyperledger/bevel
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2360" class=".btn">#2360</a>
-            </td>
-            <td>
-                <b>
-                    [besu] onchain permissioning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### **Commit to be reviewed**
----
-
-**docs(besu): onchain permissioning**
-
-```
-- This commit aims to improve the documentation and enable users to implement Onchain Permissioning within their Besu networks.
-- This guide provides step-by-step instructions and highlights the prerequisites for deploying the Besu Onchain Permissioning Network. It also includes a reference to a sample configuration file for easy customization.
-```
-
-fixes #2348
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 13:48:18 +0000 UTC
-    </div>
-</div>
-
