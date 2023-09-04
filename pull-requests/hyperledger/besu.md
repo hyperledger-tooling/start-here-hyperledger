@@ -324,7 +324,7 @@ Fixes the following Hive tests:
             </td>
             <td>
                 <b>
-                    WIP [4844] BlobTransactions - Add decodeType to TransactionDecoder
+                    WIP [4844] Add encodingContext to TransactionEncoder and TransactionDecoder
                 </b>
             </td>
         </tr>
@@ -334,10 +334,19 @@ Fixes the following Hive tests:
             </td>
             <td>
                 ## PR description
-Incorporated a new parameter into the transaction decoding function to support decoding blob transactions from two different flows. This enhancement allows for the appropriate decoding method to be selected and invoked depending on the specific flow of the transaction processing.
+Introduces a refactoring of TransactionDecoder and TransactionEncoder classes, incorporating an EncodingContext. This context specifies the decoding destination of the transaction, either the transaction pool or the block body.
+
+This refactoring is required due to 4844, which presents BlobTransactiona that requires broadcasting to the network using a different encoding than the one used within a block body.
+
+Main changes:
+- Inclusion of EncodingContext parameter in relevant methods.
+- Creation of dedicated classes for the Frontier, Access List, and 1559 transaction types, moving them out of the TransactionEncoder/Decoder classes.
+- Revisions to internal logic to leverage EncodingContext for decoding.
+- Renaming of decodeForWire method to decodeRLP for better clarity.
+- Adjustments to unit tests to consider the new context.
 
 ## Fixed Issue(s)
-fixes #5818
+Fixes #5818
 
 Fixes hive tests:
 

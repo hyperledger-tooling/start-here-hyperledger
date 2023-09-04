@@ -482,39 +482,3 @@ This commit also moved `BlockVerifierAssembler` form `orderer/common/cluster/uti
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4405" class=".btn">#4405</a>
-            </td>
-            <td>
-                <b>
-                    Update install scripts for v2.5.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-- Documentation update
-
-#### Description
-
-Update install script and bootstrap script for v2.5.4.
-
-#### Related issues
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 05:20:08 +0000 UTC
-    </div>
-</div>
-

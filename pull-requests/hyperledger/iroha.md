@@ -40,13 +40,13 @@ Corrections (marked as [x] when CI passed):
 - [x] rapidjson 2020-09-14 -> 2022-06-28#3
 - [x] rxcpp 4.1.0-1 -> 4.1.1#1
 - [x] rocksdb 6.14.6 -> 7.9.2
-- [ ] fmt 7.1.3#4 -> 9.1.0#1
-- [ ] spdlog 1.8.5#2 -> 1.11.0
-- [ ] gtest 1.10.0#4 -> 1.13.0
-- [ ] grpc 1.37.0#1 -> 1.51.1
-- [ ] soci[boost,postgresql]
-- [ ] prometheus-cpp 0.12.2 -> 1.1.0
-- [ ] boost-*
+- [ ] fmt 7.1.3#4 -> 9.1.0#1 - PROBLEM
+- [ ] spdlog 1.8.5#2 -> 1.11.0 - PROBLEM
+- [ ] gtest 1.10.0#4 -> 1.13.0 - PROBLEM
+- [ ] grpc 1.37.0#1 -> 1.51.1 - PROBLEM
+- [ ] soci[boost,postgresql] - PROBLEM
+- [ ] prometheus-cpp 0.12.2 -> 1.1.0 - PROBLEM
+- [ ] boost-* - PROBLEM
 
 <!-- Just describe what you did. -->
 
@@ -768,68 +768,6 @@ Requested by TOC
     </table>
     <div class="right-align">
         Created At 2023-08-28 06:24:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3841" class=".btn">#3841</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3833, #2373, #3601: Split off Kagami
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Outline:
-
-- **Refactor Kagami**
-  - Remove `kagami validator`
-  - Remove `kagami swarm`
-  - Refactor `kagami genesis` according to the [comment](https://github.com/hyperledger/iroha/issues/3833#issuecomment-1693023658)
-- **Introduce `iroha_swarm`**: according to the [comment](https://github.com/hyperledger/iroha/issues/2373#issuecomment-1690971061)
-- **Introduce `iroha_wasm_builder_cli`**: a CLI around `iroha_wasm_builder`. It replaces `kagami validator` in the following way:
-  ```bash
-  # before
-  kagami validator > validator.wasm
-  
-  # after
-  iroha_wasm_builder_cli check ./default_validator
-  iroha_wasm_builder_cli build ./default_validator --optimize --format > validator.wasm
-  ```
-- **Update CI scripts** which used the previous commands
-
-### Linked issue
-
-Closes #3833 #2373 #3601
-
-### Benefits
-
-- Kagami is now a portable and lightweight tool. There is no issue with mentioning it in the documentation.
-- Swarm is now simpler, without redundant functionality. Easy to enhance in the future.
-- A general tool for building smartcontracts. Easy to enhance in the future. More reliable than `kagami validator` thanks to spinners.
-
-
-### Checklist
-
-- [ ] Investigate the logic behind the `format` option in `iroha_wasm_builder::Builder`, maybe open an issue to refactor it.
-- [x] Self-review
-- [x] Add README to `iroha_swarm`
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 05:20:48 +0000 UTC
     </div>
 </div>
 
