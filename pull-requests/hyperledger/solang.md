@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1514" class=".btn">#1514</a>
+            </td>
+            <td>
+                <b>
+                    Add Rename functionality
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This feature depends on having the right span information for identifiers in the parse tree. Currently, some changes are needed to either add the missing span information in some cases, or improve the already present spans (look for one-off errors). 
+
+The rest of the "goto-*" functions also depend on the availability of proper spans. But in their case, as no modification is made to the source code, lack of accurate spans is less of an issue. But `rename` does modify the source code and hence having incorrect spans can result in unintentionally overwriting pieces of source code, which is highly undesirable. 
+
+The changes made as part of this PR provide the necessary code for `rename` to work. Correcting the parse tree is expected to be done as part of future PRs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-05 05:22:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1513" class=".btn">#1513</a>
             </td>
             <td>
