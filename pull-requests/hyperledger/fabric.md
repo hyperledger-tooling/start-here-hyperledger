@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4424" class=".btn">#4424</a>
+            </td>
+            <td>
+                <b>
+                    Fix install-fabric.sh to pull baseos for v3.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+Fixed install-fabric.sh to pull baseos images for v3.x as well as v2.x.
+
+#### Additional details
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/4423
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-05 01:16:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4422" class=".btn">#4422</a>
             </td>
             <td>

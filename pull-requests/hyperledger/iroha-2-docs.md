@@ -46,29 +46,3 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/389" class=".btn">#389</a>
-            </td>
-            <td>
-                <b>
-                    Update metadata.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update my work
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 19:28:07 +0000 UTC
-    </div>
-</div>
-
