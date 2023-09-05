@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/87" class=".btn">#87</a>
             </td>
             <td>
                 <b>
-                    Retire Anne and Darian from maintainers and codeowners
+                    Update Cargo.toml minor change http => https
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                They have previously indicated they wished to be retired.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 16:08:35 +0000 UTC
+        Created At 2023-09-05 09:43:53 +0000 UTC
     </div>
 </div>
 

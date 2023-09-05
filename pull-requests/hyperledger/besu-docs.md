@@ -38,30 +38,3 @@ Fixes #1393
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1392" class=".btn">#1392</a>
-            </td>
-            <td>
-                <b>
-                    fixing paths and docs for public and private txns
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - updated to match the quickstart smart_contracts folder
-- examples updated for private n publc txns
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-29 06:56:01 +0000 UTC
-    </div>
-</div>
-

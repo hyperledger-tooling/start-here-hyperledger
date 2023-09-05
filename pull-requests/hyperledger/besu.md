@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5843" class=".btn">#5843</a>
+            </td>
+            <td>
+                <b>
+                    add parent beacon block root to payload id calculation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This fixes a problem where two engine_forkchoiceUpdated RPC calls with the same parameters, except for the parentBeaconBlockRoot, caused besu to produce a block with the wrong block hash.
+The beacon root was not used in the calculation of the payload id, which meant that we were not updating the block production after the second call.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-05 08:10:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5839" class=".btn">#5839</a>
             </td>
             <td>
@@ -282,92 +310,6 @@ make sure that a blob transaction has at least one blob.
     </table>
     <div class="right-align">
         Created At 2023-08-30 05:40:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5823" class=".btn">#5823</a>
-            </td>
-            <td>
-                <b>
-                    [4844] EngineNewPayloadV3 - Validate non null required paremeters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">4844</span>
-            </td>
-            <td>
-                ## Description
-This PR enhances the validation of null for the `EngineNewPayloadV3` parameters. Previously, these parameters were extracted using the `getOptionalParameter` method, which returns an `Optional.empty `if the parameters are null. This approach was insufficient as the engine can accept empty lists of versionedHashes, but cannot accept a null parameter.
-
-The main changes introduced by this PR include:
-
-- Modification of the parameter extraction method to allow for more robust null validation.
-- Adjustment of the validation logic to correctly handle empty lists of versionedHashes and reject null parameters.
-- Will now return "Invalid Parameters" if any required parameters are null.
-- Renames `EnginePayloadParameter` to `EngineExecutionPayloadParameter` to match spec naming
-- validateParams becomes `getAndCheckEngineNewPayloadRequestParams`
-
-Fixes the following Hive tests:
-
-- NewPayloadV3 Versioned Hashes, Nil Hashes
-- NewPayloadV3 Versioned Hashes, Nil Hashes (Syncing) 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-29 08:29:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5820" class=".btn">#5820</a>
-            </td>
-            <td>
-                <b>
-                    WIP [4844] Add encodingContext to TransactionEncoder and TransactionDecoder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">4844</span>
-            </td>
-            <td>
-                ## PR description
-Introduces a refactoring of TransactionDecoder and TransactionEncoder classes, incorporating an EncodingContext. This context specifies the decoding destination of the transaction, either the transaction pool or the block body.
-
-This refactoring is required due to 4844, which presents BlobTransactiona that requires broadcasting to the network using a different encoding than the one used within a block body.
-
-Main changes:
-- Inclusion of EncodingContext parameter in relevant methods.
-- Creation of dedicated classes for the Frontier, Access List, and 1559 transaction types, moving them out of the TransactionEncoder/Decoder classes.
-- Revisions to internal logic to leverage EncodingContext for decoding.
-- Renaming of decodeForWire method to decodeRLP for better clarity.
-- Adjustments to unit tests to consider the new context.
-
-## Fixed Issue(s)
-Fixes #5818
-
-Fixes hive tests:
-
-- blob_txs_full/reject_valid_full_blob_in_block_rlp/000-fork=Cancun-one_full_blob_one_tx
-- blob_txs_full/reject_valid_full_blob_in_block_rlp/001-fork=Cancun-one_full_blob_max_txs
-- blob_txs_full/reject_valid_full_blob_in_block_rlp/002-fork=Cancun-one_full_blob_at_the_end_max_txs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-29 06:38:57 +0000 UTC
     </div>
 </div>
 
