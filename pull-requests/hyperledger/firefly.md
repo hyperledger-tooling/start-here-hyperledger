@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1391" class=".btn">#1391</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1396" class=".btn">#1396</a>
             </td>
             <td>
                 <b>
-                    Enrich events for contract deploy success/failure
+                    Proposal: Generic subscription options while adding contract listener
                 </b>
             </td>
         </tr>
@@ -27,12 +27,35 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                <nil>
+                ## Generic subscription options while adding contract listener
+
+Generic options for the automatically generated subscription can be passed in listener options
+
+```json
+{
+  "name": "PayPerUseListener",
+  "options": {
+    "firstEvent": "newest",
+    "subscriptionOptions": {
+      "additionalOption1": "option1",
+      "additionalOption2": "option 2"
+    }
+  },
+  "topic": "default1"
+}
+```
+
+## Intention
+
+A privacyGroupId could be passed to Ethconnect and calls to priv_getLogs etc. would be possible.
+Every plugin would be able to listen for the subscriptionOptions necessary for its subscription configuration.
+
+The introduced changes do not break existing functionality.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-21 18:58:33 +0000 UTC
+        Created At 2023-09-05 14:19:12 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +63,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1389" class=".btn">#1389</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1395" class=".btn">#1395</a>
             </td>
             <td>
                 <b>
-                    Two functions with the same param types, but different names, cannot share a cache entry
+                    handle update for unpublished API
                 </b>
             </td>
         </tr>
@@ -53,32 +76,14 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                ### Issue
+                Update to unpublished contract APIs are no longer possible due to https://github.com/hyperledger/firefly/pull/1322
 
-If you invoke a Method FFI to FireFly with one set of parameter names like:
-
-- `myfunc(uint256 var1, address var2)`
-
-Then you invoke another function with an identical ABI, but different parameter names like:
-
-- `myfunc(uint256 _var1, address _var2)`
-
-Then you will see the following error from EVMConnect, with valid inputs:
-
-`FF10111: Error from ethereum connector: FF22034: Unable to parse input of type <nil>`
-
-This is because the cache we use to avoid expensive JSON Schema compilation, uses a cache key that does not factor in the names of the parameters.
-
-However, when we look at the input JSON Object to extract the parameters in order to pass them into EVMConnect, we need to know the exact parameter names.
-
-### Fix
-
-This PR proposes including all parameter names from the FFI in the calculation of the cache key.
+This PR fixes the problem by adding the upsert logic back in for unpublished contract APIs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-21 18:44:44 +0000 UTC
+        Created At 2023-09-05 13:31:07 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/521" class=".btn">#521</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/523" class=".btn">#523</a>
             </td>
             <td>
                 <b>
-                    update release notes
+                    fix indexing into addresses if its not set
                 </b>
             </td>
         </tr>
@@ -31,17 +31,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 
 <!--- What type of change? Pick one option and delete the others. -->
 
-- Documentation update
+- Bug fix
 
 #### Description
-update release notes
+- fix front end crash when editing channel consenters when orderer does not use a system channel, `addressess` field in config block might not be set
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-25 17:06:03 +0000 UTC
+        Created At 2023-09-05 14:27:59 +0000 UTC
     </div>
 </div>
 

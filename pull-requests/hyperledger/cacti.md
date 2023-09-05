@@ -153,39 +153,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2645" class=".btn">#2645</a>
-            </td>
-            <td>
-                <b>
-                    feat(cactus-plugin-ledger-connector-fabric-socketio): remove fabric-socketio connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove cactus-plugin-ledger-connector-fabric-socketio connector.
-- Refactor discounted cartrade sample to use openapi fabric connector instead of fabric-socketio.
-    Sample app will use delegated signing, similar to offline signing in old connector.
-- Remove dead code from cmd-socketio-server
-- Update fabric SDK to 2.X in all cacti projects, refactor code that use it where necessary.
-    Only exception is fabric persistence plugin which uses fabric SDK as dev dependency (for tests).
-    It can be updated in separate PR later on.
-
-Depends on: #2644
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-29 12:29:46 +0000 UTC
-    </div>
-</div>
-
