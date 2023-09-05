@@ -65,29 +65,3 @@ Fixes #1393
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1391" class=".btn">#1391</a>
-            </td>
-            <td>
-                <b>
-                    Remove deprecated networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR removes references to Astor and Kotti networks removed from `main`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-28 22:29:36 +0000 UTC
-    </div>
-</div>
-

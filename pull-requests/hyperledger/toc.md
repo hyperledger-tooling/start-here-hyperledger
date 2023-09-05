@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/160" class=".btn">#160</a>
+            </td>
+            <td>
+                <b>
+                    Add 2023 Q3 Hyperledger Cello Project Updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">quarterly-report</span>
+            </td>
+            <td>
+                Add 2023 Q3 Hyperledger Cello Project Updates
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-05 00:13:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/toc/pull/159" class=".btn">#159</a>
             </td>
             <td>
