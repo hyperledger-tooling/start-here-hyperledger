@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/cello
         <tr>
             <td colspan="2">
                 <b>
-                    Release version 1.0.0
+                    Bugfix and dependency upgrades
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.0.0-rc1
+                    v1.0.0-rc2
                 </span>
             </td>
             <td>
-                Release version 1.0.0
+                
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/cello/releases/tag/1.0.0-rc1" class=".btn">
+    <a href="https://github.com/hyperledger/cello/releases/tag/v1.0.0-rc2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-25 06:27:32 +0000 UTC
+        Created At 2023-08-29 03:47:41 +0000 UTC
     </span>
 </div>
 
