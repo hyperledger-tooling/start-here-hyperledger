@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/173" class=".btn">#173</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/175" class=".btn">#175</a>
             </td>
             <td>
                 <b>
-                    Introduce uniffi module and Swift wrapper
+                    Adjust permissions to support uniffi module outside the repo
                 </b>
             </td>
         </tr>
@@ -27,17 +27,14 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                This is a replacement for the previous PR #110 using [uniffi](https://github.com/mozilla/uniffi-rs) to support Swift.
-This uniffi module could be used for other languages such as Kotlin later.
-
-As we have discussed in the Discord channel, holding many wrappers in one repo is not preferred, so I want to get some advice if there's a way to make this uniffi module a separate package that uses aries-askar as a dependency in another repo.
-Any comment will be appreciated.
+                Please take a look @andrewwhitehead 
+I could make a uniffi module as a separate crate with these changes. I added some dummy documents in error.rs and store.rs to make them public.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-25 06:33:19 +0000 UTC
+        Created At 2023-09-05 08:26:20 +0000 UTC
     </div>
 </div>
 
