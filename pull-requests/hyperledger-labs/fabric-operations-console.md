@@ -34,7 +34,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 - Bug fix
 
 #### Description
-- fix front end crash when editing channel consenters when orderer does not use a system channel, `addressess` field in config block might not be set
+- fix front end bug/error when editing channel consenters when orderer does not use a system channel, `addressess` field in config block might not be set
+  - caused error message: `Cannot set properties of null (setting 'addresses')`
 
 
             </td>

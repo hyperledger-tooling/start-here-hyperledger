@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
             </td>
             <td>
                 <b>
-                    Initial support for fablo chaincodes list (non-TLS)
+                    Initial support for fablo chaincodes list command (non-TLS)
                 </b>
             </td>
         </tr>
