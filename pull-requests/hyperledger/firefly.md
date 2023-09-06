@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 Only the org DID is needed for this check - no need to actually look up the org from the database. At this point the message author has already been verified, so a database lookup here is just extra unnecessary processing (and can lead to infinite retries if it fails).

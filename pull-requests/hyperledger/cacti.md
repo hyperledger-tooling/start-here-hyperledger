@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2654" class=".btn">#2654</a>
+            </td>
+            <td>
+                <b>
+                    chore(tools): add script to strip out non-production sources
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To run the script you can execute this on a shell:
+    yarn tools:create-production-only-archive
+
+The above will create a temporary clone of the project sources, then
+delete a lot of the files that are documentation/test code (e.g. things
+that do not go into production). Finally it zips the remaining files
+together into something that includes a date & timestamp and the git
+hash that the archive was generated from.
+
+There were plans to make the generated zip file also encrypted, but this
+is not supported by the library that we are using for compression. The
+other library was not necessarily purely Javascript implemented and so
+there was some reluctance to use it because of the huge overhead on the
+the dependency installation process that we already have from packages
+that use native code to satisfy their stated purpose.
+So, with all that said, encrypting the .zip file is left as a to-do for
+later. The issues tracking this feature are here:
+1. https://github.com/cthackers/adm-zip/issues/259
+2. https://github.com/cthackers/adm-zip/issues/398
+
+Fixes #2652
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 01:29:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2653" class=".btn">#2653</a>
             </td>
             <td>
@@ -122,34 +170,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-08-30 13:59:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2646" class=".btn">#2646</a>
-            </td>
-            <td>
-                <b>
-                    chore(besu): remove web3-eea typings file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1218
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-30 06:16:41 +0000 UTC
     </div>
 </div>
 
