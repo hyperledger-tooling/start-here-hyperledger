@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2466" class=".btn">#2466</a>
+            </td>
+            <td>
+                <b>
+                    Remove old routing protocol code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #2430.
+
+This PR removes the old deprecated routing protocol messages pertaining to coordinating a "route" with another connection. This functionality was superseded by the coordinate mediation protocol. It's been well over two years since it was superseded so this PR is just taking care of the clean up that probably ought to have been done a while ago.
+
+In this PR you will see:
+
+- Messages and handlers for route queries and updates have been removed
+- Methods on the route manager to facilitate route updates have been removed
+- The Coordinate Mediation Manager now directly implements logic for performing route updates. It was previously borrowing this logic from the route manager.
+- Route related code has been removed from the connection manager and connection record. This was done in such a way that the `routing_state` in the wallet records will still be accepted but will (continue to) be unused.
+- The `RouteManager` continues to exist and is used to manage creation of route records. Its responsibilities are now appropriately narrowed to this. It is used by the MediationManager and MultitenancyManager to track routes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 01:15:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2465" class=".btn">#2465</a>
             </td>
             <td>

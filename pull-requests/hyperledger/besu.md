@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5852" class=".btn">#5852</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] use non-deprecated authenticate methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refs (does not fix) #5851 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 04:11:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5847" class=".btn">#5847</a>
             </td>
             <td>
@@ -350,33 +376,6 @@ fixes #5808
     </table>
     <div class="right-align">
         Created At 2023-08-30 23:45:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5826" class=".btn">#5826</a>
-            </td>
-            <td>
-                <b>
-                    enforce that BlobTransactions have at least one blob
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-make sure that a blob transaction has at least one blob. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-30 05:40:51 +0000 UTC
     </div>
 </div>
 

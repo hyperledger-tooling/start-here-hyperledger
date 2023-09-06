@@ -1,13 +1,13 @@
 
-[2465](https://github.com/hyperledger/aries-cloudagent-python/pull/2465) chore: add black back in as a dev dep
+[8](https://github.com/hyperledger/aries-framework-kotlin/pull/8) Add configuration for maven-publish
 
-[2464](https://github.com/hyperledger/aries-cloudagent-python/pull/2464) feat: add timeout to did resolver resolve method
+[5852](https://github.com/hyperledger/besu/pull/5852) [MINOR] use non-deprecated authenticate methods
 
-[957](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/957) Fix PIN validation passing with incorrect PIN.
+[105](https://github.com/hyperledger-labs/yui-relayer/pull/105) Add return err
 
-[247](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/247) Hyperledger Labs proposal for a did:webs implementation
+[2654](https://github.com/hyperledger/cacti/pull/2654) chore(tools): add script to strip out non-production sources
 
-[5847](https://github.com/hyperledger/besu/pull/5847) Release 23.7.2
+[2466](https://github.com/hyperledger/aries-cloudagent-python/pull/2466) Remove old routing protocol code
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
