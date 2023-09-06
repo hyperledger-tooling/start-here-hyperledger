@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3870" class=".btn">#3870</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: #391 move the Rust examples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This is a draft PR that moves code from the blocks in `iroha-2-docs` repo.
+
+### Linked issue
+
+Closes #391
+
+### Benefits
+
+Docs will be more clean and the doctests will be more detailed.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 07:56:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3869" class=".btn">#3869</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3526: Allow only a fixed set of signature verification conditions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Instead of allowing arbitrary iroha expressions in `SignatureVerificationCondition`, allow only a fixed set of verification conditions
+
+### Linked issue
+
+Closes #3526
+
+<!-- ### Benefits -->
+
+
+
+### Checklist
+
+- [ ] Add unit tests
+- [x] Implement without using expressions
+- [ ] Make `SignatureVerificationCondition` non-ffi-opaque (?)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 06:20:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3866" class=".btn">#3866</a>
             </td>
             <td>

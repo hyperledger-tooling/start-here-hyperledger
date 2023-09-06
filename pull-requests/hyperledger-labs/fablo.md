@@ -41,29 +41,3 @@ This is the first implementation of `chaincodes list` command for **support non-
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/408" class=".btn">#408</a>
-            </td>
-            <td>
-                <b>
-                    Update CHANGELOG.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-30 11:03:13 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/242" class=".btn">#242</a>
+            </td>
+            <td>
+                <b>
+                    Make zeroize not used with `no-default-features`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #241 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 07:25:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/239" class=".btn">#239</a>
             </td>
             <td>

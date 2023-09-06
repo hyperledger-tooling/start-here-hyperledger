@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5854" class=".btn">#5854</a>
+            </td>
+            <td>
+                <b>
+                    Bump version to 23.7.3-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 08:11:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5853" class=".btn">#5853</a>
+            </td>
+            <td>
+                <b>
+                    set the beacon root address to the correct value
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+In EIP-4788 the address of the contract used to store and retrieve the parent beacon block roots has been changed. This PR sets the correct value.  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 07:22:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5852" class=".btn">#5852</a>
             </td>
             <td>
@@ -91,6 +151,8 @@ Post burn-in release of 23.7.2
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Implement a method to trace a range of blocks and have access to the worldstate before and after the tracing
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
