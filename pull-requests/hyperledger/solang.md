@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1515" class=".btn">#1515</a>
+            </td>
+            <td>
+                <b>
+                    Add Polkadot Node CLI Interactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [ ] add a test case (upload -> remove)
+- [ ] add documentation 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 10:05:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1514" class=".btn">#1514</a>
             </td>
             <td>
