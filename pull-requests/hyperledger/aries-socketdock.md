@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-socketdock
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Feature/performance test
+                    Disable status call until auth mechanisms
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-socketdock
                 
             </td>
             <td>
-                Add locust performance test of socketdock.
+                The status call has no authentication associated with it. This is great for development, but not-so-great for production. Until a better way to limit the audience, we should probably disable this for now.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-14 14:56:22 +0000 UTC
+        Created At 2023-09-06 17:00:59 +0000 UTC
     </div>
 </div>
 

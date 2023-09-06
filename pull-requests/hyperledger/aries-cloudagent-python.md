@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2472" class=".btn">#2472</a>
+            </td>
+            <td>
+                <b>
+                    peer did 2/3 resolution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                First component to final solution for #2249. 
+
+Add resolution capabilities for did:peer:2 and did:peer:3, as well as did:peer:3 creation methods. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 18:14:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2471" class=".btn">#2471</a>
+            </td>
+            <td>
+                <b>
+                    fix: version should be set by pyproject.toml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `aries_cloudagent.version.__version__` was out of sync with the version listed in the pyproject.toml file. The pyproject.toml file should be the source of truth as it will be used when publishing using poetry. However, `__version__` is used in code for some operations. To ensure that the pyproject file and the `__version__` can't get out of sync, `aries_cloudagent.version` will now read the version from the pyproject file. This read will only take place once on first import.
+
+To acheive this, I added `tomli` as a dependency, but only if the python version is < 3.11. If 3.11 is in use, the `tomlib` library will be used, which was added as a python standard library module in 3.11.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 13:51:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2470" class=".btn">#2470</a>
             </td>
             <td>
