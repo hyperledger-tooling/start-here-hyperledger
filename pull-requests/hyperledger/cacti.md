@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2659" class=".btn">#2659</a>
+            </td>
+            <td>
+                <b>
+                    build(corda-all-in-one-obligation): fix build unable to select packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Fixed the OpenSSH related problems by wiping the default installation
+of it that ships with the distro (Alpine Linux images)
+2. Updated the kotlin samples repository's code manually so that it
+specifies the platform version as 11 instead of 12 for the basic contracts
+which is what we need for Corda v4.8 and v4.9 as well (I'm guessing that
+platform  version 12 will stand for v5 when it becomes GA but not sure)
+The manual update is done via sed-ing at image build time right after
+the kotlin samples repository has been cloned.
+
+Fixes #2621
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 06:00:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2658" class=".btn">#2658</a>
             </td>
             <td>
