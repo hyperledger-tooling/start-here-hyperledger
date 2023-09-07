@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/396" class=".btn">#396</a>
+            </td>
+            <td>
+                <b>
+                    #395: Explain the use of BASIC_AUTH in the docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes https://github.com/hyperledger/iroha-2-docs/issues/395
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 13:49:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/394" class=".btn">#394</a>
             </td>
             <td>

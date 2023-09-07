@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2481" class=".btn">#2481</a>
+            </td>
+            <td>
+                <b>
+                    Allow direct reading of pyproject.toml version when package not installed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Slight tweak to the package version read. See #2471 
+
+When running locally, without `poetry` (ie `devcontainer`), the pytests need to read the version but the `aries-cloudagent` package is not installed. This will read the value from the `pyproject.toml` directly if package not found.
+
+Built images will read from the installed package metadata, but pytests (run locally) read from pyproject.toml.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 17:39:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2480" class=".btn">#2480</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Issue with write ledger pool when performing Accumulator sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #2477 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 17:38:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2476" class=".btn">#2476</a>
+            </td>
+            <td>
+                <b>
+                    fix: unique ids for services in legacy peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #2475.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 14:11:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2472" class=".btn">#2472</a>
             </td>
             <td>
@@ -55,9 +137,11 @@ Add resolution capabilities for did:peer:2 and did:peer:3, as well as did:peer:3
                 
             </td>
             <td>
-                `aries_cloudagent.version.__version__` was out of sync with the version listed in the pyproject.toml file. The pyproject.toml file should be the source of truth as it will be used when publishing using poetry. However, `__version__` is used in code for some operations. To ensure that the pyproject file and the `__version__` can't get out of sync, `aries_cloudagent.version` will now read the version from the pyproject file. This read will only take place once on first import.
+                `aries_cloudagent.version.__version__` was out of sync with the version listed in the pyproject.toml file. The pyproject.toml file should be the source of truth as it will be used when publishing using poetry. However, `__version__` is used in code for some operations. To ensure that the pyproject file and the `__version__` can't get out of sync, `aries_cloudagent.version` will now be read from the package metadata.
 
-To acheive this, I added `tomli` as a dependency, but only if the python version is < 3.11. If 3.11 is in use, the `tomlib` library will be used, which was added as a python standard library module in 3.11.
+Update: I was previously trying to read from pyproject.toml. This was a naive approach that wouldn't have worked after installing ACA-Py as a pip package. The better solution is the one I've switched to, just reading the package metadata.
+
+
             </td>
         </tr>
     </table>
@@ -265,32 +349,6 @@ Next step is to work on the BDD tests in `0586-sign-transaction.feature`, enable
     </table>
     <div class="right-align">
         Created At 2023-09-01 22:13:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2456" class=".btn">#2456</a>
-            </td>
-            <td>
-                <b>
-                    Update Python image version to 3.9.18
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Reduces the number of vulnerabilities in the image.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 12:25:42 +0000 UTC
     </div>
 </div>
 

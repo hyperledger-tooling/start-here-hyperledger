@@ -1,13 +1,13 @@
 
-[4431](https://github.com/hyperledger/fabric/pull/4431) Bft bp deliveryclient censorshiptimeout 2
+[4434](https://github.com/hyperledger/fabric/pull/4434) add docs for smartbft metrics
 
-[1516](https://github.com/hyperledger/solang/pull/1516) Polkadot: Support errors according to `solc`
+[2481](https://github.com/hyperledger/aries-cloudagent-python/pull/2481) Allow direct reading of pyproject.toml version when package not installed
 
-[4430](https://github.com/hyperledger/fabric/pull/4430) smart BFT GRPC broadcasting invalid TX to leader test
+[2480](https://github.com/hyperledger/aries-cloudagent-python/pull/2480) Bugfix: Issue with write ledger pool when performing Accumulator sync
 
-[4429](https://github.com/hyperledger/fabric/pull/4429) Smart BFT GRPC forwarding invalid message test
+[1086](https://github.com/hyperledger/fabric-samples/pull/1086) Update TypeScript HSM sample application
 
-[496](https://github.com/hyperledger-labs/fabric-token-sdk/pull/496) support for external wallets
+[960](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/960) chore: upgrade to react native 0.72
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
