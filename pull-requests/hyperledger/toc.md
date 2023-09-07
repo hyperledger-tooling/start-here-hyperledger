@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    Create allowed-third-party-license-policy.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 21:42:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/toc/pull/160" class=".btn">#160</a>
             </td>
             <td>

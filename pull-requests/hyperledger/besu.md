@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5859" class=".btn">#5859</a>
+            </td>
+            <td>
+                <b>
+                    docs(readme): fix broken link to installation of binaries page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #5858
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 00:00:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5857" class=".btn">#5857</a>
             </td>
             <td>
@@ -455,50 +484,6 @@ Adding missing information to the toString() method of Transaction
     </table>
     <div class="right-align">
         Created At 2023-08-31 06:45:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5830" class=".btn">#5830</a>
-            </td>
-            <td>
-                <b>
-                    Do not create ignorable segments on `revert storage-variables`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-The `revert storage-variables` subcommand correctly reverts the storage-variable column family move, but inadvertently creates ignorable column family segments.  This behavior breaks backward compatibility prior to 23.1.0.  
-
-This PR exposes `setIgnorableStorageSegments()` from BesuCommand and calls it from the revert storage-variables subcommand.
-
-Additionally, this PR adds much needed visibility into the column family errors that RocksDB reports by parsing the RocksDBException and translating them into printable strings for more useful/actionable error messages.
-
-example output for unidentified column family:
-```
-RocksDBException: Unhandled column families: ['Donny'(0x446f6e6e79), 'Walter'(0x57616c746572), 'Maude'(0x4d61756465), 'Dude'(0x44756465)]
-```
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5808 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-30 23:45:15 +0000 UTC
     </div>
 </div>
 
