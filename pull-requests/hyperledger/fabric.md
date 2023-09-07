@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4431" class=".btn">#4431</a>
+            </td>
+            <td>
+                <b>
+                    Bft bp deliveryclient censorshiptimeout 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code)
+- Test update
+
+#### Description
+
+As described in issue #4401 
+
+#### Related issues
+
+issue #4401 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 09:28:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4430" class=".btn">#4430</a>
+            </td>
+            <td>
+                <b>
+                    smart BFT GRPC broadcasting invalid TX to leader test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+Test that invalid TX broadcast to the leader is failing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 08:48:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4429" class=".btn">#4429</a>
+            </td>
+            <td>
+                <b>
+                    Smart BFT GRPC forwarding invalid message test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+A test to check that if an orderer is forwarding to the leader an invalid TX, the operation should fail.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 08:45:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4426" class=".btn">#4426</a>
             </td>
             <td>
@@ -180,40 +282,6 @@ Also delete old v2.5.x release notes that are now maintained in release-2.5 bran
     </table>
     <div class="right-align">
         Created At 2023-08-31 20:08:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4416" class=".btn">#4416</a>
-            </td>
-            <td>
-                <b>
-                    Change evaluation method in gateway.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since RAFT node is able to run with capability turned on, changed the gateway code to evaluate consensus type rather than evaluating channel capabilities.
-
-#### Type of change
-- Bug fix
-
-#### Description
-Since RAFT node is able to run with capability turned on, changed the gateway code to evaluate consensus type rather than evaluating channel capabilities.
-Following that changed the [https://github.com/hyperledger/fabric/blob/main/internal/pkg/gateway/submit.go#L53](url) file to check the consensus type.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 11:40:45 +0000 UTC
     </div>
 </div>
 

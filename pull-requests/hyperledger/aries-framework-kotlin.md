@@ -195,29 +195,3 @@ https://docs.github.com/en/actions/learn-github-actions/expressions#literals
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Add settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 12:11:29 +0000 UTC
-    </div>
-</div>
-
