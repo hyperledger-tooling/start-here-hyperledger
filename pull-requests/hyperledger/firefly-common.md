@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/96" class=".btn">#96</a>
+            </td>
+            <td>
+                <b>
+                    Improve mapping of errors on HTTP responses, and log stacks with debug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The use of string parsing could be improved, especially as it doesn't work in cases where the `i18n` framework is used with custom non-`FF` prefixes (which we support).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-06 22:51:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/95" class=".btn">#95</a>
             </td>
             <td>
