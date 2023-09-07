@@ -1,13 +1,13 @@
 
-[2659](https://github.com/hyperledger/cacti/pull/2659) build(corda-all-in-one-obligation): fix build unable to select packages
+[4431](https://github.com/hyperledger/fabric/pull/4431) Bft bp deliveryclient censorshiptimeout 2
 
-[524](https://github.com/hyperledger-labs/fabric-operations-console/pull/524) update channel from orderer
+[1516](https://github.com/hyperledger/solang/pull/1516) Polkadot: Support errors according to `solc`
 
-[1398](https://github.com/hyperledger/besu-docs/pull/1398) ignore env/ dir
+[4430](https://github.com/hyperledger/fabric/pull/4430) smart BFT GRPC broadcasting invalid TX to leader test
 
-[1397](https://github.com/hyperledger/besu-docs/pull/1397) version 23.7.2
+[4429](https://github.com/hyperledger/fabric/pull/4429) Smart BFT GRPC forwarding invalid message test
 
-[177](https://github.com/hyperledger/aries-askar/pull/177) Postgres provisioning fixes
+[496](https://github.com/hyperledger-labs/fabric-token-sdk/pull/496) support for external wallets
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

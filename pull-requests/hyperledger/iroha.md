@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3873" class=".btn">#3873</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1915: Implement Fast kura init mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Implement `fast` kura init mode.
+Which can skip loading blocks from disk and thus bootstrap startup time. 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #1915 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Improve startup time.
+
+
+### Downsides
+
+Take additional space for storing hashes on disk (32 bytes per hash) time/memory tradeoff.
+
+`fast` init mode should be used with caution because it can detect some mutations in hashes file. 
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### How to test
+
+1. Run iroha with `strict` kura init mode
+2. Create couple of blocks
+3. Check that `storage/blocks.hashes` is created
+4. Shutdown iroha peer
+5. Switch to `fast` kura init mode in the configuration
+6. Start peer again
+7. Check that peer is running correctly
+8. Shutdown iroha peer ones more
+9. Make backup of `storage/blocks.hashes` (`storage/blocks.hahses.old`)
+10. Remove some data from data from `storage/blocks.hashes` or whole file entirely
+11. Start peer
+12. Check that kura failed to load in `fast` mode and failed back to STRICT mode (grep for “Hashes file is broken”)
+13. Check that peer is running correctly
+14. Check that `storage/blocks.hashes` is restored (`storage/blocks.hashes` == `storage/blocks.hashes.old`)
+15. Check that peer is running correctly
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 07:40:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3872" class=".btn">#3872</a>
             </td>
             <td>
@@ -155,6 +236,7 @@ Closes #3526
 
 ### Checklist
 
+- [x] Decide on the set of signature check conditions we want to allow
 - [ ] Add unit tests
 - [x] Implement without using expressions
 - [ ] Make `SignatureVerificationCondition` non-ffi-opaque (?)
@@ -465,113 +547,6 @@ Closes #3853
     </table>
     <div class="right-align">
         Created At 2023-09-01 10:09:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3855" class=".btn">#3855</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3853: Compare permission token payload as JSON
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-1. `StringWithJson` should implement `PartialEq` comparison as JSON
-this was causing bugs when `iroha-java` would serialize token payload vs when `iroha` `serde` would do so 
-2. remove `DefaultValidator` struct from `iroha_validator`
-it's been used incorrectly, because the delegated method must always call back into original validator whereas calling into `DefaultValidator` would prevent this. Interestingly, removing `DefaultValidator` didn't increase code duplication which was the argument for introducing it in the first place
-3. removed `DoesAccountHavePermissionToken`
-As is discussed in #3857 the comparison of `PermissionToken`s on the host side is broken and cannot be relied upon. Additionally, there is little reason to think it measurably optimizes the operation of finding a token for an account especially since it's only executed from the validator
-4. discovered #3857
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3853 
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 12:12:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3854" class=".btn">#3854</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #2573: Use a more efficient representation for immutable bytes values
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Introduce an `ImmutableBytes` type that is a newtype around `Box<[u8]>` and use it in `PublicKey`, `PrivateKey`, `Signature` and `Multihash` objects.
-
-While `PublicKey` and `PrivateKey` can be further specialized, as their size can be known without storing separately, this is not true for `Signature`, as it can take any user-provided slice as its payload. `Multihash` can also be specialized, but it's used as a temporary representation, so it is not really helpful in reducing resident memory consumption.
-
-### Linked issue
-
-Closes #2573
-
-### Benefits
-
-- This uses 8 bytes less memory for every `PublicKey`, `PrivateKey`, `Signature`and `Multihash` objects
-
-### Checklist
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 11:24:37 +0000 UTC
     </div>
 </div>
 

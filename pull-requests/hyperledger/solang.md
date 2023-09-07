@@ -14,26 +14,30 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1515" class=".btn">#1515</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1516" class=".btn">#1516</a>
             </td>
             <td>
                 <b>
-                    Add Polkadot Node CLI Interactions
+                    Polkadot: Support errors according to `solc`
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">polkadot</span>
             </td>
             <td>
-                - [ ] add a test case (upload -> remove)
-- [ ] add documentation 
+                Implement `Panic` and custom errors for the Polkadot target:
+- Allow catching `Panic` in sema
+- Allow custom errors in sema
+- Implement selector  calculation for custom errors
+- Refactor try-catch in codegen to allow catch clauses on `Panic` errors in
+- Add any custom errors in the metadata
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-06 10:05:42 +0000 UTC
+        Created At 2023-09-07 08:48:57 +0000 UTC
     </div>
 </div>
 
