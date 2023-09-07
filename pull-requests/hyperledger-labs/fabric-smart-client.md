@@ -37,29 +37,3 @@ It improves also on other minors: keystore path and ip parsing.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/492" class=".btn">#492</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 15:33:52 +0000 UTC
-    </div>
-</div>
-
