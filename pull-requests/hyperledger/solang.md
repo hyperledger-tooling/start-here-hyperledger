@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1517" class=".btn">#1517</a>
+            </td>
+            <td>
+                <b>
+                    New syntax for contracts on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now that we represent contracts by their program id on Solana, we decided to elaborate a new syntax to handle them. Contracts cannot be a type in Solidity, consequently, they cannot be function arguments, function returns nor variables.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 19:40:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1516" class=".btn">#1516</a>
             </td>
             <td>

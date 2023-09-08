@@ -364,29 +364,3 @@ Also delete old v2.5.x release notes that are now maintained in release-2.5 bran
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4418" class=".btn">#4418</a>
-            </td>
-            <td>
-                <b>
-                    Whats New doc for v3.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add What's New doc for v3.0.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-31 20:08:50 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[4434](https://github.com/hyperledger/fabric/pull/4434) add docs for smartbft metrics
+[2484](https://github.com/hyperledger/aries-cloudagent-python/pull/2484) 0.10.2
 
-[2481](https://github.com/hyperledger/aries-cloudagent-python/pull/2481) Allow direct reading of pyproject.toml version when package not installed
+[683](https://github.com/hyperledger/fabric-sdk-node/pull/683) Use require to import long
 
-[2480](https://github.com/hyperledger/aries-cloudagent-python/pull/2480) Bugfix: Issue with write ledger pool when performing Accumulator sync
+[214](https://github.com/hyperledger/indy-vdr/pull/214) fix(js): bump patched ref-napi/ffi-napi
 
-[1086](https://github.com/hyperledger/fabric-samples/pull/1086) Update TypeScript HSM sample application
+[243](https://github.com/hyperledger/anoncreds-rs/pull/243) fix(js): bump patched ref-napi/ffi-napi
 
-[960](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/960) chore: upgrade to react native 0.72
+[1399](https://github.com/hyperledger/besu-docs/pull/1399) Update `lastVersion`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
