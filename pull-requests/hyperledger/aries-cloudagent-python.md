@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2481" class=".btn">#2481</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2484" class=".btn">#2484</a>
             </td>
             <td>
                 <b>
-                    Allow direct reading of pyproject.toml version when package not installed
+                    0.10.2
                 </b>
             </td>
         </tr>
@@ -27,16 +27,72 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Slight tweak to the package version read. See #2471 
-
-When running locally, without `poetry` (ie `devcontainer`), the pytests need to read the version but the `aries-cloudagent` package is not installed. This will read the value from the `pyproject.toml` directly if package not found.
-
-Built images will read from the installed package metadata, but pytests (run locally) read from pyproject.toml.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-07 17:39:41 +0000 UTC
+        Created At 2023-09-08 00:37:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2483" class=".btn">#2483</a>
+            </td>
+            <td>
+                <b>
+                    Update devcontainer to read version from aries-cloudagent package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update sample files and documentation for ruff usage.
+
+The main purpose of the PR is to address changes in version from #2471.
+
+See an ill-advised workaround at #2481 for more reference. Main issue is running the pytests in the devcontainer. Thanks @dbluhm for questioning if that PR was the right thing to do (it wasn't).
+
+This also updates `flake8` references in devcontainer to `ruff` and updates example run configs.
+
+Closes #2455 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 20:01:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2482" class=".btn">#2482</a>
+            </td>
+            <td>
+                <b>
+                    0.10.2 Patch Release - fix issue #2475, #2477
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Re 0.10.2-rc0 patch release
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 18:31:21 +0000 UTC
     </div>
 </div>
 

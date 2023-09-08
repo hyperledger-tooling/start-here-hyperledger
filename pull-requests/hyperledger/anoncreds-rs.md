@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/243" class=".btn">#243</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): bump patched ref-napi/ffi-napi
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Following the issue with types that appeared in https://github.com/hyperledger/aries-askar/pull/170#issuecomment-1708337866, here we update patched `ref-napi` and `ffi-napi` to embed their own types instead of using the ones from the original ones.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 20:43:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/242" class=".btn">#242</a>
             </td>
             <td>

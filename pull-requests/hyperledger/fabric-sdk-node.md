@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/683" class=".btn">#683</a>
+            </td>
+            <td>
+                <b>
+                    Use require to import long
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Explicit require provides better TypeScript compatibility regardless of esModuleInterop setting.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-07 22:25:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/682" class=".btn">#682</a>
             </td>
             <td>
