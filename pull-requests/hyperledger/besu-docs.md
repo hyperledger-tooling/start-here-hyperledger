@@ -90,31 +90,3 @@ preview: https://besu-docs-git-fork-alexandratran-version-fix-hyperledger.vercel
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1396" class=".btn">#1396</a>
-            </td>
-            <td>
-                <b>
-                    Add holesky network.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add Holesky network option.
-
-Fixes #1393 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-01 05:51:34 +0000 UTC
-    </div>
-</div>
-

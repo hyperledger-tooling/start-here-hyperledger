@@ -100,34 +100,3 @@ $RLY chains hoge
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Updating CI versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * update actions/* version
-  actions/setup-go (1 -> 4)
-  actions/checkout (2 -> 3)
-  actions/cache (2 -> 3)
-* update go version (1.20 -> 1.21)
-* update ubuntu (20.4 -> 22.04)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-01 02:19:53 +0000 UTC
-    </div>
-</div>
-

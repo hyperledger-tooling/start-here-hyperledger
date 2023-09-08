@@ -33,15 +33,16 @@ permalink: /pull-requests/hyperledger/bevel
 **feat(fabric): resolve default value issues**
 
 ```
-This pull request will resolve default value related issues:
+This pull request resolves default value related issues in the Fabric Helm charts.
 
-1. Removed default values for the 'labels' and 'tls' fields.
-2. Corrected default values in the READMEs.
-3. Corrected the policy for the R3-Corda platform to resolve a 'permission denied' error.
+Changes:
+1. The default values for the `labels` and `tls` fields have been set to empty.
+2. The default values in the READMEs have been corrected.
+3. The policy for the R3-Corda platform has been corrected to resolve a 'permission denied' error.
 
-Additional Information:
+Additional information:
 1. Successfully validated Helm linting for all Fabric Helm charts, eliminating linting issues.
-2. Modified default values for 'labels' and 'tls' fields to empty, ensuring smooth Fabric deployments without errors.
+2. The changes in this pull request will ensure smooth Fabric deployments without errors.
 ```
 
 fixes #quick-fix
