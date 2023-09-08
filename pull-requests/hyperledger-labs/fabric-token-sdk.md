@@ -44,29 +44,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/492" class=".btn">#492</a>
-            </td>
-            <td>
-                <b>
-                    split dlog tests for more parallelism in the CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-01 06:36:31 +0000 UTC
-    </div>
-</div>
-

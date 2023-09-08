@@ -74,29 +74,3 @@ $RLY chains hoge
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    Check header expired
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Check header expired
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-01 09:11:54 +0000 UTC
-    </div>
-</div>
-

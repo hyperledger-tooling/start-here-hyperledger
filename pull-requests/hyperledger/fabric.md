@@ -378,30 +378,3 @@ https://github.com/hyperledger/fabric/issues/4423
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4421" class=".btn">#4421</a>
-            </td>
-            <td>
-                <b>
-                    Add v3.* tags as a trigger to release job
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add v3.* tags as a trigger to release job.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-01 11:28:22 +0000 UTC
-    </div>
-</div>
-

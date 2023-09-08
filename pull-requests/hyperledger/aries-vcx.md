@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/972" class=".btn">#972</a>
+            </td>
+            <td>
+                <b>
+                    Feature/msg builders
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces message builders through the `typed-builder` crate. The builder are based on the typestate pattern, but the crate is (at least advertised) to be fully compatible/replaceable by the `derive-builder` trait, which is using runtime construction of the type and allows for more flexibility (like passing builders around).
+
+The `typestate` vs `runtime construction` decision will essentially depend on whether consumers want/need to build messages themselves and how convoluted these processes usually get. We don't really have to decide now, but it's a good thing to consider in the future.
+
+For consistency reasons even some single fielded protocol specific messages contents implement builders, so that it is convenient, uniform and easy to know how one would go about composing a message.
+
+There are some inner types which also implement the builders, yet for some types it is indeed quite the overkill (like `CredentialPreview`). I might revisit such types and just implement plain old `new()` constructors.
+
+Another change that this PR brings is a uniformization of the `Invitation` message from the `Connection` protocol, so that the same decorators are used regardless of invitation type. The rationale is that it's much easier to reason with the invitation this way and since the protocol is old and won't be suffering changes it should be fine to simply deal with it like this.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 12:08:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/971" class=".btn">#971</a>
             </td>
             <td>
@@ -139,32 +174,6 @@ This change results in a minor test speedup, however the main bottleneck is sche
     </table>
     <div class="right-align">
         Created At 2023-09-06 07:54:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/966" class=".btn">#966</a>
-            </td>
-            <td>
-                <b>
-                    Updates and fixes to sync this branch with changes of #937
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-01 11:45:34 +0000 UTC
     </div>
 </div>
 
