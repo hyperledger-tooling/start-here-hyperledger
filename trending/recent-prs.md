@@ -1,13 +1,13 @@
 
-[972](https://github.com/hyperledger/aries-vcx/pull/972) Feature/msg builders
+[3879](https://github.com/hyperledger/iroha/pull/3879) [documentation] #3878: Add the documentation-related Iroha configurat…
 
-[397](https://github.com/hyperledger/iroha-2-docs/pull/397) [docs]: New configuration reference
+[718](https://github.com/hyperledger/fabric-private-chaincode/pull/718) Upgrade docker
 
-[5861](https://github.com/hyperledger/besu/pull/5861) Don't start BFT mining coordinators until initial sync has completed
+[101](https://github.com/hyperledger/firefly-transaction-manager/pull/101) Start debug server before we start processing
 
-[971](https://github.com/hyperledger/aries-vcx/pull/971) fix android compilation by providing libzmq to be dynamically linked
+[400](https://github.com/hyperledger/iroha-2-docs/pull/400) #399: Add the definition of a peer to the glossary page
 
-[525](https://github.com/hyperledger-labs/fabric-operations-console/pull/525) Showing admins
+[134](https://github.com/hyperledger/aries-javascript-docs/pull/134) fix: Indy to Askar migration code samples
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    fix: react native setup for cheqd
+                    fix: Indy to Askar migration code samples
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                tab was rendered at the wrong place, so it included some setup steps only in yarn setup, but it is also required in RN setup
+                Fixes some migration setup code samples.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-18 10:42:06 +0000 UTC
+        Created At 2023-09-08 13:32:59 +0000 UTC
     </div>
 </div>
 

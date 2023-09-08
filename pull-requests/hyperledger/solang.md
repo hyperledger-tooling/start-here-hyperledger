@@ -89,6 +89,20 @@ permalink: /pull-requests/hyperledger/solang
 The rest of the "goto-*" functions also depend on the availability of proper spans. But in their case, as no modification is made to the source code, lack of accurate spans is less of an issue. But `rename` does modify the source code and hence having incorrect spans can result in unintentionally overwriting pieces of source code, which is highly undesirable. 
 
 The changes made as part of this PR provide the necessary code for `rename` to work. Correcting the parse tree is expected to be done as part of future PRs
+
+A non-exhaustive list of changes to be made to parse tree:  (https://github.com/hyperledger/solang/pull/1411#issuecomment-1648031602)
+
+1. No loc for contract variables type - array_type_dynamic_push.sol L6
+2. No loc for constructor base call - abstract_contract_inheritance.sol L14
+3. No loc for function modifier arguments - function_modifier_arguments.sol L8
+4. No loc for function override base contracts - virtual_functions_override.sol L2
+5. Struct literal struct loc and Constructor contract loc not available - inline_assembly.sol L12
+6. Internal Function Location wrong when preceded by a contract name. - abi_encode_call.sol L3
+7. array with size length function (stored as NumLiteral) - array_type_fixed_length.sol L7
+8. struct literals fields point to the struct and not fields, function calls with struct literals => wrong loc - function_arguments.sol L12
+9. function calls with contract names : contract defintions absent - - base_contract_function_call.sol L25
+10. enum variants vs enum name - struct_type.sol L29
+11. using - using.sol L10
             </td>
         </tr>
     </table>

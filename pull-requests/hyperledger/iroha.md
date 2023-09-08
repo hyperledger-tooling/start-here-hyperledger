@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3879" class=".btn">#3879</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #3878: Add the documentation-related Iroha configurat…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Original issue: https://github.com/hyperledger/iroha/issues/3878
+
+We're actively using the "[Code snippets](https://hyperledger.github.io/iroha-2-docs/documenting/snippets.html)" feature, and I'm trying to have more.
+While doing https://github.com/hyperledger/iroha-2-docs/pull/394, I want to reach some granularity.
+
+I can either have `Cargo.toml` for the "[Client setup](https://hyperledger.github.io/iroha-2-docs/guide/rust.html#_1-iroha-2-client-setup)" section of the [Rust tutorial](https://hyperledger.github.io/iroha-2-docs/guide/rust.html) here or add it to the snippets directory in Iroha 2 documentation. It has less chance of remaining unnoticed for a long time if it belongs to the main repo, at least in my opinion.
+
+Collecting a list of doc-related configurations that depend on the release in the main repo seems OK to me, but someone may disagree.
+
+Please comment here.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 16:57:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3876" class=".btn">#3876</a>
             </td>
             <td>

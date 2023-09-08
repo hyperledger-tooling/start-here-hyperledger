@@ -36,10 +36,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
 
 https://github.com/hyperledger/aries-mobile-agent-react-native/assets/36937407/c8fe992f-4713-4dbf-bcec-d381302b6e7a
 
+<img width="393" alt="image" src="https://github.com/hyperledger/aries-mobile-agent-react-native/assets/36937407/dfc8d6f5-a74a-4fc9-80ea-308bd808bdb6">
 
 
+<img width="393" alt="image" src="https://github.com/hyperledger/aries-mobile-agent-react-native/assets/36937407/14a62e73-aebb-4622-8698-92d37fe30551">
 
-
+<img width="393" alt="image" src="https://github.com/hyperledger/aries-mobile-agent-react-native/assets/36937407/41f5c4e4-3baa-4a72-a7e6-58d11063a6fd">
 
 # Related Issues
 
