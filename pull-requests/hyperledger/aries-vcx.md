@@ -37,6 +37,8 @@ There are some inner types which also implement the builders, yet for some types
 
 Another change that this PR brings is a uniformization of the `Invitation` message from the `Connection` protocol, so that the same decorators are used regardless of invitation type. The rationale is that it's much easier to reason with the invitation this way and since the protocol is old and won't be suffering changes it should be fine to simply deal with it like this.
 
+Also, this addresses #949 .
+
             </td>
         </tr>
     </table>

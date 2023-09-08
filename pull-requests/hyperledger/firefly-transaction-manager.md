@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/101" class=".btn">#101</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    Start debug server before we start processing
                 </b>
             </td>
         </tr>
@@ -27,19 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Update code owners file to use the github team
+                Notices when debugging an issue, that even though a debug listener was configured, there wasn't one running. Turns out the runtime was hitting a problem establishing its event streams, before starting the debug server.
 
-
-@nguyer Not sure what to do with the Doc maintainers, there isn't a github team for them.
-
-<img width="1167" alt="image" src="https://github.com/hyperledger/firefly-transaction-manager/assets/5425125/472e5080-8c09-4687-820c-0802ac977b43">
-
-@nickgaski also lost access to the repo.
+This PR proposes:
+- Starting the debug server earlier
+- Using the standard `httpserver` config structure and go routine
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-30 15:23:13 +0000 UTC
+        Created At 2023-09-08 16:01:51 +0000 UTC
     </div>
 </div>
 

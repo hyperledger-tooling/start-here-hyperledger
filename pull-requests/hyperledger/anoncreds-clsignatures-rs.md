@@ -27,7 +27,15 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                Follow up to #21 - The issuer test data was including the `master_secret` attribute in the issued credential values, now fixed.
+                Follow up to #21 
+
+The checks during credential issuance are extended to:
+1. Include blinded attributes when checking if all attributes are provided
+2. Check that there is no overlap between the blinded attributes (the link secret) and the attributes provided by the issuer
+
+The second fix highlighted an issue with many of the unit tests, where the issuer was providing the `master_secret` attribute, and these are now fixed.
+
+Tested for compatibility with indy-credx and anoncreds-rs
             </td>
         </tr>
     </table>

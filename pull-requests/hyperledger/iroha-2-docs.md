@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/400" class=".btn">#400</a>
+            </td>
+            <td>
+                <b>
+                    #399: Add the definition of a peer to the glossary page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #399
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 14:04:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/397" class=".btn">#397</a>
             </td>
             <td>
