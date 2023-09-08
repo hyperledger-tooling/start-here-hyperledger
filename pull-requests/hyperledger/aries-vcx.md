@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/971" class=".btn">#971</a>
+            </td>
+            <td>
+                <b>
+                    fix android compilation by providing libzmq to be dynamically linked
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modify scripts to enable dynamic linking with libzmq by default on android
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 03:42:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/970" class=".btn">#970</a>
             </td>
             <td>
