@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/551" class=".btn">#551</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/552" class=".btn">#552</a>
             </td>
             <td>
                 <b>
-                    fix docker compose setting, make cello-api-engine depends_on cello-po…
+                    Fix docker setting
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/cello
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-08 22:04:40 +0000 UTC
+        Created At 2023-09-09 03:39:38 +0000 UTC
     </div>
 </div>
 
