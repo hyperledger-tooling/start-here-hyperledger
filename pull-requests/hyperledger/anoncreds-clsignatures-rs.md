@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    minor cleanup of unnecessary refs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-09 09:43:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/22" class=".btn">#22</a>
             </td>
             <td>
