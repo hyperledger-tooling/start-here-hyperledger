@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/178" class=".btn">#178</a>
+            </td>
+            <td>
+                <b>
+                    Add method to ping store sessions; verify profile existence when opening a session
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #163 
+
+For Postgres, this also ensures that a profile cannot be removed while there is an active transaction against it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 22:42:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/177" class=".btn">#177</a>
             </td>
             <td>

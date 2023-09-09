@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2487" class=".btn">#2487</a>
+            </td>
+            <td>
+                <b>
+                    Feat/sd jwt implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds SD-JWT support for sign and verify endpoints, including optional key binding.
+
+By default, all claims at all levels of the payload can be selectively disclosable (with the exception of essential verification data such as iss, iat, cnf, etc.), unless indicated otherwise by the issuer.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 21:40:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2486" class=".btn">#2486</a>
+            </td>
+            <td>
+                <b>
+                    Feat: Upgrade from tags and fix issue with legacy IssuerRevRegRecords [<=`v0.5.2`]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #2485 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 20:22:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2484" class=".btn">#2484</a>
             </td>
             <td>
@@ -374,37 +428,6 @@ https://github.com/Indicio-tech/aries-cloudagent-python/pull/151
     </table>
     <div class="right-align">
         Created At 2023-09-05 18:46:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2458" class=".btn">#2458</a>
-            </td>
-            <td>
-                <b>
-                    WIP: Revocation API using anoncreds-rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Still in infancy, having troubles mapping anoncreds-rs to current revocation API.
-See issue #2432.
-
-Next step is to work on the BDD tests in `0586-sign-transaction.feature`, enable those and get those working. Perhaps should have started there earlier and would have given me a more focused path forward. 🤷 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-01 22:13:37 +0000 UTC
     </div>
 </div>
 
