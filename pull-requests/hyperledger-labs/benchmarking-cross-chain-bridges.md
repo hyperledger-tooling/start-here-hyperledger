@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/2" class=".btn">#2</a>
             </td>
             <td>
                 <b>
-                    Improvs
+                    docs: add maintainers.md
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-29 17:06:54 +0000 UTC
+        Created At 2023-09-08 23:49:53 +0000 UTC
     </div>
 </div>
 

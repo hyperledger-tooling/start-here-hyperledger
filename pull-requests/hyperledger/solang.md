@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">solana</span>
             </td>
             <td>
                 Now that we represent contracts by their program id on Solana, we decided to elaborate a new syntax to handle them. Contracts cannot be a type in Solidity, consequently, they cannot be function arguments, function returns nor variables.

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/551" class=".btn">#551</a>
+            </td>
+            <td>
+                <b>
+                    fix docker compose setting, make cello-api-engine depends_on cello-po…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                make cello-api-engine depends_on cello-postgress
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-08 22:04:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/550" class=".btn">#550</a>
             </td>
             <td>
