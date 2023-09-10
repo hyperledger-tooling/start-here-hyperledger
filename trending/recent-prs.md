@@ -1,13 +1,13 @@
 
-[629](https://github.com/hyperledger/fabric-gateway/pull/629) Avoid Node module load error on big-endian platforms
+[2490](https://github.com/hyperledger/aries-cloudagent-python/pull/2490) Issue #2488 KeyError raised when Subject ID is not a URI
 
-[23](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/23) minor cleanup of unnecessary refs
+[2673](https://github.com/hyperledger/cacti/pull/2673) test(cmd-api-server): fix CVE-2023-37903 - vm2 Sandbox Escape vulnerability
 
-[244](https://github.com/hyperledger/anoncreds-rs/pull/244) feat: add zeroize as a feature
+[2670](https://github.com/hyperledger/cacti/pull/2670) docs(examples): fix Mongoose Prototype Pollution vulnerability
 
-[552](https://github.com/hyperledger/cello/pull/552) Fix docker setting
+[2668](https://github.com/hyperledger/cacti/pull/2668) docs(example-cbdc-bridging-backend): fix CVE-2020-36632
 
-[2](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/2) docs: add maintainers.md
+[2666](https://github.com/hyperledger/cacti/pull/2666) docs(examples): fix CVE-2022-37601 - upgrade to Angular v16
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
