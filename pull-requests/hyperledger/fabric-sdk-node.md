@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/682" class=".btn">#682</a>
-            </td>
-            <td>
-                <b>
-                    Fixes required by changes to typing in dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Scheduled build began failing last week, with the typing / import errors related to the version of the `long` package inherited from the protobuf packages. Add explicit dependencies on the `long` package and adjust imports accordingly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-03 17:13:44 +0000 UTC
-    </div>
-</div>
-

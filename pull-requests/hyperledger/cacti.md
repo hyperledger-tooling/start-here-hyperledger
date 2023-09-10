@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2681" class=".btn">#2681</a>
+            </td>
+            <td>
+                <b>
+                    build(codegen): fix URL of OpenAPI generator jar v6.6.0 not 6.3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [skip ci]
+
+Fixes #2680
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-10 18:14:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2673" class=".btn">#2673</a>
             </td>
             <td>
