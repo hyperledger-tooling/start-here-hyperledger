@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1518" class=".btn">#1518</a>
+            </td>
+            <td>
+                <b>
+                    Polkadot: Implemented Node Interactions in Solang's CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description:
+This pull request implements `Polkadot` node interactions into `Solang`'s CLI, allowing users to:
+- `upload`
+- `instantiate`
+- `call`
+- `remove`  
+
+### Key features include:
+- Network Name Parameter: Allows users to specify the Polkadot network by name.
+
+Example: `solang polkadot upload --suri //Alice --network rococo -x --output-json flipper.contract`
+
+### Checklist
+- [x] Tested the new commands using a shell script `integration/polkadot/cli_test.sh`.
+- [x] Added documentation for the newly implemented commands.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-10 10:15:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1517" class=".btn">#1517</a>
             </td>
             <td>
