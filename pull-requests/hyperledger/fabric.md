@@ -352,29 +352,3 @@ https://github.com/hyperledger/fabric/issues/4423
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4422" class=".btn">#4422</a>
-            </td>
-            <td>
-                <b>
-                    up consensus library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-03 21:44:18 +0000 UTC
-    </div>
-</div>
-
