@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    BlockChain/docker
+                    Lag/blokchain
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                <nil>
+                Ok
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-24 14:05:13 +0000 UTC
+        Created At 2023-09-10 20:21:59 +0000 UTC
     </div>
 </div>
 

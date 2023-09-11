@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             </td>
             <td>
                 <b>
-                    Avoid Node module load error on big-endian platforms
+                    Use elliptic instead of @noble/curves for Node crypto
                 </b>
             </td>
         </tr>
@@ -27,11 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                `@noble/curves` has a dependency on `@noble/hashes`, and this throws an error on module load if it detects a big-endian platform since it does not function correctly on big-endian systems.
+                `@noble/curves` makes use of `@noble/hashes`, which does not function correctly on big-endian systems, and also throws an error on module load if a big-endian system is detected. Revert to using elliptic as the ECDSA signing implementation.
 
-This change uses dynamic module loading to avoid loading `@noble/curves` unless one of the default ECDSA signer implementations is created. Users of big-endian systems can create their own signer implementation, perhaps based on Node's crypto implementation instead.
-
-Contributes to #628
+Closes #628
             </td>
         </tr>
     </table>

@@ -203,6 +203,8 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
 
 Fixes #2663
 
+[skip ci]
+
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
