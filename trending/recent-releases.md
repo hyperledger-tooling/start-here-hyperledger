@@ -1,13 +1,13 @@
 
+[v1.3.0](https://github.com/hyperledger/firefly-common/releases/tag/v1.3.0) v1.3.0
+
+[v0.9.0](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.9.0) v0.9.0
+
+[v0.10.1](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.10.1) v0.10.1
+
+[v1.3.2](https://github.com/hyperledger/fabric-gateway/releases/tag/v1.3.2) v1.3.2
+
 [0.10.2-rc0](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.10.2-rc0) 0.10.2-rc0
-
-[23.7.2](https://github.com/hyperledger/besu-docs/releases/tag/23.7.2) 23.7.2
-
-[23.7.2](https://github.com/hyperledger/besu/releases/tag/23.7.2) 23.7.2
-
-[v2.0.0](https://github.com/hyperledger-labs/blockchain-explorer/releases/tag/v2.0.0) Support for Hyperledger Fabric 2.5 with new features and enhancements
-
-[v1.0.0-rc2](https://github.com/hyperledger/cello/releases/tag/v1.0.0-rc2) Bugfix and dependency upgrades
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
