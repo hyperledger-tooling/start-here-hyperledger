@@ -1,13 +1,13 @@
 
+[2368](https://github.com/hyperledger/bevel/pull/2368) [besu] enable one prometheus for all organizations of a network
+
+[404](https://github.com/hyperledger/iroha-2-docs/pull/404) [feature]: support TeX math with KaTeX
+
+[403](https://github.com/hyperledger/iroha-2-docs/pull/403) Typo: use heading 1 in "Consensus"
+
+[3881](https://github.com/hyperledger/iroha/pull/3881) [patch] #3880 : Make prepare_query_request public
+
 [3](https://github.com/hyperledger/iroha-rfcs/pull/3) Configuration Overhaul RFC
-
-[4437](https://github.com/hyperledger/fabric/pull/4437) add channel to log and refactor code
-
-[168](https://github.com/hyperledger/anoncreds-spec/pull/168) Updated generate presentation section
-
-[34](https://github.com/hyperledger-labs/blockchain-verifier/pull/34) Lag/blokchain
-
-[2681](https://github.com/hyperledger/cacti/pull/2681) build(codegen): fix URL of OpenAPI generator jar v6.6.0 not 6.3.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
