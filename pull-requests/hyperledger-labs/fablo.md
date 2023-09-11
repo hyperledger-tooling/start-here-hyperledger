@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/409" class=".btn">#409</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/411" class=".btn">#411</a>
             </td>
             <td>
                 <b>
-                    Initial support for fablo chaincodes list command (non-TLS)
+                    Created support for chaincodes list command (with TLS)
                 </b>
             </td>
         </tr>
@@ -28,16 +28,16 @@ permalink: /pull-requests/hyperledger-labs/fablo
             </td>
             <td>
                 Addressing issue #406 
-This is the first implementation of `chaincodes list` command for **support non-TLS flow (test-01)** with the following changes:
+This is the second implementation of `chaincodes list` command for **support TLS (test-02)** with the following changes:
 
-- Added function to handle the `chaincodes list `command 
+- Added new function `peerChaincodeListTls()` to chaincode functions 
+- Deleted `wait-for-chaincode-tls` script. `docker exec` is now handled within `peerChaincodeListTls()`
 - Update CHANGELOG with the new feature
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-01 11:42:14 +0000 UTC
+        Created At 2023-09-11 13:13:59 +0000 UTC
     </div>
 </div>
 
