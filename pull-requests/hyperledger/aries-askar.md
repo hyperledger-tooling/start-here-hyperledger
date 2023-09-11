@@ -30,6 +30,8 @@ permalink: /pull-requests/hyperledger/aries-askar
                 Fixes #163 
 
 For Postgres, this also ensures that a profile cannot be removed while there is an active transaction against it.
+
+Includes a fix for the persistent test failure copying a Store instance on Windows.
             </td>
         </tr>
     </table>

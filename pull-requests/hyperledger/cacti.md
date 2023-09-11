@@ -222,7 +222,7 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
             <td>
                 <b>
-                    fix(weaver-go): Update code and dependencies in Go packages for Fabric
+                    build(weaver-go): Update code and dependencies in Go packages for Fabric
                 </b>
             </td>
         </tr>

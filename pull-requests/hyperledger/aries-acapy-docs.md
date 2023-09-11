@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Fix Logos - 0.8.0 Branch
+                    Update main.html
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-24 02:34:44 +0000 UTC
+        Created At 2023-09-11 15:20:10 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/62" class=".btn">#62</a>
             </td>
             <td>
                 <b>
-                    Fix logo for 0.7.5
+                    0.10.1
                 </b>
             </td>
         </tr>
@@ -58,7 +58,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-24 02:21:19 +0000 UTC
+        Created At 2023-09-11 15:16:13 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    Fix logo paths
+                    Main update for 0.10.1
                 </b>
             </td>
         </tr>
@@ -85,34 +85,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-24 02:16:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/57" class=".btn">#57</a>
-            </td>
-            <td>
-                <b>
-                    Add logos to repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-24 02:09:21 +0000 UTC
+        Created At 2023-09-11 15:08:21 +0000 UTC
     </div>
 </div>
 
