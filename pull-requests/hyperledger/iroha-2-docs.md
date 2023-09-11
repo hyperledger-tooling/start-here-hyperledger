@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/404" class=".btn">#404</a>
+            </td>
+            <td>
+                <b>
+                    [feature]: support TeX math with KaTeX
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #351 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-11 09:45:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/403" class=".btn">#403</a>
+            </td>
+            <td>
+                <b>
+                    Typo: use heading 1 in "Consensus"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-11 09:21:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/400" class=".btn">#400</a>
             </td>
             <td>
