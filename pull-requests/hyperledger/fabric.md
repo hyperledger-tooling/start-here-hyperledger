@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4437" class=".btn">#4437</a>
+            </td>
+            <td>
+                <b>
+                    add channel to log and refactor code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Delivery is done within a channel. 
+In the logs in these places it is very lacking to specify for which channel the delivery is done 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-11 04:45:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4435" class=".btn">#4435</a>
             </td>
             <td>
