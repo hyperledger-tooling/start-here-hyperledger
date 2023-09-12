@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2687" class=".btn">#2687</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples): fix CVE-2022-25858 - Terser insecure regular expression ReDoS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [skip ci]
+
+Fixes #2686
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-11 22:27:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2685" class=".btn">#2685</a>
+            </td>
+            <td>
+                <b>
+                    fix(cmd-socketio-server): fix Prototype Pollution in nconf
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                Depends on #2562 - build(deps): fix npm (grpc) build on NodeJS v20.4.0
+
+Fixes #2684
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-11 21:24:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2683" class=".btn">#2683</a>
+            </td>
+            <td>
+                <b>
+                    fix(cmd-api-server): fix CVE-2023-36665 protobufjs Prototype Pollution vuln
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgraded all imports of protobufjs to non-vulnerable
+versions (v7.2.5)
+
+Fixes #2682
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-11 20:56:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2681" class=".btn">#2681</a>
             </td>
             <td>
