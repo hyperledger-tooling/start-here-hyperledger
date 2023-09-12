@@ -36,9 +36,9 @@ Draft version of multi-version flat db
 * extends FlatDbReaderStrategy to FlatDbStrategy, including writes
 * creates FlatDbArchiveStrategy
 * adds getNearestTo to SegmentedKeyValueStorage plugin-api  interface and implementations
+* kikori worldstate provider integrated into BonsaiWorldStateProvider (not suitable for eth_getProof)
 
-still outstanding items are:
-* kikori worldstate provider (will not suitable for getProof)
+There are a handful of hacks that are marked with TODOs that are there for testing expedience.
 
 skipping CI while in draft form
 
