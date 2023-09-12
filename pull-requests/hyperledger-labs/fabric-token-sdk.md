@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/497" class=".btn">#497</a>
+            </td>
+            <td>
+                <b>
+                    cleanup token chaincode to properly handle log level and TLS.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                Removed the unused fields.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-12 13:45:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/496" class=".btn">#496</a>
             </td>
             <td>

@@ -49,7 +49,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
             </td>
             <td>
                 <b>
-                    Showing admins
+                    Showing MSP admins present in wallet while updating MSP definition
                 </b>
             </td>
         </tr>
@@ -108,42 +108,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </table>
     <div class="right-align">
         Created At 2023-09-07 05:54:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/523" class=".btn">#523</a>
-            </td>
-            <td>
-                <b>
-                    fix indexing into addresses if its not set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- fix front end bug/error when editing channel consenters when orderer does not use a system channel, `addressess` field in config block might not be set
-  - caused error message: `Cannot set properties of null (setting 'addresses')`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-05 14:27:59 +0000 UTC
     </div>
 </div>
 

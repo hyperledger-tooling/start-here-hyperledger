@@ -349,30 +349,3 @@ A test to check that if an orderer is forwarding to the leader an invalid TX, th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4426" class=".btn">#4426</a>
-            </td>
-            <td>
-                <b>
-                    Update bootstrap script for v3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update old bootstrap.sh script to match the newer install-fabric.sh script.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-05 13:29:57 +0000 UTC
-    </div>
-</div>
-
