@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/684" class=".btn">#684</a>
+            </td>
+            <td>
+                <b>
+                    Regenerate fabric-protos using current protobufjs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes explicit import for `long` package, which resolves typing issues for dependent packages.
+
+Also update grpc-js version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-11 20:06:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/683" class=".btn">#683</a>
             </td>
             <td>
