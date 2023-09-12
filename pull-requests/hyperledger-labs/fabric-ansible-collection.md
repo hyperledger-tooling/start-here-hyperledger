@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    Changes in test files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change correct the name of the fabric-ansible-collection in the integration test files
+Reviewer @modemn 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-12 10:51:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/23" class=".btn">#23</a>
             </td>
             <td>

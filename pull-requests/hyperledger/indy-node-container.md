@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/127" class=".btn">#127</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/128" class=".btn">#128</a>
             </td>
             <td>
                 <b>
-                    indy rc upgrade with explicit dependencies removed
+                    restore image build on tag (i.e. release)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                <nil>
+                removing 'tests needed' check that skips container builds for tag runs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-28 08:35:55 +0000 UTC
+        Created At 2023-09-12 08:20:02 +0000 UTC
     </div>
 </div>
 
