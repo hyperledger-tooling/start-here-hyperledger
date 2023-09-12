@@ -402,31 +402,3 @@ Implement a method to trace a range of blocks and have access to the worldstate 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5843" class=".btn">#5843</a>
-            </td>
-            <td>
-                <b>
-                    add parent beacon block root to payload id calculation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This fixes a problem where two engine_forkchoiceUpdated RPC calls with the same parameters, except for the parentBeaconBlockRoot, caused besu to produce a block with the wrong block hash.
-The beacon root was not used in the calculation of the payload id, which meant that we were not updating the block production after the second call.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-05 08:10:50 +0000 UTC
-    </div>
-</div>
-
