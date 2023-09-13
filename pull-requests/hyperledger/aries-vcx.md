@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/976" class=".btn">#976</a>
+            </td>
+            <td>
+                <b>
+                    Initial mediator work
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Display an OOB invitation. Also presented as QR!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 16:08:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/975" class=".btn">#975</a>
             </td>
             <td>

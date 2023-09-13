@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5876" class=".btn">#5876</a>
+            </td>
+            <td>
+                <b>
+                    adds Matthew Whitehead as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I propose to add  @matthew1001 as a Besu project maintainer.
+
+@matthew1001 contributed with many high quality commits:
+
+- has implemented new JSON-RPC api endpoints, per execution api specs
+- has improved error reporting in apis
+- has improved configurability for non PoS networks
+
+Here are [their past contributions on Besu project](https://github.com/hyperledger/besu/pulls?q=is:pr+author:matthew1001+is:closed).
+
+Voting ends two weeks from today.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 17:20:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5875" class=".btn">#5875</a>
+            </td>
+            <td>
+                <b>
+                    init checkpoint state
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 17:06:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5872" class=".btn">#5872</a>
             </td>
             <td>
@@ -93,39 +164,6 @@ rm gradle/verification-metadata.xml
     </table>
     <div class="right-align">
         Created At 2023-09-13 02:22:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5867" class=".btn">#5867</a>
-            </td>
-            <td>
-                <b>
-                    Feature/checkpointed state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-12 14:31:18 +0000 UTC
     </div>
 </div>
 
@@ -302,67 +340,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2023-09-07 00:00:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5857" class=".btn">#5857</a>
-            </td>
-            <td>
-                <b>
-                    Fix issue 5824 - Duplicate key errors in EthScheduler-Transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Fix Duplicate key errors in EthScheduler-Transactions like this one :
-```
-2023-08-29 19:31:22.624+00:00 | EthScheduler-Transactions-0 | ERROR | Besu | Uncaught exception in thread "EthScheduler-Transactions-0"
-java.lang.IllegalStateException: Duplicate key 0xf526c3350c599fa381f0a9fd4412105d6e3b84cef407973520a4a536a602806d (attempted merging values ValidationResult{invalidReason=Optional.empty, errorMessage=Optional.empty} and ValidationResult{invalidReason=Optional[TRANSACTION_ALREADY_KNOWN], errorMessage=Optional.empty})
-        at java.base/java.util.stream.Collectors.duplicateKeyException(Collectors.java:135)
-        at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:182)
-        at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
-        at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
-        at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
-        at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-        at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-        at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-        at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-        at org.hyperledger.besu.ethereum.eth.transactions.TransactionPool.addRemoteTransactions(TransactionPool.java:212)
-        at org.hyperledger.besu.ethereum.eth.transactions.TransactionsMessageProcessor.processTransactionsMessage(TransactionsMessageProcessor.java:87)
-        at org.hyperledger.besu.ethereum.eth.transactions.TransactionsMessageProcessor.processTransactionsMessage(TransactionsMessageProcessor.java:60)
-        at org.hyperledger.besu.ethereum.eth.transactions.TransactionsMessageHandler.lambda$exec$0(TransactionsMessageHandler.java:51)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-        at java.base/java.lang.Thread.run(Thread.java:833)
-```
-
-**Unit Test without the modification in TransactionPool** 
-<img width="1659" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/e7ef3a8b-72d1-4e7d-a331-5d1baad2214b">
-
-**Unit Test with the modification in TransactionPool** 
-<img width="1659" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/5c5c14bf-92fe-4986-b517-b02e8361de39">
-
-## Fixed Issue(s)
-#5824 
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-06 14:19:28 +0000 UTC
     </div>
 </div>
 

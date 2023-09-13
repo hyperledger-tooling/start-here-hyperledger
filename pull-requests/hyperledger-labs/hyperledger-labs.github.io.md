@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/247" class=".btn">#247</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/248" class=".btn">#248</a>
             </td>
             <td>
                 <b>
-                    Hyperledger Labs proposal for a did:webs implementation
+                    CC-Tools lab
                 </b>
             </td>
         </tr>
@@ -27,23 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                The CC-Tools package provides a relational-like framework for programming Hyperledger Fabric chaincodes.
 
-Proposal for a Hyperledger Labs repo for an implementation of the `did:webs` DID Method for use with Hyperledger Aries agents and for issuers, holders and verifiers of Hyperledger AnonCreds verifiable credentials.
-
-I'm the sponsor of the proposal (TOC Member) and will be one of the initial maintainers of the Lab.
-
-FYI:
-
-- @2byrds
-- @dhh1128
-- @pfeairheller
-- @peacekeeper
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-05 20:24:14 +0000 UTC
+        Created At 2023-09-13 13:36:15 +0000 UTC
     </div>
 </div>
 
