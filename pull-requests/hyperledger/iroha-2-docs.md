@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/405" class=".btn">#405</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #306: Validate links post-build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Closes #306 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 01:34:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/404" class=".btn">#404</a>
             </td>
             <td>
