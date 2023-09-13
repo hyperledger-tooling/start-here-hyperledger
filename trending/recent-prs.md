@@ -1,13 +1,13 @@
 
-[5872](https://github.com/hyperledger/besu/pull/5872) payload attributes: fix wrong warning and fail if beacon root is available before cancun
+[4440](https://github.com/hyperledger/fabric/pull/4440) smart BFT GRPC leader sends proposal to follower test
 
-[5871](https://github.com/hyperledger/besu/pull/5871) #5868: fix beacon root address and modulus for devnet 9
+[498](https://github.com/hyperledger-labs/fabric-token-sdk/pull/498) no need to load the idemix revocation key
 
-[5870](https://github.com/hyperledger/besu/pull/5870) updated gradle verification metadata to fix spotless
+[1573](https://github.com/hyperledger/aries-framework-javascript/pull/1573) fix: improve logging
 
-[405](https://github.com/hyperledger/iroha-2-docs/pull/405) [feature] #306: Validate links post-build
+[54](https://github.com/hyperledger-labs/harmonia/pull/54) Added asynchronous block signatures retrieval
 
-[795](https://github.com/hyperledger/aries-rfcs/pull/795) Add DID rotation signature to 23
+[3884](https://github.com/hyperledger/iroha/pull/3884) [feature] #3355: Standardize block API
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
