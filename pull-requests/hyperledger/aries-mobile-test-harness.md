@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/193" class=".btn">#193</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/195" class=".btn">#195</a>
             </td>
             <td>
                 <b>
-                    BCW Fix offer and request message locators for both platforms
+                    Fix for feature "Scan QR code to recieve a credential offer" in connect.feature
                 </b>
             </td>
         </tr>
@@ -27,12 +27,57 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                The message notification locator for offers and requests was not working consistently across platforms and versions. New locators were added that works for both iOS and Android. 
+                **Error existed**
+Not able to find Scan button as the Biometric page was not handled 
+![image](https://github.com/hyperledger/aries-mobile-test-harness/assets/79985154/711e4746-463f-43ec-8781-bf55eda5683c)
+
+**Changes made**
+
+> Added line to use biometrics
+> Changed the way to find Allow button on IOS devices
+
+Test Result
+![image](https://github.com/hyperledger/aries-mobile-test-harness/assets/79985154/3ae0989e-55d1-4fd4-81b2-832586ccc9f2)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-05 13:48:53 +0000 UTC
+        Created At 2023-09-12 22:33:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/194" class=".btn">#194</a>
+            </td>
+            <td>
+                <b>
+                    Appium upgrade remove mobileby
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A recent upgrade to appium-python-client (3.0.0) has removed some deprecated ways of doing a couple things that were still lingering around in the Aries Mobile Test Harness. This PR adjusts the Test Harness and the BC Wallet for this update. 
+
+1/ In the Test Harness, we were still using desired_capabilities when creating the appium driver. This has been replaced with AppiumOptions. 
+
+This may affect the LamdaTest and the localAndroid device handlers. So those may have to change as well. 
+
+2/ MobileBy locator types has been removed and now only supports AppiumBy. All BC Wallet page objects and the test harness page object base class has been updated to use strictly AppiumBy. 
+
+All users of AMTH will have to adjust their page objects if they have any lingering MobileBy references. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-12 18:23:36 +0000 UTC
     </div>
 </div>
 

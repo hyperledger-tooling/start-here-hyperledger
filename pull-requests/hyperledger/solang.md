@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1519" class=".btn">#1519</a>
+            </td>
+            <td>
+                <b>
+                    Verify magic number in fallback
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Presently, we do not check the magic number when we enter a fallback function. If it modifies or read the data account, a malefactor can forge an account so that the function would read or write malicious data. This PR fixes such an issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-12 19:59:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1518" class=".btn">#1518</a>
             </td>
             <td>

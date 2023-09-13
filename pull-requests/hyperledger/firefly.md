@@ -14,27 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1398" class=".btn">#1398</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1400" class=".btn">#1400</a>
             </td>
             <td>
                 <b>
-                    Do not expect to retrieve local org during definition handling
+                    Enhance OpenAPI interface, for namespace-local APIs, and extra routing options
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-candidate</span>
+                
             </td>
             <td>
-                Only the org DID is needed for this check - no need to actually look up the org from the database. At this point the message author has already been verified, so a database lookup here is just extra unnecessary processing (and can lead to infinite retries if it fails).
+                Currently each namespace has it's own API, but you cannot get an OpenAPI/Swagger definition scoped just to that namespace.
 
-Fixes #1397
+This PR proposes an enhance OpenAPI / Swagger UI interface at the Namespace level, which allows an API to be generated that only contains the API at that level.
+
+It also provides extra dynamic header support for the external URL that an individual namespace has been exposed on, such that the namespace local API can be exposed on a mapped URL/Host.
+
+Depends on https://github.com/hyperledger/firefly-common/pull/97
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-05 18:47:02 +0000 UTC
+        Created At 2023-09-13 00:55:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1399" class=".btn">#1399</a>
+            </td>
+            <td>
+                <b>
+                    Update README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add OpenSSF Best Practices badge
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-12 20:01:52 +0000 UTC
     </div>
 </div>
 

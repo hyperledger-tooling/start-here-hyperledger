@@ -79,31 +79,3 @@ Fixes #129 ?
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/176" class=".btn">#176</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                depends on #170 
-
-Updated lerna to newer version to remove dependabot security issues.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-05 19:30:27 +0000 UTC
-    </div>
-</div>
-
