@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5872" class=".btn">#5872</a>
+            </td>
+            <td>
+                <b>
+                    payload attributes: fix wrong warning and fail if beacon root is available before cancun
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+A wrong warning was logged when a payload attribute was sent before cancun.
+Instead the validation of the payload attribute should fail if the parent beacon block root hash is available before cancun.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 04:06:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5871" class=".btn">#5871</a>
+            </td>
+            <td>
+                <b>
+                    #5868: fix beacon root address and modulus for devnet 9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+For the upcoming cancun devnet 9 the address and the modulus for EIP 4788 (parent beacon block root) have been changed. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 02:38:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5870" class=".btn">#5870</a>
+            </td>
+            <td>
+                <b>
+                    updated gradle verification metadata to fix spotless
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                regenerated the metadata file from scratch. Resulting in deletions of all old unused versions. Commands used:
+
+```
+rm gradle/verification-metadata.xml
+./gradlew clean --write-verification-metadata sha256 spotlessCheck compileTestJava compileJava
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 02:22:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5867" class=".btn">#5867</a>
             </td>
             <td>
@@ -337,32 +423,6 @@ In EIP-4788 the address of the contract used to store and retrieve the parent be
     </table>
     <div class="right-align">
         Created At 2023-09-06 07:22:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5852" class=".btn">#5852</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] use non-deprecated authenticate methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Refs (does not fix) #5851 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-06 04:11:32 +0000 UTC
     </div>
 </div>
 

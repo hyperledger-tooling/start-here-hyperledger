@@ -271,7 +271,10 @@ Pro Tip 🤓
 - Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
 - Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
 
-_PR template adapted from the Python attrs project._
+# References:
+- fix jest/react warning about "not wrapped in act(...)".
+    - https://stackoverflow.com/a/65347455
+    - https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning
 
             </td>
         </tr>

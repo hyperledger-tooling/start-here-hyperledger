@@ -1,13 +1,13 @@
 
-[1400](https://github.com/hyperledger/firefly/pull/1400) Enhance OpenAPI interface, for namespace-local APIs, and extra routing options
+[5872](https://github.com/hyperledger/besu/pull/5872) payload attributes: fix wrong warning and fail if beacon root is available before cancun
 
-[195](https://github.com/hyperledger/aries-mobile-test-harness/pull/195) Fix for feature "Scan QR code to recieve a credential offer" in connect.feature
+[5871](https://github.com/hyperledger/besu/pull/5871) #5868: fix beacon root address and modulus for devnet 9
 
-[97](https://github.com/hyperledger/firefly-common/pull/97) Update Swagger UI and provide dynamic hostname support
+[5870](https://github.com/hyperledger/besu/pull/5870) updated gradle verification metadata to fix spotless
 
-[1399](https://github.com/hyperledger/firefly/pull/1399) Update README.md
+[405](https://github.com/hyperledger/iroha-2-docs/pull/405) [feature] #306: Validate links post-build
 
-[1519](https://github.com/hyperledger/solang/pull/1519) Verify magic number in fallback
+[795](https://github.com/hyperledger/aries-rfcs/pull/795) Add DID rotation signature to 23
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

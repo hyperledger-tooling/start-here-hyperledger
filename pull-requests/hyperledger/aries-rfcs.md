@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/794" class=".btn">#794</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/795" class=".btn">#795</a>
             </td>
             <td>
                 <b>
-                    DID Rotate Protocol
+                    Add DID rotation signature to 23
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                <nil>
+                Fixes #717
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-29 15:02:34 +0000 UTC
+        Created At 2023-09-13 01:20:17 +0000 UTC
     </div>
 </div>
 
