@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Accept optional collection-config file while fetching approved status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-06 11:44:33 +0000 UTC
-    </div>
-</div>
-

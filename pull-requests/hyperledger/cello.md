@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/cello
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/550" class=".btn">#550</a>
-            </td>
-            <td>
-                <b>
-                    Merge the latest code into the 1.0 branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Merge the latest code into the 1.0 branch
-
-Signed-off-by: fengyang_sy fengyang.09186@h3c.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-06 06:22:38 +0000 UTC
-    </div>
-</div>
-

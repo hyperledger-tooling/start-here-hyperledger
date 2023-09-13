@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4440" class=".btn">#4440</a>
+            </td>
+            <td>
+                <b>
+                    smart BFT GRPC leader sends proposal to follower test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                SmartBFT integration test:
+The leader is using GRPC to send a proposal to the follower, checking that the signature validation is correct.
+
+#### Type of change
+
+- Test update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 12:19:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4438" class=".btn">#4438</a>
             </td>
             <td>
