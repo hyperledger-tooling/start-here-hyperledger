@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [patch] #3880 : Make prepare_query_request public
+                    [refactor] #3880 : Make `prepare_query_request` public
                 </b>
             </td>
         </tr>

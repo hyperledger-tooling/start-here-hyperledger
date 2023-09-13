@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/106" class=".btn">#106</a>
+            </td>
+            <td>
+                <b>
+                    Fix SendMsgs, delete Send, and introduce GetMsgResult
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-12 18:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/105" class=".btn">#105</a>
             </td>
             <td>
