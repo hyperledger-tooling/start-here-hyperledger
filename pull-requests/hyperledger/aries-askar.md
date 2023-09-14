@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/179" class=".btn">#179</a>
+            </td>
+            <td>
+                <b>
+                    chore: update version to 0.3.0 dev
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Need to wait with releasing until #177 is merged
+
+@andrewwhitehead  @berendsliedrecht @genaris all good to make a first 0.3.0 dev release?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 13:01:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/178" class=".btn">#178</a>
             </td>
             <td>

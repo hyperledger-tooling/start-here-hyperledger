@@ -86,6 +86,8 @@ This PR addresses an issue with the documentation discovered here; https://githu
                 Adds SD-JWT support for sign and verify endpoints, including optional key binding.
 
 By default, all claims at all levels of the payload can be selectively disclosable (with the exception of essential verification data such as iss, iat, cnf, etc.), unless indicated otherwise by the issuer.
+
+Info from @dbluhm: This PR, like the JWT sign and verify endpoints added previously, adds basic support for creation and verification of SD-JWTs. The methods/endpoints do not place any expectations on the payload beyond those required by the SD-JWT specification; in other words, the payload is not required to be a VC. As it stands, this enables other services to take advantage of ACA-Py's secure storage and DID Resolution capabilities to create and verify SD-JWT VCs but does not enable ACA-Py to do the same on its own. This is the foundational work required to later add support for SD-JWT VCs to the rest of ACA-Py's Issuance and Verification stacks.
             </td>
         </tr>
     </table>
@@ -203,58 +205,6 @@ Closes #2455
     </table>
     <div class="right-align">
         Created At 2023-09-07 18:31:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2480" class=".btn">#2480</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: Issue with write ledger pool when performing Accumulator sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #2477 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 17:38:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2476" class=".btn">#2476</a>
-            </td>
-            <td>
-                <b>
-                    fix: unique ids for services in legacy peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #2475.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 14:11:53 +0000 UTC
     </div>
 </div>
 

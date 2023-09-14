@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/408" class=".btn">#408</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #88: Add CI to automatically add labels
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #88
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 14:44:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/407" class=".btn">#407</a>
             </td>
             <td>
@@ -163,32 +189,6 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </table>
     <div class="right-align">
         Created At 2023-09-08 11:13:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/396" class=".btn">#396</a>
-            </td>
-            <td>
-                <b>
-                    #395: Explain the use of BASIC_AUTH in the docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes https://github.com/hyperledger/iroha-2-docs/issues/395
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 13:49:49 +0000 UTC
     </div>
 </div>
 

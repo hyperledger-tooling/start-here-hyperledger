@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1530" class=".btn">#1530</a>
+            </td>
+            <td>
+                <b>
+                    Permit memory-safe flag on assembly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/solang/issues/1526
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 14:59:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1529" class=".btn">#1529</a>
+            </td>
+            <td>
+                <b>
+                    Add support for custom tags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/solang/issues/1524
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 14:33:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1528" class=".btn">#1528</a>
+            </td>
+            <td>
+                <b>
+                    Allow using {func} for type to use library functions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/solang/issues/1525
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 14:05:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1527" class=".btn">#1527</a>
             </td>
             <td>
@@ -55,7 +133,12 @@ Fixes https://github.com/hyperledger/solang/issues/1523
                 
             </td>
             <td>
-                <nil>
+                Structs that contains themselves in a dynamic array are not recursive and do not have infinite size, as in the example below:
+```solidity
+struct C {
+    C [2][3][][2] m;
+}
+```
             </td>
         </tr>
     </table>

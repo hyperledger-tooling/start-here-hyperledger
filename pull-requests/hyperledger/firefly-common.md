@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/99" class=".btn">#99</a>
+            </td>
+            <td>
+                <b>
+                    Add config option to provide a regex to decide status code that can be retried
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add an option so that a regex can be used to determine which error status code should be retried to avoid unnecessary retries causing further delay and traffic.
+
+There is already an `OnCheckRetry` function available for the developer using the library to support this feature. However this feature seems to be a standard configuration that would benefit all consumers. So I'm proposing to add it to this common lib.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 15:15:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/98" class=".btn">#98</a>
             </td>
             <td>

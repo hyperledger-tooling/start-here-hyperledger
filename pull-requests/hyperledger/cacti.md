@@ -333,33 +333,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2660" class=".btn">#2660</a>
-            </td>
-            <td>
-                <b>
-                    build(weaver-go): Update code and dependencies in Go packages for Fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updated Fabric Go SDK code in `weaver/sdks/fabric/go-sdk` to work with the latest protos and release a new version of the library.
-- Updated dependencies in `go.mod` for Fabric Interop Chaincode, Fabric Go CLI, and sample chaincodes.
-- Updated dependencies in relay `Cargo.lock`.
-- Updated Fabric testnet launch script to use the right Fabric Interop Chaincode package.
-- Set correct release versions for Fabric driver and IIN Agent local builds.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 13:18:03 +0000 UTC
-    </div>
-</div>
-
