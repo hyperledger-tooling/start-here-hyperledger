@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/978" class=".btn">#978</a>
+            </td>
+            <td>
+                <b>
+                    Expose wallet migration to node wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR exposes the wallet migration API to the node.js wrapper.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 10:35:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/977" class=".btn">#977</a>
             </td>
             <td>
@@ -211,32 +237,6 @@ Also, this addresses #949 .
     </table>
     <div class="right-align">
         Created At 2023-09-07 18:56:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/969" class=".btn">#969</a>
-            </td>
-            <td>
-                <b>
-                    Fix genesis file URL in vdrproxy config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                Tests using vdrproxy started failing as the URL used to fetch the genesis file was recently invalidated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 08:01:16 +0000 UTC
     </div>
 </div>
 

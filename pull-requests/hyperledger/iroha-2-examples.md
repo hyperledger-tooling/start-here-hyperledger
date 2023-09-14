@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/iroha-2-examples
                 
             </td>
             <td>
-                This PR is a draft, since the examples are being moved. Please ignore for now.
+                The examples here may be changed in many ways, but at the very least, this PR has a number of examples we can use.
             </td>
         </tr>
     </table>

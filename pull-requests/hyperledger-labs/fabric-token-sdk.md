@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/499" class=".btn">#499</a>
+            </td>
+            <td>
+                <b>
+                    integration test improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Wait that also Alice and the Manager reload their wallets
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 12:00:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/498" class=".btn">#498</a>
             </td>
             <td>
@@ -59,40 +85,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2023-09-12 13:45:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/496" class=".btn">#496</a>
-            </td>
-            <td>
-                <b>
-                    support for external wallets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This PR brings the following:
-
-- Endorse options for accept view
-- Options for ttx endorsement
-- Check token request if you are not an auditor
-- Open new transaction to get token request
-- Expose methods to get the token request
-- ttxdb: store token request when storing transaction records
-- Load public params from file if the configuration says so
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 08:44:46 +0000 UTC
     </div>
 </div>
 

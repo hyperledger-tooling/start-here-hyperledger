@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5879" class=".btn">#5879</a>
+            </td>
+            <td>
+                <b>
+                    Tune G1GC to reduce Besu memory footprint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+These flags have been suggested by @ahamlat , and we tested them for months now, they have the effect of reducing the off heap memory used by Besu, without affecting the overall performance.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 10:45:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5876" class=".btn">#5876</a>
             </td>
             <td>
