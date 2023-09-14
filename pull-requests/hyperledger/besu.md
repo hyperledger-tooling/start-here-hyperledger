@@ -314,32 +314,3 @@ Use the -8 and -16 large runners from HL org for the current github actions
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5859" class=".btn">#5859</a>
-            </td>
-            <td>
-                <b>
-                    docs(readme): fix broken link to installation of binaries page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #5858
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 00:00:08 +0000 UTC
-    </div>
-</div>
-

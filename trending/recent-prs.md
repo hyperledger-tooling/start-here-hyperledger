@@ -1,13 +1,13 @@
 
-[70](https://github.com/hyperledger/firefly-perf-cli/pull/70) Update MAINTAINERS.md and CODEOWNERS
+[977](https://github.com/hyperledger/aries-vcx/pull/977) Add simple client implementation
 
-[5876](https://github.com/hyperledger/besu/pull/5876) adds Matthew Whitehead as a maintainer
+[1522](https://github.com/hyperledger/solang/pull/1522) Fix recursive struct issue
 
-[5875](https://github.com/hyperledger/besu/pull/5875) init checkpoint state
+[163](https://github.com/hyperledger/toc/pull/163) Add FireFly Q3 2023 report
 
-[4441](https://github.com/hyperledger/fabric/pull/4441) fix network diagrams R4 error (#4436)
+[118](https://github.com/hyperledger/besu-native/pull/118) Add k1 normalize signatures method
 
-[716](https://github.com/hyperledger-labs/open-enterprise-agent/pull/716) ci: specify scope for perofmance tests auth
+[71](https://github.com/hyperledger/firefly-helm-charts/pull/71) Update MAINTAINERS.md and CODEOWNERS
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

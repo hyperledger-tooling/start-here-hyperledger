@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/252" class=".btn">#252</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/255" class=".btn">#255</a>
             </td>
             <td>
                 <b>
-                    Fix checking result of queryInstalled()
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,37 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                the `label` property has the value that is a combination of the chaincode name version. for instance if the chaincode name is `basic`, and version is `v2.0`, then the label is returned as `basic_v2.0`, using the convention `_` to concatenate the two parts:
-
-```
-{
-	"installed_chaincodes": [
-		{
-			"package_id": "firefly_1.0:b8e754685421dd03e40251b9ef2dd811e49659453cd489ca7bd27585d9be06b4",
-			"label": "firefly_1.0",
-			"references": {
-				"firefly": {
-					"chaincodes": [
-						{
-							"name": "firefly",
-							"version": "1.0"
-						}
-					]
-				}
-			}
-		},
-		{
-			"package_id": "basic_v1.0:351b39eb21c6a1d42f65d21398bf747880404c322a8883f2fb61fe1a3bb0d68d",
-			"label": "basic_v1.0"
-		}
-	]
-}
-```
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-17 19:30:39 +0000 UTC
+        Created At 2023-09-13 19:24:56 +0000 UTC
     </div>
 </div>
 

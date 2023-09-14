@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    Add DELETE method for blobs
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 21:24:43 +0000 UTC
+        Created At 2023-09-13 20:31:39 +0000 UTC
     </div>
 </div>
 

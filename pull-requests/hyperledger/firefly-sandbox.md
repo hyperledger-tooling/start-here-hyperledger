@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/117" class=".btn">#117</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/118" class=".btn">#118</a>
             </td>
             <td>
                 <b>
-                    Add support for optionally publishing token pools, interfaces, and APIs
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-01 15:14:25 +0000 UTC
+        Created At 2023-09-13 20:11:30 +0000 UTC
     </div>
 </div>
 

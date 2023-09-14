@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-samples/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/firefly-samples/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    Add token swap sample
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-samples
                 
             </td>
             <td>
-                This sample was demoed recently at a FireFly workshop. Adding it to the repository of samples so that other people can run it too.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 19:57:52 +0000 UTC
+        Created At 2023-09-13 20:27:48 +0000 UTC
     </div>
 </div>
 
