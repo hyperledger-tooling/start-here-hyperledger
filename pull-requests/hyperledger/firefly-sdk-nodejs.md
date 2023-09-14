@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    Add deployContract
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-22 02:36:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    Up package to v1.2.13 ready for release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-21 16:29:16 +0000 UTC
+        Created At 2023-09-13 19:18:45 +0000 UTC
     </div>
 </div>
 

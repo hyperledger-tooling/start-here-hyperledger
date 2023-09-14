@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/236" class=".btn">#236</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/237" class=".btn">#237</a>
             </td>
             <td>
                 <b>
-                    Added priv_call functionality to generated contract APIs
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                - Retain PrivacyGroupID together with other private transaction fields
-- Switch to priv_call when PrivacyGroupID is passed as query option
-- No  PrivacyGroupID generation from PrivateFrom and PrivateFor
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-02 11:57:54 +0000 UTC
+        Created At 2023-09-13 18:30:23 +0000 UTC
     </div>
 </div>
 

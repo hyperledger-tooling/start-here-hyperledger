@@ -31,7 +31,10 @@ permalink: /pull-requests/hyperledger/iroha
 
 <!-- Just describe what you did. -->
 
-<!-- Skip if the title of the PR is self-explanatory -->
+* replaced `VersionedCommittedBlock` with `VersionedSignedBlock`
+* improved block lifecycle and state transitions
+* introduced `BlockBuilder`
+* introduced `ProofBuilder`
 
 ### Linked issue
 

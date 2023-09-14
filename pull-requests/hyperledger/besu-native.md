@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/117" class=".btn">#117</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/118" class=".btn">#118</a>
             </td>
             <td>
                 <b>
-                    CodeQL fixes
+                    Add k1 normalize signatures method
                 </b>
             </td>
         </tr>
@@ -27,64 +27,12 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                Address CodeQL findings.
+                The normalize signatures method was missing in Java wrapper. It is needed so verify signatures can be used will all signatures. Without it only a subset of signatures are valid.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-15 20:36:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/116" class=".btn">#116</a>
-            </td>
-            <td>
-                <b>
-                    Prepare 0.8.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare 0.8.2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 16:37:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.8.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 0.8.1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-15 14:02:57 +0000 UTC
+        Created At 2023-09-13 20:52:16 +0000 UTC
     </div>
 </div>
 

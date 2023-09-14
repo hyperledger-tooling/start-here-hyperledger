@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/117" class=".btn">#117</a>
             </td>
             <td>
                 <b>
-                    Remove tx completion tracking
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                Fabric receipts are notified via golang channels, so no need to use the tracker to calculate receipt polling time
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-02 12:02:39 +0000 UTC
+        Created At 2023-09-13 19:55:15 +0000 UTC
     </div>
 </div>
 

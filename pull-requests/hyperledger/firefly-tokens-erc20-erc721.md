@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    Add /deactivatepool API for deleting listeners
+                    Update MAINTAINERS.md and CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-24 02:55:16 +0000 UTC
+        Created At 2023-09-13 20:09:53 +0000 UTC
     </div>
 </div>
 

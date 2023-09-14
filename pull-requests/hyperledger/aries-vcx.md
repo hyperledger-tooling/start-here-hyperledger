@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/977" class=".btn">#977</a>
+            </td>
+            <td>
+                <b>
+                    Add simple client implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Has majorly common code with mediator agent.
+It's in essence one hybrid, with code organized separately. 
+This is in anticipation of splitting client into separate binary.  
+
+Then again, Aries agents are meant to be horizontal (p2p). So perhaps a multifunctional agent isn't all that odd.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-13 23:52:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/976" class=".btn">#976</a>
             </td>
             <td>
