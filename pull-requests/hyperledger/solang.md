@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1527" class=".btn">#1527</a>
+            </td>
+            <td>
+                <b>
+                    Fix type(int256).min in comparisons
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When resolving comparisons, we don't know what the types of the operands are so we resolve with `ResolveTo::Unknown`. In this path, there is an mistake in the bounds check for negative integers.
+
+Fixes https://github.com/hyperledger/solang/issues/1523
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 12:00:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1522" class=".btn">#1522</a>
             </td>
             <td>
@@ -125,37 +153,6 @@ Example: `solang polkadot upload --suri //Alice --network rococo -x --output-jso
     </table>
     <div class="right-align">
         Created At 2023-09-07 19:40:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1516" class=".btn">#1516</a>
-            </td>
-            <td>
-                <b>
-                    Polkadot: Support errors according to `solc`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">polkadot</span>
-            </td>
-            <td>
-                Implement `Panic` and custom errors for the Polkadot target:
-- Allow catching `Panic` in sema
-- Allow custom errors in sema
-- Implement selector  calculation for custom errors
-- Refactor try-catch in codegen to allow catch clauses on `Panic` errors in
-- Add any custom errors in the metadata
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 08:48:57 +0000 UTC
     </div>
 </div>
 

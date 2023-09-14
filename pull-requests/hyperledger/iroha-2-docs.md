@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/407" class=".btn">#407</a>
+            </td>
+            <td>
+                <b>
+                    #406: Remove as Identifiable from examples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #406 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 08:26:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/405" class=".btn">#405</a>
             </td>
             <td>
@@ -163,58 +189,6 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </table>
     <div class="right-align">
         Created At 2023-09-07 13:49:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/394" class=".btn">#394</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: #391 Rust SDK: move the examples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Do not merge yet; depends on updates in the Iroha repo**
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 07:48:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/393" class=".btn">#393</a>
-            </td>
-            <td>
-                <b>
-                    #354: Fix output value
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #354 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 07:35:17 +0000 UTC
     </div>
 </div>
 

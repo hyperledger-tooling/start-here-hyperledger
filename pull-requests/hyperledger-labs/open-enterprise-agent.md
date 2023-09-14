@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/717" class=".btn">#717</a>
+            </td>
+            <td>
+                <b>
+                    fix: use postgres application user
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mercury</span><span class="chip">infra</span>
+            </td>
+            <td>
+                # Overview
+Enables support for *-application-users with multi-tenancy
+
+## Checklist
+
+### My PR contains...
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
+* [x] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [x] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 08:11:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/716" class=".btn">#716</a>
             </td>
             <td>
@@ -1276,171 +1327,6 @@ Fixes ATL-xxxx
     </table>
     <div class="right-align">
         Created At 2023-09-07 17:13:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/697" class=".btn">#697</a>
-            </td>
-            <td>
-                <b>
-                    feat: add security headers in helm-chart apisix route
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">infra</span>
-            </td>
-            <td>
-                # Overview
- 
-Configures APISIX routing and rewrite-response plugin to set effective security headers as well as a traceable request ID
-
-Completes ATL-5409 
-
- 
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [x] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 11:45:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/696" class=".btn">#696</a>
-            </td>
-            <td>
-                <b>
-                    feat(prism-agent): add multi-tenancy capability
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span><span class="chip">pollux</span><span class="chip">ci</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">shared</span><span class="chip">connect</span>
-            </td>
-            <td>
-                # Overview
-Merge the long-term multi-tenancy branch to the main branch
-Fixes [ATL-4091](https://input-output.atlassian.net/browse/ATL-4091)
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [x] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [x] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [x] My changes require a change to the project documentation
-* [x] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [x] My changes can and should be tested by unit and/or integration tests
-* [x] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-
-[ATL-4091]: https://input-output.atlassian.net/browse/ATL-4091?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 11:45:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/695" class=".btn">#695</a>
-            </td>
-            <td>
-                <b>
-                    feat: sync with the main branch + CredentialDefinition adoption for MT. Signed-off-by: Yurii Shynbuiev yurii.shynbuiev@iohk.io
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span><span class="chip">pollux</span><span class="chip">ci</span><span class="chip">mercury</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">connect</span>
-            </td>
-            <td>
-                # Overview
-merge the main into the mt branch
-adopt Credential Defition to MT
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 09:19:46 +0000 UTC
     </div>
 </div>
 

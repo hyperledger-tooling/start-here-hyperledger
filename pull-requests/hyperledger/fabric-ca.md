@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/372" class=".btn">#372</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/374" class=".btn">#374</a>
             </td>
             <td>
                 <b>
-                    Release commit for v1.5.7
+                    [WIP] Use bccsp instead of directly idemix
                 </b>
             </td>
         </tr>
@@ -27,97 +27,24 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Add release notes for v1.5.7.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-29 18:07:00 +0000 UTC
-    </div>
-</div>
+                Part I: Migration and tests in lib/server/idemix work.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/371" class=".btn">#371</a>
-            </td>
-            <td>
-                <b>
-                    Make the debug flag visible in --help and docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The -d flag is used by default in test/demo materials such as hyperledger/fabric-samples, so having the the flag be hidden from the documentation causes confusion. Remove 'hide'; add a warning for why users might not want to use it, since those drawbacks were probably the primary reason it was hidden before.
+fabric-ca's usage of the idemix package(s) is incorrect. Instead of relying on the bccsp abstraction, it makes direct use of the low-level API and so makes it hard to switch implementations.
 
-Also, fix doc gen error by escaping the invalid characters.
+#### Type of change
 
-Acknowledgement to @jkopczyn for originally submitting this improvement in #288 .
+Improvement (improvement to code, performance, etc)
+
+#### Description
+
+This PR switches to using idemix's bccsp abstraction.
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-29 17:23:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/370" class=".btn">#370</a>
-            </td>
-            <td>
-                <b>
-                    Bump fabric-ca-fvt from debian buster to bullseye
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump fabric-ca-fvt from debian buster to bullseye.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-29 16:12:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/369" class=".btn">#369</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.20.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.20.5.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-29 16:04:55 +0000 UTC
+        Created At 2023-09-14 07:51:36 +0000 UTC
     </div>
 </div>
 

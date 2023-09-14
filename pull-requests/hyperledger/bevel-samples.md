@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/44" class=".btn">#44</a>
+                PR <a href="https://github.com/hyperledger/bevel-samples/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Update actions to node 16
+                    Updated Quorum for latest Ambassador
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/bevel-samples
                 
             </td>
             <td>
-                <nil>
+                - Updated for Ambassador v3
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-25 15:14:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/42" class=".btn">#42</a>
-            </td>
-            <td>
-                <b>
-                    Update actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-08-25 13:23:00 +0000 UTC
+        Created At 2023-09-14 08:23:47 +0000 UTC
     </div>
 </div>
 
