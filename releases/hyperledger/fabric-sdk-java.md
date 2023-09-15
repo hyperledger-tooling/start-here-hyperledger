@@ -15,29 +15,31 @@ permalink: /releases/hyperledger/fabric-sdk-java
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.23
+                    v2.2.24
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.23
+                    v2.2.24
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update dependencies to address CVE-2023-2976 by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-java/pull/286
+* Update OpenTelemetry and SnakeYAML dependencies by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-java/pull/288, https://github.com/hyperledger/fabric-sdk-java/pull/289
+* Update dependencies to address CVE-2023-42503 by @dependabot in https://github.com/hyperledger/fabric-sdk-java/pull/290
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v2.2.22...v2.2.23
+
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v2.2.23...v2.2.24
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.23" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.24" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-02 07:09:35 +0000 UTC
+        Created At 2023-09-15 08:21:42 +0000 UTC
     </span>
 </div>
 
