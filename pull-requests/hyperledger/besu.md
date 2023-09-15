@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5885" class=".btn">#5885</a>
+            </td>
+            <td>
+                <b>
+                    RPC - Implement Debug trace call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">RPC</span>
+            </td>
+            <td>
+                ## PR description
+Implement Debug trace call
+
+## Fixed Issue(s)
+fix #5747
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 09:05:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5884" class=".btn">#5884</a>
             </td>
             <td>
@@ -388,40 +418,6 @@ Merge MutableAccount and EVMAccount functionalities by removing EVMAccount, all 
     </table>
     <div class="right-align">
         Created At 2023-09-08 23:13:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5861" class=".btn">#5861</a>
-            </td>
-            <td>
-                <b>
-                    Don't start BFT mining coordinators until initial sync has completed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR is a suggested approach to resolving the NPE described in issue https://github.com/hyperledger/besu/issues/5856 whereby a QBFT block expiry timer causes a null pointer if the QBFT node is still syncing with the rest of the chain with `--sync-mode=FAST` or `--sync-mode=X_SNAP`
-
-I have made the fix specific to BFT mining coordinators so that the behaviour of other consensus mining algorithms is unaffected by the change. I tested a lower-level fix to just for `null` in `TransactionPool.selectTransactions()` and that does indeed stop the NPE and allow the node to complete syncing successfully. However I have left the check out of this PR because it feels more appropriate to avoid any reason for trying to select transactions for a BFT miner that hasn't sync'd yet.
-
-I've noted that while this prevents the NPE for `--sync-mode=X_SNAP` and the sync appears to complete successfully, the node does not participate in BFT block validation or proposals. I think that's a separate issue, and I assume it hasn't worked before since the NPE would have been hit. I suspect a new issue should be opened for that to be looked at separately but I'll wait for the conclusion of this PR.
-
-## Fixed Issue(s)
-Fixes https://github.com/hyperledger/besu/issues/5856
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-08 08:24:37 +0000 UTC
     </div>
 </div>
 

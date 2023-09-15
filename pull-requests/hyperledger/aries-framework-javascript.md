@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1574" class=".btn">#1574</a>
+            </td>
+            <td>
+                <b>
+                    fix(cheqd): Changed the name formatting to a encoded hex value
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For more information about these changes, see: https://cheqd-community.slack.com/archives/C02AQ9UK4HY/p1693916571308369
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 10:30:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1573" class=".btn">#1573</a>
             </td>
             <td>

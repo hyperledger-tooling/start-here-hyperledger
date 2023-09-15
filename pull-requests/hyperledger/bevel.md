@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2369" class=".btn">#2369</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] Upgrade and Add support for Ambassador v3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add support for Ambassador v3 in Quorum
+- Remove constellation support
+- Update Quorum to latest 23.4.0 version
+- Remove support for older versions of Quorum and Besu
+- Update Vault-k8s-job to create Vault auth correctly
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 09:55:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2368" class=".btn">#2368</a>
             </td>
             <td>

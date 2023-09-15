@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/979" class=".btn">#979</a>
+            </td>
+            <td>
+                <b>
+                    Further integration test refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Groups tests based on tested scenarios.
+* Groups helper functions in `tests/scenarios` based on concern (connection, proof presentation, issuance).
+* Extracts schema / credential data hardcoded across tests into one place.
+* Multiple presentation generation tests (`test_agency_pool_proof_should_be_validated`, `test_agency_pool_generate_self_attested_proof`, `test_agency_pool_generate_proof_with_predicates`) were joined into one (`test_agency_pool_generate_proof`), adds generated proof verification.
+* Many smaller tweaks and renames.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 09:32:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/978" class=".btn">#978</a>
             </td>
             <td>
@@ -148,43 +178,6 @@ Then again, Aries agents are meant to be horizontal (p2p). So perhaps a multifun
     </table>
     <div class="right-align">
         Created At 2023-09-11 18:23:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/972" class=".btn">#972</a>
-            </td>
-            <td>
-                <b>
-                    Feature/msg builders
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR introduces message builders through the `typed-builder` crate. The builder are based on the typestate pattern, but the crate is (at least advertised) to be fully compatible/replaceable by the `derive-builder` trait, which is using runtime construction of the type and allows for more flexibility (like passing builders around).
-
-The `typestate` vs `runtime construction` decision will essentially depend on whether consumers want/need to build messages themselves and how convoluted these processes usually get. We don't really have to decide now, but it's a good thing to consider in the future.
-
-For consistency reasons even some single fielded protocol specific messages contents implement builders, so that it is convenient, uniform and easy to know how one would go about composing a message.
-
-There are some inner types which also implement the builders, yet for some types it is indeed quite the overkill (like `CredentialPreview`). I might revisit such types and just implement plain old `new()` constructors.
-
-Another change that this PR brings is a uniformization of the `Invitation` message from the `Connection` protocol, so that the same decorators are used regardless of invitation type. The rationale is that it's much easier to reason with the invitation this way and since the protocol is old and won't be suffering changes it should be fine to simply deal with it like this.
-
-Also, this addresses #949 .
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-08 12:08:12 +0000 UTC
     </div>
 </div>
 

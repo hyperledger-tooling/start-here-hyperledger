@@ -65,6 +65,7 @@ Original PR:
 
 - [ ] Tech writers review
 - [ ] Make a note about migration ([context](https://github.com/hyperledger/iroha/pull/3795#discussion_r1319702299))
+- [ ] Address handling of dev-related fields ([context](https://github.com/hyperledger/iroha-rfcs/pull/3#issuecomment-1715540646))
             </td>
         </tr>
     </table>
