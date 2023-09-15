@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
             </td>
             <td>
                 <b>
-                    Hyperledger Agora Lab
+                    Agora, a Hyperledger Lab
                 </b>
             </td>
         </tr>
