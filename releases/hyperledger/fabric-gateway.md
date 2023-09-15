@@ -28,7 +28,6 @@ permalink: /releases/hyperledger/fabric-gateway
             <td>
                 ## What's Changed
 * Support Go 1.21 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/619
-* Support Node 20 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/621
 * Fix Node API failure on s390x (big-endian) systems by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/629
 
 
