@@ -14,11 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5884" class=".btn">#5884</a>
+            </td>
+            <td>
+                <b>
+                    EIP7516 - Add BlobBaseFee opcode to Cancun EVM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add BLOBBASEFEE to Cancun EVM
+
+## Fixed Issue(s)
+fixes #5869 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 05:59:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5883" class=".btn">#5883</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] test RLP used for encode/decode blob tx should contain to field
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `to` field cannot be empty for blob tx so it doesn't make sense to check encoding / decoding without this
+
+However that field being absent doesn't fail the tests because this is checked in the transaction validation -   https://github.com/hyperledger/besu/blob/4b2ef689c1f64e3fdb293dec826af1ad57e54fca/ethereum/core/src/main/java/org/hyperledger/besu/ethereum/mainnet/MainnetTransactionValidator.java#L299
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 02:49:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5882" class=".btn">#5882</a>
             </td>
             <td>
                 <b>
-                    set correct address and modulus for beacon root
+                    [DO NOT MERGE] devnet8: correct address and modulus for beacon root
                 </b>
             </td>
         </tr>
