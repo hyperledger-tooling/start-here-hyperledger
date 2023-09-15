@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2692" class=".btn">#2692</a>
+            </td>
+            <td>
+                <b>
+                    docs(weaver): tutorial documentation updates and additions of license declarations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fixed various links, path names, and package names, and corrected typos, in the Weaver tutorial documents. This was done after following the instructions outlined in the docs to manually run sample applications.
+- Added Apache-2 license declarations to various source files in the `weaver` folder where they were missing. The main `weaver` folder already contains a `LICENSE.md` file, so this just covers all of our bases.
+- Updated README instructions in various folders, wherever they were out of date.
+- Updated version numbers in some template configuration files to `2.0.0-alpha.1`.
+
+There is no code change in this PR. Just changes in Markdown files and addition of comments to source files.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 14:45:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2690" class=".btn">#2690</a>
             </td>
             <td>

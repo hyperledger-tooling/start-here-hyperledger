@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/980" class=".btn">#980</a>
+            </td>
+            <td>
+                <b>
+                    add cargo ndk build script for uniffi
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Credits to @gmulhearn  for simplifying the build process by using cargo-ndk. This PR integrates those changes and adds relevant documentation. 
+Note:
+The "other" scripts will be untracked once work on CI (UniFFI) is finished.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 13:16:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/979" class=".btn">#979</a>
             </td>
             <td>
