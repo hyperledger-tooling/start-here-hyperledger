@@ -191,17 +191,75 @@ Updates docs with the latest release of cloud agent
 
 Fixes [ATL-5552](https://input-output.atlassian.net/browse/ATL-5552)
 
+- `present_proof_flow_prover_presentation_pending_to_generated_ms_gauge`
+    - the number of milliseconds it takes for a prover to move a status of a presentation from pending to generated
+- `present_proof_flow_verifier_req_pending_to_sent_ms_gauge`
+    - the number of milliseconds it takes for a verifier to move a status of a presentation request from pending to sent.
+- `present_proof_flow_prover_presentation_generated_to_sent_ms_gauge`
+    - the number of milliseconds it takes for a prover to move a status of a presentation from generated to sent
+- `present_proof_flow_verifier_presentation_received_to_verification_success_or_failure_ms_gauge`
+    - the number of milliseconds it takes for a verifier to move a status of a received presentation from received to either verified or verification failed
+- `present_proof_flow_verifier_request_pending_to_sent_success_counter`
+    - the number of times the flow (background job) of the verifier converting a presentation request from pending to sent succeeded
+- `present_proof_flow_verifier_request_pending_to_sent_failed_counter`
+    - the number of times the flow (background job) of the verifier converting a presentation request from pending to sent failed
+- `present_proof_flow_verifier_request_pending_to_sent_all_counter`
+    - the number of times the flow (background job) of the verifier converting a presentation request from pending to sent ran in total
+- `present_proof_flow_prover_presentation_pending_to_generated_success_counter`
+    - the number of times the flow (background job) of the prover converting a presentation from pending to generated succeeded
+- `present_proof_flow_prover_presentation_pending_to_generated_failed_counter`
+    - the number of times the flow (background job) of the prover converting a presentation from pending to generated failed
+- `present_proof_flow_prover_presentation_pending_to_generated_all_counter`
+    - the number of times the flow (background job) of the prover converting a presentation from pending to generated ran in total
+- `present_proof_flow_prover_presentation_generated_to_sent_success_counter`
+    - the number of times the flow (background job) of the prover converting a presentation from generated to sent succeeded
+- `present_proof_flow_prover_presentation_generated_to_sent_failed_counter`
+    - the number of times the flow (background job) of the prover converting a presentation from generated to sent failed
+- `present_proof_flow_prover_presentation_generated_to_sent_all_counter`
+    - the number of times the flow (background job) of the prover converting a presentation from generated to sent ran in total
+- `present_proof_flow_verifier_presentation_received_to_verification_success_or_failure_success_counter`
+    - the number of times the flow (background job) of the verifier converting a presentation from received to either verified or verification failed has succeeded
+- `present_proof_flow_verifier_presentation_received_to_verification_success_or_failure_failed_counter`
+    - the number of times the flow (background job) of the verifier converting a presentation from received to either verified or verification failed has failed
+- `present_proof_flow_verifier_presentation_received_to_verification_success_or_failure_all_counter`
+    - the number of times the flow (background job) of the verifier converting a presentation from received to either verified or verification failed has ran in total
+- `present_proof_flow_verifier_send_presentation_request_msg_success_counter`
+    - the number of times verifier has successfully sent a presentation request message to prover
+- `present_proof_flow_verifier_send_presentation_request_msg_failed_counter`
+    - the number of times verifier has failed at sending a presentation request message to prover
+- `present_proof_flow_prover_send_presentation_msg_success_counter`
+    - he number of times prover has successfully sent a presentation message to verifier
+- `present_proof_flow_prover_send_presentation_msg_failed_counter`
+    - the number of times prover has failed at sending a presentation message to verifier
+- `present_proof_flow_verifier_send_presentation_request_msg_ms_gauge`
+    - the number of milliseconds it takes for a verifier to send a presentation request message to a prover
+- `present_proof_flow_verifier_req_pending_to_sent_flow_ms_gauge`
+    - the number of milliseconds it takes to complete a flow (background job) of the verifier moving a presentation request from pending to sent
+- `present_proof_flow_prover_presentation_pending_to_generated_flow_ms_gauge`
+    - the number of milliseconds it takes for a prover to complete a flow (background job) of presentation from pending to generated.
+- `present_proof_flow_prover_send_presentation_msg_ms_gauge`
+    - the number of milliseconds it takes for a prover to send a presentation message to a verifier
+- `present_proof_flow_prover_presentation_generated_to_sent_flow_ms_gauge`
+    - the number of milliseconds it takes for a prover to complete a flow (background job) of a presentation from generated to sent
+- `present_proof_flow_verifier_presentation_received_to_verification_success_or_failure_flow_ms_gauge`
+    - the number of milliseconds it takes for a verifier to move a presentation from received to processed (either successfully verified or failed at verification) flow to complete
+- `issuance_flow_did_com_exchange_job_ms_gauge`
+    - Issuance flow did-com exchange job running length in milliseconds
+- `present_proof_flow_did_com_exchange_job_ms_gauge`
+    - present proof flow did-com exchange job running length in milliseconds
+- `connection_flow_did_com_exchange_job_ms_gauge`
+    - connection flow did-com exchange job running length in milliseconds
 ## Checklist
 
 ### My PR contains...
 * [ ] No code changes (changes to documentation, CI, metadata, etc.)
 * [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
+* [x] Improvements (misc. changes to existing features)
 * [ ] Features (non-breaking change which adds functionality)
 
 ### My changes...
 * [ ] are breaking changes
-* [ ] are not breaking changes
+* [x] are not breaking changes
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Documentation
@@ -210,7 +268,7 @@ Fixes [ATL-5552](https://input-output.atlassian.net/browse/ATL-5552)
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Tests
-* [ ] My changes can not or do not need to be tested
+* [x] My changes can not or do not need to be tested
 * [ ] My changes can and should be tested by unit and/or integration tests
 * [ ] If yes to above: I have added tests to cover my changes
 * [ ] If yes to above: I have taken care to cover edge cases in my tests

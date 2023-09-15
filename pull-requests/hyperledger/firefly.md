@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1401" class=".btn">#1401</a>
+            </td>
+            <td>
+                <b>
+                    Fix SQL migration conflict and coverage gaps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We had two PRs get merged separately that used the same migration number. This PR also fixes two small gaps in unit test coverage.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 20:04:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1400" class=".btn">#1400</a>
             </td>
             <td>

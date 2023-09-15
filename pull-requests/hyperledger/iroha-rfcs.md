@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/4" class=".btn">#4</a>
+            </td>
+            <td>
+                <b>
+                    Add MAINTAINERS.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Please review and add the list of maintainers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 18:28:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/3" class=".btn">#3</a>
             </td>
             <td>

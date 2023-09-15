@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-ios
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-ios/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger/iroha-ios/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    WebSockets support
+                    Add MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -27,22 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-ios
                 
             </td>
             <td>
-                Updated schema
-
-Updated codegen to support fixed size array
-Fixed custom tuple structures writing to the destination
-
-Upgraded API client to properly work with Iroha2 websocket gateway
-
-Added tests for fixed size arrays
-Added tests for multiple websocket connections in parallel, and receiving events from websocket connection
-
-Signed-off-by: Alex Oakley <oakley@soramitsu.co.jp>
+                Please review and add this list of maintainers.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-17 14:41:22 +0000 UTC
+        Created At 2023-09-14 18:38:40 +0000 UTC
     </div>
 </div>
 

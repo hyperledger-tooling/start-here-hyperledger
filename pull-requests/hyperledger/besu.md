@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5882" class=".btn">#5882</a>
+            </td>
+            <td>
+                <b>
+                    set correct address and modulus for beacon root
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Do not merge. This is a short time brach for devnet 8.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 23:28:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5880" class=".btn">#5880</a>
             </td>
             <td>
@@ -27,14 +54,7 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+                Filter peer collection by those ready for connection. 
             </td>
         </tr>
     </table>
@@ -57,7 +77,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -342,40 +362,6 @@ Fixes https://github.com/hyperledger/besu/issues/5856
     </table>
     <div class="right-align">
         Created At 2023-09-08 08:24:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5860" class=".btn">#5860</a>
-            </td>
-            <td>
-                <b>
-                    Move to Hyperledger large runners for current github actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Use the -8 and -16 large runners from HL org for the current github actions
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 20:02:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/196" class=".btn">#196</a>
+            </td>
+            <td>
+                <b>
+                    Feature/pin update test dev
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a suite of test scenarios for Change PIN in BC Wallet. It tests the Acceptance Criteria to Change a PIN and also goes through the error cases that are done on the PIN create functionality to make sure they behave the same here. 
+
+Also slipped in here is a fix to a "magic number" that is a separator used for devices that swipe down for control panel and  devices that swipe up for control panel.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 20:23:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/195" class=".btn">#195</a>
             </td>
             <td>
