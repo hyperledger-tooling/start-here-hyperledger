@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/397" class=".btn">#397</a>
-            </td>
-            <td>
-                <b>
-                    [docs]: New configuration reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related issue: #392 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-08 11:13:45 +0000 UTC
-    </div>
-</div>
-
