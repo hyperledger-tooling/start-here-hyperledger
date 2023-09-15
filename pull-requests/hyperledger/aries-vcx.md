@@ -214,29 +214,3 @@ Also, this addresses #949 .
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/970" class=".btn">#970</a>
-            </td>
-            <td>
-                <b>
-                    Uniffi simple message relay
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 18:56:06 +0000 UTC
-    </div>
-</div>
-

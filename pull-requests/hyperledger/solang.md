@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1531" class=".btn">#1531</a>
+            </td>
+            <td>
+                <b>
+                    Verify account space specified in annotation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-14 22:35:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1530" class=".btn">#1530</a>
             </td>
             <td>
@@ -210,32 +236,6 @@ Example: `solang polkadot upload --suri //Alice --network rococo -x --output-jso
     </table>
     <div class="right-align">
         Created At 2023-09-10 10:15:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1517" class=".btn">#1517</a>
-            </td>
-            <td>
-                <b>
-                    New syntax for contracts on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">solana</span>
-            </td>
-            <td>
-                Now that we represent contracts by their program id on Solana, we decided to elaborate a new syntax to handle them. Contracts cannot be a type in Solidity, consequently, they cannot be function arguments, function returns nor variables.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-07 19:40:39 +0000 UTC
     </div>
 </div>
 

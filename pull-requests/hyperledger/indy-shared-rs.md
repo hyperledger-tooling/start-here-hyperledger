@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Address #38 by loosening x25519-dalek dependency to 1.1
+                    Update version
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                Please see https://github.com/hyperledger/indy-shared-rs/issues/38 for rationale
-
-Closes #38 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-07 01:48:47 +0000 UTC
+        Created At 2023-09-14 19:45:46 +0000 UTC
     </div>
 </div>
 
