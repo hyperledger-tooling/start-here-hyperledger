@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1539" class=".btn">#1539</a>
+            </td>
+            <td>
+                <b>
+                    solc allows @param tag for return values
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @return should be used, warn about this.
+
+https://github.com/hyperledger/solang/issues/1533
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-16 09:40:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1531" class=".btn">#1531</a>
             </td>
             <td>
