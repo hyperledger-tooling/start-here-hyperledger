@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Hyperledger AnonCreds Proposal
+                    Add FireFly Graduation Proposal
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                This PR is the proposal to move Hyperledger FireFly to a Graduated Project. I am happy to discuss the proposal, or answer any questions the TOC or other community members may have here in the PR or on a call. Thanks!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-17 20:37:23 +0000 UTC
+        Created At 2023-09-15 19:12:07 +0000 UTC
     </div>
 </div>
 
