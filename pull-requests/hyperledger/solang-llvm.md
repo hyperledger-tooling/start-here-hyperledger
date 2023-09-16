@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    Use rust 1.70
+                    Add maintainers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang-llvm
                 
             </td>
             <td>
-                See https://github.com/hyperledger/solang/pull/1506
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-25 09:22:02 +0000 UTC
+        Created At 2023-09-15 20:06:15 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-substrate-ci
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-substrate-ci/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger/solang-substrate-ci/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    Fix License
+                    Add maintainers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang-substrate-ci
                 
             </td>
             <td>
-                fixes #1 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-06 14:43:18 +0000 UTC
+        Created At 2023-09-15 20:08:20 +0000 UTC
     </div>
 </div>
 

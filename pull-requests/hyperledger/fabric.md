@@ -34,6 +34,8 @@ permalink: /pull-requests/hyperledger/fabric
 #### Description
 
 I've fixed 4 diagrams on network page in documentation based on @satota2's suggestion.
+
+Resolves #4436.
             </td>
         </tr>
     </table>

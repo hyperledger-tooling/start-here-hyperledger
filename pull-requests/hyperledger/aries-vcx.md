@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/982" class=".btn">#982</a>
+            </td>
+            <td>
+                <b>
+                    Implement encrypt_message for Connections with counterparty DidDoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 23:10:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/981" class=".btn">#981</a>
+            </td>
+            <td>
+                <b>
+                    Minimize dependency on tokio
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addressing https://github.com/hyperledger/aries-vcx/issues/947
+
+- In `aries_vcx`, swapped tokio async sleeps for std blocking sleeps. This is okay because the sleep are only in test setup code, and these we run tests in single thread. If we gain capability to run tests in parallel, with a bit of effort, this can easily be update back to tokio sleeps (just need to properly feature flag the test setup code, which isn't the case today)
+
+- in `aries_vcx_core`, swapped Mutex around cache for std lock. There was no need for tokio mutex, as the locks are not held across an await point
+- in `aris_vcx_core`, the tokio import dependency is still declared, but limited to `sync` feature (for `upshot` module use by indy client implementations (`indy_vdr` tools internals require passing callbacks, not sure how difficult would those be to convert to async functions instead ) )
+
+There's no changes visible to lock file because we declare dependency on tokio in other workspace projects (like uniffi, libvcx), but in external projects consuming `aries-vcx`, this should trim dependency tree (and likelyhood of dependency conflicts)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-15 22:41:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/980" class=".btn">#980</a>
             </td>
             <td>
