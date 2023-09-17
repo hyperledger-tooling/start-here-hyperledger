@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                yet to be polished up 
             </td>
         </tr>
     </table>

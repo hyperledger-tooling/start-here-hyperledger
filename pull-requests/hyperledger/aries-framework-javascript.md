@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1576" class=".btn">#1576</a>
+            </td>
+            <td>
+                <b>
+                    feat: Discover Features V2 over DIDComm V2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Discover Features 2.0 is one of those protocols that are suitable for both DIDComm V1 and V2. However, this becomes a bit complicated because current AFJ model considers that a given message type is defined for either V1 or V2.
+
+So after an interesting discussion in a previous AFJ WG Call, we found out that we can leave each protocol determine which versions it supports and register both models into the `MessageHandlerRegistry`, which will now allow to filter not only by message type (PIURI) but also by DIDComm version.
+
+In this PR we have:
+- Different fixes and adaptations for DIDComm V2 (like attachment transformers, message handling, etc.) found during the work of other PRs (#1546 and #1560). This would make this PR to be the basis of those, which will hopefully only add new protocols and make their review easier
+- New handling of received messages in `MessageReceiver` and `Dispatcher` to figure out whether it is a DIDComm V1 or V2 message and find the right class and handler
+- Updates in Discover Features module to add DIDComm V2 modeling for Query and Disclosure messages, and register/process both in a single handler and service
+- There are some slight API changes, like the return types and events, due to messages can be now either be DIDComm V1 or V2. I think in the next major release (before merging DIDComm V2 to main) we can remove the complete message object from the event, as the relevant fields are sent as separate properties (and in case we want to go low level and get the complete message we can subscribe  to `AgentMessageProcessedEvent`)
+- Discover Features V2 E2E test has been updated to work in both DIDComm V1 and V2. This makes it to require Askar. As we'll switch soon our tests to node 18 + shared components I guess there is no problem on that
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-16 18:39:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1575" class=".btn">#1575</a>
             </td>
             <td>
