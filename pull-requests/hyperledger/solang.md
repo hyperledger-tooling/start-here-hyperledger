@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1543" class=".btn">#1543</a>
+            </td>
+            <td>
+                <b>
+                    Add ecrecover() builtin for EVM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/solang/issues/1536
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 16:32:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1542" class=".btn">#1542</a>
+            </td>
+            <td>
+                <b>
+                    Solana: Implement a CLI Command for Program Deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description:
+This pull request implements `solang solana deploy` command
+
+
+Example: 
+```bash
+solang solana deploy --output-json flipper.so
+```
+
+### Checklist
+- [x] Tested the new commands using a shell script `integration/solana/cli_test.sh`
+- [x] Added documentation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 15:17:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1541" class=".btn">#1541</a>
             </td>
             <td>
