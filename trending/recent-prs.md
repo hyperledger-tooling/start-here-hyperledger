@@ -1,13 +1,13 @@
 
-[84](https://github.com/hyperledger/fabric-chaincode-go/pull/84) Resolves #80, Bumped fabric-proto-go to fabric-protos-go-apiv2
+[685](https://github.com/hyperledger/fabric-sdk-node/pull/685) Release v2.2.19
 
-[1541](https://github.com/hyperledger/solang/pull/1541) Format source code
+[1543](https://github.com/hyperledger/solang/pull/1543) Add ecrecover() builtin for EVM
 
-[1540](https://github.com/hyperledger/solang/pull/1540) Implement Go To Declaration
+[1402](https://github.com/hyperledger/firefly/pull/1402) Tezos plugin support
 
-[2694](https://github.com/hyperledger/cacti/pull/2694) build(deps-dev): bump protobufjs from 6.11.3 to 6.11.4 in /weaver/samples/fabric/fabric-cli
+[1542](https://github.com/hyperledger/solang/pull/1542) Solana: Implement a CLI Command for Program Deployment
 
-[1576](https://github.com/hyperledger/aries-framework-javascript/pull/1576) feat: Discover Features V2 over DIDComm V2
+[2458](https://github.com/hyperledger/sawtooth-core/pull/2458) fix(commit_store): fix bug in `get_batch_by_transaction`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

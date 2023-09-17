@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1402" class=".btn">#1402</a>
+            </td>
+            <td>
+                <b>
+                    Tezos plugin support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An additional FF core plugin with Tezos chain support, which utilizes recently created tezos connector.
+https://github.com/hyperledger/firefly-tezosconnect
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 15:18:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1401" class=".btn">#1401</a>
             </td>
             <td>
