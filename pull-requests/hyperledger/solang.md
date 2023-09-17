@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1541" class=".btn">#1541</a>
+            </td>
+            <td>
+                <b>
+                    Format source code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This feature is enabled with the help of  [forge-fmt](https://github.com/foundry-rs/foundry/tree/master/crates/fmt). 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 04:46:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1540" class=".btn">#1540</a>
+            </td>
+            <td>
+                <b>
+                    Implement Go To Declaration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                -  gives a list of contract methods that the given contract method overrides.
+-  only returns the methods belonging to the immediate parent contracts.
+-  handles multiple inheritance.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 02:20:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1539" class=".btn">#1539</a>
             </td>
             <td>

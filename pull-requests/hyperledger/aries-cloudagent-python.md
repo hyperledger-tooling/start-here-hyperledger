@@ -81,29 +81,3 @@ This PR addresses an issue with the documentation discovered here; https://githu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2490" class=".btn">#2490</a>
-            </td>
-            <td>
-                <b>
-                    Issue #2488 KeyError raised when Subject ID is not a URI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed from `value`, which may or may not be a list, to `subject`, derived from `subjects` which is always a list.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-10 06:03:15 +0000 UTC
-    </div>
-</div>
-

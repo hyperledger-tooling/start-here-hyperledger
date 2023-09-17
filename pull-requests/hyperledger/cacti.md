@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2694" class=".btn">#2694</a>
+            </td>
+            <td>
+                <b>
+                    build(deps-dev): bump protobufjs from 6.11.3 to 6.11.4 in /weaver/samples/fabric/fabric-cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [protobufjs](https://github.com/protobufjs/protobuf.js) from 6.11.3 to 6.11.4.
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/protobufjs/protobuf.js/commits">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=protobufjs&package-manager=npm_and_yarn&previous-version=6.11.3&new-version=6.11.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cacti/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 01:29:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2692" class=".btn">#2692</a>
             </td>
             <td>
@@ -187,180 +250,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2023-09-10 18:14:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2673" class=".btn">#2673</a>
-            </td>
-            <td>
-                <b>
-                    test(cmd-api-server): fix CVE-2023-37903 - vm2 Sandbox Escape vulnerability
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There is no fix for the vm2 package's vulnerability and it is also no longer
-maintained so a fix is not coming either.
-Based on this and the fact that artillery's newer updates also did not
-move away from using vm2 (as a transitive dependency) it is best to
-just delete the artillery based benchmark for now. The longer term
-and more robust solution is probably to have JMeter tests defined.
-The downside of this is that it is harder to maintain them because
-it's not NodeJS/Typescript technology stack but we already suffer
-from this due to needing the JVM for Corda development tasks
-therefore it is not as big of an overhead as it seems.
-
-https://github.com/hyperledger/cacti/issues/2672
-
-Fixes #2671
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-10 05:21:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2670" class=".btn">#2670</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): fix Mongoose Prototype Pollution vulnerability
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Both mongoose and the mongodb NodeJS driver dependency appeared to be
-completely unused so instead of upgrading I just removed them.
-
-Fixes #2669
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-10 04:55:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2668" class=".btn">#2668</a>
-            </td>
-            <td>
-                <b>
-                    docs(example-cbdc-bridging-backend): fix CVE-2020-36632
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Upgraded hardhat to newer versions which don't depend on flat at all.
-
-Fixes #2667
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-10 04:24:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2666" class=".btn">#2666</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): fix CVE-2022-37601 - upgrade to Angular v16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The new versions allow for loader-utils to be upgraded to non-vulnerable
-versions so these are now fixed:
-
-CVE ID: CVE-2022-37601
-GHSA ID: GHSA-76p3-8jx3-jpfq
-
-https://github.com/hyperledger/cacti/security/dependabot/257
-https://github.com/advisories/GHSA-76p3-8jx3-jpfq
-
-Fixes #2665
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-10 03:58:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2664" class=".btn">#2664</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): upgrade @lerna-lite/* to v2.5.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In addition to the @lerna-lite upgrade:
-1. Also upgraded @commitlint/* to the current latest
-2. Deleted some npm scripts that were not used anymore.
-3. The canary publish script no longer run the CI (it was a huge overhead)
-
-Fixes #2663
-
-[skip ci]
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-10 03:06:35 +0000 UTC
     </div>
 </div>
 
