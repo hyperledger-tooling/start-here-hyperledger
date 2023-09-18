@@ -51,33 +51,3 @@ FYI @Jsyro this has ties back to updating the DIDs associated with connections t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2491" class=".btn">#2491</a>
-            </td>
-            <td>
-                <b>
-                    Update steps for Manually Creating Revocation Registries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Add critical missing step.
-
-------------
-
-This PR addresses an issue with the documentation discovered here; https://github.com/bcgov/DITP-DevOps/issues/109#issuecomment-1713894110
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 14:11:23 +0000 UTC
-    </div>
-</div>
-

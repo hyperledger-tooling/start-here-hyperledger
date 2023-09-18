@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1086" class=".btn">#1086</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1088" class=".btn">#1088</a>
             </td>
             <td>
                 <b>
-                    Update TypeScript HSM sample application
+                    add a retry to the test-network ccaas chaincode init command
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                - Update to Node 16.
-- Simplify SKI code using Node standard packages and avoiding use of jsrsasign.
+                Without this, the init command fails if the chaincode container is not ready.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-07 16:29:09 +0000 UTC
+        Created At 2023-09-18 14:31:33 +0000 UTC
     </div>
 </div>
 

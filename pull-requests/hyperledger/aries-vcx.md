@@ -56,7 +56,11 @@ Merge after #970
             <td>
                 * Splits test helper functions doing multiple distinct operations and returning many-valued tuples into small, reusable functions returning objects
 * Moves ledger tests from `aries_vcx/src/common/primitives/mod.rs` and `aries_vcx/src/common/primitives/revocation_registry_delta.rs` to `tests/test_pool.rs`.
-* Localizes test helper functions like `create_indy_proof` which ended up used in one test suite. 
+* Localizes test helper functions like `create_indy_proof` which ended up used in one test suite.
+* Leaves only generic test helpers in `aries_vcx/src/common/test_utils.rs`.
+* Issuance and presentation test helpers are strictly accepting concrete message types instead of generic `AriesMessage` (without implementing message-specific methods on issuance and presentation handlers, which can be done separately).
+
+Although further test refactoring is warranted, the aim of this PR is to focus on integration tests (only those in `aries_vcx/tests/`).
             </td>
         </tr>
     </table>

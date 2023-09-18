@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/104" class=".btn">#104</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    Update besu homebrew to 23.7.2
+                    Add evmtool
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                update homebrew to 23.7.2
+                Add evmtool to the homebrew deploy
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-06 08:23:22 +0000 UTC
+        Created At 2023-09-18 16:27:28 +0000 UTC
     </div>
 </div>
 

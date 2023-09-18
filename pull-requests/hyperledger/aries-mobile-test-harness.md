@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/197" class=".btn">#197</a>
+            </td>
+            <td>
+                <b>
+                    BCW fixed Give Feedback test for android
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There was an issue with the BC Wallet tests where getting the EXIT locator on the feedback entry page was not locatable by the Accessibility id of EXIT on Android as it is on iOS. Changed the Android locator to XPATH with text of EXIT.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 13:43:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/196" class=".btn">#196</a>
             </td>
             <td>
