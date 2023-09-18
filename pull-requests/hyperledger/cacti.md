@@ -14,6 +14,160 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2699" class=".btn">#2699</a>
+            </td>
+            <td>
+                <b>
+                    docs(whitepaper): temporarily remove whitepaper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Removes all the contents except for the document title
+2. Updates the version to v2.0
+3. Updates the Hyperledger Foundation logo to the current latest as of 2023
+4. Adds a disclaimer about the fact that the whitepaper is
+being re-worked and where to find the old version.
+
+Related to, but does not conclude the work of #2691
+
+[skip ci]
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 23:54:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2698" class=".btn">#2698</a>
+            </td>
+            <td>
+                <b>
+                    style: fix unexpected any linter warnings in extendWithT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Used the suggester Record<string, unknown> to replace any
+
+Closes: #2675
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 23:01:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2697" class=".btn">#2697</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix linter warning in CreateCorsMiddleware
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Imported CorsOptionsDelegate and CorsRequest and typed corsOptionsDelegate to it
+
+Closes: #2674
+
+Possibly not a chore, but a style issue
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 22:27:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2696" class=".btn">#2696</a>
+            </td>
+            <td>
+                <b>
+                    style: fix unexpected any linter w in startCockpitFileServer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The linter warning for unexpected any was fixed with Record<string, unknown>
+
+Closes: #2677
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 21:41:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2695" class=".btn">#2695</a>
+            </td>
+            <td>
+                <b>
+                    style: fixes Unexpected any linter W in getHelpText()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The linter warning was fixed with Record<string, unknown> and the types inside the function have been corrected.
+The other 7 lines are just linter-errors for empty spaces, that where corrected, although that was not part of the issue, i hope it was ok.
+
+[skip-ci]
+
+Closes: #2678
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 19:55:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2692" class=".btn">#2692</a>
             </td>
             <td>
