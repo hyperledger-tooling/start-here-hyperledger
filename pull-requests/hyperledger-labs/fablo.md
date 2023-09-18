@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/412" class=".btn">#412</a>
+            </td>
+            <td>
+                <b>
+                    Implemented use of generators for functions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enhancement for issue #390 
+With this PR, we can now use generators for functions to create a consistent API for the recently added `chaincode invoke command`
+This is the first implementation for non-TLS
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-17 20:58:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fablo/pull/411" class=".btn">#411</a>
             </td>
             <td>
