@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4444" class=".btn">#4444</a>
+            </td>
+            <td>
+                <b>
+                    Use golang 1.21.1 to fix vulnerabilities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: I62c42a07bc4577e4c734a674878f0fe11a517edf
+
+This patchset upgrade Go version from Go 1.20.7 to 1.21.1.
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+There are two vulnerabilities in Go 1.20: GO-2023-2041 and GO-2023-2043,
+      which exist in package html/template and are used in
+      core/middleware.
+
+The vulnerabilities are fixed in Go 1.21.1.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 05:15:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4441" class=".btn">#4441</a>
             </td>
             <td>
@@ -107,33 +159,6 @@ But a test that showed this error would be nice to add.
     </table>
     <div class="right-align">
         Created At 2023-09-11 17:28:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4437" class=".btn">#4437</a>
-            </td>
-            <td>
-                <b>
-                    add channel to log and refactor code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Delivery is done within a channel. 
-In the logs in these places it is very lacking to specify for which channel the delivery is done 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 04:45:49 +0000 UTC
     </div>
 </div>
 

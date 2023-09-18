@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2704" class=".btn">#2704</a>
+            </td>
+            <td>
+                <b>
+                    build(setup): remove install-yarn and document new yarn setup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [skip ci]
+
+Fixes #2582
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 03:33:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2703" class=".btn">#2703</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): set openapi.json versions to v2.0.0-alpha.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Ran the bump script to set all the versions to v2.0.0-alpha.1
+2. Ran `yarn codegen` to update the generated code based on the updated
+versions (bumps the version in the docs, code comments etc.)
+
+[skip ci]
+
+Fixes #2702
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 02:09:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2699" class=".btn">#2699</a>
             </td>
             <td>
@@ -65,6 +129,8 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             <td>
                 Used the suggester Record<string, unknown> to replace any
 
+[skip ci]
+
 Closes: #2675
             </td>
         </tr>
@@ -96,6 +162,8 @@ Closes: #2675
 Closes: #2674
 
 Possibly not a chore, but a style issue
+
+[skip ci]
             </td>
         </tr>
     </table>
@@ -122,6 +190,8 @@ Possibly not a chore, but a style issue
             </td>
             <td>
                 The linter warning for unexpected any was fixed with Record<string, unknown>
+
+[skip ci]
 
 Closes: #2677
 

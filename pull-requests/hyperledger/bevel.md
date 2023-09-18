@@ -69,7 +69,7 @@ Changes:
  • The Prometheus code has been migrated to the setup-k8s-environment.yaml playbook in the shared platform.
  • Unwanted variables have been removed from the Prometheus Ansible role.
  • The Prometheus code has been modified to first fetch all the targets from different organizations and then deploy Prometheus in the default namespace with the same fetched targets.
- • Introduced "prometheus-routing.tpl" file to create Ambassador roting rules dynamically for prometheus server.
+ • Introduced "prometheus-routing.tpl" file to create Ambassador routing rules dynamically for the Prometheus server.
 
 Benefits:
  • This feature reduces the complexity of managing Prometheus by eliminating the need to deploy separate Prometheus servers for each organization.
