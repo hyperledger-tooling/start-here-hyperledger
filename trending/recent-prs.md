@@ -1,13 +1,13 @@
 
-[454](https://github.com/hyperledger-labs/blockchain-explorer/pull/454) Update Maintainers
+[3896](https://github.com/hyperledger/iroha/pull/3896) [refactor] #3856: Proc macro for default validator boilerplate
 
-[453](https://github.com/hyperledger-labs/blockchain-explorer/pull/453) UI - Fetch Latest Block Time to get channels updation time
+[2707](https://github.com/hyperledger/cacti/pull/2707) feat(cactus-plugin-ledger-connector-ethereum): add stress test
 
-[4444](https://github.com/hyperledger/fabric/pull/4444) Use golang 1.21.1 to fix vulnerabilities
+[726](https://github.com/hyperledger-labs/open-enterprise-agent/pull/726) fix: correct typo on sts header (dmax -> max)
 
-[2704](https://github.com/hyperledger/cacti/pull/2704) build(setup): remove install-yarn and document new yarn setup
+[984](https://github.com/hyperledger/aries-vcx/pull/984) Uniffi android controller
 
-[2703](https://github.com/hyperledger/cacti/pull/2703) chore(release): set openapi.json versions to v2.0.0-alpha.1
+[227](https://github.com/hyperledger/aries-framework-javascript-ext/pull/227) chore: release @aries-framework/transport-ble 0.2.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3896" class=".btn">#3896</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3856: Proc macro for default validator boilerplate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+Now the different flavors of validators can be generated with less repetition.
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3856. <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+Less non-obvious boilerplate when defining custom validators.
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 10:35:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3894" class=".btn">#3894</a>
             </td>
             <td>
@@ -188,62 +246,6 @@ Closes #3355 #3424 #3295 #2767
     </table>
     <div class="right-align">
         Created At 2023-09-13 07:36:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3881" class=".btn">#3881</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3880 : Make `prepare_query_request` public
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-Making the ```prepare_query_request``` public to make ```RC19``` comapatible with blockchain explorer.
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-Closes #3880 
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-### Benefits
-
-Currently, the blockchain explorer backend requires various methods that were in Iroha version 2.0.0-pre-rc.16 but are not present / structured changed in Iroha version 2.0.0-pre-rc.19.
-This patch will be addressing commits related to it.
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 07:10:13 +0000 UTC
     </div>
 </div>
 

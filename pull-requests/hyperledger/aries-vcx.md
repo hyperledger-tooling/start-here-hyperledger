@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/984" class=".btn">#984</a>
+            </td>
+            <td>
+                <b>
+                    Uniffi android controller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Credits to @gmulhearn for simplifying the android code by adding a controller. :rocket: 
+Merge after #970 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 09:18:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/983" class=".btn">#983</a>
+            </td>
+            <td>
+                <b>
+                    Integration test refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                * Splits test helper functions doing multiple distinct operations and returning many-valued tuples into small, reusable functions returning objects
+* Moves ledger tests from `aries_vcx/src/common/primitives/mod.rs` and `aries_vcx/src/common/primitives/revocation_registry_delta.rs` to `tests/test_pool.rs`.
+* Localizes test helper functions like `create_indy_proof` which ended up used in one test suite. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 06:54:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/982" class=".btn">#982</a>
             </td>
             <td>
