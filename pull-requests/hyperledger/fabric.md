@@ -127,38 +127,3 @@ The leader is using GRPC to send a proposal to the follower, checking that the s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4438" class=".btn">#4438</a>
-            </td>
-            <td>
-                <b>
-                    add integration test in which the smartbft leader must freeze,
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                waiting for an answer.
-
-There was a case where the leader froze up and the followers couldn't change him. 
-There were two reasons for this:
-
-1. a flaw in the behavior of the smartbft library
-2. gateway was only for raft
-
-Both reasons are fixed now.
-But a test that showed this error would be nice to add.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 17:28:04 +0000 UTC
-    </div>
-</div>
-

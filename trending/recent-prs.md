@@ -1,13 +1,13 @@
 
-[3896](https://github.com/hyperledger/iroha/pull/3896) [refactor] #3856: Proc macro for default validator boilerplate
+[219](https://github.com/hyperledger/indy-vdr/pull/219) ci: fix lerna version
 
-[2707](https://github.com/hyperledger/cacti/pull/2707) feat(cactus-plugin-ledger-connector-ethereum): add stress test
+[527](https://github.com/hyperledger-labs/fabric-operations-console/pull/527) Remove medallia file
 
-[726](https://github.com/hyperledger-labs/open-enterprise-agent/pull/726) fix: correct typo on sts header (dmax -> max)
+[259](https://github.com/hyperledger/firefly-cli/pull/259) Separate build and release jobs
 
-[984](https://github.com/hyperledger/aries-vcx/pull/984) Uniffi android controller
+[106](https://github.com/hyperledger/homebrew-besu/pull/106) Add evmtool
 
-[227](https://github.com/hyperledger/aries-framework-javascript-ext/pull/227) chore: release @aries-framework/transport-ble 0.2.1
+[218](https://github.com/hyperledger/indy-vdr/pull/218) fix(js): add missing parameters to rn wrapper
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

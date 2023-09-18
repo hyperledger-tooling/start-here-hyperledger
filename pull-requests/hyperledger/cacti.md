@@ -339,7 +339,7 @@ Closes: #2677
                 The linter warning was fixed with Record<string, unknown> and the types inside the function have been corrected.
 The other 7 lines are just linter-errors for empty spaces, that where corrected, although that was not part of the issue, i hope it was ok.
 
-[skip-ci]
+[skip ci]
 
 Closes: #2678
             </td>

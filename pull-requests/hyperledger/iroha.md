@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3897" class=".btn">#3897</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3822, #3737, #2437: Refactor iroha_data_model_derive
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Introduces various improvements to `iroha_data_model_derive`:
+- updated to use syn 2.0
+- add tests (where possible, see [1])
+- use darling derives and traits to parse macro inputs
+- add support for `Self` type in serde partially tagged enums (#3737)
+- address problems in `derive(Filter)` outlined in #2437
+
+[1] I am a bit unhappy with the testing of `derive(Filter)`, but it seems so intertwined with all the parts of `iroha_data_model` that it's really hard to test. Additionally, testing the generated `Filter` impl requires the `transparent_api` feature
+
+### Linked issue
+
+Closes #3882, #3737, #2437
+
+### Checklist
+
+- [ ] make CI pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 14:49:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3896" class=".btn">#3896</a>
             </td>
             <td>
