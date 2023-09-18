@@ -1,13 +1,13 @@
 
-[2699](https://github.com/hyperledger/cacti/pull/2699) docs(whitepaper): temporarily remove whitepaper
+[454](https://github.com/hyperledger-labs/blockchain-explorer/pull/454) Update Maintainers
 
-[725](https://github.com/hyperledger-labs/open-enterprise-agent/pull/725) feat: ATL-5777 - Adding update argostate with new release
+[453](https://github.com/hyperledger-labs/blockchain-explorer/pull/453) UI - Fetch Latest Block Time to get channels updation time
 
-[2698](https://github.com/hyperledger/cacti/pull/2698) style: fix unexpected any linter warnings in extendWithT
+[4444](https://github.com/hyperledger/fabric/pull/4444) Use golang 1.21.1 to fix vulnerabilities
 
-[257](https://github.com/hyperledger/firefly-cli/pull/257) Adding FIREFLY_HOME env variable (optional)
+[2704](https://github.com/hyperledger/cacti/pull/2704) build(setup): remove install-yarn and document new yarn setup
 
-[2697](https://github.com/hyperledger/cacti/pull/2697) chore: fix linter warning in CreateCorsMiddleware
+[2703](https://github.com/hyperledger/cacti/pull/2703) chore(release): set openapi.json versions to v2.0.0-alpha.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
