@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
             </td>
             <td>
                 <b>
-                    Implemented use of generators for functions
+                    Implemented use of generators for functions(non-TLS)
                 </b>
             </td>
         </tr>

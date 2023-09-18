@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5889" class=".btn">#5889</a>
+            </td>
+            <td>
+                <b>
+                    Draft PR: Code storage by hash
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Draft PR for storing code by hash instead of by address. This is needed snapsync as we need to be able to retrieve the code by hash.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixed #5388 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 07:02:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5887" class=".btn">#5887</a>
             </td>
             <td>

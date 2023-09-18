@@ -14,6 +14,122 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2707" class=".btn">#2707</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-plugin-ledger-connector-ethereum): add stress test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Return JSON error before checking for Error instance in safeStringifyException
+    (for cases when custom errror extends `Error` with `toJSON()` method)
+- Move artillery dependency up to the root (since its common tool depdenecy)
+- Add web3js http/ws provider options to connector.
+- Make http provider optional (can run on ws web3js provider only)
+- Don't register async endpoints when WS provider is not available.
+- Return 400 for invalid responses from ethereum ledger (to distinguish from connector errors)
+- In docker `geth-all-in-one` allow overwriting of default options when starting the ledger.
+- Add artillery stress test scripts
+    - Template config and artillery functions file
+    - Common environment setup file
+    - CLI for running the test environment on a separate machine.
+    - Jest test to run quickly stress test on same machine.
+    - 
+Depends on #2631
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 10:34:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2706" class=".btn">#2706</a>
+            </td>
+            <td>
+                <b>
+                    Fix deprecation of deb.nodesource.com/setup_16.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change Description:**
+
+In the Dockerfile, the issue related to NodeJS was addressed by updating the NodeJS installation method to use the new NodeSource installation method. The previous method using `curl -sL https://deb.nodesource.com/setup_16.x | bash -` had become deprecated, so the new method was applied for compatibility with the latest practices.
+
+The specific changes made in the Dockerfile are as follows:
+
+1. Removed the old installation method for NodeJS:
+
+   ```Dockerfile
+   # Removed the deprecated NodeJS installation method
+   # RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
+   ```
+
+2. Added the new NodeSource installation method:
+
+   ```Dockerfile
+   # Added the new NodeSource installation method for NodeJS
+   RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /usr/share/keyrings/nodesource-archive-keyring.gpg \
+       && echo "deb [arch=amd64 signed-by=/usr/share/keyrings/nodesource-archive-keyring.gpg] https://deb.nodesource.com/node bionic main" | tee /etc/apt/sources.list.d/nodesource.list
+   ```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 07:22:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2705" class=".btn">#2705</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): vulnerabilities found in cactus-rust-compiler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fix will ignore AsymmetricPrivateKey (private-key)
+
+Fixes #2042
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 07:06:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2704" class=".btn">#2704</a>
             </td>
             <td>

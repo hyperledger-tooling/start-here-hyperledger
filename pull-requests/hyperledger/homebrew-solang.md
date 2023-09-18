@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Solang v0.3.2
+                    Rename Substrate to Polkadot and remove ewasm
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/homebrew-solang
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-24 12:50:32 +0000 UTC
+        Created At 2023-09-18 07:54:48 +0000 UTC
     </div>
 </div>
 
