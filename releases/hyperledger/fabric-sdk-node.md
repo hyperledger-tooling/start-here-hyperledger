@@ -15,32 +15,32 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.18
+                    v2.2.19
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.18
+                    v2.2.19
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Correctly clean up network connections after use in CA client by @rajat-dlt in https://github.com/hyperledger/fabric-sdk-node/pull/674
+* Explicitly import [long](https://www.npmjs.com/package/long) to address changes to typing in dependencies by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/682
+* Use require to import [long](https://www.npmjs.com/package/long) to improve compatibility with client application TypeScript configuration by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/683
+* Regenerate fabric-protos using current [protobufjs](https://www.npmjs.com/package/protobufjs) to address typing issues introduced by new versions of dependencies by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/684
 
-## New Contributors
-* @rajat-dlt made their first contribution in https://github.com/hyperledger/fabric-sdk-node/pull/674
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.17...v2.2.18
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.18...v2.2.19
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.18" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.19" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-17 08:13:14 +0000 UTC
+        Created At 2023-09-18 09:03:02 +0000 UTC
     </span>
 </div>
 
