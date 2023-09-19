@@ -68,29 +68,3 @@ Both NodeJS and React Native wrappers will still need to be updated to include a
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/215" class=".btn">#215</a>
-            </td>
-            <td>
-                <b>
-                    Update versions to 0.4.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 22:42:49 +0000 UTC
-    </div>
-</div>
-

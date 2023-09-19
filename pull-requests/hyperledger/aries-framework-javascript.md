@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1578" class=".btn">#1578</a>
+            </td>
+            <td>
+                <b>
+                    fix(core): remove node-fetch dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Our good friend @dependabot with its #1565 made me remember we had this dependency on core that shouldn't be there. Didn't go further in order to not deal with breaking changes. I think we can move to node-fetch v3 (and see how to deal `AgentDependencies` types) in a next major release.
+
+Fixes #1492
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 22:34:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1576" class=".btn">#1576</a>
             </td>
             <td>

@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Initial commit
+                    Digital asset contract family
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                Initial commit of the pdo-contracts including the exchange contract family. Please read the associated commit messages for more details.
+                This PR is the initial commit of the digital asset contract family for Private Data Objects.  The digital asset contract family builds on the token, token issuer and guardian contracts defined in the exchange contract family to tokenize images. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-25 16:58:08 +0000 UTC
+        Created At 2023-09-18 23:28:50 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[219](https://github.com/hyperledger/indy-vdr/pull/219) ci: fix lerna version
+[5891](https://github.com/hyperledger/besu/pull/5891) add plugin API to enable plugins to validate transaction before they are added to the transaction pool
 
-[527](https://github.com/hyperledger-labs/fabric-operations-console/pull/527) Remove medallia file
+[119](https://github.com/hyperledger/besu-native/pull/119) Release 0.8.2
 
-[259](https://github.com/hyperledger/firefly-cli/pull/259) Separate build and release jobs
+[5](https://github.com/hyperledger-labs/pdo-contracts/pull/5) Digital asset contract family
 
-[106](https://github.com/hyperledger/homebrew-besu/pull/106) Add evmtool
+[1578](https://github.com/hyperledger/aries-framework-javascript/pull/1578) fix(core): remove node-fetch dependency
 
-[218](https://github.com/hyperledger/indy-vdr/pull/218) fix(js): add missing parameters to rn wrapper
+[4445](https://github.com/hyperledger/fabric/pull/4445) Add orderer backoff
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
