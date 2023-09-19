@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4444" class=".btn">#4444</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4445" class=".btn">#4445</a>
             </td>
             <td>
                 <b>
-                    Use golang 1.21.1 to fix vulnerabilities
+                    Add orderer backoff
                 </b>
             </td>
         </tr>
@@ -27,38 +27,17 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                Change-Id: I62c42a07bc4577e4c734a674878f0fe11a517edf
+                By default, the maximum time between attempts to connect one orderer to another via grpc is 2 minutes. And the waiting time for a heartbeat message from the leader in smartbft is 1 minute.
+Therefore, it is possible to choose a time interval between the start of the leader and the follower, such that the follower will leave the consensus immediately.
 
-This patchset upgrade Go version from Go 1.20.7 to 1.21.1.
+This hotfix adds the ability to set the maximum time between connection attempts (ORDERER_GENERAL_BACKOFF_MAXDELAY).
 
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-There are two vulnerabilities in Go 1.20: GO-2023-2041 and GO-2023-2043,
-      which exist in package html/template and are used in
-      core/middleware.
-
-The vulnerabilities are fixed in Go 1.21.1.
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-#### Release Note
-
-N/A
+Recommendations: if LeaderHeartbeatTimeout is 1m, then MaxDelay 20s.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-18 05:15:27 +0000 UTC
+        Created At 2023-09-18 21:45:12 +0000 UTC
     </div>
 </div>
 

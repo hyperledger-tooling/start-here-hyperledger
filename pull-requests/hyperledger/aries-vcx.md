@@ -295,35 +295,3 @@ Then again, Aries agents are meant to be horizontal (p2p). So perhaps a multifun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/974" class=".btn">#974</a>
-            </td>
-            <td>
-                <b>
-                    Eradicate mediated connection from issuance and presentation integration tests, part 2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Continuation of #967.
-
-* Completely removes usage of `MediatedConnection` and `agency_client` from any and all integration tests.
-* Removes legacy agency tests.
-* MySQL tests are preserved, where keypair generation is used to test MySQL connection.
-* Redundant `integration_tests` and `tests` modules were removed.
-* Alice and Faber were significantly pruned, where the plan is to replace them with a singular test agent impl.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 18:23:38 +0000 UTC
-    </div>
-</div>
-

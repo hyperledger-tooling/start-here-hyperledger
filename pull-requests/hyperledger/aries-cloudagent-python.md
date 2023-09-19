@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2495" class=".btn">#2495</a>
+            </td>
+            <td>
+                <b>
+                    fix: run tests script copying local env
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes the scripts/run_tests script and its dockerfiles to make sure it doesn't copy local .venv directories into the container image. This was causing the script to fail.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 18:53:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2494" class=".btn">#2494</a>
             </td>
             <td>

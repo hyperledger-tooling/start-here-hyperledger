@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5891" class=".btn">#5891</a>
+            </td>
+            <td>
+                <b>
+                    add plugin API to enable plugins to validate transaction before they are added to the transaction pool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Adding a plugin API to enable plugins to validate of transactions entering the transaction pool
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 00:41:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5890" class=".btn">#5890</a>
+            </td>
+            <td>
+                <b>
+                    Update holesky with fixed extraData, genesis time, shanghaiTime
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                Incorporates https://github.com/eth-clients/holesky/pull/73
+and also @fab-10's changes from https://github.com/eth-clients/holesky/pull/72
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-18 21:44:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5889" class=".btn">#5889</a>
             </td>
             <td>
@@ -446,50 +500,6 @@ rm gradle/verification-metadata.xml
     </table>
     <div class="right-align">
         Created At 2023-09-13 02:22:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5865" class=".btn">#5865</a>
-            </td>
-            <td>
-                <b>
-                    Feature/multi version flat db [skip ci]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Draft version of multi-version flat db
-* creates bonsai context concept
-* extends FlatDbReaderStrategy to FlatDbStrategy, including writes
-* creates FlatDbArchiveStrategy
-* adds getNearestTo to SegmentedKeyValueStorage plugin-api  interface and implementations
-* kikori worldstate provider integrated into BonsaiWorldStateProvider (not suitable for eth_getProof)
-
-There are a handful of hacks that are marked with TODOs that are there for testing expedience.
-
-skipping CI while in draft form
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5846 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 18:38:42 +0000 UTC
     </div>
 </div>
 
