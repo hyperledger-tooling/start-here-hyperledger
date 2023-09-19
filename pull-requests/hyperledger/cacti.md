@@ -88,7 +88,7 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
             </td>
             <td>
                 <b>
-                    fix: fix deprecation of deb.nodesource.com/setup_16.x
+                    build(tools/docker/indy-sdk-cli): fix deprecation deb.nodesource.com/setup_16.x
                 </b>
             </td>
         </tr>
@@ -118,6 +118,7 @@ The specific changes made in the Dockerfile are as follows:
        && echo "deb [arch=amd64 signed-by=/usr/share/keyrings/nodesource-archive-keyring.gpg] https://deb.nodesource.com/node bionic main" | tee /etc/apt/sources.list.d/nodesource.list
    ```
 
+Fixes #2701  
             </td>
         </tr>
     </table>

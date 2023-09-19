@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/986" class=".btn">#986</a>
+            </td>
+            <td>
+                <b>
+                    Fix/lints and format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TODO
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 13:53:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/985" class=".btn">#985</a>
             </td>
             <td>

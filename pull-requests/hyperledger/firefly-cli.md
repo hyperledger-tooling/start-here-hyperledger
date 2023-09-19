@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/260" class=".btn">#260</a>
+            </td>
+            <td>
+                <b>
+                    Update MAINTAINERS.md and CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 13:03:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/259" class=".btn">#259</a>
             </td>
             <td>
@@ -103,32 +129,6 @@ The list of generated markdown is put in the folder directory "./docs/command_do
     </table>
     <div class="right-align">
         Created At 2023-09-16 16:13:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/255" class=".btn">#255</a>
-            </td>
-            <td>
-                <b>
-                    Update MAINTAINERS.md and CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 19:24:56 +0000 UTC
     </div>
 </div>
 
