@@ -1,13 +1,13 @@
 
+[2708](https://github.com/hyperledger/cacti/pull/2708) fix(docs): add Pull Request Template
+
+[5892](https://github.com/hyperledger/besu/pull/5892) Add updated storage to evmtool json trace
+
+[120](https://github.com/hyperledger/besu-native/pull/120) Prepare 0.8.3
+
 [5891](https://github.com/hyperledger/besu/pull/5891) add plugin API to enable plugins to validate transaction before they are added to the transaction pool
 
 [119](https://github.com/hyperledger/besu-native/pull/119) Release 0.8.2
-
-[5](https://github.com/hyperledger-labs/pdo-contracts/pull/5) Digital asset contract family
-
-[1578](https://github.com/hyperledger/aries-framework-javascript/pull/1578) fix(core): remove node-fetch dependency
-
-[4445](https://github.com/hyperledger/fabric/pull/4445) Add orderer backoff
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

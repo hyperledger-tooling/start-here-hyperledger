@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2708" class=".btn">#2708</a>
+            </td>
+            <td>
+                <b>
+                    fix(docs): add Pull Request Template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #91
+
+adds Pull Request Template on the root directory as guideline for contributors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 05:34:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2707" class=".btn">#2707</a>
             </td>
             <td>
@@ -60,7 +88,7 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
             </td>
             <td>
                 <b>
-                    Fix deprecation of deb.nodesource.com/setup_16.x
+                    fix: fix deprecation of deb.nodesource.com/setup_16.x
                 </b>
             </td>
         </tr>
