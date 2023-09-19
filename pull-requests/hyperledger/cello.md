@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/552" class=".btn">#552</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/554" class=".btn">#554</a>
             </td>
             <td>
                 <b>
-                    Fix docker setting
+                    [#issue-553]Error in prompt message for node deletion failure
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                make cello-api-engine depends_on cello-postgress
+                Error in prompt message for node deletion failure. Prompt for success when deleting node failed.
+
+Signed-off-by: fengyang_sy fengyang.09186@h3c.com
+
+Close #553 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-09 03:39:38 +0000 UTC
+        Created At 2023-09-19 07:00:43 +0000 UTC
     </div>
 </div>
 
