@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/100" class=".btn">#100</a>
+            </td>
+            <td>
+                <b>
+                    Add "Enrichments" to CRUD base
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These are named bundles of extra columns and/or query modifiers that can be optionally added to all "get" queries. Allows selectively joining in extra data from other tables.
+
+Initial proposal - still needs unit tests.
+Also should consider whether anything could be added on the API router (I imagine the query spelling should end up as something like "?enrich=tagNames", but I'm not sure how much of that can be automated/standardized).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 17:14:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/99" class=".btn">#99</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2373" class=".btn">#2373</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] update docs regarding using sequence in network.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2370 
+
+Updated documentation regarding use of `sequence` for chaincodes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 12:48:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2369" class=".btn">#2369</a>
             </td>
             <td>

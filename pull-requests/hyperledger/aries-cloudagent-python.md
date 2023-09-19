@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2496" class=".btn">#2496</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Ledger error when registering nym after multi-ledger switch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #2473 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 16:14:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2495" class=".btn">#2495</a>
             </td>
             <td>
