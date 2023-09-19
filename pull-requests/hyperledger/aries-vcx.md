@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/985" class=".btn">#985</a>
+            </td>
+            <td>
+                <b>
+                    Remove agency client from libvcx-core tests and aries-vcx-agent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We are still setting up agency client in libvcx-core test code, although it is not used (in the tests).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 11:47:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/984" class=".btn">#984</a>
             </td>
             <td>
