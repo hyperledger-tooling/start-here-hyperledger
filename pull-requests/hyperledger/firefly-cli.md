@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/firefly-cli
             </td>
             <td>
                 <b>
-                    Tobytobias
+                    feature enhancement and code cleaning.
                 </b>
             </td>
         </tr>
@@ -79,7 +79,25 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                <nil>
+                This commit includes:
+
+1) a new  "docs" command to generate markdown documentations of all command on rootCmd.
+The list of generated markdown is put in the folder directory "./docs/command_docs" as default or any location specified by the user as arguement to the "docs" command.
+
+2) included a function "listStacks" to add completion for stacks.
+
+// listStacks return a list of available stacks on the local machine from "$HOME/.firefly/stack". The function
+// is intended to add completion to command that require  as arguement.
+//
+// Expected usage:
+//
+//	var Cmd = &cobra.Command{
+//			...
+//			ValidArgsFunction: listStacks,
+//			...
+
+
+3) removed "cmd/ls.go", the command already exist as an alias to the command "list" in "cmd/list.go" with the same implementation.
             </td>
         </tr>
     </table>

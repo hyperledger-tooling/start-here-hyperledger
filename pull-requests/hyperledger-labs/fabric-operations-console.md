@@ -45,34 +45,3 @@ Removed the medallia NPS survey code, this code hasn't been used for some time, 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/526" class=".btn">#526</a>
-            </td>
-            <td>
-                <b>
-                    Fix for Next Button is inactive state while updating Orderer Organization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-12 02:08:12 +0000 UTC
-    </div>
-</div>
-
