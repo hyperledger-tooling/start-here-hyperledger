@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/204" class=".btn">#204</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/205" class=".btn">#205</a>
             </td>
             <td>
                 <b>
-                    follow-up #202: fix timeout check
+                    implement getCommitmentPrefix
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-31 09:50:29 +0000 UTC
+        Created At 2023-09-20 09:00:02 +0000 UTC
     </div>
 </div>
 

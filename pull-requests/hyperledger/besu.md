@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5907" class=".btn">#5907</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5909" class=".btn">#5909</a>
             </td>
             <td>
                 <b>
-                    23.7.3 rc
+                    Process onBlockAdded event asyncronously
                 </b>
             </td>
         </tr>
@@ -32,14 +32,17 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+Reduce `engine_forkchoiceUpdatedV?` response time by asynchronously process block added events in the transaction pool.
+This way the processing of the block in the txpool will not add to the response time of the method, and according to my test the gain is evident (yellow line instance is running this PR)
+![image](https://github.com/hyperledger/besu/assets/91944855/ce469f1d-3723-4dcd-8bc4-575f3c079f87)
+
+The implementation makes sure that block events are processed sequentially in the order they arrive.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-20 06:11:22 +0000 UTC
+        Created At 2023-09-20 09:10:44 +0000 UTC
     </div>
 </div>
 

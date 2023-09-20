@@ -142,7 +142,14 @@ solang solana deploy --output-json flipper.so
                 
             </td>
             <td>
-                This feature is enabled with the help of  [forge-fmt](https://github.com/foundry-rs/foundry/tree/master/crates/fmt). 
+                We are importing `forge-fmt` for two reasons:
+ - This ensures that forge-fmt uses the latest solang-parser crate, and we only have one version of solang-parser in solang binary
+ - This makes it possible to publish the solang crate to crates.io, since forge-fmt is not on crates.io and no git depdendencies are allowed
+ - We requested feedback from Foundry on their discord server but received no feedback 
+
+This feature is enabled with the help of  [forge-fmt](https://github.com/foundry-rs/foundry/tree/master/crates/fmt). 
+
+Cc: @gakonst @DaniPopes 
             </td>
         </tr>
     </table>

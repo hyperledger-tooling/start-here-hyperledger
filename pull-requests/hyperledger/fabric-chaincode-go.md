@@ -30,6 +30,10 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 Draft: This is a working change on bumping the fabric-chaincode-go to use fabric-protos-go-apiv2 and the new protobufs lib. This commits includes changes to fuction signatures, return values, interface definition and type definition to type "ChaincodeMessage" and "pb.Response".
 
  It is a breaking change.
+ 
+ Here is a repository with a branch that house the state of the codebase after resolving the imports with fabric-protos-go-apiV2 lib, this does not breaks anything yet and it is intended to showcase to the maintainers the complaint of the `go vet` . The `go vet ./...` command should be run at the root of the project.
+
+ https://github.com/tobigiwa/fabric-chaincode-go/tree/fix
 
             </td>
         </tr>

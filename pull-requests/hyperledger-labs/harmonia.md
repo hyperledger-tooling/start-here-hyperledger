@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    Added asynchronous block signatures retrieval
+                    Added evm project
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/harmonia
                 
             </td>
             <td>
-                Added asynchronous block signatures retrieval to prevent non responding to block collection of signatures.
-Changed the unlock flow to use stored signatures retrieved by the asynchronous retrieval separate flow.
-Cleanups recommended from previous PR.
+                - Added EVM project with commit and transfer contract and tests
+- Fixed some missing code commit that was not included in the last PR
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 09:18:06 +0000 UTC
+        Created At 2023-09-20 08:32:33 +0000 UTC
     </div>
 </div>
 
