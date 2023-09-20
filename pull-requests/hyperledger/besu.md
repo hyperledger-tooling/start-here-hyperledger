@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5903" class=".btn">#5903</a>
+            </td>
+            <td>
+                <b>
+                    update beacon root again
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Beacon root address has changed again - this PR is still draft so need to keep an eye on it leading up to devnet 9
+https://github.com/ethereum/EIPs/pull/7672/files
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 23:46:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5901" class=".btn">#5901</a>
+            </td>
+            <td>
+                <b>
+                    Add FlatDbStrategy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This is a prerequisite PR for #5865 and #5887.  
+
+It:
+* expands the concept of FlatDbReaderStrategy to FlatDbStrategy, including write operations.
+* adds getNearestTo implementation to SegmentedKeyValueStorage and its implementations
+* adds getNearestTo test coverage and expands KeyValueStorage tests to SegmentedKeyValueStorage implementations
+
+This PR will allow for parallel progress on SnapServer server and Bonsai Archive, and mitigate merge conflicts that would otherwise arise
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to #3165 and #5864
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 22:41:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5899" class=".btn">#5899</a>
+            </td>
+            <td>
+                <b>
+                    Update reference tests to 12.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+
+Update reference tests to 12.4
+* Some in-memory storage changed to ConcurrentMap
+* exclude cancun from all EIP tests, EIP-4788 still in flux
+* Add new fields to ReferenceTestEnv, and re-order the reflected constructor for clarity and ease of development.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+includes speculative changes for #5898 concurrency issue.  `services/kvstore/...` can be dropped out if there are other fixes, but transient failures result in blockchain and general state tests when removed
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-19 19:41:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5893" class=".btn">#5893</a>
             </td>
             <td>
