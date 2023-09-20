@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/174" class=".btn">#174</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/175" class=".btn">#175</a>
             </td>
             <td>
                 <b>
-                    expose version in GetClusterConfig and update tests
+                    CLI - config and version commands
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-07 14:35:22 +0000 UTC
+        Created At 2023-09-20 10:08:10 +0000 UTC
     </div>
 </div>
 
