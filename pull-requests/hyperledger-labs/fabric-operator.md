@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/127" class=".btn">#127</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/129" class=".btn">#129</a>
             </td>
             <td>
                 <b>
-                    reduce keepalive interval to avoid connection issues on VPC
+                    Mark the item as deleted and remove from the Queue if deleted
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/126
-
-Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
+                https://github.com/hyperledger-labs/fabric-operator/issues/128
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-09 18:55:09 +0000 UTC
+        Created At 2023-09-20 13:42:16 +0000 UTC
     </div>
 </div>
 

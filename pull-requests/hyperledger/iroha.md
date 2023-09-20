@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3904" class=".btn">#3904</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #3622: Use cargo manifest lints instead of unmaintained cargo-lints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Since the implementation of rust-lang/rfcs#3389, it is now possible to specify workspace-level lints for rustc and clippy. This PR updates the cargo configuration and CI to use this new feature instead of cargo-lints.
+
+Note that it was only stabilized in `nightly-2023-09-10`. Using it with out current toolchain requires either a -Zlints flag or a modification to `.cargo/config.toml`:
+
+```toml
+[unstable]
+lints = true
+```
+
+Also note that unlike the original suggestion in #3622, this doesn't make the lints crate-level, but merely replaces a clunky unmaintained tool with a standard solution for configuring lints.
+
+In particular, this PR:
+- Removes old lints.toml configuration files for cargo-lints
+- Adds [lint] tables to Cargo.toml of the root and wasm workspaces. The lints are duplicated between the two
+- Replaces `cargo lints clippy` invocations with `cargo clippy -Zlints` in CI scripts
+- Silences/fixes some new lints that popped up due to differences in how between `cargo lints` and workspaces
+- Does a drive-by fix to iroha_genesis: it now too shares cargo metadata as do other crates
+
+### Checklist
+
+- [ ] Make sure it passes CI
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-20 12:27:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3903" class=".btn">#3903</a>
             </td>
             <td>

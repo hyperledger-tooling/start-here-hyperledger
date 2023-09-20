@@ -1,13 +1,13 @@
 
+[1546](https://github.com/hyperledger/solang/pull/1546) bugfix config file templates
+
+[129](https://github.com/hyperledger-labs/fabric-operator/pull/129) Mark the item as deleted and remove from the Queue if deleted
+
+[176](https://github.com/hyperledger-labs/orion-sdk-go/pull/176) CLI - config & version commands + tests
+
+[3904](https://github.com/hyperledger/iroha/pull/3904) [ci] #3622: Use cargo manifest lints instead of unmaintained cargo-lints
+
 [3903](https://github.com/hyperledger/iroha/pull/3903) [fix] #3899: Fix topology mismatch bug
-
-[3902](https://github.com/hyperledger/iroha/pull/3902) [ci] #3825: Clean default runner free space
-
-[175](https://github.com/hyperledger-labs/orion-sdk-go/pull/175) CLI - config and version commands
-
-[5909](https://github.com/hyperledger/besu/pull/5909) Process onBlockAdded event asyncronously
-
-[205](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/205) implement getCommitmentPrefix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

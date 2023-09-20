@@ -50,39 +50,6 @@ The implementation makes sure that block events are processed sequentially in th
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5906" class=".btn">#5906</a>
-            </td>
-            <td>
-                <b>
-                    Burn in candidate for 23.7.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 05:56:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5905" class=".btn">#5905</a>
             </td>
             <td>
@@ -901,77 +868,6 @@ These flags have been suggested by @ahamlat , and we tested them for months now,
     </table>
     <div class="right-align">
         Created At 2023-09-14 10:45:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5876" class=".btn">#5876</a>
-            </td>
-            <td>
-                <b>
-                    adds Matthew Whitehead as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I propose to add  @matthew1001 as a Besu project maintainer.
-
-@matthew1001 contributed with many high quality commits:
-
-- has implemented new JSON-RPC api endpoints, per execution api specs
-- has improved error reporting in apis
-- has improved configurability for non PoS networks
-
-Here are [their past contributions on Besu project](https://github.com/hyperledger/besu/pulls?q=is:pr+author:matthew1001+is:closed).
-
-Voting ends two weeks from today.
-
-For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 17:20:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5875" class=".btn">#5875</a>
-            </td>
-            <td>
-                <b>
-                    init checkpoint state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 17:06:32 +0000 UTC
     </div>
 </div>
 

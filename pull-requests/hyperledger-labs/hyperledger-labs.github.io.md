@@ -47,30 +47,3 @@ It falls upon the end user to conduct their own due diligence and collaborate wi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/248" class=".btn">#248</a>
-            </td>
-            <td>
-                <b>
-                    CC-Tools lab
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The CC-Tools package provides a relational-like framework for programming Hyperledger Fabric chaincodes.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 13:36:15 +0000 UTC
-    </div>
-</div>
-

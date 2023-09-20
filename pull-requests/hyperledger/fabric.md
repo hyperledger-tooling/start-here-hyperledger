@@ -41,37 +41,3 @@ Recommendations: if LeaderHeartbeatTimeout is 1m, then MaxDelay 20s.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4441" class=".btn">#4441</a>
-            </td>
-            <td>
-                <b>
-                    fix network diagrams R4 error (#4436)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-I've fixed 4 diagrams on network page in documentation based on @satota2's suggestion.
-
-Resolves #4436.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 16:42:53 +0000 UTC
-    </div>
-</div>
-
