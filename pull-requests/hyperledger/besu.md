@@ -14,6 +14,388 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5907" class=".btn">#5907</a>
+            </td>
+            <td>
+                <b>
+                    23.7.3 rc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-20 06:11:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5906" class=".btn">#5906</a>
+            </td>
+            <td>
+                <b>
+                    Burn in candidate for 23.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-20 05:56:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5905" class=".btn">#5905</a>
+            </td>
+            <td>
+                <b>
+                    Burn in release of 23.7.3 from main (inclusive of sha eef40bd)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ---
+
+Drop Kotti Network support (ETC) (#5816)
+
+
+
+fix ForkId if there are no Forks and the starting timestamp is not 0 (#5819)
+
+
+
+enforce that BlobTransactions have at least one blob (#5826)
+
+* enforce that BlobTransactions have at least one blob
+
+
+
+
+Do not create ignorable segments on `revert storage-variables` (#5830)
+
+* fix the bug that creates the ignorable chain pruner segment, add rocks exception parsing to RocksDBColumnarKeyValueStorage subclasses
+* parse rocksdb error for unprintable column family id's
+
+
+
+add versioned hashes and number of blobs to toString() (#5831)
+
+
+
+add parent beacon block root to payload id calculation (#5843)
+
+
+
+bump version to 23.7.3-SNAPSHOT (#5854)
+
+
+
+set the beacon root address to the correct value (#5853)
+
+
+
+docs(readme): fix broken link to installation of binaries page (#5859)
+
+Fixes #5858
+
+
+
+Update RocksDB version from 8.0.0 to 8.3.2 (#5832)
+
+
+
+
+
+use non-deprecated authenticate methods (#5852)
+
+
+
+move to Hyperledger shared runners for current github actions (#5860)
+
+
+
+Add range tracing with worldstate (#5844)
+
+Implement a method to trace a range of blocks and have access to the worldstate before and after the tracing
+
+
+
+Layered txpool by default and txpool options hoverhaul (#5772)
+
+
+
+Fix issue 5824 - Duplicate key errors in EthScheduler-Transactions (#5857)
+
+Fix issue 5824 - Duplicate key errors in EthScheduler-Transactions
+
+
+
+updated gradle verification metadata (#5870)
+
+* removed old artefacts [skip ci]
+
+* works with compileTestJava
+
+* restored metadata needed for codeQL and trusted-artifacts block for javadoc/sources
+
+
+
+---------
+
+
+
+[4844] Add encodingContext to TransactionEncoder and TransactionDecoder (#5820)
+
+* Add decode type to TransactionDecoder
+
+* Refactoring TransactionDecoder
+
+* Invert methods order
+
+* Use Transaction encoder instead of writeTo
+
+* Move enter and leave list to inner method as pr suggestion
+
+* Size calculation should use opaque bytes instead of rlp
+
+---------
+
+
+
+
+
+
+payload attributes: fix wrong warning and fail if beacon root is available before cancun (#5872)
+
+
+
+
+Merge MutableAccount and EVMAccount (#5863)
+
+Merge MutableAccount and EVMAccount functionalities by removing EVMAccount, all calls to getMutable, and the WrappedEVMAccount that was wrapping non-EVMAccounts in a mutable fashion.  Instead, use a MutableAccount in all cases an EVMAccount would have been used.  This also tends to reduce a level of layering in many places.
+
+
+
+Add world context to transaction tracing API (#5836)
+
+* Add world context to transaction tracing API
+
+
+
+* Update changelog with PR ID
+
+
+
+* Add the Transaction to traceEndTransaction
+
+
+
+* Rebase on main
+
+
+
+* Add receipt-linked information to the transaction tracer
+
+
+
+* added test
+
+
+
+---------
+
+
+
+
+
+
+Bonsai based reference test worldstate (#5686)
+
+* create a bonsai based reference test worldstate -> getOrCreate in BonsaiWorldStateUpdateAccumulator - do not throw if we discover an empty account in a non-null BonsaiValue<Account> -> add curentStateRoot to t8n -> storageEntriesFrom and streamAccounts implemented in BonsaiWorldStateKeyValueStorage -> add endKey version of streamFromKey
+* bonsai fix for self-destruct and create2 at the same address and same block
+
+
+
+
+
+Don't start BFT mining coordinators until initial sync has completed (#5861)
+
+* Don't start BFT mining coordinators until initial sync has completed
+
+
+
+* Fix unit tests
+
+
+
+* Fix 'enable' logic
+
+
+
+---------
+
+
+
+display only peers ready for requets on ethstats (#5880)
+
+* display only ready for requets peers in ethstats
+
+
+
+* cast to int
+
+
+
+---------
+
+
+
+
+
+
+[MINOR] test RLP used for encode/decode blob tx should contain to field (#5883)
+
+* validate to field on encode/decode for blob tx
+
+
+
+* revert decode/encode checks - tis done later in tx validation
+
+
+
+---------
+
+
+
+Fix: correctly convert percentage options in TOML configuration file (#5886)
+
+
+
+EIP7516 - Add BlobBaseFee opcode to Cancun EVM (#5884)
+
+
+
+Fix snapsync heal (#5838)
+
+
+
+Upgrade besu-native (#5893)
+
+Upgrade besu-native to 0.8.2
+
+
+
+Tune G1GC to reduce Besu memory footprint (#5879)
+
+
+
+Add updated storage to evmtool json trace (#5892)
+
+Add the EIP-3155 "storage" option to the standard tracer, with the caveat only updated storage is logged.
+
+
+
+Update holesky with fixed extraData, genesis time, shanghaiTime (#5890)
+
+
+
+[CHANGELOG] removed duplicated line (#5904)
+
+* removed duplicated line [skip ci]
+
+
+
+* fixed spelling on Holesky
+
+
+
+---------
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-20 04:49:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5904" class=".btn">#5904</a>
+            </td>
+            <td>
+                <b>
+                    [CHANGELOG] removed duplicated line
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-20 02:49:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5903" class=".btn">#5903</a>
             </td>
             <td>
@@ -587,92 +969,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2023-09-13 17:06:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5872" class=".btn">#5872</a>
-            </td>
-            <td>
-                <b>
-                    payload attributes: fix wrong warning and fail if beacon root is available before cancun
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-A wrong warning was logged when a payload attribute was sent before cancun.
-Instead the validation of the payload attribute should fail if the parent beacon block root hash is available before cancun.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 04:06:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5871" class=".btn">#5871</a>
-            </td>
-            <td>
-                <b>
-                    #5868: fix beacon root address and modulus for devnet 9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-For the upcoming cancun devnet 9 the address and the modulus for EIP 4788 (parent beacon block root) have been changed. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 02:38:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5870" class=".btn">#5870</a>
-            </td>
-            <td>
-                <b>
-                    updated gradle verification metadata to fix spotless
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                regenerated the metadata file from scratch. Resulting in deletions of all old unused versions. Commands used:
-
-```
-rm gradle/verification-metadata.xml
-./gradlew clean --write-verification-metadata sha256 spotlessCheck compileTestJava compileJava
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 02:22:19 +0000 UTC
     </div>
 </div>
 

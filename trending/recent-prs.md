@@ -1,13 +1,13 @@
 
-[5903](https://github.com/hyperledger/besu/pull/5903) update beacon root again
+[5907](https://github.com/hyperledger/besu/pull/5907) 23.7.3 rc
 
-[5901](https://github.com/hyperledger/besu/pull/5901) Add FlatDbStrategy
+[5906](https://github.com/hyperledger/besu/pull/5906) Burn in candidate for 23.7.3
 
-[5899](https://github.com/hyperledger/besu/pull/5899) Update reference tests to 12.4
+[5905](https://github.com/hyperledger/besu/pull/5905) Burn in release of 23.7.3 from main (inclusive of sha eef40bd)
 
-[2496](https://github.com/hyperledger/aries-cloudagent-python/pull/2496) Fix: Ledger error when registering nym after multi-ledger switch
+[727](https://github.com/hyperledger-labs/open-enterprise-agent/pull/727) fix(prism-agent): introduce generic secret store for CD
 
-[5893](https://github.com/hyperledger/besu/pull/5893) Upgrade besu-native to 0.8.2
+[5904](https://github.com/hyperledger/besu/pull/5904) [CHANGELOG] removed duplicated line
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
