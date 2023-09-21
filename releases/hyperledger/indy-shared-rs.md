@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/indy-shared-rs
         <tr>
             <td colspan="2">
                 <b>
+                    v1.0.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.0.3
+                </span>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-shared-rs/releases/tag/v1.0.3" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-09-20 20:02:22 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.0.2
                 </b>
             </td>
