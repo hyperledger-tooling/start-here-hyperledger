@@ -24,10 +24,37 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">solana</span>
             </td>
             <td>
-                Fixes https://github.com/hyperledger/solang/issues/1433
+                This fixes this Solidity and similar constructs.
+
+```solidity
+import "solana-library/spl_token.sol";
+
+contract c {
+
+    // Invoke the token program to mint tokens to a token account, using a PDA as the mint authority
+    function mintTo(address mint, address account, address authority, uint64 amount, bytes[] seeds) internal {
+        // Prepare instruction data
+        bytes instructionData = new bytes(9);
+        instructionData[0] = uint8(7); // MintTo instruction index
+        instructionData.writeUint64LE(amount, 1); // Amount to mint
+
+        // Prepare accounts required by instruction
+        AccountMeta[3] metas = [
+            AccountMeta({pubkey: mint, is_writable: true, is_signer: false}),
+            AccountMeta({pubkey: account, is_writable: true, is_signer: false}),
+            AccountMeta({pubkey: authority, is_writable: true, is_signer: true})
+        ];
+
+        // Invoke the token program with prepared accounts and instruction data
+        SplToken.tokenProgramId.call{accounts: metas, seeds: seeds}(instructionData);
+    }
+}
+```
+
+Fixes https://github.com/hyperledger/solang/issues/1433
             </td>
         </tr>
     </table>
@@ -44,7 +71,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    bugfix config file templates
+                    Update and fix target config file templates
                 </b>
             </td>
         </tr>
@@ -53,7 +80,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                We don't want to maintain the same file twice. One version was outdated. The other one contained an invalid config for  `wasm-opt`.
             </td>
         </tr>
     </table>
@@ -128,7 +155,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">EVM</span>
             </td>
             <td>
                 Fixes https://github.com/hyperledger/solang/issues/1536
@@ -291,84 +318,6 @@ PS: I found it unpleasant to keep iterating over the constructor annotations to 
     </table>
     <div class="right-align">
         Created At 2023-09-14 22:35:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1530" class=".btn">#1530</a>
-            </td>
-            <td>
-                <b>
-                    Permit memory-safe flag on assembly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/solang/issues/1526
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 14:59:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1529" class=".btn">#1529</a>
-            </td>
-            <td>
-                <b>
-                    Add support for custom tags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/solang/issues/1524
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 14:33:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1528" class=".btn">#1528</a>
-            </td>
-            <td>
-                <b>
-                    Allow using {func} for type to use library functions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/solang/issues/1525
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 14:05:48 +0000 UTC
     </div>
 </div>
 
