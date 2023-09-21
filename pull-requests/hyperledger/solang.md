@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1547" class=".btn">#1547</a>
+            </td>
+            <td>
+                <b>
+                    Allow seeds to be passed into functions as string[] or string[][]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/solang/issues/1433
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 08:40:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1546" class=".btn">#1546</a>
             </td>
             <td>
@@ -343,34 +369,6 @@ PS: I found it unpleasant to keep iterating over the constructor annotations to 
     </table>
     <div class="right-align">
         Created At 2023-09-14 14:05:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1527" class=".btn">#1527</a>
-            </td>
-            <td>
-                <b>
-                    Fix type(int256).min in comparisons
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When resolving comparisons, we don't know what the types of the operands are so we resolve with `ResolveTo::Unknown`. In this path, there is an mistake in the bounds check for negative integers.
-
-Fixes https://github.com/hyperledger/solang/issues/1523
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 12:00:07 +0000 UTC
     </div>
 </div>
 

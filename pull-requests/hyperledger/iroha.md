@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3908" class=".btn">#3908</a>
+            </td>
+            <td>
+                <b>
+                    [fix]: `mkdir -r` with store path, not lock path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+TBH, I am lazy to prepare a proper reproduction of the bug. In my case, Iroha repeatedly failed to start, complaining about existence of the lock file all the time. After all, it turned out that `./storage/kura.lock`, created by Iroha, **is a directory, not a file**.
+
+This PR makes variables naming clearer, and passes actual block-store path into `mkdir -r`, not the path of the lockfile. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 08:10:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3907" class=".btn">#3907</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Remove the develop-iroha-module guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Closes https://github.com/hyperledger/iroha-2-docs/issues/203
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 08:01:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3904" class=".btn">#3904</a>
             </td>
             <td>
@@ -27,7 +83,16 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                Since the implementation of rust-lang/rfcs#3389, it is now possible to specify workspace-level lints for rustc and clippy. This PR updates the cargo configuration and CI to use this new feature instead of cargo-lints.
+                __TL;DR__: use `cargo clippy -Zlints --workspace --benches --tests --examples --all-features` instead of `cargo lints`. Also you can permanently enable the `-Zlints` for your IDE by putting the following into `.cargo/config.toml`:
+
+```toml
+[unstable]
+lints = true
+```
+
+# Description
+
+Since the implementation of rust-lang/rfcs#3389, it is now possible to specify workspace-level lints for rustc and clippy. This PR updates the cargo configuration and CI to use this new feature instead of cargo-lints.
 
 Note that it was only stabilized in `nightly-2023-09-10`. Using it with out current toolchain requires either a -Zlints flag or a modification to `.cargo/config.toml`:
 
@@ -47,7 +112,7 @@ In particular, this PR:
 
 ### Checklist
 
-- [ ] Make sure it passes CI
+- [x] Make sure it passes CI
             </td>
         </tr>
     </table>
@@ -198,7 +263,7 @@ Closes #3882, #3737, #2437
 
 ### Checklist
 
-- [ ] make CI pass
+- [x] make CI pass
 
             </td>
         </tr>
