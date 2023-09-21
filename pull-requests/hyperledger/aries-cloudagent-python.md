@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2499" class=".btn">#2499</a>
+            </td>
+            <td>
+                <b>
+                    Use correct rust log level in dockerfiles 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                From issue https://github.com/hyperledger/aries-cloudagent-python/issues/2498
+
+It looks like `warning` is not a valid Rust log level string https://docs.rs/log/latest/log/enum.Level.html
+From what I've seen in traction (which deploys using the dockerfile here), this means logs default to INFO level here even though dockerfile is trying to have it at the warn level. (see details in ticket for what I tried out)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 04:12:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2496" class=".btn">#2496</a>
             </td>
             <td>

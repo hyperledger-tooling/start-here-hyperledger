@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5917" class=".btn">#5917</a>
+            </td>
+            <td>
+                <b>
+                    fix geth rlpx ping command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+The geth cmd 
+./build/bin/devp2p rlpx ping enodeAddress
+expects the client with address enodeAddress to respond with a HelloMessage right after successfully receiving the handshake message from the initiator.
+Existing behaviour in Besu is to wait for the HelloMessage from the initiator before sending the HelloMessage back.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 05:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5916" class=".btn">#5916</a>
+            </td>
+            <td>
+                <b>
+                    renamed PayloadTuple and made a separate class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                adds flexibility for adding more info to the Payload object eg OperationTracer to be used by plugins
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 02:42:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5913" class=".btn">#5913</a>
             </td>
             <td>
@@ -69,39 +125,6 @@ The implementation makes sure that block events are processed sequentially in th
     </table>
     <div class="right-align">
         Created At 2023-09-20 09:10:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5908" class=".btn">#5908</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.7.3 rc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 06:23:02 +0000 UTC
     </div>
 </div>
 
