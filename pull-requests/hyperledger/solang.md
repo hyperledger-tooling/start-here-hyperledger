@@ -374,34 +374,3 @@ Fixes https://github.com/hyperledger/solang/issues/1523
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1522" class=".btn">#1522</a>
-            </td>
-            <td>
-                <b>
-                    Fix recursive struct issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Structs that contains themselves in a dynamic array are not recursive and do not have infinite size, as in the example below:
-```solidity
-struct C {
-    C [2][3][][2] m;
-}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 22:32:00 +0000 UTC
-    </div>
-</div>
-

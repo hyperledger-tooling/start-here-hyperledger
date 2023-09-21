@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1816" class=".btn">#1816</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1819" class=".btn">#1819</a>
             </td>
             <td>
                 <b>
-                    fixed broken links
+                    Added some troubleshooting steps that might be useful to others when …
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                fixed broken links related to `auth_rules.md` in the page [Requests](https://hyperledger-indy.readthedocs.io/projects/node/en/latest/requests.html)
-
-issue #1683 
+                …they have trouble while adding a node to a network.  Some workarounds for bugs I encountered are included as well.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-05 15:45:27 +0000 UTC
+        Created At 2023-09-20 21:21:23 +0000 UTC
     </div>
 </div>
 
