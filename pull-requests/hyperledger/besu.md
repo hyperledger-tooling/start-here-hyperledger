@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5919" class=".btn">#5919</a>
+            </td>
+            <td>
+                <b>
+                    add get proof for bonsai
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+PR that adds the getproof for Bonsai. With this implementation, we can serve the getproof for historical states and not just the head.
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 07:34:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5918" class=".btn">#5918</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Block number param additional test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Just an additional test to prove that hex and binary are both supported at this level
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-21 06:34:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5917" class=".btn">#5917</a>
             </td>
             <td>
@@ -661,38 +720,6 @@ Do not merge. This is a short time brach for devnet 8.
     </table>
     <div class="right-align">
         Created At 2023-09-14 13:04:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5879" class=".btn">#5879</a>
-            </td>
-            <td>
-                <b>
-                    Tune G1GC to reduce Besu memory footprint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-These flags have been suggested by @ahamlat , and we tested them for months now, they have the effect of reducing the off heap memory used by Besu, without affecting the overall performance.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 10:45:58 +0000 UTC
     </div>
 </div>
 
