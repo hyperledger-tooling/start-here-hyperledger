@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5929" class=".btn">#5929</a>
+            </td>
+            <td>
+                <b>
+                    [4844] Fix some Devnet9 Hive tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fix null latest valid hash when validation blobs/expected hashes
+Fix HISTORICAL_ROOTS_MODULUS used by hive/devnet 9
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-22 07:45:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5923" class=".btn">#5923</a>
             </td>
             <td>
@@ -679,36 +707,6 @@ the fix is to simply convert percentage options to string when parsing the file
     </table>
     <div class="right-align">
         Created At 2023-09-15 13:04:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5885" class=".btn">#5885</a>
-            </td>
-            <td>
-                <b>
-                    RPC - Implement Debug trace call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">RPC</span>
-            </td>
-            <td>
-                ## PR description
-Implement Debug trace call
-
-## Fixed Issue(s)
-fix #5747
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-15 09:05:26 +0000 UTC
     </div>
 </div>
 

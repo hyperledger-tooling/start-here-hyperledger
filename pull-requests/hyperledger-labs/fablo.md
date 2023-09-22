@@ -31,6 +31,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
 
 - New function `peerChaincodeTls` is added to `chaincode-functions-v2.sh` that now handles `docker exec` command
 - Removed `expect-invoke-cli-tls.sh` as its implementation is now handled in `expect-invoke-cli.sh` and `peerChaincodeTls` function 
+- Test-02 now uses `expect-invoke-cli.sh` instead of `expect-invoke-cli-tls.sh`
             </td>
         </tr>
     </table>
