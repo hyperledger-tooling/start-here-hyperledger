@@ -772,30 +772,3 @@ However that field being absent doesn't fail the tests because this is checked i
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5882" class=".btn">#5882</a>
-            </td>
-            <td>
-                <b>
-                    [DO NOT MERGE] devnet8: correct address and modulus for beacon root
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Do not merge. This is a short time brach for devnet 8.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 23:28:34 +0000 UTC
-    </div>
-</div>
-

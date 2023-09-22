@@ -293,31 +293,3 @@ https://github.com/hyperledger/solang/issues/1533
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1531" class=".btn">#1531</a>
-            </td>
-            <td>
-                <b>
-                    Verify account space specified in annotation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">solana</span>
-            </td>
-            <td>
-                On Solana, we can specify the space necessary for a contract's data account in the constructor with an annotation. We do not verify, however, if the declared space is enough to hold all the contract variables. As a consequence, we could call the constructor without any issue using a very small space value and hit other runtime errors later.
-
-PS: I found it unpleasant to keep iterating over the constructor annotations to find the one we were looking for, so I replaced the vector by a struct to hold the permitted annotations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 22:35:21 +0000 UTC
-    </div>
-</div>
-
