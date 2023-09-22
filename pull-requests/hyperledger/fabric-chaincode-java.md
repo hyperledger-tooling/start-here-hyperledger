@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/314" class=".btn">#314</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/315" class=".btn">#315</a>
             </td>
             <td>
                 <b>
-                    Update dependencies to address security vulnerabilities
+                    Upgrade logback to latest v1.3.x. org.json to latest build.
                 </b>
             </td>
         </tr>
@@ -27,27 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                - CVE-2022-25647
-- CVE-2023-2976
-- CVE-2020-8908
-
-Also:
-
-- Update Gradle wrapper version to resolve Gradle bug in handling
-  certain dependency JAR files.
-- Update Gradle shadowJar plugin to v7.1.2 (except for bare-gradle contract,
-  since builder uses Gradle v5 if no wrapper is provided).
-- Add mergeServiceFiles() to test chaincode shadowJar Gradle tasks to
-  resolve an issue with incorrect class versions being loaded from dependencies.
-- Add ServicesResourceTransformer to test chaincode maven-shade-plugin
-  Maven plugin configuration to resolve an issue with incorrect class
-  versions being loaded from dependencies.
-- Tidy-up integration test contract dependencies.
+                As per https://github.com/hyperledger/fabric-chaincode-java/issues/312
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-20 14:51:20 +0000 UTC
+        Created At 2023-09-22 16:25:27 +0000 UTC
     </div>
 </div>
 

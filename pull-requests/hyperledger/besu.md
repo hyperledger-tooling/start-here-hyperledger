@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5930" class=".btn">#5930</a>
+            </td>
+            <td>
+                <b>
+                    Add parameters to EVM library fluent API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add the ability to configure more parameters in the fluent API. Specifically contract address, coinbase, difficulty, mixHash/prevRandao, baseFee, block number, timestamp, gas limit, previous block hashes, and versioned hashes.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-22 15:28:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5929" class=".btn">#5929</a>
             </td>
             <td>
@@ -81,7 +117,7 @@ Add the fields for Blobs into the GraphQL service.
             </td>
             <td>
                 <b>
-                    Prioritized promotion filter2
+                    Always enforce promotion filter for transactions in the prioritized layer
                 </b>
             </td>
         </tr>
@@ -95,9 +131,22 @@ Add the fields for Blobs into the GraphQL service.
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+This PR is built on top of #5920, so please check it first ([relative changes](https://github.com/fab-10/besu/compare/fab-10:besu:txpool-promotion-performance...prioritized-promotion-filter2))
+
+This PR is preparatory for more work on prioritizing local txs, that consist in more small PRs that have been split to make it easier to review.
+Before the PR, the prioritized layer also kept txs that could not be selected to be included in the next block, because as far as there was still space txs were added and kept there, regardless they were or not satisfying the promotion filter anymore.
+This PR improves the content of the prioritized layer, keeping there only txs that always satisfy the promotion filter, and thus are candidate for inclusion in the next block, this avoid to waste some work during txs selection, and pave the way for an easier prioritization of local txs.
+Currently the promotion filter says that a tx is willing to pay at list the base fee, on base fee market network, otherwise is always true.
+
+Simulation of block production shows no regression, actually metrics about number of txs in the block, block value and gas used are, on average, better with this PR vs 23,7,2 version:
+![image](https://github.com/hyperledger/besu/assets/91944855/309a58ac-838e-4da6-b3e7-703b9ce5644b)
+
+![image](https://github.com/hyperledger/besu/assets/91944855/3a019711-770c-4d26-b1b7-7555d8ba2b71)
+
+![image](https://github.com/hyperledger/besu/assets/91944855/ddad0bc1-9ece-4507-99f8-efa38a46db6a)
+
+
+
             </td>
         </tr>
     </table>
@@ -128,9 +177,9 @@ Add the fields for Blobs into the GraphQL service.
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+During the implementation of #5921, a performance issue surfaced in the way the promotion of transactions, from lower layers, was implemented.
+The issue was that, to keep the code simple, the promotion was done for one tx at once, but with the improvement on the prioritized layer done #5921, this approach is no more practical since result in a quadratic complexity (number of confirmed txs per number of senders in the ready layer), so the solution is to do the promotion only once after all the confirmed txs have been processed, so the time is linear.
+
             </td>
         </tr>
     </table>
@@ -670,43 +719,6 @@ Draft PR to implement SnapServer using FlatDB Strategy
     </table>
     <div class="right-align">
         Created At 2023-09-16 12:49:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5886" class=".btn">#5886</a>
-            </td>
-            <td>
-                <b>
-                    Fix: correctly convert percentage options in TOML configuration file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Fix for a regression introduced by #5772 that causes the following exception when the option `tx-pool-limit-by-account-percentage` is defined as a number in the configuration file
-
-```
-TomlInvalidTypeException: Value of 'tx-pool-limit-by-account-percentage' is a float while processing argument at or before arg[0] '--config-file=./config.toml' in [--config-file=./config.toml]: org.apache.tuweni.toml.TomlInvalidTypeException: Value of 'tx-pool-limit-by-account-percentage' is a float
-```
-
-the fix is to simply convert percentage options to string when parsing the file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-15 13:04:31 +0000 UTC
     </div>
 </div>
 
