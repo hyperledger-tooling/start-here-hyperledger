@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/728" class=".btn">#728</a>
+            </td>
+            <td>
+                <b>
+                    fix: Adding localhost environment variable in run.sh script for local development
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Overview
+On the integration of the local scripts with the quick started guide the didcomm service needs to be exposed and reachable by the browser and mobile platforms. (allowing cors and connections from outside of the docker network.)
+
+Fixes [ATL-5805](https://input-output.atlassian.net/browse/ATL-5805)
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [*] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [ *] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [ ] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [*] If yes to above: I have updated the documentation accordingly
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-22 13:48:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/727" class=".btn">#727</a>
             </td>
             <td>
@@ -226,66 +276,6 @@ Fixes failing e2e tests by removing wrong tokens and cleaning up initialization
     </table>
     <div class="right-align">
         Created At 2023-09-15 20:46:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/723" class=".btn">#723</a>
-            </td>
-            <td>
-                <b>
-                    test: multitenancy tests update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span><span class="chip">infra</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Update to execute integration tests in multitenancy mode:
-* Issuer and Verifier are now created via admin requests in one Cloud Agent
-* Holder is a separate configured agent to emulate a simple single tenant
-* Many bug fixes
-* First round of tests for wallets endpoints
-
-Tenant and webhook tests will come a bit later.
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [x] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [x] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-15 16:47:51 +0000 UTC
     </div>
 </div>
 
