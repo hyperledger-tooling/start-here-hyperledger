@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2511" class=".btn">#2511</a>
+            </td>
+            <td>
+                <b>
+                    Restore aca-py script for when poetry's script support is not suitable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should resolve some edge cases where the poetry script `aca-py` did not fully replace the need for the dedicated script file in `bin/aca-py` mentioned in #2436. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-22 22:35:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2510" class=".btn">#2510</a>
+            </td>
+            <td>
+                <b>
+                    Remove unused dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-22 21:15:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2509" class=".btn">#2509</a>
+            </td>
+            <td>
+                <b>
+                    0.10.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Verified the latest PR (PyDID update) in AATH -- all tests passed. Looking good!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-22 19:38:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2503" class=".btn">#2503</a>
             </td>
             <td>
