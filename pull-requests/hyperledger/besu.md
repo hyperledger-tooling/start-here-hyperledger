@@ -209,7 +209,7 @@ The issue was that, to keep the code simple, the promotion was done for one tx a
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-PR that adds the getproof for Bonsai. With this implementation, we can serve the getproof for historical states and not just the head.
+PR that adds getproof for Bonsai. With this implementation, we can serve the getproof for historical states and not just the head.
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

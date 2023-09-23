@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/451" class=".btn">#451</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/452" class=".btn">#452</a>
             </td>
             <td>
                 <b>
-                    Updating readme.md with link to the pdo contracts repo
+                    Shell updates
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                Updated the README.md file with a link to the newly created pdo-contracts repository.
+                A few small updates to make the pdo-shell argument processing consistent with the other client applications (so they all use the same parameter processing function from pdo.client.builder.shell).  This update required some changes to the tests that invoke the shell. 
+
+There are a couple of other small bug fixes included as well.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-15 20:50:43 +0000 UTC
+        Created At 2023-09-22 19:13:56 +0000 UTC
     </div>
 </div>
 
