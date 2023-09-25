@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5933" class=".btn">#5933</a>
+            </td>
+            <td>
+                <b>
+                    Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty).
+The default number of blocks to keep in the cache is 512.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 09:19:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5931" class=".btn">#5931</a>
             </td>
             <td>
@@ -688,41 +723,6 @@ and also @fab-10's changes from https://github.com/eth-clients/holesky/pull/72
     </table>
     <div class="right-align">
         Created At 2023-09-18 21:44:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5889" class=".btn">#5889</a>
-            </td>
-            <td>
-                <b>
-                    Draft PR: Code storage by hash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Draft PR for storing code by hash instead of by address. This is needed snapsync as we need to be able to retrieve the code by hash.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixed #5388 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 07:02:51 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,180 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3920" class=".btn">#3920</a>
+            </td>
+            <td>
+                <b>
+                     [refactor] #3874: Removes `IsAssetDefinitionOwnerQuery`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Removed all instances of `IsAssetDefinitionOwner` except for some:
+
+**In `wasm/validator/src/permission.rs` and `/default.rs**
+
+With the function
+
+```rust
+fn is_asset_definition_owner(
+        asset_definition_id: &AssetDefinitionId,
+        authority: &AccountId,
+    ) -> Result<bool> {
+        IsAssetDefinitionOwner::new(asset_definition_id.clone(), authority.clone()).execute()
+    }
+```
+
+I am unsure what to replace this result with. I have tried replacing it with `FindAssetDefinitionById` (since this is said to do the exact same thing as is asset definition owner in #3874) but this creates build errors. Should I delete everything that uses the `is_asset_definition_owner` function as well?
+
+
+
+### Linked issue
+
+Remove `IsAssetDefinitionOwnerQuery`
+
+This query was introduced only for the purposes of validator. Since #3442 we can use `FindAssetDefinitionById` to do the exact same thing.
+
+Closes #3442<!-- Replace with an actual number,  -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 10:33:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3917" class=".btn">#3917</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Shallow `Account`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+Move accounts' assets and roles into `wsv`.
+
+This PR takes alternate design from #3681 since it might be preferable to operate on roles as first class citizens (e.g. have specific queries, isi, ...). 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3681 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Move effective range quires over all assets, roles.
+
+Cloning account is less expensive.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 06:54:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3916" class=".btn">#3916</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3895: move `commit_topology` into block payload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3895
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 06:49:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3915" class=".btn">#3915</a>
             </td>
             <td>
@@ -31,7 +205,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 Update `iroha_futures_derive` to use syn 2.0
 
-Would be nice to be able to use the `Emitter` type from #3882, will update the PR when it will be merged
+Would be nice to be able to use the `Emitter` type from #3897, will update the PR when it will be merged
 
 Also, a drive-by fix to silence the "unused" lints in some other feature combinations
 
@@ -41,6 +215,7 @@ Closes #3911
 
 ### Checklist
 
+- [ ] make CI pass
 - [ ] use `Emitter` once #3882 is merged
 
 
@@ -485,64 +660,6 @@ Closes #3882, #3737, #2437
     </table>
     <div class="right-align">
         Created At 2023-09-18 14:49:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3896" class=".btn">#3896</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3856: Proc macro for default validator boilerplate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-Now the different flavors of validators can be generated with less repetition.
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3856. <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-Less non-obvious boilerplate when defining custom validators.
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 10:35:04 +0000 UTC
     </div>
 </div>
 
