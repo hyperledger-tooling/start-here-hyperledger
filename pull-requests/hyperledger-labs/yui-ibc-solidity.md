@@ -28,6 +28,10 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 fix #12 
+
+- implement `timeoutPacket` and `timeoutOnClose`
+- implement `onTimeoutPacket` for ICS20Transfer
+- fix `verifyNonMembership` of IBFT2 client
             </td>
         </tr>
     </table>
