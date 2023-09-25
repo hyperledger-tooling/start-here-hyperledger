@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5931" class=".btn">#5931</a>
+            </td>
+            <td>
+                <b>
+                    BlockTransactionSelector refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+`BlockTransactionSelector` refactoring:
+
+- Extract `TransactionSelectionResults` to its own class.
+- Extract Transaction Selection Criteria and selection logic out of the `BlockTransactionSelector` to their own classes
+- `BlockTransactionSelector` will use a list of selectors to evaluate the transaction
+- Similar to selectors that will evaluate a transaction
+
+Next steps:
+
+- Expose `TransactionProcessingResult` (or at least a part of it the to Plugin interface)
+- Abstract the transaction selectors and external transaction selectors so they share the same logic
+- Add a way to get the `OperationTracer` from the TPR and pass it to the plugin 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 03:22:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5930" class=".btn">#5930</a>
             </td>
             <td>
