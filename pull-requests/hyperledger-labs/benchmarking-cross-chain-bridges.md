@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Added scripts for setup and updated readme
+                    token swapping on cowswap protocol
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
                 
             </td>
             <td>
-                1. Makes running the benchmarker easier with `yarn setup`. It configures node_modules, foundry packages, and creates directories used.
-
-2. Fixed test bug where a hyperlane test was skipped on accident
+                Added:
+1) ERC20 allowance using openzeppelin 
+2) Returns a cowswap route id when the execute_route.test.ts test is unskipped
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 16:22:25 +0000 UTC
+        Created At 2023-09-25 14:13:18 +0000 UTC
     </div>
 </div>
 

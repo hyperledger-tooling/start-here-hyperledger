@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2511" class=".btn">#2511</a>
-            </td>
-            <td>
-                <b>
-                    Restore aca-py script for when poetry's script support is not suitable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should resolve some edge cases where the poetry script `aca-py` did not fully replace the need for the dedicated script file in `bin/aca-py` mentioned in #2436. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-22 22:35:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2510" class=".btn">#2510</a>
             </td>
             <td>
