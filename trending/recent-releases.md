@@ -7,7 +7,7 @@
 
 [v1.0.3](https://github.com/hyperledger/indy-shared-rs/releases/tag/v1.0.3) v1.0.3
 
-[v2.2.19](https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.19) v2.2.19
+[prism-agent-v1.16.0](https://github.com/hyperledger-labs/open-enterprise-agent/releases/tag/prism-agent-v1.16.0) Open Enterprise Agent v1.16.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
