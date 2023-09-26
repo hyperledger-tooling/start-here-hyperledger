@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5940" class=".btn">#5940</a>
+            </td>
+            <td>
+                <b>
+                    [4844] [Hive] Fix fcuV3 parameter return 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fix some hive tests
+
+- Return JsonRpcErrorResponse instead of JsonRpcSuccessResponse when fork not supported or parameters invalid.
+- Validate parameter before fork validation
+- Validate getParentBeaconBlockRoot on EngineForkchoiceUpdatedV3 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 02:34:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5939" class=".btn">#5939</a>
+            </td>
+            <td>
+                <b>
+                    Add Nick and George as maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I propose to add @nicksneo and @gtebrean as Besu project maintainers. In addition to quality code contributions, they have been contributing to Besu community via contributing to discussions in Discord. 
+
+Nick has made a number of code contributions including -
+* show correct revert reason data in priv_call
+* removed GoQuorum permissioning interop
+* migrated several packages from Junit4 to Junit5
+
+Nick’s PRs: https://github.com/hyperledger/besu/pulls?q=is%3Apr+is%3Aclosed+author%3ANickSneo
+
+George has made a number of code contributions including - 
+* bugfix in eth_feeHistory
+* decoupled JsonRPCError enum from the data field
+* made pretty JSON feature user-configurable
+
+George's PRs: https://github.com/hyperledger/besu/pulls?q=is%3Apr+is%3Aclosed+author%3Agtebrean
+
+Voting ends two weeks from today.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 02:05:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5938" class=".btn">#5938</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.7.3-RC2 - Holesky Hotfix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using https://github.com/hyperledger/besu/tree/release-23.7.x, revert RC1 burn-in and apply holesky 2.0 config update as a cherry-pick.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 01:02:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5936" class=".btn">#5936</a>
             </td>
             <td>
@@ -670,41 +772,6 @@ Upgrade besu-native to 0.8.2
     </table>
     <div class="right-align">
         Created At 2023-09-19 15:03:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5892" class=".btn">#5892</a>
-            </td>
-            <td>
-                <b>
-                    Add updated storage to evmtool json trace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add the EIP-3155 "storage" option to the standard tracer, with the caveat only updated storage is logged.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-19 03:27:57 +0000 UTC
     </div>
 </div>
 
