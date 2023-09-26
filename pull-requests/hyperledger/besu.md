@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5948" class=".btn">#5948</a>
+            </td>
+            <td>
+                <b>
+                    Transaction pool unit tests refactoring to remove duplicated code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Refactor transaction pool tests to remove all the duplicated code that was introduced when implementing the layered txpool.
+Now all tests are defined in `AbstractTransactionPoolTest` and extending classes are used to setup the right env for fee market and txpool implementation.
+This make the tests more future proof, since in this way a new test is run against all the implementations and fee markets, while before you had to remember to code the test twice.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 16:37:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5941" class=".btn">#5941</a>
             </td>
             <td>
@@ -768,38 +801,6 @@ includes speculative changes for #5898 concurrency issue.  `services/kvstore/...
     </table>
     <div class="right-align">
         Created At 2023-09-19 19:41:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5893" class=".btn">#5893</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade besu-native to 0.8.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Upgrade besu-native to 0.8.2
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-19 15:03:34 +0000 UTC
     </div>
 </div>
 
