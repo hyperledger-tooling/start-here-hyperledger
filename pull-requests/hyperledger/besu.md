@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5941" class=".btn">#5941</a>
+            </td>
+            <td>
+                <b>
+                    updated beacon root and modulus to match DRAFT eip
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Still draft but this time it _says_ final https://github.com/ethereum/EIPs/pull/7672#issuecomment-1734562996
+
+Also renamed the modulus value so it matches the name used in the EIP
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 06:30:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5940" class=".btn">#5940</a>
             </td>
             <td>

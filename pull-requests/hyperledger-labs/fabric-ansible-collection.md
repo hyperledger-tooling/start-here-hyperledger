@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    Changes in test files
+                    Image secret creation steps added
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                This change correct the name of the fabric-ansible-collection in the integration test files
+                This pull request contains changes for Kubernetes secret creation in the ansible steps
+
 Reviewer @modemn 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-12 10:51:08 +0000 UTC
+        Created At 2023-09-26 10:02:45 +0000 UTC
     </div>
 </div>
 
