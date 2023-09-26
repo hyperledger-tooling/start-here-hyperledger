@@ -198,29 +198,3 @@ Fixes https://github.com/hyperledger/solang/issues/1433
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1544" class=".btn">#1544</a>
-            </td>
-            <td>
-                <b>
-                    Fix mutability check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1493 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 20:49:56 +0000 UTC
-    </div>
-</div>
-

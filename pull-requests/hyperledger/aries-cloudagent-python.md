@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2516" class=".btn">#2516</a>
+            </td>
+            <td>
+                <b>
+                    fix: mediation routing keys as did key
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is a minor rethink to #2502; as discussed in my comment on that PR, I think I/we went a bit too far with base58 to did:key normalization. This is the minimum set of changes required to fix the two issues.
+
+Fixes #2492.
+Fixes #2357.
+
+These changes also cause did:keys to be sent out in mediation grant messages and, subsequently, connections/did exchange as the `routingKeys` in the DID Document. This has interop implications. A big motivator for these changes however is to enable AFJ/Bifold based agents to connect through a public DID with mediation where AFJ/Bifold is expectign did:keys in the routing keys in the endpoint attrib. So this should help push us towards "good" interop and should only break "bad" interop.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 21:24:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2515" class=".btn">#2515</a>
+            </td>
+            <td>
+                <b>
+                    refactor: drop mediator_terms and recipient_terms
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Term negotiation was dropped from the coordinate mediation protocol early in the proposal process. Our implementation helped to determine that it should be dropped but predates the decision. The terms support has hung around unused for years. Time to remove it.
+
+Terms will no longer be stored in mediation records but old mediation records should continue to work (the values will just be ignored).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 20:46:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2510" class=".btn">#2510</a>
             </td>
             <td>
@@ -59,36 +118,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2023-09-22 19:38:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2502" class=".btn">#2502</a>
-            </td>
-            <td>
-                <b>
-                    fix: mediation webhook routing keys
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Re: #[2357](https://github.com/hyperledger/aries-cloudagent-python/issues/2357) and #[2492](https://github.com/hyperledger/aries-cloudagent-python/issues/2492)
-
-Indicio PR: https://github.com/Indicio-tech/aries-cloudagent-python/pull/153
-
-Tagging and credit due to @dbluhm 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 19:00:47 +0000 UTC
     </div>
 </div>
 
@@ -170,32 +199,6 @@ From what I've seen in traction (which deploys using the dockerfile here), this 
     </table>
     <div class="right-align">
         Created At 2023-09-19 16:14:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2495" class=".btn">#2495</a>
-            </td>
-            <td>
-                <b>
-                    fix: run tests script copying local env
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes the scripts/run_tests script and its dockerfiles to make sure it doesn't copy local .venv directories into the container image. This was causing the script to fail.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 18:53:16 +0000 UTC
     </div>
 </div>
 

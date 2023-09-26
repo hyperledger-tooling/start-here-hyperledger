@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5936" class=".btn">#5936</a>
+            </td>
+            <td>
+                <b>
+                    Fix t8n encoding issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+When sending a stack in json fields strip out the newlines and tabs.
+
+
+## Fixed Issue(s)
+fixes #5910 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-25 21:28:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5933" class=".btn">#5933</a>
             </td>
             <td>
@@ -669,60 +705,6 @@ Add the EIP-3155 "storage" option to the standard tracer, with the caveat only u
     </table>
     <div class="right-align">
         Created At 2023-09-19 03:27:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5891" class=".btn">#5891</a>
-            </td>
-            <td>
-                <b>
-                    add plugin API to enable plugins to validate transaction before they are added to the transaction pool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Adding a plugin API to enable plugins to validate of transactions entering the transaction pool
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-19 00:41:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5890" class=".btn">#5890</a>
-            </td>
-            <td>
-                <b>
-                    Update holesky with fixed extraData, genesis time, shanghaiTime
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Incorporates https://github.com/eth-clients/holesky/pull/73
-and also @fab-10's changes from https://github.com/eth-clients/holesky/pull/72
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 21:44:43 +0000 UTC
     </div>
 </div>
 
