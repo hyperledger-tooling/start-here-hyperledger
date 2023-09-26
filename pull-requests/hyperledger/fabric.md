@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4445" class=".btn">#4445</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4448" class=".btn">#4448</a>
             </td>
             <td>
                 <b>
-                    Add orderer backoff
+                    Fix typo in code
                 </b>
             </td>
         </tr>
@@ -27,17 +27,37 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                By default, the maximum time between attempts to connect one orderer to another via grpc is 2 minutes. And the waiting time for a heartbeat message from the leader in smartbft is 1 minute.
-Therefore, it is possible to choose a time interval between the start of the leader and the follower, such that the follower will leave the consensus immediately.
+                Change the message of using commond --> command.
 
-This hotfix adds the ability to set the maximum time between connection attempts (ORDERER_GENERAL_BACKOFF_MAXDELAY).
+And minorly improve several comments.
 
-Recommendations: if LeaderHeartbeatTimeout is 1m, then MaxDelay 20s.
+Change-Id: I4321aa2b5b67aebd2be13ea8ce797c448cb86f6a
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Fix typo in the message and improve code comments.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-18 21:45:12 +0000 UTC
+        Created At 2023-09-25 23:02:57 +0000 UTC
     </div>
 </div>
 
