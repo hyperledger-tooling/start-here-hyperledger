@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
 Fixes #2492.
 Fixes #2357.
 
-These changes also cause did:keys to be sent out in mediation grant messages and, subsequently, connections/did exchange as the `routingKeys` in the DID Document. This has interop implications. A big motivator for these changes however is to enable AFJ/Bifold based agents to connect through a public DID with mediation where AFJ/Bifold is expectign did:keys in the routing keys in the endpoint attrib. So this should help push us towards "good" interop and should only break "bad" interop.
+These changes also cause did:keys to be sent out in mediation grant messages and, subsequently, connections/did exchange as the `routingKeys` in the DID Document. This has interop implications. A big motivator for these changes however is to enable AFJ/Bifold based agents to connect through a public DID with mediation where AFJ/Bifold is expecting did:keys in the routing keys in the endpoint attrib. So this should help push us towards "good" interop and should only break "bad" interop.
             </td>
         </tr>
     </table>

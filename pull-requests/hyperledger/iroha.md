@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3923" class=".btn">#3923</a>
+            </td>
+            <td>
+                <b>
+                    [feature]: parse filter as JSON5 in `iroha_client_cli`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+There is inconsistency of what `iroha_client_cli` accepts:
+
+- JSON5 input for `iroha_client_cli json` command
+- JSON input for filters, e.g.
+  ```bash
+  iroha_client_cli domains list filter '{"Identifiable": {"Is": "wonderland"}}'
+  ```
+
+This chore PR adds support for JSON5 for filters:
+
+```bash
+iroha_client_cli domains list filter '{Identifiable: {Is: "wonderland"}}'
+```
+
+
+### Context
+
+It makes examples of `iroha_client_cli` usage _a little_ more clear and consistent.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 06:10:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3920" class=".btn">#3920</a>
             </td>
             <td>
