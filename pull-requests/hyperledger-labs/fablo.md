@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/413" class=".btn">#413</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/414" class=".btn">#414</a>
             </td>
             <td>
                 <b>
-                    Implemented use of generators for chaincode invoke command with TLS
+                    Create bump version script and bump version
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Addressing issue #390 to support invoke command with TLS and uses generators with the following changes:
-
-- New function `peerChaincodeTls` is added to `chaincode-functions-v2.sh` that now handles `docker exec` command
-- Removed `expect-invoke-cli-tls.sh` as its implementation is now handled in `expect-invoke-cli.sh` and `peerChaincodeTls` function 
-- Test-02 now uses `expect-invoke-cli.sh` instead of `expect-invoke-cli-tls.sh`
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-19 10:28:37 +0000 UTC
+        Created At 2023-09-26 11:46:59 +0000 UTC
     </div>
 </div>
 

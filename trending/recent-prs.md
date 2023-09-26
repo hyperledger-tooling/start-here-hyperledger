@@ -1,13 +1,13 @@
 
-[3923](https://github.com/hyperledger/iroha/pull/3923) [feature]: parse filter as JSON5 in `iroha_client_cli`
+[414](https://github.com/hyperledger-labs/fablo/pull/414) Create bump version script and bump version
 
-[5940](https://github.com/hyperledger/besu/pull/5940) [4844] [Hive] Fix fcuV3 parameter return 
+[26](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/26) Image secret creation steps added
 
-[5939](https://github.com/hyperledger/besu/pull/5939) Add Nick and George as maintainers
+[558](https://github.com/hyperledger/cello/pull/558) [#issue-557]Remove the secondary menu from the left navigation
 
-[5938](https://github.com/hyperledger/besu/pull/5938) Release 23.7.3-RC2 - Holesky Hotfix
+[456](https://github.com/hyperledger-labs/blockchain-explorer/pull/456) Package fix
 
-[4448](https://github.com/hyperledger/fabric/pull/4448) Fix typo in code
+[3925](https://github.com/hyperledger/iroha/pull/3925) [refactor]: Replace Registered with Identifiable in ISI bounds
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
