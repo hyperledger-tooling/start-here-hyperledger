@@ -15,33 +15,40 @@ permalink: /releases/hyperledger/firefly-fabconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v0.9.17
+                    v0.9.18
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.9.17
+                    v0.9.18
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Use existing transient map support in the gateway client by @jimthematrix in https://github.com/hyperledger/firefly-fabconnect/pull/100
-* Update fabconnect to send receipts conforming to FireFly receipt stru… by @matthew1001 in https://github.com/hyperledger/firefly-fabconnect/pull/102
+* Remove double decoding of event payload by @awrichar in https://github.com/hyperledger/firefly-fabconnect/pull/107
+* Fix panic in un-register by @peterbroadhurst in https://github.com/hyperledger/firefly-fabconnect/pull/111
+* Use an LRU cache for the signing identities by @jimthematrix in https://github.com/hyperledger/firefly-fabconnect/pull/112
+* Remove tx completion tracking by @jimthematrix in https://github.com/hyperledger/firefly-fabconnect/pull/113
+* Update README.md, payloadType can now only be an empty string, "strin… by @kmilodenisglez in https://github.com/hyperledger/firefly-fabconnect/pull/104
+* Use structs specific to the lifecycle calls to unmarshal the args by @jimthematrix in https://github.com/hyperledger/firefly-fabconnect/pull/101
+* Add golangci config file and fix linter issues by @PanGan21 in https://github.com/hyperledger/firefly-fabconnect/pull/108
+* Update MAINTAINERS.md and CODEOWNERS by @nguyer in https://github.com/hyperledger/firefly-fabconnect/pull/117
 
 ## New Contributors
-* @matthew1001 made their first contribution in https://github.com/hyperledger/firefly-fabconnect/pull/102
+* @awrichar made their first contribution in https://github.com/hyperledger/firefly-fabconnect/pull/107
+* @PanGan21 made their first contribution in https://github.com/hyperledger/firefly-fabconnect/pull/108
 
-**Full Changelog**: https://github.com/hyperledger/firefly-fabconnect/compare/v.0.9.16...v0.9.17
+**Full Changelog**: https://github.com/hyperledger/firefly-fabconnect/compare/v0.9.17...v0.9.18
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.17" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.18" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-19 15:41:44 +0000 UTC
+        Created At 2023-09-20 20:53:23 +0000 UTC
     </span>
 </div>
 
