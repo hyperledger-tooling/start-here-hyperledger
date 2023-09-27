@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2520" class=".btn">#2520</a>
+            </td>
+            <td>
+                <b>
+                    Update shared components
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates to:
+- Indy-VDR 0.4 release (with did:indy support)
+- Indy-Credx 1.0.3 minimum version
+- Askar 0.3.0-dev.1
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 16:50:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2519" class=".btn">#2519</a>
             </td>
             <td>

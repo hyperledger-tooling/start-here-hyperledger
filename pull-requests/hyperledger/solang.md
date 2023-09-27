@@ -172,29 +172,3 @@ Fixes https://github.com/hyperledger/solang/issues/1433
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1546" class=".btn">#1546</a>
-            </td>
-            <td>
-                <b>
-                    Update and fix target config file templates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We don't want to maintain the same file twice. One version was outdated. The other one contained an invalid config for  `wasm-opt`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 15:12:00 +0000 UTC
-    </div>
-</div>
-

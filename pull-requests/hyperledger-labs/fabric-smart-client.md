@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/495" class=".btn">#495</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/496" class=".btn">#496</a>
             </td>
             <td>
                 <b>
-                    support for multiple fabric transaction format
+                    resolves issue 491 -- Support golang 1.21 by upgrading libp2p
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                See https://github.com/hyperledger-labs/fabric-smart-client/issues/491
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 13:55:01 +0000 UTC
+        Created At 2023-09-27 13:04:56 +0000 UTC
     </div>
 </div>
 

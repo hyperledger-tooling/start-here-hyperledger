@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Galaxy yaml updated to version2.0.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @modemn  The galaxy.yaml is updated to v2.0.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 12:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/27" class=".btn">#27</a>
             </td>
             <td>
