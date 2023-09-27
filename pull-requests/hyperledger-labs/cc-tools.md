@@ -99,29 +99,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    Refactor putRecursive to avoid getRecursive and updating unchanged assets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 17:24:16 +0000 UTC
-    </div>
-</div>
-

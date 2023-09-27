@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3930" class=".btn">#3930</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Rename ISI from *Box to *Expr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+1. This was a complete misnomer because `Box` suffix if for enums used to group objects for serialization purpose
+2. This is an interlude into another PR where I will introduce proper `Box`ed instructions which will not contain expressions inside them, i.e. they will be evaluated instructions
+3. I'm only doing this rename in separate PR first so that changes are not overwhelming to review
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 15:23:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3925" class=".btn">#3925</a>
             </td>
             <td>
@@ -557,61 +616,6 @@ This PR makes variables naming clearer, and passes actual block-store path into 
     </table>
     <div class="right-align">
         Created At 2023-09-21 08:01:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3904" class=".btn">#3904</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #3622: Use cargo manifest lints instead of unmaintained cargo-lints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                __TL;DR__: use `cargo clippy -Zlints --workspace --benches --tests --examples --all-features` instead of `cargo lints`. Also you can permanently enable the `-Zlints` for your IDE by putting the following into `.cargo/config.toml`:
-
-```toml
-[unstable]
-lints = true
-```
-
-# Description
-
-Since the implementation of rust-lang/rfcs#3389, it is now possible to specify workspace-level lints for rustc and clippy. This PR updates the cargo configuration and CI to use this new feature instead of cargo-lints.
-
-Note that it was only stabilized in `nightly-2023-09-10`. Using it with out current toolchain requires either a -Zlints flag or a modification to `.cargo/config.toml`:
-
-```toml
-[unstable]
-lints = true
-```
-
-Also note that unlike the original suggestion in #3622, this doesn't make the lints crate-level, but merely replaces a clunky unmaintained tool with a standard solution for configuring lints.
-
-In particular, this PR:
-- Removes old lints.toml configuration files for cargo-lints
-- Adds [lint] tables to Cargo.toml of the root and wasm workspaces. The lints are duplicated between the two
-- Replaces `cargo lints clippy` invocations with `cargo clippy -Zlints` in CI scripts
-- Silences/fixes some new lints that popped up due to differences in how between `cargo lints` and workspaces
-- Does a drive-by fix to iroha_genesis: it now too shares cargo metadata as do other crates
-
-### Checklist
-
-- [x] Make sure it passes CI
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 12:27:46 +0000 UTC
     </div>
 </div>
 
