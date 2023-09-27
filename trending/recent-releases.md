@@ -1,5 +1,5 @@
 
-[23.7.3](https://github.com/hyperledger/besu/releases/tag/23.7.3) 23.7.3 - Holesky 2.0 Hotfix
+[23.7.3](https://github.com/hyperledger/besu/releases/tag/23.7.3) 23.7.3
 
 [v0.10.2](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.10.2) v0.10.2
 
