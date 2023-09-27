@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1552" class=".btn">#1552</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Variables declared in return param can have a storage location
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Variables declared as return parameters can have a storage location too.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 07:57:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1551" class=".btn">#1551</a>
             </td>
             <td>

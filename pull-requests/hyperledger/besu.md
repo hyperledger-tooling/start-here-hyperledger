@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5957" class=".btn">#5957</a>
+            </td>
+            <td>
+                <b>
+                    Added toString implementation for TransactionSimulatorResult
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Added toString implementation for TransactionSimulatorResult
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fix #5942
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 09:45:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5955" class=".btn">#5955</a>
+            </td>
+            <td>
+                <b>
+                    rlpx - Send empty list instead of Empty Bytes for the Ping and Pong message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Send empty list instead of Empty Bytes for Ping and Pong message
+https://github.com/ethereum/devp2p/blob/master/rlpx.md#ping-0x02
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 07:07:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5954" class=".btn">#5954</a>
             </td>
             <td>
@@ -708,42 +771,6 @@ Existing behaviour in Besu is to wait for the HelloMessage from the initiator be
     </table>
     <div class="right-align">
         Created At 2023-09-20 20:04:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5909" class=".btn">#5909</a>
-            </td>
-            <td>
-                <b>
-                    Process onBlockAdded event asyncronously
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Reduce `engine_forkchoiceUpdatedV?` response time by asynchronously process block added events in the transaction pool.
-This way the processing of the block in the txpool will not add to the response time of the method, and according to my test the gain is evident (yellow line instance is running this PR)
-![image](https://github.com/hyperledger/besu/assets/91944855/ce469f1d-3723-4dcd-8bc4-575f3c079f87)
-
-The implementation makes sure that block events are processed sequentially in the order they arrive.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 09:10:44 +0000 UTC
     </div>
 </div>
 
