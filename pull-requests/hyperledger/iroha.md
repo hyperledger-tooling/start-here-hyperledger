@@ -184,7 +184,7 @@ Closes #3442<!-- Replace with an actual number,  -->
             </td>
             <td>
                 <b>
-                    [refactor]: Shallow `Account`
+                    [refactor]: Move roles in `WSV`
                 </b>
             </td>
         </tr>
@@ -195,7 +195,7 @@ Closes #3442<!-- Replace with an actual number,  -->
             <td>
                 ## Description
 
-Move accounts' assets and roles into `wsv`.
+Move accounts' roles into `wsv`.
 
 This PR takes alternate design from #3681 since it might be preferable to operate on roles as first class citizens (e.g. have specific queries, isi, ...). 
 
@@ -612,114 +612,6 @@ In particular, this PR:
     </table>
     <div class="right-align">
         Created At 2023-09-20 12:27:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3903" class=".btn">#3903</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3899: Fix topology mismatch bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-- Fixed trusted peer deserialization. `HashSet` was replaced by `Vec`
-- Some minor refactoring
-
-However I don't quite understand this change fixes the main problem. I was testing with `test_env.py` which runs the same binary multiple times, so hashing should stay the same.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-- Closes #3899<!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-- No more `TopologyMismatch` error on network startup
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 11:15:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3902" class=".btn">#3902</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #3825: Clean default runner free space
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-Some CI jobs have a lack of space problem on the default GitHub runners.
-
-### Linked issue
-#3825 
-
-### Benefits
-This possible fix might help to free up approximate 10G disk size.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 10:42:18 +0000 UTC
     </div>
 </div>
 
