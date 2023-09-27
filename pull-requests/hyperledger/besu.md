@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5952" class=".btn">#5952</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5954" class=".btn">#5954</a>
             </td>
             <td>
                 <b>
-                    Upd execution tests
+                    Fixup changelog following 23.7.3 release
                 </b>
             </td>
         </tr>
@@ -27,7 +27,63 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                0.2.4
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 05:03:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5953" class=".btn">#5953</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 02:38:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5952" class=".btn">#5952</a>
+            </td>
+            <td>
+                <b>
+                    Update execution tests to 0.2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #5412 
+
+Number of ref tests 
+* main - 185426: https://app.circleci.com/pipelines/github/hyperledger/besu/24196/workflows/ae4e3b27-f74d-4d04-83c8-d515a3da9b75/jobs/155337
+* this PR - 185441: https://app.circleci.com/pipelines/github/hyperledger/besu/24197/workflows/a23689ff-a74c-494f-bfdb-650dc9fd61c9/jobs/155355
             </td>
         </tr>
     </table>
@@ -688,65 +744,6 @@ The implementation makes sure that block events are processed sequentially in th
     </table>
     <div class="right-align">
         Created At 2023-09-20 09:10:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5906" class=".btn">#5906</a>
-            </td>
-            <td>
-                <b>
-                    Burn in candidate for 23.7.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 05:56:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5904" class=".btn">#5904</a>
-            </td>
-            <td>
-                <b>
-                    [CHANGELOG] removed duplicated line
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 02:49:02 +0000 UTC
     </div>
 </div>
 
