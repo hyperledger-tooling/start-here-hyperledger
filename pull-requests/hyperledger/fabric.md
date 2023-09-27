@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4449" class=".btn">#4449</a>
+            </td>
+            <td>
+                <b>
+                    Clean up duplicated check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix duplicated check of file existence and clean up.
+
+Change-Id: If162b6fbfebffd493f345439d346881068916b74
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset removes a duplicated check of the existence of the metadata file, and directly uses the err, which is common following Go style.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 21:22:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4448" class=".btn">#4448</a>
             </td>
             <td>

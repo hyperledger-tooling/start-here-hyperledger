@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/27" class=".btn">#27</a>
+            </td>
+            <td>
+                <b>
+                    Update doc publishing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-26 22:15:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/26" class=".btn">#26</a>
             </td>
             <td>
