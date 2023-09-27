@@ -15,7 +15,7 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    23.7.3 - Holesky 2.0 Hotfix
+                    23.7.3
                 </b>
             </td>
         </tr>
@@ -26,7 +26,9 @@ permalink: /releases/hyperledger/besu
                 </span>
             </td>
             <td>
-                This is an optional release, it is only required if you are running a Holesky node.
+                ## 23.7.3 - Holesky 2.0 Hotfix
+
+This is an optional release, it is only required if you are running a Holesky node.
 
 ### Additions and Improvements
 - Update Holesky config for re-launch [#5890](https://github.com/hyperledger/besu/pull/5890)
