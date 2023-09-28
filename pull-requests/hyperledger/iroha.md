@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3933" class=".btn">#3933</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3928: Make failing the wasm tests actually fail the CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Add a new `iroha_wasm_test_runner` tool. It mostly duplicates the `webassembly-test-runner`, but actually returns a non-zero exit code if there are any test failures. As an added bonus 
+
+This tool is expected to be installed on the developer's system with `cargo install`. It's not going to change often, so I don't think there's a risk of it going out-of-sync with the state of the repo.
+
+Also fix the `evaluate_expression` test, which was never passing before due to a typo.
+
+### Linked issue
+
+Closes #3928 
+
+### Benefits
+
+- Actually makes the CI check that the wasm test
+
+### Alternatives
+
+An alternative would be to continue to use the upstream test runner when/if https://github.com/matklad/webassembly-test/pull/1 gets merged, but I wouldn't bet on it.
+
+### Checklist
+
+- [ ] make sure CI passes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 07:46:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3930" class=".btn">#3930</a>
             </td>
             <td>
@@ -560,62 +608,6 @@ Fixed benchmarks.
     </table>
     <div class="right-align">
         Created At 2023-09-22 11:48:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3908" class=".btn">#3908</a>
-            </td>
-            <td>
-                <b>
-                    [fix]: `mkdir -r` with store path, not lock path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-TBH, I am lazy to prepare a proper reproduction of the bug. In my case, Iroha repeatedly failed to start, complaining about existence of the lock file all the time. After all, it turned out that `./storage/kura.lock`, created by Iroha, **is a directory, not a file**.
-
-This PR makes variables naming clearer, and passes actual block-store path into `mkdir -r`, not the path of the lockfile. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 08:10:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3907" class=".btn">#3907</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: Remove the develop-iroha-module guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Closes https://github.com/hyperledger/iroha-2-docs/issues/203
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 08:01:49 +0000 UTC
     </div>
 </div>
 

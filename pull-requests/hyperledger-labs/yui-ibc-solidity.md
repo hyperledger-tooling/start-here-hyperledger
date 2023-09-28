@@ -88,33 +88,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/206" class=".btn">#206</a>
-            </td>
-            <td>
-                <b>
-                    Add packet timeout support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #12 
-
-- implement `timeoutPacket` and `timeoutOnClose`
-- implement `onTimeoutPacket` for ICS20Transfer
-- fix `verifyNonMembership` of IBFT2 client
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 11:17:08 +0000 UTC
-    </div>
-</div>
-
