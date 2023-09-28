@@ -132,32 +132,6 @@ This is just a refactoring, no functionality change, to have the `PendingTransac
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5963" class=".btn">#5963</a>
-            </td>
-            <td>
-                <b>
-                    allow BLOB txs during shanghai
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                covers first block after the fork case, merge after #5961 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 01:38:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5961" class=".btn">#5961</a>
             </td>
             <td>
@@ -231,7 +205,7 @@ fixes #5934
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -239,9 +213,23 @@ fixes #5934
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+This PR is build on top of #5966 so please check it first. [Relative diff](https://github.com/fab-10/besu/compare/main...priority-senders)
+
+This PR expand the concept of priority of txs and senders. Currently in Besu by default every tx sent using the RPC API is called _local_, and _local_ is also a synonym for _priority_, that means that the tx does not need to satisfy the min price option and it is selected first when building a block, the txs received via p2p are called _remote_ and haven't any priority.
+It is possible to disable this default behavior passing the option `--tx-pool-disable-locals`, and all txs are treated the same.
+This simple approach does not works well if Besu is used as a gateway to publish txs for multiple senders, when the node owner what to prioritize only a subset of them, to support this use case, this PR add the `--tx-pool-priority-senders` option, with it is possible to specify the list of senders, whom txs have priority, regardless their origin, both local or remote.
+
+Since _local_ is not always synonym of _priority_, the concepts have been separated, and so a `PendingTransaction` has both attributes as distinct fields, where _local_ is now only used to identify the source and _priority_ is used to apply or not the min price option and during the selection when building a block. To note that txs with priority will be dropped from the pool after the other ones.
+
+To follow the new semantic of `--tx-pool-disable-locals` has been deprecated for removal in favor of `--tx-pool-no-local-priority`
+
+To resume the possibility of mixing the priority options are:
+1. Default (no option specified): All txs sent via RPC API are prioritized
+2. `--tx-pool-no-local-priority=true`: No tx is prioritized
+3. `--tx-pool-priority-senders=sender1,sender2`: All txs sent via RPC API are prioritized + all txs sent by _sender1_ and _sender2_
+4. `--tx-pool-no-local-priority=true` `--tx-pool-priority-senders=sender1,sender2`: Only txs sent by _sender1_ and _sender2_ are prioritized
+
+Regression tests in progress and will merge after they pass.
             </td>
         </tr>
     </table>
@@ -755,120 +743,6 @@ Fix HISTORICAL_ROOTS_MODULUS used by hive/devnet 9
     </table>
     <div class="right-align">
         Created At 2023-09-22 07:45:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5923" class=".btn">#5923</a>
-            </td>
-            <td>
-                <b>
-                    Add Cancun GraphQL fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add the fields for Blobs into the GraphQL service.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 17:31:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5921" class=".btn">#5921</a>
-            </td>
-            <td>
-                <b>
-                    Always enforce promotion filter for transactions in the prioritized layer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR is built on top of #5920, so please check it first ([relative changes](https://github.com/fab-10/besu/compare/fab-10:besu:txpool-promotion-performance...prioritized-promotion-filter2))
-
-This PR is preparatory for more work on prioritizing local txs, that consist in more small PRs that have been split to make it easier to review.
-Before the PR, the prioritized layer also kept txs that could not be selected to be included in the next block, because as far as there was still space txs were added and kept there, regardless they were or not satisfying the promotion filter anymore.
-This PR improves the content of the prioritized layer, keeping there only txs that always satisfy the promotion filter, and thus are candidate for inclusion in the next block, this avoid to waste some work during txs selection, and pave the way for an easier prioritization of local txs.
-Currently the promotion filter says that a tx is willing to pay at list the base fee, on base fee market network, otherwise is always true.
-
-Simulation of block production shows no regression, actually metrics about number of txs in the block, block value and gas used are, on average, better with this PR vs 23,7,2 version:
-![image](https://github.com/hyperledger/besu/assets/91944855/309a58ac-838e-4da6-b3e7-703b9ce5644b)
-
-![image](https://github.com/hyperledger/besu/assets/91944855/3a019711-770c-4d26-b1b7-7555d8ba2b71)
-
-![image](https://github.com/hyperledger/besu/assets/91944855/ddad0bc1-9ece-4507-99f8-efa38a46db6a)
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 16:35:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5920" class=".btn">#5920</a>
-            </td>
-            <td>
-                <b>
-                    Improve performance when promoting transaction from next layers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-During the implementation of #5921, a performance issue surfaced in the way the promotion of transactions, from lower layers, was implemented.
-The issue was that, to keep the code simple, the promotion was done for one tx at once, but with the improvement on the prioritized layer done #5921, this approach is no more practical since result in a quadratic complexity (number of confirmed txs per number of senders in the ready layer), so the solution is to do the promotion only once after all the confirmed txs have been processed, so the time is linear.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 16:33:52 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/532" class=".btn">#532</a>
+            </td>
+            <td>
+                <b>
+                    fix error msg when changing channel capabilities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- Prevents the error when trying to change channel capabilities from v1.4 to v2, when peers/orderers have a fabric version that starts with `v`, like `v2.5.4` instead of `2.5.4`
+- formats the fabric version in some error messages to a standard
+- Prevents the error when trying to change channel capabilities from v1.4 to v2, when peers/orderers do not have a known fabric version
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 17:32:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/531" class=".btn">#531</a>
+            </td>
+            <td>
+                <b>
+                    edit csp headers to remove medallia sources
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Removed csp header sources that we no longer use.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 13:37:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/530" class=".btn">#530</a>
             </td>
             <td>
