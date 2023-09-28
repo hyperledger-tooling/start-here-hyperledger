@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2521" class=".btn">#2521</a>
+            </td>
+            <td>
+                <b>
+                    Avoid multiple open wallet connections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes issues with timeouts during integration tests when the maximum number of connections is low.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 16:45:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2520" class=".btn">#2520</a>
             </td>
             <td>
@@ -207,32 +233,6 @@ Terms will no longer be stored in mediation records but old mediation records sh
     </table>
     <div class="right-align">
         Created At 2023-09-22 19:38:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2500" class=".btn">#2500</a>
-            </td>
-            <td>
-                <b>
-                    fix: update pydid
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This will correct the errror reported in #2497.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 16:37:05 +0000 UTC
     </div>
 </div>
 

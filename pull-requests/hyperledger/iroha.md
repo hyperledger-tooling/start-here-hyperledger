@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3935" class=".btn">#3935</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3934: Migrate `iroha_wasm_derive` and `iroha_validator_derive` to syn 2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Use syn 2.0, manyhow and darling to enhance the error messages
+
+### Linked issue
+
+Closes #3934 
+
+### Checklist
+
+- [ ] make sure the CI passes
+- [ ] add tests?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 14:36:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3933" class=".btn">#3933</a>
             </td>
             <td>
@@ -49,7 +86,8 @@ An alternative would be to continue to use the upstream test runner when/if http
 
 ### Checklist
 
-- [ ] make sure CI passes
+- [x] make sure CI passes
+- [ ] should the `test_log` function stay in?
             </td>
         </tr>
     </table>

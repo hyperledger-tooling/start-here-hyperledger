@@ -1,13 +1,13 @@
 
-[735](https://github.com/hyperledger-labs/open-enterprise-agent/pull/735) fix: Renaming values.yml [skip ci] ATL-5777 
+[532](https://github.com/hyperledger-labs/fabric-operations-console/pull/532) fix error msg when changing channel capabilities
 
-[5968](https://github.com/hyperledger/besu/pull/5968) Issue 5544 - Tessera as internal process
+[2521](https://github.com/hyperledger/aries-cloudagent-python/pull/2521) Avoid multiple open wallet connections
 
-[734](https://github.com/hyperledger-labs/open-enterprise-agent/pull/734) fix: Integration flow
+[3935](https://github.com/hyperledger/iroha/pull/3935) [refactor] #3934: Migrate `iroha_wasm_derive` and `iroha_validator_derive` to syn 2.0
 
-[5967](https://github.com/hyperledger/besu/pull/5967) [4844] FCU Validate badblock before sync
+[737](https://github.com/hyperledger-labs/open-enterprise-agent/pull/737) fix: Adding labels [skip ci]
 
-[5966](https://github.com/hyperledger/besu/pull/5966) Use PendingTransaction in BlockTransactionSelector
+[531](https://github.com/hyperledger-labs/fabric-operations-console/pull/531) edit csp headers to remove medallia sources
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
