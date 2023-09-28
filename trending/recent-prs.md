@@ -1,13 +1,13 @@
 
+[5961](https://github.com/hyperledger/besu/pull/5961) Apply fcu even on invalid payload
+
+[6](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/6) chore(deps): bump get-func-name from 2.0.0 to 2.0.2
+
+[5960](https://github.com/hyperledger/besu/pull/5960) Optionally bypass state root verification in reference test worldstate
+
+[5959](https://github.com/hyperledger/besu/pull/5959) Priority senders
+
 [2520](https://github.com/hyperledger/aries-cloudagent-python/pull/2520) Update shared components
-
-[733](https://github.com/hyperledger-labs/open-enterprise-agent/pull/733) fix: Separate config for integration flow ATL-5777
-
-[732](https://github.com/hyperledger-labs/open-enterprise-agent/pull/732) fix: ensure all defined performance tests compile and run
-
-[731](https://github.com/hyperledger-labs/open-enterprise-agent/pull/731) fix: Separate config for integration flow ATL-5777
-
-[3930](https://github.com/hyperledger/iroha/pull/3930) [refactor]: Rename ISI from *Box to *Expr
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
