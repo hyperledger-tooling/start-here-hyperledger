@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5964" class=".btn">#5964</a>
+            </td>
+            <td>
+                <b>
+                    add plugins summary
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                log a summary of plugins at registration time
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 01:55:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5963" class=".btn">#5963</a>
+            </td>
+            <td>
+                <b>
+                    allow BLOB txs during shanghai
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                covers first block after the fork case, merge after #5961 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 01:38:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5961" class=".btn">#5961</a>
             </td>
             <td>
@@ -785,62 +837,6 @@ fixes #5874
     </table>
     <div class="right-align">
         Created At 2023-09-21 06:34:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5917" class=".btn">#5917</a>
-            </td>
-            <td>
-                <b>
-                    fix geth rlpx ping command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-The geth cmd 
-./build/bin/devp2p rlpx ping enodeAddress
-expects the client with address enodeAddress to respond with a HelloMessage right after successfully receiving the handshake message from the initiator.
-Existing behaviour in Besu is to wait for the HelloMessage from the initiator before sending the HelloMessage back.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 05:45:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5916" class=".btn">#5916</a>
-            </td>
-            <td>
-                <b>
-                    renamed PayloadTuple and made a separate class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                adds flexibility for adding more info to the Payload object eg OperationTracer to be used by plugins
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 02:42:42 +0000 UTC
     </div>
 </div>
 
