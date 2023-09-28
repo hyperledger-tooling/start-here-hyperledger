@@ -1,13 +1,13 @@
 
-[1091](https://github.com/hyperledger/fabric-samples/pull/1091) Move publishing of REST sample Image from AZP to GHA
+[735](https://github.com/hyperledger-labs/open-enterprise-agent/pull/735) fix: Renaming values.yml [skip ci] ATL-5777 
 
-[1090](https://github.com/hyperledger/fabric-samples/pull/1090) Bump some software to latest
+[5968](https://github.com/hyperledger/besu/pull/5968) Issue 5544 - Tessera as internal process
 
-[5964](https://github.com/hyperledger/besu/pull/5964) add plugins summary
+[734](https://github.com/hyperledger-labs/open-enterprise-agent/pull/734) fix: Integration flow
 
-[5963](https://github.com/hyperledger/besu/pull/5963) allow BLOB txs during shanghai
+[5967](https://github.com/hyperledger/besu/pull/5967) [4844] FCU Validate badblock before sync
 
-[190](https://github.com/hyperledger/fabric-protos/pull/190) Extend lifecycle protos to checkcommitreadiness to provide discrepancy details
+[5966](https://github.com/hyperledger/besu/pull/5966) Use PendingTransaction in BlockTransactionSelector
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

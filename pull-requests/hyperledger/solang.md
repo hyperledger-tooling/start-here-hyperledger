@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1553" class=".btn">#1553</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Accessing storage struct members is always a storage read
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 08:31:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1552" class=".btn">#1552</a>
             </td>
             <td>
@@ -116,59 +142,6 @@ This is an example of how comments look like: https://github.com/solana-labs/sol
     </table>
     <div class="right-align">
         Created At 2023-09-22 14:53:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1547" class=".btn">#1547</a>
-            </td>
-            <td>
-                <b>
-                    Allow seeds to be passed into functions as string[] or string[][]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">solana</span>
-            </td>
-            <td>
-                This fixes this Solidity and similar constructs.
-
-```solidity
-import "solana-library/spl_token.sol";
-
-contract c {
-
-    // Invoke the token program to mint tokens to a token account, using a PDA as the mint authority
-    function mintTo(address mint, address account, address authority, uint64 amount, bytes[] seeds) internal {
-        // Prepare instruction data
-        bytes instructionData = new bytes(9);
-        instructionData[0] = uint8(7); // MintTo instruction index
-        instructionData.writeUint64LE(amount, 1); // Amount to mint
-
-        // Prepare accounts required by instruction
-        AccountMeta[3] metas = [
-            AccountMeta({pubkey: mint, is_writable: true, is_signer: false}),
-            AccountMeta({pubkey: account, is_writable: true, is_signer: false}),
-            AccountMeta({pubkey: authority, is_writable: true, is_signer: true})
-        ];
-
-        // Invoke the token program with prepared accounts and instruction data
-        SplToken.tokenProgramId.call{accounts: metas, seeds: seeds}(instructionData);
-    }
-}
-```
-
-Fixes https://github.com/hyperledger/solang/issues/1433
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-21 08:40:36 +0000 UTC
     </div>
 </div>
 

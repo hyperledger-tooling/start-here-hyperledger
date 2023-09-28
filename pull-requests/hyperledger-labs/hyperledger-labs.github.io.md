@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/249" class=".btn">#249</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/250" class=".btn">#250</a>
             </td>
             <td>
                 <b>
-                    Agora, a Hyperledger Lab
+                    Tempo lab
                 </b>
             </td>
         </tr>
@@ -27,23 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Agora serves as a specialized lab, purposefully designed to function as a secure and collaborative environment for the 
-implementation and advancement of cryptography libraries and software. 
-Much like the ancient Greek agora served as a gathering place for assemblies and open markets, this lab is tailored 
-to incorporate cryptography protocols that facilitate experimentation, development, and eventual application integration. 
-While its primary focus is on production-ready usage, Agora also accommodates research code contributions.
-
-Numerous libraries featured in Agora are already in active use within production systems. 
-By incorporating them into the lab, we ensure greater continuity and reliability, 
-mitigating the risk of code vanishing due to a single developer's involvement and ensuring proper licensing and management. 
-Although the code aspires to represent optimized, production-ready software, we welcome code audits and acknowledge the possibility of lingering bugs. 
-It falls upon the end user to conduct their own due diligence and collaborate with our lab maintainers to enhance and deliver improved products to the market.
-
+                The project explores a non-intrusive method which is used to expand the storage and processing capabilities of the existing blockchain platform for time series data without damaging the decentralization feature of the blockchain, so that the blockchain can support more service scenarios, including IoT scenarios.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-15 00:25:10 +0000 UTC
+        Created At 2023-09-28 07:41:28 +0000 UTC
     </div>
 </div>
 
