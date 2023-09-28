@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5961" class=".btn">#5961</a>
+            </td>
+            <td>
+                <b>
+                    Apply fcu even on invalid payload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes more Hive tests when a payload that is invalid is passed along with an FCU
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 00:11:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5960" class=".btn">#5960</a>
+            </td>
+            <td>
+                <b>
+                    Optionally bypass state root verification in reference test worldstate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+if the passed block header has a stateroot of Hash.ZERO, bypass bonsai state root verification in bonsai reference test worldstate only.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5934 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 20:45:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5959" class=".btn">#5959</a>
+            </td>
+            <td>
+                <b>
+                    Priority senders
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 19:04:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5957" class=".btn">#5957</a>
             </td>
             <td>
@@ -745,32 +841,6 @@ Existing behaviour in Besu is to wait for the HelloMessage from the initiator be
     </table>
     <div class="right-align">
         Created At 2023-09-21 02:42:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5913" class=".btn">#5913</a>
-            </td>
-            <td>
-                <b>
-                    Bump version to 23.7.4-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-20 20:04:50 +0000 UTC
     </div>
 </div>
 
