@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    Update Cargo.toml minor change http => https
+                    Fix clippy::single_range_in_vec_init lint
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                <nil>
+                This is almost always incorrect, as it will result in a Vec that has only one element. Almost always, the programmer intended for it to include all elements in the range or for the end of the range to be the length instead.
+
+This means our correlations ids are not 16 characters long like we want. This fixes that issue.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-05 09:43:53 +0000 UTC
+        Created At 2023-09-29 14:34:39 +0000 UTC
     </div>
 </div>
 
