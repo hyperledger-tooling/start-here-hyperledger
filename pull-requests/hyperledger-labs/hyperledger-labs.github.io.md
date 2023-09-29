@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/251" class=".btn">#251</a>
+            </td>
+            <td>
+                <b>
+                    Fix parent location for Agora.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 18:35:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/250" class=".btn">#250</a>
             </td>
             <td>
