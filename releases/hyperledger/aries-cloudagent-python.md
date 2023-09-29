@@ -15,48 +15,39 @@ permalink: /releases/hyperledger/aries-cloudagent-python
         <tr>
             <td colspan="2">
                 <b>
-                    0.10.2-rc0
+                    0.10.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.10.2-rc0
+                    0.10.3
                 </span>
             </td>
             <td>
-                Release 0.10.2 is a patch release for 0.10.1 that addresses two specific regressions found
-in deploying Release 0.10.1. The regressions are to fix:
+                Release 0.10.3 is a patch release to add an upgrade process for very old versions of Aries Cloud Agent Python (circa [0.5.2](#052)). If you have a long time deployment of an issuer that uses revocation, this release could correct internal data (tags in secure storage) related to revocation registries. Details of the about the triggering problem can be found in [Issue \#2485].
 
-- An ACA-Py instance upgraded to 0.10.1 that had an existing connection to another Aries agent
-where the connection has both an `http` and `ws` (websocket) service endpoint with the same ID cannot
-message that agent. A scenario is an ACA-Py issuer connecting to an Endorser with both `http` and
-`ws` service endpoints. The updates made in 0.10.1 to improve ACA-Py DID resolution did not account
-for this scenario and needed a tweak to work ([Issue \#2474], [PR \#2475]).
-- The "fix revocation registry" endpoint used to fix scenarios an Issuer's local revocation registry
-state is out of sync with the ledger was broken by some code being added to support a single
-ACA-Py instance writing to different ledgers ([Issue \#2477], [PR \#2480]).
+[Issue \#2485]: https://github.com/hyperledger/aries-cloudagent-python/issue/2485
 
-[Issue \#2474]: https://github.com/hyperledger/aries-cloudagent-python/issue/2474
-[PR \#2475]: https://github.com/hyperledger/aries-cloudagent-python/pull/2476
-[Issue \#2477]: https://github.com/hyperledger/aries-cloudagent-python/issue/2477
-[PR \#2480]: https://github.com/hyperledger/aries-cloudagent-python/pull/2480
+The upgrade is applied by running the following command for the ACA-Py instance to be upgraded:
+
+`./scripts/run_docker upgrade --force-upgrade --named-tag fix_issue_rev_reg`
 
 ## What's Changed
-* 0.10.2 Patch Release - fix issue #2475, #2477 by @shaangill025 in https://github.com/hyperledger/aries-cloudagent-python/pull/2482
-* 0.10.2 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2484
+* 0.10.3 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2522
+* Feat: Upgrade from tags and fix issue with legacy IssuerRevRegRecords [<=v0.5.2] @shaangill025 https://github.com/hyperledger/aries-cloudagent-python/pull/2486
 
 
-**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.10.1...0.10.2-rc0
+**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.10.2...0.10.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.10.2-rc0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.10.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-09-08 02:34:07 +0000 UTC
+        Created At 2023-09-29 16:10:11 +0000 UTC
     </span>
 </div>
 
