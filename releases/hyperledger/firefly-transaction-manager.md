@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.3.3
+                    v1.3.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.3.3
+                    v1.3.4
                 </span>
             </td>
             <td>
                 ## What's Changed
-* avoid using internal interface in public pkg by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/98
+* Start debug server before we start processing by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/101
+* Enhance logging on event dispatch, and resolve edge case panic by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/102
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.2...v1.3.3
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.3...v1.3.4
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.3" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-09 20:44:07 +0000 UTC
+        Created At 2023-09-28 17:20:07 +0000 UTC
     </span>
 </div>
 
