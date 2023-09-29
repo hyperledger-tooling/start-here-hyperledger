@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/73" class=".btn">#73</a>
+            </td>
+            <td>
+                <b>
+                    Update interaction timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - used yui-ibc-solidity v0.3.14
+- updated the MiniToken tutorial to set a valid packet timeout height
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-29 09:46:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/72" class=".btn">#72</a>
             </td>
             <td>

@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/533" class=".btn">#533</a>
+            </td>
+            <td>
+                <b>
+                    Mustgather Inactive - setbackoff added in startGather
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+This pull request involves the addition of the setbackoff in the startgather method for Mustgather component to ensure that the mustgather button does not time out , if the action is not started  
+
+#### Reviewer
+@dshuffma-ibm 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-29 07:42:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/532" class=".btn">#532</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/369" class=".btn">#369</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/371" class=".btn">#371</a>
             </td>
             <td>
                 <b>
-                    Iroha 2 RC19 update
+                    findFreePorts fix
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-21 14:06:09 +0000 UTC
+        Created At 2023-09-29 08:04:40 +0000 UTC
     </div>
 </div>
 

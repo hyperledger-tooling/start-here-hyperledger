@@ -230,6 +230,9 @@ To resume the possibility of mixing the priority options are:
 4. `--tx-pool-no-local-priority=true` `--tx-pool-priority-senders=sender1,sender2`: Only txs sent by _sender1_ and _sender2_ are prioritized
 
 Regression tests in progress and will merge after they pass.
+
+## Fixed Issue(s)
+Partially fixes #5829 
             </td>
         </tr>
     </table>
@@ -715,34 +718,6 @@ Add the ability to configure more parameters in the fluent API. Specifically con
     </table>
     <div class="right-align">
         Created At 2023-09-22 15:28:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5929" class=".btn">#5929</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Fix some Devnet9 Hive tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix null latest valid hash when validation blobs/expected hashes
-Fix HISTORICAL_ROOTS_MODULUS used by hive/devnet 9
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-22 07:45:40 +0000 UTC
     </div>
 </div>
 
