@@ -90,29 +90,3 @@ Fixes https://github.com/hyperledger/solang/issues/1444
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1551" class=".btn">#1551</a>
-            </td>
-            <td>
-                <b>
-                    Purge the compiler of `codegen::Expression::List`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The expression was unused.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-22 20:59:02 +0000 UTC
-    </div>
-</div>
-
