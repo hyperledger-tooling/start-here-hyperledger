@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/130" class=".btn">#130</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    Fix builds for non main branches
+                    Fix the vulnerabilities by updating deps
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/114
+                https://github.com/hyperledger-labs/fabric-operator/issues/131
+https://github.com/hyperledger-labs/fabric-operator/issues/132
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-25 16:41:26 +0000 UTC
+        Created At 2023-10-02 16:10:57 +0000 UTC
     </div>
 </div>
 
