@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3938" class=".btn">#3938</a>
+            </td>
+            <td>
+                <b>
+                    [fix]: Fix the usage of `Span::join`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Actually, `Span::join` doesn't work on stable at all (and returns `None`), so care should be taken to have a fallback
+
+This means that on stable we will have error spans that are slightly incorrect
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 06:01:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3935" class=".btn">#3935</a>
             </td>
             <td>
