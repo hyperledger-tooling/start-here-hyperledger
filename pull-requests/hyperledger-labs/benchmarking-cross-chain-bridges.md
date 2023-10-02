@@ -173,31 +173,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/4" class=".btn">#4</a>
-            </td>
-            <td>
-                <b>
-                    token swapping on cowswap protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added:
-1) ERC20 allowance using openzeppelin 
-2) Returns a cowswap route id when the execute_route.test.ts test is unskipped
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-25 14:13:18 +0000 UTC
-    </div>
-</div>
-

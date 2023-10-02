@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/534" class=".btn">#534</a>
+            </td>
+            <td>
+                <b>
+                    Updating ginkgo to version v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+Upgrading ginkgo framework to V2 version
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 18:10:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/533" class=".btn">#533</a>
             </td>
             <td>

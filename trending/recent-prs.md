@@ -1,13 +1,13 @@
 
-[56](https://github.com/hyperledger/sawtooth-sdk-go/pull/56) Bump github.com/btcsuite/btcd from 0.22.1 to 0.23.2
+[534](https://github.com/hyperledger-labs/fabric-operations-console/pull/534) Updating ginkgo to version v2
 
-[11](https://github.com/hyperledger/transact-sdk-go/pull/11) Bump github.com/btcsuite/btcd from 0.20.1-beta to 0.23.2
+[5975](https://github.com/hyperledger/besu/pull/5975) Tests for GraphQL Cancun fields
 
-[4454](https://github.com/hyperledger/fabric/pull/4454) Extend _lifecycle functions on checkcommitreadiness to provide detail of the discrepancies
+[133](https://github.com/hyperledger-labs/fabric-operator/pull/133) Fix the vulnerabilities by updating deps
 
-[742](https://github.com/hyperledger-labs/open-enterprise-agent/pull/742) fix: don't allow to use the same apikey twice
+[5974](https://github.com/hyperledger/besu/pull/5974) Target to use about 25MB for the new layered txpool by default
 
-[3940](https://github.com/hyperledger/iroha/pull/3940) [refactor] #3640: place permission tokens in a separate module
+[3944](https://github.com/hyperledger/iroha/pull/3944) [refactor]: Include smart contract code into the workspace
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

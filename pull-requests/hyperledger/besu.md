@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5975" class=".btn">#5975</a>
+            </td>
+            <td>
+                <b>
+                    Tests for GraphQL Cancun fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Add tests for GraphQL fields added to support cancun. Also, re-work test case inclusion code and update tests impacted by adding a new block to the chain.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 17:44:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5974" class=".btn">#5974</a>
+            </td>
+            <td>
+                <b>
+                    Target to use about 25MB for the new layered txpool by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Reduce the default memory usage of the txpool, to limit the added amount of memory used by Besu
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 15:44:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5973" class=".btn">#5973</a>
             </td>
             <td>

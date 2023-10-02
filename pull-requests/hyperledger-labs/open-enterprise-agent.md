@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 <b>
-                    fix: don't allow to use the same apikey twice
+                    fix: prohibit tenants to use equal api keys
                 </b>
             </td>
         </tr>
@@ -742,7 +742,7 @@ Add an ADR on Keyclaok authorisation service for wallet permission management.
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span><span class="chip">mercury</span><span class="chip">prism-agent</span><span class="chip">build</span>
+                <span class="chip">docs</span><span class="chip">pollux</span><span class="chip">castor</span><span class="chip">ci</span><span class="chip">mercury</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">shared</span>
             </td>
             <td>
                 # Overview
