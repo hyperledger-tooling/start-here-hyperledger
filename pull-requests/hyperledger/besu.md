@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5973" class=".btn">#5973</a>
+            </td>
+            <td>
+                <b>
+                    [4844] EngineNewPayload - Add Blob Count validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">4844</span>
+            </td>
+            <td>
+                ## PR description
+Add Blob Count validation to EngineNewPayload - Fix invalid_blob_count hive tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 00:43:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5968" class=".btn">#5968</a>
             </td>
             <td>
@@ -56,7 +83,7 @@ Fixes #5544
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -290,7 +317,7 @@ fix #5942
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
@@ -487,7 +514,7 @@ Also renamed the modulus value so it matches the name used in the EIP
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">4844</span>
             </td>
             <td>
                 ## PR description
@@ -660,7 +687,7 @@ The default number of blocks to keep in the cache is 512.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
