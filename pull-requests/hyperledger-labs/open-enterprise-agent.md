@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/742" class=".btn">#742</a>
+            </td>
+            <td>
+                <b>
+                    fix: don't allow to use the same apikey twice
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">prism-agent</span>
+            </td>
+            <td>
+                # Overview
+Code cleanup
+APIKEY logic doesn't allow to use the same apikey
+
+Fixes ATL-5768
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [x] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [ ] My changes do not require a change to the project documentation
+* [x] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [x] My changes can and should be tested by unit and/or integration tests
+* [x] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 07:33:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/741" class=".btn">#741</a>
             </td>
             <td>
@@ -626,7 +681,7 @@ Fixes ATL-5777
             </td>
             <td>
                 <b>
-                    docs: add ADR on keycloak authorisation service for multitenancy
+                    docs: add ADR on keycloak authorisation service for multitenancy [skip ci]
                 </b>
             </td>
         </tr>
@@ -681,7 +736,7 @@ Add an ADR on Keyclaok authorisation service for wallet permission management.
             </td>
             <td>
                 <b>
-                    refactor(all): Update ZIO-http to 3.0.0-RC2 and tapir to 1.6.4, plus remove tapir legacy usage
+                    refactor: update zio-http to 3.0.0-RC2 and tapir to 1.6.4, remove legacy tapir
                 </b>
             </td>
         </tr>

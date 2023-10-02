@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4454" class=".btn">#4454</a>
+            </td>
+            <td>
+                <b>
+                    Extend _lifecycle functions on checkcommitreadiness to provide detail of the discrepancies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch updates some _lifecycle functions on checkcommitreadiness to provide details of the discrepancies.
+
+#### Type of change
+
+- New feature
+
+#### Description
+
+I have proposed an extension to lifecycle chaincode checkcommitreadiness to provide details of the discrepancies as shown in  https://github.com/hyperledger/fabric/issues/4428.
+
+As a sub-task stemming from issue #4428, this patch updates some _lifecycle functions on checkcommitreadiness to provide details of the discrepancies.
+
+Once this patch is merged, I will submit the following commit to enhance the command:
+- https://github.com/satota2/fabric/commit/9ea8ad11de451139af61cf73281feff656a38d07
+
+#### Additional details
+
+The example of output when executing checkcommitreadiness with inspect flag in the provisional implementation:
+
+```
+peer lifecycle chaincode checkcommitreadiness --channelID mychannel --name basic --version 2.0 --sequence 2 --inspect
+Chaincode definition for chaincode 'basic', version '2.0', sequence '2' on channel 'mychannel' approval status by org:
+Org1MSP: false (mismatch: [EndorsementInfo, ValidationInfo, Collections])
+Org2MSP: false (mismatch: [ChaincodeParameters])
+```
+
+```
+peer lifecycle chaincode checkcommitreadiness --channelID mychannel --name basic --version 2.0 --sequence 2 --inspect --output json
+{
+        "approvals": {
+                "Org1MSP": false,
+                "Org2MSP": false
+        },
+        "mismatches": {
+                "Org1MSP": {
+                        "items": [
+                                "EndorsementInfo (Check the Version, InitRequired, EndorsementPlugin)",
+                                "ValidationInfo (Check the ValidationParameter, ValidationPlugin)",
+                                "Collections (Check the Collections)"
+                        ]
+                },
+                "Org2MSP": {
+                        "items": [
+                                "ChaincodeParameters (Check the Sequence, ChaincodeName)"
+                        ]
+                }
+        }
+}
+```
+
+#### Releated Issues
+
+- https://github.com/hyperledger/fabric/issues/4428
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 08:32:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4453" class=".btn">#4453</a>
             </td>
             <td>

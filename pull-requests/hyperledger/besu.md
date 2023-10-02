@@ -240,7 +240,7 @@ fixes #5934
 
 ## PR description
 
-This PR is build on top of #5966 so please check it first. [Relative diff](https://github.com/fab-10/besu/compare/main...priority-senders)
+~~This PR is build on top of #5966 so please check it first. [Relative diff](https://github.com/fab-10/besu/compare/main...priority-senders)~~
 
 This PR expand the concept of priority of txs and senders. Currently in Besu by default every tx sent using the RPC API is called _local_, and _local_ is also a synonym for _priority_, that means that the tx does not need to satisfy the min price option and it is selected first when building a block, the txs received via p2p are called _remote_ and haven't any priority.
 It is possible to disable this default behavior passing the option `--tx-pool-disable-locals`, and all txs are treated the same.
@@ -256,7 +256,19 @@ To resume the possibility of mixing the priority options are:
 3. `--tx-pool-priority-senders=sender1,sender2`: All txs sent via RPC API are prioritized + all txs sent by _sender1_ and _sender2_
 4. `--tx-pool-no-local-priority=true` `--tx-pool-priority-senders=sender1,sender2`: Only txs sent by _sender1_ and _sender2_ are prioritized
 
-Regression tests in progress and will merge after they pass.
+No functional or performance regressions found during the test. 
+
+Comparison with prev release (A this PR, B current stable release)
+
+Block Value
+![image](https://github.com/hyperledger/besu/assets/91944855/aa8cecaa-e3a8-41cf-982f-b28b8a003e72)
+
+Txs
+![image](https://github.com/hyperledger/besu/assets/91944855/9d617f85-a6fc-4534-b1ad-cbc11e9dc6c4)
+
+Gas used
+![image](https://github.com/hyperledger/besu/assets/91944855/b28f2025-948b-47ca-a519-9f1fd767e63d)
+
 
 ## Fixed Issue(s)
 Partially fixes #5829 
@@ -635,41 +647,6 @@ fixes #5910
     </table>
     <div class="right-align">
         Created At 2023-09-25 21:28:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5933" class=".btn">#5933</a>
-            </td>
-            <td>
-                <b>
-                    Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty).
-The default number of blocks to keep in the cache is 512.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-25 09:19:00 +0000 UTC
     </div>
 </div>
 
