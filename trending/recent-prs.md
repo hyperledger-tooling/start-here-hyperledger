@@ -1,13 +1,13 @@
 
-[3938](https://github.com/hyperledger/iroha/pull/3938) [fix]: Fix the usage of `Span::join`
+[56](https://github.com/hyperledger/sawtooth-sdk-go/pull/56) Bump github.com/btcsuite/btcd from 0.22.1 to 0.23.2
 
-[109](https://github.com/hyperledger-labs/yui-relayer/pull/109) Fix to do not generate a proof in the finality check
+[11](https://github.com/hyperledger/transact-sdk-go/pull/11) Bump github.com/btcsuite/btcd from 0.20.1-beta to 0.23.2
 
-[5973](https://github.com/hyperledger/besu/pull/5973) [4844] EngineNewPayload - Add Blob Count validation
+[4454](https://github.com/hyperledger/fabric/pull/4454) Extend _lifecycle functions on checkcommitreadiness to provide detail of the discrepancies
 
-[1555](https://github.com/hyperledger/solang/pull/1555) update rust version to 1.72.0
+[742](https://github.com/hyperledger-labs/open-enterprise-agent/pull/742) fix: don't allow to use the same apikey twice
 
-[8](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/8) refactor: yarn update and variable name
+[3940](https://github.com/hyperledger/iroha/pull/3940) [refactor] #3640: place permission tokens in a separate module
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

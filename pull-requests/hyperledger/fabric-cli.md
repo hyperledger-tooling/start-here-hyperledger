@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-cli/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/fabric-cli/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    decouple from sdk and upgrade to protos v2
+                    Transition CI from Azure Pipelines to GitHub Actions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-cli
                 
             </td>
             <td>
-                <nil>
+                This PR transitions the CI from Azure Pipelines to GitHub Actions.
+
+Resolves #48 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-11 04:13:04 +0000 UTC
+        Created At 2023-10-02 06:22:55 +0000 UTC
     </div>
 </div>
 
