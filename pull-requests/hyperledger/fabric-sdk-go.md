@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/271" class=".btn">#271</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/281" class=".btn">#281</a>
             </td>
             <td>
                 <b>
-                    chore: unnecessary use of fmt.Sprintf
+                    Transition CI from Azure Pipelines to GitHub Actions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                <nil>
+                Transition CI from Azure Pipelines to GitHub Actions
+
+#### Related Issues:
+- #280
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-25 10:06:24 +0000 UTC
+        Created At 2023-10-03 04:02:56 +0000 UTC
     </div>
 </div>
 

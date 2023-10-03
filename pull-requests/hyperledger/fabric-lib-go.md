@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    Switch fabric-lib-go to use fabric-core-maintainers.
+                    Transition CI from Azure Pipelines to GitHub Actions
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                Switch fabric-lib-go to use fabric-core-maintainers.
+                Resolves #21 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-24 18:27:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.20.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.20.2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 18:20:28 +0000 UTC
+        Created At 2023-10-03 02:15:37 +0000 UTC
     </div>
 </div>
 

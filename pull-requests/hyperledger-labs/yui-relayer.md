@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                <nil>
+                Optimized execution interval of relay service
             </td>
         </tr>
     </table>
