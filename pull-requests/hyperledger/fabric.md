@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4458" class=".btn">#4458</a>
+            </td>
+            <td>
+                <b>
+                    Expose block censorship timeout in config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code)
+- Test update
+
+#### Description
+
+As described in issue #4401 
+
+#### Related issues
+
+issue #4401 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-03 09:14:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4457" class=".btn">#4457</a>
             </td>
             <td>
