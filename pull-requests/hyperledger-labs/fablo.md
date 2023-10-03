@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/414" class=".btn">#414</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/416" class=".btn">#416</a>
             </td>
             <td>
                 <b>
-                    Create bump version script and bump version
+                    Add Istio
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-26 11:46:59 +0000 UTC
+        Created At 2023-10-03 09:30:22 +0000 UTC
     </div>
 </div>
 

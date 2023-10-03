@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5980" class=".btn">#5980</a>
+            </td>
+            <td>
+                <b>
+                    Only use the buider to create transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Remove all the overloaded `Transaction`' constructors, and only allow to create a transaction using the `Builder`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-03 11:28:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5976" class=".btn">#5976</a>
             </td>
             <td>
@@ -101,7 +132,8 @@ Add tests for GraphQL fields added to support cancun. Also, re-work test case in
 
 ## PR description
 
-Reduce the default memory usage of the txpool, to limit the added amount of memory used by Besu
+Reduce the default memory usage of the txpool, to limit the added amount of memory used by Besu.
+There 2 memory limited layers, ready and sparse, so to target 25MB we set the limit for a layer to 12.5MB
             </td>
         </tr>
     </table>
@@ -581,34 +613,6 @@ This make the tests more future proof, since in this way a new test is run again
     </table>
     <div class="right-align">
         Created At 2023-09-26 16:37:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5941" class=".btn">#5941</a>
-            </td>
-            <td>
-                <b>
-                    updated beacon root and modulus to match DRAFT eip
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Still draft but this time it _says_ final https://github.com/ethereum/EIPs/pull/7672#issuecomment-1734562996
-
-Also renamed the modulus value so it matches the name used in the EIP
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-26 06:30:11 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 <b>
-                    Fix ICS-20 compatibility
+                    ICS-20: Add JSON encoding support
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                <nil>
+                fix #81 
             </td>
         </tr>
     </table>
