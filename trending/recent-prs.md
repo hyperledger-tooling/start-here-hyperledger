@@ -1,13 +1,13 @@
 
-[2525](https://github.com/hyperledger/aries-cloudagent-python/pull/2525) chore(deps): Bump urllib3 from 2.0.5 to 2.0.6
+[213](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/213) Fix ICS-20 compatibility
 
-[2524](https://github.com/hyperledger/aries-cloudagent-python/pull/2524) chore(deps): Bump urllib3 from 2.0.2 to 2.0.6 in /demo/playground/scripts
+[3946](https://github.com/hyperledger/iroha/pull/3946) [documentation] #3945: Update MAINTAINERS.md
 
-[2523](https://github.com/hyperledger/aries-cloudagent-python/pull/2523) Add /rotate to revocation api.
+[559](https://github.com/hyperledger/cello/pull/559) Bump urllib3 from 1.26.5 to 1.26.17 in /src/api-engine
 
-[212](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/212) feat(transfer): added memo from cosmos spec and tooling to run gen/test of it
+[281](https://github.com/hyperledger/fabric-sdk-go/pull/281) Transition CI from Azure Pipelines to GitHub Actions
 
-[1556](https://github.com/hyperledger/solang/pull/1556) Move to github provided runners for arm macos
+[377](https://github.com/hyperledger/fabric-ca/pull/377) Bump urllib3 from 1.26.16 to 1.26.17 in /docs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
