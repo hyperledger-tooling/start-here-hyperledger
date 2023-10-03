@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5976" class=".btn">#5976</a>
+            </td>
+            <td>
+                <b>
+                    Retry on busy and locktimeout failures for rocksdb transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Simple default retry policy for rocksdb busy and locktimeout exceptions
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to #5911 
+related to #5549 
+related to #5807
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 19:35:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5975" class=".btn">#5975</a>
             </td>
             <td>
@@ -674,42 +711,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2023-09-26 01:02:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5936" class=".btn">#5936</a>
-            </td>
-            <td>
-                <b>
-                    Fix t8n encoding issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-When sending a stack in json fields strip out the newlines and tabs.
-
-
-## Fixed Issue(s)
-fixes #5910 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-25 21:28:33 +0000 UTC
     </div>
 </div>
 

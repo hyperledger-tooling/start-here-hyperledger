@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1556" class=".btn">#1556</a>
+            </td>
+            <td>
+                <b>
+                    Move to github provided runners for arm macos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This means we no longer rely on the Hyperledger provided one.
+
+See https://github.blog/2023-10-02-introducing-the-new-apple-silicon-powered-m1-macos-larger-runner-for-github-actions/
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 21:12:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1555" class=".btn">#1555</a>
             </td>
             <td>
