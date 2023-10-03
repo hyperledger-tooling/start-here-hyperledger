@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/535" class=".btn">#535</a>
+            </td>
+            <td>
+                <b>
+                    show a delete service instance banner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+
+#### Description
+Adds a new banner about deleting the service instance on SaaS consoles. (only appears on saas consoles)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-03 16:44:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/534" class=".btn">#534</a>
             </td>
             <td>
@@ -150,79 +185,6 @@ Removed csp header sources that we no longer use.
     </table>
     <div class="right-align">
         Created At 2023-09-28 13:37:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/530" class=".btn">#530</a>
-            </td>
-            <td>
-                <b>
-                    Openapi file cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-- lots of openapi edits/cleanup (api and field descriptions & summary improvements)
-  - there are no actual api spec changes
-- adds a couple more openapi validation steps to our automation (github actions)
-- updates js-yaml to v4, and uses the new `load` method instead of `safeLoad`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-26 17:55:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/529" class=".btn">#529</a>
-            </td>
-            <td>
-                <b>
-                    bump release note
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-update release notes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-26 14:22:28 +0000 UTC
     </div>
 </div>
 

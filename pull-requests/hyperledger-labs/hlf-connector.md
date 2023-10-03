@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/103" class=".btn">#103</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/105" class=".btn">#105</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,36 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-06 14:31:18 +0000 UTC
+        Created At 2023-10-03 14:11:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    Minor refactorings to Approvers API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Follow-up of #102 
+Wrap long request params into Request-Part.
+Change method signature to POST since the operation involves transfer of Files.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-03 13:32:17 +0000 UTC
     </div>
 </div>
 
