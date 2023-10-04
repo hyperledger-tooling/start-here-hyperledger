@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3956" class=".btn">#3956</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3950: Merge API and Telemetry endpoints into a single server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This PR merges the Telemetry endpoint into the main API endpoint
+
+### Linked issue
+
+Closes #3950
+
+### Benefits
+
+Less complexity, no more threading multiple port numbers to configuration
+
+### Checklist
+
+- [ ] check that the endpoints actually work (I don't think they are covered by any tests?)
+- [ ] make ci pass
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 15:58:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3949" class=".btn">#3949</a>
             </td>
             <td>
@@ -328,65 +369,6 @@ An alternative would be to continue to use the upstream test runner when/if http
     </table>
     <div class="right-align">
         Created At 2023-09-28 07:46:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3930" class=".btn">#3930</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: Rename ISI from *Box to *Expr
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-1. This was a complete misnomer because `Box` suffix if for enums used to group objects for serialization purpose
-2. This is an interlude into another PR where I will introduce proper `Box`ed instructions which will not contain expressions inside them, i.e. they will be evaluated instructions
-3. I'm only doing this rename in separate PR first so that changes are not overwhelming to review
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 15:23:06 +0000 UTC
     </div>
 </div>
 
