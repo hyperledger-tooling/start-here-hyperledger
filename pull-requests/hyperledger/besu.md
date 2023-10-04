@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5985" class=".btn">#5985</a>
+            </td>
+            <td>
+                <b>
+                    Transaction detachedCopy to optimize txpool memory usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+When a tx is decoded from RLP, some of its fields are reference to slices of the encoded RLP byte array, the latter could be shared by many transactions at the same time, for example when decoding the block body, every tx object keep a reference to the large RLP byte array, that could be hundred of KB long, the same happens when we receive a bunch on txs via p2p in the same message.
+This approach works fine if the tx objects are short lived, since it means allocating and copying less data around, but does not fit well for pending txs, since they could live much longer in the txpool and a single tx could keep a reference to a large byte array, while actually only it only needs a small portion of it.
+
+This PR solve this memory inefficiency, by creating a _detachedCopy_ of the tx when this is added to the txpool. A _detachedCopy_ is a copy that does not share any byte array with others. This also changes previous assumptions on the estimation of the amount of memory used by a pending tx, so the calculation have been updated and extended to cover also the Blob tx estimation.
+
+relates #5977 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 12:57:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5983" class=".btn">#5983</a>
             </td>
             <td>
@@ -161,6 +197,8 @@ Add tests for GraphQL fields added to support cancun. Also, re-work test case in
 
 Reduce the default memory usage of the txpool, to limit the added amount of memory used by Besu.
 There 2 memory limited layers, ready and sparse, so to target 25MB we set the limit for a layer to 12.5MB
+
+fixes #5977 
             </td>
         </tr>
     </table>

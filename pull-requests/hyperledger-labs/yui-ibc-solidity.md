@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
 
 @bluele is is correct approach we can align in main?
 
-I need this + your work on memo. 
+I need this + your work on memo to have work on ibc hooks eth version 
             </td>
         </tr>
     </table>

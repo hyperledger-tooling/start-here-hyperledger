@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    Prepare 0.8.3
+                    Switch to GitHub ARM Mac runner
                 </b>
             </td>
         </tr>
@@ -27,64 +27,12 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                prepare version 0.8.3
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-19 03:21:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.8.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release version 0.8.2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-19 00:35:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    Add k1 normalize signatures method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The normalize signatures method was missing in Java wrapper. It is needed so verify signatures can be used will all signatures. Without it only a subset of signatures are valid.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-13 20:52:16 +0000 UTC
+        Created At 2023-10-04 13:20:25 +0000 UTC
     </div>
 </div>
 

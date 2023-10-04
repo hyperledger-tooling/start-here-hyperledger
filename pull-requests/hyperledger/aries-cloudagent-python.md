@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2529" class=".btn">#2529</a>
+            </td>
+            <td>
+                <b>
+                    Feat: Support subwallet upgradation using the Upgrade command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #2507 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 16:31:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2527" class=".btn">#2527</a>
             </td>
             <td>
@@ -335,36 +361,6 @@ And because we don't track the index and current revocation id externally, we ca
     </table>
     <div class="right-align">
         Created At 2023-09-28 16:45:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2520" class=".btn">#2520</a>
-            </td>
-            <td>
-                <b>
-                    Update shared components
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates to:
-- Indy-VDR 0.4 release (with did:indy support)
-- Indy-Credx 1.0.3 minimum version
-- Askar 0.3.0-dev.1
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 16:50:20 +0000 UTC
     </div>
 </div>
 

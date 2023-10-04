@@ -227,29 +227,3 @@ Ideally the components ownership should be established and refactors should be d
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1002" class=".btn">#1002</a>
-            </td>
-            <td>
-                <b>
-                    Use standard UnpackMessageOutput struct until finally needing to transform.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As [suggested in](https://github.com/hyperledger/aries-vcx/pull/992#discussion_r1337239159) review of #992 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 14:26:58 +0000 UTC
-    </div>
-</div>
-

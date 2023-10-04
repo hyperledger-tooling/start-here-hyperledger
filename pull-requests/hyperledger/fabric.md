@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4466" class=".btn">#4466</a>
+            </td>
+            <td>
+                <b>
+                    Update add_orderer.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Update add_orderer.md to reflect the correct way to add a new orderer to an existing channel.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 13:21:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4465" class=".btn">#4465</a>
             </td>
             <td>

@@ -146,30 +146,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    LiFi swaps work
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1) swapping on lifi works 
-2) added checks for same chain swaps where user can't swap the a token for the same token on the same chain but can across different chains
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 15:14:51 +0000 UTC
-    </div>
-</div>
-
