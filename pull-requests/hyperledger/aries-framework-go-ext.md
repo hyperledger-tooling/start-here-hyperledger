@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/349" class=".btn">#349</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/350" class=".btn">#350</a>
             </td>
             <td>
                 <b>
-                    chore: use go 1.20 and afgo components in vc/status, vdr/jwk, vdr/longform
+                    chore: Replace sidetree-core-go with sidetree-go
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                <nil>
+                Also updated to Go 1.21
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-22 17:57:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/348" class=".btn">#348</a>
-            </td>
-            <td>
-                <b>
-                    chore: use go 1.20 and afgo components in vdr/sidetree
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-21 22:43:41 +0000 UTC
+        Created At 2023-10-01 15:47:37 +0000 UTC
     </div>
 </div>
 

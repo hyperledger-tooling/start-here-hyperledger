@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/102" class=".btn">#102</a>
             </td>
             <td>
                 <b>
-                    Start debug server before we start processing
+                    Enhance logging on event dispatch, and resolve edge case panic
                 </b>
             </td>
         </tr>
@@ -27,16 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Notices when debugging an issue, that even though a debug listener was configured, there wasn't one running. Turns out the runtime was hitting a problem establishing its event streams, before starting the debug server.
+                Couple of small logging enhancements that would have helped me while investigating a set of logs.
 
-This PR proposes:
-- Starting the debug server earlier
-- Using the standard `httpserver` config structure and go routine
+Also addresses a panic with a `nil` `batch` object that I found through adding the Unit Test for my new log, which would happen if we did either of....
+- The else to this block (which I've now added a log to):
+    https://github.com/hyperledger/firefly-transaction-manager/blob/dcc8484eb3c6f1b6e22d649b74e0f2c29c29c83a/internal/events/eventstream.go#L710
+- This `continue`:
+    https://github.com/hyperledger/firefly-transaction-manager/blob/dcc8484eb3c6f1b6e22d649b74e0f2c29c29c83a/internal/events/eventstream.go#L720
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-08 16:01:51 +0000 UTC
+        Created At 2023-09-28 15:49:54 +0000 UTC
     </div>
 </div>
 

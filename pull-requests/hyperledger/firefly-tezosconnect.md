@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Tezosconnector base
+                    Add build badge
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-15 15:28:14 +0000 UTC
+        Created At 2023-10-02 12:35:44 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Add MAINTAINERS.md and standard repo files
+                    DA-505 Increase unit test coverage
                 </b>
             </td>
         </tr>
@@ -58,7 +58,7 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 20:54:41 +0000 UTC
+        Created At 2023-10-02 12:30:11 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,11 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Add settings
+                    DA-516 Remove an excess tx receipt record
                 </b>
             </td>
         </tr>
@@ -84,7 +84,7 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 20:43:49 +0000 UTC
+        Created At 2023-10-02 10:38:03 +0000 UTC
     </div>
 </div>
 

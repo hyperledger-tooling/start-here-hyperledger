@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/189" class=".btn">#189</a>
             </td>
             <td>
                 <b>
-                    Update to dalek 2.x crates
+                    Adjust lower maximum number of connections for sqlite
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                <nil>
+                Based on testing against ACA-Py. I believe that the `available_parallelism` method comes up with a lower number than `num_cpus::count` did on Github CI, but in general a maximum of 2 connections does seem too low.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-15 21:33:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/179" class=".btn">#179</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version to 0.3.0 dev
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Need to wait with releasing until #177 is merged
-
-@andrewwhitehead  @berendsliedrecht @genaris all good to make a first 0.3.0 dev release?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 13:01:18 +0000 UTC
+        Created At 2023-09-28 17:23:28 +0000 UTC
     </div>
 </div>
 

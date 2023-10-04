@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/68" class=".btn">#68</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-11 15:20:10 +0000 UTC
+        Created At 2023-09-29 17:22:09 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    0.10.1
+                    0.10.3
                 </b>
             </td>
         </tr>
@@ -58,34 +58,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-11 15:16:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    Main update for 0.10.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-11 15:08:21 +0000 UTC
+        Created At 2023-09-29 17:17:52 +0000 UTC
     </div>
 </div>
 

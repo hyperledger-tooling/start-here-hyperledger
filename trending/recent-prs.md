@@ -1,13 +1,13 @@
 
-[8](https://github.com/hyperledger-labs/pdo-contracts/pull/8) Add version information to the wheel files that are generated
+[161](https://github.com/hyperledger/fabric-gateway-java/pull/161) Reduce frequency of vulnerability scan to weekly
 
-[1557](https://github.com/hyperledger/solang/pull/1557) Add function annotations
+[3](https://github.com/hyperledger/aries-acapy-plugins/pull/3) Initial Commit.
 
-[2527](https://github.com/hyperledger/aries-cloudagent-python/pull/2527) chore: update pydid
+[1413](https://github.com/hyperledger/firefly/pull/1413) Add docs for AND/OR option
 
-[4462](https://github.com/hyperledger/fabric/pull/4462) Bump urllib3 from 1.26.16 to 1.26.17
+[50](https://github.com/hyperledger/firefly-signer/pull/50) Add wsbackend client
 
-[4461](https://github.com/hyperledger/fabric/pull/4461) Improve error msg by using the error pkg
+[9](https://github.com/hyperledger-labs/did-webs-resolver/pull/9) Add py-multibase dependency.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

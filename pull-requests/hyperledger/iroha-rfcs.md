@@ -14,25 +14,83 @@ permalink: /pull-requests/hyperledger/iroha-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Add MAINTAINERS.md
+                    Add Aleksandr's "ISA restructuring" RFC
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
-                Please review and add the list of maintainers.
+                As @mversic requested, I'm moving the RFCs written by @appetrosyan here. This PR moves https://github.com/hyperledger/iroha/pull/3817
+
+Co-authored by Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 18:28:19 +0000 UTC
+        Created At 2023-10-03 10:50:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Add Aleksandr's "Release roadmap" RFC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                As @mversic requested, I'm moving the RFCs written by @appetrosyan here. This PR moves https://github.com/hyperledger/iroha/pull/3809
+
+Co-authored by Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-03 10:46:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/5" class=".btn">#5</a>
+            </td>
+            <td>
+                <b>
+                    Add Aleksandr's "On-chain scripting" RFC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span>
+            </td>
+            <td>
+                As @mversic requested, I'm moving the RFCs written by @appetrosyan here. This PR moves https://github.com/hyperledger/iroha/pull/3835
+
+Co-authored by Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-03 10:32:59 +0000 UTC
     </div>
 </div>
 

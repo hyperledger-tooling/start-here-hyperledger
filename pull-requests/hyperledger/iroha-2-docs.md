@@ -14,25 +14,37 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/408" class=".btn">#408</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/417" class=".btn">#417</a>
             </td>
             <td>
                 <b>
-                    [feature] #88: Add CI to automatically add labels
+                    [docs] #414: move API specification to the docs
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">iroha2</span>
             </td>
             <td>
-                Closes #88
+                Closes #414
+
+---
+
+Source: https://github.com/hyperledger/iroha/blob/39b1ca1e6887a463d7f5fd8c45c83bb697ee8ea6/docs/source/references/api_spec.md
+
+Changes:
+
+- Fixed mentions of structures in requests/responses, linked them to the data-model page
+- Changed structure & formatting of the document
+- Put TODOs for future
+
+If you have a better idea of how this page might look like, you are very welcome!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 14:44:05 +0000 UTC
+        Created At 2023-10-02 07:37:04 +0000 UTC
     </div>
 </div>
 
@@ -40,25 +52,36 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/407" class=".btn">#407</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/416" class=".btn">#416</a>
             </td>
             <td>
                 <b>
-                    #406: Remove as Identifiable from examples
+                    'Security' section with all topics
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">iroha2</span>
             </td>
             <td>
-                Closes #406 
+                Main differences from the last PR #374:
+- Rearrangements:
+   - **Keys for Network Deployment**: **Keys on the Client Side** subtopic moved to the **Public Key Cryptography** topic.
+   - The rest of the **Keys for Network Deployment** topic moved back to the **Configuration and Management** section.
+- **Security** header topic (`nav-security.md`) with overview and navigation added.
+- **Password Security** topic (`password-security.md`) added.
+- Additions and edits to the **Operational Security** topic (mostly based on comments by @appetrosyan in my last PR #374).
+- Fixed formatting in some instances.
+- Fixed dead links, added new internal links and links to outside sources.
+- Added **Security** section and its topics to the `config.mts` file.
+- Changes throughout the rest of the existing documentation to accommodate for removed links to topics that no longer exist.
+- Occasional wording changes.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 08:26:29 +0000 UTC
+        Created At 2023-09-28 18:16:14 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +89,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/405" class=".btn">#405</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/415" class=".btn">#415</a>
             </td>
             <td>
                 <b>
-                    [feature] #306: Validate links post-build
+                    Update rendered schema
                 </b>
             </td>
         </tr>
@@ -79,12 +102,19 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                Closes #306 
+                Closes #330 
+
+---
+
+- Use only schema from `iroha2-dev`
+- Render schema in a new format
+- Remove nav bar links
+- Add Data Model Schema to the API sidebar section
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 01:34:56 +0000 UTC
+        Created At 2023-09-28 08:48:48 +0000 UTC
     </div>
 </div>
 

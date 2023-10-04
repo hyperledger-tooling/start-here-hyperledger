@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2708" class=".btn">#2708</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2735" class=".btn">#2735</a>
             </td>
             <td>
                 <b>
-                    fix(docs): add Pull Request Template
+                    feat(cactus-example-electricity-trade): use openapi ethereum connector
                 </b>
             </td>
         </tr>
@@ -27,14 +27,28 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                fixes: #91
+                - Refactor electricity trade sample to use openapi ethereum connector instead of ethereum-socketio.
+- Sample still uses offline signing from cmd-socketio-server
+- Handle case in ethereum connector where receipt doesn't contain status.
+- Add sawtooth test-ledger script to wait until docker is fully started before proceeding forward.
+- Remove periodicExecuter from sample app (didn't work and not used
 
-adds Pull Request Template on the root directory as guideline for contributors.
+**Pull Request Requirements**
+[ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+[ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+[ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information.
+
+**Character Limit**
+[ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+[ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-19 05:34:25 +0000 UTC
+        Created At 2023-10-03 15:11:35 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +56,162 @@ adds Pull Request Template on the root directory as guideline for contributors.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2707" class=".btn">#2707</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2734" class=".btn">#2734</a>
             </td>
             <td>
                 <b>
-                    feat(cactus-plugin-ledger-connector-ethereum): add stress test
+                    ci(dast-nuclei): fix Could not run nuclei: no valid templates were found
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2590
+
+**Pull Request Requirements**
+[ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+[ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+[ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information.
+
+**Character Limit**
+[ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+[ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-03 07:45:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2733" class=".btn">#2733</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump debug from 4.1.1 to 4.3.1 in /packages/cactus-plugin-ledger-connector-tcs-huawei-socketio
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [debug](https://github.com/debug-js/debug) from 4.1.1 to 4.3.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/debug-js/debug/releases">debug's releases</a>.</em></p>
+<blockquote>
+<h2>4.3.1</h2>
+<h1>Patch release 4.3.1</h1>
+<ul>
+<li>Fixes a ReDOS regression (<a href="https://redirect.github.com/debug-js/debug/issues/458">#458</a>) - see <a href="https://redirect.github.com/debug-js/debug/issues/797">#797</a> for details.</li>
+</ul>
+<h2>4.3.0</h2>
+<h1>Minor release</h1>
+<ul>
+<li><strong>Deprecated <code>debugInstance.destroy()</code></strong>. Future major versions will not have this method; please remove it from your codebases as it currently does nothing.</li>
+<li>Fixed quoted percent sign</li>
+<li>Fixed memory leak within debug instances that are created dynamically</li>
+</ul>
+<h2>4.2.0</h2>
+<h1>Minor Release</h1>
+<ul>
+<li>Replaced phantomJS with chrome backend for browser tests</li>
+<li>Deprecated and later removed Changelog.md in lieu of releases page</li>
+<li>Removed bower.json (<a href="https://redirect.github.com/debug-js/debug/issues/602">#602</a>)</li>
+<li>Removed .eslintrc (since we've switched to XO)</li>
+<li>Removed .coveralls.yml</li>
+<li>Removed the build system that was in place for various alternate package managers</li>
+<li>Removed the examples folder (<a href="https://redirect.github.com/debug-js/debug/issues/650">#650</a>)</li>
+<li>Switched to <code>console.debug</code> <strong>in the browser only</strong> when it is available (<a href="https://redirect.github.com/debug-js/debug/issues/600">#600</a>)</li>
+<li>Copied custom logger to namespace extension (<a href="https://redirect.github.com/debug-js/debug/issues/646">#646</a>)</li>
+<li>Added issue and pull request templates</li>
+<li>Added <code>&quot;engines&quot;</code> key to package.json</li>
+<li>Added ability to control <code>selectColor</code> (<a href="https://redirect.github.com/debug-js/debug/issues/747">#747</a>)</li>
+<li>Updated dependencies</li>
+<li>Marked <code>supports-color</code> as an optional peer dependency</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/debug-js/debug/commit/0d3d66b0eb47c5d34e1a940e8a204446fdd832cd"><code>0d3d66b</code></a> 4.3.1</li>
+<li><a href="https://github.com/debug-js/debug/commit/b6d12fdbc63b483e5c969da33ea6adc09946b5ac"><code>b6d12fd</code></a> fix regression</li>
+<li><a href="https://github.com/debug-js/debug/commit/3f56313c1e4a0d59c1054fb9b10026b6903bfba7"><code>3f56313</code></a> 4.3.0</li>
+<li><a href="https://github.com/debug-js/debug/commit/e2d3bc9e428bdd45adb8d6e7f8ab543bee54d9a6"><code>e2d3bc9</code></a> add deprecation notice for debug.destroy()</li>
+<li><a href="https://github.com/debug-js/debug/commit/72e7f864bd75fc8353e4dd450de96d9104ba9f35"><code>72e7f86</code></a> fix memory leak within debug instance</li>
+<li><a href="https://github.com/debug-js/debug/commit/27152cad248df54217a14c072e7be1cd16da5f6d"><code>27152ca</code></a> add test for enable/disable of existing instances</li>
+<li><a href="https://github.com/debug-js/debug/commit/22e13fe07e21f32888201aa40833599fd10a4fbb"><code>22e13fe</code></a> fix quoted percent sign</li>
+<li><a href="https://github.com/debug-js/debug/commit/80ef62a3af4df95250d77d64edfc3d0e1667e7e8"><code>80ef62a</code></a> 4.2.0</li>
+<li><a href="https://github.com/debug-js/debug/commit/09914af00e4c1479db9aa160bc51cb8c7e063ca4"><code>09914af</code></a> Marks supports-color as an <em>optional</em> peer dependency</li>
+<li><a href="https://github.com/debug-js/debug/commit/db306db99e7822d355724698990d335927563210"><code>db306db</code></a> Update and pin ms to 2.1.2</li>
+<li>Additional commits viewable in <a href="https://github.com/debug-js/debug/compare/4.1.1...4.3.1">compare view</a></li>
+</ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~qix">qix</a>, a new releaser for debug since your current version.</p>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=debug&package-manager=npm_and_yarn&previous-version=4.1.1&new-version=4.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cacti/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 23:03:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2732" class=".btn">#2732</a>
+            </td>
+            <td>
+                <b>
+                    build(plugin-keychain-vault): fix gradle error Redeclaration: ResponseType
                 </b>
             </td>
         </tr>
@@ -55,133 +220,60 @@ adds Pull Request Template on the root directory as guideline for contributors.
                 <span class="chip">dependent</span>
             </td>
             <td>
-                - Return JSON error before checking for Error instance in safeStringifyException
-    (for cases when custom errror extends `Error` with `toJSON()` method)
-- Move artillery dependency up to the root (since its common tool depdenecy)
-- Add web3js http/ws provider options to connector.
-- Make http provider optional (can run on ws web3js provider only)
-- Don't register async endpoints when WS provider is not available.
-- Return 400 for invalid responses from ethereum ledger (to distinguish from connector errors)
-- In docker `geth-all-in-one` allow overwriting of default options when starting the ledger.
-- Add artillery stress test scripts
-    - Template config and artillery functions file
-    - Common environment setup file
-    - CLI for running the test environment on a separate machine.
-    - Jest test to run quickly stress test on same machine.
-    - 
-Depends on #2631
+                Primary change:
+---------------
 
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 10:34:43 +0000 UTC
-    </div>
-</div>
+1. The codegen script now runs the clean script prior to its own
+execution automatically (so that we don't forget to run it).
+If we don't run the clean script prior to the code generation, then
+the code generation doesn't delete old files just dumps the new ones
+next to the old ones which leads to problems after upgrading the generator:
+A newer version of the generator usually ships with different templates
+that have restructured their code files so we end up with duplicates
+breaking the build (unless we do a clean prior to codegen).
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2706" class=".btn">#2706</a>
-            </td>
-            <td>
-                <b>
-                    build(tools/docker/indy-sdk-cli): fix deprecation deb.nodesource.com/setup_16.x
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Change Description:**
+As for the actual build issue that this task was about:
+It was a cross-cutting concern because the root cause of it was that
+we were not cleaning up properly prior to the codegen task but this
+applied to all the 2 or so dozen kotlin projects that we generate.
 
-In the Dockerfile, the issue related to NodeJS was addressed by updating the NodeJS installation method to use the new NodeSource installation method. The previous method using `curl -sL https://deb.nodesource.com/setup_16.x | bash -` had become deprecated, so the new method was applied for compatibility with the latest practices.
+So as part of the solution I've ran the clean script and ran codegen
+again which now produces code that builds without issues.
 
-The specific changes made in the Dockerfile are as follows:
+Secondary changes:
+-----------------
 
-1. Removed the old installation method for NodeJS:
+Modified the clean script in the root project the following ways:
+1. It is now cleaning up generated kotlin OpenAPI code as well
+(previously it was not doing this at all despite what the name of the
+script might suggest...)
+2. It excludes all the openapi-generator-ignore files from being deleted
+which has the beneficial side-effect that they do not get re-generated
+with their default contents which would be missing files that we want
+to ignore in addition to them.
+3. The clean script NO LONGER DELETES the
+`src/main/typescript/generated/proto/protoc-gen-ts` sub-folder of the
+cmd-api-server package because the contents of it were not being re-
+generated by the `codegen` script for some reason. This is something
+to be fixed properly in the future but for now I just had to cut my
+losses and make it work.
 
-   ```Dockerfile
-   # Removed the deprecated NodeJS installation method
-   # RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
-   ```
+This depends on the PR being merged above because they both touch on
+the generated code but in different ways. If we merged this one first,
+the other one would have its diff emptied out (stealing the show).
 
-2. Added the new NodeSource installation method:
+[skip ci]
 
-   ```Dockerfile
-   # Added the new NodeSource installation method for NodeJS
-   RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /usr/share/keyrings/nodesource-archive-keyring.gpg \
-       && echo "deb [arch=amd64 signed-by=/usr/share/keyrings/nodesource-archive-keyring.gpg] https://deb.nodesource.com/node bionic main" | tee /etc/apt/sources.list.d/nodesource.list
-   ```
+Fixes #2730
 
-Fixes #2701  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 07:22:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2705" class=".btn">#2705</a>
-            </td>
-            <td>
-                <b>
-                    fix(security): vulnerabilities found in cactus-rust-compiler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fix will ignore AsymmetricPrivateKey (private-key)
-
-Fixes #2042
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-18 07:06:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2704" class=".btn">#2704</a>
-            </td>
-            <td>
-                <b>
-                    build(setup): remove install-yarn and document new yarn setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [skip ci]
-
-Fixes #2582
+Depends on https://github.com/hyperledger/cacti/pull/2729
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-18 03:33:51 +0000 UTC
+        Created At 2023-10-02 21:56:07 +0000 UTC
     </div>
 </div>
 
@@ -189,11 +281,74 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2703" class=".btn">#2703</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2731" class=".btn">#2731</a>
             </td>
             <td>
                 <b>
-                    chore(release): set openapi.json versions to v2.0.0-alpha.1
+                    build(deps): bump webpki from 0.22.1 to 0.22.2 in /weaver/common/protos-rs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [webpki](https://github.com/briansmith/webpki) from 0.22.1 to 0.22.2.
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/briansmith/webpki/commits">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpki&package-manager=cargo&previous-version=0.22.1&new-version=0.22.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cacti/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 21:42:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2729" class=".btn">#2729</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): forgot to run codegen before v2.0.0-alpha.2 publish
                 </b>
             </td>
         </tr>
@@ -202,20 +357,19 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                1. Ran the bump script to set all the versions to v2.0.0-alpha.1
-2. Ran `yarn codegen` to update the generated code based on the updated
-versions (bumps the version in the docs, code comments etc.)
+                1. Ran the `yarn codegen` command so that all the generated docs/code comments/etc
+get updated with the correct version (which changed from alpha.1 to alpha.2)
 
 [skip ci]
 
-Fixes #2702
+Fixes #2728
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-18 02:09:55 +0000 UTC
+        Created At 2023-10-02 17:55:16 +0000 UTC
     </div>
 </div>
 
@@ -223,11 +377,11 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2699" class=".btn">#2699</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2726" class=".btn">#2726</a>
             </td>
             <td>
                 <b>
-                    docs(whitepaper): temporarily remove whitepaper
+                    docs(all): integrated documentation using canonical MkDocs template
                 </b>
             </td>
         </tr>
@@ -236,22 +390,78 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                1. Removes all the contents except for the document title
-2. Updates the version to v2.0
-3. Updates the Hyperledger Foundation logo to the current latest as of 2023
-4. Adds a disclaimer about the fact that the whitepaper is
-being re-worked and where to find the old version.
+                - Moved old `docs` folder containing source files for legacy Cactus documentation to `docs-cactus`.
+- Created new `docs ` folder using the MkDocs template specified in https://github.com/tkuhrt/documentation-template as the base.
+  * Created overview files with useful links, diagrams, and references, for new and existing users
+  * Migrated older Cactus and Weaver documentation for getting hands-on with code and samples to the new website, available through separate tabs
+  * Fixed formatting, image references and other URLs, and organization
+  * Created several stub files with temporary links, to be filled and expanded upon in due course, drawing on content already present in the above legacy documents
+- Added a GitHub action to automatically push the documentation build (generated using `mkdocs`) to the `gh-pages` branch, and then publish those the `hyperledger` organization's GitHub page for Cacti.
+  * To get an idea of how this looks and feels, see https://vramakrishna.github.io/cacti/, where these docs are currently being served from.
+- Updated Discord handles for maintainers in the `MAINTAINERS.md` file.
+- Fixed formatting typos in old doc files.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-01 15:56:40 +0000 UTC
+    </div>
+</div>
 
-Related to, but does not conclude the work of #2691
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2724" class=".btn">#2724</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-core-api): add ISendRequestResultV1<T> for Fujitsu verifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An interface representing the response object of the send sync and send async
+request methods on the connection-chain verifier API.
 
-[skip ci]
+Also great when trying to help bridge the gap between the API returning
+results as `unknown` and the tests needing auto-completion for the properties
+to assert for type of data at runtime.
+
+@see {ISocketApiClient<BlockType>}
+@see {Verifier<LedgerApiType extends ISocketApiClient<unknown>>}
+@see {IVerifier}
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+refactor(core-api,verifier-client): use unknown instead of any type
+
+1. Changes the ISocketApiClient and the Verifier type definitions so that
+instead of `any` they are heavily relying on `unknown` which helps spotting
+bugs in the code where type checks should be done at runtime but currently
+aren't.
+2. It also helps with spotting breaking changes in the future because if
+the test cases stop compiling it means you've done a breaking API change,
+but they'll always compile if the parameters and the return values are
+using `any` for their own types.
+
+3. I've updated a big chunk of the test cases to have explicit type casts
+onto the shapes that are needed for them to compile (without changing
+any of the runtime behavior).
+4. Also made it so that the json2str function of the DriverCommon
+code file now accepts unknown instead of object type which makes one of
+the linter warnings go away as well.
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-17 23:54:33 +0000 UTC
+        Created At 2023-09-28 18:01:15 +0000 UTC
     </div>
 </div>
 
@@ -259,11 +469,11 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2698" class=".btn">#2698</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2723" class=".btn">#2723</a>
             </td>
             <td>
                 <b>
-                    style: fix unexpected any linter warnings in extendWithT
+                    feat(cactus-example-discounted-asset-trade): use openapi ethereum connector
                 </b>
             </td>
         </tr>
@@ -272,16 +482,16 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                Used the suggester Record<string, unknown> to replace any
+                - Refactor discounted asset trade sample to use openapi ethereum connector instead
+    of ethereum-socketio.
+- Sample still uses offline signing from cmd-socketio-server
 
-[skip ci]
-
-Closes: #2675
+Depends on: https://github.com/hyperledger/cacti/pull/2645
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-17 23:01:18 +0000 UTC
+        Created At 2023-09-28 16:39:42 +0000 UTC
     </div>
 </div>
 
@@ -289,11 +499,11 @@ Closes: #2675
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2697" class=".btn">#2697</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2722" class=".btn">#2722</a>
             </td>
             <td>
                 <b>
-                    chore: fix linter warning in CreateCorsMiddleware
+                    chore(release): publish v2.0.0-alpha.2
                 </b>
             </td>
         </tr>
@@ -302,139 +512,23 @@ Closes: #2675
                 
             </td>
             <td>
-                Imported CorsOptionsDelegate and CorsRequest and typed corsOptionsDelegate to it
+                - fix: update cargo.lock when upgrading versions using weaver-update-version.sh
+- build: hot-fixing the version bumping script by upgrading from prettier
+v2.8.8 to v3.0.3 because the latter ships with typescript types out of the
+box. Not sure how this was working to begin with while I was testing the
+script but here we are. Apologies! - Peter
+- fix(protos-sol): delete package line with string pattern matching
+- fix(relay): add sh to entrypoint command in dockerfiles
 
-Closes: #2674
+Co-authored-by: Peter Somogyvari <peter.somogyvari@accenture.com>
 
-Possibly not a chore, but a style issue
-
-[skip ci]
+Signed-off-by: Sandeep Nishad <sandeep.nishad1@ibm.com>
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-17 22:27:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2696" class=".btn">#2696</a>
-            </td>
-            <td>
-                <b>
-                    style: fix unexpected any linter w in startCockpitFileServer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The linter warning for unexpected any was fixed with Record<string, unknown>
-
-[skip ci]
-
-Closes: #2677
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-17 21:41:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2695" class=".btn">#2695</a>
-            </td>
-            <td>
-                <b>
-                    style: fixes Unexpected any linter W in getHelpText()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The linter warning was fixed with Record<string, unknown> and the types inside the function have been corrected.
-The other 7 lines are just linter-errors for empty spaces, that where corrected, although that was not part of the issue, i hope it was ok.
-
-[skip ci]
-
-Closes: #2678
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-17 19:55:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2692" class=".btn">#2692</a>
-            </td>
-            <td>
-                <b>
-                    docs(weaver): tutorial documentation updates and additions of license declarations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fixed various links, path names, and package names, and corrected typos, in the Weaver tutorial documents. This was done after following the instructions outlined in the docs to manually run sample applications.
-- Added Apache-2 license declarations to various source files in the `weaver` folder where they were missing. The main `weaver` folder already contains a `LICENSE.md` file, so this just covers all of our bases.
-- Updated README instructions in various folders, wherever they were out of date.
-- Updated version numbers in some template configuration files to `2.0.0-alpha.1`.
-
-There is no code change in this PR. Just changes in Markdown files and addition of comments to source files.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-15 14:45:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2690" class=".btn">#2690</a>
-            </td>
-            <td>
-                <b>
-                    build(corda-sample): upgrade corda token sdk version to 1.2.5 to fix …
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …the build
-
-This fixes the failing corda (weaver part) workflows.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-14 05:17:34 +0000 UTC
+        Created At 2023-09-27 08:02:05 +0000 UTC
     </div>
 </div>
 
