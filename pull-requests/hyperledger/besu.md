@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5983" class=".btn">#5983</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Expose getSize to transaction interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Exposes getSize to transaction interface so it can be used by plugins
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 05:48:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5980" class=".btn">#5980</a>
             </td>
             <td>
@@ -472,58 +499,6 @@ https://github.com/ethereum/devp2p/blob/master/rlpx.md#ping-0x02
     </table>
     <div class="right-align">
         Created At 2023-09-27 07:07:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5954" class=".btn">#5954</a>
-            </td>
-            <td>
-                <b>
-                    Fixup changelog following 23.7.3 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 05:03:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5953" class=".btn">#5953</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.7.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 02:38:55 +0000 UTC
     </div>
 </div>
 
