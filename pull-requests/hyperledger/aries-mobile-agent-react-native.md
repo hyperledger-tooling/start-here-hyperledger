@@ -28,8 +28,9 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 # Summary of Changes
+Each workspace package have it own package.json file. To avoid dependency conflict and unnecessary nested dependencies, I've aligned the dependency across all packages.
 
-Replace this text with a high-level summary of the changes included in this PR.
+[syncpack](https://www.npmjs.com/package/syncpack) is a nice utility that can be run on a regular basis to keep the dependency aligned.
 
 # Related Issues
 
@@ -39,10 +40,10 @@ Please reference here any issue #'s that are relevant to this PR, or simply ente
 
 Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
 
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [ ] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
 
 If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
 
