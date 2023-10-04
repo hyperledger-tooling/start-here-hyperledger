@@ -66,29 +66,3 @@ See: https://besu-docs-62tjx3w36-hyperledger.vercel.app/development/public-netwo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1408" class=".btn">#1408</a>
-            </td>
-            <td>
-                <b>
-                    Release version 23.7.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 07:25:42 +0000 UTC
-    </div>
-</div>
-

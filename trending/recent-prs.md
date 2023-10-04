@@ -1,13 +1,13 @@
 
-[5983](https://github.com/hyperledger/besu/pull/5983) [MINOR] Expose getSize to transaction interface
+[4465](https://github.com/hyperledger/fabric/pull/4465) Bft bp block verifier peer
 
-[2738](https://github.com/hyperledger/cacti/pull/2738) build(deps-dev): bump postcss from 8.4.16 to 8.4.31 in /packages/cacti-ledger-browser
+[270](https://github.com/hyperledger/firefly-cli/pull/270) feature: upgrade the Fabric version to v2.5 TLS
 
-[2737](https://github.com/hyperledger/cacti/pull/2737) build(deps-dev): bump postcss from 8.4.16 to 8.4.31
+[1415](https://github.com/hyperledger/firefly/pull/1415) feature: changes to support upgrade to Fabric v2.5 TLS in Firefly CLI
 
-[46](https://github.com/hyperledger/bevel-samples/pull/46) Bump postcss and react-scripts in /examples/supplychain-app/supplychain-frontend
+[4464](https://github.com/hyperledger/fabric/pull/4464) Bump github.com/consensys/gnark-crypto from 0.6.0 to 0.12.0
 
-[161](https://github.com/hyperledger/fabric-gateway-java/pull/161) Reduce frequency of vulnerability scan to weekly
+[215](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/215) feat: ics30 initial interface
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

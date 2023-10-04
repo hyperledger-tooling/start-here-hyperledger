@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1010" class=".btn">#1010</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.59.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a patch release to "seal" changes in vdrtools -> credx wallet migration
+
+Release `0.60.0` will have `vdrtools -> credx` migration removed, as well as entire anoncreds portion of `vdrtools` (leaving only vdrtools wallet)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 10:20:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1008" class=".btn">#1008</a>
             </td>
             <td>
@@ -122,9 +150,17 @@ Changes:
 
 This PR explores and aims to deal with this in multiple ways:
 - remove this completely if possible
-- adjust the mocks to only be employed when testing through `#[cfg(test)]`
+- ~adjust the mocks to only be employed when testing through `#[cfg(test)]`~
 
-This sets the ground for better decoupling the test code from production code which might even be done to some extent within this PR.
+This sets the ground for better decoupling the test code from production code.
+
+## Update
+Unfortunately conditionally compiling mocks instead of real components based on the `test` profile does not work and neither does using real components in all tests. The reason is because with the runtime global flags there were tests that were using the mocks while others were not.
+
+The problems were arising in the `libvcx_core` tests and the node JS wrapper tests. The tests were commented out to allow the CI to pass. In my opinion, the tests were awkward in the first place because:
+- they test stuff that's already tested in `aries_vcx` (with real components)
+- as higher level libraries, they rely on mocks, while the testing in `aries_vcx` does not
+- there are e2e tests in the node JS wrapper which do a better job than those pseudo-integration mocked tests
             </td>
         </tr>
     </table>
@@ -214,32 +250,6 @@ Ideally the components ownership should be established and refactors should be d
     </table>
     <div class="right-align">
         Created At 2023-09-27 14:26:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1001" class=".btn">#1001</a>
-            </td>
-            <td>
-                <b>
-                    Move CI dir
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Moved the `ci` directory under `.github` and cleared out some remaining items from previous Java/iOS wrappers in some scripts. Obsolete `rustfmt.toml` files were also removed (which lead to a lot of files being formatted).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-27 09:19:10 +0000 UTC
     </div>
 </div>
 

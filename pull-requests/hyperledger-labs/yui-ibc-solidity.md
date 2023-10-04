@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/215" class=".btn">#215</a>
+            </td>
+            <td>
+                <b>
+                    feat: ics30 initial interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                for https://github.com/hyperledger-labs/yui-ibc-solidity/issues/184
+
+@bluele is is correct approach we can align in main?
+
+I need this + your work on memo. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 11:33:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    feat: dev shell to easy build and run e2e
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `nix develop` enters shell which can do all make and e2e and protogen, without anything installed beforehand
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 10:28:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/213" class=".btn">#213</a>
             </td>
             <td>
@@ -33,75 +89,6 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </table>
     <div class="right-align">
         Created At 2023-10-03 05:28:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/212" class=".btn">#212</a>
-            </td>
-            <td>
-                <b>
-                    feat(transfer): added memo from cosmos spec and tooling to run gen/test of it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ```
- 440190 pts/3    00:00:00 ps
-bash-5.2$ make e2e-test
-TEST_MNEMONIC="math razor capable expose worth grape metal sunset metal sudden usage scheme" TEST_BROADCAST_LOG_DIR=/home/dz/github.com/hyperledger-labs/yui-ibc-solidity/./broadcast/Deploy.s.sol go test -v ./tests/e2e/... -count=1
-=== RUN   TestChainTestSuite
-=== RUN   TestChainTestSuite/TestPacketRelay
-=== RUN   TestChainTestSuite/TestPacketRelayWithDelay
-    coordinator.go:484: delay for recv@3018 5.212113487s
-    coordinator.go:494: delay for ack@2018 6.262699139s
-    coordinator.go:484: delay for recv@2018 22.614773615s
-    coordinator.go:494: delay for ack@3018 40.81390239s
---- PASS: TestChainTestSuite (144.68s)
-    --- PASS: TestChainTestSuite/TestPacketRelay (45.91s)
-    --- PASS: TestChainTestSuite/TestPacketRelayWithDelay (98.77s)
-PASS
-ok      github.com/hyperledger-labs/yui-ibc-solidity/tests/e2e  144.710s
-bash-5.2$ 
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 22:02:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/211" class=".btn">#211</a>
-            </td>
-            <td>
-                <b>
-                    feat(dev): added nix to shell into devenv for this repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 20:59:14 +0000 UTC
     </div>
 </div>
 
