@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/131" class=".btn">#131</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/132" class=".btn">#132</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md and CODEOWNERS
+                    Pass 409 Conflict back to FireFly Core
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                <nil>
+                Ported from https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/137
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 20:03:05 +0000 UTC
+        Created At 2023-09-28 17:39:58 +0000 UTC
     </div>
 </div>
 

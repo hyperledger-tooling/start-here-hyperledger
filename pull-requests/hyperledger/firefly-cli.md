@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/260" class=".btn">#260</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/269" class=".btn">#269</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md and CODEOWNERS
+                    feature: upgrade Fabric version to v2.5 TLS
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-cli
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-19 13:03:05 +0000 UTC
+        Created At 2023-10-03 11:00:25 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/259" class=".btn">#259</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/267" class=".btn">#267</a>
             </td>
             <td>
                 <b>
-                    Separate build and release jobs
+                    Included stack name completion.
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Apparently Goreleaser is now picky about doing builds against commits that don't match the tag that it's expecting. The version of Goreleaser that we're using was recently upgraded which caused this change. Previously, (I'm not sure why) we were running Goreleaser on every PR whether we were doing a release or not. This PR separates the jobs and just runs make on PRs and will run goreleaser anytime we tag a new release. This should unblock our PR backlog.
+                added a function to the `ValidArgsFunction` field to add completion to command that requires stack name.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-18 17:04:52 +0000 UTC
+        Created At 2023-09-28 17:56:44 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/257" class=".btn">#257</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/266" class=".btn">#266</a>
             </td>
             <td>
                 <b>
-                    Adding FIREFLY_HOME env variable (optional)
+                    Resolves #265
                 </b>
             </td>
         </tr>
@@ -79,12 +79,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                <nil>
+                Resolves #265, redundant command to list stacks on local machine.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-17 22:48:16 +0000 UTC
+        Created At 2023-09-28 17:37:46 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +92,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/256" class=".btn">#256</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/264" class=".btn">#264</a>
             </td>
             <td>
                 <b>
-                    feature enhancement and code cleaning.
+                    Resolve #192, added Swagger API UI url to stdout for `start` command.
                 </b>
             </td>
         </tr>
@@ -105,30 +105,38 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                This commit includes:
-
-1) a new  "docs" command to generate markdown documentations of all command on rootCmd.
-The list of generated markdown is put in the folder directory "./docs/command_docs" as default or any location specified by the user as arguement to the "docs" command.
-
-2) included a function "listStacks" to add completion for stacks.
-
-// listStacks return a list of available stacks on the local machine from "$HOME/.firefly/stack". The function
-// is intended to add completion to command that require  as arguement.
-//
-// Expected usage:
-//
-//	var Cmd = &cobra.Command{
-//			...
-//			ValidArgsFunction: listStacks,
-//			...
-
-
-3) removed "cmd/ls.go", the command already exist as an alias to the command "list" in "cmd/list.go" with the same implementation.
+                Resolve #192, added Swagger API UI url to stdout for `start` command.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-16 16:13:46 +0000 UTC
+        Created At 2023-09-27 08:49:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/263" class=".btn">#263</a>
+            </td>
+            <td>
+                <b>
+                    New feature (docs command)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit is a new feature (introduces a new command - `docs`) that generates a markdown documentation of all command.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 07:55:32 +0000 UTC
     </div>
 </div>
 

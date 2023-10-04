@@ -18,16 +18,27 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Add function annotations
+                    Add function annotations 🚀
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">solana</span>
             </td>
             <td>
-                <nil>
+                This PR introduces account annotations for developers to declare accounts in a Solidity function. This is one of the task items in #1251.
+
+The new syntax tremendously facilitates writing contracts and is less error prone as we do not need to both pass the account address as an argument and in the accounts field.
+
+I wrote some tests where I noticed they were necessary and I attempted to refactor all existing Solana Solidity to use the annotations, so that my implementation would be stress tested in all those cases.
+
+There are a few items this PR did not accomplish, but are going to be implemented in future changes:
+
+1. I did not validate accounts during runtime, i.e. I am not checking if the bits are properly set before dispatching the function, but I wonder if this is really needed.
+2. When generating the interface for an IDL, I am not creating the account annotations, but this is an amazing feature to be added soon.
+3. The `address.balance` function is useless on Solana, but has not been eliminated yet. We can now just do `tx.accounts.myAccount.lamports`.
+4. The `address.send` and `address.transfer` are also not necessary, but I did not purge the compiler of them.
             </td>
         </tr>
     </table>

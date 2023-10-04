@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md and CODEOWNERS
+                    Add wsbackend client
                 </b>
             </td>
         </tr>
@@ -27,12 +27,42 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                <nil>
+                This PR adds a JSONRPC WebSocket client. It is fairly basic in its features, but gives the ability to create subscriptions and listen for blocks.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 19:43:58 +0000 UTC
+        Created At 2023-10-03 20:19:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    Ensure SyncRequest never returns nil, even if context is closed 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ```go
+// In all return paths *including error paths* the RPCResponse is populated
+```
+
+... we say it, but then we return `nil` if the context is closed
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 18:13:14 +0000 UTC
     </div>
 </div>
 

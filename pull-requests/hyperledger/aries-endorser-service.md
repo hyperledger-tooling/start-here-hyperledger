@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    --log-level is already set in dockerCompose variable
+                    Granular configuration of auto-endorsement 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,31 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
                 
             </td>
             <td>
-                Prevents a `unknown flag: --log-level` error when starting endorser
+                This pull request resolves #32
+
+The endorser service supports auto-endorsing specific types of transaction, however it is not designed to support more fine-grained control mechanisms.
+
+Here we add a new `/allow/` endpoint which can add to, delete from, and get a list of transactions which will be auto-endorsed. There is a list for:
+- publishing DIDs
+- publishing schema definitions
+- publishing credential definitions
+
+When any of these lists are updated all pending transactions will be compared and if a match between one of these lists and the pending transactions is found the transaction will be endorsed.
+
+![2023-09-27_16-39-56](https://github.com/hyperledger/aries-endorser-service/assets/34443260/871415b1-ac51-4758-9abc-d19c61b46dd5)
+
+In addition, a new configuration setting `ENDORSER_REJECT_BY_DEFAULT` has been introduced to control whether transactions that do not match any of the allow lists are rejected, or left pending by default
+
+
+Currently remaining work to be done:
+- [ ] Document how the new allow lists work
+- [ ] Integrate RevRegEntry and RevRegDef entries in the creddef configuration
+- [ ] Add integration and unit tests
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-25 19:25:31 +0000 UTC
+        Created At 2023-09-28 00:40:58 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/821" class=".btn">#821</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/836" class=".btn">#836</a>
             </td>
             <td>
                 <b>
-                    [ja_jp] Apply changes from the original to v2.5
+                    Update CONTRIBUTING section
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                This huge patch applies changes in the original repository (fabric) from v2.2 to v2.5 to the Japanese documentation in the release-2.5 branch. This patch adds, modifies and deletes the binary and text files from the original repository except the text files translated in the release-2.2, because the files not applied in this patch should be manually applied with translation to Japanese.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-22 06:45:49 +0000 UTC
+        Created At 2023-09-28 00:50:23 +0000 UTC
     </div>
 </div>
 

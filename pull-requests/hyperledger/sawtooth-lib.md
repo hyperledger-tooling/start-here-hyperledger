@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/174" class=".btn">#174</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/175" class=".btn">#175</a>
             </td>
             <td>
                 <b>
-                    Move transact::protocol::* to protocol::*
+                    Remove explicit call to .into_iter()
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                This is an incremental step toward integrating transact fully into libsawtooth. This removes the transact feature guard on these protocol structs, with the exception of receipt; receipt needs further refactoring so that it does not reference non-protocol code.
+                Fixes lint in introduced in 1.72 rust
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-09 17:04:30 +0000 UTC
+        Created At 2023-09-29 13:25:16 +0000 UTC
     </div>
 </div>
 

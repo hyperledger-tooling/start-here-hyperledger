@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/142" class=".btn">#142</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/144" class=".btn">#144</a>
             </td>
             <td>
                 <b>
-                    Mark lifecycle transaction names as not hard-coded credentials
+                    try to enable bft support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 
             </td>
             <td>
-                Triggered a false positive in gosec.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-04 11:24:07 +0000 UTC
+        Created At 2023-10-03 09:31:37 +0000 UTC
     </div>
 </div>
 

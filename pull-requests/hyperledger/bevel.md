@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2373" class=".btn">#2373</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2380" class=".btn">#2380</a>
             </td>
             <td>
                 <b>
-                    [fabric] update docs regarding using sequence in network.yaml
+                    feat(r3-corda): enable latest ambassador edge-stack
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Fixes #2370 
+                This PR will provide the support of using latest ambassador edge-stack
 
-Updated documentation regarding use of `sequence` for chaincodes
+changes:
+ • Updated all services to use the latest Ambassador Edge Stack routing rules.
+
+fixes https://github.com/hyperledger/bevel/issues/2359
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-19 12:48:13 +0000 UTC
+        Created At 2023-10-02 16:19:17 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +45,11 @@ Updated documentation regarding use of `sequence` for chaincodes
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2369" class=".btn">#2369</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2379" class=".btn">#2379</a>
             </td>
             <td>
                 <b>
-                    [quorum] Upgrade and Add support for Ambassador v3
+                    [substrate] enable latest ambassador edge-stack
                 </b>
             </td>
         </tr>
@@ -55,16 +58,25 @@ Updated documentation regarding use of `sequence` for chaincodes
                 
             </td>
             <td>
-                - Add support for Ambassador v3 in Quorum
-- Remove constellation support
-- Update Quorum to latest 23.4.0 version
-- Remove support for older versions of Quorum and Besu
-- Update Vault-k8s-job to create Vault auth correctly
+                ### **Commit to be reviewed**
+
+---
+
+**feat(substrate): enable latest ambassador edge-stack**
+
+```
+This PR will provide the support of using latest ambassador edge-stack
+
+changes:
+ • Updated all services to use the latest Ambassador Edge Stack routing rules.
+```
+
+fixes #2359
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-15 09:55:15 +0000 UTC
+        Created At 2023-09-27 09:32:51 +0000 UTC
     </div>
 </div>
 

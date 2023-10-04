@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1402" class=".btn">#1402</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1411" class=".btn">#1411</a>
             </td>
             <td>
                 <b>
-                    Updated public API methods containing blockNumber
+                    Engine API is enabled by default
                 </b>
             </td>
         </tr>
@@ -27,16 +27,68 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Updated public API methods containing the `blockNumber` parameter, specifying that they are `hexadecimal integer` and also added `finalized` and `safe` to the string tags listing. Also, added `finalized` and `safe` to other public API methods that were missing these tags.
-
-Fixes #1385 
-
-See https://besu-docs-1sz5lp094-hyperledger.vercel.app/development/public-networks/reference/api
+                The Engine API is enabled by default (without needing the flag `--engine-rpc-enabled`). This PR removes the line that states it is disabled by default and some that are not required.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 16:03:29 +0000 UTC
+        Created At 2023-10-02 10:05:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1409" class=".btn">#1409</a>
+            </td>
+            <td>
+                <b>
+                    Documented kzg-trusted-setup CLI option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The `kzg-trusted-setup` CLI option has been documented, but for the **Syntax**, **Example**, **Environment variable**, and **Configuration file** tabs, the text is mostly placeholder. 
+
+Fixes #1274 
+
+See: https://besu-docs-62tjx3w36-hyperledger.vercel.app/development/public-networks/reference/cli/options
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-28 16:56:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1408" class=".btn">#1408</a>
+            </td>
+            <td>
+                <b>
+                    Release version 23.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-09-27 07:25:42 +0000 UTC
     </div>
 </div>
 

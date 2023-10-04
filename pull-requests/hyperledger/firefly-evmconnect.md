@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/97" class=".btn">#97</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/101" class=".btn">#101</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    Do not block startup to check chain head
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Update code owners file to use the github team
+                Fixes #98
+
+Depends on https://github.com/hyperledger/firefly-signer/pull/48 (was causing a panic in UTs)
+
+Instead of checking the chain head in-line in `EventStreamStart()` function, this change pushes that `preStartProcessing` code down into the `streamLoop` that gets started asynchronously.
+
+This means we don't block FFTM from starting up.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-30 15:20:51 +0000 UTC
+        Created At 2023-09-28 18:17:18 +0000 UTC
     </div>
 </div>
 
