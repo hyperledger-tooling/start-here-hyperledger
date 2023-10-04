@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/11" class=".btn">#11</a>
+            </td>
+            <td>
+                <b>
+                    Add "versionId" DID document metadata property
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See spec support for "versionId" DID document metadata property: https://github.com/trustoverip/tswg-did-method-webs-specification/pull/49
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 10:28:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/10" class=".btn">#10</a>
+            </td>
+            <td>
+                <b>
+                    Add support for JsonWebKey and ConditionalProof2022
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This implements changes in https://github.com/trustoverip/tswg-did-method-webs-specification/pull/39 and https://github.com/trustoverip/tswg-did-method-webs-specification/pull/41
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 10:04:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/9" class=".btn">#9</a>
             </td>
             <td>
