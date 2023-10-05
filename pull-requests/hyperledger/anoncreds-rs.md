@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/245" class=".btn">#245</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/251" class=".btn">#251</a>
             </td>
             <td>
                 <b>
-                    chore: update version to 0.2.0-dev.1
+                    Build cleanups; verify auditwheel output
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                As discussed in today's AFJ call, updating version to a new dev one.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 19:31:18 +0000 UTC
+        Created At 2023-10-05 17:16:31 +0000 UTC
     </div>
 </div>
 

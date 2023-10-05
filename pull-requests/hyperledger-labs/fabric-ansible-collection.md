@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Galaxy yaml updated to version2.0.1
+                    Bumping collection version number
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                @modemn  The galaxy.yaml is updated to v2.0.1
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-27 12:54:44 +0000 UTC
+        Created At 2023-10-05 13:52:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    Role changes and doc updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added check so image pull secret is only created if actually needed. Also updated docs with the new docker image and ansible galaxy locations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 12:54:02 +0000 UTC
     </div>
 </div>
 

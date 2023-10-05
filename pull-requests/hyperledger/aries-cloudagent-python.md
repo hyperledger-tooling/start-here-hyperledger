@@ -338,29 +338,3 @@ And because we don't track the index and current revocation id externally, we ca
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2521" class=".btn">#2521</a>
-            </td>
-            <td>
-                <b>
-                    Avoid multiple open wallet connections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes issues with timeouts during integration tests when the maximum number of connections is low.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 16:45:23 +0000 UTC
-    </div>
-</div>
-

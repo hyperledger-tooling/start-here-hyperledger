@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3963" class=".btn">#3963</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3953: Add `owned_by` field to `Domain`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">Enhancement</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+- Fixed unreachable isi
+- Add `owned_by` to `Domain` and related permissions
+- New tests
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3953, #3931, #3932 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Implement required feature, new tests, fixed bugs.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 14:55:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3960" class=".btn">#3960</a>
             </td>
             <td>
@@ -471,43 +528,6 @@ Closes #3939
     </table>
     <div class="right-align">
         Created At 2023-10-02 06:01:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3935" class=".btn">#3935</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3934: Migrate `iroha_wasm_derive` and `iroha_validator_derive` to syn 2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Use syn 2.0, manyhow and darling to enhance the error messages
-
-### Linked issue
-
-Closes #3934 
-
-### Checklist
-
-- [ ] make sure the CI passes
-- [ ] add tests?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 14:36:34 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1413" class=".btn">#1413</a>
+            </td>
+            <td>
+                <b>
+                    1394 doc eth get block receipts api method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Documented the `eth_getBlockReceipts` API method in the Besu API methods/ETH methods section of the public Besu documentation.
+
+Fixes: #1394 
+
+See: https://besu-docs-60seh79zu-hyperledger.vercel.app/development/public-networks/reference/api
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 16:03:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1411" class=".btn">#1411</a>
             </td>
             <td>
@@ -33,36 +63,6 @@ permalink: /pull-requests/hyperledger/besu-docs
     </table>
     <div class="right-align">
         Created At 2023-10-02 10:05:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1409" class=".btn">#1409</a>
-            </td>
-            <td>
-                <b>
-                    Documented kzg-trusted-setup CLI option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `kzg-trusted-setup` CLI option has been documented, but for the **Syntax**, **Example**, **Environment variable**, and **Configuration file** tabs, the text is mostly placeholder. 
-
-Fixes #1274 
-
-See: https://besu-docs-62tjx3w36-hyperledger.vercel.app/development/public-networks/reference/cli/options
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 16:56:10 +0000 UTC
     </div>
 </div>
 

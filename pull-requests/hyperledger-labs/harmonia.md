@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    Initial import of adhara interop service
+                    Added flows and Corda interface to EVM project 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/harmonia
                 
             </td>
             <td>
-                <nil>
+                Added corda service to interact with the EVM swap vault contract
+Added flows to interact with swap vault contract functions
+Added tests for new flows
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-27 06:09:00 +0000 UTC
+        Created At 2023-10-05 15:07:37 +0000 UTC
     </div>
 </div>
 

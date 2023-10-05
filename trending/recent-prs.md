@@ -1,13 +1,13 @@
 
-[18](https://github.com/hyperledger-labs/did-webs-resolver/pull/18) Fix base_url
+[226](https://github.com/hyperledger/indy-vdr/pull/226) Update zmq and time dependencies
 
-[17](https://github.com/hyperledger-labs/did-webs-resolver/pull/17) Add support for --metadata in did webs resolve
+[169](https://github.com/hyperledger/anoncreds-spec/pull/169) Added `eq_proof` and `ge_proofs` for presentation
 
-[746](https://github.com/hyperledger-labs/open-enterprise-agent/pull/746) fix(prism-agent): configure APISIX to return CORS headers from Prism Agent endpoints
+[989](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/989) fix: add testIDs to wallet edit touchable components
 
-[3960](https://github.com/hyperledger/iroha/pull/3960) Merge Iroha1 `develop` into `main`
+[251](https://github.com/hyperledger/anoncreds-rs/pull/251) Build cleanups; verify auditwheel output
 
-[501](https://github.com/hyperledger-labs/fabric-token-sdk/pull/501) Bump github.com/consensys/gnark-crypto from 0.9.1 to 0.12.0
+[502](https://github.com/hyperledger-labs/fabric-token-sdk/pull/502) Fremote w 3
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
