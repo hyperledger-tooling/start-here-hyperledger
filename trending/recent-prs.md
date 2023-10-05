@@ -1,13 +1,13 @@
 
-[745](https://github.com/hyperledger-labs/open-enterprise-agent/pull/745) fix: change repository and name for rest api clients
+[3958](https://github.com/hyperledger/iroha/pull/3958) Lazy query for wasm
 
-[2529](https://github.com/hyperledger/aries-cloudagent-python/pull/2529) Feat: Support subwallet upgradation using the Upgrade command
+[2740](https://github.com/hyperledger/cacti/pull/2740) build(lint): fix linter - doesn't work after last prettier upgrade to v3.0.0
 
-[3956](https://github.com/hyperledger/iroha/pull/3956) [refactor] #3950: Merge API and Telemetry endpoints into a single server
+[5986](https://github.com/hyperledger/besu/pull/5986) Validation ordering
 
-[4466](https://github.com/hyperledger/fabric/pull/4466) Update add_orderer.md
+[4467](https://github.com/hyperledger/fabric/pull/4467) Remove usage of fmt.Errorf
 
-[121](https://github.com/hyperledger/besu-native/pull/121) Switch to GitHub ARM Mac runner
+[3957](https://github.com/hyperledger/iroha/pull/3957) [fix] #3995: Fix wasm cache directory permission bug in docker image
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

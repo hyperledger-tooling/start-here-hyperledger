@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Granular configuration of auto-endorsement 
+                    Update agent image.
                 </b>
             </td>
         </tr>
@@ -27,31 +27,14 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
                 
             </td>
             <td>
-                This pull request resolves #32
+                Switch to official askar only image, and update to `0.10.3`.
 
-The endorser service supports auto-endorsing specific types of transaction, however it is not designed to support more fine-grained control mechanisms.
-
-Here we add a new `/allow/` endpoint which can add to, delete from, and get a list of transactions which will be auto-endorsed. There is a list for:
-- publishing DIDs
-- publishing schema definitions
-- publishing credential definitions
-
-When any of these lists are updated all pending transactions will be compared and if a match between one of these lists and the pending transactions is found the transaction will be endorsed.
-
-![2023-09-27_16-39-56](https://github.com/hyperledger/aries-endorser-service/assets/34443260/871415b1-ac51-4758-9abc-d19c61b46dd5)
-
-In addition, a new configuration setting `ENDORSER_REJECT_BY_DEFAULT` has been introduced to control whether transactions that do not match any of the allow lists are rejected, or left pending by default
-
-
-Currently remaining work to be done:
-- [ ] Document how the new allow lists work
-- [ ] Integrate RevRegEntry and RevRegDef entries in the creddef configuration
-- [ ] Add integration and unit tests
+The previous agent version, 1.0.0-rc-0 is incompatible with ACA-Py >=1.10.1.  See https://github.com/hyperledger/aries-cloudagent-python/issues/2528
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-28 00:40:58 +0000 UTC
+        Created At 2023-10-04 21:14:13 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Add support for sh in shell command.
+                    feat: add network namespaces
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
                 
             </td>
             <td>
-                - Fixes the issue shelling into the prometheus container.
-
-Note:
-- The main change was made to openShell.  Everything else is whitespace additions or cleanup.
+                We utilize this file to reconstruct the Aries Bifold ledgers during the build process. In response to the discussion found [here](https://github.com/hyperledger/indy-did-networks/issues/3), we are incorporating the addition of "namespaces" to the ledgers. This update integrates the modifications discussed in that conversation into this file, ensuring its continued use in Aries Bifold.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-17 20:08:48 +0000 UTC
+        Created At 2023-10-04 19:31:40 +0000 UTC
     </div>
 </div>
 
