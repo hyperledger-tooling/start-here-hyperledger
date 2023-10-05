@@ -1,13 +1,13 @@
 
-[8](https://github.com/hyperledger/iroha-rfcs/pull/8) Add-on to Configuration Overhaul RFC
+[18](https://github.com/hyperledger-labs/did-webs-resolver/pull/18) Fix base_url
 
-[5988](https://github.com/hyperledger/besu/pull/5988) Plugin Api - Add evaluateTransactionPostProcessing to TransactionSelector interface
+[17](https://github.com/hyperledger-labs/did-webs-resolver/pull/17) Add support for --metadata in did webs resolve
 
-[3958](https://github.com/hyperledger/iroha/pull/3958) Lazy query for wasm
+[746](https://github.com/hyperledger-labs/open-enterprise-agent/pull/746) fix(prism-agent): configure APISIX to return CORS headers from Prism Agent endpoints
 
-[2740](https://github.com/hyperledger/cacti/pull/2740) build(lint): fix linter - doesn't work after last prettier upgrade to v3.0.0
+[3960](https://github.com/hyperledger/iroha/pull/3960) Merge Iroha1 `develop` into `main`
 
-[5986](https://github.com/hyperledger/besu/pull/5986) Validation ordering
+[501](https://github.com/hyperledger-labs/fabric-token-sdk/pull/501) Bump github.com/consensys/gnark-crypto from 0.9.1 to 0.12.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

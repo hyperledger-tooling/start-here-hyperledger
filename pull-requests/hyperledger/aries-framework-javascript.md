@@ -629,29 +629,3 @@ Whilst I don't think it is bad for implicit invitations to work the way we are u
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1591" class=".btn">#1591</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): v0.4.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release version 0.4.2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 10:30:57 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1011" class=".btn">#1011</a>
+            </td>
+            <td>
+                <b>
+                    Replace trait objects in libvcx_core with generics/concrete types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replaces as much as possible the usage of `Arc` and trait objects to use generics/concrete types instead. This will further aid in the refactor of the primitives interface traits.
+This PR also removes the feature flags for conditional anoncreds implementations in `libvcx_core` and node JS wrapper, relying entirely on `credx`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 07:55:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1010" class=".btn">#1010</a>
             </td>
             <td>
@@ -35,33 +62,6 @@ Release `0.60.0` will have `vdrtools -> credx` migration removed, as well as ent
     </table>
     <div class="right-align">
         Created At 2023-10-04 10:20:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1008" class=".btn">#1008</a>
-            </td>
-            <td>
-                <b>
-                    Do not test/build vdrtools anoncreds in CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Dont test/build vdrtools anoncreds in CI
-- Change aries-vcx default features from `vdrtools` to `modular`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 14:46:05 +0000 UTC
     </div>
 </div>
 
@@ -192,38 +192,6 @@ The problems were arising in the `libvcx_core` tests and the node JS wrapper tes
     </table>
     <div class="right-align">
         Created At 2023-10-01 17:56:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1003" class=".btn">#1003</a>
-            </td>
-            <td>
-                <b>
-                    Use generics over trait objects in Profile & co.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A valiant attempt at relying more on generics rather than the `Arc<dyn>` madness. 
-
-Unfortunately, these have become so deeply rooted within some crates that it's pretty hard to do it incrementally. There's also pretty much no data flow to follow because everything was `Arc`'ed and cloned in a lot of places effectively bypassing the ownership model of Rust.
-
-`libvcx` was worked around by some generic implementation on the traits over the `Arc<dyn>` stuff. If you ever wondered whether some code can make a grown man cry, I'll answer that for you. Yes. Yes it can.
-
-Ideally the components ownership should be established and refactors should be done to make it clear what gets used where and why. This however will span across tests, the primitives traits and a lot of production code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 09:39:59 +0000 UTC
     </div>
 </div>
 

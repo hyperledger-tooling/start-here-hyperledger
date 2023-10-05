@@ -85,36 +85,3 @@ If you have a better idea of how this page might look like, you are very welcome
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/415" class=".btn">#415</a>
-            </td>
-            <td>
-                <b>
-                    Update rendered schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Closes #330 
-
----
-
-- Use only schema from `iroha2-dev`
-- Render schema in a new format
-- Remove nav bar links
-- Add Data Model Schema to the API sidebar section
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 08:48:48 +0000 UTC
-    </div>
-</div>
-
