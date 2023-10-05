@@ -135,7 +135,7 @@ Exposes getSize to transaction interface so it can be used by plugins
             </td>
             <td>
                 <b>
-                    Only use the buider to create transactions
+                    Only use the builder to create transactions
                 </b>
             </td>
         </tr>
@@ -248,98 +248,6 @@ Add Blob Count validation to EngineNewPayload - Fix invalid_blob_count hive test
     </table>
     <div class="right-align">
         Created At 2023-10-02 00:43:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5968" class=".btn">#5968</a>
-            </td>
-            <td>
-                <b>
-                    Issue 5544 - Tessera as internal process
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-Fixes #5544 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 11:59:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5967" class=".btn">#5967</a>
-            </td>
-            <td>
-                <b>
-                    [4844] FCU Validate badblock before sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">4844</span>
-            </td>
-            <td>
-                ## PR description
-Validate bad blocks before asking for a new sync
-## Fixed Issue(s)
-fixes #5950
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 10:35:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5966" class=".btn">#5966</a>
-            </td>
-            <td>
-                <b>
-                    Use PendingTransaction in BlockTransactionSelector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This is just a refactoring, no functionality change, to have the `PendingTransaction` object during the selection of transactions, since in the `PendingTransaction` there are additional metadata about the candidate transaction that can be used by the selection process, and more will be added in a next PR to better support priority senders.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 09:08:27 +0000 UTC
     </div>
 </div>
 

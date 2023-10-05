@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-rfcs
             </td>
             <td>
                 <b>
-                    Add-on to Configuration Overhaul RFC
+                    Add-on to the Configuration Overhaul RFC
                 </b>
             </td>
         </tr>
@@ -27,7 +27,14 @@ permalink: /pull-requests/hyperledger/iroha-rfcs
                 
             </td>
             <td>
-                <nil>
+                This PR introduces several aspects to the Configuration Overhaul RFC (#3) that were previously overlooked:
+
+- The presence of configuration endpoints
+- The existence of configuration-related Iroha Special Instructions (ISIs)
+- The potential extension of RFC proposals to other tools related to Iroha, specifically the Iroha Client CLI
+- The mechanism for resolving relative paths
+
+For detailed insights, please refer to the PR's diff. These enhancements are part of the continued effort to refine and simplify Iroha's configuration process for a more intuitive and user-friendly experience.
             </td>
         </tr>
     </table>

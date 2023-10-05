@@ -129,35 +129,3 @@ Fixes https://github.com/hyperledger/solang/issues/1444
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1553" class=".btn">#1553</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: Accessing storage struct members is always a storage read
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PR does 2 things:
-
-Accessing storage struct members is always a storage read; `Expression::StorageLoad` now sets the mutability state accordingly and keeps on recursing.
-
-Also, diagnostics of mutability errors are kept in a HashMap instead. This way, we can recurse down and only the innermost error will be considered.
-
-The regression in the EVM test is fine; it's caused by a [problem in solc](https://github.com/ethereum/solidity/issues/11573)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 08:31:30 +0000 UTC
-    </div>
-</div>
-

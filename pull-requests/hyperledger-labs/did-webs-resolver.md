@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    Fix base_url
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 11:17:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Add support for --metadata in did webs resolve
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 10:43:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/11" class=".btn">#11</a>
             </td>
             <td>
