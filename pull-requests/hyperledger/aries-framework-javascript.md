@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1601" class=".btn">#1601</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump @mattrglobal/bbs-signatures from 1.1.0 to 1.3.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [@mattrglobal/bbs-signatures](https://github.com/mattrglobal/bbs-signatures) from 1.1.0 to 1.3.1.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/mattrglobal/bbs-signatures/blob/master/CHANGELOG.md"><code>@​mattrglobal/bbs-signatures</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/mattrglobal/bbs-signatures/compare/v1.3.0...v1.3.1">1.3.1</a> (2023-10-04)</h2>
+<h3>Features</h3>
+<ul>
+<li>update <code>debug</code> from 4.1.1 to 4.3.4 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/a7e7aad830ddcaef588a27ff53c4104868800b4b">a7e7aad</a>)</li>
+</ul>
+<h1><a href="https://github.com/mattrglobal/bbs-signatures/compare/v1.2.0...v1.3.0">1.3.0</a> (2023-09-29)</h1>
+<h3>Features</h3>
+<ul>
+<li>update <code>@mattrglobal/node-bbs-signatures</code> to 0.18.1 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+<li>update <code>@wasm-tool/wasm-pack-plugin</code> to 1.7.0 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+<li>update rust edition to 2021 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+<li>update <code>console_error_panic_hook</code> to 0.1.7 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+<li>update <code>serde-wasm-bindgen</code> to 0.6.0 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+<li>update <code>wasm-bindgen</code> to 0.2.87 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+<li>update <code>wasm-bindgen-future</code> to 0.4.37 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+<li>update <code>web-sys</code> to 0.3.64 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>remove support for <code>wee_alloc</code> (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
+</ul>
+<h1><a href="https://github.com/mattrglobal/bbs-signatures/compare/1.0.0...1.2.0">1.2.0</a> (2023-09-18)</h1>
+<h3>Features</h3>
+<ul>
+<li>add node 18.x support (<a href="https://github.com/mattrglobal/bbs-signatures/commit/5726e4c71637b1b7149698a671fa0cd7663170bb">5726e4c</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/1df8e1e38f56c0a89f43a34409a3f6ea3d6bd151"><code>1df8e1e</code></a> chore(release): publish</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/a7e7aad830ddcaef588a27ff53c4104868800b4b"><code>a7e7aad</code></a> build(deps): bump debug from 4.1.1 to 4.3.4 (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/162">#162</a>)</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/531f4cdd1956c75742a9a37937ed76df25872ce7"><code>531f4cd</code></a> chore(release): publish (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/159">#159</a>)</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314"><code>b929d7d</code></a> build(deps): remove wee_alloc (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/158">#158</a>)</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/a9e2e56153bee6df9ef4001b55097e0a1d5925ac"><code>a9e2e56</code></a> build(deps): bump bumpalo from 3.6.1 to 3.12.0 (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/148">#148</a>)</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/14ada23abce58faca258b06aef4fb0f0d4c1fb13"><code>14ada23</code></a> build(deps): bump <code>@​commitlint/cli</code> and <code>@​commitlint/config-conventional</code> version...</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/307153d2e43cf32c0cb8369c6928a74773fc95ba"><code>307153d</code></a> build(deps): bump semver from 6.3.0 to 6.3.1 in /sample/browser (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/151">#151</a>)</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/e99a9a4237d33b34914d7254f9efec4b2d045a1a"><code>e99a9a4</code></a> build(deps): bump semver from 6.3.0 to 6.3.1 in /sample/ts-node (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/152">#152</a>)</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/69c9edca4875a3075a39f47aae9ac5974be5ed2f"><code>69c9edc</code></a> build(deps-dev): bump webpack from 5.73.0 to 5.76.0 in /sample/browser (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/149">#149</a>)</li>
+<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/b19d7f20b8e041cafcdf735ad266b52f3628dca9"><code>b19d7f2</code></a> build(deps): bump json5 from 2.2.1 to 2.2.3 (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/147">#147</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/mattrglobal/bbs-signatures/compare/1.1.0...v1.3.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@mattrglobal/bbs-signatures&package-manager=npm_and_yarn&previous-version=1.1.0&new-version=1.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 13:40:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1599" class=".btn">#1599</a>
             </td>
             <td>
@@ -458,174 +563,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2023-10-01 10:26:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1595" class=".btn">#1595</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump @mattrglobal/bbs-signatures from 1.1.0 to 1.3.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [@mattrglobal/bbs-signatures](https://github.com/mattrglobal/bbs-signatures) from 1.1.0 to 1.3.0.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/mattrglobal/bbs-signatures/blob/master/CHANGELOG.md"><code>@​mattrglobal/bbs-signatures</code>'s changelog</a>.</em></p>
-<blockquote>
-<h1><a href="https://github.com/mattrglobal/bbs-signatures/compare/v1.2.0...v1.3.0">1.3.0</a> (2023-09-29)</h1>
-<h3>Features</h3>
-<ul>
-<li>update <code>@mattrglobal/node-bbs-signatures</code> to 0.18.1 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-<li>update <code>@wasm-tool/wasm-pack-plugin</code> to 1.7.0 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-<li>update rust edition to 2021 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-<li>update <code>console_error_panic_hook</code> to 0.1.7 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-<li>update <code>serde-wasm-bindgen</code> to 0.6.0 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-<li>update <code>wasm-bindgen</code> to 0.2.87 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-<li>update <code>wasm-bindgen-future</code> to 0.4.37 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-<li>update <code>web-sys</code> to 0.3.64 (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-</ul>
-<h3>Bug Fixes</h3>
-<ul>
-<li>remove support for <code>wee_alloc</code> (<a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314">b929d7d</a>)</li>
-</ul>
-<h1><a href="https://github.com/mattrglobal/bbs-signatures/compare/1.0.0...1.2.0">1.2.0</a> (2023-09-18)</h1>
-<h3>Features</h3>
-<ul>
-<li>add node 18.x support (<a href="https://github.com/mattrglobal/bbs-signatures/commit/5726e4c71637b1b7149698a671fa0cd7663170bb">5726e4c</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/59b601c09a98607f7efbe5d760dd7acf8670e0f1"><code>59b601c</code></a> chore(release): publish</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/b929d7dadc35e6cc52d27227b990d825717c7314"><code>b929d7d</code></a> build(deps): remove wee_alloc (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/158">#158</a>)</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/a9e2e56153bee6df9ef4001b55097e0a1d5925ac"><code>a9e2e56</code></a> build(deps): bump bumpalo from 3.6.1 to 3.12.0 (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/148">#148</a>)</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/14ada23abce58faca258b06aef4fb0f0d4c1fb13"><code>14ada23</code></a> build(deps): bump <code>@​commitlint/cli</code> and <code>@​commitlint/config-conventional</code> version...</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/307153d2e43cf32c0cb8369c6928a74773fc95ba"><code>307153d</code></a> build(deps): bump semver from 6.3.0 to 6.3.1 in /sample/browser (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/151">#151</a>)</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/e99a9a4237d33b34914d7254f9efec4b2d045a1a"><code>e99a9a4</code></a> build(deps): bump semver from 6.3.0 to 6.3.1 in /sample/ts-node (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/152">#152</a>)</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/69c9edca4875a3075a39f47aae9ac5974be5ed2f"><code>69c9edc</code></a> build(deps-dev): bump webpack from 5.73.0 to 5.76.0 in /sample/browser (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/149">#149</a>)</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/b19d7f20b8e041cafcdf735ad266b52f3628dca9"><code>b19d7f2</code></a> build(deps): bump json5 from 2.2.1 to 2.2.3 (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/147">#147</a>)</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/c960a8aa20beb82ae25f96647ae3dd88523284ea"><code>c960a8a</code></a> build(deps): bump semver from 5.7.1 to 5.7.2 (<a href="https://redirect.github.com/mattrglobal/bbs-signatures/issues/153">#153</a>)</li>
-<li><a href="https://github.com/mattrglobal/bbs-signatures/commit/db578ea88c45a75a3c52992baa10adb4ff5b1edd"><code>db578ea</code></a> chore(release): publish</li>
-<li>Additional commits viewable in <a href="https://github.com/mattrglobal/bbs-signatures/compare/1.1.0...v1.3.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@mattrglobal/bbs-signatures&package-manager=npm_and_yarn&previous-version=1.1.0&new-version=1.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-01 10:26:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1593" class=".btn">#1593</a>
-            </td>
-            <td>
-                <b>
-                    fix(askar): throw error if imported wallet exists
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As pointed out in #1587, when importing a wallet that already exists, in Android and Node.js environments AFJ is overwriting it, while in iOS is throwing an error.
-
-In this PR we make the behaviour consistent across platforms and always throw a `WalletImportPathExistsError`.
-
-Here we also handle the case that helped to discover this error: when a wrong key was entered for an import, further attempts would fail because the wallet DB file has been already copied. So in case of any import error (other than path already existent), we now delete it to return file system to previous state.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 16:26:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1592" class=".btn">#1592</a>
-            </td>
-            <td>
-                <b>
-                    fix: implicit invitation to specific service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It seems that  our implicit invitation implementation for DID Exchange does not conform exactly with what's written in [RFC 0023](https://github.com/hyperledger/aries-rfcs/blob/main/features/0023-did-exchange/README.md):
-
->An invitation is presented in one of two forms:
-
-> An explicit [out-of-band invitation](https://github.com/hyperledger/aries-rfcs/blob/main/features/0434-outofband/README.md#messages) with its own @id.
-> An implicit invitation contained in a DID document's [service](https://w3c-ccg.github.io/did-spec/#service-endpoints) attribute that conforms to the [DIDComm conventions](https://github.com/hyperledger/aries-rfcs/blob/main/features/0067-didcomm-diddoc-conventions/README.md#service-conventions).
-> When a request responds to an explicit invitation, its ~thread.pthid MUST be equal to the @id property of the invitation [as described in the out-of-band RFC](https://github.com/hyperledger/aries-rfcs/blob/main/features/0434-outofband/README.md#correlating-responses-to-out-of-band-messages).
-> 
-> When a request responds to an implicit invitation, its ~thread.pthid MUST contain a [DID URL](https://w3c-ccg.github.io/did-spec/#dfn-did-url) that resolves to the specific service on a DID document that contains the invitation.
-
-So it assumes that the implicit invitation should go to a specific service that contains a suitable DIDComm communication endpoint (e.g. `did:method:example#invitation`). However, in our implementation we are simply using the did and just selecting the highest priority DIDComm service.
-
-Whilst I don't think it is bad for implicit invitations to work the way we are using it, here I'm adding the possibility of directing them to a specific service, so it will use it instead of resolving all DIDComm services the DID Document may have.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 12:40:27 +0000 UTC
     </div>
 </div>
 

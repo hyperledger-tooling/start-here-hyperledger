@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-cli/pull/51" class=".btn">#51</a>
+            </td>
+            <td>
+                <b>
+                    Update MAINTAINERS.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix Markdown
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 14:36:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-cli/pull/49" class=".btn">#49</a>
             </td>
             <td>

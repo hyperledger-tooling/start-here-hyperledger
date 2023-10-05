@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2749" class=".btn">#2749</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-plugin-persistence-ethereum): use openapi ethereum connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                 - Refactor persistence ethereum plugin to use openapi ethereum connector
+    instead of ethereum-socketio.
+- Upgrade web3js to 4.X in both persistence plugin and its tests.
+- Update persistence plugin dependency list.
+- Recompile base token contracts in persistence plugin to match format
+    required by ethereum connector (full compilation output, not just ABI)
+- Minor fix in ethereum connector to return empty transactions
+    array instead of undefined.
+- Fix minor runtime issues in geth-test-ledger
+
+Depends on #2631
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 15:02:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2748" class=".btn">#2748</a>
+            </td>
+            <td>
+                <b>
+                    Satp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Pull Request Requirements**
+[ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+[ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+[ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information.
+
+**Character Limit**
+[ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+[ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 13:49:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2740" class=".btn">#2740</a>
             </td>
             <td>
@@ -664,93 +738,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2023-10-01 15:56:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2724" class=".btn">#2724</a>
-            </td>
-            <td>
-                <b>
-                    feat(cactus-core-api): add ISendRequestResultV1<T> for Fujitsu verifier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                An interface representing the response object of the send sync and send async
-request methods on the connection-chain verifier API.
-
-Also great when trying to help bridge the gap between the API returning
-results as `unknown` and the tests needing auto-completion for the properties
-to assert for type of data at runtime.
-
-@see {ISocketApiClient<BlockType>}
-@see {Verifier<LedgerApiType extends ISocketApiClient<unknown>>}
-@see {IVerifier}
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-refactor(core-api,verifier-client): use unknown instead of any type
-
-1. Changes the ISocketApiClient and the Verifier type definitions so that
-instead of `any` they are heavily relying on `unknown` which helps spotting
-bugs in the code where type checks should be done at runtime but currently
-aren't.
-2. It also helps with spotting breaking changes in the future because if
-the test cases stop compiling it means you've done a breaking API change,
-but they'll always compile if the parameters and the return values are
-using `any` for their own types.
-
-3. I've updated a big chunk of the test cases to have explicit type casts
-onto the shapes that are needed for them to compile (without changing
-any of the runtime behavior).
-4. Also made it so that the json2str function of the DriverCommon
-code file now accepts unknown instead of object type which makes one of
-the linter warnings go away as well.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 18:01:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2723" class=".btn">#2723</a>
-            </td>
-            <td>
-                <b>
-                    feat(cactus-example-discounted-asset-trade): use openapi ethereum connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Refactor discounted asset trade sample to use openapi ethereum connector instead
-    of ethereum-socketio.
-- Sample still uses offline signing from cmd-socketio-server
-
-Depends on: https://github.com/hyperledger/cacti/pull/2645
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 16:39:42 +0000 UTC
     </div>
 </div>
 
