@@ -146,7 +146,13 @@ Fixes https://github.com/hyperledger/solang/issues/1444
                 
             </td>
             <td>
-                <nil>
+                The PR does 2 things:
+
+Accessing storage struct members is always a storage read; `Expression::StorageLoad` now sets the mutability state accordingly and keeps on recursing.
+
+Also, diagnostics of mutability errors are kept in a HashMap instead. This way, we can recurse down and only the innermost error will be considered.
+
+The regression in the EVM test is fine; it's caused by a [problem in solc](https://github.com/ethereum/solidity/issues/11573)
             </td>
         </tr>
     </table>

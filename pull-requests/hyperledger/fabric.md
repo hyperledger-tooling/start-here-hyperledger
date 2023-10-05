@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4467" class=".btn">#4467</a>
+            </td>
+            <td>
+                <b>
+                    Remove usage of fmt.Errorf
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The patchset uses the errors pkg to follow the guideline at
+
+https://hyperledger-fabric.readthedocs.io/en/latest/error-handling.html
+
+Change-Id: I36eaac1b429c69195e4af1bb5bb25fc1a2578168
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove the usage of fmt.Errorf. Follow the official guideline to change
+to the errors package.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-04 21:23:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4466" class=".btn">#4466</a>
             </td>
             <td>
