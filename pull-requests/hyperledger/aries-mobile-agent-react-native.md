@@ -29,8 +29,8 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-- remove packages/core in favour of packages/legacy/core
-- publish `@hyperledger/aries-bifold-core`
+- remove `packages/core` in favour of `packages/legacy/core`
+- publish `packages/legacy/core` as `@hyperledger/aries-bifold-core`
 
 # Related Issues
 
