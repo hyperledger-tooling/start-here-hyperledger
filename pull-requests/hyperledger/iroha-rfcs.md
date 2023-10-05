@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/8" class=".btn">#8</a>
+            </td>
+            <td>
+                <b>
+                    Add-on to Configuration Overhaul RFC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 02:45:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-rfcs/pull/7" class=".btn">#7</a>
             </td>
             <td>
