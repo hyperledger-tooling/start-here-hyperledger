@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    minor cleanup of unnecessary refs
+                    Ensure revocation index is in range
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
+                For the issuer, this ensures that `rev_idx` is in range, to avoid issuing invalid credentials. Previously this could issue an invalid credential with the index `0`, or panic due to an overflow for values greater than `max_cred_num`.
 
+For the prover, this checks that the revocation index is not zero when processing a credential (`max_cred_num` is not available here without changing the API).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-09 09:43:28 +0000 UTC
+        Created At 2023-10-05 22:31:28 +0000 UTC
     </div>
 </div>
 

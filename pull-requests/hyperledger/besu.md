@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5993" class=".btn">#5993</a>
+            </td>
+            <td>
+                <b>
+                    hive tests explicitly attempt zero
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                more hive tests for engine api
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 21:06:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5991" class=".btn">#5991</a>
             </td>
             <td>
@@ -254,6 +280,45 @@ Remove all the overloaded `Transaction`' constructors, and only allow to create 
     </table>
     <div class="right-align">
         Created At 2023-10-03 11:28:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5976" class=".btn">#5976</a>
+            </td>
+            <td>
+                <b>
+                    Retry on busy and locktimeout failures for rocksdb transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Simple default retry policy for rocksdb busy and locktimeout exceptions.
+
+**This may or may not remedy the busy exceptions encountered in the listed issues, but it will at a minimum provide better signal regarding whether these are transient issues due to compaction, or more systemic issues
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to #5911 
+related to #5549 
+related to #5807
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-02 19:35:24 +0000 UTC
     </div>
 </div>
 

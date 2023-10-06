@@ -14,34 +14,6 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/226" class=".btn">#226</a>
-            </td>
-            <td>
-                <b>
-                    Update zmq and time dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I believe `time` was only locked in the past to maintain a lower minimum Rust version.
-
-Fixes #225 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 18:18:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/224" class=".btn">#224</a>
             </td>
             <td>
