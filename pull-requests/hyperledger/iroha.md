@@ -332,7 +332,7 @@ Less complexity, no more threading multiple port numbers to configuration
 
 ### Checklist
 
-- [ ] check that the endpoints actually work (I don't think they are covered by any tests?)
+- [x] check that the endpoints actually work (I don't think they are covered by any tests?)
 - [x] make ci pass
             </td>
         </tr>

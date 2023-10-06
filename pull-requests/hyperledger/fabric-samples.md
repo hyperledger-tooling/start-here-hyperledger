@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1092" class=".btn">#1092</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1094" class=".btn">#1094</a>
             </td>
             <td>
                 <b>
-                    Update AssetTransfer.java
+                    add token sdk sample application
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                added missing quotation mark (") in href of AssetTransfer.java
+                This is a service with a REST API that wraps the [Token SDK](https://github.com/hyperledger-labs/fabric-token-sdk) to issue, transfer and redeem tokens backed by a Hyperledger Fabric network for validation and settlement.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-29 09:41:59 +0000 UTC
+        Created At 2023-10-06 09:25:34 +0000 UTC
     </div>
 </div>
 

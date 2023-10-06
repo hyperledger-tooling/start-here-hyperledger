@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1013" class=".btn">#1013</a>
+            </td>
+            <td>
+                <b>
+                    Purge vdrtools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Attempts to remove all unnecessary code from `libvdrtools`, keeping only the wallet and the anoncreds data structures definitions (for the `wallet_migrator` crate to use).
+Additionally removed lint exemption and fixed lints in the crate while also removing the `migration` and `vdrtools/vdrtools_anoncreds` feature flags from `aries_vcx` and `aries_vcx_core`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 09:06:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1011" class=".btn">#1011</a>
             </td>
             <td>
