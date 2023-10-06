@@ -27,7 +27,17 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                This PR adds a JSONRPC WebSocket client. It is fairly basic in its features, but gives the ability to create subscriptions and listen for blocks.
+                This PR adds a JSONRPC WebSocket client.
+
+- Provides sync `CallRPC` functionality over an async WebSocket transport
+    - Manages JSON/RPC request IDs for you
+    - Provides automatic reconnect, and all the other quality of life benefits of the `firefly-common` WebSocket impl
+- Supports `eth_subscribe`/`eth_unsubscribe` with a higher level `Subscription` semantic
+    - Automatically resubscribes if your WebSocket reconnects
+    - Has a client-side ID to track your subscription, as well as the server-side ID (which changes on reconnect)
+    - At-most-once delivery semantics is all you get with raw Ethereum WebSockets (it's all the `eth_` protocol supports) - you miss it, you lose it
+        - If you need more than that, use the full [FireFly core](https://github.com/kaleido-io/firefly) which provides reliable check-pointed subscriptions with a higher level blockchain connector
+
             </td>
         </tr>
     </table>

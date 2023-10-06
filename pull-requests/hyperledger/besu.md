@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5995" class=".btn">#5995</a>
+            </td>
+            <td>
+                <b>
+                    [Plugin API] - Revert plugin interface to return object instead of list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">plugins</span>
+            </td>
+            <td>
+                ## PR description
+Revert plugin interface to return an object instead of a list
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 06:11:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5994" class=".btn">#5994</a>
+            </td>
+            <td>
+                <b>
+                    [skip ci] Add trace functionality for transaction selection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This change in the API allows the plugin to provide a tracer that will be used while executing transaction that could be selected for the block
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 05:38:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5993" class=".btn">#5993</a>
             </td>
             <td>

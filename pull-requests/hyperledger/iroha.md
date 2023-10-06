@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3965" class=".btn">#3965</a>
+            </td>
+            <td>
+                <b>
+                     [fix] #3516: make FindTrigger queries return original WASM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Retain original WASM blobs in `TriggerSet`
+Substitute internal representation for original when querying for Triggers
+Remove internal representation from data_model
+
+### Linked issue
+
+Closes https://github.com/hyperledger/iroha/issues/3516
+
+### Benefits
+
+No more leaking internal representation
+FindTrigger queries return actually useful WASM
+
+### Checklist
+
+- [ x] I've read `CONTRIBUTING.md`
+- [ x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 01:04:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3963" class=".btn">#3963</a>
             </td>
             <td>

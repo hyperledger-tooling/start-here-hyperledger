@@ -92,29 +92,3 @@ I need this + your work on memo to have work on ibc hooks eth version
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/210" class=".btn">#210</a>
-            </td>
-            <td>
-                <b>
-                    04-channel: fix timeout validation in `sendPacket`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-29 03:50:25 +0000 UTC
-    </div>
-</div>
-
