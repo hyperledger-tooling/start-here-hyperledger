@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/641" class=".btn">#641</a>
+            </td>
+            <td>
+                <b>
+                    Remove support for Go 1.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since the release of Go 1.21 in August 2023, Go 1.19 has not been a supported Go version.
+
+Closes #615
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 23:03:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/640" class=".btn">#640</a>
             </td>
             <td>

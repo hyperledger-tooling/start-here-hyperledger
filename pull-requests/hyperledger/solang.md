@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1559" class=".btn">#1559</a>
+            </td>
+            <td>
+                <b>
+                    Fix clippy 1.73 warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-05 22:01:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1557" class=".btn">#1557</a>
             </td>
             <td>
@@ -98,34 +124,6 @@ See https://github.blog/2023-10-02-introducing-the-new-apple-silicon-powered-m1-
     </table>
     <div class="right-align">
         Created At 2023-10-01 09:42:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1554" class=".btn">#1554</a>
-            </td>
-            <td>
-                <b>
-                    vscode: Use same solang for language server as for compilation on command line
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We've had complaints that the extension gives different errors and warnings than solang on the command line. Use solang from the path and only download solang if it can not be found.
-
-Fixes https://github.com/hyperledger/solang/issues/1444
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-28 18:48:46 +0000 UTC
     </div>
 </div>
 
