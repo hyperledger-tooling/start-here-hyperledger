@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    [Plugin API] - Revert plugin interface to return object instead of list
+                    [Plugin API] - Simplify plugin transaction selector interface to return object instead of list
                 </b>
             </td>
         </tr>

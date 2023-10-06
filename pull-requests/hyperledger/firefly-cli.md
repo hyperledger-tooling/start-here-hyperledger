@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/272" class=".btn">#272</a>
+            </td>
+            <td>
+                <b>
+                    Resloves #271
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #271  info command now output information about the stack not container.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 06:28:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/270" class=".btn">#270</a>
             </td>
             <td>

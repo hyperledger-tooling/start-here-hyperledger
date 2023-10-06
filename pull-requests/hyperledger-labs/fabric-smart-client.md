@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/500" class=".btn">#500</a>
+            </td>
+            <td>
+                <b>
+                    minor refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 09:55:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/499" class=".btn">#499</a>
+            </td>
+            <td>
+                <b>
+                    Temporarily reverted update of github.com/consensys/gnark-crypto from…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … 0.9.1 to 0.12.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 09:40:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/498" class=".btn">#498</a>
+            </td>
+            <td>
+                <b>
+                    Identity Provider fetches identity by Alias too
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">enhancement</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 06:43:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/497" class=".btn">#497</a>
             </td>
             <td>

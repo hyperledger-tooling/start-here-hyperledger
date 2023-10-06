@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/503" class=".btn">#503</a>
+            </td>
+            <td>
+                <b>
+                    Temporarily reverted update of github.com/consensys/gnark-crypto from…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … 0.9.1 to 0.12.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 09:47:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/502" class=".btn">#502</a>
             </td>
             <td>

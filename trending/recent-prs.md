@@ -1,13 +1,13 @@
 
-[5995](https://github.com/hyperledger/besu/pull/5995) [Plugin API] - Revert plugin interface to return object instead of list
+[2750](https://github.com/hyperledger/cacti/pull/2750) feat(cactus-plugin-ledger-connector-ethereum): add signing utils
 
-[5994](https://github.com/hyperledger/besu/pull/5994) [skip ci] Add trace functionality for transaction selection
+[726](https://github.com/hyperledger/fabric-private-chaincode/pull/726) Bump github.com/consensys/gnark-crypto from 0.9.1 to 0.12.0 in /integration/go_chaincode
 
-[3965](https://github.com/hyperledger/iroha/pull/3965)  [fix] #3516: make FindTrigger queries return original WASM
+[725](https://github.com/hyperledger/fabric-private-chaincode/pull/725) Bump github.com/consensys/gnark-crypto from 0.6.0 to 0.12.0
 
-[990](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/990) fix: deeplink issue where no params are set
+[724](https://github.com/hyperledger/fabric-private-chaincode/pull/724) Bump github.com/consensys/gnark-crypto from 0.9.1 to 0.12.0 in /samples/deployment/fabric-smart-client/the-simple-testing-network
 
-[641](https://github.com/hyperledger/fabric-gateway/pull/641) Remove support for Go 1.19
+[723](https://github.com/hyperledger/fabric-private-chaincode/pull/723) Upgrade to Fabric 2.5.4 and Fabric-ca 1.5.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

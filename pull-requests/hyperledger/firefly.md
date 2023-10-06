@@ -84,29 +84,3 @@ ok  	github.com/hyperledger/firefly/test/e2e/runners	137.028s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1412" class=".btn">#1412</a>
-            </td>
-            <td>
-                <b>
-                    Documentation for working with the Tezos Blockchain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-29 10:50:28 +0000 UTC
-    </div>
-</div>
-
