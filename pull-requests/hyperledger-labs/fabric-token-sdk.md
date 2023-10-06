@@ -40,32 +40,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/502" class=".btn">#502</a>
-            </td>
-            <td>
-                <b>
-                    Fremote w 3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 16:33:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/501" class=".btn">#501</a>
             </td>
             <td>

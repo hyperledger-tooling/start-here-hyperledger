@@ -342,29 +342,3 @@ And because we don't track the index and current revocation id externally, we ca
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2522" class=".btn">#2522</a>
-            </td>
-            <td>
-                <b>
-                    0.10.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-29 13:59:01 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3967" class=".btn">#3967</a>
+            </td>
+            <td>
+                <b>
+                    [fix] proper rustc in devShell
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Small tweak to fix `rustc` in `devShell` not finding sysroot.
+
+### Linked issue
+
+None
+
+### Benefits
+
+Usable `rustc` in `devShell`
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 17:10:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3965" class=".btn">#3965</a>
             </td>
             <td>

@@ -28,7 +28,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 Attempts to remove all unnecessary code from `libvdrtools`, keeping only the wallet and the anoncreds data structures definitions (for the `wallet_migrator` crate to use).
-Additionally removed lint exemption and fixed lints in the crate while also removing the `migration` and `vdrtools/vdrtools_anoncreds` feature flags from `aries_vcx` and `aries_vcx_core`.
+
+Additionally, removed lint exemption and fixed lints in the crate while also removing the `migration` and `vdrtools/vdrtools_anoncreds` feature flags from `aries_vcx` and `aries_vcx_core`.
+
+Lastly, dependencies have been updated and tweaked. Of particular notice is `sqlx` which was bumped to the latest version (`0.7.1`).
+
             </td>
         </tr>
     </table>
