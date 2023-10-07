@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    Fix edit button spacing
+                    fix: edit button spacing
                 </b>
             </td>
         </tr>
