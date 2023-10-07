@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/201" class=".btn">#201</a>
+            </td>
+            <td>
+                <b>
+                    Fix for scenario @T011.2-Proof "Holder of a dismissed revoked notification reviews …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Scenario : Holder of a dismissed revoked notification reviews revocation status again
+Tag: @T011.2-Proof
+
+Added specific locators for both android and iOS
+Added scroll to bottom before checking Revoked Date
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 20:16:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/200" class=".btn">#200</a>
             </td>
             <td>

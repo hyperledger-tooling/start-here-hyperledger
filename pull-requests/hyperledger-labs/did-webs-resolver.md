@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Transform to/from did:web document
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With this change, the DID document on the server is transformed to a did:web DID document (to be compatible with the did:web method), and when resolving it, it is transformed back to a did:webs DID document.
+
+See corresponding spec change: https://github.com/trustoverip/tswg-did-method-webs-specification/pull/40
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 22:31:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/18" class=".btn">#18</a>
             </td>
             <td>
