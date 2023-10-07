@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2751" class=".btn">#2751</a>
+            </td>
+            <td>
+                <b>
+                    style(cmd-api-server): fix any linter in getOrCreateWebServices()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description:
+This pull request addresses issue #2676  by fixing an Unexpected any linter warning in the getOrCreateWebServices() method of the ApiServer class. The warning occurred due to a typecast using (app as any). 
+
+### Changes:
+Replaced (app as any) with (app as express.Express)[httpVerbPrometheus as keyof express.Express](httpPathPrometheus, prometheusExporterHandler);
+
+### Importance of keyof:
+The use of keyof here is crucial because it ensures that httpVerbPrometheus and httpVerb are treated as the valid key of the express.Express type. This is necessary because HTTP verbs, like GET, POST, PUT etc... should be treated as keys within the express.Express type. By casting httpVerbPrometheus as keyof express.Express, we enforce type safety and prevent potential runtime errors that could occur if an invalid HTTP verb is used. In essence, it ensures that only valid HTTP verbs are accepted, improving the robustness of the code. 
+
+### Benefits:
+This change enhances code readability and maintainability using appropriate types and expressions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-06 19:26:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2750" class=".btn">#2750</a>
             </td>
             <td>
