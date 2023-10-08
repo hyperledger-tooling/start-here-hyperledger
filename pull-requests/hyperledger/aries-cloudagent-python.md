@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2535" class=".btn">#2535</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2537" class=".btn">#2537</a>
             </td>
             <td>
                 <b>
-                    Fixed:Routing behind a mediator
+                    fix (backport): routing behind mediator 
                 </b>
             </td>
         </tr>
@@ -27,17 +27,38 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                With this fix, now routing works for agents behind a mediator:
-https://github.com/hyperledger/aries-cloudagent-python/issues/2531
-
-Basically, since pydid expects routingKeys to be refs, this causes issues.
-
-To fix this, the routingKeys are converted to refs if they aren't already.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-07 17:11:59 +0000 UTC
+        Created At 2023-10-08 00:07:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2536" class=".btn">#2536</a>
+            </td>
+            <td>
+                <b>
+                    fix: routing behind mediator 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a reopen of PR #2535 (after I botched my git command...). Thanks again @codespree for the fix.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-07 19:56:36 +0000 UTC
     </div>
 </div>
 
