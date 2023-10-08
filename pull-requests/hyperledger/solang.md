@@ -127,29 +127,3 @@ See https://github.blog/2023-10-02-introducing-the-new-apple-silicon-powered-m1-
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1555" class=".btn">#1555</a>
-            </td>
-            <td>
-                <b>
-                    update rust version to 1.72.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger/solang/pull/1541 uses crate forge-fmt which depends on rust 1.72
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-01 09:42:55 +0000 UTC
-    </div>
-</div>
-
