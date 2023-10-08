@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly-cli
             </td>
             <td>
                 <b>
-                    Resloves #271
+                    Resloves #271 info command gives more information on stack
                 </b>
             </td>
         </tr>

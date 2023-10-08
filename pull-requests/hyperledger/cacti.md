@@ -783,38 +783,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2726" class=".btn">#2726</a>
-            </td>
-            <td>
-                <b>
-                    docs(all): integrated documentation using canonical MkDocs template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Moved old `docs` folder containing source files for legacy Cactus documentation to `docs-cactus`.
-- Created new `docs ` folder using the MkDocs template specified in https://github.com/tkuhrt/documentation-template as the base.
-  * Created overview files with useful links, diagrams, and references, for new and existing users
-  * Migrated older Cactus and Weaver documentation for getting hands-on with code and samples to the new website, available through separate tabs
-  * Fixed formatting, image references and other URLs, and organization
-  * Created several stub files with temporary links, to be filled and expanded upon in due course, drawing on content already present in the above legacy documents
-- Added a GitHub action to automatically push the documentation build (generated using `mkdocs`) to the `gh-pages` branch, and then publish those the `hyperledger` organization's GitHub page for Cacti.
-  * To get an idea of how this looks and feels, see https://vramakrishna.github.io/cacti/, where these docs are currently being served from.
-- Updated Discord handles for maintainers in the `MAINTAINERS.md` file.
-- Fixed formatting typos in old doc files.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-01 15:56:40 +0000 UTC
-    </div>
-</div>
-
