@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/171" class=".btn">#171</a>
+            </td>
+            <td>
+                <b>
+                    Added requested proof models
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These includes self-attested attributes, unrevealed attributes and predicates.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-08 05:24:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/170" class=".btn">#170</a>
             </td>
             <td>
