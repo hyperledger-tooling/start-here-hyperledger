@@ -287,6 +287,7 @@ _PR template adapted from the Python attrs project._
 
 - remove `packages/core` in favour of `packages/legacy/core`
 - publish `packages/legacy/core` as `@hyperledger/aries-bifold-core`
+- move verifier code to its own package: `@hyperledger/aries-bifold-verifier`
 
 # Related Issues
 
