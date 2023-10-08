@@ -200,29 +200,3 @@ The problems were arising in the `libvcx_core` tests and the node JS wrapper tes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1004" class=".btn">#1004</a>
-            </td>
-            <td>
-                <b>
-                    Add logs to credx wallet migration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add logs to credx migration
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-01 17:56:02 +0000 UTC
-    </div>
-</div>
-
