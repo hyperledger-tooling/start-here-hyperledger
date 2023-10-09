@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2755" class=".btn">#2755</a>
+            </td>
+            <td>
+                <b>
+                    fix(cmd-api-server): add runtime type validation to HTTP verbs pulled from OAS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                This addresses the shortcomings of the linter fix provided in #2751, which
+uses unchecked casts to the linter warnings go away.
+With the fix of #2751, at runtime, the possibility of a crash is still there
+exactly as before, but it has silenced the linter about calling that
+possibility out.
+
+We now use a type guard to check the type of the object before casting it
+and therefore ensure that at runtime the cast will not produce a crash.
+
+[skip ci]
+
+Depends on #2751
+Depends on #2754
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+[x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+[x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+[x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information.
+
+**Character Limit**
+[x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+[x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 17:59:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2754" class=".btn">#2754</a>
+            </td>
+            <td>
+                <b>
+                    feat(common): add express http verb method name string literal type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Also ships with a user-defined typescript type-guard so that we can
+ensure at runtime that the string literal value is indeed one of the
+valid ExpressJS HTTP verb method names.
+2. The primary use-case for this is checking at runtime the HTTP verb
+name of OpenAPI specifications that are being loaded into the API.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+[x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+[x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+[x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information.
+
+**Character Limit**
+[x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+[x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 17:28:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2753" class=".btn">#2753</a>
             </td>
             <td>
@@ -787,39 +883,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-10-02 21:42:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2729" class=".btn">#2729</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): forgot to run codegen before v2.0.0-alpha.2 publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Ran the `yarn codegen` command so that all the generated docs/code comments/etc
-get updated with the correct version (which changed from alpha.1 to alpha.2)
-
-[skip ci]
-
-Fixes #2728
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 17:55:16 +0000 UTC
     </div>
 </div>
 

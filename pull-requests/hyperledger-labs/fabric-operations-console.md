@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/536" class=".btn">#536</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/537" class=".btn">#537</a>
             </td>
             <td>
                 <b>
-                    Cypress UI automated test cases
+                    Cypress UI automated test cases of console
                 </b>
             </td>
         </tr>
@@ -28,16 +28,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
             </td>
             <td>
                 #### Type of change
-- Test update
+Cypress UI automated test cases of console
 
 #### Description
-Cypress UI automated test cases
+Cypress UI automated test cases of console and readme file to start
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-09 12:25:24 +0000 UTC
+        Created At 2023-10-09 13:25:47 +0000 UTC
     </div>
 </div>
 
@@ -73,38 +73,6 @@ Adds a new banner about deleting the service instance on SaaS consoles. (only ap
     </table>
     <div class="right-align">
         Created At 2023-10-03 16:44:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/534" class=".btn">#534</a>
-            </td>
-            <td>
-                <b>
-                    Updating ginkgo to version v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-Upgrading ginkgo framework to V2 version
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 18:10:06 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    Add golangci-lint-action and fix issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Official GitHub action for [golangci-lint](https://github.com/golangci/golangci-lint) https://github.com/golangci/golangci-lint-action
+List of initial issues https://github.com/alex-semenyuk/firefly-tezosconnect/actions/runs/6441899838/job/17492165689
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 12:38:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/12" class=".btn">#12</a>
             </td>
             <td>
@@ -33,58 +60,6 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     </table>
     <div class="right-align">
         Created At 2023-10-06 14:13:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/11" class=".btn">#11</a>
-            </td>
-            <td>
-                <b>
-                    Add build badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 12:35:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    DA-505 Increase unit test coverage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 12:30:11 +0000 UTC
     </div>
 </div>
 

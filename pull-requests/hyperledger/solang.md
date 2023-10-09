@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 The try catch blocks had an additional new_scope() which is incorrect. I think the extra scope is harmless but let's clean it up.
+
+Rename `new_scope()` to `enter_scope()` as this matches `leave_scope()` better.
             </td>
         </tr>
     </table>
