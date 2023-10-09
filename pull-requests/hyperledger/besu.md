@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6002" class=".btn">#6002</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.10.0-RC2 burn in
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 09:54:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6000" class=".btn">#6000</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Trie log pruning 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 07:33:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5998" class=".btn">#5998</a>
             </td>
             <td>
@@ -67,9 +119,7 @@ Change array copying by re-using arrays when safe.
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+Since we have a native `Bytes48` datatype in Tuweni, we can use it for `KZGCommitment` and `KZGProof` to also have better checks and sematic
             </td>
         </tr>
     </table>

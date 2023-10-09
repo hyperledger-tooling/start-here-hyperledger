@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/109" class=".btn">#109</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/110" class=".btn">#110</a>
             </td>
             <td>
                 <b>
-                    Fix to do not generate a proof in the finality check
+                    ICS-20: Remove bech32 check for `dstAddr`
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                Proof generation is not required for querying states in the finality check. This also reduces composability when proxied by other verifier such as lcp.
+                This allows us to specify arbitrary string format including ethereum "0x" prefixed address as `dstAddr`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-02 04:05:40 +0000 UTC
+        Created At 2023-10-09 11:21:48 +0000 UTC
     </div>
 </div>
 

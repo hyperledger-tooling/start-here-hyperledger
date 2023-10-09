@@ -203,29 +203,3 @@ See: https://besu-docs-60seh79zu-hyperledger.vercel.app/development/public-netwo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1411" class=".btn">#1411</a>
-            </td>
-            <td>
-                <b>
-                    Engine API is enabled by default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Engine API is enabled by default (without needing the flag `--engine-rpc-enabled`). This PR removes the line that states it is disabled by default and some that are not required.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 10:05:03 +0000 UTC
-    </div>
-</div>
-

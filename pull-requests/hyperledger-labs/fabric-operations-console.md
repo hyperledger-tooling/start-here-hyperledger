@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/536" class=".btn">#536</a>
+            </td>
+            <td>
+                <b>
+                    Cypress UI automated test cases
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+Cypress UI automated test cases
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 12:25:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/535" class=".btn">#535</a>
             </td>
             <td>

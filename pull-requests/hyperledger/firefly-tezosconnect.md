@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    DA-516 Remove an excess tx receipt record
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 10:38:03 +0000 UTC
-    </div>
-</div>
-
