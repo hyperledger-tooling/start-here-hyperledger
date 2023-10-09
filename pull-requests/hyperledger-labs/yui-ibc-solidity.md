@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 <b>
-                    feat: ics30 initial interface
+                    feat: ics30 interfaces
                 </b>
             </td>
         </tr>
@@ -28,8 +28,6 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 for https://github.com/hyperledger-labs/yui-ibc-solidity/issues/184
-
-@bluele is is correct approach we can align in main?
 
 I need this + your work on memo to have work on ibc hooks eth version 
             </td>
