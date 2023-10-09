@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3969" class=".btn">#3969</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #3889: prune docker-compose files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Currently each branch (`iroha2-<lts|stable|dev>`) has set of docker-compose files not only for itself, but for other branches too. It leads to confusion and goes against how versioning works. Moreover, since `2.0` release will be relatively soon and we are going to get rid of channels at all, there is no sense to keep them in the dev branch.
+
+This PR removes docker-compose files related to other branches/channels, and removes `.dev` suffix from the configurations related to `dev` branch.
+
+### Linked issue
+
+Closes #3889 (will be completely closed after merging into `iroha2-stable`)
+
+### Benefits
+
+Less confusion, natural branch-based versioning and CI checks
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 02:58:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3968" class=".btn">#3968</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: Remove `api_spec.md`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+The PR with API Reference in the documentation is merged:
+
+- https://github.com/hyperledger/iroha-2-docs/pull/417
+
+This PR removes the original, obsolete `api_spec.md` and sanitizes all references into it.
+
+I also made some tech writing chores.
+
+### Linked issue
+
+_None_
+
+### Checklist
+
+- [ ] DevOps check
+- [ ] Tech writers check of phrasing I used
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 02:20:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3967" class=".btn">#3967</a>
             </td>
             <td>
@@ -588,38 +674,6 @@ Closes #3640
     </table>
     <div class="right-align">
         Created At 2023-10-02 06:44:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3938" class=".btn">#3938</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3939: Fix the usage of `Span::join`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Actually, `Span::join` doesn't work on stable at all (and returns `None`), so care should be taken to have a fallback
-
-This means that on stable we will have error spans that are slightly incorrect
-
-Closes #3939
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 06:01:53 +0000 UTC
     </div>
 </div>
 
