@@ -1,13 +1,13 @@
 
-[536](https://github.com/hyperledger-labs/fabric-operations-console/pull/536) Cypress UI automated test cases
+[2755](https://github.com/hyperledger/cacti/pull/2755) fix(cmd-api-server): add runtime type validation to HTTP verbs pulled from OAS
 
-[2753](https://github.com/hyperledger/cacti/pull/2753) feat(cactus-plugin-ledger-connector-ethereum): add json-rpc proxy
+[32](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/32) Console template fix
 
-[750](https://github.com/hyperledger-labs/open-enterprise-agent/pull/750) fix:  all performance tests run succesfully, add group thresholds
+[2754](https://github.com/hyperledger/cacti/pull/2754) feat(common): add express http verb method name string literal type
 
-[1562](https://github.com/hyperledger/solang/pull/1562) Each call to new_scope() should be matched with leave_scope()
+[3977](https://github.com/hyperledger/iroha/pull/3977) Repairing MacOs build on develop
 
-[110](https://github.com/hyperledger-labs/yui-relayer/pull/110) ICS-20: Remove bech32 check for `dstAddr`
+[245](https://github.com/hyperledger/aries-framework-dotnet/pull/245) Set repo to read-only
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

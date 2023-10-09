@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/501" class=".btn">#501</a>
+            </td>
+            <td>
+                <b>
+                    load params from configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR has the scope to remove the magic constants and load them from the configuration
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 13:17:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/500" class=".btn">#500</a>
             </td>
             <td>

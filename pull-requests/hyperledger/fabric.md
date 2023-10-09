@@ -601,39 +601,3 @@ issue #4401
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4455" class=".btn">#4455</a>
-            </td>
-            <td>
-                <b>
-                    BFT: orderer deliver headers on cache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Bug fix
-- New feature
-
-#### Description
-
-The orderer delivers blocks with  block.Data=nil when asked for SeekInfo_HEADER_WITH_SIG. However, one needs to avoid mutating the block received from the block iterator, as those are from a cache.
-
-#### Related issues
-
-#4456
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 14:42:20 +0000 UTC
-    </div>
-</div>
-
