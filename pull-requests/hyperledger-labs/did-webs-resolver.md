@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Feat/regex port and tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Will move from draft once Markus' changes have been merged.
+updated regex to have optional port and path. also added some regex unit tests.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 01:18:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/20" class=".btn">#20</a>
             </td>
             <td>

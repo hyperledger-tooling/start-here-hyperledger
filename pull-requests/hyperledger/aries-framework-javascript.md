@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1603" class=".btn">#1603</a>
+            </td>
+            <td>
+                <b>
+                    fix: save AnonCredsCredentialRecord createdAt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For some unfortunate reason, we are not saving `createdAt` at AnonCredsCredentialRecord creation. This is useful to do things like sorting credentials by their issuance date (something available with W3C Credential Reacords)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-09 02:02:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1601" class=".btn">#1601</a>
             </td>
             <td>
