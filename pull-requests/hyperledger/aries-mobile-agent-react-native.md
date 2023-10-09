@@ -288,6 +288,8 @@ _PR template adapted from the Python attrs project._
 - remove `packages/core` in favour of `packages/legacy/core`
 - publish `packages/legacy/core` as `@hyperledger/aries-bifold-core`
 - move verifier code to its own package: `@hyperledger/aries-bifold-verifier`
+- standardize building/compiling process around [react-native-builder-bob](https://github.com/callstack/react-native-builder-bob)
+- standardize/align/share typescript configuration file
 
 # Related Issues
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/291" class=".btn">#291</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/292" class=".btn">#292</a>
             </td>
             <td>
                 <b>
-                    Update version following v2.2.24 release
+                    Update dependencies to address CVE-2023-3635
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                Added explicit dependency on okio-bom to force the transitive okio dependency to a non-vulnerable version. This can be removed once okhttp 4.12 is eventually published and opentelemetry publishes a version that depends on it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-15 09:10:22 +0000 UTC
+        Created At 2023-10-09 00:12:46 +0000 UTC
     </div>
 </div>
 

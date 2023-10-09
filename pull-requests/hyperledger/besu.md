@@ -510,30 +510,3 @@ fixes #5977
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5973" class=".btn">#5973</a>
-            </td>
-            <td>
-                <b>
-                    [4844] EngineNewPayload - Add Blob Count validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">4844</span>
-            </td>
-            <td>
-                ## PR description
-Add Blob Count validation to EngineNewPayload - Fix invalid_blob_count hive tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 00:43:23 +0000 UTC
-    </div>
-</div>
-
