@@ -1,13 +1,13 @@
 
-[4473](https://github.com/hyperledger/fabric/pull/4473) remove an unused parameter
+[538](https://github.com/hyperledger-labs/fabric-operations-console/pull/538) remove a few settings from the settings api
 
-[3979](https://github.com/hyperledger/iroha/pull/3979) [refactor] #3874: Remove `IsAssetDefinitionOwner`
+[6015](https://github.com/hyperledger/besu/pull/6015) Set version to 23.10.0
 
-[220](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/220) [DRAFT] Osmosis IBC hooks
+[2460](https://github.com/hyperledger/sawtooth-core/pull/2460) Fix compiler and clippy errors
 
-[6010](https://github.com/hyperledger/besu/pull/6010) [Plugin API] - TransactionSelector - Send TransactionSelectionResult to the plugin when not transaction is not selected
+[33](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/33) v2.0.4
 
-[6009](https://github.com/hyperledger/besu/pull/6009) Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty)
+[6014](https://github.com/hyperledger/besu/pull/6014) implements tx sizing for blob txs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

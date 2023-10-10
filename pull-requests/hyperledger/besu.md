@@ -14,6 +14,154 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6015" class=".btn">#6015</a>
+            </td>
+            <td>
+                <b>
+                    Set version to 23.10.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 16:48:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6014" class=".btn">#6014</a>
+            </td>
+            <td>
+                <b>
+                    implements tx sizing for blob txs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                sizing was deferring to 1559 sizing for blob transactions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 15:16:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6013" class=".btn">#6013</a>
+            </td>
+            <td>
+                <b>
+                    add method to disable root verification for T8n and not Reference tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+add method to disable root verification for T8n and not Reference tests
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#5979 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 14:00:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6012" class=".btn">#6012</a>
+            </td>
+            <td>
+                <b>
+                    Standardize pubkey and public key naming in deposit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Currently there are various naming for public key (`publicKey`, `pubkey`, `pubKey`) in Deposit/DepositReceipt. This PR is to standardize them to `pubkey` such that they are consistent with the naming convention in [execution-api](https://github.com/ethereum/execution-apis/blob/584905270d8ad665718058060267061ecfd79ca5/src/engine/experimental/eip6110.md?plain=1#L31)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 13:14:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6011" class=".btn">#6011</a>
+            </td>
+            <td>
+                <b>
+                    Optimize Eth_feeHistory RPC method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR enhances the Eth_feeHistory method through the implementation of a new cache for storing computed rewards. 
+Furthermore, it introduces enhancements in the process of calculating rewards.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 12:57:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6010" class=".btn">#6010</a>
             </td>
             <td>

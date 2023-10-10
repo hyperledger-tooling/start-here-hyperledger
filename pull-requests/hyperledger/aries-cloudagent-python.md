@@ -200,31 +200,3 @@ Fixes #2468.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2527" class=".btn">#2527</a>
-            </td>
-            <td>
-                <b>
-                    chore: update pydid
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This update includes changes recently committed to the 0.10.X releases, correcting an issue that prevented mediators from handling `didcomm:transport/queue` as a service endpoint.
-
-A small but notable difference between this and the 0.10.X releases: in changes queued for the "next" release, we added `peerdid`. `peerdid` also depends on pydid. I had to backport fixes to the pydid 0.3.x line to workaround conflicts caused by using 0.4.0 of pydid with peerdid. I'm working with the SICPA team to resolve this. In the meantime, 0.3.9 will work exactly as we need anyways.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 17:42:01 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/221" class=".btn">#221</a>
+            </td>
+            <td>
+                <b>
+                    Introduce Mock app and fix commitment of `nextSequenceRecv`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix #42 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 15:05:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/220" class=".btn">#220</a>
             </td>
             <td>
