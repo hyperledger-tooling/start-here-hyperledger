@@ -90,29 +90,3 @@ I need this + your work on memo to have work on ibc hooks eth version
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/213" class=".btn">#213</a>
-            </td>
-            <td>
-                <b>
-                    ICS-20: Add JSON encoding support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #81 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 05:28:51 +0000 UTC
-    </div>
-</div>
-

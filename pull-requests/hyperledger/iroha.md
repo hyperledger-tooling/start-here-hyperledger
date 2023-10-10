@@ -714,29 +714,3 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3946" class=".btn">#3946</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #3945: Update MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Before merging, please comment on Aleksandr's role, because he's more of an advisor at this point.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 05:06:22 +0000 UTC
-    </div>
-</div>
-
