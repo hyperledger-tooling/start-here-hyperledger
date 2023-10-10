@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3980" class=".btn">#3980</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3971: Consensus bug fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Several bug fixes for sumeragi.
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3971 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 13:23:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3979" class=".btn">#3979</a>
             </td>
             <td>

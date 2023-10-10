@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/728" class=".btn">#728</a>
+            </td>
+            <td>
+                <b>
+                    Feature/secret keeper and skvs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                What this PR does / why we need it:
+Add application SecretKeeper and rollback protection SKVS
+
+Which issue(s) this PR fixes:
+Part of the solution for https://github.com/hyperledger/fabric-private-chaincode/issues/484
+
+Special notes for your reviewer:
+to enable SKVS just need to change your application main.go from fpc.NewPrivateChaincode(xxx) to fpc.NewSkvsChaincode(xx)
+```
+// chaincode := fpc.NewPrivateChaincode(secretChaincode)
+chaincode := fpc.NewSkvsChaincode(secretChaincode)
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 14:12:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/727" class=".btn">#727</a>
             </td>
             <td>
