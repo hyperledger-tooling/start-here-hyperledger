@@ -14,6 +14,140 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6010" class=".btn">#6010</a>
+            </td>
+            <td>
+                <b>
+                    [Plugin API] - TransactionSelector - Send TransactionSelectionResult to the plugin when not transaction is not selected
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Adds the `TransactionSelectionResult` to `TransactionSelector.onTransactionNotSelected` so that plugins have more context.
+
+Addresses the comment in this PR https://github.com/hyperledger/besu/pull/6005#r1351753669
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 10:48:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6009" class=".btn">#6009</a>
+            </td>
+            <td>
+                <b>
+                    Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty).
+The default number of blocks to keep in the cache is 0.
+
+This PR will mainly improve the performances of some RPC calls :
+- Eth_getBlockByNumber
+- Eth_getBlockByHash
+- Eth_feeHistory
+- Eth_getTransactionReceipt
+- ...
+
+The biggest improvement is on Eth_feeHistory.
+
+The new cache in DefaultBlockchain uses **1.35 GiB** on Mainnet **for 2048 last blocks** :
+- Transactions receipts : 676 MiB
+- Blocks' bodies : 555 MiB
+- Blocks' headers : 2 MiB
+- Total difficulty : less than 1 MiB
+ 
+
+![image](https://github.com/hyperledger/besu/assets/5099602/6f8a9b9e-0d73-414b-899c-03351f9db302)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 10:41:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6007" class=".btn">#6007</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 09:30:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6006" class=".btn">#6006</a>
+            </td>
+            <td>
+                <b>
+                    Describe the migration to and how to configure the layered txpool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Read the rendered version [here](https://github.com/fab-10/besu/blob/release-23.10.x/CHANGELOG.md#layered-transaction-pool-the-new-default-transaction-pool-implementation)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 09:07:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6005" class=".btn">#6005</a>
             </td>
             <td>
@@ -515,37 +649,6 @@ Exposes getSize to transaction interface so it can be used by plugins
     </table>
     <div class="right-align">
         Created At 2023-10-04 05:48:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5980" class=".btn">#5980</a>
-            </td>
-            <td>
-                <b>
-                    Only use the builder to create transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Remove all the overloaded `Transaction`' constructors, and only allow to create a transaction using the `Builder`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 11:28:23 +0000 UTC
     </div>
 </div>
 

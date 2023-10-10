@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4473" class=".btn">#4473</a>
+            </td>
+            <td>
+                <b>
+                    remove an unused parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+This commit removes an unused parameter named "namespace" from a function that computes the expiring block number for a private key stored in a collection with a "block to live" policy.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 12:14:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4472" class=".btn">#4472</a>
             </td>
             <td>
@@ -638,43 +670,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2023-10-03 15:03:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4458" class=".btn">#4458</a>
-            </td>
-            <td>
-                <b>
-                    Expose block censorship timeout in config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code)
-- Test update
-
-#### Description
-
-As described in issue #4401 
-
-#### Related issues
-
-issue #4401 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 09:14:44 +0000 UTC
     </div>
 </div>
 
