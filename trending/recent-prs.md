@@ -1,13 +1,13 @@
 
-[2755](https://github.com/hyperledger/cacti/pull/2755) fix(cmd-api-server): add runtime type validation to HTTP verbs pulled from OAS
+[4472](https://github.com/hyperledger/fabric/pull/4472) Add inspect option into checkcommitreadiness command to output discre…
 
-[32](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/32) Console template fix
+[6005](https://github.com/hyperledger/besu/pull/6005) [Plugin API] - TransactionSelector - Notify plugins when transaction is selected/rejected
 
-[2754](https://github.com/hyperledger/cacti/pull/2754) feat(common): add express http verb method name string literal type
+[12](https://github.com/hyperledger-labs/pdo-contracts/pull/12) New jupyter notebooks for exchange contract family
 
-[3977](https://github.com/hyperledger/iroha/pull/3977) Repairing MacOs build on develop
+[2541](https://github.com/hyperledger/aries-cloudagent-python/pull/2541) Anoncreds-rs pytest update (Credential Definitions)
 
-[245](https://github.com/hyperledger/aries-framework-dotnet/pull/245) Set repo to read-only
+[2540](https://github.com/hyperledger/aries-cloudagent-python/pull/2540) DRAFT: PleaseAck.md document
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
