@@ -118,29 +118,3 @@ Closes #615
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/640" class=".btn">#640</a>
-            </td>
-            <td>
-                <b>
-                    Update Gem dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-02 20:11:48 +0000 UTC
-    </div>
-</div>
-
