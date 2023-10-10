@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/220" class=".btn">#220</a>
+            </td>
+            <td>
+                <b>
+                    [DRAFT] Osmosis IBC hooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                for https://github.com/hyperledger-labs/yui-ibc-solidity/issues/219
+
+based on https://github.com/hyperledger-labs/yui-ibc-solidity/pull/215
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 11:10:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/217" class=".btn">#217</a>
             </td>
             <td>
