@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2544" class=".btn">#2544</a>
+            </td>
+            <td>
+                <b>
+                    fix: correct minor typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes some minor spelling typos:
+
+   Congradulations -> Congratulations
+   explicitely -> explicitly
+   supprting -> supporting
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-11 13:33:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2541" class=".btn">#2541</a>
             </td>
             <td>
@@ -171,32 +202,6 @@ Fixes #2468.
     </table>
     <div class="right-align">
         Created At 2023-10-05 18:59:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2529" class=".btn">#2529</a>
-            </td>
-            <td>
-                <b>
-                    Feat: Support subwallet upgradation using the Upgrade command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #2507 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-04 16:31:37 +0000 UTC
     </div>
 </div>
 
