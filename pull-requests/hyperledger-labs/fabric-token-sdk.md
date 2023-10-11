@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    Added EWS Provider
+                    Removed tx callback
                 </b>
             </td>
         </tr>
