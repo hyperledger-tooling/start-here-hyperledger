@@ -45,29 +45,3 @@ to package the PDO files and the context files.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/8" class=".btn">#8</a>
-            </td>
-            <td>
-                <b>
-                    Add version information to the wheel files that are generated
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 18:20:55 +0000 UTC
-    </div>
-</div>
-

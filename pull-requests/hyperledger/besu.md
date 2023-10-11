@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6017" class=".btn">#6017</a>
+            </td>
+            <td>
+                <b>
+                    Update 23.10.0 changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-10 19:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6015" class=".btn">#6015</a>
             </td>
             <td>
@@ -33,32 +66,6 @@ permalink: /pull-requests/hyperledger/besu
     </table>
     <div class="right-align">
         Created At 2023-10-10 16:48:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6014" class=".btn">#6014</a>
-            </td>
-            <td>
-                <b>
-                    implements tx sizing for blob txs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                sizing was deferring to 1559 sizing for blob transactions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 15:16:44 +0000 UTC
     </div>
 </div>
 
