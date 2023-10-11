@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6020" class=".btn">#6020</a>
+            </td>
+            <td>
+                <b>
+                    Plugin change the interface so the plugin can return an error string
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR changes the return value of the validate method of the PluginTransactionValidator class to return an Optional<String>, so implementations can return a reason for rejecting a transaction.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-11 06:03:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6019" class=".btn">#6019</a>
+            </td>
+            <td>
+                <b>
+                    Codehash compare
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+A hacked build of #5889 to compare the code storage before and after changes to check for inconsistencies.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-11 06:00:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6017" class=".btn">#6017</a>
             </td>
             <td>
@@ -777,33 +838,6 @@ relates #5977
     </table>
     <div class="right-align">
         Created At 2023-10-04 12:57:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5983" class=".btn">#5983</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Expose getSize to transaction interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Exposes getSize to transaction interface so it can be used by plugins
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-04 05:48:13 +0000 UTC
     </div>
 </div>
 
