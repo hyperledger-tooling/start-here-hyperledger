@@ -170,29 +170,3 @@ See corresponding spec change: https://github.com/trustoverip/tswg-did-method-we
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Add py-multibase dependency.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It looks like https://github.com/hyperledger-labs/did-webs-resolver/commit/2263a3ecb3652e4a884a3cc91623d51c8dbabab0 removed the "py-multibase" dependency, but it's needed in https://github.com/hyperledger-labs/did-webs-resolver/blob/main/src/dkr/core/didding.py#L11 (at least for now).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 19:31:55 +0000 UTC
-    </div>
-</div>
-
