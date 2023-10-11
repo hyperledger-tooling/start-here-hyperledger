@@ -28,8 +28,7 @@ permalink: /releases/hyperledger/besu
             <td>
                 ## 23.10.0
 ### Layered Transaction Pool: the new default transaction pool implementation
-With this release the previously experimental Layered txpool is marked stable and enabled by default, so please read the following instructions if you used to tune txpool behaviour,
-otherwise you can simply go with the default and enjoy the improved performance of the new txpool.
+With this release the previously experimental Layered txpool is marked stable and enabled by default, so please read the following instructions if you used to tune txpool behavior, otherwise you can simply go with the default and enjoy the improved performance of the new txpool. More detailed information about the implementation of the [Layered TxPool can be found here](https://github.com/hyperledger/besu/pull/5290).
 
 #### Upgrading to Layered Transaction Pool
 If you do not specify any txpool option, then you can skip this section.
