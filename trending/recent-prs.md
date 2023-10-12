@@ -1,13 +1,13 @@
 
-[755](https://github.com/hyperledger-labs/open-enterprise-agent/pull/755) feat: Keycloak container with AdminClient [WIP]
+[381](https://github.com/hyperledger/iroha-java/pull/381) Bump org.yaml:snakeyaml from 2.0 to 2.2
 
-[1563](https://github.com/hyperledger/solang/pull/1563) Bugfix struct member read access (take 2)
+[380](https://github.com/hyperledger/iroha-java/pull/380) Bump com.github.docker-java:docker-java from 3.3.0 to 3.3.3
 
-[754](https://github.com/hyperledger-labs/open-enterprise-agent/pull/754) fix(prism-agent): return relevant errors on offer creation
+[379](https://github.com/hyperledger/iroha-java/pull/379) Bump org.gradle.toolchains.foojay-resolver-convention from 0.5.0 to 0.7.0
 
-[568](https://github.com/hyperledger/cello/pull/568) [#issue-567]Routing error returning to the network list page from the…
+[378](https://github.com/hyperledger/iroha-java/pull/378) Bump gradle/gradle-build-action from 2.3.3 to 2.9.0
 
-[6026](https://github.com/hyperledger/besu/pull/6026) Add trie log pruning triggered after trie log persist
+[377](https://github.com/hyperledger/iroha-java/pull/377) Bump actions/checkout from 3 to 4
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
