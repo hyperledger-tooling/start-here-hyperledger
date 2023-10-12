@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.14
+                    v1.2.15
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.14
+                    v1.2.15
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add deployContract by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/78
+* Add deleteTokenPool, expose "protocol_error" type, add "noack" option by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/81
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.13...v1.2.14
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.14...v1.2.15
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.14" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.15" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-29 18:40:19 +0000 UTC
+        Created At 2023-10-12 12:44:18 +0000 UTC
     </span>
 </div>
 
