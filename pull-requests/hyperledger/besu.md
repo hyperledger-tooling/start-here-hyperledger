@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6026" class=".btn">#6026</a>
+            </td>
+            <td>
+                <b>
+                    Add trie log pruning triggered after trie log persist
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/besu/issues/5390
+
+TrieLogPruner loads all trie logs on startup.
+Each time a trie log is persisted it is added to the "prune queue" and also the pruner is run.
+Pruner executes over a pruning window (currently hardcoded to 1000) to chip away at an initially large backlog of trie logs. 
+Once backlog is cleared, each prune run should just be a single trie log.
+
+TODO:
+- [x] Test with local node using smaller defaults for retain/prune window
+- [ ] Add feature toggle
+- [ ] Feasibility of streaming all trie logs on startup?
+- [ ] Test on real nodes using current defaults: retain latest 512 blocks; backlog prune window of 1000 blocks;
+- [ ] Consider an option to only prune forks
+- [ ] Consider using safeBlock instead of 512 layers to retain
+- [ ] Consider belts and braces protection during rollback/forward in case pruned trielog may be in use
+- [ ] Deal with "orphaned" trie logs (related to building: ones that aren't referenced in the `blockchain`; neither canonical nor a fork)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-12 07:42:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6023" class=".btn">#6023</a>
             </td>
             <td>
