@@ -14,56 +14,40 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/377" class=".btn">#377</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/379" class=".btn">#379</a>
             </td>
             <td>
                 <b>
-                    Bump urllib3 from 1.26.16 to 1.26.17 in /docs
+                    Bump golang.org/x/net from 0.7.0 to 0.17.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
+                <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [urllib3](https://github.com/urllib3/urllib3) from 1.26.16 to 1.26.17.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/urllib3/urllib3/releases">urllib3's releases</a>.</em></p>
-<blockquote>
-<h2>1.26.17</h2>
-<ul>
-<li>Added the <code>Cookie</code> header to the list of headers to strip from requests when redirecting to a different host. As before, different headers can be set via <code>Retry.remove_headers_on_redirect</code>. (GHSA-v845-jxx5-vc9f)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/urllib3/urllib3/blob/main/CHANGES.rst">urllib3's changelog</a>.</em></p>
-<blockquote>
-<h1>1.26.17 (2023-10-02)</h1>
-<ul>
-<li>Added the <code>Cookie</code> header to the list of headers to strip from requests when redirecting to a different host. As before, different headers can be set via <code>Retry.remove_headers_on_redirect</code>. (<code>[#3139](https://github.com/urllib3/urllib3/issues/3139) &lt;https://github.com/urllib3/urllib3/pull/3139&gt;</code>_)</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [golang.org/x/net](https://github.com/golang/net) from 0.7.0 to 0.17.0.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/urllib3/urllib3/commit/c9016bf464751a02b7e46f8b86504f47d4238784"><code>c9016bf</code></a> Release 1.26.17</li>
-<li><a href="https://github.com/urllib3/urllib3/commit/01220354d389cd05474713f8c982d05c9b17aafb"><code>0122035</code></a> Backport GHSA-v845-jxx5-vc9f (<a href="https://redirect.github.com/urllib3/urllib3/issues/3139">#3139</a>)</li>
-<li><a href="https://github.com/urllib3/urllib3/commit/e63989f97d206e839ab9170c8a76e3e097cc60e8"><code>e63989f</code></a> Fix installing <code>brotli</code> extra on Python 2.7</li>
-<li><a href="https://github.com/urllib3/urllib3/commit/2e7a24d08713a0131f0b3c7197889466d645cc49"><code>2e7a24d</code></a> [1.26] Configure OS for RTD to fix building docs</li>
-<li><a href="https://github.com/urllib3/urllib3/commit/57181d6ea910ac7cb2ff83345d9e5e0eb816a0d0"><code>57181d6</code></a> [1.26] Improve error message when calling urllib3.request() (<a href="https://redirect.github.com/urllib3/urllib3/issues/3058">#3058</a>)</li>
-<li><a href="https://github.com/urllib3/urllib3/commit/3c0148048a523325819377b23fc67f8d46afc3aa"><code>3c01480</code></a> [1.26] Run coverage even with failed jobs</li>
-<li>See full diff in <a href="https://github.com/urllib3/urllib3/compare/1.26.16...1.26.17">compare view</a></li>
+<li><a href="https://github.com/golang/net/commit/b225e7ca6dde1ef5a5ae5ce922861bda011cfabd"><code>b225e7c</code></a> http2: limit maximum handler goroutines to MaxConcurrentStreams</li>
+<li><a href="https://github.com/golang/net/commit/88194ad8ab44a02ea952c169883c3f57db6cf9f4"><code>88194ad</code></a> go.mod: update golang.org/x dependencies</li>
+<li><a href="https://github.com/golang/net/commit/2b60a61f1e4cf3a5ecded0bd7e77ea168289e6de"><code>2b60a61</code></a> quic: fix several bugs in flow control accounting</li>
+<li><a href="https://github.com/golang/net/commit/73d82efb96cacc0c378bc150b56675fc191894b9"><code>73d82ef</code></a> quic: handle DATA_BLOCKED frames</li>
+<li><a href="https://github.com/golang/net/commit/5d5a036a503f8accd748f7453c0162115187be13"><code>5d5a036</code></a> quic: handle streams moving from the data queue to the meta queue</li>
+<li><a href="https://github.com/golang/net/commit/350aad2603e57013fafb1a9e2089a382fe67dc80"><code>350aad2</code></a> quic: correctly extend peer's flow control window after MAX_DATA</li>
+<li><a href="https://github.com/golang/net/commit/21814e71db756f39b69fb1a3e06350fa555a79b1"><code>21814e7</code></a> quic: validate connection id transport parameters</li>
+<li><a href="https://github.com/golang/net/commit/a600b3518eed7a9a4e24380b4b249cb986d9b64d"><code>a600b35</code></a> quic: avoid redundant MAX_DATA updates</li>
+<li><a href="https://github.com/golang/net/commit/ea633599b58dc6a50d33c7f5438edfaa8bc313df"><code>ea63359</code></a> http2: check stream body is present on read timeout</li>
+<li><a href="https://github.com/golang/net/commit/ddd8598e5694aa5e966e44573a53e895f6fa5eb2"><code>ddd8598</code></a> quic: version negotiation</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/net/compare/v0.7.0...v0.17.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=urllib3&package-manager=pip&previous-version=1.26.16&new-version=1.26.17)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/net&package-manager=go_modules&previous-version=0.7.0&new-version=0.17.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -95,7 +79,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 04:02:13 +0000 UTC
+        Created At 2023-10-11 23:26:50 +0000 UTC
     </div>
 </div>
 
