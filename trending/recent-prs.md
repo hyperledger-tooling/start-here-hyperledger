@@ -1,13 +1,13 @@
 
-[2462](https://github.com/hyperledger/sawtooth-core/pull/2462) Fix GitHub actions pythonpath and disable broken adm lmdb tests
+[732](https://github.com/hyperledger/fabric-private-chaincode/pull/732) Bump golang.org/x/net from 0.9.0 to 0.17.0 in /integration/go_chaincode
 
-[753](https://github.com/hyperledger-labs/open-enterprise-agent/pull/753) feat(prism-agent): add keycloak authorization support to endpoints [WIP]
+[731](https://github.com/hyperledger/fabric-private-chaincode/pull/731) Bump golang.org/x/net from 0.9.0 to 0.17.0 in /samples/deployment/fabric-smart-client/the-simple-testing-network
 
-[752](https://github.com/hyperledger-labs/open-enterprise-agent/pull/752) fix: anoncred's createPresentation
+[730](https://github.com/hyperledger/fabric-private-chaincode/pull/730) Bump golang.org/x/net from 0.9.0 to 0.17.0
 
-[375](https://github.com/hyperledger/iroha-java/pull/375) DOPS-2715: Add workflow to upload test results to Allure Test Ops
+[539](https://github.com/hyperledger-labs/fabric-operations-console/pull/539) Bump golang.org/x/net from 0.7.0 to 0.17.0 in /packages/fabric-deployer
 
-[2544](https://github.com/hyperledger/aries-cloudagent-python/pull/2544) fix: correct minor typos
+[379](https://github.com/hyperledger/fabric-ca/pull/379) Bump golang.org/x/net from 0.7.0 to 0.17.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
