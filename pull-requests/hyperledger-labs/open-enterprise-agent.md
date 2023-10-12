@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/755" class=".btn">#755</a>
+            </td>
+            <td>
+                <b>
+                    feat: Keycloak container with AdminClient [WIP]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Fixes ATL-xxxx
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [ ] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [ ] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-12 12:03:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/754" class=".btn">#754</a>
+            </td>
+            <td>
+                <b>
+                    fix(prism-agent): return relevant errors on offer creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">prism-agent</span>
+            </td>
+            <td>
+                # Overview
+Fixes ATL-5882
+Fixes ATL-5883
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [x] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-12 07:58:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/753" class=".btn">#753</a>
             </td>
             <td>
@@ -254,6 +361,7 @@ The performance tests expect a local prometheus instance to be running to push m
 # Overview
 Fixes ATL-5773
 Previously, background jobs would iterate through each wallet and then query the databases correspondingly for each one. This approach may present performance issues as the number of wallets increases. To address this, the background jobs are now executed as an administrator user, and the wallet context is constructed based on each individual record.
+Jira link: https://input-output.atlassian.net/browse/ATL-5773 
 
 
 ## Checklist
@@ -407,58 +515,6 @@ A `*` can be used to signal any domain
     </table>
     <div class="right-align">
         Created At 2023-10-06 13:43:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/746" class=".btn">#746</a>
-            </td>
-            <td>
-                <b>
-                    fix(prism-agent): configure APISIX to return CORS headers from Prism Agent endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">infra</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-## Checklist
-
-### My PR contains...
-* [x] No code changes (changes to documentation, CI, metadata, etc.)
-* [x] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 09:49:01 +0000 UTC
     </div>
 </div>
 
