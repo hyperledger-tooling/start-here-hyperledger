@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3987" class=".btn">#3987</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #3578: Add client-cli-tests results uploading to Allure Test Ops
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description
+1. Integrate `client-cli-tests` results uploading to Allure Test Ops inside `client-cli-test` job
+2. Update `Dockerfile.build.glibc` regarding to #3818 
+
+### Linked issue
+#3578 
+
+### Benefits
+1. Upload `client-cli pytest` results to Test Ops suite
+2. Have `poetry` installation inside `Dockerfile.build.glibc`
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+
+### USEFUL LINKS 
+[Allure Test Ops](https://soramitsu.testops.cloud/project/1/launches)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-12 15:07:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3983" class=".btn">#3983</a>
             </td>
             <td>
@@ -548,9 +596,9 @@ FindTrigger queries return actually useful WASM
 
 ### Checklist
 
-- [ x] I've read `CONTRIBUTING.md`
-- [ x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
             </td>
@@ -558,63 +606,6 @@ FindTrigger queries return actually useful WASM
     </table>
     <div class="right-align">
         Created At 2023-10-06 01:04:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3963" class=".btn">#3963</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3953: Add `owned_by` field to `Domain`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">Enhancement</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-- Fixed unreachable isi
-- Add `owned_by` to `Domain` and related permissions
-- New tests
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3953, #3931, #3932 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Implement required feature, new tests, fixed bugs.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 14:55:19 +0000 UTC
     </div>
 </div>
 

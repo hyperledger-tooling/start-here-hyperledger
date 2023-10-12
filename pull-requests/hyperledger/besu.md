@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6027" class=".btn">#6027</a>
+            </td>
+            <td>
+                <b>
+                    Mining options refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-12 16:21:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6026" class=".btn">#6026</a>
             </td>
             <td>
@@ -329,6 +362,28 @@ Currently there are various naming for public key (`publicKey`, `pubkey`, `pubKe
             <td>
                 This PR enhances the Eth_feeHistory method through the implementation of a new cache for storing computed rewards. 
 Furthermore, it introduces enhancements in the process of calculating rewards.
+
+The tests below are done on a Standard_D4s_v5 Azure VM (4 vCPU, 16 GiB RAM)
+
+### Before this PR :
+Besu wasn't able to handle 5 TPS for eth_feeHistory (with 1024 blocks) for near head calls
+
+flood eth_feeHistory localhost:8545 -d 300 -r 5 --metrics p50 p90 p99
+<img width="343" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/3e3e3791-6e23-42b7-adf9-9515a31a1358">
+
+**CPU profiling**
+![image](https://github.com/hyperledger/besu/assets/5099602/4a02b7b2-55ac-4cd8-85a5-f93c213e6400)
+
+
+### After this PR
+Besu is able to handle 50 TPS with 99th percentile in 139 ms. Combining this PR with PR https://github.com/hyperledger/besu/pull/6009, Besu was able to handle 500 TPS on near head calls with 1024 blocks.
+
+flood eth_feeHistory localhost:8545 -d 300 -r 50 --metrics p50 p90 p99
+
+<img width="330" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/688d751b-8629-4d19-b42c-44b5c4a05d3b">
+
+**CPU profiling**
+![image](https://github.com/hyperledger/besu/assets/5099602/44fa849c-f562-438f-84e2-98e7258a4582)
 
 
             </td>
@@ -762,105 +817,6 @@ This change in the API allows the plugin to provide a tracer that will be used w
     </table>
     <div class="right-align">
         Created At 2023-10-05 21:06:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5991" class=".btn">#5991</a>
-            </td>
-            <td>
-                <b>
-                    Set version to 23.10.0-RC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 13:52:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5990" class=".btn">#5990</a>
-            </td>
-            <td>
-                <b>
-                    Bump version to 23.10.1-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 13:33:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5989" class=".btn">#5989</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.10.0-RC burn in
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 12:39:04 +0000 UTC
     </div>
 </div>
 

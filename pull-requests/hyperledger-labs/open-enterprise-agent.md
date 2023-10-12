@@ -469,6 +469,7 @@ Fixes https://input-output.atlassian.net/browse/ATL-5851
             <td>
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+Jira link: ATL-5415
 
 Previously, the helm-chart for deploying the agent always enabled Cross Origin Resource Sharing with a wildcard pattern - which is not a secure default
 
