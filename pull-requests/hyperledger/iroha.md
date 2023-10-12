@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3983" class=".btn">#3983</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3964: `application/x-parity-scale` response for `/status` …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+New features:
+
+- `GET /status` accepts `application/x-parity-scale` content type and responds accordingly
+- `GET /status/<field>` now accepts nested paths, e.g. `/status/uptime/secs`
+
+__Breaking changes:__
+
+- `GET /status/<field>` used to be forgiving for path-not-found and serialization errors. Now it returns 404 and 500 errors accordingly.
+
+### Linked issue
+
+Closes #3964
+
+### Benefits
+
+JavaScript SDK can use `/status` endpoint without hacks around JSON parsing.
+
+### Checklist
+
+- [x] Open a PR into documentation
+  - https://github.com/hyperledger/iroha-2-docs/pull/422
+- [x] Manually check the behaviour of `/status` endpoint
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-12 03:47:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3981" class=".btn">#3981</a>
             </td>
             <td>

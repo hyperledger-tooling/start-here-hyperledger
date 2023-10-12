@@ -89,7 +89,7 @@ Fixes https://github.com/hyperledger/besu/issues/6021
             </td>
             <td>
                 <b>
-                    Plugin change the interface so the plugin can return an error string
+                    Transaction Validation and Selection Plugin API update
                 </b>
             </td>
         </tr>
@@ -99,7 +99,7 @@ Fixes https://github.com/hyperledger/besu/issues/6021
             </td>
             <td>
                 ## PR description
-This PR changes the return value of the validate method of the PluginTransactionValidator class to return an Optional<String>, so implementations can return a reason for rejecting a transaction.
+This PR makes some changes to the Transaction Validation and Selection Plugin API to make them more useful.
             </td>
         </tr>
     </table>
@@ -819,33 +819,6 @@ This change in the API allows the plugin to provide a tracer that will be used w
     </table>
     <div class="right-align">
         Created At 2023-10-05 12:39:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5988" class=".btn">#5988</a>
-            </td>
-            <td>
-                <b>
-                    Plugin Api - Add evaluateTransactionPostProcessing to TransactionSelector interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add evaluateTransactionPostProcessing to TransactionSelector interface
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 01:53:58 +0000 UTC
     </div>
 </div>
 
