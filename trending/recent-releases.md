@@ -7,7 +7,7 @@
 
 [0.10.4](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.10.4) 0.10.4
 
-[v0.4.2](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.4.2) v0.4.2
+[1.0.0](https://github.com/hyperledger/cello/releases/tag/1.0.0) Release 1.0.0 tags
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
