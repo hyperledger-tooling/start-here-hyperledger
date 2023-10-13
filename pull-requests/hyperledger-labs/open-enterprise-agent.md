@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/756" class=".btn">#756</a>
+            </td>
+            <td>
+                <b>
+                    broken link in README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">docs</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 00:38:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/755" class=".btn">#755</a>
             </td>
             <td>

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6028" class=".btn">#6028</a>
+            </td>
+            <td>
+                <b>
+                    remove code duplication
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Noticed that these lines of code were duplicated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 00:18:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6027" class=".btn">#6027</a>
             </td>
             <td>
@@ -74,6 +101,7 @@ TODO:
 - [ ] Test on real nodes using current defaults: retain latest 512 blocks; backlog prune window of 1000 blocks;
 - [ ] Consider an option to only prune forks
 - [ ] Consider using safeBlock instead of 512 layers to retain
+  - would be a nice strategy to prune only blocks older than RETAINED_LAYERS that have a subsequent finalized blockhash
 - [ ] Consider belts and braces protection during rollback/forward in case pruned trielog may be in use
 - [ ] Deal with "orphaned" trie logs (related to building: ones that aren't referenced in the `blockchain`; neither canonical nor a fork)
 
@@ -791,32 +819,6 @@ This change in the API allows the plugin to provide a tracer that will be used w
     </table>
     <div class="right-align">
         Created At 2023-10-06 05:38:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5993" class=".btn">#5993</a>
-            </td>
-            <td>
-                <b>
-                    hive tests explicitly attempt zero
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                more hive tests for engine api
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 21:06:07 +0000 UTC
     </div>
 </div>
 

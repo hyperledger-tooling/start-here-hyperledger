@@ -175,33 +175,3 @@ Since we have not updated/implemented endorser in the anoncreds-rs branch, I hav
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2533" class=".btn">#2533</a>
-            </td>
-            <td>
-                <b>
-                    refactor: make ldp_vc logic reusable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a refactor of LDP VC handling within ICv2 and PPv2 to make it usable outside of those protocol's handlers. I believe this results in a cleaner implementation, separating the concerns of preparing a credential from the ICv2 protocol and its messages and handlers for those messages.
-
-This refactor enables the other major addition in this PR, adding a couple of new endpoints for LDP VC issue and verify, `POST /vc/ldp/issue` and `POST /vc/ldp/verify`. These endpoints are similar to the `/jsonld/sign` and `/jsonld/verify` endpoints. However, the big difference is that the `/jsonld` endpoints did not use the same LDP signing methods used in ICv2 or PPv2. This has caused the two implementations to diverge more and more over time. With this PR, these endpoints are still available but are marked as deprecated. One other significant difference, the inputs for endpoints have changed to be more specific to signing and verifying LDP VCs and not just arbitrary JSON-LD documents.
-
-Fixes #2468.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 18:59:39 +0000 UTC
-    </div>
-</div>
-
