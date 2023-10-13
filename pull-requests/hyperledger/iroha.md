@@ -136,54 +136,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3987" class=".btn">#3987</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #3578: Add client-cli-tests results uploading to Allure Test Ops
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-1. Integrate `client-cli-tests` results uploading to Allure Test Ops inside `client-cli-test` job
-2. Update `Dockerfile.build.glibc` regarding to #3818 
-
-### Linked issue
-#3578 
-
-### Benefits
-1. Upload `client-cli pytest` results to Test Ops suite
-2. Have `poetry` installation inside `Dockerfile.build.glibc`
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-
-### USEFUL LINKS 
-[Allure Test Ops](https://soramitsu.testops.cloud/project/1/launches)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-12 15:07:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3983" class=".btn">#3983</a>
             </td>
             <td>
@@ -636,51 +588,6 @@ _None_
     </table>
     <div class="right-align">
         Created At 2023-10-09 02:20:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3967" class=".btn">#3967</a>
-            </td>
-            <td>
-                <b>
-                    [fix] proper rustc in devShell
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Small tweak to fix `rustc` in `devShell` not finding sysroot.
-
-### Linked issue
-
-None
-
-### Benefits
-
-Usable `rustc` in `devShell`
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 17:10:18 +0000 UTC
     </div>
 </div>
 

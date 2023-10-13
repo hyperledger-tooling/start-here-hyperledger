@@ -267,33 +267,3 @@ chaincode := fpc.NewSkvsChaincode(secretChaincode)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/727" class=".btn">#727</a>
-            </td>
-            <td>
-                <b>
-                    Action docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR enhances the CI action runtime by using the published FPC dev images by default.
-The new flow works as follows. 
-On push or pull request, we check if any changes in `utils/docker` are made, in that case the dev images are build from scratch; otherwise we pull the latest images.
-Additionally, if any changes in `utils/docker` are made, the publish the updated images.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 12:41:37 +0000 UTC
-    </div>
-</div>
-

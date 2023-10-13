@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/759" class=".btn">#759</a>
+            </td>
+            <td>
+                <b>
+                    test: refactor integration tests - assertions, client models
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">infra</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Refactoring of integration tests:
+* Use of client models
+* Remove unused code and wrong assertions
+* Use of Ensure
+* Use of atala automation library
+* Clean ups and fixes
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [x] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [x] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 17:16:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/758" class=".btn">#758</a>
             </td>
             <td>
@@ -580,75 +639,6 @@ Fixes https://input-output.atlassian.net/browse/ATL-5851
     </table>
     <div class="right-align">
         Created At 2023-10-08 23:45:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/747" class=".btn">#747</a>
-            </td>
-            <td>
-                <b>
-                    feat: disable cors by default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">infra</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-Jira link: ATL-5415
-
-Previously, the helm-chart for deploying the agent always enabled Cross Origin Resource Sharing with a wildcard pattern - which is not a secure default
-
-Now, the helm-chart defaults to a secure (fail securely principle) setting. This means if the user forgets to set this property - the agent is deployed securely
-
-Impact of this change: environments which do not currently set this property that are used for development or are deployed with a need for applications being developed to access resources accross domains - the following values settings need to be added
-
-```
-ingress:
-   cors:
-      enabled: true
-      allow_origins: "domain-to-allow.com"
-```
-
-Multiple domains can be specified using `,` as a seperator 
-A `*` can be used to signal any domain 
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [x] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [x] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [x] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 13:43:09 +0000 UTC
     </div>
 </div>
 
