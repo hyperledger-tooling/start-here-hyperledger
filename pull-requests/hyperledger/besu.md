@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6029" class=".btn">#6029</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                thx to @vuittont60
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 04:33:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6028" class=".btn">#6028</a>
             </td>
             <td>
@@ -208,40 +234,6 @@ This PR makes some changes to the Transaction Validation and Selection Plugin AP
     </table>
     <div class="right-align">
         Created At 2023-10-11 06:03:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6019" class=".btn">#6019</a>
-            </td>
-            <td>
-                <b>
-                    Codehash compare
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-A hacked build of #5889 to compare the code storage before and after changes to check for inconsistencies.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-11 06:00:22 +0000 UTC
     </div>
 </div>
 
@@ -502,32 +494,6 @@ The new cache in DefaultBlockchain uses **1.35 GiB** on Mainnet **for 2048 last 
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6007" class=".btn">#6007</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 09:30:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6006" class=".btn">#6006</a>
             </td>
             <td>
@@ -765,60 +731,6 @@ Since we have a native `Bytes48` datatype in Tuweni, we can use it for `KZGCommi
     </table>
     <div class="right-align">
         Created At 2023-10-06 16:04:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5995" class=".btn">#5995</a>
-            </td>
-            <td>
-                <b>
-                    [Plugin API] - Simplify plugin transaction selector interface to return object instead of list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">plugins</span>
-            </td>
-            <td>
-                ## PR description
-Revert plugin interface to return an object instead of a list
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 06:11:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5994" class=".btn">#5994</a>
-            </td>
-            <td>
-                <b>
-                    [skip ci] Add trace functionality for transaction selection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This change in the API allows the plugin to provide a tracer that will be used while executing transaction that could be selected for the block
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 05:38:06 +0000 UTC
     </div>
 </div>
 
