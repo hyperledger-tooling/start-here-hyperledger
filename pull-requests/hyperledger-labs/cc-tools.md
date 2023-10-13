@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/37" class=".btn">#37</a>
+            </td>
+            <td>
+                <b>
+                    CODEOWNERS and MAINTAINERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add the CODEOWNERS and MAINTAINERS files to the repository
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 11:44:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/36" class=".btn">#36</a>
             </td>
             <td>
