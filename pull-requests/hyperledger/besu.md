@@ -461,7 +461,8 @@ Addresses the comment in this PR https://github.com/hyperledger/besu/pull/6005#r
                 
             </td>
             <td>
-                Cache last blocks data (block headers, block bodies, transactions' receipts and total difficulty).
+                This PR introduces a new flag **_--cache-last-blocks=n_** to cache last n blocks data (block headers, block bodies, transactions' receipts and total difficulty).
+
 The default number of blocks to keep in the cache is 0.
 
 This PR will mainly improve the performances of some RPC calls :

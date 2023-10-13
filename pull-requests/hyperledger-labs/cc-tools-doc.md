@@ -1,20 +1,20 @@
 ---
 layout: default
-title: cc-tools-demo
+title: cc-tools-doc
 parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/cc-tools-demo
+permalink: /pull-requests/hyperledger-labs/cc-tools-doc
 ---
 
-# cc-tools-demo <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/cc-tools-demo){: .btn .mr-4 }</span>
+# cc-tools-doc <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/cc-tools-doc){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-doc/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-13 11:44:20 +0000 UTC
+        Created At 2023-10-13 11:44:36 +0000 UTC
     </div>
 </div>
 

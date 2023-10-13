@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2546" class=".btn">#2546</a>
+            </td>
+            <td>
+                <b>
+                    DRAFT: please_ack support PoC for the 0453-issue-credential-v2 protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is PoC code for the PR#2540 (https://github.com/hyperledger/aries-cloudagent-python/pull/2540). It shows possible implementation of the `please_ack` decorator support ('option 2' in the document in the PR#2540)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 11:23:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2545" class=".btn">#2545</a>
+            </td>
+            <td>
+                <b>
+                    :art: clarify LedgerError message when TAA is required and not accepted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously:
+```py
+            if await self.is_ledger_read_only():
+                raise LedgerError(
+                    "Error cannot write cred def when ledger is in read only mode"
+                )
+```
+
+`is_ledger_read_only` also checks to see if TAA is required, and if not accepted it will also report the ledger is read-only:
+```py
+    async def is_ledger_read_only(self) -> bool:
+        """Check if ledger is read-only including TAA."""
+        if self.read_only:
+            return self.read_only
+        # if TAA is required and not accepted we should be in read-only mode
+        taa = await self.get_txn_author_agreement()
+        if taa["taa_required"]:
+            taa_acceptance = await self.get_latest_txn_author_acceptance()
+            if "mechanism" not in taa_acceptance:
+                return True
+        return self.read_only
+```
+
+To make this clearer to the user, I updated the relevant error messages to say TAA  may also be the cause of the LedgerError.
+
+e.g.:
+```py
+                raise LedgerError(
+                    "Error cannot write cred def when ledger is in read only mode, "
+                    "or TAA is required and not accepted"
+                )
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 09:34:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2544" class=".btn">#2544</a>
             </td>
             <td>

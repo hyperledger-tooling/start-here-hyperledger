@@ -41,29 +41,3 @@ Functions added:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1094" class=".btn">#1094</a>
-            </td>
-            <td>
-                <b>
-                    add token sdk sample application
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a service with a REST API that wraps the [Token SDK](https://github.com/hyperledger-labs/fabric-token-sdk) to issue, transfer and redeem tokens backed by a Hyperledger Fabric network for validation and settlement.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 09:25:34 +0000 UTC
-    </div>
-</div>
-
