@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/417" class=".btn">#417</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/420" class=".btn">#420</a>
             </td>
             <td>
                 <b>
-                    Bump postcss from 8.2.14 to 8.4.31
+                    Issue 340: connection-profile stuff
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-13 12:56:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/419" class=".btn">#419</a>
+            </td>
+            <td>
+                <b>
+                    Bump debug from 3.2.6 to 4.3.2 in /samples/chaincodes/chaincode-kv-node-1.4
                 </b>
             </td>
         </tr>
@@ -27,149 +53,60 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [postcss](https://github.com/postcss/postcss) from 8.2.14 to 8.4.31.
+                Bumps [debug](https://github.com/debug-js/debug) from 3.2.6 to 4.3.2.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/postcss/postcss/releases">postcss's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/debug-js/debug/releases">debug's releases</a>.</em></p>
 <blockquote>
-<h2>8.4.31</h2>
+<h2>4.3.2</h2>
+<h1>Patch release 4.3.2</h1>
 <ul>
-<li>Fixed <code>\r</code> parsing to fix CVE-2023-44270.</li>
+<li>Caches enabled statuses on a per-logger basis to speed up <code>.enabled</code> checks (<a href="https://redirect.github.com/debug-js/debug/issues/799">#799</a>)</li>
 </ul>
-<h2>8.4.30</h2>
+<p>Thank you <a href="https://github.com/omg"><code>@​omg</code></a>!</p>
+<h2>4.3.1</h2>
+<h1>Patch release 4.3.1</h1>
 <ul>
-<li>Improved source map performance (by <a href="https://github.com/romainmenke"><code>@​romainmenke</code></a>).</li>
+<li>Fixes a ReDOS regression (<a href="https://redirect.github.com/debug-js/debug/issues/458">#458</a>) - see <a href="https://redirect.github.com/debug-js/debug/issues/797">#797</a> for details.</li>
 </ul>
-<h2>8.4.29</h2>
+<h2>4.3.0</h2>
+<h1>Minor release</h1>
 <ul>
-<li>Fixed <code>Node#source.offset</code> (by <a href="https://github.com/idoros"><code>@​idoros</code></a>).</li>
-<li>Fixed docs (by <a href="https://github.com/coliff"><code>@​coliff</code></a>).</li>
+<li><strong>Deprecated <code>debugInstance.destroy()</code></strong>. Future major versions will not have this method; please remove it from your codebases as it currently does nothing.</li>
+<li>Fixed quoted percent sign</li>
+<li>Fixed memory leak within debug instances that are created dynamically</li>
 </ul>
-<h2>8.4.28</h2>
+<h2>4.2.0</h2>
+<h1>Minor Release</h1>
 <ul>
-<li>Fixed <code>Root.source.end</code> for better source map (by <a href="https://github.com/romainmenke"><code>@​romainmenke</code></a>).</li>
-<li>Fixed <code>Result.root</code> types when <code>process()</code> has no parser.</li>
+<li>Replaced phantomJS with chrome backend for browser tests</li>
+<li>Deprecated and later removed Changelog.md in lieu of releases page</li>
+<li>Removed bower.json (<a href="https://redirect.github.com/debug-js/debug/issues/602">#602</a>)</li>
+<li>Removed .eslintrc (since we've switched to XO)</li>
+<li>Removed .coveralls.yml</li>
+<li>Removed the build system that was in place for various alternate package managers</li>
+<li>Removed the examples folder (<a href="https://redirect.github.com/debug-js/debug/issues/650">#650</a>)</li>
+<li>Switched to <code>console.debug</code> <strong>in the browser only</strong> when it is available (<a href="https://redirect.github.com/debug-js/debug/issues/600">#600</a>)</li>
+<li>Copied custom logger to namespace extension (<a href="https://redirect.github.com/debug-js/debug/issues/646">#646</a>)</li>
+<li>Added issue and pull request templates</li>
+<li>Added <code>&quot;engines&quot;</code> key to package.json</li>
+<li>Added ability to control <code>selectColor</code> (<a href="https://redirect.github.com/debug-js/debug/issues/747">#747</a>)</li>
+<li>Updated dependencies</li>
+<li>Marked <code>supports-color</code> as an optional peer dependency</li>
 </ul>
-<h2>8.4.27</h2>
+<h2>4.1.1</h2>
+<p>This  backport fixes a bug in coveralls configuration as well as the <code>.extend()</code> function.</p>
+<h1>Patches</h1>
 <ul>
-<li>Fixed <code>Container</code> clone methods types.</li>
+<li>test: only run coveralls on travis (<a href="https://redirect.github.com/debug-js/debug/issues/663">#663</a>, <a href="https://redirect.github.com/debug-js/debug/issues/664">#664</a>, d0e498f159bd425b3403db38c98fe26a345d4dcd)</li>
+<li>copy custom logger to namespace extension (<a href="https://redirect.github.com/debug-js/debug/issues/646">#646</a>, 57ef085703a0158679cc4a56a4980653b828ce51)</li>
 </ul>
-<h2>8.4.26</h2>
+<h2>4.1.0</h2>
+<h1>Minor Changes</h1>
 <ul>
-<li>Fixed clone methods types.</li>
+<li>migrate Makefile to npm scripts (4236585a40787fe60ed625452163299600df2ce6)</li>
+<li>feat: Return namespaces string when invoking disable() (7ef8b417a86941372074f749019b9f439a1f6ef6)</li>
 </ul>
-<h2>8.4.25</h2>
-<ul>
-<li>Improve stringify performance (by <a href="https://github.com/romainmenke"><code>@​romainmenke</code></a>).</li>
-<li>Fixed docs (by <a href="https://github.com/vikaskaliramna07"><code>@​vikaskaliramna07</code></a>).</li>
-</ul>
-<h2>8.4.24</h2>
-<ul>
-<li>Fixed <code>Plugin</code> types.</li>
-</ul>
-<h2>8.4.23</h2>
-<ul>
-<li>Fixed warnings in TypeDoc.</li>
-</ul>
-<h2>8.4.22</h2>
-<ul>
-<li>Fixed TypeScript support with <code>node16</code> (by <a href="https://github.com/remcohaszing"><code>@​remcohaszing</code></a>).</li>
-</ul>
-<h2>8.4.21</h2>
-<ul>
-<li>Fixed <code>Input#error</code> types (by <a href="https://github.com/hudochenkov"><code>@​hudochenkov</code></a>).</li>
-</ul>
-<h2>8.4.20</h2>
-<ul>
-<li>Fixed source map generation for childless at-rules like <code>@layer</code>.</li>
-</ul>
-<h2>8.4.19</h2>
-<ul>
-<li>Fixed whitespace preserving after AST transformations (by <a href="https://github.com/romainmenke"><code>@​romainmenke</code></a>).</li>
-</ul>
-<h2>8.4.18</h2>
-<ul>
-<li>Fixed an error on <code>absolute: true</code> with empty <code>sourceContent</code> (by <a href="https://github.com/KingSora"><code>@​KingSora</code></a>).</li>
-</ul>
-<h2>8.4.17</h2>
-<ul>
-<li>Fixed <code>Node.before()</code> unexpected behavior (by <a href="https://github.com/romainmenke"><code>@​romainmenke</code></a>).</li>
-<li>Added TOC to docs (by <a href="https://github.com/muddv"><code>@​muddv</code></a>).</li>
-</ul>
-<h2>8.4.16</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/postcss/postcss/blob/main/CHANGELOG.md">postcss's changelog</a>.</em></p>
-<blockquote>
-<h2>8.4.31</h2>
-<ul>
-<li>Fixed <code>\r</code> parsing to fix CVE-2023-44270.</li>
-</ul>
-<h2>8.4.30</h2>
-<ul>
-<li>Improved source map performance (by Romain Menke).</li>
-</ul>
-<h2>8.4.29</h2>
-<ul>
-<li>Fixed <code>Node#source.offset</code> (by Ido Rosenthal).</li>
-<li>Fixed docs (by Christian Oliff).</li>
-</ul>
-<h2>8.4.28</h2>
-<ul>
-<li>Fixed <code>Root.source.end</code> for better source map (by Romain Menke).</li>
-<li>Fixed <code>Result.root</code> types when <code>process()</code> has no parser.</li>
-</ul>
-<h2>8.4.27</h2>
-<ul>
-<li>Fixed <code>Container</code> clone methods types.</li>
-</ul>
-<h2>8.4.26</h2>
-<ul>
-<li>Fixed clone methods types.</li>
-</ul>
-<h2>8.4.25</h2>
-<ul>
-<li>Improve stringify performance (by Romain Menke).</li>
-<li>Fixed docs (by <a href="https://github.com/vikaskaliramna07"><code>@​vikaskaliramna07</code></a>).</li>
-</ul>
-<h2>8.4.24</h2>
-<ul>
-<li>Fixed <code>Plugin</code> types.</li>
-</ul>
-<h2>8.4.23</h2>
-<ul>
-<li>Fixed warnings in TypeDoc.</li>
-</ul>
-<h2>8.4.22</h2>
-<ul>
-<li>Fixed TypeScript support with <code>node16</code> (by Remco Haszing).</li>
-</ul>
-<h2>8.4.21</h2>
-<ul>
-<li>Fixed <code>Input#error</code> types (by Aleks Hudochenkov).</li>
-</ul>
-<h2>8.4.20</h2>
-<ul>
-<li>Fixed source map generation for childless at-rules like <code>@layer</code>.</li>
-</ul>
-<h2>8.4.19</h2>
-<ul>
-<li>Fixed whitespace preserving after AST transformations (by Romain Menke).</li>
-</ul>
-<h2>8.4.18</h2>
-<ul>
-<li>Fixed an error on <code>absolute: true</code> with empty <code>sourceContent</code> (by Rene Haas).</li>
-</ul>
-<h2>8.4.17</h2>
-<ul>
-<li>Fixed <code>Node.before()</code> unexpected behavior (by Romain Menke).</li>
-<li>Added TOC to docs (by Mikhail Dedov).</li>
-</ul>
-<h2>8.4.16</h2>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -177,23 +114,27 @@ permalink: /pull-requests/hyperledger-labs/fablo
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/postcss/postcss/commit/90208de8805dd762596c0028b8637ffbed23e371"><code>90208de</code></a> Release 8.4.31 version</li>
-<li><a href="https://github.com/postcss/postcss/commit/58cc860b4c1707510c9cd1bc1fa30b423a9ad6c5"><code>58cc860</code></a> Fix carrier return parsing</li>
-<li><a href="https://github.com/postcss/postcss/commit/4fff8e4cdc237619df1d73a444c0a8329701c1e2"><code>4fff8e4</code></a> Improve pnpm test output</li>
-<li><a href="https://github.com/postcss/postcss/commit/cd43ed123274a92ebc13a1e8cccf1d65b8198f84"><code>cd43ed1</code></a> Update dependencies</li>
-<li><a href="https://github.com/postcss/postcss/commit/caa916bdcbf66c51321574e2dde112ab13e8b306"><code>caa916b</code></a> Update dependencies</li>
-<li><a href="https://github.com/postcss/postcss/commit/8972f76923e921a3c9655822382039b31b1c8e1a"><code>8972f76</code></a> Typo</li>
-<li><a href="https://github.com/postcss/postcss/commit/11a5286f781d2a637f2c545c5e9cd661055acaab"><code>11a5286</code></a> Typo</li>
-<li><a href="https://github.com/postcss/postcss/commit/45c55017776fc61f7815d1ea8e92d5291ca5d6c8"><code>45c5501</code></a> Release 8.4.30 version</li>
-<li><a href="https://github.com/postcss/postcss/commit/bc3c341f589f9c15f1b56838a33d908374e537e0"><code>bc3c341</code></a> Update linter</li>
-<li><a href="https://github.com/postcss/postcss/commit/b2be58a2eb788d12474ee1335f8ecdb9fa6225aa"><code>b2be58a</code></a> Merge pull request <a href="https://redirect.github.com/postcss/postcss/issues/1881">#1881</a> from romainmenke/improve-sourcemap-performance--phil...</li>
-<li>Additional commits viewable in <a href="https://github.com/postcss/postcss/compare/8.2.14...8.4.31">compare view</a></li>
+<li><a href="https://github.com/debug-js/debug/commit/e47f96de3de5921584364b4ac91e2769d22a3b1f"><code>e47f96d</code></a> 4.3.2</li>
+<li><a href="https://github.com/debug-js/debug/commit/1e9d38c2e6e170abde6cfeaf7b2024d8b456f906"><code>1e9d38c</code></a> cache enabled status per-logger (<a href="https://redirect.github.com/debug-js/debug/issues/799">#799</a>)</li>
+<li><a href="https://github.com/debug-js/debug/commit/0d3d66b0eb47c5d34e1a940e8a204446fdd832cd"><code>0d3d66b</code></a> 4.3.1</li>
+<li><a href="https://github.com/debug-js/debug/commit/b6d12fdbc63b483e5c969da33ea6adc09946b5ac"><code>b6d12fd</code></a> fix regression</li>
+<li><a href="https://github.com/debug-js/debug/commit/3f56313c1e4a0d59c1054fb9b10026b6903bfba7"><code>3f56313</code></a> 4.3.0</li>
+<li><a href="https://github.com/debug-js/debug/commit/e2d3bc9e428bdd45adb8d6e7f8ab543bee54d9a6"><code>e2d3bc9</code></a> add deprecation notice for debug.destroy()</li>
+<li><a href="https://github.com/debug-js/debug/commit/72e7f864bd75fc8353e4dd450de96d9104ba9f35"><code>72e7f86</code></a> fix memory leak within debug instance</li>
+<li><a href="https://github.com/debug-js/debug/commit/27152cad248df54217a14c072e7be1cd16da5f6d"><code>27152ca</code></a> add test for enable/disable of existing instances</li>
+<li><a href="https://github.com/debug-js/debug/commit/22e13fe07e21f32888201aa40833599fd10a4fbb"><code>22e13fe</code></a> fix quoted percent sign</li>
+<li><a href="https://github.com/debug-js/debug/commit/80ef62a3af4df95250d77d64edfc3d0e1667e7e8"><code>80ef62a</code></a> 4.2.0</li>
+<li>Additional commits viewable in <a href="https://github.com/debug-js/debug/compare/3.2.6...4.3.2">compare view</a></li>
 </ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~qix">qix</a>, a new releaser for debug since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=postcss&package-manager=npm_and_yarn&previous-version=8.2.14&new-version=8.4.31)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=debug&package-manager=npm_and_yarn&previous-version=3.2.6&new-version=4.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -225,7 +166,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-06 07:36:58 +0000 UTC
+        Created At 2023-10-13 12:48:17 +0000 UTC
     </div>
 </div>
 

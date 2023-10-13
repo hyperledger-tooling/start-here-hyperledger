@@ -704,34 +704,3 @@ Change array copying by re-using arrays when safe.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5997" class=".btn">#5997</a>
-            </td>
-            <td>
-                <b>
-                    Use existing Bytes48 for KZGCommitment and KZGProof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Since we have a native `Bytes48` datatype in Tuweni, we can use it for `KZGCommitment` and `KZGProof` to also have better checks and sematic
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 16:04:49 +0000 UTC
-    </div>
-</div>
-
