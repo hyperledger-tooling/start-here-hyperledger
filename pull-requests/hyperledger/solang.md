@@ -90,29 +90,3 @@ Rename `new_scope()` to `enter_scope()` as this matches `leave_scope()` better.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1559" class=".btn">#1559</a>
-            </td>
-            <td>
-                <b>
-                    Fix clippy 1.73 warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I updated Rust in my computer and fixed the errors from clippy.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 22:01:10 +0000 UTC
-    </div>
-</div>
-

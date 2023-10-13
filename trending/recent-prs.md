@@ -1,13 +1,13 @@
 
-[381](https://github.com/hyperledger/iroha-java/pull/381) Bump org.yaml:snakeyaml from 2.0 to 2.2
+[756](https://github.com/hyperledger-labs/open-enterprise-agent/pull/756) broken link in README.md
 
-[380](https://github.com/hyperledger/iroha-java/pull/380) Bump com.github.docker-java:docker-java from 3.3.0 to 3.3.3
+[6028](https://github.com/hyperledger/besu/pull/6028) remove code duplication
 
-[379](https://github.com/hyperledger/iroha-java/pull/379) Bump org.gradle.toolchains.foojay-resolver-convention from 0.5.0 to 0.7.0
+[382](https://github.com/hyperledger/fabric-ca/pull/382) Bump github.com/consensys/gnark-crypto from 0.9.1 to 0.12.0
 
-[378](https://github.com/hyperledger/iroha-java/pull/378) Bump gradle/gradle-build-action from 2.3.3 to 2.9.0
+[381](https://github.com/hyperledger/fabric-ca/pull/381) Add readthedocs config file.
 
-[377](https://github.com/hyperledger/iroha-java/pull/377) Bump actions/checkout from 3 to 4
+[3990](https://github.com/hyperledger/iroha/pull/3990) [fix]: Fix executor downloading in update_configs.sh
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
