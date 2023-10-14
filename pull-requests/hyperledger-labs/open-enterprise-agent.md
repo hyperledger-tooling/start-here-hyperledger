@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
         </tr>
         <tr>
             <td>
-                <span class="chip">infra</span>
+                <span class="chip">ci</span><span class="chip">infra</span>
             </td>
             <td>
                 # Overview
