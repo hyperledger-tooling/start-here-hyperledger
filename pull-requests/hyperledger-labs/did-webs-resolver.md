@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Feat/regex port and tests
+                    Updates for "resolve" and "resolver-service" components
                 </b>
             </td>
         </tr>
@@ -27,42 +27,16 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                Will move from draft once Markus' changes have been merged.
-updated regex to have optional port and path. also added some regex unit tests.
+                This has various updates related to the "resolve" functionality, including for DID document metadata.
 
+It also updates the "resolver-service" functionality, which makes it possible to run did:keri and did:webs drivers for the Universal Resolver.
+
+This is the state of the code that was used for IIW37 and this tutorial: https://github.com/peacekeeper/did-webs-iiw37-tutorial
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-09 01:18:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/20" class=".btn">#20</a>
-            </td>
-            <td>
-                <b>
-                    Transform to/from did:web document
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                With this change, the DID document on the server is transformed to a did:web DID document (to be compatible with the did:web method), and when resolving it, it is transformed back to a did:webs DID document.
-
-See corresponding spec change: https://github.com/trustoverip/tswg-did-method-webs-specification/pull/40
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 22:31:22 +0000 UTC
+        Created At 2023-10-14 13:26:23 +0000 UTC
     </div>
 </div>
 

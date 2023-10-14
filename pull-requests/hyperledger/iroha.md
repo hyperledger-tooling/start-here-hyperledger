@@ -394,17 +394,15 @@ Closes #3874
         </tr>
         <tr>
             <td>
-                <span class="chip">1.x</span><span class="chip">1.5</span>
+                <span class="chip">1.x</span><span class="chip">build</span><span class="chip">1.5</span>
             </td>
             <td>
                 ## Description
 develop -> master is failing to compile in MacOs: https://github.com/hyperledger/iroha/pull/3960
 
-That is why I need to repair the compilation.
+That is why I need to repair the compilation. It looks that GTest is not compilling for MacOS because compiler is now newer than before (newer compiler usually is more strict). Newer compiler signals some things as warnings, but GTest has `-Werror` compilation flag. So the solution is to create patch for vcpkg port of gtest to remove the flag (how to create patch is here: https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package).
 
-I don't know if the commit will repair the problem:).
-
-We need to wait
+I don't know if the commit will repair the problem, we need to wait for CI to check:D.
 <!-- Just describe what you did. -->
 
 <!-- Skip if the title of the PR is self-explanatory -->
@@ -418,6 +416,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
+We will be able to upgrade `main` branch with changes from `develop`
 
 <!-- EXAMPLE: users can't revoke their own right to revoke rights -->
 
