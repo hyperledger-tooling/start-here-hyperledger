@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/570" class=".btn">#570</a>
+            </td>
+            <td>
+                <b>
+                    [issue-#569]Modify logo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Modify logo
+
+Close #569 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-14 03:09:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/568" class=".btn">#568</a>
             </td>
             <td>
