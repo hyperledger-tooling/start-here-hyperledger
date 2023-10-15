@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    Improvement token and patch envelope 
+                    Balance
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                New features in token extensions (LockBatch and GetUTXO). 
-Some changes for envelope.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-11 10:03:27 +0000 UTC
+        Created At 2023-10-15 09:47:34 +0000 UTC
     </div>
 </div>
 
