@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2547" class=".btn">#2547</a>
+            </td>
+            <td>
+                <b>
+                    Update .readthedocs.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                RTD is broken because (I think) missing section of RTD.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-14 22:56:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2546" class=".btn">#2546</a>
             </td>
             <td>
@@ -203,58 +229,6 @@ Since we have not updated/implemented endorser in the anoncreds-rs branch, I hav
     </table>
     <div class="right-align">
         Created At 2023-10-09 14:21:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2537" class=".btn">#2537</a>
-            </td>
-            <td>
-                <b>
-                    fix (backport): routing behind mediator 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-08 00:07:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2536" class=".btn">#2536</a>
-            </td>
-            <td>
-                <b>
-                    fix: routing behind mediator 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a reopen of PR #2535 (after I botched my git command...). Thanks again @codespree for the fix.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-07 19:56:36 +0000 UTC
     </div>
 </div>
 
