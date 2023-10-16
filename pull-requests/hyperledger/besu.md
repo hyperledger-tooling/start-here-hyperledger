@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6037" class=".btn">#6037</a>
+            </td>
+            <td>
+                <b>
+                    Fcu v2 defer fork validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                re-orders the validity checking and priority on forkchoice updated calls.
+
+- payloadAttributes needs to be validated apart from new head validity, so there are now two steps for checking so that we can fail differently if the head being built on is missing or irrelevant to the building payload.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-16 14:14:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6036" class=".btn">#6036</a>
             </td>
             <td>
@@ -639,72 +667,6 @@ Notify plugins when a transaction is selected/rejected
     </table>
     <div class="right-align">
         Created At 2023-10-09 23:44:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6004" class=".btn">#6004</a>
-            </td>
-            <td>
-                <b>
-                    add retry logic on sync pipeline for rocksdb issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 15:36:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6003" class=".btn">#6003</a>
-            </td>
-            <td>
-                <b>
-                    Fleet mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 13:31:17 +0000 UTC
     </div>
 </div>
 
