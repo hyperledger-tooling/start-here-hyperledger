@@ -371,7 +371,7 @@ Fixes ATL-5883
             </td>
             <td>
                 <b>
-                    feat(prism-agent): add keycloak authorization support to endpoints [WIP]
+                    feat(prism-agent): add keycloak authorization support to endpoints
                 </b>
             </td>
         </tr>
