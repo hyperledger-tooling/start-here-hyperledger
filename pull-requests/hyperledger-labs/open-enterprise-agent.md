@@ -270,7 +270,7 @@ Fixes ATL-4094
         </tr>
         <tr>
             <td>
-                <span class="chip">build</span><span class="chip">infra</span>
+                <span class="chip">build</span><span class="chip">infra</span><span class="chip">shared</span>
             </td>
             <td>
                 # Overview
@@ -519,126 +519,6 @@ Fixes for ATL-4887
     </table>
     <div class="right-align">
         Created At 2023-10-09 15:16:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/750" class=".btn">#750</a>
-            </td>
-            <td>
-                <b>
-                    fix:  all performance tests run succesfully, add group thresholds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span><span class="chip">infra</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-This PR fixes all perforrmance tests currently part of the k6 code base. Previously - some didn't work due to issues with the json() serialisation function and there was inconsitency in scenarios and thresholds.
-Now - all tests run and pass on a local testing stack (will commit this in a future PR) and use the same defaults for a smoke test
-
-The performance tests have been refactored to share a common scenario but have their own group level thresholds defined. These are just initial definitions and the thresholds have not been tuned with respect to real levels of performance.
-
-Also, this PR introduces a local docker-compose example for running a single tenant stack - with 3 agents - all sharing a single instance of PRISM Node [VDR] 
-
-Two scripts are included for easily running the local e2e tests as well as performance tests.
-
-The performance tests expect a local prometheus instance to be running to push metrics to but will fail gracefully [and run tests anyone] even if it can't push metrics to this local instance of prometheus
-
-## Checklist
-
-### My PR contains...
-* [x] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [x] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [x] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 12:09:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/749" class=".btn">#749</a>
-            </td>
-            <td>
-                <b>
-                    fix: improve performance for background jobs in multitenancy mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">infra</span><span class="chip">connect</span>
-            </td>
-            <td>
-                Signed-off-by: Shailesh Patil <shailesh.patil@iohk.io>
-
-# Overview
-Fixes ATL-5773
-Previously, background jobs would iterate through each wallet and then query the databases correspondingly for each one. This approach may present performance issues as the number of wallets increases. To address this, the background jobs are now executed as an administrator user, and the wallet context is constructed based on each individual record.
-Jira link: https://input-output.atlassian.net/browse/ATL-5773 
-
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [x] Improvements (misc. changes to existing features)
-* [x] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 10:55:23 +0000 UTC
     </div>
 </div>
 

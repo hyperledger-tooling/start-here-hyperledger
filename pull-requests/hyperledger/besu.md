@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6036" class=".btn">#6036</a>
+            </td>
+            <td>
+                <b>
+                    Fix typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-16 11:54:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6035" class=".btn">#6035</a>
+            </td>
+            <td>
+                <b>
+                    Minor optimization on Eth_feeHistory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR has a minor optimization on Eth_feeHistory, on top of [this other optimization on Eth_feeHistory ](https://github.com/hyperledger/besu/pull/6011).
+
+Instead of sorting rewardPercentiles for each block header, this PR sorts only once and the sorted list is used as a parameter for each call to compute rewards.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-16 11:45:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6034" class=".btn">#6034</a>
             </td>
             <td>
@@ -650,58 +705,6 @@ Notify plugins when a transaction is selected/rejected
     </table>
     <div class="right-align">
         Created At 2023-10-09 13:31:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6002" class=".btn">#6002</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.10.0-RC2 burn in
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 09:54:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6000" class=".btn">#6000</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Trie log pruning 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 07:33:10 +0000 UTC
     </div>
 </div>
 

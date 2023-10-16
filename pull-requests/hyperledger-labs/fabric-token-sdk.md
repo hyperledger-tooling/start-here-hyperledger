@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/507" class=".btn">#507</a>
+            </td>
+            <td>
+                <b>
+                    use latest idemix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-16 09:20:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/506" class=".btn">#506</a>
             </td>
             <td>
@@ -43,7 +69,7 @@ badger 2023/10/14 14:23:14 INFO: ttxdb.SetStatus Sent data of size 40 KiB
 
 The output couldn't be controlled, because the badger was being initiated with default options including the default golang logger. 
 
-This PR injects the FSC logger into the badger config, so that the format corresponds to the rest of the logs of the Token SDK and can be controlled via the logging.spec config key (example: `info,token-sdk.ttxdb.badger=warn` will get keep 'info' as the standard level, but get rid of the noisy badger logs).
+This PR injects the FSC logger into the badger config, so that the format corresponds to the rest of the logs of the Token SDK and can be controlled via the logging.spec config key (example: `info,token-sdk.ttxdb.badger=warn` will keep 'info' as the standard level, but get rid of the noisy badger logs).
 
             </td>
         </tr>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Fix empty proof error at `ProveState` of the tendermint prover
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-16 11:00:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    Make core.MsgID serializable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-16 07:53:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/111" class=".btn">#111</a>
             </td>
             <td>
@@ -33,32 +85,6 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </table>
     <div class="right-align">
         Created At 2023-10-12 03:25:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/110" class=".btn">#110</a>
-            </td>
-            <td>
-                <b>
-                    ICS-20: Remove bech32 check for `dstAddr`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This allows us to specify arbitrary string format including ethereum "0x" prefixed address as `dstAddr`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 11:21:48 +0000 UTC
     </div>
 </div>
 

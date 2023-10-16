@@ -1,13 +1,13 @@
 
-[6034](https://github.com/hyperledger/besu/pull/6034) fix incorrect argument passing in blockParameter of TraceCallMany class
+[6036](https://github.com/hyperledger/besu/pull/6036) Fix typos
 
-[2548](https://github.com/hyperledger/aries-cloudagent-python/pull/2548) Update .readthedocs.yaml
+[6035](https://github.com/hyperledger/besu/pull/6035) Minor optimization on Eth_feeHistory
 
-[24](https://github.com/hyperledger-labs/did-webs-resolver/pull/24) improve did parser for port and path
+[114](https://github.com/hyperledger-labs/yui-relayer/pull/114) Fix empty proof error at `ProveState` of the tendermint prover
 
-[36](https://github.com/hyperledger-labs/cckit/pull/36) Balance
+[504](https://github.com/hyperledger-labs/fabric-smart-client/pull/504) idemix update
 
-[225](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/225) Fix identifier validations
+[507](https://github.com/hyperledger-labs/fabric-token-sdk/pull/507) use latest idemix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
