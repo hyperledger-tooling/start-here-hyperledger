@@ -154,32 +154,3 @@ Close #561
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/560" class=".btn">#560</a>
-            </td>
-            <td>
-                <b>
-                    Edited the gitignore.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Added the Django setting to the `.gitignore`.
-2. Added the cello folder to the `.gitignore`.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-08 19:37:04 +0000 UTC
-    </div>
-</div>
-

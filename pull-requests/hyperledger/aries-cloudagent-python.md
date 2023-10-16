@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2548" class=".btn">#2548</a>
+            </td>
+            <td>
+                <b>
+                    Update .readthedocs.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Another fix to this YAML file. Unfortunately, I can't test it without getting it into main (AFAIK...).  Frustrating...
+
+Errors were dumb in the last try...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-15 20:16:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2547" class=".btn">#2547</a>
             </td>
             <td>
