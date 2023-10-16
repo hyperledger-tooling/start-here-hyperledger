@@ -148,34 +148,3 @@ General cleanup
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/537" class=".btn">#537</a>
-            </td>
-            <td>
-                <b>
-                    Cypress UI automated test cases of console
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-Cypress UI automated test cases of console
-
-#### Description
-Cypress UI automated test cases of console and readme file to start
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 13:25:47 +0000 UTC
-    </div>
-</div>
-

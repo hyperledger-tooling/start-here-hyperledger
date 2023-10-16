@@ -122,7 +122,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 <b>
-                    [DRAFT] Osmosis IBC hooks
+                    Osmosis IBC hook
                 </b>
             </td>
         </tr>

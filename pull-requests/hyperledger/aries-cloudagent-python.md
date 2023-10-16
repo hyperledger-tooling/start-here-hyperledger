@@ -192,7 +192,7 @@ e.g.:
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AnonCreds</span>
             </td>
             <td>
                 This is the first set of updates for credential definitions API only.
@@ -231,32 +231,6 @@ Since we have not updated/implemented endorser in the anoncreds-rs branch, I hav
     </table>
     <div class="right-align">
         Created At 2023-10-09 18:19:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2539" class=".btn">#2539</a>
-            </td>
-            <td>
-                <b>
-                    0.10.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 14:21:08 +0000 UTC
     </div>
 </div>
 
