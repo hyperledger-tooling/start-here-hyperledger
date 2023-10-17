@@ -242,8 +242,8 @@ Once backlog is cleared, each prune run should just be a single trie log.
 TODO:
 - [x] Test with local node using smaller defaults for retain/prune window
 - [ ] Add feature toggle
-- [ ] Feasibility of streaming all trie logs on startup?
-- [ ] Test on real nodes using current defaults: retain latest 512 blocks; backlog prune window of 1000 blocks;
+- [x] Feasibility of streaming all trie logs on startup? Edit: Based on [test results below](https://github.com/hyperledger/besu/pull/6026#issuecomment-1763991623) it's probably not feasible to stream all in one go for nodes with a large backlog of trielogs
+- [x] Test on real nodes using current defaults: retain latest 512 blocks; backlog prune window of 1000 blocks;
 - [ ] Consider an option to only prune forks
 - [ ] Consider using safeBlock instead of 512 layers to retain
   - would be a nice strategy to prune only blocks older than RETAINED_LAYERS that have a subsequent finalized blockhash
@@ -639,34 +639,6 @@ Read the rendered version [here](https://github.com/fab-10/besu/blob/release-23.
     </table>
     <div class="right-align">
         Created At 2023-10-10 09:07:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6005" class=".btn">#6005</a>
-            </td>
-            <td>
-                <b>
-                    [Plugin API] - TransactionSelector - Notify plugins when transaction is selected/rejected
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Notify plugins when a transaction is selected/rejected
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-09 23:44:26 +0000 UTC
     </div>
 </div>
 
