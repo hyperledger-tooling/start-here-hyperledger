@@ -34,7 +34,7 @@ permalink: /releases/hyperledger/cello
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-09-19 17:50:22 +0000 UTC
+        Created At 2023-10-16 21:59:18 +0000 UTC
     </span>
 </div>
 
