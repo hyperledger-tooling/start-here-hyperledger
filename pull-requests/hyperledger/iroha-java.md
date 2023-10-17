@@ -632,29 +632,3 @@ Sign-off-by: [zyabkin@soramitsu.co.jp](mailto:zyabkin@soramitsu.co.jp)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/374" class=".btn">#374</a>
-            </td>
-            <td>
-                <b>
-                    Get rid of manual free ports finding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 05:22:57 +0000 UTC
-    </div>
-</div>
-

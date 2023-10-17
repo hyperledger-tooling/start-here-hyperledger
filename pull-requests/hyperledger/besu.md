@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6038" class=".btn">#6038</a>
+            </td>
+            <td>
+                <b>
+                    [CHANGELOG] fix links to issue 5772
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes link refs #6031 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-17 01:50:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6037" class=".btn">#6037</a>
             </td>
             <td>
