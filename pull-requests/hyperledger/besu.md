@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6045" class=".btn">#6045</a>
+            </td>
+            <td>
+                <b>
+                    Fixed eth_call before london fork for the calls without strict parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fixed eth_call before London fork for the calls without `strict` parameters.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fix #5943
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-17 17:31:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6044" class=".btn">#6044</a>
+            </td>
+            <td>
+                <b>
+                    Time limited block creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-17 17:04:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6040" class=".btn">#6040</a>
             </td>
             <td>
@@ -264,6 +332,23 @@ Noticed that these lines of code were duplicated.
 
 ## PR description
 
+Before adding new mining options for upcoming features, I took some time to review and refactor mining options.
+Mining parameters are a bit odd when compared to other options, since they do not follow the same pattern of using immutables, as for txpool options, stable options are defined in `BesuCommand`, and since that file is already too big, adding more options there should be avoided. 
+
+For the refactoring I have reapplied most of the solutions used for the refactoring of txpool options (see #5772 if interested), with some novelty, since for mining configuration a new feature is required, that is having the possibility to update the value of some options at runtime.
+One notable difference with #5772, is that _stable_ and _unstable_ options are no more split on two classes, since it make more sense to keep all the related options in a single place, also because some validations could make use of a mix of stable and unstable options, and for that it is better to have all of them in a single place.
+
+To implement the _update at runtime_ feature, in a thread safe way, unfortunately it is not possible to use the immutables library directly, so instead of using annotations, some code has to be added to the `MiningParameters` class to manage the updatables options. If the proposed solution prove to be effective and looks good, after it stabilize, we can also think of extending the immutables library to support this, or introduce our own annotations, or find another library that is best suited for managing configuration.
+The _updatable_ parameters work like that: 
+- on startup their initial value is set, as usual from config file or CLI, 
+- these parameters have also a _set_, along with the normal _get_ one, 
+- the values are kept in _volatile_ fields, to make it multi thread friendly
+- Note that initial values are kept in case it is needed, even if the parameters  then updated at runtime, 
+
+The proposed implementation also has the goal to centralize all the parameters in the `MiningParameters` class, and only passing this class around instead of passing single parameters, like `coinbase`, `extraData`, etc... so it should help readability and make easier to manage these parameter.
+
+More refactoring may be proposed in following PRs, to avoid making this one too big, for example `MiningParameters` could be renamed to `MiningConfiguration` for consistency with the naming of similar classes, then could make sense to pass mining parameters directly to RPC methods that update things like `coinbase`, `targetGasLimit` etc... instead of passing through other objects.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -446,150 +531,6 @@ This PR makes some changes to the Transaction Validation and Selection Plugin AP
     </table>
     <div class="right-align">
         Created At 2023-10-10 19:24:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6015" class=".btn">#6015</a>
-            </td>
-            <td>
-                <b>
-                    Set version to 23.10.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 16:48:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6013" class=".btn">#6013</a>
-            </td>
-            <td>
-                <b>
-                    add method to disable root verification for T8n and not Reference tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-add method to disable root verification for T8n and not Reference tests
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#5979 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 14:00:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6012" class=".btn">#6012</a>
-            </td>
-            <td>
-                <b>
-                    Standardize pubkey and public key naming in deposit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Currently there are various naming for public key (`publicKey`, `pubkey`, `pubKey`) in Deposit/DepositReceipt. This PR is to standardize them to `pubkey` such that they are consistent with the naming convention in [execution-api](https://github.com/ethereum/execution-apis/blob/584905270d8ad665718058060267061ecfd79ca5/src/engine/experimental/eip6110.md?plain=1#L31)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 13:14:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6011" class=".btn">#6011</a>
-            </td>
-            <td>
-                <b>
-                    Optimize Eth_feeHistory RPC method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR enhances the Eth_feeHistory method through the implementation of a new cache for storing computed rewards. 
-Furthermore, it introduces enhancements in the process of calculating rewards.
-
-The tests below are done on a Standard_D4s_v5 Azure VM (4 vCPU, 16 GiB RAM)
-
-### Before this PR :
-Besu wasn't able to handle 5 TPS for eth_feeHistory (with 1024 blocks) for near head calls
-
-flood eth_feeHistory localhost:8545 -d 300 -r 5 --metrics p50 p90 p99
-<img width="343" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/3e3e3791-6e23-42b7-adf9-9515a31a1358">
-
-**CPU profiling**
-![image](https://github.com/hyperledger/besu/assets/5099602/4a02b7b2-55ac-4cd8-85a5-f93c213e6400)
-
-
-### After this PR
-Besu is able to handle 50 TPS with 99th percentile in 139 ms. Combining this PR with PR https://github.com/hyperledger/besu/pull/6009, Besu was able to handle 500 TPS on near head calls with 1024 blocks.
-
-flood eth_feeHistory localhost:8545 -d 300 -r 50 --metrics p50 p90 p99
-
-<img width="330" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/688d751b-8629-4d19-b42c-44b5c4a05d3b">
-
-**CPU profiling**
-![image](https://github.com/hyperledger/besu/assets/5099602/44fa849c-f562-438f-84e2-98e7258a4582)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 12:57:55 +0000 UTC
     </div>
 </div>
 
