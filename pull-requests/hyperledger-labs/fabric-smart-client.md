@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvement</span>
             </td>
             <td>
                 <nil>
