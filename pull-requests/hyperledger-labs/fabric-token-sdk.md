@@ -52,7 +52,7 @@ This PR adds a command to the tokengen cli utility to update the auditor and/or 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
                 <nil>
@@ -78,7 +78,7 @@ This PR adds a command to the tokengen cli utility to update the auditor and/or 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
                 Badger has noisy logs when writing:
