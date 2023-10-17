@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    Fix the vulnerabilities by updating deps
+                    Optimize the Restarts Queue
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/131
-https://github.com/hyperledger-labs/fabric-operator/issues/132
+                This PR Optimizes the Restart Queue and reduces the Number of Restarts needed for the Components.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-02 16:10:57 +0000 UTC
+        Created At 2023-10-17 15:40:59 +0000 UTC
     </div>
 </div>
 

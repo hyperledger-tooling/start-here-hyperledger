@@ -1,13 +1,13 @@
 
-[3997](https://github.com/hyperledger/iroha/pull/3997) [release]: RC20
+[543](https://github.com/hyperledger-labs/fabric-operations-console/pull/543) Bump @babel/traverse from 7.22.5 to 7.23.2 in /packages/stitch
 
-[115](https://github.com/hyperledger-labs/yui-relayer/pull/115) LC refresh
+[6045](https://github.com/hyperledger/besu/pull/6045) Fixed eth_call before london fork for the calls without strict parameter
 
-[3996](https://github.com/hyperledger/iroha/pull/3996) History fix (temporary draft)
+[4482](https://github.com/hyperledger/fabric/pull/4482) Use defer to simplify the logic
 
-[573](https://github.com/hyperledger/cello/pull/573) Implement Chaincode dashboard
+[4001](https://github.com/hyperledger/iroha/pull/4001) RC.20 Docker
 
-[572](https://github.com/hyperledger/cello/pull/572) Add required msgs for Chaincode page
+[4481](https://github.com/hyperledger/fabric/pull/4481) Simplify the code structure
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
