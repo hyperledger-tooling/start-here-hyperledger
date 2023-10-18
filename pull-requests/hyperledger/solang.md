@@ -218,7 +218,9 @@ Key Changes:
                 
             </td>
             <td>
-                <nil>
+                Fixes a bug: `StorageLoad` after a struct member access is a storage read, this case was not considered in the mutability check.
+
+The regression in the EVM test is fine; it's caused by a [problem in solc](https://github.com/ethereum/solidity/issues/11573)
             </td>
         </tr>
     </table>

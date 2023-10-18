@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6052" class=".btn">#6052</a>
+            </td>
+            <td>
+                <b>
+                    not pruning block during the initial sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+I propose a modification to the block pruning feature so that we can lower the minimum limit to 512 instead of 7200. Why 512? Simply to allow a minimum number of blocks close to the head. This is also the number we chose for the world state on Bonsai and seems to be a good compromise between pruning and accessibility of recent history.
+
+7200 was chosen to avoid pruning during the initial sync, so I made a modification to prune during the initial sync by querying the SyncState.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-18 13:14:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6049" class=".btn">#6049</a>
             </td>
             <td>
