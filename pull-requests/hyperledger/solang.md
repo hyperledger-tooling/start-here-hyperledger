@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1569" class=".btn">#1569</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: The type of a resolved assignments needs a storage deref
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When resolving an assignment, the resolved variable is always in memory and can't be of `Type::StorageRef`. Not dereferencing the type causes various issues in later compilation stages.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-17 18:44:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1568" class=".btn">#1568</a>
             </td>
             <td>
