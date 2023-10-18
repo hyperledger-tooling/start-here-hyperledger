@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2554" class=".btn">#2554</a>
+            </td>
+            <td>
+                <b>
+                    fix: taa rough timestamp timezone from datetime
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2553
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-18 18:10:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2552" class=".btn">#2552</a>
             </td>
             <td>
@@ -346,37 +372,6 @@ e.g.:
     </table>
     <div class="right-align">
         Created At 2023-10-13 09:34:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2544" class=".btn">#2544</a>
-            </td>
-            <td>
-                <b>
-                    fix: correct minor typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes some minor spelling typos:
-
-   Congradulations -> Congratulations
-   explicitely -> explicitly
-   supprting -> supporting
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-11 13:33:26 +0000 UTC
     </div>
 </div>
 

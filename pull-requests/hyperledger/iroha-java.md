@@ -628,33 +628,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/375" class=".btn">#375</a>
-            </td>
-            <td>
-                <b>
-                    DOPS-2715: Add workflow to upload test results to Allure Test Ops
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Changes
-
-1. Add workflow to upload iroha2-dev `java-sdk` tests results to Allure Test Ops
-
-Sign-off-by: [zyabkin@soramitsu.co.jp](mailto:zyabkin@soramitsu.co.jp)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-11 14:20:03 +0000 UTC
-    </div>
-</div>
-

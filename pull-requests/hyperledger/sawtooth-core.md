@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2462" class=".btn">#2462</a>
-            </td>
-            <td>
-                <b>
-                    Fix GitHub actions pythonpath and disable broken adm lmdb tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The expectation is that this will pass the build github action.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-11 17:46:19 +0000 UTC
-    </div>
-</div>
-
