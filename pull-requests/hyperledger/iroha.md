@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4004" class=".btn">#4004</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3130: Add type-state-pattern to divide client into sync and async parts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This PR adds traits to implement type-state-pattern on `Client` to divide it into sync and async parts.
+I'm going to open also two pull requests:
+- Add async client features
+- `iroha_awc` and `iroha_hyper` crates implementations
+
+### Linked issue
+
+Closes #3130
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs 
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+- [ ] Open a pull request that adds async client features
+- [ ] Open a pull request that add implementations of the `iroha_awc` and `iroha_hyper` crates
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-18 05:48:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4003" class=".btn">#4003</a>
             </td>
             <td>
@@ -24,7 +82,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.x</span><span class="chip">api-changes</span><span class="chip">1.5</span>
             </td>
             <td>
                 ## Description

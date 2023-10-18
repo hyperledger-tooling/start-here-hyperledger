@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6049" class=".btn">#6049</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] ux improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * log plugins summary at info
+* include affected CLI option when there's a compatibility issue found by `failIfOptionDoesntMeetRequirement`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-18 05:27:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6048" class=".btn">#6048</a>
             </td>
             <td>
@@ -559,33 +586,6 @@ Fixes https://github.com/hyperledger/besu/issues/6021
     </table>
     <div class="right-align">
         Created At 2023-10-11 21:19:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6020" class=".btn">#6020</a>
-            </td>
-            <td>
-                <b>
-                    Transaction Validation and Selection Plugin API update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR makes some changes to the Transaction Validation and Selection Plugin API to make them more useful.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-11 06:03:37 +0000 UTC
     </div>
 </div>
 
