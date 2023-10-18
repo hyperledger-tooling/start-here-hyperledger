@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6048" class=".btn">#6048</a>
+            </td>
+            <td>
+                <b>
+                    Use BONSAI for the execution engine BesuNode in ATs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Affects tests extending AbstractJsonRpcTest
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-17 23:05:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6047" class=".btn">#6047</a>
+            </td>
+            <td>
+                <b>
+                    Add X (Twitter) to README, Fix Roadmap Hyperlink
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- Adds X (Twitter) hyperlink to README for increased visibility and community engagement for the Hyperledger Besu account.
+
+- Fixes roadmap hyperlink as previous one is broken.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-17 22:14:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6046" class=".btn">#6046</a>
+            </td>
+            <td>
+                <b>
+                    Unsigned timestamps and blob gas used
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Merge after pr #6037 , was built on top of that.
+
+the pyspec simulator in Hive likes to check fields for max capacities, which showed us a lot of places where using signed longs is a problem. This pr fixes many of them.
+
+broader adoption of CheckerFramework is suggested at a later time, so that we can see where else we are affected by this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-17 18:26:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6045" class=".btn">#6045</a>
             </td>
             <td>
@@ -498,39 +586,6 @@ This PR makes some changes to the Transaction Validation and Selection Plugin AP
     </table>
     <div class="right-align">
         Created At 2023-10-11 06:03:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6017" class=".btn">#6017</a>
-            </td>
-            <td>
-                <b>
-                    Update 23.10.0 changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-10 19:24:05 +0000 UTC
     </div>
 </div>
 

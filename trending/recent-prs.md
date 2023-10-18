@@ -1,13 +1,13 @@
 
-[543](https://github.com/hyperledger-labs/fabric-operations-console/pull/543) Bump @babel/traverse from 7.22.5 to 7.23.2 in /packages/stitch
+[4483](https://github.com/hyperledger/fabric/pull/4483) Extend integration tests to over inspect option of checkcommitreadiness
 
-[6045](https://github.com/hyperledger/besu/pull/6045) Fixed eth_call before london fork for the calls without strict parameter
+[6048](https://github.com/hyperledger/besu/pull/6048) Use BONSAI for the execution engine BesuNode in ATs
 
-[4482](https://github.com/hyperledger/fabric/pull/4482) Use defer to simplify the logic
+[6047](https://github.com/hyperledger/besu/pull/6047) Add X (Twitter) to README, Fix Roadmap Hyperlink
 
-[4001](https://github.com/hyperledger/iroha/pull/4001) RC.20 Docker
+[4003](https://github.com/hyperledger/iroha/pull/4003) Paramtitle
 
-[4481](https://github.com/hyperledger/fabric/pull/4481) Simplify the code structure
+[317](https://github.com/hyperledger/fabric-chaincode-java/pull/317) Move to Gradle v7.6.3 for all wrappers.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
