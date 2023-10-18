@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/174" class=".btn">#174</a>
+            </td>
+            <td>
+                <b>
+                    Move grpc from devDependencies to dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes https://github.com/hyperledger/iroha-javascript/issues/173
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-18 10:39:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-javascript/pull/172" class=".btn">#172</a>
             </td>
             <td>
