@@ -104,7 +104,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    Extend integration tests to over inspect option of checkcommitreadiness
+                    Extend integration tests to cover inspect option of checkcommitreadiness
                 </b>
             </td>
         </tr>
