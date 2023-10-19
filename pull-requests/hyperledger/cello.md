@@ -306,33 +306,3 @@ Close #563
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/562" class=".btn">#562</a>
-            </td>
-            <td>
-                <b>
-                    [#issue-561]Missing individual description information definitions in…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                … agent, user, and channel pages
-
-Missing individual description information definitions in agent, user, and channel pages
-
-Close #561 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-12 06:17:31 +0000 UTC
-    </div>
-</div>
-

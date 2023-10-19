@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6057" class=".btn">#6057</a>
+            </td>
+            <td>
+                <b>
+                    Code storage by hash compare
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This is a fork of https://github.com/hyperledger/besu/pull/5889 to test the accuracy of the code storage.
+
+Not intended to be merged.
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 01:25:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6056" class=".btn">#6056</a>
             </td>
             <td>
@@ -134,7 +169,7 @@ I propose a modification to the block pruning feature so that we can lower the m
                 
             </td>
             <td>
-                * log plugins summary at info
+                * log plugins summary at info (part of config overview)
 * include affected CLI option when there's a compatibility issue found by `failIfOptionDoesntMeetRequirement`
             </td>
         </tr>
