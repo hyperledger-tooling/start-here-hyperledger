@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/993" class=".btn">#993</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1000" class=".btn">#1000</a>
             </td>
             <td>
                 <b>
-                    fix: edit button spacing
+                    feat: add supported languages to configuration context
                 </b>
             </td>
         </tr>
@@ -29,160 +29,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-with large wallet names the edit button would get pushed off the screen, added padding to make text wrap before it pushes button
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [ ] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 23:57:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/992" class=".btn">#992</a>
-            </td>
-            <td>
-                <b>
-                    feat: create OpenID4VCI package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Work in progress
-
-# Related Issues
-
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [ ] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 18:00:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/991" class=".btn">#991</a>
-            </td>
-            <td>
-                <b>
-                    ci: lock ruby environment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Replace this text with a high-level summary of the changes included in this PR.
-
-# Related Issues
-
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-06 15:38:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/990" class=".btn">#990</a>
-            </td>
-            <td>
-                <b>
-                    fix: deeplink issue where no params are set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-This PR fixes the deeplink error issue sometimes caused by other apps linking into Bifold / BC Wallet without params. The RootStack component is quite difficult to set up for unit / integration testing and it's a small change so I'm hoping we can slide this one by without, given the urgency.
+Currently, all wallets need to support the three languages configured in the bifold (English, French and Portuguese). The aim of this PR is to enable you to change the default languages, so that you can choose only those you want to support.
 
 # Related Issues
 
@@ -195,7 +42,7 @@ Tick all boxes below to demonstrate that you have completed the respective task.
 - [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
 - [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
 - [x] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
 
 If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
 
@@ -210,7 +57,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-06 00:31:16 +0000 UTC
+        Created At 2023-10-18 17:47:50 +0000 UTC
     </div>
 </div>
 
@@ -218,11 +65,11 @@ _PR template adapted from the Python attrs project._
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/989" class=".btn">#989</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/998" class=".btn">#998</a>
             </td>
             <td>
                 <b>
-                    fix: add testIDs to wallet edit touchable components
+                    fix: fixed labels in chat and pin screen
                 </b>
             </td>
         </tr>
@@ -233,12 +80,12 @@ _PR template adapted from the Python attrs project._
             <td>
                 # Summary of Changes
 
-Add testIDs to wallet edit touchable components.
-
+- Updated the accessibility label on the pin screen, previously it would read out the translation template rather than the resulting value 
+- Updated link accessibility in chat. Labelled link items with the link accessibility role  
 
 # Related Issues
 
-n/a
+N/A
 
 # Pull Request Checklist
 
@@ -262,7 +109,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-05 17:37:52 +0000 UTC
+        Created At 2023-10-17 00:04:50 +0000 UTC
     </div>
 </div>
 
@@ -270,11 +117,11 @@ _PR template adapted from the Python attrs project._
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/988" class=".btn">#988</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/997" class=".btn">#997</a>
             </td>
             <td>
                 <b>
-                    refactor: publish core package
+                    feat: delete connection from rejected mobile verifier proof
                 </b>
             </td>
         </tr>
@@ -285,123 +132,8 @@ _PR template adapted from the Python attrs project._
             <td>
                 # Summary of Changes
 
-- remove `packages/core` in favour of `packages/legacy/core`
-- publish `packages/legacy/core` as `@hyperledger/aries-bifold-core`
-- move verifier code to its own package: `@hyperledger/aries-bifold-verifier`
-- standardize building/compiling process around [react-native-builder-bob](https://github.com/callstack/react-native-builder-bob)
-- standardize/align/share typescript configuration file
-
-# Related Issues
-
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [ ] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-04 21:19:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/987" class=".btn">#987</a>
-            </td>
-            <td>
-                <b>
-                    feat: add namespace support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Update the script that can rebuild the ledger genesis transaciton. Support was added so in builds in the `indyNamespace` property.
-
-```json
-[
-  {
-    "id": "BCovrinTest",
-    "indyNamespace": "bcovrin:test",
-    "isProduction": false,
-    ...
-```
-
-# Related Issues
-
-hyperledger/indy-did-networks#3
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-04 19:45:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/985" class=".btn">#985</a>
-            </td>
-            <td>
-                <b>
-                    chore: align dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-Each workspace package have it own package.json file. To avoid dependency conflict and unnecessary nested dependencies, I've aligned the dependency across all packages.
-
-[syncpack](https://www.npmjs.com/package/syncpack) is a nice utility that can be run on a regular basis to keep the dependency aligned.
+Previously if the holder rejected a proof request while the mobile verifier was not on the proof requesting screen or had the app closed, the verifier would not delete the contact information of the holder. This change ensures that the contact is deleted for data privacy.
+![Peek 2023-10-16 12-58](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/36937407/021c29fa-e3a2-4bfc-89e2-ba14c0188a2b)
 
 # Related Issues
 
@@ -429,7 +161,60 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 15:44:41 +0000 UTC
+        Created At 2023-10-16 20:00:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/996" class=".btn">#996</a>
+            </td>
+            <td>
+                <b>
+                    fix: line break when it’s a long attribute
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Line break when it’s a long attribute.
+The previous attempt didn't cover all scenarios.
+
+`marginRight` set to `logoHeight * 2` to compensate the left distance of `logoHeight + (logoHeight - padding) + padding`
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [X] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [X] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [X] Updated documentation as needed for changed code and new or modified features;
+- [X] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-16 10:56:19 +0000 UTC
     </div>
 </div>
 

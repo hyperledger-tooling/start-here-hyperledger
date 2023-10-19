@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/384" class=".btn">#384</a>
+            </td>
+            <td>
+                <b>
+                    Log expiry overrides
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If cert expiry during enrollment gets overridden
+due to the CA's own expiry, log a message about the override (rather than a debug message).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 17:38:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/383" class=".btn">#383</a>
             </td>
             <td>

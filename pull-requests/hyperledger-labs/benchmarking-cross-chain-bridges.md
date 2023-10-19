@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    refactor: yarn update and variable name
+                    Feat: Socket swaps using SDK
                 </b>
             </td>
         </tr>
@@ -27,41 +27,16 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
                 
             </td>
             <td>
-                1) Upgraded packages 
-2) Refactored chainlink contracts to be compatible with refactor
-3) Protocol Route, Quote, etc types start with ProtocolName as prefix ex: Quote is now COWQuote or LIFIQuote
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-29 17:39:44 +0000 UTC
-    </div>
-</div>
+                1. Refactored chain_id 1. 
+> Old name MAINNET new name ETHEREUM
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/7" class=".btn">#7</a>
-            </td>
-            <td>
-                <b>
-                    feat: uniswap swap execution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1) added uniswap swaps
-2) increased test async wait to 100,000ms from 30,000ms (uniswap multihop sometimes takes a while) 
+2. Added socket swaps using the SDK
+3. Performs single and multi tx swaps
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-29 17:04:31 +0000 UTC
+        Created At 2023-10-19 13:13:28 +0000 UTC
     </div>
 </div>
 

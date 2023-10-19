@@ -14,30 +14,65 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1013" class=".btn">#1013</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1019" class=".btn">#1019</a>
             </td>
             <td>
                 <b>
-                    Purge vdrtools
+                    Bump rustix from 0.37.24 to 0.37.25
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
-                Attempts to remove all unnecessary code from `libvdrtools`, keeping only the wallet and the anoncreds data structures definitions (for the `wallet_migrator` crate to use).
+                Bumps [rustix](https://github.com/bytecodealliance/rustix) from 0.37.24 to 0.37.25.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/bytecodealliance/rustix/commit/00b84d6aac2364455eab2c68e42afee63d6e3ad3"><code>00b84d6</code></a> chore: Release rustix version 0.37.25</li>
+<li><a href="https://github.com/bytecodealliance/rustix/commit/cad15a7076d493a0651fb0b7889bd5e5a72a8f17"><code>cad15a7</code></a> Fixes for <code>Dir</code> on macOS, FreeBSD, and WASI.</li>
+<li><a href="https://github.com/bytecodealliance/rustix/commit/df3c3a192cf144af0da8a57417fb4addbdc611f6"><code>df3c3a1</code></a> Merge pull request from GHSA-c827-hfw6-qwvm</li>
+<li>See full diff in <a href="https://github.com/bytecodealliance/rustix/compare/v0.37.24...v0.37.25">compare view</a></li>
+</ul>
+</details>
+<br />
 
-Additionally, removed lint exemption and fixed lints in the crate while also removing the `migration` and `vdrtools/vdrtools_anoncreds` feature flags from `aries_vcx` and `aries_vcx_core`.
 
-Lastly, dependencies have been updated and tweaked. Of particular notice are `sqlx` which was bumped to the latest version (`0.7.1`) and `zeroize` which was bumped to the latest version (`1.6.0`).
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=rustix&package-manager=cargo&previous-version=0.37.24&new-version=0.37.25)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-vcx/network/alerts).
+
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-06 09:06:04 +0000 UTC
+        Created At 2023-10-18 18:46:43 +0000 UTC
     </div>
 </div>
 
@@ -45,11 +80,11 @@ Lastly, dependencies have been updated and tweaked. Of particular notice are `sq
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1011" class=".btn">#1011</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1018" class=".btn">#1018</a>
             </td>
             <td>
                 <b>
-                    Replace trait objects in libvcx_core with generics/concrete types
+                    Add support for pickup protocol messages
                 </b>
             </td>
         </tr>
@@ -58,13 +93,12 @@ Lastly, dependencies have been updated and tweaked. Of particular notice are `sq
                 
             </td>
             <td>
-                Replaces as much as possible the usage of `Arc` and trait objects to use generics/concrete types instead. This will further aid in the refactor of the primitives interface traits.
-This PR also removes the feature flags for conditional anoncreds implementations in `libvcx_core` and node JS wrapper, relying entirely on `credx`.
+                Ref: https://github.com/hyperledger/aries-rfcs/blob/main/features/0685-pickup-v2/README.md
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-05 07:55:50 +0000 UTC
+        Created At 2023-10-18 06:06:45 +0000 UTC
     </div>
 </div>
 
@@ -72,11 +106,11 @@ This PR also removes the feature flags for conditional anoncreds implementations
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1010" class=".btn">#1010</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1017" class=".btn">#1017</a>
             </td>
             <td>
                 <b>
-                    Release 0.59.1
+                    Present Proof V2.0 message structures
                 </b>
             </td>
         </tr>
@@ -85,14 +119,17 @@ This PR also removes the feature flags for conditional anoncreds implementations
                 
             </td>
             <td>
-                This is a patch release to "seal" changes in vdrtools -> credx wallet migration
+                Related, almost identical to: https://github.com/hyperledger/aries-vcx/pull/990
 
-Release `0.60.0` will have `vdrtools -> credx` migration removed, as well as entire anoncreds portion of `vdrtools` (leaving only vdrtools wallet)
+NOTE: I've gone with v2.0 (as opposed to v2.1 & v2.2), this is primarily because it seems to be what others (aca-py & AFJ) are targeting and expect. similarly, V2.0 is what AIP2.0 lists as it's requirement: https://github.com/hyperledger/aries-rfcs/blob/main/concepts/0302-aries-interop-profile/README.md#base-requirements
+
+The changes are virtually identical to #990 , other changes include:
+* moved `AttachmentFormatSpecifier` to a common place
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-04 10:20:59 +0000 UTC
+        Created At 2023-10-18 03:06:54 +0000 UTC
     </div>
 </div>
 
@@ -100,11 +137,11 @@ Release `0.60.0` will have `vdrtools -> credx` migration removed, as well as ent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1007" class=".btn">#1007</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1016" class=".btn">#1016</a>
             </td>
             <td>
                 <b>
-                    Use a sequence of bytes (representing AriesMessage) as input for EncryptionEnvelope::create
+                    Extract primitives and remove Profile
                 </b>
             </td>
         </tr>
@@ -113,50 +150,12 @@ Release `0.60.0` will have `vdrtools -> credx` migration removed, as well as ent
                 
             </td>
             <td>
-                
-This makes it more general, allowing use of the utility methods without worrying about the exact structure of `AriesMessage` passed in. In doing so, allows for also wrapping message types not yet recognized in aries_vcx.
+                This PR removes the `Profile` trait in favor of using independent components instead. Additionally, it aims to remove the shared usage of primitive components (making them depend on each other) and instead rely on function signatures to specifically ask for the components needed (without hidden implications that passing `Anoncreds` will also pass a `Wallet` instance).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 12:30:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1006" class=".btn">#1006</a>
-            </td>
-            <td>
-                <b>
-                    Do not delete target wallet, do not fail migration on item-error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is set of changes to make the migration.
-- More graceful, one migration error should not halt migration of the rest. It's up to migrating user to evaluate whether the migration result is satisfactory.
-- Idempotent - if migration fails for example due an IO error midway, it should be possible to finish it on 2nd try.
-
-Changes:
-- If migration fails, do not delete the target wallet.
-- Disable adding records to vdrtool cache when running migration.
-- Do not fail migration if the record has unexpected format. Just skip it and log the record. 
-- If migration of the record itself fail, skip it and log.
-- If adding item to target wallet fails due duplication error, skip it. For idempotency it would be ideal to overwrite it, but that would need digging deeper. For now, skipping these records still gives us idempotency under assumption item migration process was not changed between 2 migrations attempts.
-- If adding item fails for other reason, fail the migration (likely IO error).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-03 06:45:06 +0000 UTC
+        Created At 2023-10-17 08:22:49 +0000 UTC
     </div>
 </div>
 
