@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Bump anchor and borsh dependencies
+                    Bump anchor and other dependencies
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Update all the crates which can be updated easily.
+
+
             </td>
         </tr>
     </table>
@@ -198,34 +200,6 @@ Key Changes:
     </table>
     <div class="right-align">
         Created At 2023-10-16 13:09:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1563" class=".btn">#1563</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix struct member read access (take 2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes a bug: `StorageLoad` after a struct member access is a storage read, this case was not considered in the mutability check.
-
-The regression in the EVM test is fine; it's caused by a [problem in solc](https://github.com/ethereum/solidity/issues/11573)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-12 11:12:55 +0000 UTC
     </div>
 </div>
 

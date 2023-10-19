@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4007" class=".btn">#4007</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3237: Expose cargo's output in wasm_builder_cli to have build progress information
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This adds a progress bar to `wasm_builder_cli` by exposing cargo's output (which already implements progress bar).
+
+### Linked issue
+
+Closes #3237 
+
+### Benefits
+
+The user can see the progress of the build
+
+### Checklist
+
+- [x] Make CI pass
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 07:31:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4004" class=".btn">#4004</a>
             </td>
             <td>
