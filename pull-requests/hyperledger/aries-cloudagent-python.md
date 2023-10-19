@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2559" class=".btn">#2559</a>
+            </td>
+            <td>
+                <b>
+                    refactor: replace multiformats library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This replaces the multiformats library with a very basic implementation included directly within ACA-Py. Given that the multiformats library has gone stale and my PR has languished, I think this is a good alternative to using that library. The implementation is very simple and currently only supports the minimum currently required by ACA-Py. Expanding the implementation in the future should be trivial.
+
+Fixes #2501 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 15:19:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2558" class=".btn">#2558</a>
+            </td>
+            <td>
+                <b>
+                    Fix: RevRegEntry Transaction Endorsement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - resolve #2441 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 14:32:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2557" class=".btn">#2557</a>
             </td>
             <td>

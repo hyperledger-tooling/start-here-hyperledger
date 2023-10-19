@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/546" class=".btn">#546</a>
+            </td>
+            <td>
+                <b>
+                    add buttons to delete all components or the wallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+
+#### Description
+Added a new delete-all-components button and a delete-wallet button to the settings page. they are hidden by default to prevent mishaps. they can be shown by adding `?debug=true` to the url when on the `/settings` page, like `/settings?debug=true`, 
+- the delete-all-components button only appears to users w/ a `manager` role
+- the delete-wallet button only appears to users w/ a `writer` role
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 17:31:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/545" class=".btn">#545</a>
             </td>
             <td>

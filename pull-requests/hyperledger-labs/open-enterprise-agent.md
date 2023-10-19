@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 <b>
-                    feat: add new auth params ATL-5771
+                    feat: add new auth params
                 </b>
             </td>
         </tr>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/201" class=".btn">#201</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/203" class=".btn">#203</a>
             </td>
             <td>
                 <b>
-                    Fix for scenario @T011.2-Proof "Holder of a dismissed revoked notification reviews …
+                    BCW Special and Extended characters tests
                 </b>
             </td>
         </tr>
@@ -27,42 +27,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                Scenario : Holder of a dismissed revoked notification reviews revocation status again
-Tag: @T011.2-Proof
+                This PR includes the addition of BCW Tests that test extended and special characters. 
 
-Added specific locators for both android and iOS
-Added scroll to bottom before checking Revoked Date
+It also adjusts the regression runs to the latest minor version of the iOS major versions. This way we don't test iOS 13.6 when iOS 13.8 is the latest. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-06 20:16:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/200" class=".btn">#200</a>
-            </td>
-            <td>
-                <b>
-                    BC Wallet Wallet naming tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-05 20:20:03 +0000 UTC
+        Created At 2023-10-13 19:17:07 +0000 UTC
     </div>
 </div>
 
