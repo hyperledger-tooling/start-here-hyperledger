@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6056" class=".btn">#6056</a>
+            </td>
+            <td>
+                <b>
+                    Code storage by hash nodelete
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This is a fork of #5889 to test the impact of not deleting and removing the code.
+
+Not intended to be merged.
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 00:29:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6054" class=".btn">#6054</a>
+            </td>
+            <td>
+                <b>
+                    Update reference tests to Cancun
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update reference tests to cancun tests.
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-18 22:34:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6052" class=".btn">#6052</a>
             </td>
             <td>
@@ -552,77 +622,6 @@ TODO:
     </table>
     <div class="right-align">
         Created At 2023-10-12 07:42:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6023" class=".btn">#6023</a>
-            </td>
-            <td>
-                <b>
-                    Journaled world state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Introduce a new Journaled World State Updater, that within a transaction keeps one copy of account and storage state, restoring previous revisions on reverts and exceptional halts.  This updater only supports post-merge semantics with regard to empty accounts, namely that they do not exist in world state.
-
-Adds an EvmConfiguration option for stacked vs journaled updater, and
-wire it in where needed.  This is high touch as it's dependency
-injection, but fairly simple code.
-
-Staked and Journaled updaters both continue to exist in the codebase, with Stacked updaters being the default
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-11 21:47:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6022" class=".btn">#6022</a>
-            </td>
-            <td>
-                <b>
-                    Add bool TX pool flag to allow TX selection to avoid prioritizing TXs from the same sender
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-WIP
-
-## Fixed Issue(s)
-Fixes https://github.com/hyperledger/besu/issues/6021
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-11 21:19:56 +0000 UTC
     </div>
 </div>
 
