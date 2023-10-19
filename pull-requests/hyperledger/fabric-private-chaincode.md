@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/737" class=".btn">#737</a>
+            </td>
+            <td>
+                <b>
+                    Fix fabric-ca upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 08:28:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/736" class=".btn">#736</a>
+            </td>
+            <td>
+                <b>
+                    Update maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding Maria to the FPC maintainer list 🚀
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 08:07:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/735" class=".btn">#735</a>
             </td>
             <td>

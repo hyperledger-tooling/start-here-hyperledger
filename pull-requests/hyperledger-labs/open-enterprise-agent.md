@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/762" class=".btn">#762</a>
+            </td>
+            <td>
+                <b>
+                    feat: add new auth params ATL-5771
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">infra</span>
+            </td>
+            <td>
+                # Overview
+
+Fixes ATL-5771
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 11:06:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/761" class=".btn">#761</a>
+            </td>
+            <td>
+                <b>
+                    test: add tests on keycloak authenticator logic [do not merge]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">connect</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Do not merge until these 2 PRs are merged and conflicts are resolved
+- #758 
+- #755 
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [ ] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [ ] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 09:22:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/760" class=".btn">#760</a>
             </td>
             <td>
@@ -253,113 +362,6 @@ Fixes ATL-4094
     </table>
     <div class="right-align">
         Created At 2023-10-13 00:38:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/755" class=".btn">#755</a>
-            </td>
-            <td>
-                <b>
-                    feat: Keycloak container with AdminClient [WIP]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">build</span><span class="chip">infra</span><span class="chip">shared</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes ATL-xxxx
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-12 12:03:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/754" class=".btn">#754</a>
-            </td>
-            <td>
-                <b>
-                    fix(prism-agent): return relevant errors on offer creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">prism-agent</span>
-            </td>
-            <td>
-                # Overview
-Fixes ATL-5882
-Fixes ATL-5883
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [x] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-12 07:58:26 +0000 UTC
     </div>
 </div>
 
