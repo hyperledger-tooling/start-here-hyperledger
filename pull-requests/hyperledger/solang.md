@@ -148,32 +148,6 @@ This pull request focuses on enhancing the [library_using_for.sol](https://githu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1566" class=".btn">#1566</a>
-            </td>
-            <td>
-                <b>
-                    Update library documentation for clarity and correctness
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This Pull Request enhances the clarity and correctness of the documentation regarding [libraries ](https://solang.readthedocs.io/en/latest/language/interface_libraries.html#libraries)in Solidity. It addresses the restrictions applied to libraries, emphasizing their inability to modify the state and the necessity of using "view" or "pure" functions. These changes aim to provide more accurate guidance to users of the documentation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 15:43:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1565" class=".btn">#1565</a>
             </td>
             <td>
