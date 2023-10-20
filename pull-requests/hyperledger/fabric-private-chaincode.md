@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/738" class=".btn">#738</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade ego v1.4.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 23:28:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/737" class=".btn">#737</a>
             </td>
             <td>
