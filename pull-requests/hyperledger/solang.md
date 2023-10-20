@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1572" class=".btn">#1572</a>
+            </td>
+            <td>
+                <b>
+                    Fix slice length
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When converting [this example](https://github.com/solana-developers/program-examples/blob/main/tokens/pda-mint-authority/solang/solidity/pda-mint-authority.sol) to the new Solidity annotation syntax, I uncovered a small bug in slice creation, in which we were not casting the length to `uint64`, leading to an `InvalidLength` error in Solana's runtime.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 20:04:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1570" class=".btn">#1570</a>
             </td>
             <td>

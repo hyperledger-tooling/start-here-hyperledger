@@ -14,6 +14,123 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6063" class=".btn">#6063</a>
+            </td>
+            <td>
+                <b>
+                    Merge main into 23.10.x branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Merge main into 23.10.x branch
+
+#5996
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-20 00:35:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6062" class=".btn">#6062</a>
+            </td>
+            <td>
+                <b>
+                    Update changelog release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix changelog - Add issue numbers
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-20 00:24:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6060" class=".btn">#6060</a>
+            </td>
+            <td>
+                <b>
+                    Dencun corner cases
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                cherry pick 2 changes from #6054 
+* EIP-3541 regression in Cancun - https://github.com/hyperledger/besu/pull/6054/files#diff-22b78733e37a697fa8d1d8a02d2a87fe5ccea9cf67c34ce5e6311f024c14abd6L643-R738
+* EIP-4788 conformance corner case - https://github.com/hyperledger/besu/pull/6054/files#diff-61db834b59eae5ce5c438462505de1add8fa244deda830742060d15f668a9806R39-R44
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 23:58:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6059" class=".btn">#6059</a>
+            </td>
+            <td>
+                <b>
+                    Trie log blobdb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+## PR description
+Move trie log storage to blobdb
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+See #5866 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-19 22:59:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6057" class=".btn">#6057</a>
             </td>
             <td>
@@ -537,33 +654,6 @@ fixed #6033
     </table>
     <div class="right-align">
         Created At 2023-10-13 04:33:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6028" class=".btn">#6028</a>
-            </td>
-            <td>
-                <b>
-                    remove code duplication
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Noticed that these lines of code were duplicated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-13 00:18:09 +0000 UTC
     </div>
 </div>
 
