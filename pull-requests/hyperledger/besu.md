@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6063" class=".btn">#6063</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/6064" class=".btn">#6064</a>
             </td>
             <td>
                 <b>
-                    Merge main into 23.10.x branch
+                    Cherry-pick  main into release 22.10.x
                 </b>
             </td>
         </tr>
@@ -28,14 +28,13 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 ## PR description
-Merge main into 23.10.x branch
+Cherry-pick main into release 22.10.x
 
-#5996
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-20 00:35:49 +0000 UTC
+        Created At 2023-10-20 01:51:52 +0000 UTC
     </div>
 </div>
 
@@ -628,32 +627,6 @@ fixed #6033
     </table>
     <div class="right-align">
         Created At 2023-10-16 04:53:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6029" class=".btn">#6029</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                thx to @vuittont60
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-13 04:33:11 +0000 UTC
     </div>
 </div>
 
