@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/38" class=".btn">#38</a>
-            </td>
-            <td>
-                <b>
-                    Update readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Add more information about cc-tools on the readme file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-13 14:24:09 +0000 UTC
-    </div>
-</div>
-

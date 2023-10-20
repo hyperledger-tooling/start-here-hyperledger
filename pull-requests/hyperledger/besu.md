@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6067" class=".btn">#6067</a>
+            </td>
+            <td>
+                <b>
+                    Don't put NONCE_TOO_LOW transactions into the invalid nonce cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This is intended to improve the issue described in https://github.com/hyperledger/besu/issues/6058. I don't think it fixes every possible case, but from testing it seems to be old transactions from a node, which are now all `NONCE_TOO_LOW`, that can cause this problem.
+
+## Fixed Issue(s)
+See https://github.com/hyperledger/besu/issues/6058 - although it may not be completely fixed after this PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-20 16:16:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6066" class=".btn">#6066</a>
+            </td>
+            <td>
+                <b>
+                    Update to production KZG ceremony output
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - update to new library
+- disable KZG testing on static test vectors till new ones are available
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-20 14:29:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6064" class=".btn">#6064</a>
             </td>
             <td>

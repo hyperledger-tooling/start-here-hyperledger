@@ -72,7 +72,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Bugfix: The type of a resolved assignments needs a storage deref
+                    Bugfix: Propagate RHS type of resolved assignments
                 </b>
             </td>
         </tr>
