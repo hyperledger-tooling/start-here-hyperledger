@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/224" class=".btn">#224</a>
-            </td>
-            <td>
-                <b>
-                    Use struct type as callback parameters of channel handshake
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/yui-ibc-solidity/issues/223#issuecomment-1761351385
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-13 14:38:31 +0000 UTC
-    </div>
-</div>
-
