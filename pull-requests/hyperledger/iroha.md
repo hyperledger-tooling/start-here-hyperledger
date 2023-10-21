@@ -38,7 +38,7 @@ After reset new `Leader` would submit new block if this would arrive too late to
 
 With current implementation of consensus it's troublesome to provide any test to verify that bug is 100% fixed...
 
-I've created stand where i was able to successfully submit `100_000` blocks.
+I've created stand where i was able to successfully submit `263_975` blocks (run out of memory after that on my laptop).
 Before the fix peers usually fail before that point (around `20_000` blocks or even earlier).
 
 <details>
