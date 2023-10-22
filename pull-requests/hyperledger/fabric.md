@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4488" class=".btn">#4488</a>
+            </td>
+            <td>
+                <b>
+                    Removing nwo.DeployChaincodeLegacy()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit removes the DeployChaincodeLegacy function from the integration tests suite to address #3983 as part of eliminating the legacy chaincode lifecycle. Due to the changes in size, the work will be split into several PRs. This is the first one in a row.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-22 13:38:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4487" class=".btn">#4487</a>
             </td>
             <td>
