@@ -320,29 +320,3 @@ Errors were dumb in the last try...
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2547" class=".btn">#2547</a>
-            </td>
-            <td>
-                <b>
-                    Update .readthedocs.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                RTD is broken because (I think) missing section of RTD.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-14 22:56:56 +0000 UTC
-    </div>
-</div>
-
