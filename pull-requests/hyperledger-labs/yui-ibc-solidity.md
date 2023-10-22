@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/225" class=".btn">#225</a>
-            </td>
-            <td>
-                <b>
-                    Fix identifier validations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #154 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-15 08:24:25 +0000 UTC
-    </div>
-</div>
-
