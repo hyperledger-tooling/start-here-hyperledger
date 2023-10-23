@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Atlantis
+                    v0.3.3: Atlantis
                 </b>
             </td>
         </tr>
@@ -27,7 +27,34 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                This release improves the Solana developer experience, since now required
+accounts can be specified using annotations. There are many fixes all over
+the code base.
+
+### Added
+- **Solana** the required accounts for instructions can now be specified using function annotations. [LucasSte](https://github.com/LucasSte)
+  ```
+  contract Foo {
+      @account(oneAccount)
+      @signer(mySigner)
+      @mutableAccount(otherAccount)
+      @mutableSigner(otherSigner)
+      function bar() external returns (uint64) {}
+  }
+  ```
+- The language server can now format Solidity source code using the `forge-fmt` crate. [chioni16](https://github.com/chioni16)
+- The langauge server can now do go references, go to implementation, and go to type
+  definition. [chioni16](https://github.com/chioni16)
+
+### Fixed
+- **Solana** the data field of AccountInfo can now be modified. [LucasSte](https://github.com/LucasSte)
+- The vscode extension now uses the solang binary in the path, if available. [seanyoung](https://github.com/seanyoung)
+
+### Changed
+- **breaking** **Solana** the contract Solidity type can no longer be used. This type
+  used to represent a single address, but this does not make sense as there are many
+  accounts associated with a contract call. [LucasSte](https://github.com/LucasSte)
+
             </td>
         </tr>
     </table>
@@ -107,125 +134,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                When resolving an assignment, the resolved variable is always in memory and can't be of `Type::StorageRef`. Not dereferencing the type causes various issues in later compilation stages.
+                When resolving an assignment, the resolved variable should inherit the RHS type to avoid various issues in later compilation stages (for example with assignment chains).
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-10-17 18:44:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1568" class=".btn">#1568</a>
-            </td>
-            <td>
-                <b>
-                    Refactor library_using_for.sol for clarity and naming conventions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit refactors the library_using_for.sol code for better readability and adherence to naming conventions.
-
-This pull request focuses on enhancing the [library_using_for.sol](https://github.com/hyperledger/solang/blob/main/docs/examples/library_using_for.sol). The changes improve the contract's readability and adherence to naming conventions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 16:23:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1567" class=".btn">#1567</a>
-            </td>
-            <td>
-                <b>
-                    Refactor library.sol for clarity and naming conventions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pull request aims to improve the readability and documentation of the [library.sol ](https://github.com/hyperledger/solang/blob/main/docs/examples/library.sol)in the codebase. It includes changes such as renaming the contract and library to adhere to Solidity naming conventions, adding informative comments for function, and ensuring the library function has the correct visibility specifier. These modifications enhance the codebase's clarity.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 16:11:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1565" class=".btn">#1565</a>
-            </td>
-            <td>
-                <b>
-                    Refactor interface.sol for better readability and adherence to best practices
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This Pull Request refactors the [Solidity code ](https://github.com/hyperledger/solang/blob/main/docs/examples/polkadot/interface.sol)in the repository to enhance readability and align with best practices. The changes include renaming contracts and functions for improved clarity, adding comments for documentation, and following the SPDX license identifier convention.
-
-Key Changes:
-
-- Renamed contracts and functions to follow naming conventions.
-- Added comments for documentation.
-- Added pragma version
-- Followed the SPDX license identifier convention.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 15:19:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1564" class=".btn">#1564</a>
-            </td>
-            <td>
-                <b>
-                    Default flipper example should not include @program_id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Users are getting the error "incorrect program id for instruction", which is confusing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 13:09:04 +0000 UTC
     </div>
 </div>
 

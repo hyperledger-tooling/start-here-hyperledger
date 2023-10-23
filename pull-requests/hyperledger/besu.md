@@ -745,31 +745,3 @@ fixes a wrong breaking change entry reported here #6031
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6037" class=".btn">#6037</a>
-            </td>
-            <td>
-                <b>
-                    Fcu v2 defer fork validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                re-orders the validity checking and priority on forkchoice updated calls.
-
-- payloadAttributes needs to be validated apart from new head validity, so there are now two steps for checking so that we can fail differently if the head being built on is missing or irrelevant to the building payload.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 14:14:03 +0000 UTC
-    </div>
-</div>
-
