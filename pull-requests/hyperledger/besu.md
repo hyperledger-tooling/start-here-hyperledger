@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6072" class=".btn">#6072</a>
+            </td>
+            <td>
+                <b>
+                    Refactor TrieLogManager and CachedWorldStorageManager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Two concepts were mixed together via inheritance:
+1. trie log management
+2. caching world states
+
+This PR splits these concepts out ahead of adding in trie log pruning.
+
+Following previous refactors, there's now no need to have an AbstractTrieLogManager or TrieLogManager interface
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-23 03:36:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6071" class=".btn">#6071</a>
             </td>
             <td>
@@ -763,42 +795,6 @@ Instead of sorting rewardPercentiles for each block header, this PR sorts only o
     </table>
     <div class="right-align">
         Created At 2023-10-16 11:45:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6034" class=".btn">#6034</a>
-            </td>
-            <td>
-                <b>
-                    fix incorrect argument passing in blockParameter of TraceCallMany class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-fix incorrect argument passing code in blockParameter function of TraceCallMany class. only need to change one line of code
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixed #6033 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 04:53:32 +0000 UTC
     </div>
 </div>
 
