@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    improve did parser for port and path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Improve regex for did:webs to include port group and added unit tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-15 19:53:48 +0000 UTC
-    </div>
-</div>
-
