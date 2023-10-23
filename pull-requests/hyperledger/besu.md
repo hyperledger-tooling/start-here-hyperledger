@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6073" class=".btn">#6073</a>
+            </td>
+            <td>
+                <b>
+                    feat: add a way to read memory without altering the word capacity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Objects using the `MessageFrame` may wish to immutably read the memory of the frame without altering the word capacity of the memory, i.e. a “shadow” read as it behaves transparently w.r.t. the EVM.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-23 12:20:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6072" class=".btn">#6072</a>
             </td>
             <td>
                 <b>
-                    Refactor TrieLogManager and CachedWorldStorageManager
+                    Decouple TrieLogManager and CachedWorldStorageManager
                 </b>
             </td>
         </tr>
@@ -32,6 +60,8 @@ permalink: /pull-requests/hyperledger/besu
 2. caching world states
 
 This PR splits these concepts out ahead of adding in trie log pruning.
+
+CachedWorldStorageManager is added as a field alongside TrieLogManager in BonsaiWorldStateProvider.
 
 Following previous refactors, there's now no need to have an AbstractTrieLogManager or TrieLogManager interface
             </td>
@@ -740,61 +770,6 @@ fixes a wrong breaking change entry reported here #6031
     </table>
     <div class="right-align">
         Created At 2023-10-16 14:14:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6036" class=".btn">#6036</a>
-            </td>
-            <td>
-                <b>
-                    Fix typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 11:54:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6035" class=".btn">#6035</a>
-            </td>
-            <td>
-                <b>
-                    Minor optimization on Eth_feeHistory
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR has a minor optimization on Eth_feeHistory, on top of [this other optimization on Eth_feeHistory ](https://github.com/hyperledger/besu/pull/6011).
-
-Instead of sorting rewardPercentiles for each block header, this PR sorts only once and the sorted list is used as a parameter for each call to compute rewards.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 11:45:45 +0000 UTC
     </div>
 </div>
 
