@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 <b>
-                    feat: ATL-5966 Presentation API Refactor
+                    feat:  presentation API refactor
                 </b>
             </td>
         </tr>
