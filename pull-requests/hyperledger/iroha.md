@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4013" class=".btn">#4013</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Optimize executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">Optimization</span>
+            </td>
+            <td>
+                ## Description
+
+Originally this work was about #3991. But after implementing reference counting for `ConstString` I got these results:
+
+1. 7.5 - 13 % less memory footprint
+2. 50 - 75 % slower
+
+I measured memory using the next command:
+
+```bash
+gtime -f 'Time passed: %E\nMax memory used: %M kbytes' ../../target/release/examples/apply_blocks
+```
+
+Where `gtime` is a `time` utility by GNU, which can be installed on mac using `brew install gnu-time`
+
+So it defenelty doesn't worth it.
+
+You can do your own research. Take a look at my branch: https://github.com/arjentix/iroha/tree/arc_name
+
+- Fixed `apply_blocks` benchmark
+- Made `apply_blocks` even more heavy with long ids
+- After that this benchmarks just stops woring on `iroha2-dev`, the issue was a very long transaction deallocation inside wasm executor, so fixed that with `core::mem::forget()`
+- Some minor refactoring
+
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 12:36:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4011" class=".btn">#4011</a>
             </td>
             <td>
@@ -391,95 +463,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-10-17 20:50:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4001" class=".btn">#4001</a>
-            </td>
-            <td>
-                <b>
-                    RC.20 Docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Let's update the Docker container names as we need to.
-For the context, I left `hyperledger/` prefix in configurations that used it previously.
-(What if somebody creates another `iroha2:dev` or `iroha2:stable` container on Dockerhub?)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 17:18:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3998" class=".btn">#3998</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #3578: Add client cli tests into stable workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Update `Dockerfile.build.glibc`
-
-Closes #3578 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 15:54:36 +0000 UTC
     </div>
 </div>
 

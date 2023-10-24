@@ -328,31 +328,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2550" class=".btn">#2550</a>
-            </td>
-            <td>
-                <b>
-                    Feat: Per Tenant Logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #2359 
-- Derived from work done in #2425 
-- Needed to close that PR as the pre-release images in there somehow included legacy code which was removed subsequently.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 13:58:25 +0000 UTC
-    </div>
-</div>
-

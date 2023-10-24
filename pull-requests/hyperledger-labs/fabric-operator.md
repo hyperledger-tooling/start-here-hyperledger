@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/138" class=".btn">#138</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Docker to v20.10.18.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As per https://nvd.nist.gov/vuln/detail/CVE-2022-36109
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 15:20:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/137" class=".btn">#137</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade to patched secure Docker version (no go mod tidy).
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As per https://nvd.nist.gov/vuln/detail/CVE-2022-36109
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 14:14:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/135" class=".btn">#135</a>
             </td>
             <td>
@@ -33,32 +85,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </table>
     <div class="right-align">
         Created At 2023-10-19 17:34:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/134" class=".btn">#134</a>
-            </td>
-            <td>
-                <b>
-                    Optimize the Restarts Queue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR Optimizes the Restart Queue and reduces the Number of Restarts needed for the Components.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 15:40:59 +0000 UTC
     </div>
 </div>
 
