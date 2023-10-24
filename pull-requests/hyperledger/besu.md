@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6075" class=".btn">#6075</a>
+            </td>
+            <td>
+                <b>
+                    Continuous Trie Log Pruning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Feature toggled by `--Xtrie-log-pruning-enabled`
+- Add trie log pruning after a successful `TrieLogManager.saveTrieLog`
+- Each time a trie log is persisted, the current trie log is cached and the pruner is run against the oldest entries in the cache.
+- This makes no attempt to manage the backlog of old trie logs, it will only prune what has been added to the cache, i.e. trie logs that have been added since the feature was enabled.
+- Pruner limit exists in case of exceptional circumstances, but we should only ever be pruning all the forks for a single block number during each prune execution.
+
+This is a second take of https://github.com/hyperledger/besu/pull/6026
+Currently built on https://github.com/hyperledger/besu/pull/6072 (diff: https://github.com/siladu/besu/compare/refactor-trie-log-manager...trie-log-pruning-take2)
+
+One downside of this PR compared to #6026 is that restarting besu may leave a gap in the pruned trie logs because we don't preload the cache. This will have to be considered as part of managing the backlog. It may mean that we can't simply rely on a "one-off" resync or prune subcommand. However, these un-pruneable trie logs should be negligible compared to the saving gained for long running nodes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 06:26:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6074" class=".btn">#6074</a>
             </td>
             <td>
@@ -712,40 +747,6 @@ Fix #5943
     </table>
     <div class="right-align">
         Created At 2023-10-17 17:04:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6040" class=".btn">#6040</a>
-            </td>
-            <td>
-                <b>
-                    Fix 23.10.0 Breaking Changes changelog entry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes a wrong breaking change entry reported here #6031
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 07:59:34 +0000 UTC
     </div>
 </div>
 
