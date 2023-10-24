@@ -15,58 +15,71 @@ permalink: /releases/hyperledger/solang
         <tr>
             <td colspan="2">
                 <b>
-                    
+                    v0.3.3: Atlantis
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.2
+                    v0.3.3
                 </span>
             </td>
             <td>
-                
-
-The language server is much improved, and many fixes all over.
-
+                This release improves the Solana developer experience, since now required
+accounts can be specified using annotations. For Polkadot, compatibility with
+Ethereum Solidity has been increased further, it is now possible to write
+[EIP-1967](https://eips.ethereum.org/EIPS/eip-1967) compatible proxy contracts.
+There are many fixes all over the code base.
+    
 ### Added
-- Go to definition is now implemented in the language server.
-[chioni16](https://github.com/chioni16)
-- The parser has been updated to be compatible with Ethereum Solidity
-v0.8.21. [seanyoung](https://github.com/seanyoung)
-
+- **Solana** the required accounts for instructions can now be specified
+  using function annotations. [LucasSte](https://github.com/LucasSte)
+  ```
+  contract Foo {
+      @account(oneAccount)
+      @signer(mySigner)
+      @mutableAccount(otherAccount)
+      @mutableSigner(otherSigner)
+      function bar() external returns (uint64) {}
+  }
+  ```
+- The language server can now format Solidity source code using the
+  `forge-fmt` crate. [chioni16](https://github.com/chioni16)
+- The langauge server can now do go references, go to implementation, and go to type
+  definition. [chioni16](https://github.com/chioni16)
+- **Polkadot** `Panic` errors can now be caught in try-catch statements
+  [xermicus](https://github.com/xermicus)
+- **Polkadot** custom errors are now supported
+  [xermicus](https://github.com/xermicus)
+- **Polkadot** now supporting the `address.code` builtin
+  [xermicus](https://github.com/xermicus)
+    
 ### Fixed
-- **breaking** Resolving import paths now matches solc more closely, and
-only resolves relative paths when specified as `./foo` or `../foo`.
-[seanyoung](https://github.com/seanyoung)
-- **Solana** The `lamports` and `data` fields of `tx.accounts` can be
-modified again. [LucasSte](https://github.com/LucasSte)
-- It is not longer necessary to save a Solidity file, in order for the
-language server to pick up changes to the file.
-[chioni16](https://github.com/chioni16)
-- The negate operator `-` now checks for overflow at runtime, and other
-math overflow fixes. [seanyoung](https://github.com/seanyoung)
-
+- **Solana** the data field of AccountInfo can now be modified.
+  [LucasSte](https://github.com/LucasSte)
+- The vscode extension now uses the solang binary in the path, if
+  available. [seanyoung](https://github.com/seanyoung)
+- Fixed a bug in the ABI encoding of dynamic arrays.
+  [xermicus](https://github.com/xermicus)
+- Fixed a bug where loading from a storage struct member was not
+  considered a storage read. [xermicus](https://github.com/xermicus) [seanyoung](https://github.com/seanyoung)
+- Fixed a compiler crash caused by chained assignments like `return a = b`. [xermicus](https://github.com/xermicus)
+- Variables declared in the return parameters no longer ignore the `storage` location. [xermicus](https://github.com/xermicus)
+    
 ### Changed
-- The Substrate target has been renamed to Polkadot.
-[xermicus](https://github.com/xermicus)
-- **Polkadot** `assert()` and `require()` is now implemented as a
-transction revert, rather than a trap. The error data is returned, and
-encoded the same as on Ethereum. Error data is now passed to the calling
-contract, all the way up the call stack.
-[xermicus](https://github.com/xermicus)
-- **Polkadot** constructor can be non-payable.
-[xermicus](https://github.com/xermicus)
+- **BREAKING:** **Solana** the contract Solidity type can no longer be used. This type
+  used to represent a single address, but this does not make sense asthere are many
+  accounts associated with a contract call. [LucasSte](https://github.com/LucasSte)
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/solang/releases/tag/v0.3.2" class=".btn">
+    <a href="https://github.com/hyperledger/solang/releases/tag/v0.3.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-24 09:44:40 +0000 UTC
+        Created At 2023-10-24 10:05:49 +0000 UTC
     </span>
 </div>
 
