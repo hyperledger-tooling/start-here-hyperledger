@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    Added flows and Corda interface to EVM project 
+                    Added claim by proof path to committed EVM asset 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/harmonia
                 
             </td>
             <td>
-                Added corda service to interact with the EVM swap vault contract
-Added flows to interact with swap vault contract functions
-Added tests for new flows
+                After committing an EVM asset, the counterparty signs the draft transaction which locks the asset until the committed asset is claimed or reverted.
+While both parties can revert the EVM asset, claiming without proofs of notarisation is only possible by the committer/owner of the EVM asset. The recipient must present proofs that the draft transaction was notarised in order to claim the EVM asset.
+This PR adds the possibility to collect EVM signatures from Corda parties that verify and attest that a certain signature over the draft transaction hash belongs to a certain public key. These signatures can be used by the EVM asset recipient to claim the EVM asset independently from the EVM asset owner.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-05 15:07:37 +0000 UTC
+        Created At 2023-10-24 16:08:08 +0000 UTC
     </div>
 </div>
 

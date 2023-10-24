@@ -1,13 +1,13 @@
 
-[1506](https://github.com/hyperledger/caliper/pull/1506) Resend tx when it fails on ethereum
+[59](https://github.com/hyperledger-labs/harmonia/pull/59) Added claim by proof path to committed EVM asset 
 
-[117](https://github.com/hyperledger-labs/yui-relayer/pull/117) Add otherArgs to time track
+[138](https://github.com/hyperledger-labs/fabric-operator/pull/138) Upgrade Docker to v20.10.18.
 
-[421](https://github.com/hyperledger-labs/fablo/pull/421) Updated documentation for new features
+[137](https://github.com/hyperledger-labs/fabric-operator/pull/137) Upgrade to patched secure Docker version (no go mod tidy).
 
-[6075](https://github.com/hyperledger/besu/pull/6075) Continuous Trie Log Pruning
+[10](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/10) Feat: XY Swapping and XY Types 
 
-[2561](https://github.com/hyperledger/aries-cloudagent-python/pull/2561) refactor: use did-peer-2 instead of peerdid
+[4013](https://github.com/hyperledger/iroha/pull/4013) [refactor]: Optimize executor
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
