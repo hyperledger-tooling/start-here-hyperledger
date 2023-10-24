@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2561" class=".btn">#2561</a>
+            </td>
+            <td>
+                <b>
+                    refactor: use did-peer-2 instead of peerdid
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Speaking frankly, I felt that the peerdid library was a bit overly complicated. On top of that, peerdid is not up to date with the corrections proposed in this PR to the did:peer method specification:
+
+https://github.com/decentralized-identity/peer-did-method-spec/pull/62
+
+did-peer-2 is a minimal implementation of did:peer:2 and did:peer:3. It is up to date with the above PR. The corrections to the spec and the library lend themselves to a simpler implementation of the did:peer:2 and did:peer:3 resolvers. This refactor supports work to add did:peer:2 support to OOB + DID Exchange.
+
+New in this PR is a cleanup mechanism for the did:peer:3 to did:peer:2 mapping records. When a connection is deleted, we check whether there are any potential mappings to remove.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 01:15:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2560" class=".btn">#2560</a>
+            </td>
+            <td>
+                <b>
+                    fix: clean up requests and invites
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                On connection deletion, all records strongly associated with the connection should be deleted. These records include connection metadata, connection requests, and connection invitations.
+
+Records referencing the connection ID such as mediation or routing records are not "strongly" associated with the connection; there are other mechanisms in place to enable deletion of these records through the Admin API. The records for metadata, requests, and invitations, on the other hand, cannot be cleaned up any other way.
+
+This PR makes sure these records are deleted when the connection is deleted.
+
+It might be a good idea for us to look at other records that ought to be cleaned up automatically. Those can be addressed in future work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 01:14:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2559" class=".btn">#2559</a>
             </td>
             <td>

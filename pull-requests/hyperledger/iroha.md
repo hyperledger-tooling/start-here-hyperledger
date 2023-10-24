@@ -542,29 +542,3 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3994" class=".btn">#3994</a>
-            </td>
-            <td>
-                <b>
-                    [chore] History fix / signoff
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Fixes the signoff in f0b20923bd8 by adding a signoff in https://github.com/hyperledger/iroha/commit/483b6d5c
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 05:31:59 +0000 UTC
-    </div>
-</div>
-
