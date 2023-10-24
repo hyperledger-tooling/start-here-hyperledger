@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    In the http URL, replace : with / as path separators
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-16 22:27:55 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6074" class=".btn">#6074</a>
+            </td>
+            <td>
+                <b>
+                    Trigger contextEnter/Exit for all frames, including root
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Filtering out the root context from the `context{Enter,Exit}` tracing hook leads to an asymmetry of treatment when returning from a create/call context, where the root context is blind to the event, but non-root contexts can read it.
+
+This PR disables this restriction to address this blindspot.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-23 22:44:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6073" class=".btn">#6073</a>
             </td>
             <td>
@@ -52,7 +82,7 @@ Objects using the `MessageFrame` may wish to immutably read the memory of the fr
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Two concepts were mixed together via inheritance:
