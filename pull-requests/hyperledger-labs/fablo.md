@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
             </td>
             <td>
                 <b>
-                    Updated documentation for new features
+                    Update documentation for new features
                 </b>
             </td>
         </tr>
