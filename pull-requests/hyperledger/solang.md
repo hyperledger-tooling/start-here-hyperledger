@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1574" class=".btn">#1574</a>
+            </td>
+            <td>
+                <b>
+                    Remove balance, transfer, and send from Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 21:51:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1573" class=".btn">#1573</a>
             </td>
             <td>
@@ -124,32 +150,6 @@ There are many fixes all over the code base.
     </table>
     <div class="right-align">
         Created At 2023-10-18 10:56:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1569" class=".btn">#1569</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: Propagate RHS type of resolved assignments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When resolving an assignment, the resolved variable should inherit the RHS type to avoid various issues in later compilation stages (for example with assignment chains).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 18:44:52 +0000 UTC
     </div>
 </div>
 
