@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6081" class=".btn">#6081</a>
+            </td>
+            <td>
+                <b>
+                    Bump 23.10.1-RC to 23.10.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Bump 23.10.1-RC to 23.10.1 on release branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 01:55:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6080" class=".btn">#6080</a>
             </td>
             <td>
@@ -215,7 +242,7 @@ Objects using the `MessageFrame` may wish to immutably read the memory of the fr
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamGroot</span>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
             </td>
             <td>
                 Two concepts were mixed together via inheritance:
@@ -662,33 +689,6 @@ I propose a modification to the block pruning feature so that we can lower the m
     </table>
     <div class="right-align">
         Created At 2023-10-18 13:14:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6049" class=".btn">#6049</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] ux improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * log plugins summary at info (part of config overview)
-* include affected CLI option when there's a compatibility issue found by `failIfOptionDoesntMeetRequirement`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-18 05:27:36 +0000 UTC
     </div>
 </div>
 
