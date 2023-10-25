@@ -14,6 +14,104 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6080" class=".btn">#6080</a>
+            </td>
+            <td>
+                <b>
+                    Implement miner_setMinPriorityFee and miner_getMinPriorityFee
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Built on top of https://github.com/fab-10/besu/tree/min-priority-fee, which adds `--min-priority-fee` CLI option
+
+Adds two new JsonRPC methods: 
+
+- miner_setMinPriorityFee - Sets the value of `miningParameters.minPriorityFeePerGas`
+- miner_getMinPriorityFee - Returns the current value of `miningParameters.minPriorityFeePerGas`
+
+This PR does not add the transactionSelector based on `minPriorityFeePerGas`. It will be added in a different PR
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 22:53:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6079" class=".btn">#6079</a>
+            </td>
+            <td>
+                <b>
+                    Force tx replacement price bump to zero when zero base fee market is configured
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 19:11:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6078" class=".btn">#6078</a>
+            </td>
+            <td>
+                <b>
+                    ETC 'Spiral' network upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds support to [ECIP-1109](https://ecips.ethereumclassic.org/ECIPs/ecip-1109).
+Block number is set to https://github.com/ethereumclassic/ECIPs/pull/514, already set in core-geth in https://github.com/etclabscore/core-geth/pull/571
+I also set the DNS discovery tree to what's in [core-geth#bootnodes_mordor.go](https://github.com/etclabscore/core-geth/blob/v1.12.14/params/bootnodes_mordor.go#L29)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 18:48:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6075" class=".btn">#6075</a>
             </td>
             <td>
@@ -591,94 +689,6 @@ I propose a modification to the block pruning feature so that we can lower the m
     </table>
     <div class="right-align">
         Created At 2023-10-18 05:27:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6048" class=".btn">#6048</a>
-            </td>
-            <td>
-                <b>
-                    Use BONSAI for the execution engine BesuNode in ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Affects tests extending AbstractJsonRpcTest
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 23:05:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6047" class=".btn">#6047</a>
-            </td>
-            <td>
-                <b>
-                    Add X (Twitter) to README, Fix Roadmap Hyperlink
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-- Adds X (Twitter) hyperlink to README for increased visibility and community engagement for the Hyperledger Besu account.
-
-- Fixes roadmap hyperlink as previous one is broken.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 22:14:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6046" class=".btn">#6046</a>
-            </td>
-            <td>
-                <b>
-                    Unsigned timestamps and blob gas used
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Merge after pr #6037 , was built on top of that.
-
-the pyspec simulator in Hive likes to check fields for max capacities, which showed us a lot of places where using signed longs is a problem. This pr fixes many of them.
-
-broader adoption of CheckerFramework is suggested at a later time, so that we can see where else we are affected by this.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 18:26:03 +0000 UTC
     </div>
 </div>
 
