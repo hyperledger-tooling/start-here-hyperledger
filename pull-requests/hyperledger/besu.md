@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6089" class=".btn">#6089</a>
+            </td>
+            <td>
+                <b>
+                    Introduce a timeout for the evaluation of a single tx during block creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 15:28:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6088" class=".btn">#6088</a>
+            </td>
+            <td>
+                <b>
+                    Fix k8s nat manager logic and add `--Xnat-kube-service-namespace` flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Now the Kubernetes nat manager requires cluster-wide permissions (list service resources in all namespaces). Also, it has a bug: when multiple besu networks are configured in the same cluster with the same service names in different namespaces, the nat manager may set an inappropriate IP address for the besu node due to enumerating services from all namespaces and checking only their names.
+
+I suggest adding a new flag: `--Xnat-kube-service-namespace` to specify a concrete besu node service namespace and not use a list of services, but a get request for a specific service.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5002
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 13:09:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6087" class=".btn">#6087</a>
+            </td>
+            <td>
+                <b>
+                    TraceService: return results for transactions in block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+* The TraceService returns the result of the processed transactions
+* In case of an internal error during tx processing, the stack trace is added to the error message as well.
+
+## Fixed Issue(s)
+fixes #6077 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 12:44:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6085" class=".btn">#6085</a>
             </td>
             <td>
@@ -588,7 +693,7 @@ See https://github.com/hyperledger/besu/issues/6058 - although it may not be com
             </td>
             <td>
                 <b>
-                    Cherry-pick  main into release 22.10.x
+                    Cherry-pick  main into release 23.10.x
                 </b>
             </td>
         </tr>
@@ -598,7 +703,7 @@ See https://github.com/hyperledger/besu/issues/6058 - although it may not be com
             </td>
             <td>
                 ## PR description
-Cherry-pick main into release 22.10.x
+Cherry-pick main into release 23.10.x
 
             </td>
         </tr>
@@ -798,43 +903,6 @@ Not intended to be merged.
     </table>
     <div class="right-align">
         Created At 2023-10-18 22:34:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6052" class=".btn">#6052</a>
-            </td>
-            <td>
-                <b>
-                    not pruning block during the initial sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-I propose a modification to the block pruning feature so that we can lower the minimum limit to 512 instead of 7200. Why 512? Simply to allow a minimum number of blocks close to the head. This is also the number we chose for the world state on Bonsai and seems to be a good compromise between pruning and accessibility of recent history.
-
-7200 was chosen to avoid pruning during the initial sync, so I made a modification to prune during the initial sync by querying the SyncState.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-18 13:14:06 +0000 UTC
     </div>
 </div>
 

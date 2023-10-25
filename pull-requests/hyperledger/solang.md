@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1575" class=".btn">#1575</a>
+            </td>
+            <td>
+                <b>
+                    Fix common lsp panics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These lsp crashes are concurrency issues, so writing tests from them is hard.
+
+If we could hand-craft lsp json-rpc messages then this would be easier, but we only test the extension by controlling vscode.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 15:41:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1574" class=".btn">#1574</a>
             </td>
             <td>
