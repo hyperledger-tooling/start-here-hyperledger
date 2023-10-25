@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/382" class=".btn">#382</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/384" class=".btn">#384</a>
             </td>
             <td>
                 <b>
-                    feature: added new instructions to transfer domain ownerhsip and revoke permissions
+                    Feature: update to rc20
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                added new instructions to transfer domain ownerhsip and revoke permissions
+                Update Sdk to Iroha2 rc20 version
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-18 10:14:28 +0000 UTC
+        Created At 2023-10-25 07:56:01 +0000 UTC
     </div>
 </div>
 
