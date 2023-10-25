@@ -125,31 +125,3 @@ There are many fixes all over the code base.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1570" class=".btn">#1570</a>
-            </td>
-            <td>
-                <b>
-                    Bump anchor and other dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update all the crates which can be updated easily.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-18 10:56:51 +0000 UTC
-    </div>
-</div>
-

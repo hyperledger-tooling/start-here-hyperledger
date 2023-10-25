@@ -14,6 +14,106 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6085" class=".btn">#6085</a>
+            </td>
+            <td>
+                <b>
+                    create trielog state for tracing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+
+fixes #6050 
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 08:53:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6083" class=".btn">#6083</a>
+            </td>
+            <td>
+                <b>
+                    Add transaction selector based on min priority fee parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add transaction selector based on min priority fee parameter
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 07:35:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6082" class=".btn">#6082</a>
+            </td>
+            <td>
+                <b>
+                    Add option to clique to skip creating empty blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add an option to clique to skip creating empty blocks
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 06:50:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6081" class=".btn">#6081</a>
             </td>
             <td>
@@ -51,7 +151,7 @@ Bump 23.10.1-RC to 23.10.1 on release branch
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 ## PR description
@@ -63,6 +163,42 @@ Adds two new JsonRPC methods:
 - miner_getMinPriorityFee - Returns the current value of `miningParameters.minPriorityFeePerGas`
 
 This PR does not add the transactionSelector based on `minPriorityFeePerGas`. It will be added in a different PR
+
+Examples: 
+
+Example:  
+Request
+`{"jsonrpc":"2.0","id":1,"method":"miner_setMinPriorityFee","params":[1]}`
+Response:
+```
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": true
+}
+```
+Invalid request: 
+` {"jsonrpc":"2.0","id":1,"method":"miner_setMinPriorityFee","params":[-1]}
+`Response:
+```
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": false
+}
+```
+Get method:
+` {"jsonrpc":"2.0","id":1,"method":"miner_getMinPriorityFee","params":[]}
+`Response:
+```
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": 7
+}
+```
+
+
 
 
             </td>
@@ -87,7 +223,7 @@ This PR does not add the transactionSelector based on `minPriorityFeePerGas`. It
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -95,9 +231,19 @@ This PR does not add the transactionSelector based on `minPriorityFeePerGas`. It
 
 ## PR description
 
+This PR allows to replace txs on zero base fee markets, or on gas price network, where the txs have gas price set to zero (with `min-gas-price=0`).
+
+To achieve that we force the `tx-pool-price-bump=0` when the `zeroBaseFee:true` genesis option is present.
+But this was not enough, since the transaction replacement rules were forcing the new price to be strictly greater than the price bump, that in my opinion is not intuitive, since for example if your existing tx has a gas price of 100, and the price bump is 10%, then we should accept a valid replacement a tx with a gas price of 110, and not 111 as it was before.
+So the other change is to accept, as valid replacement, tx with a gas price greater than or equal to the price bump. This make also the `tx-pool-price-bump=0` case more intuitive, since you can replace a tx without increasing the gas price.
+
+`doc-change-required` to explain that if `zeroBaseFee:true` in the genesis, then `tx-pool-price-bump=0` is forced internally, and any attempt to specify a value for it results in an error
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+fixes #6043
             </td>
         </tr>
     </table>
