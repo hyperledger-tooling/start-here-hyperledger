@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2564" class=".btn">#2564</a>
+            </td>
+            <td>
+                <b>
+                    Playground needs optionally external network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sigh... when documenting aries-mediator-service / redid-pq-demo and running through the instructions, I needed to make the playground network external. 
+
+Unclear why it worked fine with the base mediator service and it's network but regardless, this is needed to allow the mediator service with redis demo to work.
+
+Note that the `ELK_NETWORK_NAME` will always be an external network so adding that notation to always be `true`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 18:12:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2563" class=".btn">#2563</a>
+            </td>
+            <td>
+                <b>
+                    Issue 2555 playground scripts readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I just realized that I didn't add my updates to the readme for #2562!
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 17:04:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2562" class=".btn">#2562</a>
             </td>
             <td>
@@ -159,32 +216,6 @@ Fixes #2501
     </table>
     <div class="right-align">
         Created At 2023-10-19 14:32:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2554" class=".btn">#2554</a>
-            </td>
-            <td>
-                <b>
-                    fix: taa rough timestamp timezone from datetime
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2553
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-18 18:10:29 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/142" class=".btn">#142</a>
+            </td>
+            <td>
+                <b>
+                     Porting changes from V1.0.6 to master
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/fabric-operator/issues/141
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 16:59:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/138" class=".btn">#138</a>
             </td>
             <td>
