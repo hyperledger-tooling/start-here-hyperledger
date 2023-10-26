@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    A job to push operator image from main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/fabric-operator/issues/143
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-26 15:25:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/142" class=".btn">#142</a>
             </td>
             <td>
@@ -85,32 +111,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </table>
     <div class="right-align">
         Created At 2023-10-24 14:14:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    Fix release build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/114
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 17:34:05 +0000 UTC
     </div>
 </div>
 
