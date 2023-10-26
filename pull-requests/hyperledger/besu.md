@@ -58,7 +58,7 @@ See https://github.com/hyperledger/besu/issues/6058 - although it may not be com
             </td>
             <td>
                 - update to new library
-- disable KZG testing on static test vectors till new ones are available
+
 
 
             </td>
