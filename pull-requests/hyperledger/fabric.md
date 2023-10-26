@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4497" class=".btn">#4497</a>
+            </td>
+            <td>
+                <b>
+                    fix integration raft test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I think I've found the cause of raft itegration tests freezing
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-26 15:53:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4495" class=".btn">#4495</a>
             </td>
             <td>
@@ -450,32 +476,6 @@ here is my solution, if anyone has a better one, you are welcome.
     </table>
     <div class="right-align">
         Created At 2023-10-21 20:14:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4486" class=".btn">#4486</a>
-            </td>
-            <td>
-                <b>
-                    Verify hash chain in BFT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 13:28:11 +0000 UTC
     </div>
 </div>
 
