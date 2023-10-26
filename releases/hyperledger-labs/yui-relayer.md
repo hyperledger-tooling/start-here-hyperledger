@@ -15,6 +15,34 @@ permalink: /releases/hyperledger-labs/yui-relayer
         <tr>
             <td colspan="2">
                 <b>
+                    Fix the logging function TimeTrack to take variadic arguments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.4.16
+                </span>
+            </td>
+            <td>
+                Add `otherArgs` argument to `TimeTrack`
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.16" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-10-26 10:51:35 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Support for Light Client Refresh
                 </b>
             </td>
