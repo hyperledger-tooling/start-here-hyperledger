@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4495" class=".btn">#4495</a>
+            </td>
+            <td>
+                <b>
+                    fix : updated broken link in README file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Updated the broken link of Hyperledge community to new link
+
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+This resolves #4494 
+
+<!---
+#### Release Note
+-->
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-26 04:53:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4493" class=".btn">#4493</a>
             </td>
             <td>

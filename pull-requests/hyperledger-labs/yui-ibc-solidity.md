@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/226" class=".btn">#226</a>
-            </td>
-            <td>
-                <b>
-                    Implement 03-connection version negotiation and improve ICS-02 and ICS-03 tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #25 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 02:40:28 +0000 UTC
-    </div>
-</div>
-
