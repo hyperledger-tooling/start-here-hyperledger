@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6080" class=".btn">#6080</a>
+            </td>
+            <td>
+                <b>
+                    Implement miner_setMinPriorityFee and miner_getMinPriorityFee
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+Built on top of https://github.com/fab-10/besu/tree/min-priority-fee, which adds `--min-priority-fee` CLI option
+
+Adds two new JsonRPC methods: 
+
+- miner_setMinPriorityFee - Sets the value of `miningParameters.minPriorityFeePerGas`
+- miner_getMinPriorityFee - Returns the current value of `miningParameters.minPriorityFeePerGas`
+
+This PR does not add the transactionSelector based on `minPriorityFeePerGas`. It will be added in a different PR
+
+Examples: 
+
+Example:  
+Request
+`{"jsonrpc":"2.0","id":1,"method":"miner_setMinPriorityFee","params":[1]}`
+Response:
+```
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": true
+}
+```
+Invalid request: 
+` {"jsonrpc":"2.0","id":1,"method":"miner_setMinPriorityFee","params":[-1]}
+`Response:
+```
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": false
+}
+```
+Get method:
+` {"jsonrpc":"2.0","id":1,"method":"miner_getMinPriorityFee","params":[]}
+`Response:
+```
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": 7
+}
+```
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 22:53:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6079" class=".btn">#6079</a>
             </td>
             <td>
@@ -284,65 +356,6 @@ This avoids needing to calculate java hashes or engage in using custom Comparato
     </table>
     <div class="right-align">
         Created At 2023-10-20 18:26:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6067" class=".btn">#6067</a>
-            </td>
-            <td>
-                <b>
-                    Don't put NONCE_TOO_LOW transactions into the invalid nonce cache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This is intended to improve the issue described in https://github.com/hyperledger/besu/issues/6058. I don't think it fixes every possible case, but from testing it seems to be old transactions from a node, which are now all `NONCE_TOO_LOW`, that can cause this problem.
-
-## Fixed Issue(s)
-See https://github.com/hyperledger/besu/issues/6058 - although it may not be completely fixed after this PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 16:16:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6066" class=".btn">#6066</a>
-            </td>
-            <td>
-                <b>
-                    Update to production KZG ceremony output
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - update to new library
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 14:29:27 +0000 UTC
     </div>
 </div>
 

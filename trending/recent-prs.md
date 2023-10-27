@@ -1,13 +1,13 @@
 
-[772](https://github.com/hyperledger-labs/open-enterprise-agent/pull/772) chore: optimize test pipelines
+[4502](https://github.com/hyperledger/fabric/pull/4502) chore(ci): move to dedicated Fabric runners (release-2.2)
 
-[118](https://github.com/hyperledger-labs/yui-relayer/pull/118) Add timetrack to SendCheckMsgs
+[4501](https://github.com/hyperledger/fabric/pull/4501) chore(ci): move to dedicated Fabric runners (release-2.5)
 
-[771](https://github.com/hyperledger-labs/open-enterprise-agent/pull/771) chore: update .env file with each release
+[146](https://github.com/hyperledger-labs/fabric-operator/pull/146) disable peer block gossiping with config blockGossipEnabled flag
 
-[4498](https://github.com/hyperledger/fabric/pull/4498) fix minor typos for docs
+[4500](https://github.com/hyperledger/fabric/pull/4500) Verify transactions in a block are well formed (release-2.2)
 
-[769](https://github.com/hyperledger-labs/open-enterprise-agent/pull/769) chore: remove unused iris module
+[4499](https://github.com/hyperledger/fabric/pull/4499) Verify transactions in a block are well formed (release-2.5)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
