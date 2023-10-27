@@ -247,9 +247,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 #### Description
 
-In golang, append() can be used to append new elements to a slice.
+Improve the performance of `ConcatenateBytes`.
 
 The patchset simplify the code of method `ConcatenateBytes`.
+
+And the speed can increase by about 12%.
 
 #### Additional details
 

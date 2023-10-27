@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6078" class=".btn">#6078</a>
+            </td>
+            <td>
+                <b>
+                    ETC 'Spiral' network upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds support to [ECIP-1109](https://ecips.ethereumclassic.org/ECIPs/ecip-1109).
+Block number is set to https://github.com/ethereumclassic/ECIPs/pull/514, already set in core-geth in https://github.com/etclabscore/core-geth/pull/571
+I also set the DNS discovery tree to what's in [core-geth#bootnodes_mordor.go](https://github.com/etclabscore/core-geth/blob/v1.12.14/params/bootnodes_mordor.go#L29)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 18:48:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6074" class=".btn">#6074</a>
             </td>
             <td>
@@ -271,34 +300,6 @@ See https://github.com/hyperledger/besu/issues/6058 - although it may not be com
     </table>
     <div class="right-align">
         Created At 2023-10-20 14:29:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6064" class=".btn">#6064</a>
-            </td>
-            <td>
-                <b>
-                    Cherry-pick  main into release 23.10.x
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Cherry-pick main into release 23.10.x
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 01:51:52 +0000 UTC
     </div>
 </div>
 
