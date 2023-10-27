@@ -14,6 +14,117 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4502" class=".btn">#4502</a>
+            </td>
+            <td>
+                <b>
+                    chore(ci): move to dedicated Fabric runners (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Utilize faster runners for verify CI jobs.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-27 15:26:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4501" class=".btn">#4501</a>
+            </td>
+            <td>
+                <b>
+                    chore(ci): move to dedicated Fabric runners (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Utilize faster runners for verify CI jobs.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-27 15:25:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4500" class=".btn">#4500</a>
+            </td>
+            <td>
+                <b>
+                    Verify transactions in a block are well formed (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Verify that transactions in blocks appear exactly as their marshaled form after unmarshaling.
+
+Backport of #4490
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-27 13:23:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4499" class=".btn">#4499</a>
+            </td>
+            <td>
+                <b>
+                    Verify transactions in a block are well formed (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Verify that transactions in blocks appear exactly as their marshaled form after unmarshaling.
+
+Backport of #4490
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-27 13:13:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4498" class=".btn">#4498</a>
             </td>
             <td>
