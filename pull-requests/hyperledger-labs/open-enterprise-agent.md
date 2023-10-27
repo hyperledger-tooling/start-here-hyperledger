@@ -14,44 +14,44 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/770" class=".btn">#770</a>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/772" class=".btn">#772</a>
             </td>
             <td>
                 <b>
-                    test: try to enable ryuk
+                    chore: optimize test pipelines
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">ci</span>
+                <span class="chip">docs</span><span class="chip">ci</span>
             </td>
             <td>
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes ATL-xxxx
+Optimizes test pipelines execution time and effectiveness
 
 ## Checklist
 
 ### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
 * [ ] Bug fixes (non-breaking change which fixes an issue)
 * [ ] Improvements (misc. changes to existing features)
 * [ ] Features (non-breaking change which adds functionality)
 
 ### My changes...
 * [ ] are breaking changes
-* [ ] are not breaking changes
+* [x] are not breaking changes
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Documentation
-* [ ] My changes do not require a change to the project documentation
+* [x] My changes do not require a change to the project documentation
 * [ ] My changes require a change to the project documentation
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Tests
-* [ ] My changes can not or do not need to be tested
+* [x] My changes can not or do not need to be tested
 * [ ] My changes can and should be tested by unit and/or integration tests
 * [ ] If yes to above: I have added tests to cover my changes
 * [ ] If yes to above: I have taken care to cover edge cases in my tests
@@ -60,7 +60,61 @@ Fixes ATL-xxxx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-26 17:09:11 +0000 UTC
+        Created At 2023-10-27 11:36:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/771" class=".btn">#771</a>
+            </td>
+            <td>
+                <b>
+                    chore: update .env file with each release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Automatically update .env file with the most recently released version of agent
+
+## Checklist
+
+### My PR contains...
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [x] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-27 10:41:06 +0000 UTC
     </div>
 </div>
 
@@ -329,112 +383,6 @@ Fixes https://input-output.atlassian.net/browse/ATL-5966
     </table>
     <div class="right-align">
         Created At 2023-10-21 19:32:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/764" class=".btn">#764</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix typo in docs link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                # Overview
-Fixes [ATL-5875](https://input-output.atlassian.net/browse/ATL-5875)
-
-## Checklist
-
-### My PR contains...
-* [x] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 11:40:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/763" class=".btn">#763</a>
-            </td>
-            <td>
-                <b>
-                    docs: replace broken link in Issue.md, AnonCreds Credential definition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                # Overview
-Replacing a broken link in documentation which is breaking the docs CI build due to an invalid link.
-
-Fixes https://input-output.atlassian.net/browse/ATL-5875 CI task from not being able to complete.
-
-## Checklist
-
-### My PR contains...
-* [x] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 11:02:16 +0000 UTC
     </div>
 </div>
 

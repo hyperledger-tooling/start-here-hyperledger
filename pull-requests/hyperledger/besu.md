@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6079" class=".btn">#6079</a>
+            </td>
+            <td>
+                <b>
+                    Force tx replacement price bump to zero when zero base fee market is configured
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR allows to replace txs on zero base fee markets, or on gas price network, where the txs have gas price set to zero (with `min-gas-price=0`).
+
+To achieve that we force the `tx-pool-price-bump=0` when the `zeroBaseFee:true` genesis option is present.
+But this was not enough, since the transaction replacement rules were forcing the new price to be strictly greater than the price bump, that in my opinion is not intuitive, since for example if your existing tx has a gas price of 100, and the price bump is 10%, then we should accept a valid replacement a tx with a gas price of 110, and not 111 as it was before.
+So the other change is to accept, as valid replacement, tx with a gas price greater than or equal to the price bump. This make also the `tx-pool-price-bump=0` case more intuitive, since you can replace a tx without increasing the gas price.
+
+`doc-change-required` to explain that if `zeroBaseFee:true` in the genesis, then `tx-pool-price-bump=0` is forced internally, and any attempt to specify a value for it results in an error
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #6043
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-24 19:11:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6078" class=".btn">#6078</a>
             </td>
             <td>
