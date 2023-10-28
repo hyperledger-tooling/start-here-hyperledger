@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Add section about using different CCs
+                    Update README.md
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
                 
             </td>
             <td>
-                Signed-off-by: Leonidas Avdelas <avdelasleonidas@gmail.com>
-
-Closes #11 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-19 13:40:10 +0000 UTC
+        Created At 2023-10-28 14:29:01 +0000 UTC
     </div>
 </div>
 
