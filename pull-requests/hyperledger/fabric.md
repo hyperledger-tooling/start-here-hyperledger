@@ -588,33 +588,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4487" class=".btn">#4487</a>
-            </td>
-            <td>
-                <b>
-                    change workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                because of runner fabric-ubuntu, my fork stopped passing checks, tests and integration tests
-<img width="783" alt="Снимок экрана 2023-10-21 в 23 41 55" src="https://github.com/hyperledger/fabric/assets/7284783/d423d6df-4847-40a6-90c3-670904dde4a0">
-
-
-here is my solution, if anyone has a better one, you are welcome.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-21 20:14:54 +0000 UTC
-    </div>
-</div>
-
