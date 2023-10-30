@@ -1,20 +1,20 @@
 ---
 layout: default
-title: fabric-machine
+title: aries-fabric-wrapper
 parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/fabric-machine
+permalink: /pull-requests/hyperledger-labs/aries-fabric-wrapper
 ---
 
-# fabric-machine <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/fabric-machine){: .btn .mr-4 }</span>
+# aries-fabric-wrapper <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/aries-fabric-wrapper){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/48" class=".btn">#48</a>
+                PR <a href="https://github.com/hyperledger-labs/aries-fabric-wrapper/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
                 
             </td>
             <td>
-                No commits since October 2022.
+                No updates since March 2022
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-30 17:50:51 +0000 UTC
+        Created At 2023-10-30 17:45:25 +0000 UTC
     </div>
 </div>
 
