@@ -212,37 +212,3 @@ Objects using the `MessageFrame` may wish to immutably read the memory of the fr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6072" class=".btn">#6072</a>
-            </td>
-            <td>
-                <b>
-                    Decouple TrieLogManager and CachedWorldStorageManager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                Two concepts were mixed together via inheritance:
-1. trie log management
-2. caching world states
-
-This PR splits these concepts out ahead of adding in trie log pruning.
-
-CachedWorldStorageManager is added as a field alongside TrieLogManager in BonsaiWorldStateProvider.
-
-Following previous refactors, there's now no need to have an AbstractTrieLogManager or TrieLogManager interface
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-23 03:36:10 +0000 UTC
-    </div>
-</div>
-
