@@ -184,31 +184,3 @@ This PR disables this restriction to address this blindspot.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6073" class=".btn">#6073</a>
-            </td>
-            <td>
-                <b>
-                    feat: add a way to read memory without altering the word capacity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Objects using the `MessageFrame` may wish to immutably read the memory of the frame without altering the word capacity of the memory, i.e. a “shadow” read as it behaves transparently w.r.t. the EVM.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-23 12:20:00 +0000 UTC
-    </div>
-</div>
-
