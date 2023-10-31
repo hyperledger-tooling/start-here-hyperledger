@@ -15,82 +15,26 @@ permalink: /releases/hyperledger/aries-acapy-docs
         <tr>
             <td colspan="2">
                 <b>
-                    v0.9.0
+                    v0.11.0-rc1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.9.0
+                    v0.11.0-rc1
                 </span>
             </td>
             <td>
-                Documentation for Release 0.9.0 of Aries Cloud Agent Python.
+                Documentation for Release 0.11.0-rc1 of Aries Cloud Agent Python.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.9.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.11.0-rc1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-10-22 21:27:54 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.8.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.8.2
-                </span>
-            </td>
-            <td>
-                Documentation for Release 0.8.2 of Aries Cloud Agent Python.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.8.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-10-22 21:37:28 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.8.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.8.1
-                </span>
-            </td>
-            <td>
-                Documentation for Release 0.8.1 of Aries Cloud Agent Python.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.8.1" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-10-22 21:42:36 +0000 UTC
+        Created At 2023-10-30 23:45:09 +0000 UTC
     </span>
 </div>
 
