@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6083" class=".btn">#6083</a>
+            </td>
+            <td>
+                <b>
+                    Add transaction selector based on min priority fee parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add transaction selector based on min priority fee parameter
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-25 07:35:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6082" class=".btn">#6082</a>
             </td>
             <td>
@@ -220,36 +251,6 @@ I also set the DNS discovery tree to what's in [core-geth#bootnodes_mordor.go](h
     </table>
     <div class="right-align">
         Created At 2023-10-24 18:48:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6074" class=".btn">#6074</a>
-            </td>
-            <td>
-                <b>
-                    Trigger contextEnter/Exit for all frames, including root
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Filtering out the root context from the `context{Enter,Exit}` tracing hook leads to an asymmetry of treatment when returning from a create/call context, where the root context is blind to the event, but non-root contexts can read it.
-
-This PR disables this restriction to address this blindspot.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-23 22:44:58 +0000 UTC
     </div>
 </div>
 
