@@ -15,78 +15,76 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v3.0.0-preview
+                    v2.5.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.0.0-preview
+                    v2.5.5
                 </span>
             </td>
             <td>
-                v3.0.0-preview Release Notes - September 1, 2023
-================================================
+                v2.5.5 Release Notes - October 31, 2023
+=======================================
 
-The v3.0.0-preview release is an early preview of Fabric v3.0, specifically to demonstrate and get feedback on the new Byzantine Fault Tolerant (BFT) ordering service.
-
-v3.0.0-preview is not intended to be used in production and is not intended as an upgrade target from prior versions.
-
-New features
-------------
-
-**Byzantine Fault Tolerant (BFT) ordering service**
-
-Hyperledger Fabric has utilized a Raft crash fault tolerant (CFT) ordering service since version v1.4.1.
-A Byzantine Fault Tolerant (BFT) ordering service can withstand not only crash failures, but also a subset of nodes behaving maliciously.
-Fabric v3.0.0-preview is the first release to provide a BFT ordering service based on the [SmartBFT](https://arxiv.org/abs/2107.06922) [consensus library](https://github.com/SmartBFT-Go/consensus).
-Consider using the BFT orderer if true decentralization is required, where up to and not including a third of the parties running the orderers may not be trusted due to malicious intent or being compromised.
-For more details of the BFT ordering service and other recent features, see the [What's New documentation](https://hyperledger-fabric.readthedocs.io/en/latest/whatsnew.html).
-
-Improvements and Fixes
+Fixes
 -----
 
-All improvements and fixes as of v2.5.4 have also been included in v3.0.0-preview.
+**Verify transactions in a block are well formed**
+
+Verify that transactions in blocks appear exactly as their marshaled form after unmarshaling.
+[#4503](https://github.com/hyperledger/fabric/pull/4503)
 
 
 Dependencies
 ------------
-Fabric v3.0.0-preview has been tested with the following dependencies:
-* Go 1.20.7
+Fabric v2.5.5 has been tested with the following dependencies:
+* Go 1.21.3
 * CouchDB v3.3.2
 
 Fabric docker images on dockerhub utilize Ubuntu 20.04.
 
 
-Changes
--------
+Deprecations (existing)
+-----------------------
 
-**Support for ordering service system channel has been removed**
+**Ordering service system channel is deprecated**
 
 v2.3 introduced the ability to manage an ordering service without a system channel.
-Managing an ordering service without a system channel has privacy, scalability, and operational benefits.
-The system channel is removed in Fabric v3.0, as well as the concept of a 'consortium' of organizations that can create channels.
-If you used the system channel in prior releases, you must remove the system channel and migrate to the channel participation API before upgrading to v3.x.
-For information about removal of the system channel, see the [Create a channel without system channel documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.5/create_channel/create_channel_participation.html).
+Managing an ordering service without a system channel has privacy, scalability,
+and operational benefits. The use of a system channel is deprecated and may be removed in a future release.
+For information about removal of the system channel, see the [Create a channel without system channel documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.3/create_channel/create_channel_participation.html).
 
-**Support for 'Solo' consensus ordering service has been removed**
+**FAB-15754: The 'Solo' consensus type is deprecated.**
 
-The 'Solo' consensus type was intended for test environments only in prior releases and has never been supported for production environments.
-Support for 'Solo' consensus has been removed in Fabric v3.0.
-For trial environments you can utilize a single node Raft ordering service as demonstrated in the [test network tutorial](https://hyperledger-fabric.readthedocs.io/en/latest/test_network.html).
+The 'Solo' consensus type has always been marked non-production and should be in
+use only in test environments; however, for compatibility it is still available,
+but may be removed entirely in a future release.
 
-**Support for 'Kafka' consensus ordering service has been removed**
+**FAB-16408: The 'Kafka' consensus type is deprecated.**
 
-The 'Raft' consensus type was introduced in v1.4.1 and has become the preferred production consensus type.
-Support for 'Kafka' consensus has been removed in Fabric v3.0.
-If you used Kafka consensus in prior releases, you must migrate to Raft consensus prior to upgrading to v3.x.
-For details about the migration process, see the [Migrating from Kafka to Raft documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.5/kafka_raft_migration.html).
+The 'Raft' consensus type was introduced in v1.4.1 and has become the preferred
+production consensus type.  There is a documented and tested migration path from
+Kafka to Raft, and existing users should migrate to the newer Raft consensus type.
+For compatibility with existing deployments, Kafka is still supported,
+but may be removed entirely in a future release.
+Additionally, the fabric-kafka and fabric-zookeeper docker images are no longer updated, maintained, or published.
 
-Other changes planned for v3.0
-------------------------------
+**Fabric CouchDB image is deprecated**
 
-**Support for specifying orderer endpoints at the global level in channel configuration is deprecated and may be removed.**
+v2.2.0 added support for CouchDB 3.1.0 as the recommended and tested version of CouchDB.
+If prior versions are utilized, a Warning will appear in the peer log.
+Note that CouchDB 3.1.0 requires that an admin username and password be set,
+while this was optional in CouchDB v2.x. See the
+[Fabric CouchDB documentation](https://hyperledger-fabric.readthedocs.io/en/v2.2.0/couchdb_as_state_database.html#couchdb-configuration)
+for configuration details.
+Also note that CouchDB 3.1.0 default max_document_size is reduced to 8MB. Set a higher value if needed in your environment.
+Finally, the fabric-couchdb docker image will not be updated to v3.1.0 and will no longer be updated, maintained, or published.
+Users can utilize the official CouchDB docker image maintained by the Apache CouchDB project instead.
+
+**FAB-7559: Support for specifying orderer endpoints at the global level in channel configuration is deprecated.**
 
 Utilize the new 'OrdererEndpoints' stanza within the channel configuration of an organization instead.
 Configuring orderer endpoints at the organization level accommodates
@@ -96,20 +94,20 @@ are used for orderer communications; in contrast to the global channel level end
 would cause an aggregation of all orderer TLS CA certificates across
 all orderer organizations to be used for orderer communications.
 
-**Support for configtxgen flag `--outputAnchorPeersUpdate` is deprecated and may be removed.**
+**FAB-17428: Support for configtxgen flag `--outputAnchorPeersUpdate` is deprecated.**
 
 The `--outputAnchorPeersUpdate` mechanism for updating anchor peers has always had
 limitations (for instance, it only works the first time anchor peers are updated).
 Instead, anchor peer updates should be performed through channel configuration updates.
 
-**The fabric-tools docker image is deprecated and may be removed**
+**FAB-15406: The fabric-tools docker image is deprecated**
 
 The fabric-tools docker image will not be published in future Fabric releases.
 Instead of using the fabric-tools docker image, users should utilize the
 published Fabric binaries. The Fabric binaries can be used to make client calls
 to Fabric runtime components, regardless of where the Fabric components are running.
 
-**Block dissemination via gossip is deprecated and may be removed**
+**FAB-15317: Block dissemination via gossip is deprecated**
 
 Block dissemination via gossip is deprecated and may be removed in a future release.
 Fabric peers can be configured to receive blocks directly from an ordering service
@@ -121,7 +119,7 @@ peer.gossip.state.enabled: false
 peer.deliveryclient.blockGossipEnabled: false
 ```
 
-**Legacy chaincode lifecycle is deprecated and may be removed**
+**FAB-15061: Legacy chaincode lifecycle is deprecated**
 
 The legacy chaincode lifecycle from v1.x is deprecated and will be removed
 in a future release. To prepare for the eventual removal, utilize the v2.x
@@ -129,16 +127,139 @@ chaincode lifecycle instead, by enabling V2_0 application capability on all
 channels, and redeploying all chaincodes using the v2.x lifecycle. The new
 chaincode lifecycle provides a more flexible and robust governance model
 for chaincodes. For more details see the
-[documentation for enabling the new lifecycle](https://hyperledger-fabric.readthedocs.io/en/release-2.5/enable_cc_lifecycle.html).
+[documentation for enabling the new lifecycle](https://hyperledger-fabric.readthedocs.io/en/release-2.2/enable_cc_lifecycle.html).
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v3.0.0-preview" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-09-01 11:28:39 +0000 UTC
+        Created At 2023-10-31 16:41:46 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v2.2.14
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v2.2.14
+                </span>
+            </td>
+            <td>
+                v2.2.14 Release Notes - October 31, 2023
+========================================
+
+Fixes
+-----
+
+**Verify transactions in a block are well formed**
+
+Verify that transactions in blocks appear exactly as their marshaled form after unmarshaling.
+[#4504](https://github.com/hyperledger/fabric/pull/4504)
+
+
+Dependencies
+------------
+
+Fabric v2.2.14 has been tested with the following dependencies:
+* Go 1.21.3
+* CouchDB v3.3.2
+
+Fabric docker images on dockerhub utilize Alpine 3.18.
+
+Deprecations (existing)
+-----------------------
+
+**FAB-15754: The 'Solo' consensus type is deprecated.**
+
+The 'Solo' consensus type has always been marked non-production and should be in
+use only in test environments, however for compatibility it is still available,
+but may be removed entirely in a future release.
+
+**FAB-16408: The 'Kafka' consensus type is deprecated.**
+
+The 'Raft' consensus type was introduced in v1.4.1 and has become the preferred
+production consensus type.  There is a documented and tested migration path from
+Kafka to Raft, and existing users should migrate to the newer Raft consensus type.
+For compatibility with existing deployments, Kafka is still supported,
+but may be removed entirely in a future release.
+Additionally, the fabric-kafka and fabric-zookeeper docker images are no longer updated, maintained, or published.
+
+**Fabric CouchDB image is deprecated**
+
+v2.2.0 added support for CouchDB 3.1.0 as the recommended and tested version of CouchDB.
+If prior versions are utilized, a Warning will appear in peer log.
+Note that CouchDB 3.1.0 requires that an admin username and password be set,
+while this was optional in CouchDB v2.x. See the
+[Fabric CouchDB documentation](https://hyperledger-fabric.readthedocs.io/en/v2.2.0/couchdb_as_state_database.html#couchdb-configuration)
+for configuration details.
+Also note that CouchDB 3.1.0 default max_document_size is reduced to 8MB. Set a higher value if needed in your environment.
+Finally, the fabric-couchdb docker image will not be updated to v3.1.0 and will no longer be updated, maintained, or published.
+Users can utilize the official CouchDB docker image maintained by the Apache CouchDB project instead.
+
+**FAB-7559: Support for specifying orderer endpoints at the global level in channel configuration is deprecated.**
+
+Utilize the new 'OrdererEndpoints' stanza within the channel configuration of an organization instead.
+Configuring orderer endpoints at the organization level accommodates
+scenarios where orderers are run by different organizations. Using
+this configuration ensures that only the TLS CA certificates of that organization
+are used for orderer communications, in contrast to the global channel level endpoints which
+would cause an aggregation of all orderer TLS CA certificates across
+all orderer organizations to be used for orderer communications.
+
+**FAB-17428: Support for configtxgen flag `--outputAnchorPeersUpdate` is deprecated.**
+
+The `--outputAnchorPeersUpdate` mechanism for updating anchor peers has always had
+limitations (for instance, it only works the first time anchor peers are updated).
+Instead, anchor peer updates should be performed through the normal config update flow.
+
+**FAB-15406: The fabric-tools docker image is deprecated**
+
+The fabric-tools docker image will not be published in future Fabric releases.
+Instead of using the fabric-tools docker image, users should utilize the
+published Fabric binaries. The Fabric binaries can be used to make client calls
+to Fabric runtime components, regardless of where the Fabric components are running.
+
+**FAB-15317: Block dissemination via gossip is deprecated**
+
+Block dissemination via gossip is deprecated and may be removed in a future release.
+Fabric peers can be configured to receive blocks directly from an ordering service
+node by using the following configuration:
+```
+peer.gossip.orgLeader: true
+peer.gossip.useLeaderElection: false
+peer.gossip.state.enabled: false
+peer.deliveryclient.blockGossipEnabled: false
+```
+
+**FAB-15061: Legacy chaincode lifecycle is deprecated**
+
+The legacy chaincode lifecycle from v1.x is deprecated and will be removed
+in a future release. To prepare for the eventual removal, utilize the v2.x
+chaincode lifecycle instead, by enabling V2_0 application capability on all
+channels, and redeploying all chaincodes using the v2.x lifecycle. The new
+chaincode lifecycle provides a more flexible and robust governance model
+for chaincodes. For more details see the
+[documentation for enabling the new lifecycle](https://hyperledger-fabric.readthedocs.io/en/release-2.2/enable_cc_lifecycle.html).
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.14" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-10-31 16:06:06 +0000 UTC
     </span>
 </div>
 
