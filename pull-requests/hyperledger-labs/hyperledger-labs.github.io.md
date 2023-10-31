@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/251" class=".btn">#251</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/252" class=".btn">#252</a>
             </td>
             <td>
                 <b>
-                    Fix parent location for Agora.
+                    aifaq
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                <nil>
+                AI FAQ lab project: it provides a chatbot that replies to the questions on Hyperledger Ecosystem
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-28 18:35:23 +0000 UTC
+        Created At 2023-10-31 15:36:59 +0000 UTC
     </div>
 </div>
 
