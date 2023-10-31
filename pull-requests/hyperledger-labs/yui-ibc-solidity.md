@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/230" class=".btn">#230</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/232" class=".btn">#232</a>
             </td>
             <td>
                 <b>
-                    ICS-02: Add light client status check
+                    Add cover image to README
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-23 08:57:58 +0000 UTC
+        Created At 2023-10-31 14:03:40 +0000 UTC
     </div>
 </div>
 
