@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/508" class=".btn">#508</a>
+            </td>
+            <td>
+                <b>
+                    fix: FSC panics when provided with a malformed identity certificate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvement</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-31 09:27:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/507" class=".btn">#507</a>
             </td>
             <td>
@@ -157,7 +183,9 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">bug</span>
             </td>
             <td>
-                <nil>
+                This PR brings the following:
+- Ability to set a context when waiting for chaincode events
+- Better lock strategy for the event bus
             </td>
         </tr>
     </table>

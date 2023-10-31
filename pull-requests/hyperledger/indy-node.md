@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1820" class=".btn">#1820</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1821" class=".btn">#1821</a>
             </td>
             <td>
                 <b>
-                    Installdocs 1
+                    Add Indy-Besu PoC
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Node installation documents to install the server.
+                Work in progress:
+
+- [ ] Squash Initial commit
+- [ ] CI/CD pipeline Integration
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-26 23:05:33 +0000 UTC
+        Created At 2023-10-31 08:37:29 +0000 UTC
     </div>
 </div>
 
