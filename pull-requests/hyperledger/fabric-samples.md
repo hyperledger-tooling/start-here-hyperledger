@@ -3498,29 +3498,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1098" class=".btn">#1098</a>
-            </td>
-            <td>
-                <b>
-                    Use fabric-gateway v1.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also update some GitHub Actions versions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-23 19:37:11 +0000 UTC
-    </div>
-</div>
-

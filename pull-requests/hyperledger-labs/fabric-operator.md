@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    Fix the Makefile by adding missing targets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/fabric-operator/issues/143
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-30 18:58:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/146" class=".btn">#146</a>
             </td>
             <td>
