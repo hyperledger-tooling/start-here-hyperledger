@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/421" class=".btn">#421</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/422" class=".btn">#422</a>
             </td>
             <td>
                 <b>
-                    Update documentation for new features
+                    New file for testing k8s setup with Github Actions
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Updated documentation for `fablo chaincode invoke `  and `fablo chaincodes list ` commands on:
-
-- `fablo.sh` help section
-- `README.md`
-- `CHANGELOG.md`
-
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-24 06:53:47 +0000 UTC
+        Created At 2023-11-01 07:01:19 +0000 UTC
     </div>
 </div>
 

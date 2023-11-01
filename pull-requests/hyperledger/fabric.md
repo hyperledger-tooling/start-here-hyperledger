@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4517" class=".btn">#4517</a>
+            </td>
+            <td>
+                <b>
+                    Verify transactions are well formed when computing the block's data hash instead of externally
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To make sure the function VerifyTransactionsAreWellFormed is called in the right places,
+I moved its invocation to the computation of the Fabric's block data hash.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-01 10:46:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4515" class=".btn">#4515</a>
             </td>
             <td>
