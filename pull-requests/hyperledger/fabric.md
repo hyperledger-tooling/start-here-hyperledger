@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4515" class=".btn">#4515</a>
+            </td>
+            <td>
+                <b>
+                    Simplify code logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Change-Id: I7b14ef1c54b0d3cb7d5afc4cf21d5e0e6bd36586
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset uses direct error check and allows run code when the criteria is met, which will simplify the code logic.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-01 04:00:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4514" class=".btn">#4514</a>
             </td>
             <td>

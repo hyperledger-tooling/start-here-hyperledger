@@ -118,30 +118,3 @@ Changes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6081" class=".btn">#6081</a>
-            </td>
-            <td>
-                <b>
-                    Bump 23.10.1-RC to 23.10.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Bump 23.10.1-RC to 23.10.1 on release branch
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-25 01:55:59 +0000 UTC
-    </div>
-</div>
-
