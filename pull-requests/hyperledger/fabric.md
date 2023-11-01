@@ -102,7 +102,9 @@ N/A
                 
             </td>
             <td>
-                Also requires updating github.com/fsouza/go-dockerclient to v1.10.0.
+                Also requires updating the following to address compile issues:
+- github.com/fsouza/go-dockerclient to v1.10.0.
+- github.com/klauspost/compress to v1.13.6.
 
             </td>
         </tr>
