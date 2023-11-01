@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/150" class=".btn">#150</a>
+            </td>
+            <td>
+                <b>
+                    Making Use tags default to true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/fabric-operator/issues/148
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-01 14:42:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/149" class=".btn">#149</a>
             </td>
             <td>
@@ -111,32 +137,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </table>
     <div class="right-align">
         Created At 2023-10-26 15:25:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/142" class=".btn">#142</a>
-            </td>
-            <td>
-                <b>
-                     Porting changes from V1.0.6 to master
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/141
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-25 16:59:47 +0000 UTC
     </div>
 </div>
 
