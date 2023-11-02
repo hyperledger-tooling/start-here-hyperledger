@@ -1,13 +1,13 @@
 
+[4522](https://github.com/hyperledger/fabric/pull/4522) Fix doc link for chaincode access control
+
+[4521](https://github.com/hyperledger/fabric/pull/4521) Directly return the result
+
+[4519](https://github.com/hyperledger/fabric/pull/4519) Bump google.golang.org/grpc from 1.53.0 to 1.56.3 (release-2.5)
+
+[511](https://github.com/hyperledger-labs/fabric-token-sdk/pull/511) make the interactive certifier driver extensible
+
 [454](https://github.com/hyperledger-labs/private-data-objects/pull/454) Add GHA dependabot alerts
-
-[4518](https://github.com/hyperledger/fabric/pull/4518) Update doc generation dependencies
-
-[150](https://github.com/hyperledger-labs/fabric-operator/pull/150) Making Use tags default to true
-
-[4517](https://github.com/hyperledger/fabric/pull/4517) Verify transactions are well formed when computing the block's data hash instead of externally
-
-[149](https://github.com/hyperledger-labs/fabric-operator/pull/149) Making usetags default to true
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

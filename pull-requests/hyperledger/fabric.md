@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4522" class=".btn">#4522</a>
+            </td>
+            <td>
+                <b>
+                    Fix doc link for chaincode access control
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix doc link for chaincode access control.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-02 17:12:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4521" class=".btn">#4521</a>
+            </td>
+            <td>
+                <b>
+                    Directly return the result
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Change-Id: Ic086d2fa7d430c6fa88b92c7b8e99709c3b1569e
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+No need to create the QueryResponseMetadata struct.
+
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-02 17:00:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4519" class=".btn">#4519</a>
+            </td>
+            <td>
+                <b>
+                    Bump google.golang.org/grpc from 1.53.0 to 1.56.3 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump google.golang.org/grpc from 1.53.0 to 1.56.3.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-02 15:19:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4518" class=".btn">#4518</a>
             </td>
             <td>
@@ -497,32 +599,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2023-10-27 09:35:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4497" class=".btn">#4497</a>
-            </td>
-            <td>
-                <b>
-                    fix integration raft test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I think I've found the cause of raft itegration tests freezing
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-26 15:53:53 +0000 UTC
     </div>
 </div>
 
