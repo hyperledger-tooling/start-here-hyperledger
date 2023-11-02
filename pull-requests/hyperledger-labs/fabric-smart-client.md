@@ -166,31 +166,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/506" class=".btn">#506</a>
-            </td>
-            <td>
-                <b>
-                    improved chaincode event view
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                This PR brings the following:
-- Ability to set a context when waiting for chaincode events
-- Better lock strategy for the event bus
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-26 07:47:00 +0000 UTC
-    </div>
-</div>
-
