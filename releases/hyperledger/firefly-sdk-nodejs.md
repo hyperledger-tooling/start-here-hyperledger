@@ -15,62 +15,31 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.15
+                    v1.2.16
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.15
+                    v1.2.16
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add deleteTokenPool, expose "protocol_error" type, add "noack" option by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/81
+* Add manual workflow for updating "latest" on npm by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/83
+* Update getOperation to reflect "detail" param by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/84
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.14...v1.2.15
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.15...v1.2.16
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.15" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.16" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-10-12 12:44:18 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.0.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.0.1
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Backport fixes from 1.2 to 1.0 by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/82
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/1.0.0...v1.0.1
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.0.1" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-10-12 20:12:28 +0000 UTC
+        Created At 2023-11-02 12:25:32 +0000 UTC
     </span>
 </div>
 
