@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/453" class=".btn">#453</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/454" class=".btn">#454</a>
             </td>
             <td>
                 <b>
-                    A couple random fixes for installer and service startup scripts
+                    Add GHA dependabot alerts
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                A couple small fixes to the installer (to preserve mode bits) and the services (to enable configuration variable override).
+                This will keep our GitHub Actions dependencies up to date.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-19 17:28:24 +0000 UTC
+        Created At 2023-11-01 21:51:34 +0000 UTC
     </div>
 </div>
 
