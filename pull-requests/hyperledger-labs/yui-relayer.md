@@ -71,29 +71,3 @@ delete the following interface
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    Add timetrack to SendCheckMsgs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-27 11:36:13 +0000 UTC
-    </div>
-</div>
-
