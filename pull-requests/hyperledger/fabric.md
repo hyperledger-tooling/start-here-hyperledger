@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4524" class=".btn">#4524</a>
+            </td>
+            <td>
+                <b>
+                    Fix help docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The patchset runs make help-docs to update the docs.
+
+Change-Id: I68e5e8d836f8f05fd614d304c786cd88af48da4f
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset runs `make help-docs` to update the docs.
+
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-03 15:40:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4523" class=".btn">#4523</a>
             </td>
             <td>
@@ -568,60 +617,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2023-10-29 21:27:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4502" class=".btn">#4502</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): move to dedicated Fabric runners (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Utilize faster runners for verify CI jobs.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-27 15:26:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4501" class=".btn">#4501</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): move to dedicated Fabric runners (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Utilize faster runners for verify CI jobs.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-27 15:25:18 +0000 UTC
     </div>
 </div>
 

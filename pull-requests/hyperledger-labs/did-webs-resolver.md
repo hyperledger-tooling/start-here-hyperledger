@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    Feat/add service ends
+                    Fix time format to comply with did core
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                Adds service endpoints, some unit tests, and small fixes
+                Reported in issue https://github.com/hyperledger-labs/did-webs-resolver/issues/27
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-18 13:22:44 +0000 UTC
+        Created At 2023-11-03 18:10:51 +0000 UTC
     </div>
 </div>
 

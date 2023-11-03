@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/146" class=".btn">#146</a>
-            </td>
-            <td>
-                <b>
-                    disable peer block gossiping with config blockGossipEnabled flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/145
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-27 15:14:11 +0000 UTC
-    </div>
-</div>
-
