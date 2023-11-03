@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4523" class=".btn">#4523</a>
+            </td>
+            <td>
+                <b>
+                    Make clear of osnadmin remove usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Change-Id: Id90cea1c9152f2f6c2d0225488eb6e08a5808a68
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset explains more details about `osnadmin remove`.
+
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-02 18:25:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4522" class=".btn">#4522</a>
             </td>
             <td>
