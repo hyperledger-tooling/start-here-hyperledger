@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/554" class=".btn">#554</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade browserify-sign to 4.2.2 to address CVE.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Upgrade npm browserify-sign in apollo to 4.2.2 to address https://nvd.nist.gov/vuln/detail/CVE-2023-46234
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-03 20:24:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/553" class=".btn">#553</a>
             </td>
             <td>
