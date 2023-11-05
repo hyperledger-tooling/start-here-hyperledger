@@ -44,39 +44,6 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4527" class=".btn">#4527</a>
-            </td>
-            <td>
-                <b>
-                    Tx well form
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-- Test update
-
-#### Description
-
-This PR is the continuation of PR #4517.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 10:04:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4526" class=".btn">#4526</a>
             </td>
             <td>
