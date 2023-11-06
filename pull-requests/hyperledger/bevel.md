@@ -14,82 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2394" class=".btn">#2394</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2415" class=".btn">#2415</a>
             </td>
             <td>
                 <b>
-                    feat(shared): add missing files for OS-specific command handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### **Quick fix commit to be reviewed**
----
-
-**feat(shared): add missing files for OS-specific command handling**
-
-```
-Description:
-- In the PR titled "feat(shared): enable OS-specific command handling in Helm charts," I forgot to include certain files.
-- I thought that changing the name of the Helm chart would override the updated file only, not the entire chart, but I was wrong.
-- This PR will address the missing file and fulfill the purpose of the original PR.
-```
-
-fixes #quick-fix
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 12:18:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2393" class=".btn">#2393</a>
-            </td>
-            <td>
-                <b>
-                    bug(r3-corda-ent): delete HashiCorp vault access and policies on network reset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-This pull request addresses the need to delete HashiCorp Vault access and policies when performing a network reset.
-
-changes made in:
-1. platforms/r3-corda-ent/configuration/cleanup.yaml
-2. platforms/r3-corda-ent/configuration/roles/delete/vault_secrets/tasks/main.yaml
-
-fixes:#2390
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 05:03:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2392" class=".btn">#2392</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Update chaincode charts to be compatible with version 2.5.4
+                    [fabric] Fix playbook add organization
                 </b>
             </td>
         </tr>
@@ -100,32 +29,23 @@ fixes:#2390
             <td>
                 Primary Changes
 --------------
- 1. Updated  chaincode charts
- 2. Fixed a bug that occurred when creating the genesis file with an incorrect channel name
+1.Added /setup/scripts role in playbook
+2.Fixed undefined variables
+3.FIxed creation of configtx.yaml
 
-Modifications in docs
+Modifications
 -----------------------
-docs/source/_static/TopLevelClass-Fabric.png
-docs/source/operations/fabric_networkyaml.md
+platforms/hyperledger-fabric/configuration/add-organization.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/configtx/templates/configtxOrderer_default.tpl 
+platforms/hyperledger-fabric/configuration/roles/k8_component/templates/existing_peer_cli.tpl
 
-Modifications in charts
------------------------
-platforms/hyperledger-fabric/charts/commit_chaincode/templates/commit_chaincode.yaml platforms/hyperledger-fabric/charts/install_chaincode/templates/install_chaincode.yaml
+fixes #2412
 
-Modifications in roles and tpl files
------------------------
-platforms/hyperledger-fabric/configuration/chaincode-ops.yaml platforms/hyperledger-fabric/configuration/deploy-network.yaml platforms/hyperledger-fabric/configuration/roles/helm_component/templates/commit_chaincode_job.tpl
-
-Others Modifications
-----------------------------------------
-platforms/hyperledger-fabric/configuration/samples/network-fabricv2.yaml
-
-fixes #2385
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-18 10:41:59 +0000 UTC
+        Created At 2023-11-06 10:25:21 +0000 UTC
     </div>
 </div>
 
@@ -133,11 +53,11 @@ fixes #2385
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2389" class=".btn">#2389</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2414" class=".btn">#2414</a>
             </td>
             <td>
                 <b>
-                    fix:(corda-ent, shared) chart liniting errors, aes host ns hardcoding
+                    update release_chart workflow and roadmap
                 </b>
             </td>
         </tr>
@@ -151,7 +71,7 @@ fixes #2385
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-17 06:42:45 +0000 UTC
+        Created At 2023-11-06 09:34:18 +0000 UTC
     </div>
 </div>
 
@@ -159,11 +79,11 @@ fixes #2385
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2388" class=".btn">#2388</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2413" class=".btn">#2413</a>
             </td>
             <td>
                 <b>
-                    [shared] enable OS-specific command handling in helm charts
+                    [substrate] replace ansible roles readme with inline code comments
                 </b>
             </td>
         </tr>
@@ -174,30 +94,166 @@ fixes #2385
             <td>
                 ### **Commit to be reviewed**
 ---
-**feat(shared): enable OS-specific command handling in helm charts**
+
+**feat(substrate): replace ansible roles readme with inline code comments**
 
 ```
-This PR improves the handling of OS-specific commands within Helm charts.
+This PR enhances the readability and understanding of our roles by adding comment messages throughout the code.
 
 Changes:
-- Introduced a script to check the Operating System and its supporting package manager for efficient package installation.
-- Added a ConfigMap object to insert the same above-mentioned script into the container, improving flexibility and compatibility.
-
-Additional change:
-- Updated the StorageClass Helm chart to resolve the node affinity issue.
-
-There are only 3 platforms that are currently using OS-Specific Command in Helm Charts directly, and this PR is also made for these 3 platforms only:
-- Quorum
-- Hyperledger-Fabric
-- Substrate
+- Added clear and concise comment messages in ansible roles.
+- Maintained proper code indentation for increased code reliability.
+- Removed the roles' Readme.md if it existed.
 ```
 
-fixes #2366
+fixes #2326
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-17 05:49:17 +0000 UTC
+        Created At 2023-11-03 11:11:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2411" class=".btn">#2411</a>
+            </td>
+            <td>
+                <b>
+                    [indy] replace ansible roles readme with inline code comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+**feat(indy): replace ansible roles readme with inline code comments**
+
+```
+This PR enhances the readability and understanding of our roles by adding comment messages throughout the code.
+
+Changes:
+- Added clear and concise comment messages in ansible roles.
+- Maintained proper code indentation for increased code reliability.
+- Removed the roles' Readme.md if it existed.
+```
+
+fixes #2326
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-02 10:01:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2410" class=".btn">#2410</a>
+            </td>
+            <td>
+                <b>
+                    upgrade(hyperledger-indy): ambassador to ambassador edge stack
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR will provide the support of using latest ambassador edge-stack
+
+changes:
+• Updated all services to use the latest Ambassador Edge Stack routing rules.
+
+fixes https://github.com/hyperledger/bevel/issues/2359
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-31 19:23:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2409" class=".btn">#2409</a>
+            </td>
+            <td>
+                <b>
+                    [shared] flux installation bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary Changes
+--------------
+
+1. flux installation based on the context specified at org level.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-31 17:32:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2408" class=".btn">#2408</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] replace ansible roles readme with inline code comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+**feat(fabric): replace ansible roles readme with inline code comments**
+
+```
+This PR enhances the readability and understanding of our roles by adding comment messages throughout the code.
+
+Changes:
+- Added clear and concise comment messages in ansible roles.
+- Maintained proper code indentation for increased code reliability.
+- Removed the roles' Readme.md if it existed.
+
+Additional changes:
+- Deleted storageclass ansible role as we already migrated it to the shared platform.
+
+```
+fixes #2326
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-31 12:32:51 +0000 UTC
     </div>
 </div>
 

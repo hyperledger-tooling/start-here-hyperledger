@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/836" class=".btn">#836</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/920" class=".btn">#920</a>
             </td>
             <td>
                 <b>
-                    Update CONTRIBUTING section
+                    [zh_CN] LF APAC has completed translation fabric docs 2.5 to Chinese 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                <nil>
+                
+the issue is [update to fabric 2.5](https://github.com/hyperledger/fabric-docs-i18n/issues/795)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-28 00:50:23 +0000 UTC
+        Created At 2023-11-05 06:28:23 +0000 UTC
     </div>
 </div>
 

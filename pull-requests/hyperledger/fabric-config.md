@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-config/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger/fabric-config/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Transition CI from Azure Pipelines to GitHub Actions
+                    remove solo as a consensus type
                 </b>
             </td>
         </tr>
@@ -29,20 +29,21 @@ permalink: /pull-requests/hyperledger/fabric-config
             <td>
                 #### Type of change
 
-- Improvement (improvement to code, performance, etc)
+- Test update
 
 #### Description
 
-This patch transites CI from Azure Pipelines to GitHub Actions.
+This PR aims to remove solo as a consensus type. 
+Tests were fixed accordingly.
 
 #### Related issues
 
-Resolves #60 
+Issue #4496 in fabric repo.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-29 10:55:26 +0000 UTC
+        Created At 2023-11-05 16:57:19 +0000 UTC
     </div>
 </div>
 

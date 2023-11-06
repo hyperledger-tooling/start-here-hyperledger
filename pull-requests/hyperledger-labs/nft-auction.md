@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Update auth.js
+                    Archive Lab
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
                 
             </td>
             <td>
-                Corrected Typo and added Detail description
-
-Signed-off-by: Subham Singh <subham672singh@gmail.com>
+                No commits since March 2022
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-08 19:57:46 +0000 UTC
+        Created At 2023-11-06 18:12:47 +0000 UTC
     </div>
 </div>
 

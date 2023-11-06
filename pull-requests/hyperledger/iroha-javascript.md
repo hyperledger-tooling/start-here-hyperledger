@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/174" class=".btn">#174</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/175" class=".btn">#175</a>
             </td>
             <td>
                 <b>
-                    Move grpc from devDependencies to dependencies
+                    Publish packages for Iroha `2.0.0-pre-rc.20`
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
-                Closes https://github.com/hyperledger/iroha-javascript/issues/173
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-18 10:39:28 +0000 UTC
+        Created At 2023-11-02 08:17:30 +0000 UTC
     </div>
 </div>
 

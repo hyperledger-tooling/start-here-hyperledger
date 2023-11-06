@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/neferti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/neferti/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger-labs/neferti/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Archive Lab
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger-labs/neferti
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-https://github.com/hyperledger/toc/issues/32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                No commits since November 2022
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-16 18:46:15 +0000 UTC
+        Created At 2023-11-06 18:09:29 +0000 UTC
     </div>
 </div>
 
