@@ -7,7 +7,7 @@
 
 [v2.2.14](https://github.com/hyperledger/fabric/releases/tag/v2.2.14) v2.2.14
 
-[v0.2.0-5](https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.2.0-5) v0.2.0-dev.5
+[v0.2.0-dev.5](https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.2.0-dev.5) v0.2.0-dev.5
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
