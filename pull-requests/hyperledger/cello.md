@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/576" class=".btn">#576</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/581" class=".btn">#581</a>
             </td>
             <td>
                 <b>
-                    Add release manager
+                    [ISSUE-580] Fix Swaggers API docs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,65 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Nominate Yang Feng <fengyang.09186@h3c.com> as release mgr.
+                This PR fixes #580 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-20 22:06:10 +0000 UTC
+        Created At 2023-11-04 01:05:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/579" class=".btn">#579</a>
+            </td>
+            <td>
+                <b>
+                    Remove multiple node creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes multiple node creation parameter from API request and use the given name + org name as the node.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-03 20:57:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/578" class=".btn">#578</a>
+            </td>
+            <td>
+                <b>
+                    Added the approve form.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Added the approve form.
+2. Checked the code style.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-03 18:16:46 +0000 UTC
     </div>
 </div>
 

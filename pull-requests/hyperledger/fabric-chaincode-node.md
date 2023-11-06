@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/407" class=".btn">#407</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/410" class=".btn">#410</a>
             </td>
             <td>
                 <b>
-                    TUTORIAL.md: fix missing quote in package.json template
+                    Use Node 20
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                This very modest contribution corrects a small typo in the example file that is intended to be copied by the reader of the tutorial.
+                Also removed use of fs-extra since the standard Node fs package provides all required functionality.
+
+Closes #409
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-07 12:39:00 +0000 UTC
+        Created At 2023-11-04 03:28:49 +0000 UTC
     </div>
 </div>
 

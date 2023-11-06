@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2564" class=".btn">#2564</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2591" class=".btn">#2591</a>
             </td>
             <td>
                 <b>
-                    Playground needs optionally external network
+                    Goal and Goal Code in invitation URL.
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Sigh... when documenting aries-mediator-service / redid-pq-demo and running through the instructions, I needed to make the playground network external. 
+                Add a unit test to ensure goal/goal code are in the encoded invitation URL.
 
-Unclear why it worked fine with the base mediator service and it's network but regardless, this is needed to allow the mediator service with redis demo to work.
-
-Note that the `ELK_NETWORK_NAME` will always be an external network so adding that notation to always be `true`.
+Fixes #2583 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-25 18:12:39 +0000 UTC
+        Created At 2023-11-02 23:23:23 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +42,11 @@ Note that the `ELK_NETWORK_NAME` will always be an external network so adding th
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2563" class=".btn">#2563</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2590" class=".btn">#2590</a>
             </td>
             <td>
                 <b>
-                    Issue 2555 playground scripts readme
+                    Fix Issue #2589 TypeError When There Are No Nested Requirements
                 </b>
             </td>
         </tr>
@@ -57,13 +55,12 @@ Note that the `ELK_NETWORK_NAME` will always be an external network so adding th
                 
             </td>
             <td>
-                I just realized that I didn't add my updates to the readme for #2562!
-
+                Added `if` statement, same as in calling function `create_vp`, to the called function `apply_requirements`. Since the former calls `apply_requirements` in both cases (`if req.nested_req` or not), the called function should handle both cases as well.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-25 17:04:09 +0000 UTC
+        Created At 2023-11-02 18:49:23 +0000 UTC
     </div>
 </div>
 
@@ -71,11 +68,11 @@ Note that the `ELK_NETWORK_NAME` will always be an external network so adding th
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2562" class=".btn">#2562</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2588" class=".btn">#2588</a>
             </td>
             <td>
                 <b>
-                    Update demo/playground scripts
+                    Anoncreds rs - draft PR to monitor differences between the branch and main
                 </b>
             </td>
         </tr>
@@ -84,20 +81,12 @@ Note that the `ELK_NETWORK_NAME` will always be an external network so adding th
                 
             </td>
             <td>
-                To simplify (from the end user perspective) usage of the scripts leveraging the playground demo, I've docker-ized them; no more installing requirements (or python for that matter).
-
-The scripts themselves are still simple, test that the playground agents are running, illustrate how to connect. When working on the mediator service, we added another script/test that would connect through the mediator service. 
-
-I picked up this "technique" from @dbluhm when adding in anoncreds-rs. It was a great way to prove it all worked and illustrated the intended flow/usage.
-
-This allows us to get rid of a `requirements.txt` and any PRs for dependabot on that file. Still have a poetry.lock, but those dependabot PRs seem to go smoother.
-
-Closes #2555 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-24 23:50:29 +0000 UTC
+        Created At 2023-11-02 16:25:16 +0000 UTC
     </div>
 </div>
 
@@ -105,31 +94,31 @@ Closes #2555
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2561" class=".btn">#2561</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2587" class=".btn">#2587</a>
             </td>
             <td>
                 <b>
-                    refactor: use did-peer-2 instead of peerdid
+                    feat: use a local static cache for commonly used contexts
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0.11.0</span>
             </td>
             <td>
-                Speaking frankly, I felt that the peerdid library was a bit overly complicated. On top of that, peerdid is not up to date with the corrections proposed in this PR to the did:peer method specification:
+                [Related to this issue](https://github.com/hyperledger/aries-cloudagent-python/issues/2581)
 
-https://github.com/decentralized-identity/peer-did-method-spec/pull/62
-
-did-peer-2 is a minimal implementation of did:peer:2 and did:peer:3. It is up to date with the above PR. The corrections to the spec and the library lend themselves to a simpler implementation of the did:peer:2 and did:peer:3 resolvers. This refactor supports work to add did:peer:2 support to OOB + DID Exchange.
-
-New in this PR is a cleanup mechanism for the did:peer:3 to did:peer:2 mapping records. When a connection is deleted, we check whether there are any potential mappings to remove.
+* Package a list of commonly used contexts 
+* Replace the context loader from pyld with `StaticCacheJsonLdDownloader`
+* `StaticCacheJsonLdDownloader` resolves contexts from local package in priority, then delegates to a downloader
+* As of now, `JsonLdDocumentDownloader` and `JsonLdDocumentParser` are simply lifted from pyld in a way that decouples downloading and parsing JSON-LD documents.
+* Tests are mostly drafts, waiting for feedback before investing time there.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-24 01:15:51 +0000 UTC
+        Created At 2023-11-02 12:57:49 +0000 UTC
     </div>
 </div>
 
@@ -137,11 +126,11 @@ New in this PR is a cleanup mechanism for the did:peer:3 to did:peer:2 mapping r
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2560" class=".btn">#2560</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2585" class=".btn">#2585</a>
             </td>
             <td>
                 <b>
-                    fix: clean up requests and invites
+                    Another catchup from main 
                 </b>
             </td>
         </tr>
@@ -150,18 +139,12 @@ New in this PR is a cleanup mechanism for the did:peer:3 to did:peer:2 mapping r
                 
             </td>
             <td>
-                On connection deletion, all records strongly associated with the connection should be deleted. These records include connection metadata, connection requests, and connection invitations.
-
-Records referencing the connection ID such as mediation or routing records are not "strongly" associated with the connection; there are other mechanisms in place to enable deletion of these records through the Admin API. The records for metadata, requests, and invitations, on the other hand, cannot be cleaned up any other way.
-
-This PR makes sure these records are deleted when the connection is deleted.
-
-It might be a good idea for us to look at other records that ought to be cleaned up automatically. Those can be addressed in future work.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-24 01:14:22 +0000 UTC
+        Created At 2023-11-01 21:28:09 +0000 UTC
     </div>
 </div>
 
@@ -169,11 +152,11 @@ It might be a good idea for us to look at other records that ought to be cleaned
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2559" class=".btn">#2559</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2584" class=".btn">#2584</a>
             </td>
             <td>
                 <b>
-                    refactor: replace multiformats library
+                    Dockerfile.indy - Include aries_cloudagent code into build
                 </b>
             </td>
         </tr>
@@ -182,14 +165,14 @@ It might be a good idea for us to look at other records that ought to be cleaned
                 
             </td>
             <td>
-                This replaces the multiformats library with a very basic implementation included directly within ACA-Py. Given that the multiformats library has gone stale and my PR has languished, I think this is a good alternative to using that library. The implementation is very simple and currently only supports the minimum currently required by ACA-Py. Expanding the implementation in the future should be trivial.
+                Fixes #2582 
 
-Fixes #2501 
+Need to have the `poetry` install load `aries-cloudagent` module. So add the source to the image and change the install command to load it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-19 15:19:58 +0000 UTC
+        Created At 2023-11-01 19:33:14 +0000 UTC
     </div>
 </div>
 
@@ -197,11 +180,11 @@ Fixes #2501
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2558" class=".btn">#2558</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2578" class=".btn">#2578</a>
             </td>
             <td>
                 <b>
-                    Fix: RevRegEntry Transaction Endorsement
+                    feat: emit did:peer:2 in DID Exchange
                 </b>
             </td>
         </tr>
@@ -210,12 +193,135 @@ Fixes #2501
                 
             </td>
             <td>
-                - resolve #2441 
+                This PR implements did:peer:2 support for DID Exchange. If the `--emit-did-peer-2` flag is set, ACA-Py will create and send a did:peer:2 DID instead of an unqualified DID and an attached Document in DID Exchange messages.
+
+This PR also implements the `did_rotate~attach` from the [proposed DID Exchange v1.1](https://github.com/hyperledger/aries-rfcs/pull/795). It will include the `did_rotate~attach` attribute on responses when relevant and will expect to receive them on responses as well.
+
+To achieve this, the following changes were made:
+- Add `wallet.create_key`. `create_key` is just a more generic `create_signing_key`. Literally no difference in implementation; it just seemed an inappropriate name for how it was being used. I can be convinced that we should not do this.
+- Add `wallet.store_did`. This enables us to more easily create DIDs outside of the wallet. The `wallet.create_local_did` method is starting to get a bit complicated. Rather than shoehorning all DID creation into the wallet interface, I think it makes sense to transition to a system where the wallet creates the primitives (such as keys) but then the creation of the DID itself is performed outside of the wallet. This was especially necessary because, in order to create a did:peer:2, we also need service info which can differ per connection (mediation used or not, for instance) and the wallet is simply not aware of the concept of services nor the context of the connection and associated mediation records. As part of an early pass, I even went as far as to introduce a DID Registration interface (which makes this attempt perhaps my third one in recent memory). I continue to struggle to create an interface that is generic enough to enable registering DIDs using plugged in registrars but still actually be useful. The requirements between methods varies so widely that the interface becomes nearly useless (at least in the context of ACA-Py). I'm finding it more reasonable to simply call a specific "registrar" directly. In these changes for did:peer:2, this is simply calling into the did-peer-2 library's `generate` method.
+- Add `--emit-did-peer-2` flag and associated setting.
+- Add support for easily creating an attachment with `text/string` mime type, as is used in the `did_rotate~attach`.
+- Add the `PEER2` DID Method definition
+
+Opening as a draft since, at the time of opening, this hasn't been thoroughly exercised by tests yet.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-19 14:32:33 +0000 UTC
+        Created At 2023-10-31 03:24:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2577" class=".btn">#2577</a>
+            </td>
+            <td>
+                <b>
+                    Send Problem report when CredEx not found
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See #2549 
+
+Address the situation when an issuer sends an offer and then deletes that offer (credential exchange) before the holder accepts it. When this is an `indy` credential exchange, a Problem Report is sent; when this is a `json-ld` exchange, the holder's accept actually becomes an unbound request for the credential and the flow carries on.
+
+A discussion is warranted to see if we want to implement something more global? Seems like at any point in any protocol one side may not find their record and the other side should be notified of the abandonment. Maybe it is already done and this was just a gap...
+
+Added BDD tests to address the deletion and followup acceptance for `indy` and `json-ld` and also the holder sending a request for credential to issuer. Again, `indy` is not allowed, `json-ld` can flow into a credential issuance.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-31 01:11:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2576" class=".btn">#2576</a>
+            </td>
+            <td>
+                <b>
+                    0.11.0-rc1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-30 22:07:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2575" class=".btn">#2575</a>
+            </td>
+            <td>
+                <b>
+                    0.11.0-rc0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-30 20:30:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2573" class=".btn">#2573</a>
+            </td>
+            <td>
+                <b>
+                    chore: point to official sd-jwt lib release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adjusts the version of sd-jwt pulled to be the official release now published to PyPI: https://pypi.org/project/sd-jwt/
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-30 19:07:54 +0000 UTC
     </div>
 </div>
 

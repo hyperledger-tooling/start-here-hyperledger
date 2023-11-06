@@ -14,250 +14,75 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1610" class=".btn">#1610</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1624" class=".btn">#1624</a>
             </td>
             <td>
                 <b>
-                    fix: abandon proof protocol if presentation fails
+                    build(deps): bump actions/setup-node from 3 to 4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">github_actions</span>
             </td>
             <td>
-                Abandon the proof protocol if the presentation processing fails. It will send a problem report, and it will set the error message on the proof record.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 09:52:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1608" class=".btn">#1608</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump @babel/traverse from 7.21.4 to 7.23.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.21.4 to 7.23.2.
+                Bumps [actions/setup-node](https://github.com/actions/setup-node) from 3 to 4.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/babel/babel/releases"><code>@​babel/traverse</code>'s releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's releases</a>.</em></p>
 <blockquote>
-<h2>v7.23.2 (2023-10-11)</h2>
-<p><strong>NOTE</strong>: This release also re-publishes <code>@babel/core</code>, even if it does not appear in the linked release commit.</p>
-<p>Thanks <a href="https://github.com/jimmydief"><code>@​jimmydief</code></a> for your first PR!</p>
-<h4>:bug: Bug Fix</h4>
+<h2>v4.0.0</h2>
+<h2>What's Changed</h2>
+<p>In scope of this release we changed version of node runtime for action from node16 to node20 and updated dependencies in <a href="https://redirect.github.com/actions/setup-node/pull/866">actions/setup-node#866</a></p>
+<p>Besides, release contains such changes as:</p>
 <ul>
-<li><code>babel-traverse</code>
+<li>Upgrade actions/checkout to v4 by <a href="https://github.com/gmembre-zenika"><code>@​gmembre-zenika</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/868">actions/setup-node#868</a></li>
+<li>Update actions/checkout for documentation and yaml by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/876">actions/setup-node#876</a></li>
+</ul>
+<h2>New Contributors</h2>
 <ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16033">#16033</a> Only evaluate own String/Number/Math methods (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
+<li><a href="https://github.com/gmembre-zenika"><code>@​gmembre-zenika</code></a> made their first contribution in <a href="https://redirect.github.com/actions/setup-node/pull/868">actions/setup-node#868</a></li>
 </ul>
-</li>
-<li><code>babel-preset-typescript</code>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/setup-node/compare/v3...v4.0.0">https://github.com/actions/setup-node/compare/v3...v4.0.0</a></p>
+<h2>v3.8.2</h2>
+<h2>What's Changed</h2>
 <ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16022">#16022</a> Rewrite <code>.tsx</code> extension when using <code>rewriteImportExtensions</code> (<a href="https://github.com/jimmydief"><code>@​jimmydief</code></a>)</li>
+<li>Update semver by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/861">actions/setup-node#861</a></li>
+<li>Update temp directory creation by <a href="https://github.com/nikolai-laevskii"><code>@​nikolai-laevskii</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/859">actions/setup-node#859</a></li>
+<li>Bump <code>@​babel/traverse</code> from 7.15.4 to 7.23.2 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/870">actions/setup-node#870</a></li>
+<li>Add notice about binaries not being updated yet by <a href="https://github.com/nikolai-laevskii"><code>@​nikolai-laevskii</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/872">actions/setup-node#872</a></li>
+<li>Update toolkit cache and core by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> and <a href="https://github.com/seongwon-privatenote"><code>@​seongwon-privatenote</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/875">actions/setup-node#875</a></li>
 </ul>
-</li>
-<li><code>babel-helpers</code>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/setup-node/compare/v3...v3.8.2">https://github.com/actions/setup-node/compare/v3...v3.8.2</a></p>
+<h2>v3.8.1</h2>
+<h2>What's Changed</h2>
+<p>In scope of this release, the filter was removed within the cache-save step by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/831">actions/setup-node#831</a>. It is filtered and checked in the toolkit/cache library.</p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/setup-node/compare/v3...v3.8.1">https://github.com/actions/setup-node/compare/v3...v3.8.1</a></p>
+<h2>v3.8.0</h2>
+<h2>What's Changed</h2>
+<h3>Bug fixes:</h3>
 <ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16017">#16017</a> Fix: fallback to typeof when toString is applied to incompatible object (<a href="https://github.com/JLHwung"><code>@​JLHwung</code></a>)</li>
+<li>Add check for existing paths by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/803">actions/setup-node#803</a></li>
+<li>Resolve SymbolicLink by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/809">actions/setup-node#809</a></li>
+<li>Change passing logic for cache input by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/816">actions/setup-node#816</a></li>
+<li>Fix armv7 cache issue by <a href="https://github.com/louislam"><code>@​louislam</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/794">actions/setup-node#794</a></li>
+<li>Update check-dist workflow name by <a href="https://github.com/sinchang"><code>@​sinchang</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/710">actions/setup-node#710</a></li>
 </ul>
-</li>
-<li><code>babel-helpers</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>
+<h3>Feature implementations:</h3>
 <ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16025">#16025</a> Avoid override mistake in namespace imports (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
+<li>feat: handling the case where &quot;node&quot; is used for tool-versions file. by <a href="https://github.com/xytis"><code>@​xytis</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/812">actions/setup-node#812</a></li>
 </ul>
-</li>
-</ul>
-<h4>Committers: 5</h4>
+<h3>Documentation changes:</h3>
 <ul>
-<li>Babel Bot (<a href="https://github.com/babel-bot"><code>@​babel-bot</code></a>)</li>
-<li>Huáng Jùnliàng (<a href="https://github.com/JLHwung"><code>@​JLHwung</code></a>)</li>
-<li>James Diefenderfer (<a href="https://github.com/jimmydief"><code>@​jimmydief</code></a>)</li>
-<li>Nicolò Ribaudo (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-<li><a href="https://github.com/liuxingbaoyu"><code>@​liuxingbaoyu</code></a></li>
+<li>Refer to semver package name in README.md by <a href="https://github.com/olleolleolle"><code>@​olleolleolle</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/808">actions/setup-node#808</a></li>
 </ul>
-<h2>v7.23.1 (2023-09-25)</h2>
-<p>Re-publishing <code>@babel/helpers</code> due to a publishing error in 7.23.0.</p>
-<h2>v7.23.0 (2023-09-25)</h2>
-<p>Thanks <a href="https://github.com/lorenzoferre"><code>@​lorenzoferre</code></a> and <a href="https://github.com/RajShukla1"><code>@​RajShukla1</code></a> for your first PRs!</p>
-<h4>:rocket: New Feature</h4>
+<h3>Update dependencies:</h3>
 <ul>
-<li><code>babel-plugin-proposal-import-wasm-source</code>, <code>babel-plugin-syntax-import-source</code>, <code>babel-plugin-transform-dynamic-import</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15870">#15870</a> Support transforming <code>import source</code> for wasm (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
+<li>Update toolkit cache to fix zstd by <a href="https://github.com/dmitry-shibanov"><code>@​dmitry-shibanov</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/804">actions/setup-node#804</a></li>
+<li>Bump tough-cookie and <code>@​azure/ms-rest-js</code> by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/802">actions/setup-node#802</a></li>
+<li>Bump semver from 6.1.2 to 6.3.1 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/actions/setup-node/pull/807">actions/setup-node#807</a></li>
 </ul>
-</li>
-<li><code>babel-helper-module-transforms</code>, <code>babel-helpers</code>, <code>babel-plugin-proposal-import-defer</code>, <code>babel-plugin-syntax-import-defer</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15878">#15878</a> Implement <code>import defer</code> proposal transform support (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-generator</code>, <code>babel-parser</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15845">#15845</a> Implement <code>import defer</code> parsing support (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-<li><a href="https://redirect.github.com/babel/babel/pull/15829">#15829</a> Add parsing support for the &quot;source phase imports&quot; proposal (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-generator</code>, <code>babel-helper-module-transforms</code>, <code>babel-parser</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-systemjs</code>, <code>babel-traverse</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15682">#15682</a> Add <code>createImportExpressions</code> parser option (<a href="https://github.com/JLHwung"><code>@​JLHwung</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-standalone</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15671">#15671</a> Pass through nonce to the transformed script element (<a href="https://github.com/JLHwung"><code>@​JLHwung</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-helper-function-name</code>, <code>babel-helper-member-expression-to-functions</code>, <code>babel-helpers</code>, <code>babel-parser</code>, <code>babel-plugin-proposal-destructuring-private</code>, <code>babel-plugin-proposal-optional-chaining-assign</code>, <code>babel-plugin-syntax-optional-chaining-assign</code>, <code>babel-plugin-transform-destructuring</code>, <code>babel-plugin-transform-optional-chaining</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15751">#15751</a> Add support for optional chain in assignments (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-helpers</code>, <code>babel-plugin-proposal-decorators</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15895">#15895</a> Implement the &quot;decorator metadata&quot; proposal (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-traverse</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15893">#15893</a> Add <code>t.buildUndefinedNode</code> (<a href="https://github.com/liuxingbaoyu"><code>@​liuxingbaoyu</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-preset-typescript</code></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/babel/babel/blob/main/CHANGELOG.md"><code>@​babel/traverse</code>'s changelog</a>.</em></p>
-<blockquote>
-<h2>v7.23.2 (2023-10-11)</h2>
-<h4>:bug: Bug Fix</h4>
-<ul>
-<li><code>babel-traverse</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16033">#16033</a> Only evaluate own String/Number/Math methods (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-preset-typescript</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16022">#16022</a> Rewrite <code>.tsx</code> extension when using <code>rewriteImportExtensions</code> (<a href="https://github.com/jimmydief"><code>@​jimmydief</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-helpers</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16017">#16017</a> Fix: fallback to typeof when toString is applied to incompatible object (<a href="https://github.com/JLHwung"><code>@​JLHwung</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-helpers</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/16025">#16025</a> Avoid override mistake in namespace imports (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-</ul>
-<h2>v7.23.0 (2023-09-25)</h2>
-<h4>:rocket: New Feature</h4>
-<ul>
-<li><code>babel-plugin-proposal-import-wasm-source</code>, <code>babel-plugin-syntax-import-source</code>, <code>babel-plugin-transform-dynamic-import</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15870">#15870</a> Support transforming <code>import source</code> for wasm (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-helper-module-transforms</code>, <code>babel-helpers</code>, <code>babel-plugin-proposal-import-defer</code>, <code>babel-plugin-syntax-import-defer</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15878">#15878</a> Implement <code>import defer</code> proposal transform support (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-generator</code>, <code>babel-parser</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15845">#15845</a> Implement <code>import defer</code> parsing support (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-<li><a href="https://redirect.github.com/babel/babel/pull/15829">#15829</a> Add parsing support for the &quot;source phase imports&quot; proposal (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-generator</code>, <code>babel-helper-module-transforms</code>, <code>babel-parser</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-systemjs</code>, <code>babel-traverse</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15682">#15682</a> Add <code>createImportExpressions</code> parser option (<a href="https://github.com/JLHwung"><code>@​JLHwung</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-standalone</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15671">#15671</a> Pass through nonce to the transformed script element (<a href="https://github.com/JLHwung"><code>@​JLHwung</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-helper-function-name</code>, <code>babel-helper-member-expression-to-functions</code>, <code>babel-helpers</code>, <code>babel-parser</code>, <code>babel-plugin-proposal-destructuring-private</code>, <code>babel-plugin-proposal-optional-chaining-assign</code>, <code>babel-plugin-syntax-optional-chaining-assign</code>, <code>babel-plugin-transform-destructuring</code>, <code>babel-plugin-transform-optional-chaining</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15751">#15751</a> Add support for optional chain in assignments (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-helpers</code>, <code>babel-plugin-proposal-decorators</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15895">#15895</a> Implement the &quot;decorator metadata&quot; proposal (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-traverse</code>, <code>babel-types</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15893">#15893</a> Add <code>t.buildUndefinedNode</code> (<a href="https://github.com/liuxingbaoyu"><code>@​liuxingbaoyu</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-preset-typescript</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15913">#15913</a> Add <code>rewriteImportExtensions</code> option to TS preset (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-parser</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15896">#15896</a> Allow TS tuples to have both labeled and unlabeled elements (<a href="https://github.com/yukukotani"><code>@​yukukotani</code></a>)</li>
-</ul>
-</li>
-</ul>
-<h4>:bug: Bug Fix</h4>
-<ul>
-<li><code>babel-plugin-transform-block-scoping</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15962">#15962</a> fix: <code>transform-block-scoping</code> captures the variables of the method in the loop (<a href="https://github.com/liuxingbaoyu"><code>@​liuxingbaoyu</code></a>)</li>
-</ul>
-</li>
-</ul>
-<h4>:nail_care: Polish</h4>
-<ul>
-<li><code>babel-traverse</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15797">#15797</a> Expand evaluation of global built-ins in <code>@babel/traverse</code> (<a href="https://github.com/lorenzoferre"><code>@​lorenzoferre</code></a>)</li>
-</ul>
-</li>
-<li><code>babel-plugin-proposal-explicit-resource-management</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15985">#15985</a> Improve source maps for blocks with <code>using</code> declarations (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-</ul>
-<h4>:microscope: Output optimization</h4>
-<ul>
-<li><code>babel-core</code>, <code>babel-helper-module-transforms</code>, <code>babel-plugin-transform-async-to-generator</code>, <code>babel-plugin-transform-classes</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-function-name</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-umd</code>, <code>babel-plugin-transform-parameters</code>, <code>babel-plugin-transform-react-constant-elements</code>, <code>babel-plugin-transform-react-inline-elements</code>, <code>babel-plugin-transform-runtime</code>, <code>babel-plugin-transform-typescript</code>, <code>babel-preset-env</code>
-<ul>
-<li><a href="https://redirect.github.com/babel/babel/pull/15984">#15984</a> Inline <code>exports.XXX =</code> update in simple variable declarations (<a href="https://github.com/nicolo-ribaudo"><code>@​nicolo-ribaudo</code></a>)</li>
-</ul>
-</li>
-</ul>
-<h2>v7.22.20 (2023-09-16)</h2>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -265,23 +90,16 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/babel/babel/commit/b4b9942a6cde0685c222eb3412347880aae40ad5"><code>b4b9942</code></a> v7.23.2</li>
-<li><a href="https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82"><code>b13376b</code></a> Only evaluate own String/Number/Math methods (<a href="https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/16033">#16033</a>)</li>
-<li><a href="https://github.com/babel/babel/commit/ca58ec15cb6dde6812c36997477e44880bec0bba"><code>ca58ec1</code></a> v7.23.0</li>
-<li><a href="https://github.com/babel/babel/commit/0f333dafcf470f1970083e4e695ced6aec8bead0"><code>0f333da</code></a> Add <code>createImportExpressions</code> parser option (<a href="https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15682">#15682</a>)</li>
-<li><a href="https://github.com/babel/babel/commit/3744545649fdc21688a2f3c97e1e39dbebff0d21"><code>3744545</code></a> Fix linting</li>
-<li><a href="https://github.com/babel/babel/commit/c7e6806e2194deb36c330f543409c792592b22d4"><code>c7e6806</code></a> Add <code>t.buildUndefinedNode</code> (<a href="https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15893">#15893</a>)</li>
-<li><a href="https://github.com/babel/babel/commit/38ee8b4dd693f1e2bd00107bbc1167ce84736ea0"><code>38ee8b4</code></a> Expand evaluation of global built-ins in <code>@babel/traverse</code> (<a href="https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15797">#15797</a>)</li>
-<li><a href="https://github.com/babel/babel/commit/9f3dfd90211472cf0083a3234dd1a1b857ce3624"><code>9f3dfd9</code></a> v7.22.20</li>
-<li><a href="https://github.com/babel/babel/commit/3ed28b29c1fb15588369bdd55187b69f1248e87d"><code>3ed28b2</code></a> Fully support <code>||</code> and <code>&amp;&amp;</code> in <code>pluginToggleBooleanFlag</code> (<a href="https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15961">#15961</a>)</li>
-<li><a href="https://github.com/babel/babel/commit/77b0d7359909c94f3797c24006f244847fbc8d6d"><code>77b0d73</code></a> v7.22.19</li>
-<li>Additional commits viewable in <a href="https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse">compare view</a></li>
+<li><a href="https://github.com/actions/setup-node/commit/8f152de45cc393bb48ce5d89d36b731f54556e65"><code>8f152de</code></a> Update actions/checkout for documentation and yaml (<a href="https://redirect.github.com/actions/setup-node/issues/876">#876</a>)</li>
+<li><a href="https://github.com/actions/setup-node/commit/23755b521f87533c8ed7f8fb13674f9021579e34"><code>23755b5</code></a> upgrade actions/checkout to v4 (<a href="https://redirect.github.com/actions/setup-node/issues/868">#868</a>)</li>
+<li><a href="https://github.com/actions/setup-node/commit/54534a2a9ba7308e8a8995af3104899e6a95b681"><code>54534a2</code></a> Change node version for action to node20 (<a href="https://redirect.github.com/actions/setup-node/issues/866">#866</a>)</li>
+<li>See full diff in <a href="https://github.com/actions/setup-node/compare/v3...v4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@babel/traverse&package-manager=npm_and_yarn&previous-version=7.21.4&new-version=7.23.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-node&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -306,14 +124,14 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-javascript/network/alerts).
+
 
 </details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-19 01:28:28 +0000 UTC
+        Created At 2023-11-01 10:05:07 +0000 UTC
     </div>
 </div>
 
@@ -321,11 +139,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1607" class=".btn">#1607</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1623" class=".btn">#1623</a>
             </td>
             <td>
                 <b>
-                    feat(sd-jwt): Module for Issuer, Holder and verifier
+                    feat: added ability to refresh the pool manually
                 </b>
             </td>
         </tr>
@@ -334,12 +152,20 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Opening as draft for now for intermediary reviews.
+                Previously AFJ wouldn't call refresh on genesis files, this meant that the pool could be out of date and contain dead nodes. This change adds a function to the pool service that allows an afj user to manually refresh the pool as needed. Example:
+```typescript
+const poolService = newAgent.dependencyManager.resolve(IndyVdrPoolService)
+await poolService.refreshPoolConnections()
+```
+all the pools are refreshed asynchronously so it doesn't take more than 1 - 2 seconds on BC Wallet.
+
+Note: I tried returning the transactions too so that we could cache them, however when I was playing around with the yarn patch I made, whenever I called `this._pool.transactions` in the `IndyCdrPool.js` file I would get a JSON parse error. I was unclear what was causing the error, it seems to be coming from the indy-vdr-shared library
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-17 13:09:06 +0000 UTC
+        Created At 2023-10-31 20:15:19 +0000 UTC
     </div>
 </div>
 
@@ -347,11 +173,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1606" class=".btn">#1606</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1622" class=".btn">#1622</a>
             </td>
             <td>
                 <b>
-                    feat!: upgrade shared components
+                    feat: update dockerfile to node 18 and sample mediator to askar
                 </b>
             </td>
         </tr>
@@ -360,12 +186,14 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Upgrade aries-askar, anoncreds-rs and indy-vdr to their latest versions. This implies that we are dropping node 16 support.
+                Intermediate solution until we finally remove `indy-sdk` dependency: current Dockerfile won't work because it install node 16 and we now require at least 18, so here we are updating it. Also upgraded sample mediator to use Aries Askar, which now works properly due to the patched `ref-napi` library.
+
+Resolves #1621 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-14 00:56:19 +0000 UTC
+        Created At 2023-10-31 19:57:15 +0000 UTC
     </div>
 </div>
 

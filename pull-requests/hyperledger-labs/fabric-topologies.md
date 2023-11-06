@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-topologies
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-topologies/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-topologies/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Initial commit
+                    Archive Lab
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-topologies
                 
             </td>
             <td>
-                Signed-off-by: Alex Olaru <alexander.olaru@alphaldger.com>
+                No commits since November 2022
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-21 23:52:12 +0000 UTC
+        Created At 2023-11-06 17:56:48 +0000 UTC
     </div>
 </div>
 

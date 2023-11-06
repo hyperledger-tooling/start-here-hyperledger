@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/25" class=".btn">#25</a>
             </td>
             <td>
                 <b>
-                    fix: allow merge commits
+                    Feat/21 run integration tests on pr
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
                 
             </td>
             <td>
-                <nil>
+                Will run integration tests for plugins with changes on PR creation or edit.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-19 13:48:22 +0000 UTC
+        Created At 2023-10-30 20:15:04 +0000 UTC
     </div>
 </div>
 
@@ -40,41 +40,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Add MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I basically just copied this from aca-py. I'm not sure if there is extra info that can be removed. I removed the `toc` and go-ext` scopes. The rest seemed like they could stay.
-
-I added Jason Sherman and Daniel Bluhm as Admin's and that is it.
-
-Maybe Stephan Curran and Ry Jones would like to be added?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 21:23:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/8" class=".btn">#8</a>
-            </td>
-            <td>
-                <b>
-                    Bump urllib3 from 2.0.6 to 2.0.7 in /basicmessage_storage
+                    Bump urllib3 from 2.0.6 to 2.0.7 in /multitenant_provider
                 </b>
             </td>
         </tr>
@@ -149,7 +119,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-17 21:07:37 +0000 UTC
+        Created At 2023-10-30 18:27:28 +0000 UTC
     </div>
 </div>
 
@@ -157,11 +127,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    Bump urllib3 from 2.0.6 to 2.0.7 in /basicmessage_storage/integration
+                    Bump urllib3 from 2.0.6 to 2.0.7 in /multitenant_provider/integration
                 </b>
             </td>
         </tr>
@@ -236,51 +206,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-17 21:06:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    Advance repo - Add plugin, testing, update script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds another plugin `connection_update`, testing for current plugins, documentation updates and a script for common dependency and file management.
-
-Only one additional plugin was added so far. Others are being worked on but the testing has been a bit of a learning process and I want plugins to be added that are adequately tested. Some of the plugins I want to add have a lot more logic that will be more difficult testing. 
-
-Reading the root README might be a good way to understand the entire context.
-
-----
-
-When I was adding my first plugin to the repo I realized that we want to have isolated environments for development and testing and that quickly things were going to be difficult to manage. 
-
-To combat this I decided to create a base empty plugin `default-empty-plugin` and a script `updater.sh` which updates the existing plugins and populates common files from it. I'm only sure the script works on linux systems currently. Some of the text commands possibly won't work on mac OS.
-
-I tried to update the README as well as I could to make it clear how to add an existing plugin or create a new one from scratch. It is quite easy but instructions can be hard.
-
-I'm not super happy with the naming I chose. I might change it if I can think of something better.
-
-One of the next important steps might be getting all the tests for each plugin running in the CI/CD pipeline. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-17 16:40:16 +0000 UTC
+        Created At 2023-10-30 18:25:34 +0000 UTC
     </div>
 </div>
 

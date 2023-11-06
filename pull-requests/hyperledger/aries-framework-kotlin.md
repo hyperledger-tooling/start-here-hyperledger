@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Fixed pickup for queued messages. Added handling of basic messages.
+                    Fix type casting error when using 'as' keyword
                 </b>
             </td>
         </tr>
@@ -27,21 +27,39 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
                 
             </td>
             <td>
-                This PR fixes implicit pickup of queued messages from a mediator. It also adds support for basic messages which can aid in debugging as one can simply send them through the ACA-Py API.
+                1. I changed the `var agent` property to use `lateinit` so it can be used without `!!`.
 
-It has been tested against a mediator running 0.4.x of ACA-Py and also against the Indicio Public Mediator. In both cases, earlier (before this PR) queued messages would not get picked up.
+2. I ran into the following errors, and fixed this type casting by calling the `toInt()` and `toLong()` methods.
 
-Now, they are correctly picked up.
+```
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Long
+    at org.hyperledger.ariesframework.ledger.LedgerService.getRevocationRegistryDelta(LedgerService.kt:122)
+    at org.hyperledger.ariesframework.proofs.RevocationService.getRevocationStatus(RevocationService.kt:67)
+    at org.hyperledger.ariesframework.proofs.ProofService.getRevocationStatusForRequestedItem(ProofService.kt:344)
+    at org.hyperledger.ariesframework.proofs.ProofService$getRequestedCredentialsForProofRequest$lambda$2$$inlined$concurrentMap$1.invokeSuspend(ConcurrentTransform.kt:37)
+    at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+    at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+```
 
-Please see the following PR for work done in fixing ACA-Py routing which was also broken:
-https://github.com/hyperledger/aries-cloudagent-python/pull/2536
-
-With the above PR, and this PR, I have tested the mediator and also tested queued message delivery to this agent.
+```
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Long
+    at org.hyperledger.ariesframework.proofs.RevocationService$createRevocationState$$inlined$concurrentForEach$1.invokeSuspend(ConcurrentTransform.kt:60)
+    at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+    at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-09 05:21:46 +0000 UTC
+        Created At 2023-11-06 07:57:08 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/203" class=".btn">#203</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/206" class=".btn">#206</a>
             </td>
             <td>
                 <b>
-                    BCW Special and Extended characters tests
+                    updated onboarding process to BCW build 1279
                 </b>
             </td>
         </tr>
@@ -27,14 +27,40 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                This PR includes the addition of BCW Tests that test extended and special characters. 
-
-It also adjusts the regression runs to the latest minor version of the iOS major versions. This way we don't test iOS 13.6 when iOS 13.8 is the latest. 
+                This PR adjust the tests for the BC Wallet onboarding process with a new preface screen and adjusted onboarding screens as of build 1279.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-13 19:17:07 +0000 UTC
+        Created At 2023-11-01 19:57:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/205" class=".btn">#205</a>
+            </td>
+            <td>
+                <b>
+                    BCW fix wallet name tets for small devices and enhance performance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes a wallet naming issue where if the device is smaller and we are testing null values in the wallet name field the iOS keyboard does not close and is over the save button, causing the click save to fail. 
+
+This PR also speeds up the restart of the app to get ready for the test. It no longer checks if the biometrics page is displayed but check a boolean flag that was set when the wallet was setup.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-30 21:56:52 +0000 UTC
     </div>
 </div>
 

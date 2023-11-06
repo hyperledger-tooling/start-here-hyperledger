@@ -14,41 +14,35 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4015" class=".btn">#4015</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4033" class=".btn">#4033</a>
             </td>
             <td>
                 <b>
-                    [fix] #4014: Use method(not field) access in client
+                    [documentation]: Fixes the pytests README
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
             </td>
             <td>
                 ## Description
 
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
+Fixes the pytests README
 
 ### Linked issue
 
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4014
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
+None
 
 ### Benefits
 
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+Correct README
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [ ] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
@@ -65,7 +59,7 @@ Closes #4014
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-25 09:17:23 +0000 UTC
+        Created At 2023-11-03 14:41:30 +0000 UTC
     </div>
 </div>
 
@@ -73,11 +67,200 @@ Closes #4014
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4013" class=".btn">#4013</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4032" class=".btn">#4032</a>
             </td>
             <td>
                 <b>
-                    [refactor]: Optimize executor
+                    [Documentation] Update message AddAssetQuantity and SubtractAssetQuantity with extra optional parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">1.x</span><span class="chip">Documentation</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                Add an optional argument title to AddAssetQuantity and SubtractAssetQuantity in commands.proto bufs. Make the C++ Iroha base core code handle it, make it working work. Improve the Gtests regarding to that change. Improve the Python client to handle that changes (provided in a separate repository).
+
+Link to C++ library:
+https://github.com/hyperledger/iroha/pull/4003/files
+
+Link to Python client library which use protobuf GRPC shared code base:
+https://github.com/hyperledger/iroha-python/
+
+This is part of internship project:
+https://wiki.hyperledger.org/display/INTERN/Iroha+1%3A+extend+queries+with+optional+arguments
+
+Link to PR in iroha-python compatible with those changes:
+hyperledger/iroha-python#157
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-03 09:01:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4031" class=".btn">#4031</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3974: Add subcommand into `iroha_client_cli` to transfer domains
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This pull request adds command to transfer domains between accounts into `iroha_client_cli`.
+
+### Linked issue
+
+Closes one of subtasks from #3974  
+
+### Benefits
+
+Extends the functionality of `iroha_client_cli`.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-03 08:59:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4026" class=".btn">#4026</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3995: Fix topology mismatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Check #4011
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3995<!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-31 08:53:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4025" class=".btn">#4025</a>
+            </td>
+            <td>
+                <b>
+                    [BACKPORT] #3995: Fix topology mismatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Check #4011
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3995 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-10-31 08:49:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4024" class=".btn">#4024</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3982: Clear live queries after smart contract end
                 </b>
             </td>
         </tr>
@@ -88,32 +271,29 @@ Closes #4014
             <td>
                 ## Description
 
-Originally this work was about #3991. But after implementing reference counting for `ConstString` I got these results:
+- Queries are removed from `LiveQueryStore` after wasm end
+- Added `QueryId` type alias
 
-1. 7.5 - 13 % less memory footprint
-2. 50 - 75 % slower
+<!-- Just describe what you did. -->
 
-I measured memory using the next command:
+<!-- Skip if the title of the PR is self-explanatory -->
 
-```bash
-gtime -f 'Time passed: %E\nMax memory used: %M kbytes' ../../target/release/examples/apply_blocks
-```
+### Linked issue
 
-Where `gtime` is a `time` utility by GNU, which can be installed on mac using `brew install gnu-time`
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-So it defenelty doesn't worth it.
-
-You can do your own research. Take a look at my branch: https://github.com/arjentix/iroha/tree/arc_name
-
-- Fixed `apply_blocks` benchmark
-- Made `apply_blocks` even more heavy with long ids
-- After that this benchmarks just stops woring on `iroha2-dev`, the issue was a very long transaction deallocation inside wasm executor, so fixed that with `core::mem::forget()`
-- Some minor refactoring
-
+Closes #3982 <!-- Replace with an actual number,  -->
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
+
+- Optimizes storage
+- Less dangerous
+
+### Tests
+
+- Unfortunately can't normally test that because of hard coded `fetch_size` on Iroha side. Could be fixed after the merge of #4016 
 
 <!-- EXAMPLE: users can't revoke their own right to revoke rights -->
 
@@ -137,214 +317,7 @@ You can do your own research. Take a look at my branch: https://github.com/arjen
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-24 12:36:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4011" class=".btn">#4011</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3995: Fix topology mismatch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">Consensus</span>
-            </td>
-            <td>
-                ## Description
-
-Fix for bug with `TopologyMismatch`. 
-
-Root cause for the problem was that after handling message peer state wasn't cleared.
-
-In case if `view_change_index` of previous block was `1` than peer will submit block with wrong topology (because state is not cleared).
-After reset new `Leader` would submit new block if this would arrive too late to `ProxyTail`, it would be corrupted without ability to recover. 
-
-With current implementation of consensus it's troublesome to provide any test to verify that bug is 100% fixed...
-
-I've created stand where i was able to successfully submit `263_975` blocks (run out of memory after that on my laptop).
-Before the fix peers usually fail before that point (around `20_000` blocks or even earlier).
-
-<details>
-  <summary>Relevant logs</summary>  
-
-  ```plain
-2023-10-20T09:42:22.542288Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: View change updated addr=127.0.0.1:1340 role=ValidatingPeer current_view_change_index=1 <- VIEW CHANGE BIGGER THAN 1
-2023-10-20T09:42:22.559937Z TRACE consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Block received, voting... addr=127.0.0.1:1340 role=ValidatingPeer block_hash=c421db0f81c31894d87af757f7cb3bcaba581405bdfe7f1ac6fc12d0ed78a7c5
-2023-10-20T09:42:22.564224Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Block validated, signed and forwarded addr=127.0.0.1:1340 block_hash=c421db0f81c31894d87af757f7cb3bcaba581405bdfe7f1ac6fc12d0ed78a7c5
-2023-10-20T09:42:22.585009Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Committing block addr=127.0.0.1:1340 role=ValidatingPeer block_height=20827 block_hash=934576a683136b0a87b6dfa65f43f1cc8416e8f8caf2e5d61d13a4fedd979903
-2023-10-20T09:42:22.585900Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Creating block... txns=1 <- BLOCK IS CREATED WITHOUT RESET STATE
-2023-10-20T09:42:22.588479Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Block created addr=127.0.0.1:1340 partial_hash=ecb2bafac04929924f4ccd7bea7705f73510e687088216a1b155e9fb1ab54a6f
-2023-10-20T09:42:22.588882Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: View change updated addr=127.0.0.1:1340 role=Leader current_view_change_index=0 <- STATE IS RESET ONLY HERE
-2023-10-20T09:42:22.588962Z TRACE consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Failed to add proofs into view change proof chain error=Block hash of proof doesn't match hash of proof chain
-2023-10-20T09:42:22.589075Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Block sync update received addr=127.0.0.1:1340 role=Leader hash=934576a683136b0a87b6dfa65f43f1cc8416e8f8caf2e5d61d13a4fedd979903
-2023-10-20T09:42:22.592757Z DEBUG consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Soft fork doesn't occurred: block has the same or smaller view change index addr=127.0.0.1:1340 role=Leader peer_latest_block_hash=Some({ iroha_crypto::hash::HashOf<iroha_data_mo
-del::block::committed::VersionedCommittedBlock> 934576a683136b0a87b6dfa65f43f1cc8416e8f8caf2e5d61d13a4fedd979903 }) peer_latest_block_view_change_index=1 consensus_latest_block_hash=934576a683136b0a87b6dfa65f43f1cc8416e8f8caf2e5d61d13a4fedd979903 consensus_latest_block_view
-_change_index=1
-2023-10-20T09:42:22.592856Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Creating block... txns=1 
-2023-10-20T09:42:22.594778Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Block created addr=127.0.0.1:1340 partial_hash=e6e7e50af9336376bbe711338076f1bde8c7708cc1748781af0239396e08a827 <- SECOND BLOCK CREATED FROM THE SAME LEADER
-2023-10-20T09:42:22.601895Z TRACE consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Failed to add proofs into view change proof chain error=Block hash of proof doesn't match hash of proof chain
-2023-10-20T09:42:22.601974Z ERROR consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: The hash of the committed block does not match the hash of the block stored by the peer. addr=127.0.0.1:1340 role=Leader committed_block_hash=(ecb2bafac04929924f4ccd7bea7705f7351
-0e687088216a1b155e9fb1ab54a6f) voting_block_hash=e6e7e50af9336376bbe711338076f1bde8c7708cc1748781af0239396e08a827 <- AT THIS POINT IT'S TOO LATE BECAUSE PROXY TAIL COMMITTED WRONG BLOCK
-2023-10-20T09:42:22.682569Z TRACE consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Failed to add proofs into view change proof chain error=Block hash of proof doesn't match hash of proof chain
-2023-10-20T09:42:22.682706Z  INFO consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Block sync update received addr=127.0.0.1:1340 role=Leader hash=9ae7355147f52d40a088d0aa6d0b2a6c3b58a7c0b4119ed2caddd9e1e9dd7a31
-2023-10-20T09:42:22.683046Z ERROR consensus:main_thread_cycle: iroha_core::sumeragi::main_loop: Block not valid. addr=127.0.0.1:1340 role=Leader block_hash=9ae7355147f52d40a088d0aa6d0b2a6c3b58a7c0b4119ed2caddd9e1e9dd7a31 error=TopologyMismatch { expected: UniqueVec([PeerId 
-{ address: Ipv4(SocketAddrV4 { ip: Ipv4Addr([127, 0, 0, 1]), port: 1339 }), public_key: {digest: ed25519, payload: [3, 65, F, 57, B7, D9, 5D, 53, 33, E4, 5B, 2C, 25, C3, 76, F5, 28, 66, A0, D8, 70, 55, B3, 84, 69, 79, 5C, 87, D8, 36, D2, 6A]} }, PeerId { address: Ipv4(Socke
-tAddrV4 { ip: Ipv4Addr([127, 0, 0, 1]), port: 1338 }), public_key: {digest: ed25519, payload: [10, 4D, E9, D3, A, 22, B4, AF, D0, 58, 28, 85, 8C, C2, 11, 29, 2E, 81, 85, D1, A1, 64, 66, B5, 8, 39, C6, 41, EB, 79, A7, 78]} }, PeerId { address: Ipv4(SocketAddrV4 { ip: Ipv4Add
-r([127, 0, 0, 1]), port: 1337 }), public_key: {digest: ed25519, payload: [5C, 7, 84, 42, 2, E6, 5A, 8, AD, A0, D8, E9, 3, B8, 8B, AF, 7D, FE, 4, B0, B2, 7E, 6E, 42, D9, DF, D5, C, 32, 7F, 87, 54]} }, PeerId { address: Ipv4(SocketAddrV4 { ip: Ipv4Addr([127, 0, 0, 1]), port: 
-1340 }), public_key: {digest: ed25519, payload: [6C, 50, 34, AE, BE, 12, F4, 97, C1, FB, BC, DA, C9, AC, C9, CA, D3, 45, 14, 94, 80, 3A, EC, 59, BE, FD, 42, DE, 1F, 3B, A6, AF]} }]), actual: UniqueVec([PeerId { address: Ipv4(SocketAddrV4 { ip: Ipv4Addr([127, 0, 0, 1]), port
-: 1340 }), public_key: {digest: ed25519, payload: [6C, 50, 34, AE, BE, 12, F4, 97, C1, FB, BC, DA, C9, AC, C9, CA, D3, 45, 14, 94, 80, 3A, EC, 59, BE, FD, 42, DE, 1F, 3B, A6, AF]} }, PeerId { address: Ipv4(SocketAddrV4 { ip: Ipv4Addr([127, 0, 0, 1]), port: 1339 }), public_k
-ey: {digest: ed25519, payload: [3, 65, F, 57, B7, D9, 5D, 53, 33, E4, 5B, 2C, 25, C3, 76, F5, 28, 66, A0, D8, 70, 55, B3, 84, 69, 79, 5C, 87, D8, 36, D2, 6A]} }, PeerId { address: Ipv4(SocketAddrV4 { ip: Ipv4Addr([127, 0, 0, 1]), port: 1338 }), public_key: {digest: ed25519,
- payload: [10, 4D, E9, D3, A, 22, B4, AF, D0, 58, 28, 85, 8C, C2, 11, 29, 2E, 81, 85, D1, A1, 64, 66, B5, 8, 39, C6, 41, EB, 79, A7, 78]} }, PeerId { address: Ipv4(SocketAddrV4 { ip: Ipv4Addr([127, 0, 0, 1]), port: 1337 }), public_key: {digest: ed25519, payload: [5C, 7, 84,
- 42, 2, E6, 5A, 8, AD, A0, D8, E9, 3, B8, 8B, AF, 7D, FE, 4, B0, B2, 7E, 6E, 42, D9, DF, D5, C, 32, 7F, 87, 54]} }]) }
-  ```
-  
-</details>
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3995  <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Bug fixed.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 15:14:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4010" class=".btn">#4010</a>
-            </td>
-            <td>
-                <b>
-                    [fix]: #3898: Make `scripts/test_env.py` stop peers when aborting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-The title is self-explanatory.
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3898. <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-Expected mode of termination on failure.
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 05:21:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4007" class=".btn">#4007</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3237: Expose cargo's output in wasm_builder_cli to have build progress information
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-This adds a progress bar to `wasm_builder_cli` by exposing cargo's output (which already implements progress bar).
-
-### Linked issue
-
-Closes #3237 
-
-### Benefits
-
-The user can see the progress of the build
-
-### Checklist
-
-- [x] Make CI pass
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 07:31:32 +0000 UTC
+        Created At 2023-10-30 21:14:38 +0000 UTC
     </div>
 </div>
 

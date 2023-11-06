@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/71" class=".btn">#71</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    0.10.4 try 2
+                    0.11.0-rc1
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-15 21:47:30 +0000 UTC
+        Created At 2023-10-30 23:45:03 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    Fix mistake in merge
+                    main update for 0.11.0-rc1
                 </b>
             </td>
         </tr>
@@ -60,34 +59,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-15 21:35:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/69" class=".btn">#69</a>
-            </td>
-            <td>
-                <b>
-                    0.10.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-15 21:23:09 +0000 UTC
+        Created At 2023-10-30 23:40:04 +0000 UTC
     </div>
 </div>
 
