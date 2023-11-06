@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/121" class=".btn">#121</a>
+            </td>
+            <td>
+                <b>
+                    core: remove `clientID` from CreateMsgCreateClient
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The clientID is determined during Tx execution on chain, so it cannot be specified externally.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-06 08:41:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/120" class=".btn">#120</a>
             </td>
             <td>
@@ -36,38 +62,6 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </table>
     <div class="right-align">
         Created At 2023-10-31 14:23:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    reorganize interfaces that makes up the Prover interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                introduce the following interfaces
-- `FinalityAware`
-- `FinalityAwareChain`
-- `ChainLightClient`
-
-delete the following interface
-- `ChainICS02QuerierLightClient`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-30 08:43:59 +0000 UTC
     </div>
 </div>
 
