@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1629" class=".btn">#1629</a>
+            </td>
+            <td>
+                <b>
+                    refactor(indy-sdk)!: remove indy-sdk package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Still WIP.
+
+Removes the indy-sdk package and updates all code to now use only the new shared components. Still some work to do related to removing the usage of indy-sdk and making sure all tests work. But this is an initial step.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 05:40:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1624" class=".btn">#1624</a>
             </td>
             <td>
