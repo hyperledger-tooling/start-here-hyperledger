@@ -407,31 +407,3 @@ Currently, the PR contains two main documents:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/264" class=".btn">#264</a>
-            </td>
-            <td>
-                <b>
-                    use universal for darwin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - fix(js): use universal for darwin nodejs
-- chore: update version
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 10:48:22 +0000 UTC
-    </div>
-</div>
-

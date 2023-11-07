@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    avoid go mod
+                    cleanup nwo/fabric chaincode packager
                 </b>
             </td>
         </tr>
@@ -33,32 +33,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2023-11-06 09:23:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/508" class=".btn">#508</a>
-            </td>
-            <td>
-                <b>
-                    fix: FSC panics when provided with a malformed identity certificate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 09:27:57 +0000 UTC
     </div>
 </div>
 

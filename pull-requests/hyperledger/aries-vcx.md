@@ -136,29 +136,3 @@ There are some compile time tests for the `VcIssuer` implementation for `indy` t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1041" class=".btn">#1041</a>
-            </td>
-            <td>
-                <b>
-                    refactor(mediator): remove client-webapi
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 11:35:47 +0000 UTC
-    </div>
-</div>
-

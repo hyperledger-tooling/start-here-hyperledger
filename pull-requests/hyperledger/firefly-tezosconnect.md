@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Update deps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 08:13:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/21" class=".btn">#21</a>
             </td>
             <td>
