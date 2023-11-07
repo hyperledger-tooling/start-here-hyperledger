@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/132" class=".btn">#132</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/135" class=".btn">#135</a>
             </td>
             <td>
                 <b>
-                    Pass 409 Conflict back to FireFly Core
+                    Use separate eventstream per namespace
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Ported from https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/137
+                Parallel to https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/140
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-28 17:39:58 +0000 UTC
+        Created At 2023-11-06 19:58:30 +0000 UTC
     </div>
 </div>
 

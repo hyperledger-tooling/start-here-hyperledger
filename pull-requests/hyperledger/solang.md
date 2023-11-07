@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1589" class=".btn">#1589</a>
+            </td>
+            <td>
+                <b>
+                    [Snyk] Upgrade @coral-xyz/anchor from 0.28.0 to 0.29.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <p>This PR was automatically created by Snyk using the credentials of a real user.</p><br /><h3>Snyk has created this PR to upgrade @coral-xyz/anchor from 0.28.0 to 0.29.0.</h3>
+
+:information_source: Keep your dependencies up-to-date. This makes it easier to fix existing vulnerabilities and to more quickly identify and fix newly disclosed vulnerabilities when they affect your project.
+<hr/>
+
+- The recommended version is **3 versions** ahead of your current version.
+- The recommended version was released **21 days ago**, on 2023-10-16.
+
+
+<details>
+<summary><b>Release notes</b></summary>
+<br/>
+  <details>
+    <summary>Package name: <b>@coral-xyz/anchor</b></summary>
+    <ul>
+      <li>
+        <b>0.29.0</b> - <a href="https://snyk.io/redirect/github/coral-xyz/anchor/releases/tag/v0.29.0">2023-10-16</a></br><p>Notable changes are listed in the <a href="https://snyk.io/redirect/github/coral-xyz/anchor/blob/v0.29.0/CHANGELOG.md#0290---2023-10-16">CHANGELOG</a>.</p>
+<p>For this release, there is also <a href="https://snyk.io/redirect/github/coral-xyz/anchor/blob/v0.29.0/docs/src/pages/docs/release-notes.md">release notes</a> to get a better view on the changes.</p>
+<p><a href="https://anchor-lang.com/docs/release-notes" rel="nofollow">https://anchor-lang.com/docs/release-notes</a></p>
+      </li>
+      <li>
+        <b>0.28.1-beta.2</b> - 2023-08-27
+      </li>
+      <li>
+        <b>0.28.1-beta.1</b> - 2023-06-21
+      </li>
+      <li>
+        <b>0.28.0</b> - <a href="https://snyk.io/redirect/github/coral-xyz/anchor/releases/tag/v0.28.0">2023-06-09</a></br><p>For a list of changes in this release, see the <a href="https://snyk.io/redirect/github/coral-xyz/anchor/blob/master/CHANGELOG.md#0280---2023-06-09">Change Log</a>.</p>
+      </li>
+    </ul>
+    from <a href="https://snyk.io/redirect/github/coral-xyz/anchor/releases">@coral-xyz/anchor GitHub release notes</a>
+  </details>
+</details>
+
+
+<details>
+  <summary><b>Commit messages</b></summary>
+  </br>
+  <details>
+    <summary>Package name: <b>@coral-xyz/anchor</b></summary>
+    <ul>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/fc9fd6d24b9be84abb2f40e47ed3faf7b11864ae">fc9fd6d</a> v0.29.0 (#2672)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/88a75aff138784fb99a7c9036b7c95b86f020bf0">88a75af</a> avm: Install from version-commit and refactor (#2671)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/4f996d0a58bd178a578a4e0d55952f48f8ec4ed2">4f996d0</a> cli: Add ability to override toolchain from &#x60;Anchor.toml&#x60; (#2649)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/5900c933102a06fbe7e5c4dedead883c807e35ce">5900c93</a> avm: Allow install, list and use from commit (#2659)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/8717364f81c106e61b3ab0a0bfe171b42efbee1e">8717364</a> Remove the maximum version constraint from Solana crates (#2667)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/23eeb1ec2d2d7e92f875f9cbfbc95bdec003a5a3">23eeb1e</a> spl: add feature memo to support cpi to spl-memo (#2661)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/0fef819e4bde38e7ff366266062a4b859c225d4a">0fef819</a> chore: Remove abusive cloning (#2663)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/6cf200493a307c01487c7b492b4893e0d6f6cb23">6cf2004</a> spl: Update dependencies to their latest versions (#2657)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/dcafb789e1635b8f90e8fd3badd0f9a015d204d4">dcafb78</a> lang: Add accounts by reference (#2656)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/243ab7573865a7296dd2af1153f44bffbf488458">243ab75</a> lang: Type safe bumps (#2542)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/721eb7a3be2344b2c5eae695ffe8eabf91fe7752">721eb7a</a> bench: Fix number formatting due to locale difference (#2655)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/267c4ceab7129c865680b0b9e7dd4376cc785265">267c4ce</a> tests: Remove &#x60;auction-house&#x60; submodule and host it natively (#2654)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/5e7fb445183f89abe79561d686785763eacb7a10">5e7fb44</a> Upgrade Solana to &#x60;1.17.0&#x60; (#2645)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/b0e725b5ace4bc3427a4e2c6350c1d6267176e23">b0e725b</a> spl: Update &#x60;mpl-token-metadata&#x60; to &#x60;3.1.0&#x60; and fix &#x60;create_metadata_accounts_v3&#x60; (#2651)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/25b24a1fd3fe7d411ec9f827b72d6167e6f55e56">25b24a1</a> syn: Fix having access to &#x60;idl&#x60; module by default (#2650)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/51578bcbc522d5398dbfa9d020f28fb797eb5815">51578bc</a> spl: Fix compilation error and warnings (#2647)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/5602244e1a3a3c2f9d7166d1114e2792aea4f0dc">5602244</a> cli: Support upgradeable program in anchor test (#2642)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/f18fd971fb10351bec268a4438ab3d6044506c07">f18fd97</a> Update Node to &#x60;18.18.0&#x60; LTS (#2643)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/e1d5e785b894d7a4ab4b06b21be2a9f4117df997">e1d5e78</a> syn: Fix generic type aliases (#2644)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/d1e32674d50005d04160b6fbac6f91de602a8829">d1e3267</a> Add type alias support (#2637)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/3e8bc76d72e2bfdb3962868b5066b2479cf49d25">3e8bc76</a> Update to solang v0.3.2 and add simple test (#2636)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/28adaf2343157835e546ffc8d0b3932eb1263427">28adaf2</a> ts: Remove &#x60;base64-js&#x60; dependency (#2635)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/99b75a905be2b407d4cd0a5f00c3db4cebd882e8">99b75a9</a> spl: Update to token metadata client sdk (#2632)</li>
+      <li><a href="https://snyk.io/redirect/github/coral-xyz/anchor/commit/3c6fc2ba2d06a799b53b27a282e5c811b978cdf5">3c6fc2b</a> syn: Fix IDL named enum variant field being snake_case (#2633)</li>
+    </ul>
+
+   <a href="https://snyk.io/redirect/github/coral-xyz/anchor/compare/e1afcbf71e0f2e10fae14525934a6a68479167b9...fc9fd6d24b9be84abb2f40e47ed3faf7b11864ae">Compare</a>
+  </details>
+</details>
+<hr/>
+
+**Note:** *You are seeing this because you or someone else with access to this repository has authorized Snyk to open upgrade PRs.*
+
+For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3cml0ZUtleSI6InJyWmxZcEdHY2RyTHZsb0lYd0dUcVg4WkFRTnNCOUEwIiwiYW5vbnltb3VzSWQiOiIxZTQ4NThiZC02MDU0LTQ4MWUtYjFkNi1jZGVkM2JiYTEyMmYiLCJldmVudCI6IlBSIHZpZXdlZCIsInByb3BlcnRpZXMiOnsicHJJZCI6IjFlNDg1OGJkLTYwNTQtNDgxZS1iMWQ2LWNkZWQzYmJhMTIyZiJ9fQ==" width="0" height="0"/>
+
+🧐 [View latest project report](https://app.snyk.io/org/hyperledger-bot/project/f9e21d22-7518-41f9-b3e0-204453183258?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;page&#x3D;upgrade-pr)
+
+🛠 [Adjust upgrade PR settings](https://app.snyk.io/org/hyperledger-bot/project/f9e21d22-7518-41f9-b3e0-204453183258/settings/integration?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;page&#x3D;upgrade-pr)
+
+🔕 [Ignore this dependency or unsubscribe from future upgrade PRs](https://app.snyk.io/org/hyperledger-bot/project/f9e21d22-7518-41f9-b3e0-204453183258/settings/integration?pkg&#x3D;@coral-xyz/anchor&amp;utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;page&#x3D;upgrade-pr#auto-dep-upgrades)
+
+<!--- (snyk:metadata:{"prId":"1e4858bd-6054-481e-b1d6-cded3bba122f","prPublicId":"1e4858bd-6054-481e-b1d6-cded3bba122f","dependencies":[{"name":"@coral-xyz/anchor","from":"0.28.0","to":"0.29.0"}],"packageManager":"npm","type":"auto","projectUrl":"https://app.snyk.io/org/hyperledger-bot/project/f9e21d22-7518-41f9-b3e0-204453183258?utm_source=github&utm_medium=referral&page=upgrade-pr","projectPublicId":"f9e21d22-7518-41f9-b3e0-204453183258","env":"prod","prType":"upgrade","vulns":[],"issuesToFix":[],"upgrade":[],"upgradeInfo":{"versionsDiff":3,"publishedDate":"2023-10-16T17:21:26.803Z"},"templateVariants":[],"hasFixes":false,"isMajorUpgrade":false,"isBreakingChange":false,"priorityScoreList":[]}) --->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-06 20:33:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1588" class=".btn">#1588</a>
             </td>
             <td>
@@ -510,107 +619,6 @@ For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3
     </table>
     <div class="right-align">
         Created At 2023-10-31 06:33:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1582" class=".btn">#1582</a>
-            </td>
-            <td>
-                <b>
-                    [Snyk] Upgrade fixed-merkle-tree from 0.6.1 to 0.7.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <p>This PR was automatically created by Snyk using the credentials of a real user.</p><br /><h3>Snyk has created this PR to upgrade fixed-merkle-tree from 0.6.1 to 0.7.3.</h3>
-
-:information_source: Keep your dependencies up-to-date. This makes it easier to fix existing vulnerabilities and to more quickly identify and fix newly disclosed vulnerabilities when they affect your project.
-<hr/>
-
-- The recommended version is **1 version** ahead of your current version.
-- The recommended version was released **2 years ago**, on 2022-04-04.
-
-
-<details>
-<summary><b>Release notes</b></summary>
-<br/>
-  <details>
-    <summary>Package name: <b>fixed-merkle-tree</b></summary>
-    <ul>
-      <li>
-        <b>0.7.3</b> - <a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/releases/tag/v0.7.3">2022-04-04</a></br>No content.
-      </li>
-      <li>
-        <b>0.6.1</b> - <a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/releases/tag/v0.6.1">2022-02-16</a></br>No content.
-      </li>
-    </ul>
-    from <a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/releases">fixed-merkle-tree GitHub release notes</a>
-  </details>
-</details>
-
-
-<details>
-  <summary><b>Commit messages</b></summary>
-  </br>
-  <details>
-    <summary>Package name: <b>fixed-merkle-tree</b></summary>
-    <ul>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/3da67b29ed419525886b3b83f301d2f22a43bdca">3da67b2</a> update lib es2020</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/73b4b68c9d8a1e3b8867c87d3975daa8c7a74e97">73b4b68</a> Merge pull request #3 from tornadocash/typescript</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/22e923c469fb234fac211912db8beb15d59f9a10">22e923c</a> update Readme</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/ec56e449f7817d2de8d3b3b9fc2a2ec30221fc11">ec56e44</a> update Readme</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/0efd9caee82c35ee2cf5459a616d555b5461c402">0efd9ca</a> update Readme</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/a29aa84450d07b2e80428eb3c587a0a9436f3d9f">a29aa84</a> implement indexOf with fromIndex param</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/7d439740b15896859ef4d74a781fb0a206662041">7d43974</a> fix deserialize method</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/cc33277ba17d21cd6ac81cb74fe069be7b527a96">cc33277</a> more test. fix nullish alloc</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/c1c6972a4bf98e4808e5ca97d096fb825423b63f">c1c6972</a> fix partial tree path</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/1f02fd3f453d3b115a49ebdbae27fb814dd2c917">1f02fd3</a> 0.7.1</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/b92ee38355372cf7989b5e09ced49dd8f8149bb0">b92ee38</a> 0.7.1</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/2e65f7cac085941b7596adb226f0fc2a6d466a3b">2e65f7c</a> upload lib files</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/1f34fa69fa5e671395b883b60de9b10cac3f26bf">1f34fa6</a> update tsconfig</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/d72b2b91be08d8e02fc46dda762bf32618e07a5f">d72b2b9</a> update tsc</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/3ddaca5ff54e11f26ceb46f47a54efbfcdde2262">3ddaca5</a> update tsconfig.json</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/5cf73384dd967cc28fe484129695bb2bd058be6b">5cf7338</a> update package.json</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/2a2dd204c07352a99020a6f47fcf2d8917130d88">2a2dd20</a> code duplication reduced</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/d11c5c168aa87dbdf47e9582b4e3590171f72572">d11c5c1</a> implementing getTreeSlices types</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/bc533ede2df78c567c70ec3e31740fa71ed5368c">bc533ed</a> check elements length in constructor</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/6df03ab139615ea377ee6459e5f2d6fb3295b6bc">6df03ab</a> fix tree slices order</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/e9f123a8b2be6c3006547f55094d3bb3a015d58c">e9f123a</a> use mimc from circomlibjs</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/ad634a6b3ae9a9684217400f977bfda04aa71275">ad634a6</a> implementing getTreeSlices</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/8e2b0a2dbca2f92dfb62a2a814f098b6731161b2">8e2b0a2</a> implementing tree slicing</li>
-      <li><a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/commit/6439775e37bde4a7c9f6306cbd6a9e0eb5abc3ea">6439775</a> final buildHashes algorithm</li>
-    </ul>
-
-   <a href="https://snyk.io/redirect/github/tornadocash/fixed-merkle-tree/compare/e3c54ea8189ce5bbd7e8aeff5c7b6018fa97b5b1...3da67b29ed419525886b3b83f301d2f22a43bdca">Compare</a>
-  </details>
-</details>
-<hr/>
-
-**Note:** *You are seeing this because you or someone else with access to this repository has authorized Snyk to open upgrade PRs.*
-
-For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3cml0ZUtleSI6InJyWmxZcEdHY2RyTHZsb0lYd0dUcVg4WkFRTnNCOUEwIiwiYW5vbnltb3VzSWQiOiI3MmE4OTU2Mi1hYTBjLTRjOTQtYWY2ZS1hZDdjYjEyMzg1NTYiLCJldmVudCI6IlBSIHZpZXdlZCIsInByb3BlcnRpZXMiOnsicHJJZCI6IjcyYTg5NTYyLWFhMGMtNGM5NC1hZjZlLWFkN2NiMTIzODU1NiJ9fQ==" width="0" height="0"/>
-
-🧐 [View latest project report](https://app.snyk.io/org/hyperledger-bot/project/f688eb37-df53-4c2e-8b47-56cb1b5df9c3?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;page&#x3D;upgrade-pr)
-
-🛠 [Adjust upgrade PR settings](https://app.snyk.io/org/hyperledger-bot/project/f688eb37-df53-4c2e-8b47-56cb1b5df9c3/settings/integration?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;page&#x3D;upgrade-pr)
-
-🔕 [Ignore this dependency or unsubscribe from future upgrade PRs](https://app.snyk.io/org/hyperledger-bot/project/f688eb37-df53-4c2e-8b47-56cb1b5df9c3/settings/integration?pkg&#x3D;fixed-merkle-tree&amp;utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;page&#x3D;upgrade-pr#auto-dep-upgrades)
-
-<!--- (snyk:metadata:{"prId":"72a89562-aa0c-4c94-af6e-ad7cb1238556","prPublicId":"72a89562-aa0c-4c94-af6e-ad7cb1238556","dependencies":[{"name":"fixed-merkle-tree","from":"0.6.1","to":"0.7.3"}],"packageManager":"npm","type":"auto","projectUrl":"https://app.snyk.io/org/hyperledger-bot/project/f688eb37-df53-4c2e-8b47-56cb1b5df9c3?utm_source=github&utm_medium=referral&page=upgrade-pr","projectPublicId":"f688eb37-df53-4c2e-8b47-56cb1b5df9c3","env":"prod","prType":"upgrade","vulns":[],"issuesToFix":[],"upgrade":[],"upgradeInfo":{"versionsDiff":1,"publishedDate":"2022-04-04T08:48:28.146Z"},"templateVariants":[],"hasFixes":false,"isMajorUpgrade":false,"isBreakingChange":false,"priorityScoreList":[]}) --->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-30 20:31:43 +0000 UTC
     </div>
 </div>
 

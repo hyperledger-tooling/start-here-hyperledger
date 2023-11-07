@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/205" class=".btn">#205</a>
-            </td>
-            <td>
-                <b>
-                    BCW fix wallet name tets for small devices and enhance performance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes a wallet naming issue where if the device is smaller and we are testing null values in the wallet name field the iOS keyboard does not close and is over the save button, causing the click save to fail. 
-
-This PR also speeds up the restart of the app to get ready for the test. It no longer checks if the biometrics page is displayed but check a boolean flag that was set when the wallet was setup.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-30 21:56:52 +0000 UTC
-    </div>
-</div>
-
