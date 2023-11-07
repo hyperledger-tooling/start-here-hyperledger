@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    ADD: implements StoredVerkleTrie
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds a new StoredVerkleTrie class representing a VerkleTrie where Nodes can be fetched from storage as needed while walking through the Trie.
+
+Currently, there is a SimpleVerkleTrie which can be constructed in memory only, and there is a StoredNodeFactory which can retrieve a single node from storage. However, there was no mechanism to walk a VerkleTrie where nodes are stored in storage. StoredVerkleTrie fills this gap.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 09:56:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/5" class=".btn">#5</a>
+            </td>
+            <td>
+                <b>
+                    update gradle for publish step, and MAINTAINERS.md and cleaning of th…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+
+## PR description
+
+Cleaning repo (adding maintainers, update gradle for publish etc)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 09:23:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/3" class=".btn">#3</a>
             </td>
             <td>

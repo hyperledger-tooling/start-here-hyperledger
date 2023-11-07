@@ -1,13 +1,13 @@
 
-[1629](https://github.com/hyperledger/aries-framework-javascript/pull/1629) refactor(indy-sdk)!: remove indy-sdk package
+[180](https://github.com/hyperledger-labs/orion-sdk-go/pull/180) Get last config block API
 
-[6137](https://github.com/hyperledger/besu/pull/6137) Revert "Discard invalid transaction" warning logs
+[2419](https://github.com/hyperledger/bevel/pull/2419) New Document Restructure
 
-[179](https://github.com/hyperledger/anoncreds-spec/pull/179) Rewrite verification section to leave room for proof verifications
+[139](https://github.com/hyperledger/aries-javascript-docs/pull/139) remove mediator reference
 
-[259](https://github.com/hyperledger-labs/minbft/pull/259) update .golangci.yml
+[6](https://github.com/hyperledger/besu-verkle-trie/pull/6) ADD: implements StoredVerkleTrie
 
-[6135](https://github.com/hyperledger/besu/pull/6135) Make the tracer used for block building block aware
+[5](https://github.com/hyperledger/besu-verkle-trie/pull/5) update gradle for publish step, and MAINTAINERS.md and cleaning of th…
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

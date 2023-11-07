@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6138" class=".btn">#6138</a>
+            </td>
+            <td>
+                <b>
+                    Bws badblock oom
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #6118 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 06:34:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6137" class=".btn">#6137</a>
             </td>
             <td>
@@ -376,38 +410,6 @@ Add 23.10.1 final changelog
     </table>
     <div class="right-align">
         Created At 2023-11-01 03:36:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6109" class=".btn">#6109</a>
-            </td>
-            <td>
-                <b>
-                    Restore javadoc and sources jar as trusted artifacts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Makes Idea happy again as documented here https://docs.gradle.org/6.8.3/userguide/dependency_verification.html#sec:skipping-javadocs
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 10:58:11 +0000 UTC
     </div>
 </div>
 

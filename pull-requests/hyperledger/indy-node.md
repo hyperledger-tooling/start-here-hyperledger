@@ -38,32 +38,3 @@ fixes: https://github.com/hyperledger/indy-node/issues/1822
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1821" class=".btn">#1821</a>
-            </td>
-            <td>
-                <b>
-                    Add Indy-Besu PoC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Work in progress:
-
-- [x] Squash Initial commit
-- [ ] CI/CD pipeline Integration
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 08:37:29 +0000 UTC
-    </div>
-</div>
-
