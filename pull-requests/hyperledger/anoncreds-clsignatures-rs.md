@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    Ensure revocation index is in range
+                    Use secure heap for BigNum in OpenSSL.
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                For the issuer, this ensures that `rev_idx` is in range, to avoid issuing invalid credentials. Previously this could issue an invalid credential with the index `0`, or panic due to an overflow for values greater than `max_cred_num`.
-
-For the prover, this checks that the revocation index is not zero when processing a credential (`max_cred_num` is not available here without changing the API).
-
-Tested with the ACA-Py test suite.
+                Fix #26 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-05 22:31:28 +0000 UTC
+        Created At 2023-11-06 20:24:23 +0000 UTC
     </div>
 </div>
 

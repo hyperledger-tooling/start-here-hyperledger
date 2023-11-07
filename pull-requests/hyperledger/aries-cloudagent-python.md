@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2596" class=".btn">#2596</a>
+            </td>
+            <td>
+                <b>
+                    WIP initial code migration from anoncreds-rs branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">AnonCreds</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-06 21:07:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2595" class=".btn">#2595</a>
+            </td>
+            <td>
+                <b>
+                    Issue 2570 devcontainer ruff, black and pytest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2570 
+
+Adding `--ruff` to the `pytest` configuration in `pyproject.toml` adversely affects the `devcontainer`: the Testing view does not load properly (tests are discovered but not listed). It is convenient to have those tests loaded in the Testing view for debugging and troubleshooting, allowing the developer to isolate and repeatedly run individual files/tests quickly.
+
+One important caveat is the devcontainer creates its own `.pytest.ini` file (it is gitgnored) which overrides the configuration in [pyproject.toml](./pyproject.toml). `ruff` will ignore this file and continue to use the pyproject configuration. The `ruff` extension is also explicitly configured to use the pyproject configuration. Creating a `.pytest.ini` file when the container is built means that file will continue to exist on the file system outside of the container. So if a developer flips between using the devcontainer and running commands directly on their system they will pick up the `.pytest.ini` file which would not run `ruff` check when calling `python -m pytest .` on the local machine. These changes do *NOT* impact `./scripts/run_tests` or `./scripts/run_tests_indy` - those will continue to use the pyproject configuration.
+
+This PR adds extensions for `ruff` and `black`, setting up `black` as the default formatted and integrating `ruff` into the editor/command palette.
+
+Updates have been made to the [devcontainer](./devcontainer.md) README to inform users/developers of the changes and caveats.
+
+*NOTE* - the `ruff` version has been updated to match the extension.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-06 20:29:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2591" class=".btn">#2591</a>
             </td>
             <td>
@@ -242,86 +305,6 @@ Added BDD tests to address the deletion and followup acceptance for `indy` and `
     </table>
     <div class="right-align">
         Created At 2023-10-31 01:11:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2576" class=".btn">#2576</a>
-            </td>
-            <td>
-                <b>
-                    0.11.0-rc1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-30 22:07:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2575" class=".btn">#2575</a>
-            </td>
-            <td>
-                <b>
-                    0.11.0-rc0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-30 20:30:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2573" class=".btn">#2573</a>
-            </td>
-            <td>
-                <b>
-                    chore: point to official sd-jwt lib release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adjusts the version of sd-jwt pulled to be the official release now published to PyPI: https://pypi.org/project/sd-jwt/
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-30 19:07:54 +0000 UTC
     </div>
 </div>
 
