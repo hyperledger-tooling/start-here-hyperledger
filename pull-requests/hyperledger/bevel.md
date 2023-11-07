@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2420" class=".btn">#2420</a>
+            </td>
+            <td>
+                <b>
+                    chart name refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 17:39:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2419" class=".btn">#2419</a>
             </td>
             <td>
@@ -243,77 +269,6 @@ fixes https://github.com/hyperledger/bevel/issues/2359
     </table>
     <div class="right-align">
         Created At 2023-10-31 19:23:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2409" class=".btn">#2409</a>
-            </td>
-            <td>
-                <b>
-                    [shared] flux installation bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Primary Changes
---------------
-
-1. flux installation based on the context specified at org level.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 17:32:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2408" class=".btn">#2408</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] replace ansible roles readme with inline code comments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### **Commit to be reviewed**
----
-**feat(fabric): replace ansible roles readme with inline code comments**
-
-```
-This PR enhances the readability and understanding of our roles by adding comment messages throughout the code.
-
-Changes:
-- Added clear and concise comment messages in ansible roles.
-- Maintained proper code indentation for increased code reliability.
-- Removed the roles' Readme.md if it existed.
-
-Additional changes:
-- Deleted storageclass ansible role as we already migrated it to the shared platform.
-
-```
-fixes #2326
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 12:32:51 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    ENH: returning old leafNode on value update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR makes a small but useful modification to the putVisitor.
+It is very useful for the trie-log to be able to do the following within a single tree-traversal:
+on updating an existing value, retrieve also the old value.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 15:12:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/6" class=".btn">#6</a>
             </td>
             <td>
