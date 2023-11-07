@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1590" class=".btn">#1590</a>
+            </td>
+            <td>
+                <b>
+                    Implement string.concat() and bytes.concat()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is what solc implements. Solang has implement a + b for string concatenation, which this PR removes.
+
+Fixes: https://github.com/hyperledger/solang/issues/1558
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 12:48:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1589" class=".btn">#1589</a>
             </td>
             <td>

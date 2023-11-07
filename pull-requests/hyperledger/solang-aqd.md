@@ -44,29 +44,3 @@ permalink: /pull-requests/hyperledger/solang-aqd
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang-aqd/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Add base settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 14:51:02 +0000 UTC
-    </div>
-</div>
-
