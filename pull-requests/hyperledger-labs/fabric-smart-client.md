@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    cleanup nwo/fabric chaincode packager
+                    cleanup and dep update
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                This PR brings the following: 
+- cleanup nwo/fabric chaincode packager
+- idemix dep update
             </td>
         </tr>
     </table>

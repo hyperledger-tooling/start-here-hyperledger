@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/583" class=".btn">#583</a>
+            </td>
+            <td>
+                <b>
+                    Refactor old cc pkg upload API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refactor old chaincode package upload API according to the new design doc.
+
+Signed-off-by: xichen1 <xichen.pan@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 10:38:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/581" class=".btn">#581</a>
             </td>
             <td>
