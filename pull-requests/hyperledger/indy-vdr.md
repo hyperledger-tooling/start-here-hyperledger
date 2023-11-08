@@ -37,30 +37,3 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/234" class=".btn">#234</a>
-            </td>
-            <td>
-                <b>
-                    fix(rn): do not try to deserialize again if it is a stream
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-01 09:07:22 +0000 UTC
-    </div>
-</div>
-

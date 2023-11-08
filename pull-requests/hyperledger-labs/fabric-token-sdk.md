@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    make the interactive certifier driver extensible
+                    extensible interactive certifier + idemix update
                 </b>
             </td>
         </tr>

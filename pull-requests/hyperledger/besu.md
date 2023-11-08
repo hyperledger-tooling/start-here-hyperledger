@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6143" class=".btn">#6143</a>
+            </td>
+            <td>
+                <b>
+                    Synchronize access to block header
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+As outlined in the comment in https://github.com/hyperledger/besu/issues/6140 it appears to be the case that access to the block header isn't thread safe when the block being requested is a newly added chain head.
+
+## Fixed Issue(s)
+Fixes #6140 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 10:32:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6138" class=".btn">#6138</a>
             </td>
             <td>
