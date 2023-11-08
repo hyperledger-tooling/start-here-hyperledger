@@ -40,7 +40,7 @@ permalink: /releases/hyperledger-labs/fabric-operator
 * Fix the Makefile by adding missing targets by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/147
 
 
-**Full Changelog**: https://github.com/hyperledger-labs/fabric-operator/compare/v1.0.4...v1.0.7-1
+**Full Changelog**: https://github.com/hyperledger-labs/fabric-operator/compare/v1.0.6-2...v1.0.7-1
             </td>
         </tr>
     </table>
