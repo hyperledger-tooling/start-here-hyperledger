@@ -1,13 +1,13 @@
 
-[2420](https://github.com/hyperledger/bevel/pull/2420) chart name refactoring
+[778](https://github.com/hyperledger-labs/open-enterprise-agent/pull/778) feat(pollux): Add migrations needed for JWT revocation
 
-[62](https://github.com/hyperledger-labs/harmonia/pull/62) Refactoring, additional tests, README updates
+[799](https://github.com/hyperledger/aries-rfcs/pull/799) LTS
 
-[153](https://github.com/hyperledger-labs/fabric-operator/pull/153) Reverting Use tags default to true
+[798](https://github.com/hyperledger/aries-rfcs/pull/798) Fix typo in Aries for OCA RFC - missing _text on credential_help_text attribute
 
-[1052](https://github.com/hyperledger/aries-vcx/pull/1052) Add mediator coordination messages to aries-vcx messages crate
+[29](https://github.com/hyperledger/aries-acapy-plugins/pull/29) Add redis events plugin
 
-[238](https://github.com/hyperledger/firefly-ethconnect/pull/238) Mark filter stale for Besu nodes
+[1631](https://github.com/hyperledger/aries-framework-javascript/pull/1631) build(deps): use node's built-in fetch
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
