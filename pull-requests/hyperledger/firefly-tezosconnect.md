@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Fix flaky test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Build is failed time to time due test https://github.com/hyperledger/firefly-tezosconnect/actions/runs/6794181484/job/18470172130
+
+1) Can reproduce failed behaviour if add additional sleep before done() execution, see test for reproducing the issue and fix for existing   
+2) Since we can't identify which one test is failed, added option -v (verbose) it should show passed and failed names of tests. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 18:01:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/22" class=".btn">#22</a>
             </td>
             <td>

@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4532" class=".btn">#4532</a>
+            </td>
+            <td>
+                <b>
+                    Add doc link for Fabric ecosystem
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update Fabric introduction doc topic to include a link to the Fabric ecosystem wiki. Also includes other minor updates to the doc topic.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 17:16:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4531" class=".btn">#4531</a>
+            </td>
+            <td>
+                <b>
+                    Bump github.com/docker/docker to v24.0.7+incompatible
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also requires updating the following to address compile issues:
+- github.com/fsouza/go-dockerclient to v1.10.0.
+- github.com/klauspost/compress to v1.13.6.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 15:19:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4530" class=".btn">#4530</a>
+            </td>
+            <td>
+                <b>
+                    Correct usage of osnadmin channel remove (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The patchset corrects the usage about `osnadmin channel remove`.
+
+The command is to remove a channel from an OSN, not conversely.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 15:12:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4528" class=".btn">#4528</a>
             </td>
             <td>

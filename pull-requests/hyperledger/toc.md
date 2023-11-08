@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/toc
                 <span class="chip">quarterly-report</span>
             </td>
             <td>
-                Please look at this PR as a rushed draft as I may have internet problems soon.
+                <nil>
             </td>
         </tr>
     </table>

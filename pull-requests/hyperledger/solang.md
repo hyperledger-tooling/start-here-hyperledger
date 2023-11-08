@@ -211,36 +211,3 @@ The documentation for `solang aqd` is written in a separate page
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1585" class=".btn">#1585</a>
-            </td>
-            <td>
-                <b>
-                    Do not fail CI if sections of the code are not covered by tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                codecov should not fail CI when coverage has increased/stayed the same.
-
-Take this PR for example: https://github.com/hyperledger/solang/pull/1583
-
-It changes one line in a package.json and code coverage comes with bunch of failures.
-
-I am all for increasing code coverage but right now every PR is just impossible to get to pass. It is too much to demand that every changed line has a test, and as a result, all the PRs in
-https://github.com/hyperledger/solang/pulls are marked as failed. Anyone doing a simple code fix will find it impossible, and larger code changes are even worse.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-01 14:24:19 +0000 UTC
-    </div>
-</div>
-

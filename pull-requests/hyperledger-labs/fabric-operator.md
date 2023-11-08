@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Making Use tags default to true
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/148
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-01 14:42:06 +0000 UTC
-    </div>
-</div>
-
