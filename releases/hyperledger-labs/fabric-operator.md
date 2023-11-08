@@ -38,10 +38,9 @@ permalink: /releases/hyperledger-labs/fabric-operator
 * A job to push operator image from main by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/144
 * disable peer block gossiping with config blockGossipEnabled flag by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/146
 * Fix the Makefile by adding missing targets by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/147
-* Making Use tags default to true by @shoaebjindani in https://github.com/hyperledger-labs/fabric-operator/pull/150
 
 
-**Full Changelog**: https://github.com/hyperledger-labs/fabric-operator/compare/v1.0.6-2...v1.0.7-1
+**Full Changelog**: https://github.com/hyperledger-labs/fabric-operator/compare/v1.0.4...v1.0.7-1
             </td>
         </tr>
     </table>
@@ -49,7 +48,7 @@ permalink: /releases/hyperledger-labs/fabric-operator
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-11-01 14:53:37 +0000 UTC
+        Created At 2023-10-31 14:25:33 +0000 UTC
     </span>
 </div>
 
