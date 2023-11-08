@@ -393,31 +393,3 @@ v13 of the official Ethereum Reference Tests.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6110" class=".btn">#6110</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] - Add 23.10.1 correct changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add 23.10.1 final changelog
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-01 03:36:16 +0000 UTC
-    </div>
-</div>
-
