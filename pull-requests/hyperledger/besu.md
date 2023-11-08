@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Bws badblock oom
+                    Backward sync invalid block causes Out of Memory error
                 </b>
             </td>
         </tr>
@@ -31,6 +31,14 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+Besu fails to import a block due to an invalid block error during BWS and then fails with an OutOfMemoryError.
+
+The fix is to limit the included blocks and block headers in the `onBadChain` event. I have set the limit to be the same as what is set for the maximum number of entries cached in the `BadBlockManager`. The `BadBlockManager` is currently the only listener for this event and the limit of 100 also seems reasonable for the `onBadChain` event.
+
+### Heap dump analysis
+![image (1)](https://github.com/hyperledger/besu/assets/909467/bcb2e0b7-bc43-460c-a5be-a3134f018ca9)
+
+![image (2)](https://github.com/hyperledger/besu/assets/909467/5fd48a0f-c075-476a-b2b7-e753a9debbc3)
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

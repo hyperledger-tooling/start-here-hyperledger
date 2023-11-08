@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1631" class=".btn">#1631</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): use node's built-in fetch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As now our minimal supported node version is 18, which has a built-in fetch API, this is an attempt to get rid of external `node-fetch` dependency on `@aries-framework/core`.
+
+Credits to @dependabot, who give us the idea!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 20:44:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1630" class=".btn">#1630</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump react-devtools-core from 4.27.6 to 4.28.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [react-devtools-core](https://github.com/facebook/react/tree/HEAD/packages/react-devtools-core) from 4.27.6 to 4.28.5.
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/facebook/react/commits/HEAD/packages/react-devtools-core">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-devtools-core&package-manager=npm_and_yarn&previous-version=4.27.6&new-version=4.28.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-javascript/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 20:20:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1629" class=".btn">#1629</a>
             </td>
             <td>
@@ -162,68 +253,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2023-11-01 10:05:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1623" class=".btn">#1623</a>
-            </td>
-            <td>
-                <b>
-                    feat: added ability to refresh the pool manually
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously AFJ wouldn't call refresh on genesis files, this meant that the pool could be out of date and contain dead nodes. This change adds a function to the pool service that allows an afj user to manually refresh the pool as needed. Example:
-```typescript
-const poolService = newAgent.dependencyManager.resolve(IndyVdrPoolService)
-await poolService.refreshPoolConnections()
-```
-all the pools are refreshed asynchronously so it doesn't take more than 1 - 2 seconds on BC Wallet.
-
-Note: I tried returning the transactions too so that we could cache them, however when I was playing around with the yarn patch I made, whenever I called `this._pool.transactions` in the `IndyCdrPool.js` file I would get a JSON parse error. I was unclear what was causing the error, it seems to be coming from the indy-vdr-shared library
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 20:15:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1622" class=".btn">#1622</a>
-            </td>
-            <td>
-                <b>
-                    feat: update dockerfile to node 18 and sample mediator to askar
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Intermediate solution until we finally remove `indy-sdk` dependency: current Dockerfile won't work because it install node 16 and we now require at least 18, so here we are updating it. Also upgraded sample mediator to use Aries Askar, which now works properly due to the patched `ref-napi` library.
-
-Resolves #1621 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 19:57:15 +0000 UTC
     </div>
 </div>
 

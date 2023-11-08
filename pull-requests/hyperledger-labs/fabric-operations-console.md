@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/556" class=".btn">#556</a>
+            </td>
+            <td>
+                <b>
+                    Audit logs cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+more audit log improvements
+- added log for deleting users
+- added log for mustgather actions
+- fix search box on audit log page (under some circumstances it didn't work correctly)
+- removed text "IBP" from a user login log
+- added name of ordering service to log when deleting an ordering service
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-07 19:18:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/554" class=".btn">#554</a>
             </td>
             <td>

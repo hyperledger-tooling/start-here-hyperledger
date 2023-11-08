@@ -241,34 +241,3 @@ fixes #2326
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2410" class=".btn">#2410</a>
-            </td>
-            <td>
-                <b>
-                    upgrade(hyperledger-indy): ambassador to ambassador edge stack
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR will provide the support of using latest ambassador edge-stack
-
-changes:
-• Updated all services to use the latest Ambassador Edge Stack routing rules.
-
-fixes https://github.com/hyperledger/bevel/issues/2359
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-31 19:23:56 +0000 UTC
-    </div>
-</div>
-
