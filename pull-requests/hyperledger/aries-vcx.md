@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1054" class=".btn">#1054</a>
+            </td>
+            <td>
+                <b>
+                    fix(aries_vcx): make integration tests run
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should make the tests run again, next step is to fix the failing cases.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 14:54:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1052" class=".btn">#1052</a>
             </td>
             <td>

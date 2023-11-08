@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2600" class=".btn">#2600</a>
+            </td>
+            <td>
+                <b>
+                    Add ConnectionProblemReport handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Leaving this here as a starting point or example.
+
+See issues #2530 and #2599.
+
+I think we would want to address #2599 first (or include in here) and get the error classes fixed up, then the handler will actually be effective.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-08 16:36:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2596" class=".btn">#2596</a>
             </td>
             <td>
@@ -141,7 +171,7 @@ Fixes #2583
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AnonCreds</span>
             </td>
             <td>
                 <nil>
