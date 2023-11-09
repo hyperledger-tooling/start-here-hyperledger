@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/743" class=".btn">#743</a>
-            </td>
-            <td>
-                <b>
-                    fixed get_acapy_version_as_float function to handle new acapy version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR refactors the get_acapy_version_as_float function to handle the new PEP standard version format without the `-` in the version. Historically it worked with a version number of 0.11.0-rc1 and now it will also work with the version formatted as 0.11.0rc1
-
-closes #742 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-01 21:09:15 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[23](https://github.com/hyperledger/firefly-tezosconnect/pull/23) Fix flaky test
+[180](https://github.com/hyperledger/anoncreds-spec/pull/180) Note about lack of creddef key correctness proof
 
-[4532](https://github.com/hyperledger/fabric/pull/4532) Add doc link for Fabric ecosystem
+[4535](https://github.com/hyperledger/fabric/pull/4535) Remove unused var
 
-[2600](https://github.com/hyperledger/aries-cloudagent-python/pull/2600) Add ConnectionProblemReport handler
+[4534](https://github.com/hyperledger/fabric/pull/4534) Direct check error
 
-[1423](https://github.com/hyperledger/firefly/pull/1423) Call ResolveFFI from GenerateFFI
+[2605](https://github.com/hyperledger/aries-cloudagent-python/pull/2605) Default connection_id to None to account for Connectionless Proofs
 
-[779](https://github.com/hyperledger-labs/open-enterprise-agent/pull/779) feat(prism-agent): add multi-tenant wallet self-service capability
+[2604](https://github.com/hyperledger/aries-cloudagent-python/pull/2604) chore: correct type hints on base record
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

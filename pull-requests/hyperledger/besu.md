@@ -268,39 +268,6 @@ Fixes #6126
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6121" class=".btn">#6121</a>
-            </td>
-            <td>
-                <b>
-                    5571migrate tests to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-issue #5571 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 00:10:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6119" class=".btn">#6119</a>
             </td>
             <td>

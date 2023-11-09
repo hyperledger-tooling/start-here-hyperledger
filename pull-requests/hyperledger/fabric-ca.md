@@ -14,71 +14,87 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/385" class=".btn">#385</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/386" class=".btn">#386</a>
             </td>
             <td>
                 <b>
-                    chore: remove refs to deprecated io/ioutil
+                    Bump github.com/consensys/gnark-crypto from 0.12.0 to 0.12.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+                Bumps [github.com/consensys/gnark-crypto](https://github.com/consensys/gnark-crypto) from 0.12.0 to 0.12.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/consensys/gnark-crypto/releases">github.com/consensys/gnark-crypto's releases</a>.</em></p>
+<blockquote>
+<h2>v0.12.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: GLV exponentiation in GT with large exponents by <a href="https://github.com/ThomasPiellard"><code>@​ThomasPiellard</code></a> in <a href="https://redirect.github.com/Consensys/gnark-crypto/pull/451">Consensys/gnark-crypto#451</a> <a href="https://github.com/Consensys/gnark-crypto/security/advisories/GHSA-pffg-92cg-xf5c">Security Advisory</a></li>
+<li>feat: kzg extended transcript by <a href="https://github.com/ThomasPiellard"><code>@​ThomasPiellard</code></a> in <a href="https://redirect.github.com/Consensys/gnark-crypto/pull/452">Consensys/gnark-crypto#452</a></li>
+<li>perf(fft): introduce cache efficient bit reverse shuffling by <a href="https://github.com/gbotrel"><code>@​gbotrel</code></a> in <a href="https://redirect.github.com/Consensys/gnark-crypto/pull/446">Consensys/gnark-crypto#446</a></li>
+<li>perf: Improve performance of point equality checks by <a href="https://github.com/jsign"><code>@​jsign</code></a> in <a href="https://redirect.github.com/Consensys/gnark-crypto/pull/450">Consensys/gnark-crypto#450</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Consensys/gnark-crypto/compare/v0.12.0...v0.12.1">https://github.com/Consensys/gnark-crypto/compare/v0.12.0...v0.12.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/da0317fd013308db6ce847bc9c3d506a2a3ae0ff"><code>da0317f</code></a> clean: remove useless snippet in mulWindowed (<a href="https://redirect.github.com/consensys/gnark-crypto/issues/453">#453</a>)</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/65cdb1d1c214e51454ae6dad4c466324f3ae510d"><code>65cdb1d</code></a> Feat/kzg extended transcript (<a href="https://redirect.github.com/consensys/gnark-crypto/issues/452">#452</a>)</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/95e674b3d69279dd0446e34cd8960e2fc4ed8393"><code>95e674b</code></a> perf(fft): introduce cache efficient bit reverse shuffling (<a href="https://redirect.github.com/consensys/gnark-crypto/issues/446">#446</a>)</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/ec6be1a037f7c496d595c541a8a8d31c47bcfa3d"><code>ec6be1a</code></a> Merge pull request <a href="https://redirect.github.com/consensys/gnark-crypto/issues/451">#451</a> from Consensys/fix/glv</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/aef1eef48ab992db67631dcbec1c8dc259673e5b"><code>aef1eef</code></a> fix: add GT ExpGLV fix to BLS24 + BW6</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/feaf161b4d1e53abf68b5679780ab497ef4818d4"><code>feaf161</code></a> fix: merge and fix tests for expGLV</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/ced3076befee5c056f80ec5301438001ef5e9cdd"><code>ced3076</code></a> fix: use max(size(s1), size(s2)) for ExpGLV</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/4096ad9913f1bfc9c67cdddade36ba981ade72ac"><code>4096ad9</code></a> feat: discared useless files</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/ace5318b726c7185249bc9c92e1cadae701c1654"><code>ace5318</code></a> Merge pull request <a href="https://redirect.github.com/consensys/gnark-crypto/issues/450">#450</a> from jsign/jsign-eq-improv</li>
+<li><a href="https://github.com/Consensys/gnark-crypto/commit/dc4e2d4f7799c4c36e213d1278fd3b77c07eb4da"><code>dc4e2d4</code></a> feat: added test for [-s]G=-[s]G</li>
+<li>Additional commits viewable in <a href="https://github.com/consensys/gnark-crypto/compare/v0.12.0...v0.12.1">compare view</a></li>
+</ul>
+</details>
+<br />
 
-<!--- Provide a descriptive summary of your changes in the Title above. -->
 
-#### Type of change
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/consensys/gnark-crypto&package-manager=go_modules&previous-version=0.12.0&new-version=0.12.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
-<!--- What type of change? Pick one option and delete the others. -->
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
 
-#### Description
+---
 
-<!--- Describe your changes in detail, including motivation. -->
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
 
-#### Additional details
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-ca/network/alerts).
 
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-23 08:24:19 +0000 UTC
+        Created At 2023-11-08 18:47:23 +0000 UTC
     </div>
 </div>
 
