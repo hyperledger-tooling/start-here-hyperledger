@@ -1,13 +1,13 @@
 
-[v0.1.2](https://github.com/hyperledger/firefly-tezosconnect/releases/tag/v0.1.2) v0.1.2
+[besu-member-node-0.15.0](https://github.com/hyperledger/bevel/releases/tag/besu-member-node-0.15.0) besu-member-node-0.15.0
 
-[v1.2.16](https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.16) v1.2.16
+[besu_connector-0.15.0](https://github.com/hyperledger/bevel/releases/tag/besu_connector-0.15.0) besu_connector-0.15.0
 
-[v1.0.7-1](https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.7-1) v1.0.7-1
+[besu-validator-node-0.15.0](https://github.com/hyperledger/bevel/releases/tag/besu-validator-node-0.15.0) besu-validator-node-0.15.0
 
-[v0.2.0-dev.5](https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.2.0-dev.5) v0.2.0-dev.5
+[besu-tlscert-cert-gen-0.15.0](https://github.com/hyperledger/bevel/releases/tag/besu-tlscert-cert-gen-0.15.0) besu-tlscert-cert-gen-0.15.0
 
-[prism-agent-v1.18.0](https://github.com/hyperledger-labs/open-enterprise-agent/releases/tag/prism-agent-v1.18.0) Open Enterprise Agent v1.18.0
+[besu-tessera-node-0.15.0](https://github.com/hyperledger/bevel/releases/tag/besu-tessera-node-0.15.0) besu-tessera-node-0.15.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
