@@ -181,33 +181,3 @@ The documentation for `solang aqd` is written in a separate page
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1586" class=".btn">#1586</a>
-            </td>
-            <td>
-                <b>
-                    Match solc diagnostic levels
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The following errors are warnings in solc
-
- - unreachable code should be warning
- - function types with parameter/return names should be warning
- - unknown assembly flags should be warnings
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-01 20:59:30 +0000 UTC
-    </div>
-</div>
-
