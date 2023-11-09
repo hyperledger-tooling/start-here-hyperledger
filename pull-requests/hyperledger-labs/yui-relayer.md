@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
             </td>
             <td>
                 <b>
-                    add new function `GetFinalizedHeader` to `FinalityAware` interface
+                    replace `GetLatestFinalizedHeader` with `GetFinalizedHeader`
                 </b>
             </td>
         </tr>
