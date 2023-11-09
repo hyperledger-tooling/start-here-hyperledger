@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6150" class=".btn">#6150</a>
+            </td>
+            <td>
+                <b>
+                    Clamp up-front gas calculation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clamp upfront gas calculations to uint256 max instead of throwing an exception. Fix related encoding changes and tests to validate.
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 16:09:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6148" class=".btn">#6148</a>
+            </td>
+            <td>
+                <b>
+                    Remove LowestInvalidNonceCache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+LowestInvalidNonceCache was introduce in #4425, as a workaround for avoiding that non executable txs fill the txpool, while we were implementing an better solution to the problem, that become the new layered txpool that is now the default option in Besu, and is tailored for public network.
+At this point we can make the simple legacy txpool more private network friendly, and the LowestInvalidNonceCache is usually creating issues these networks, so it makes sense to remove this workaround, since there should be less risk of spammy txs there, and in case users can always switch to layered.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #6058 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 14:21:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6147" class=".btn">#6147</a>
+            </td>
+            <td>
+                <b>
+                    Cached blob txs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #6025 
+
+- adds LRU cache to retain blobs for 3 epochs in case of re-orgs so they can be restored to tx pool for future inclusion.
+- worst case memory usage would be around 77MB on heap
+- adds means for Transaction.Builder to copy an immutable Transaction
+- upgrades errorprone, checkerframework, and caffine
+- miscellaneous sonar fixes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 13:39:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6146" class=".btn">#6146</a>
             </td>
             <td>
@@ -386,38 +491,6 @@ Refs #5322
     </table>
     <div class="right-align">
         Created At 2023-11-03 02:20:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6114" class=".btn">#6114</a>
-            </td>
-            <td>
-                <b>
-                    Reference Tests v13
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-v13 of the official Ethereum Reference Tests.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-02 15:06:52 +0000 UTC
     </div>
 </div>
 

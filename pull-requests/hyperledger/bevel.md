@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2427" class=".btn">#2427</a>
+            </td>
+            <td>
+                <b>
+                    [r3-corda-ent)] fix chart name and linting issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+**bug(r3-corda-ent): fix chart name and linting issue**
+
+```
+Fixed the chart name at following locations:
+- Ansible role.
+- Template file (.tpl) file.
+- Helm Chart name itself.
+
+Linting issue:
+- Fixed for the "corda-ent-node" Helm chart.
+```
+
+fixes: quick-fixes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 13:06:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2426" class=".btn">#2426</a>
             </td>
             <td>

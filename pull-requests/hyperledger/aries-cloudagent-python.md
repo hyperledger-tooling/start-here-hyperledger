@@ -169,7 +169,7 @@ I think we would want to address #2599 first (or include in here) and get the er
             </td>
             <td>
                 <b>
-                    WIP initial code migration from anoncreds-rs branch
+                    Initial code migration from anoncreds-rs branch
                 </b>
             </td>
         </tr>
@@ -275,64 +275,6 @@ Fixes #2583
     </table>
     <div class="right-align">
         Created At 2023-11-02 18:49:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2588" class=".btn">#2588</a>
-            </td>
-            <td>
-                <b>
-                    Anoncreds rs - draft PR to monitor differences between the branch and main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">AnonCreds</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-02 16:25:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2587" class=".btn">#2587</a>
-            </td>
-            <td>
-                <b>
-                    feat: use a local static cache for commonly used contexts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [Related to this issue](https://github.com/hyperledger/aries-cloudagent-python/issues/2581)
-
-* Package a list of commonly used contexts 
-* Replace the context loader from pyld with `StaticCacheJsonLdDownloader`
-* `StaticCacheJsonLdDownloader` resolves contexts from local package in priority, then delegates to a downloader
-* As of now, `JsonLdDocumentDownloader` and `JsonLdDocumentParser` are simply lifted from pyld in a way that decouples downloading and parsing JSON-LD documents.
-* Tests are mostly drafts, waiting for feedback before investing time there.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-02 12:57:49 +0000 UTC
     </div>
 </div>
 

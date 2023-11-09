@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/198" class=".btn">#198</a>
+            </td>
+            <td>
+                <b>
+                    Add workaround for building ring on aarch64
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 17:50:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/196" class=".btn">#196</a>
             </td>
             <td>

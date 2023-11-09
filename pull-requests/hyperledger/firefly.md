@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1424" class=".btn">#1424</a>
+            </td>
+            <td>
+                <b>
+                    Update log level in config auto reload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Partially resolves https://github.com/hyperledger/firefly/issues/1421
+
+This solves the log level getting set, which is arguably the most important for operating a production system where you may need to temporarily change the log level while the system is running to test something.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 13:45:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1423" class=".btn">#1423</a>
             </td>
             <td>

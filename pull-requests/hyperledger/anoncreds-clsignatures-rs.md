@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Make `aggregated_proof` of `Proof` public + Added `PartialEq` for credential signature to make comparisons in tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Made `aggregated_proof` of `Proof` public
+* Exposed `ProofVerifier` structure 
+* Added `PartialEq` for credential signature to make comparisons in tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 14:48:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/27" class=".btn">#27</a>
             </td>
             <td>

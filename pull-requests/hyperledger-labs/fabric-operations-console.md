@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/558" class=".btn">#558</a>
+            </td>
+            <td>
+                <b>
+                    prevent users with only a read role from actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Prevents users with only the reader role from doing actions like:
+- creating CA identities
+- enrolling CA identities
+- creating channels
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 16:17:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/557" class=".btn">#557</a>
             </td>
             <td>
