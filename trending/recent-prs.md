@@ -1,13 +1,13 @@
 
-[89](https://github.com/hyperledger/fabric-chaincode-go/pull/89) Bump google.golang.org/grpc from 1.54.0 to 1.59.0
+[1055](https://github.com/hyperledger/aries-vcx/pull/1055) Indifferent to b64url padding in indy-utils
 
-[88](https://github.com/hyperledger/fabric-chaincode-go/pull/88) Bump github.com/stretchr/testify from 1.8.2 to 1.8.4
+[1136](https://github.com/hyperledger/fabric-samples/pull/1136) Fix equal string in bash
 
-[87](https://github.com/hyperledger/fabric-chaincode-go/pull/87) Bump github.com/hyperledger/fabric-protos-go from 0.3.0 to 0.3.1
+[4047](https://github.com/hyperledger/iroha/pull/4047) Ursa replacement
 
-[180](https://github.com/hyperledger/anoncreds-spec/pull/180) Note about lack of creddef key correctness proof
+[4044](https://github.com/hyperledger/iroha/pull/4044) [ci]: Add iroha2 stable tag only publishing
 
-[4535](https://github.com/hyperledger/fabric/pull/4535) Remove unused var
+[781](https://github.com/hyperledger-labs/open-enterprise-agent/pull/781) feat: Accept Presentation Request
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

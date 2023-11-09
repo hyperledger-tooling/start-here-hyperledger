@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/557" class=".btn">#557</a>
+            </td>
+            <td>
+                <b>
+                    restricting only manager to edit roles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 09:16:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/556" class=".btn">#556</a>
             </td>
             <td>
