@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6146" class=".btn">#6146</a>
+            </td>
+            <td>
+                <b>
+                    Apply the same reverse sort order as https://github.com/hyperledger/b…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+PR https://github.com/hyperledger/besu/pull/6106 reversed the transaction sort order, but only for the gas-price sorter.
+
+This PR applies the same logic to the base-fee sorter.
+
+FYI @fab-10 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 10:43:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6143" class=".btn">#6143</a>
             </td>
             <td>
