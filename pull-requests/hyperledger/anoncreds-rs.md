@@ -372,38 +372,3 @@ For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/266" class=".btn">#266</a>
-            </td>
-            <td>
-                <b>
-                    Draft: Design: AnonCreds Verifiable Credentials and Presentations using the W3C Verifiable Credentials Data Model Standard
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR contains the very first **DRAFT** working version of the design documents connected to adoption of AnonCreds Verifiable Credentials and Presentations for the W3C Verifiable Credentials Data Model Standard. 
-The main goal of this PR is starting the discussion on the proposed format and implementation path / API.
-
-Currently, the PR contains two main documents:
-- `spec.md` - document describing how AnonCreds credentials and presentations should be represented in the W3C Data Model  
-   - this document should not be merged into this repository
-   - It should be moved and included into AnonCreds specification (I believe)
-   - I put it here to have a single place for discussions
-- `w3c-representation.md` -  document describing proposed `anoncreds-rs` API changes and implementation path.
-   
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-02 14:39:06 +0000 UTC
-    </div>
-</div>
-

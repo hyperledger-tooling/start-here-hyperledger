@@ -1,13 +1,13 @@
 
-[1055](https://github.com/hyperledger/aries-vcx/pull/1055) Indifferent to b64url padding in indy-utils
+[198](https://github.com/hyperledger/aries-askar/pull/198) Add workaround for building ring on aarch64
 
-[1136](https://github.com/hyperledger/fabric-samples/pull/1136) Fix equal string in bash
+[558](https://github.com/hyperledger-labs/fabric-operations-console/pull/558) prevent users with only a read role from actions
 
-[4047](https://github.com/hyperledger/iroha/pull/4047) Ursa replacement
+[6150](https://github.com/hyperledger/besu/pull/6150) Clamp up-front gas calculation
 
-[4044](https://github.com/hyperledger/iroha/pull/4044) [ci]: Add iroha2 stable tag only publishing
+[95](https://github.com/hyperledger/aries-acapy-controllers/pull/95) Bump the npm_and_yarn at /AliceFaberAcmeDemo/controllers/alice-controller security update group in /AliceFaberAcmeDemo/controllers/alice-controller with 2 updates
 
-[781](https://github.com/hyperledger-labs/open-enterprise-agent/pull/781) feat: Accept Presentation Request
+[93](https://github.com/hyperledger/aries-acapy-controllers/pull/93) Bump @babel/traverse from 7.17.0 to 7.23.3 in /AliceFaberAcmeDemo/controllers/alice-controller
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

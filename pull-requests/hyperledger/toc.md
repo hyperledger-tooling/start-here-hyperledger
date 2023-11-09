@@ -115,29 +115,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/180" class=".btn">#180</a>
-            </td>
-            <td>
-                <b>
-                    Hyperledger AnonCreds Project Report 2023Q4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                FYI: @mikelodder7 @aritroCoder @andrewwhitehead @berendsliedrecht @genaris @Patrik-Stas 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-02 18:11:54 +0000 UTC
-    </div>
-</div>
-
