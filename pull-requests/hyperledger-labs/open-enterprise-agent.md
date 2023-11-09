@@ -30,7 +30,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-ATL-6082. Glue all the `PermissionManagement` logic and allow self-service wallet management endpoints. Tenant now can on-board without admin intervention.
+ATL-6082. Glue all the `PermissionManagement` logic and allow self-service wallet management endpoints. Tenant now can on-board without admin intervention. The same `/wallets/*` endpoint and be used by both admin and tenant to manage the wallet resource.
 
 Tests will be added in another PR.
 

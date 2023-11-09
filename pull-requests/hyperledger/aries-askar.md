@@ -45,29 +45,3 @@ Related to #195
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/194" class=".btn">#194</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): missing binding methods in react native
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixing some problems raised when trying to compile an Android app based on latest dev version, related to some missing templates and a minor error in the callback signature used for set_default_profile
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-02 01:12:53 +0000 UTC
-    </div>
-</div>
-
