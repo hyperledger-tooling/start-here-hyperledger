@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/252" class=".btn">#252</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/253" class=".btn">#253</a>
             </td>
             <td>
                 <b>
-                    aifaq
+                    Fabric java token sdk
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                AI FAQ lab project: it provides a chatbot that replies to the questions on Hyperledger Ecosystem
-
+                This project has the objective to create and provide a java interface to the project [Fabric Token SDK](https://github.com/hyperledger-labs/fabric-token-sdk)
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-31 15:36:59 +0000 UTC
+        Created At 2023-11-09 20:16:07 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/221" class=".btn">#221</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/222" class=".btn">#222</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md and CODEOWNERS
+                    Update token pool to use active boolean
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-ui
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 20:07:55 +0000 UTC
+        Created At 2023-11-09 18:51:03 +0000 UTC
     </div>
 </div>
 

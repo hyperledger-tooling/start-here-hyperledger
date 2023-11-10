@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/8" class=".btn">#8</a>
+            </td>
+            <td>
+                <b>
+                    REFACTOR: Addition of StemNodes to capture SuffixExtensions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This is a major refactoring that solves several problems:
+
+  - Ready to generate proof data: StemNodes capture the suffix-extensions from the specs, with its intermediate commitments.
+  - Root hashes can be tested against testnet: they are coherent with go-verkle and rust-verkle.
+  - Trie can be stored/retrieved from database: StoredVerkleTrie makes it transparent to work with a Trie that is not completely loaded in memory and looks for nodes in the database when needed.
+  - Put key-value returns the old value : this is helpful for rollbacks and trie-logs.
+
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 23:04:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/7" class=".btn">#7</a>
             </td>
             <td>
