@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/indy-shared-rs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.0
+                    v1.1.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.0
+                    v1.1.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update dalek dependencies & refactor by @andrewwhitehead in https://github.com/hyperledger/indy-shared-rs/pull/40
+* Avoid stripping leading zeros from non-integer encoded attribute by @andrewwhitehead in https://github.com/hyperledger/indy-shared-rs/pull/43
+* Update anoncreds-clsignatures minimum version by @andrewwhitehead in https://github.com/hyperledger/indy-shared-rs/pull/44
 
 
-**Full Changelog**: https://github.com/hyperledger/indy-shared-rs/compare/v1.0.3...v1.1.0
+**Full Changelog**: https://github.com/hyperledger/indy-shared-rs/compare/v1.1.0...v1.1.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-shared-rs/releases/tag/v1.1.0" class=".btn">
+    <a href="https://github.com/hyperledger/indy-shared-rs/releases/tag/v1.1.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-10-04 17:53:47 +0000 UTC
+        Created At 2023-11-10 18:38:37 +0000 UTC
     </span>
 </div>
 
