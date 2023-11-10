@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2428" class=".btn">#2428</a>
+            </td>
+            <td>
+                <b>
+                    update repo readme file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change log**
+- New bevel overview image
+- Removed contributor section
+- Added more details in scope section 
+
+TODO: Update the platform specific images
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 05:54:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2427" class=".btn">#2427</a>
             </td>
             <td>
