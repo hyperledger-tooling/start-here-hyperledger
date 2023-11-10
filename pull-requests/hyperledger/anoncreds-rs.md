@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/271" class=".btn">#271</a>
+            </td>
+            <td>
+                <b>
+                    AnonCreds Credentials and Presentations using the W3C Verifiable Credentials Data Model Standard
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * W3C credential and presentation definitions: tied to AnonCreds W3C form
+* Method to convert legacy credential into W3C form
+* Method to convert AnonCreds W3C credential into legacy form
+* Methods to issue/process a credential in W3C form
+* Methods to create/verify a presentation in W3C form
+* Helper methods for W3C credential
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 08:54:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/269" class=".btn">#269</a>
             </td>
             <td>

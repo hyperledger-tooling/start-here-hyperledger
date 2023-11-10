@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1637" class=".btn">#1637</a>
+            </td>
+            <td>
+                <b>
+                    feat: bump indy-vdr version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+It is already done in other open PRs, but just wanted to do this small one as it is getting a bit annoying to work on macOS these days 😞. This new release of `indy-vdr` wrapper takes the correct binary for this platform.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 11:14:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1636" class=".btn">#1636</a>
             </td>
             <td>

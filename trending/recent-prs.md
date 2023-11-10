@@ -1,13 +1,13 @@
 
-[2428](https://github.com/hyperledger/bevel/pull/2428) update repo readme file
+[1637](https://github.com/hyperledger/aries-framework-javascript/pull/1637) feat: bump indy-vdr version
 
-[1636](https://github.com/hyperledger/aries-framework-javascript/pull/1636) fix: some log messages
+[784](https://github.com/hyperledger-labs/open-enterprise-agent/pull/784) chore(castor): clean up sonarcloud issues and unused configurations
 
-[8](https://github.com/hyperledger/besu-verkle-trie/pull/8) REFACTOR: Addition of StemNodes to capture SuffixExtensions
+[9](https://github.com/hyperledger/besu-verkle-trie/pull/9) Fix javadoc
 
-[6151](https://github.com/hyperledger/besu/pull/6151) fix yParity flakey test
+[387](https://github.com/hyperledger/iroha-java/pull/387) multi signature transaction
 
-[2869](https://github.com/hyperledger/cacti/pull/2869) fix(connector-besu): error handling of DeployContractSolidityBytecodeEndpoint
+[1592](https://github.com/hyperledger/solang/pull/1592) Improve overloaded function call diagnostics
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

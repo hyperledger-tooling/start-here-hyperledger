@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/9" class=".btn">#9</a>
+            </td>
+            <td>
+                <b>
+                    Fix javadoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+
+## PR description
+
+Fix javadoc issues for pipeline 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 09:22:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/8" class=".btn">#8</a>
             </td>
             <td>

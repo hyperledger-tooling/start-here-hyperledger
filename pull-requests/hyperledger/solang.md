@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1592" class=".btn">#1592</a>
+            </td>
+            <td>
+                <b>
+                    Improve overloaded function call diagnostics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes: https://github.com/hyperledger/solang/issues/1534
+Fixes: https://github.com/hyperledger/solang/issues/707
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 09:15:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1591" class=".btn">#1591</a>
             </td>
             <td>
