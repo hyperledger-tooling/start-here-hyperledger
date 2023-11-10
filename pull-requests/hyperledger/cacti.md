@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2870" class=".btn">#2870</a>
+            </td>
+            <td>
+                <b>
+                    ci: add container scanning to default checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Trivy** is a cutting-edge security tool designed to enhance the safety of containerized applications by conducting thorough vulnerability assessments. Specifically developed for scanning container images, ranging from low-severity issues to critical threats. It employs an intelligent rating system to categorize vulnerabilities based on their severity levels, ensuring that high to critical vulnerabilities are given special attention. Upon detecting vulnerabilities that fall within this elevated range, Trivy will throw an error.
+
+By integrating Trivy into our deployment pipeline, we can proactively mitigate security risks and enhance the resilience of our repository.
+
+Fixes hyperledger#1876
+
+Depends On: hyperledger#2865
+Depends On: hyperledger#2864
+Depends On: hyperledger#2863
+Depends On: hyperledger#2862
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 06:27:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2869" class=".btn">#2869</a>
             </td>
             <td>
