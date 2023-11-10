@@ -149,35 +149,3 @@ Upgrade npm browserify-sign in apollo to 4.2.2 to address https://nvd.nist.gov/v
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/553" class=".btn">#553</a>
-            </td>
-            <td>
-                <b>
-                    changes as per pipeline execution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Test update
-
-#### Description
-- Removed package lock json
-- Added new tag to run on existing console and regression
-- Update in tests as per pipeline execution (Cypress launches test runner / browser with clean state after each feature file execution and that clears the local storage / identities)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-03 12:37:16 +0000 UTC
-    </div>
-</div>
-

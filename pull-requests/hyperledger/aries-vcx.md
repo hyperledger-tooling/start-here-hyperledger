@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1057" class=".btn">#1057</a>
+            </td>
+            <td>
+                <b>
+                    fix(aries_vcx): make tests run in parallel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #1050
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 13:16:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1056" class=".btn">#1056</a>
             </td>
             <td>

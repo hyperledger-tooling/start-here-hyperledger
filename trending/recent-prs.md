@@ -1,13 +1,13 @@
 
-[1637](https://github.com/hyperledger/aries-framework-javascript/pull/1637) feat: bump indy-vdr version
+[6155](https://github.com/hyperledger/besu/pull/6155) Release 23.10.x
 
-[784](https://github.com/hyperledger-labs/open-enterprise-agent/pull/784) chore(castor): clean up sonarcloud issues and unused configurations
+[29](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/29) Update version to 0.2.4
 
-[9](https://github.com/hyperledger/besu-verkle-trie/pull/9) Fix javadoc
+[107](https://github.com/hyperledger/aries-mediator-service/pull/107) build(deps-dev): bump axios from 0.21.4 to 1.6.0 in /acapy/controller
 
-[387](https://github.com/hyperledger/iroha-java/pull/387) multi signature transaction
+[6154](https://github.com/hyperledger/besu/pull/6154) update version for snapshot
 
-[1592](https://github.com/hyperledger/solang/pull/1592) Improve overloaded function call diagnostics
+[59](https://github.com/hyperledger/bevel-samples/pull/59) Bump axios from 0.21.2 to 1.6.0 in /examples/supplychain-app/supplychain-frontend
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

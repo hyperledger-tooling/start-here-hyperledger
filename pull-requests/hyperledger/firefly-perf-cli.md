@@ -30,6 +30,7 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 - [x] Actions in a loop are not emitted in parallel. Based on description: `This can be helpful when you want to scale the number of actions done in parallel without having to scale the number of workers.` I believe it's intended that actions should be triggered in parallel.
 > It's not clear when should one add more workers vs set more actions per loop to scale the number of requests. My thinking is that we could bind workers to a specific signing address in the future, so if one want multiple requests per signing address then they tune `actionsPerWorker` if they want more signing addresses to send requests, then they add more workers
 - [x] Add latency metrics 
+- [x] Support for generating an HTML report at the test run
 - [x] Report latency metrics in the final report
             </td>
         </tr>
