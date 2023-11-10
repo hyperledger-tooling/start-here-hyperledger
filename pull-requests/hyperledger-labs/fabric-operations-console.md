@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
             </td>
             <td>
                 <b>
-                    prevent users with only a read role from actions
+                    prevent users with only a reader role from actions
                 </b>
             </td>
         </tr>
@@ -56,7 +56,7 @@ Prevents users with only the reader role from doing actions like:
             </td>
             <td>
                 <b>
-                    restricting only manager to edit roles
+                    prevent the last manager from removing manager role
                 </b>
             </td>
         </tr>
@@ -178,41 +178,6 @@ Upgrade npm browserify-sign in apollo to 4.2.2 to address https://nvd.nist.gov/v
     </table>
     <div class="right-align">
         Created At 2023-11-03 12:37:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/552" class=".btn">#552</a>
-            </td>
-            <td>
-                <b>
-                    tidy up audit log messages/events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-many bug fixes/improvements on the audit log panel
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-02 21:06:42 +0000 UTC
     </div>
 </div>
 

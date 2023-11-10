@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/31" class=".btn">#31</a>
+            </td>
+            <td>
+                <b>
+                    Add jamshale as maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I would like to become a maintainer of this repo. Mainly so I can merge approved PR's but also to help review code and help make decisions on the direction of this repo.
+
+I plan on working on it for an extended period of time and believe I meet all the requirements to become a maintainer.
+
+@swcurran @WadeBarnes 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-09 19:10:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/29" class=".btn">#29</a>
             </td>
             <td>
