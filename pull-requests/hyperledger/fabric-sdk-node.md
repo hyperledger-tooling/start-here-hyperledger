@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/686" class=".btn">#686</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/689" class=".btn">#689</a>
             </td>
             <td>
                 <b>
-                    Update version following v2.2.19 release
+                    Update dependencies to address CVE-2023-45857
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                A vulnerable dependency was used by the CouchDB wallet implementation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-18 12:32:28 +0000 UTC
+        Created At 2023-11-11 17:35:59 +0000 UTC
     </div>
 </div>
 
