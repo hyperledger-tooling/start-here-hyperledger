@@ -394,33 +394,3 @@ The command is to remove a channel from an OSN, not conversely.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4528" class=".btn">#4528</a>
-            </td>
-            <td>
-                <b>
-                    DOC / Update create_channel_test_net.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The commit exhanges *TwoOrgsApplicationGenesis* with *ChannelUsingRaft* because of commit [eb16ca](https://github.com/hyperledger/fabric-samples/commit/eb16caf3d5adf05f58bd9a63cb91707f4e97b81a) in the [fabric-sample](https://github.com/hyperledger/fabric-samples/) repository. 
-
-- documentation update
-- I opened an issue in [fabric-sample](https://github.com/hyperledger/fabric-samples/issues/1131) for it
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 11:35:13 +0000 UTC
-    </div>
-</div>
-
