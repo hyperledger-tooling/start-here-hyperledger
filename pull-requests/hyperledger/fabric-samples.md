@@ -642,31 +642,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1132" class=".btn">#1132</a>
-            </td>
-            <td>
-                <b>
-                    Fix test-network chaincode-as-a-service deployment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves a regression introduced in e73bb717db47185a8ccd1b701503b369cd2a73e1.
-
-Previous change defaulted to "auto" as the sequence number but omitted the call to generate the correct sequence number for the "auto" value. This resulted in "auto" being used as the sequence number, which is an error since an integer is required.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 13:14:26 +0000 UTC
-    </div>
-</div>
-
