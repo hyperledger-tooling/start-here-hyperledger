@@ -424,36 +424,3 @@ The command is to remove a channel from an OSN, not conversely.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4526" class=".btn">#4526</a>
-            </td>
-            <td>
-                <b>
-                    Byzantine bft deliverer test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-- 
-#### Description
-
-The test aims to create an environment that emulates the behavior of a malicious orderer.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-04 20:48:59 +0000 UTC
-    </div>
-</div>
-

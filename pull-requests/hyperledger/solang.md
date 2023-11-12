@@ -283,37 +283,3 @@ For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1588" class=".btn">#1588</a>
-            </td>
-            <td>
-                <b>
-                    Documentation: Solang Aqd
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-This pull request adds documentation for [Solang Aqd](https://github.com/hyperledger/solang-aqd), a CLI tool for working with Solana and Polkadot smart contracts.
-
-### Documentation sections 
-- Installation
-- Submitting extrinsics to Polkadot on-chain
-- Interacting with Solana running programs on-chain
-
-The documentation for `solang aqd` is written in a separate page
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-04 19:35:37 +0000 UTC
-    </div>
-</div>
-
