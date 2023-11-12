@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6161" class=".btn">#6161</a>
+            </td>
+            <td>
+                <b>
+                    Tracing private transactions feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+PR for adding priv_traceTransaction API
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5280
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-12 04:50:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6159" class=".btn">#6159</a>
             </td>
             <td>
@@ -642,39 +672,6 @@ Fixes #6126
     </table>
     <div class="right-align">
         Created At 2023-11-06 11:02:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6122" class=".btn">#6122</a>
-            </td>
-            <td>
-                <b>
-                    [#5561]migrate tests to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 02:36:32 +0000 UTC
     </div>
 </div>
 
