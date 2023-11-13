@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    Allow schema types with the same name from different packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously the short type name was used as a schema key. This meant that types of the same name from different packages would overwrite each other in the map of schema type definitions, causing unexpected serialization errors. Now the fully qualified (package + type) name is used so that entries for types with the same name from different packages are unique.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-13 12:02:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/117" class=".btn">#117</a>
             </td>
             <td>
@@ -583,32 +609,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2023-11-06 15:19:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/108" class=".btn">#108</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies to address GO-2023-2153
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://pkg.go.dev/vuln/GO-2023-2153
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 10:25:57 +0000 UTC
     </div>
 </div>
 

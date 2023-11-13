@@ -645,33 +645,3 @@ Fixes #6042
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6127" class=".btn">#6127</a>
-            </td>
-            <td>
-                <b>
-                    Log missing chain head as warning, not trace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Change `CHAIN_HEAD_NOT_AVAILABLE` to a warning, not a trace log entry
-
-## Fixed Issue(s)
-Fixes #6126 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-06 11:02:43 +0000 UTC
-    </div>
-</div>
-

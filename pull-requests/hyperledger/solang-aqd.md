@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-aqd
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-aqd/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger/solang-aqd/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    Initialize Solang Aqd
+                    Add `CODEOWNERS` and `MAINTAINERS.md`
                 </b>
             </td>
         </tr>
@@ -27,20 +27,12 @@ permalink: /pull-requests/hyperledger/solang-aqd
                 
             </td>
             <td>
-                ## Packages
-
-| Package               | Description                                           
-| ------------------    | ----------------------------------                    
-| `aqd-core`            | The CLI tool core crate                               
-| `aqd-polkadot`        | Smart contract interactions for Polkadot              
-| `aqd-solana`          | Smart contract interactions for Solana                
-| `aqd-utils`           | Utility functions and common code                     
-| `aqd-solana-contracts`    | Rust crate for Solana smart contract interactions     
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-31 18:28:15 +0000 UTC
+        Created At 2023-11-11 16:10:33 +0000 UTC
     </div>
 </div>
 

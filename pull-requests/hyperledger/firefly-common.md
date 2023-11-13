@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/103" class=".btn">#103</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/110" class=".btn">#110</a>
             </td>
             <td>
                 <b>
-                    Add AsString helper function to JSONAny
+                    Fix formatting in params
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Previously if a JSONAny was actually a JSON String it was cumbersome to get it as a plain string. This helper function makes it easier everywhere we need to do that.
+                Swagger had a weird change due to this issue:
+
+```
+The number of records to skip (max: [0]). Unsuitable for bulk operations
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 14:28:34 +0000 UTC
+        Created At 2023-11-12 10:39:05 +0000 UTC
     </div>
 </div>
 

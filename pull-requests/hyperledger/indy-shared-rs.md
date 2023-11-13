@@ -14,40 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Update dalek dependencies & refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updates to ed25519-dalek and x25519-dalek 2.x
-- Removes indy-utils, moving functionality into indy-data-types
-- Fixes various clippy warnings
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-09-15 20:20:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Update version
+                    Update anoncreds-clsignatures minimum version
                 </b>
             </td>
         </tr>
@@ -61,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-14 19:45:46 +0000 UTC
+        Created At 2023-11-10 18:22:22 +0000 UTC
     </div>
 </div>
 
