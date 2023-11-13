@@ -15,35 +15,34 @@ permalink: /releases/hyperledger-labs/yui-relayer
         <tr>
             <td colspan="2">
                 <b>
-                    reorganize interfaces that comprise the Prover interface
+                    v0.4.18
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.4.17
+                    v0.4.18
                 </span>
             </td>
             <td>
-                introduce the following interfaces
+                ## What's Changed
+* Add timetrack to SendCheckMsgs by @dongrie in https://github.com/hyperledger-labs/yui-relayer/pull/118
+* core: remove `clientID` from CreateMsgCreateClient by @bluele in https://github.com/hyperledger-labs/yui-relayer/pull/121
+* fix height flag type by @toshihiko-okubo in https://github.com/hyperledger-labs/yui-relayer/pull/120
+* fix the direction of CheckRefreshRequired by @siburu in https://github.com/hyperledger-labs/yui-relayer/pull/123
+* replace `GetLatestFinalizedHeader` with `GetFinalizedHeader` by @siburu in https://github.com/hyperledger-labs/yui-relayer/pull/122
 
-- `FinalityAware`, which provides `GetLatestFinalizedHeader()`
-- `FinalityAwareChain`, which is `FinalityAware` + `Chain`
-- `ChainLightClient`, which is `Chain` + `LightClient`
 
-delete the following interface
-
-- `ChainICS02QuerierLightClient`
-
+**Full Changelog**: https://github.com/hyperledger-labs/yui-relayer/compare/v0.4.17...v0.4.18
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.17" class=".btn">
+    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.18" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-10-31 01:16:34 +0000 UTC
+        Created At 2023-11-13 00:37:51 +0000 UTC
     </span>
 </div>
 
