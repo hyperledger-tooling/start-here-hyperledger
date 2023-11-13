@@ -28,6 +28,9 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
             </td>
             <td>
                 A vulnerable dependency was used by the CouchDB wallet implementation.
+
+NOTE: The updated dependency version requires Node 14 or later.
+Therefore Node 10 and 12 are no longer supported.
             </td>
         </tr>
     </table>
