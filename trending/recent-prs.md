@@ -1,13 +1,13 @@
 
-[4049](https://github.com/hyperledger/iroha/pull/4049) [feature] #3871: `Register<AssetDefinition>` permissions
+[691](https://github.com/hyperledger/fabric-sdk-node/pull/691) Update versions following v2.2.20 release
 
-[118](https://github.com/hyperledger/fabric-contract-api-go/pull/118) Allow schema types with the same name from different packages
+[1061](https://github.com/hyperledger/aries-vcx/pull/1061) refactor: Move agents to new root (aries) as per #1045
 
-[1439](https://github.com/hyperledger/besu-docs/pull/1439) Documented debug_traceCall
+[1593](https://github.com/hyperledger/solang/pull/1593) Parse pragma solidity version numbers
 
-[690](https://github.com/hyperledger/fabric-sdk-node/pull/690) Release 2.2.20
+[119](https://github.com/hyperledger/firefly-sandbox/pull/119) Auto publish token pools, contract interfaces and APIs
 
-[24](https://github.com/hyperledger/firefly-tezosconnect/pull/24) Increase code coverage 
+[2879](https://github.com/hyperledger/cacti/pull/2879) build(nodejs): bump minimal nodejs and npm versions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

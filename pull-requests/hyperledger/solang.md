@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1593" class=".btn">#1593</a>
+            </td>
+            <td>
+                <b>
+                    Parse pragma solidity version numbers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Many Solidity features depend on the version of the compiler. So, parse the version pragma and in another PR we will use this information.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-13 16:32:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1592" class=".btn">#1592</a>
             </td>
             <td>
