@@ -15,32 +15,33 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.19
+                    v2.2.20
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.19
+                    v2.2.20
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Explicitly import [long](https://www.npmjs.com/package/long) to address changes to typing in dependencies by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/682
-* Use require to import [long](https://www.npmjs.com/package/long) to improve compatibility with client application TypeScript configuration by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/683
-* Regenerate fabric-protos using current [protobufjs](https://www.npmjs.com/package/protobufjs) to address typing issues introduced by new versions of dependencies by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/684
+* Update dependencies to address CVE-2023-45857 by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/689
 
+## Supported Node versions
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.18...v2.2.19
+The updated dependency to address CVE-2023-45857 is used only by the CouchDB wallet implementation, and requires Node 14 or later. Therefore Node 10 and 12 are no longer supported by the **fabric-network** package. If you need to continue running on one of these unsupported Node versions, you should continue to use **fabric-network@2.2.19**.
+
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.19...v2.2.20
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.19" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.20" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-09-18 09:03:02 +0000 UTC
+        Created At 2023-11-13 12:29:15 +0000 UTC
     </span>
 </div>
 

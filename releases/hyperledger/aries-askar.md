@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/aries-askar
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.0-dev.1
+                    v0.3.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.0-dev.1
+                    v0.3.0
                 </span>
             </td>
             <td>
@@ -51,20 +51,31 @@ permalink: /releases/hyperledger/aries-askar
 * Combine checks for matrix build steps by @andrewwhitehead in https://github.com/hyperledger/aries-askar/pull/184
 * Actively return pool connections by @andrewwhitehead in https://github.com/hyperledger/aries-askar/pull/183
 * chore: update version to 0.3.0 dev by @TimoGlastra in https://github.com/hyperledger/aries-askar/pull/179
+* build(js): remove lerna useWorkspaces by @berendsliedrecht in https://github.com/hyperledger/aries-askar/pull/186
+* Adjust lower maximum number of connections for sqlite by @andrewwhitehead in https://github.com/hyperledger/aries-askar/pull/189
+* Update to dalek 2.x crates by @andrewwhitehead in https://github.com/hyperledger/aries-askar/pull/180
+* build(deps): bump @babel/traverse from 7.22.17 to 7.23.2 in /wrappers/javascript by @dependabot in https://github.com/hyperledger/aries-askar/pull/191
+* Add workaround for building ring on aarch64 by @andrewwhitehead in https://github.com/hyperledger/aries-askar/pull/198
+* release dev under alpha and fix windows install by @berendsliedrecht in https://github.com/hyperledger/aries-askar/pull/192
+* fix(js): use quotes instead of brackets for local dependencies by @berendsliedrecht in https://github.com/hyperledger/aries-askar/pull/193
+* fix(js): missing binding methods in react native by @genaris in https://github.com/hyperledger/aries-askar/pull/194
+* Update dependencies and crate versions by @andrewwhitehead in https://github.com/hyperledger/aries-askar/pull/199
+* build(deps): bump axios from 1.5.0 to 1.6.1 in /wrappers/javascript by @dependabot in https://github.com/hyperledger/aries-askar/pull/200
+* Update python wrapper version to 0.3.0 by @andrewwhitehead in https://github.com/hyperledger/aries-askar/pull/201
 
 ## New Contributors
 * @ryjones made their first contribution in https://github.com/hyperledger/aries-askar/pull/154
 * @conanoc made their first contribution in https://github.com/hyperledger/aries-askar/pull/175
 
-**Full Changelog**: https://github.com/hyperledger/aries-askar/compare/v0.2.9...v0.3.0-dev.1
+**Full Changelog**: https://github.com/hyperledger/aries-askar/compare/v0.2.9...v0.3.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.3.0-dev.1" class=".btn">
+    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-09-22 09:29:13 +0000 UTC
+        Created At 2023-11-11 20:18:21 +0000 UTC
     </span>
 </div>
 
