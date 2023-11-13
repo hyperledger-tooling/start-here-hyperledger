@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/183" class=".btn">#183</a>
-            </td>
-            <td>
-                <b>
-                    2023 Q4 Iroha Report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-06 15:02:31 +0000 UTC
-    </div>
-</div>
-

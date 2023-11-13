@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1061" class=".btn">#1061</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Move agents to new root (aries) as per #1045
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-13 16:35:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1060" class=".btn">#1060</a>
             </td>
             <td>
@@ -28,6 +54,9 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 Incrementally addressing https://github.com/hyperledger/aries-vcx/issues/1012 (considering file reorg PR)
+
+Outstanding:
+- `libvcx_logger` should not exists, each top level crate such as `libvcx_core`, `uniffi` or backchannel shall setup env logger (or other log macro implementations) themselves.
             </td>
         </tr>
     </table>
@@ -223,32 +252,6 @@ according to encryption envelope: https://github.com/hyperledger/aries-rfcs/blob
     </table>
     <div class="right-align">
         Created At 2023-11-07 15:50:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1051" class=".btn">#1051</a>
-            </td>
-            <td>
-                <b>
-                    fix(did_parser): Add readme and simple example (#1047)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-06 15:44:25 +0000 UTC
     </div>
 </div>
 
