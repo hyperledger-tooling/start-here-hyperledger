@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    Fix implicit pickup
+                    Change WebSocket dependency to a stable one
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                ACA-Py Implicit pickup requires TrustPing messages have return-route option.
-Maybe this was initially set as true and later changed to false.
+                Revision dependency only works in dev mode. We must use a tag for dependencies.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-17 11:12:42 +0000 UTC
+        Created At 2023-11-13 06:13:24 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +40,11 @@ Maybe this was initially set as true and later changed to false.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    Delete mediation record if it's not ready
+                    Replace Indy SDK and convert to a Swift package
                 </b>
             </td>
         </tr>
@@ -54,15 +53,16 @@ Maybe this was initially set as true and later changed to false.
                 
             </td>
             <td>
-                Fix a bug introduced by the previous PR #59 
-We have to delete the old mediation record in both cases:
-1. when the mediatorConnectionsInvite has changed
-2. when the mediation status is not ready (mediation protocol started but not completed)
+                Close #29 
+
+This is a bulk update with the following changes:
+- Replace Indy SDK
+- Convert to a Swift package
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-16 08:57:42 +0000 UTC
+        Created At 2023-11-13 05:39:37 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    feat: add badge increment to ios push not
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a badge increment for iOS to the Firebase message payload
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-10 20:18:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/107" class=".btn">#107</a>
             </td>
             <td>

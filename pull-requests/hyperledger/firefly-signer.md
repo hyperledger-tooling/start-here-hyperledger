@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Add wsbackend client
+                    Additional nil check on CallRPC
                 </b>
             </td>
         </tr>
@@ -27,22 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                This PR adds a JSONRPC WebSocket client.
-
-- Provides sync `CallRPC` functionality over an async WebSocket transport
-    - Manages JSON/RPC request IDs for you
-    - Provides automatic reconnect, and all the other quality of life benefits of the `firefly-common` WebSocket impl
-- Supports `eth_subscribe`/`eth_unsubscribe` with a higher level `Subscription` semantic
-    - Automatically resubscribes if your WebSocket reconnects
-    - Has a client-side ID to track your subscription, as well as the server-side ID (which changes on reconnect)
-    - At-most-once delivery semantics is all you get with raw Ethereum WebSockets (it's all the `eth_` protocol supports) - you miss it, you lose it
-        - If you need more than that, use the full [FireFly core](https://github.com/kaleido-io/firefly) which provides reliable check-pointed subscriptions with a higher level blockchain connector
-
+                This should resolve https://github.com/hyperledger/firefly-evmconnect/issues/103 after it's included in EVMConnect
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 20:19:44 +0000 UTC
+        Created At 2023-11-10 21:40:58 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-v2-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-v2-rs/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-v2-rs/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    add CI
+                    Updated README to reflect the AnonCreds v2 initiative
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/anoncreds-v2-rs
                 
             </td>
             <td>
-                This adds CI checking for future PRs and fixes lints
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 16:33:58 +0000 UTC
+        Created At 2023-11-12 18:49:41 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Increase code coverage 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-13 08:51:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/23" class=".btn">#23</a>
             </td>
             <td>
@@ -62,32 +88,6 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     </table>
     <div class="right-align">
         Created At 2023-11-07 08:13:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    DA-536 Check transaction validity on the preparation step
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-06 12:05:02 +0000 UTC
     </div>
 </div>
 

@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/121" class=".btn">#121</a>
-            </td>
-            <td>
-                <b>
-                    core: remove `clientID` from CreateMsgCreateClient
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The clientID is determined during Tx execution on chain, so it cannot be specified externally.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-06 08:41:27 +0000 UTC
-    </div>
-</div>
-
