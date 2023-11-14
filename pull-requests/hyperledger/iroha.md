@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4053" class=".btn">#4053</a>
+            </td>
+            <td>
+                <b>
+                    Ci/docker image validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description
+
+Adds a script for https://github.com/hyperledger/iroha/pull/3969: prune `docker-compose.yml` files
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-13 23:08:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4052" class=".btn">#4052</a>
             </td>
             <td>
