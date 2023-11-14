@@ -1267,7 +1267,14 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                WIP
+                - Add script `tools/bump-package-engines.ts` to update minimal node and npm 
+    versions in all cacti packages.
+- Set minimal node to 18 and npm to 8 in all cacti packages.
+- Add env variable `NODEJS_VERSION` in CI scripts to centralize nodejs setup.
+- Change default nodejs in CI to v18.18.2
+- Minor formatting fixes - sorted package.json, remove whitespaces
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
 
 **Pull Request Requirements**
 - [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.

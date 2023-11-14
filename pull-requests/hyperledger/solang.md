@@ -64,32 +64,6 @@ Main offender is still `wasm-opt` by far, but we already have a flag for this.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1594" class=".btn">#1594</a>
-            </td>
-            <td>
-                <b>
-                    Fix broken build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For some reason, cargo is not pick the latest version of ethers-core. This breaks the build. Add a line to Cargo.toml fixes the problem.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-14 09:27:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1593" class=".btn">#1593</a>
             </td>
             <td>
@@ -104,6 +78,8 @@ Main offender is still `wasm-opt` by far, but we already have a flag for this.
             </td>
             <td>
                 Many Solidity features depend on the version of the compiler. So, parse the version pragma and in another PR we will use this information.
+
+This PR adds pragmas to the ast and we test it with a graphviz dot file.
             </td>
         </tr>
     </table>
@@ -245,34 +221,6 @@ For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3
     </table>
     <div class="right-align">
         Created At 2023-11-09 10:37:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1590" class=".btn">#1590</a>
-            </td>
-            <td>
-                <b>
-                    Implement string.concat() and bytes.concat()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is what solc implements. Solang has implement a + b for string concatenation, which this PR removes.
-
-Fixes: https://github.com/hyperledger/solang/issues/1558
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-07 12:48:12 +0000 UTC
     </div>
 </div>
 
