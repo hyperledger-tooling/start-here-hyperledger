@@ -15,28 +15,26 @@ permalink: /releases/hyperledger/iroha
         <tr>
             <td colspan="2">
                 <b>
-                    v2.0.0-pre-rc.19 (lts-candidate)
+                    Hyperledger Iroha 2.0.0 RC20 pre-release (LTS)
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.0.0-pre-rc.19
+                    v2.0.0-pre-rc.20
                 </span>
             </td>
             <td>
-                The latest development in the private DLT. 
-
-Includes dynamic permission validators, an improved consensus engine, and various smaller improvements. 
+                Long term-supported release candidate
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/iroha/releases/tag/v2.0.0-pre-rc.19" class=".btn">
+    <a href="https://github.com/hyperledger/iroha/releases/tag/v2.0.0-pre-rc.20" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-07-31 07:50:35 +0000 UTC
+        Created At 2023-10-17 12:30:40 +0000 UTC
     </span>
 </div>
 
