@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/152" class=".btn">#152</a>
-            </td>
-            <td>
-                <b>
-                    Make use tags default to true for couchdb
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/148
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-07 07:24:38 +0000 UTC
-    </div>
-</div>
-

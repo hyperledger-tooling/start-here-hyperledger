@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    Ci/docker image validator
+                    [ci]: docker image validator
                 </b>
             </td>
         </tr>
