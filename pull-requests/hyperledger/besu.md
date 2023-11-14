@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    reduce machine size for non-mainnet ATs
+                    parallelisation tweaks for CI acceptance tests
                 </b>
             </td>
         </tr>
@@ -27,7 +27,15 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                remove parallelism and reduce machine size
+                TLDR: 3 x reduction in CI credit usage [~5,000](https://app.circleci.com/insights/github/hyperledger/besu/workflows/default/overview?branch=pull%2F6166&reporting-window=last-24-hours), other recent PRs [~15,000](https://app.circleci.com/insights/github/hyperledger/besu/workflows/default/overview?branch=pull%2F6156)
+More insights [recent PR runs](https://app.circleci.com/insights/github/hyperledger/besu/workflows/default/overview?branch=b1d8acd4-8701-4c76-8a87-7ff2320aa95f&reporting-window=last-24-hours)
+
+Modifications in this PR: 
+* remove parallelism for acceptanceTestsCliqueBft and acceptanceTestsPermissioning and reduce the machine executor size requirement (time before: 3 min, 6 min; after: 6 min, 10 min)
+* reduce parallelism for acceptanceTests task (this task failed with concurrency limit reached when parallelism was removed altogether https://app.circleci.com/pipelines/github/hyperledger/besu/25171/workflows/a5b6d9bc-fa7c-4e59-aac2-985f642492e9/jobs/164393) (parallelisation before: 4; after: 2 | time before: 4 min; after: 6 min)
+* move privacy ATs to nightly build and reduce parallelism (many tests failed when parallelisation was removed https://app.circleci.com/pipelines/github/hyperledger/besu/25170/workflows/81fc005b-6f3a-4c78-a8e9-f35e6f349aa6/jobs/164381) - note there's a separate effort to remove the docker dependency used by container tests - draft PR https://github.com/hyperledger/besu/pull/5968
+* remove small executor since it's not used
+* added comments to explain where the machine xl executor is actually required and why
             </td>
         </tr>
     </table>

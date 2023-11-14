@@ -1,13 +1,13 @@
 
-[6166](https://github.com/hyperledger/besu/pull/6166) reduce machine size for non-mainnet ATs
+[2889](https://github.com/hyperledger/cacti/pull/2889) build(deps): bump axios from 1.5.1 to 1.6.0 in /packages/cactus-plugin-persistence-fabric
 
-[4053](https://github.com/hyperledger/iroha/pull/4053) Ci/docker image validator
+[2887](https://github.com/hyperledger/cacti/pull/2887) build(deps): bump axios from 1.5.1 to 1.6.0 in /packages/cactus-plugin-ledger-connector-quorum
 
-[1025](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1025) feat: new scan workflow
+[2886](https://github.com/hyperledger/cacti/pull/2886) build(deps): bump axios from 1.5.1 to 1.6.0 in /packages/cactus-plugin-odap-hermes
 
-[6165](https://github.com/hyperledger/besu/pull/6165) make sure closure is checking the protocol schedule correctly
+[2885](https://github.com/hyperledger/cacti/pull/2885) build(deps): bump axios from 1.5.1 to 1.6.0 in /packages/cactus-plugin-ledger-connector-iroha
 
-[182](https://github.com/hyperledger/anoncreds-spec/pull/182) Added validity proofs for eq, ge and aggregate proof
+[2884](https://github.com/hyperledger/cacti/pull/2884) build(deps): bump axios from 1.5.1 to 1.6.0 in /packages/cactus-test-plugin-htlc-eth-besu
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
