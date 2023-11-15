@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    WIP Fix EthFeeHistory reward calculation
+                    Fix EthFeeHistory reward calculation
                 </b>
             </td>
         </tr>
@@ -27,7 +27,98 @@ permalink: /pull-requests/hyperledger/besu
                 <span class="chip">bug</span><span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">RPC</span>
             </td>
             <td>
-                fixes: #6170 
+                ### Description
+fixes: #6170 
+eth_feeHistory returns wrong rewards. The following request on Sepolia returns: 
+
+```
+{
+   "jsonrpc":"2.0",
+   "method":"eth_feeHistory",
+   "params":[
+      "0x5",
+      "0x3FA351",
+      [
+         0,
+         20,
+         30,
+         100
+      ]
+   ],
+   "id":1
+}
+```
+
+Expected Result (Green) / Actual Result (red): 
+```diff
+{
+  "baseFeePerGas": [
+    "0x76c73ce5",
+    "0x7e1f5d40",
+    "0x7f8aed3c",
+    "0x77be8999",
+    "0x68c6b866",
+    "0x6716f547"
+  ],
+  "gasUsedRatio": [
+    0.7473261666666666,
+    0.5450408333333333,
+    0.2554263333333333,
+    0,
+    0.43561246666666664
+  ],
+  "oldestBlock": "0x3fa34d",
+  "reward": [
+    [
+-     "0x27c9",
+-     "0x27c9",
+-     "0x27c9",
+-     "0x27c9"
++     "0x27c9",
++     "0x77359400",
++     "0x77359400",
++     "0x1660f131b"
+    ],
+    [
+-     "0x27c9",
+-     "0x27c9",
+-     "0x27c9",
+-     "0x27c9"
++     "0x27c9",
++     "0x59682f00",
++     "0x59682f00",
++     "0x15eb6f2c0"
+    ],
+    [
+-     "0x0",
+-     "0x0",
+-     "0x0",
+-     "0x27c9"
++     "0x0",
++     "0x27c9",
++     "0x5f5e100",
++     "0x15d4b62c4"
+    ],
+    [
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    [
+-     "0x0",
+-     "0x0",
+-     "0x0",
+-     "0x27c9"
++     "0x0",
++     "0x27c9",
++     "0xe00ac48",
++     "0x43f510f9a"
+    ]
+  ]
+}
+```
+
             </td>
         </tr>
     </table>
@@ -514,36 +605,6 @@ FYI @fab-10
     </table>
     <div class="right-align">
         Created At 2023-11-09 10:43:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6143" class=".btn">#6143</a>
-            </td>
-            <td>
-                <b>
-                    Synchronize access to block header
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-As outlined in the comment in https://github.com/hyperledger/besu/issues/6140 it appears to be the case that access to the block header isn't thread safe when the block being requested is a newly added chain head.
-
-## Fixed Issue(s)
-Fixes #6140 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-08 10:32:51 +0000 UTC
     </div>
 </div>
 

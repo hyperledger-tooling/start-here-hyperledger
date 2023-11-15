@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1442" class=".btn">#1442</a>
+            </td>
+            <td>
+                <b>
+                    Replaced EthSigner with Web3Signer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also removed the section on web3js-eea which was deprecated in 2021. 
+
+Fixes #1412
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 08:39:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1441" class=".btn">#1441</a>
             </td>
             <td>
