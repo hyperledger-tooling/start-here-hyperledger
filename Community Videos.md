@@ -9,26 +9,26 @@ nav_order: 10
 <div>
    <figure class="third">
   <iframe
-    src="https://youtu.be/gF__bwiG66g?si=z2mkIyEdYbFH39vd"
+    src="https://youtu.be/embed/z2mkIyEdYbFH39vd"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
   </iframe>
   <iframe
-    src="https://www.youtube.com/watch?v=wllQdVYqE8w"
+    src="https://www.youtube.com/embed/wllQdVYqE8w"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
   </iframe>
   <iframe
-    src="https://www.youtube.com/watch?v=ygQmjpqKkTo"
+    src="https://www.youtube.com/embed/ygQmjpqKkTo"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen>
   </iframe>
 </figure>
 
 <figure class="half">
   <iframe
-    src="https://www.youtube.com/watch?v=_ETZ-pl1GtM"
+    src="https://www.youtube.com/embed/_ETZ-pl1GtM"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
   </iframe>
   <iframe
-    src="https://www.youtube.com/watch?v=0ordemQ1brs"
+    src="https://www.youtube.com/embed/0ordemQ1brs"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
   </iframe>
 </figure>
