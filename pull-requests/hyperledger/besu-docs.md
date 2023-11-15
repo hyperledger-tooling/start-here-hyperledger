@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1441" class=".btn">#1441</a>
+            </td>
+            <td>
+                <b>
+                    Added input key to transaction call object
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1437 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 05:55:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1440" class=".btn">#1440</a>
             </td>
             <td>
