@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4537" class=".btn">#4537</a>
+            </td>
+            <td>
+                <b>
+                    Docs - Update legacy SDK references to Gateway SDK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This documentation change updates many of the remaining references to the legacy SDKs, and replaces them with Gateway SDK references where applicable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 04:37:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4535" class=".btn">#4535</a>
             </td>
             <td>
