@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/110" class=".btn">#110</a>
             </td>
             <td>
                 <b>
-                    Release 23.10.0
+                    Update 23.10.1 SHA since the CI build accidentally reran and overwrote it
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-12 19:52:05 +0000 UTC
+        Created At 2023-11-15 09:58:06 +0000 UTC
     </div>
 </div>
 
