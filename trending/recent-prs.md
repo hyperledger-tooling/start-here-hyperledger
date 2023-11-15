@@ -1,13 +1,13 @@
 
-[110](https://github.com/hyperledger/homebrew-besu/pull/110) Update 23.10.1 SHA since the CI build accidentally reran and overwrote it
+[4539](https://github.com/hyperledger/fabric/pull/4539) Bump github.com/IBM/idemix and github.com/consensys/gnark-crypto
 
-[1442](https://github.com/hyperledger/besu-docs/pull/1442) Replaced EthSigner with Web3Signer
+[788](https://github.com/hyperledger-labs/open-enterprise-agent/pull/788) feat: Create Store Presentation
 
-[1441](https://github.com/hyperledger/besu-docs/pull/1441) Added input key to transaction call object
+[111](https://github.com/hyperledger/homebrew-besu/pull/111) uprev to version 23.10.2
 
-[4537](https://github.com/hyperledger/fabric/pull/4537) Docs - Update legacy SDK references to Gateway SDK
+[6172](https://github.com/hyperledger/besu/pull/6172) Changelog23.10.2
 
-[6168](https://github.com/hyperledger/besu/pull/6168) Fix EthFeeHistory reward calculation
+[6171](https://github.com/hyperledger/besu/pull/6171) uprev to 23.10.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
