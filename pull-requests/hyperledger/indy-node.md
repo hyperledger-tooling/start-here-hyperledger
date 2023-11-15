@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1824" class=".btn">#1824</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1825" class=".btn">#1825</a>
             </td>
             <td>
                 <b>
-                    Fix indy-node devcontainer build issues
+                    Validator prep
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                This is a workaround to fix the indy-node devcontainer issues reported in https://github.com/hyperledger/indy-node/issues/1822.  The dependency issues are actually at the indy-plenum level.  I'll be opening a ticket for the issue there.
-
-fixes: https://github.com/hyperledger/indy-node/issues/1822
+                Added validator prep guide, and references to it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-02 12:12:56 +0000 UTC
+        Created At 2023-11-15 01:25:17 +0000 UTC
     </div>
 </div>
 

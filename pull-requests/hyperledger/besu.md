@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6168" class=".btn">#6168</a>
+            </td>
+            <td>
+                <b>
+                    WIP Fix EthFeeHistory reward calculation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">RPC</span>
+            </td>
+            <td>
+                fixes: #6170 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 02:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6166" class=".btn">#6166</a>
             </td>
             <td>
