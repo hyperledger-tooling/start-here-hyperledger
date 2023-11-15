@@ -9,7 +9,7 @@ nav_order: 10
 <div>
    <figure class="third">
   <iframe
-    src="https://youtube/embed/z2mkIyEdYbFH39vd"
+    src="https://www.youtube.com/embed/z2mkIyEdYbFH39vd"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
   </iframe>
   <iframe
