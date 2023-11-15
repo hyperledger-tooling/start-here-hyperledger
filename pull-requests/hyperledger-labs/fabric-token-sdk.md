@@ -64,33 +64,3 @@ Note that the code assumes that tokens stored via `StoreFabToken` are always 'mi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/513" class=".btn">#513</a>
-            </td>
-            <td>
-                <b>
-                    add sql database driver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a SQL driver for the ttxdb database.
-
-Still in draft until:
-- Include code for validation records
-- Confirmation about expected functionality of Sender/Recipient wallet queries
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-08 13:09:40 +0000 UTC
-    </div>
-</div>
-
