@@ -15,39 +15,35 @@ permalink: /releases/hyperledger/fabric-contract-api-go
         <tr>
             <td colspan="2">
                 <b>
-                    fabric-contract-api-go v1.2.1
+                    v1.2.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.1
+                    v1.2.2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Use latest Go patch level for vulnerability scan by @jt-nti in https://github.com/hyperledger/fabric-contract-api-go/pull/77
-* Enable dependabot by @jt-nti in https://github.com/hyperledger/fabric-contract-api-go/pull/78
-* Bump github.com/go-openapi/spec from 0.20.6 to 0.20.7 by @dependabot in https://github.com/hyperledger/fabric-contract-api-go/pull/79
-* Bump github.com/stretchr/testify from 1.8.0 to 1.8.1 by @dependabot in https://github.com/hyperledger/fabric-contract-api-go/pull/80
-* Update text dependency by @mbwhite in https://github.com/hyperledger/fabric-contract-api-go/pull/82
-* Update dependencies (Go 1.19, latest fabric-chaincode-go, etc) by @denyeart in https://github.com/hyperledger/fabric-contract-api-go/pull/98
-* Update Maintainers by @mbwhite in https://github.com/hyperledger/fabric-contract-api-go/pull/99
-* Remove changelog requirement for release. by @denyeart in https://github.com/hyperledger/fabric-contract-api-go/pull/100
+* Update test chaincodes to fabric-contract-api-go v1.2.1 by @denyeart in https://github.com/hyperledger/fabric-contract-api-go/pull/101
+* Updated path to sample chaincode built using fabric contract api by @shashank-priyadarshi in https://github.com/hyperledger/fabric-contract-api-go/pull/105
+* Update dependencies to address [GO-2023-2153](https://pkg.go.dev/vuln/GO-2023-2153) by @bestbeforetoday in https://github.com/hyperledger/fabric-contract-api-go/pull/108
 
 ## New Contributors
-* @dependabot made their first contribution in https://github.com/hyperledger/fabric-contract-api-go/pull/79
+* @bestbeforetoday made their first contribution in https://github.com/hyperledger/fabric-contract-api-go/pull/103
+* @shashank-priyadarshi made their first contribution in https://github.com/hyperledger/fabric-contract-api-go/pull/105
 
-**Full Changelog**: https://github.com/hyperledger/fabric-contract-api-go/compare/v1.2.0...v1.2.1
+**Full Changelog**: https://github.com/hyperledger/fabric-contract-api-go/compare/v1.2.1...v1.2.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-contract-api-go/releases/tag/v1.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-contract-api-go/releases/tag/v1.2.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-01 12:56:59 +0000 UTC
+        Created At 2023-11-08 14:47:36 +0000 UTC
     </span>
 </div>
 
