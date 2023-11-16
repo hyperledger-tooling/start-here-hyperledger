@@ -270,33 +270,3 @@ Prevents users with only the reader role from doing actions like:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/557" class=".btn">#557</a>
-            </td>
-            <td>
-                <b>
-                    prevent the last manager from removing manager role
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-09 09:16:14 +0000 UTC
-    </div>
-</div>
-

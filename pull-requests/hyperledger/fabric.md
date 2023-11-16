@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4545" class=".btn">#4545</a>
+            </td>
+            <td>
+                <b>
+                    add integration test in which the smartbft leader must freeze,
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                waiting for an answer.
+
+There was a case where the leader froze up and the followers couldn't change him.
+There were two reasons for this:
+
+a flaw in the behavior of the smartbft library
+gateway was only for raft
+Both reasons are fixed now.
+But a test that showed this error would be nice to add.
+
+For some reason, https://github.com/hyperledger/fabric/pull/4438 conflicts with main.
+Second, clean attempt.
+
+@C0rWin FYI
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-16 11:38:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4544" class=".btn">#4544</a>
             </td>
             <td>

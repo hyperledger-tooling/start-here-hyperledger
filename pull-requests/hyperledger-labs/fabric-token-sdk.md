@@ -38,29 +38,3 @@ Note that the code assumes that tokens stored via `StoreFabToken` are always 'mi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/515" class=".btn">#515</a>
-            </td>
-            <td>
-                <b>
-                    enhance VerifyCertifications to return processed certifications
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-09 10:25:47 +0000 UTC
-    </div>
-</div>
-

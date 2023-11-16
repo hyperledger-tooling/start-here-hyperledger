@@ -1,13 +1,13 @@
 
-[4544](https://github.com/hyperledger/fabric/pull/4544) Doc improvement - Chaincode access control
+[1596](https://github.com/hyperledger/solang/pull/1596) Move LoopScopes into ExprContext
 
-[2893](https://github.com/hyperledger/cacti/pull/2893) feat(plugin-keychain-memory): add REST API endpoint implementations
+[791](https://github.com/hyperledger-labs/open-enterprise-agent/pull/791) fix: enable keycloak with pre-configured agent in helm chart
 
-[6174](https://github.com/hyperledger/besu/pull/6174) [MINOR] Eth peer toString() improvements
+[4545](https://github.com/hyperledger/fabric/pull/4545) add integration test in which the smartbft leader must freeze,
 
-[1444](https://github.com/hyperledger/besu-docs/pull/1444) Added option to skip empty blocks
+[106](https://github.com/hyperledger-labs/hlf-connector/pull/106) Introduce capability for publishing error Records to Dead letter topic
 
-[2892](https://github.com/hyperledger/cacti/pull/2892) build: upgrade lerna-lite to v2.6.0 to fix publish resume bug
+[790](https://github.com/hyperledger-labs/open-enterprise-agent/pull/790) fix: explicitly define transitive dependencies that were unresolvable
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
