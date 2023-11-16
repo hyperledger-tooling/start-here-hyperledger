@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4544" class=".btn">#4544</a>
+            </td>
+            <td>
+                <b>
+                    Doc improvement - Chaincode access control
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clarify chaincode access control and add link to
+client identity library APIs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-16 06:02:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4543" class=".btn">#4543</a>
             </td>
             <td>
