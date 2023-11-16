@@ -14,6 +14,106 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4543" class=".btn">#4543</a>
+            </td>
+            <td>
+                <b>
+                    Improve the compare logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: I3d86e409e8aafb013cd289809b1b6a1d26ccc6b6
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Use plain compare to clear the logic.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 23:02:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4542" class=".btn">#4542</a>
+            </td>
+            <td>
+                <b>
+                    Block deliverer test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Type of change : Test update
+Description: The test aims to create an environment that emulates the behavior of a malicious orderer.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 19:34:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4541" class=".btn">#4541</a>
+            </td>
+            <td>
+                <b>
+                    Fix compilation break in main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix compilation break caused by conflicting commits.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 18:57:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4539" class=".btn">#4539</a>
             </td>
             <td>
@@ -60,106 +160,6 @@ permalink: /pull-requests/hyperledger/fabric
     </table>
     <div class="right-align">
         Created At 2023-11-15 04:37:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4535" class=".btn">#4535</a>
-            </td>
-            <td>
-                <b>
-                    Remove unused var
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The patchset removes an unused var.
-
-Change-Id: I17c70906d0809406fa2e05749567403895938929
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-The patchset removes an unused var.
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-#### Release Note
-
-N/A
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-08 22:29:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4534" class=".btn">#4534</a>
-            </td>
-            <td>
-                <b>
-                    Direct check error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The patchset follows go style to check the err directly.
-
-Change-Id: I78ac78e58db5d247ea59f8f475d9424102e9194a
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-The patchset follows go style to check the err directly.
-
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-#### Release Note
-
-N/A
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-08 22:08:24 +0000 UTC
     </div>
 </div>
 
