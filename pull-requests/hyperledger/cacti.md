@@ -1723,7 +1723,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
         </tr>
         <tr>
             <td>
-                <span class="chip">dependent</span>
+                
             </td>
             <td>
                 1. Uses the new utility function from the core package in the catch block
@@ -1741,6 +1741,7 @@ Depends on #2868
 Related to but does not conclude: https://github.com/hyperledger/cacti/issues/1747
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
             </td>
         </tr>
     </table>
