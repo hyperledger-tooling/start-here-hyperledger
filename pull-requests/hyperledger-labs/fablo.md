@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/422" class=".btn">#422</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/423" class=".btn">#423</a>
             </td>
             <td>
                 <b>
-                    New file for testing k8s setup with Github Actions
+                    Publishing pipelines
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-01 07:01:19 +0000 UTC
+        Created At 2023-11-17 13:45:26 +0000 UTC
     </div>
 </div>
 
