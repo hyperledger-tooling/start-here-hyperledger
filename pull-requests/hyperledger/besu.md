@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6179" class=".btn">#6179</a>
+            </td>
+            <td>
+                <b>
+                    Stretch timeout when low peer count
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                in low peer count networks, be more lenient with timeout disconnections
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-17 04:46:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6174" class=".btn">#6174</a>
             </td>
             <td>
