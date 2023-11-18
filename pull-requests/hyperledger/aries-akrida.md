@@ -1,38 +1,38 @@
 ---
 layout: default
-title: toc
+title: aries-akrida
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/toc
+permalink: /pull-requests/hyperledger/aries-akrida
 ---
 
-# toc <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/toc){: .btn .mr-4 }</span>
+# aries-akrida <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-akrida){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/186" class=".btn">#186</a>
+                PR <a href="https://github.com/hyperledger/aries-akrida/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Hyperledger Bevel 2023 Q4 report
+                    Feature/v1.1.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">quarterly-report</span>
+                
             </td>
             <td>
-                <nil>
+                Version 1.1 release.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-16 10:27:21 +0000 UTC
+        Created At 2023-11-15 22:41:44 +0000 UTC
     </div>
 </div>
 
@@ -40,25 +40,25 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/185" class=".btn">#185</a>
+                PR <a href="https://github.com/hyperledger/aries-akrida/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    November 16, 2023 Agenda
+                    Feat/upgrade to askar
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">meeting-minutes</span>
+                
             </td>
             <td>
-                <nil>
+                Upgrade to Askar work
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-14 18:22:38 +0000 UTC
+        Created At 2023-11-15 15:36:04 +0000 UTC
     </div>
 </div>
 

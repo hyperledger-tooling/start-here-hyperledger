@@ -430,38 +430,3 @@ https://github.com/hyperledger/besu/issues/5280
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6156" class=".btn">#6156</a>
-            </td>
-            <td>
-                <b>
-                    Add `rpc-gas-cap` via transaction simulator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR adds `rpc-gas-cap` directly into the transaction simulator, which seems a better approach than the one used in #6130.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #6042 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-10 18:47:28 +0000 UTC
-    </div>
-</div>
-

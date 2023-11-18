@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/208" class=".btn">#208</a>
             </td>
             <td>
                 <b>
-                    BCW remove Skip from onboarding tests
+                    Feature/bc wallet with bc showcase automated tests
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                This PR removes the Onboarding skip functionality and testing from the BC Wallet regression tests. Skip has been removed from BC Wallet app. It is possible that the skip could re-emerge as functionality in BC Wallet so it is being left in the tests but commented out. If there comes a time in the future where we are sure Skip will not return, we will permanently remove the code. 
+                This PR adds a new suite of BC Wallet tests that use the BC Showcase demo as issuers and verifiers.  
+
+There is also a new run in the test pipeline for the showcase specific tests that will go to a separate Allure project for test results. 
+
+There still needs to be some work on the Lawyer scenario, however I wanted to get this in to see if there was any issue running these in the nightly regression. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-07 20:22:51 +0000 UTC
+        Created At 2023-11-17 21:35:35 +0000 UTC
     </div>
 </div>
 

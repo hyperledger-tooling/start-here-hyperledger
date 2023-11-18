@@ -14,38 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1637" class=".btn">#1637</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1639" class=".btn">#1639</a>
             </td>
             <td>
                 <b>
-                    feat: bump indy-vdr version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-It is already done in other open PRs, but just wanted to do this small one as it is getting a bit annoying to work on macOS these days 😞. This new release of `indy-vdr` wrapper takes the correct binary for this platform.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-10 11:14:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1636" class=".btn">#1636</a>
-            </td>
-            <td>
-                <b>
-                    fix: some log messages
+                    OpenId4Vc Support
                 </b>
             </td>
         </tr>
@@ -59,7 +32,7 @@ It is already done in other open PRs, but just wanted to do this small one as it
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-10 04:31:59 +0000 UTC
+        Created At 2023-11-15 15:31:19 +0000 UTC
     </div>
 </div>
 
@@ -67,11 +40,11 @@ It is already done in other open PRs, but just wanted to do this small one as it
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1631" class=".btn">#1631</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1638" class=".btn">#1638</a>
             </td>
             <td>
                 <b>
-                    build(deps): use node's built-in fetch
+                    feat!: message pickup live mode support
                 </b>
             </td>
         </tr>
@@ -80,107 +53,35 @@ It is already done in other open PRs, but just wanted to do this small one as it
                 
             </td>
             <td>
-                As now our minimal supported node version is 18, which has a built-in fetch API, this is an attempt to get rid of external `node-fetch` dependency on `@aries-framework/core`.
+                As promised, some progress in supporting missing features from [RFC 0685](https://github.com/hyperledger/aries-rfcs/tree/main/features/0685-pickup-v2), most notably the "Live Mode", in such a way that might be compatible with a multi-instance architecture as discussed in #1625.
 
-Credits to @dependabot, who give us the idea!
+Conceptually, it consists mostly in changes in Mediator role, where we can choose our strategy when a Forward message is received:  
+- We can simply queue it to the `MessagePickupRepository`, so it will be in charge of manually trigger a delivery of queued messages: this can be possible because `MessagePickupModule` now emits events when Live Sessions are opened and closed (so any consumer of an AFJ instance can subscribe to a central Message Pickup Repository and know if a newly queued message belongs to any of its connected clients), and `MessagePickupApi` exposes a method to deliver any queued message using V2 protocol.
+- We can try to deliver it immediately using V2 protocol, previously adding it to the queue and . This is mostly useful in single instance AFJ scenarios, yet taking advantage of the protocol-level acknowledges Pickup V2 provides
+- We can try to deliver the encrypted message immediately, without any protocol-level encapsulation. This is what AFJ does now, in a kind of 'implicit mode' (not recommended as it is more unreliable)
+
+On `mediatee` side, there is a new `MediatorPickupStrategy` called `PickUpV2LiveMode` where, once it connects to Mediator WebSocket, it will set Live Delivery mode on (retrieving, as usual, any pending message). Current `PickUpV2` mode works in polling mode (sending a `status-request` message every `mediatorPollingInterval` milliseconds.
+
+Some changes done so far:
+
+- `MediatorModule` now has a config parameter to select its message forwarding strategy
+- `MessagePickupApi` includes Live Mode session service that keeps track of all connected clients using V2 protocol in Live Mode and exposes a method to deliver any queued message to them. When new sessions are added or removed, it emits events
+- `MessageRepository` was renamed to `MessagePickupRepository` (any better naming is more than welcome!) and methods were changed to allow removal of messages by their id and filter by connectionId/recipientKey
+- `MessagePickupRepository` is now completely responsibility of `MessagePickupModule`: an in-memory default implementation will be instantiated if not specified in its config or defined externally before instantiating the Agent
+- `TransportService` now emits events when sessions are created and removed. This was done mainly to be consumed by `MessagePickupSessionService`, but they can also be useful externally
+
+
+There are lots of TODOS, especially about testing different settings. And also doubts like:
+
+- Filtering by recipientKey doesn't sound that hard to implement, but Pickup V2 protocol is so open that it can allow a client to create a dedicated Live Mode session for a single recipient key
+- It does not explicitly tells about that, but the protocol assumes that `delivery` message always come as a response to a `delivery-request`. Otherwise, how can I know what's the limit of messages I can batch on it (or if I should set recipient_key parameter)?
+
+I'll for sure add more things in the incoming days but, if you have some time to bring your ideas and feedback on the approaches followed here, they will be really welcome!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-07 20:44:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1630" class=".btn">#1630</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump react-devtools-core from 4.27.6 to 4.28.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [react-devtools-core](https://github.com/facebook/react/tree/HEAD/packages/react-devtools-core) from 4.27.6 to 4.28.5.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/facebook/react/commits/HEAD/packages/react-devtools-core">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-devtools-core&package-manager=npm_and_yarn&previous-version=4.27.6&new-version=4.28.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-javascript/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-07 20:20:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1629" class=".btn">#1629</a>
-            </td>
-            <td>
-                <b>
-                    refactor(indy-sdk)!: remove indy-sdk package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Still WIP.
-
-Removes the indy-sdk package and updates all code to now use only the new shared components. Still some work to do related to removing the usage of indy-sdk and making sure all tests work. But this is an initial step.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-07 05:40:15 +0000 UTC
+        Created At 2023-11-15 02:29:29 +0000 UTC
     </div>
 </div>
 
