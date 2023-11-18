@@ -101,31 +101,3 @@ This makes it simpler to insert a contract's bytecodes into the trie.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    FIX: bugs in visitors and nodes to make testDeleteManyValues pass
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-testDeleteManyValuesWithDivergentStemsAtDepth2 was added from previous besu Merkle tests. The test allowed to detect several bugs in visitors and nodes, that were all fixed. Javadoc was also made to emit no warnings.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-11 17:11:42 +0000 UTC
-    </div>
-</div>
-
