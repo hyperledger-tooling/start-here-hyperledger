@@ -75,29 +75,3 @@ I was a bit confused by the versions as the Python and Cargo versions were alrea
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/201" class=".btn">#201</a>
-            </td>
-            <td>
-                <b>
-                    Update python wrapper version to 0.3.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-11 01:02:38 +0000 UTC
-    </div>
-</div>
-
