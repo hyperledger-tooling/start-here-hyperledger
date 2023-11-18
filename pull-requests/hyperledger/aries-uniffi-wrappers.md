@@ -208,29 +208,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-uniffi-wrappers/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Add settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-09 14:47:39 +0000 UTC
-    </div>
-</div>
-

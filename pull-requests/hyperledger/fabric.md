@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4547" class=".btn">#4547</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.21.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.21.4
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-17 21:12:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4545" class=".btn">#4545</a>
             </td>
             <td>

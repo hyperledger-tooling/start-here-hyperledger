@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-did-networks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-did-networks/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger/indy-did-networks/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Initial version of readme, code of conduct, contributing information
+                    Adding initial CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-did-networks
                 
             </td>
             <td>
-                Initial attempt to create some documentation about the purpose and usage of the repository.
-
-Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
+                Initial group proposed. Feel free to comment on changes to that group, and I'll update the PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-06 08:32:47 +0000 UTC
+        Created At 2023-11-14 18:01:07 +0000 UTC
     </div>
 </div>
 

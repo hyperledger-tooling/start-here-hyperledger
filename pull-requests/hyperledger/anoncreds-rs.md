@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/274" class=".btn">#274</a>
+            </td>
+            <td>
+                <b>
+                    AnonCreds Credentials using the W3C Standard - drop mapping from presentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-15 12:22:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/273" class=".btn">#273</a>
+            </td>
+            <td>
+                <b>
+                    AnonCreds Credentials using the W3C Standard - wrappers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Updated Python wrapper to expose new methods
+* Update NodeJS and React Native wrappers to expose new methods
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-14 14:28:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/272" class=".btn">#272</a>
             </td>
             <td>
@@ -190,37 +243,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-11-11 15:45:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/271" class=".btn">#271</a>
-            </td>
-            <td>
-                <b>
-                    AnonCreds Credentials and Presentations using the W3C Verifiable Credentials Data Model Standard
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * W3C credential and presentation definitions: tied to AnonCreds W3C form
-* Method to convert legacy credential into W3C form
-* Method to convert AnonCreds W3C credential into legacy form
-* Methods to issue/process a credential in W3C form
-* Methods to create/verify a presentation in W3C form
-* Helper methods for W3C credential
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-10 08:54:34 +0000 UTC
     </div>
 </div>
 

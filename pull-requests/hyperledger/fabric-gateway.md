@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/656" class=".btn">#656</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/657" class=".btn">#657</a>
             </td>
             <td>
                 <b>
-                    Use go.uber.org/mock
+                    chore(docs): fix nodejs async for loop examples 
                 </b>
             </td>
         </tr>
@@ -27,39 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                This is a currently maintained fork of the (no longer maintained) github.com/golang/mock module.
+                The block event examples do not seem to work and I have never heard of `for async`. I assume they are supposed to be `for await`, which is what the fabric samples use [here](https://github.com/hyperledger/fabric-samples/blob/c0a0104ca1ca9107cb7cea8af3758d1ec256df02/asset-transfer-events/application-gateway-typescript/src/app.ts#L79).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-05 23:54:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/655" class=".btn">#655</a>
-            </td>
-            <td>
-                <b>
-                    Define separate module for Go scenario tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Avoids polluting the fabric-gateway module with scenario test dependencies.
-- Scenario tests more closely model a client application.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 11:20:21 +0000 UTC
+        Created At 2023-11-14 14:36:07 +0000 UTC
     </div>
 </div>
 
