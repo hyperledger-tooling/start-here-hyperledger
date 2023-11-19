@@ -404,33 +404,3 @@ In PR #6044, a timeout has been introduced to avoid that the transactions select
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6161" class=".btn">#6161</a>
-            </td>
-            <td>
-                <b>
-                    Tracing private transactions feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-PR for adding priv_traceTransaction API
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/5280
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-12 04:50:19 +0000 UTC
-    </div>
-</div>
-
