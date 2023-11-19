@@ -152,29 +152,3 @@ And fixes paths wherever needed
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1058" class=".btn">#1058</a>
-            </td>
-            <td>
-                <b>
-                    Uniffi demo holder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-11 19:23:07 +0000 UTC
-    </div>
-</div>
-
