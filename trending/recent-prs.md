@@ -1,13 +1,13 @@
 
-[6187](https://github.com/hyperledger/besu/pull/6187) consider peer reputation score when deciding to disconnect
+[6189](https://github.com/hyperledger/besu/pull/6189) Update OpenJDK latest Docker image to use Java 21
 
-[6186](https://github.com/hyperledger/besu/pull/6186) comment out flaky part of acceptance test
+[6188](https://github.com/hyperledger/besu/pull/6188) Add x-trie-log subcommand for one-off backlog prune
 
-[6185](https://github.com/hyperledger/besu/pull/6185) Add Experimental RockDB Subcommand for printing usage per column family
+[510](https://github.com/hyperledger-labs/fabric-smart-client/pull/510) upgrade fsouza and official docker sdk
 
-[4548](https://github.com/hyperledger/fabric/pull/4548) Remove legacy chaincode deploy from snapshot integration test
+[4549](https://github.com/hyperledger/fabric/pull/4549) migration raft2bft - WIP
 
-[90](https://github.com/hyperledger-labs/acapy-java-client/pull/90) changes for aca-py version 0.10.4
+[793](https://github.com/hyperledger-labs/open-enterprise-agent/pull/793) docs: add multitenancy keycloak integration tutorials
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

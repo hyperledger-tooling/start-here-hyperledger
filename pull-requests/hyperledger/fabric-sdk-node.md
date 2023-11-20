@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/690" class=".btn">#690</a>
-            </td>
-            <td>
-                <b>
-                    Release 2.2.20
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 09:28:43 +0000 UTC
-    </div>
-</div>
-
