@@ -14,6 +14,203 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4062" class=".btn">#4062</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #4060: add support for boxed slices in FFI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4060
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 15:29:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4061" class=".btn">#4061</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #2664: Introduce new wsv
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">Optimization</span>
+            </td>
+            <td>
+                ## Description
+
+Introduce new in memory storage for iroha. 
+
+New approach provide single reader, multiple readers where readers don't block writers and writer doesn't block readers. 
+
+Single writer seems reasonable restriction since only single block is processed at the same time. 
+
+Instead of single `WorldStateView` multiple transactions are now used.
+
+Work is based on [`concread`](https://github.com/kanidm/concread) crate.
+
+```mermaid
+graph TD;
+    WS-->WSV;
+    WS-->WSB;
+    WSB-->WST;
+    WST-->WSS;
+    WSV-->WSS;
+
+    WS["WorldState"]
+    WSV["WorldStateView"]
+    WSB["WorldStateBlock"]
+    WST["WorldStateTrnsaction"]
+    WSS["WorldStateSnapshot"]
+```
+
+- `WorldState` in-memory iroha storage
+- `WorldStateView` read-only snapshot of state at some point in time
+- `WorldStateBlock` aggregate state changes during block execution (need commit to take effect)
+- `WorldStateTransaction` aggregate state changes during transaction execution (need commit to take effect)
+- `WorldStateSnapshot` used to convert view and transaction to the same read-only type. 
+
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #2664 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+- Faster on large larger state
+- Readers and writer are independent
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Benchmark results
+
+Iroha tps benchmark was used. In this bechmark only small fraction of state is changed with single transaction (imo it's reasonable to expect that single transaction won't change whole state).
+
+Genesis was generated with the following command: 
+
+```bash
+cargo run --bin kagami genesis --domains 250 --accounts-per-domain 100 --assets-per-domain 100 > configs/peer/genesis.json 
+```
+This command creates genesis about 400 Mb in size.
+
+
+Set the following config for `clients/bench/config.json`
+
+```json
+{
+    "peers": 1, // 4 -> 1 To speed up things
+    "interval_us_per_tx": 0,
+    "max_txs_per_block": 1024,
+    "blocks": 15,
+    "sample_size": 10,
+    "genesis_max_retries": 1200 // Wait for large genesis to be committed
+}
+```
+
+Than bench two times before and after changes in wsv.
+
+```
+export WSV_WASM_RUNTIME_CONFIG='{ "FUEL_LIMIT": 18446744073709551615, "MAX_MEMORY": 4294967295 }'
+cd client
+cargo run --release --example tps-oneshot
+```
+
+tps-oneshot results: 
+
+Before update: tps=3.3077273188803833
+After update: tps=2339.2057925660447
+
+To measure memory consumption heaptrack was used. 
+
+Allocation sizes and amounts:
+
+Before:
+
+![before](https://github.com/hyperledger/iroha/assets/40040452/eeb85c99-e85a-44ff-9a50-1fd18ee0a40a)
+
+After:
+
+![after](https://github.com/hyperledger/iroha/assets/40040452/0d38bd98-5507-420b-a65a-eb76a15337a0)
+
+All relevant files: [link](https://drive.google.com/drive/folders/1AeagOk7KeO5VE2nTAPDNUSw4XZAT8APw).
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 14:40:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4058" class=".btn">#4058</a>
             </td>
             <td>
@@ -179,169 +376,6 @@ Adds a script for https://github.com/hyperledger/iroha/pull/3969: prune `docker-
     </table>
     <div class="right-align">
         Created At 2023-11-13 23:08:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4052" class=".btn">#4052</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Get more free space on the runner for release's long tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-I noticed that with soft disk space free up on the default runner for `long` tests into `I2::Release::Tests` we still receive the error `[long](https://github.com/hyperledger/iroha/actions/runs/6850948216/job/18626197954)
-System.IO.IOException: No space left on device`.
-I propose to use the specific Action for hard disk space free up.
-
-### Linked issue
-[Failed long tests job](https://github.com/hyperledger/iroha/actions/runs/6850948216/job/18626197954)
-
-### Benefits
-Free up more disk space as much it's possible to be able to execute long release tests.
-
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 14:27:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4051" class=".btn">#4051</a>
-            </td>
-            <td>
-                <b>
-                    [BACKPORT] #3856: Proc macro for default executor boilerplate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 12:53:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4050" class=".btn">#4050</a>
-            </td>
-            <td>
-                <b>
-                    [BACKPORT] #3826: Fix benchmarks build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 12:47:04 +0000 UTC
     </div>
 </div>
 

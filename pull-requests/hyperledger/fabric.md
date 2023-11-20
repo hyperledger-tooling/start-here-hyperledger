@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4550" class=".btn">#4550</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: verifier in the monitor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- New feature
+
+#### Description
+
+Integration of the stand alone verifier with the censorship monitor.
+
+
+#### Related issues
+#4353 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 16:54:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4549" class=".btn">#4549</a>
             </td>
             <td>

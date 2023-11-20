@@ -1,13 +1,13 @@
 
-[6189](https://github.com/hyperledger/besu/pull/6189) Update OpenJDK latest Docker image to use Java 21
+[6190](https://github.com/hyperledger/besu/pull/6190) Allow a transaction selection plugin to specify custom selection results
 
-[6188](https://github.com/hyperledger/besu/pull/6188) Add x-trie-log subcommand for one-off backlog prune
+[4550](https://github.com/hyperledger/fabric/pull/4550) BFT Block Puller: verifier in the monitor
 
-[510](https://github.com/hyperledger-labs/fabric-smart-client/pull/510) upgrade fsouza and official docker sdk
+[209](https://github.com/hyperledger/aries-mobile-test-harness/pull/209) bc showcase enable javascript in browser
 
-[4549](https://github.com/hyperledger/fabric/pull/4549) migration raft2bft - WIP
+[4062](https://github.com/hyperledger/iroha/pull/4062) [feature] #4060: add support for boxed slices in FFI
 
-[793](https://github.com/hyperledger-labs/open-enterprise-agent/pull/793) docs: add multitenancy keycloak integration tutorials
+[4061](https://github.com/hyperledger/iroha/pull/4061) [refactor] #2664: Introduce new wsv
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

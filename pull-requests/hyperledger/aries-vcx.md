@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1061" class=".btn">#1061</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Move agents to new root (aries) as per #1045
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 16:35:33 +0000 UTC
-    </div>
-</div>
-
