@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6190" class=".btn">#6190</a>
+            </td>
+            <td>
+                <b>
+                    Allow a transaction selection plugin to specify custom selection results
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+With this PR a transaction selection plugin can extend TransactionSelectionResult to implement its custom return values.
+Plus a couple of log fixes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 17:18:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6189" class=".btn">#6189</a>
             </td>
             <td>
@@ -647,39 +679,6 @@ Modifications in this PR:
     </table>
     <div class="right-align">
         Created At 2023-11-13 21:23:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6163" class=".btn">#6163</a>
-            </td>
-            <td>
-                <b>
-                    Transactions that takes too long to evaluate, during block creation, are dropped from the txpool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-In PR #6044, a timeout has been introduced to avoid that the transactions selection, during block creation, could take an indefinite amount of time, this PR iterates on it checking if the tx that was evaluating when the timeout occurred, took longer that the max amount of time allocated for the block creation, and if this was the case, the tx is removed from the pool, to avoid that it will be retried in future block creations.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 14:02:21 +0000 UTC
     </div>
 </div>
 
