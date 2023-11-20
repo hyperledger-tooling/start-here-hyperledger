@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6189" class=".btn">#6189</a>
+            </td>
+            <td>
+                <b>
+                    Update OpenJDK latest Docker image to use Java 21
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Switched base image to `ubuntu:rolling`, that follow any stable Ubuntu release, currently 23.10) since OpenJDK Java 21 is not available on latest LTS Ubuntu.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 11:43:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6188" class=".btn">#6188</a>
+            </td>
+            <td>
+                <b>
+                    Add x-trie-log subcommand for one-off backlog prune
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Part of https://github.com/hyperledger/besu/issues/5390
+
+## Usage and examples
+
+```
+$BESU storage x-trie-log -h
+Usage: besu storage x-trie-log [-hV] [COMMAND]
+Manipulate trie logs
+  -h, --help      Show this help message and exit.
+  -V, --version   Print version information and exit.
+Commands:
+  count  This command counts all the trie logs
+  prune  This command prunes all trie log layers below the retention threshold,
+           including orphaned trie logs.
+```
+
+```
+$BESU --genesis-file=genesis.json --data-path=besu --data-storage-format=BONSAI storage x-trie-log count
+...
+Counting trie logs...
+trieLog count: 512
+ - canonical count: 512
+ - fork count: 0
+ - orphaned count: 0
+```
+
+```
+$BESU --genesis-file=genesis.json --data-path=besu --data-storage-format=BONSAI storage x-trie-log prune
+```
+
+```
+$BESU --genesis-file=genesis.json --data-path=besu --data-storage-format=BONSAI --Xbonsai-trie-log-retention-threshold=512 --Xbonsai-trie-log-pruning-limit=513 storage x-trie-log prune
+...
+Counting trie logs before prune...
+trieLog count: 615
+ - canonical count: 512
+ - fork count: 0
+ - orphaned count: 103
+
+Total to prune = 615 (total) - 512 (retention threshold) =
+=> 103
+
+Estimated number of batches = max(103 (total to prune) / 513 (batch size), 1) = 1
+
+Pruning batch 1
+-----------------
+2023-11-20 19:45:19.639+10:00 | main | INFO  | TrieLogPruner | Loading first 513 trie logs from database...
+2023-11-20 19:45:19.649+10:00 | main | DEBUG | TrieLogPruner | Pruned 91 orphaned trie logs from database...
+2023-11-20 19:45:19.649+10:00 | main | INFO  | TrieLogPruner | Loaded 422 trie logs from database
+2023-11-20 19:45:19.657+10:00 | main | DEBUG | TrieLogPruner | pruned 0 trie logs from 0 blocks
+Number pruned in batch = 91
+Running total number pruned =
+=> 91 of 103
+
+Pruning batch 2
+-----------------
+2023-11-20 19:45:19.657+10:00 | main | INFO  | TrieLogPruner | Loading first 513 trie logs from database...
+2023-11-20 19:45:19.665+10:00 | main | DEBUG | TrieLogPruner | Pruned 12 orphaned trie logs from database...
+2023-11-20 19:45:19.665+10:00 | main | INFO  | TrieLogPruner | Loaded 501 trie logs from database
+2023-11-20 19:45:19.666+10:00 | main | DEBUG | TrieLogPruner | pruned 0 trie logs from 0 blocks
+Number pruned in batch = 12
+Running total number pruned =
+=> 103 of 103
+
+Trie log prune complete!
+
+Counting trie logs after prune...
+trieLog count: 512
+ - canonical count: 512
+ - fork count: 0
+ - orphaned count: 0
+ ```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 10:22:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6187" class=".btn">#6187</a>
             </td>
             <td>

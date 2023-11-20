@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/124" class=".btn">#124</a>
             </td>
             <td>
                 <b>
-                    fix the direction of CheckRefreshRequired
+                    change interfaces related to MsgCreateClient
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                <nil>
+                - replace `LightClient::CreateMsgCreateClient` with `CreateInitialLightClientState`
+- remove `FinalityAware::GetFinalizedHeader`
+- restore `FinalityAware::GetLatestFinalizedHeader`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-10 07:58:01 +0000 UTC
+        Created At 2023-11-20 07:43:34 +0000 UTC
     </div>
 </div>
 

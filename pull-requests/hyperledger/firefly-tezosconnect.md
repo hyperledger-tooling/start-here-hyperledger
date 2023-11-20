@@ -38,29 +38,3 @@ Refer how it looks to https://github.com/alex-semenyuk/firefly-tezosconnect/blob
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Increase code coverage 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 08:51:31 +0000 UTC
-    </div>
-</div>
-

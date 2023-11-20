@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Fix type casting error when using 'as' keyword
+                    Fix crash during pickup if network is turned off
                 </b>
             </td>
         </tr>
@@ -27,39 +27,18 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
                 
             </td>
             <td>
-                1. I changed the `var agent` property to use `lateinit` so it can be used without `!!`.
+                In the current implementation, if the network is turned off, pickup of messages causes an application crash.
 
-2. I ran into the following errors, and fixed this type casting by calling the `toInt()` and `toLong()` methods.
+This PR fixes this by silently ignoring crashes during a pickup (as pickup will be retried at the polling frequency specified).
 
-```
-java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Long
-    at org.hyperledger.ariesframework.ledger.LedgerService.getRevocationRegistryDelta(LedgerService.kt:122)
-    at org.hyperledger.ariesframework.proofs.RevocationService.getRevocationStatus(RevocationService.kt:67)
-    at org.hyperledger.ariesframework.proofs.ProofService.getRevocationStatusForRequestedItem(ProofService.kt:344)
-    at org.hyperledger.ariesframework.proofs.ProofService$getRequestedCredentialsForProofRequest$lambda$2$$inlined$concurrentMap$1.invokeSuspend(ConcurrentTransform.kt:37)
-    at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-    at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
-```
+Also, there was no exception handling during the establishment of a connection (in the `WalletMainActivity`), this has been fixed too.
 
-```
-java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Long
-    at org.hyperledger.ariesframework.proofs.RevocationService$createRevocationState$$inlined$concurrentForEach$1.invokeSuspend(ConcurrentTransform.kt:60)
-    at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-    at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
-    at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
-```
+@conanoc / @DrumRobot request you to review this and merge. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-06 07:57:08 +0000 UTC
+        Created At 2023-11-20 07:47:42 +0000 UTC
     </div>
 </div>
 

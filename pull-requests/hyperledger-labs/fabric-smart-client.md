@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/509" class=".btn">#509</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/510" class=".btn">#510</a>
             </td>
             <td>
                 <b>
-                    cleanup and dep update
+                    upgrade fsouza and official docker sdk
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                This PR brings the following: 
-- cleanup nwo/fabric chaincode packager
-- idemix dep update
+                to fix an incompatibility with the official docker sdk
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-06 09:23:24 +0000 UTC
+        Created At 2023-11-20 10:12:01 +0000 UTC
     </div>
 </div>
 
