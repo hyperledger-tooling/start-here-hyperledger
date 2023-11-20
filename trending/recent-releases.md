@@ -7,7 +7,7 @@
 
 [v2.2.20](https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.20) v2.2.20
 
-[v2.0.0](https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.0.0) v2.0.0
+[v0.3.0](https://github.com/hyperledger/aries-askar/releases/tag/v0.3.0) v0.3.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
