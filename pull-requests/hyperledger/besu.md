@@ -14,6 +14,152 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6187" class=".btn">#6187</a>
+            </td>
+            <td>
+                <b>
+                    consider peer reputation score when deciding to disconnect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">peering</span>
+            </td>
+            <td>
+                Noticed in peering logs we are disconnecting quite useful peers with timeouts and "useless responses". This exacerbates peering issues because we are quite early to disconnect, whereas if we just wait a bit longer the peer can still be useful. More of an issue in low peer count networks. 
+* consider peer reputation score when deciding whether to disconnect peer for repeated timeouts/useless responses
+* increase threshold for timeout counts
+* decrease score points deducted for timeout/useless response
+
+
+```
+➜  besu grep  "Disconnect - Outbound" besu03.log
+2023-11-17 17:47:27.730+10:00 | nioEventLoopGroup-3-5 | DEBUG | EthProtocolManager | Disconnect - Outbound - 0x0b TIMEOUT - 0x45d5... - 5 peers left
+2023-11-17 17:49:10.232+10:00 | nioEventLoopGroup-3-1 | DEBUG | EthProtocolManager | Disconnect - Outbound - 0x0b TIMEOUT - 0xcbba... - 4 peers left
+2023-11-17 18:02:33.476+10:00 | nioEventLoopGroup-3-8 | DEBUG | EthProtocolManager | Disconnect - Outbound - 0x03 USELESS_PEER - 0x6a7... - 3 peers left
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 05:47:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6186" class=".btn">#6186</a>
+            </td>
+            <td>
+                <b>
+                    comment out flaky part of acceptance test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">flake</span>
+            </td>
+            <td>
+                this particular test is flaky. There are other tests for the same class that work more reliably. 
+
+Example of flaky fail -
+https://app.circleci.com/pipelines/github/hyperledger/besu/25195/workflows/a5a40b6e-0f1d-4ac3-87e6-108bcce92b9e/jobs/164640
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 05:41:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6185" class=".btn">#6185</a>
+            </td>
+            <td>
+                <b>
+                    Add Experimental RockDB Subcommand for printing usage per column family
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pretty much a lift and shift of @ahamlat's https://github.com/ahamlat/RocksdDB-Column-Families-Size
+
+```
+➜  besu git:(rocksdb-usage-subcommand) $BESU storage x-rocksdb usage --help
+Usage: besu storage x-rocksdb usage [-hV]
+Prints disk usage
+  -h, --help      Show this help message and exit.
+  -V, --version   Print version information and exit.
+  
+➜  besu git:(rocksdb-usage-subcommand) $BESU storage x-rocksdb --help
+Usage: besu storage x-rocksdb [-hV] [COMMAND]
+Print RocksDB information
+  -h, --help      Show this help message and exit.
+  -V, --version   Print version information and exit.
+Commands:
+  usage  Prints disk usage
+```
+
+```
+$BESU --data-path=/tmp/besu storage x-rocksdb usage
+****** Column family 'BLOCKCHAIN' size: 7 KiB ******
+Number of keys : 70
+Number of live snapshots : 0
+Total size of SST Files : 4 KiB
+Size of live SST Filess : 4 KiB
+Column family size (with getColumnFamilyMetaData) : 4 KiB
+
+****** Column family 'ACCOUNT_INFO_STATE' size: 1 KiB ******
+Number of keys : 2
+Number of live snapshots : 0
+Total size of SST Files : 1 KiB
+Size of live SST Filess : 1 KiB
+Column family size (with getColumnFamilyMetaData) : 1 KiB
+
+****** Column family 'TRIE_BRANCH_STORAGE' size: 1 KiB ******
+Number of keys : 7
+Number of live snapshots : 0
+Total size of SST Files : 2 KiB
+Size of live SST Filess : 2 KiB
+Column family size (with getColumnFamilyMetaData) : 2 KiB
+
+****** Column family 'TRIE_LOG_STORAGE' size: 5 KiB ******
+Number of keys : 103
+Number of live snapshots : 0
+Total size of SST Files : 7 KiB
+Size of live SST Filess : 7 KiB
+Column family size (with getColumnFamilyMetaData) : 7 KiB
+
+****** Column family 'VARIABLES' size: 1 KiB ******
+Number of keys : 6
+Number of live snapshots : 0
+Total size of SST Files : 2 KiB
+Size of live SST Filess : 2 KiB
+Column family size (with getColumnFamilyMetaData) : 2 KiB
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 02:05:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6183" class=".btn">#6183</a>
             </td>
             <td>
