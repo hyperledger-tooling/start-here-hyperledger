@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2615" class=".btn">#2615</a>
+            </td>
+            <td>
+                <b>
+                    fix: report presentation result
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR ensures that the result of verifying the presentation for JSON-LD Credentials is factored into the final `verified` status.
+
+cc @andrewwhitehead  @swcurran 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 18:20:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2614" class=".btn">#2614</a>
             </td>
             <td>

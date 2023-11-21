@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-tex
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-tex/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    Updated paper to solve NRP vulnerability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added fixes in NRP proof generation according to the vulnerability report: https://drive.google.com/file/d/1u92MawmGuPot46ibQIGBJ13-27WaIlL3/view?usp=sharing (did not find anywhere else it is uploaded so I uploaded it myself)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 19:48:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-tex/pull/25" class=".btn">#25</a>
             </td>
             <td>

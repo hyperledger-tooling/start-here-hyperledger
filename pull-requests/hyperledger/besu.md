@@ -81,13 +81,13 @@ Switched base image to `ubuntu:rolling`, that follow any stable Ubuntu release, 
             </td>
             <td>
                 <b>
-                    Add x-trie-log subcommand for one-off backlog prune
+                    Add experimental x-trie-log subcommand for one-off backlog prune
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -96,6 +96,12 @@ Switched base image to `ubuntu:rolling`, that follow any stable Ubuntu release, 
 ## PR description
 
 Part of https://github.com/hyperledger/besu/issues/5390
+
+## TODO
+
+- [ ] Test on a throwaway mainnet node
+- [ ] Test on one of our oldest nodes to understand duration - my guess is it will be in the order of minutes, hopefully less than 1 hour.
+- [ ] If it's really slow, could optimise by loading all trie logs once and reuse for count as well as prune (or just prune instead of count).
 
 ## Usage and examples
 
@@ -255,7 +261,7 @@ https://app.circleci.com/pipelines/github/hyperledger/besu/25195/workflows/a5a40
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Pretty much a lift and shift of @ahamlat's https://github.com/ahamlat/RocksdDB-Column-Families-Size
@@ -619,66 +625,6 @@ Expected Result (Green) / Actual Result (red):
     </table>
     <div class="right-align">
         Created At 2023-11-15 02:38:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6166" class=".btn">#6166</a>
-            </td>
-            <td>
-                <b>
-                    parallelisation tweaks for CI acceptance tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                TLDR: 3 x reduction in CI credit usage [~5,000](https://app.circleci.com/insights/github/hyperledger/besu/workflows/default/overview?branch=pull%2F6166&reporting-window=last-24-hours), other recent PRs [~15,000](https://app.circleci.com/insights/github/hyperledger/besu/workflows/default/overview?branch=pull%2F6156)
-More insights [recent PR runs](https://app.circleci.com/insights/github/hyperledger/besu/workflows/default/overview?branch=b1d8acd4-8701-4c76-8a87-7ff2320aa95f&reporting-window=last-24-hours)
-
-Modifications in this PR: 
-* remove parallelism for acceptanceTestsCliqueBft and acceptanceTestsPermissioning and reduce the machine executor size requirement (time before: 3 min, 6 min; after: 6 min, 10 min)
-* reduce parallelism for acceptanceTests task (this task failed with concurrency limit reached when parallelism was removed altogether https://app.circleci.com/pipelines/github/hyperledger/besu/25171/workflows/a5b6d9bc-fa7c-4e59-aac2-985f642492e9/jobs/164393) (parallelisation before: 4; after: 2 | time before: 4 min; after: 6 min)
-* move privacy ATs to nightly build and reduce parallelism (many tests failed when parallelisation was removed https://app.circleci.com/pipelines/github/hyperledger/besu/25170/workflows/81fc005b-6f3a-4c78-a8e9-f35e6f349aa6/jobs/164381) - note there's a separate effort to remove the docker dependency used by container tests - draft PR https://github.com/hyperledger/besu/pull/5968
-* remove small executor since it's not used
-* added comments to explain where the machine xl executor is actually required and why
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-14 00:12:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6165" class=".btn">#6165</a>
-            </td>
-            <td>
-                <b>
-                    make sure closure is checking the protocol schedule correctly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #6164 which had a stale handle to the protocol spec after going async
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 21:23:57 +0000 UTC
     </div>
 </div>
 

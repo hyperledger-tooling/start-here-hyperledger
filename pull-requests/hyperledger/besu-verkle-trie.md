@@ -75,29 +75,3 @@ This makes it simpler to insert a contract's bytecodes into the trie.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/11" class=".btn">#11</a>
-            </td>
-            <td>
-                <b>
-                    Fix IPA description in javadocs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix IPA description
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 20:36:50 +0000 UTC
-    </div>
-</div>
-
