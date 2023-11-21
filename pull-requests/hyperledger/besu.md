@@ -99,9 +99,19 @@ Part of https://github.com/hyperledger/besu/issues/5390
 
 ## TODO
 
-- [ ] Test on a throwaway mainnet node
+- [x] Test on a throwaway mainnet node: https://github.com/hyperledger/besu/pull/6188#issuecomment-1820156907
+  - took **8m 48s** to prune 293458 trie logs (18 GB) on ~5 week old node
 - [ ] Test on one of our oldest nodes to understand duration - my guess is it will be in the order of minutes, hopefully less than 1 hour.
 - [ ] If it's really slow, could optimise by loading all trie logs once and reuse for count as well as prune (or just prune instead of count).
+
+## To install on a node
+
+```
+cd /opt/besu
+sudo wget -O 6188.tar.gz https://output.circle-artifacts.com/output/job/a7a06df9-cf33-4115-89d1-413c86facd71/artifacts/0/distributions/besu-23.10.3-SNAPSHOT.tar.gz
+sudo tar zxf 6188.tar.gz --transform s/besu-23.10.3-SNAPSHOT/6188/
+time sudo /opt/besu/6188/bin/besu --config-file=/etc/besu/config.toml storage x-trie-log count
+```
 
 ## Usage and examples
 
