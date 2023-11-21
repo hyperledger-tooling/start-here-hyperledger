@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/292" class=".btn">#292</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/294" class=".btn">#294</a>
             </td>
             <td>
                 <b>
-                    Update dependencies to address CVE-2023-3635
+                    Remove duplicated section on tracing in README
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                Added explicit dependency on okio-bom to force the transitive okio dependency to a non-vulnerable version. This can be removed once okhttp 4.12 is eventually published and opentelemetry publishes a version that depends on it.
+                Once is enough.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-09 00:12:46 +0000 UTC
+        Created At 2023-11-21 13:27:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/293" class=".btn">#293</a>
+            </td>
+            <td>
+                <b>
+                    Add GRPC client tracing interceptor for grpcs when cert is given
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This case seems to have been mistakenly omitted? Why not trace this code path as well?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 13:25:22 +0000 UTC
     </div>
 </div>
 

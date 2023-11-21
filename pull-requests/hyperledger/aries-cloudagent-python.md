@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0.11.0</span>
             </td>
             <td>
                 This PR ensures that the result of verifying the presentation for JSON-LD Credentials is factored into the final `verified` status.
