@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    Fix `classifier` Property Issue in Gradle Build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes https://github.com/visoftsolutions/besu-verkle-trie/issues/2
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 17:30:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Implement `toDot` Method and File Storing Mechanism for `VerkleTrie`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes https://github.com/visoftsolutions/besu-verkle-trie/issues/1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 17:21:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/13" class=".btn">#13</a>
             </td>
             <td>

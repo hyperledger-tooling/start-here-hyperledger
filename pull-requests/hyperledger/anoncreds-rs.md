@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/273" class=".btn">#273</a>
-            </td>
-            <td>
-                <b>
-                    AnonCreds Credentials using the W3C Standard - wrappers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Updated Python wrapper to expose new methods
-* Update NodeJS and React Native wrappers to expose new methods
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-14 14:28:10 +0000 UTC
-    </div>
-</div>
-

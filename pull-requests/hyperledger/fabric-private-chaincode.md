@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/740" class=".btn">#740</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/745" class=".btn">#745</a>
             </td>
             <td>
                 <b>
-                    Remove loading docker config inside dev container
+                    Secret Keeper Application
                 </b>
             </td>
         </tr>
@@ -27,121 +27,47 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                With recent versions of Docker Desktop (and others Rancher Desktop), the docker configuration loaded into the dev container can not resolve the path to the docker socket. We let users the option to mount the docker configuration inside the container if needed.
+                **What this PR does / why we need it**:
 
-This PR fixes #715
+Create a new demo application ~ Secret Keeper
+
+Secret Keeper has 5 functions.
+InitSecretKeeper:
+- This function will initialize the key "AUTH_LIST_KEY" with value ["Alice", "Bob"] and key "SECRET_KEY" with value "DefaultSecret".
+- This function should only be called once when the application started.
+- Of course a malicious user can call this function to reset the value, but this we will assume this is not what an attacker would want to achieve. RevealSecret:
+- This function allow users that in the Authlist ("AUTH_LIST_KEY") able to reveal the value of secret stored under key "SECRET_KEY". LockSecret:
+- This function allow users that in the Authlist ("AUTH_LIST_KEY") able to store a new value of secret under key "SECRET_KEY".
+- The old value will be replaced. AddUser:
+- This function allow users that in the Authlist ("AUTH_LIST_KEY") able to add a new user to the Authlist.
+- Then the new user can now perform the following four functions (RevealSecret, LockSecret, AddUser, RemoveUser) RemoveUser:
+- This function allow users that in the Authlist ("AUTH_LIST_KEY") able to add remove an existing user off the Authlist.
+- Then the removed user can no longer able to perform the following four functions (RevealSecret, LockSecret, AddUser, RemoveUser)
+
+Example using fpc-simple-client:
+./fpcclient invoke initSecretKeeper
+./fpcclient query revealSecret Alice
+./fpcclient invoke lockSecret Bob NewSecret
+./fpcclient query revealSecret Alice
+./fpcclient invoke removeUser Alice Bob
+./fpcclient query revealSecret Alice
+./fpcclient query revealSecret Bob  // (will failed) ./fpcclient invoke addUser Alice Bob
+./fpcclient query revealSecret Bob // (will success)
+
+
+**Which issue(s) this PR fixes**:
+
+This is just create a new application for ppc example
+
+**Special notes for your reviewer**:
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-20 11:09:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/739" class=".btn">#739</a>
-            </td>
-            <td>
-                <b>
-                    Fix simple test network instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The simple test network was missing instructions to get the blockchain explorer docker images.
-
-Additionally, I added another hint to the troubleshooting section which helped me to run the network with rancher desktop.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-20 07:23:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/738" class=".btn">#738</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade ego v1.4.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 23:28:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/737" class=".btn">#737</a>
-            </td>
-            <td>
-                <b>
-                    Fix fabric-ca upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 08:28:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/736" class=".btn">#736</a>
-            </td>
-            <td>
-                <b>
-                    Update maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding Maria to the FPC maintainer list 🚀
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-19 08:07:53 +0000 UTC
+        Created At 2023-11-21 15:21:58 +0000 UTC
     </div>
 </div>
 
