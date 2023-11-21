@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/253" class=".btn">#253</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/254" class=".btn">#254</a>
             </td>
             <td>
                 <b>
-                    Fabric java token sdk
+                    TDIDN.md
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                This project has the objective to create and provide a java interface to the project [Fabric Token SDK](https://github.com/hyperledger-labs/fabric-token-sdk)
+                Proposal from Hyperledger Telecom SIG
 
+TDIDN develops a decentralized identity and smart contract system for telecom. It focuses on DID-based authentication, privacy control, and efficient solutions for blacklist management, SLAs, and billing using CDRs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-09 20:16:07 +0000 UTC
+        Created At 2023-11-21 08:11:00 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1644" class=".btn">#1644</a>
+            </td>
+            <td>
+                <b>
+                    fix(core): allow string for did document controller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolves #1643 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 10:40:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1639" class=".btn">#1639</a>
             </td>
             <td>

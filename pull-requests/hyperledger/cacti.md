@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2901" class=".btn">#2901</a>
+            </td>
+            <td>
+                <b>
+                    feat(weaver-go): upgraded Weaver Fabric Go SDK with membership functions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added membership management functions for recording and lookup to Weaver Fabric Go SDK.
+- Fixed issues with the membership management functions in the Weaver Fabric Node SDK.
+- Updated the Weaver TS protobuf builder to generate output with proper imports. (This was required as the "grpc" dependency had been removed from the "package.json.")
+- Updated instructions in readme and docs. To test the added feature, please follow the instructions in [weaver/sdks/fabric/go-sdk/readme.md#testing-membership-manager-functions](./weaver/sdks/fabric/go-sdk/readme.md#testing-membership-manager-functions)
+
+**Pull Request Requirements**
+- [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 07:54:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2899" class=".btn">#2899</a>
             </td>
             <td>

@@ -14,6 +14,122 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4067" class=".btn">#4067</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: use AllAccountSignaturesAnd as default signature check condition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+I think this makes more sense as a default. But I'd like to hear differing opinions
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 12:14:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4066" class=".btn">#4066</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #0000: fix stable client config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 09:10:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4062" class=".btn">#4062</a>
             </td>
             <td>
@@ -106,18 +222,18 @@ graph TD;
     WST-->WSS;
     WSV-->WSS;
 
-    WS["WorldState"]
-    WSV["WorldStateView"]
-    WSB["WorldStateBlock"]
-    WST["WorldStateTrnsaction"]
-    WSS["WorldStateSnapshot"]
+    WS["State"]
+    WSV["StateView"]
+    WSB["StateBlock"]
+    WST["StateTransaction"]
+    WSS["StateSnapshot"]
 ```
 
-- `WorldState` in-memory iroha storage
-- `WorldStateView` read-only snapshot of state at some point in time
-- `WorldStateBlock` aggregate state changes during block execution (need commit to take effect)
-- `WorldStateTransaction` aggregate state changes during transaction execution (need commit to take effect)
-- `WorldStateSnapshot` used to convert view and transaction to the same read-only type. 
+- `State` in-memory iroha storage
+- `StateView` read-only snapshot of state at some point in time
+- `StateBlock` aggregate state changes during block execution (need commit to take effect)
+- `StateTransaction` aggregate state changes during transaction execution (need commit to take effect)
+- `StateSnapshot` used to convert view and transaction to the same read-only type. 
 
 
 <!-- Just describe what you did. -->
@@ -190,6 +306,11 @@ After:
 ![after](https://github.com/hyperledger/iroha/assets/40040452/0d38bd98-5507-420b-a65a-eb76a15337a0)
 
 All relevant files: [link](https://drive.google.com/drive/folders/1AeagOk7KeO5VE2nTAPDNUSw4XZAT8APw).
+
+### TODO
+
+- [ ]: Create relevant issues
+- [ ]: Rename no longer relevant variable names, update docs, ...
 
 <!-- HINT:  Add more points to checklist for large draft PRs-->
 
