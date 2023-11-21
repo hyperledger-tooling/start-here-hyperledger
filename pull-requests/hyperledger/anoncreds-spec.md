@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    Privacy and Security Considerations sections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The population of the Privacy and Security considerations sections. I was not able to find a lot of source material for this, so much of this is new text. I used several other related specs, including the W3C VC specification for topics to be included. If anyone knows of sources of this material, please add a comment to this PR and I'll see about incorporating that content.
+
+In reviewing this, the main concern should be errors vs. clarifications and additions. Where the sections are insufficiently populated or missing content, we can revise/extend the text.  We don't want incorrect information pushed out even temporarily.
+
+Feedback welcome!
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-20 23:29:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/185" class=".btn">#185</a>
             </td>
             <td>
@@ -93,32 +124,6 @@ Also, I recommend we update the following diagrams:
     </table>
     <div class="right-align">
         Created At 2023-11-14 14:55:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/182" class=".btn">#182</a>
-            </td>
-            <td>
-                <b>
-                    Added validity proofs for eq, ge and aggregate proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-13 20:40:14 +0000 UTC
     </div>
 </div>
 
