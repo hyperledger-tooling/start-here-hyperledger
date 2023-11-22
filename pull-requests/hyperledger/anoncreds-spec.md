@@ -67,29 +67,3 @@ Feedback welcome!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    Added name into contributors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For record purposes, added my name and github into the contributors to show as a deliverable for LFX mentorship evaluation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-14 19:36:29 +0000 UTC
-    </div>
-</div>
-

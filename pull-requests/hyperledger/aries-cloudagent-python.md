@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2623" class=".btn">#2623</a>
+            </td>
+            <td>
+                <b>
+                    0.10.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 22:54:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2622" class=".btn">#2622</a>
+            </td>
+            <td>
+                <b>
+                    fix(backport): report presentation result
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a backport of #2615 for the 0.10.x branch of releases.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 21:23:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2618" class=".btn">#2618</a>
             </td>
             <td>
@@ -50,7 +103,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                <span class="chip">0.11.0</span>
+                
             </td>
             <td>
                 This PR ensures that the result of verifying the presentation for JSON-LD Credentials is factored into the final `verified` status.

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/921" class=".btn">#921</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/923" class=".btn">#923</a>
             </td>
             <td>
                 <b>
-                    WIP: This is a dummy PR to test RTD
+                    fixing mismtaching images and few translation proof reading
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                <nil>
+                fixes https://github.com/hyperledger/fabric-docs-i18n/issues/922
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-09 13:27:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/920" class=".btn">#920</a>
-            </td>
-            <td>
-                <b>
-                    [zh_CN] LF APAC has completed translation fabric docs 2.5 to Chinese 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-the issue is [update to fabric 2.5](https://github.com/hyperledger/fabric-docs-i18n/issues/795)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-05 06:28:23 +0000 UTC
+        Created At 2023-11-21 23:22:17 +0000 UTC
     </div>
 </div>
 
