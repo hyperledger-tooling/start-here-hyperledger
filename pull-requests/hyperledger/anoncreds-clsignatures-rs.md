@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/33" class=".btn">#33</a>
+            </td>
+            <td>
+                <b>
+                    Add type duplicates using crypto primitives represented as byte vectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Type duplicate definitions are needed for more optimal message pack and cbor serialization.
+
+By default, crypto primitives such BugNumber's, Points, etc. are represented as string during the serde serialization.
+But in case of using message pack or cbor these crypto primitives needs to be represented as bytes.
+
+I could not find a way to pass some parameter/condition into serde serialize function (except ugly workarounds like using env variables or adding library context). 
+Feature flag also do not cover the case when app needs to use both forms.
+
+I also raised a question in serde repository - https://github.com/serde-rs/serde/issues/2656 
+
+All library API methods keep using regular type definitions (BigNum, Points, etc). 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 06:55:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/32" class=".btn">#32</a>
             </td>
             <td>

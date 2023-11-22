@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    Added handling of server side problem reports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Problem reports from the cloud agent were not handled by the wallet.
+
+This PR adds handling of problem reports so that they can be received and processed by the application layer.
+
+Tested against `aca-py`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 10:10:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/14" class=".btn">#14</a>
             </td>
             <td>

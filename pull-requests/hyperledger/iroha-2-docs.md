@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/429" class=".btn">#429</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/434" class=".btn">#434</a>
             </td>
             <td>
                 <b>
-                    [docs]: add SCALE codec troubleshooting section (#428)
+                    [refactor]: optimize scan, put TODO note
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                As discussed with @mversic, we need to add a SCALE codec-related troubleshooting section.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-09 15:16:51 +0000 UTC
+        Created At 2023-11-22 03:47:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/433" class=".btn">#433</a>
+            </td>
+            <td>
+                <b>
+                    Stylistic chores
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #410 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 03:24:39 +0000 UTC
     </div>
 </div>
 

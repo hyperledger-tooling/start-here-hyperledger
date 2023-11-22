@@ -41,29 +41,3 @@ Feedback welcome!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    Added section about W3C Verifiable Credential/Presentation representation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add section describing how AnonCreds credentials and presentations can be represented in the W3C Data Model standard.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 14:48:17 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[4073](https://github.com/hyperledger/iroha/pull/4073) [BACKPORT] #4065: Prevent pub key spoofing in p2p
+[279](https://github.com/hyperledger/anoncreds-rs/pull/279) [Snyk] Upgrade expo-status-bar from 1.6.0 to 1.9.0
 
-[4071](https://github.com/hyperledger/iroha/pull/4071) [fix] #4070: Enable `tls-rustls-native-roots` `iroha_client` feature by default
+[278](https://github.com/hyperledger/anoncreds-rs/pull/278) [Snyk] Upgrade expo-splash-screen from 0.20.5 to 0.24.0
 
-[4069](https://github.com/hyperledger/iroha/pull/4069) [fix] #4065: Prevent pub key spoofing in p2p
+[2902](https://github.com/hyperledger/cacti/pull/2902) build(yarn): update the lock file because it got out of sync 2023-nov-22
 
-[6202](https://github.com/hyperledger/besu/pull/6202) New cli options to limit rewards return by eth_feeHistory 
+[20](https://github.com/hyperledger/besu-verkle-trie/pull/20) Ensure Clean State of Nodes After Commit in Besu-Verkle-Trie
 
-[6200](https://github.com/hyperledger/besu/pull/6200) Eth peer logging improvements
+[795](https://github.com/hyperledger-labs/open-enterprise-agent/pull/795) Epic - Revocation for JWT credentials (tmp title)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
