@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-akrida
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-akrida/pull/16" class=".btn">#16</a>
-            </td>
-            <td>
-                <b>
-                    Feat/upgrade to askar
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Upgrade to Askar work
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 15:36:04 +0000 UTC
-    </div>
-</div>
-

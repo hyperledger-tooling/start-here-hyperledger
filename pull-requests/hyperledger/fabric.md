@@ -347,30 +347,3 @@ Description: The test aims to create an environment that emulates the behavior o
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4539" class=".btn">#4539</a>
-            </td>
-            <td>
-                <b>
-                    Bump github.com/IBM/idemix and github.com/consensys/gnark-crypto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump github.com/IBM/idemix to get updated github.com/consensys/gnark-crypto.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 18:14:48 +0000 UTC
-    </div>
-</div>
-

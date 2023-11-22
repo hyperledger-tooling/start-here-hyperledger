@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1455" class=".btn">#1455</a>
+            </td>
+            <td>
+                <b>
+                    Fixed formatting issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1400 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 07:43:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1454" class=".btn">#1454</a>
+            </td>
+            <td>
+                <b>
+                    Clarified behaviour of eth_call strict parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1429 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 06:37:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1453" class=".btn">#1453</a>
+            </td>
+            <td>
+                <b>
+                    Removed two tutorials using deprecated permissioning contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1430 
+
+Decided to remove rather than update the tutorial given the permissioning contracts repo it uses has been archived. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 05:52:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1452" class=".btn">#1452</a>
+            </td>
+            <td>
+                <b>
+                    Added CLI option and API methods for min priority fee
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1434 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 01:59:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1448" class=".btn">#1448</a>
             </td>
             <td>
@@ -2222,86 +2330,6 @@ _Description has been truncated_
     </table>
     <div class="right-align">
         Created At 2023-11-16 01:48:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1443" class=".btn">#1443</a>
-            </td>
-            <td>
-                <b>
-                    uprev to 23.10.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 17:11:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1442" class=".btn">#1442</a>
-            </td>
-            <td>
-                <b>
-                    Replaced EthSigner with Web3Signer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also removed the section on web3js-eea which was deprecated in 2021. 
-
-Fixes #1412
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 08:39:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1441" class=".btn">#1441</a>
-            </td>
-            <td>
-                <b>
-                    Added input key to transaction call object
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1437 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 05:55:43 +0000 UTC
     </div>
 </div>
 
