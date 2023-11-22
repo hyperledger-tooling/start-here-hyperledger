@@ -1,13 +1,13 @@
 
-[18](https://github.com/hyperledger/besu-verkle-trie/pull/18) Fix `classifier` Property Issue in Gradle Build
+[6195](https://github.com/hyperledger/besu/pull/6195) Refactor: Move rpcGasCap and rpcMaxLogsRange to apiConfiguration
 
-[17](https://github.com/hyperledger/besu-verkle-trie/pull/17) Implement `toDot` Method and File Storing Mechanism for `VerkleTrie`
+[923](https://github.com/hyperledger/fabric-docs-i18n/pull/923) fixing mismtaching images and few translation proof reading
 
-[6194](https://github.com/hyperledger/besu/pull/6194) Fix Docker image name clash between Besu and evmtool
+[2623](https://github.com/hyperledger/aries-cloudagent-python/pull/2623) 0.10.5
 
-[2431](https://github.com/hyperledger/bevel/pull/2431) [fabric] Update add_peer and add_orderer to 2.5.4
+[319](https://github.com/hyperledger/fabric-chaincode-java/pull/319) Update dependencies to address CVE-2023-3635
 
-[6193](https://github.com/hyperledger/besu/pull/6193) verkle trie integration
+[2622](https://github.com/hyperledger/aries-cloudagent-python/pull/2622) fix(backport): report presentation result
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

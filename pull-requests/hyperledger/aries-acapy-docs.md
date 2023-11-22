@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    0.11.0-rc1
+                    0.11.0rc2 tweak
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-30 23:45:03 +0000 UTC
+        Created At 2023-11-21 20:38:37 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,37 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/82" class=".btn">#82</a>
             </td>
             <td>
                 <b>
-                    main update for 0.11.0-rc1
+                    0.11.0rc2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-21 20:32:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/81" class=".btn">#81</a>
+            </td>
+            <td>
+                <b>
+                    Main Branch Update
                 </b>
             </td>
         </tr>
@@ -59,7 +85,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-30 23:40:04 +0000 UTC
+        Created At 2023-11-21 20:30:42 +0000 UTC
     </div>
 </div>
 

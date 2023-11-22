@@ -2305,31 +2305,3 @@ Fixes #1412
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1440" class=".btn">#1440</a>
-            </td>
-            <td>
-                <b>
-                    Added new JVM default options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Decided not to go into details of when you'd want to use the `besu-untuned` start script - the rationale being that anyone who's going to need it will already be looking at the memory options and knows what they are doing. 
-
-Fixes #1415 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 00:28:03 +0000 UTC
-    </div>
-</div>
-

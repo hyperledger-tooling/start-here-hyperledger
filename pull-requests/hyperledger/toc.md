@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    November 16, 2023 Agenda
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">meeting-minutes</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-14 18:22:38 +0000 UTC
-    </div>
-</div>
-
