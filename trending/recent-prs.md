@@ -1,13 +1,13 @@
 
-[6195](https://github.com/hyperledger/besu/pull/6195) Refactor: Move rpcGasCap and rpcMaxLogsRange to apiConfiguration
+[6200](https://github.com/hyperledger/besu/pull/6200) Eth peer logging improvements
 
-[923](https://github.com/hyperledger/fabric-docs-i18n/pull/923) fixing mismtaching images and few translation proof reading
+[6199](https://github.com/hyperledger/besu/pull/6199) Refactor: improve readability of EthFeeHistory
 
-[2623](https://github.com/hyperledger/aries-cloudagent-python/pull/2623) 0.10.5
+[6198](https://github.com/hyperledger/besu/pull/6198) Return `address` from the `from` and `to` fields in a GraphQL
 
-[319](https://github.com/hyperledger/fabric-chaincode-java/pull/319) Update dependencies to address CVE-2023-3635
+[4068](https://github.com/hyperledger/iroha/pull/4068) Fix ser deser loophole for evaluates to
 
-[2622](https://github.com/hyperledger/aries-cloudagent-python/pull/2622) fix(backport): report presentation result
+[6197](https://github.com/hyperledger/besu/pull/6197) [MINOR] update GHA checkout action to v4
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
