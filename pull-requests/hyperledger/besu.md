@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6202" class=".btn">#6202</a>
+            </td>
+            <td>
+                <b>
+                    New cli options to limit rewards return by eth_feeHistory 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-22 06:32:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6200" class=".btn">#6200</a>
             </td>
             <td>
