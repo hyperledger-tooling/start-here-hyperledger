@@ -76,35 +76,3 @@ Added this check in a separate PR from my other one but both need to be integrat
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/31" class=".btn">#31</a>
-            </td>
-            <td>
-                <b>
-                    Add checks to quadratic residue sampling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To sample a quadratic residue mod n uniformly at random, one technique is to sample an integer between 1 and n-1, check that it is invertible, and square it, e.g. see [here](https://www.inf.ufpr.br/murilo/public/IndexingPaper.pdf).
-
-The added code ensures the randomly-sampled element that gets squared is invertible (which also implies it is non-zero, so no need to check it is non-zero separately).
-
-In normal usage of this function for AnonCreds, n = p \* q where p and q are large primes, so the probability that an element is not invertible is only 1 - (p-1)\*(q-1) / (p\*q) = 1/p + 1/q - 1/(p\*q), which means the expectation on the number of iterations of the while loop is very close to 1.
-
-(Now with DCO!)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 18:36:41 +0000 UTC
-    </div>
-</div>
-

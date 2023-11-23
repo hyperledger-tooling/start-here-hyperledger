@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-akrida
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-akrida/pull/18" class=".btn">#18</a>
-            </td>
-            <td>
-                <b>
-                    Feature/v1.1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Version 1.1 release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 22:41:44 +0000 UTC
-    </div>
-</div>
-

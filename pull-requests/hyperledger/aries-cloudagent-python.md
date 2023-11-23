@@ -265,29 +265,3 @@ This PR makes the signed attachment verification a bit more resilient. According
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2607" class=".btn">#2607</a>
-            </td>
-            <td>
-                <b>
-                    Anoncreds rs sync updates from Main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 18:57:47 +0000 UTC
-    </div>
-</div>
-
