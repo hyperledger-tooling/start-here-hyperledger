@@ -281,9 +281,11 @@ For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3
             <td>
                 Use message pack for encoding proof values of w3c credentials and presentation.
 Results of proof value string length on example of credentials signature:
-* base64(JSON) previously used - 3356 
-* base64(**MessagePack**) will be used - 1352
-* base64(CBOR) - 1456
+* base64(JSON) previously used - 3821 
+* base64(**MessagePack**) will be used - 2541
+* base64(CBOR) - 3041
+
+
 
 
             </td>

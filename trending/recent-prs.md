@@ -1,13 +1,13 @@
 
-[1647](https://github.com/hyperledger/aries-framework-javascript/pull/1647) feat!: allow to query tenant records using label
+[390](https://github.com/hyperledger/iroha-java/pull/390) Duty/23-11/23: Use java ver.17 in i2 CI
 
-[8](https://github.com/hyperledger/aries-uniffi-wrappers/pull/8) Release 0.1.1 with updated binary urls
+[21](https://github.com/hyperledger/besu-verkle-trie/pull/21) Implement `toDot` Method and File Storing Mechanism for `VerkleTrie`
 
-[7](https://github.com/hyperledger/aries-uniffi-wrappers/pull/7) Release 0.1.1
+[73](https://github.com/hyperledger/aries-framework-swift/pull/73) Fix revocation issues
 
-[6](https://github.com/hyperledger/aries-uniffi-wrappers/pull/6) export RevocationRegistryDefinitionPrivate as a local struct
+[1457](https://github.com/hyperledger/besu-docs/pull/1457) Added Issue Templates
 
-[13](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/13) Misc
+[435](https://github.com/hyperledger/iroha-2-docs/pull/435) [docs]: update configuration endpoints
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

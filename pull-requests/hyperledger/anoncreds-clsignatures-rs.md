@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
             </td>
             <td>
                 <b>
-                    Add type duplicates using crypto primitives represented as byte vectors
+                    Conditional serialization for crypto primitives (string or bytes)
                 </b>
             </td>
         </tr>
@@ -27,17 +27,10 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                Type duplicate definitions are needed for more optimal message pack and cbor serialization.
+                Make conditional serialization for crypto primitives:
+*  For JOSN serialization, crypto primitives such BugNumber's, Points, etc. are represented as string.
+*  For message pack or cbor these crypto primitives represented as bytes.
 
-By default, crypto primitives such BugNumber's, Points, etc. are represented as string during the serde serialization.
-But in case of using message pack or cbor these crypto primitives needs to be represented as bytes.
-
-I could not find a way to pass some parameter/condition into serde serialize function (except ugly workarounds like using env variables or adding library context). 
-Feature flag also do not cover the case when app needs to use both forms.
-
-I also raised a question in serde repository - https://github.com/serde-rs/serde/issues/2656 
-
-All library API methods keep using regular type definitions (BigNum, Points, etc). 
             </td>
         </tr>
     </table>
