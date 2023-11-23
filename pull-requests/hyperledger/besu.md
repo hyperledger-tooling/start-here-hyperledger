@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6206" class=".btn">#6206</a>
+            </td>
+            <td>
+                <b>
+                    Fix log index in transaction receipt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Assign log index to transaction receipt according to position in block instead of in transaction.
+
+## Fixed Issue(s)
+fixes #6204 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 15:30:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6205" class=".btn">#6205</a>
+            </td>
+            <td>
+                <b>
+                    fix collision issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+The idea of this PR is to revert some modification that was made to pass tests  https://github.com/hyperledger/besu/pull/5686.
+
+Therefore, I decided to revert some modification on this PR by fixing the problem differently. Indeed, the idea of the collision test that does not pass is to selfdestruct a contract and recreate it afterwards. Instead of modifying the logic of the accumulator and listing all the storage leaves to be deleted during the selfdestruct, which seems to lead to edge cases, I prefer to let BonsaiWorldstate handle it as before and just load the storage with EMPTY_TRIE_HASH if we detect that it has been cleared before pushing the new slots after recreation. Indeed, the clearing of the storage that is done at the beginning of calculateRootHash removes the storage but does not change the storage root of the contract. Therefore, we falsely believe that the storage is not empty.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 13:11:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6202" class=".btn">#6202</a>
             </td>
             <td>
