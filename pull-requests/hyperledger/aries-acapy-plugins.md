@@ -69,35 +69,3 @@ Files in the existing plugins got adjusted slightly. I think these changes could
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/38" class=".btn">#38</a>
-            </td>
-            <td>
-                <b>
-                    Kafka events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds the kafka-events plugin from https://github.com/sicpa-dlab/aries-acapy-plugin-kafka-events.
-
-I open this PR on behalf of the SICPA team who have generously agreed to contribute this plugin both to HL and to the plugins repo.
-
-Thank you SICPA team!
-
-This PR includes the history of the plugin. I find this valuable but I'm open to thoughts on this approach.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-15 20:38:51 +0000 UTC
-    </div>
-</div>
-
