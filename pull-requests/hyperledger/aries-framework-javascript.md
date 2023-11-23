@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1647" class=".btn">#1647</a>
+            </td>
+            <td>
+                <b>
+                    feat!: allow to query tenant records using label
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Requested by someone in the discord
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 05:38:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1644" class=".btn">#1644</a>
             </td>
             <td>
