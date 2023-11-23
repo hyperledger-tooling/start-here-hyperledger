@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/388" class=".btn">#388</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/390" class=".btn">#390</a>
             </td>
             <td>
                 <b>
-                    [refactor]: update executor source code
+                    Duty/23-11/23: Use java ver.17 in i2 CI
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-13 14:16:06 +0000 UTC
+        Created At 2023-11-23 09:48:44 +0000 UTC
     </div>
 </div>
 

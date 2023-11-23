@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/435" class=".btn">#435</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: update configuration endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Follow-up of this PR:
+
+- https://github.com/hyperledger/iroha/pull/4076
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 06:42:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/434" class=".btn">#434</a>
             </td>
             <td>

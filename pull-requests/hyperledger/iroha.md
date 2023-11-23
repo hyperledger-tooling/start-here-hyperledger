@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4076" class=".btn">#4076</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4063: update configuration endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+I've implemented the changes according to the linked issue:
+
+- Remove documentation retrieval from the API
+- Normalize DTO structure with the configuration file
+
+### Linked issue
+
+Closes #4063 
+
+### Benefits
+
+A little step closer to implementing the Configuration RFC (#2585).
+
+### Checklist
+
+- [x] I've written unit tests for the code changes
+- [x] Self-review
+- [x] Open corresponding PR updating the docs
+  - https://github.com/hyperledger/iroha-2-docs/pull/435
+- [ ] Write an integration test
+- [ ] Remove redundant `Result<bool>`
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 06:35:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4073" class=".btn">#4073</a>
             </td>
             <td>
