@@ -2155,31 +2155,3 @@ Also reset all timeouts not just the specific messageCode
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6174" class=".btn">#6174</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Eth peer toString() improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * only include peer id in the peer.toString() method (remove from peerConnection)
-* only log enode not id also
-fixes #6169 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-16 03:34:11 +0000 UTC
-    </div>
-</div>
-
