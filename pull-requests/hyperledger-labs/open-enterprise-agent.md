@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/796" class=".btn">#796</a>
+            </td>
+            <td>
+                <b>
+                    test: improve configuration for integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">infra</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Improves configuration for integration tests:
+1. Allows containers to share services
+2. Minimize configuration parameters, but keep agility
+3. Add the capability to keep containers running
+4. Add different configs for basic/vault/keycloak/combined
+5. Replace `Acme`, `Bob` and `Faber` with `Issuer`, `Holder` and `Verifier`
+6. Optimizations and refactoring
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [x] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 20:19:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/795" class=".btn">#795</a>
             </td>
             <td>
