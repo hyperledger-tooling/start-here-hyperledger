@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1596" class=".btn">#1596</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1599" class=".btn">#1599</a>
             </td>
             <td>
                 <b>
-                    Move LoopScopes into ExprContext
+                    LLD: Clean up context after linking each contract
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                This simplifies the code, and makes it to use ExprContext for other purposes (for example variable scoping).
+                The LLD entry points are not safe to re-enter without destroying their state. Coincidentally this worked so far but will break apart for example when compiling multiple contracts in `RelocMode::PIC`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-16 12:23:05 +0000 UTC
+        Created At 2023-11-23 19:23:10 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4552" class=".btn">#4552</a>
+            </td>
+            <td>
+                <b>
+                    Remove deploy legacy from interop integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit removes DeployChaincodeLegacy usage from the integration interoperability tests, most of the code was removed because with removal of legacy LSCC these are not valid cases any longer.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 22:01:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4551" class=".btn">#4551</a>
             </td>
             <td>
