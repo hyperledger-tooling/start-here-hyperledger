@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
             </td>
             <td>
                 <b>
-                    changes for aca-py version 0.10.4
+                    changes for aca-py version 0.10.5
                 </b>
             </td>
         </tr>

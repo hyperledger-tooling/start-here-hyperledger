@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/127" class=".btn">#127</a>
             </td>
             <td>
                 <b>
-                    FIX: javadoc problems, removes <-> chars
+                    add update commitment to ipa_multipoint JNI
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                Javadoc was failing because of HTML-incompatible characters.
-They were removed
+                In progress, ported from https://github.com/dragan2234/rust_verkle_crypto_api
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-03 11:08:00 +0000 UTC
+        Created At 2023-11-24 12:29:43 +0000 UTC
     </div>
 </div>
 

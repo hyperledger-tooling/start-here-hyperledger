@@ -54,6 +54,7 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
             </td>
             <td>
                 fixes https://github.com/neotheprogramist/besu-verkle-trie/issues/1
+fixes https://github.com/hyperledger/besu-verkle-trie/issues/15
             </td>
         </tr>
     </table>
@@ -182,64 +183,6 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     </table>
     <div class="right-align">
         Created At 2023-11-21 17:30:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Implement `toDot` Method and File Storing Mechanism for `VerkleTrie`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes https://github.com/visoftsolutions/besu-verkle-trie/issues/1
-
-> #### Description
-> 
-> This issue aims to enhance the functionality of `VerkleTrie` in two significant ways:
-> 
->     1. **Implementing `toDot` Method for String Representation:**
->        
->        * Develop a method `toDot` for `VerkleTrie` to create a human-readable string representation in [Dot format](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29). This feature will aid in debugging and visualizing the `VerkleTrie` structure.
->        * The `toDot` method should include:
->          
->          * `BranchNodes` with `commitment` attribute.
->          * `StemNodes` with `stem`, `leftCommitment`, and `rightCommitment` attributes.
->          * `LeafNodes` with `suffix` and `value` attributes.
->          * A `location` attribute for each node to uniquely name them.
-> 
->     2. **Implementing File Storing Mechanism for `toDot` Output:**
->        
->        * Extend the `toDot` functionality to include the capability of saving its output into a file. This addition will facilitate users in saving the `VerkleTrie` graphical representation for further analysis or sharing.
->        * The file storing feature should:
->          
->          * Allow efficient and user-friendly saving of the Dot format output.
->          * Handle errors related to write permissions or file system issues.
->          * Optionally let users specify the file path and name for storing the output.
-> 
-> 
-> #### Expected Behavior
-> 
->     * `toDot` returns the tree representation in Dot format with specified attributes for different node types.
-> 
->     * Users can save the Dot format output of `VerkleTrie` into a file, enhancing the method's usability for debugging and analysis.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-21 17:21:49 +0000 UTC
     </div>
 </div>
 
