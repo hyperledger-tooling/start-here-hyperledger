@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1068" class=".btn">#1068</a>
+            </td>
+            <td>
+                <b>
+                    uniffi project reorganize
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this PR addresses major reorganize of uniffi project in accordance to #1045 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 21:57:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1067" class=".btn">#1067</a>
             </td>
             <td>
@@ -85,32 +111,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2023-11-20 22:16:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1063" class=".btn">#1063</a>
-            </td>
-            <td>
-                <b>
-                    feat: support aries-askar
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-16 14:10:25 +0000 UTC
     </div>
 </div>
 

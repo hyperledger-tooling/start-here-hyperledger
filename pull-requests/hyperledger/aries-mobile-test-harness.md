@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/213" class=".btn">#213</a>
+            </td>
+            <td>
+                <b>
+                    updated location of archive file retrieval
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 19:57:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/212" class=".btn">#212</a>
+            </td>
+            <td>
+                <b>
+                    BCW test fixes for testids for wallet naming tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Given some changes that now display the testids for the wallet naming tests, the testids have been changed in the tests. This also allows editing wallet name from the scan my QR code page, so that is now enabled in the tests as well. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-23 15:49:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/211" class=".btn">#211</a>
             </td>
             <td>
