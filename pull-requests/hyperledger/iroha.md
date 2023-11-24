@@ -50,6 +50,7 @@ A little step closer to implementing the Configuration RFC (#2585).
   - https://github.com/hyperledger/iroha-2-docs/pull/435
 - [x] Write an integration test
 - [x] Remove redundant `Result<bool>`
+- [ ] Use `PATCH` instead of `POST`
 
             </td>
         </tr>

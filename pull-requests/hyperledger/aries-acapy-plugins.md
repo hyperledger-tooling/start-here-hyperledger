@@ -42,30 +42,3 @@ Files in the existing plugins got adjusted slightly. I think these changes could
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Proposal to add chumbert of SICPA as a Maintainer of the repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-16 17:54:34 +0000 UTC
-    </div>
-</div>
-
