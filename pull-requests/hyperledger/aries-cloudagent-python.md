@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2626" class=".btn">#2626</a>
+            </td>
+            <td>
+                <b>
+                    chore: bump pydid version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After the recent removal of peer-did-python in #2561, pydid no longer needs to be pinned below 0.4.x. This PR bumps the version to ^0.4.0.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-24 16:36:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2623" class=".btn">#2623</a>
             </td>
             <td>

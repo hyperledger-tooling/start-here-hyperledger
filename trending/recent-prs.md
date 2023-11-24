@@ -1,13 +1,13 @@
 
-[797](https://github.com/hyperledger-labs/open-enterprise-agent/pull/797) feat(pollux): implement revocation BitString and VC SL 2021 generation
+[799](https://github.com/hyperledger-labs/open-enterprise-agent/pull/799) test: fix multi-agent config support
 
-[126](https://github.com/hyperledger-labs/yui-relayer/pull/126) Update path config IDs
+[798](https://github.com/hyperledger-labs/open-enterprise-agent/pull/798) feat(pollux): add size and last used index to credential_status_lists table
 
-[391](https://github.com/hyperledger/iroha-java/pull/391)  NumericValue serializer && Fat genesis test
+[2626](https://github.com/hyperledger/aries-cloudagent-python/pull/2626) chore: bump pydid version
 
-[2432](https://github.com/hyperledger/bevel/pull/2432) [shared] updated gke csi provisioner
+[2906](https://github.com/hyperledger/cacti/pull/2906) test(geth-test-ledger): add basic tests
 
-[1033](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1033) fix: align tab styles in new scan screen
+[2433](https://github.com/hyperledger/bevel/pull/2433) [r3-corda-ent] upgrade to version 4.10
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

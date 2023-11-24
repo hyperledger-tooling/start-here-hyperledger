@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/799" class=".btn">#799</a>
+            </td>
+            <td>
+                <b>
+                    test: fix multi-agent config support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Fixes initialization of integration tests to unblock correct runs of multi-agent configs.
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [x] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-24 17:52:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/798" class=".btn">#798</a>
+            </td>
+            <td>
+                <b>
+                    feat(pollux): add size and last used index to credential_status_lists table
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+
+## Checklist
+
+### My PR contains...
+* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [x] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-24 17:26:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/797" class=".btn">#797</a>
             </td>
             <td>
