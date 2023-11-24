@@ -243,36 +243,3 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/13" class=".btn">#13</a>
-            </td>
-            <td>
-                <b>
-                    FIX: bug in TrieKeyAdaptor swapLastByte
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-There was a bug in TrieKeyAdaptor.swapLastByte : it did not take properly into account the last byte of a UInt256.
-Some minor improvements where also made:
-
-  1. UInt256 are reversed to littleEndian as it should be.
-  2. All indexes are passed as UInt256.
-  3. More tests have been included for contract code chunking.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-17 12:05:02 +0000 UTC
-    </div>
-</div>
-
