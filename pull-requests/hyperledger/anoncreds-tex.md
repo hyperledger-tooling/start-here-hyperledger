@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/anoncreds-tex
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-tex/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-18 17:48:59 +0000 UTC
-    </div>
-</div>
-
