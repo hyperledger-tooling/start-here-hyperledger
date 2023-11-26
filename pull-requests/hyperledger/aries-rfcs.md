@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/803" class=".btn">#803</a>
+            </td>
+            <td>
+                <b>
+                    Added 'trust input protocol' under concepts folder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed off by: Mathieu Glaude <mathieu@northernblock.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-26 14:18:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/801" class=".btn">#801</a>
             </td>
             <td>
