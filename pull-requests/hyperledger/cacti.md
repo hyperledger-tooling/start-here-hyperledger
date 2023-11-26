@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2907" class=".btn">#2907</a>
+            </td>
+            <td>
+                <b>
+                    fix(weaver): usage of weak PRNG #2765 issue - Solve
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The length of the AES algorithm was changed. The identified weak PRNG usages were made reliable by making changes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-25 19:05:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2906" class=".btn">#2906</a>
             </td>
             <td>

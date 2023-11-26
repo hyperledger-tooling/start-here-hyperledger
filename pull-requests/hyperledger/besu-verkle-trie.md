@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
             </td>
             <td>
                 <b>
-                    WIP: call nativeLib only with LE bytes
+                    WIP: call nativeLib only with BE bytes
                 </b>
             </td>
         </tr>
