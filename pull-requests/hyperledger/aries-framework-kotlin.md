@@ -40,35 +40,3 @@ Tested against `aca-py`
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Fix crash during pickup if network is turned off
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In the current implementation, if the network is turned off, pickup of messages causes an application crash.
-
-This PR fixes this by silently ignoring crashes during a pickup (as pickup will be retried at the polling frequency specified).
-
-Also, there was no exception handling during the establishment of a connection (in the `WalletMainActivity`), this has been fixed too.
-
-@conanoc / @DrumRobot request you to review this and merge. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-20 07:47:42 +0000 UTC
-    </div>
-</div>
-

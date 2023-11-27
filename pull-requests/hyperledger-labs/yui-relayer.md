@@ -42,31 +42,3 @@ This allows the client-id, connection-id, and channel-id in path.json to be set 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/124" class=".btn">#124</a>
-            </td>
-            <td>
-                <b>
-                    change interfaces related to MsgCreateClient
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - replace `LightClient::CreateMsgCreateClient` with `CreateInitialLightClientState`
-- remove `FinalityAware::GetFinalizedHeader`
-- restore `FinalityAware::GetLatestFinalizedHeader`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-20 07:43:34 +0000 UTC
-    </div>
-</div>
-
