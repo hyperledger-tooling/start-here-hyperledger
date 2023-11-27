@@ -181,30 +181,3 @@ This PR aims to update the migration test. The goal is to migrate from Raft to B
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4548" class=".btn">#4548</a>
-            </td>
-            <td>
-                <b>
-                    Remove legacy chaincode deploy from snapshot integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit takes care to remove deprecate legacy chaincode deploy from the ledger snapshot integration test.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-19 23:21:36 +0000 UTC
-    </div>
-</div>
-
