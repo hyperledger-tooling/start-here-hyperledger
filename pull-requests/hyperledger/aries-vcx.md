@@ -51,7 +51,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">review:level-2</span>
             </td>
             <td>
                 - Derives `Display` trait for all aries messages 

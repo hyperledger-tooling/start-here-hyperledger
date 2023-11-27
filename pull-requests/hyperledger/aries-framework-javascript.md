@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1650" class=".btn">#1650</a>
+            </td>
+            <td>
+                <b>
+                    refactor: move message-pickup directory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For some strange reason, the 'i' in `message-pickup` module directory is an special character, which makes it difficult to create patches to properly test updates in that module (like the ones in #1638), so this small PR is just fixing it using a regular 'i'.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-27 12:23:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1648" class=".btn">#1648</a>
             </td>
             <td>

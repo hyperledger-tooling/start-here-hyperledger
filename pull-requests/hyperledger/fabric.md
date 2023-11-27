@@ -148,36 +148,3 @@ Integration of the stand alone verifier with the censorship monitor.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4549" class=".btn">#4549</a>
-            </td>
-            <td>
-                <b>
-                    migration raft2bft - WIP
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-
-This PR aims to update the migration test. The goal is to migrate from Raft to BFT.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-20 10:00:26 +0000 UTC
-    </div>
-</div>
-
