@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1648" class=".btn">#1648</a>
+            </td>
+            <td>
+                <b>
+                    refactor(anoncreds)!: move supportRevocation to options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This moves the `supportRevocation` option in the registerCredentialDefinition method to the `options` object. It feels a bit weird to me that we have an `options` object, but then not place an option like `supportRevocation` in that options object
+
+@genaris you ok with this change?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-27 03:58:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1647" class=".btn">#1647</a>
             </td>
             <td>
