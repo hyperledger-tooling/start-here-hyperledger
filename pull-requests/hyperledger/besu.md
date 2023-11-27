@@ -1831,35 +1831,3 @@ The fix in this PR is to always add the `-evmtool` suffix to the `evmtool` Docke
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6190" class=".btn">#6190</a>
-            </td>
-            <td>
-                <b>
-                    Allow a transaction selection plugin to specify custom selection results
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-With this PR a transaction selection plugin can extend TransactionSelectionResult to implement its custom return values.
-Plus a couple of log fixes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-20 17:18:12 +0000 UTC
-    </div>
-</div>
-
