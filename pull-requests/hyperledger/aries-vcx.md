@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1070" class=".btn">#1070</a>
+            </td>
+            <td>
+                <b>
+                    refactor: encryption envelope
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - minor refactoring of encryption envelope which came up in progress of improving did-exchange implementation - a lot more can be done here (and will)
+- On top of https://github.com/hyperledger/aries-vcx/pull/1069, please merge that first for clean changelog
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-26 21:34:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1069" class=".btn">#1069</a>
             </td>
             <td>
@@ -46,7 +73,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    uniffi project reorganize
+                    refactor: uniffi project reorganize
                 </b>
             </td>
         </tr>
@@ -98,7 +125,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Uniffi credential screen
+                    feat: Uniffi credential screen
                 </b>
             </td>
         </tr>
