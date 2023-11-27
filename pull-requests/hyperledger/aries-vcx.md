@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1071" class=".btn">#1071</a>
+            </td>
+            <td>
+                <b>
+                    Add new Wallet trait
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A new trait for wallet heavily inspired by #1042. Associated types are leveraged to provide flexibility to various implementations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-27 14:22:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1070" class=".btn">#1070</a>
             </td>
             <td>

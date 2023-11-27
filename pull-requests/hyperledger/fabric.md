@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4554" class=".btn">#4554</a>
+            </td>
+            <td>
+                <b>
+                    Ensure channelID in transaction matches chain instance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-27 16:18:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4553" class=".btn">#4553</a>
             </td>
             <td>
@@ -109,42 +135,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2023-11-20 22:22:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4550" class=".btn">#4550</a>
-            </td>
-            <td>
-                <b>
-                    BFT Block Puller: verifier in the monitor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- New feature
-
-#### Description
-
-Integration of the stand alone verifier with the censorship monitor.
-
-
-#### Related issues
-#4353 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-20 16:54:13 +0000 UTC
     </div>
 </div>
 
