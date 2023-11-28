@@ -14,36 +14,6 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1457" class=".btn">#1457</a>
-            </td>
-            <td>
-                <b>
-                    Added Issue Templates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-This pull request includes GitHub issue templates such as bug report, feature request, and Ask a question in this repository.
-
-## Issues
-fixes: #1450 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-23 06:43:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1455" class=".btn">#1455</a>
             </td>
             <td>

@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4089" class=".btn">#4089</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3941: Remove expressions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+The main idea was to move all expressions into executor. After a discussion with @mversic we decided not to implement any of them inside `default_executor`, but to have an example executor to show PoC.
+
+- All expressions were removed
+- `#[model]` together with `ffi` have become useless for data_model because in future clients should link against executor_data_model. So I partly removed them. This might need future investigation
+
+I wii squash all my commits before merge.
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+- Closes #3941 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+- Much less code
+- No stillborn expression system inside data_model and core
+- Types for ISI now can't contain unsupported parameters
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Follow up tasks
+
+- Reconsider ffi for data_model
+- Make block content opaque
+- Write example executor with expressions or even DSL
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-27 23:11:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4088" class=".btn">#4088</a>
             </td>
             <td>

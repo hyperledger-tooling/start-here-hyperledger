@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    Privacy and Security Considerations sections
+                    Update Trust Triangle Diagram to remove Blinded Link Secret
                 </b>
             </td>
         </tr>
@@ -27,17 +27,14 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                The population of the Privacy and Security considerations sections. I was not able to find a lot of source material for this, so much of this is new text. I used several other related specs, including the W3C VC specification for topics to be included. If anyone knows of sources of this material, please add a comment to this PR and I'll see about incorporating that content.
+                Update the "Trust Triangle" image to reflect the changes in the text from #183 -- removing the Holder having a blinded link secret as a separate object.  Completes issue #181.
 
-In reviewing this, the main concern should be errors vs. clarifications and additions. Where the sections are insufficiently populated or missing content, we can revise/extend the text.  We don't want incorrect information pushed out even temporarily.
-
-Feedback welcome!
-
+@wip-abramson -- I think that works, right?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-20 23:29:21 +0000 UTC
+        Created At 2023-11-27 21:05:12 +0000 UTC
     </div>
 </div>
 

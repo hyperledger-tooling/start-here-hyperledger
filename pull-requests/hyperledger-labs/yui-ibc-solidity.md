@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/232" class=".btn">#232</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/234" class=".btn">#234</a>
             </td>
             <td>
                 <b>
-                    Add cover image to README
+                    Refactoring to merge handler into each feature implementation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                <nil>
+                ## Changes
+
+- merge handler into each feature implementation
+- add `IIBCHandler` interface
+- remove `IBCMsgs` and move the msg definitions into each feature impl
+- add `IBCSelfStateValidator` contract that validates self client/consensus states in the connection handshake
+  - developers override this to be able to validate state corresponding to their light client 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-31 14:03:40 +0000 UTC
+        Created At 2023-11-28 00:44:24 +0000 UTC
     </div>
 </div>
 
