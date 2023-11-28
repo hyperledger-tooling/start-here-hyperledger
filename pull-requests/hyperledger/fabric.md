@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4556" class=".btn">#4556</a>
+            </td>
+            <td>
+                <b>
+                    Unit tests bv
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Unit tests 
+
+#### Description
+
+This PR aims to provide unit tests for the Block Verification Assistant unit. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-28 12:50:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4555" class=".btn">#4555</a>
             </td>
             <td>

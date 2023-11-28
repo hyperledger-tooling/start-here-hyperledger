@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4096" class=".btn">#4096</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4090: Fix having to pass IROHA_SKIP_WASM_CHECKS env variable with true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                
+## Description
+
+<!-- Just describe what you did. -->
+Change the checking parts in build.rs files to check if the env is passed during the build. this should only build the WASM builder if the code snippet will used and in our case it will not be because the env variable is not passed. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-28 16:36:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4095" class=".btn">#4095</a>
+            </td>
+            <td>
+                <b>
+                    [BACKPORT] #0000: Fix trigger atomicity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+If trigger failed during execution all of it's changes will be reverted.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Intended behavior for trigger execution. 
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-28 14:43:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4089" class=".btn">#4089</a>
             </td>
             <td>

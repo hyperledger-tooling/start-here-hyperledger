@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    feat(mediator): Better errors for MediatorPersistence
+                    WIP: feat(mediator): Better errors for MediatorPersistence
                 </b>
             </td>
         </tr>

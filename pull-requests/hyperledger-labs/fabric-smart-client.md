@@ -14,25 +14,26 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/510" class=".btn">#510</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/511" class=".btn">#511</a>
             </td>
             <td>
                 <b>
-                    upgrade fsouza and official docker sdk
+                    Upgrade FPC version
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">improvement</span>
+                
             </td>
             <td>
-                to fix an incompatibility with the official docker sdk
+                - Upgrade FPC dependency
+- Remove unsupported idemix tests from fpc echo test
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-20 10:12:01 +0000 UTC
+        Created At 2023-11-28 13:13:03 +0000 UTC
     </div>
 </div>
 
