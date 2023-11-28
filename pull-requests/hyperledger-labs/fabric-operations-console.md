@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/562" class=".btn">#562</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/564" class=".btn">#564</a>
             </td>
             <td>
                 <b>
-                    Cypress test enhancements
+                    showing settings button on channel details
                 </b>
             </td>
         </tr>
@@ -27,20 +27,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+                #### Type of change
 
-#### Type of change
-- Test update
+<!--- What type of change? Pick one option and delete the others. -->
 
-#### Description
--  Renamed the file numbers for pipeline execution in sequence
-- Added new test cases for Audit Log and required step definition
-- Added file for User management
+- Bug fix
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-20 21:56:11 +0000 UTC
+        Created At 2023-11-28 06:14:28 +0000 UTC
     </div>
 </div>
 

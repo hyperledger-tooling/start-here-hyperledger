@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6207" class=".btn">#6207</a>
+            </td>
+            <td>
+                <b>
+                    moved some logs to trace level
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dev experience</span><span class="chip">logging</span><span class="chip">ux</span>
+            </td>
+            <td>
+                * move "Requesting x headers" etc to trace level logging
+* use peer.shortNodeId rather than logging the whole peer record
+* move "Wrote initial crypto handshake message" to trace
+* also a couple of frequently logged tx pool logs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-28 02:20:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6206" class=".btn">#6206</a>
             </td>
             <td>

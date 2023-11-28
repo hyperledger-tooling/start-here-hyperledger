@@ -432,29 +432,3 @@ This indicates that the "part2" property found in the Reveal Document under "$.c
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2618" class=".btn">#2618</a>
-            </td>
-            <td>
-                <b>
-                    fix: wallet type help text out of date
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2617 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-21 05:28:31 +0000 UTC
-    </div>
-</div>
-
