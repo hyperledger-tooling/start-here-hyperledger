@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/102" class=".btn">#102</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/103" class=".btn">#103</a>
             </td>
             <td>
                 <b>
-                    Enhance logging on event dispatch, and resolve edge case panic
+                    adding default request timeout in the generated swagger doc
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Couple of small logging enhancements that would have helped me while investigating a set of logs.
-
-Also addresses a panic with a `nil` `batch` object that I found through adding the Unit Test for my new log, which would happen if we did either of....
-- The else to this block (which I've now added a log to):
-    https://github.com/hyperledger/firefly-transaction-manager/blob/dcc8484eb3c6f1b6e22d649b74e0f2c29c29c83a/internal/events/eventstream.go#L710
-- This `continue`:
-    https://github.com/hyperledger/firefly-transaction-manager/blob/dcc8484eb3c6f1b6e22d649b74e0f2c29c29c83a/internal/events/eventstream.go#L720
+                Without providing a default request timeout, it's set to 0s by default and could cause confusion when the user try the Swagger UI without modifying the request timeout.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-28 15:49:54 +0000 UTC
+        Created At 2023-11-27 18:35:04 +0000 UTC
     </div>
 </div>
 

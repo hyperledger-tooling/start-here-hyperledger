@@ -169,29 +169,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1064" class=".btn">#1064</a>
-            </td>
-            <td>
-                <b>
-                    chore: reorganize directory hierarchy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Further implementing https://github.com/hyperledger/aries-vcx/issues/1045
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-20 22:16:18 +0000 UTC
-    </div>
-</div>
-

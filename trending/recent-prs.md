@@ -1,13 +1,13 @@
 
-[4554](https://github.com/hyperledger/fabric/pull/4554) Ensure channelID in transaction matches chain instance
+[43](https://github.com/hyperledger/aries-acapy-plugins/pull/43) Bump aiohttp from 3.8.6 to 3.9.0 in /redis_events/docker/services
 
-[1071](https://github.com/hyperledger/aries-vcx/pull/1071) Add new Wallet trait
+[42](https://github.com/hyperledger/aries-acapy-plugins/pull/42) Bump aiohttp from 3.8.6 to 3.9.0 in /redis_events/integration
 
-[27](https://github.com/hyperledger/firefly-tezosconnect/pull/27) Fix issues reported by go report
+[2635](https://github.com/hyperledger/aries-cloudagent-python/pull/2635) Bump aiohttp from 3.8.6 to 3.9.0
 
-[4088](https://github.com/hyperledger/iroha/pull/4088) [fix] #4084: NumericValue suffix is mandatory
+[1036](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1036) feat: added support for reporting in error modal
 
-[1650](https://github.com/hyperledger/aries-framework-javascript/pull/1650) refactor: move message-pickup directory
+[25](https://github.com/hyperledger/aries-acapy-tools/pull/25) build(deps-dev): Bump aiohttp from 3.8.5 to 3.9.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

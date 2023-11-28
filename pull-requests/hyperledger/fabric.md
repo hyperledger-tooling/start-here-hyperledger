@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4555" class=".btn">#4555</a>
+            </td>
+            <td>
+                <b>
+                    Remove chaincode deploy legacy from pvt data tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit removes usages of the chaincode legacy deploy code from private data integration tests.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-27 23:24:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4554" class=".btn">#4554</a>
             </td>
             <td>
@@ -87,54 +114,6 @@ permalink: /pull-requests/hyperledger/fabric
     </table>
     <div class="right-align">
         Created At 2023-11-23 22:01:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4551" class=".btn">#4551</a>
-            </td>
-            <td>
-                <b>
-                    Return the struct directly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Change-Id: I3e1622c0c7ee144c3164cecc49f5cf6d75b9ec32
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-No need to create an empty struct and then fill in the data.
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-#### Release Note
-
-N/A
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-20 22:22:55 +0000 UTC
     </div>
 </div>
 

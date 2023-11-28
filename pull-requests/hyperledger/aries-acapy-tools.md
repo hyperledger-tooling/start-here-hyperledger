@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-tools
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-tools/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-tools/pull/25" class=".btn">#25</a>
             </td>
             <td>
                 <b>
-                    build(deps-dev): Bump aiohttp from 3.8.5 to 3.8.6
+                    build(deps-dev): Bump aiohttp from 3.8.5 to 3.9.0
                 </b>
             </td>
         </tr>
@@ -27,51 +27,59 @@ permalink: /pull-requests/hyperledger/aries-acapy-tools
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.8.5 to 3.8.6.
+                Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.8.5 to 3.9.0.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/aio-libs/aiohttp/releases">aiohttp's releases</a>.</em></p>
 <blockquote>
-<h2>3.8.6</h2>
-<h2>Security bugfixes</h2>
-<ul>
-<li>
-<p>Upgraded the vendored copy of llhttp_ to v9.1.3 -- by :user:<code>Dreamsorcerer</code></p>
-<p>Thanks to :user:<code>kenballus</code> for reporting this, see
-<a href="https://github.com/aio-libs/aiohttp/security/advisories/GHSA-pjjw-qhg8-p2p9">https://github.com/aio-libs/aiohttp/security/advisories/GHSA-pjjw-qhg8-p2p9</a>.</p>
-<p>.. _llhttp: <a href="https://llhttp.org">https://llhttp.org</a></p>
-<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7647">#7647</a>)</p>
-</li>
-<li>
-<p>Updated Python parser to comply with RFCs 9110/9112 -- by :user:<code>Dreamorcerer</code></p>
-<p>Thanks to :user:<code>kenballus</code> for reporting this, see
-<a href="https://github.com/aio-libs/aiohttp/security/advisories/GHSA-gfw2-4jvh-wgfg">https://github.com/aio-libs/aiohttp/security/advisories/GHSA-gfw2-4jvh-wgfg</a>.</p>
-<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7663">#7663</a>)</p>
-</li>
-</ul>
-<h2>Deprecation</h2>
-<ul>
-<li>
-<p>Added <code>fallback_charset_resolver</code> parameter in <code>ClientSession</code> to allow a user-supplied
-character set detection function.</p>
-<p>Character set detection will no longer be included in 3.9 as a default. If this feature is needed,
-please use <code>fallback_charset_resolver &lt;https://docs.aiohttp.org/en/stable/client_advanced.html#character-set-detection&gt;</code>_.</p>
-<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7561">#7561</a>)</p>
-</li>
-</ul>
+<h2>3.9.0</h2>
 <h2>Features</h2>
 <ul>
 <li>
-<p>Enabled lenient response parsing for more flexible parsing in the client
-(this should resolve some regressions when dealing with badly formatted HTTP responses). -- by :user:<code>Dreamsorcerer</code></p>
-<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7490">#7490</a>)</p>
+<p>Introduced <code>AppKey</code> for static typing support of <code>Application</code> storage.
+See <a href="https://docs.aiohttp.org/en/stable/web_advanced.html#application-s-config">https://docs.aiohttp.org/en/stable/web_advanced.html#application-s-config</a></p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/5864">#5864</a>)</p>
 </li>
-</ul>
-<h2>Bugfixes</h2>
-<ul>
 <li>
-<p>Fixed <code>PermissionError</code> when <code>.netrc</code> is unreadable due to permissions.</p>
-<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7237">#7237</a>)</p>
+<p>Added a graceful shutdown period which allows pending tasks to complete before the application's cleanup is called.
+The period can be adjusted with the <code>shutdown_timeout</code> parameter. -- by :user:<code>Dreamsorcerer</code>.
+See <a href="https://docs.aiohttp.org/en/latest/web_advanced.html#graceful-shutdown">https://docs.aiohttp.org/en/latest/web_advanced.html#graceful-shutdown</a></p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7188">#7188</a>)</p>
+</li>
+<li>
+<p>Added <code>handler_cancellation &lt;https://docs.aiohttp.org/en/stable/web_advanced.html#web-handler-cancellation&gt;</code>_ parameter to cancel web handler on client disconnection. -- by :user:<code>mosquito</code>
+This (optionally) reintroduces a feature removed in a previous release.
+Recommended for those looking for an extra level of protection against denial-of-service attacks.</p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7056">#7056</a>)</p>
+</li>
+<li>
+<p>Added support for setting response header parameters <code>max_line_size</code> and <code>max_field_size</code>.</p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/2304">#2304</a>)</p>
+</li>
+<li>
+<p>Added <code>auto_decompress</code> parameter to <code>ClientSession.request</code> to override <code>ClientSession._auto_decompress</code>. -- by :user:<code>Daste745</code></p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/3751">#3751</a>)</p>
+</li>
+<li>
+<p>Changed <code>raise_for_status</code> to allow a coroutine.</p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/3892">#3892</a>)</p>
+</li>
+<li>
+<p>Added client brotli compression support (optional with runtime check).</p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/5219">#5219</a>)</p>
+</li>
+<li>
+<p>Added <code>client_max_size</code> to <code>BaseRequest.clone()</code> to allow overriding the request body size. -- :user:<code>anesabml</code>.</p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/5704">#5704</a>)</p>
+</li>
+<li>
+<p>Added a middleware type alias <code>aiohttp.typedefs.Middleware</code>.</p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/5898">#5898</a>)</p>
+</li>
+<li>
+<p>Exported <code>HTTPMove</code> which can be used to catch any redirection request
+that has a location -- :user:<code>dreamsorcerer</code>.</p>
+<p>(<a href="https://redirect.github.com/aio-libs/aiohttp/issues/6594">#6594</a>)</p>
 </li>
 </ul>
 <!-- raw HTML omitted -->
@@ -82,44 +90,54 @@ please use <code>fallback_charset_resolver &lt;https://docs.aiohttp.org/en/stabl
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst">aiohttp's changelog</a>.</em></p>
 <blockquote>
-<h1>3.8.6 (2023-10-07)</h1>
-<h2>Security bugfixes</h2>
-<ul>
-<li>
-<p>Upgraded the vendored copy of llhttp_ to v9.1.3 -- by :user:<code>Dreamsorcerer</code></p>
-<p>Thanks to :user:<code>kenballus</code> for reporting this, see
-<a href="https://github.com/aio-libs/aiohttp/security/advisories/GHSA-pjjw-qhg8-p2p9">https://github.com/aio-libs/aiohttp/security/advisories/GHSA-pjjw-qhg8-p2p9</a>.</p>
-<p>.. _llhttp: <a href="https://llhttp.org">https://llhttp.org</a></p>
-<p><code>[#7647](https://github.com/aio-libs/aiohttp/issues/7647) &lt;https://github.com/aio-libs/aiohttp/issues/7647&gt;</code>_</p>
-</li>
-<li>
-<p>Updated Python parser to comply with RFCs 9110/9112 -- by :user:<code>Dreamorcerer</code></p>
-<p>Thanks to :user:<code>kenballus</code> for reporting this, see
-<a href="https://github.com/aio-libs/aiohttp/security/advisories/GHSA-gfw2-4jvh-wgfg">https://github.com/aio-libs/aiohttp/security/advisories/GHSA-gfw2-4jvh-wgfg</a>.</p>
-<p><code>[#7663](https://github.com/aio-libs/aiohttp/issues/7663) &lt;https://github.com/aio-libs/aiohttp/issues/7663&gt;</code>_</p>
-</li>
-</ul>
-<h2>Deprecation</h2>
-<ul>
-<li>
-<p>Added <code>fallback_charset_resolver</code> parameter in <code>ClientSession</code> to allow a user-supplied
-character set detection function.</p>
-<p>Character set detection will no longer be included in 3.9 as a default. If this feature is needed,
-please use <code>fallback_charset_resolver &lt;https://docs.aiohttp.org/en/stable/client_advanced.html#character-set-detection&gt;</code>_.</p>
-<p><code>[#7561](https://github.com/aio-libs/aiohttp/issues/7561) &lt;https://github.com/aio-libs/aiohttp/issues/7561&gt;</code>_</p>
-</li>
-</ul>
+<h1>3.9.0 (2023-11-18)</h1>
 <h2>Features</h2>
 <ul>
 <li>
-<p>Enabled lenient response parsing for more flexible parsing in the client
-(this should resolve some regressions when dealing with badly formatted HTTP responses). -- by :user:<code>Dreamsorcerer</code></p>
-<p><code>[#7490](https://github.com/aio-libs/aiohttp/issues/7490) &lt;https://github.com/aio-libs/aiohttp/issues/7490&gt;</code>_</p>
+<p>Introduced <code>AppKey</code> for static typing support of <code>Application</code> storage.
+See <a href="https://docs.aiohttp.org/en/stable/web_advanced.html#application-s-config">https://docs.aiohttp.org/en/stable/web_advanced.html#application-s-config</a></p>
+<p><code>[#5864](https://github.com/aio-libs/aiohttp/issues/5864) &lt;https://github.com/aio-libs/aiohttp/issues/5864&gt;</code>_</p>
 </li>
-</ul>
-<h2>Bugfixes</h2>
-<ul>
-<li>Fixed <code>PermissionError</code> when <code>.netrc</code> is unreadable due to permissions.</li>
+<li>
+<p>Added a graceful shutdown period which allows pending tasks to complete before the application's cleanup is called.
+The period can be adjusted with the <code>shutdown_timeout</code> parameter. -- by :user:<code>Dreamsorcerer</code>.
+See <a href="https://docs.aiohttp.org/en/latest/web_advanced.html#graceful-shutdown">https://docs.aiohttp.org/en/latest/web_advanced.html#graceful-shutdown</a></p>
+<p><code>[#7188](https://github.com/aio-libs/aiohttp/issues/7188) &lt;https://github.com/aio-libs/aiohttp/issues/7188&gt;</code>_</p>
+</li>
+<li>
+<p>Added <code>handler_cancellation &lt;https://docs.aiohttp.org/en/stable/web_advanced.html#web-handler-cancellation&gt;</code>_ parameter to cancel web handler on client disconnection. -- by :user:<code>mosquito</code>
+This (optionally) reintroduces a feature removed in a previous release.
+Recommended for those looking for an extra level of protection against denial-of-service attacks.</p>
+<p><code>[#7056](https://github.com/aio-libs/aiohttp/issues/7056) &lt;https://github.com/aio-libs/aiohttp/issues/7056&gt;</code>_</p>
+</li>
+<li>
+<p>Added support for setting response header parameters <code>max_line_size</code> and <code>max_field_size</code>.</p>
+<p><code>[#2304](https://github.com/aio-libs/aiohttp/issues/2304) &lt;https://github.com/aio-libs/aiohttp/issues/2304&gt;</code>_</p>
+</li>
+<li>
+<p>Added <code>auto_decompress</code> parameter to <code>ClientSession.request</code> to override <code>ClientSession._auto_decompress</code>. -- by :user:<code>Daste745</code></p>
+<p><code>[#3751](https://github.com/aio-libs/aiohttp/issues/3751) &lt;https://github.com/aio-libs/aiohttp/issues/3751&gt;</code>_</p>
+</li>
+<li>
+<p>Changed <code>raise_for_status</code> to allow a coroutine.</p>
+<p><code>[#3892](https://github.com/aio-libs/aiohttp/issues/3892) &lt;https://github.com/aio-libs/aiohttp/issues/3892&gt;</code>_</p>
+</li>
+<li>
+<p>Added client brotli compression support (optional with runtime check).</p>
+<p><code>[#5219](https://github.com/aio-libs/aiohttp/issues/5219) &lt;https://github.com/aio-libs/aiohttp/issues/5219&gt;</code>_</p>
+</li>
+<li>
+<p>Added <code>client_max_size</code> to <code>BaseRequest.clone()</code> to allow overriding the request body size. -- :user:<code>anesabml</code>.</p>
+<p><code>[#5704](https://github.com/aio-libs/aiohttp/issues/5704) &lt;https://github.com/aio-libs/aiohttp/issues/5704&gt;</code>_</p>
+</li>
+<li>
+<p>Added a middleware type alias <code>aiohttp.typedefs.Middleware</code>.</p>
+<p><code>[#5898](https://github.com/aio-libs/aiohttp/issues/5898) &lt;https://github.com/aio-libs/aiohttp/issues/5898&gt;</code>_</p>
+</li>
+<li>
+<p>Exported <code>HTTPMove</code> which can be used to catch any redirection request
+that has a location -- :user:<code>dreamsorcerer</code>.</p>
+</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -128,23 +146,23 @@ please use <code>fallback_charset_resolver &lt;https://docs.aiohttp.org/en/stabl
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/996de2629ef6b4c2934a7c04dfd49d0950d4c43b"><code>996de26</code></a> Release v3.8.6 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7668">#7668</a>)</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/8c128d4f042ca36ebdc55ecdd76099b7722331ba"><code>8c128d4</code></a> [PR <a href="https://redirect.github.com/aio-libs/aiohttp/issues/7651">#7651</a>/45f98b7d backport][3.8] Fix BadStatusLine message (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7666">#7666</a>)</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/89b7df157886ff390cdcdc44ecf3c277045838b1"><code>89b7df1</code></a> Allow lax response parsing on Py parser (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7663">#7663</a>) (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7664">#7664</a>)</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/d5c12ba890557a575c313bb3017910d7616fce3d"><code>d5c12ba</code></a> [PR <a href="https://redirect.github.com/aio-libs/aiohttp/issues/7661">#7661</a>/85713a48 backport][3.8] Update Python parser for RFCs 9110/9112 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7">#7</a>...</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/8a3977acac632d1f02aa7e047da51e27a717d724"><code>8a3977a</code></a> [PR <a href="https://redirect.github.com/aio-libs/aiohttp/issues/7272">#7272</a>/b2a7983a backport][3.8] Fix Read The Docs config (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7650">#7650</a>)</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/bcc416e533796d04fb8124ef1e7686b1f338767a"><code>bcc416e</code></a> [PR <a href="https://redirect.github.com/aio-libs/aiohttp/issues/7647">#7647</a>/1303350e backport][3.8] Upgrade to llhttp 9.1.3 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7648">#7648</a>)</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/b30c0cd2c96e57cc273ffe29c0313487b364f15a"><code>b30c0cd</code></a> Remove chardet/charset-normalizer. (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7589">#7589</a>)</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/5946c7436044bae14617ef06ee7c530ed72622da"><code>5946c74</code></a> CookieJar - return 'best-match' and not LIFO (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7577">#7577</a>) (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7588">#7588</a>)</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/8c4ec62f5ba514479ef1c2e74741bc7fa33be3f4"><code>8c4ec62</code></a> [PR <a href="https://redirect.github.com/aio-libs/aiohttp/issues/7518">#7518</a>/8bd42e74 backport][3.8] Fix GunicornWebWorker max_requests_jitter n...</li>
-<li><a href="https://github.com/aio-libs/aiohttp/commit/a0d234df392bd5cd67d378d31c9531c5ac87c07f"><code>a0d234d</code></a> Use lenient headers for response parser (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7490">#7490</a>) (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7492">#7492</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/aio-libs/aiohttp/compare/v3.8.5...v3.8.6">compare view</a></li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/45b2c2c5773f0ee0d35fce8ff5716c78e91d9135"><code>45b2c2c</code></a> Release v3.9.0 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7843">#7843</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/5d59d3d6ac073a7db5e5d2234e03a67da5dec48a"><code>5d59d3d</code></a> Release v3.9.0rc0 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7840">#7840</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/c806814a8aaad1661d75e6e2b8d619d6c44d331d"><code>c806814</code></a> Release v3.9.0rc0 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7838">#7838</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/e07a1bdaacfb83fda3ea8f668edacb36c6c125df"><code>e07a1bd</code></a> Use timestamp instead of datetime to achieve faster cookie expiration… (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7837">#7837</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/53476dfd4ef4fb1bb74a267714bbc39eda71b403"><code>53476df</code></a> Disallow arbitrary sequence types in version (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7835">#7835</a>) (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7836">#7836</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/9d712f2f9c06f71d48e98374938813643503bc34"><code>9d712f2</code></a> Bump mypy from 1.6.1 to 1.7.0 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7833">#7833</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/63a805e1d8360fd388b6e6443cd9bdfb139e90ea"><code>63a805e</code></a> Bump python-on-whales from 0.66.0 to 0.67.0 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7832">#7832</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/cb94533dd50426809b7fcbb8bbad0ef17509de5c"><code>cb94533</code></a> Ensure writer is always reset on completion (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7815">#7815</a>) (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7826">#7826</a>)</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/c0f9017a9a34a7823e1ea9b9abb393bd6c10777b"><code>c0f9017</code></a> [PR <a href="https://redirect.github.com/aio-libs/aiohttp/issues/7821">#7821</a>/366ba40f backport][3.9] Only check origin if insecure scheme and th...</li>
+<li><a href="https://github.com/aio-libs/aiohttp/commit/9d498ca1e632fe1976ea1dae0ea083b29b0cc4c0"><code>9d498ca</code></a> Bump sphinx from 7.1.1 to 7.2.6 (<a href="https://redirect.github.com/aio-libs/aiohttp/issues/7606">#7606</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/aio-libs/aiohttp/compare/v3.8.5...v3.9.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=aiohttp&package-manager=pip&previous-version=3.8.5&new-version=3.8.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=aiohttp&package-manager=pip&previous-version=3.8.5&new-version=3.9.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -176,7 +194,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-14 23:55:58 +0000 UTC
+        Created At 2023-11-28 00:46:21 +0000 UTC
     </div>
 </div>
 
