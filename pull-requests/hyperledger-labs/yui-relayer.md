@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/126" class=".btn">#126</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/127" class=".btn">#127</a>
             </td>
             <td>
                 <b>
-                    Update path config IDs
+                    Update path config
                 </b>
             </td>
         </tr>
@@ -27,18 +27,17 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                * Add SendMsgs
-* Removed required checks for ClientID and ConnectionID
-* Remove overWriteConfig
-* Add configI to core package
-
+                 * Add SendMsgs
+ * Removed required checks for ClientID and ConnectionID
+ * Remove overWriteConfig
+ * Add configI to core package
+ 
 This allows the client-id, connection-id, and channel-id in path.json to be set to empty by default.
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-24 09:12:47 +0000 UTC
+        Created At 2023-11-28 01:52:11 +0000 UTC
     </div>
 </div>
 
