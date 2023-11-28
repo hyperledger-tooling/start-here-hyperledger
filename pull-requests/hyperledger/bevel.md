@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2435" class=".btn">#2435</a>
+            </td>
+            <td>
+                <b>
+                    feat(shared): Implement GitHub Spellcheck and grammar linting for Pull request.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pull request implements the GitHub Spellcheck feature to automatically check the spelling and grammar in commit messages for all Pull Requests (PRs).
+
+Changes Made:
+- Modified the code to check the grammar errors at exact line numbers. 
+- In docs/README.md file corrected the grammar errors.
+
+Fixes: hyperledger#2327
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-28 07:44:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2434" class=".btn">#2434</a>
             </td>
             <td>
