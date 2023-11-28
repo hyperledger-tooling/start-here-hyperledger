@@ -32,6 +32,11 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+for verkle, I’m starting a refactor. In simple terms, many classes can distinguish whether they’re in ‘bonsai’ or ‘forest’ mode, so a generic interface doesn’t offer much value, except for some minor and synchronization parts.
+So, I’ve developed a ’WorldstatestorageCoordinator class. This will have a storage strategy, which could be either ‘bonsai’ or ‘forest’. This coordinator is needed when we’re unsure about the storage mode we use, and it helps for the routing process. when we’re sure about the storage mode, we directly use the appropriate strategy.
+This approach reduces the number of generic interfaces, eliminating locations that are not applicable to modes like ‘forest’ or other not clean things like that.
+Will be better when we will have to add some custom method or field for verkle
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -1792,71 +1797,6 @@ Move rpcGasCap and rpcMaxLogsRange to apiConfiguration
     </table>
     <div class="right-align">
         Created At 2023-11-21 23:35:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6194" class=".btn">#6194</a>
-            </td>
-            <td>
-                <b>
-                    Fix Docker image name clash between Besu and evmtool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-If Gradle property `dockerArtifactName` is specified, then both Besu and `evmtool` Docker images will use it has name, resulting in one overriding the other. 
-The fix in this PR is to always add the `-evmtool` suffix to the `evmtool` Docker image
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-21 16:56:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6193" class=".btn">#6193</a>
-            </td>
-            <td>
-                <b>
-                    verkle trie integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-21 16:10:19 +0000 UTC
     </div>
 </div>
 
