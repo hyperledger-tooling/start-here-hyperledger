@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1077" class=".btn">#1077</a>
+            </td>
+            <td>
+                <b>
+                    fix(message_macros):  explicit lifetime declaration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add explicit static lifetime rather than let the compiler guess. As per suggestion of lint `ELIDED_LIFETIMES_IN_ASSOCIATED_CONSTANT`
+
+https://github.com/rust-lang/rust/issues/115010
+
+This should fix the clippy warning we are seeing
+(the ones point to `MessageType` trait derive macro)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 17:51:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1076" class=".btn">#1076</a>
+            </td>
+            <td>
+                <b>
+                    fix(mediator-client): use standard endpoint intended for mediator clients
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/decentralized-identity/didcomm-messaging/blob/main/extensions/return_route/main.md#queue-transport
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 16:10:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1075" class=".btn">#1075</a>
+            </td>
+            <td>
+                <b>
+                    draft: change: simplify didcore components, did-exchange protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Yet quite a bit of work outstanding to get this even compiling. WIP
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 14:09:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1074" class=".btn">#1074</a>
             </td>
             <td>

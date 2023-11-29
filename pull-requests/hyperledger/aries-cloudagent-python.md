@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2638" class=".btn">#2638</a>
+            </td>
+            <td>
+                <b>
+                    fix: update broken demo dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Couldn't proceed with further local testing on my host. Probably due to differences in python versions. 
+
+```
+    self.proc = await asyncio.wait_for(future, 20, loop=loop)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: wait_for() got an unexpected keyword argument 'loop'
+```
+
+But pip install works fine now.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 14:22:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2636" class=".btn">#2636</a>
             </td>
             <td>
@@ -315,10 +349,12 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AnonCreds</span>
             </td>
             <td>
-                <nil>
+                Incorporate the new `askar-anoncreds` wallet type into the Credential and Presentation (`V2.0` only!) endpoints.  Update demo and integration tests and add a document.
+
+Revocation support (for anoncreds) is still outstanding, this is the next task.
             </td>
         </tr>
     </table>

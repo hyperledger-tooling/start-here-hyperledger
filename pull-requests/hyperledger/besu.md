@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6215" class=".btn">#6215</a>
+            </td>
+            <td>
+                <b>
+                    Unpin ca-certificates-java version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+CI builds are currently broken because an ubuntu package update breaks with ca-certificates-java version 20190909. If we allow it to use updates to the version (such as 20190909ubuntu1.2) the build un-breaks.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 17:57:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6214" class=".btn">#6214</a>
+            </td>
+            <td>
+                <b>
+                    GitHub ci testing pr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                DO NOT MERGE
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 14:49:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6212" class=".btn">#6212</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/36" class=".btn">#36</a>
+            </td>
+            <td>
+                <b>
+                    Update version to 0.3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also cleans up a few warnings when the `serde` feature is disabled.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 18:18:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/35" class=".btn">#35</a>
             </td>
             <td>
