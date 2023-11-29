@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6212" class=".btn">#6212</a>
+            </td>
+            <td>
+                <b>
+                    [#5851] Add error messages on authentication failures with username and password
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Include in body message in response 400
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5851
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 08:44:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6210" class=".btn">#6210</a>
             </td>
             <td>
@@ -176,90 +211,6 @@ Therefore, I decided to revert some modification on this PR by fixing the proble
     </table>
     <div class="right-align">
         Created At 2023-11-23 13:11:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6202" class=".btn">#6202</a>
-            </td>
-            <td>
-                <b>
-                    New cli options to limit rewards return by eth_feeHistory 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-On Goerli: 
-
-##  Test 1
-
-  - api-priority-fee-limiting-enabled=true
-  - api-priority-fee-lower-bound-coefficient=120
-  - api-priority-fee-upper-bound-coefficient=150
-  - min-priority-fee=1
-
-```
-eth.feeHistory("0x1", "0x9a6b98", [0,10,20,30,40,50,60,70,80,90,100])
-{
-  baseFeePerGas: ["0xa", "0xa"],
-  gasUsedRatio: [0.17461906666666666],
-  oldestBlock: "0x9a6b98",
-  reward: [["0x1", "0x1", "0x1", "0x1", "0x1", "0x1", "0x1", "0x1", "0x1", "0x1", "0x1"]]
-}
-
-```
-
-##  Test 2
-
-  - api-priority-fee-limiting-enabled=true
-  - api-priority-fee-lower-bound-coefficient=15000
-  - api-priority-fee-upper-bound-coefficient=150000000000
-  - min-priority-fee=1
-
-
-```
-> eth.feeHistory("0x1", "0x9a6b98", [0,10,20,30,40,50,60,70,80,90,100])
-{
-  baseFeePerGas: ["0xa", "0xa"],
-  gasUsedRatio: [0.17461906666666666],
-  oldestBlock: "0x9a6b98",
-  reward: [["0x96", "0x96", "0x96", "0x96", "0x3b9aca00", "0x3b9aca00", "0x3b9aca00", "0x3b9aca00", "0x59682f00", "0x59682f00", "0x59682f00"]]
-}
-```
-
-##  Test 3
-
-  - api-priority-fee-limiting-enabled=true
-  - api-priority-fee-lower-bound-coefficient=0
-  - api-priority-fee-upper-bound-coefficient=9999999999999999
-  - min-priority-fee=1
-
-```
-eth.feeHistory("0x1", "0x9a6b98", [0,10,20,30,40,50,60,70,80,90,100])
-
-{
-  baseFeePerGas: ["0xa", "0xa"],
-  gasUsedRatio: [0.17461906666666666],
-  oldestBlock: "0x9a6b98",
-  reward: [["0x2", "0x2", "0x2", "0x5", "0x3b9aca00", "0x3b9aca00", "0x3b9aca00", "0x3b9aca00", "0x59682f00", "0x721646a2", "0x2ba7def2ff6"]]
-}
-```
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 06:32:33 +0000 UTC
     </div>
 </div>
 

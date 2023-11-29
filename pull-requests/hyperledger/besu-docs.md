@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1460" class=".btn">#1460</a>
+            </td>
+            <td>
+                <b>
+                    Updated miner_setMinPriorityFee param to hex
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated miner_getMinPriorityFee result to a hex string
+
+Fixes #1435 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 07:21:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1459" class=".btn">#1459</a>
             </td>
             <td>
@@ -33,58 +61,6 @@ permalink: /pull-requests/hyperledger/besu-docs
     </table>
     <div class="right-align">
         Created At 2023-11-28 23:54:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1455" class=".btn">#1455</a>
-            </td>
-            <td>
-                <b>
-                    Fixed formatting issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1400 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 07:43:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1454" class=".btn">#1454</a>
-            </td>
-            <td>
-                <b>
-                    Clarified behaviour of eth_call strict parameter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1429 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 06:37:41 +0000 UTC
     </div>
 </div>
 

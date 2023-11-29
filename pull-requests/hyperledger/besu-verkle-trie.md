@@ -132,37 +132,3 @@ fixes https://github.com/hyperledger/besu-verkle-trie/issues/15
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    improve pedersen vector commitment docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Small change, this is a bit confusing - IPA is used in proofs, for the trie we only need Pedersen commitment (MSM)
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 11:51:40 +0000 UTC
-    </div>
-</div>
-

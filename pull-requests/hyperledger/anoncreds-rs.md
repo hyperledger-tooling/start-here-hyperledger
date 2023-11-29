@@ -471,37 +471,3 @@ For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/276" class=".btn">#276</a>
-            </td>
-            <td>
-                <b>
-                    AnonCreds Credentials using the W3C Standard - proof value encoding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use message pack for encoding proof values of w3c credentials and presentation.
-Results of proof value string length on example of credentials signature:
-* base64(JSON) previously used - 3821 
-* base64(**MessagePack**) will be used - 2541
-* base64(CBOR) - 3041
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 07:02:17 +0000 UTC
-    </div>
-</div>
-
