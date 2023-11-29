@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4098" class=".btn">#4098</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4097: Fix warp noise in logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+- `warp::trace::request()` was attached twice for some endpoints, which lead to noise in logs
+- logging error inside queue push was redundant because error should be handled on caller site
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4097 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Less noise in logs.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 07:22:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4096" class=".btn">#4096</a>
             </td>
             <td>
@@ -27,11 +83,10 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                
-## Description
+                ## Description
 
 <!-- Just describe what you did. -->
-Change the checking parts in build.rs files to check if the env is passed during the build. this should only build the WASM builder if the code snippet will used and in our case it will not be because the env variable is not passed. 
+Change the checking parts in build.rs files to check if the env is passed during the build. this should only build the WASM builder if the code snippet will be used and in our case it will not be because the env variable is not passed. 
 
             </td>
         </tr>
@@ -329,145 +384,6 @@ A little step closer to implementing the Configuration RFC (#2585).
     </table>
     <div class="right-align">
         Created At 2023-11-23 06:35:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4073" class=".btn">#4073</a>
-            </td>
-            <td>
-                <b>
-                    [BACKPORT] #4065: Prevent pub key spoofing in p2p
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Backport for recently merged #4069
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 11:59:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4071" class=".btn">#4071</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #4070: Enable `tls-rustls-native-roots` `iroha_client` feature by default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Deploying behind an HTTPS proxy seems like a common occurrence, so we should have some TLS implementation by default.
-
-Rustls brings less problems with linking under musl, so use it
-
-### Linked issue
-
-Closes #4070
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Make a sane choice so that the user does not have to. If they don't like the choice, they can disable the default features and make their own.
-
-### Checklist
-
-- [ ] make CI pass
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 10:51:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4069" class=".btn">#4069</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #4065: Prevent pub key spoofing in p2p
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">Security</span>
-            </td>
-            <td>
-                ## Description
-
-Instead of sending just pub key it's now required to send pub key + signature of shared session key to prove ownership of this public key in order to prevent spoofing.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4065 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Security bug resolved.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 08:37:56 +0000 UTC
     </div>
 </div>
 

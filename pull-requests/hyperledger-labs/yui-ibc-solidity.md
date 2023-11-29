@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/236" class=".btn">#236</a>
+            </td>
+            <td>
+                <b>
+                    Bump up minimal solidity version to v0.8.12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Before v0.8.12, there is an internal compiler error of casting `string(b[from:to])` where type of b is `bytes calldata`. Therefore, ICS-20 that uses this cast cannot be compiled with <v0.8.12 at least.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 09:10:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/235" class=".btn">#235</a>
             </td>
             <td>
