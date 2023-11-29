@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/438" class=".btn">#438</a>
+            </td>
+            <td>
+                <b>
+                    Security: Navigation and bad syntax bug fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Fixed:
+- The **Storing Cryptographic Keys** topic was inaccessible for users due to `.vitepress/config.mts` containing a typo, which resulted in both the **Generating Cryptographic Keys** and **Storing Cryptographic Keys** buttons of the navbar leading to the **Generating Cryptographic Keys** topic.
+- A case of bad VitePress-related syntax, which resulted in the hosted HTML page containing an unformatted custom container.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 05:48:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/435" class=".btn">#435</a>
             </td>
             <td>
@@ -35,58 +63,6 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </table>
     <div class="right-align">
         Created At 2023-11-23 06:42:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/434" class=".btn">#434</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: optimize scan, put TODO note
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 03:47:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/433" class=".btn">#433</a>
-            </td>
-            <td>
-                <b>
-                    Stylistic chores
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #410 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 03:24:39 +0000 UTC
     </div>
 </div>
 

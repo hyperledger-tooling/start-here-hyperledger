@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Fix chuckify PUSH32 at 31st byte edge case
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+
+## PR description
+This PR adds a check to prevent the first byte of a code chunk (push data) to be of value 32 (0x20).
+When a PUSH32 appears in the 31 byte of a code chunk (suppose codechunk n) code chunk n+1 should have the first byte declaring that the following 31 bytes are pushdata and codechunk n+2 will have the first byte declaring that the following 1 byte is the overflow of the pushdata.
+
+Test for this has been added using the sample from Kaustinen genesis.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #14 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 05:35:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/23" class=".btn">#23</a>
             </td>
             <td>
