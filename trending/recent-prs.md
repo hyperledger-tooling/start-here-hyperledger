@@ -1,13 +1,13 @@
 
-[235](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/235) Improve linter settings
+[566](https://github.com/hyperledger-labs/fabric-operations-console/pull/566) added testcase for 2.0 channel update
 
-[2636](https://github.com/hyperledger/aries-cloudagent-python/pull/2636) Bump cryptography from 41.0.5 to 41.0.6
+[438](https://github.com/hyperledger/iroha-2-docs/pull/438) Security: Navigation and bad syntax bug fix
 
-[29](https://github.com/hyperledger-labs/did-webs-resolver/pull/29) Feat/desig aliases equivid aka
+[24](https://github.com/hyperledger/besu-verkle-trie/pull/24) Fix chuckify PUSH32 at 31st byte edge case
 
-[2911](https://github.com/hyperledger/cacti/pull/2911) build(deps): bump cryptography from 41.0.4 to 41.0.6 in /packages-python/cactus_validator_socketio_indy/validator-python
+[109](https://github.com/hyperledger-labs/hlf-connector/pull/109) Increment version after release
 
-[2910](https://github.com/hyperledger/cacti/pull/2910) build(deps): bump cryptography from 41.0.4 to 41.0.6 in /packages-python/cactus_validator_socketio_indy
+[35](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/35) Bignum cleanups: remove code duplication and bignum context
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
