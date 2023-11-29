@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-akrida
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-akrida/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/aries-akrida/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    feat: add tails for revocation
+                    feat: launch ACA-Py securely with API Key
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-akrida
                 
             </td>
             <td>
-                Adding tails to the ACA-Py `docker-compose.yml` so revocation works
+                Due to the nature AWS security groups, opting to have an API key to access the admin UI for ACA-Py. 
+
+Otherwise, given an alternative, these portions can be commented out. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-20 22:38:44 +0000 UTC
+        Created At 2023-11-28 23:30:09 +0000 UTC
     </div>
 </div>
 

@@ -1773,30 +1773,3 @@ fixes #6182
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6195" class=".btn">#6195</a>
-            </td>
-            <td>
-                <b>
-                    Refactor: Move rpcGasCap and rpcMaxLogsRange to apiConfiguration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Move rpcGasCap and rpcMaxLogsRange to apiConfiguration
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-21 23:35:11 +0000 UTC
-    </div>
-</div>
-

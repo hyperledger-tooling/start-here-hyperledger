@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/235" class=".btn">#235</a>
+            </td>
+            <td>
+                <b>
+                    Improve linter settings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - bump up solhint to v4
+- enable two further lint rules: `no-unused-import`, `no-global-import`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 00:56:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/234" class=".btn">#234</a>
             </td>
             <td>

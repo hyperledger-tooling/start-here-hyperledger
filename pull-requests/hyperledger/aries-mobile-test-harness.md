@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/216" class=".btn">#216</a>
+            </td>
+            <td>
+                <b>
+                    update path for retrieving screenshots
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-28 21:47:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/215" class=".btn">#215</a>
+            </td>
+            <td>
+                <b>
+                    updated wallet naming for android
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TestiD not working on Android for edit wallet name. Using accessibility id instead. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-28 18:29:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/214" class=".btn">#214</a>
             </td>
             <td>
@@ -85,32 +137,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </table>
     <div class="right-align">
         Created At 2023-11-23 15:49:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/211" class=".btn">#211</a>
-            </td>
-            <td>
-                <b>
-                    fix archive and add qrcode border
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-21 20:45:57 +0000 UTC
     </div>
 </div>
 
