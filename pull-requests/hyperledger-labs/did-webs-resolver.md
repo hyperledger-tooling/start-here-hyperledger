@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Fix time format to comply with did core
+                    Feat/desig aliases equivid aka
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                Reported in issue https://github.com/hyperledger-labs/did-webs-resolver/issues/27
+                Using a deignated alias attestation the generator can populate the equivalentId metadata and the alsoKnownAs property.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-03 18:10:51 +0000 UTC
+        Created At 2023-11-29 00:19:45 +0000 UTC
     </div>
 </div>
 

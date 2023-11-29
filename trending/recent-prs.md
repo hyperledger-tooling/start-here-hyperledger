@@ -1,13 +1,13 @@
 
-[4096](https://github.com/hyperledger/iroha/pull/4096) [fix] #4090: Fix having to pass IROHA_SKIP_WASM_CHECKS env variable with true
+[235](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/235) Improve linter settings
 
-[16](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/16) feat: socket benchmarking
+[2636](https://github.com/hyperledger/aries-cloudagent-python/pull/2636) Bump cryptography from 41.0.5 to 41.0.6
 
-[518](https://github.com/hyperledger-labs/fabric-token-sdk/pull/518) FSC update
+[29](https://github.com/hyperledger-labs/did-webs-resolver/pull/29) Feat/desig aliases equivid aka
 
-[4095](https://github.com/hyperledger/iroha/pull/4095) [BACKPORT] #0000: Fix trigger atomicity
+[2911](https://github.com/hyperledger/cacti/pull/2911) build(deps): bump cryptography from 41.0.4 to 41.0.6 in /packages-python/cactus_validator_socketio_indy/validator-python
 
-[511](https://github.com/hyperledger-labs/fabric-smart-client/pull/511) Upgrade FPC version
+[2910](https://github.com/hyperledger/cacti/pull/2910) build(deps): bump cryptography from 41.0.4 to 41.0.6 in /packages-python/cactus_validator_socketio_indy
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
