@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/155" class=".btn">#155</a>
             </td>
             <td>
                 <b>
-                    Reverting Use tags default to true
+                    Change the probes from legacy endpoints to tcp ports
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                <nil>
+                https://github.com/hyperledger-labs/fabric-operator/issues/154
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-07 15:58:16 +0000 UTC
+        Created At 2023-11-29 13:08:58 +0000 UTC
     </div>
 </div>
 

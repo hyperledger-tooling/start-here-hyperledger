@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    TEST: genesis stateroot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Provides a new testcase based on kaustinen genesis.
+It puts a list of key-value pairs from a csv file and commits.
+The expected stateroot is taken from geth dotfile after genesis.
+This can be used to investigates the bugs found in the commitments.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 15:37:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/24" class=".btn">#24</a>
             </td>
             <td>
@@ -102,33 +132,6 @@ Fixes #14
     </table>
     <div class="right-align">
         Created At 2023-11-23 07:56:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/20" class=".btn">#20</a>
-            </td>
-            <td>
-                <b>
-                    Ensure Clean State of Nodes After Commit in Besu-Verkle-Trie
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes https://github.com/neotheprogramist/besu-verkle-trie/issues/1
-fixes https://github.com/hyperledger/besu-verkle-trie/issues/15
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-22 14:45:31 +0000 UTC
     </div>
 </div>
 

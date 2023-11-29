@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/161" class=".btn">#161</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/162" class=".btn">#162</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/onsi/ginkgo/v2 from 2.13.0 to 2.13.1
+                    Bump github.com/onsi/ginkgo/v2 from 2.13.1 to 2.13.2
                 </b>
             </td>
         </tr>
@@ -27,26 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [github.com/onsi/ginkgo/v2](https://github.com/onsi/ginkgo) from 2.13.0 to 2.13.1.
+                Bumps [github.com/onsi/ginkgo/v2](https://github.com/onsi/ginkgo) from 2.13.1 to 2.13.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/onsi/ginkgo/releases">github.com/onsi/ginkgo/v2's releases</a>.</em></p>
 <blockquote>
-<h2>v2.13.1</h2>
-<h2>2.13.1</h2>
+<h2>v2.13.2</h2>
+<h2>2.13.2</h2>
 <h3>Fixes</h3>
 <ul>
-<li>
-<h1>1296 fix(precompiled test guite): exec bit check omitted on Windows (<a href="https://redirect.github.com/onsi/ginkgo/issues/1301">#1301</a>) [26eea01]</h1>
-</li>
-</ul>
-<h3>Maintenance</h3>
-<ul>
-<li>Bump github.com/go-logr/logr from 1.2.4 to 1.3.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1291">#1291</a>) [7161a9d]</li>
-<li>Bump golang.org/x/sys from 0.13.0 to 0.14.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1295">#1295</a>) [7fc7b10]</li>
-<li>Bump golang.org/x/tools from 0.12.0 to 0.14.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1282">#1282</a>) [74bbd65]</li>
-<li>Bump github.com/onsi/gomega from 1.27.10 to 1.29.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1290">#1290</a>) [9373633]</li>
-<li>Bump golang.org/x/net in /integration/_fixtures/version_mismatch_fixture (<a href="https://redirect.github.com/onsi/ginkgo/issues/1286">#1286</a>) [6e3cf65]</li>
+<li>Fix file handler leak (<a href="https://redirect.github.com/onsi/ginkgo/issues/1309">#1309</a>) [e2e81c8]</li>
+<li>Avoid allocations with <code>(*regexp.Regexp).MatchString</code> (<a href="https://redirect.github.com/onsi/ginkgo/issues/1302">#1302</a>) [3b2a2a7]</li>
 </ul>
 </blockquote>
 </details>
@@ -54,40 +45,27 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/onsi/ginkgo/blob/master/CHANGELOG.md">github.com/onsi/ginkgo/v2's changelog</a>.</em></p>
 <blockquote>
-<h2>2.13.1</h2>
+<h2>2.13.2</h2>
 <h3>Fixes</h3>
 <ul>
-<li>
-<h1>1296 fix(precompiled test guite): exec bit check omitted on Windows (<a href="https://redirect.github.com/onsi/ginkgo/issues/1301">#1301</a>) [26eea01]</h1>
-</li>
-</ul>
-<h3>Maintenance</h3>
-<ul>
-<li>Bump github.com/go-logr/logr from 1.2.4 to 1.3.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1291">#1291</a>) [7161a9d]</li>
-<li>Bump golang.org/x/sys from 0.13.0 to 0.14.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1295">#1295</a>) [7fc7b10]</li>
-<li>Bump golang.org/x/tools from 0.12.0 to 0.14.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1282">#1282</a>) [74bbd65]</li>
-<li>Bump github.com/onsi/gomega from 1.27.10 to 1.29.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1290">#1290</a>) [9373633]</li>
-<li>Bump golang.org/x/net in /integration/_fixtures/version_mismatch_fixture (<a href="https://redirect.github.com/onsi/ginkgo/issues/1286">#1286</a>) [6e3cf65]</li>
+<li>Fix file handler leak (<a href="https://redirect.github.com/onsi/ginkgo/issues/1309">#1309</a>) [e2e81c8]</li>
+<li>Avoid allocations with <code>(*regexp.Regexp).MatchString</code> (<a href="https://redirect.github.com/onsi/ginkgo/issues/1302">#1302</a>) [3b2a2a7]</li>
 </ul>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/onsi/ginkgo/commit/64b855226151a4fe9df057839750d1bf4772b009"><code>64b8552</code></a> v2.13.1</li>
-<li><a href="https://github.com/onsi/ginkgo/commit/26eea013cbafdec66e1385cde033c3c105a3d020"><code>26eea01</code></a> # 1296 fix(precompiled test guite): exec bit check omitted on Windows (<a href="https://redirect.github.com/onsi/ginkgo/issues/1301">#1301</a>)</li>
-<li><a href="https://github.com/onsi/ginkgo/commit/7161a9d90a24fd70df1e687b71d4ae186ec85dd7"><code>7161a9d</code></a> Bump github.com/go-logr/logr from 1.2.4 to 1.3.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1291">#1291</a>)</li>
-<li><a href="https://github.com/onsi/ginkgo/commit/7fc7b101ae7ec8266083090895ce68a9c4a43546"><code>7fc7b10</code></a> Bump golang.org/x/sys from 0.13.0 to 0.14.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1295">#1295</a>)</li>
-<li><a href="https://github.com/onsi/ginkgo/commit/74bbd6552ca29d47cf6c828aac38d42fbd912bd9"><code>74bbd65</code></a> Bump golang.org/x/tools from 0.12.0 to 0.14.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1282">#1282</a>)</li>
-<li><a href="https://github.com/onsi/ginkgo/commit/937363309301ba5848fe675bd62efe45931c5631"><code>9373633</code></a> Bump github.com/onsi/gomega from 1.27.10 to 1.29.0 (<a href="https://redirect.github.com/onsi/ginkgo/issues/1290">#1290</a>)</li>
-<li><a href="https://github.com/onsi/ginkgo/commit/6e3cf6591ea89e36a7ff2d2198ae72879838f19d"><code>6e3cf65</code></a> Bump golang.org/x/net in /integration/_fixtures/version_mismatch_fixture (<a href="https://redirect.github.com/onsi/ginkgo/issues/1286">#1286</a>)</li>
-<li>See full diff in <a href="https://github.com/onsi/ginkgo/compare/v2.13.0...v2.13.1">compare view</a></li>
+<li><a href="https://github.com/onsi/ginkgo/commit/931dc0b144749710bd085d4eb7cd4192a22972d7"><code>931dc0b</code></a> v2.13.2</li>
+<li><a href="https://github.com/onsi/ginkgo/commit/e2e81c8c1d965d0e1274dcac71740dcc6d75dfcf"><code>e2e81c8</code></a> Fix file handler leak (<a href="https://redirect.github.com/onsi/ginkgo/issues/1309">#1309</a>)</li>
+<li><a href="https://github.com/onsi/ginkgo/commit/3b2a2a7e74069d66b0f64922afd3426a6167dd3c"><code>3b2a2a7</code></a> Avoid allocations with <code>(*regexp.Regexp).MatchString</code> (<a href="https://redirect.github.com/onsi/ginkgo/issues/1302">#1302</a>)</li>
+<li>See full diff in <a href="https://github.com/onsi/ginkgo/compare/v2.13.1...v2.13.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/onsi/ginkgo/v2&package-manager=go_modules&previous-version=2.13.0&new-version=2.13.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/onsi/ginkgo/v2&package-manager=go_modules&previous-version=2.13.1&new-version=2.13.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -119,7 +97,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-13 14:29:57 +0000 UTC
+        Created At 2023-11-29 14:56:12 +0000 UTC
     </div>
 </div>
 

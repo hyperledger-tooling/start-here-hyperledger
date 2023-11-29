@@ -1,13 +1,13 @@
 
-[236](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/236) Bump up minimal solidity version to v0.8.12
+[36](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/36) Update version to 0.3.0
 
-[6212](https://github.com/hyperledger/besu/pull/6212) [#5851] Add error messages on authentication failures with username and password
+[6215](https://github.com/hyperledger/besu/pull/6215) Unpin ca-certificates-java version
 
-[4098](https://github.com/hyperledger/iroha/pull/4098) [fix] #4097: Fix warp noise in logs
+[1077](https://github.com/hyperledger/aries-vcx/pull/1077) fix(message_macros):  explicit lifetime declaration
 
-[1460](https://github.com/hyperledger/besu-docs/pull/1460) Updated miner_setMinPriorityFee param to hex
+[112](https://github.com/hyperledger/firefly-common/pull/112) Fix docs regression in parameter descriptions that changes swagger gen
 
-[566](https://github.com/hyperledger-labs/fabric-operations-console/pull/566) added testcase for 2.0 channel update
+[1076](https://github.com/hyperledger/aries-vcx/pull/1076) fix(mediator-client): use standard endpoint intended for mediator clients
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
