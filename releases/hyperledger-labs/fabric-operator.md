@@ -15,40 +15,32 @@ permalink: /releases/hyperledger-labs/fabric-operator
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.7-1
+                    v1.0.8-1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.7-1
+                    v1.0.8-1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fixing gosec issues by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/98
-* Updating maintainers list to add and remove maintainers by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/97
-* Move hyperledgendary sample to fabric-operator by @jkneubuh in https://github.com/hyperledger-labs/fabric-operator/pull/95
-* fix: when not using couchdb, the resources of peer's init container d… by @Abirdcfly in https://github.com/hyperledger-labs/fabric-operator/pull/101
-* fix: E2E testing failed but displayed success by @Abirdcfly in https://github.com/hyperledger-labs/fabric-operator/pull/103
-* Removed IBM Confidencial License by @shoaebjindani in https://github.com/hyperledger-labs/fabric-operator/pull/110
-* Upgrade to patched secure Docker version (no go mod tidy). by @benjsmi in https://github.com/hyperledger-labs/fabric-operator/pull/137
-* Porting changes from V1.0.6 to master by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/142
-* A job to push operator image from main by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/144
-* disable peer block gossiping with config blockGossipEnabled flag by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/146
-* Fix the Makefile by adding missing targets by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/147
+* Making Use tags default to true by @shoaebjindani in https://github.com/hyperledger-labs/fabric-operator/pull/150
+* Make use tags default to true for couchdb by @shoaebjindani in https://github.com/hyperledger-labs/fabric-operator/pull/152
+* Change the probes from legacy endpoints to tcp ports by @asararatnakar in https://github.com/hyperledger-labs/fabric-operator/pull/155
 
 
-**Full Changelog**: https://github.com/hyperledger-labs/fabric-operator/compare/v1.0.6-2...v1.0.7-1
+**Full Changelog**: https://github.com/hyperledger-labs/fabric-operator/compare/v1.0.7-1...v1.0.8-1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.7-1" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.8-1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-10-31 14:25:33 +0000 UTC
+        Created At 2023-11-29 13:51:22 +0000 UTC
     </span>
 </div>
 
