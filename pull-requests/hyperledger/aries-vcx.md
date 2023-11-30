@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1078" class=".btn">#1078</a>
+            </td>
+            <td>
+                <b>
+                    feat: implement RecordWallet for askar 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                extracted from https://github.com/hyperledger/aries-vcx/pull/1063 as it was growing too large.
+
+I can't really set https://github.com/hyperledger/aries-vcx/pull/1071 as a base for merge since I opened it from my fork, but the commits here are separated, so it should still be possible to view only the implementation part with a relative ease.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 14:22:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1077" class=".btn">#1077</a>
             </td>
             <td>
@@ -287,7 +315,7 @@ We are using this_error library for the same. And designing the error hierarchy/
             </td>
             <td>
                 <b>
-                    Add new Wallet trait
+                    feat: Add new Wallet trait
                 </b>
             </td>
         </tr>

@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6218" class=".btn">#6218</a>
+            </td>
+            <td>
+                <b>
+                    Allow `maxActiveConnections` for GraphQL and terminate requests based on actual connection status
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+1. The option of `--graphql-http-max-active-connections` has been added to limit the numer of GraphQL requests served each time.
+2. The GraphQL server has been relying on an `isAliveHandler` to terminate requests based on the timeout. However, this handler was only applied to `matchingLogs`, resulting in unterminated GraphQL executions in general even if the connection has timed out. Rather than relying on a future task, it is more appropriate to terminate requests based on the actual status of the connection. The `TimeoutHandler` should have handled the HTTP timeout while connections may also be terminated due to exceeding `maxActiveConnections`.
+
+Docs change would be added in another PR in a later stage when code changes stabilise.
+
+## Fixed Issue(s)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 15:40:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6215" class=".btn">#6215</a>
             </td>
             <td>
@@ -205,73 +238,6 @@ Will be better when we will have to add some custom method or field for verkle
     </table>
     <div class="right-align">
         Created At 2023-11-28 02:20:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6206" class=".btn">#6206</a>
-            </td>
-            <td>
-                <b>
-                    Fix log index in transaction receipt
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Assign log index to transaction receipt according to position in block instead of in transaction.
-
-## Fixed Issue(s)
-fixes #6204 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-23 15:30:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6205" class=".btn">#6205</a>
-            </td>
-            <td>
-                <b>
-                    fix collision issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-The idea of this PR is to revert some modification that was made to pass tests  https://github.com/hyperledger/besu/pull/5686.
-
-Therefore, I decided to revert some modification on this PR by fixing the problem differently. Indeed, the idea of the collision test that does not pass is to selfdestruct a contract and recreate it afterwards. Instead of modifying the logic of the accumulator and listing all the storage leaves to be deleted during the selfdestruct, which seems to lead to edge cases, I prefer to let BonsaiWorldstate handle it as before and just load the storage with EMPTY_TRIE_HASH if we detect that it has been cleared before pushing the new slots after recreation. Indeed, the clearing of the storage that is done at the beginning of calculateRootHash removes the storage but does not change the storage root of the contract. Therefore, we falsely believe that the storage is not empty.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-23 13:11:21 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2642" class=".btn">#2642</a>
+            </td>
+            <td>
+                <b>
+                    Feat: DIDX Implicit Request auto-accept and List and Delete OOB Invitation Records
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Based on Akiff's comments on general improvements with ACA-Py during 11/30/2023 meeting
+- Pending final testing + unit test changes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 16:57:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2638" class=".btn">#2638</a>
             </td>
             <td>
