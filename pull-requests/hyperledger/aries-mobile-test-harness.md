@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/217" class=".btn">#217</a>
+            </td>
+            <td>
+                <b>
+                    fixes to the connectionless oob tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This update fixes the BC Wallet tests in the OOB Connectionless proof scenario. Most important thing here is the added step to select the credential on the contact screen which was overlooked when the credential and proof flows were updated. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 19:20:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/216" class=".btn">#216</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[36](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/36) Update version to 0.3.0
+[91](https://github.com/hyperledger-labs/acapy-java-client/pull/91) Bump ch.qos.logback:logback-classic from 1.3.11 to 1.3.12
 
-[6215](https://github.com/hyperledger/besu/pull/6215) Unpin ca-certificates-java version
+[320](https://github.com/hyperledger/fabric-chaincode-java/pull/320) Bump ch.qos.logback:logback-classic from 1.3.11 to 1.3.12 in /examples/fabric-contract-example-maven
 
-[1077](https://github.com/hyperledger/aries-vcx/pull/1077) fix(message_macros):  explicit lifetime declaration
+[63](https://github.com/hyperledger/bevel-samples/pull/63) Bump ch.qos.logback:logback-classic from 1.2.9 to 1.3.12 in /images/networkmap
 
-[112](https://github.com/hyperledger/firefly-common/pull/112) Fix docs regression in parameter descriptions that changes swagger gen
+[62](https://github.com/hyperledger/bevel-samples/pull/62) Bump ch.qos.logback:logback-classic from 1.2.9 to 1.3.12 in /images/doorman
 
-[1076](https://github.com/hyperledger/aries-vcx/pull/1076) fix(mediator-client): use standard endpoint intended for mediator clients
+[1037](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1037) feat: const override
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

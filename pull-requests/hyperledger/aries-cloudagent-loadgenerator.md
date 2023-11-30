@@ -1,33 +1,33 @@
 ---
 layout: default
-title: acapy-java-client
-parent: Hyperledger Labs
+title: aries-cloudagent-loadgenerator
+parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/acapy-java-client
+permalink: /pull-requests/hyperledger/aries-cloudagent-loadgenerator
 ---
 
-# acapy-java-client <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/acapy-java-client){: .btn .mr-4 }</span>
+# aries-cloudagent-loadgenerator <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-cloudagent-loadgenerator){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-loadgenerator/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    Bump ch.qos.logback:logback-classic from 1.3.11 to 1.3.12
+                    chore(deps): bump ch.qos.logback:logback-classic from 1.2.3 to 1.3.12
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">java</span>
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [ch.qos.logback:logback-classic](https://github.com/qos-ch/logback) from 1.3.11 to 1.3.12.
+                Bumps [ch.qos.logback:logback-classic](https://github.com/qos-ch/logback) from 1.2.3 to 1.3.12.
 <details>
 <summary>Commits</summary>
 <ul>
@@ -41,13 +41,13 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
 <li><a href="https://github.com/qos-ch/logback/commit/3b91f6d5137814b89a7c9277279ca630292f17c2"><code>3b91f6d</code></a> minor refactoring</li>
 <li><a href="https://github.com/qos-ch/logback/commit/d94ebec6edfdd6e7e3737e9e4c3cd1551e8cdec0"><code>d94ebec</code></a> fix guthub issue 715</li>
 <li><a href="https://github.com/qos-ch/logback/commit/c76b3030ce618b8c361f39c09779b0a738baf8a6"><code>c76b303</code></a> minor refactoring for better readability</li>
-<li>Additional commits viewable in <a href="https://github.com/qos-ch/logback/compare/v_1.3.11...v_1.3.12">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/qos-ch/logback/compare/v_1.2.3...v_1.3.12">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ch.qos.logback:logback-classic&package-manager=maven&previous-version=1.3.11&new-version=1.3.12)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ch.qos.logback:logback-classic&package-manager=maven&previous-version=1.2.3&new-version=1.3.12)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -72,14 +72,14 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/acapy-java-client/network/alerts).
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-cloudagent-loadgenerator/network/alerts).
 
 </details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-29 22:48:12 +0000 UTC
+        Created At 2023-11-29 22:32:56 +0000 UTC
     </div>
 </div>
 

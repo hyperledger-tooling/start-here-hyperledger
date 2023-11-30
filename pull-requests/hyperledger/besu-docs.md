@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1462" class=".btn">#1462</a>
+            </td>
+            <td>
+                <b>
+                    Fixed link to point to private-networks API reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1403
+
+Did some searches and couldn't find the same issue repeated in other links. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 22:24:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1460" class=".btn">#1460</a>
             </td>
             <td>
