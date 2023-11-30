@@ -109,29 +109,3 @@ Fixes #14
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    Implement `toDot` Method and File Storing Mechanism for `VerkleTrie`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes https://github.com/neotheprogramist/besu-verkle-trie/issues/3
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-23 07:56:46 +0000 UTC
-    </div>
-</div>
-
