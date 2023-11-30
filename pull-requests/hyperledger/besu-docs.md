@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1464" class=".btn">#1464</a>
+            </td>
+            <td>
+                <b>
+                    Added zeroBaseFee genesis item and impact on tx-pool-price-bump
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1458 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 05:45:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1463" class=".btn">#1463</a>
+            </td>
+            <td>
+                <b>
+                    Adding more info around static nodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1461 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 02:51:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1462" class=".btn">#1462</a>
             </td>
             <td>

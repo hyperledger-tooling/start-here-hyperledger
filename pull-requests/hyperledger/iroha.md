@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4100" class=".btn">#4100</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4030, #4063, #4064, #4079: re-architect logger and dynamic configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+_todo_
+
+### Linked issue
+
+Closes #4030 #4063 #4064 #4079
+
+### Benefits
+
+_todo_
+
+### Checklist
+
+_todo_
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 04:55:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4098" class=".btn">#4098</a>
             </td>
             <td>
@@ -334,56 +374,6 @@ Closes #4080
     </table>
     <div class="right-align">
         Created At 2023-11-24 12:48:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4076" class=".btn">#4076</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #4063: update configuration endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-I've implemented the changes according to the linked issue:
-
-- Remove documentation retrieval from the API
-- Normalize DTO structure with the configuration file
-
-### Linked issue
-
-Closes #4063 
-
-### Benefits
-
-A little step closer to implementing the Configuration RFC (#2585).
-
-### Checklist
-
-- [x] I've written unit tests for the code changes
-- [x] Self-review
-- [x] Open corresponding PR updating the docs
-  - https://github.com/hyperledger/iroha-2-docs/pull/435
-- [x] Write an integration test
-- [x] Remove redundant `Result<bool>`
-- [ ] Use `PATCH` instead of `POST`
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-23 06:35:34 +0000 UTC
     </div>
 </div>
 
