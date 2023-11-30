@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/77" class=".btn">#77</a>
             </td>
             <td>
                 <b>
-                    Fix revocation issues
+                    Support message forward
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                - Support issuing a revocable credential
-- Support revoking a credential
-- Add a revocation test
-- use aries-uniffi-wrappers v0.1.1
+                fix #75 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-23 07:06:03 +0000 UTC
+        Created At 2023-11-30 08:17:24 +0000 UTC
     </div>
 </div>
 
