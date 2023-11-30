@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2436" class=".btn">#2436</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Support upgrade chaincode for the external chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary Changes
+--------------
+1.Support upgrade/update chaincode operation for the external chaincode
+
+Modifications
+-----------------------
+docs/source/operations/upgrading_chaincode.md
+platforms/hyperledger-fabric/configuration/external-chaincode-ops.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/chaincode/install_ext/tasks/nested_main.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/chaincode/peer_certs/tasks/generate_certs.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/external_chaincode_server/tasks/valuefile.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/peers/tasks/main.yaml 
+platforms/hyperledger-fabric/configuration/samples/network-fabricv2-external-chaincode.yaml platforms/network-schema.json
+
+fixes #2352
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 14:40:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2435" class=".btn">#2435</a>
             </td>
             <td>
