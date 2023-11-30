@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/open-enterprise-agent
         <tr>
             <td colspan="2">
                 <b>
-                    Open Enterprise Agent v1.19.0
+                    Open Enterprise Agent v1.19.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    prism-agent-v1.19.0
+                    prism-agent-v1.19.1
                 </span>
             </td>
             <td>
@@ -45,17 +45,21 @@ permalink: /releases/hyperledger-labs/open-enterprise-agent
 * fix: explicitly define transitive dependencies that were unresolvable by @patlo-iog in https://github.com/hyperledger-labs/open-enterprise-agent/pull/790
 * fix: enable keycloak with pre-configured agent in helm chart by @patlo-iog in https://github.com/hyperledger-labs/open-enterprise-agent/pull/791
 * test: configurable integration tests support by @antonbaliasnikov in https://github.com/hyperledger-labs/open-enterprise-agent/pull/772
+* docs: add multitenancy keycloak integration tutorials by @patlo-iog in https://github.com/hyperledger-labs/open-enterprise-agent/pull/793
+* test: improve configuration for integration tests by @antonbaliasnikov in https://github.com/hyperledger-labs/open-enterprise-agent/pull/796
+* test: fix multi-agent config support by @antonbaliasnikov in https://github.com/hyperledger-labs/open-enterprise-agent/pull/799
+* fix: change admin auth priority and improve auth error message by @patlo-iog in https://github.com/hyperledger-labs/open-enterprise-agent/pull/800
 
 
-**Full Changelog**: https://github.com/hyperledger-labs/open-enterprise-agent/compare/prism-agent-v1.18.0...prism-agent-v1.19.0
+**Full Changelog**: https://github.com/hyperledger-labs/open-enterprise-agent/compare/prism-agent-v1.18.0...prism-agent-v1.19.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/open-enterprise-agent/releases/tag/prism-agent-v1.19.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/open-enterprise-agent/releases/tag/prism-agent-v1.19.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-11-21 13:46:23 +0000 UTC
+        Created At 2023-11-29 09:18:24 +0000 UTC
     </span>
 </div>
 
