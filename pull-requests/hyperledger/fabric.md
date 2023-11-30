@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4559" class=".btn">#4559</a>
+            </td>
+            <td>
+                <b>
+                    Removes methods of legacy chaincode lifecycle from nwo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit concludes removal of the legace lifecycle methods from integration tests nwo package.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-29 22:40:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4558" class=".btn">#4558</a>
             </td>
             <td>
