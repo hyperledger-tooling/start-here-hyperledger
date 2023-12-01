@@ -388,29 +388,3 @@ We are using this_error library for the same. And designing the error hierarchy/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1068" class=".btn">#1068</a>
-            </td>
-            <td>
-                <b>
-                    refactor: uniffi project reorganize
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                this PR addresses major reorganize of uniffi project in accordance to #1045 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-23 21:57:46 +0000 UTC
-    </div>
-</div>
-
