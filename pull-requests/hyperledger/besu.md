@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6222" class=".btn">#6222</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] move Pipeline stack trace to trace/debug level
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                log a message only at info
+log stack trace at debug/trace depending on type of exception
+
+fixes #5533 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-01 03:29:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6221" class=".btn">#6221</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] - Add plugin version summary
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add plugin version summary
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-01 01:55:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6218" class=".btn">#6218</a>
             </td>
             <td>
