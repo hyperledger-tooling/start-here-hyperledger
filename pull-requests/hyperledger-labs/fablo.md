@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/423" class=".btn">#423</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/425" class=".btn">#425</a>
             </td>
             <td>
                 <b>
-                    Publishing pipelines
+                    Upgrade Bevel Operator version
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-17 13:45:26 +0000 UTC
+        Created At 2023-12-01 09:41:15 +0000 UTC
     </div>
 </div>
 
