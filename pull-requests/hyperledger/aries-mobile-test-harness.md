@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    BCW added a verified check to the agent after the connectionless proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since the OOB with proof attachment is now working, I've added the final check at the end of the proof to make sure the proof was actually verified. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 23:00:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/217" class=".btn">#217</a>
             </td>
             <td>
@@ -111,32 +137,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </table>
     <div class="right-align">
         Created At 2023-11-27 21:37:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/213" class=".btn">#213</a>
-            </td>
-            <td>
-                <b>
-                    updated location of archive file retrieval
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-23 19:57:09 +0000 UTC
     </div>
 </div>
 

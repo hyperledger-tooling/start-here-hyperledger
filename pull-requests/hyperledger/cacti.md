@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2913" class=".btn">#2913</a>
+            </td>
+            <td>
+                <b>
+                    docs(example/cbdc): Migrate CBDC example frontend from JS to TS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                Closes #2817
+Depends on #2912
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 20:57:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2912" class=".btn">#2912</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples/cbdc): fix mismatch of fabric identities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * What I believe has been an update to the Fabric SDK has led the application to break due to having the Fabric identities hardcoded (for the Fabric-Ethereum ID mapping). This was first noted in #2739.
+* An initial fix was deployed in #2802 but only the Mint function was changed, which caused other functions to be breaking at the moment (e.g., Escrow)
+* This commit changes the crypto material files and reverts the workaround in PR #2802
+* The crypto material is only used for testing and to show information in the frontend (e.g., requesting the balance of a specific user based on the identity)
+* For critical operations, access control is being performed by the chaincode by using the call at the begining of the relevant methods
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 19:03:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2911" class=".btn">#2911</a>
             </td>
             <td>

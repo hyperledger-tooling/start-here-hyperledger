@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2643" class=".btn">#2643</a>
+            </td>
+            <td>
+                <b>
+                    Initial migration of anoncreds revocation code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">AnonCreds</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-11-30 19:04:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2642" class=".btn">#2642</a>
             </td>
             <td>
                 <b>
-                    Feat: DIDX Implicit Request auto-accept and List and Delete OOB Invitation Records
+                    Feat: DIDX Implicit Request auto-accept and Delete OOB Invitation related records
                 </b>
             </td>
         </tr>
@@ -27,8 +53,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                - Based on Akiff's comments on general improvements with ACA-Py during 11/30/2023 meeting
-- Pending final testing + unit test changes
+                resolve #2644
             </td>
         </tr>
     </table>

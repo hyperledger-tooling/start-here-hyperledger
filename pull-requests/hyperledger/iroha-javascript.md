@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/181" class=".btn">#181</a>
             </td>
             <td>
                 <b>
-                    [docs]: add versions table
+                    Integrate supplementary Protocol Buffers (protobuf) parameters into the JS client to augment the extensibility and functionality of the data model within the designated oneof constructs, ensuring a more comprehensive representation and utilization of transaction related information.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                Related: 
-
-- https://github.com/hyperledger/iroha-rfcs/pull/10
+                Incorporate additional Protocol Buffers (protobuf) parameters into the JS client, enhancing the extensibility and functionality of the data model within the specified 'oneof' constructs. This integration ensures a more comprehensive representation and utilization of transaction-related information, thereby expanding the capabilities and flexibility of the system.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-13 07:37:18 +0000 UTC
+        Created At 2023-11-30 22:56:45 +0000 UTC
     </div>
 </div>
 

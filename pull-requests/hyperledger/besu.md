@@ -153,17 +153,12 @@ fixes #5851
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">peering</span>
             </td>
             <td>
-                For 3 types of infractions, don't actively disconnect
-* timeout
-* useless response
-* IO exception (common from DeFramer)
+                Don't do any outbound disconnects if EthPeers count is below maxPeers
 
-And, don't do any outbound disconnects if EthPeers count is below maxPeers
-
-With these changes, while below maxPeers, the only disconnects that happen with established peers are those found by removing peers if the connection becomes disconnected. This still happens quite frequently.
+With these changes, while below maxPeers, the only disconnects that happen with established peers are those found by removing peers if the connection becomes disconnected, and timeouts/useless responses. This still happens quite frequently.
 
 TODO - test this PR out on a mainnet node
             </td>

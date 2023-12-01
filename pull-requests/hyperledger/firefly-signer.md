@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Additional nil check on CallRPC
+                    Fix auto reconnect for RPC WebSocket
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                This should resolve https://github.com/hyperledger/firefly-evmconnect/issues/103 after it's included in EVMConnect
+                In the case of a reconnect the `resChl` was `nil` so sending `nil` to it ended up blocking, causing the receiver to not receive any further messages.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-10 21:40:58 +0000 UTC
+        Created At 2023-11-30 20:29:49 +0000 UTC
     </div>
 </div>
 
