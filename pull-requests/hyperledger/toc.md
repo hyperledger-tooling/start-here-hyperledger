@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger Solang Q4 report
+                    Simplify project lifecycle
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">quarterly-report</span>
+                
             </td>
             <td>
-                <nil>
+                This PR replaces the Dormant, Deprecated, and End of Life states with a single Archived state from which a project can possibly move back to Incubation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-19 15:56:00 +0000 UTC
+        Created At 2023-12-01 16:37:07 +0000 UTC
     </div>
 </div>
 

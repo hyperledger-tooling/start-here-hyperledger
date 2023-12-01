@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6226" class=".btn">#6226</a>
+            </td>
+            <td>
+                <b>
+                    Update OpenJ9 Docker image to latest version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-01 18:00:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6225" class=".btn">#6225</a>
+            </td>
+            <td>
+                <b>
+                    Use `From` field in a `PING` packet when creating a peer table entry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR uses the `From` field of a `PING` packet when creating a local entry in the peer table, unless the `From` field is not available in which case it reverts to the existing behaviour of using the `UDP` source address.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/6224
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-01 15:07:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6222" class=".btn">#6222</a>
             </td>
             <td>
