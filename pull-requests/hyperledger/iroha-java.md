@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/391" class=".btn">#391</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/392" class=".btn">#392</a>
             </td>
             <td>
                 <b>
-                     NumericValue serializer && Fat genesis test
+                    Bugfixing numeric serialize
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-24 08:29:08 +0000 UTC
+        Created At 2023-12-01 09:32:14 +0000 UTC
     </div>
 </div>
 
