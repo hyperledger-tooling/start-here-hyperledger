@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    OpenID4VCI Plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a plugin implementing the OpenID4VCI protocol (Issuance only -- future work will address OpenID4VP and I'm not sure if that should be in this plugin or a separate one). See the README for details on the implementation.
+
+A couple of things to call out:
+
+- This Plugin Implements Draft 11 of OpenID4VCI (https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0-11.html).
+- We have been testing against the Sphereon Wallet. Kudos to the Sphereon team for their work on that!
+- To interoperate with Sphereon, we needed to add support for `did:jwk` and verifying `ES256K` signatures. This implementation is within this plugin right now (as a resolver and a helper method). We plan to contribute this to ACA-Py Core.
+- We plan to have automated tests against AFJ's OpenID4VCI package as soon as PR https://github.com/openwallet-foundation/agent-framework-javascript/pull/1639 is merged and released.
+- Not implemented (yet):
+  - `ldp_vc`, `sd_jwt_vc`
+  - Authorization Code Flow
+  - Only signature suite supported by ACA-Py for jwt-vc right now is `EdDSA`
+  - GET /.well-known/openid-configuration
+  - GET /.well-known/oauth-authorization-server
+  - Batch Credential Issuance
+  - We're limited to DID Methods that ACA-Py supports for issuance (more can be added by Plugin, e.g. DID Web); `did:sov`, `did:key`
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-01 21:42:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    Repo manager fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I made a mistake with the repo manager script deleting the last line. Should have noticed it. The line was `build-backend = "poetry.core.masonry.api` The integration test in redis_events that uses basic _message storage then failed after main was updated. 
+
+When I was fixing it I noticed that there is another problem with kafka_events and redis_events having the some of the same container names and not downing gracefully. I added a `docker compose down --remove-orphans` command to make sure the tests are being isolated.
+
+I had to comment out the basic_message install and test cases in redis_events. I should be able to bring them back immediately after the fix is merged to main.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-01 19:29:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/45" class=".btn">#45</a>
             </td>
             <td>
