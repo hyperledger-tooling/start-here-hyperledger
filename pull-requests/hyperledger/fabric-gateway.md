@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/657" class=".btn">#657</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/661" class=".btn">#661</a>
             </td>
             <td>
                 <b>
-                    chore(docs): fix nodejs async for loop examples 
+                    Update dependencies to mitigate CVE-2023-44487
                 </b>
             </td>
         </tr>
@@ -27,12 +27,28 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                The block event examples do not seem to work and I have never heard of `for async`. I assume they are supposed to be `for await`, which is what the fabric samples use [here](https://github.com/hyperledger/fabric-samples/blob/c0a0104ca1ca9107cb7cea8af3758d1ec256df02/asset-transfer-events/application-gateway-typescript/src/app.ts#L79).
+                This vulnerability can be exploited in gRPC servers (not clients) so should not directly impact the Fabric Gateway client API. However, updates to gRPC Java dependencies enables compatibility with Netty version 4.1.101.Final, which contains mitigations to this vulnerability and supports client applications that also expose gRPC services.
+
+See:
+
+- https://github.com/grpc/grpc-java/releases/tag/v1.59.1
+- https://github.com/grpc/grpc-java/issues/10617
+
+Also:
+
+- Update dependency-check-maven to avoid use of sunset NVD data-feed.
+- Update Go dependencies.
+- Update Node dev-dependencies.
+- Use GitHub actions/setup-java@v4.
+- Fix deadlock in Java 8 / 11 scenario tests.
+
+Closes #659
+Closes #660
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-14 14:36:07 +0000 UTC
+        Created At 2023-12-02 14:45:09 +0000 UTC
     </div>
 </div>
 

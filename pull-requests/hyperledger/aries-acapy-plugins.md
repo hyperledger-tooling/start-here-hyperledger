@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    Return redis_events tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bring back the redis_events integration tests that use additional plugin after repairing the build backend config line that was missing.
+
+Also: removed the `edit` condition for the PR workflow. It's not needed. 
+Also: Had to add additional `$` character on the docker compose startup command on my linux machine. Not sure why? The workflow machine works with or without it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-02 16:55:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/47" class=".btn">#47</a>
             </td>
             <td>
