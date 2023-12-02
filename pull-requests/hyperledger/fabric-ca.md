@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/387" class=".btn">#387</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/388" class=".btn">#388</a>
             </td>
             <td>
                 <b>
-                    Update to latest mathlib
+                    Remove outdated chaincode information from operations guide
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Update to the latest version of mathlib.
+                Remove outdated chaincode information from operations guide. Since this information is not specific to Fabric CA, link to the Fabric chaincode tutorial instead.
 
-Resolves https://github.com/hyperledger/fabric-ca/issues/373
+Resolves #348.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-14 13:27:18 +0000 UTC
+        Created At 2023-12-01 19:30:08 +0000 UTC
     </div>
 </div>
 

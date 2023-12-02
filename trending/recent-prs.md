@@ -1,13 +1,13 @@
 
-[6226](https://github.com/hyperledger/besu/pull/6226) Update OpenJ9 Docker image to latest version
+[1040](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1040) fix: run lerna on pkg change
 
-[188](https://github.com/hyperledger/toc/pull/188) Simplify project lifecycle
+[1039](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1039) fix: add ledger configs to npm pkg
 
-[45](https://github.com/hyperledger/aries-acapy-plugins/pull/45) Bump certifi from 2023.5.7 to 2023.7.22 in /kafka_events/integration
+[2645](https://github.com/hyperledger/aries-cloudagent-python/pull/2645) feat: add did:jwk resolver
 
-[119](https://github.com/hyperledger/fabric-contract-api-go/pull/119) Bump github.com/go-openapi/spec from 0.20.9 to 0.20.11
+[47](https://github.com/hyperledger/aries-acapy-plugins/pull/47) OpenID4VCI Plugin
 
-[6225](https://github.com/hyperledger/besu/pull/6225) Use `From` field in a `PING` packet when creating a peer table entry
+[6227](https://github.com/hyperledger/besu/pull/6227) Release 23.10.3 rc1 in progress, uprev main.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

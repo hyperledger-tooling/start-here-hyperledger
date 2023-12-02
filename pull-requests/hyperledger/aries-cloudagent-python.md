@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2645" class=".btn">#2645</a>
+            </td>
+            <td>
+                <b>
+                    feat: add did:jwk resolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This implements a did:jwk resolver. See https://github.com/hyperledger/aries-acapy-plugins/pull/47 for context.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-01 22:07:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2643" class=".btn">#2643</a>
             </td>
             <td>
@@ -27,7 +53,8 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 <span class="chip">AnonCreds</span>
             </td>
             <td>
-                <nil>
+                Adds revocation support from the anoncreds-rs branch.  Still a few TODO's but this PR is ready to go and I'll continue the work in the next PR.
+
             </td>
         </tr>
     </table>
@@ -488,33 +515,6 @@ This indicates that the "part2" property found in the Reveal Document under "$.c
     </table>
     <div class="right-align">
         Created At 2023-11-25 18:52:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2627" class=".btn">#2627</a>
-            </td>
-            <td>
-                <b>
-                    0.11.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The 0.11.0 release -- including adding the CHANGELOG entries for releases 0.10.2 - 0.10.5 to the main branch CHANGELOG.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-24 23:06:39 +0000 UTC
     </div>
 </div>
 
