@@ -427,7 +427,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
             </td>
             <td>
                 <b>
-                    fix(weaver): usage of weak PRNG #2765 issue - Solve
+                    fix(weaver): usage of weak PRNG issue
                 </b>
             </td>
         </tr>
@@ -436,8 +436,21 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
                 
             </td>
             <td>
-                Weak PRNG usages opened as issues have been changed.
+                The Logic Behind the Problem
+When RNG (Random Number Generator) values are not received through a hardware TRNG, seed values apply a certain pattern. (It takes a seed value such as a mathematical formula or time.) In response to this situation, there are various secure random classes to increase security.
 
+Solution
+Changes have been made to get random values using safe randomness instead of mathematical randomness. This increases the complexity of the pattern, making it difficult to discover even if data is listened to for long periods of time.
+
+The changes that have been made;
+- In the "certificate_utils.go" file, the random value was taken from the math class (mrand "math/rand") and used. By taking this random value from the secure random class, we obtain a more reliable random value. I added HmacGenerate and generateSecureRandomKey functions for readability and ease of use. If you want to generate a key again, the generateSecureRandomKey function, which uses secure random, can be used.
+
+- In "HashFunctions.kt", kotlin.random.Random class has been replaced with the more reliable java.security.SecureRandom class.
+
+- The reason for the change in "eciesCrypto.js" is that the length of aes-128-ctr is not considered reliable by various standards. For this reason, I preferred the more reliable 256 length.
+
+Fixes #2765
+------- 
 **Pull Request Requirements**
 - [☑] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
 
@@ -446,7 +459,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
 
 **Character Limit**
 - [☑] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [☑] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+- [ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
 
 **A Must Read for Beginners**
 For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
