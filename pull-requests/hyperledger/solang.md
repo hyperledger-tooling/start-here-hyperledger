@@ -99,29 +99,3 @@ The next steps for this PR would be: (to be followed in another PRs)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1601" class=".btn">#1601</a>
-            </td>
-            <td>
-                <b>
-                    An expression statement should be followed by ;
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/solang/issues/1600
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-26 09:52:00 +0000 UTC
-    </div>
-</div>
-
