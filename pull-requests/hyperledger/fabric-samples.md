@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1140" class=".btn">#1140</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1144" class=".btn">#1144</a>
             </td>
             <td>
                 <b>
-                    add support for docker compose v2 (fix #730)
+                    Use Executor in asset-transfer-events/application-gateway-java
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Linux servers with docker engine installed through [docker document](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) could not run `network.sh` successfully due to docker compose version compatibility. The default docker engine doesn't support `docker-compose` command.
-
-As the [docker document](https://docs.docker.com/compose/migrate/#what-does-this-mean-for-my-projects-that-use-compose-v1) suggest, `docker compose` is preferred to use in docker compose V2.
-
-This PR adds support for docker compose V2 version. It uses `docker compose` command if it finds `docker-compose` command fails to execute.
+                The default ForkJoinPool.commonPool may have limited capacity in some environments, risking deadlock. This implementation also better demonstrates handling of connection errors.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-25 12:45:41 +0000 UTC
+        Created At 2023-12-02 22:19:05 +0000 UTC
     </div>
 </div>
 
