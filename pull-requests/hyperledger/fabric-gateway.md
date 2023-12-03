@@ -40,7 +40,7 @@ Also:
 - Update Go dependencies.
 - Update Node dev-dependencies.
 - Use GitHub actions/setup-java@v4.
-- Fix deadlock in Java 8 / 11 scenario tests.
+- Fix deadlock in Java 8 / 11 eventing tests.
 
 Closes #659
 Closes #660

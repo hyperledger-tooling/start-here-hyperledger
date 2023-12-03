@@ -386,31 +386,3 @@ We are using this_error library for the same. And designing the error hierarchy/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1069" class=".btn">#1069</a>
-            </td>
-            <td>
-                <b>
-                    feature: Derive Display for all aries messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">review:level-2</span>
-            </td>
-            <td>
-                - Derives `Display` trait for all aries messages 
-- Removed default Decorators type parameter `D = NoDecorators` - turned out somewhat problematic in conjunction with the custom `Display` proc macro. Not a big price to pay though, only slightly inconveniences developer working in `messages` crate, but not `messages` consumers.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-25 23:16:37 +0000 UTC
-    </div>
-</div>
-
