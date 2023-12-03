@@ -315,30 +315,3 @@ This PR aims to provide unit tests for the Block Verification Assistant unit.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4553" class=".btn">#4553</a>
-            </td>
-            <td>
-                <b>
-                    Remove legacy chaincode deploy from SBE integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit removes legacy chaincode deploy from being used by SBE integration tests.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-26 14:11:28 +0000 UTC
-    </div>
-</div>
-
