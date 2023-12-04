@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Update ACA-Py dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves: #28 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-04 16:09:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/48" class=".btn">#48</a>
             </td>
             <td>
@@ -29,6 +55,7 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
             <td>
                 Bring back the redis_events integration tests that use additional plugin after repairing the build backend config line that was missing.
 
+Also: changed the integration image names so faber using the integration dockerfile with the additional plugin is different from alice using the normal dockerfile in the docker directory.
 Also: removed the `edit` condition for the PR workflow. It's not needed. 
 Also: Had to add additional `$` character on the docker compose startup command on my linux machine. Not sure why? The workflow machine works with or without it.
             </td>
