@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2441" class=".btn">#2441</a>
+            </td>
+            <td>
+                <b>
+                    Rename the Shared charts as per Bevel conventions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Rename storageclass chart
+- Rename vault-mgmt chart
+- Rename imageautomation chart
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-04 12:16:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2440" class=".btn">#2440</a>
+            </td>
+            <td>
+                <b>
+                    doc redesign
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-04 11:56:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2436" class=".btn">#2436</a>
             </td>
             <td>
