@@ -42,6 +42,8 @@ Some of the most significant choices/characteristics:
 - `AND` combination is the standard for all operator arrays, and when multiple operators used
 - `OR` has to be specified explicitly, and the containing entries are all implicit `AND` (although singulars are optimized out)
 
+> Also contains some minor proposals on reducing `debug` logging to one line per SQL execution, apart from in the case of `CRUD.GetMany()` where we still have two, but the 2nd includes the count returned.
+
 ### Example (from test)
 
 ```js
