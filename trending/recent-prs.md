@@ -1,13 +1,13 @@
 
-[394](https://github.com/hyperledger/iroha-java/pull/394) Bump gradle/gradle-build-action from 2.3.3 to 2.10.0
+[2441](https://github.com/hyperledger/bevel/pull/2441) Rename the Shared charts as per Bevel conventions
 
-[393](https://github.com/hyperledger/iroha-java/pull/393) Bump actions/setup-java from 3 to 4
+[2440](https://github.com/hyperledger/bevel/pull/2440) doc redesign
 
-[78](https://github.com/hyperledger/aries-framework-swift/pull/78) Implement report-problem protocol
+[4113](https://github.com/hyperledger/iroha/pull/4113) [BACKPORT] #4099: Fix of the websocket request builder
 
-[128](https://github.com/hyperledger-labs/yui-relayer/pull/128) Remove unused `ordered` parameter
+[37](https://github.com/hyperledger-labs/cckit/pull/37) fix delete private key from mockStub
 
-[239](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/239) Fix incorrect copyright
+[803](https://github.com/hyperledger-labs/open-enterprise-agent/pull/803) build: make sbt-license-report more fault tolerance with ivy unresolved dependencies
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
