@@ -289,29 +289,3 @@ This PR aims to provide unit tests for the Block Verification Assistant unit.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4554" class=".btn">#4554</a>
-            </td>
-            <td>
-                <b>
-                    Ensure channelID in transaction matches chain instance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-27 16:18:15 +0000 UTC
-    </div>
-</div>
-

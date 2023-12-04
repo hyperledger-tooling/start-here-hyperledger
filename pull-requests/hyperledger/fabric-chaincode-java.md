@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/321" class=".btn">#321</a>
+            </td>
+            <td>
+                <b>
+                    Use OSV-Scanner instead of dependency-check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The existing dependency-check version is no longer supported and might fail after the NVD data feeds it uses are deprecated on 2023-12-15. The updated version requires an API key to interact with the newer NVD APIs. For details see:
+
+- https://github.com/jeremylong/DependencyCheck#900-upgrade-notice
+
+It also requires periodic triage and suppression of false positive detections. OSV-Scanner appears less prone to false positives and does not require an API key to be maintained.
+
+Implement a scheduled vulnerability scan (using OSV-Scanner) so that vulnerabilities are more visible than the current (dependency-check) implementation, which runs in PR builds but does not fail builds or make the results very visible.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-04 17:25:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/320" class=".btn">#320</a>
             </td>
             <td>

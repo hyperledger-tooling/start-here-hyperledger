@@ -333,29 +333,3 @@ We are using this_error library for the same. And designing the error hierarchy/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1071" class=".btn">#1071</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add new Wallet trait
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A new trait for wallet heavily inspired by #1042. Associated types are leveraged to provide flexibility to various implementations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-27 14:22:29 +0000 UTC
-    </div>
-</div>
-

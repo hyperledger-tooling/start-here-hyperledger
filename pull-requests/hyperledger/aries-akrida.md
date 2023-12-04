@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-akrida
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-akrida/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    feat: update ACA-Py 0.10.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some issues with 0.11 at the moment with the redis-cache plugin
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-04 16:58:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-akrida/pull/20" class=".btn">#20</a>
             </td>
             <td>
