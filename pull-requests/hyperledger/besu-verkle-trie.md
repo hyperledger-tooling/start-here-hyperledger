@@ -48,7 +48,7 @@ This can be used to investigates the bugs found in the commitments.
             </td>
             <td>
                 <b>
-                    Fix chuckify PUSH32 at 31st byte edge case
+                    Fix chunkify PUSH32 at 31st byte edge case
                 </b>
             </td>
         </tr>

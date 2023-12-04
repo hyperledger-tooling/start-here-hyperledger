@@ -359,30 +359,3 @@ We are using this_error library for the same. And designing the error hierarchy/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1070" class=".btn">#1070</a>
-            </td>
-            <td>
-                <b>
-                    refactor: encryption envelope
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - minor refactoring of encryption envelope which came up in progress of improving did-exchange implementation - a lot more can be done here (and will)
-- On top of https://github.com/hyperledger/aries-vcx/pull/1069, please merge that first for clean changelog
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-26 21:34:34 +0000 UTC
-    </div>
-</div>
-
