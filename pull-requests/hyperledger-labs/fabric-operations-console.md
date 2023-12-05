@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/570" class=".btn">#570</a>
+            </td>
+            <td>
+                <b>
+                    fix user roles/permissions on fabric operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- users that are readers can no longer:
+    -  delete CA identities
+    - install smart contracts
+    - remove ordering service consenters from an app channel
+    - add anchor peers to an app channel
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 17:56:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/569" class=".btn">#569</a>
             </td>
             <td>

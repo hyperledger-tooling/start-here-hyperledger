@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/220" class=".btn">#220</a>
+            </td>
+            <td>
+                <b>
+                    Turned off flakey Offline BCW tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Temporarily broken Offline wallet handling tests until there is a chance to fix them. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 16:33:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/219" class=".btn">#219</a>
             </td>
             <td>

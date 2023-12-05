@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/454" class=".btn">#454</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/455" class=".btn">#455</a>
             </td>
             <td>
                 <b>
-                    Add GHA dependabot alerts
+                    Improve debugging of failed tests during github workflows
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                This will keep our GitHub Actions dependencies up to date.
+                Several fixes/improvements:
+* debug logging is now available in the docker/docker compose tests
+* when logging is enabled, unit tests will now generate output, respects environment variables
+* github commits can add '[debug]' to turn on debug build/logging during runs
+* fix sgx ssl abort when running actions on non-intel processors (skip the CPU check in SIM mode)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-01 21:51:34 +0000 UTC
+        Created At 2023-12-05 16:02:14 +0000 UTC
     </div>
 </div>
 

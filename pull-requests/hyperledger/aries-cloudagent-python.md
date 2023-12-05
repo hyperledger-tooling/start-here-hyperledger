@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">AnonCreds</span>
             </td>
             <td>
                 Opening in draft for visibility

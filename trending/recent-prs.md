@@ -1,13 +1,13 @@
 
-[806](https://github.com/hyperledger-labs/open-enterprise-agent/pull/806) feat(pollux): allocate an entry for a JWT credential in status list when it is generated
+[570](https://github.com/hyperledger-labs/fabric-operations-console/pull/570) fix user roles/permissions on fabric operations
 
-[6236](https://github.com/hyperledger/besu/pull/6236) Update Gradle verification metadata
+[6240](https://github.com/hyperledger/besu/pull/6240) Gha checks
 
-[114](https://github.com/hyperledger/firefly-common/pull/114) log out body in trace level
+[4563](https://github.com/hyperledger/fabric/pull/4563) Get value from array directly
 
-[804](https://github.com/hyperledger-labs/open-enterprise-agent/pull/804) feat: add nodeAffinity, tolerations, and resources to k8s deployment
+[807](https://github.com/hyperledger-labs/open-enterprise-agent/pull/807) docs: add integration tests documentation and tutorials
 
-[6235](https://github.com/hyperledger/besu/pull/6235) Pki - migrate to junit 5
+[6239](https://github.com/hyperledger/besu/pull/6239) update from main
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
