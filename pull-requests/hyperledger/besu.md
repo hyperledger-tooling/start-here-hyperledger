@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6236" class=".btn">#6236</a>
+            </td>
+            <td>
+                <b>
+                    Update Gradle verification metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+`./gradlew --no-daemon --write-verification-metadata sha256 spotlessCheck'
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 10:04:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6235" class=".btn">#6235</a>
+            </td>
+            <td>
+                <b>
+                    Pki - migrate to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                fixes #5560
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 06:37:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6234" class=".btn">#6234</a>
             </td>
             <td>
@@ -432,44 +493,6 @@ TODO - test this PR out on a mainnet node
     </table>
     <div class="right-align">
         Created At 2023-11-29 03:11:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6209" class=".btn">#6209</a>
-            </td>
-            <td>
-                <b>
-                    worldstate refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-for verkle, I’m starting a refactor. In simple terms, many classes can distinguish whether they’re in ‘bonsai’ or ‘forest’ mode, so a generic interface doesn’t offer much value, except for some minor and synchronization parts.
-So, I’ve developed a ’WorldstatestorageCoordinator class. This will have a storage strategy, which could be either ‘bonsai’ or ‘forest’. This coordinator is needed when we’re unsure about the storage mode we use, and it helps for the routing process. when we’re sure about the storage mode, we directly use the appropriate strategy.
-This approach reduces the number of generic interfaces, eliminating locations that are not applicable to modes like ‘forest’ or other not clean things like that.
-Will be better when we will have to add some custom method or field for verkle
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 10:14:40 +0000 UTC
     </div>
 </div>
 

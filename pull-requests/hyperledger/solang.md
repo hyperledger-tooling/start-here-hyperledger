@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1603" class=".btn">#1603</a>
-            </td>
-            <td>
-                <b>
-                    Fix rust clippies and evm balance length
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 09:28:25 +0000 UTC
-    </div>
-</div>
-

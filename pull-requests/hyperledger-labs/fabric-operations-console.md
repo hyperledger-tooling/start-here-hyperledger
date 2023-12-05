@@ -76,36 +76,3 @@ added testcase for 2.0 channel update
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/565" class=".btn">#565</a>
-            </td>
-            <td>
-                <b>
-                    Making usetags default to true
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Currently The deployer has the default option of the usetags defaulting to false which we do not want. 
-This PR will make the default behaviour to true.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 08:10:28 +0000 UTC
-    </div>
-</div>
-
