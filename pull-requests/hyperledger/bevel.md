@@ -162,29 +162,3 @@ Fixes: hyperledger#2327
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2434" class=".btn">#2434</a>
-            </td>
-            <td>
-                <b>
-                    bug(besu): fix issue with orgs using different vault server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 04:51:33 +0000 UTC
-    </div>
-</div>
-
