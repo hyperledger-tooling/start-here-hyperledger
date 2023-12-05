@@ -1,13 +1,13 @@
 
-[6234](https://github.com/hyperledger/besu/pull/6234) crypto migrate to junit 5
+[806](https://github.com/hyperledger-labs/open-enterprise-agent/pull/806) feat(pollux): allocate an entry for a JWT credential in status list when it is generated
 
-[6233](https://github.com/hyperledger/besu/pull/6233) consensus/common migrate to junit5
+[6236](https://github.com/hyperledger/besu/pull/6236) Update Gradle verification metadata
 
-[6232](https://github.com/hyperledger/besu/pull/6232) Revert PR https://github.com/hyperledger/besu/pull/6187
+[114](https://github.com/hyperledger/firefly-common/pull/114) log out body in trace level
 
-[748](https://github.com/hyperledger/fabric-private-chaincode/pull/748) Fix testing on non-Intel CPU
+[804](https://github.com/hyperledger-labs/open-enterprise-agent/pull/804) feat: add nodeAffinity, tolerations, and resources to k8s deployment
 
-[4115](https://github.com/hyperledger/iroha/pull/4115) [fix] #3657: Split view changes from normal messages
+[6235](https://github.com/hyperledger/besu/pull/6235) Pki - migrate to junit 5
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
