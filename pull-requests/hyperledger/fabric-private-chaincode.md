@@ -39,29 +39,3 @@ Additionally, the PR enables SGX SSL tests to spot these issues early on, since 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/747" class=".btn">#747</a>
-            </td>
-            <td>
-                <b>
-                    Add echo-go sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds another go chaincode sample based on the existing c++ echo chaincode
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 12:52:18 +0000 UTC
-    </div>
-</div>
-

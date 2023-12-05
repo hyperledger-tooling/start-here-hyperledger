@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1082" class=".btn">#1082</a>
+            </td>
+            <td>
+                <b>
+                    refactor: encryption envelope APIs, tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">review:level-1</span>
+            </td>
+            <td>
+                - Builds on top of https://github.com/hyperledger/aries-vcx/pull/1081 - please merge that first
+- Restores (and simplifies) tests of `EncryptionEnvelope`
+- Refactors `EncryptionEnvelope` by decoupling its APIs from concept of Aries messages. Even inherently `didcomm !== aries`, so this decoupling makes broader sense and also makes testing a lot easier.
+   - The changes also represent one step towards dropping usage of legacy `AriesDidDoc` structure in encryption envelope
+- Deleted unused error mappings
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 14:07:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1081" class=".btn">#1081</a>
+            </td>
+            <td>
+                <b>
+                    fix: didcomm message forwarding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">review:level-1</span>
+            </td>
+            <td>
+                - Previous refactoring PR https://github.com/hyperledger/aries-vcx/pull/1070 introduced an error such that `to` field in the forward message ended up string containing JSON array (`"to": "[\"foobar\"]"`), rather than correctly just the key (`"to": "foobar"`)
+- This PR fixes the issue
+- The issue was detected as mediator tests started to fail
+- This PR is to be followed by another PR restoring encryption envelope tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 14:04:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1079" class=".btn">#1079</a>
             </td>
             <td>
@@ -138,7 +197,9 @@ This should fix the clippy warning we are seeing
                 
             </td>
             <td>
-                I recommend start looking at the PR from top down to understand public API effect of the changes.
+                Built on top of https://github.com/hyperledger/aries-vcx/pull/1082, please merge that first
+
+I recommend start looking at the PR from top down to understand public API effect of the changes.
 
 # Demo
 - `aries/aries_vcx/tests/test_did_exchange.rs` is the top-most level of changes
@@ -151,6 +212,11 @@ This should fix the clippy warning we are seeing
       - to stay symmetric (and general) alike `DidExchangeRequester` the API requires caller to prepare instance `PeerDid` and pass that in as input
       - remove required argument `invitation_id` - also don't keep this as part of SM state - because Responder might receive request which is not constructed on basis of any particular invitation - but rather simply on basis of knowing Responder's public DID. Invitation might not exist, so it doesn't make sense to mention it.
 
+# Other changes
+- introduce `pretty_assertions` https://github.com/rust-pretty-assertions/rust-pretty-assertions#usage as dev dependency to some of the crates and tests 
+- Leftover code from `did_doc_sov` moved to `did_doc`
+- `aries-vcx-agent` did-exchange service is generating invitation with `did:peer` as value of `services`, rather than inlining service object.
+- Derive `Display` for more structs
 
 A lot more to describe ... TBD ... 
   

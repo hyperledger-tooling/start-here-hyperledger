@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/180" class=".btn">#180</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/181" class=".btn">#181</a>
             </td>
             <td>
                 <b>
-                    Get last config block API
+                    cluster management test - add node
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                <nil>
+                This PR includes the implementation of the following:
+- Get cluster status API + test 
+- Get cluster status command + test
+- Get last config block command + test
+- Cluster management test - add node case
+- Update README.md file
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-07 11:57:05 +0000 UTC
+        Created At 2023-12-05 13:07:31 +0000 UTC
     </div>
 </div>
 

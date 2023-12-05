@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4563" class=".btn">#4563</a>
+            </td>
+            <td>
+                <b>
+                    Get value from array directly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The patchset simplifies the code implementation to iterate over an array.
+
+Change-Id: I2f29335955e2ee1a4c0aabf2c744ca9b223a1a87
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset simplifies the code implementation to iterate over an array.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 17:32:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4562" class=".btn">#4562</a>
             </td>
             <td>
@@ -225,40 +273,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2023-11-28 19:44:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4556" class=".btn">#4556</a>
-            </td>
-            <td>
-                <b>
-                    Unit tests bv
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Unit tests 
-
-#### Description
-
-This PR aims to provide unit tests for the Block Verification Assistant unit. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 12:50:35 +0000 UTC
     </div>
 </div>
 
