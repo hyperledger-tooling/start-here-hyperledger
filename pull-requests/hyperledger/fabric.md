@@ -262,30 +262,3 @@ This PR aims to provide unit tests for the Block Verification Assistant unit.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4555" class=".btn">#4555</a>
-            </td>
-            <td>
-                <b>
-                    Remove chaincode deploy legacy from pvt data tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit removes usages of the chaincode legacy deploy code from private data integration tests.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-27 23:24:31 +0000 UTC
-    </div>
-</div>
-

@@ -138,7 +138,23 @@ This should fix the clippy warning we are seeing
                 
             </td>
             <td>
-                Yet quite a bit of work outstanding to get this even compiling. WIP
+                I recommend start looking at the PR from top down to understand public API effect of the changes.
+
+# Demo
+- `aries/aries_vcx/tests/test_did_exchange.rs` is the top-most level of changes
+- Simplified `DidExchangeRequester`
+  - Now has single method `construct_request` which simple accepts a `Did` as input - can be any DID which is resolvable. In comparison, previously there were 2 sovrin-crafted methods `construct_from_invitation`, `construct_from_invitation`.
+  - Trimmed down support for invitations - we do not support OOB invitations with service objects "embedded" into the invitation. This Aries design was objected in https://github.com/hyperledger/aries-rfcs/issues/802. We can implemented later if desired by any vcx users, but solution is ugly - it would be needed to convert Service object to Did Document which doesn't make sense.
+  - The above changes also lead to internals simplification where bunch of transformation code could been removed 
+- Simplified DidExchangeResponder
+   - simplify `receive_request`API 
+      - to stay symmetric (and general) alike `DidExchangeRequester` the API requires caller to prepare instance `PeerDid` and pass that in as input
+      - remove required argument `invitation_id` - also don't keep this as part of SM state - because Responder might receive request which is not constructed on basis of any particular invitation - but rather simply on basis of knowing Responder's public DID. Invitation might not exist, so it doesn't make sense to mention it.
+
+
+A lot more to describe ... TBD ... 
+  
+
             </td>
         </tr>
     </table>
