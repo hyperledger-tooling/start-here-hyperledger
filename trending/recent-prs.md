@@ -1,13 +1,13 @@
 
-[11](https://github.com/hyperledger-labs/learning-tokens/pull/11) Bump axios from 1.5.1 to 1.6.2 in /src/learning-token
+[4115](https://github.com/hyperledger/iroha/pull/4115) [fix] #3657: Split view changes from normal messages
 
-[10](https://github.com/hyperledger-labs/learning-tokens/pull/10) Bump next from 13.4.19 to 13.5.1 in /src/quorum-test-network/dapps/quorumToken/frontend
+[219](https://github.com/hyperledger/aries-mobile-test-harness/pull/219) update final verified state check in OOB BCW test
 
-[9](https://github.com/hyperledger-labs/learning-tokens/pull/9) Bump tough-cookie and eth-gas-reporter in /src/quorum-test-network/dapps/quorumToken
+[569](https://github.com/hyperledger-labs/fabric-operations-console/pull/569) Fix ca version gather
 
-[8](https://github.com/hyperledger-labs/learning-tokens/pull/8) Bump postcss and next in /src/quorum-test-network/dapps/quorumToken/frontend
+[2651](https://github.com/hyperledger/aries-cloudagent-python/pull/2651) Update integration tests for anoncreds-rs
 
-[7](https://github.com/hyperledger-labs/learning-tokens/pull/7) Bump zod and next in /src/quorum-test-network/dapps/quorumToken/frontend
+[24](https://github.com/hyperledger/aries-akrida/pull/24) feat: add env var for exposed port
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

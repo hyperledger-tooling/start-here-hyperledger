@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/219" class=".btn">#219</a>
+            </td>
+            <td>
+                <b>
+                    update final verified state check in OOB BCW test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added handling for the verified check in the OOB case in the BC Wallet tests. This will wait and try again if the proof is not verified in the first check. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-04 22:38:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/218" class=".btn">#218</a>
             </td>
             <td>
@@ -111,32 +137,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </table>
     <div class="right-align">
         Created At 2023-11-28 18:29:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/214" class=".btn">#214</a>
-            </td>
-            <td>
-                <b>
-                    updated wallet tests with proper wallet name retreival with testid
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This update to the BC Wallet tests utilizes the new wallet name testid on the settings and the scan my qr code pages. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-27 21:37:50 +0000 UTC
     </div>
 </div>
 

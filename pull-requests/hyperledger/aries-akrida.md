@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-akrida
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-akrida/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    feat: add env var for exposed port
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tested that this worked as anticipated, both non-clustered and in clustered configuration. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-04 18:42:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-akrida/pull/23" class=".btn">#23</a>
             </td>
             <td>
