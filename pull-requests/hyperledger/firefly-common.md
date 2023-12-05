@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                The URL query parameter spelling is designed to be convenient for simple cases, but it gets awkward with complex cases.
+                ### Primary change
+
+The URL query parameter spelling is designed to be convenient for simple cases, but it gets awkward with complex cases.
 
 This PR proposes a JSON payload format and a utility to convert that into a runtime filter.
 
@@ -41,8 +43,12 @@ Some of the most significant choices/characteristics:
 - Operator -> array of matches semantics (makes it very easy to parse in Go strong typing)
 - `AND` combination is the standard for all operator arrays, and when multiple operators used
 - `OR` has to be specified explicitly, and the containing entries are all implicit `AND` (although singulars are optimized out)
+### Minor other proposals in PR
 
-> Also contains some minor proposals on reducing `debug` logging to one line per SQL execution, apart from in the case of `CRUD.GetMany()` where we still have two, but the 2nd includes the count returned.
+- Reducing `debug` logging to one line per SQL execution
+     - Apart from in the case of `CRUD.GetMany()` where we still have two, but the 2nd includes the count returned
+- Relaxing the requirement on the `eventstreams` package to require IDs to be UUIDs
+    - This matches then the CRUD package
 
 ### Example (from test)
 

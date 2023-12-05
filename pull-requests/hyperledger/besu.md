@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6234" class=".btn">#6234</a>
+            </td>
+            <td>
+                <b>
+                    crypto migrate to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                fixes #5568 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 05:31:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6233" class=".btn">#6233</a>
+            </td>
+            <td>
+                <b>
+                    consensus/common migrate to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                fixes #5569 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 05:21:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6232" class=".btn">#6232</a>
+            </td>
+            <td>
+                <b>
+                    Revert PR https://github.com/hyperledger/besu/pull/6187
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR reverts #6187. The PR causes syncing problems by not removing useless peers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 04:56:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6230" class=".btn">#6230</a>
             </td>
             <td>
@@ -391,35 +470,6 @@ Will be better when we will have to add some custom method or field for verkle
     </table>
     <div class="right-align">
         Created At 2023-11-28 10:14:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6207" class=".btn">#6207</a>
-            </td>
-            <td>
-                <b>
-                    moved some logs to trace level
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dev experience</span><span class="chip">logging</span><span class="chip">ux</span>
-            </td>
-            <td>
-                * move "Requesting x headers" etc to trace level logging
-* use peer.shortNodeId rather than logging the whole peer record
-* move "Wrote initial crypto handshake message" to trace
-* also a couple of frequently logged tx pool logs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 02:20:03 +0000 UTC
     </div>
 </div>
 

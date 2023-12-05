@@ -348,7 +348,11 @@ _todo_
 
 ### Checklist
 
-_todo_
+- [ ] Refactor Kiso in a fire-and-forget manner
+- [ ] Play with logger manually
+  - [ ] Check if `bunyan` can parse current JSON output
+- [ ] Update logger config in py test env
+- [ ] Update README logger documentation
             </td>
         </tr>
     </table>
