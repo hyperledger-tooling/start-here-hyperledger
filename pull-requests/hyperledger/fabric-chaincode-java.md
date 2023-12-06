@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/322" class=".btn">#322</a>
+            </td>
+            <td>
+                <b>
+                    Address CVE-2023-6481 by moving to logback v1.3.14.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As per https://nvd.nist.gov/vuln/detail/CVE-2023-6481
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-06 14:23:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/321" class=".btn">#321</a>
             </td>
             <td>

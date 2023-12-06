@@ -116,37 +116,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2638" class=".btn">#2638</a>
-            </td>
-            <td>
-                <b>
-                    fix: update broken demo dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Couldn't proceed with further local testing on my host. Probably due to differences in python versions. 
-
-```
-    self.proc = await asyncio.wait_for(future, 20, loop=loop)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: wait_for() got an unexpected keyword argument 'loop'
-```
-
-But pip install works fine now.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 14:22:52 +0000 UTC
-    </div>
-</div>
-

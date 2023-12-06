@@ -538,6 +538,8 @@ The proposal is to deprecated it now and remove it in few months, target 24.4 re
                 ## PR description
 This PR uses the `From` field of a `PING` packet when creating a local entry in the peer table, unless the `From` field is not available in which case it reverts to the existing behaviour of using the `UDP` source address.
 
+Since (as far as I can tell) all `PING` packets include a `From` field (with `127.0.0.1` in the case where the user hasn't specified a custom value) the PR is coded to ignore a `From` field of `127.0.0.1` and use the UDP source address instead. The reality is that on a localhost system the UDP source will be `127.0.0.1` anyway but it provides a little extra protection from this change/fix causing issues on existing systems that might be working just fine using the UDP source address in peer's `enode` URL. The main aim of this fix is that if something **has** specified a custom value it is honoured by the `PING` recipient.
+
 ## Fixed Issue(s)
 Fixes https://github.com/hyperledger/besu/issues/6224
             </td>
@@ -633,67 +635,6 @@ Docs change would be added in another PR in a later stage when code changes stab
     </table>
     <div class="right-align">
         Created At 2023-11-30 15:40:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6215" class=".btn">#6215</a>
-            </td>
-            <td>
-                <b>
-                    Unpin ca-certificates-java version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-CI builds are currently broken because an ubuntu package update breaks with ca-certificates-java version 20190909. If we allow it to use updates to the version (such as 20190909ubuntu1.2) the build un-breaks.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 17:57:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6214" class=".btn">#6214</a>
-            </td>
-            <td>
-                <b>
-                    GitHub ci testing pr
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                DO NOT MERGE
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 14:49:18 +0000 UTC
     </div>
 </div>
 
