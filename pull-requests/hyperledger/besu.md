@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6247" class=".btn">#6247</a>
+            </td>
+            <td>
+                <b>
+                    fix: double calls to trace{Start,End}Transaction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+This fixes double calls to trace{Start,End}Transaction.
+
+## Fixed Issue(s)
+Fixes #6246 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-06 11:33:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6244" class=".btn">#6244</a>
             </td>
             <td>
@@ -663,41 +694,6 @@ CI builds are currently broken because an ubuntu package update breaks with ca-c
     </table>
     <div class="right-align">
         Created At 2023-11-29 14:49:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6212" class=".btn">#6212</a>
-            </td>
-            <td>
-                <b>
-                    [#5851] Add error messages on authentication failures with username and password
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Include in body message in response 400
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5851
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 08:44:17 +0000 UTC
     </div>
 </div>
 

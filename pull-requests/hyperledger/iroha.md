@@ -373,71 +373,77 @@ Closes #4030 #4063 #4064 #4079
 ### Checklist
 
 - [x] Refactor Kiso in a fire-and-forget manner
-- [ ] Play with logger manually
-  - [ ] Check if `bunyan` can parse current JSON output
-- [ ] Update logger config in py test env
-- [ ] Update README logger documentation
+- [x] Play with logger manually
+  - [x] Check if `bunyan` can parse current JSON output
+- [x] Update logger config in py test env
+- [x] Update README logger documentation
+- [x] Use `202 Accepted` for `POST /configuration`
+
+### Migration guide
+
+#### Update Logger configuration
+
+**In the configuration file, under `LOGGER.*` namespace:**
+
+- Rename `MAX_LOG_LEVEL` to `LEVEL`
+- Remove `COMPACT_MODE`; use `FORMAT: "full"` (if `false`) and `FORMAT: "compact"` (if `true`) instead
+- Remove `LOG_FILE_PATH`; use `FORMAT: "json"` instead and redirect stdout to a file, e.g. `iroha > log.json`
+- Remove `TERMINAL_COLORS`; use `--terminal-colors`/`--no-terminal-colors` CLI arguments instead
+- Remove `TELEMETRY_CAPACITY`
+
+**Env variables:**
+
+- `LOG_LEVEL`: instead of `MAX_LOG_LEVEL`
+- `LOG_FORMAT`: new parameter
+- `LOG_TOKIO_CONSOLE_ADDR`: instead of `TOKIO_CONSOLE_ADDR`
+
+**Example file before:**
+
+```json
+{
+  "LOGGER": {
+    "MAX_LOG_LEVEL": "INFO",
+    "TELEMETRY_CAPACITY": 1000,
+    "COMPACT_MODE": false,
+    "LOG_FILE_PATH": null,
+    "TERMINAL_COLORS": true
+  }
+}
+```
+
+**Example file after:**
+
+```json
+{
+  "LOGGER": {
+    "LEVEL": "INFO",
+    "FORMAT": "full"
+  }
+}
+```
+
+#### Update configuration endpoints usage
+
+- `GET /configuration` now returns JSON with only `{ logger: { level } }`.
+- `POST /configuration` now accepts JSON in the same shape
+
+**`POST /configuration` request before:**
+
+```json
+{"LogLevel":"DEBUG"}
+```
+
+**`POST /configuration` request after:**
+
+```json
+{"logger":{"level":"DEBUG"}}
+```
+
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-11-30 04:55:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4098" class=".btn">#4098</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #4097: Fix warp noise in logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-- `warp::trace::request()` was attached twice for some endpoints, which lead to noise in logs
-- logging error inside queue push was redundant because error should be handled on caller site
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4097 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Less noise in logs.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 07:22:52 +0000 UTC
     </div>
 </div>
 

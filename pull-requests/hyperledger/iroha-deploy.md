@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/39" class=".btn">#39</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Feature/dops 2267/fix imports
+                    Fix iroha-docker Ansible role
                 </b>
             </td>
         </tr>
@@ -27,23 +27,19 @@ permalink: /pull-requests/hyperledger/iroha-deploy
                 
             </td>
             <td>
-                # Task
+                ## Changes
 
-[DOPS-2267]: Title.
-
-## Changes
-
-1. Replace include by import_task 
+1. Fix iroha-docker Ansible role.
 
 ## Author
 
-Signed-off-by: Safin Insaf <safin@soramitsu.co.jp>
+Signed-off-by: Vasilii Zyabkin <zyabkin@soramitsu.co.jp>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-28 08:41:05 +0000 UTC
+        Created At 2023-12-06 09:54:50 +0000 UTC
     </div>
 </div>
 
