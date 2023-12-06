@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 <b>
-                    fix: Fixing tolerations and nodeAffinity
+                    fix: tolerations and nodeAffinity for k8s
                 </b>
             </td>
         </tr>
