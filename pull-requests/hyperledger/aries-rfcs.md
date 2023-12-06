@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/803" class=".btn">#803</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/804" class=".btn">#804</a>
             </td>
             <td>
                 <b>
-                    Added 'trust input protocol' under concepts folder
+                    Proposes the DIDComm RPC Protocol for App Attestation and more
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed off by: Mathieu Glaude <mathieu@northernblock.io>
+                The DIDComm RPC (DRPC) protocol allows a remote request-response interaction, a Remote Procedure Call (RPC), to be carried out through aDIDComm channel. The requesting Aries agent sends a DIDComm message to request the remote service be invoked, and gets back the response in another DIDComm message. The protocol enables any request to be conveyed, and the subsequent response to be returned, with flexibility in the formats (JSON, Base64 encoded) sent and
+received. Out of scope of this protocol is how the requesting agent discovers the services available from the responding agent, and how the two agents know about the semantics of the requests and responses. By using DIDComm between the requesting and responding agents, the security and privacy benefits of DIDComm are accomplished, and the generic payloads of the messages allows for flexibility in how and where the protocol can be used.
+
+The initial proposed use of this protocol is for App Attestation.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-26 14:18:24 +0000 UTC
+        Created At 2023-12-05 20:01:28 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6243" class=".btn">#6243</a>
+            </td>
+            <td>
+                <b>
+                    [RPC] Use apiConfiguration to limit gasPrice in eth_getGasPrice
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Use apiConfiguration to limit gasPrice in eth_getGasPrice
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-06 00:55:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6242" class=".btn">#6242</a>
+            </td>
+            <td>
+                <b>
+                    Code storage delete refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 23:09:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6241" class=".btn">#6241</a>
+            </td>
+            <td>
+                <b>
+                    Fix the annoying "Errors occurred while build effective model" during…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … builds
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Found a fix for the annoying build error 
+```
+Errors occurred while build effective model from [...]\.gradle\caches\modules-2\files-2.1\org.eclipse.platform\org.eclipse.swt\3.124.200\2013830105b55e3a9490b38034aef3c6f6c5862e\org.eclipse.swt-3.124.200.pom:
+    'dependencies.dependency.artifactId' for org.eclipse.platform:org.eclipse.swt.${osgi.platform}:jar with value 'org.eclipse.swt.${osgi.platform}' does not match a valid id pattern. in org.eclipse.platform:org.eclipse.swt:3.124.200
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-05 18:55:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6240" class=".btn">#6240</a>
             </td>
             <td>
