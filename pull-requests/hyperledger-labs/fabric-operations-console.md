@@ -119,34 +119,3 @@ The version summary report was not getting the versions of CAs.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/566" class=".btn">#566</a>
-            </td>
-            <td>
-                <b>
-                    added testcase for 2.0 channel update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Test update
-
-#### Description
-added testcase for 2.0 channel update
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 06:11:23 +0000 UTC
-    </div>
-</div>
-

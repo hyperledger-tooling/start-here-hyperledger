@@ -336,7 +336,30 @@ Closes #4106<!-- Replace with an actual number,  -->
             <td>
                 ## Description
 
-_todo_
+Started by updating configuration endpoints according to #4063, this PR expanded to major update of dynamic configuration mechanism, Logger configuration (#4030, #4064) and initialisation.
+
+Logger initialisation is a global one-time thing, which was done with `iroha_logger::init(Configuration)`  function, which might accept the config and initialise logger, or might not, without an error. While initialising, it injected a `ReloadHandle` into the configuration instance, so that all updates to `config.logger.max_log_level` would trigger updates set up within `iroha_logger::init`. Than that `config` was copied many times in `Torii` and log level was actually reloaded on `POST /configuration` updates.
+
+However, the configuration value update was not reflected in subsequent `GET /configuration` requests (#4079), because each time `config` is copied (it was copied for each request), it was editing a copy of `config` without affecting an original one. Since a copy of `config` was still containing `ReloadHandle` from Logger, the log level was updated.
+
+Another problem appeared because of combination of configuration & logger architecture, in tests. It appeared that some tests ran concurrently, each calling `iroha_logger::init` with  independent `Configuration`s. However, only one `iroha_logger::init` might succeed, and another silently pretends that everything is ok. It worked fine, until one of Iroha instances fails to update the log level, because its `Configuration` passed into `iroha_logger::init` was not injected with a `ReloadHandle`.
+
+Shortly, the system was *unsound*, i.e. it was easy to misuse. 
+
+**Changes in this PR:**
+
+- Remove `ReloadHandle` and `SyncValue` from configuration
+- Introduce Kiso (jp 基礎 - foundation; basis): an actor responsible for holding the configuration state and broadcasting its updates across the system in a fire-and-forget way
+- Update Logger configuration according to #4030 and #4064
+- Introduce Logger actor, which might be initialised only once per process, and which is responsible for log level reloading and telemetry subscriptions
+- Update Logger initialisation: split `init(Configuration) -> Result<Option<Telemetries>>` into
+    - `init_global(Configuration) -> Result<LoggerHandle>`, initialising the Logger actor once per process, and failing if it was done already
+    - `test_logger() -> LoggerHandle`, lazily initialising the Logger actor with pre-defined configuration, suitable for tests
+
+**Chores:**
+
+- Remove redundant fields from Kura configuration
+- Refactor telemetry broadcasting mechanisms
 
 ### Linked issue
 
@@ -344,11 +367,12 @@ Closes #4030 #4063 #4064 #4079
 
 ### Benefits
 
-_todo_
+- Improves configuration UX
+- Improves system soundness
 
 ### Checklist
 
-- [ ] Refactor Kiso in a fire-and-forget manner
+- [x] Refactor Kiso in a fire-and-forget manner
 - [ ] Play with logger manually
   - [ ] Check if `bunyan` can parse current JSON output
 - [ ] Update logger config in py test env

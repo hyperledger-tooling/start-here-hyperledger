@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6244" class=".btn">#6244</a>
+            </td>
+            <td>
+                <b>
+                    Run ATs sequentially
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR makes the ATs to run sequentially so we reduce the parallelism and get the build working again. This might result in a longer time for ATs to complete but right now Unit tests still take longer.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-06 05:50:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6243" class=".btn">#6243</a>
             </td>
             <td>
@@ -664,36 +698,6 @@ fixes #5851
     </table>
     <div class="right-align">
         Created At 2023-11-29 08:44:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6210" class=".btn">#6210</a>
-            </td>
-            <td>
-                <b>
-                    Don't disconnect if insufficient peers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">peering</span>
-            </td>
-            <td>
-                Don't do any outbound disconnects if EthPeers count is below maxPeers
-
-With these changes, while below maxPeers, the only disconnects that happen with established peers are those found by removing peers if the connection becomes disconnected, and timeouts/useless responses. This still happens quite frequently.
-
-TODO - test this PR out on a mainnet node
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 03:11:34 +0000 UTC
     </div>
 </div>
 
