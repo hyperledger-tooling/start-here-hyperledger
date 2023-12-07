@@ -15,6 +15,64 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
+                    Bevel Release 0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.15.0.0
+                </span>
+            </td>
+            <td>
+                ## What's new in Bevel
+- Cacti quorum connector
+- Proxy ambassador upgraded to latest ambassador edge stack
+- Support for chaincode as an external service
+- Helm charts published on Github hosted helm repo using Github pages
+- Option on Bevel to deploy the Fabric network using bevel-operator-fabric
+- Support Fabric v2.5 network deployment
+
+## New Features
+- HL Fabric
+  -  One organisation multi cluster deployments support
+- HL Besu
+  - Prometheus integration for Besu node monitoring
+
+## Deprecation
+  - No active support for older versions of platforms (below v0.13)
+  - Molecule testing support is removed 
+## Major Bug Fixes
+  - Besu addition of the new org fails #2316 
+
+## Improvements
+  - Single vault management and package script for containers
+  - Update security context in helm charts
+  - Creation of vault auth from shared vault-k8s chart
+  - Creation of storageclass from shared storageclass chart
+  - Fabric: Remove hardcoding of 8443 port and introduce an OrdererAddress
+  - Ansible roles readme removed, inline code comments added
+  - Platform chart names refactored to fix name conflict
+## Documentation
+- Minikube doc and general documentation improvements 
+- Besu onchain permission guide
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/v0.15.0.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 09:34:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     quorum_connector-0.15.0
                 </b>
             </td>
@@ -231,6 +289,62 @@ permalink: /releases/hyperledger/bevel
     </a>
     <span class="right-align">
         Created At 2023-12-07 04:54:20 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    letsencrypt-issuer-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    letsencrypt-issuer-0.15.0
+                </span>
+            </td>
+            <td>
+                Create clusterissuer for letsencrypt
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/letsencrypt-issuer-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 09:34:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    letsencrypt-cert-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    letsencrypt-cert-0.15.0
+                </span>
+            </td>
+            <td>
+                Creates TLS certificates using letencrypt CA
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/letsencrypt-cert-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 09:34:18 +0000 UTC
     </span>
 </div>
 
@@ -1715,6 +1829,286 @@ permalink: /releases/hyperledger/bevel
     </a>
     <span class="right-align">
         Created At 2023-12-07 04:54:20 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    bevel-vault-mgmt-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    bevel-vault-mgmt-0.15.0
+                </span>
+            </td>
+            <td>
+                Shared: Vault and Kubernetes configuration
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/bevel-vault-mgmt-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 09:34:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    bevel-storageclass-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    bevel-storageclass-0.15.0
+                </span>
+            </td>
+            <td>
+                Shared: Deploys a StorageClass that can be used to provision persistent volumes for nodes
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/bevel-storageclass-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 09:34:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    bevel-scripts-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    bevel-scripts-0.15.0
+                </span>
+            </td>
+            <td>
+                Shared: Create configmaps of scripts used in Bevel helm charts
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/bevel-scripts-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 09:34:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    bevel-image-automation-0.2.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    bevel-image-automation-0.2.3
+                </span>
+            </td>
+            <td>
+                Shared: Bevel Image Automation using Flux V2
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/bevel-image-automation-0.2.3" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 09:34:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-validator-node-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-validator-node-0.15.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Deploys Hyperledger Besu validator node
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-validator-node-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 08:18:00 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-tlscert-cert-gen-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-tlscert-cert-gen-0.15.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Generates and stores ambassador tls certificates
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-tlscert-cert-gen-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 08:18:00 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-tessera-node-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-tessera-node-0.15.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Deploys Tessera private transaction manager nodes
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-tessera-node-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 08:18:00 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-tessera-key-mgmt-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-tessera-key-mgmt-0.15.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Generates and stores Tessera keys
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-tessera-key-mgmt-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 08:18:00 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-node-key-mgmt-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-node-key-mgmt-0.15.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Generates and stores node keys
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-node-key-mgmt-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 08:18:00 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-member-node-0.15.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-member-node-0.15.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Deploys Hyperledger Besu non validator node
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-member-node-0.15.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-12-07 08:18:00 +0000 UTC
     </span>
 </div>
 
