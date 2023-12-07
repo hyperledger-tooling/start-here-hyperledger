@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    feat: socket benchmarking
+                    feat: automatic benchmarking + logs + fixes 
                 </b>
             </td>
         </tr>
@@ -28,20 +28,25 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
             </td>
             <td>
                 Done:
-1. Socket benchmarking  - cross-chain trades
-2. Socket routing generates same and cross-chain routes 
+1. Same chain benchmarking for XY and Socket
+2. Tests for the above
+3. Helper also saves the raw quote along with the APIReport json
+4. Automatic benchmarker script `yarn benchmark:auto`
 
-Fix:
-1.  foundry.toml to match forge 
+Fix: 
+1. Report numbering
+
+Rename: 
+None
 
 Todo:
-1. Socket same chain trade parser
-2. Add parser for message-aggregators
+1. Python scripts to visualize the data
+2. Graph the jsons
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-28 16:17:55 +0000 UTC
+        Created At 2023-12-07 01:23:13 +0000 UTC
     </div>
 </div>
 

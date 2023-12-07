@@ -14,6 +14,133 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6254" class=".btn">#6254</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] fix log params for Failed to retrieve chain head
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">logging</span>
+            </td>
+            <td>
+                We are logging this:
+LOG.debug("Failed to retrieve chain head info. Disconnecting {}", peer, error);
+Error is not printed 
+
+Also noticed a similar issue in EthProtocolManager
+
+before
+```
+2023-12-07 09:51:03.857	
+2023-12-06 23:51:03.857+00:00 | EthScheduler-Timer-0 | DEBUG | ChainHeadTracker | Failed to retrieve chain head info. Disconnecting PeerId: 0xcbbaacaf47a005cb38... PeerReputation score: 99, timeouts: {3=1}, useless: 0, validated? true, disconnected? false, client: Geth/v1.13.2-stable-dc34fe82/linux-amd64/go1.21.1, [Connection with hashCode 2029564766 inboundInitiated? false initAt 1701906657037],...
+```
+
+after
+
+`2023-12-07 13:19:53.174+10:00 | EthScheduler-Timer-0 | DEBUG | ChainHeadTracker | Failed to retrieve chain head info. Disconnecting 0x82b8a8b80c6c37caad... java.util.concurrent.TimeoutException: Timeout after 5000 MILLISECONDS`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 03:24:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6253" class=".btn">#6253</a>
+            </td>
+            <td>
+                <b>
+                    consensus/common migrate to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                redo of #6233 to fix DCO 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 02:19:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6252" class=".btn">#6252</a>
+            </td>
+            <td>
+                <b>
+                    increase parallelism usage back from mainnet AT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 01:51:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6251" class=".btn">#6251</a>
+            </td>
+            <td>
+                <b>
+                    removed unnecessary use of static temp dir 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                ref #6248 removed further instances of static temp dir
+
+Note some remaining ones, when changed, the tests failed - so I left them but added a comment. Some refactoring may be needed to get rid of those
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 01:05:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6249" class=".btn">#6249</a>
             </td>
             <td>
@@ -395,32 +522,6 @@ Errors occurred while build effective model from [...]\.gradle\caches\modules-2\
     </table>
     <div class="right-align">
         Created At 2023-12-05 05:31:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6233" class=".btn">#6233</a>
-            </td>
-            <td>
-                <b>
-                    consensus/common migrate to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #5569 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 05:21:07 +0000 UTC
     </div>
 </div>
 
