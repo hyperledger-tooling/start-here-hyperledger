@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    F perfs
+                    improvements
                 </b>
             </td>
         </tr>
@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                This PR brings the following:
+- adjusted cache size in the NWO template
+- better logs
+- config committer reloads starting from index 0 or 1
             </td>
         </tr>
     </table>

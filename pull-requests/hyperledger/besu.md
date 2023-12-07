@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6258" class=".btn">#6258</a>
+            </td>
+            <td>
+                <b>
+                    migrate permissioning ATs to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 08:29:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6256" class=".btn">#6256</a>
+            </td>
+            <td>
+                <b>
+                    plugin and jsonrpc ATs to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 06:41:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6255" class=".btn">#6255</a>
+            </td>
+            <td>
+                <b>
+                    add extra gradle task dependency to silence warning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dev experience</span>
+            </td>
+            <td>
+                Seems redundant but it fixes this warning
+
+```
+Execution optimizations have been disabled for task ':acceptance-tests:tests:processTestResources' to ensure correctness due to the following reasons:
+  - Gradle detected a problem with the following location: '/Users/sallymacfarlane/workspace/b2/acceptance-tests/test-plugins/build/libs'. Reason: Task ':acceptance-tests:tests:processTestResources' uses this output of task ':acceptance-tests:test-plugins:jar' without declaring an explicit or implicit dependency. This can lead to incorrect results being produced, depending on what order the tasks are executed. Please refer to https://docs.gradle.org/7.6/userguide/validation_problems.html#implicit_dependency for more details about this problem.
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 06:37:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6254" class=".btn">#6254</a>
             </td>
             <td>
@@ -97,7 +187,7 @@ after
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-
+This PR increases the parallelism back to 4 to try and get the mainnet AT's back to a good state.
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

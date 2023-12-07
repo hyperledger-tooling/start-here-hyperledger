@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/572" class=".btn">#572</a>
+            </td>
+            <td>
+                <b>
+                    updated audit log entry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+updated audit log entry
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 07:37:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/571" class=".btn">#571</a>
             </td>
             <td>
