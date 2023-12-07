@@ -1,13 +1,13 @@
 
-[805](https://github.com/hyperledger/aries-rfcs/pull/805) Aries RFC Index Update - 20231206
+[4118](https://github.com/hyperledger/iroha/pull/4118) [refactor]: update `iroha_cli_derive` to use syn 2.0
 
-[6249](https://github.com/hyperledger/besu/pull/6249) migrate bft and some other ATs to junit 5
+[6254](https://github.com/hyperledger/besu/pull/6254) [MINOR] fix log params for Failed to retrieve chain head
 
-[6248](https://github.com/hyperledger/besu/pull/6248) Small fixes in main
+[6253](https://github.com/hyperledger/besu/pull/6253) consensus/common migrate to junit 5
 
-[323](https://github.com/hyperledger/fabric-chaincode-java/pull/323) Prepare for v2.5.1 release
+[6252](https://github.com/hyperledger/besu/pull/6252) increase parallelism usage back from mainnet AT
 
-[2653](https://github.com/hyperledger/aries-cloudagent-python/pull/2653) Connection and DIDX Problem Reports
+[17](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/17) feat: automatic benchmarking + logs + fixes 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
