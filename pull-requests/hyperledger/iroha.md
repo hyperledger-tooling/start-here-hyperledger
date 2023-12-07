@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4122" class=".btn">#4122</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4120: Do not use the `tungstenite` re-exported from `tokio_tungstenite`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Re-exported does not have the TLS fully functional if we only enable it on `tokio-tungstenite`, so a direct dependency is required
+
+### Linked issue
+
+Fixes #4120
+
+### Checklist
+
+- [ ] make ci pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 15:48:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4118" class=".btn">#4118</a>
             </td>
             <td>
