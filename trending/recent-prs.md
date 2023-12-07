@@ -1,13 +1,13 @@
 
-[322](https://github.com/hyperledger/fabric-chaincode-java/pull/322) Address CVE-2023-6481 by moving to logback v1.3.14.
+[805](https://github.com/hyperledger/aries-rfcs/pull/805) Aries RFC Index Update - 20231206
 
-[6247](https://github.com/hyperledger/besu/pull/6247) fix: double calls to trace{Start,End}Transaction
+[6249](https://github.com/hyperledger/besu/pull/6249) migrate bft and some other ATs to junit 5
 
-[513](https://github.com/hyperledger-labs/fabric-smart-client/pull/513) F perfs
+[6248](https://github.com/hyperledger/besu/pull/6248) Small fixes in main
 
-[521](https://github.com/hyperledger-labs/fabric-token-sdk/pull/521) F tests
+[323](https://github.com/hyperledger/fabric-chaincode-java/pull/323) Prepare for v2.5.1 release
 
-[40](https://github.com/hyperledger/iroha-deploy/pull/40) Fix iroha-docker Ansible role
+[2653](https://github.com/hyperledger/aries-cloudagent-python/pull/2653) Connection and DIDX Problem Reports
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
