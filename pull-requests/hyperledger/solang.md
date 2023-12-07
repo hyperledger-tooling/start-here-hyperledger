@@ -126,29 +126,3 @@ For more information:  <img src="https://api.segment.io/v1/pixel/track?data=eyJ3
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1604" class=".btn">#1604</a>
-            </td>
-            <td>
-                <b>
-                    No version of Solidity supports octal numbers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-30 09:28:15 +0000 UTC
-    </div>
-</div>
-

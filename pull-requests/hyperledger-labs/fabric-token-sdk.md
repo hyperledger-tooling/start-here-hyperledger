@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    F tests
+                    improvements
                 </b>
             </td>
         </tr>
@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                This PR brings the following:
+- better logs
+- ability to disable the restart of the nodes in the tests
+- deps update
             </td>
         </tr>
     </table>
@@ -59,32 +62,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2023-12-01 13:22:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/519" class=".btn">#519</a>
-            </td>
-            <td>
-                <b>
-                    extended recipient data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                and some log improvements
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-30 10:35:52 +0000 UTC
     </div>
 </div>
 
