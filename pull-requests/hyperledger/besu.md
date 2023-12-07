@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6249" class=".btn">#6249</a>
+            </td>
+            <td>
+                <b>
+                    migrate bft and some other ATs to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-06 22:28:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6248" class=".btn">#6248</a>
+            </td>
+            <td>
+                <b>
+                    Small fixes in main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+fixes for issues discovered while debugging #6003 
+
+static temp dir in PrivacyTest causes flaky test behavior.  fix by not using static temp dir:
+<img width="1219" alt="Screenshot 2023-12-06 at 1 34 35 PM" src="https://github.com/hyperledger/besu/assets/1238512/3bf37877-dfb5-4f3a-a50b-51b933211d7c">
+
+remove opinionated configs in debug docker image as they can cause difficult to discover failures/conflicts with existing network configs:
+* explicit add of `*` to BESU_HOST_ALLOWLIST can cause ```Values '*' or 'all' can't be used with other hostnames``` if config has explict host configs (or even a duplicate `*` for hosts allow)
+* explicit set of BESU_RPC_HTTP_API can cause ```Method not found``` for rpc namespaces added by config like for linea plugins, etc
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-06 21:55:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6247" class=".btn">#6247</a>
             </td>
             <td>
@@ -174,39 +242,6 @@ Errors occurred while build effective model from [...]\.gradle\caches\modules-2\
     </table>
     <div class="right-align">
         Created At 2023-12-05 18:55:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6240" class=".btn">#6240</a>
-            </td>
-            <td>
-                <b>
-                    Gha checks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 17:40:30 +0000 UTC
     </div>
 </div>
 

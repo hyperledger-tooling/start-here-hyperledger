@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2653" class=".btn">#2653</a>
+            </td>
+            <td>
+                <b>
+                    Connection and DIDX Problem Reports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add current message thread to problem report messages to identify which message/thread encountered the problem.
+- problem report handlers will find connections based on thread/request id
+- register didx problem report so handler will be active and deal with didx problem reports
+- update tests to match new handler logic
+
+fixes #2650 
+fixes #2598
+
+A lot of underlying issues uncovered (and now addressed) arising from #2530 investigation. 
+
+Synopsis is the implemented logic for sending/handling connection (and didx) problem reports that require a fully working connection. This prevented us from notifying if the problem arose during the request or early response stages. That is addressed by allowing the problem report message types to skip the active check in the responder. Then the next issue was the agent receiving the problem report could not match up their connection, so the sender adds the failing message's thread to the problem report message before delivery, the receiver can then look up connections by a known thread id. Then the DIDX problem report code was always failing when trying to determine the messages targets, so that code was updated to handle diddoc attach conversion to diddoc and then resolve the targets. Then uncovered the fact that the DIDX problem reports (and handler) were not registered in the protocol message registry so those wouldn't get handled when we finally parsed the targets.
+
+Sigh, lots of stuff that just never worked... 🤷 ...hoping that these fixes will be of use when there are issues in the early stages of connecting agents.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-06 19:59:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2651" class=".btn">#2651</a>
             </td>
             <td>
