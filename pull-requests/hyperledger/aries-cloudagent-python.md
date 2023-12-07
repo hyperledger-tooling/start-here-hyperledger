@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2655" class=".btn">#2655</a>
+            </td>
+            <td>
+                <b>
+                    Slight improvement to credx proof validation error message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Slight improvement to an error message.  (This confused me as it logged a stack trace during integration testing but didn't report a failed test.  Reason = it's not an error, just a proof validation failure.)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 17:27:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2653" class=".btn">#2653</a>
             </td>
             <td>
@@ -126,32 +153,6 @@ Sigh, lots of stuff that just never worked... 🤷 ...hoping that these fixes wi
     </table>
     <div class="right-align">
         Created At 2023-11-30 19:04:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2642" class=".btn">#2642</a>
-            </td>
-            <td>
-                <b>
-                    Feat: DIDX Implicit Request auto-accept and Delete OOB Invitation related records
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                resolve #2644
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-30 16:57:10 +0000 UTC
     </div>
 </div>
 

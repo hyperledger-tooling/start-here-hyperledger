@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6259" class=".btn">#6259</a>
+            </td>
+            <td>
+                <b>
+                    Fix and test that the BlockAwareOperationTracer methods are invoked the correct number of times
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+@delehef please double check the removal of redundant calls to `traceEndBlock`
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+tests & fixes #6246
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 12:51:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6258" class=".btn">#6258</a>
             </td>
             <td>
@@ -828,39 +866,6 @@ fixes #5533
     </table>
     <div class="right-align">
         Created At 2023-12-01 01:55:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6218" class=".btn">#6218</a>
-            </td>
-            <td>
-                <b>
-                    Allow `maxActiveConnections` for GraphQL and terminate requests based on actual connection status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-1. The option of `--graphql-http-max-active-connections` has been added to limit the numer of GraphQL requests served each time.
-2. The GraphQL server has been relying on an `isAliveHandler` to terminate requests based on the timeout. However, this handler was only applied to `matchingLogs`, resulting in unterminated GraphQL executions in general even if the connection has timed out. Rather than relying on a future task, it is more appropriate to terminate requests based on the actual status of the connection. The `TimeoutHandler` should have handled the HTTP timeout while connections may also be terminated due to exceeding `maxActiveConnections`.
-
-Docs change would be added in another PR in a later stage when code changes stabilise.
-
-## Fixed Issue(s)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-30 15:40:58 +0000 UTC
     </div>
 </div>
 
