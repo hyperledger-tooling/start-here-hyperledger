@@ -411,7 +411,7 @@ Adds documentation for integration tests
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span>
+                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">shared</span>
             </td>
             <td>
                 # Overview

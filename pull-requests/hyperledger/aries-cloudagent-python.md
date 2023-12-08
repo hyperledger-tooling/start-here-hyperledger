@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2661" class=".btn">#2661</a>
+            </td>
+            <td>
+                <b>
+                    fix: open-api generator script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes the openapi generator script after recent changes. I also did some minor cleanup to make the generated openapi more usable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-08 04:37:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2660" class=".btn">#2660</a>
             </td>
             <td>
