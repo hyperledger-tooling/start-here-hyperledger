@@ -1,13 +1,13 @@
 
-[2661](https://github.com/hyperledger/aries-cloudagent-python/pull/2661) fix: open-api generator script
+[1608](https://github.com/hyperledger/solang/pull/1608) Move to llvm16
 
-[157](https://github.com/hyperledger-labs/fabric-operator/pull/157) Updating apis to sync with the current operator APIs
+[4130](https://github.com/hyperledger/iroha/pull/4130) [fix] #0000: On-chain predictable iteration order
 
-[6260](https://github.com/hyperledger/besu/pull/6260) Non bft group ats junit 5
+[810](https://github.com/hyperledger-labs/open-enterprise-agent/pull/810) fix: correct OAS examples
 
-[2660](https://github.com/hyperledger/aries-cloudagent-python/pull/2660) Additional anoncreds integration tests
+[4129](https://github.com/hyperledger/iroha/pull/4129) [refactor]: apply most recent clippy suggestions
 
-[1145](https://github.com/hyperledger/fabric-samples/pull/1145) Use latest v2.5 fabric-chaincode-java
+[4128](https://github.com/hyperledger/iroha/pull/4128) [BACKPORT] #4120: Do not use the `tungstenite` re-exported from `tokio_tungstenite`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
