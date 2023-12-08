@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4568" class=".btn">#4568</a>
+            </td>
+            <td>
+                <b>
+                    Add TLS passthrough and SANs info to TLS doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add TLS passthrough and SANs info to the TLS documentation to address common user questions.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-08 17:01:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4563" class=".btn">#4563</a>
             </td>
             <td>
