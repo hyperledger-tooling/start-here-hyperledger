@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2660" class=".btn">#2660</a>
+            </td>
+            <td>
+                <b>
+                    Additional anoncreds integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">AnonCreds</span>
+            </td>
+            <td>
+                Review of aca-py integration tests, and include some additional anoncreds scenarios
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 21:53:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2659" class=".btn">#2659</a>
+            </td>
+            <td>
+                <b>
+                    Improve Per Tenant Logging: Fix issues around default log file path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 19:55:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2658" class=".btn">#2658</a>
+            </td>
+            <td>
+                <b>
+                    Update snyk workflow to execute on Pull Request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - run on pull_request not push
+- only when PRs change /aries_cloudagent files or /docker files.
+
+Not sure how to test this... 
+
+fixes #2526 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 18:18:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2655" class=".btn">#2655</a>
             </td>
             <td>
@@ -126,33 +209,6 @@ Sigh, lots of stuff that just never worked... 🤷 ...hoping that these fixes wi
     </table>
     <div class="right-align">
         Created At 2023-12-01 22:07:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2643" class=".btn">#2643</a>
-            </td>
-            <td>
-                <b>
-                    Initial migration of anoncreds revocation code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">AnonCreds</span>
-            </td>
-            <td>
-                Adds revocation support from the anoncreds-rs branch.  Still a few TODO's but this PR is ready to go and I'll continue the work in the next PR.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-30 19:04:56 +0000 UTC
     </div>
 </div>
 

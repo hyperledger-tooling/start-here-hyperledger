@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6260" class=".btn">#6260</a>
+            </td>
+            <td>
+                <b>
+                    Non bft group ats junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                this is #6249 without clique/bft ATs
+fixes #6265
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-07 23:18:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6259" class=".btn">#6259</a>
             </td>
             <td>
@@ -65,7 +92,7 @@ tests & fixes #6246
                 <span class="chip">testing</span>
             </td>
             <td>
-                <nil>
+                fixes #6262 
             </td>
         </tr>
     </table>
@@ -91,14 +118,7 @@ tests & fixes #6246
                 <span class="chip">testing</span>
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+                fixes #6264 
             </td>
         </tr>
     </table>
@@ -227,6 +247,7 @@ after
 ## PR description
 This PR increases the parallelism back to 4 to try and get the mainnet AT's back to a good state.
 ## Fixed Issue(s)
+Fixes #6250 
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
             </td>
@@ -273,7 +294,7 @@ Note some remaining ones, when changed, the tests failed - so I left them but ad
             </td>
             <td>
                 <b>
-                    migrate bft and some other ATs to junit 5
+                    migrate bft and clique ATs to junit 5
                 </b>
             </td>
         </tr>
@@ -282,7 +303,7 @@ Note some remaining ones, when changed, the tests failed - so I left them but ad
                 <span class="chip">testing</span>
             </td>
             <td>
-                <nil>
+                fixes #6261
             </td>
         </tr>
     </table>
