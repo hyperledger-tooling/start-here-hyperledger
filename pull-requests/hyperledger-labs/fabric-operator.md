@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/155" class=".btn">#155</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/157" class=".btn">#157</a>
             </td>
             <td>
                 <b>
-                    Change the probes from legacy endpoints to tcp ports
+                    Updating apis to sync with the current operator APIs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/154
+                https://github.com/hyperledger-labs/fabric-operator/issues/156
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-29 13:08:58 +0000 UTC
+        Created At 2023-12-08 04:01:17 +0000 UTC
     </div>
 </div>
 
