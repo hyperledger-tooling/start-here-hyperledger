@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2664" class=".btn">#2664</a>
+            </td>
+            <td>
+                <b>
+                    Ensure "preserve_exchange_records" flags are set.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Not all cases on issue credential (v1 and v2) were respecting the system default. 
+
+There was a bug on issue credential v1 where `auto_remove` flag was set then ignored before the record was saved.
+
+
+So behaviour has been tested for issue credential (v1 & v2) and proof presentation (v1 & v2); exchange records are preserved if the `--preserve-exchange-records` is `true` and `auto_remove` has not been set to `True` on API calls that accept it (ie `send-offer`, `send-request`).
+
+Fixes #2656
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-09 00:45:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2663" class=".btn">#2663</a>
+            </td>
+            <td>
+                <b>
+                    fix: link to raw content change from master to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Link to image is broken after [RFCs PR#703](https://github.com/hyperledger/aries-rfcs/pull/703) which renamed the "master" branch to "main". It appears that other references (tree, blob) redirect from the URL containing "master" to the equivalent with "main", but URLs with "raw" do not(‽).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-08 22:28:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2662" class=".btn">#2662</a>
+            </td>
+            <td>
+                <b>
+                    Tweak scope of GHA integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move the @GHA tag to the scenarios of each test to allow for some fine tuning of what is included in the github actions.  Exclude most of the AnonCreds tests (but keep a representative sample included).  Add tags for Askar vs Askar-anoncreds wallet types.
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-08 20:03:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2661" class=".btn">#2661</a>
             </td>
             <td>
@@ -209,32 +298,6 @@ Sigh, lots of stuff that just never worked... 🤷 ...hoping that these fixes wi
     </table>
     <div class="right-align">
         Created At 2023-12-04 18:55:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2645" class=".btn">#2645</a>
-            </td>
-            <td>
-                <b>
-                    feat: add did:jwk resolver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This implements a did:jwk resolver. See https://github.com/hyperledger/aries-acapy-plugins/pull/47 for context.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-01 22:07:35 +0000 UTC
     </div>
 </div>
 
