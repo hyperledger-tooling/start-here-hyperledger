@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6267" class=".btn">#6267</a>
+            </td>
+            <td>
+                <b>
+                    ETC mainnet 'Spiral' activation block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR sets ETC Mainnet activation block as defined in [ECIP-1109](https://ecips.ethereumclassic.org/ECIPs/ecip-1109) to `19_250_000`. This change was already merged in core-geth in https://github.com/etclabscore/core-geth/pull/595
+I also set the DNS discovery tree to what's in [core-geth#bootnodes_classic.go](https://github.com/etclabscore/core-geth/blob/v1.12.17/params/bootnodes_classic.go#L28)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-08 20:12:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6260" class=".btn">#6260</a>
             </td>
             <td>
@@ -734,39 +762,6 @@ The proposal is to deprecated it now and remove it in few months, target 24.4 re
     </table>
     <div class="right-align">
         Created At 2023-12-04 16:26:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6227" class=".btn">#6227</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.10.3 rc1 in progress, uprev main.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-01 19:42:17 +0000 UTC
     </div>
 </div>
 

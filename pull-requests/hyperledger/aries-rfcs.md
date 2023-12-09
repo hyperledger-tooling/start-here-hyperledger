@@ -54,8 +54,10 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                The DIDComm RPC (DRPC) protocol allows a remote request-response interaction, a Remote Procedure Call (RPC), to be carried out through aDIDComm channel. The requesting Aries agent sends a DIDComm message to request the remote service be invoked, and gets back the response in another DIDComm message. The protocol enables any request to be conveyed, and the subsequent response to be returned, with flexibility in the formats (JSON, Base64 encoded) sent and
-received. Out of scope of this protocol is how the requesting agent discovers the services available from the responding agent, and how the two agents know about the semantics of the requests and responses. By using DIDComm between the requesting and responding agents, the security and privacy benefits of DIDComm are accomplished, and the generic payloads of the messages allows for flexibility in how and where the protocol can be used.
+                The DIDComm Remote Procedure Call (DRPC) protocol enables a [JSON-RPC]-based request-response interaction to be carried out across a DIDComm channel. The protocol is designed to enable custom interactions between connected agents, and to allow for the rapid prototyping of experimental DIDComm protocols. An agent sends a DIDComm message to request a remote service be invoked by another agent, and gets back a response in subsequent DIDComm message. The protocol enables any request to be conveyed that the other agent understands. Out of scope of this protocol is how the requesting agent discovers the services available from the responding agent, and how the two agents know the semantics of the [JSON-RPC] requests and responses. By using DIDComm between the requesting and responding
+agents, the security and privacy benefits of DIDComm are accomplished, and the generic parameters of the messages allow for flexibility in how and where the protocol can be used.
+
+[JSON-RPC]: https://www.jsonrpc.org/specification
 
 The initial proposed use of this protocol is for App Attestation.
 
