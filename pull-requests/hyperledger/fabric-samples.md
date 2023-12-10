@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1144" class=".btn">#1144</a>
-            </td>
-            <td>
-                <b>
-                    Use Executor in asset-transfer-events/application-gateway-java
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The default ForkJoinPool.commonPool may have limited capacity in some environments, risking deadlock. This implementation also better demonstrates handling of connection errors.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-02 22:19:05 +0000 UTC
-    </div>
-</div>
-
