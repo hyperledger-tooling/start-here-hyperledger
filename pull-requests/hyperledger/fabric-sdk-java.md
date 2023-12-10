@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/295" class=".btn">#295</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/296" class=".btn">#296</a>
             </td>
             <td>
                 <b>
-                    Update version following v2.2.25 release
+                    Use v2.2.x Java and Node chaincode APIs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                Lax version constraints introduced incompatibilities with Fabric v2.2 with recent v2.5 API versions.
+
+Also update some GitHub Actions versions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-29 20:33:14 +0000 UTC
+        Created At 2023-12-10 16:17:45 +0000 UTC
     </div>
 </div>
 
