@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6273" class=".btn">#6273</a>
+            </td>
+            <td>
+                <b>
+                    log bootnodes and static nodes list at debug level
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                at startup, log the counts (at info) and list (at debug level) 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-11 01:00:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6268" class=".btn">#6268</a>
             </td>
             <td>
