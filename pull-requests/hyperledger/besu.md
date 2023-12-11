@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6275" class=".btn">#6275</a>
+            </td>
+            <td>
+                <b>
+                    Update Gradle plugins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-11 16:09:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6274" class=".btn">#6274</a>
             </td>
             <td>
@@ -831,42 +864,6 @@ This PR reverts #6187. The PR causes syncing problems by not removing useless pe
     </table>
     <div class="right-align">
         Created At 2023-12-05 04:56:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6230" class=".btn">#6230</a>
-            </td>
-            <td>
-                <b>
-                    Deprecation warning if Forest pruning is enabled
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Forest pruning, option `pruning-enabled`, it is not maintained and this feature is superseded by Bonsai, no usage is reported also because to save disk space Bonsai is the solution and when using Forest usually the user want to keep all the history.
-The proposal is to deprecated it now and remove it in few months, target 24.4 release
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-04 16:26:35 +0000 UTC
     </div>
 </div>
 
