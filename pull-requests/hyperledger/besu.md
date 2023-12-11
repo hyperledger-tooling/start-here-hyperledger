@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">logging</span>
             </td>
             <td>
                 at startup, log the counts (at info) and list (at debug level) 
