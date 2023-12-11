@@ -1,13 +1,13 @@
 
-[6274](https://github.com/hyperledger/besu/pull/6274) Sequenced pool synonym for legacy pool
+[390](https://github.com/hyperledger/fabric-ca/pull/390) Bump sqlite3 to v1.14.18
 
-[4572](https://github.com/hyperledger/fabric/pull/4572) removed the request from the pool if the the proposal is bad
+[6275](https://github.com/hyperledger/besu/pull/6275) Update Gradle plugins
 
-[3](https://github.com/hyperledger-labs/Electrodo.Docs/pull/3) merge meta repository with backend repository
+[7](https://github.com/hyperledger-labs/TDIDN/pull/7) Bump @babel/traverse from 7.23.0 to 7.23.6 in /frontend/TDIN
 
-[4571](https://github.com/hyperledger/fabric/pull/4571) BFT Block Puller: updatable connection source
+[6](https://github.com/hyperledger-labs/TDIDN/pull/6) Bump @babel/traverse from 7.23.0 to 7.23.6 in /frontend/web-wallet
 
-[4135](https://github.com/hyperledger/iroha/pull/4135) [BACKPORT] #4090 #3858: Fix having to pass IROHA_SKIP_WASM_CHECKS env variable with true
+[5](https://github.com/hyperledger-labs/TDIDN/pull/5) Bump @adobe/css-tools from 4.3.1 to 4.3.2 in /frontend/web-wallet
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

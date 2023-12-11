@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/162" class=".btn">#162</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies to address CVE-2023-3635
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-04 14:57:22 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/388" class=".btn">#388</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/390" class=".btn">#390</a>
             </td>
             <td>
                 <b>
-                    Remove outdated chaincode information from operations guide
+                    Bump sqlite3 to v1.14.18
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Remove outdated chaincode information from operations guide. Since this information is not specific to Fabric CA, link to the Fabric chaincode tutorial instead.
+                Bump sqlite3 to v1.14.18.
 
-Resolves #348.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-01 19:30:08 +0000 UTC
+        Created At 2023-12-11 16:57:07 +0000 UTC
     </div>
 </div>
 
