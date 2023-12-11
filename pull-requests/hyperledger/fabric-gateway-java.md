@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    Update version following v2.2.9 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also add a RELEASING.md file to document release process.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-10 23:38:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/162" class=".btn">#162</a>
             </td>
             <td>
