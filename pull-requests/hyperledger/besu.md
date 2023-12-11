@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6274" class=".btn">#6274</a>
+            </td>
+            <td>
+                <b>
+                    Sequenced pool synonym for legacy pool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+Introduces the new `sequenced` synonym for the `legacy` transaction pool, as discussed in https://github.com/hyperledger/besu/issues/6211.
+
+The PR adds enough for users to start switching to the `--tx-pool=sequenced` option ahead of removal of the `legacy` pool in the future.
+
+I've added one or two additional unit tests to check that `legacy` options still work with the `sequenced` pool, but haven't done anything more comprehensive than that because the future PR to deprecate the `legacy` pool will refactor all of the existing tests to use `sequenced` anyway.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/6211
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-11 11:55:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6273" class=".btn">#6273</a>
             </td>
             <td>
