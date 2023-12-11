@@ -31,6 +31,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
 - adjusted cache size in the NWO template
 - better logs
 - config committer reloads starting from index 0 or 1
+- channel.numRetries must be at least 1
             </td>
         </tr>
     </table>
