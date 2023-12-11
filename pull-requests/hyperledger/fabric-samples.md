@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1146" class=".btn">#1146</a>
+            </td>
+            <td>
+                <b>
+                    test-network: Update comments to reflect channel profile name changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch updates comments to reflect channel profile name changes in test-network.
+
+### Related Issues/PRs
+- https://github.com/hyperledger/fabric-samples/issues/1131
+- https://github.com/hyperledger/fabric/pull/4528
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-11 04:40:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1145" class=".btn">#1145</a>
             </td>
             <td>

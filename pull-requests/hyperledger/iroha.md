@@ -176,7 +176,7 @@ Fixes #4120
             </td>
             <td>
                 <b>
-                    [docs] #0000: remove auto-generated configuration reference
+                    [documentation]: remove auto-generated configuration reference
                 </b>
             </td>
         </tr>
