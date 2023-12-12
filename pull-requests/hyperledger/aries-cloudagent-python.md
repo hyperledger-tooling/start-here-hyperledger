@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2665" class=".btn">#2665</a>
+            </td>
+            <td>
+                <b>
+                    feat: make design doc for adding w3C vc format support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains one main document:
+- `AnoncredsW3CCompatibility.md` - the design document for implementing w3c vc/vp format support
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-11 19:00:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2664" class=".btn">#2664</a>
             </td>
             <td>
@@ -271,33 +298,6 @@ Sigh, lots of stuff that just never worked... 🤷 ...hoping that these fixes wi
     </table>
     <div class="right-align">
         Created At 2023-12-06 19:59:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2651" class=".btn">#2651</a>
-            </td>
-            <td>
-                <b>
-                    Update integration tests for anoncreds-rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">AnonCreds</span>
-            </td>
-            <td>
-                Final update from the `anoncreds-rs` branch, brings across some integration tests, and also includes a bit of cleanup.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-04 18:55:52 +0000 UTC
     </div>
 </div>
 
