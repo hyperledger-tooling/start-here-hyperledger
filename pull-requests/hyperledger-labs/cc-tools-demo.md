@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    CODEOWNERS and MAINTAINERS
+                    Fix CCAPI waiting for inexistant Custom Event response
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
                 
             </td>
             <td>
-                Add the CODEOWNERS and MAINTAINERS files to the repository
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-13 11:44:20 +0000 UTC
+        Created At 2023-12-12 10:15:48 +0000 UTC
     </div>
 </div>
 
