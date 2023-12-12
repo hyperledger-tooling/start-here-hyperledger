@@ -1,13 +1,13 @@
 
-[1609](https://github.com/hyperledger/solang/pull/1609) Represent type(f) correctly in the ast
+[4575](https://github.com/hyperledger/fabric/pull/4575) Revert image FABRIC_CFG_PATH to /etc/hyperledger/fabric (release-2.5)
 
-[4139](https://github.com/hyperledger/iroha/pull/4139) [refactor]: split `iroha_torii` from `iroha`
+[4574](https://github.com/hyperledger/fabric/pull/4574) Revert image FABRIC_CFG_PATH to /etc/hyperledger/fabric
 
-[6285](https://github.com/hyperledger/besu/pull/6285) Add trace to web socket JSON/RPC responses
+[813](https://github.com/hyperledger-labs/open-enterprise-agent/pull/813) fix: Option to disable apisix key auth
 
-[56](https://github.com/hyperledger-labs/cc-tools-demo/pull/56) Fix CCAPI waiting for inexistant Custom Event response
+[4142](https://github.com/hyperledger/iroha/pull/4142) [fix] #4140: Fix registration of new peer
 
-[6284](https://github.com/hyperledger/besu/pull/6284) [#6201] Duplicate "Terminating connection" message on peer connections
+[811](https://github.com/hyperledger-labs/open-enterprise-agent/pull/811) feat: env vars support through values file
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
