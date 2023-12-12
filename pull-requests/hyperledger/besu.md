@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6281" class=".btn">#6281</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] CLI unit tests migrate to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                refs #5571 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 04:04:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6280" class=".btn">#6280</a>
             </td>
             <td>
@@ -686,6 +712,13 @@ Use apiConfiguration to limit gasPrice in eth_getGasPrice
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+Note this is built on top of #5889. It will be much simpler once that is merged in.
+
+Refactor `BonsaiWorldStateKeyValueStorage` to move the FlatDB construction and management out into a new class `FlatDbStrategyProvider`.
+
+- Splits out the FlatDbStrategy construction and flatDb management from the BonsaiWorldStateKeyValueStorage into a new class FlatDbStrategyProvider
+- Passes through the DataStorageConfiguration to FlatDbStrategyProvider instead of just the boolean flag
+By splitting out the FlatDbStrategy I can simplify the constructor arguments to the BonsaiWorldStateKeyValueStorage quite a bit as I can create the FlatDbStrategyProvider in the KeyValueStorageProvider once with its arguments instead of repassing those into the BonsaiWorldStateKeyValueStorage each time we create an instance of it.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -863,59 +896,6 @@ Errors occurred while build effective model from [...]\.gradle\caches\modules-2\
     </table>
     <div class="right-align">
         Created At 2023-12-05 06:37:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6234" class=".btn">#6234</a>
-            </td>
-            <td>
-                <b>
-                    crypto migrate to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #5568 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 05:31:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6232" class=".btn">#6232</a>
-            </td>
-            <td>
-                <b>
-                    Revert PR https://github.com/hyperledger/besu/pull/6187
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR reverts #6187. The PR causes syncing problems by not removing useless peers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 04:56:56 +0000 UTC
     </div>
 </div>
 
