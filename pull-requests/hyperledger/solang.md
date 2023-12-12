@@ -33,7 +33,9 @@ permalink: /pull-requests/hyperledger/solang
                     type(int);
             }
 
-Also, `type(enum-type).min` or `.. .max` is now supported
+ `type(enum-type).min` or `type(enum).min` is now supported. 
+
+This fixes all the issues wrt `type(T)`  in the solc tests.
             </td>
         </tr>
     </table>
