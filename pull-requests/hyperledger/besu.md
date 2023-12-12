@@ -14,6 +14,142 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6285" class=".btn">#6285</a>
+            </td>
+            <td>
+                <b>
+                    Add trace to web socket JSON/RPC responses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Trace WS JSON/RPC responses (successes and failures)
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/6276
+
+## Example trace output
+
+Successful `eth_getBlockByNumber`:
+
+```
+2023-12-12 10:43:41.553+00:00 | vert.x-eventloop-thread-1 | TRACE | WebSocketMessageHandler | {"jsonrpc":"2.0","id":51,"result":{"number":"0x0","hash":"0x74f92c171677a9f8b1eac53fc4f2c2e0d6bbc7a7b9b259fd0067f7b573951e16","mixHash":"0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365","parentHash":"0x0000000000000000000000000000000000000000000000000000000000000000","nonce":"0x0000000000000000","sha3Uncles":"0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347","logsBloom":"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","transactionsRoot":"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421","stateRoot":"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421","receiptsRoot":"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421","miner":"0x0000000000000000000000000000000000000000","difficulty":"0x1","totalDifficulty":"0x1","extraData":"0xf88fa00000000000000000000000000000000000000000000000000000000000000000f869945c9437de876531c73c9618d13872f7508869f2539474474cf92e9b74df7a2ce2c4fbc0830c773b7a769462f241db855d439cc79f5d2bd4a58eeb9c5d01cd946d544f03911b74425dd4112e95f93b82ac6302f19477fd5cb2aea0b91e7e4faf7625bf9dbaee39ee47c080c0","size":"0x292","gasLimit":"0x1fffffffffffff","gasUsed":"0x0","timestamp":"0x58ee40ba","uncles":[],"transactions":[]}}
+
+```
+
+Failed `eth_getBlockByNumber`:
+
+```
+2023-12-12 10:44:02.881+00:00 | vert.x-eventloop-thread-1 | TRACE | WebSocketMessageHandler | {"jsonrpc":"2.0","id":51,"error":{"code":-32602,"message":"Invalid params"}}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 10:47:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6284" class=".btn">#6284</a>
+            </td>
+            <td>
+                <b>
+                    [#6201] Duplicate "Terminating connection" message on peer connections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+There are two invocations to the method "terminateConnection" (ApiHandler and NettyPeerConnection). In the case of NettyPeerConnection it is called inside a listener.
+The correct thing is to control that the terminateConnection method is executed once even if it is called several times.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#6201
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 08:54:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6283" class=".btn">#6283</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] More cli tests to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                builds on #6281 and #6282 
+refs #5571 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 08:09:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6282" class=".btn">#6282</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] CLI Subcommands migrate to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                builds on #6281 
+
+refs #5571 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 07:37:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6281" class=".btn">#6281</a>
             </td>
             <td>
@@ -143,7 +279,7 @@ Introduces the new `sequenced` synonym for the `legacy` transaction pool, as dis
 
 The PR adds enough for users to start switching to the `--tx-pool=sequenced` option ahead of removal of the `legacy` pool in the future.
 
-I've added one or two additional unit tests to check that `legacy` options still work with the `sequenced` pool, but haven't done anything more comprehensive than that because the future PR to deprecate the `legacy` pool will refactor all of the existing tests to use `sequenced` anyway.
+I've added one or two additional unit tests to check that `legacy` options still work with the `sequenced` pool, but haven't done anything more comprehensive than that because the future PR to ~~deprecate~~ remove the `legacy` pool will refactor all of the existing tests to use `sequenced` anyway.
 
 ## Fixed Issue(s)
 Fixes https://github.com/hyperledger/besu/issues/6211
@@ -835,67 +971,6 @@ Errors occurred while build effective model from [...]\.gradle\caches\modules-2\
     </table>
     <div class="right-align">
         Created At 2023-12-05 12:47:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6236" class=".btn">#6236</a>
-            </td>
-            <td>
-                <b>
-                    Update Gradle verification metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-`./gradlew --no-daemon --write-verification-metadata sha256 spotlessCheck'
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 10:04:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6235" class=".btn">#6235</a>
-            </td>
-            <td>
-                <b>
-                    Pki - migrate to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #5560
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 06:37:53 +0000 UTC
     </div>
 </div>
 
