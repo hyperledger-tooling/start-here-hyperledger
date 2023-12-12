@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/254" class=".btn">#254</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/255" class=".btn">#255</a>
             </td>
             <td>
                 <b>
-                    TDIDN.md
+                    One-Attestation-API Lab Proposal
                 </b>
             </td>
         </tr>
@@ -27,14 +27,21 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Proposal from Hyperledger Telecom SIG
+                This lab proposes to create a single API to handle attestations.
+Attestations are a crucial mechanism to establish trust in hardware-based trusted execution environments (TEEs).
+Today, multiple attestation mechanisms are available (e.g., SGX-EPID, SGX-DCAP, TDX-DCAP).
+This proposal aims to create a single abstraction for the generation and verification of hardware-based attestations.
+The abstraction can benefit, and avoid redundant implementations in, multiple projects (e.g., Fabric Private Chaincode, Private Data Objects)
+that use TEEs to enhance software integrity and confidentiality.
 
-TDIDN develops a decentralized identity and smart contract system for telecom. It focuses on DID-based authentication, privacy control, and efficient solutions for blacklist management, SLAs, and billing using CDRs.
+--
+
+@mbrandenburger Please acknowledge sponsorship.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-21 08:11:00 +0000 UTC
+        Created At 2023-12-11 18:50:59 +0000 UTC
     </div>
 </div>
 
