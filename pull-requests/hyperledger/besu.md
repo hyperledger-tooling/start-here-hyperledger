@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6288" class=".btn">#6288</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Include Enode URL in error message if parsing exception
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                eg in bootnodes config
+
+Before
+
+2023-12-13 12:08:50.949+10:00 | main | ERROR | Besu | Failed to start Besu Invalid IP address (or DNS query resolved an invalid IP). --Xdns-enabled is true but --Xdns-update-enabled flag is false.
+
+
+After
+
+2023-12-13 12:11:14.581+10:00 | main | ERROR | Besu | Failed to start Besu Invalid IP address 'enode://bob@bob:8000' (or DNS query resolved an invalid IP). --Xdns-enabled is true but --Xdns-update-enabled flag is false.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-13 02:11:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6287" class=".btn">#6287</a>
             </td>
             <td>
@@ -167,7 +203,7 @@ The correct thing is to control that the terminateConnection method is executed 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">testing</span>
             </td>
             <td>
                 builds on #6281 and #6282 
@@ -772,40 +808,6 @@ Fixes #6246
     </table>
     <div class="right-align">
         Created At 2023-12-06 11:33:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6244" class=".btn">#6244</a>
-            </td>
-            <td>
-                <b>
-                    Run ATs sequentially
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR makes the ATs to run sequentially so we reduce the parallelism and get the build working again. This might result in a longer time for ATs to complete but right now Unit tests still take longer.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 05:50:04 +0000 UTC
     </div>
 </div>
 
