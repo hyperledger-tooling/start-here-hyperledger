@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6293" class=".btn">#6293</a>
+            </td>
+            <td>
+                <b>
+                    move forest class to a specific package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR prepares for the introduction of the Verkle trie code. I start by cleaning up the worldstate section, moving and renaming everything that is forest into a specific package in order to clarify the difference between Bonsai and Forest in the code.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-13 14:55:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6289" class=".btn">#6289</a>
             </td>
             <td>
@@ -365,7 +400,7 @@ refs #5571
             </td>
             <td>
                 <b>
-                    Update Gradle plugins
+                    Update Gradle plugins + GHA setup Java action optimizations
                 </b>
             </td>
         </tr>

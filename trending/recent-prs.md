@@ -1,13 +1,13 @@
 
+[391](https://github.com/hyperledger/fabric-ca/pull/391) Bump Go to 1.21.5
+
+[6293](https://github.com/hyperledger/besu/pull/6293) move forest class to a specific package
+
+[4149](https://github.com/hyperledger/iroha/pull/4149) [refactor]: Export iroha_crypto through iroha_client
+
 [4148](https://github.com/hyperledger/iroha/pull/4148) [ci]: Use default settings for Coveralls action
 
 [4147](https://github.com/hyperledger/iroha/pull/4147) [refactor]: Export iroha_config through iroha_client
-
-[4146](https://github.com/hyperledger/iroha/pull/4146) [BACKPORT] #4080: Export data model through iroha_client (#4081)
-
-[2671](https://github.com/hyperledger/aries-cloudagent-python/pull/2671) Design/w3c compatibility
-
-[516](https://github.com/hyperledger-labs/fabric-smart-client/pull/516) cleanup dependencies
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
