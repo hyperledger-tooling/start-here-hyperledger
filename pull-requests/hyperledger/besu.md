@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6289" class=".btn">#6289</a>
+            </td>
+            <td>
+                <b>
+                    Store trielog as blobdb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Store trielog as blobdb to improve performance.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+See https://github.com/hyperledger/besu/issues/5866
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-13 07:49:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6288" class=".btn">#6288</a>
             </td>
             <td>
@@ -777,37 +812,6 @@ remove opinionated configs in debug docker image as they can cause difficult to 
     </table>
     <div class="right-align">
         Created At 2023-12-06 21:55:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6247" class=".btn">#6247</a>
-            </td>
-            <td>
-                <b>
-                    fix: double calls to trace{Start,End}Transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-This fixes double calls to trace{Start,End}Transaction.
-
-## Fixed Issue(s)
-Fixes #6246 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 11:33:18 +0000 UTC
     </div>
 </div>
 
