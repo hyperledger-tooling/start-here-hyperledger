@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6287" class=".btn">#6287</a>
+            </td>
+            <td>
+                <b>
+                    Increase scope of reference tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add new forks to transaction tests, add bad rlp to rlp ref tests.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 22:20:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6286" class=".btn">#6286</a>
+            </td>
+            <td>
+                <b>
+                    Release candidate 3 for 23.10.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 20:40:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6285" class=".btn">#6285</a>
             </td>
             <td>
@@ -271,7 +333,7 @@ refs #5571
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                
             </td>
             <td>
                 ## PR description
@@ -452,32 +514,6 @@ tests & fixes #6246
     </table>
     <div class="right-align">
         Created At 2023-12-07 12:51:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6258" class=".btn">#6258</a>
-            </td>
-            <td>
-                <b>
-                    migrate permissioning ATs to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #6262 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-07 08:29:41 +0000 UTC
     </div>
 </div>
 
@@ -670,32 +706,6 @@ Note some remaining ones, when changed, the tests failed - so I left them but ad
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6249" class=".btn">#6249</a>
-            </td>
-            <td>
-                <b>
-                    migrate bft and clique ATs to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #6261
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 22:28:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6248" class=".btn">#6248</a>
             </td>
             <td>
@@ -796,115 +806,6 @@ This PR makes the ATs to run sequentially so we reduce the parallelism and get t
     </table>
     <div class="right-align">
         Created At 2023-12-06 05:50:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6243" class=".btn">#6243</a>
-            </td>
-            <td>
-                <b>
-                    [RPC] Use apiConfiguration to limit gasPrice in eth_getGasPrice
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Use apiConfiguration to limit gasPrice in eth_getGasPrice
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 00:55:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6242" class=".btn">#6242</a>
-            </td>
-            <td>
-                <b>
-                    Code storage delete refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Note this is built on top of #5889. It will be much simpler once that is merged in.
-
-Refactor `BonsaiWorldStateKeyValueStorage` to move the FlatDB construction and management out into a new class `FlatDbStrategyProvider`.
-
-- Splits out the FlatDbStrategy construction and flatDb management from the BonsaiWorldStateKeyValueStorage into a new class FlatDbStrategyProvider
-- Passes through the DataStorageConfiguration to FlatDbStrategyProvider instead of just the boolean flag
-By splitting out the FlatDbStrategy I can simplify the constructor arguments to the BonsaiWorldStateKeyValueStorage quite a bit as I can create the FlatDbStrategyProvider in the KeyValueStorageProvider once with its arguments instead of repassing those into the BonsaiWorldStateKeyValueStorage each time we create an instance of it.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 23:09:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6241" class=".btn">#6241</a>
-            </td>
-            <td>
-                <b>
-                    Fix the annoying "Errors occurred while build effective model" during…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                … builds
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Found a fix for the annoying build error 
-```
-Errors occurred while build effective model from [...]\.gradle\caches\modules-2\files-2.1\org.eclipse.platform\org.eclipse.swt\3.124.200\2013830105b55e3a9490b38034aef3c6f6c5862e\org.eclipse.swt-3.124.200.pom:
-    'dependencies.dependency.artifactId' for org.eclipse.platform:org.eclipse.swt.${osgi.platform}:jar with value 'org.eclipse.swt.${osgi.platform}' does not match a valid id pattern. in org.eclipse.platform:org.eclipse.swt:3.124.200
-```
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 18:55:34 +0000 UTC
     </div>
 </div>
 

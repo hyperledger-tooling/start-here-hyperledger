@@ -70,38 +70,3 @@ updated audit log entry
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/571" class=".btn">#571</a>
-            </td>
-            <td>
-                <b>
-                    allow writers to delete imported
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- writers should be able to delete **imported** components
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-05 21:00:52 +0000 UTC
-    </div>
-</div>
-
