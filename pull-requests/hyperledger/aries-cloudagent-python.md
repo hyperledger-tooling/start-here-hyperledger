@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2671" class=".btn">#2671</a>
+            </td>
+            <td>
+                <b>
+                    Design/w3c compatibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains one main document:
+
+- `AnoncredsW3CCompatibility.md` - the design document for implementing w3c vc/vp format support
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-13 10:50:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2670" class=".btn">#2670</a>
             </td>
             <td>

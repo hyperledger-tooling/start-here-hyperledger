@@ -14,55 +14,26 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/515" class=".btn">#515</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/516" class=".btn">#516</a>
             </td>
             <td>
                 <b>
-                    mod update
+                    cleanup dependencies
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvement</span>
             </td>
             <td>
-                <nil>
+                - remove dependency to libp2p from packages that should not have it
+- fabric dependencies from the view platform
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-11 14:31:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/513" class=".btn">#513</a>
-            </td>
-            <td>
-                <b>
-                    improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR brings the following:
-- adjusted cache size in the NWO template
-- better logs
-- config committer reloads starting from index 0 or 1
-- channel.numRetries must be at least 1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 10:33:47 +0000 UTC
+        Created At 2023-12-13 09:30:11 +0000 UTC
     </div>
 </div>
 
