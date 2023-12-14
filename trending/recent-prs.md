@@ -1,13 +1,13 @@
 
+[6295](https://github.com/hyperledger/besu/pull/6295) Snap sync client handle empty final account storage ranges
+
+[2674](https://github.com/hyperledger/aries-cloudagent-python/pull/2674) docs: create design doc for adding W3C VC format support
+
+[750](https://github.com/hyperledger/fabric-private-chaincode/pull/750) added missing env variable to FSC readme
+
+[2672](https://github.com/hyperledger/aries-cloudagent-python/pull/2672) Anoncreds - Add unit testing
+
 [391](https://github.com/hyperledger/fabric-ca/pull/391) Bump Go to 1.21.5
-
-[6293](https://github.com/hyperledger/besu/pull/6293) move forest class to a specific package
-
-[4149](https://github.com/hyperledger/iroha/pull/4149) [refactor]: Export iroha_crypto through iroha_client
-
-[4148](https://github.com/hyperledger/iroha/pull/4148) [ci]: Use default settings for Coveralls action
-
-[4147](https://github.com/hyperledger/iroha/pull/4147) [refactor]: Export iroha_config through iroha_client
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

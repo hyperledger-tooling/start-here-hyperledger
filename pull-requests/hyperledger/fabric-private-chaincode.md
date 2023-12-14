@@ -14,28 +14,56 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/748" class=".btn">#748</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/750" class=".btn">#750</a>
             </td>
             <td>
                 <b>
-                    Fix testing on non-Intel CPU
+                    added missing env variable to FSC readme
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">bug</span><span class="chip">urgent</span><span class="chip">Test</span>
+                
             </td>
             <td>
-                This PR upgrades the SGX SDK and SSL packages and enables the SKIP_INTELCPU_CHECK flag.
-SGX SSL aborts when it's not used on Intel CPUs, even in SIM mode.
-However, more recent versions (which require an SDK upgrade) allow to build the package by excluding that check.
-Additionally, the PR enables SGX SSL tests to spot these issues early on, since these are only executed when the docker containers need to be rebuilt.
+                <!--  Thanks for sending a pull request!  Here are some tips for you:
+
+1. If this is your first time, please read our code of conduct and contributor guidelines: 
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CODE_OF_CONDUCT.md
+   In particular pay attention to the git workflows
+      https://docs.google.com/document/d/1sR7YV3pSYN3NEFiW-2fUqtpsJeJrpC0EWUVtEm0Blcg/edit#heading=h.kwcug3pkefak
+2. Fill out below sections.
+3. Label the PR with the label of any component this PR touches.
+4. ALso don't forget to sign your comments before submitting. 
+   Github will complain if there is no DCO but it's easier if we don't have to hunt you down to fix that :-)
+
+-->
+
+**What this PR does / why we need it**:
+Fixes bug #749 
+**Which issue(s) this PR fixes**:
+<!--
+  list existing bug, feature and/or work-item which this PR addresses.
+  You might also consider creating an issue first for the PR.
+-->
+Fixes #749 
+
+**Special notes for your reviewer**:
+
+**Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
+<!--
+  If no, you can delete this section
+  If yes, describe what changes and/or what breaks ..
+-->
+```
+yes, adds an export of a environment variable that the user should execute
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-05 03:56:11 +0000 UTC
+        Created At 2023-12-13 19:45:38 +0000 UTC
     </div>
 </div>
 

@@ -62,33 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/323" class=".btn">#323</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for v2.5.1 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update version numbers.
-- Update GitHub Actions versions.
-- Update base Java 11 Docker image patch level.
-- Upgrade Gradle and Maven patch levels in Docker image.
-- Update dependencies.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 21:46:49 +0000 UTC
-    </div>
-</div>
-

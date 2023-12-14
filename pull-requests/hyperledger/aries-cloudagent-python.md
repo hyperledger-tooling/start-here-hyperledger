@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2671" class=".btn">#2671</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2674" class=".btn">#2674</a>
             </td>
             <td>
                 <b>
-                    Design/w3c compatibility
+                    docs: create design doc for adding W3C VC format support
                 </b>
             </td>
         </tr>
@@ -34,7 +34,43 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-13 10:50:26 +0000 UTC
+        Created At 2023-12-13 20:52:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2672" class=".btn">#2672</a>
+            </td>
+            <td>
+                <b>
+                    Anoncreds - Add unit testing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds unit tests for routes, holder, verifier, issuer.
+
+![Screenshot from 2023-12-13 10-50-52](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/96589ed6-0add-4cef-bc64-66974229eacd)
+
+There is still more unit testing to do. Mainly the `revocation.py` file. Also, there was a tricky part with scanning the wallet in holder and using `async for` I haven't figured out yet. Also there is some error handling I haven't covered. 
+
+I tried to create objects with the `anoncreds` library as much as possible to catch problems in the future when using the library. When I couldn't manage to make that work I would mock the object a minimally as possible. I also had some trouble creating some DB/wallet `Entry` responses. To get around this i created some minimal class objects. These are used in holder and issuer files.
+
+I made 2 small changes to src code. In verifier.py changed an error handling message and in holder.py added the mime-types attribute constant that seemed to be missing.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-13 19:10:50 +0000 UTC
     </div>
 </div>
 
@@ -65,33 +101,6 @@ This is a minor change with no impact.
     </table>
     <div class="right-align">
         Created At 2023-12-13 04:47:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2665" class=".btn">#2665</a>
-            </td>
-            <td>
-                <b>
-                    feat: make design doc for adding w3C vc format support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR contains one main document:
-- `AnoncredsW3CCompatibility.md` - the design document for implementing w3c vc/vp format support
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-11 19:00:09 +0000 UTC
     </div>
 </div>
 
@@ -317,45 +326,6 @@ fixes #2526
     </table>
     <div class="right-align">
         Created At 2023-12-07 17:27:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2653" class=".btn">#2653</a>
-            </td>
-            <td>
-                <b>
-                    Connection and DIDX Problem Reports
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add current message thread to problem report messages to identify which message/thread encountered the problem.
-- problem report handlers will find connections based on thread/request id
-- register didx problem report so handler will be active and deal with didx problem reports
-- update tests to match new handler logic
-
-fixes #2650 
-fixes #2598
-
-A lot of underlying issues uncovered (and now addressed) arising from #2530 investigation. 
-
-Synopsis is the implemented logic for sending/handling connection (and didx) problem reports that require a fully working connection. This prevented us from notifying if the problem arose during the request or early response stages. That is addressed by allowing the problem report message types to skip the active check in the responder. Then the next issue was the agent receiving the problem report could not match up their connection, so the sender adds the failing message's thread to the problem report message before delivery, the receiver can then look up connections by a known thread id. Then the DIDX problem report code was always failing when trying to determine the messages targets, so that code was updated to handle diddoc attach conversion to diddoc and then resolve the targets. Then uncovered the fact that the DIDX problem reports (and handler) were not registered in the protocol message registry so those wouldn't get handled when we finally parsed the targets.
-
-Sigh, lots of stuff that just never worked... 🤷 ...hoping that these fixes will be of use when there are issues in the early stages of connecting agents.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 19:59:52 +0000 UTC
     </div>
 </div>
 
