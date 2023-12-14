@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/158" class=".btn">#158</a>
+            </td>
+            <td>
+                <b>
+                    Removed FluentD References
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/fabric-operator/issues/100
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-14 13:44:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/157" class=".btn">#157</a>
             </td>
             <td>

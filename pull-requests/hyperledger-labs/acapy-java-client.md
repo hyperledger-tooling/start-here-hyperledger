@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/93" class=".btn">#93</a>
             </td>
             <td>
                 <b>
-                    Bump actions/setup-java from 3 to 4
+                    Bump github/codeql-action from 2 to 3
                 </b>
             </td>
         </tr>
@@ -27,75 +27,96 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 <span class="chip">dependencies</span><span class="chip">github_actions</span>
             </td>
             <td>
-                Bumps [actions/setup-java](https://github.com/actions/setup-java) from 3 to 4.
+                Bumps [github/codeql-action](https://github.com/github/codeql-action) from 2 to 3.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/actions/setup-java/releases">actions/setup-java's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/github/codeql-action/releases">github/codeql-action's releases</a>.</em></p>
 <blockquote>
-<h2>v4.0.0</h2>
-<h2>What's Changed</h2>
-<p>In the scope of this release, the version of the Node.js runtime was updated to 20. The majority of dependencies were updated to the latest versions. From now on, the code for the setup-java will run on Node.js 20 instead of Node.js 16.</p>
-<h2>Breaking changes</h2>
+<h2>CodeQL Bundle v2.15.4</h2>
+<p>Bundles CodeQL CLI v2.15.4</p>
 <ul>
-<li>Update Node.js runtime to version 20 by <a href="https://github.com/aparnajyothi-y"><code>@​aparnajyothi-y</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/558">actions/setup-java#558</a></li>
+<li>(<a href="https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql-cli-binaries/releases/tag/v2.15.4">release</a>)</li>
 </ul>
-<h2>Non-breaking changes</h2>
+<p>Includes the following CodeQL language packs from <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4"><code>github/codeql@codeql-cli/v2.15.4</code></a>:</p>
 <ul>
-<li>Adding support for microsoft openjdk 21.0.0 by <a href="https://github.com/ralfstuckert"><code>@​ralfstuckert</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/546">actions/setup-java#546</a></li>
-<li>Update <code>@​actions/cache</code> dependency and documentation by <a href="https://github.com/IvanZosimov"><code>@​IvanZosimov</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/549">actions/setup-java#549</a></li>
-<li>Implementation of the cache-dependency-path option to control caching dependency by <a href="https://github.com/itchyny"><code>@​itchyny</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/499">actions/setup-java#499</a></li>
+<li><code>codeql/cpp-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/src">source</a>)</li>
+<li><code>codeql/cpp-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/lib">source</a>)</li>
+<li><code>codeql/csharp-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/src">source</a>)</li>
+<li><code>codeql/csharp-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/lib">source</a>)</li>
+<li><code>codeql/go-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/src">source</a>)</li>
+<li><code>codeql/go-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/lib">source</a>)</li>
+<li><code>codeql/java-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/src">source</a>)</li>
+<li><code>codeql/java-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/lib">source</a>)</li>
+<li><code>codeql/javascript-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/src">source</a>)</li>
+<li><code>codeql/javascript-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/lib">source</a>)</li>
+<li><code>codeql/python-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/src">source</a>)</li>
+<li><code>codeql/python-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/lib">source</a>)</li>
+<li><code>codeql/ruby-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/src">source</a>)</li>
+<li><code>codeql/ruby-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/lib">source</a>)</li>
+<li><code>codeql/swift-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/src">source</a>)</li>
+<li><code>codeql/swift-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/lib">source</a>)</li>
 </ul>
-<h2>New Contributors</h2>
+<h2>CodeQL Bundle</h2>
+<p>Bundles CodeQL CLI v2.15.3</p>
 <ul>
-<li><a href="https://github.com/ralfstuckert"><code>@​ralfstuckert</code></a> made their first contribution in <a href="https://redirect.github.com/actions/setup-java/pull/546">actions/setup-java#546</a></li>
-<li><a href="https://github.com/itchyny"><code>@​itchyny</code></a> made their first contribution in <a href="https://redirect.github.com/actions/setup-java/pull/499">actions/setup-java#499</a></li>
+<li>(<a href="https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql-cli-binaries/releases/tag/v2.15.3">release</a>)</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/setup-java/compare/v3...v4.0.0">https://github.com/actions/setup-java/compare/v3...v4.0.0</a></p>
-<h2>v3.13.0</h2>
-<h2>What's changed</h2>
-<p>In the scope of this release, support for Dragonwell JDK was added by <a href="https://github.com/Accelerator1996"><code>@​Accelerator1996</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/532">actions/setup-java#532</a></p>
-<pre lang="yaml"><code>steps:
- - name: Checkout
-   uses: actions/checkout@v3
- - name: Setup-java
-   uses: actions/setup-java@v3
-   with:
-     distribution: 'dragonwell'
-     java-version: '17'
-</code></pre>
-<p>Several inaccuracies were also fixed:</p>
+<p>Includes the following CodeQL language packs from <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3"><code>github/codeql@codeql-cli/v2.15.3</code></a>:</p>
 <ul>
-<li>Fix XML namespaces wrongly using https by <a href="https://github.com/gnodet"><code>@​gnodet</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/503">actions/setup-java#503</a></li>
-<li>Fix typo and remove unintentional(?) word by <a href="https://github.com/CyberFlameGO"><code>@​CyberFlameGO</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/518">actions/setup-java#518</a></li>
-<li>Fix usage link within the README.md file by <a href="https://github.com/dassiorleando"><code>@​dassiorleando</code></a> in <a href="https://redirect.github.com/actions/setup-java/pull/525">actions/setup-java#525</a></li>
+<li><code>codeql/cpp-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/src">source</a>)</li>
+<li><code>codeql/cpp-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/lib">source</a>)</li>
+<li><code>codeql/csharp-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/src">source</a>)</li>
+<li><code>codeql/csharp-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/lib">source</a>)</li>
+<li><code>codeql/go-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/src">source</a>)</li>
+<li><code>codeql/go-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/lib">source</a>)</li>
+<li><code>codeql/java-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/src">source</a>)</li>
+<li><code>codeql/java-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/lib">source</a>)</li>
+<li><code>codeql/javascript-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/src">source</a>)</li>
+<li><code>codeql/javascript-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/lib">source</a>)</li>
+<li><code>codeql/python-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/src">source</a>)</li>
+<li><code>codeql/python-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/lib">source</a>)</li>
+<li><code>codeql/ruby-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/src">source</a>)</li>
+<li><code>codeql/ruby-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/lib">source</a>)</li>
+<li><code>codeql/swift-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/src">source</a>)</li>
+<li><code>codeql/swift-all</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/lib/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/lib">source</a>)</li>
 </ul>
-<h2>New Contributors</h2>
+<h2>CodeQL Bundle</h2>
+<p>Bundles CodeQL CLI v2.15.2</p>
 <ul>
-<li><a href="https://github.com/CyberFlameGO"><code>@​CyberFlameGO</code></a> made their first contribution in <a href="https://redirect.github.com/actions/setup-java/pull/518">actions/setup-java#518</a></li>
-<li><a href="https://github.com/dassiorleando"><code>@​dassiorleando</code></a> made their first contribution in <a href="https://redirect.github.com/actions/setup-java/pull/525">actions/setup-java#525</a></li>
-<li><a href="https://github.com/gnodet"><code>@​gnodet</code></a> made their first contribution in <a href="https://redirect.github.com/actions/setup-java/pull/503">actions/setup-java#503</a></li>
-<li><a href="https://github.com/Accelerator1996"><code>@​Accelerator1996</code></a> made their first contribution in <a href="https://redirect.github.com/actions/setup-java/pull/532">actions/setup-java#532</a></li>
+<li>(<a href="https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql-cli-binaries/releases/tag/v2.15.2">release</a>)</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/setup-java/compare/v3...v3.13.0">https://github.com/actions/setup-java/compare/v3...v3.13.0</a></p>
-<h2>v3.12.0</h2>
+<p>Includes the following CodeQL language packs from <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.2"><code>github/codeql@codeql-cli/v2.15.2</code></a>:</p>
+<ul>
+<li><code>codeql/cpp-queries</code> (<a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.2/cpp/ql/src/CHANGELOG.md">changelog</a>, <a href="https://github.com/github/codeql/tree/codeql-cli/v2.15.2/cpp/ql/src">source</a>)</li>
+</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
 </details>
 <details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/github/codeql-action/blob/main/CHANGELOG.md">github/codeql-action's changelog</a>.</em></p>
+</details>
+<details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/actions/setup-java/commit/387ac29b308b003ca37ba93a6cab5eb57c8f5f93"><code>387ac29</code></a> Upgrade Node to v20 (<a href="https://redirect.github.com/actions/setup-java/issues/558">#558</a>)</li>
-<li><a href="https://github.com/actions/setup-java/commit/9eda6b51cc4f6ee99be3dd5537b85e389e47bda9"><code>9eda6b5</code></a> feat: implement cache-dependency-path option to control caching dependency (#...</li>
-<li><a href="https://github.com/actions/setup-java/commit/78078da0cd035d0d177cc2cb696e05d96fba7d11"><code>78078da</code></a> Update <code>@​actions/cache</code> dependency and documentation (<a href="https://redirect.github.com/actions/setup-java/issues/549">#549</a>)</li>
-<li><a href="https://github.com/actions/setup-java/commit/5caaba646e214abb5c4c808eb8fe13db519ab757"><code>5caaba6</code></a> add support for microsoft openjdk 21.0.0 (<a href="https://redirect.github.com/actions/setup-java/issues/546">#546</a>)</li>
-<li>See full diff in <a href="https://github.com/actions/setup-java/compare/v3...v4">compare view</a></li>
+<li><a href="https://github.com/github/codeql-action/commit/3a9f6a89e06fb331ce22481637d19617501a5b7f"><code>3a9f6a8</code></a> update javascript files</li>
+<li><a href="https://github.com/github/codeql-action/commit/cc4fead714532424ab15b501a01d18c7f34d17e2"><code>cc4fead</code></a> update version in various hardcoded locations</li>
+<li><a href="https://github.com/github/codeql-action/commit/183559cea87c163bb01e99e0a15fd5500b23307f"><code>183559c</code></a> Merge branch 'main' into update-bundle/codeql-bundle-v2.15.4</li>
+<li><a href="https://github.com/github/codeql-action/commit/5b52b36d41451ee775917788e3bf225d7c1ceab3"><code>5b52b36</code></a> reintroduce PR check that confirm action can be still be compiled on node16</li>
+<li><a href="https://github.com/github/codeql-action/commit/5b19bef41e08b00f3d8f48219f46b1866a4f940d"><code>5b19bef</code></a> change to node20 for all actions</li>
+<li><a href="https://github.com/github/codeql-action/commit/f2d0c2e7ae58b70f81b81bf4c8b5c7a81fb2a5d6"><code>f2d0c2e</code></a> upgrade node type definitions</li>
+<li><a href="https://github.com/github/codeql-action/commit/d651fbc494fab13836ab76ffcfc8ce08c7c98d78"><code>d651fbc</code></a> change to node20 for all actions</li>
+<li><a href="https://github.com/github/codeql-action/commit/382a50a0284c0de445104889a9d6003acb4b3c1d"><code>382a50a</code></a> Merge pull request <a href="https://redirect.github.com/github/codeql-action/issues/2021">#2021</a> from github/mergeback/v2.22.9-to-main-c0d1daa7</li>
+<li><a href="https://github.com/github/codeql-action/commit/458b4226ad8e38f90ff6a4ad1e18ab2593e7e3dc"><code>458b422</code></a> Update checked-in dependencies</li>
+<li><a href="https://github.com/github/codeql-action/commit/5e0f9dbc48f564b68392e465dcdacd74eab63e25"><code>5e0f9db</code></a> Update changelog and version after v2.22.9</li>
+<li>See full diff in <a href="https://github.com/github/codeql-action/compare/v2...v3">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-java&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github/codeql-action&package-manager=github_actions&previous-version=2&new-version=3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -127,7 +148,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-30 14:20:54 +0000 UTC
+        Created At 2023-12-14 14:28:10 +0000 UTC
     </div>
 </div>
 
