@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6302" class=".btn">#6302</a>
+            </td>
+            <td>
+                <b>
+                    Disable txpool during fullsync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-14 15:52:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6300" class=".btn">#6300</a>
             </td>
             <td>
@@ -63,6 +96,19 @@ A PR to place Bonsai and Forest in the same trie package. This PR is a preparati
             </td>
             <td>
                 fixes #6269 
+
+```
+sallymacfarlane@dev-elc-besu-teku-mainnet-dev-sally-trailing-peer-log-3:/var/log/besu$ grep Trailing besu.log
+{"@timestamp":"2023-12-14T12:50:11,138","level":"DEBUG","thread":"nioEventLoopGroup-3-5","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xadb935a416b0c19aaf... with height 18783177","throwable":""}
+{"@timestamp":"2023-12-14T12:51:47,696","level":"DEBUG","thread":"nioEventLoopGroup-3-9","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xc8a80e895f6b85f8ff... with height 18299999","throwable":""}
+{"@timestamp":"2023-12-14T12:51:49,471","level":"DEBUG","thread":"nioEventLoopGroup-3-1","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0x48f462dab313723e05... with height 18001000","throwable":""}
+{"@timestamp":"2023-12-14T12:52:19,523","level":"DEBUG","thread":"nioEventLoopGroup-3-5","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13883323","throwable":""}
+{"@timestamp":"2023-12-14T12:52:40,702","level":"DEBUG","thread":"nioEventLoopGroup-3-4","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13885662","throwable":""}
+{"@timestamp":"2023-12-14T12:52:49,897","level":"DEBUG","thread":"nioEventLoopGroup-3-2","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13886842","throwable":""}
+{"@timestamp":"2023-12-14T12:53:19,501","level":"DEBUG","thread":"nioEventLoopGroup-3-9","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13889692","throwable":""}
+{"@timestamp":"2023-12-14T12:53:49,340","level":"DEBUG","thread":"nioEventLoopGroup-3-3","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13891310","throwable":""}
+{"@timestamp":"2023-12-14T12:54:19,841","level":"DEBUG","thread":"nioEventLoopGroup-3-10","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13893155","throwable":""}
+```
             </td>
         </tr>
     </table>
@@ -559,7 +605,7 @@ refs #5571
             </td>
             <td>
                 <b>
-                    Update Gradle plugins + GHA setup Java action optimizations
+                    Update Gradle plugins and replace unmaintained license plugin
                 </b>
             </td>
         </tr>
@@ -572,6 +618,9 @@ refs #5571
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Update all the Gradle plugins to their latest version, and replace the unmaintained `hierynomus.license` plugin with the actively maintained [Gradle License Report](https://github.com/jk1/Gradle-License-Report).
+There are also few GHA Gradle cache optimizations.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -741,44 +790,6 @@ fixes #6265
     </table>
     <div class="right-align">
         Created At 2023-12-07 23:18:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6259" class=".btn">#6259</a>
-            </td>
-            <td>
-                <b>
-                    Fix and test that the BlockAwareOperationTracer methods are invoked the correct number of times
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-@delehef please double check the removal of redundant calls to `traceEndBlock`
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-tests & fixes #6246
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-07 12:51:11 +0000 UTC
     </div>
 </div>
 

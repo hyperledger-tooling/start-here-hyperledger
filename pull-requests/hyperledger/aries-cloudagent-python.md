@@ -302,30 +302,3 @@ fixes #2526
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2655" class=".btn">#2655</a>
-            </td>
-            <td>
-                <b>
-                    Slight improvement to credx proof validation error message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Slight improvement to an error message.  (This confused me as it logged a stack trace during integration testing but didn't report a failed test.  Reason = it's not an error, just a proof validation failure.)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-07 17:27:03 +0000 UTC
-    </div>
-</div>
-
