@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/129" class=".btn">#129</a>
             </td>
             <td>
                 <b>
-                    Remove unused `ordered` parameter
+                    Fix make proof
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                <nil>
+                Fix make proof
+
+ibc-mock-client
+https://github.com/datachainlab/ibc-mock-client/pull/11
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-03 08:23:33 +0000 UTC
+        Created At 2023-12-14 06:31:39 +0000 UTC
     </div>
 </div>
 

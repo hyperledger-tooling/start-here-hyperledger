@@ -14,6 +14,101 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6300" class=".btn">#6300</a>
+            </td>
+            <td>
+                <b>
+                    create trie package for bonsai and forest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+A PR to place Bonsai and Forest in the same trie package. This PR is a preparation for the introduction of Verkle. This trie package will have Verkle in a next PR and we will add a common package so that the different trie substructures can share classes if needed. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-14 10:58:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6299" class=".btn">#6299</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Trailing peer limit log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span><span class="chip">logging</span>
+            </td>
+            <td>
+                fixes #6269 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-14 09:20:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6297" class=".btn">#6297</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] add genesis file name to config overview
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">logging</span><span class="chip">ux</span><span class="chip">non mainnet (private networks)</span>
+            </td>
+            <td>
+                ```
+# Configuration:                                                                                   #
+# Network: Custom genesis file                                                                     #
+# /Users/sm/workspace/besu/config/besu/genesis-linea.json                                          #
+# Network Id: 59140                                                                                #
+# Data storage: Forest                                                                             #
+# Sync mode: Snap                                                                                  #
+# RPC HTTP APIs: ADMIN,ETH,NET,WEB3,PERM,DEBUG,MINER,EEA,PRIV,TXPOOL                               #
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-14 06:32:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6296" class=".btn">#6296</a>
             </td>
             <td>
@@ -684,63 +779,6 @@ tests & fixes #6246
     </table>
     <div class="right-align">
         Created At 2023-12-07 12:51:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6256" class=".btn">#6256</a>
-            </td>
-            <td>
-                <b>
-                    plugin and jsonrpc ATs to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #6264 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-07 06:41:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6255" class=".btn">#6255</a>
-            </td>
-            <td>
-                <b>
-                    add extra gradle task dependency to silence warning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dev experience</span>
-            </td>
-            <td>
-                Seems redundant but it fixes this warning
-
-```
-Execution optimizations have been disabled for task ':acceptance-tests:tests:processTestResources' to ensure correctness due to the following reasons:
-  - Gradle detected a problem with the following location: '/Users/sallymacfarlane/workspace/b2/acceptance-tests/test-plugins/build/libs'. Reason: Task ':acceptance-tests:tests:processTestResources' uses this output of task ':acceptance-tests:test-plugins:jar' without declaring an explicit or implicit dependency. This can lead to incorrect results being produced, depending on what order the tasks are executed. Please refer to https://docs.gradle.org/7.6/userguide/validation_problems.html#implicit_dependency for more details about this problem.
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-07 06:37:33 +0000 UTC
     </div>
 </div>
 

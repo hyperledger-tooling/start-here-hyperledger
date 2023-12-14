@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/521" class=".btn">#521</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/523" class=".btn">#523</a>
             </td>
             <td>
                 <b>
-                    improvements
+                    remove dep on keys package
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                This PR brings the following:
-- better logs
-- ability to disable the restart of the nodes in the tests
-- deps update
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-06 10:33:42 +0000 UTC
+        Created At 2023-12-14 10:43:09 +0000 UTC
     </div>
 </div>
 
