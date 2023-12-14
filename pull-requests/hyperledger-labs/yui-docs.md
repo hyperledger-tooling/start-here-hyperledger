@@ -14,133 +14,114 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    Bump google.golang.org/grpc from 1.55.0 to 1.56.3 in /samples/minitoken-besu-ethereum/relayer
+                    Increase sleep duration in Makefile
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">go</span>
+                
             </td>
             <td>
-                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.55.0 to 1.56.3.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
-<blockquote>
-<h2>Release 1.56.3</h2>
-<h1>Security</h1>
-<ul>
-<li>
-<p>server: prohibit more than MaxConcurrentStreams handlers from running at once (CVE-2023-44487)</p>
-<p>In addition to this change, applications should ensure they do not leave running tasks behind related to the RPC before returning from method handlers, or should enforce appropriate limits on any such work.</p>
-</li>
-</ul>
-<h2>Release 1.56.2</h2>
-<ul>
-<li>status: To fix a panic, <code>status.FromError</code> now returns an error with <code>codes.Unknown</code> when the error implements the <code>GRPCStatus()</code> method, and calling <code>GRPCStatus()</code> returns <code>nil</code>. (<a href="https://redirect.github.com/grpc/grpc-go/issues/6374">#6374</a>)</li>
-</ul>
-<h2>Release 1.56.1</h2>
-<ul>
-<li>client: handle empty address lists correctly in addrConn.updateAddrs</li>
-</ul>
-<h2>Release 1.56.0</h2>
-<h1>New Features</h1>
-<ul>
-<li>client: support channel idleness using <code>WithIdleTimeout</code> dial option (<a href="https://redirect.github.com/grpc/grpc-go/issues/6263">#6263</a>)
-<ul>
-<li>This feature is currently disabled by default, but will be enabled with a 30 minute default in the future.</li>
-</ul>
-</li>
-<li>client: when using pickfirst, keep channel state in TRANSIENT_FAILURE until it becomes READY (<a href="https://github.com/grpc/proposal/blob/master/A62-pick-first.md">gRFC A62</a>) (<a href="https://redirect.github.com/grpc/grpc-go/issues/6306">#6306</a>)</li>
-<li>xds: Add support for Custom LB Policies (<a href="https://github.com/grpc/proposal/blob/master/A52-xds-custom-lb-policies.md">gRFC A52</a>) (<a href="https://redirect.github.com/grpc/grpc-go/issues/6224">#6224</a>)</li>
-<li>xds: support pick_first Custom LB policy (<a href="https://github.com/grpc/proposal/blob/master/A62-pick-first.md">gRFC A62</a>) (<a href="https://redirect.github.com/grpc/grpc-go/issues/6314">#6314</a>) (<a href="https://redirect.github.com/grpc/grpc-go/issues/6317">#6317</a>)</li>
-<li>client: add support for pickfirst address shuffling (<a href="https://github.com/grpc/proposal/blob/master/A62-pick-first.md">gRFC A62</a>) (<a href="https://redirect.github.com/grpc/grpc-go/issues/6311">#6311</a>)</li>
-<li>xds: Add support for String Matcher Header Matcher in RDS (<a href="https://redirect.github.com/grpc/grpc-go/issues/6313">#6313</a>)</li>
-<li>xds/outlierdetection: Add Channelz Logger to Outlier Detection LB (<a href="https://redirect.github.com/grpc/grpc-go/issues/6145">#6145</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/s-matyukevich"><code>@​s-matyukevich</code></a></li>
-</ul>
-</li>
-<li>xds: enable RLS in xDS by default (<a href="https://redirect.github.com/grpc/grpc-go/issues/6343">#6343</a>)</li>
-<li>orca: add support for application_utilization field and missing range checks on several metrics setters</li>
-<li>balancer/weightedroundrobin: add new LB policy for balancing between backends based on their load reports (<a href="https://github.com/grpc/proposal/blob/master/A58-client-side-weighted-round-robin-lb-policy.md">gRFC A58</a>) (<a href="https://redirect.github.com/grpc/grpc-go/issues/6241">#6241</a>)</li>
-<li>authz: add conversion of json to RBAC Audit Logging config (<a href="https://redirect.github.com/grpc/grpc-go/issues/6192">#6192</a>)</li>
-<li>authz: add support for stdout logger (<a href="https://redirect.github.com/grpc/grpc-go/issues/6230">#6230</a> and <a href="https://redirect.github.com/grpc/grpc-go/issues/6298">#6298</a>)</li>
-<li>authz: support customizable audit functionality for authorization policy (<a href="https://redirect.github.com/grpc/grpc-go/issues/6192">#6192</a> <a href="https://redirect.github.com/grpc/grpc-go/issues/6230">#6230</a> <a href="https://redirect.github.com/grpc/grpc-go/issues/6298">#6298</a> <a href="https://redirect.github.com/grpc/grpc-go/issues/6158">#6158</a> <a href="https://redirect.github.com/grpc/grpc-go/issues/6304">#6304</a> and <a href="https://redirect.github.com/grpc/grpc-go/issues/6225">#6225</a>)</li>
-</ul>
-<h1>Bug Fixes</h1>
-<ul>
-<li>orca: fix a race at startup of out-of-band metric subscriptions that would cause the report interval to request 0 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6245">#6245</a>)</li>
-<li>xds/xdsresource: Fix Outlier Detection Config Handling and correctly set xDS Defaults (<a href="https://redirect.github.com/grpc/grpc-go/issues/6361">#6361</a>)</li>
-<li>xds/outlierdetection: Fix Outlier Detection Config Handling by setting defaults in ParseConfig() (<a href="https://redirect.github.com/grpc/grpc-go/issues/6361">#6361</a>)</li>
-</ul>
-<h1>API Changes</h1>
-<ul>
-<li>orca: allow a ServerMetricsProvider to be passed to the ORCA service and ServerOption (<a href="https://redirect.github.com/grpc/grpc-go/issues/6223">#6223</a>)</li>
-</ul>
-<h2>Release 1.55.1</h2>
-<ul>
-<li>status: To fix a panic, <code>status.FromError</code> now returns an error with <code>codes.Unknown</code> when the error implements the <code>GRPCStatus()</code> method, and calling <code>GRPCStatus()</code> returns <code>nil</code>. (<a href="https://redirect.github.com/grpc/grpc-go/issues/6374">#6374</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/grpc/grpc-go/commit/1055b481ed2204a29d233286b9b50c42b63f8825"><code>1055b48</code></a> Update version.go to 1.56.3 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6713">#6713</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/5efd7bd73e11fea58d1c7f1c110902e78a286299"><code>5efd7bd</code></a> server: prohibit more than MaxConcurrentStreams handlers from running at once...</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/bd1f038e7234580c2694e433bec5cd97e7b7f662"><code>bd1f038</code></a> Upgrade version.go to 1.56.3-dev (<a href="https://redirect.github.com/grpc/grpc-go/issues/6434">#6434</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/faab8736bf73291f92b867d5dae31c927d53d508"><code>faab873</code></a> Update version.go to v1.56.2 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6432">#6432</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/6b0b291d79831b1c8caafceec268b82c92253f96"><code>6b0b291</code></a> status: fix panic when servers return a wrapped error with status OK (<a href="https://redirect.github.com/grpc/grpc-go/issues/6374">#6374</a>) ...</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/ed56401aa514462d5371713b8ec5c889da33953c"><code>ed56401</code></a> [PSM interop] Don't fail target if sub-target already failed (<a href="https://redirect.github.com/grpc/grpc-go/issues/6390">#6390</a>) (<a href="https://redirect.github.com/grpc/grpc-go/issues/6405">#6405</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/cd6a794f0bdcf9a216e8f4d3c5717faf96d9fd78"><code>cd6a794</code></a> Update version.go to v1.56.2-dev (<a href="https://redirect.github.com/grpc/grpc-go/issues/6387">#6387</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/5b67e5ea449ef0686a0c0b6de48cd4cb63e3db2a"><code>5b67e5e</code></a> Update version.go to v1.56.1 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6386">#6386</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/d0f5150384a87f9fcac488a9c18727a55b7354c1"><code>d0f5150</code></a> client: handle empty address lists correctly in addrConn.updateAddrs (<a href="https://redirect.github.com/grpc/grpc-go/issues/6354">#6354</a>) ...</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/997c1ea101cc5d496d2b148388f1df49632a9171"><code>997c1ea</code></a> Change version to 1.56.1-dev (<a href="https://redirect.github.com/grpc/grpc-go/issues/6345">#6345</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.55.0...v1.56.3">compare view</a></li>
-</ul>
-</details>
-<br />
+                I followed the instructions in the `samples/minitoken-besu-ethereum` and ran `make setup`, but I encountered the following error. 
+By ensuring sufficient sleep time after starting the Blockchain node, I resolved this error. I think this is dependent on the local environment, but there's a possibility that 5 seconds may not be enough.
+
+- My local environment: [MacBook Air (15 inch, M2, 2023)](https://support.apple.com/kb/SP893)
+
+```
+make setup       
+npm run compile
+
+> minitoken@1.0.0 compile
+> truffle compile
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.55.0&new-version=1.56.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+go build -o ../build/uly .
+docker compose build --no-cache
+[+] Building 17.6s (22/22) FINISHED                                                                                                                                                                      
+ => [ibc1 internal] load build definition from Dockerfile                                                                                                                                           0.0s
+ => => transferring dockerfile: 491B                                                                                                                                                                0.0s
+ => [ibc1 internal] load .dockerignore                                                                                                                                                              0.0s
+ => => transferring context: 2B                                                                                                                                                                     0.0s
+ => [ibc0 internal] load build definition from Dockerfile                                                                                                                                           0.0s
+ => => transferring dockerfile: 651B                                                                                                                                                                0.0s
+ => [ibc0 internal] load .dockerignore                                                                                                                                                              0.0s
+ => => transferring context: 2B                                                                                                                                                                     0.0s
+ => [ibc1 internal] load metadata for docker.io/ethereum/client-go:v1.11.6                                                                                                                          2.7s
+ => [ibc0 internal] load metadata for docker.io/hyperledger/besu:21.1                                                                                                                               2.7s
+ => CACHED [ibc1 1/7] FROM docker.io/ethereum/client-go:v1.11.6@sha256:5d7f40c92c152d7a7da6f1570da468b21d5cb728e91ad281749bf213a1d4a892                                                             0.0s
+ => [ibc1 internal] load build context                                                                                                                                                              0.0s
+ => => transferring context: 270B                                                                                                                                                                   0.0s
+ => CACHED [ibc0 1/6] FROM docker.io/hyperledger/besu:21.1@sha256:0c548b0bd410252129785bacf544f215f1efd7b736c835eaef92fdeef42bafa5                                                                  0.0s
+ => => resolve docker.io/hyperledger/besu:21.1@sha256:0c548b0bd410252129785bacf544f215f1efd7b736c835eaef92fdeef42bafa5                                                                              0.0s
+ => [ibc0 internal] load build context                                                                                                                                                              0.0s
+ => => transferring context: 78B                                                                                                                                                                    0.0s
+ => [ibc0 2/6] RUN mkdir -p /tmp/besu/data                                                                                                                                                          0.4s
+ => [ibc1 2/7] ADD geth.password /root/geth.password                                                                                                                                                0.0s
+ => [ibc1 3/7] ADD genesis.json  /root/genesis.json                                                                                                                                                 0.0s
+ => [ibc1 4/7] ADD privatekey  /root/privatekey                                                                                                                                                     0.0s
+ => [ibc1 5/7] ADD run.sh  /run.sh                                                                                                                                                                  0.0s
+ => [ibc1 6/7] RUN /usr/local/bin/geth --nousb --datadir /root/.ethereum init /root/genesis.json                                                                                                    0.9s
+ => [ibc0 3/6] WORKDIR /tmp/besu                                                                                                                                                                    0.0s
+ => [ibc0 4/6] ADD ibftConfigFile.json /tmp/besu/ibftConfigFile.json                                                                                                                                0.0s
+ => [ibc0 5/6] RUN besu operator generate-blockchain-config --config-file=ibftConfigFile.json --to=networkFiles --private-key-file-name=key                                                        13.9s
+ => [ibc1 7/7] RUN /usr/local/bin/geth --nousb account import --password /root/geth.password /root/privatekey                                                                                       8.8s
+ => [ibc0] exporting to image                                                                                                                                                                       0.1s
+ => => exporting layers                                                                                                                                                                             0.0s
+ => => writing image sha256:ec3f036e1648c22123b928b7d4b7ce4d515b0f0d8045ac2ed3b9fc9dd77e938a                                                                                                        0.0s
+ => => naming to docker.io/library/chains-ibc1                                                                                                                                                      0.0s
+ => => writing image sha256:05361967e06f82162c54c1f117e285bb0b9431df7fde0a9fb8f10d953354730f                                                                                                        0.0s
+ => => naming to docker.io/library/chains-ibc0                                                                                                                                                      0.0s
+ => [ibc0 6/6] RUN cp ./networkFiles/keys/*/* ./data/                                                                                                                                               0.4s
+docker compose up -d
+[+] Running 3/3
+ ✔ Network chains_default   Created                                                                                                                                                                 0.1s 
+ ✔ Container chains-ibc1-1  Started                                                                                                                                                                 0.5s 
+ ✔ Container chains-ibc0-1  Started                                                                                                                                                                 0.5s 
+sleep 5
+npm run migrate:ibc0
 
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+> minitoken-besu-ethereum@1.0.0 migrate:ibc0
+> truffle migrate --network=ibc0 --compile-none
 
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
 
----
+Compiling your contracts...
+===========================
+> Compilation skipped because --compile-none option was passed.
 
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/yui-docs/network/alerts).
-
-</details>
+/Users/mattsu6666/ghq/github.com/hyperledger-labs/yui-docs/samples/minitoken-besu-ethereum/node_modules/eth-block-tracker/src/polling.js:51
+        const newErr = new Error(`PollingBlockTracker - encountered an error while attempting to update latest block:\n${err.stack}`)
+                       ^
+Error: PollingBlockTracker - encountered an error while attempting to update latest block:
+undefined
+    at PollingBlockTracker._performSync (/Users/mattsu6666/ghq/github.com/hyperledger-labs/yui-docs/samples/minitoken-besu-ethereum/node_modules/eth-block-tracker/src/polling.js:51:24)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+UnhandledRejections detected
+Promise {
+  <rejected> {
+    code: -32603,
+    message: 'socket hang up',
+    data: { originalError: [Object] }
+  }
+} {
+  code: -32603,
+  message: 'socket hang up',
+  data: { originalError: { code: 'ECONNRESET' } }
+}
+make: *** [migrate] Error 1
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-25 22:41:36 +0000 UTC
+        Created At 2023-12-14 05:05:50 +0000 UTC
     </div>
 </div>
 
