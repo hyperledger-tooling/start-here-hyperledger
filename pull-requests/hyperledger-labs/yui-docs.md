@@ -33,7 +33,7 @@ By ensuring sufficient sleep time after starting the Blockchain node, I resolved
 - My local environment: [MacBook Air (15 inch, M2, 2023)](https://support.apple.com/kb/SP893)
 
 ```
-make setup       
+$ make setup       
 npm run compile
 
 > minitoken@1.0.0 compile
