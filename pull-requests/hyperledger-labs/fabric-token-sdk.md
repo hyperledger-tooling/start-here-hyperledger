@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    remove dep on keys package
+                    refactoring vault package
                 </b>
             </td>
         </tr>
