@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4156" class=".btn">#4156</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3857: Unify permission tokens in executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Add unification of permission tokens in executor when granting permission tokens or registering role.
+Unification is serialization and deserialization of permission token to remove ambiguity introduced by json format. 
+
+I've tried approach proposed by original issue initially, but it didn't work well because:
+- host in any case unable to check that permission tokens are indeed unified
+- bloats amount of code
+- it's still required to implement `Eq, Hash, ...` on `UnverifiedPermissionToken` because it's part of value
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3857 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Avoid certain bugs depending on permission token compassion. 
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-15 11:40:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4153" class=".btn">#4153</a>
             </td>
             <td>
@@ -67,7 +128,7 @@ Closes #4029 #4105, partially addresses #4136
 ### Checklist
 
 - [ ] Technical writers review on CLIs
-- [ ] https://github.com/hyperledger/iroha/pull/4139
+- [x] https://github.com/hyperledger/iroha/pull/4139
             </td>
         </tr>
     </table>
@@ -604,200 +665,6 @@ Closes #4090 #3858 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-12-11 06:38:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4130" class=".btn">#4130</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #0000: On-chain predictable iteration order
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-* replace all `HashMap`/`HashSet` in `iroha_core` with `IndexMap`/`IndexSet`
-* add `HashMap`/`HashSet` to `dissallowed_types` 
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes [#3](https://app.zenhub.com/workspaces/iroha-v2-60ddb820813b9100181fc060/issues/zh/3)
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 08:38:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4129" class=".btn">#4129</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: apply most recent clippy suggestions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 07:53:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4128" class=".btn">#4128</a>
-            </td>
-            <td>
-                <b>
-                    [BACKPORT] #4120: Do not use the `tungstenite` re-exported from `tokio_tungstenite`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Re-exported does not have the TLS fully functional if we only enable it on `tokio-tungstenite`, so a direct dependency is required
-
-### Linked issue
-
-Fixes #4120
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] make ci pass
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 07:44:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4127" class=".btn">#4127</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: remove auto-generated configuration reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">config-changes</span>
-            </td>
-            <td>
-                ## Description
-
-This PR removes auto-generated configuration reference and everything related to it.
-
-The motivation is to make one step forward towards the new reference (https://github.com/hyperledger/iroha-2-docs/issues/392). 
-
-After merge of this PR, there will be no configuration reference available for some time. We decided that it is fine and will streamline further process according to the RFC (https://github.com/hyperledger/iroha/issues/2585).
-
-Should be reviewed and merged after:
-
-- #4100 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 07:04:51 +0000 UTC
     </div>
 </div>
 

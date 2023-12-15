@@ -44,29 +44,3 @@ This fixes all the issues wrt `type(T)`  in the solc tests.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1608" class=".btn">#1608</a>
-            </td>
-            <td>
-                <b>
-                    Move to llvm16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 09:41:31 +0000 UTC
-    </div>
-</div>
-
