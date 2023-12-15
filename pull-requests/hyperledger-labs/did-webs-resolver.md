@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Feat/desig aliases equivid aka
+                    porting and extending Markus IIW tutorial
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                Using a deignated alias attestation the generator can populate the equivalentId metadata and the alsoKnownAs property.
+                from https://github.com/peacekeeper/did-webs-iiw-tutorial
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-29 00:19:45 +0000 UTC
+        Created At 2023-12-15 13:24:47 +0000 UTC
     </div>
 </div>
 
