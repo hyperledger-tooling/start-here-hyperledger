@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4153" class=".btn">#4153</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4029, #4105, #4136: refactor CLIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">Refactor</span><span class="chip">UI</span>
+            </td>
+            <td>
+                ## Description
+
+**Changes:**
+
+- **`iroha_genesis`:**
+    - Refactor `GenesisNetwork` initialisation, remove side effects and simplify logic
+    - Make `transactions` in `GenesisNetwork` non-public, to avoid invariant violation
+- **`iroha_config`:**
+    - Update Genesis config: instead of `account_public_key` and `account_private_key`, it now has `public_key`, `private_key`, and `file` options (according to #4029). Move some validation logic here (in form of `ParsedConfiguration` struct).
+    - Finally, make `disable_panic_terminal_colors` deprecated option truly optional (#3506)
+    - Use `PathBuf`s for all path parameters (`genesis.file`, `kura.block_store_path`, `snapshot.dir_path`, `telemetry.file`)
+    - Update `Path` (multiple extensions support) behaviour
+- **`iroha`:**
+    - Use `clap`
+    - Update CLI itself: `--config` argument, `--terminal-colors` (or `--terminal-colors=false`). `--submit-genesis` remains as is.
+    - Update configuration pipeline:
+        - Steps: defaults → file → env → build → validate & parse
+        - If file is not specified, Iroha tries both `config.json` and `config.json5` and doesn't fail if they are not find (same as before)
+        - If file is user-provided (`--config`, `IROHA_CONFIG=`) and it is not found, Iroha fails (previously it didn't)
+        - _Read and parse_ ENV after file, not before
+        - Resolve paths in the config file relatively to its location
+- **`iroha_client_cli`:**
+    - Update `clap` to `v4`, as in the rest of workspace
+    - Refactor `--metadata` argument
+    - Adopt the same configuration pipeline as in `iroha`
+- **`iroha_swarm`:** now it relies on that `genesis.file` is written in the configuration file and is located under the `--config-dir`
+- **`kagami`:** `kagami config peer` now accepts an optional argument `--genesis-file-in-config <PATH>` to set `genesis.file` in the output. Semantic analogous to `kagami genesis --executor-path-in-genesis <PATH>`.
+
+### Linked issues
+
+Closes #4029 #4105, partially addresses #4136
+
+### Benefits
+
+- Improves UX of configuration & usage of `iroha` and `iroha_client_cli`
+- Moves more configuration responsibility to `iroha_config`
+- Reduces complexity of init logic a little
+### Checklist
+
+- [ ] Technical writers review on CLIs
+- [ ] https://github.com/hyperledger/iroha/pull/4139
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-15 00:15:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4149" class=".btn">#4149</a>
             </td>
             <td>

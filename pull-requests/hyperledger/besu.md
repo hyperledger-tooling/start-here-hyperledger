@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6303" class=".btn">#6303</a>
+            </td>
+            <td>
+                <b>
+                    Add --X-trie-log subcommand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This is a more direct approach to the previous attempt in #6188.
+Tests showed that the previous attempt was taking too long (3 hours) to prune a 3.5 months old.
+
+In this PR we "reset" the cf and load only the trielogs that we want to retain in the DB.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Part of #5390 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-15 04:10:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6302" class=".btn">#6302</a>
             </td>
             <td>
@@ -763,33 +801,6 @@ I also set the DNS discovery tree to what's in [core-geth#bootnodes_classic.go](
     </table>
     <div class="right-align">
         Created At 2023-12-08 20:12:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6260" class=".btn">#6260</a>
-            </td>
-            <td>
-                <b>
-                    Non bft group ats junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                this is #6249 without clique/bft ATs
-fixes #6265
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-07 23:18:25 +0000 UTC
     </div>
 </div>
 
