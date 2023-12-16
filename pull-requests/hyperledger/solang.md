@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1611" class=".btn">#1611</a>
+            </td>
+            <td>
+                <b>
+                    Various fallback improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow the following:
+
+	contract A {
+		// Take raw calldata as argument and return return data
+		fallback(bytes calldata input) external payable (bytes memory) {}
+	}
+
+Allow a function to be called fallback:
+
+	contract A {
+		// Will give a warning that's not a fallback function,
+		// just a regular functon
+		function fallback() public {}
+	}
+
+TODO:
+
+ - docs
+ - tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-16 08:23:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1609" class=".btn">#1609</a>
             </td>
             <td>
