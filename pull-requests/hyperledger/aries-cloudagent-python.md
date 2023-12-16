@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2676" class=".btn">#2676</a>
+            </td>
+            <td>
+                <b>
+                    Cache TAA by wallet name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The TAA acceptance was being cached at pool level. This caused problems if the connection changed pools and also TAA acceptance between different tenants in multi-tenant mode.
+
+My understanding is limited in this area. My first instinct was to use a cache that was at a tenant/wallet specific level. I couldn't find a way to do this currently or any other examples in the code base. So, instead I inject the cache at profile level and then have a different cache key per wallet/tenant.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-15 22:38:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2674" class=".btn">#2674</a>
             </td>
             <td>
@@ -101,95 +129,6 @@ This is a minor change with no impact.
     </table>
     <div class="right-align">
         Created At 2023-12-13 04:47:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2664" class=".btn">#2664</a>
-            </td>
-            <td>
-                <b>
-                    Ensure "preserve_exchange_records" flags are set.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Not all cases on issue credential (v1 and v2) were respecting the system default. 
-
-There was a bug on issue credential v1 where `auto_remove` flag was set then ignored before the record was saved.
-
-
-So behaviour has been tested for issue credential (v1 & v2) and proof presentation (v1 & v2); exchange records are preserved if the `--preserve-exchange-records` is `true` and `auto_remove` has not been set to `True` on API calls that accept it (ie `send-offer`, `send-request`).
-
-Fixes #2656
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-09 00:45:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2663" class=".btn">#2663</a>
-            </td>
-            <td>
-                <b>
-                    fix: link to raw content change from master to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Link to image is broken after [RFCs PR#703](https://github.com/hyperledger/aries-rfcs/pull/703) which renamed the "master" branch to "main". It appears that other references (tree, blob) redirect from the URL containing "master" to the equivalent with "main", but URLs with "raw" do not(‽).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 22:28:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2662" class=".btn">#2662</a>
-            </td>
-            <td>
-                <b>
-                    Tweak scope of GHA integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move the @GHA tag to the scenarios of each test to allow for some fine tuning of what is included in the github actions.  Exclude most of the AnonCreds tests (but keep a representative sample included).  Add tags for Askar vs Askar-anoncreds wallet types.
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 20:03:40 +0000 UTC
     </div>
 </div>
 
