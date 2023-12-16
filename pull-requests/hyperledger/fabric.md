@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4578" class=".btn">#4578</a>
+            </td>
+            <td>
+                <b>
+                    Directly check the return error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: I1138688b89200c6bcb0b18f854c46f03815ad15d
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset simplifies the code by directly checking the return error,
+    which follows the Go style.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-15 22:41:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4577" class=".btn">#4577</a>
+            </td>
+            <td>
+                <b>
+                    Private data purge test improvements - release-2.5 backport
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport private data purge test improvements to release-2.5.
+This should resolve the flake failures in release-2.5 branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-15 19:14:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4576" class=".btn">#4576</a>
             </td>
             <td>
@@ -203,61 +278,6 @@ Creation of a README file to describe the migration process from Raft to BFT.
     </table>
     <div class="right-align">
         Created At 2023-12-10 23:04:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4569" class=".btn">#4569</a>
-            </td>
-            <td>
-                <b>
-                    Increase default transientstoreMaxBlockRetention
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Increase the default value of transientstoreMaxBlockRetention
-
-Change-Id: I24eb6a6c4be38fbb964970b518d40c72e02e12ff
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-`transientstoreMaxBlockRetention` is used to trigger the purge of private data in the transient store.
-
-The current default value is 1000, which is OK for simple cases with several blocks per second. Howerver, in our test with 10K tps case, it is possible to purge the private data too early before the peer gets a chance to commit the tx into the ledger.
-
-With a larger retention window, the only cost is a larger transient database in the peer node, which is not a big deal.
-
-Hence, this patchset suggest to increase the default value to a larger value of 100000, and it is open to have other reasonable value too.
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-#### Release Note
-
-N/A
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-08 18:57:22 +0000 UTC
     </div>
 </div>
 
