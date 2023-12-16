@@ -42,10 +42,9 @@ Allow a function to be called fallback:
 		function fallback() public {}
 	}
 
-TODO:
+This should make proxy contracts much easier to implement. 
 
- - docs
- - tests
+Also fixes all fallback/receive related failures in the evm tests.
             </td>
         </tr>
     </table>
