@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    feat: automatic benchmarking + logs + fixes 
+                    Feat: plots, tables
                 </b>
             </td>
         </tr>
@@ -27,26 +27,22 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
                 
             </td>
             <td>
-                Done:
-1. Same chain benchmarking for XY and Socket
-2. Tests for the above
-3. Helper also saves the raw quote along with the APIReport json
-4. Automatic benchmarker script `yarn benchmark:auto`
+                Add: 
+1. Plots for:
+      1.  Fee vs Gas
+      2. Aggregator Quote vs Coingecko Quote
+      3. Difference between Aggregator Quote and Coingecko Quote
+      4. Histogram for Aggregator Quote Variance
 
-Fix: 
-1. Report numbering
-
-Rename: 
-None
-
-Todo:
-1. Python scripts to visualize the data
-2. Graph the jsons
+2. Tables:      
+      1. Latency
+      2. Net Fee 
+      3. Price Differences between Aggregator Quotes and Coingecko Quotes
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-07 01:23:13 +0000 UTC
+        Created At 2023-12-17 14:58:43 +0000 UTC
     </div>
 </div>
 
