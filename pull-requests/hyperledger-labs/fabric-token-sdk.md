@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                <nil>
+                Table prefixes for the sql driver are useful for data segregation if you have multiple instances of the token sdk running with different configuration / owner wallets and want to connect them to the same database instance (e.g. to save cost or ease operations in a non-production environment).
+
+The current code defaults to an empty prefix if the tablePrefix configuration is not set, but then fails because the regex does not allow an empty prefix. This PR fixes that, so that the user can not set the tablePrefix if they don't need it.
             </td>
         </tr>
     </table>
