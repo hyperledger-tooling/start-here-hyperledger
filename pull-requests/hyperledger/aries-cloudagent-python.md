@@ -61,9 +61,12 @@ ImportError: attempted relative import beyond top-level package
                 
             </td>
             <td>
-                The TAA acceptance was being cached at pool level. This caused problems if the connection changed pools and also TAA acceptance between different tenants in multi-tenant mode.
+                The TAA acceptance was being cached at pool level. This caused problems in traction if the tenant changed pods and also TAA acceptance between different tenants in multi-tenant mode.
 
-My understanding is limited in this area. My first instinct was to use a cache that was at a tenant/wallet specific level. I couldn't find a way to do this currently or any other examples in the code base. So, instead I inject the cache at profile level and then have a different cache key per wallet/tenant.
+My understanding is limited in this area. 
+I thought maybe I could cache at a wallet level, but I couldn't find a way to do this currently or any other examples in the code base. So, I inject the cache at profile level and then have a different cache key per wallet/tenant.
+
+This will use more cache memory per tenant. Could possibly store the cache for less time.
             </td>
         </tr>
     </table>
