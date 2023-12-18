@@ -247,37 +247,3 @@ Make the connection source update when a config block is processed by the block 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4570" class=".btn">#4570</a>
-            </td>
-            <td>
-                <b>
-                    migration from Raft to BFT: README file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-Creation of a README file to describe the migration process from Raft to BFT.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-10 23:04:15 +0000 UTC
-    </div>
-</div>
-
