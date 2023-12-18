@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4157" class=".btn">#4157</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: update Pytests README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                ## Description
+
+Updated README (and `.gitignore`) in pytests because I found it confusing.
+
+### Checklist
+
+- [ ] Tech writers review
+- [ ] @AlexStroke review
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-18 04:08:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4156" class=".btn">#4156</a>
             </td>
             <td>
@@ -129,6 +163,7 @@ Closes #4029 #4105, partially addresses #4136
 
 - [ ] Technical writers review on CLIs
 - [x] https://github.com/hyperledger/iroha/pull/4139
+- [ ] Check docker compose files manually
             </td>
         </tr>
     </table>
