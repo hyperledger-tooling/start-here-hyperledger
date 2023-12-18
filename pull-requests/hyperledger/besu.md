@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6307" class=".btn">#6307</a>
+            </td>
+            <td>
+                <b>
+                    Restrict downgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR aims to prevent accidental downgrade of Besu, which can potentially cause the DB to be irrevocably corrupted.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/6266
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-18 12:25:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6306" class=".btn">#6306</a>
+            </td>
+            <td>
+                <b>
+                    Generate genesis root hash with the used data storage format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Before, we always generated the root hash of the genesis with forest, even if we activated bonsai. I am modifying the logic to use the correct storage format that we activated. This will facilitate a potential removal of forest and also be able to generate the genesis root hash using verkle when it is integrate
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-18 09:34:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6305" class=".btn">#6305</a>
             </td>
             <td>
@@ -701,40 +766,6 @@ There are also few GHA Gradle cache optimizations.
     </table>
     <div class="right-align">
         Created At 2023-12-11 16:09:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6274" class=".btn">#6274</a>
-            </td>
-            <td>
-                <b>
-                    Sequenced pool synonym for legacy pool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Introduces the new `sequenced` synonym for the `legacy` transaction pool, as discussed in https://github.com/hyperledger/besu/issues/6211.
-
-The PR adds enough for users to start switching to the `--tx-pool=sequenced` option ahead of removal of the `legacy` pool in the future.
-
-I've added one or two additional unit tests to check that `legacy` options still work with the `sequenced` pool, but haven't done anything more comprehensive than that because the future PR to ~~deprecate~~ remove the `legacy` pool will refactor all of the existing tests to use `sequenced` anyway.
-
-## Fixed Issue(s)
-Fixes https://github.com/hyperledger/besu/issues/6211
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-11 11:55:42 +0000 UTC
     </div>
 </div>
 

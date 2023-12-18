@@ -34,7 +34,7 @@ Updated README (and `.gitignore`) in pytests because I found it confusing.
 ### Checklist
 
 - [ ] Tech writers review
-- [ ] @AlexStroke review
+- [x] @AlexStroke review
 
             </td>
         </tr>
@@ -147,7 +147,7 @@ Avoid certain bugs depending on permission token compassion.
     - Update `clap` to `v4`, as in the rest of workspace
     - Refactor `--metadata` argument
     - Adopt the same configuration pipeline as in `iroha`
-- **`iroha_swarm`:** now it relies on that `genesis.file` is written in the configuration file and is located under the `--config-dir`
+- **`iroha_swarm`:** explicitly specifies `config.json` and `genesis.json` paths in the generated docker-compose configurations
 - **`kagami`:** `kagami config peer` now accepts an optional argument `--genesis-file-in-config <PATH>` to set `genesis.file` in the output. Semantic analogous to `kagami genesis --executor-path-in-genesis <PATH>`.
 
 ### Linked issues
@@ -159,6 +159,7 @@ Closes #4029 #4105, partially addresses #4136
 - Improves UX of configuration & usage of `iroha` and `iroha_client_cli`
 - Moves more configuration responsibility to `iroha_config`
 - Reduces complexity of init logic a little
+
 ### Checklist
 
 - [ ] Technical writers review on CLIs
@@ -664,42 +665,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-12-12 08:28:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4135" class=".btn">#4135</a>
-            </td>
-            <td>
-                <b>
-                    [BACKPORT] #4090 #3858: Fix having to pass IROHA_SKIP_WASM_CHECKS env variable with true
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-I deleted the need to pass the IROHA_SKIP_WASM_CHECKS while building with stable toolchain and added in CI
-
-### Linked issue
-
-Closes #4090 #3858 <!-- Replace with an actual number,  -->
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-11 06:38:51 +0000 UTC
     </div>
 </div>
 
