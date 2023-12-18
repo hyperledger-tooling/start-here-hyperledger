@@ -30,6 +30,37 @@ permalink: /pull-requests/hyperledger/besu
                 ## PR description
 This PR aims to prevent accidental downgrade of Besu, which can potentially cause the DB to be irrevocably corrupted.
 
+The approach I've used is as follows:
+
+- Add a new `default` function `getBesuVersion()` to the `BesuService` interface that returns the class package implementation version of the `BesuService` class
+  - This makes the Besu version string available to any plugin.
+- Update `DatabaseMetadata` to have an optional `besuVersion` JSON property
+  - This optionally adds `besuVersion` to the `DATABASE_METADATA.json` file written by the Rocks DB storage plugin
+  - Also update the gradle prereqs to pull in `com.fasterxml.jackson.datatype:jackson-datatype-jdk8` to handle Java8 optional properties
+- Update the Rocks DB `readDatabaseVersion()` function to check if the installed/runtime version is lower than the version recorded in `DATABASE_METADATA.json`, and throw a `StorageException` if it is
+  - Update the gradle prereqs to pull in `org.apache.maven:maven-artifact` to provide access to the maven `ComparableVersion` class
+
+Example `DATABASE_METADATA.json`:
+
+```
+{
+  "version":1,
+  "besuVersion":"23.10.4-dev-c9338660"
+}
+```
+
+Any value after the first `-` character in the version number is ignored. This limits version comparison to the 3 calver digits, which I think is sufficient for DB protection checks. Any value after `-` isn't guaranteed to have a logical `compareTo` result, especially for `dev` or a commit hash.
+
+The logic is as follows:
+- If `besuVersion` isn't present then no check is made and startup proceeds. This ensures there are no issues when upgrading from a version that didn't record a `besuVersion`
+- If `besuVersion` is present and is lower than the installed/runtime version, Besu updates it to have the latest version in it
+- If `besuVersion` is present and is greater than the installed/runtime version, Besu fails to start because a lower version of Besu is being started than the version that most recently updated the file
+
+## Remaining TODOs
+
+- [ ] Update/add tests
+- [ ] Add CLI arg such as `--force-downgrade` to allow a downgrade if specified
+
 ## Fixed Issue(s)
 Fixes https://github.com/hyperledger/besu/issues/6266
             </td>
@@ -730,42 +761,6 @@ refs #5571
     </table>
     <div class="right-align">
         Created At 2023-12-11 21:01:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6275" class=".btn">#6275</a>
-            </td>
-            <td>
-                <b>
-                    Update Gradle plugins and replace unmaintained license plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Update all the Gradle plugins to their latest version, and replace the unmaintained `hierynomus.license` plugin with the actively maintained [Gradle License Report](https://github.com/jk1/Gradle-License-Report).
-There are also few GHA Gradle cache optimizations.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-11 16:09:53 +0000 UTC
     </div>
 </div>
 

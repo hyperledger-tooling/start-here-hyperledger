@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-ca
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/390" class=".btn">#390</a>
-            </td>
-            <td>
-                <b>
-                    Bump sqlite3 to v1.14.18
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump sqlite3 to v1.14.18.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-11 16:57:07 +0000 UTC
-    </div>
-</div>
-
