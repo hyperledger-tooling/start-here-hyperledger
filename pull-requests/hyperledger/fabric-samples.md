@@ -657,29 +657,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1147" class=".btn">#1147</a>
-            </td>
-            <td>
-                <b>
-                    add support for docker compose v2 (fix #730) && fix bugs in PR(#1140)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-12 03:43:40 +0000 UTC
-    </div>
-</div>
-
