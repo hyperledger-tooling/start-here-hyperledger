@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/119" class=".btn">#119</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/go-openapi/spec from 0.20.9 to 0.20.11
+                    Bump github.com/go-openapi/spec from 0.20.9 to 0.20.12
                 </b>
             </td>
         </tr>
@@ -27,25 +27,27 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [github.com/go-openapi/spec](https://github.com/go-openapi/spec) from 0.20.9 to 0.20.11.
+                Bumps [github.com/go-openapi/spec](https://github.com/go-openapi/spec) from 0.20.9 to 0.20.12.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/go-openapi/spec/commit/8789dc37e2d3077dfc083c5127054e1b1640b5c4"><code>8789dc3</code></a> removed pre-go1.19 code</li>
+<li><a href="https://github.com/go-openapi/spec/commit/94a1c0d6107d48df2acf85b961984d3f15d3212c"><code>94a1c0d</code></a> updated dependencies</li>
+<li><a href="https://github.com/go-openapi/spec/commit/4df02b2822b3e0b1dbc3e8d1789bf3349437fbd7"><code>4df02b2</code></a> fixed yet another typo with badges</li>
+<li><a href="https://github.com/go-openapi/spec/commit/7d71edaf65842e0225e448e7107960b34fa471b1"><code>7d71eda</code></a> doc: fixed typo in badge link</li>
+<li><a href="https://github.com/go-openapi/spec/commit/0bd5b7ccbdb90f1d37373f7fc85b766a062ca71f"><code>0bd5b7c</code></a> Merge pull request <a href="https://redirect.github.com/go-openapi/spec/issues/174">#174</a> from fredbi/chore/adopt-embedfs</li>
+<li><a href="https://github.com/go-openapi/spec/commit/56b7b69c8feea1549e42d980cf55148df7809270"><code>56b7b69</code></a> Merge pull request <a href="https://redirect.github.com/go-openapi/spec/issues/173">#173</a> from fredbi/chore/update-go-version</li>
+<li><a href="https://github.com/go-openapi/spec/commit/b2509827dd3d96e9a7bb38da2fa08b65194f32ce"><code>b250982</code></a> Revert fix <a href="https://redirect.github.com/go-openapi/spec/issues/146">#146</a> (<a href="https://redirect.github.com/go-openapi/spec/issues/172">#172</a>)</li>
+<li><a href="https://github.com/go-openapi/spec/commit/5762ed37dc0ff2cc809f48608a2d65ffadde8f55"><code>5762ed3</code></a> Removed dependency on bindata</li>
+<li><a href="https://github.com/go-openapi/spec/commit/d6c58be69dc7ed17a96c430f7e31526b16915f75"><code>d6c58be</code></a> updated go version</li>
 <li><a href="https://github.com/go-openapi/spec/commit/95bb41dc323bdf9b9d6ddd63b9183a3ff710e8c0"><code>95bb41d</code></a> Merge pull request <a href="https://redirect.github.com/go-openapi/spec/issues/168">#168</a> from fredbi/fix-148</li>
-<li><a href="https://github.com/go-openapi/spec/commit/8b1afa69f7be4fc8e8995ff30f9198aa063fb5ed"><code>8b1afa6</code></a> Merge pull request <a href="https://redirect.github.com/go-openapi/spec/issues/171">#171</a> from fredbi/vuln/fix-161</li>
-<li><a href="https://github.com/go-openapi/spec/commit/ba7eeb12f8d25c1e0243432688eddadad66c7a8d"><code>ba7eeb1</code></a> Merge pull request <a href="https://redirect.github.com/go-openapi/spec/issues/169">#169</a> from fredbi/ci/reenact-linting</li>
-<li><a href="https://github.com/go-openapi/spec/commit/cc27dbe089271b3fdc3063917ac56646cece66d0"><code>cc27dbe</code></a> Merge pull request <a href="https://redirect.github.com/go-openapi/spec/issues/170">#170</a> from fredbi/chore/update-linting</li>
-<li><a href="https://github.com/go-openapi/spec/commit/2341568dac7df514958ddc3a7d7ff65b1fe33e70"><code>2341568</code></a> ci: removed deprecated appveyor CI</li>
-<li><a href="https://github.com/go-openapi/spec/commit/0da2f93109bbb1035ab116280bca183753cb3ac6"><code>0da2f93</code></a> chore: updated linting config, relinted</li>
-<li><a href="https://github.com/go-openapi/spec/commit/d8ccc3636a330f1a20e3b7e6c6141ebefd415bbd"><code>d8ccc36</code></a> ci: re-enacted linting</li>
-<li><a href="https://github.com/go-openapi/spec/commit/32e224fa44f2606581f73b07fc83caeba482f5f1"><code>32e224f</code></a> fixed json unmarshal for BoolOrSchema</li>
-<li>See full diff in <a href="https://github.com/go-openapi/spec/compare/v0.20.9...v0.20.11">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/go-openapi/spec/compare/v0.20.9...v0.20.12">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/go-openapi/spec&package-manager=go_modules&previous-version=0.20.9&new-version=0.20.11)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/go-openapi/spec&package-manager=go_modules&previous-version=0.20.9&new-version=0.20.12)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -77,7 +79,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-01 15:23:33 +0000 UTC
+        Created At 2023-12-18 15:14:22 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/242" class=".btn">#242</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/247" class=".btn">#247</a>
             </td>
             <td>
                 <b>
-                    Faster pool refresh
+                    Update python wrapper version to 0.4.1, proxy to 0.1.5
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                - Capture additional information about the state proof multi-signature verification.
-- After performing a successful status request, prioritize the responding nodes when performing a subsequent catchup request. This helps to avoid delays waiting for nodes that are no longer active.
-- Adjust default configuration parameters: ack_timeout -> 5 seconds, read timeout -> 30 seconds, connection request limit -> 10 requests.
+                The Python package is tested against the main branch of ACA-Py.
+
+Due to a new release of the `home` crate, the cross installation on Android was failing. The CI install command is updated to use the lockfile in the cross repository.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-01 19:01:17 +0000 UTC
+        Created At 2023-12-18 21:27:32 +0000 UTC
     </div>
 </div>
 

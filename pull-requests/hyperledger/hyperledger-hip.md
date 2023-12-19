@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Add FireFly Graduation Proposal
+                    Web3j incubation project proposal
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
                 
             </td>
             <td>
-                This PR is the proposal to move Hyperledger FireFly to a Graduated Project. I am happy to discuss the proposal, or answer any questions the TOC or other community members may have here in the PR or on a call. Thanks!
+                Proposal for Web3j to become a Hyperledger project with incubation status.
+
+As discussed on yesterday's TOC call, I'm keen at this stage for members of the TOC to review this pull request and provide their input.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-15 19:12:07 +0000 UTC
+        Created At 2023-12-15 18:56:28 +0000 UTC
     </div>
 </div>
 

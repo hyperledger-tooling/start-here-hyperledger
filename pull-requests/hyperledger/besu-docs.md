@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1465" class=".btn">#1465</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1472" class=".btn">#1472</a>
             </td>
             <td>
                 <b>
-                    Fix minor typo
+                    Do not Merge:Update dependencies and add tabs in docs directory
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                <nil>
+                This PR updates all the dependencies to the latest versions and adds tabs to the pages in the docs directory
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-30 10:24:57 +0000 UTC
+        Created At 2023-12-15 02:37:02 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1464" class=".btn">#1464</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1471" class=".btn">#1471</a>
             </td>
             <td>
                 <b>
-                    Added zeroBaseFee genesis item and impact on tx-pool-price-bump
+                    Added sync info and updated sync times
                 </b>
             </td>
         </tr>
@@ -53,120 +53,12 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Fixes #1458 
+                Fixes #1211 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-30 05:45:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1463" class=".btn">#1463</a>
-            </td>
-            <td>
-                <b>
-                    Adding more info around static nodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1461 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-30 02:51:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1462" class=".btn">#1462</a>
-            </td>
-            <td>
-                <b>
-                    Fixed link to point to private-networks API reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1403
-
-Did some searches and couldn't find the same issue repeated in other links. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 22:24:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1460" class=".btn">#1460</a>
-            </td>
-            <td>
-                <b>
-                    Updated miner_setMinPriorityFee param to hex
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated miner_getMinPriorityFee result to a hex string
-
-Fixes #1435 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-29 07:21:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1459" class=".btn">#1459</a>
-            </td>
-            <td>
-                <b>
-                    Added redirects
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Pushing as a draft so @bgravenorst can see what the issue is (I'm currently getting an error when I attempt to preview the docs with this change) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-11-28 23:54:53 +0000 UTC
+        Created At 2023-12-13 01:59:42 +0000 UTC
     </div>
 </div>
 
