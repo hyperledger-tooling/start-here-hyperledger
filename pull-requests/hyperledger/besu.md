@@ -753,29 +753,3 @@ refs #5571
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6281" class=".btn">#6281</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] CLI unit tests migrate to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                refs #5571 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-12 04:04:28 +0000 UTC
-    </div>
-</div>
-
