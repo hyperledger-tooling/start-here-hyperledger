@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6310" class=".btn">#6310</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.10.3-RC4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                RC3 failed on one specific canary; it ran into an edge case during a backwards sync on a single testing canary for lodestar on mainnet doing a checkpoint sync (see attached logfile, timestamp 2023-12-15T21:36:50,193 ). This did not happen for any other clients, including teku and sepolia variants.
+
+There is a known issue in Besu where during a sync, a very tight loop will max out the CPU. We would like to add the fix for this issue to RC4.
+
+[besu.log.zip](https://github.com/hyperledger/besu/files/13707409/besu.log.zip)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-18 19:19:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6309" class=".btn">#6309</a>
+            </td>
+            <td>
+                <b>
+                    Quick fix to avoid a tight loop when processing added blocks in txpool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+When a node is full syncing or backward syncing, it is possible the processing of block added in the txpool, causes a tight loop, with the result of high cpu consumption, that causes the node to basically halt doing other tasks.
+This is a quick workaround, while a proper solution, that also avoids to process added blocks during full sync is in progress, and will be ready.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-18 19:12:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6307" class=".btn">#6307</a>
             </td>
             <td>
@@ -709,58 +776,6 @@ refs #5571
     </table>
     <div class="right-align">
         Created At 2023-12-12 04:04:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6280" class=".btn">#6280</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] migrate remaining Crypto tests to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #5568 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-11 22:52:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6278" class=".btn">#6278</a>
-            </td>
-            <td>
-                <b>
-                    bulk update of ATs to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                test to see if updating all at once avoids the gradle error encountered in #6262 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-11 21:01:11 +0000 UTC
     </div>
 </div>
 
