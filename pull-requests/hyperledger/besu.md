@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6313" class=".btn">#6313</a>
+            </td>
+            <td>
+                <b>
+                    fix: call OperationTracer.traceEndTx for failing transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Call `OperationTracer.traceEndTx` even when a transaction failed.
+
+## Fixed Issue(s)
+fixes #6312 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-19 13:06:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6310" class=".btn">#6310</a>
             </td>
             <td>
