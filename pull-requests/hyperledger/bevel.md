@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2442" class=".btn">#2442</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2455" class=".btn">#2455</a>
             </td>
             <td>
                 <b>
-                    update spell and grammer lint workflow
+                    updated repo readme platform overview images
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                <nil>
+                **Changelog**
+- Update overview images
+- Added substrate overview 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-04 13:42:55 +0000 UTC
+        Created At 2023-12-18 10:20:15 +0000 UTC
     </div>
 </div>
 
@@ -40,65 +42,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2441" class=".btn">#2441</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2452" class=".btn">#2452</a>
             </td>
             <td>
                 <b>
-                    Rename the Shared charts as per Bevel conventions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Rename storageclass chart
-- Rename vault-mgmt chart
-- Rename imageautomation chart
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-04 12:16:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2440" class=".btn">#2440</a>
-            </td>
-            <td>
-                <b>
-                    doc redesign
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-04 11:56:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2436" class=".btn">#2436</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Support upgrade chaincode for the external chaincode
+                    [fabric] Update adding a new channel
                 </b>
             </td>
         </tr>
@@ -109,24 +57,90 @@ permalink: /pull-requests/hyperledger/bevel
             <td>
                 Primary Changes
 --------------
-1.Support upgrade/update chaincode operation for the external chaincode
+1.Update adding a new channel playbook to be compatible with version 2.5.4 2.Fixed the bug with elimination of ServiceAccount and ClusterRoleBinding
 
 Modifications
 -----------------------
-docs/source/operations/upgrading_chaincode.md
-platforms/hyperledger-fabric/configuration/external-chaincode-ops.yaml 
-platforms/hyperledger-fabric/configuration/roles/create/chaincode/install_ext/tasks/nested_main.yaml 
-platforms/hyperledger-fabric/configuration/roles/create/chaincode/peer_certs/tasks/generate_certs.yaml 
-platforms/hyperledger-fabric/configuration/roles/create/external_chaincode_server/tasks/valuefile.yaml 
-platforms/hyperledger-fabric/configuration/roles/create/peers/tasks/main.yaml 
-platforms/hyperledger-fabric/configuration/samples/network-fabricv2-external-chaincode.yaml platforms/network-schema.json
+docs/source/archive/certificates/fabric.md
+platforms/hyperledger-fabric/charts/fabric-osnadmin-channel-create 
+platforms/hyperledger-fabric/configuration/add-new-channel.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/channel_artifacts 
+platforms/hyperledger-fabric/configuration/roles/create/genesis 
+platforms/hyperledger-fabric/configuration/roles/create/new_orderer 
+platforms/hyperledger-fabric/configuration/roles/create/new_organization/orderer_org/syschannel 
+platforms/hyperledger-fabric/configuration/roles/create/orderers 
+platforms/hyperledger-fabric/configuration/roles/create/osnchannels 
+platforms/hyperledger-fabric/configuration/roles/create/refresh_certs/create_channel_block 
+platforms/hyperledger-fabric/configuration/roles/delete/vault_secrets 
+platforms/hyperledger-fabric/configuration/roles/upgrade/application-capabilities
+platforms/hyperledger-fabric/configuration/roles/upgrade/orderer-binary 
+platforms/hyperledger-fabric/configuration/roles/upgrade/orderer-capabilities platforms/shared/configuration/roles/create/shared_helm_component/templates/vault_kubernetes_job.tpl
 
-fixes #2352
+fixes #2439 #2443
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-30 14:40:28 +0000 UTC
+        Created At 2023-12-18 07:34:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2450" class=".btn">#2450</a>
+            </td>
+            <td>
+                <b>
+                    hotfix: quorum tessera fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- quorum tessera container now uses bash 
+- storage class chart name change
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-15 14:35:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2448" class=".btn">#2448</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Document redesign first pass
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Updated the docs as per hyperledger template https://github.com/hyperledger-labs/documentation-template
+- Review the formatting and content at https://baf.readthedocs.io/en/feature-doc-redesign/
+- Some content needs update
+
+Resolves #2158 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-12 15:05:50 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-did-networks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-did-networks/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger/indy-did-networks/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Adding initial CODEOWNERS
+                    [DRAFT] first round of indy networks
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-did-networks
                 
             </td>
             <td>
-                Initial group proposed. Feel free to comment on changes to that group, and I'll update the PR.
+                First draft of networks based on issue #3. I will setup an indy resolver service based on this structure for further discussions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-14 18:01:07 +0000 UTC
+        Created At 2023-12-15 18:02:37 +0000 UTC
     </div>
 </div>
 

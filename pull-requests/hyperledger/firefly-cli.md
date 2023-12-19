@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/276" class=".btn">#276</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/277" class=".btn">#277</a>
             </td>
             <td>
                 <b>
-                    Fix small code issues, simplify code
+                    Besu tests created for the  Ethereum firefly Blockchain
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Fix small code issues, simplify code.
+                This is pr fixes for #7 
+
+@nguyer, @awrichar 
+New Unit tests have been written for the [Besu package](https://github.com/hyperledger/firefly-cli/blob/main/internal/blockchain/ethereum/besu/genesis.go) in the Ethereum Blockchain. 
+These tests  pass successfully
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-14 07:48:43 +0000 UTC
+        Created At 2023-12-15 08:09:23 +0000 UTC
     </div>
 </div>
 

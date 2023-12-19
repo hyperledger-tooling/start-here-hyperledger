@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-aqd
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-aqd/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger/solang-aqd/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Add `CODEOWNERS` and `MAINTAINERS.md`
+                    Add Polkadot Support Disclaimer and Update CI Badge Link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/solang-aqd
                 
             </td>
             <td>
-                <nil>
+                ## Description
+This pull request adds a note in the README file to inform users that `solang-aqd` does not currently support Polkadot node interactions due to dependencies on unreleased cargo-contract / ink! versions. Additionally, it updates the CI badge link.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-11 16:10:33 +0000 UTC
+        Created At 2023-12-19 12:05:20 +0000 UTC
     </div>
 </div>
 
