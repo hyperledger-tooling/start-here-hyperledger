@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2458" class=".btn">#2458</a>
+            </td>
+            <td>
+                <b>
+                    [shared] update bevel-vault.sh script for sh shell compatibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## **Commit to be reviewed**
+
+
+```
+feat(shared): update bevel-vault.sh script for sh shell compatibility
+
+Change:
+- Modified bevel-vault.sh script for sh shell compatibility.
+
+fixes #quick-fix
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-19 13:33:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2455" class=".btn">#2455</a>
             </td>
             <td>
@@ -110,37 +146,6 @@ fixes #2439 #2443
     </table>
     <div class="right-align">
         Created At 2023-12-15 14:35:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2448" class=".btn">#2448</a>
-            </td>
-            <td>
-                <b>
-                    [chore] Document redesign first pass
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updated the docs as per hyperledger template https://github.com/hyperledger-labs/documentation-template
-- Review the formatting and content at https://baf.readthedocs.io/en/feature-doc-redesign/
-- Some content needs update
-
-Resolves #2158 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-12 15:05:50 +0000 UTC
     </div>
 </div>
 
