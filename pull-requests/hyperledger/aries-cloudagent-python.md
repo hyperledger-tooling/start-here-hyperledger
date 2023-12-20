@@ -253,33 +253,3 @@ I made 2 small changes to src code. In verifier.py changed an error handling mes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2670" class=".btn">#2670</a>
-            </td>
-            <td>
-                <b>
-                    Remove if condition which checks if the `credential.type` array is equal to 1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR addresses  #2669
-
-There is currently a validation that prevents credential with only the base type from being signed. The data model spec states that additional credential types are optional. This also prevents conforming to some test-suites where [single credential type](https://github.com/w3c/vc-data-model-2.0-test-suite/blob/main/tests/input/credential-ok.json) credentials are used as test data.
-
-This is a minor change with no impact.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-13 04:47:04 +0000 UTC
-    </div>
-</div>
-
