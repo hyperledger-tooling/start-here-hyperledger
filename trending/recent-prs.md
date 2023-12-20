@@ -1,13 +1,13 @@
 
-[822](https://github.com/hyperledger-labs/open-enterprise-agent/pull/822) feat: Tune postgresql - helm chart
+[427](https://github.com/hyperledger-labs/fablo/pull/427) Fablo: Christmas edition
 
-[821](https://github.com/hyperledger-labs/open-enterprise-agent/pull/821) fix: Swithing to startupProbe from Readiness
+[827](https://github.com/hyperledger-labs/open-enterprise-agent/pull/827) fix: Change resource defaults for postgres
 
-[291](https://github.com/hyperledger/anoncreds-rs/pull/291) Reworked w3c credentials and presentations to use DataIntegrityProof  instead of custom AnonCreds context
+[825](https://github.com/hyperledger-labs/open-enterprise-agent/pull/825) chore: quoute for postgresql definition - helm chart
 
-[6316](https://github.com/hyperledger/besu/pull/6316) add missing check for static peers to allow them to exceed the connection limit
+[823](https://github.com/hyperledger-labs/open-enterprise-agent/pull/823) feat: add configuration for gRPC usePlainText (enable TLS for gRPC)
 
-[6315](https://github.com/hyperledger/besu/pull/6315) Log/Address Trielog rolling failure
+[1093](https://github.com/hyperledger/aries-vcx/pull/1093) feat: replace BaseWallet with BaseWallet2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
