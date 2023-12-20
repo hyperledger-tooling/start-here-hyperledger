@@ -50,29 +50,3 @@ So instead this code passes actual `nil` in the nil case, and this works.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1432" class=".btn">#1432</a>
-            </td>
-            <td>
-                <b>
-                    Add name/version if not specified
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In recent changes, the `name`/`version` of the FFI have become required, and this means that the API for `/generate` has changed behavior so it fails if these are not supplied
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-13 13:13:53 +0000 UTC
-    </div>
-</div>
-

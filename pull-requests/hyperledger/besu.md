@@ -182,7 +182,7 @@ This is a quick workaround, while a proper solution, that also avoids to process
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">doc-change-required</span>
             </td>
             <td>
                 ## PR description
@@ -190,33 +190,23 @@ This PR aims to prevent accidental downgrade of Besu, which can potentially caus
 
 The approach I've used is as follows:
 
-- Add a new `default` function `getBesuVersion()` to the `BesuService` interface that returns the class package implementation version of the `BesuService` class
-  - This makes the Besu version string available to any plugin.
-- Update `DatabaseMetadata` to have an optional `besuVersion` JSON property
-  - This optionally adds `besuVersion` to the `DATABASE_METADATA.json` file written by the Rocks DB storage plugin
-  - Also update the gradle prereqs to pull in `com.fasterxml.jackson.datatype:jackson-datatype-jdk8` to handle Java8 optional properties
-- Update the Rocks DB `readDatabaseVersion()` function to check if the installed/runtime version is lower than the version recorded in `DATABASE_METADATA.json`, and throw a `StorageException` if it is
-  - Update the gradle prereqs to pull in `org.apache.maven:maven-artifact` to provide access to the maven `ComparableVersion` class
+ - Add a new file `VERSION_METADATA.json` in the configured data path
+   - Contains a single `besuVersion` field, e.g. `{"besuVersion":"23.10.3"}` 
+ - Add a new `--allow-downgrade` configuration option
+ - Update the gradle prereqs to pull in `org.apache.maven:maven-artifact` to provide access to the maven `ComparableVersion` class
+ - Add a function `performDowngradeCheck()` to `BesuCommand` as the first function to call after configuration options have been validated.
+   - `performDowngradeCheck()` throws an exception if the version in `VERSION_METADATA.json` is higher (when compared using the maven `ComparableVersion` class) than the version in as recorded in the `BesuCommand` class implementation version
 
-Example `DATABASE_METADATA.json`:
+Any value after the first `-` character in the version number is ignored. This limits version comparison to the 3 calver digits, which is all that can be logically compared as higher or lower. An example of a version number that has trailing characters is `23.10.4-dev-c9338660` where the latest commit has been appended to the version. The `-dev-c9338660` is ignored in the version comparison.
 
-```
-{
-  "version":1,
-  "besuVersion":"23.10.4-dev-c9338660"
-}
-```
-
-Any value after the first `-` character in the version number is ignored. This limits version comparison to the 3 calver digits, which I think is sufficient for DB protection checks. Any value after `-` isn't guaranteed to have a logical `compareTo` result, especially for `dev` or a commit hash.
-
-The logic is as follows:
-- If `besuVersion` isn't present then no check is made and startup proceeds. This ensures there are no issues when upgrading from a version that didn't record a `besuVersion`
-- If `besuVersion` is present and is lower than the installed/runtime version, Besu updates it to have the latest version in it
-- If `besuVersion` is present and is greater than the installed/runtime version, Besu fails to start because a lower version of Besu is being started than the version that most recently updated the file
+The validation logic is as follows:
+- If the `VERSION_METADATA.json` file doesn't exist, no further checks are made and the node starts. The `VERSION_METADATA.json` file is written to allow version checks from this point onwards.
+- If the file and `besuVersion` field are present and the version is lower than the installed/runtime version, Besu updates it to have the latest version in it and continues to start up
+- If the file and `besuVersion` field are present and the version is greater than the installed/runtime version, Besu fails to start unless `--allow-downgrade` is set, because a lower version of Besu is being started than the version that most recently updated the file.
 
 ## Remaining TODOs
 
-- [ ] Update/add tests
+- [x] Update/add tests
 - [x] Add CLI arg such as `--allow-downgrade` to allow a downgrade if specified
 
 ## Fixed Issue(s)
@@ -592,41 +582,6 @@ This PR handles this case by marking the request complete as long as there is an
     </table>
     <div class="right-align">
         Created At 2023-12-13 22:41:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6293" class=".btn">#6293</a>
-            </td>
-            <td>
-                <b>
-                    move forest class to a specific package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR prepares for the introduction of the Verkle trie code. I start by cleaning up the worldstate section, moving and renaming everything that is forest into a specific package in order to clarify the difference between Bonsai and Forest in the code.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-13 14:55:53 +0000 UTC
     </div>
 </div>
 
