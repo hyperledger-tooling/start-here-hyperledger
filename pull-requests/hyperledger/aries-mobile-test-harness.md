@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/226" class=".btn">#226</a>
-            </td>
-            <td>
-                <b>
-                    Switch BCW showcase tests to Prod in pipeline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updating the test pipeline for BC Wallet to use Prod for the showcase tests. There is an issue connecting Space Labs device to the dev Traction to receive a credential. May go back to Dev when the issue is resolved. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-12 22:47:30 +0000 UTC
-    </div>
-</div>
-

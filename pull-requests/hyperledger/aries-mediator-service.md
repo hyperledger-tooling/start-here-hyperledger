@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    fix: use correct iso import and adjust marshmellow arg
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Team effort by me and @jamshale 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-19 23:10:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Additional firebase plugin dependency updates.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Upgrade the google packages to stop urllib3 from being downgraded.
+  - Was getting downgraded from 2.0.6 to 1.26.18.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-19 14:58:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/113" class=".btn">#113</a>
             </td>
             <td>
@@ -36,33 +89,6 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     </table>
     <div class="right-align">
         Created At 2023-12-18 22:33:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/112" class=".btn">#112</a>
-            </td>
-            <td>
-                <b>
-                    Update redis-pq-demo Dockerfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Upgrade to ACA-Py 0.10.4
-- Install the redis plugin from the official plugin repo.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-12 15:39:38 +0000 UTC
     </div>
 </div>
 

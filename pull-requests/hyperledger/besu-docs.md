@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu-docs
             </td>
             <td>
                 <b>
-                    Do not Merge:Update dependencies and add tabs in docs directory
+                    [DO NOT MERGE] Update Dependencies, Add Tabs in Docs, Update Tabs in Versions 23.10.2, 23.7.3, 23.4.1
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                This PR updates all the dependencies to the latest versions and adds tabs to the pages in the docs directory
+                This PR updates all dependencies to their latest versions, adds tabs to the pages in the docs directory, and updates tabs in versions 23.10.2, 23.7.3, and 23.4.1.
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-12-15 02:37:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1471" class=".btn">#1471</a>
-            </td>
-            <td>
-                <b>
-                    Added sync info and updated sync times
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1211 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-13 01:59:42 +0000 UTC
     </div>
 </div>
 
