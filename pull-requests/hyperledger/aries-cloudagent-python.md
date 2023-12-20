@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2687" class=".btn">#2687</a>
+            </td>
+            <td>
+                <b>
+                    Emit did:peer:2 for didexchange
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rather than manage repo permissions. I'm reopening @dbluhm 's [PR](https://github.com/hyperledger/aries-cloudagent-python/pull/2578) here so I can verify and add/restore tests. 
+
+- [x] Restore Unittests
+- [ ] Restore integration tests
+- [ ] Add new unit tests
+- [ ] Add new integration tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-19 22:13:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2686" class=".btn">#2686</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This brings in indy-vdr 0.4.1, with better performance on pool refreshes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-19 21:51:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2684" class=".btn">#2684</a>
             </td>
             <td>

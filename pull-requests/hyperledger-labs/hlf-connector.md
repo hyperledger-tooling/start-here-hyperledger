@@ -14,25 +14,51 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/109" class=".btn">#109</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/112" class=".btn">#112</a>
             </td>
             <td>
                 <b>
-                    Increment version after release
+                    Use Key for Kafka Publishing
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">auto-version-increment</span>
+                
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-29 05:13:18 +0000 UTC
+        Created At 2023-12-19 22:17:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    Set default roles signature policy for each organization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-19 19:22:28 +0000 UTC
     </div>
 </div>
 
