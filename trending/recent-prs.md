@@ -1,13 +1,13 @@
 
-[268](https://github.com/hyperledger-labs/perun-node/pull/268) Update README with linter version
+[6315](https://github.com/hyperledger/besu/pull/6315) Log/Address Trielog rolling failure
 
-[820](https://github.com/hyperledger-labs/open-enterprise-agent/pull/820) feat: complete the integration with anoncred and fixes
+[112](https://github.com/hyperledger-labs/hlf-connector/pull/112) Use Key for Kafka Publishing
 
-[6313](https://github.com/hyperledger/besu/pull/6313) fix: call OperationTracer.traceEndTx for failing transactions
+[2687](https://github.com/hyperledger/aries-cloudagent-python/pull/2687) Emit did:peer:2 for didexchange
 
-[819](https://github.com/hyperledger-labs/open-enterprise-agent/pull/819) [WIP] Anoncred/new new new way
+[2686](https://github.com/hyperledger/aries-cloudagent-python/pull/2686) Update dependencies
 
-[4160](https://github.com/hyperledger/iroha/pull/4160) [BACKPORT] #4133: Count identical wasm for triggers
+[518](https://github.com/hyperledger-labs/fabric-smart-client/pull/518) Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
