@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6316" class=".btn">#6316</a>
+            </td>
+            <td>
+                <b>
+                    add missing check for static peers to allow them to exceed the connection limit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+In one place there was a check missing to allow static peers to exceed the connection limit.
+Another improvement is that streamBestPeers() does only return fully validated peers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-20 02:13:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6315" class=".btn">#6315</a>
             </td>
             <td>
@@ -579,42 +607,6 @@ See https://github.com/hyperledger/besu/issues/5866
     </table>
     <div class="right-align">
         Created At 2023-12-13 07:49:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6288" class=".btn">#6288</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Include Enode URL in error message if parsing exception
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                eg in bootnodes config
-
-Before
-
-2023-12-13 12:08:50.949+10:00 | main | ERROR | Besu | Failed to start Besu Invalid IP address (or DNS query resolved an invalid IP). --Xdns-enabled is true but --Xdns-update-enabled flag is false.
-
-
-After
-
-2023-12-13 12:11:14.581+10:00 | main | ERROR | Besu | Failed to start Besu Invalid IP address 'enode://bob@bob:8000' (or DNS query resolved an invalid IP). --Xdns-enabled is true but --Xdns-update-enabled flag is false.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-13 02:11:58 +0000 UTC
     </div>
 </div>
 
