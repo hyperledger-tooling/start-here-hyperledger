@@ -30,7 +30,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 Rather than manage repo permissions. I'm reopening @dbluhm 's [PR](https://github.com/hyperledger/aries-cloudagent-python/pull/2578) here so I can verify and add/restore tests. 
 
 - [x] Restore Unittests
-- [ ] Restore integration tests
+- [x] Restore integration tests
 - [ ] Add new unit tests
 - [ ] Add new integration tests
 

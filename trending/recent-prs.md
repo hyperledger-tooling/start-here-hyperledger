@@ -1,13 +1,13 @@
 
-[579](https://github.com/hyperledger-labs/fabric-operations-console/pull/579) Removing FluentD references
+[279](https://github.com/hyperledger/firefly-cli/pull/279) Remove remote-node-url since connector info provided by tezosconnect.yml
 
-[2959](https://github.com/hyperledger/cacti/pull/2959) docs(cbdc-bridging-frontend): fix license, manifest sort, pkg name
+[1095](https://github.com/hyperledger/aries-vcx/pull/1095) Streamline vcxagent-core api, reformat
 
-[578](https://github.com/hyperledger-labs/fabric-operations-console/pull/578) disable delete for readers
+[1436](https://github.com/hyperledger/firefly/pull/1436) Reflect through submissionRejected JSON body from FFTM/EVMConnect
 
-[211](https://github.com/hyperledger/aries-askar/pull/211) fix(js): promise handle error and rn updates
+[105](https://github.com/hyperledger/firefly-evmconnect/pull/105) Update for submissionRejected return
 
-[2958](https://github.com/hyperledger/cacti/pull/2958) fix(weaver-asset-transfer): return proper error messages for pledge s…
+[104](https://github.com/hyperledger/firefly-transaction-manager/pull/104) Require policy engines to map failures during submission to idempotency
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

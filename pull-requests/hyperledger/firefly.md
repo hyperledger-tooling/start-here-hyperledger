@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1433" class=".btn">#1433</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1436" class=".btn">#1436</a>
             </td>
             <td>
                 <b>
-                    Correct uniqueness lookup for nil location
+                    Reflect through submissionRejected JSON body from FFTM/EVMConnect
                 </b>
             </td>
         </tr>
@@ -27,26 +27,22 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                It's extremely hard for an external client calling the `AddContractListener` REST API to determine whether the listener already exists, because the details are a factor of a complex FFI payload.
+                On invoke contract or deploy contract, with `idempotencyKey` set, we were previously leaving operation status as `Initialized` after failing to submit a transaction due to a `revert` during transaction submission.
 
-For this reason FireFly provides a uniqueness check for the:
-- `namespace`
-- `topic` - allows multiple listeners to the same event, for different apps
-- `location` - can be nil, or a blockchain-specific location
-- `signature` - generated _by FireFly_ in a protocol specific way from the supplied FFI signature
+This PR allows the blockchain connectors to return a `submissionRejected: true` boolean in the JSON response to the submission, to state that the failure is not a temporary infrastructure issue that is retryable in nature, and rather a rejection of the transaction as invalid. In that case, the status will be `Failed`.
 
-However, the code doing a lookup in the DB was not working for the nil check, due to a `.ToString()`
+FF Core part of https://github.com/hyperledger/firefly/issues/1435
 
-Annoyingly there's a weirdness with `fftypes.JSONAny.Value()` in the `nil` case, and for some reason passing a `(*fftypes.JSONAny)(nil)` into `fb.Eq()` is not generating an `IS NULL` SQL query.
+Works with https://github.com/hyperledger/firefly-transaction-manager/pull/104
 
-So instead this code passes actual `nil` in the nil case, and this works.
-
-> This is really an underlying issue in `firefly-common` for a `ffapi.JSONField` case, but that's too risky a change to do in isolation
+Depends on the following (new E2E test should fail without these):
+- https://github.com/hyperledger/firefly/pull/1436
+- https://github.com/hyperledger/firefly-transaction-manager/pull/104
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-14 00:56:29 +0000 UTC
+        Created At 2023-12-21 16:12:05 +0000 UTC
     </div>
 </div>
 
