@@ -194,8 +194,8 @@ The approach I've used is as follows:
    - Contains a single `besuVersion` field, e.g. `{"besuVersion":"23.10.3"}` 
  - Add a new `--allow-downgrade` configuration option
  - Update the gradle prereqs to pull in `org.apache.maven:maven-artifact` to provide access to the maven `ComparableVersion` class
- - Add a function `performDowngradeCheck()` to `BesuCommand` as the first function to call after configuration options have been validated.
-   - `performDowngradeCheck()` throws an exception if the version in `VERSION_METADATA.json` is higher (when compared using the maven `ComparableVersion` class) than the version in as recorded in the `BesuCommand` class implementation version
+ - Add a function `performDowngradeCheck()` to `VersionMetadata` as the first function to call after configuration options have been validated.
+   - `performDowngradeCheck()` throws an exception if the version in `VERSION_METADATA.json` is higher (when compared using the maven `ComparableVersion` class) than the version as recorded in the `BesuCommand` class implementation version
 
 Any value after the first `-` character in the version number is ignored. This limits version comparison to the 3 calver digits, which is all that can be logically compared as higher or lower. An example of a version number that has trailing characters is `23.10.4-dev-c9338660` where the latest commit has been appended to the version. The `-dev-c9338660` is ignored in the version comparison.
 
@@ -377,39 +377,6 @@ Part of #5390
     </table>
     <div class="right-align">
         Created At 2023-12-15 04:10:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6302" class=".btn">#6302</a>
-            </td>
-            <td>
-                <b>
-                    Disable txpool when not in sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-14 15:52:10 +0000 UTC
     </div>
 </div>
 

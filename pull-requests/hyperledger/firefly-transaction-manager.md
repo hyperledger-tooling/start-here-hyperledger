@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/103" class=".btn">#103</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/104" class=".btn">#104</a>
             </td>
             <td>
                 <b>
-                    adding default request timeout in the generated swagger doc
+                    Require policy engines to map failures during submission to idempotency
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Without providing a default request timeout, it's set to 0s by default and could cause confusion when the user try the Swagger UI without modifying the request timeout.
+                See https://github.com/hyperledger/firefly/issues/1435
+
+The implementation here:
+- Requires the policy manager implementations to return a new boolean
+- Provides a mapping from the `ErrorReason` information that FFCAPI implementations already provide
+- Uses a `submissionRejected` boolean on the response back to core (so `false` means it is retryable)
+- Updates to latest `firefly-common`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-27 18:35:04 +0000 UTC
+        Created At 2023-12-21 15:20:19 +0000 UTC
     </div>
 </div>
 

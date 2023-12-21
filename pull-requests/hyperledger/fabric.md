@@ -395,29 +395,3 @@ This should resolve the flake failures in release-2.5 branch.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4576" class=".btn">#4576</a>
-            </td>
-            <td>
-                <b>
-                    Add doc links to chaincode access control
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add doc links to chaincode access control in the private data doc.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-14 14:41:07 +0000 UTC
-    </div>
-</div>
-
