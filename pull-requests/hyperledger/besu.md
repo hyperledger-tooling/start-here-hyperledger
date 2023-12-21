@@ -521,29 +521,3 @@ sallymacfarlane@dev-elc-besu-teku-mainnet-dev-sally-trailing-peer-log-3:/var/log
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6296" class=".btn">#6296</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Remove vintage engine dependencies where unused
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                Remove the junit-vintage-engine dependency from several modules where it's not used
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-14 05:29:28 +0000 UTC
-    </div>
-</div>
-
