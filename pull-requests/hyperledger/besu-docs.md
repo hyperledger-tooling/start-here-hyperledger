@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu-docs
             </td>
             <td>
                 <b>
-                    [DO NOT MERGE] Update Dependencies, Add Tabs in Docs, Update Tabs in Versions 23.10.2, 23.7.3, 23.4.1
+                    Update to docusaurus 3 and change versions shown to only the last three minor versions
                 </b>
             </td>
         </tr>
@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                This PR updates all dependencies to their latest versions, adds tabs to the pages in the docs directory, and updates tabs in versions 23.10.2, 23.7.3, and 23.4.1.
+                - Update to docusaurus 3
+- Fix tabs to work on docusaurus 3 (the plugin we used only supports docusaurus2)
+- Change versions shown to only the last three minor versions based on [converstations in discord from the maintainers](https://discord.com/channels/905194001349627914/905205502940696607/1179912405216669828)
+- Added in a section in the Readme for users to view/host older versions on their own infra
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/163" class=".btn">#163</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/164" class=".btn">#164</a>
             </td>
             <td>
                 <b>
-                    Update version following v2.2.9 release
+                    Define NVD_API_KEY in vulnerability scan
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Also add a RELEASING.md file to document release process.
+                Use the NVD_API_KEY secret to access vulnerability definitions from the NVD database.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-10 23:38:34 +0000 UTC
+        Created At 2023-12-20 22:30:52 +0000 UTC
     </div>
 </div>
 

@@ -88,31 +88,3 @@ permalink: /pull-requests/hyperledger/aries-akrida
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-akrida/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    feat: add quickstart demo video
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It appears that GitHub does not allow you to insert YouTube videos directly (I tried iframes). 
-
-Instead, I put in an image linking to the video. (We could put the full video in, but then we would have to put it into the repo)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-13 22:40:50 +0000 UTC
-    </div>
-</div>
-
