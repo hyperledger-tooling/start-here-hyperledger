@@ -266,7 +266,7 @@ Closes #4029 #4105, partially addresses #4136
 
 - [ ] Technical writers review on CLIs
 - [x] https://github.com/hyperledger/iroha/pull/4139
-- [ ] Check docker compose files manually
+- [x] Check docker compose files manually
             </td>
         </tr>
     </table>
