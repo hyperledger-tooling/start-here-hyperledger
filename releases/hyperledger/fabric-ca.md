@@ -15,35 +15,48 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.7
+                    v1.5.8
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.7
+                    v1.5.8
                 </span>
             </td>
             <td>
-                v1.5.7 Release Notes - August 29, 2023
-======================================
+                v1.5.8 Release Notes - December 20, 2023
+========================================
+
+Fixes
+-----
+
+**Fix s390x build**
+
+Update github.com/IBM/mathlib to fix compilation issue on s390x.
+[#387](https://github.com/hyperledger/fabric-ca/pull/387)
+
 
 Improvements
 ------------
 
-**SignerConfig struct now exports the RevocationHandle**
+**Log expiry overrides**
 
-SignerConfig struct now exports the RevocationHandle.
-The way the revocation handle is encoded has changed to align to what the Idemix library expects.
-[#363](https://github.com/hyperledger/fabric/pull/363)
+If certificate expiry during enrollment gets overridden due to the CA's own expiry,
+log a warning message about the override.
+[#384](https://github.com/hyperledger/fabric-ca/pull/384)
+
 
 Dependencies
 ------------
 
-Fabric CA v1.5.7 has been tested with the following dependencies:
-- Go 1.20.5
+Fabric CA v1.5.8 has been tested with the following dependencies:
+- Go 1.21.5
 - Ubuntu 20.04 (for Docker images)
+- Databases
+    - PostgreSQL 13
+    - MySQL 8.0
 
 
 Changes, Known Issues, and Workarounds
@@ -79,11 +92,11 @@ None.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.7" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-08-29 18:23:17 +0000 UTC
+        Created At 2023-12-21 19:34:14 +0000 UTC
     </span>
 </div>
 

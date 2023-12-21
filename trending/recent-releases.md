@@ -1,13 +1,13 @@
 
-[prism-agent-v1.21.1](https://github.com/hyperledger-labs/open-enterprise-agent/releases/tag/prism-agent-v1.21.1) Open Enterprise Agent v1.21.1
+[v1.3.2](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.2) v1.3.2
 
-[llvm16-0](https://github.com/hyperledger/solang-llvm/releases/tag/llvm16-0) 
+[v1.3.5](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.5) v1.3.5
 
-[v2.5.1](https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.5.1) v2.5.1
+[v1.5.8](https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.8) v1.5.8
 
-[v0.15.0.0](https://github.com/hyperledger/bevel/releases/tag/v0.15.0.0) Bevel Release 0.15.0
+[v1.4.1](https://github.com/hyperledger/firefly-common/releases/tag/v1.4.1) v1.4.1
 
-[v2.2.9](https://github.com/hyperledger/fabric-gateway-java/releases/tag/v2.2.9) v2.2.9
+[v0.4.20](https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.20) v0.4.20
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
