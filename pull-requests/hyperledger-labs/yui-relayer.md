@@ -37,33 +37,3 @@ Checks if the specified sequence exists in the packet, or does not check if the 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/129" class=".btn">#129</a>
-            </td>
-            <td>
-                <b>
-                    Fix make proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix make proof
-
-ibc-mock-client
-https://github.com/datachainlab/ibc-mock-client/pull/11
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-14 06:31:39 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4163" class=".btn">#4163</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3453: Implement Store CRUD Operations in Client CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+I added extra subcommands to asset which are set-store, get-store, remove-store, update-store
+
+## Use Casees
+```bash
+./iroha_client_cli asset set-store --key="K4" --asset-id="tea##mad_hatter@looking_glass" --json --value="{ \"Vec\": [{\"String\": \"a\"}, {\"String\": \"b\"}] }"
+---
+./iroha_client_cli asset set-store --key="K4" --asset-id="tea##mad_hatter@looking_glass" --value=true
+---
+./iroha_client_cli asset update-store --key="K4" --asset-id="tea##mad_hatter@looking_glass" --value=16_u32
+---
+./iroha_client_cli asset get-store --key="K2" --asset-id="tea##mad_hatter@looking_glass"
+---
+./iroha_client_cli asset remove-store --key="K4" --asset-id="tea##mad_hatter@looking_glass"
+
+```
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3453
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Checklist
+
+- [ X] I've read `CONTRIBUTING.md`
+- [ X] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-21 07:30:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4160" class=".btn">#4160</a>
             </td>
             <td>
