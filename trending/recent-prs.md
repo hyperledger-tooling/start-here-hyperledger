@@ -1,13 +1,13 @@
 
-[164](https://github.com/hyperledger/fabric-gateway-java/pull/164) Define NVD_API_KEY in vulnerability scan
+[579](https://github.com/hyperledger-labs/fabric-operations-console/pull/579) Removing FluentD references
 
-[663](https://github.com/hyperledger/fabric-gateway/pull/663) Define NVD_API_KEY in vulnerability scan
+[2959](https://github.com/hyperledger/cacti/pull/2959) docs(cbdc-bridging-frontend): fix license, manifest sort, pkg name
 
-[116](https://github.com/hyperledger/aries-mediator-service/pull/116) chore: set max send rate minutes to zero
+[578](https://github.com/hyperledger-labs/fabric-operations-console/pull/578) disable delete for readers
 
-[393](https://github.com/hyperledger/fabric-ca/pull/393) Release commit for v1.5.8
+[211](https://github.com/hyperledger/aries-askar/pull/211) fix(js): promise handle error and rn updates
 
-[427](https://github.com/hyperledger-labs/fablo/pull/427) Fablo: Christmas edition
+[2958](https://github.com/hyperledger/cacti/pull/2958) fix(weaver-asset-transfer): return proper error messages for pledge s…
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

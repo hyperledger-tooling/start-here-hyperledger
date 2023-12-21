@@ -388,7 +388,7 @@ Part of #5390
             </td>
             <td>
                 <b>
-                    Disable txpool during fullsync
+                    Disable txpool when not in sync
                 </b>
             </td>
         </tr>
@@ -410,114 +410,6 @@ Part of #5390
     </table>
     <div class="right-align">
         Created At 2023-12-14 15:52:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6300" class=".btn">#6300</a>
-            </td>
-            <td>
-                <b>
-                    create trie package for bonsai and forest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-A PR to place Bonsai and Forest in the same trie package. This PR is a preparation for the introduction of Verkle. This trie package will have Verkle in a next PR and we will add a common package so that the different trie substructures can share classes if needed. 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-14 10:58:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6299" class=".btn">#6299</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Trailing peer limit log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">logging</span>
-            </td>
-            <td>
-                fixes #6269 
-
-```
-sallymacfarlane@dev-elc-besu-teku-mainnet-dev-sally-trailing-peer-log-3:/var/log/besu$ grep Trailing besu.log
-{"@timestamp":"2023-12-14T12:50:11,138","level":"DEBUG","thread":"nioEventLoopGroup-3-5","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xadb935a416b0c19aaf... with height 18783177","throwable":""}
-{"@timestamp":"2023-12-14T12:51:47,696","level":"DEBUG","thread":"nioEventLoopGroup-3-9","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xc8a80e895f6b85f8ff... with height 18299999","throwable":""}
-{"@timestamp":"2023-12-14T12:51:49,471","level":"DEBUG","thread":"nioEventLoopGroup-3-1","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0x48f462dab313723e05... with height 18001000","throwable":""}
-{"@timestamp":"2023-12-14T12:52:19,523","level":"DEBUG","thread":"nioEventLoopGroup-3-5","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13883323","throwable":""}
-{"@timestamp":"2023-12-14T12:52:40,702","level":"DEBUG","thread":"nioEventLoopGroup-3-4","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13885662","throwable":""}
-{"@timestamp":"2023-12-14T12:52:49,897","level":"DEBUG","thread":"nioEventLoopGroup-3-2","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13886842","throwable":""}
-{"@timestamp":"2023-12-14T12:53:19,501","level":"DEBUG","thread":"nioEventLoopGroup-3-9","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13889692","throwable":""}
-{"@timestamp":"2023-12-14T12:53:49,340","level":"DEBUG","thread":"nioEventLoopGroup-3-3","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13891310","throwable":""}
-{"@timestamp":"2023-12-14T12:54:19,841","level":"DEBUG","thread":"nioEventLoopGroup-3-10","class":"TrailingPeerLimiter","message":"Enforcing trailing peers limit (min height 18784339, max trailing peers 0) by disconnecting 0xd9c1f1b8c84f4dcd96... with height 13893155","throwable":""}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-14 09:20:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6297" class=".btn">#6297</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] add genesis file name to config overview
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">logging</span><span class="chip">ux</span><span class="chip">non mainnet (private networks)</span>
-            </td>
-            <td>
-                ```
-# Configuration:                                                                                   #
-# Network: Custom genesis file                                                                     #
-# /Users/sm/workspace/besu/config/besu/genesis-linea.json                                          #
-# Network Id: 59140                                                                                #
-# Data storage: Forest                                                                             #
-# Sync mode: Snap                                                                                  #
-# RPC HTTP APIs: ADMIN,ETH,NET,WEB3,PERM,DEBUG,MINER,EEA,PRIV,TXPOOL                               #
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-14 06:32:29 +0000 UTC
     </div>
 </div>
 
