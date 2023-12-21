@@ -1,13 +1,13 @@
 
+[164](https://github.com/hyperledger/fabric-gateway-java/pull/164) Define NVD_API_KEY in vulnerability scan
+
+[663](https://github.com/hyperledger/fabric-gateway/pull/663) Define NVD_API_KEY in vulnerability scan
+
+[116](https://github.com/hyperledger/aries-mediator-service/pull/116) chore: set max send rate minutes to zero
+
+[393](https://github.com/hyperledger/fabric-ca/pull/393) Release commit for v1.5.8
+
 [427](https://github.com/hyperledger-labs/fablo/pull/427) Fablo: Christmas edition
-
-[827](https://github.com/hyperledger-labs/open-enterprise-agent/pull/827) fix: Change resource defaults for postgres
-
-[825](https://github.com/hyperledger-labs/open-enterprise-agent/pull/825) chore: quoute for postgresql definition - helm chart
-
-[823](https://github.com/hyperledger-labs/open-enterprise-agent/pull/823) feat: add configuration for gRPC usePlainText (enable TLS for gRPC)
-
-[1093](https://github.com/hyperledger/aries-vcx/pull/1093) feat: replace BaseWallet with BaseWallet2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

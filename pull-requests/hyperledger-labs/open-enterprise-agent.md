@@ -139,7 +139,9 @@ Fixes ATL-xxxx
 
 Previously, connecting to PRISM Node over gRPC was hardcoded to be insecure and over plaintext
 
-Now, the default is secure by default and can be configured at run time with an environment variable
+Now, the default is still insecure but can be configured at run time with an environment variable
+
+In future - this should be made secure by default but would be a breaking change and needs to be managed as such
 
 ## Checklist
 
@@ -150,7 +152,7 @@ Now, the default is secure by default and can be configured at run time with an 
 * [ ] Features (non-breaking change which adds functionality)
 
 ### My changes...
-* [x] are breaking changes
+* [ ] are breaking changes
 * [ ] are not breaking changes
 * [ ] If yes to above: I have updated the documentation accordingly
 
@@ -160,7 +162,7 @@ Now, the default is secure by default and can be configured at run time with an 
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Tests
-* [ ] My changes can not or do not need to be tested
+* [x] My changes can not or do not need to be tested
 * [ ] My changes can and should be tested by unit and/or integration tests
 * [ ] If yes to above: I have added tests to cover my changes
 * [ ] If yes to above: I have taken care to cover edge cases in my tests
