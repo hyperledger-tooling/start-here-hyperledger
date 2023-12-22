@@ -83,31 +83,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/524" class=".btn">#524</a>
-            </td>
-            <td>
-                <b>
-                    allow empty prefix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Table prefixes for the sql driver are useful for data segregation if you have multiple instances of the token sdk running with different configuration / owner wallets and want to connect them to the same database instance (e.g. to save cost or ease operations in a non-production environment).
-
-The current code defaults to an empty prefix if the tablePrefix configuration is not set, but then fails because the regex does not allow an empty prefix. This PR fixes that, so that the user can not set the tablePrefix if they don't need it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-15 12:12:49 +0000 UTC
-    </div>
-</div>
-
