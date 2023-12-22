@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2461" class=".btn">#2461</a>
+            </td>
+            <td>
+                <b>
+                    [r3-corda-ent] enable DLT deployment via GitHub Workflow & Action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+**feat(r3-corda-ent): enable DLT deployment via GitHub Workflow & Action**
+
+**Changes**:
+- Introduced a new GitHub Workflow enabling the deployment of Hyperledger Bevel's R3-CORDA-ENT DLT Platform to an EKS Cluster.
+- Introduced a new directory at path: `platforms/r3-corda-ent/configuration/samples/workflow`, containing two new sample network configuration files:
+   1. `network-proxy-cordaent.yaml`: Supports deployment with Ingress controller.
+   2. `network-no-proxy-cordaent.yaml`: Supports deployment without an Ingress controller, specifically designed for deployment on Minikube.
+
+**Additional Changes**:
+- Resolved duplicacy in code related to `ServiceAccount` and `Cluster-role-binding`.
+- Replaced the Ambassador Ansible task with new Ambassador-Edge-Stack.
+
+**fixes #2416**
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-22 13:24:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2460" class=".btn">#2460</a>
             </td>
             <td>
@@ -184,34 +225,6 @@ fixes #2439 #2443
     </table>
     <div class="right-align">
         Created At 2023-12-18 07:34:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2450" class=".btn">#2450</a>
-            </td>
-            <td>
-                <b>
-                    hotfix: quorum tessera fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- quorum tessera container now uses bash 
-- storage class chart name change
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-15 14:35:30 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/go-openapi/spec from 0.20.9 to 0.20.12
+                    Bump github.com/go-openapi/spec from 0.20.9 to 0.20.13
                 </b>
             </td>
         </tr>
@@ -27,10 +27,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [github.com/go-openapi/spec](https://github.com/go-openapi/spec) from 0.20.9 to 0.20.12.
+                Bumps [github.com/go-openapi/spec](https://github.com/go-openapi/spec) from 0.20.9 to 0.20.13.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/go-openapi/spec/commit/ee158dfb98f491cb7278fd91cd35f94f3839c2d7"><code>ee158df</code></a> chore(deps): updated go-openapi deps</li>
 <li><a href="https://github.com/go-openapi/spec/commit/8789dc37e2d3077dfc083c5127054e1b1640b5c4"><code>8789dc3</code></a> removed pre-go1.19 code</li>
 <li><a href="https://github.com/go-openapi/spec/commit/94a1c0d6107d48df2acf85b961984d3f15d3212c"><code>94a1c0d</code></a> updated dependencies</li>
 <li><a href="https://github.com/go-openapi/spec/commit/4df02b2822b3e0b1dbc3e8d1789bf3349437fbd7"><code>4df02b2</code></a> fixed yet another typo with badges</li>
@@ -40,14 +41,13 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
 <li><a href="https://github.com/go-openapi/spec/commit/b2509827dd3d96e9a7bb38da2fa08b65194f32ce"><code>b250982</code></a> Revert fix <a href="https://redirect.github.com/go-openapi/spec/issues/146">#146</a> (<a href="https://redirect.github.com/go-openapi/spec/issues/172">#172</a>)</li>
 <li><a href="https://github.com/go-openapi/spec/commit/5762ed37dc0ff2cc809f48608a2d65ffadde8f55"><code>5762ed3</code></a> Removed dependency on bindata</li>
 <li><a href="https://github.com/go-openapi/spec/commit/d6c58be69dc7ed17a96c430f7e31526b16915f75"><code>d6c58be</code></a> updated go version</li>
-<li><a href="https://github.com/go-openapi/spec/commit/95bb41dc323bdf9b9d6ddd63b9183a3ff710e8c0"><code>95bb41d</code></a> Merge pull request <a href="https://redirect.github.com/go-openapi/spec/issues/168">#168</a> from fredbi/fix-148</li>
-<li>Additional commits viewable in <a href="https://github.com/go-openapi/spec/compare/v0.20.9...v0.20.12">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/go-openapi/spec/compare/v0.20.9...v0.20.13">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/go-openapi/spec&package-manager=go_modules&previous-version=0.20.9&new-version=0.20.12)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/go-openapi/spec&package-manager=go_modules&previous-version=0.20.9&new-version=0.20.13)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -79,7 +79,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-18 15:14:22 +0000 UTC
+        Created At 2023-12-22 15:36:33 +0000 UTC
     </div>
 </div>
 
