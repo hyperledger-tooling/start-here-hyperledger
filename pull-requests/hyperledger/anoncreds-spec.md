@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/188" class=".btn">#188</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/193" class=".btn">#193</a>
             </td>
             <td>
                 <b>
-                    Update Trust Triangle Diagram to remove Blinded Link Secret
+                    Finalize - pending review - the terminolgy for the specification
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                Update the "Trust Triangle" image to reflect the changes in the text from #183 -- removing the Holder having a blinded link secret as a separate object.  Completes issue #181.
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-@wip-abramson -- I think that works, right?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-27 21:05:12 +0000 UTC
+        Created At 2023-12-21 19:38:53 +0000 UTC
     </div>
 </div>
 
