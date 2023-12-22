@@ -15,31 +15,26 @@ permalink: /releases/hyperledger/fabric-protos
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.1
+                    v0.3.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.1
+                    v0.3.2
                 </span>
             </td>
             <td>
-                Protocol buffer bindings for Fabric v3.x.
-
-## Important Changes
-* Extend lifecycle protos for checkcommitreadiness by @satota2 in https://github.com/hyperledger/fabric-protos/pull/190
-
-**Full Changelog**: https://github.com/hyperledger/fabric-protos/compare/v0.3.0...v0.3.1
+                
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.3.1" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.3.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-09-29 15:01:12 +0000 UTC
+        Created At 2023-12-21 17:28:27 +0000 UTC
     </span>
 </div>
 

@@ -7,7 +7,7 @@
 
 [v1.4.1](https://github.com/hyperledger/firefly-common/releases/tag/v1.4.1) v1.4.1
 
-[v0.4.20](https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.20) v0.4.20
+[v0.3.2](https://github.com/hyperledger/fabric-protos/releases/tag/v0.3.2) v0.3.2
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
