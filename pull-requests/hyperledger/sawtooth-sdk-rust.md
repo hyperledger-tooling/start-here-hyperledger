@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/88" class=".btn">#88</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/89" class=".btn">#89</a>
             </td>
             <td>
                 <b>
-                    Fix clippy::single_range_in_vec_init lint
+                    WIP: Break out features
                 </b>
             </td>
         </tr>
@@ -27,14 +27,23 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                This is almost always incorrect, as it will result in a Vec that has only one element. Almost always, the programmer intended for it to include all elements in the range or for the end of the range to be the length instead.
+                Hello,
 
-This means our correlations ids are not 16 characters long like we want. This fixes that issue.
+I've created this PR to get comments on my strategy for this solution. If this is satisfactory, I'll clean everything up.
+
+I'm working on a project targeting wasm in the browser (via wasm-pack / wasm-bindgen). For this use case, I obviously can't have any of the ZMQ code being included. I also don't particularly need the signing code (I am using cylinder instead).
+
+The main idea is to keep the default behavior as it functioned previously, but also to allow bringing in the SDK using whatever subset of the features you need.
+
+Thanks in advance for any feedback.
+
+Sincerely,
+Bill
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-29 14:34:39 +0000 UTC
+        Created At 2023-12-22 02:14:55 +0000 UTC
     </div>
 </div>
 
