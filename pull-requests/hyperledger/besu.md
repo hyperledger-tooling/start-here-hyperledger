@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6322" class=".btn">#6322</a>
+            </td>
+            <td>
+                <b>
+                    Cancun forkids for non-mainnets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add new forkids for testnets, update forkid test to Junit5, no longer need named network specific trusted setups
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-21 18:53:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6316" class=".btn">#6316</a>
             </td>
             <td>

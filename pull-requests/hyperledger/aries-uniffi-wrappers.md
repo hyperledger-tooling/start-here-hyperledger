@@ -89,29 +89,3 @@ permalink: /pull-requests/hyperledger/aries-uniffi-wrappers
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-uniffi-wrappers/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Kotlin instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-15 00:07:19 +0000 UTC
-    </div>
-</div>
-
