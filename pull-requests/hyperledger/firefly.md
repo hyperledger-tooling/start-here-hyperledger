@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1437" class=".btn">#1437</a>
+            </td>
+            <td>
+                <b>
+                    Update tezos stack creation doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to [PR#279](https://github.com/hyperledger/firefly-cli/pull/279)
+
+^^ @denisandreenko 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-22 09:58:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1436" class=".btn">#1436</a>
             </td>
             <td>
