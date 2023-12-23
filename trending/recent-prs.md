@@ -1,13 +1,13 @@
 
-[6329](https://github.com/hyperledger/besu/pull/6329) Copy also computed fields, when doing a Transaction detached copy
+[456](https://github.com/hyperledger-labs/private-data-objects/pull/456) Basic support for numeric keys 
 
-[121](https://github.com/hyperledger/fabric-contract-api-go/pull/121) Bump github.com/go-openapi/spec from 0.20.9 to 0.20.13
+[200](https://github.com/hyperledger/fabric-protos/pull/200) Update version to v0.3.2
 
-[168](https://github.com/hyperledger/fabric-admin-sdk/pull/168) Bump google.golang.org/protobuf from 1.31.0 to 1.32.0
+[199](https://github.com/hyperledger/fabric-protos/pull/199) Update CI commit message
 
-[2962](https://github.com/hyperledger/cacti/pull/2962) feat(cactus-plugin-ledger-connector-cdl): add new connector plugin
+[198](https://github.com/hyperledger/fabric-protos/pull/198) Update release readme
 
-[2461](https://github.com/hyperledger/bevel/pull/2461) [r3-corda-ent] enable DLT deployment via GitHub Workflow & Action
+[197](https://github.com/hyperledger/fabric-protos/pull/197) Replace deprecated set-output in Github Actions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
