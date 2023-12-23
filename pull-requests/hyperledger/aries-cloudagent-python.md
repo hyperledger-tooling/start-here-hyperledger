@@ -63,8 +63,8 @@ Coverage is 92%. I tried not to make the tests too brittle but wanted to have go
 
 - [x] Restore Unittests
 - [x] Restore integration tests
-- [ ] Add new unit tests
-- [ ] Add new integration tests
+- [x] Add new unit tests (check initiation with flag, check responding in kind without flag)
+- [x] Add new integration tests (check connection with both flags set and one flag set)
 
             </td>
         </tr>
@@ -187,37 +187,6 @@ ImportError: attempted relative import beyond top-level package
     </table>
     <div class="right-align">
         Created At 2023-12-17 01:16:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2676" class=".btn">#2676</a>
-            </td>
-            <td>
-                <b>
-                    Cache TAA by wallet name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The TAA acceptance was being cached at pool level. This caused problems in traction if the tenant changed pods and also TAA acceptance between different tenants in multi-tenant mode.
-
-My understanding is limited in this area. 
-I thought maybe I could cache at a wallet level, but I couldn't find a way to do this currently or any other examples in the code base. So, I inject the cache at profile level and then have a different cache key per wallet/tenant.
-
-This will use more cache memory per tenant. Could possibly store the cache for less time.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-15 22:38:17 +0000 UTC
     </div>
 </div>
 

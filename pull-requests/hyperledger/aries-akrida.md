@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-akrida
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-akrida/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    feat: clean up at end of tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-15 23:40:08 +0000 UTC
-    </div>
-</div>
-
