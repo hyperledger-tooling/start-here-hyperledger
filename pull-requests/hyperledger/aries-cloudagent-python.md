@@ -156,37 +156,3 @@ This could probably be applied to other endpoints as well but I'll be going over
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2679" class=".btn">#2679</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Change To Use Timezone Aware UTC datetime
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix issue #2678
-
-Based on 0.11.0rc2 code because when I attempt to use the main branch as the base I am getting an error:
-
-```
-  File "/app/aries_cloudagent/anoncreds/__init__.py", line 3, in <module>
-    from ..config.injection_context import InjectionContext
-ImportError: attempted relative import beyond top-level package
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-17 01:16:27 +0000 UTC
-    </div>
-</div>
-
