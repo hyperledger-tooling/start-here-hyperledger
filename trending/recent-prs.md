@@ -1,13 +1,13 @@
 
+[4584](https://github.com/hyperledger/fabric/pull/4584) fix gateway integration tests
+
+[4173](https://github.com/hyperledger/iroha/pull/4173) Trying to repair dependency which stopped working (protoc for golang)
+
+[122](https://github.com/hyperledger/fabric-contract-api-go/pull/122) Bump github.com/hyperledger/fabric-protos-go from 0.3.0 to 0.3.2
+
+[4172](https://github.com/hyperledger/iroha/pull/4172) [fix] #0000: Use free port in test
+
 [4171](https://github.com/hyperledger/iroha/pull/4171) [fix] #4155: ensure the secp256k1 signatures coming out of OpenSSL are normalized
-
-[4170](https://github.com/hyperledger/iroha/pull/4170) [refactor] #3068: remove flattened events
-
-[4169](https://github.com/hyperledger/iroha/pull/4169) [BACKPORT] #4164: Fix topology update on restart
-
-[400](https://github.com/hyperledger/iroha-java/pull/400) Bump gradle/gradle-build-action from 2.3.3 to 2.11.1
-
-[92](https://github.com/hyperledger/fabric-chaincode-go/pull/92) Bump github.com/hyperledger/fabric-protos-go from 0.3.0 to 0.3.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
