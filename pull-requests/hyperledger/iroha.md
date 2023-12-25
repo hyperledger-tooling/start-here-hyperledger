@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4168" class=".btn">#4168</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: update iroha_telemetry_derive to use syn2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Update with refactoring to remove proc_macro_error in favour of our `Emitter` wrapper
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3909 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-25 03:22:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4165" class=".btn">#4165</a>
             </td>
             <td>
@@ -230,40 +286,6 @@ Closes #3453
     </table>
     <div class="right-align">
         Created At 2023-12-19 11:26:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4157" class=".btn">#4157</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: update Pytests README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                ## Description
-
-Updated README (and `.gitignore`) in pytests because I found it confusing.
-
-### Checklist
-
-- [ ] Tech writers review
-- [x] @AlexStroke review
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-18 04:08:50 +0000 UTC
     </div>
 </div>
 
