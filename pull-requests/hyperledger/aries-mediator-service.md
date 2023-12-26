@@ -117,32 +117,3 @@ I can't run this demo in it's source version because I cannot use NGROK, maybe s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/113" class=".btn">#113</a>
-            </td>
-            <td>
-                <b>
-                    Update the requirements for the firebase plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update the requirements so ACA-Py does not get downgraded to meet the requirements set by the plugin.
-- Two requirements were causing ACA-Py to be downgraded.
-  - The `aries-cloudagent` requirement - The obvious one.
-  - The `marshmallow` requirement - The not so obvious one.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-18 22:33:31 +0000 UTC
-    </div>
-</div>
-
