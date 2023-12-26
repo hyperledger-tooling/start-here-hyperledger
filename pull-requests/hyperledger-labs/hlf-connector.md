@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Set Correct policy while channel update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The policy while channel update for the newly added organization is not correct.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-26 10:15:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/113" class=".btn">#113</a>
             </td>
             <td>
