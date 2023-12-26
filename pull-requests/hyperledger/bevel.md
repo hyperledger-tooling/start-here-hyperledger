@@ -117,39 +117,3 @@ fixes #2451
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2458" class=".btn">#2458</a>
-            </td>
-            <td>
-                <b>
-                    [shared] update bevel-vault.sh script for sh shell compatibility
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## **Commit to be reviewed**
-
-
-```
-feat(shared): update bevel-vault.sh script for sh shell compatibility
-
-Change:
-- Modified bevel-vault.sh script for sh shell compatibility.
-
-fixes #quick-fix
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-19 13:33:08 +0000 UTC
-    </div>
-</div>
-
