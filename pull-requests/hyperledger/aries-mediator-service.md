@@ -90,30 +90,3 @@ I can't run this demo in it's source version because I cannot use NGROK, maybe s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    Additional firebase plugin dependency updates.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Upgrade the google packages to stop urllib3 from being downgraded.
-  - Was getting downgraded from 2.0.6 to 1.26.18.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-19 14:58:43 +0000 UTC
-    </div>
-</div>
-

@@ -70,32 +70,3 @@ I've changed the mismatch behaviour handling to now throw an error with the orig
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/209" class=".btn">#209</a>
-            </td>
-            <td>
-                <b>
-                    fix(nodejs): only call get_current_error when an error occurred
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Reduce additional calls to `get_current_error`
-- Added tests for resolving errors for sync and async calls
-    - async calls include error handling inside the callback and outside
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-19 16:05:09 +0000 UTC
-    </div>
-</div>
-
