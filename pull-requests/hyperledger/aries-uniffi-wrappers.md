@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-uniffi-wrappers
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-uniffi-wrappers/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger/aries-uniffi-wrappers/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    fix: Kotlin MacOS Arm64 native target
+                    Update readme
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-uniffi-wrappers
                 
             </td>
             <td>
-                Creates a universal static library for MacOS in the buildscript. Fixes issues we were having with M-series mac targets.
+                - Update readme
+- Add DEVELOP.md
+- Remove `rustup toolchain install 1.65.0 --target $target` from `build-kotlin-library.sh`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-19 20:57:52 +0000 UTC
+        Created At 2023-12-27 07:23:24 +0000 UTC
     </div>
 </div>
 
