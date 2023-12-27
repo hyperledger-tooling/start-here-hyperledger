@@ -41,29 +41,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1093" class=".btn">#1093</a>
-            </td>
-            <td>
-                <b>
-                    feat: replace BaseWallet with BaseWallet2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-20 13:38:07 +0000 UTC
-    </div>
-</div>
-

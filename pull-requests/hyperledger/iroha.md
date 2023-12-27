@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4179" class=".btn">#4179</a>
+            </td>
+            <td>
+                <b>
+                    [BACKPORT]: Fix smart contract debug print
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-27 15:15:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4178" class=".btn">#4178</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #0000: Fix smart contract debug print
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-27 15:14:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4175" class=".btn">#4175</a>
             </td>
             <td>
