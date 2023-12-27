@@ -110,31 +110,3 @@ Capping the WAL files total size to 1GB and reusing old files when possible, has
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6316" class=".btn">#6316</a>
-            </td>
-            <td>
-                <b>
-                    add missing check for static peers to allow them to exceed the connection limit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-In one place there was a check missing to allow static peers to exceed the connection limit.
-Another improvement is that streamBestPeers() does only return fully validated peers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-20 02:13:58 +0000 UTC
-    </div>
-</div>
-
