@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2462" class=".btn">#2462</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] enable DLT deployment via GitHub Workflow & Action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                feat(quorum): enable DLT deployment via GitHub Workflow & Action
+
+Changes:
+
+Introduced a new GitHub Workflow enabling the deployment of Hyperledger Bevel's QUORUM DLT Platform to an EKS Cluster.
+Introduced a new directory at path: platforms/quorum/configuration/samples/workflow, containing two new sample network configuration files:
+network-proxy-quorum: Supports deployment with Ingress controller.
+network-no-proxy-quorum: Supports deployment without an Ingress controller, specifically designed for deployment on Minikube.
+Additional Changes:
+
+Replaced the Ambassador Ansible task with new Ambassador-Edge-Stack.
+
+fixes https://github.com/hyperledger/bevel/issues/2416
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-26 19:08:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2461" class=".btn">#2461</a>
             </td>
             <td>

@@ -64,29 +64,3 @@ I can't run this demo in it's source version because I cannot use NGROK, maybe s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    fix: use correct iso import and adjust marshmellow arg
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Team effort by me and @jamshale 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-19 23:10:41 +0000 UTC
-    </div>
-</div>
-

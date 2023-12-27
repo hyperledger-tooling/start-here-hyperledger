@@ -44,29 +44,3 @@ I've changed the mismatch behaviour handling to now throw an error with the orig
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/210" class=".btn">#210</a>
-            </td>
-            <td>
-                <b>
-                    Refactor FFI error handling for better reliability
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-19 19:38:49 +0000 UTC
-    </div>
-</div>
-
