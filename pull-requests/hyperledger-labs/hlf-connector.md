@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    Increment version after release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">auto-version-increment</span>
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-28 06:10:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    Increment version after release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">auto-version-increment</span>
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-28 05:12:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/117" class=".btn">#117</a>
+            </td>
+            <td>
+                <b>
+                    Setter crashes because of immutable emptyList()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-28 05:06:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/116" class=".btn">#116</a>
             </td>
             <td>
