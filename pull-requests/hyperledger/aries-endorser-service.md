@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    Enhancement: Introduce Support for Uploading CSV-Based Configuration
+                    Rebased new migrations on the original migrations
                 </b>
             </td>
         </tr>
@@ -27,78 +27,18 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
                 
             </td>
             <td>
-                This pull request resolves #38
+                This resolves https://github.com/bcgov/DITP-DevOps/issues/138 by correcting the alembic migration error.
 
-This enhancement adds the capability to configure your application using CSV files. The configuration is structured around the following classes:
+Before granular configuration was implemented the original migration file initial_db_tables_d925cb39480e.py was used.
 
-- AllowedPublicDid:
-  - Used for managing the publish_did file.
-  - Defines the registered_did attribute, which is a required string and serves as the primary key.
-    
-- AllowedSchema:
-  - Intended for handling schema files.
-  - Includes attributes like author_did, schema_name, and version, all of which are mandatory and cannot be null.
+Due to an over site this file was removed and a new complete_regeneration_bc503ce16d6d.py was produced.
 
-- AllowedCredentialDefinition:
-  - Specifically designed for the credential_definition file.
-  - Contains attributes such as issuer_did, author_did, schema_name, version, tag, rev_reg_def, and rev_reg_entry. All of these attributes are required and must have non-null values.
-
-This enhancement enables you to upload CSV files associated with each
-of these classes, using either the POST or PUT methods. The choice
-between POST and PUT dictates how the uploaded data interacts with the
-existing configuration:
-
-POST: This method will replace the current configuration with the data from the uploaded CSV file.
-
-PUT: In contrast, the PUT method appends the data from the CSV file to the existing configuration, preserving the current state.
-
-This feature enhances the flexibility and ease of configuring your application by allowing you to manage your configuration using CSV files effortlessly.
-
-![2023-10-16_15-22-15](https://github.com/hyperledger/aries-endorser-service/assets/34443260/bbc58cf1-6ebb-412d-812a-6d50f8cdc4ce)
-
-These enhancements are designed to make your application's configuration management more user-friendly and efficient.
-
-
-An example csv for the scheme file would be
-
-```csv
-author_did,schema_name,version
-"3fa85f64-5717-4562-b3fc-2c963f66afa6","myschema","1.0"
-```
+While this would work for new deployments this broke backwards compatibility with existing deployments. For this reason we restored initial_db_tables_d925cb39480e.py and based updated_to_support_granular__e6afa1dce289.py on it to preserve this compatibility.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-16 22:30:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/36" class=".btn">#36</a>
-            </td>
-            <td>
-                <b>
-                    Update maintainers list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Suggesting the following change (additions) to the maintainers list:
-
-- @esune  (myself) as I have been designing the enhancements to the endorser service required to automate some/all of the endorsement operations with fine-grained control
-- @Gavinok as he has been the hands-on implementer of the above changes (see #34)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-10-13 18:18:51 +0000 UTC
+        Created At 2023-12-27 20:41:20 +0000 UTC
     </div>
 </div>
 

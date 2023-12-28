@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1050" class=".btn">#1050</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1051" class=".btn">#1051</a>
             </td>
             <td>
                 <b>
-                    feat: add scrim to common remove modal
+                    fix:disabling going back function on connectionless proof flow
                 </b>
             </td>
         </tr>
@@ -29,11 +29,22 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Users were getting confused by the background of the common remove modal, thinking they could still press buttons in the header. Adding a scrim to dim the content behind the modal communicates to the users that those elements aren't accessible. Here is the before and after:
-No scrim
-![no_scrim](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/44b7df8f-5edd-413d-ad1a-41aa4abd271e)
-With scrim
-![scrim](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/28d74fb4-e68b-4303-ae37-3c6eba71f495)
+Disabling going back function on connectionless proof flow.
+
+### Expected behavior
+Users should not exit this screen using the device's back button, just the home icon.
+
+### Actual behavior
+Users can go back and on android it shows up a black screen, on iOS returns to the scan screen.
+
+### To fix
+I added `gestureEnabled` for ios (didn't work on android) and `Backhandler API` for android, both already used in the project.
+https://reactnavigation.org/docs/stack-navigator/#gestureenabled
+https://reactnative.dev/docs/backhandler
+
+
+https://github.com/hyperledger/aries-mobile-agent-react-native/assets/97122568/7c10d844-e5c3-4190-871e-dc279a89cb4f
+
 
 # Related Issues
 
@@ -43,10 +54,10 @@ N/A
 
 Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
 
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+- [X] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [X] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [X] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
 
 If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
 
@@ -61,7 +72,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-18 21:27:24 +0000 UTC
+        Created At 2023-12-27 18:29:10 +0000 UTC
     </div>
 </div>
 

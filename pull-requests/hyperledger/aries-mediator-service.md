@@ -38,29 +38,3 @@ I can't run this demo in it's source version because I cannot use NGROK, maybe s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/116" class=".btn">#116</a>
-            </td>
-            <td>
-                <b>
-                    chore: set max send rate minutes to zero
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This prevents there from being missed notifications if they are sent immediately after push notifications are enabled in the wallet
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-20 22:01:42 +0000 UTC
-    </div>
-</div>
-
