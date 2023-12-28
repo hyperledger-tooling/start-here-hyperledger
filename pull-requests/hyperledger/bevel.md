@@ -34,11 +34,10 @@ permalink: /pull-requests/hyperledger/bevel
 3. Fixed errors in variable names.
 
 **Modifications**
-platforms/hyperledger-fabric/charts/fabric-chaincode-commit/templates/commit_chaincode.yaml 
-platforms/hyperledger-fabric/charts/fabric-chaincode-invoke/templates/invoke_chaincode.yaml 
-platforms/hyperledger-fabric/configuration/roles/helm_component/templates/approve_chaincode_job.tpl 
-platforms/hyperledger-fabric/configuration/roles/helm_component/templates/commit_chaincode_job.tpl 
-platforms/hyperledger-fabric/configuration/roles/helm_component/templates/invoke_chaincode_job.tpl
+platforms/hyperledger-fabric/charts/fabric-chaincode-commit/templates/commit_chaincode.yaml
+platforms/hyperledger-fabric/configuration/roles/create/chaincode/invoke/tasks/nested_valuefile.yaml
+platforms/hyperledger-fabric/configuration/roles/helm_component/templates/approve_chaincode_job.tpl
+platforms/hyperledger-fabric/configuration/roles/helm_component/templates/commit_chaincode_job.tpl
             </td>
         </tr>
     </table>

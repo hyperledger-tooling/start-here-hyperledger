@@ -176,44 +176,6 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2961" class=".btn">#2961</a>
-            </td>
-            <td>
-                <b>
-                    chore:Update test_weaver-pre-release.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of Security Testing Purpose ONLY
-
-**Pull Request Requirements**
-- [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-22 10:36:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2960" class=".btn">#2960</a>
             </td>
             <td>
@@ -245,90 +207,6 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
     </table>
     <div class="right-align">
         Created At 2023-12-22 07:14:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2959" class=".btn">#2959</a>
-            </td>
-            <td>
-                <b>
-                    docs(cbdc-bridging-frontend): fix license, manifest sort, pkg name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. License is now Apache-2.0
-2. The package.json file is now sorted (following all the others)
-3. The package name matches the pattern of all the other ones.
-
-[skip ci]
-
-Fixes #2957
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-21 08:58:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2958" class=".btn">#2958</a>
-            </td>
-            <td>
-                <b>
-                    fix(weaver-asset-transfer): return proper error messages for pledge s…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …tatus and claim status
-
-**Pull Request Requirements**
-- [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-21 07:33:42 +0000 UTC
     </div>
 </div>
 

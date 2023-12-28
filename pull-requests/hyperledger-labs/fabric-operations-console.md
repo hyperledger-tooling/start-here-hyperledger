@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/579" class=".btn">#579</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/580" class=".btn">#580</a>
             </td>
             <td>
                 <b>
-                    Removing FluentD references
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In Progress
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-21 08:59:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/578" class=".btn">#578</a>
-            </td>
-            <td>
-                <b>
-                    disable delete for readers
+                    disable update button for package
                 </b>
             </td>
         </tr>
@@ -62,7 +36,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-21 08:23:30 +0000 UTC
+        Created At 2023-12-28 08:02:39 +0000 UTC
     </div>
 </div>
 
