@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Update wiki URL
+                    fix alloc issue with serializing
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
                 
             </td>
             <td>
-                <nil>
+                Fixes that last issue with serializing to human readable formats.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-14 16:57:31 +0000 UTC
+        Created At 2023-12-28 18:08:49 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[4180](https://github.com/hyperledger/iroha/pull/4180) [fix] #4177: Fixed (get|set)_config 401 HTTP.
+[9](https://github.com/hyperledger-labs/agora-unknown_order/pull/9) fix alloc issue with serializing
 
-[580](https://github.com/hyperledger-labs/fabric-operations-console/pull/580) disable update button for package
+[63](https://github.com/hyperledger/aries-acapy-plugins/pull/63) chore(deps): Bump jwcrypto from 1.5.0 to 1.5.1 in /basicmessage_storage
 
-[119](https://github.com/hyperledger-labs/hlf-connector/pull/119) Increment version after release
+[62](https://github.com/hyperledger/aries-acapy-plugins/pull/62) chore(deps): Bump jwcrypto from 1.5.0 to 1.5.1 in /redis_events/integration
 
-[118](https://github.com/hyperledger-labs/hlf-connector/pull/118) Increment version after release
+[61](https://github.com/hyperledger/aries-acapy-plugins/pull/61) chore(deps): Bump jwcrypto from 1.5.0 to 1.5.1 in /connection_update
 
-[117](https://github.com/hyperledger-labs/hlf-connector/pull/117) Setter crashes because of immutable emptyList()
+[60](https://github.com/hyperledger/aries-acapy-plugins/pull/60) chore(deps): Bump jwcrypto from 1.5.0 to 1.5.1 in /oid4vci
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
