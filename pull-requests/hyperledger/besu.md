@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6333" class=".btn">#6333</a>
+            </td>
+            <td>
+                <b>
+                    release 23.10.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+set release version to 23.10.3
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-29 00:05:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6332" class=".btn">#6332</a>
             </td>
             <td>
@@ -114,34 +148,6 @@ Capping the WAL files total size to 1GB and reusing old files when possible, has
     </table>
     <div class="right-align">
         Created At 2023-12-22 11:01:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6322" class=".btn">#6322</a>
-            </td>
-            <td>
-                <b>
-                    Cancun forkids for non-mainnets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add new forkids for testnets, update forkid test to Junit5, no longer need named network specific trusted setups
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-21 18:53:22 +0000 UTC
     </div>
 </div>
 
