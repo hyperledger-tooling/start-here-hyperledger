@@ -1,13 +1,13 @@
 
-[6333](https://github.com/hyperledger/besu/pull/6333) release 23.10.3
+[64](https://github.com/hyperledger/aries-acapy-plugins/pull/64) Update repo manager
 
-[1161](https://github.com/hyperledger/fabric-samples/pull/1161) Bump msgpackr from 1.9.9 to 1.10.1 in /asset-transfer-basic/rest-api-typescript
+[1473](https://github.com/hyperledger/besu-docs/pull/1473) Now that hosting is in vercel, we can remove redundant github pages actions
 
-[9](https://github.com/hyperledger-labs/agora-unknown_order/pull/9) fix alloc issue with serializing
+[1052](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1052) feat: disable sharing proof if it is in a bad state
 
-[63](https://github.com/hyperledger/aries-acapy-plugins/pull/63) chore(deps): Bump jwcrypto from 1.5.0 to 1.5.1 in /basicmessage_storage
+[295](https://github.com/hyperledger/anoncreds-rs/pull/295) Update react native per Snyk
 
-[62](https://github.com/hyperledger/aries-acapy-plugins/pull/62) chore(deps): Bump jwcrypto from 1.5.0 to 1.5.1 in /redis_events/integration
+[2690](https://github.com/hyperledger/aries-cloudagent-python/pull/2690) Improve api documentation and error handling
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -107,29 +107,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/665" class=".btn">#665</a>
-            </td>
-            <td>
-                <b>
-                    Fix Cucumber typings in Node scenario tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-22 20:43:56 +0000 UTC
-    </div>
-</div>
-
