@@ -80,30 +80,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/666" class=".btn">#666</a>
-            </td>
-            <td>
-                <b>
-                    Go vulnerability scan configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove deprecated experimental-call-analysis flag. Call analysis is no longer experimental and is enabled by default for Go.
-- Specify pkcs11 build tag in govulncheck scan to include HSM code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-24 01:57:43 +0000 UTC
-    </div>
-</div>
-
