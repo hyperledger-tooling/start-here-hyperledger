@@ -56,6 +56,8 @@ permalink: /pull-requests/hyperledger/solang
                 Building a multiarch container image is fragile and depends on the linux-arm64 runner having access to a remote amd64 docker daemon.
 
 As far as I know this is not ever used.
+
+Also includes some cleanups and an anchor build fix.
             </td>
         </tr>
     </table>
