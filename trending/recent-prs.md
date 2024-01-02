@@ -1,13 +1,13 @@
 
-[116](https://github.com/hyperledger/firefly-common/pull/116) Add error return to query modifier
+[1616](https://github.com/hyperledger/solang/pull/1616) Remove gpl files
 
-[1054](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1054) Inject global screen configuration into core config
+[1615](https://github.com/hyperledger/solang/pull/1615) Do not build multi arch container images
 
-[1053](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1053) Fix iOS app permissions
+[2464](https://github.com/hyperledger/bevel/pull/2464) feat(besu): enable DLT deployment via GitHub Workflow & Action.
 
-[1474](https://github.com/hyperledger/besu-docs/pull/1474) Besu Docs release 23.10.3
+[120](https://github.com/hyperledger-labs/hlf-connector/pull/120) Introduce Anchor peer API and other refractoring
 
-[112](https://github.com/hyperledger/homebrew-besu/pull/112) release 23.10.3
+[526](https://github.com/hyperledger-labs/fabric-token-sdk/pull/526) fix type
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
