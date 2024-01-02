@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    Inject global screen configuration into core config
+                    feat: inject global screen configuration into core config
                 </b>
             </td>
         </tr>
@@ -61,7 +61,7 @@ Tick all boxes below to demonstrate that you have completed the respective task.
             </td>
             <td>
                 <b>
-                    Fix iOS app permissions
+                    fix: iOS app permissions
                 </b>
             </td>
         </tr>
