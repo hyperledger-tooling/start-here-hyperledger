@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/242" class=".btn">#242</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/243" class=".btn">#243</a>
             </td>
             <td>
                 <b>
-                    Remove truffle
+                    Add `getSelfConsensusState` and verify self consensus state during the connection handshake
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-06 07:29:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/241" class=".btn">#241</a>
-            </td>
-            <td>
-                <b>
-                    Remove bytes-utils dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-06 07:07:53 +0000 UTC
+        Created At 2024-01-02 07:16:05 +0000 UTC
     </div>
 </div>
 

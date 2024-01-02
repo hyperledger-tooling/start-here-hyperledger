@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1612" class=".btn">#1612</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1616" class=".btn">#1616</a>
             </td>
             <td>
                 <b>
-                    Fix abi.encodeCall() argument parsing
+                    Remove gpl files
                 </b>
             </td>
         </tr>
@@ -27,12 +27,40 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                The arguments to the function should be passed as a tuple, if there are more than one. A single argument does not require a tuple.
+                Fixes https://github.com/hyperledger/solang/issues/1598
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-16 20:05:36 +0000 UTC
+        Created At 2024-01-02 11:26:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1615" class=".btn">#1615</a>
+            </td>
+            <td>
+                <b>
+                    Do not build multi arch container images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Building a multiarch container image is fragile and depends on the linux-arm64 runner having access to a remote amd64 docker daemon.
+
+As far as I know this is not ever used.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-02 11:07:36 +0000 UTC
     </div>
 </div>
 
