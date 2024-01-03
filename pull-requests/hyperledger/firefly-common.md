@@ -30,6 +30,8 @@ permalink: /pull-requests/hyperledger/firefly-common
                 I have a use of this library, where I need to handle events within the Go code directly - using constructs specific to the Microservice.
 
 Unlike the Webhook and WebSocket implementations, these cannot be made generic in the common library. So instead, I propose adding this extension point to the common library to allow me to extended it with my implementation.
+
+This PR also proposes some quality of life improvements, particularly around name-or-UUID semantics, and upsert.
             </td>
         </tr>
     </table>
