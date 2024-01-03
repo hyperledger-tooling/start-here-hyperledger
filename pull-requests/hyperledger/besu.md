@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6340" class=".btn">#6340</a>
+            </td>
+            <td>
+                <b>
+                    Fix trielog shipping issue during self destruct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Fix trielog shipping issue during self destruct 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-03 11:27:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6339" class=".btn">#6339</a>
+            </td>
+            <td>
+                <b>
+                    TestWatcher junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                migrate the TestWatcher functionality from junit 4 Rule to junit 5
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-03 07:05:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6338" class=".btn">#6338</a>
             </td>
             <td>
@@ -93,41 +154,6 @@ set release version to 23.10.3
     </table>
     <div class="right-align">
         Created At 2023-12-29 00:05:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6332" class=".btn">#6332</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Fallback to class simple name in BlockHeaderValidator DEBUG log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-When a validation rule fails in `BlockHeaderValidator`, debug message falls back to using simple name when canonical name is not available.
-
-## Fixed Issue(s)
-Fixes #6177 
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-27 10:09:44 +0000 UTC
     </div>
 </div>
 
