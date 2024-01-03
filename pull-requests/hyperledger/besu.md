@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6337" class=".btn">#6337</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] made directory structure of subcommands tests match source
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                tidying up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-03 00:32:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6333" class=".btn">#6333</a>
             </td>
             <td>

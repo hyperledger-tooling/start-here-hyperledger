@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    feat: gitbook
+                    hashi upgrade + gitbook edit 
                 </b>
             </td>
         </tr>
@@ -27,41 +27,19 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-17 23:19:16 +0000 UTC
-    </div>
-</div>
+                Upgrade:
+1.  Hashi code to match Hashi docs (https://hashi-doc.gitbook.io/hashi/v0.1/)
+2. foundry packages to get latest deployment of hashi 
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    doc: added documentation and gitbook 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add: 
-1. Added documentation 
-2. Cleaned up package.json scripts
-3. gitbook - https://benchmarking-aggregators.gitbook.io/benchmarking-cross-chain-bridges/
+
+Update:
+1. Project name in GITBOOK
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-17 23:10:25 +0000 UTC
+        Created At 2024-01-02 21:31:24 +0000 UTC
     </div>
 </div>
 
