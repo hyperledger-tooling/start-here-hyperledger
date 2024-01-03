@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6345" class=".btn">#6345</a>
+            </td>
+            <td>
+                <b>
+                    Use synchronized call to access the chain head block in estimateGas()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Optimistically get the chain head block without taking a lock. If that fails, retry under the lock.
+
+This is an identical fix to https://github.com/hyperledger/besu/pull/6143.
+
+I did consider making a more generic helper/util function to wrap the logic for any place in the code that needs it, but looking through the code I can't see any other cases where the a failed attempt to get the chain head block results in an internal error or exception. Most others treat it as optional and just retry on the next go round.
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/6344
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-03 16:06:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6343" class=".btn">#6343</a>
+            </td>
+            <td>
+                <b>
+                    Make RPC reason settable, pass execution failure reason in RPC error message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds a setter for the `reason` field in `JsonRpcError`.
+
+If a caller sets the `reason`, it is appended to the message for the error that is taken from the `RpcErrorType` enums.
+
+It also adds a new `RpcErrorType` of `EXECUTION_HALTED` to be used during transaction simulations (e.g. during `eth_estimateGas()` calls) so a failed gas estimation doesn't just return `INTERNAL_ERROR` when there's a problem with the execution.
+
+The specific example I hit this in was using a Shanghai smart contract with the `JUMP0` opcode against a QBFT Besu node (QBFT doesn't currently support Shanghai).
+
+## Fixed Issue(s)
+Fixes #4914 
+(See also https://github.com/hyperledger/besu/pull/5706 which improves the error messages sent back to the user for reverted transactions)
+
+## TODO before taking out of draft
+ - [ ] Unit test fixes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-03 14:44:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6341" class=".btn">#6341</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-03 13:06:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6340" class=".btn">#6340</a>
             </td>
             <td>

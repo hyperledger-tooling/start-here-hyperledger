@@ -32,6 +32,8 @@ permalink: /pull-requests/hyperledger/firefly-common
 Unlike the Webhook and WebSocket implementations, these cannot be made generic in the common library. So instead, I propose adding this extension point to the common library to allow me to extended it with my implementation.
 
 This PR also proposes some quality of life improvements, particularly around name-or-UUID semantics, and upsert.
+
+Also proposes a small extra utility that supports generics for returning `{items:[]}` style responses
             </td>
         </tr>
     </table>

@@ -73,39 +73,3 @@ fixes #2416
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2463" class=".btn">#2463</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Hotfix init required
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Primary Changes**
-
-1. Added the init_required field in the tpl files.
-2. Fixed error in the invoke chaincode job.
-3. Fixed errors in variable names.
-
-**Modifications**
-platforms/hyperledger-fabric/charts/fabric-chaincode-commit/templates/commit_chaincode.yaml
-platforms/hyperledger-fabric/configuration/roles/create/chaincode/invoke/tasks/nested_valuefile.yaml
-platforms/hyperledger-fabric/configuration/roles/helm_component/templates/approve_chaincode_job.tpl
-platforms/hyperledger-fabric/configuration/roles/helm_component/templates/commit_chaincode_job.tpl
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-27 16:07:55 +0000 UTC
-    </div>
-</div>
-
