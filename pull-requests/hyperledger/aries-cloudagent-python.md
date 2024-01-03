@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2692" class=".btn">#2692</a>
+            </td>
+            <td>
+                <b>
+                    did peer 4 resolution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using https://github.com/decentralized-identity/did-peer-4.
+
+based on the behaviour expected by the specification. 
+
+https://identity.foundation/peer-did-method-spec/#method-4-short-form-and-long-form
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-02 21:26:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2690" class=".btn">#2690</a>
             </td>
             <td>
