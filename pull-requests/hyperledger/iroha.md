@@ -36,7 +36,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 ## TODO
 
-Currently it's impossible to build Executor or any wasm, because used crypto libraries are feature-gated, meaning that even `PublicKey` and `PritateKey` cannot be represented as is in WASM.
+Currently it's impossible to build Executor or any wasm, because used crypto libraries are feature-gated, meaning that even `PublicKey` and `PrivateKey` cannot be represented as is in WASM.
 
 Solutions I see:
 

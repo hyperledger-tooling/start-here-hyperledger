@@ -14,28 +14,26 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/831" class=".btn">#831</a>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/832" class=".btn">#832</a>
             </td>
             <td>
                 <b>
-                    fix: Fix Anoncred Issuance Processing
+                    docs: add ADR on supporting admin auth using keycloak JWT
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span>
+                <span class="chip">docs</span>
             </td>
             <td>
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes https://input-output.atlassian.net/browse/ATL-6305
-
 ## Checklist
 
 ### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
 * [ ] Bug fixes (non-breaking change which fixes an issue)
 * [ ] Improvements (misc. changes to existing features)
 * [ ] Features (non-breaking change which adds functionality)
@@ -46,7 +44,7 @@ Fixes https://input-output.atlassian.net/browse/ATL-6305
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Documentation
-* [ ] My changes do not require a change to the project documentation
+* [x] My changes do not require a change to the project documentation
 * [ ] My changes require a change to the project documentation
 * [ ] If yes to above: I have updated the documentation accordingly
 
@@ -60,7 +58,7 @@ Fixes https://input-output.atlassian.net/browse/ATL-6305
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-22 20:37:56 +0000 UTC
+        Created At 2024-01-03 09:08:14 +0000 UTC
     </div>
 </div>
 

@@ -14,25 +14,22 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2965" class=".btn">#2965</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2967" class=".btn">#2967</a>
             </td>
             <td>
                 <b>
-                    chore(cactus-plugin-ledger-connector-cdl-socketio): remove old connector
+                    tools(connector-fabric): address CVEs: CVE-2022-21190, CVE-2021-3918
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependent</span>
+                
             </td>
             <td>
-                - Remove old connector cactus-plugin-ledger-connector-cdl-socketio. It's been
-    replaced with socketio-based cactus-plugin-ledger-connector-cdl.
+                Updated the version of the api server used in the docker file.
 
-Depends on #2962
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+Fixes #2864
 
 **Pull Request Requirements**
 - [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
@@ -49,7 +46,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-27 11:26:04 +0000 UTC
+        Created At 2024-01-03 06:19:40 +0000 UTC
     </div>
 </div>
 
