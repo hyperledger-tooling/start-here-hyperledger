@@ -204,6 +204,9 @@ Fix trielog shipping issue during self destruct
             </td>
             <td>
                 migrate the TestWatcher functionality from junit 4 Rule to junit 5
+
+fixes #6348
+
             </td>
         </tr>
     </table>
