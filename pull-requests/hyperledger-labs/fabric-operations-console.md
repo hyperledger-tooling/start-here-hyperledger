@@ -45,33 +45,3 @@ Users of the console with the `writer` role should be able to import ordering se
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/580" class=".btn">#580</a>
-            </td>
-            <td>
-                <b>
-                    disable update button for package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-28 08:02:39 +0000 UTC
-    </div>
-</div>
-
