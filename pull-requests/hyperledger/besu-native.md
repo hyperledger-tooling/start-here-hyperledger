@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/131" class=".btn">#131</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/132" class=".btn">#132</a>
             </td>
             <td>
                 <b>
-                    Linking error potential fix
+                    Add support for MiMC on BLS12-377's scalar field
                 </b>
             </td>
         </tr>
@@ -27,22 +27,20 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                ## Description
-This pull request addresses a critical linking error encountered in the Hyperledger Besu native library. The issue came to light following a modification in the method invocation within the `PedersenHasher` class, where `LibIpaMultipoint.commit` was changed to `LibIpaMultipoint.commit_root`. As a result of this change, a `java.lang.UnsatisfiedLinkError` is triggered when calling the `commit_root` method, with the error message: `'byte[] org.hyperledger.besu.nativelib.ipamultipoint.LibIpaMultipoint.commit_root(byte[])'`.
+                # Description
 
-### Proposed Fix
-The fix proposed in this pull request involves renaming the `commit_root` method from snake_case to camelCase. This renaming aims to:
+The current PR adds supports for the MiMC hash function, but on the BLS12-377 scalar's field (not to be confused with BLS12-381). The implementation is - as for its BN254 counterpart - imported from gnark's. The PR keeps support for the BN254's implementation which is used by Shomei as of now. The implementation 
 
-- Align with Java's standard naming conventions.
-- Potentially resolve the linking issues that are currently being faced.
+In more details:
 
-### Context
-While other methods in the `LibIpaMultipoint` class, such as `commit` and `pedersenHash`, continue to operate as expected, it is believed that the naming convention employed for `commit_root` may be contributing to the linking error.
+- Renames `computeMiMC` to `computeMiMC254` to make the naming more specific. This can be reverted if deemed useful during the review as this introduces a breaking change.
+- Extends the LibGnark class to also provide `computeMiMCBls12377`
+- Adds test-cases on the Java side to check the hashes are consistent with what we get on go. The test-vectors used for the testing are the same as the one used for the Bn254 counterpart.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-18 15:49:16 +0000 UTC
+        Created At 2024-01-03 23:25:49 +0000 UTC
     </div>
 </div>
 

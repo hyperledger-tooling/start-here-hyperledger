@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1095" class=".btn">#1095</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1096" class=".btn">#1096</a>
             </td>
             <td>
                 <b>
-                    Streamline vcxagent-core api, reformat
+                    [DRAFT] Fix: #1090 DID:SOV DIDDoc resolves without a service/endpoint
                 </b>
             </td>
         </tr>
@@ -27,17 +27,14 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                Changes to NodeJS wrapper:
-- add test for oob handshake reuse
-- remove dead code (`connectionExists`)
-- remove `createConnectionFromOobMsg` from oob service, accepting invitations in general is already capability of connection service
-- testing refactoring, renaming, reformat
+                This PR introduces a fix for the DIDDoc resolution error outlined in issue https://github.com/hyperledger/aries-vcx/issues/1090.
 
+Closes https://github.com/hyperledger/aries-vcx/issues/1090
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-21 16:14:05 +0000 UTC
+        Created At 2024-01-03 23:00:42 +0000 UTC
     </div>
 </div>
 

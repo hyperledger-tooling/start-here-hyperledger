@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4586" class=".btn">#4586</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4588" class=".btn">#4588</a>
             </td>
             <td>
                 <b>
-                    Remove chaincode legacy cli command
+                    Validate the request
                 </b>
             </td>
         </tr>
@@ -27,13 +27,38 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                This commit is to remove the peer cli chaincode command to get rid of the deprecated chaincode lifecycle.
+                The patchset adds validation to the request before using it.
+
+Change-Id: Ic6a7a65d6da289d84fe82c3f6e048e396b1f1a0e
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset adds validation to the request before using it.
+
+This can help protect from malformed request.
+
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-28 00:06:23 +0000 UTC
+        Created At 2024-01-03 22:04:07 +0000 UTC
     </div>
 </div>
 
