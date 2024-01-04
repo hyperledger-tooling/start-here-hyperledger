@@ -1,13 +1,13 @@
 
-[2467](https://github.com/hyperledger/bevel/pull/2467) fix(indy): add func to prevent injection in indy identity gen script
+[34](https://github.com/hyperledger-labs/did-webs-resolver/pull/34) Add __init__ modules to enable subpackages
 
-[2696](https://github.com/hyperledger/aries-cloudagent-python/pull/2696) Feature/emit did peer 4
+[4182](https://github.com/hyperledger/iroha/pull/4182) [fix] #4082: Remove cloning for ISI execution in wasm
 
-[132](https://github.com/hyperledger/besu-native/pull/132) Add support for MiMC on BLS12-377's scalar field
+[2968](https://github.com/hyperledger/cacti/pull/2968) Satp final
 
-[1096](https://github.com/hyperledger/aries-vcx/pull/1096) [DRAFT] Fix: #1090 DID:SOV DIDDoc resolves without a service/endpoint
+[29](https://github.com/hyperledger/firefly-tezosconnect/pull/29) QueryInvoke implementation
 
-[457](https://github.com/hyperledger-labs/private-data-objects/pull/457) Add missing dependencies to prevent add_custom_command race
+[6350](https://github.com/hyperledger/besu/pull/6350) Migrate BFT tests to junit 5
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

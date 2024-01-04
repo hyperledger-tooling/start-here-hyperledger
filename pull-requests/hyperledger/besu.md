@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6350" class=".btn">#6350</a>
+            </td>
+            <td>
+                <b>
+                    Migrate BFT tests to junit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                builds on #6339 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-04 07:55:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6347" class=".btn">#6347</a>
             </td>
             <td>
