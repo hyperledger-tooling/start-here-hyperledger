@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/459" class=".btn">#459</a>
+            </td>
+            <td>
+                <b>
+                    Remove templates & make IAS certificate generation more robust
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replace the template expansion that is causing periodic file corruption errors with a more resilient method for downloading the IAS certificate. This approach removes the template completely and uses a file system move to atomically update the certificate
+file.
+
+Also uses the cmake clean to remove any generated files. We were leaving extra files in the common directory tree.
+
+This should be an addition to PR #457 to add one more level of resilience. 
+
+If you are running in HW mode inside a firewall that does not correctly proxy the IAS certificates URL, there is a new environment variable PDO_FORCE_IAS_PROXY that can be set to "true" to force use of the configured proxy (that is,
+it overrides NO_PROXY).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-04 16:36:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/457" class=".btn">#457</a>
             </td>
             <td>

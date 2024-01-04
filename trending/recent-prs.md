@@ -1,13 +1,13 @@
 
-[34](https://github.com/hyperledger-labs/did-webs-resolver/pull/34) Add __init__ modules to enable subpackages
+[22](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/22) feat: support for python packages 
 
-[4182](https://github.com/hyperledger/iroha/pull/4182) [fix] #4082: Remove cloning for ISI execution in wasm
+[6353](https://github.com/hyperledger/besu/pull/6353) WIP: QBFT + shanghai support
 
-[2968](https://github.com/hyperledger/cacti/pull/2968) Satp final
+[6352](https://github.com/hyperledger/besu/pull/6352) Rel 24.1.0-RC2 cherry pick - cancun
 
-[29](https://github.com/hyperledger/firefly-tezosconnect/pull/29) QueryInvoke implementation
+[459](https://github.com/hyperledger-labs/private-data-objects/pull/459) Remove templates & make IAS certificate generation more robust
 
-[6350](https://github.com/hyperledger/besu/pull/6350) Migrate BFT tests to junit 5
+[6351](https://github.com/hyperledger/besu/pull/6351) finalized cancun spec
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

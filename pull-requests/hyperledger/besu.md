@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6353" class=".btn">#6353</a>
+            </td>
+            <td>
+                <b>
+                    WIP: QBFT + shanghai support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Implement shanghai support for QBFT and IBFT chains
+
+## Fixed Issue(s)
+Fixes https://github.com/hyperledger/besu/issues/5446
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-04 17:42:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6352" class=".btn">#6352</a>
+            </td>
+            <td>
+                <b>
+                    Rel 24.1.0-RC2 cherry pick - cancun
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+small cherry-pick to mark Cancun as finalized
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-04 17:05:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6351" class=".btn">#6351</a>
+            </td>
+            <td>
+                <b>
+                    finalized cancun spec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-04 16:07:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6350" class=".btn">#6350</a>
             </td>
             <td>
@@ -135,7 +232,7 @@ Fixes #4914
 (See also https://github.com/hyperledger/besu/pull/5706 which improves the error messages sent back to the user for reverted transactions)
 
 ## TODO before taking out of draft
- - [ ] Unit test fixes
+ - [x] Unit test fixes
             </td>
         </tr>
     </table>
