@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    [DRAFT] Fix: #1090 DID:SOV DIDDoc resolves without a service/endpoint
+                    Fix: #1090 DID:SOV DIDDoc resolves without a service/endpoint
                 </b>
             </td>
         </tr>

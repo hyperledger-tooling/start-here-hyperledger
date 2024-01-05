@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/134" class=".btn">#134</a>
+            </td>
+            <td>
+                <b>
+                    release version 0.8.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                release verson 0.8.3 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-05 00:45:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/133" class=".btn">#133</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Expose verkle prove call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WIP exposing prove call.
+
+https://github.com/hyperledger/besu-native/pull/133/files#diff-6c182f542873a0b4e1718eec91be7decc4f4ff80602e2da0c11b9e68e93c55beR196
+
+I would rather first wait for https://github.com/hyperledger/besu-native/pull/127 and test the trie with this crypto API and computing a root commitment before merging the proving/verifying calls, but as requested here's the draft. cc @thomas-quadratic @matkt 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-04 20:48:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/132" class=".btn">#132</a>
             </td>
             <td>

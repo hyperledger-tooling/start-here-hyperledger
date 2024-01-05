@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2698" class=".btn">#2698</a>
+            </td>
+            <td>
+                <b>
+                    fix: update constants in TransactionRecord
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves: #1650
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-04 22:28:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2696" class=".btn">#2696</a>
             </td>
             <td>
