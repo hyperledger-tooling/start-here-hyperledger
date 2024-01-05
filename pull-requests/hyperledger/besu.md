@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6354" class=".btn">#6354</a>
+            </td>
+            <td>
+                <b>
+                    Improve the high spec flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Improve the high spec flag (`Xplugin-rocksdb-high-spec-enabled`) by limiting it to only few column families.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-05 09:13:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6353" class=".btn">#6353</a>
             </td>
             <td>
@@ -28,7 +62,14 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 ## PR description
-Implement shanghai support for QBFT and IBFT chains
+Implement shanghai support for QBFT and IBFT chains.
+
+Summary of the changes:
+
+- Pass the `protocolSchedule` into the `BftContext` so it can check if `shanghai` is enabled
+- Add a new `createBlock(...)` function to `BftBlockCreator` that allows BFT block creators to use the `AbstractBlockCreator` `createBlock(...)` function that takes a list of withdrawals
+  - Use this to create blocks that have an (empty) list of withdrawals if shanghai _is_ enabled
+  - Use the original `createBlock(...)` implementation when shanghai _isn't_ enabled
 
 ## Fixed Issue(s)
 Fixes https://github.com/hyperledger/besu/issues/5446
@@ -178,7 +219,7 @@ bump gradle properties version and adjust changelog to match release
             </td>
             <td>
                 <b>
-                    Use synchronized call to access the chain head block in estimateGas()
+                    Use synchronized call to access the chain head block in `eth_estimateGas`
                 </b>
             </td>
         </tr>

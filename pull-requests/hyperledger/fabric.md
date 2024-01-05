@@ -185,6 +185,12 @@ Analysed recent errors in gatway integration tests. There is one error everywher
 The problem is that after restarting orderer2 peer did not manage to reconnect to it because of backoff timeout.
 I studied the logs and made it so that we don't send Submit until the peer connects to orderer2.
 
+The mechanics of waiting are as follows:
+- looking for a string similar to "pickfirstBalancer: UpdateSubConnState: 0xc0006b4210, {TRANSIENT_FAILURE connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:22005""
+- I get the address "0xc0006b4210" from the line.
+- I move the peer log cursor to the end.
+- After restarting the peer, I expect the line "0xc0006b4210, {READY". This is a part of the line pickfirstBalancer: UpdateSubConnState: 0xc0006b4210, {READY <nil>} - a sign that the connection is restored
+
 For a test this is ok, but maybe in real work it will not work. Then I suggest someone to modify the file `github.com/hyperledger/fabric/internal/pkg/gateway/registry.go` . When selecting connections orderers should check the connection status and reconnect violently if necessary.
 
             </td>
