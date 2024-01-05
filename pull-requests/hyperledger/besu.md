@@ -70,6 +70,8 @@ Summary of the changes:
 - Add a new `createBlock(...)` function to `BftBlockCreator` that allows BFT block creators to use the `AbstractBlockCreator` `createBlock(...)` function that takes a list of withdrawals
   - Use this to create blocks that have an (empty) list of withdrawals if shanghai _is_ enabled
   - Use the original `createBlock(...)` implementation when shanghai _isn't_ enabled
+- Change the way the BFT block validator for a given protocol schedule is selected, using the parent header and timestamp instead of block number
+  - **I need to better understand how BFT round, chain height & sequence number relate to protocol schedule. This change is still WIP**
 
 ## Fixed Issue(s)
 Fixes https://github.com/hyperledger/besu/issues/5446
