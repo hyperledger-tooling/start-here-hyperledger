@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4595" class=".btn">#4595</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade the CouchDB used to v3.3.3 as per CVE-2023-45725.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Move to CouchDB v3.3.3.  There's a [security vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45725) with CouchDB v3.3.2.  I **think** this only impacts the testing that happens to Fabric, but this PR is a good way to be sure.
+
+#### Additional details
+
+I have tested that CouchDB v3.3.3 is not majorly functionally different than CouchDB v3.3.2. (See its [Release Notes](https://docs.couchdb.org/en/stable/whatsnew/3.3.html#release-3-3-3)).  There have been no breaking API changes in v3.3.3, only bug fixes and security patches.
+
+I would suggest backporting this to Fabric v2.5.x because it's only a CouchDB Patch.
+
+#### Related issues
+
+Tracked by https://github.com/hyperledger/fabric/issues/4594
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-05 15:34:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4592" class=".btn">#4592</a>
             </td>
             <td>

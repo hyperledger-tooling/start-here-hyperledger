@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools-doc/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-doc/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    CODEOWNERS and MAINTAINERS
+                    Update library path
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-doc
                 
             </td>
             <td>
-                Add the CODEOWNERS and MAINTAINERS files to the repository
+                Signed-off-by: Samuel Venzi <samuel.venzi@me.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-13 11:44:36 +0000 UTC
+        Created At 2024-01-05 14:09:47 +0000 UTC
     </div>
 </div>
 

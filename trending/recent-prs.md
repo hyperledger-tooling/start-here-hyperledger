@@ -1,13 +1,13 @@
 
-[668](https://github.com/hyperledger/fabric-gateway/pull/668) Use default GitHub credentials to publish API docs
+[201](https://github.com/hyperledger/toc/pull/201) January 11 2024 Meeting
 
-[6354](https://github.com/hyperledger/besu/pull/6354) Improve the high spec flag
+[584](https://github.com/hyperledger-labs/fabric-operations-console/pull/584) reverting 573 b/c of broken export/import flow
 
-[280](https://github.com/hyperledger/firefly-cli/pull/280) test environment setups
+[165](https://github.com/hyperledger/fabric-gateway-java/pull/165) Use default GitHub credentials to publish API docs
 
-[4592](https://github.com/hyperledger/fabric/pull/4592) Extend _lifecycle functions to query all approved chaincode definitions
+[4595](https://github.com/hyperledger/fabric/pull/4595) Upgrade the CouchDB used to v3.3.3 as per CVE-2023-45725.
 
-[4591](https://github.com/hyperledger/fabric/pull/4591) Update smartcontract.md
+[8](https://github.com/hyperledger-labs/cc-tools-doc/pull/8) Update library path
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
