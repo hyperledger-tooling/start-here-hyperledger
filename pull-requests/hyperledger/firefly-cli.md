@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/278" class=".btn">#278</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/280" class=".btn">#280</a>
             </td>
             <td>
                 <b>
-                    Ensuring HexAddress is Wrapped in String format and as HexAddress
+                    test environment setups
                 </b>
             </td>
         </tr>
@@ -27,15 +27,17 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                This is pr fixes for #230 
+                This is pr fixes for #7 
 
-@nguyer @awrichar @peterbroadhurst 
-I have been able to implement the fix for issue #230 ensure the HexAddress are  wrapped properly please, I would like reviews 
+@nguyer, @awrichar
+This Pr contains environment setups, when writing unit tests for the firefly-cli codebase, and It also contains test for the [fabric](https://github.com/hyperledger/firefly-cli/tree/main/internal/blockchain/fabric) blockchain package .
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-19 14:35:17 +0000 UTC
+        Created At 2024-01-05 07:47:46 +0000 UTC
     </div>
 </div>
 
