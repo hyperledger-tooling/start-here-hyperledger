@@ -124,7 +124,10 @@ small cherry-pick to mark Cancun as finalized
                 
             </td>
             <td>
-                builds on #6339 
+                BFT tests now use Junit 5
+before: acceptanceTestsCliqueBft 65 tests [example](https://app.circleci.com/pipelines/github/hyperledger/besu/26075/workflows/990c39ad-cf35-43ff-ad65-cdb87bf46f7d/jobs/170967)
+after: acceptanceTestsCliqueBft 65 tests [example](https://app.circleci.com/pipelines/github/hyperledger/besu/26094/workflows/e8411b37-8abd-46f2-a02f-089dc91dfb9c/jobs/171128) 
+builds on #6339 
             </td>
         </tr>
     </table>
@@ -327,6 +330,7 @@ Fix trielog shipping issue during self destruct
             </td>
             <td>
                 migrate the TestWatcher functionality from junit 4 Rule to junit 5
+introduced a new superclass to be able to separate junit4 tests vs junit5 tests, to avoid having to change all at once.
 
 fixes #6348
 
