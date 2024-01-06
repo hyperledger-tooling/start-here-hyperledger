@@ -193,35 +193,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/64" class=".btn">#64</a>
-            </td>
-            <td>
-                <b>
-                    Update repo manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated the script to handle spaces, comments and extra sections. Made small adjustment to oid4vci libraries. Upgraded askar to ~3.0 globally.
-
-Ran the script to update dependencies.
-
-Removed the common development files part of the script. I thought they would be the same for every plugin but I'm already seeing them be customized in @Jsyro latest PR.
-
-Also changed the script to loop over sections. Made it smaller and easier to maintain. Still a bit over work could be done to use the same code for the main vs integration test sections. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-30 00:45:15 +0000 UTC
-    </div>
-</div>
-
