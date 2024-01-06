@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2699" class=".btn">#2699</a>
+            </td>
+            <td>
+                <b>
+                    Remove tiny-vim from being added to the container image to reduce reported vulnerabilities from scanning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-05 18:42:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2698" class=".btn">#2698</a>
             </td>
             <td>
@@ -53,7 +80,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Still requires manual testing, but similar implementation to did:peer:2.
+                Open for comments on how to update the long form with the short form. The resolver handles its own mapping, however i'm storing a duplicate DIDInfo, one where the did is long form and another where it's short form (for the same verkey). 
             </td>
         </tr>
     </table>
@@ -117,40 +144,6 @@ https://identity.foundation/peer-did-method-spec/#method-4-short-form-and-long-f
     </table>
     <div class="right-align">
         Created At 2024-01-02 21:26:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2690" class=".btn">#2690</a>
-            </td>
-            <td>
-                <b>
-                    Improve api documentation and error handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add examples and descriptions to the swagger docs. Mostly used the indy examples.
-
-There was some confusion with request params object attributes with camel vs snake casing. The anoncreds library does camel case like the spec decribes. Everywhere else has snake case. I changed everything so that only the inner anoncreds schema, cred_def and rev_reg_def objects are in camel case. I think this makes things a bit more clear but it is still a bit confusing when you are used to the indy api. 
-
-I changed the POST rev_reg_def endpoint to have a wrapper like schema and cred_def with an options object where you can put the endorser connection id.
-
-Changed the GET all creds defs return object to be in a wrapper like schemas.
-
-Fixed a couple mistakes and improved the error handling. I think a majority of errors give information about the cause now. Can still get 500 errors with unexpected param values.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-29 19:16:17 +0000 UTC
     </div>
 </div>
 

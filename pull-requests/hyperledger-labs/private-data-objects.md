@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             </td>
             <td>
                 <b>
-                    Update WAMR to version 1.3
+                    Update package dependencies: WAMR, WASI SDK, and parson
                 </b>
             </td>
         </tr>
