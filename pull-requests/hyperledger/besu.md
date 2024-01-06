@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6356" class=".btn">#6356</a>
+            </td>
+            <td>
+                <b>
+                    Fix docker detection on Mac
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+uses `/.dockerenv` as a fallback detector mechanism for DockerDetector.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #6139
+
+prior to this PR, when running besu on docker desktop on Mac, besu would fail to recognize it was running inside docker without specifying a nat-method or when using  `--nat-method=AUTO` 
+
+on Mac M2, using docker desktop:
+```
+2024-01-06 01:23:27.514+00:00 | main | INFO  | RunnerBuilder | Detecting NAT service.
+...
+2024-01-06 01:23:27.629+00:00 | main | INFO  | DockerNatManager | Starting docker NAT manager.
+```
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-06 01:49:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6354" class=".btn">#6354</a>
             </td>
             <td>
