@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6360" class=".btn">#6360</a>
+            </td>
+            <td>
+                <b>
+                    fix: use UID 1000 for besu user (#6358)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+The openjdk-latest Docker image is using UID 1001 for besu, because its base image `ubuntu:23.10` now contains a default "ubuntu" user with UID 1000. (This UID change causes the besu user with UID 1001 to not have access to files created for past versions with UID 1000.)
+
+This PR removes the default ubuntu user and explicitly uses UID 1000 when creating the besu user.
+
+**Note that this change will re-break file permissions for people who've already changed besu file ownership from 1000 -> 1001 when upgrading to 23.10.3, as the besu user goes back to UID 1000, as it was in versions prior to 23.10.3.**
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+
+
+## Fixed Issue(s)
+
+Fixes #6358
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-07 09:34:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6359" class=".btn">#6359</a>
             </td>
             <td>
