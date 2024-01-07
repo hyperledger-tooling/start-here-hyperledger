@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6359" class=".btn">#6359</a>
+            </td>
+            <td>
+                <b>
+                    fixing trielog generation when selfdestruct/create2 on same block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR fixes a bug in the generation of the trie log when we have a selfdestruct and create2 of the same account in the same block, and if this contract contains a non-empty storage. This bug occurred on the mainnet, and we were able to reproduce the bug and validate that the fix resolves the problem. We had a previous PR to fix this bug but it was not completly fixed on this one
+
+This bug was fixed when we create the trie log with a persistent BonsaiWorldstate, but not with a non-persistent BonsaiWorldstate, which is what happens with the call of the newPayload method. BackwardSync uses the persistent worldstate, and that's why the BackwardSync unlocks the situation.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#6357 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-06 22:33:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6356" class=".btn">#6356</a>
             </td>
             <td>

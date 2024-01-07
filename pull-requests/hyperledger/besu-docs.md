@@ -45,29 +45,3 @@ ethereum/api/src/main/java/org/hyperledger/besu/ethereum/api/jsonrpc/RpcMethod.j
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1474" class=".btn">#1474</a>
-            </td>
-            <td>
-                <b>
-                    Besu Docs release 23.10.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                docs release for 23.10.3
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-30 21:44:00 +0000 UTC
-    </div>
-</div>
-
