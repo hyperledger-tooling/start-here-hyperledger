@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/39" class=".btn">#39</a>
+            </td>
+            <td>
+                <b>
+                    Fix for remote resolve issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-07 18:32:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/34" class=".btn">#34</a>
             </td>
             <td>

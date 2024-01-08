@@ -14,6 +14,128 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6364" class=".btn">#6364</a>
+            </td>
+            <td>
+                <b>
+                    Remove junit platform directive from mainnet ats
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-08 00:54:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6363" class=".btn">#6363</a>
+            </td>
+            <td>
+                <b>
+                    Import export trie log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR extends the x-trie-log subcommand to allow exporting and importing of a trie log.
+
+This PR is built on top of https://github.com/hyperledger/besu/pull/6303
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-08 00:03:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6362" class=".btn">#6362</a>
+            </td>
+            <td>
+                <b>
+                    migrate clique tests fully to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                fixes #6261
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-07 23:20:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6361" class=".btn">#6361</a>
+            </td>
+            <td>
+                <b>
+                    Permissioning ATs to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                migrate permissioning acceptance tests to junit 5
+
+fixes #6262 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-07 22:05:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6360" class=".btn">#6360</a>
             </td>
             <td>
