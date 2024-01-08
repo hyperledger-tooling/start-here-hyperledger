@@ -52,7 +52,7 @@ Once Besu is up and you have access to `DEBUG` apis, you can shutdown your CL cl
 Then restart your CL. Your CL should optimistically sync the beacon chain using a checkpoint from the network, and this will trigger a backward sync in Besu. 
 
 
-If your client still isn't progressing, you can try to resync only the world state.  It can takes hours, but it is faster from a resync from scratch
+If your client still isn't progressing, you can try to resync only the world state.  It can take hours, but it is faster from a resync from scratch
 
 `curl -X POST --data '{"jsonrpc":"2.0","method":"debug_resyncWorldState","params":[],"id":1}' http://localhost:8545`
 
