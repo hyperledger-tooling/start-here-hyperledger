@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6364" class=".btn">#6364</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/6368" class=".btn">#6368</a>
             </td>
             <td>
                 <b>
-                    Remove junit platform directive from mainnet ats
+                    chore: fix typos
                 </b>
             </td>
         </tr>
@@ -27,19 +27,91 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-08 00:54:35 +0000 UTC
+        Created At 2024-01-08 04:14:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6367" class=".btn">#6367</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Move bootnodes logging to RunnerBuilder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Move bootnodes logging to RunnerBuilder so that we always log the actual bootnodes being used. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-08 01:59:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6366" class=".btn">#6366</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] readme - fixed link to logging docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #6342 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-08 01:51:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6365" class=".btn">#6365</a>
+            </td>
+            <td>
+                <b>
+                    One permissioning AT to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                refs #6262 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-08 01:13:27 +0000 UTC
     </div>
 </div>
 

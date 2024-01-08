@@ -1,13 +1,13 @@
 
-[6364](https://github.com/hyperledger/besu/pull/6364) Remove junit platform directive from mainnet ats
+[6368](https://github.com/hyperledger/besu/pull/6368) chore: fix typos
+
+[6367](https://github.com/hyperledger/besu/pull/6367) [MINOR] Move bootnodes logging to RunnerBuilder
+
+[6366](https://github.com/hyperledger/besu/pull/6366) [MINOR] readme - fixed link to logging docs
+
+[6365](https://github.com/hyperledger/besu/pull/6365) One permissioning AT to junit5
 
 [6363](https://github.com/hyperledger/besu/pull/6363) Import export trie log
-
-[6362](https://github.com/hyperledger/besu/pull/6362) migrate clique tests fully to junit5
-
-[6361](https://github.com/hyperledger/besu/pull/6361) Permissioning ATs to junit5
-
-[39](https://github.com/hyperledger-labs/did-webs-resolver/pull/39) Fix for remote resolve issue
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
