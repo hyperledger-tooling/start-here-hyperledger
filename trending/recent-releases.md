@@ -1,13 +1,13 @@
 
-[v0.3.2](https://github.com/hyperledger/fabric-protos/releases/tag/v0.3.2) v0.3.2
+[1.0.4](https://github.com/hyperledger-labs/cckit/releases/tag/1.0.4) fix delete private key mockStub behavior
 
-[v1.3.2](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.2) v1.3.2
+[v1.10.0-beta3](https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.0-beta3) Version 1.10.0-beta3
 
-[v1.3.5](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.5) v1.3.5
+[23.10.3-hotfix](https://github.com/hyperledger/besu/releases/tag/23.10.3-hotfix) 23.10.3-hotfix
 
-[v1.5.8](https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.8) v1.5.8
+[v1.10.0-beta1](https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.0-beta1) Version 1.10.0-beta1
 
-[v1.4.1](https://github.com/hyperledger/firefly-common/releases/tag/v1.4.1) v1.4.1
+[23.10.3](https://github.com/hyperledger/besu/releases/tag/23.10.3) 23.10.3
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
