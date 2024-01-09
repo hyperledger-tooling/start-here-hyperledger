@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Log nonce
+                    Fix: Remove IncreaseAllowance & Add shared nonce (#1)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                The branch resolves issue https://github.com/hyperledger-labs/perun-eth-backend/issues/41
+                This PR fixes [#41](https://github.com/hyperledger-labs/perun-eth-backend/issues/41) and modifies the depositing mechanism of the Ethereum backend for ERC20 assets. Both changes enable the backend to handle multiple payment channels for one Perun client.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-30 16:53:17 +0000 UTC
+        Created At 2024-01-09 15:15:14 +0000 UTC
     </div>
 </div>
 
