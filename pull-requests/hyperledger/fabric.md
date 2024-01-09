@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4601" class=".btn">#4601</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade the CouchDB used to v3.3.3 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move to CouchDB v3.3.3.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-09 14:19:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4600" class=".btn">#4600</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade the CouchDB used to v3.3.3 (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move to CouchDB v3.3.3.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-09 14:18:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4599" class=".btn">#4599</a>
+            </td>
+            <td>
+                <b>
+                    Fix doc typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix remaining doc typo from prior commit.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-09 14:05:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4598" class=".btn">#4598</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix typos (backport release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                docs: fix typos
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-09 13:29:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4597" class=".btn">#4597</a>
             </td>
             <td>
