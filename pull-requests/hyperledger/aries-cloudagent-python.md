@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2700" class=".btn">#2700</a>
+            </td>
+            <td>
+                <b>
+                    Update legacy bcgovimages references.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves: #2118 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-08 19:48:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2699" class=".btn">#2699</a>
             </td>
             <td>

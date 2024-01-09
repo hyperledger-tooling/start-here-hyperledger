@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                <nil>
+                The error in the raft tests is due to the struggle for monopoly control of r.lock in the SwitchChainToFollower and RemoveChannel functions.
+
+RemoveChannel grabs monopoly control and waits for the channel to terminate. During termination, SwitchChainToFollower tries to grab monopoly control and fails.
+
+Here is my variant of solving the error. If someone suggests a more correct and reddish way, it would be great.
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/377" class=".btn">#377</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/378" class=".btn">#378</a>
             </td>
             <td>
                 <b>
-                    Move Transact to Dormant
+                    Add a note to the README about Transact's status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                [pending vote](https://github.com/hyperledger/toc/issues/98)
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-27 16:27:41 +0000 UTC
+        Created At 2024-01-08 21:00:39 +0000 UTC
     </div>
 </div>
 
