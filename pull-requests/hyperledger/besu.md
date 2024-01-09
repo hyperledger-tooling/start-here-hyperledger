@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6371" class=".btn">#6371</a>
+            </td>
+            <td>
+                <b>
+                    merges in 23.10.3-hotfix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * trigger a BWS if we do not have a valid worldstate available during fcU raise log rolling failure loglevel to error from debug
+* fixing on selfdestruct
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-08 19:28:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6368" class=".btn">#6368</a>
             </td>
             <td>
@@ -173,34 +202,6 @@ This PR is built on top of https://github.com/hyperledger/besu/pull/6303
     </table>
     <div class="right-align">
         Created At 2024-01-07 23:20:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6361" class=".btn">#6361</a>
-            </td>
-            <td>
-                <b>
-                    Permissioning ATs to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                migrate permissioning acceptance tests to junit 5
-
-fixes #6262 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-07 22:05:19 +0000 UTC
     </div>
 </div>
 

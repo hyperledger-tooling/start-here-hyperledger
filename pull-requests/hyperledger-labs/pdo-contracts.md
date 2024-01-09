@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Small fixes
+                    New sample PDO contracts for managing policy-based access to OpenVINO ML models
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 
             </td>
             <td>
-                Small fixes for installation, type checking in exchange contracts, and a missing import.
+                The PR introduces new sample PDO contracts for managing policy-based access to OpenVINO ML models. Files are located under inference-contract/. Please see inference-contract/README.md for overview of the new capabilities, as well instructions for testing the new samples.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-25 15:01:39 +0000 UTC
+        Created At 2024-01-09 00:39:18 +0000 UTC
     </div>
 </div>
 
