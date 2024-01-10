@@ -14,6 +14,109 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6382" class=".btn">#6382</a>
+            </td>
+            <td>
+                <b>
+                    In fluent APIs correct Tangerine Whistle definition.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The fluent API incorrectly added the code size limit in Tangerine Whistle instead of first adding it in Spurious Dragon.
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-10 18:14:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6381" class=".btn">#6381</a>
+            </td>
+            <td>
+                <b>
+                    Introduce TransactionEvaluationContext to pass data between selectors and plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Some tx selector plugins needs more context about the current tx being evaluated, for example the current minGasPrice, or the effective price of the tx and possibly more data in the future, for this we introduce the TransactionEvaluationContext to hold that data and pass it across all the selectors and the plugin. Another advantage of this context is to avoid to compute multiple time the same data, in case it is needed in more that one selector.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-10 13:15:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6380" class=".btn">#6380</a>
+            </td>
+            <td>
+                <b>
+                    Make transaction pool configurable in acceptance tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-10 13:10:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6379" class=".btn">#6379</a>
             </td>
             <td>
@@ -745,80 +848,6 @@ bump gradle properties version and adjust changelog to match release
     </table>
     <div class="right-align">
         Created At 2024-01-03 20:23:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6345" class=".btn">#6345</a>
-            </td>
-            <td>
-                <b>
-                    Use synchronized call to access the chain head block in `eth_estimateGas`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Optimistically get the chain head block without taking a lock. If that fails, retry under the lock.
-
-This is an identical fix to https://github.com/hyperledger/besu/pull/6143.
-
-I did consider making a more generic helper/util function to wrap the logic for any place in the code that needs it, but looking through the code I can't see any other cases where the a failed attempt to get the chain head block results in an internal error or exception. Most others treat it as optional and just retry on the next go round.
-
-## Fixed Issue(s)
-Fixes https://github.com/hyperledger/besu/issues/6344
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-03 16:06:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6343" class=".btn">#6343</a>
-            </td>
-            <td>
-                <b>
-                    Make RPC reason settable, pass execution failure reason in RPC error message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR adds a setter for the `reason` field in `JsonRpcError`.
-
-If a caller sets the `reason`, it is appended to the message for the error that is taken from the `RpcErrorType` enums.
-
-It also adds a new `RpcErrorType` of `EXECUTION_HALTED` to be used during transaction simulations (e.g. during `eth_estimateGas()` calls) so a failed gas estimation doesn't just return `INTERNAL_ERROR` when there's a problem with the execution.
-
-The specific example I hit this in was using a Shanghai smart contract with the `JUMP0` opcode against a QBFT Besu node (QBFT doesn't currently support Shanghai).
-
-## Fixed Issue(s)
-Fixes #4914 
-(See also https://github.com/hyperledger/besu/pull/5706 which improves the error messages sent back to the user for reverted transactions)
-
-## TODO before taking out of draft
- - [x] Unit test fixes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-03 14:44:15 +0000 UTC
     </div>
 </div>
 
