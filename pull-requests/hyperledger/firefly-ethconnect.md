@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/239" class=".btn">#239</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/240" class=".btn">#240</a>
             </td>
             <td>
                 <b>
-                    [subscriptions] Fix for Validating URLs
+                    Change Dockerfile to use non-root user
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                We've observed a webhook subscription can be configured with URL which resolves an empty address (without throwing earlier errors):
-```
-panic: runtime error: index out of range [0] with length 0
-
-goroutine 66 [running]:
-github.com/hyperledger/firefly-ethconnect/internal/events.(*eventStream).isAddressUnsafe(0x11c4458, 0x1217e18)
-	/kaleido-io/ethconnect/internal/events/eventstream.go:767 +0xd4
-```
-
-This is meant to treat this edge case then as an "unsafe address" so Ethconnect does not 1) panic and 2) the URL / hostname will be bubbled up as an error.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-09 12:54:00 +0000 UTC
+        Created At 2024-01-10 17:06:50 +0000 UTC
     </div>
 </div>
 

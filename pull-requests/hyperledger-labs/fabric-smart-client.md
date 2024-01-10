@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/518" class=".btn">#518</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/519" class=".btn">#519</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
+                    Bump github.com/quic-go/quic-go from 0.38.1 to 0.38.2
                 </b>
             </td>
         </tr>
@@ -27,90 +27,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [github.com/containerd/containerd](https://github.com/containerd/containerd) from 1.6.18 to 1.6.26.
+                Bumps [github.com/quic-go/quic-go](https://github.com/quic-go/quic-go) from 0.38.1 to 0.38.2.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/containerd/containerd/releases">github.com/containerd/containerd's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/quic-go/quic-go/releases">github.com/quic-go/quic-go's releases</a>.</em></p>
 <blockquote>
-<h2>containerd 1.6.26</h2>
-<p>Welcome to the v1.6.26 release of containerd!</p>
-<p>The twenty-sixth patch release for containerd 1.6 contains various fixes and updates.</p>
-<h3>Notable Updates</h3>
+<h2>v0.38.2</h2>
+<p>This release contains fixes for a resource exhaustion attack on QUIC's path validation logic (CVE-2023-49295), see <a href="https://seemann.io/posts/2023-12-18-exploiting-quics-path-validation">https://seemann.io/posts/2023-12-18-exploiting-quics-path-validation</a> for details:</p>
 <ul>
-<li><strong>Fix windows default path overwrite issue</strong> (<a href="https://redirect.github.com/containerd/containerd/pull/9441">#9441</a>)</li>
-<li><strong>Update push to inherit distribution sources from parent</strong> (<a href="https://redirect.github.com/containerd/containerd/pull/9453">#9453</a>)</li>
-<li><strong>Mask <code>/sys/devices/virtual/powercap</code> path in runtime spec and deny in default apparmor profile</strong> (<a href="https://github.com/containerd/containerd/security/advisories/GHSA-7ww5-4wqc-m92c">GHSA-7ww5-4wqc-m92c</a>)</li>
+<li>limit the number of queued PATH_RESPONSE frames to 256 (<a href="https://redirect.github.com/quic-go/quic-go/pull/4199">quic-go/quic-go#4199</a>)</li>
+<li>don't retransmit PATH_CHALLENGE and PATH_RESPONSE frames (<a href="https://redirect.github.com/quic-go/quic-go/pull/4200">quic-go/quic-go#4200</a>)</li>
 </ul>
-<h3>Deprecation Warnings</h3>
-<ul>
-<li><strong>Emit deprecation warning for AUFS snapshotter usage</strong> (<a href="https://redirect.github.com/containerd/containerd/pull/9448">#9448</a>)</li>
-<li><strong>Emit deprecation warning for v1 runtime usage</strong> (<a href="https://redirect.github.com/containerd/containerd/pull/9468">#9468</a>)</li>
-<li><strong>Emit deprecation warning for CRI v1alpha1 usage</strong> (<a href="https://redirect.github.com/containerd/containerd/pull/9468">#9468</a>)</li>
-</ul>
-<p>See the changelog for complete list of changes</p>
-<p>Please try out the release binaries and report any issues at
-<a href="https://github.com/containerd/containerd/issues">https://github.com/containerd/containerd/issues</a>.</p>
-<h3>Contributors</h3>
-<ul>
-<li>Samuel Karp</li>
-<li>Derek McGowan</li>
-<li>Kohei Tokunaga</li>
-<li>Phil Estes</li>
-<li>Bjorn Neergaard</li>
-<li>Sebastiaan van Stijn</li>
-<li>Brian Goff</li>
-<li>Charity Kathure</li>
-<li>Kazuyoshi Kato</li>
-<li>Milas Bowman</li>
-<li>Wei Fu</li>
-<li>ruiwen-zhao</li>
-</ul>
-<h3>Changes</h3>
-<!-- raw HTML omitted -->
-<ul>
-<li>[release/1.6] Prepare release notes for v1.6.26 (<a href="https://redirect.github.com/containerd/containerd/pull/9490">#9490</a>)
-<ul>
-<li><a href="https://github.com/containerd/containerd/commit/ac5c5d3e03ab3c5b8103a1c0bd9931389f7a8fcf"><code>ac5c5d3e0</code></a> Prepare release notes for v1.6.26</li>
-</ul>
-</li>
-<li>Github Security Advisory <a href="https://github.com/containerd/containerd/security/advisories/GHSA-7ww5-4wqc-m92c">GHSA-7ww5-4wqc-m92c</a>
-<ul>
-<li><a href="https://github.com/containerd/containerd/commit/02f07fe1994a3ddda3626c1ede2e32bc82b8e426"><code>02f07fe19</code></a> contrib/apparmor: deny /sys/devices/virtual/powercap</li>
-<li><a href="https://github.com/containerd/containerd/commit/c94577e78d2924ddeb90d1601e31b50ee3acac48"><code>c94577e78</code></a> oci/spec: deny /sys/devices/virtual/powercap</li>
-</ul>
-</li>
-<li>[release/1.6] update to go1.20.12, test go1.21.5 (<a href="https://redirect.github.com/containerd/containerd/pull/9472">#9472</a>)
-<ul>
-<li><a href="https://github.com/containerd/containerd/commit/7cbdfc92ef38f789f1a2773fa6fac405d361a6cc"><code>7cbdfc92e</code></a> update to go1.20.12, test go1.21.5</li>
-<li><a href="https://github.com/containerd/containerd/commit/024b1cce6b27f10e00bb9bde33a5fe9563545f8d"><code>024b1cce6</code></a> update to go1.20.11, test go1.21.4</li>
-</ul>
-</li>
-<li>[release/1.6] Add cri-api v1alpha2 usage warning to all api calls (<a href="https://redirect.github.com/containerd/containerd/pull/9484">#9484</a>)</li>
-</ul>
-<!-- raw HTML omitted -->
+<p><strong>Full Changelog</strong>: <a href="https://github.com/quic-go/quic-go/compare/v0.38.1...v0.38.2">https://github.com/quic-go/quic-go/compare/v0.38.1...v0.38.2</a></p>
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/containerd/containerd/commit/3dd1e886e55dd695541fdcd67420c2888645a495"><code>3dd1e88</code></a> Merge pull request <a href="https://redirect.github.com/containerd/containerd/issues/9490">#9490</a> from dmcgowan/prepare-1.6.26</li>
-<li><a href="https://github.com/containerd/containerd/commit/746b910f05855c8bfdb4415a1c0f958b234910e5"><code>746b910</code></a> Merge pull request from GHSA-7ww5-4wqc-m92c</li>
-<li><a href="https://github.com/containerd/containerd/commit/ac5c5d3e03ab3c5b8103a1c0bd9931389f7a8fcf"><code>ac5c5d3</code></a> Prepare release notes for v1.6.26</li>
-<li><a href="https://github.com/containerd/containerd/commit/e7ca005043f6974536c3f8e0da42f93b5bdc2879"><code>e7ca005</code></a> Merge pull request <a href="https://redirect.github.com/containerd/containerd/issues/9472">#9472</a> from thaJeztah/1.6_update_golang_1.20.12</li>
-<li><a href="https://github.com/containerd/containerd/commit/7cbdfc92ef38f789f1a2773fa6fac405d361a6cc"><code>7cbdfc9</code></a> update to go1.20.12, test go1.21.5</li>
-<li><a href="https://github.com/containerd/containerd/commit/024b1cce6b27f10e00bb9bde33a5fe9563545f8d"><code>024b1cc</code></a> update to go1.20.11, test go1.21.4</li>
-<li><a href="https://github.com/containerd/containerd/commit/2e404598e7da93f4ad8b13bb6119441a5e3c83b0"><code>2e40459</code></a> Merge pull request <a href="https://redirect.github.com/containerd/containerd/issues/9484">#9484</a> from ruiwen-zhao/cri-api-warning-1.6</li>
-<li><a href="https://github.com/containerd/containerd/commit/64e56bfde95828660971673d20952f275cc2c0ba"><code>64e56bf</code></a> Add cri-api v1alpha2 usage warning to all api calls</li>
-<li><a href="https://github.com/containerd/containerd/commit/c566b7d46668de23d2881eb86ce1b76ca23c8a75"><code>c566b7d</code></a> Merge pull request <a href="https://redirect.github.com/containerd/containerd/issues/9468">#9468</a> from samuelkarp/deprecation-warning-runtime-1.6</li>
-<li><a href="https://github.com/containerd/containerd/commit/efefd3bf334b5df0e97bff0be61ba906a9b3b528"><code>efefd3b</code></a> tasks: emit warning for runc v1 runtime</li>
-<li>Additional commits viewable in <a href="https://github.com/containerd/containerd/compare/v1.6.18...v1.6.26">compare view</a></li>
+<li><a href="https://github.com/quic-go/quic-go/commit/9aaefe19fc3dc8c8917cc87e6128bb56d9e9e6cc"><code>9aaefe1</code></a> don't retransmit PATH_CHALLENGE and PATH_RESPONSE frames (<a href="https://redirect.github.com/quic-go/quic-go/issues/4200">#4200</a>)</li>
+<li><a href="https://github.com/quic-go/quic-go/commit/17fc98c2d81dbe685c19702dc694a9d606ac56dc"><code>17fc98c</code></a> limit the number of queued PATH_RESPONSE frames to 256 (<a href="https://redirect.github.com/quic-go/quic-go/issues/4199">#4199</a>)</li>
+<li>See full diff in <a href="https://github.com/quic-go/quic-go/compare/v0.38.1...v0.38.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/containerd/containerd&package-manager=go_modules&previous-version=1.6.18&new-version=1.6.26)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/quic-go/quic-go&package-manager=go_modules&previous-version=0.38.1&new-version=0.38.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -142,7 +84,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-19 21:26:38 +0000 UTC
+        Created At 2024-01-10 15:10:44 +0000 UTC
     </div>
 </div>
 
