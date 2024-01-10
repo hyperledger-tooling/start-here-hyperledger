@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1616" class=".btn">#1616</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1617" class=".btn">#1617</a>
             </td>
             <td>
                 <b>
-                    Remove gpl files
+                    Bump polkadot node version
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Fixes https://github.com/hyperledger/solang/issues/1598
+                Upgrade the Polkadot node. In recent versions, the node (in debug mode) logs any API calls and their results to debug buffer on its own. Because this feature was only relevant in the Polkadot target, I :axe: it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-02 11:26:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1615" class=".btn">#1615</a>
-            </td>
-            <td>
-                <b>
-                    Do not build multi arch container images
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Building a multiarch container image is fragile and depends on the linux-arm64 runner having access to a remote amd64 docker daemon.
-
-As far as I know this is not ever used.
-
-Also includes some cleanups and an anchor build fix.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-02 11:07:36 +0000 UTC
+        Created At 2024-01-10 08:31:49 +0000 UTC
     </div>
 </div>
 
