@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/750" class=".btn">#750</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/752" class=".btn">#752</a>
             </td>
             <td>
                 <b>
-                    added missing env variable to FSC readme
+                    add docker pull ccenv
                 </b>
             </td>
         </tr>
@@ -42,13 +42,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 -->
 
 **What this PR does / why we need it**:
-Fixes bug #749 
+Adds docker pull in sample for it to work
 **Which issue(s) this PR fixes**:
 <!--
   list existing bug, feature and/or work-item which this PR addresses.
   You might also consider creating an issue first for the PR.
 -->
-Fixes #749 
+Fixes #751 
 
 **Special notes for your reviewer**:
 
@@ -58,12 +58,12 @@ Fixes #749
   If yes, describe what changes and/or what breaks ..
 -->
 ```
-yes, adds an export of a environment variable that the user should execute
+Adds documentation in sample Readme
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-13 19:45:38 +0000 UTC
+        Created At 2024-01-09 19:38:20 +0000 UTC
     </div>
 </div>
 
