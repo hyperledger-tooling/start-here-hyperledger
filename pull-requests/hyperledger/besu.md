@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6379" class=".btn">#6379</a>
+            </td>
+            <td>
+                <b>
+                    Ignore bin files when running the spdx license check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Ignore generated files in `bin/` directories when running the SPDX license check.  Visual Studio Code generates build files in various bin directories, which causes this check to fail.  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-09 21:29:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6378" class=".btn">#6378</a>
             </td>
             <td>
@@ -342,7 +372,7 @@ Move bootnodes logging to RunnerBuilder so that we always log the actual bootnod
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -880,32 +910,6 @@ fixes #6348
     </table>
     <div class="right-align">
         Created At 2024-01-03 01:38:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6337" class=".btn">#6337</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] made directory structure of subcommands tests match source
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                tidying up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-03 00:32:39 +0000 UTC
     </div>
 </div>
 

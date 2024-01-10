@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/158" class=".btn">#158</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/159" class=".btn">#159</a>
             </td>
             <td>
                 <b>
-                    Removed FluentD References
+                    Upgrade Fabric CA to v1.5.8 (latest).
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/100
+                Fixes CVE-2023-44273.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-14 13:44:13 +0000 UTC
+        Created At 2024-01-09 18:35:31 +0000 UTC
     </div>
 </div>
 

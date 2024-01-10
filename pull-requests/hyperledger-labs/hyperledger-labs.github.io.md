@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/255" class=".btn">#255</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/257" class=".btn">#257</a>
             </td>
             <td>
                 <b>
-                    One-Attestation-API Lab Proposal
+                    Fix title
                 </b>
             </td>
         </tr>
@@ -27,21 +27,38 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                This lab proposes to create a single API to handle attestations.
-Attestations are a crucial mechanism to establish trust in hardware-based trusted execution environments (TEEs).
-Today, multiple attestation mechanisms are available (e.g., SGX-EPID, SGX-DCAP, TDX-DCAP).
-This proposal aims to create a single abstraction for the generation and verification of hardware-based attestations.
-The abstraction can benefit, and avoid redundant implementations in, multiple projects (e.g., Fabric Private Chaincode, Private Data Objects)
-that use TEEs to enhance software integrity and confidentiality.
-
---
-
-@mbrandenburger Please acknowledge sponsorship.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-11 18:50:59 +0000 UTC
+        Created At 2024-01-09 20:26:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/256" class=".btn">#256</a>
+            </td>
+            <td>
+                <b>
+                    Fix title
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-09 20:22:50 +0000 UTC
     </div>
 </div>
 
