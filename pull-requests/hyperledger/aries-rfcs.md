@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/805" class=".btn">#805</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/809" class=".btn">#809</a>
             </td>
             <td>
                 <b>
-                    Aries RFC Index Update - 20231206
+                    feat: add w3c-di-attach
                 </b>
             </td>
         </tr>
@@ -27,13 +27,17 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                Attachment based on the new Data Integrity Proof specification.
 
+Some notable highlights:
+- supports both v1.1 and 2.0 of the specification
+- supports anoncreds offer/request metadata
+- supports did based holder binding using didcomm signed attachments
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-06 22:56:38 +0000 UTC
+        Created At 2024-01-10 08:10:19 +0000 UTC
     </div>
 </div>
 
