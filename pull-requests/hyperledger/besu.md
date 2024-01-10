@@ -887,29 +887,3 @@ fixes #6348
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6338" class=".btn">#6338</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] migrate controller builder test junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #5571 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-03 01:38:55 +0000 UTC
-    </div>
-</div>
-
