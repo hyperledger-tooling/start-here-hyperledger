@@ -1,13 +1,13 @@
 
-[1167](https://github.com/hyperledger/fabric-samples/pull/1167) Bump follow-redirects from 1.15.2 to 1.15.4 in /asset-transfer-basic/rest-api-typescript
+[121](https://github.com/hyperledger-labs/hlf-connector/pull/121) Increment version after release
 
-[23](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/23) chore(deps): bump follow-redirects from 1.15.2 to 1.15.4
+[10](https://github.com/hyperledger-labs/TDIDN/pull/10) Bump follow-redirects from 1.15.3 to 1.15.4 in /frontend/web-wallet
 
-[839](https://github.com/hyperledger-labs/open-enterprise-agent/pull/839) build(deps): bump follow-redirects from 1.15.2 to 1.15.4 in /prism-agent/client/generator
+[9](https://github.com/hyperledger-labs/TDIDN/pull/9) Bump follow-redirects from 1.15.3 to 1.15.4 in /frontend/TDIN
 
-[6384](https://github.com/hyperledger/besu/pull/6384) Fix test flackyness waiting for the nodes to be in sync before checking conditions
+[8](https://github.com/hyperledger-labs/TDIDN/pull/8) Bump follow-redirects from 1.15.3 to 1.15.4 in /backend/Holder
 
-[590](https://github.com/hyperledger-labs/fabric-operations-console/pull/590) Add hsmconfig APIs for hsm to wrok
+[15](https://github.com/hyperledger-labs/learning-tokens/pull/15) Bump follow-redirects from 1.15.3 to 1.15.4 in /src/learning-token-dashboard
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

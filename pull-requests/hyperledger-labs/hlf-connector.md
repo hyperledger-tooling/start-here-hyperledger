@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    Introduce Anchor peer API and other refractoring
+                    Increment version after release
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">auto-version-increment</span>
             </td>
             <td>
-                <nil>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-02 09:42:14 +0000 UTC
+        Created At 2024-01-11 05:59:27 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6387" class=".btn">#6387</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Fix pki tests condition check on mac
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fix pki tests condition check on mac
+
+## Fixed Issue(s)
+see https://github.com/hyperledger/besu/pull/6235
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-11 02:25:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6384" class=".btn">#6384</a>
             </td>
             <td>
