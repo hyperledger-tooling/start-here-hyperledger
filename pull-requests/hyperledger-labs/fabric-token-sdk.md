@@ -128,7 +128,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
                 Extracted kvs functionality to be wallet specific
