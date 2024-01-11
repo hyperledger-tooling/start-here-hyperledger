@@ -30,7 +30,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-ATL-6074. This PR adds a concept of `EntityRole` to `Entity` and `KeycloakEntity` to implement the admin role authentication of both JWT and admin-api-key following this [ADR](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/docs/decisions/20240103-use-jwt-claims-for-agent-admin-auth.md).
+ATL-6074. This PR adds a concept of `EntityRole` to `Entity` and `KeycloakEntity` to implement the admin role auth of both JWT and admin-api-key following this [ADR](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/docs/decisions/20240103-use-jwt-claims-for-agent-admin-auth.md).
 
 ## Checklist
 
