@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6384" class=".btn">#6384</a>
+            </td>
+            <td>
+                <b>
+                    Fix test flackyness waiting for the nodes to be in sync before checking conditions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+`NodeSmartContractPermissioningAcceptanceTest` could fail due to the fact that if a node is not in sync txs are not accepted, since the txpool is disabled, so before interacting with the node we must wait for all the nodes in the test to be in sync
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-10 20:57:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6383" class=".btn">#6383</a>
+            </td>
+            <td>
+                <b>
+                    Bump to nex release snapshot 24.1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+bump release version to 24.1.1-SNAPSHOT
+add/edit/move changelog entries
+TBA links for 24.1.0
+add missing changelog entry for 23.10.2
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-10 18:29:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6382" class=".btn">#6382</a>
             </td>
             <td>
@@ -814,40 +886,6 @@ builds on #6339
     </table>
     <div class="right-align">
         Created At 2024-01-04 07:55:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6347" class=".btn">#6347</a>
-            </td>
-            <td>
-                <b>
-                    Set build version to 24.1.0-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-bump gradle properties version and adjust changelog to match release
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-03 20:23:27 +0000 UTC
     </div>
 </div>
 
