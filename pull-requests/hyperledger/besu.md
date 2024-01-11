@@ -48,7 +48,7 @@ see https://github.com/hyperledger/besu/pull/6235
             </td>
             <td>
                 <b>
-                    Fix test flackyness waiting for the nodes to be in sync before checking conditions
+                    Fix test flackyness of acceptanceTestsPermissioning 
                 </b>
             </td>
         </tr>
@@ -62,7 +62,8 @@ see https://github.com/hyperledger/besu/pull/6235
 
 ## PR description
 
-`NodeSmartContractPermissioningAcceptanceTest` could fail due to the fact that if a node is not in sync txs are not accepted, since the txpool is disabled, so before interacting with the node we must wait for all the nodes in the test to be in sync
+`NodeSmartContractPermissioningAcceptanceTest` could fail due to the fact that if a node is not in sync txs are not accepted, since the txpool is disabled, so before interacting with the node we must wait for all the nodes in the test to be in sync.
+Also tuned Circle CI to execute acceptanceTestsPermissioning serially, to avoid to spawn too many Besu processes and in that way it is enough to use a medium executor, as last thing slowed a bit the block creation to make synchronization easier.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -779,112 +780,6 @@ Improve the high spec flag (`Xplugin-rocksdb-high-spec-enabled`) by limiting it 
     </table>
     <div class="right-align">
         Created At 2024-01-05 09:13:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6353" class=".btn">#6353</a>
-            </td>
-            <td>
-                <b>
-                    WIP: QBFT + shanghai support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Implement shanghai support for QBFT and IBFT chains.
-
-Summary of the changes:
-
-- Pass the `protocolSchedule` into the `BftContext` so it can check if `shanghai` is enabled
-- Add a new `createBlock(...)` function to `BftBlockCreator` that allows BFT block creators to use the `AbstractBlockCreator` `createBlock(...)` function that takes a list of withdrawals
-  - Use this to create blocks that have an (empty) list of withdrawals if shanghai _is_ enabled
-  - Use the original `createBlock(...)` implementation when shanghai _isn't_ enabled
-- Change the way the BFT block validator for a given protocol schedule is selected, using the parent header and timestamp instead of block number
-  - **I need to better understand how BFT round, chain height & sequence number relate to protocol schedule. This change is still WIP**
-
-## Fixed Issue(s)
-Fixes https://github.com/hyperledger/besu/issues/5446
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-04 17:42:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6352" class=".btn">#6352</a>
-            </td>
-            <td>
-                <b>
-                    Rel 24.1.0-RC2 cherry pick - cancun
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-small cherry-pick to mark Cancun as finalized
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-04 17:05:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6351" class=".btn">#6351</a>
-            </td>
-            <td>
-                <b>
-                    finalized cancun spec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-04 16:07:15 +0000 UTC
     </div>
 </div>
 
