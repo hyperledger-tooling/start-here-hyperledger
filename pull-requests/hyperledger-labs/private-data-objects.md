@@ -74,29 +74,3 @@ it overrides NO_PROXY).
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    Add missing dependencies to prevent add_custom_command race
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                our use add_custom_command lead to a race and same failure due to parallel invocation of `common/crypto/verify_ias_report/build_ias_certificates_cpp.sh`.  Issue is that add_custom_command generated files have to be explicitly serialized in dependency graph which we only partially did by  defining custom target but we didn't use it so ucrypto and tcrypto defines still created parallel dependencies via IAS_SOURCES.  Not clear why (a) i was the first to seemingly trigger that and (b) it also seemed to depend on how i invoked (e.g., output redirect seemed to play a role but also which target and whether this triggered an explicit docker build in our makefile or an implicit one via invoking docker-compose ...)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-03 22:54:03 +0000 UTC
-    </div>
-</div>
-

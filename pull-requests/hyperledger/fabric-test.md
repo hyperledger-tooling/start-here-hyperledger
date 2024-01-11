@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/505" class=".btn">#505</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/506" class=".btn">#506</a>
             </td>
             <td>
                 <b>
-                    Remove Azure
+                    Add daily GitHub Action
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                This is the last thing we have in Azure.
+                Add daily GitHub Action.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-31 17:04:12 +0000 UTC
+        Created At 2024-01-10 18:57:21 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[6382](https://github.com/hyperledger/besu/pull/6382) In fluent APIs correct Tangerine Whistle definition.
+[1167](https://github.com/hyperledger/fabric-samples/pull/1167) Bump follow-redirects from 1.15.2 to 1.15.4 in /asset-transfer-basic/rest-api-typescript
 
-[42](https://github.com/hyperledger-labs/cc-tools/pull/42) Fix resolve history reference
+[23](https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/23) chore(deps): bump follow-redirects from 1.15.2 to 1.15.4
 
-[240](https://github.com/hyperledger/firefly-ethconnect/pull/240) Change Dockerfile to use non-root user
+[839](https://github.com/hyperledger-labs/open-enterprise-agent/pull/839) build(deps): bump follow-redirects from 1.15.2 to 1.15.4 in /prism-agent/client/generator
 
-[1166](https://github.com/hyperledger/fabric-samples/pull/1166) Bump github.com/quic-go/quic-go from 0.38.1 to 0.38.2 in /token-sdk/auditor
+[6384](https://github.com/hyperledger/besu/pull/6384) Fix test flackyness waiting for the nodes to be in sync before checking conditions
 
-[530](https://github.com/hyperledger-labs/fabric-token-sdk/pull/530) Bump github.com/quic-go/quic-go from 0.38.1 to 0.38.2
+[590](https://github.com/hyperledger-labs/fabric-operations-console/pull/590) Add hsmconfig APIs for hsm to wrok
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
