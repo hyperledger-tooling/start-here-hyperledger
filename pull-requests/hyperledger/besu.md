@@ -267,8 +267,6 @@ Ignore generated files in `bin/` directories when running the SPDX license check
 
 ## PR description
 
-Built on top of #6377 
-
 Jackson 2.15 by default limits the length of input string to a value that is lower than the string length used in some of our test, so now we need to explicitly tune this value. Setting max int since this is only related to tests. 
 
 ## Fixed Issue(s)
@@ -887,35 +885,6 @@ small cherry-pick to mark Cancun as finalized
     </table>
     <div class="right-align">
         Created At 2024-01-04 16:07:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6350" class=".btn">#6350</a>
-            </td>
-            <td>
-                <b>
-                    Migrate BFT tests to junit 5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                BFT tests now use Junit 5
-before: acceptanceTestsCliqueBft 65 tests [example](https://app.circleci.com/pipelines/github/hyperledger/besu/26075/workflows/990c39ad-cf35-43ff-ad65-cdb87bf46f7d/jobs/170967)
-after: acceptanceTestsCliqueBft 65 tests [example](https://app.circleci.com/pipelines/github/hyperledger/besu/26094/workflows/e8411b37-8abd-46f2-a02f-089dc91dfb9c/jobs/171128) 
-builds on #6339 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-04 07:55:33 +0000 UTC
     </div>
 </div>
 
