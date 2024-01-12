@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6390" class=".btn">#6390</a>
+            </td>
+            <td>
+                <b>
+                    Use mining beneficiary from protocol spec in TraceServiceImpl
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+instead of using coinbase from block header as mining beneficiary, we use the protocol spec to retrieve it
+
+## Fixed Issue(s)
+fixes #6389 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-11 23:53:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6387" class=".btn">#6387</a>
             </td>
             <td>

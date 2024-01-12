@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/460" class=".btn">#460</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/461" class=".btn">#461</a>
             </td>
             <td>
                 <b>
-                    Update package dependencies: WAMR, WASI SDK, and parson
+                    Small PR to address missing content for docker builds
                 </b>
             </td>
         </tr>
@@ -27,15 +27,17 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                This is not quite as simple as expected. With our
-default configuration (LIBC on, WASI off) there are a couple errors in WAMR. Namely that os_is_handle_valid is not defined in sgx-platform.c and there is an include of libc_errno.h that appears to be outside the check for WASI includes.
+                Three things in this PR:
 
-Changes were made to work around these problems. Namely we explicitly include the libc header & source. And we add a file that defines the missing function.
+- add lsof to the list of packages, we use it for ccf to detect duplicate instances but it is not installed by default in the CCF docker image
+- add settings of no_proxy, NO_PROXY to the start_services tools script. The settings were used in the service tests but not when running persistent services
+- make ccf ping_test.py a useful debugging tool; removed a lot of dependencies so the tool can be used stand alone and from someplace other than the ccf installation; that is, you should be able to test liveness (and certificate validity) for a ledger running
+anywhere
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-04 19:18:03 +0000 UTC
+        Created At 2024-01-11 20:55:21 +0000 UTC
     </div>
 </div>
 
