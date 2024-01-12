@@ -1,13 +1,13 @@
 
-[6392](https://github.com/hyperledger/besu/pull/6392) reduce machine size for clique/BFT ATs
+[131](https://github.com/hyperledger-labs/yui-relayer/pull/131) Add slog
 
-[6390](https://github.com/hyperledger/besu/pull/6390) Use mining beneficiary from protocol spec in TraceServiceImpl
+[6396](https://github.com/hyperledger/besu/pull/6396) Upgrade Guava dependency
 
-[2707](https://github.com/hyperledger/aries-cloudagent-python/pull/2707) chore(deps): Bump jinja2 from 3.1.2 to 3.1.3
+[4198](https://github.com/hyperledger/iroha/pull/4198) [fix] #4162: SignedTransaction is immutable
 
-[2706](https://github.com/hyperledger/aries-cloudagent-python/pull/2706) feat: make VcLdpManager pluggable
+[393](https://github.com/hyperledger-labs/go-perun/pull/393) Expose protobuf converters
 
-[461](https://github.com/hyperledger-labs/private-data-objects/pull/461) Small PR to address missing content for docker builds
+[4196](https://github.com/hyperledger/iroha/pull/4196) [ci] #4184: Bump to 2024-01-12 toolchain & Revert to custom Coveralls settings
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

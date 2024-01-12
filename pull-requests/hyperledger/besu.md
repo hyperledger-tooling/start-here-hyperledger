@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6396" class=".btn">#6396</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Guava dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Upgrade Guava to 33.0.0, since it introduces a change in the Supplier class, the memory consumption estimation of a pending transaction has been updated to take in account the new layout of the class.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-12 11:16:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6395" class=".btn">#6395</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in SUPPORT.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+fix `Hyperlegder` to `Hyperledger`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-12 08:29:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6394" class=".btn">#6394</a>
+            </td>
+            <td>
+                <b>
+                    Trie log prune using TrieLogEvent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR aims to make the pruning logic async as this feature does not need to be in the synchronous.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Part of #5390 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-12 07:50:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6392" class=".btn">#6392</a>
             </td>
             <td>
@@ -399,11 +501,25 @@ Dependencies that require code changes will be updated in separate PR.
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-This PR will establish a new cache within the Transaction class to house all computed senders for their respective transaction hashes. This PR is expected to improve block processing time, given that the majority of transaction senders are determined when Besu fills its transaction pool.
+This PR will create a new cache within the Transaction class to house all computed senders for their respective transaction hashes. 
+When receiving the newPayload call, it calculates asynchronously and in parallel all the transaction hashes and senders.
+This PR is expected to improve block processing time, given that either the transaction sender is determined when Besu fills its transaction pool or with the asynchronous tasks. 
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+**The cache memory footprint**
+
+The cache is defined with this pair hash -> address, for 100_000 entries, it consumes currently less than 20 MiB.
+<img width="937" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/bc0be6e5-988f-4b71-9d99-f501d9cc3a99">
+
+We can find below the CPU profiling with and without this PR.
+
+**Without this PR**
+<img width="1719" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/0a0569da-2b26-462e-acd9-3c4b6ff4cc9d">
+
+
+**With this PR**
+<img width="1719" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/a0b4e853-48a1-4f5b-bdf4-b5f6804303cf">
+
+
             </td>
         </tr>
     </table>
@@ -600,32 +716,6 @@ Move bootnodes logging to RunnerBuilder so that we always log the actual bootnod
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6365" class=".btn">#6365</a>
-            </td>
-            <td>
-                <b>
-                    One permissioning AT to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                refs #6262 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-08 01:13:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6363" class=".btn">#6363</a>
             </td>
             <td>
@@ -806,40 +896,6 @@ on Mac M2, using docker desktop:
     </table>
     <div class="right-align">
         Created At 2024-01-06 01:49:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6354" class=".btn">#6354</a>
-            </td>
-            <td>
-                <b>
-                    Improve the high spec flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Improve the high spec flag (`Xplugin-rocksdb-high-spec-enabled`) by limiting it to only few column families.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-05 09:13:07 +0000 UTC
     </div>
 </div>
 

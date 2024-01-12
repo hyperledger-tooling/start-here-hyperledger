@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
         </tr>
         <tr>
             <td>
-                <span class="chip">prism-agent</span><span class="chip">build</span>
+                <span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">docs</span>
             </td>
             <td>
                 # Overview
