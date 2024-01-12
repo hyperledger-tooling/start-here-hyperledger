@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6392" class=".btn">#6392</a>
+            </td>
+            <td>
+                <b>
+                    reduce machine size for clique/BFT ATs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                same change as was made in #6384 for permissioning ATs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-12 04:26:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6390" class=".btn">#6390</a>
             </td>
             <td>
@@ -88,7 +114,7 @@ see https://github.com/hyperledger/besu/pull/6235
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">flake</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
