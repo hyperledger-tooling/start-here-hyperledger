@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/130" class=".btn">#130</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/131" class=".btn">#131</a>
             </td>
             <td>
                 <b>
-                    Add `src-seqs` and `dst-seqs` option to `tx acks` and `tx relay`
+                    Add slog
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                This PR allows the sequence to be specified with a command line option.
-Checks if the specified sequence exists in the packet, or does not check if the sequence is unspecified.
+                Changed from cometbft log to slog
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-17 10:27:34 +0000 UTC
+        Created At 2024-01-12 11:48:28 +0000 UTC
     </div>
 </div>
 

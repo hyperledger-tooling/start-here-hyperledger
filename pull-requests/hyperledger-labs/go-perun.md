@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/392" class=".btn">#392</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/393" class=".btn">#393</a>
             </td>
             <td>
                 <b>
-                    README: Update backend compatibility list and link the backend reposi…
+                    Expose protobuf converters
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                …tories
-
-This PR updates the list of completed and currently developed backends for [go-perun](https://github.com/hyperledger-labs/go-perun) in ```README.md```.
+                This exposes existing converters between protobuf types and various go-perun types.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-08 08:41:07 +0000 UTC
+        Created At 2024-01-12 09:35:47 +0000 UTC
     </div>
 </div>
 
