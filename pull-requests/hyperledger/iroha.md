@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4200" class=".btn">#4200</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4167: asset subcommand in CLI to be consistent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+In asset subcommand in the CLI operations like `mint`, `burn`, `get`, `transfer` had `register`. I refactored the subcommand to follow the suggestions in #4167.
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4167
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Use cases
+
+#### Register
+```bash
+./iroha_client_cli asset  --definition-id="tea#looking_glass" --value-type=Quantity 
+```
+#### Mint
+```bash
+./iroha_client_cli asset mint --asset-id="tea##mad_hatter@looking_glass" --quantity="100"
+```
+#### Burn
+```bash
+./iroha_client_cli asset burn --asset-id="tea##mad_hatter@looking_glass" --quantity="10"
+```
+
+#### Get
+```bash
+./iroha_client_cli asset get --asset-id="tea##mad_hatter@looking_glass"  
+```
+#### Transfer
+```bash
+./iroha_client_cli asset transfer --to="white_rabbit@looking_glass" --asset-id="tea##mad_hatter@looking_glass" --quantity="5"  
+```
+### Checklist
+
+- [X] I've read `CONTRIBUTING.md`
+- [X] I've used the standard signed-off commit format (or will squash just before merging)
+- [X] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-12 12:53:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4198" class=".btn">#4198</a>
             </td>
             <td>
