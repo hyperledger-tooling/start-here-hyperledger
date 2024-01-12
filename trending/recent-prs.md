@@ -1,13 +1,13 @@
 
-[131](https://github.com/hyperledger-labs/yui-relayer/pull/131) Add slog
+[6397](https://github.com/hyperledger/besu/pull/6397) Upgrade Mockito
 
-[6396](https://github.com/hyperledger/besu/pull/6396) Upgrade Guava dependency
+[241](https://github.com/hyperledger/firefly-ethconnect/pull/241) Update to Go 1.21 and update dependencies
 
-[4198](https://github.com/hyperledger/iroha/pull/4198) [fix] #4162: SignedTransaction is immutable
+[841](https://github.com/hyperledger-labs/open-enterprise-agent/pull/841) Fix/credential schema parsing as spec
 
-[393](https://github.com/hyperledger-labs/go-perun/pull/393) Expose protobuf converters
+[44](https://github.com/hyperledger-labs/perun-eth-backend/pull/44) Restore compatibility between go-perun post-0.10.6 and eth-backend
 
-[4196](https://github.com/hyperledger/iroha/pull/4196) [ci] #4184: Bump to 2024-01-12 toolchain & Revert to custom Coveralls settings
+[4200](https://github.com/hyperledger/iroha/pull/4200) [refactor] #4167: asset subcommand in CLI to be consistent
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
