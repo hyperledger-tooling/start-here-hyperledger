@@ -167,6 +167,10 @@ Don't break `SignedTransaction` invariant.
 ### IMPORTANT NOTE
 Since we have updated the ci-image, WE MUST build and push it before the actual workflows will start to use it in CI. Previously we did it outside iroha repo (usually from forks) using the special HL DockerHub credentials that Hyperledger provided to us. Unfortunately, as Ry Jones told, they decided to remove these credentials since they can't continue to pay for that. Thus, we must to build and push the new ci-image asap when this PR will be merged.
 
+### UPD
+Ry Jones decided to give us one more year for external HL DockerHub account. So, the new ci-image 
+has been already pushed from my fork.
+
 ### Checklist
 
 - [ ] I've read `CONTRIBUTING.md`
