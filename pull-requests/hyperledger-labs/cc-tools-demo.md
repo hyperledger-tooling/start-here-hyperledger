@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    Fix CCAPI waiting for inexistant Custom Event response
+                    Remove tryout.go tests
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-12 10:15:48 +0000 UTC
+        Created At 2024-01-12 18:33:03 +0000 UTC
     </div>
 </div>
 
