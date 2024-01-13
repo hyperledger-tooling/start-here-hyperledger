@@ -253,30 +253,3 @@ Side note: it's critical that the profile instance be injected as a weak referen
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2699" class=".btn">#2699</a>
-            </td>
-            <td>
-                <b>
-                    Remove tiny-vim from being added to the container image to reduce reported vulnerabilities from scanning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-05 18:42:29 +0000 UTC
-    </div>
-</div>
-
