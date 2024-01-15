@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/165" class=".btn">#165</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/166" class=".btn">#166</a>
             </td>
             <td>
                 <b>
-                    Use default GitHub credentials to publish API docs
+                    Update version of dependency-check
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Fix publish failure with expired access token.
+                Avoid rate limiting during vulnerability scans.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-05 15:35:58 +0000 UTC
+        Created At 2024-01-15 12:27:55 +0000 UTC
     </div>
 </div>
 
