@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Retire Anne and Darian from maintainers and codeowners
+                    Change to async function instead of coroutine decorator
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                They have previously indicated they wished to be retired.
+                Closes #41
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 16:02:23 +0000 UTC
+        Created At 2024-01-14 19:58:48 +0000 UTC
     </div>
 </div>
 
