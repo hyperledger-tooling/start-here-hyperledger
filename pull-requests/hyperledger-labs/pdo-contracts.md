@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Jupyter Notebooks for the inference-contact family use-case
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR provides Jupyter Notebooks to interact with the contracts in the inference-contact family. The Notebooks' structure, installation, execution patterns are same as those used by the Noteboks provided for the Exchange contract family. Please note that the guardian service (both frontend and backend) must be started prior to executing the notebooks. Please see inference-contract/README.md for instructions. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-14 21:53:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/16" class=".btn">#16</a>
             </td>
             <td>

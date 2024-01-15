@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6401" class=".btn">#6401</a>
+            </td>
+            <td>
+                <b>
+                    log a different warning if pruning is enabled with BONSAI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                log "ignored" if enabled with BONSAI vs "deprecated" if enabled with FOREST
+
+fixes #6400
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-14 21:50:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6397" class=".btn">#6397</a>
             </td>
             <td>
@@ -742,67 +770,6 @@ Move bootnodes logging to RunnerBuilder so that we always log the actual bootnod
     </table>
     <div class="right-align">
         Created At 2024-01-08 01:51:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6363" class=".btn">#6363</a>
-            </td>
-            <td>
-                <b>
-                    Import export trie log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR extends the x-trie-log subcommand to allow exporting and importing of a trie log.
-
-This PR is built on top of https://github.com/hyperledger/besu/pull/6303
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-08 00:03:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6362" class=".btn">#6362</a>
-            </td>
-            <td>
-                <b>
-                    migrate clique tests fully to junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                fixes #6261
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-07 23:20:45 +0000 UTC
     </div>
 </div>
 
