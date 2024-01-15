@@ -1,13 +1,13 @@
 
-[17](https://github.com/hyperledger-labs/pdo-contracts/pull/17) Jupyter Notebooks for the inference-contact family use-case
+[123](https://github.com/hyperledger-labs/hlf-connector/pull/123) Publish Raw event payload instead of Wrapper
 
-[6401](https://github.com/hyperledger/besu/pull/6401) log a different warning if pruning is enabled with BONSAI
+[122](https://github.com/hyperledger-labs/hlf-connector/pull/122) Introduce APIs for fetching existing Version and PDC config associated with a Chaincode
 
-[43](https://github.com/hyperledger/sawtooth-sdk-python/pull/43) Change to async function instead of coroutine decorator
+[6405](https://github.com/hyperledger/besu/pull/6405) remove X flag from SNAP sync mode
 
-[16](https://github.com/hyperledger-labs/pdo-contracts/pull/16) Reformat documents for 80 character limit
+[6404](https://github.com/hyperledger/besu/pull/6404) Bonsai keyvalue refactor
 
-[15](https://github.com/hyperledger-labs/pdo-contracts/pull/15) Bump pillow from 8.4.0 to 10.0.1 in /inference-contract
+[1169](https://github.com/hyperledger/fabric-samples/pull/1169) Fix certPath in assetTransfer.go
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

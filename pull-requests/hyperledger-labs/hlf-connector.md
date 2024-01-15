@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/123" class=".btn">#123</a>
+            </td>
+            <td>
+                <b>
+                    Publish Raw event payload instead of Wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 06:20:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/122" class=".btn">#122</a>
+            </td>
+            <td>
+                <b>
+                    Introduce APIs for fetching existing Version and PDC config associated with a Chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 05:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/121" class=".btn">#121</a>
             </td>
             <td>

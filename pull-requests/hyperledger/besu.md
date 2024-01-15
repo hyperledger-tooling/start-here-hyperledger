@@ -14,6 +14,105 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6405" class=".btn">#6405</a>
+            </td>
+            <td>
+                <b>
+                    remove X flag from SNAP sync mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                refs #6311 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 04:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6404" class=".btn">#6404</a>
+            </td>
+            <td>
+                <b>
+                    Bonsai keyvalue refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Refactor `BonsaiWorldStateKeyValueStorage` to move the FlatDB construction and management out into a new class `FlatDbStrategyProvider`.
+
+- Splits out the FlatDbStrategy construction and flatDb management from the BonsaiWorldStateKeyValueStorage into a new class FlatDbStrategyProvider
+- Passes through the DataStorageConfiguration to FlatDbStrategyProvider instead of just the boolean flag
+By splitting out the FlatDbStrategy I can simplify the constructor arguments to the BonsaiWorldStateKeyValueStorage quite a bit as I can create the FlatDbStrategyProvider in the KeyValueStorageProvider once with its arguments instead of repassing those into the BonsaiWorldStateKeyValueStorage each time we create an instance of it.
+
+Note: The DataStorageConfiguration parameter isn't used in the FlatDbStrategyProvider but will be used in a subsequent PR to add the code storage by code hash functionality.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 03:08:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6403" class=".btn">#6403</a>
+            </td>
+            <td>
+                <b>
+                    Snap sync downloader logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * use non-static logger field so that SnapSyncDownloader will own the logging lines
+   * Note this is a departure from the standard Logger field used elsewhere in the codebase. However it is flagged by the annotation so it's obvious. Couldn't think of a nicer way to do this but open to suggestions
+* rename SnapsyncMetricsManager to SnapSync... for consistency
+* rename FastImportBlockStep to ImportBlockStep
+* rename SyncTargetManager to AbstractSyncTargetManager and FastSyncTargetManager to SyncTargetManager
+* rename FastSyncException to SyncException
+
+fixes #6386 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 01:24:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6401" class=".btn">#6401</a>
             </td>
             <td>
@@ -691,85 +790,6 @@ refs #6327
     </table>
     <div class="right-align">
         Created At 2024-01-08 19:28:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6368" class=".btn">#6368</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-08 04:14:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6367" class=".btn">#6367</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Move bootnodes logging to RunnerBuilder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Move bootnodes logging to RunnerBuilder so that we always log the actual bootnodes being used. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-08 01:59:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6366" class=".btn">#6366</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] readme - fixed link to logging docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #6342 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-08 01:51:33 +0000 UTC
     </div>
 </div>
 
