@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/394" class=".btn">#394</a>
+            </td>
+            <td>
+                <b>
+                    Add MAINTAINERS.md file, add Jens to NOTICE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 11:34:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/393" class=".btn">#393</a>
             </td>
             <td>

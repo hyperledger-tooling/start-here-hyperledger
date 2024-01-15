@@ -338,34 +338,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/585" class=".btn">#585</a>
-            </td>
-            <td>
-                <b>
-                    added scenario to verify version summary button
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Test update
-
-#### Description
-added scenario to verify version summary button
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-08 08:46:27 +0000 UTC
-    </div>
-</div>
-
