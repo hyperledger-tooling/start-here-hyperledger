@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6407" class=".btn">#6407</a>
+            </td>
+            <td>
+                <b>
+                    Allow Xpoa-block-txs-selection-max-time to be greater than 100%
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+In #6044 `Xpoa-block-txs-selection-max-time` options has been introduced to limit the block creation time to a fraction of the genesis block time, but there are cases where it is useful to let the block creation time last more, so with this PR is it possible to specify value greater than 100%
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 11:04:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6406" class=".btn">#6406</a>
+            </td>
+            <td>
+                <b>
+                    cliqueBft ATs - revert back to xl machine executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                reverts #6392 - seems to have made that task flaky eg 20 min with no response https://app.circleci.com/pipelines/github/hyperledger/besu/26348/workflows/3c01f02c-3127-4b9c-965f-a869096ef3a5/jobs/173374 and https://app.circleci.com/pipelines/github/hyperledger/besu/26350/workflows/1c5f785f-f62b-4fa7-97cf-097dde63325c/jobs/173389
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 07:02:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6405" class=".btn">#6405</a>
             </td>
             <td>
@@ -159,6 +220,8 @@ fixes #6400
 
 ## PR description
 
+Upgrade Mockito to 5.8.0, that is a breaking change, and requires some code changes, in particular to avoid spying on maps.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -250,7 +313,7 @@ fix `Hyperlegder` to `Hyperledger`
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

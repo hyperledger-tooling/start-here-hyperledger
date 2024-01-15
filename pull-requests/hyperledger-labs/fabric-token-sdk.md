@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/531" class=".btn">#531</a>
+            </td>
+            <td>
+                <b>
+                    identity storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 09:10:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/530" class=".btn">#530</a>
             </td>
             <td>
