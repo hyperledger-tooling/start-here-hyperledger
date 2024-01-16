@@ -330,29 +330,3 @@ name: basic2, sequence: 1, version: 1.0.1, init-required: false, package-id: bas
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4597" class=".btn">#4597</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 08:57:58 +0000 UTC
-    </div>
-</div>
-
