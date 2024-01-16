@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                <nil>
+                Fixing further findings after running application
             </td>
         </tr>
     </table>

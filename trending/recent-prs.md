@@ -1,13 +1,13 @@
 
+[4610](https://github.com/hyperledger/fabric/pull/4610) Configured orderer's backoff for the gateway tests.
+
+[4609](https://github.com/hyperledger/fabric/pull/4609) Add doc for CA cert renewal
+
+[6415](https://github.com/hyperledger/besu/pull/6415) use reference tests to verify trielog generation
+
+[6414](https://github.com/hyperledger/besu/pull/6414) Upgrade tech.pegasys.discovery:discovery
+
 [11](https://github.com/hyperledger-labs/TDIDN/pull/11) Update readme.md
-
-[846](https://github.com/hyperledger-labs/open-enterprise-agent/pull/846) docs: add admin role JWT authz tutorial
-
-[44](https://github.com/hyperledger/sawtooth-sdk-python/pull/44) Further findings for asyncio compatibility
-
-[6413](https://github.com/hyperledger/besu/pull/6413) IGNORE - trie log pruner test
-
-[124](https://github.com/hyperledger-labs/hlf-connector/pull/124) Increment version after release
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
