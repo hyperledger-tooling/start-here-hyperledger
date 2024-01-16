@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4610" class=".btn">#4610</a>
+            </td>
+            <td>
+                <b>
+                    Configured orderer's backoff for the gateway tests.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Сonfigured backoff in orderers for gateway tests, so that after restart other orderers will find the newly started one.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-16 17:58:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4609" class=".btn">#4609</a>
+            </td>
+            <td>
+                <b>
+                    Add doc for CA cert renewal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add doc for CA cert renewal.
+
+Resolves #4573.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-16 17:50:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4605" class=".btn">#4605</a>
             </td>
             <td>
@@ -220,113 +275,6 @@ name: basic2, sequence: 1, version: 1.0.1, init-required: false, package-id: bas
     </table>
     <div class="right-align">
         Created At 2024-01-10 05:32:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4601" class=".btn">#4601</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade the CouchDB used to v3.3.3 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move to CouchDB v3.3.3.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 14:19:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4600" class=".btn">#4600</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade the CouchDB used to v3.3.3 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move to CouchDB v3.3.3.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 14:18:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4599" class=".btn">#4599</a>
-            </td>
-            <td>
-                <b>
-                    Fix doc typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix remaining doc typo from prior commit.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 14:05:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4598" class=".btn">#4598</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix typos (backport release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                docs: fix typos
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 13:29:16 +0000 UTC
     </div>
 </div>
 
