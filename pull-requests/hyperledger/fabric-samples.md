@@ -343,29 +343,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1163" class=".btn">#1163</a>
-            </td>
-            <td>
-                <b>
-                    added sample for certifiate renewal in test-network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 05:57:09 +0000 UTC
-    </div>
-</div>
-

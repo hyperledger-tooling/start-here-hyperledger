@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6413" class=".btn">#6413</a>
+            </td>
+            <td>
+                <b>
+                    IGNORE - trie log pruner test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-16 04:42:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6412" class=".btn">#6412</a>
+            </td>
+            <td>
+                <b>
+                    [CI] publish tasks don't depend on test tasks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                occasional flakiness eg https://app.circleci.com/pipelines/gh/hyperledger/besu/26365/workflows/c1646864-be7d-4a67-95dc-ab22876dbdde should not stop publish tasks
+
+all required test tasks have already passed on PR runs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-16 03:54:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6411" class=".btn">#6411</a>
+            </td>
+            <td>
+                <b>
+                    Remove  deprecated `--privacy-onchain-groups-enabled` option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">privacy</span><span class="chip">doc-change-required</span><span class="chip">non mainnet (private networks)</span>
+            </td>
+            <td>
+                ## PR description
+Remove  deprecated `--privacy-onchain-groups-enabled` option
+
+## Fixed Issue(s)
+fixes #6410 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-16 02:15:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6407" class=".btn">#6407</a>
             </td>
             <td>
@@ -128,9 +219,13 @@ Refactor `BonsaiWorldStateKeyValueStorage` to move the FlatDB construction and m
 
 - Splits out the FlatDbStrategy construction and flatDb management from the BonsaiWorldStateKeyValueStorage into a new class FlatDbStrategyProvider
 - Passes through the DataStorageConfiguration to FlatDbStrategyProvider instead of just the boolean flag
+
 By splitting out the FlatDbStrategy I can simplify the constructor arguments to the BonsaiWorldStateKeyValueStorage quite a bit as I can create the FlatDbStrategyProvider in the KeyValueStorageProvider once with its arguments instead of repassing those into the BonsaiWorldStateKeyValueStorage each time we create an instance of it.
 
 Note: The DataStorageConfiguration parameter isn't used in the FlatDbStrategyProvider but will be used in a subsequent PR to add the code storage by code hash functionality.
+
+### Testing
+- Checkpoint sync on Goerli
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -333,6 +428,11 @@ This PR aims to make the pruning logic async as this feature does not need to be
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 Part of #5390 
+
+## Testing
+
+Tested locally on a small chain.
+Will bundle canary testing with some other PRs as part of getting this feature production ready, see task list for #5390
             </td>
         </tr>
     </table>
@@ -754,82 +854,6 @@ We can find below the CPU profiling with and without this PR.
     </table>
     <div class="right-align">
         Created At 2024-01-09 10:13:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6373" class=".btn">#6373</a>
-            </td>
-            <td>
-                <b>
-                    full sync - don't fail startup if sync-min-peers specified
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Log a warning instead of failing startup
-
-fixes #6327 
-
-Before:
-```
-➜  b2 git:(sync-min-peers) ✗ besu --sync-mode="full" --sync-min-peers=1
-2024-01-09 12:17:57.498+10:00 | main | INFO  | Besu | Starting Besu
-2024-01-09 12:17:57.866+10:00 | main | ERROR | Besu | Failed to start Besu
-picocli.CommandLine$ParameterException: --sync-min-peers can't be used with FULL sync-mode [--sync-min-peers]
-	at org.hyperledger.besu.cli.util.CommandLineUtils.failIfOptionDoesntMeetRequirement(CommandLineUtils.java:129)
-```
-and startup fails.
-
-After:
-
-```
-➜  b2 git:(sync-min-peers) ✗ besu --sync-mode="full" --sync-min-peers=1
-2024-01-09 12:24:50.728+10:00 | main | INFO  | Besu | Starting Besu
-2024-01-09 12:24:51.539+10:00 | main | WARN  | Besu | --sync-min-peers is ignored in FULL sync-mode
-2024-01-09 12:24:51.818+10:00 | main | INFO  | Besu | Connecting to 0 static nodes.
-```
-and startup continues
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 06:08:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6372" class=".btn">#6372</a>
-            </td>
-            <td>
-                <b>
-                    Added alias --sync-min-peers for --fast-sync-min-peers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add an alias for fast-sync-min-peers
-
-refs #6327 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 02:15:25 +0000 UTC
     </div>
 </div>
 
