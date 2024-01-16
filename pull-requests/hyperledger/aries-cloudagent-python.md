@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2713" class=".btn">#2713</a>
+            </td>
+            <td>
+                <b>
+                    Integration test for did:peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See issue #2703
+
+Adds a (failing) test for --emit-did-peer-x (not included in regular GHA run)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 19:55:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2712" class=".btn">#2712</a>
+            </td>
+            <td>
+                <b>
+                    Update RTD requirements after security vulnerability recorded
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also updates the generated Read The Docs documentation to the latest.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 18:45:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2710" class=".btn">#2710</a>
             </td>
             <td>
@@ -255,32 +311,6 @@ Side note: it's critical that the profile instance be injected as a weak referen
     </table>
     <div class="right-align">
         Created At 2024-01-10 13:18:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2700" class=".btn">#2700</a>
-            </td>
-            <td>
-                <b>
-                    Update legacy bcgovimages references.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves: #2118 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-08 19:48:07 +0000 UTC
     </div>
 </div>
 

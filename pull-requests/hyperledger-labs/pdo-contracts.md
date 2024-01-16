@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    Fix a problem with cleaning python egg directories
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix a bug in the python cmake library that resulted in just the exchange folder being cleaned correctly.
+
+Mea culpa.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-15 23:36:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/17" class=".btn">#17</a>
             </td>
             <td>
@@ -262,32 +290,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-01-13 22:40:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    New sample PDO contracts for managing policy-based access to OpenVINO ML models
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PR introduces new sample PDO contracts for managing policy-based access to OpenVINO ML models. Files are located under inference-contract/. Please see inference-contract/README.md for overview of the new capabilities, as well instructions for testing the new samples.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 00:39:18 +0000 UTC
     </div>
 </div>
 
