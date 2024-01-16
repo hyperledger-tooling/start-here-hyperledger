@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Clone the repository
-        uses: "actions/checkout@v2"
+        uses: "actions/checkout@v4"
         with:
           submodules: recursive
       - name: Get hyperledger-updates contributors information
@@ -60,7 +60,7 @@ jobs:
           INPUT_TEMPLATE_FILE: ./templates/contributor-template.md
           FILE_WITH_PATTERN: ./community.md
       - name: Create Pull Request with new backend contributors
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.PAT }}
           branch-suffix: timestamp
