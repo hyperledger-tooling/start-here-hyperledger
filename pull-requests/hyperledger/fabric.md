@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4611" class=".btn">#4611</a>
+            </td>
+            <td>
+                <b>
+                    Use the named var for build dir
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use the variable instead of build path string.
+
+Change-Id: I0c8663cdfe9c7c546694a3edfb7a09d10ba2af69
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The file already has the build variable, hence should use it.
+
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-16 22:18:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4610" class=".btn">#4610</a>
             </td>
             <td>

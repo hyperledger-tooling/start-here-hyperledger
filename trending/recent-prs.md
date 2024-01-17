@@ -1,13 +1,13 @@
 
-[4610](https://github.com/hyperledger/fabric/pull/4610) Configured orderer's backoff for the gateway tests.
+[2716](https://github.com/hyperledger/aries-cloudagent-python/pull/2716) Fix incorrect Sphinx search library version reference
 
-[4609](https://github.com/hyperledger/fabric/pull/4609) Add doc for CA cert renewal
+[6417](https://github.com/hyperledger/besu/pull/6417) Feature/reduce receipt size
 
-[6415](https://github.com/hyperledger/besu/pull/6415) use reference tests to verify trielog generation
+[132](https://github.com/hyperledger-labs/yui-relayer/pull/132) Add `ProveHostConsensusState` to StateProver interface
 
-[6414](https://github.com/hyperledger/besu/pull/6414) Upgrade tech.pegasys.discovery:discovery
+[20](https://github.com/hyperledger-labs/pdo-contracts/pull/20) Allow for local override of contract families to be built
 
-[11](https://github.com/hyperledger-labs/TDIDN/pull/11) Update readme.md
+[2715](https://github.com/hyperledger/aries-cloudagent-python/pull/2715) WIP - Anoncreds schema endorsement
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
