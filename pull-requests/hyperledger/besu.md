@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6419" class=".btn">#6419</a>
+            </td>
+            <td>
+                <b>
+                    Downgrade rocksdbjni to 8.3.2 following FOREST bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bug introduced by upgrading to 8.9.1 in  [`9b7efb9` (#6377)](https://github.com/hyperledger/besu/pull/6377/commits/9b7efb9ed62789efd4f7d048d221871d73e50d9b)
+
+This is a revert of that specific dependency, will need further work to fix FOREST + 8.9.1+
+
+Tested on the canary that found the bug: prd-elc-besu-prysm-mainnet-nightly-forest-snap
+and currently syncing a fresh FOREST and BONSAI node on holesky.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 05:43:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6418" class=".btn">#6418</a>
+            </td>
+            <td>
+                <b>
+                    Addition of Profile Configuration CLI Option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This pull request introduces the `--profile` CLI option to Besu. This new feature allows users to load existing TOML configuration files from resources, enabling the override of default options. This PR does not create the profiles - they will be created in different PRs.
+
+- Profile CLI Option: The `--profile` CLI option has been added, providing users the ability to set the profile Besu should utilise for its configuration.
+
+- Configuration Resolution: The configuration provider resolves settings in a cascading manner, prioritising environment variables, followed by the configuration file, the profile file (if any), and finally falling back to the variable default if no other configuration source is available.
+
+For instance, consider a scenario where you have two TOML configuration files: `config.toml` and `staker.toml`. The `config.toml` file is provided by the user via the `--config-file` option, and `staker.toml` is a pre-configured resource file containing custom settings. The staker.toml file can be specified using the new --profile option:
+
+`besu --config-file=config.toml --profile=STAKER`
+
+In this case, Besu would first look for settings in the environment variables. If a setting is not found in the environment variables, Besu would look for it in the config.toml file. If the setting is not found in the config.toml file, Besu would then look for it in the `staker.toml` file. If the setting is not found in the `staker.toml` file, Besu would use the default value for that setting.
+
+The rationale for using the TOML format to define profiles is as follows:
+
+- It leverages existing TOML parsing and validation mechanisms, ensuring robustness and reliability.
+- The format is user-friendly, being easy to read and write.
+- It consolidates all configuration data into a single location, simplifying management.
+
+## Fixed Issue(s)
+fixes #6323
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 05:06:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6417" class=".btn">#6417</a>
             </td>
             <td>
@@ -280,7 +361,7 @@ increase `no_output_timeout` to 30min
             </td>
             <td>
                 <b>
-                    remove X flag from SNAP sync mode
+                    SNAP and CHECKPOINT sync modes - now production ready
                 </b>
             </td>
         </tr>
@@ -289,7 +370,11 @@ increase `no_output_timeout` to 30min
                 
             </td>
             <td>
-                refs #6311 
+                * prefer SNAP and CHECKPOINT
+* still support X_SNAP and X_CHECKPOINT - mark for deprecation in 24.4.0
+* all help and log messages now use SNAP and CHECKPOINT
+
+refs #6311 
             </td>
         </tr>
     </table>
@@ -330,6 +415,7 @@ Note: The DataStorageConfiguration parameter isn't used in the FlatDbStrategyPro
 
 ### Testing
 - Checkpoint sync on Goerli
+- Checkpoint sync on Mainnet
 - Checkpoint sync with flat healing enabled on Goerli
 
 ## Fixed Issue(s)
