@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/240" class=".btn">#240</a>
-            </td>
-            <td>
-                <b>
-                    Change Dockerfile to use non-root user
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-10 17:06:50 +0000 UTC
-    </div>
-</div>
-
