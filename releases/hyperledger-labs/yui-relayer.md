@@ -15,7 +15,39 @@ permalink: /releases/hyperledger-labs/yui-relayer
         <tr>
             <td colspan="2">
                 <b>
-                    v0.4.21
+                    v0.4.22
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.4.22
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Fix a bug from https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.21
+  * Fix to set `HostConsensusStateProof` in ConnectionOpenAck by @bluele in https://github.com/hyperledger-labs/yui-relayer/pull/133
+
+**Full Changelog**: https://github.com/hyperledger-labs/yui-relayer/compare/v0.4.21...v0.4.22
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.22" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-17 11:52:08 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    DONT USE THIS: v0.4.21
                 </b>
             </td>
         </tr>
@@ -26,7 +58,11 @@ permalink: /releases/hyperledger-labs/yui-relayer
                 </span>
             </td>
             <td>
-                ## What's Changed
+                ## WARNING
+
+This version has [a bug](https://github.com/hyperledger-labs/yui-relayer/pull/133), so you must use [v0.4.22](https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.22) instead.
+
+## What's Changed
 * Add `ProveHostConsensusState` to StateProver interface by @bluele in https://github.com/hyperledger-labs/yui-relayer/pull/132
 
 
