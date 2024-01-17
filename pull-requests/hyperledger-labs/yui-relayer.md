@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/132" class=".btn">#132</a>
+            </td>
+            <td>
+                <b>
+                    Add `ProveHostConsensusState` to StateProver interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 00:23:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/131" class=".btn">#131</a>
             </td>
             <td>

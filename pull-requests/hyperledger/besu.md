@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6417" class=".btn">#6417</a>
+            </td>
+            <td>
+                <b>
+                    Feature/reduce receipt size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Built on #5392 with the latest main changes merged in so can do testing on some nodes.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 00:31:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6415" class=".btn">#6415</a>
             </td>
             <td>
@@ -285,7 +319,7 @@ increase `no_output_timeout` to 30min
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Refactor `BonsaiWorldStateKeyValueStorage` to move the FlatDB construction and management out into a new class `FlatDbStrategyProvider`.
+This refactors `BonsaiWorldStateKeyValueStorage` so it is easier to pass configuration into Bonsai and remove the need to pass in individual flags for features. I've moved the FlatDB construction and management out into a new class `FlatDbStrategyProvider` and this can be created just once and simplifies the creation of the `BonsaiWorldStateKeyValueStorage` with less args to be passed around each time it is created.
 
 - Splits out the FlatDbStrategy construction and flatDb management from the BonsaiWorldStateKeyValueStorage into a new class FlatDbStrategyProvider
 - Passes through the DataStorageConfiguration to FlatDbStrategyProvider instead of just the boolean flag
@@ -296,6 +330,7 @@ Note: The DataStorageConfiguration parameter isn't used in the FlatDbStrategyPro
 
 ### Testing
 - Checkpoint sync on Goerli
+- Checkpoint sync with flat healing enabled on Goerli
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -774,36 +809,6 @@ Some tx selector plugins needs more context about the current tx being evaluated
     </table>
     <div class="right-align">
         Created At 2024-01-10 13:10:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6379" class=".btn">#6379</a>
-            </td>
-            <td>
-                <b>
-                    Ignore bin files when running the spdx license check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Ignore generated files in `bin/` directories when running the SPDX license check.  Visual Studio Code generates build files in various bin directories, which causes this check to fail.  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 21:29:17 +0000 UTC
     </div>
 </div>
 

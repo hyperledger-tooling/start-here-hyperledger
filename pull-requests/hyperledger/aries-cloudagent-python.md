@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2716" class=".btn">#2716</a>
+            </td>
+            <td>
+                <b>
+                    Fix incorrect Sphinx search library version reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I did test it locally, but I think my process is not picking things like this up.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 00:46:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2715" class=".btn">#2715</a>
+            </td>
+            <td>
+                <b>
+                    WIP - Anoncreds schema endorsement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Work in progress. Opening for visibility.
+
+I think this is working well. I want to manual test more, add some unit tests and add integration tests where the author and endorser are configured with command arguments.
+
+Possibly refactor.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-16 22:51:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2713" class=".btn">#2713</a>
             </td>
             <td>
