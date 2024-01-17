@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/besu
 This is a revert of that specific dependency, will need further work to fix FOREST + 8.9.1+
 
 Tested on the canary that found the bug: prd-elc-besu-prysm-mainnet-nightly-forest-snap
-and currently syncing a fresh FOREST and BONSAI node on holesky.
+and synced a fresh FOREST and BONSAI node on holesky.
             </td>
         </tr>
     </table>
