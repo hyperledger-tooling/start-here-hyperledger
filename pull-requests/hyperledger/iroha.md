@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [fix] #0000: Fix async blocking bug when starting Sumeragi
+                    [fix] #4211: Fix async blocking bug when starting Sumeragi
                 </b>
             </td>
         </tr>
@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 Bug was initialy found in #4049 
 
-<!-- Just describe what you did. -->
+Closes #4211 
 
 <!-- Skip if the title of the PR is self-explanatory -->
 
@@ -79,7 +79,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             </td>
             <td>
                 <b>
-                    [fix] #0000: Fix async blocking bug when starting Sumeragi
+                    [fix] #4211: Fix async blocking bug when starting Sumeragi
                 </b>
             </td>
         </tr>
@@ -92,7 +92,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 
 Bug was initially found in #4049
 
-<!-- Just describe what you did. -->
+Closes #4211 
 
 <!-- Skip if the title of the PR is self-explanatory -->
 
