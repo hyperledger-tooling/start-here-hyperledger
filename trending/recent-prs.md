@@ -1,13 +1,13 @@
 
-[4213](https://github.com/hyperledger/iroha/pull/4213) [fix] #3962: Revoke associated tokens on entity unregistretration
+[851](https://github.com/hyperledger-labs/open-enterprise-agent/pull/851) chore: cleanup experiment (remove sandbox/prism-agent-tapir)
 
-[595](https://github.com/hyperledger/cello/pull/595) Bump MarkupSafe from 1.1.1 to 2.0.1 in api-engine
+[850](https://github.com/hyperledger-labs/open-enterprise-agent/pull/850) feat(prism-agent): upgrade ZIO http client to improve performance
 
-[594](https://github.com/hyperledger/cello/pull/594) Add error msg in notification
+[4217](https://github.com/hyperledger/iroha/pull/4217) [BACKPORT]: Fix tx amount metric
 
-[6425](https://github.com/hyperledger/besu/pull/6425) Fix to increment/decrement gas-limit in block production 
+[4623](https://github.com/hyperledger/fabric/pull/4623) Fix the jQuery issue in the docs on release-2.5 branch 
 
-[2723](https://github.com/hyperledger/aries-cloudagent-python/pull/2723) Remove exception on connectionless presentation problem report handler
+[4622](https://github.com/hyperledger/fabric/pull/4622) Fix the jQuery issue in the docs on release-2.2 branch
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
