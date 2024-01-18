@@ -32,6 +32,10 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+Promote block txs selection max time options to stable.
+Both options were introduced in #6044, and are working fine since them, with the promotion the hard caps have been removed since that could be an issue with existing networks that are used to have longer block creation times.
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -121,7 +125,7 @@ and synced a fresh FOREST and BONSAI node on holesky.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">doc-change-required</span><span class="chip">ux</span>
             </td>
             <td>
                 ## PR description
@@ -139,9 +143,9 @@ In this case, Besu would first look for settings in the environment variables. I
 
 The rationale for using the TOML format to define profiles is as follows:
 
-- It leverages existing TOML parsing and validation mechanisms, ensuring robustness and reliability.
-- The format is user-friendly, being easy to read and write.
-- It consolidates all configuration data into a single location, simplifying management.
+- It leverages existing TOML parsing and validation mechanisms
+- The format is user-friendly
+- It consolidates all configuration data into a single location
 
 ## Fixed Issue(s)
 fixes #6323
@@ -215,7 +219,7 @@ Built on #5392 with the latest main changes merged in so can do testing on some 
 
 This PR use reference tests to validate trielog generation. Like that we will validate our trielog generation for all of the tests we have in the references tests suite for past and future EIPs
 
-I was able to validate that this PR can't detect the issues we had before on mainnet by running this test "GeneralStateTests/stSStoreTest/InitCollision.json" with and without [the last ](https://github.com/hyperledger/besu/pull/6359) fix
+I was able to validate that this PR can detect the issues we had before on mainnet by running this test "GeneralStateTests/stSStoreTest/InitCollision.json" with and without [the last ](https://github.com/hyperledger/besu/pull/6359) fix
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -750,79 +754,6 @@ see https://github.com/hyperledger/besu/pull/6235
     </table>
     <div class="right-align">
         Created At 2024-01-11 02:25:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6384" class=".btn">#6384</a>
-            </td>
-            <td>
-                <b>
-                    Fix test flackyness of acceptanceTestsPermissioning 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">flake</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-`NodeSmartContractPermissioningAcceptanceTest` could fail due to the fact that if a node is not in sync txs are not accepted, since the txpool is disabled, so before interacting with the node we must wait for all the nodes in the test to be in sync.
-Also tuned Circle CI to execute acceptanceTestsPermissioning serially, to avoid to spawn too many Besu processes and in that way it is enough to use a medium executor, as last thing slowed a bit the block creation to make synchronization easier.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-10 20:57:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6383" class=".btn">#6383</a>
-            </td>
-            <td>
-                <b>
-                    Bump to nex release snapshot 24.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-bump release version to 24.1.1-SNAPSHOT
-add/edit/move changelog entries
-TBA links for 24.1.0
-add missing changelog entry for 23.10.2
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-10 18:29:56 +0000 UTC
     </div>
 </div>
 
