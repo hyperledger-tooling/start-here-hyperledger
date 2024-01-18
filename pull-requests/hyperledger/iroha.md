@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4213" class=".btn">#4213</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3962: Revoke associated tokens on entity unregistretration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Hook into `visit_unregister_*` was added to remove associated permission tokens.
+
+I've decided not to add this cleanup logic for the `Asset` entity because asset entity could be added and remove multiple times (for example when asset value reach 0).
+
+Also i've made decision not to use macros here as imo it wouldn't bring much value here. 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3962 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Tokens are cleaned up.
+
+### Drawbacks
+
+Uninteresting entities could became potentially expensive as we have to iterate through every token.
+
+### TODO
+
+- [ ]: Adjust benchmark to regrant permissions
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-18 12:13:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4208" class=".btn">#4208</a>
             </td>
             <td>
@@ -31,15 +98,13 @@ permalink: /pull-requests/hyperledger/iroha
 
 Bug was initialy found in #4049 
 
-Closes #4211 
-
 <!-- Skip if the title of the PR is self-explanatory -->
 
 ### Linked issue
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #4211 <!-- Replace with an actual number,  -->
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -92,15 +157,13 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 
 Bug was initially found in #4049
 
-Closes #4211 
-
 <!-- Skip if the title of the PR is self-explanatory -->
 
 ### Linked issue
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #4211 <!-- Replace with an actual number,  -->
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -174,7 +237,7 @@ It decreases the amount of traffic through the network and removes the necessity
 
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
 <!-- HINT:  Add more points to checklist for large draft PRs-->
@@ -487,55 +550,6 @@ Fix was successfully tested by @timofeevmd
     </table>
     <div class="right-align">
         Created At 2024-01-11 16:31:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4191" class=".btn">#4191</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4152: Remove `bridge` and `dex` features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Remove obsolete features not used anywhere in the project.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4152 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-11 07:35:35 +0000 UTC
     </div>
 </div>
 
