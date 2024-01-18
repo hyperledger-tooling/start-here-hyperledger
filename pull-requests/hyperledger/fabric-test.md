@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-test
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/506" class=".btn">#506</a>
-            </td>
-            <td>
-                <b>
-                    Add daily GitHub Action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add daily GitHub Action.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-10 18:57:21 +0000 UTC
-    </div>
-</div>
-

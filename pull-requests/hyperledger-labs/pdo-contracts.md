@@ -46,7 +46,7 @@ This update supports a local cmake file (Local.cmake) that will allow for local 
             </td>
             <td>
                 <b>
-                    Mic.jan15.user jupyter
+                    Updated Jupyter notebooks for exchange family 
                 </b>
             </td>
         </tr>

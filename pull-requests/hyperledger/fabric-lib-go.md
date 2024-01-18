@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Transition CI from Azure Pipelines to GitHub Actions
+                    init commit
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                Resolves #21 
+                fabric core context dependency was discovered and marked here.
+https://github.com/davidkhala/protoutil/issues/1
+
+After this is merged, migrate dependency on `./protoutil/common` to `github.com/hyperledger/fabric-lib-go/common`
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 02:15:37 +0000 UTC
+        Created At 2024-01-17 19:55:07 +0000 UTC
     </div>
 </div>
 
