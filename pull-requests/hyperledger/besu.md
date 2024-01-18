@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6425" class=".btn">#6425</a>
+            </td>
+            <td>
+                <b>
+                    Fix to increment/decrement gas-limit in block production 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fixes discord bug found by protoplanetary 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-18 02:25:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6423" class=".btn">#6423</a>
             </td>
             <td>
@@ -340,7 +374,7 @@ all required test tasks have already passed on PR runs
         </tr>
         <tr>
             <td>
-                <span class="chip">privacy</span><span class="chip">doc-change-required</span><span class="chip">non mainnet (private networks)</span>
+                <span class="chip">privacy</span><span class="chip">non mainnet (private networks)</span>
             </td>
             <td>
                 ## PR description
@@ -724,36 +758,6 @@ fixes #6389
     </table>
     <div class="right-align">
         Created At 2024-01-11 23:53:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6387" class=".btn">#6387</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Fix pki tests condition check on mac
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix pki tests condition check on mac
-
-## Fixed Issue(s)
-see https://github.com/hyperledger/besu/pull/6235
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-11 02:25:12 +0000 UTC
     </div>
 </div>
 
