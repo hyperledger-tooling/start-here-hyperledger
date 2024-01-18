@@ -692,7 +692,8 @@ Part of #5390
 ## Testing
 
 Tested locally on a small chain.
-Will bundle canary testing with some other PRs as part of getting this feature production ready, see task list for #5390
+
+Will test with a fresh holesky sync.
             </td>
         </tr>
     </table>
