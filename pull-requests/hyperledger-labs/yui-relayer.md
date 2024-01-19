@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    Add slog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed from cometbft log to slog
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 11:48:28 +0000 UTC
-    </div>
-</div>
-
