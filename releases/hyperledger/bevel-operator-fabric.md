@@ -15,6 +15,37 @@ permalink: /releases/hyperledger/bevel-operator-fabric
         <tr>
             <td colspan="2">
                 <b>
+                    Version 1.10.0-beta5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.10.0-beta5
+                </span>
+            </td>
+            <td>
+                ## Changelog
+* b190a10 Add command to get the next sequence and version for a chaincode based on chaincode definition
+
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.0-beta5" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-19 15:54:13 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Version 1.10.0-beta4
                 </b>
             </td>
