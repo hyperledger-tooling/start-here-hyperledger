@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6427" class=".btn">#6427</a>
+            </td>
+            <td>
+                <b>
+                    GitHub Actions CI/CD
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Proposed alternative to using CircleCI.
+
+Please also consider the Design Doc available here: https://wiki.hyperledger.org/pages/viewpage.action?pageId=80774216
+
+Fixes #6238 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-18 19:40:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6425" class=".btn">#6425</a>
             </td>
             <td>
@@ -329,34 +360,6 @@ I was able to validate that this PR can detect the issues we had before on mainn
     </table>
     <div class="right-align">
         Created At 2024-01-16 04:42:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6412" class=".btn">#6412</a>
-            </td>
-            <td>
-                <b>
-                    [CI] publish tasks don't depend on test tasks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                occasional flakiness eg https://app.circleci.com/pipelines/gh/hyperledger/besu/26365/workflows/c1646864-be7d-4a67-95dc-ab22876dbdde should not stop publish tasks
-
-all required test tasks have already passed on PR runs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-16 03:54:37 +0000 UTC
     </div>
 </div>
 
@@ -725,40 +728,6 @@ Will test with a fresh holesky sync.
     </table>
     <div class="right-align">
         Created At 2024-01-12 04:26:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6390" class=".btn">#6390</a>
-            </td>
-            <td>
-                <b>
-                    Use mining beneficiary from protocol spec in TraceServiceImpl
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-instead of using coinbase from block header as mining beneficiary, we use the protocol spec to retrieve it
-
-## Fixed Issue(s)
-fixes #6389 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-11 23:53:57 +0000 UTC
     </div>
 </div>
 
