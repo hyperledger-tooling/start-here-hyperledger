@@ -14,6 +14,212 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6439" class=".btn">#6439</a>
+            </td>
+            <td>
+                <b>
+                    Only accept an address from a peer if it is a valid IP address
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+When using the `From` address specified by a peer, ensure it is a valid IP address. Otherwise revert to using the UDP source host.
+
+## Fixed Issue(s)
+See comment https://github.com/hyperledger/besu/pull/6225#issuecomment-1900243754
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 11:58:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6438" class=".btn">#6438</a>
+            </td>
+            <td>
+                <b>
+                    Fix changelog after incorrect merge of 6225
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+When https://github.com/hyperledger/besu/pull/6225 was updated with main before merging, the changelog entry remained in the old release
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 10:38:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6437" class=".btn">#6437</a>
+            </td>
+            <td>
+                <b>
+                    Log changes in BFT validators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+When the set of IBFT or QBFT validators changes between blocks, an `INFO` message is written listing the previous block number and its validators, as well as the pending block's number and validators.
+
+This serves as a useful indicator that BFT voting has completed for a change in validators.
+
+This log entry will not be written for public chain nodes so it should not introduce any unnecessary noise for public chain users. It isn't expected that validator changes in permissioned, BFT chains are likely to be so frequent that this log will be too noisy for those scenarios either.
+
+I considered making it a `DEBUG` message but since the validator list is key to how the BFT chain works, any changes (which as I've mentioned above aren't expected to be very frequent) are useful to an administrator/operator looking at just `INFO` logs.
+
+Example output for a change from 1 validator node to 2 validator nodes:
+
+```
+2024-01-19 09:49:37.099+00:00 | main | INFO  | MessageValidatorFactory | Validator list change. Previous chain height 590245: [0x44740bDE71Ff5e8cd08c58a721A38Aaf62779478]. Current chain height 590246: [0x11427D85C111024762b0f6df9bfC575f4303F588, 0x44740bDE71Ff5e8cd08c58a721A38Aaf62779478].
+
+```
+
+## Fixed Issue(s)
+No issue raised for this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 10:23:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6436" class=".btn">#6436</a>
+            </td>
+            <td>
+                <b>
+                    Implement "pending" for qbft_getValidatorsByBlockNumber
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+This PR adds support for "pending" as a string in qbft_getValidatorsByBlockNumber.
+
+It returns the validators for the block that is in the process of being mined.
+
+In certain stalled-chain scenarios where a new validator has been voted in but not enough validators are online to mine the next block, neither `qbft_getPendingVotes` nor `qbft_getValidatorsByBlockNumber("latest")` are useful since the vote is no longer pending, and the "latest" block is not the one that is failing to be mined. Similarly, `qbft_getValidatorsByBlockNumber(<next-block-number>)` cannot be used because the next block doesn't exist yet.
+
+"pending" already exists as a block string, but isn't implemented by most JSON/RPC methods. This is only the 2nd method that implements it I believe, but it seems like a valid interpretation of "pending" in this case. All other JSON/RPC methods will continue to revert to "latest" if "pending" is specified.
+
+## Fixed Issue(s)
+No issue raised for this.
+
+## Doc changes required
+
+- I think https://besu.hyperledger.org/public-networks/how-to/use-besu-api/json-rpc#block-parameter needs updating to say "Use only with [eth_getTransactionCount](https://besu.hyperledger.org/public-networks/reference/api#eth_gettransactioncount) and [qbft_getValidatorsByBlockNumber](https://besu.hyperledger.org/private-networks/reference/api#qbft_getvalidatorsbyblocknumber)"
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 10:07:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6435" class=".btn">#6435</a>
+            </td>
+            <td>
+                <b>
+                    24.1.1-RC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 08:34:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6432" class=".btn">#6432</a>
+            </td>
+            <td>
+                <b>
+                    prep for release 24.1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 06:27:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6431" class=".btn">#6431</a>
             </td>
             <td>
@@ -632,131 +838,6 @@ Upgrade Mockito to 5.8.0, that is a breaking change, and requires some code chan
     </table>
     <div class="right-align">
         Created At 2024-01-12 17:59:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6396" class=".btn">#6396</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Guava dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Upgrade Guava to 33.0.0, since it introduces a change in the Supplier class, the memory consumption estimation of a pending transaction has been updated to take in account the new layout of the class.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 11:16:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6395" class=".btn">#6395</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in SUPPORT.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-fix `Hyperlegder` to `Hyperledger`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 08:29:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6394" class=".btn">#6394</a>
-            </td>
-            <td>
-                <b>
-                    Trie log prune using TrieLogEvent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR aims to make the pruning logic async as this feature does not need to be in the synchronous.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Part of #5390 
-
-## Testing
-
-Tested locally on a small chain.
-
-Tested with a fresh holesky sync...
-
-TrieLogPruning happening on an EthSchedule-Services thread...
-```
-{"@timestamp":"2024-01-19T03:04:01,050","level":"TRACE","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"adding trie log to queue for later pruning blockNumber 765656; blockHash 0xfd2e15c6ed1d00ee050210f427869d9ff6773555e5b738888fd9855b3251ad31","throwable":""}
-{"@timestamp":"2024-01-19T03:04:01,050","level":"TRACE","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"min((chainHeadNumber: 765655 - numBlocksToRetain: 512) = 765143, finalized: 765587)) = retainAboveThisBlockOrFinalized: 765143","throwable":""}
-{"@timestamp":"2024-01-19T03:04:01,050","level":"TRACE","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"pruned 1 trie logs for blocks {765143=[0x607bc6df9eabdb70a153dc23983a384c62cfd05a46a60584716cc4114c6c0ba3]}","throwable":""}
-{"@timestamp":"2024-01-19T03:04:01,050","level":"DEBUG","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"pruned 1 trie logs from 1 blocks","throwable":""}
-{"@timestamp":"2024-01-19T03:04:01,052","level":"INFO","thread":"vert.x-worker-thread-0","class":"AbstractEngineNewPayload","message":"Imported #765,656 / 18 tx / 16 ws / base fee 1.04 gwei / 4,272,115 (14.2%) gas / (0xfd2e15c6ed1d00ee050210f427869d9ff6773555e5b738888fd9855b3251ad31) in 0.093s. Peers: 25","throwable":""}
-```
-
-Post sync, besu (on holesky) is only maintaining a single EthScheduler-Services thread so thread contention is low (it's a cachedThreadPool).
-<img width="821" alt="Screenshot 2024-01-19 at 1 06 04 pm" src="https://github.com/hyperledger/besu/assets/2893793/2f1689b0-0fe8-46d3-91bf-5376ddadfbc7">
-
-Tasks per second during and after sync...
-
-<img width="831" alt="Screenshot 2024-01-19 at 1 07 30 pm" src="https://github.com/hyperledger/besu/assets/2893793/2df0a059-a667-4126-a3dc-d343baa8e007">
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 07:50:35 +0000 UTC
     </div>
 </div>
 

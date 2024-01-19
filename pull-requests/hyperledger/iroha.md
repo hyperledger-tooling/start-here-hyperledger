@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4219" class=".btn">#4219</a>
+            </td>
+            <td>
+                <b>
+                    chain_id test was created
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 10:06:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4217" class=".btn">#4217</a>
             </td>
             <td>
@@ -492,113 +551,6 @@ Closes #4167
     </table>
     <div class="right-align">
         Created At 2024-01-12 12:53:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4198" class=".btn">#4198</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #4162: SignedTransaction is immutable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Remove `payload_mut` method which is considered harmful.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4162 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Don't break `SignedTransaction` invariant.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 10:57:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4196" class=".btn">#4196</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #4184: Bump to 2024-01-12 toolchain & Revert to custom Coveralls settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-1. Update `iroha2ci-image` to the latest nightly toolchain (`2024-01-12`).
-2. Bump `ci-contaier` in workflows to `hyperledger/iroha2-ci:nightly-2024-01-12`
-3. Revert to the custom base branch comparison for Coveralls
-
-### Linked issue
-#4184 #4131 
-
-### Benefits
-1. Use the freshest rust nightly toolchain in CI
-2. Attempt to normalize the Coveralls work
-
-### IMPORTANT NOTE
-Since we have updated the ci-image, WE MUST build and push it before the actual workflows will start to use it in CI. Previously we did it outside iroha repo (usually from forks) using the special HL DockerHub credentials that Hyperledger provided to us. Unfortunately, as Ry Jones told, they decided to remove these credentials since they can't continue to pay for that. Thus, we must to build and push the new ci-image asap when this PR will be merged.
-
-### UPD
-Ry Jones decided to give us one more year for external HL DockerHub account. So, the new ci-image 
-has been already pushed from my fork.
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 09:12:27 +0000 UTC
     </div>
 </div>
 

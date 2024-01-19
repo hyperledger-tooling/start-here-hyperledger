@@ -1,13 +1,13 @@
 
-[6431](https://github.com/hyperledger/besu/pull/6431) EOF Spec Updates
+[45](https://github.com/hyperledger-labs/perun-eth-backend/pull/45) Draft: Introduce Egoistic Funding 
 
-[852](https://github.com/hyperledger-labs/open-enterprise-agent/pull/852) feat: interoperable credential definition api
+[6439](https://github.com/hyperledger/besu/pull/6439) Only accept an address from a peer if it is a valid IP address
 
-[6427](https://github.com/hyperledger/besu/pull/6427) GitHub Actions CI/CD
+[6438](https://github.com/hyperledger/besu/pull/6438) Fix changelog after incorrect merge of 6225
 
-[402](https://github.com/hyperledger/fabric-ca/pull/402) Bump mysql to mysql-apt-config_0.8.29-1_all.deb
+[6437](https://github.com/hyperledger/besu/pull/6437) Log changes in BFT validators
 
-[401](https://github.com/hyperledger/fabric-ca/pull/401) Remove the Fabric 1.4 dependencies
+[6436](https://github.com/hyperledger/besu/pull/6436) Implement "pending" for qbft_getValidatorsByBlockNumber
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

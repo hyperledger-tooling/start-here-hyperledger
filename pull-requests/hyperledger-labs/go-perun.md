@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/393" class=".btn">#393</a>
-            </td>
-            <td>
-                <b>
-                    Expose protobuf converters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This exposes existing converters between protobuf types and various go-perun types.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 09:35:47 +0000 UTC
-    </div>
-</div>
-
