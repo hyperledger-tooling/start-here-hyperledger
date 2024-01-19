@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6431" class=".btn">#6431</a>
+            </td>
+            <td>
+                <b>
+                    EOF Spec Updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update a few EOF features based on updated spec
+* Add a prague reference test target
+* Run evmtool from prestate when no code specified
+* RETF and dangling immediate arg fixes
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 05:51:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6427" class=".btn">#6427</a>
             </td>
             <td>
@@ -696,38 +734,29 @@ Part of #5390
 
 Tested locally on a small chain.
 
-Will test with a fresh holesky sync.
+Tested with a fresh holesky sync...
+
+TrieLogPruning happening on an EthSchedule-Services thread...
+```
+{"@timestamp":"2024-01-19T03:04:01,050","level":"TRACE","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"adding trie log to queue for later pruning blockNumber 765656; blockHash 0xfd2e15c6ed1d00ee050210f427869d9ff6773555e5b738888fd9855b3251ad31","throwable":""}
+{"@timestamp":"2024-01-19T03:04:01,050","level":"TRACE","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"min((chainHeadNumber: 765655 - numBlocksToRetain: 512) = 765143, finalized: 765587)) = retainAboveThisBlockOrFinalized: 765143","throwable":""}
+{"@timestamp":"2024-01-19T03:04:01,050","level":"TRACE","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"pruned 1 trie logs for blocks {765143=[0x607bc6df9eabdb70a153dc23983a384c62cfd05a46a60584716cc4114c6c0ba3]}","throwable":""}
+{"@timestamp":"2024-01-19T03:04:01,050","level":"DEBUG","thread":"EthScheduler-Services-4","class":"TrieLogPruner","message":"pruned 1 trie logs from 1 blocks","throwable":""}
+{"@timestamp":"2024-01-19T03:04:01,052","level":"INFO","thread":"vert.x-worker-thread-0","class":"AbstractEngineNewPayload","message":"Imported #765,656 / 18 tx / 16 ws / base fee 1.04 gwei / 4,272,115 (14.2%) gas / (0xfd2e15c6ed1d00ee050210f427869d9ff6773555e5b738888fd9855b3251ad31) in 0.093s. Peers: 25","throwable":""}
+```
+
+Post sync, besu (on holesky) is only maintaining a single EthScheduler-Services thread so thread contention is low (it's a cachedThreadPool).
+<img width="821" alt="Screenshot 2024-01-19 at 1 06 04 pm" src="https://github.com/hyperledger/besu/assets/2893793/2f1689b0-0fe8-46d3-91bf-5376ddadfbc7">
+
+Tasks per second during and after sync...
+
+<img width="831" alt="Screenshot 2024-01-19 at 1 07 30 pm" src="https://github.com/hyperledger/besu/assets/2893793/2df0a059-a667-4126-a3dc-d343baa8e007">
+
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2024-01-12 07:50:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6392" class=".btn">#6392</a>
-            </td>
-            <td>
-                <b>
-                    reduce machine size for clique/BFT ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                same change as was made in #6384 for permissioning ATs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 04:26:13 +0000 UTC
     </div>
 </div>
 
