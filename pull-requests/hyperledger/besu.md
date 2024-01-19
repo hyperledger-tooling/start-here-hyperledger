@@ -91,7 +91,7 @@ This serves as a useful indicator that BFT voting has completed for a change in 
 
 This log entry will not be written for public chain nodes so it should not introduce any unnecessary noise for public chain users. It isn't expected that validator changes in permissioned, BFT chains are likely to be so frequent that this log will be too noisy for those scenarios either.
 
-I considered making it a `DEBUG` message but since the validator list is key to how the BFT chain works, any changes (which as I've mentioned above aren't expected to be very frequent) are useful to an administrator/operator looking at just `INFO` logs.
+I specifically didn't make it a `DEBUG` message since the validator list is key to how the BFT chain works, any changes to it are likely to be useful to an administrator/operator looking at just `INFO` logs, and as mentioned above these aren't expected to be very frequent.
 
 Example output for a change from 1 validator node to 2 validator nodes:
 
@@ -364,7 +364,7 @@ Both options were introduced in #6044, and are working fine since them, with the
             </td>
             <td>
                 <b>
-                    Upgrade prometheus
+                    Upgrade Prometheus and Opentelemetry dependencies
                 </b>
             </td>
         </tr>
@@ -377,6 +377,11 @@ Both options were introduced in #6044, and are working fine since them, with the
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Upgrade Prometheus and Opentelemetry dependencies, and adjust the code accordingly.
+
+Prometheus simpleclient upgrade introduces some changed, to follow the OpenMetrics specification, like adding the `_total` suffix to every counters that haven't it, and adding a `_created` suffixed metric to some types, while the latter is not an issue, the `_total` suffix is a breaking change, and requires an updated version of our official Grafana dashboard, that has been already [published here](https://grafana.com/grafana/dashboards/16455-besu-full/), and is compatible with both metrics names.
+Using the metrics by other means require a change to the tooling, for this a breaking change section has been added.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -803,41 +808,6 @@ fixes #6400
     </table>
     <div class="right-align">
         Created At 2024-01-14 21:50:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6397" class=".btn">#6397</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Mockito
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Upgrade Mockito to 5.8.0, that is a breaking change, and requires some code changes, in particular to avoid spying on maps.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 17:59:38 +0000 UTC
     </div>
 </div>
 
