@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4626" class=".btn">#4626</a>
+            </td>
+            <td>
+                <b>
+                    Re-add the RSA definitions to BCCSP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                BCCSP supported RSA in version 1.4. The Fabric CA is currently using the Fabric 1.4 dependency. It is necessary to move Fabric CA off of Fabric 1.4 dependencies since they are no longer maintained. Fabric 2.X does not support RSA, however the CA still needs to support RSA for any older but not expired certificates that may be in use by older netwo
+
+Github:
+https://github.com/hyperledger/fabric/issues/4625
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 19:14:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4623" class=".btn">#4623</a>
             </td>
             <td>
