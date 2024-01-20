@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
             </td>
             <td>
                 <b>
-                    init commit
+                    import protoutils from core fabric 
                 </b>
             </td>
         </tr>

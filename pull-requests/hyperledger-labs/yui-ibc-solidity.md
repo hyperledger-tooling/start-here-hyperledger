@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/243" class=".btn">#243</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/244" class=".btn">#244</a>
             </td>
             <td>
                 <b>
-                    Add `getSelfConsensusState` and verify self consensus state during the connection handshake
+                    ADR-001
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-02 07:16:05 +0000 UTC
+        Created At 2024-01-20 10:57:04 +0000 UTC
     </div>
 </div>
 
