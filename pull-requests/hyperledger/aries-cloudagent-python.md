@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2729" class=".btn">#2729</a>
+            </td>
+            <td>
+                <b>
+                    Update devcontainer documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Most of the documentation was pretty good but I tried to make it more obvious that this is a good option.
+
+- I added more configurations to make it more obvious you can deploy multiple agent debug sessions. 
+- You don't actually need to expose ports to access the admin api so I removed that stuff.
+- If you run your von-network and tails server from inside the dev container you can use local host and all the webhooks work as well.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 21:30:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2723" class=".btn">#2723</a>
             </td>
             <td>
@@ -110,7 +140,7 @@ Remove that exception and allow the recieve_problem_report to continue (and supp
             </td>
             <td>
                 <b>
-                    WIP: Breaking - remove endorser capability to write ledger transactions
+                    Breaking - remove endorser capability to write ledger transactions
                 </b>
             </td>
         </tr>
@@ -124,6 +154,8 @@ Remove that exception and allow the recieve_problem_report to continue (and supp
 I didn't remove the "request endorser to write transaction" flag.  In the author I hardcode to false.  In the endorser I raise an error if the author requests this function.  (Handles the case where the endorser is updated and the author isn't.)
 
 See issue #2711 
+
+There is some work to do on problem reports, I added a separate Issue for this task.
 
 
             </td>
@@ -203,7 +235,7 @@ Changed the devcontainer poetry version to match the version used to upgrade.
             </td>
             <td>
                 <b>
-                    WIP - Anoncreds schema endorsement
+                    Anoncreds schema endorsement
                 </b>
             </td>
         </tr>
@@ -212,11 +244,13 @@ Changed the devcontainer poetry version to match the version used to upgrade.
                 
             </td>
             <td>
-                Work in progress. Opening for visibility.
+                Adds the flow for schema endorsement.
 
-I think this is working well. I want to manual test more, add some unit tests and add integration tests where the author and endorser are configured with command arguments.
+The endorsement flow is triggered by the agent having an author role or by manually setting the `create_transaction_for_endorser` option request param.
 
-Possibly refactor.
+The anoncreds registry submits the transaction based on wallet type, and the post processing (storing the schema in the wallet) is triggered by the transaction manager using a new anoncreds schema event.
+
+The endorsement integration tests are run with anoncreds wallets on the endorser and author roles. Added unit tests mostly on the registry register schema flow. 
             </td>
         </tr>
     </table>
