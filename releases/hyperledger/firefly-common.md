@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
+                    v1.4.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.4.4
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Provide more flexibility on how EventStream specs are stored by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/120
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.4.3...v1.4.4
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.4.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-22 19:39:44 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.4.3
                 </b>
             </td>
