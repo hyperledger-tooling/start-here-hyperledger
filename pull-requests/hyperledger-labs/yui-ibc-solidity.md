@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/245" class=".btn">#245</a>
+            </td>
+            <td>
+                <b>
+                    Fix ICS-02 and LC interfaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 08:37:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/244" class=".btn">#244</a>
             </td>
             <td>
