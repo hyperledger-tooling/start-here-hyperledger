@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/fabric-protos
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.2
+                    v0.3.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.2
+                    v0.3.3
                 </span>
             </td>
             <td>
-                
+                Update Go dependencies
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.3.2" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.3.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-12-22 22:42:16 +0000 UTC
+        Created At 2024-01-21 21:35:21 +0000 UTC
     </span>
 </div>
 
