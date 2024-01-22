@@ -315,34 +315,3 @@ Adds a (failing) test for --emit-did-peer-x (not included in regular GHA run)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2710" class=".btn">#2710</a>
-            </td>
-            <td>
-                <b>
-                    Enable presentation issuance/verification through vc-api endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR enables presentation issuance and verification using the vc_ld manager and addresses #2693.
-
-There is also 4 new routes included matching the vc-api specification. (minor changes from the `/vc/ldp` endpoints, mostly key names and defaulting to `Ed25519Signature2018` `proofType` for issuance).
-@dbluhm could you help me by reviewing the changes I've made to the vc_ld manager and models? You will see I added an if condition in the `verify_presentation` section to enable `assertionMethod` purpose if no challenge is provided, while minimizing the impact on the existing code/workflows. I also improved the presentation models, based on the existing credential ones.
-
-I have a test instance of these changes running [here](https://agent.vc.opsec.id/api/doc#/vc-api).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 17:11:25 +0000 UTC
-    </div>
-</div>
-

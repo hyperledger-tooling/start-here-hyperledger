@@ -441,18 +441,18 @@ Fixes ATL-xxxx
 ## Checklist
 
 ### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
 * [ ] Bug fixes (non-breaking change which fixes an issue)
 * [ ] Improvements (misc. changes to existing features)
 * [ ] Features (non-breaking change which adds functionality)
 
 ### My changes...
 * [ ] are breaking changes
-* [ ] are not breaking changes
+* [x] are not breaking changes
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Documentation
-* [ ] My changes do not require a change to the project documentation
+* [x] My changes do not require a change to the project documentation
 * [ ] My changes require a change to the project documentation
 * [ ] If yes to above: I have updated the documentation accordingly
 
@@ -521,116 +521,6 @@ Fixes ATL-6074
     </table>
     <div class="right-align">
         Created At 2024-01-16 10:08:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/845" class=".btn">#845</a>
-            </td>
-            <td>
-                <b>
-                    feat(pollux): Create credentials with embedded proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">shared</span>
-            </td>
-            <td>
-                This commit adds a way to sign arbitrary data in jwt library, and use this functinality to create embeded proof credentials out of credential payload
-
-# Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes ATL-xxxx
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 13:59:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/844" class=".btn">#844</a>
-            </td>
-            <td>
-                <b>
-                    Feature/rebased performance test http lib
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">mercury</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes ATL-xxxx
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 12:56:22 +0000 UTC
     </div>
 </div>
 
