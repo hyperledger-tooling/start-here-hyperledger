@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                <nil>
+                https://github.com/hyperledger-labs/yui-ibc-solidity/blob/adr-001/docs/adr/adr-001.md
             </td>
         </tr>
     </table>

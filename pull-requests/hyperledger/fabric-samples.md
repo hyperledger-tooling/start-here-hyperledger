@@ -85,29 +85,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1169" class=".btn">#1169</a>
-            </td>
-            <td>
-                <b>
-                    Fix certPath in assetTransfer.go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Following the latest tutorial, the current version of network.sh does not generate `cert.pem` as filename under `msp/signcerts` but instead created `User1@org1.example.com-cert.pem`. I have edited the application file to reflect such difference.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 01:32:59 +0000 UTC
-    </div>
-</div>
-
