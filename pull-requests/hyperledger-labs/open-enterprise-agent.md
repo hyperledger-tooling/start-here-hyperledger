@@ -484,7 +484,7 @@ Fixes ATL-6074
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span>
+                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">shared</span>
             </td>
             <td>
                 This commit adds a way to sign arbitrary data in jwt library, and use this functinality to create embeded proof credentials out of credential payload

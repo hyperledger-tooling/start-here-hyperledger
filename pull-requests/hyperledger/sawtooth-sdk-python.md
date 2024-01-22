@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/43" class=".btn">#43</a>
-            </td>
-            <td>
-                <b>
-                    Change to async function instead of coroutine decorator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #41
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-14 19:58:48 +0000 UTC
-    </div>
-</div>
-
