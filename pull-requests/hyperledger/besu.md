@@ -783,31 +783,3 @@ fixes #6386
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6401" class=".btn">#6401</a>
-            </td>
-            <td>
-                <b>
-                    log a different warning if pruning is enabled with BONSAI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                log "ignored" if enabled with BONSAI vs "deprecated" if enabled with FOREST
-
-fixes #6400
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-14 21:50:00 +0000 UTC
-    </div>
-</div>
-
