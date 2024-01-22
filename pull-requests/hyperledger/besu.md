@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6441" class=".btn">#6441</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that Bonsai tests with Key Value storage are using Bonsai data configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Ensure that Bonsai tests with Key Value storage are using Bonsai data configuration. As these key-value storage are explicit with Bonsai classes this doesn't cause an issue using the default forest config but for readability, it is better to use the Bonsai data storage configuration.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 01:43:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6439" class=".btn">#6439</a>
             </td>
             <td>
@@ -671,115 +705,6 @@ increase `no_output_timeout` to 30min
     </table>
     <div class="right-align">
         Created At 2024-01-15 07:02:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6405" class=".btn">#6405</a>
-            </td>
-            <td>
-                <b>
-                    SNAP and CHECKPOINT sync modes - now production ready
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * prefer SNAP and CHECKPOINT
-* still support X_SNAP and X_CHECKPOINT - mark for deprecation in 24.4.0
-* all help and log messages now use SNAP and CHECKPOINT
-
-refs #6311 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 04:38:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6404" class=".btn">#6404</a>
-            </td>
-            <td>
-                <b>
-                    Bonsai keyvalue refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This refactors `BonsaiWorldStateKeyValueStorage` so it is easier to pass configuration into Bonsai and remove the need to pass in individual flags for features. I've moved the FlatDB construction and management out into a new class `FlatDbStrategyProvider` and this can be created just once and simplifies the creation of the `BonsaiWorldStateKeyValueStorage` with less args to be passed around each time it is created.
-
-- Splits out the FlatDbStrategy construction and flatDb management from the BonsaiWorldStateKeyValueStorage into a new class FlatDbStrategyProvider
-- Passes through the DataStorageConfiguration to FlatDbStrategyProvider instead of just the boolean flag
-
-By splitting out the FlatDbStrategy I can simplify the constructor arguments to the BonsaiWorldStateKeyValueStorage quite a bit as I can create the FlatDbStrategyProvider in the KeyValueStorageProvider once with its arguments instead of repassing those into the BonsaiWorldStateKeyValueStorage each time we create an instance of it.
-
-Note: The DataStorageConfiguration parameter isn't used in the FlatDbStrategyProvider but will be used in a subsequent PR to add the code storage by code hash functionality.
-
-### Testing
-- Checkpoint sync on Goerli
-- Checkpoint sync on Mainnet
-- Checkpoint sync with flat healing enabled on Goerli
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 03:08:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6403" class=".btn">#6403</a>
-            </td>
-            <td>
-                <b>
-                    Snap sync downloader logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * use non-static logger field so that SnapSyncDownloader will own the logging lines
-   * Note this is a departure from the standard Logger field used elsewhere in the codebase. However it is flagged by the annotation so it's obvious. Couldn't think of a nicer way to do this but open to suggestions
-* rename SnapsyncMetricsManager to SnapSync... for consistency
-* rename FastImportBlockStep to ImportBlockStep
-* rename SyncTargetManager to AbstractSyncTargetManager and FastSyncTargetManager to SyncTargetManager
-* rename FastSyncException to SyncException
-
-fixes #6386 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 01:24:21 +0000 UTC
     </div>
 </div>
 
