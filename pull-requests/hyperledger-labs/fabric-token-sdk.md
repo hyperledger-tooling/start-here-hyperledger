@@ -88,30 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/531" class=".btn">#531</a>
-            </td>
-            <td>
-                <b>
-                    identity storage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR extends the `StorageProvider` to add support for `WalletPathStorage` and `keystore.KVS`.
-This further reduces direct dependency to the FSC's KVS.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 09:10:49 +0000 UTC
-    </div>
-</div>
-

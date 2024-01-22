@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6443" class=".btn">#6443</a>
+            </td>
+            <td>
+                <b>
+                    Disconnect worst peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+In AbstractRetryingSwitchingPeerTask.java the method refreshPeers() we are now disconnecting the least useful peer. 
+Another change is that now the peer table is refreshed until we have reached our maxPeers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 08:22:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6441" class=".btn">#6441</a>
             </td>
             <td>
@@ -673,38 +701,6 @@ fixes #6410
     </table>
     <div class="right-align">
         Created At 2024-01-16 02:15:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6406" class=".btn">#6406</a>
-            </td>
-            <td>
-                <b>
-                    cliqueBft AT task flakiness - extend no_output_timeout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                task is flaky eg 20 min with no response https://app.circleci.com/pipelines/github/hyperledger/besu/26348/workflows/3c01f02c-3127-4b9c-965f-a869096ef3a5/jobs/173374 and https://app.circleci.com/pipelines/github/hyperledger/besu/26350/workflows/1c5f785f-f62b-4fa7-97cf-097dde63325c/jobs/173389
-
-increase `no_output_timeout` to 30min
-
-~~reverts #6392 - seems to have caused flakiness~~ 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-15 07:02:01 +0000 UTC
     </div>
 </div>
 
