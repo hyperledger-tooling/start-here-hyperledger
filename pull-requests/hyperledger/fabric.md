@@ -14,6 +14,118 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4634" class=".btn">#4634</a>
+            </td>
+            <td>
+                <b>
+                    Re-add the RSA definitions to BCCSP - RSA implementation additional c…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                BCCSP supported RSA in version 1.4. The Fabric CA is currently using the Fabric 1.4 dependency. It is necessary to move Fabric CA off of Fabric 1.4 dependencies since they are no longer maintained. Fabric 2.X does not support RSA, however the CA still needs to support RSA for any older but not expired certificates that may be in use by older netwo
+
+Github:
+https://github.com/hyperledger/fabric/issues/4625
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 23:27:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4633" class=".btn">#4633</a>
+            </td>
+            <td>
+                <b>
+                    Check the TLS.Config error immediately
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The patchset checks the TLS.Config()'s potential return error immediately.
+
+Change-Id: I16a39e0f0152179300d5626ffdffb5b2d16f5a6d
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset checks the TLS.Config()'s potential return error immediately after it is initialized. 
+
+This is to follow Golang's style.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 23:01:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4632" class=".btn">#4632</a>
+            </td>
+            <td>
+                <b>
+                    Fix docs that link to .md files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Docs should link to the .html file rather than the .md file in order to get resolved.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 22:38:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4631" class=".btn">#4631</a>
             </td>
             <td>
