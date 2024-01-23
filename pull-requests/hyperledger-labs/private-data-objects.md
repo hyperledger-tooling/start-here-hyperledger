@@ -68,14 +68,17 @@ Some important points and things to be discussed:
             </td>
             <td>
                 A few minor improvements in docker code to
-- make tagging more consistent between docker & docker-compose
-- allow for client shell to scale to your terminal
-- define a few more env variables for client
-- some additional docker stop make targets
+- docker & docker-compose consistent
+  -  consistent tagging
+  -  build only via docker to prevent double builds
+  - consistent support of ADD_APT_PKGS
+- some additional docker related make targets, e.g., additional stop targets, test without complete rebuild and _dev targets to setup development containers
+- outsource the variable checks in common.sh to a separate `check_pdo_env` function so sourcing common.sh does not have side-effect (and gives in some cases misleading error messages)
+- some minor dockerfile changes to be more consistent
 
 BTW: in readme i've noticed we suggest in our examples to put user-name into container names. This seems a wise idea for multi-user settings. Should we also adopt it in the makefiles?  Easy to do but haven't changed it yet as i'm not sure if some other places count on the container names being what they are ...
+Along the lines, the might include in name in container (and, more importantly, image) also SGX-mode (where also hw-mode in testing seems to have gone lost but see also PR#463, interpreter, ledger, ...?
 
-PS: What still happens right now is that depending on whether end containers are built via docker or docker-compose they will result in slightly different builds. Dont think anything is truly funcitonally different, primarily a space and build time-issue, although might be worth while maybe eventually use docker-compose build instead of docker build for building the "leaf-containers"? (With current setup, base containers always have to be built via docker although one could in principle also adopt docker-compose to build them so we could consistently build everything with docker-compose? Though  probably not worth the effort ...)
             </td>
         </tr>
     </table>
