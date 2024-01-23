@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/536" class=".btn">#536</a>
+            </td>
+            <td>
+                <b>
+                    remove parallel flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes the `SerializedPersistence` struct used to add multi-thread supports to sql drivers that do not support that. It will be responsibility of the application to use a proper driver with multi-thread support.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-23 11:53:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/535" class=".btn">#535</a>
             </td>
             <td>
