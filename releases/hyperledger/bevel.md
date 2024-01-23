@@ -15,46 +15,58 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    v0.15.1
+                    Bevel Release 1.0.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.15.1
+                    v1.0.0.0
                 </span>
             </td>
             <td>
-                Pre 1.0.0 Release for older features
-## What's Changed
-* [chore] Document redesign first pass by @sownak in https://github.com/hyperledger/bevel/pull/2448
-* hotfix: quorum tessera fix by @suvajit-sarkar in https://github.com/hyperledger/bevel/pull/2450
-* [fabric] Update adding a new channel by @mgCepeda in https://github.com/hyperledger/bevel/pull/2452
-* updated repo readme platform overview images by @suvajit-sarkar in https://github.com/hyperledger/bevel/pull/2455
-* [shared] update bevel-vault.sh script for sh shell compatibility by @saurabhkumarkardam in https://github.com/hyperledger/bevel/pull/2458
-* [fabric] Chaincode commit not working by @mgCepeda in https://github.com/hyperledger/bevel/pull/2459
-* [fabric] init required in the chaincode by @adityajoshi12 in https://github.com/hyperledger/bevel/pull/2460
-* [fabric] Hotfix init required by @mgCepeda in https://github.com/hyperledger/bevel/pull/2463
-* [r3-corda-ent] enable DLT deployment via GitHub Workflow & Action by @saurabhkumarkardam in https://github.com/hyperledger/bevel/pull/2461
-* fix(fabric): correct path for core.yaml file; remove cc ops from site.yaml by @suvajit-sarkar in https://github.com/hyperledger/bevel/pull/2466
-* [quorum] enable DLT deployment via GitHub Workflow & Action by @saikumarbommakanti in https://github.com/hyperledger/bevel/pull/2462
-* feat(besu): enable DLT deployment via GitHub Workflow & Action. by @sailajakommineni in https://github.com/hyperledger/bevel/pull/2464
-* fix(indy): add func to prevent injection in indy identity gen script by @suvajit-sarkar in https://github.com/hyperledger/bevel/pull/2467
-* chore: merge from main by @suvajit-sarkar in https://github.com/hyperledger/bevel/pull/2469
-* [fabric] Allow invoke chaincode job to run by @mgCepeda in https://github.com/hyperledger/bevel/pull/2468
-* chore: pre-release merge  by @suvajit-sarkar in https://github.com/hyperledger/bevel/pull/2470
+                ## What's new in Bevel
+- Documentation redesigned and restructured
+- Support for Fabric v2.5 network deployment and operations
+- Network deployment and operations using GitHub actions workflow 
+- Standalone helm charts
 
+## New Features
+- HL Besu
+  - Deployment using just Bevel Besu helm charts
+  - Deployment without hashicorp vault
+- HL Fabric 
+  - External chaincode deployment on version v2.5
+  - Chaincode upgrade/update for external chaincode
+ 
+## Deprecation
+- No active support for older versions of Bevel (below v0.15.0)
+- Raft and Ethash consensus support removed from Besu
+- Support on Kubernetes below v1.23
+- Support for lets encrypt for tls cert creation
+  
+## Known issues
+- Corda-ent deployment using firewall 
+## Major Bug Fixes
+- bug(share) ServiceAccount and ClusterRoleBinding are removed on second run #2443
 
-**Full Changelog**: https://github.com/hyperledger/bevel/compare/v0.15.0.0...v0.15.1
+## Improvements
+- Spell and Grammar linting workflow
+- bevel-vault script updated for shell compatibility
+- indy-key-mgmt. script update to prevent injections
+
+## Documentation
+- Playbook and role inline comments
+- Helm chart Readme
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/v0.15.1" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/v1.0.0.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-01-09 16:54:43 +0000 UTC
+        Created At 2024-01-23 10:09:17 +0000 UTC
     </span>
 </div>
 
