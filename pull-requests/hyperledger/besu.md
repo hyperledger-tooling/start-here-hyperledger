@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6423" class=".btn">#6423</a>
+            </td>
+            <td>
+                <b>
+                    Promote block txs selection max time options to stable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Promote block txs selection max time options to stable.
+Both options were introduced in #6044, and are working fine since them, with the promotion the hard caps have been removed since that could be an issue with existing networks that are used to have longer block creation times.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 13:46:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6422" class=".btn">#6422</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Prometheus and Opentelemetry dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Upgrade Prometheus and Opentelemetry dependencies, and adjust the code accordingly.
+
+Prometheus simpleclient upgrade introduces some changed, to follow the OpenMetrics specification, like adding the `_total` suffix to every counters that haven't it, and adding a `_created` suffixed metric to some types, while the latter is not an issue, the `_total` suffix is a breaking change, and requires an updated version of our official Grafana dashboard, that has been already [published here](https://grafana.com/grafana/dashboards/16455-besu-full/), and is compatible with both metrics names.
+Using the metrics by other means require a change to the tooling, for this a breaking change section has been added.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 13:04:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6419" class=".btn">#6419</a>
+            </td>
+            <td>
+                <b>
+                    Downgrade rocksdbjni to 8.3.2 following FOREST bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bug introduced by upgrading to 8.9.1 in  [`9b7efb9` (#6377)](https://github.com/hyperledger/besu/pull/6377/commits/9b7efb9ed62789efd4f7d048d221871d73e50d9b)
+
+This is a revert of that specific dependency, will need further work to fix FOREST + 8.9.1+
+
+Tested on the canary that found the bug: prd-elc-besu-prysm-mainnet-nightly-forest-snap
+and synced a fresh FOREST and BONSAI node on holesky.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-17 05:43:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6418" class=".btn">#6418</a>
             </td>
             <td>
@@ -91,76 +197,6 @@ Built on #5392 with the latest main changes merged in so can do testing on some 
     </table>
     <div class="right-align">
         Created At 2024-01-17 00:31:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6415" class=".btn">#6415</a>
-            </td>
-            <td>
-                <b>
-                    use reference tests to verify trielog generation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR use reference tests to validate trielog generation. Like that we will validate our trielog generation for all of the tests we have in the references tests suite for past and future EIPs
-
-I was able to validate that this PR can detect the issues we had before on mainnet by running this test "GeneralStateTests/stSStoreTest/InitCollision.json" with and without [the last ](https://github.com/hyperledger/besu/pull/6359) fix
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-16 16:11:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6414" class=".btn">#6414</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade tech.pegasys.discovery:discovery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-16 13:53:39 +0000 UTC
     </div>
 </div>
 
