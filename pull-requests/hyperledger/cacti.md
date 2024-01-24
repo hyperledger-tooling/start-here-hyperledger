@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2979" class=".btn">#2979</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2980" class=".btn">#2980</a>
             </td>
             <td>
                 <b>
-                    refactor(cactus-core): catch block get-open-api-spec-v1-endpoint-base
+                    fix(weaver): upgraded Corda dependencies to overcome Log4j vulnerability
                 </b>
             </td>
         </tr>
@@ -27,20 +27,10 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                    1. The GetOpenApiSpecV1EndpointBase<S, P> class now has the request
-    handler migrated to the new error handling mechanism that automatically
-    differentiates between HTTP statuses of 4xx and 5xx.
-    2. The register-web-service-endpoint utility function uses the new error
-    handling utilities as well, but on the lower level, e.g. it coerces unknown
-    errors to RuntimeError instances to minimize the risk of information loss
-    when re-throwing the inner exception with more context attached to it.
-    3. The consensus-has-transaction-finality file was similarly migrated
-    to the new error handling mechanisms.
-    4. A dependency to the cactus-core package was added for the easier handling
-    of HTTP specific errors. The http-errors-enhanced-cjs package contains
-    useful shorthands for HTTP-aware error handling and can be used in common
-    JS environments instead of being constrainted to ESM only like the original
-    library.
+                - Updated Corda package dependencies from 4.8 to 4.8.11, in which the vulnerability was fixed.
+- Upgraded Gradle from 5.6.4 to 7.5 to manage the Corda updates.
+- Downloaded Clikt dependency directly from Maven Central to avoid variant ambiguities in Corda Simple Application.
+- Fixed formatting in shell scripts to ensure that the shell command directive was in Line 1.
 
 **Pull Request Requirements**
 - [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
@@ -57,7 +47,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-16 16:19:22 +0000 UTC
+        Created At 2024-01-17 13:23:32 +0000 UTC
     </div>
 </div>
 

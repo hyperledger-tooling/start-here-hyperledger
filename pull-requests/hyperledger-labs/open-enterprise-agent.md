@@ -326,30 +326,36 @@ Cleanup old experiments
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes ATL-xxxx
+Previous to this PR, when using ZIO HTTP RC2 - we saw a very long delay when making HTTP requests (>2 seconds for each request) - we identified that this was not only an issue with the version of ZIO HTTP we were using but also how it was managing creating connections and closing them - essentially every request was creating and closing a connection object.
+
+After, with upgrading to ZIO HTTP RC4 and refactoring the ZIO layer composition for scope and client, we now see requests completing within 100 ms as closing connections doesn't happen with every request
+
+Also included in this PR are several improvements to the performance testing framework for error handling when polling background jobs and for managing exceptions when deserialising JSON - previously, any exception thrown was not counted as a failure in the test execution and dropped - now - metrics are available for when the background job does not complete a state transition within the given number of polls 
+
+Fixes ATL-6318
 
 ## Checklist
 
 ### My PR contains...
 * [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
+* [x] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
 * [ ] Features (non-breaking change which adds functionality)
 
 ### My changes...
 * [ ] are breaking changes
-* [ ] are not breaking changes
+* [x] are not breaking changes
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Documentation
-* [ ] My changes do not require a change to the project documentation
+* [x] My changes do not require a change to the project documentation
 * [ ] My changes require a change to the project documentation
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Tests
 * [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
+* [x] My changes can and should be tested by unit and/or integration tests
+* [x] If yes to above: I have added tests to cover my changes
 * [ ] If yes to above: I have taken care to cover edge cases in my tests
 
             </td>
@@ -467,60 +473,6 @@ Fixes ATL-6074. Add test configuration where `Admin` and `Tenant` has role assig
     </table>
     <div class="right-align">
         Created At 2024-01-17 12:39:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/847" class=".btn">#847</a>
-            </td>
-            <td>
-                <b>
-                     docs: add adr Error Handling Report Problem [skip ci]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes ATL-xxxx
-
-## Checklist
-
-### My PR contains...
-* [x] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 11:29:10 +0000 UTC
     </div>
 </div>
 

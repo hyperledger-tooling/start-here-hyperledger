@@ -1,13 +1,13 @@
 
-[810](https://github.com/hyperledger/aries-rfcs/pull/810) Update Unqualified DIDs CCU Status
+[129](https://github.com/hyperledger-labs/hlf-connector/pull/129) Increment version after release
 
-[94](https://github.com/hyperledger/fabric-chaincode-go/pull/94) Bump google.golang.org/grpc from 1.54.0 to 1.61.0
+[128](https://github.com/hyperledger-labs/hlf-connector/pull/128) Revert patches introduced for build tasks
 
-[6455](https://github.com/hyperledger/besu/pull/6455) ignore bws sync requests until initial sync is complete
+[162](https://github.com/hyperledger-labs/fabric-operator/pull/162) Added Operator Version in debug logs
 
-[2732](https://github.com/hyperledger/aries-cloudagent-python/pull/2732) 0.12.0rc0
+[161](https://github.com/hyperledger-labs/fabric-operator/pull/161) Changes to Log Operator Version in debug logs
 
-[2731](https://github.com/hyperledger/aries-cloudagent-python/pull/2731) Relax validation of holder DID when submitting a credential request
+[596](https://github.com/hyperledger-labs/fabric-operations-console/pull/596) API key test cases from console
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
