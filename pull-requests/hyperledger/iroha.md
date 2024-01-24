@@ -122,7 +122,7 @@ Data driven approach to optimization.
             </td>
             <td>
                 <b>
-                    chain_id test was created
+                    [refactor] #4126: test to prevent cross chain replay attacks
                 </b>
             </td>
         </tr>
@@ -465,67 +465,6 @@ Closes #4211 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-01-17 18:53:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4203" class=".btn">#4203</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #4183: change endpoint to return single matching transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Update endpoint that returned `Vec<SignedTransaction>` to return `Option<SignedTransaction>` instead.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4183 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-It decreases the amount of traffic through the network and removes the necessity for the batching of the pending transactions.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-16 19:40:57 +0000 UTC
     </div>
 </div>
 

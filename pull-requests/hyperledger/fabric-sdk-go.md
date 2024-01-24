@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/281" class=".btn">#281</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/288" class=".btn">#288</a>
             </td>
             <td>
                 <b>
-                    Transition CI from Azure Pipelines to GitHub Actions
+                    Deprecate fabric-sdk-go
                 </b>
             </td>
         </tr>
@@ -27,15 +27,40 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                Transition CI from Azure Pipelines to GitHub Actions
+                Deprecate fabric-sdk-go announcement.
 
-#### Related Issues:
-- #280
+See announcement at https://lists.hyperledger.org/g/fabric/message/11754
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-03 04:02:56 +0000 UTC
+        Created At 2024-01-23 04:14:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/287" class=".btn">#287</a>
+            </td>
+            <td>
+                <b>
+                    Import cert sanitation fix from fabric main repo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There was a fix https://github.com/hyperledger/fabric/pull/3774 provided for Fabric to fix the issue after upgrading to Golang v1.19, which changed the verification of the certs chain. This fix is essential to be able to run with fabric-sdk-go; otherwise, it will fail certification validation. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 21:35:15 +0000 UTC
     </div>
 </div>
 
