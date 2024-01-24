@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Retire Anne, Darian and Logan from maintainers and codeowners
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
                 
             </td>
             <td>
-                They have previously indicated they wished to be retired.
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 15:24:07 +0000 UTC
+        Created At 2024-01-24 18:04:22 +0000 UTC
     </div>
 </div>
 

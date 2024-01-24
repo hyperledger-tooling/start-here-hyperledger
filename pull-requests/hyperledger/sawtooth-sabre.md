@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/200" class=".btn">#200</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/201" class=".btn">#201</a>
             </td>
             <td>
                 <b>
-                    Fix lint introduced in 1.71.0 Rust
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                <nil>
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 17:32:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/199" class=".btn">#199</a>
-            </td>
-            <td>
-                <b>
-                    Retire Logan from maintainers and codeowners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                They have previously indicated they wished to be retired.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-07-21 15:30:42 +0000 UTC
+        Created At 2024-01-24 18:04:25 +0000 UTC
     </div>
 </div>
 

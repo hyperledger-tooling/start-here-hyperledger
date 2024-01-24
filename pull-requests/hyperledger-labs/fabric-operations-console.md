@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/597" class=".btn">#597</a>
+            </td>
+            <td>
+                <b>
+                    fix mutual tls reqs with axios http lib
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- fixes https requests that require mutual tls. Such as the orderer's channel participation apis. These APIs were failing because our `request` module replacement, `axios`, was not sending the client side tls cert.
+
+- fixes our error response handling of the channel participation api `getOSNChannel`. will now correctly indicate an error occured.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 18:17:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/596" class=".btn">#596</a>
             </td>
             <td>

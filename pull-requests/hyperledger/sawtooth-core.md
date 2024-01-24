@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2463" class=".btn">#2463</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2468" class=".btn">#2468</a>
             </td>
             <td>
                 <b>
-                    Fix PartialOrd implementation for prune candidate
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                Signed-off-by: Joseph Livesey [jlivesey@gmail.com](mailto:jlivesey@gmail.com)
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-10-12 14:38:00 +0000 UTC
+        Created At 2024-01-24 18:04:14 +0000 UTC
     </div>
 </div>
 

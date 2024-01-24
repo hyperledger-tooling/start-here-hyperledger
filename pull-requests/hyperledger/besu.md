@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6458" class=".btn">#6458</a>
+            </td>
+            <td>
+                <b>
+                    silence dns query error warning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Temporary measure to silence the DNS query WARN errors until we can get an upstream library change in tuweni-dns-discovery
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #6070 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 18:11:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6456" class=".btn">#6456</a>
+            </td>
+            <td>
+                <b>
+                    Add broadcast address to PingPacketData from filter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+address another pathological default PingPacketData from address we are seeing on mainnet - a broadcast address 255.255.255.255 seems to be a default value for some implementations.
+
+For example we are seeing a lot of these log lines on mainnet:
+```
+{
+   "@timestamp":"2024-01-24T06:18:16,129",
+   "level":"WARN",
+   "thread":"vert.x-eventloop-thread-3",
+   "class":"VertxPeerDiscoveryAgent",
+   "message":"Sending to peer DiscoveryPeer{status=bonding, enode=enode://5d01e72875f3485fdcce5255720696087ea7d704c6632282fbe39329db6417a6f5ef940cf05519677be7f9c31b6b553fe9192e9e9feed37db3fb97bcc7fd099e@255.255.255.255:30313, firstDiscovered=1706077069751, lastContacted=0, lastSeen=1706077069751} failed, native error code -13, packet: 0x3123aed37feabe25bd4cc2625a1d1e2b12a5a1bbe6f3ef594c1ea76abbfbae670ab30477655186a5a3bf4487f2fa183807dad26037e950e89cc07ba20eaf229437e69c2e56d44fe934082147098ca4a0bd99964d67d2046789d080f69d5be2c60101df05cb8489757c7882765f82765fcb84ffffffff8276698276698465b0abe402, stacktrace: io.netty.channel.unix.Errors$NativeIoException: sendToAddress(..) failed: Permission denied",
+   "throwable":""
+}
+```
+
+the functional change is minimal, but rearranges the host detection to be in a unit testable method.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to #6224 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 15:45:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6455" class=".btn">#6455</a>
             </td>
             <td>
@@ -32,7 +117,10 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
-Draft PR to verify impact of concurrent BWS on syncing nodes
+Ensure we do not attempt to start BWS sessions if initial sync has not yet completed.  This change prevents BWS from triggering via engine-api during:
+* initial sync
+* auto-heal
+* resync worldstate
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -676,81 +764,6 @@ Fixes discord bug found by protoplanetary
     </table>
     <div class="right-align">
         Created At 2024-01-18 02:25:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6423" class=".btn">#6423</a>
-            </td>
-            <td>
-                <b>
-                    Promote block txs selection max time options to stable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Promote block txs selection max time options to stable.
-Both options were introduced in #6044, and are working fine since them, with the promotion the hard caps have been removed since that could be an issue with existing networks that are used to have longer block creation times.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 13:46:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6422" class=".btn">#6422</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Prometheus and Opentelemetry dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Upgrade Prometheus and Opentelemetry dependencies, and adjust the code accordingly.
-
-Prometheus simpleclient upgrade introduces some changed, to follow the OpenMetrics specification, like adding the `_total` suffix to every counters that haven't it, and adding a `_created` suffixed metric to some types, while the latter is not an issue, the `_total` suffix is a breaking change, and requires an updated version of our official Grafana dashboard, that has been already [published here](https://grafana.com/grafana/dashboards/16455-besu-full/), and is compatible with both metrics names.
-Using the metrics by other means require a change to the tooling, for this a breaking change section has been added.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 13:04:08 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,91 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4235" class=".btn">#4235</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #4234: Iroha 2 README YAC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A one-liner solution for https://github.com/hyperledger/iroha/issues/4234:
+
+> It seems I1 README is being displayed. I intend to add a small link to iroha.tech and ignore a [whitepaper](https://github.com/hyperledger/iroha/blob/iroha2-dev/docs/source/iroha_2_whitepaper.md#28-consensus) as it may be revised.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 14:07:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4233" class=".btn">#4233</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: #4231 Update MAINTAINERS (dev branch)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Let's replace `iroha2-dev` MAINTAINERS file with a fresh version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 12:49:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4232" class=".btn">#4232</a>
+            </td>
+            <td>
+                <b>
+                    [chore] #4231: Update MAINTAINERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Vladislav Amuzinski is now with us, but Vladimir and Ilia aren't working on Iroha anymore.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 12:42:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4221" class=".btn">#4221</a>
             </td>
             <td>
                 <b>
-                    [ci]: Add glibc image publishing workflow & add coverage upload to Codecov
+                    [ci]: Add glibc image publishing workflow
                 </b>
             </td>
         </tr>
@@ -30,7 +110,6 @@ permalink: /pull-requests/hyperledger/iroha
                 ## Description
 1. Add `I2::GLIBC::Publish` worflow
 2. Update `I2::CI::Publish` to make this parameterized
-3. Take back `Codecov` action
 
 ### Linked issue
 #4131 #4083 
@@ -39,7 +118,6 @@ permalink: /pull-requests/hyperledger/iroha
 
 1. Build and push iroha2 `glibc` image manually
 2. Make `I2::CI::Publish` workflow parameterized
-3. Compare `Codecov` coverage results with `Coveralls` if it works better
 
 ### Checklist
 
