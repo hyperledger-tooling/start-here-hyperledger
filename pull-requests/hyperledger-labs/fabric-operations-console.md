@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/596" class=".btn">#596</a>
+            </td>
+            <td>
+                <b>
+                    API key test cases from console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+API key test cases from console
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 06:55:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/593" class=".btn">#593</a>
             </td>
             <td>

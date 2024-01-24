@@ -706,34 +706,3 @@ This change does **NOT** impact users of Fabric, nor shall it impact the functio
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4612" class=".btn">#4612</a>
-            </td>
-            <td>
-                <b>
-                    Malicious Block Deliverer Test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Test update: Add a test that will checkout how the block deliverer acts with a malicious orderer in the network.
-
-- Description: The test creates a network, creates blocks on the chain, replaces the orderers with mocks and communicates with the peer.
-
-<arkadi.piven@ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 11:02:53 +0000 UTC
-    </div>
-</div>
-

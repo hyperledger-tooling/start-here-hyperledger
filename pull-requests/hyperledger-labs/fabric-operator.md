@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/160" class=".btn">#160</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/162" class=".btn">#162</a>
             </td>
             <td>
                 <b>
-                    Updating hsm config name
+                    Added Operator Version in debug logs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                This PR addresses the renaming for the hsm configs
+                Added Logs for Operator
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-11 20:39:29 +0000 UTC
+        Created At 2024-01-24 09:25:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    Changes to Log Operator Version in debug logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 08:24:47 +0000 UTC
     </div>
 </div>
 
