@@ -47,14 +47,14 @@ permalink: /releases/hyperledger/bevel
 - Support for lets encrypt for tls cert creation
   
 ## Known issues
-- Corda-ent deployment using firewall 
+- Corda Enterprise deployment using firewall 
 ## Major Bug Fixes
 - bug(share) ServiceAccount and ClusterRoleBinding are removed on second run #2443
 
 ## Improvements
 - Spell and Grammar linting workflow
 - bevel-vault script updated for shell compatibility
-- indy-key-mgmt. script update to prevent injections
+- indy-key-mgmt script update to prevent injections
 
 ## Documentation
 - Playbook and role inline comments
@@ -63,6 +63,146 @@ permalink: /releases/hyperledger/bevel
         </tr>
     </table>
     <a href="https://github.com/hyperledger/bevel/releases/tag/v1.0.0.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-23 10:09:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-tlscert-gen-1.0.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-tlscert-gen-1.0.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Generates and stores TLS certificates for nodes and tessera
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-tlscert-gen-1.0.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-23 10:09:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-tessera-node-1.0.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-tessera-node-1.0.1
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Deploys Tessera transaction manager nodes
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-tessera-node-1.0.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-23 10:09:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-node-1.0.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-node-1.0.1
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu nodes for a POA network
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-node-1.0.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-23 10:09:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-genesis-1.0.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-genesis-1.0.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Genesis generator
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-genesis-1.0.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-23 10:09:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    besu-cacti-connector-1.0.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    besu-cacti-connector-1.0.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Besu: Deploys Cactus Besu Connector
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/besu-cacti-connector-1.0.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
