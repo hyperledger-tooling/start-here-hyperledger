@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-swift/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-swift/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Retire Darian and Eloá from maintainers and codeowners
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-swift
                 
             </td>
             <td>
-                They have previously indicated they wished to be retired.
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 16:15:26 +0000 UTC
+        Created At 2024-01-24 18:04:36 +0000 UTC
     </div>
 </div>
 

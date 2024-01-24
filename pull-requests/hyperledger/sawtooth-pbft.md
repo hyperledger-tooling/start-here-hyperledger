@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/189" class=".btn">#189</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/191" class=".btn">#191</a>
             </td>
             <td>
                 <b>
-                    Fix lint introduced through 1.71.0 Rust
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
                 
             </td>
             <td>
-                <nil>
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 19:32:54 +0000 UTC
+        Created At 2024-01-24 18:04:20 +0000 UTC
     </div>
 </div>
 

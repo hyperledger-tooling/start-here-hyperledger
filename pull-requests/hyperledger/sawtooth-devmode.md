@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-devmode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-devmode/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-devmode/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Retire Anne, Darian and Logan from maintainers and codeowners
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-devmode
                 
             </td>
             <td>
-                They have previously indicated they wished to be retired.
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 14:36:09 +0000 UTC
+        Created At 2024-01-24 18:04:15 +0000 UTC
     </div>
 </div>
 

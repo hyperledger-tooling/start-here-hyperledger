@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    Retire Anne and Darian from maintainers and codeowners
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
                 
             </td>
             <td>
-                They have previously indicated they wished to be retired.
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 15:47:20 +0000 UTC
+        Created At 2024-01-24 18:04:30 +0000 UTC
     </div>
 </div>
 

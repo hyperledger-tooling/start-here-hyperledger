@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-rfcs/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-rfcs/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-rfcs
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 20:22:36 +0000 UTC
+        Created At 2024-01-24 18:04:23 +0000 UTC
     </div>
 </div>
 

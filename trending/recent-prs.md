@@ -1,13 +1,13 @@
 
-[129](https://github.com/hyperledger-labs/hlf-connector/pull/129) Increment version after release
+[597](https://github.com/hyperledger-labs/fabric-operations-console/pull/597) fix mutual tls reqs with axios http lib
 
-[128](https://github.com/hyperledger-labs/hlf-connector/pull/128) Revert patches introduced for build tasks
+[6458](https://github.com/hyperledger/besu/pull/6458) silence dns query error warning
 
-[162](https://github.com/hyperledger-labs/fabric-operator/pull/162) Added Operator Version in debug logs
+[19](https://github.com/hyperledger/sawtooth-sdk-swift/pull/19) Update README.md to reflect project transition
 
-[161](https://github.com/hyperledger-labs/fabric-operator/pull/161) Changes to Log Operator Version in debug logs
+[90](https://github.com/hyperledger/sawtooth-sdk-rust/pull/90) Update README.md to reflect project transition
 
-[596](https://github.com/hyperledger-labs/fabric-operations-console/pull/596) API key test cases from console
+[45](https://github.com/hyperledger/sawtooth-sdk-python/pull/45) Update README.md to reflect project transition
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

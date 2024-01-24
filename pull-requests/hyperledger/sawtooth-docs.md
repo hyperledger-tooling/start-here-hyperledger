@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/211" class=".btn">#211</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/212" class=".btn">#212</a>
             </td>
             <td>
                 <b>
-                    Adjust documentation for Raft decommissioning
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                Recent contributor meetings anticipate a decommissioning of Sawtooth Raft which has been somewhat neglected for years rather than readied for production. For non-forking consensus, people use PBFT instead.
-
-The Sawtooth Raft work remains captured in the git history so could be resurrected if desired.
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-07 12:35:42 +0000 UTC
+        Created At 2024-01-24 18:04:17 +0000 UTC
     </div>
 </div>
 

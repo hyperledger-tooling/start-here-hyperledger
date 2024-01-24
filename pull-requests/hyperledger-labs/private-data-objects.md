@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/464" class=".btn">#464</a>
+            </td>
+            <td>
+                <b>
+                    Add checks for environment completeness 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                slight modification on code from @g2flyer in PR #462. Separated the environment check into runtime and build time variable checks. Note that this reflects the reality of current dependencies (and we should always be looking for ways to reduce the dependencies). It also does not check for additional variables required for HW mode support.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 16:16:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/463" class=".btn">#463</a>
             </td>
             <td>

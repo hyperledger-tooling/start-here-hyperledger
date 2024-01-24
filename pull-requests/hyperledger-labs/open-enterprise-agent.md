@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/861" class=".btn">#861</a>
+            </td>
+            <td>
+                <b>
+                    docs: add description to credential definition and system endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">prism-agent</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Fixes ATL-6274, ATL-6266
+
+## Checklist
+
+### My PR contains...
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [ ] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 12:48:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/860" class=".btn">#860</a>
             </td>
             <td>
@@ -314,21 +368,21 @@ Cleanup old experiments
             </td>
             <td>
                 <b>
-                    feat(prism-agent): upgrade ZIO http client to improve performance
+                    feat: upgrade ZIO http client to improve performance
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">mercury</span>
+                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">ci</span><span class="chip">mercury</span>
             </td>
             <td>
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Previous to this PR, when using ZIO HTTP RC2 - we saw a very long delay when making HTTP requests (>2 seconds for each request) - we identified that this was not only an issue with the version of ZIO HTTP we were using but also how it was managing creating connections and closing them - essentially every request was creating and closing a connection object.
+Previous to this PR, when using ZIO HTTP RC2 - we saw a very long delay when making HTTP requests (>2 seconds for each request) - we identified that this was not only an issue with the version of ZIO HTTP we were using but also how it was managing and shuting down the ZIO HTTP stack - essentially every request was starting and stopping the full stack.
 
-After, with upgrading to ZIO HTTP RC4 and refactoring the ZIO layer composition for scope and client, we now see requests completing within 100 ms as closing connections doesn't happen with every request
+After, with upgrading to ZIO HTTP RC4 and refactoring the ZIO layer composition for scope and client, we now see requests completing within 100 ms as the full stack doens't shutdown with every request
 
 Also included in this PR are several improvements to the performance testing framework for error handling when polling background jobs and for managing exceptions when deserialising JSON - previously, any exception thrown was not counted as a failure in the test execution and dropped - now - metrics are available for when the background job does not complete a state transition within the given number of polls 
 
@@ -363,116 +417,6 @@ Fixes ATL-6318
     </table>
     <div class="right-align">
         Created At 2024-01-18 16:07:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/849" class=".btn">#849</a>
-            </td>
-            <td>
-                <b>
-                    ci: update CODEOWNERS [skip ci]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                Update the codeowners file according to the current situation and in order to involve more engineers in to e2e testing activities
-
-# Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes ATL-xxxx
-
-## Checklist
-
-### My PR contains...
-* [x] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [x] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [x] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 15:16:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/848" class=".btn">#848</a>
-            </td>
-            <td>
-                <b>
-                    test: add integration test configuration for keycloak JWT with role
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes ATL-6074. Add test configuration where `Admin` and `Tenant` has role assigned in the  JWT.
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [ ] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [x] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 12:39:28 +0000 UTC
     </div>
 </div>
 

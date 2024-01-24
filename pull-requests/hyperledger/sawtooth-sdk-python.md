@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/44" class=".btn">#44</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Further findings for asyncio compatibility
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                Fixing further findings after running application
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-16 08:59:57 +0000 UTC
+        Created At 2024-01-24 18:04:33 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-cxx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-cxx/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-cxx/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Retire Anne and Darian from maintainers and codeowners
+                    Update README.md to reflect project transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-cxx
                 
             </td>
             <td>
-                They have previously indicated they wished to be retired.
+                This should be merged upon TOC decision to Archive the project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-07-21 16:31:06 +0000 UTC
+        Created At 2024-01-24 18:04:27 +0000 UTC
     </div>
 </div>
 

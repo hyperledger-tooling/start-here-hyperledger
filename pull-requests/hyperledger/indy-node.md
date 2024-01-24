@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1825" class=".btn">#1825</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1827" class=".btn">#1827</a>
             </td>
             <td>
                 <b>
-                    Validator prep
+                    Update documentation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Added validator prep guide, and references to it.
+                - Remove obsolete and misleading information.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-15 01:25:17 +0000 UTC
+        Created At 2024-01-24 17:42:26 +0000 UTC
     </div>
 </div>
 
