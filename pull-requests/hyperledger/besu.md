@@ -149,7 +149,7 @@ This PR adds a new hook, `OperationTracer.tracePrepareTransaction`, that is trig
             </td>
             <td>
                 <b>
-                    Add selfish staker profile
+                    Add minimalist staker profile
                 </b>
             </td>
         </tr>
@@ -160,10 +160,10 @@ This PR adds a new hook, `OperationTracer.tracePrepareTransaction`, that is trig
             <td>
                 ## PR description
 
-Add selfish staker profile
+Add minimalist staker profile
 
 Use
-`besu --profile=selfishstaker`
+`besu --profile=minimalist_staker`
 
 ## Fixed Issue(s)
 fixes https://github.com/hyperledger/besu/issues/6324
@@ -751,87 +751,6 @@ Using the metrics by other means require a change to the tooling, for this a bre
     </table>
     <div class="right-align">
         Created At 2024-01-17 13:04:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6419" class=".btn">#6419</a>
-            </td>
-            <td>
-                <b>
-                    Downgrade rocksdbjni to 8.3.2 following FOREST bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bug introduced by upgrading to 8.9.1 in  [`9b7efb9` (#6377)](https://github.com/hyperledger/besu/pull/6377/commits/9b7efb9ed62789efd4f7d048d221871d73e50d9b)
-
-This is a revert of that specific dependency, will need further work to fix FOREST + 8.9.1+
-
-Tested on the canary that found the bug: prd-elc-besu-prysm-mainnet-nightly-forest-snap
-and synced a fresh FOREST and BONSAI node on holesky.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 05:43:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6418" class=".btn">#6418</a>
-            </td>
-            <td>
-                <b>
-                    Addition of Profile Configuration CLI Option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">doc-change-required</span><span class="chip">ux</span>
-            </td>
-            <td>
-                ## PR description
-This pull request introduces the `--profile` CLI option to Besu. This new feature allows users to load existing TOML configuration files from resources, enabling the override of default options. This PR does not create the profiles - they will be created in different PRs.
-
-- Profile CLI Option: The `--profile` CLI option has been added, providing users the ability to set the profile Besu should utilise for its configuration.
-
-- Configuration Resolution: The configuration provider resolves settings in a cascading manner, prioritising environment variables, followed by the configuration file, the profile file (if any), and finally falling back to the variable default if no other configuration source is available.
-
-For instance, consider a scenario where you have two TOML configuration files: `config.toml` and `staker.toml`. The `config.toml` file is provided by the user via the `--config-file` option, and `staker.toml` is a pre-configured resource file containing custom settings. The staker.toml file can be specified using the new --profile option:
-
-`besu --config-file=config.toml --profile=STAKER`
-
-In this case, Besu would first look for settings in the environment variables. If a setting is not found in the environment variables, Besu would look for it in the config.toml file. If the setting is not found in the config.toml file, Besu would then look for it in the `staker.toml` file. If the setting is not found in the `staker.toml` file, Besu would use the default value for that setting.
-
-The rationale for using the TOML format to define profiles is as follows:
-
-- It leverages existing TOML parsing and validation mechanisms
-- The format is user-friendly
-- It consolidates all configuration data into a single location
-
-## Fixed Issue(s)
-fixes #6323
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-17 05:06:07 +0000 UTC
     </div>
 </div>
 

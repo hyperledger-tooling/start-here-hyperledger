@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/809" class=".btn">#809</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/810" class=".btn">#810</a>
             </td>
             <td>
                 <b>
-                    feat: add w3c-di-attach
+                    Update Unqualified DIDs CCU Status
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Attachment based on the new Data Integrity Proof specification.
-
-Some notable highlights:
-- supports both v1.1 and 2.0 of the specification
-- supports anoncreds offer/request metadata
-- supports did based holder binding using didcomm signed attachments
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-10 08:10:19 +0000 UTC
+        Created At 2024-01-24 04:59:51 +0000 UTC
     </div>
 </div>
 
