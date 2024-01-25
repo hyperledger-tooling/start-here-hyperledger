@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 This PR removes the `SerializedPersistence` struct used to add multi-thread supports to sql drivers that do not support that. It will be responsibility of the application to use a proper driver with multi-thread support.
+The PR allows the user to specify the maximum number of connections the sql db should support.
             </td>
         </tr>
     </table>
