@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/465" class=".btn">#465</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade docker images from 20.04 to 22.04
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Title mostly says it all.  Main trigger was that client docker image had too old a `cmake` to build contracts in `pdo-contracts`.  That said, 20.04 of course is also a bit dated and EOL if in a year.
+
+Tested by running the usual `make test` here and by mounting `pdo-contracts` into a client container and then run `make test` in it (which admittedly eventually failed in the inference tests after passing the previous tests but it didn't look like a ubu 22.04 problem but more a setup mistake on my side (e.g., i didn't have openvino container running)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-25 03:59:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/464" class=".btn">#464</a>
             </td>
             <td>
