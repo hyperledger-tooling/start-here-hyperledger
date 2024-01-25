@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6466" class=".btn">#6466</a>
+            </td>
+            <td>
+                <b>
+                    Log blob count when importing a block via Engine API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Log blob count when importing a block via engine API, plus removing an unused method leftover from a previous cleanup
+
+Log lines look like these:
+```
+{"@timestamp":"2024-01-25T11:21:32,538","level":"INFO","thread":"vert.x-worker-thread-0","class":"AbstractEngineNewPayload","message":"Imported #10,431,117 / 44 tx / 16 ws / 3 blobs / base fee 11 wei / 4,868,888 (16.2%) gas / (0x79916291a34d7075190b88872c06ee9e89b5350fd04e57b0430c2a6da3620a45) in 0.874s. Peers: 1","throwable":""}
+{"@timestamp":"2024-01-25T11:21:33,571","level":"INFO","thread":"vert.x-worker-thread-0","class":"AbstractEngineNewPayload","message":"Imported #10,431,118 / 47 tx / 16 ws / 1 blobs / base fee 11 wei / 8,522,787 (28.4%) gas / (0xec4f4f0f87d4df8bbac2f07a810f46dbb2c7eccef0ae67c3a15aa7ca145d7b25) in 0.904s. Peers: 1","throwable":""}
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-25 11:25:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6463" class=".btn">#6463</a>
             </td>
             <td>
@@ -24,7 +65,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Rework error messaging in this case.
