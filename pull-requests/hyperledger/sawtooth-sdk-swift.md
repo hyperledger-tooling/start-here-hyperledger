@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-swift/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Archive Sawtooth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pending TOC vote
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 20:06:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sdk-swift/pull/19" class=".btn">#19</a>
             </td>
             <td>

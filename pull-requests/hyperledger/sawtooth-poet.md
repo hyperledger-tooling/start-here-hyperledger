@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    Archive Sawtooth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pending TOC vote
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 20:06:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/67" class=".btn">#67</a>
             </td>
             <td>

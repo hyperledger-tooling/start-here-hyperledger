@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/598" class=".btn">#598</a>
+            </td>
+            <td>
+                <b>
+                    change config block doc's visibility to inbox after unjoinning the ch…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- When unjoining an OS from a channel, the local config block document will be updated by changing it's visibility from `archive` to `inbox`. this will again show the pending-os-tile in the "Channels" page.
+- also fixes some odd caching behavior with the pending-os-tile section of the "Channels" page
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 20:49:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/597" class=".btn">#597</a>
             </td>
             <td>

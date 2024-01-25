@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-devmode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-devmode/pull/33" class=".btn">#33</a>
+            </td>
+            <td>
+                <b>
+                    Archive Sawtooth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pending TOC vote
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 20:05:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-devmode/pull/32" class=".btn">#32</a>
             </td>
             <td>

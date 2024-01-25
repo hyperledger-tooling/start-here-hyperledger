@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-go/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    Archive Sawtooth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pending TOC vote
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 20:06:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sdk-go/pull/57" class=".btn">#57</a>
             </td>
             <td>

@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6460" class=".btn">#6460</a>
+            </td>
+            <td>
+                <b>
+                    Release 24.1.1-RC2 cherry-picks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+cherry pick of #6455 and #6458 into a 24.1.1-RC2 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 22:10:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6459" class=".btn">#6459</a>
+            </td>
+            <td>
+                <b>
+                    info level log for pipeline abort
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Draft PR just to get a deployable artifact 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 21:50:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6458" class=".btn">#6458</a>
             </td>
             <td>
@@ -310,7 +379,7 @@ fixes #6326
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span><span class="chip">RPC</span>
             </td>
             <td>
                 Enable a limit on the range of blocks that can be supplied to the JSON-RPC trace_filter method.
