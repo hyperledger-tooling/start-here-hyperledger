@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6463" class=".btn">#6463</a>
+            </td>
+            <td>
+                <b>
+                    Skip pruning if trie log count is less than retention limit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rework error messaging in this case.
+
+This can occur if pruning is attempted before the node has reached the configured retention limit (512 by default)
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-25 03:15:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6461" class=".btn">#6461</a>
+            </td>
+            <td>
+                <b>
+                    [Refactor] - Extract websocket options to a new class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+[Refactor] - Extract web socket options to a new class
+
+- Moves the web socket cli options to its own class.
+- same for related tests
+
+## Fixed Issue(s)
+see #6428
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-25 01:59:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6460" class=".btn">#6460</a>
             </td>
             <td>
@@ -799,40 +869,6 @@ Fixes #6238
     </table>
     <div class="right-align">
         Created At 2024-01-18 19:40:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6425" class=".btn">#6425</a>
-            </td>
-            <td>
-                <b>
-                    Fix to increment/decrement gas-limit in block production 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Fixes discord bug found by protoplanetary 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-18 02:25:09 +0000 UTC
     </div>
 </div>
 
