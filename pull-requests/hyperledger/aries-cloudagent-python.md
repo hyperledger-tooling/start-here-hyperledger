@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2734" class=".btn">#2734</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade anoncred-rs to version 0.2.0-dev8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Still waiting for integration tests locally.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-25 16:37:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2732" class=".btn">#2732</a>
             </td>
             <td>
