@@ -1,13 +1,13 @@
 
-[6466](https://github.com/hyperledger/besu/pull/6466) Log blob count when importing a block via Engine API
+[4238](https://github.com/hyperledger/iroha/pull/4238) [fix] #3974: Update domain::metadata::Set value description
 
-[403](https://github.com/hyperledger/iroha-java/pull/403) Fixed RegistrableBox metadata merging for test genesis blocks
+[2734](https://github.com/hyperledger/aries-cloudagent-python/pull/2734) Upgrade anoncred-rs to version 0.2.0-dev8
 
-[9](https://github.com/hyperledger/indy-docs/pull/9) Add RTD config file and updates to enable generation
+[865](https://github.com/hyperledger-labs/open-enterprise-agent/pull/865) feat: add credential def performance test
 
-[465](https://github.com/hyperledger-labs/private-data-objects/pull/465) Upgrade docker images from 20.04 to 22.04
+[600](https://github.com/hyperledger-labs/fabric-operations-console/pull/600) reduce cache expiration from 2 minutes to 1.5 minutes
 
-[6463](https://github.com/hyperledger/besu/pull/6463) Skip pruning if trie log count is less than retention limit
+[599](https://github.com/hyperledger-labs/fabric-operations-console/pull/599) update release notes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
