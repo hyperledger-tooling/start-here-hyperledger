@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    Archive Sawtooth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pending TOC vote
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-24 20:06:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/55" class=".btn">#55</a>
             </td>
             <td>
