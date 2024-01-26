@@ -129,7 +129,7 @@ see #6428
             </td>
             <td>
                 <b>
-                    Release 24.1.1-RC2 cherry-picks
+                    Release 24.1.1
                 </b>
             </td>
         </tr>
@@ -142,7 +142,12 @@ see #6428
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-cherry pick of #6455 and #6458 into a 24.1.1-RC2 
+release version of 24.1.1 including:
+ - 24.1.1-RC commits
+ - RC2 cherry picks of:
+   - #6455 
+   - #6458
+ - updated changelog
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -879,37 +884,6 @@ No issue raised for this.
     </table>
     <div class="right-align">
         Created At 2024-01-19 05:51:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6427" class=".btn">#6427</a>
-            </td>
-            <td>
-                <b>
-                    GitHub Actions CI/CD
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Proposed alternative to using CircleCI.
-
-Please also consider the Design Doc available here: https://wiki.hyperledger.org/pages/viewpage.action?pageId=80774216
-
-Fixes #6238 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-18 19:40:58 +0000 UTC
     </div>
 </div>
 
