@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4635" class=".btn">#4635</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix grammer for ledger docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+Fix grammer for ledger docs.
+
+#### Additional details
+
+NA
+#### Related issues
+
+NA
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 17:04:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4634" class=".btn">#4634</a>
             </td>
             <td>

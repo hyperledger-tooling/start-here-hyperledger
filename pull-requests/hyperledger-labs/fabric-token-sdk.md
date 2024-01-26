@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                This PR replaces dependency to `ServiceProvider` with the actual needed dependencies.
             </td>
         </tr>
     </table>
