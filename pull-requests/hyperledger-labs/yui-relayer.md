@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    Fix to set `HostConsensusStateProof` in ConnectionOpenAck
+                    Update to ibc-go-v8
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                Fix a bug from #132 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-17 09:24:08 +0000 UTC
+        Created At 2024-01-26 01:54:01 +0000 UTC
     </div>
 </div>
 
