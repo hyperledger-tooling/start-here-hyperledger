@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/257" class=".btn">#257</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                    Fix title
+                    Solang Playground
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                <nil>
+                Solang playground is a web IDE for [Hyperledger Solang](https://github.com/hyperledger/solang). It is an easy way for Solidity developers to write, compile, deploy and interact with a Solidity contract deployed on Solana or Polkadot, without prior installation of any of the required tools (including Solang).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-09 20:26:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    Fix title
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-09 20:22:50 +0000 UTC
+        Created At 2024-01-25 18:39:44 +0000 UTC
     </div>
 </div>
 
