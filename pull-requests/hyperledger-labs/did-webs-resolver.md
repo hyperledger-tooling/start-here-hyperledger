@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    updated wording in get_started_docker.sh to bring attention to starti…
+                    amended for Docker not installed and Not in project dir situations
                 </b>
             </td>
         </tr>
@@ -27,39 +27,12 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                …ng the web server
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-19 17:44:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    Fixes path in docker-compose volume
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses #40 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-19 15:07:39 +0000 UTC
+        Created At 2024-01-26 14:25:28 +0000 UTC
     </div>
 </div>
 

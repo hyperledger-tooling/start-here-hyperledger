@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1617" class=".btn">#1617</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1619" class=".btn">#1619</a>
             </td>
             <td>
                 <b>
-                    Bump polkadot node version
+                    feat(parser): exclude build.rs, include auto-generated parser on crates.io
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Upgrade the Polkadot node. In recent versions, the node (in debug mode) logs any API calls and their results to debug buffer on its own. Because this feature was only relevant in the Polkadot target, I :axe: it.
+                Helps with compile times by removing dependency on lalrpop and build script when using `solang-parser` from crates.io. Downside is this is 2MB in tree, but this shouldn't be that big of a deal.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-10 08:31:49 +0000 UTC
+        Created At 2024-01-26 15:37:30 +0000 UTC
     </div>
 </div>
 

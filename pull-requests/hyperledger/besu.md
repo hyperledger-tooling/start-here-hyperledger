@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6472" class=".btn">#6472</a>
+            </td>
+            <td>
+                <b>
+                    Improve flat trace generation performance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+When testing one of the blocks that has a lot of subcalls (838 internal transactions), we noticed that most of the time was spent on hasRevertInSubCall method. 
+
+<img width="1720" alt="image" src="https://github.com/hyperledger/besu/assets/5099602/cac6288d-35b4-4a3c-a646-6855550b142f">
+
+This PR reduced the time to trace a 29 mgas block from more than 5 seconds to 1 second.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 16:53:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6470" class=".btn">#6470</a>
+            </td>
+            <td>
+                <b>
+                    Write a DEBUG log entry to make it clear of a BFT node is a validator…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Currently there is nothing specifically recorded in `INFO` or `DEBUG` logs to indicate if a node is currently a validator. This PR adds a `DEBUG` log which will be produced once per block if debug logging is enabled.
+
+## Fixed Issue(s)
+No issue for this PR
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 13:43:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6468" class=".btn">#6468</a>
             </td>
             <td>
