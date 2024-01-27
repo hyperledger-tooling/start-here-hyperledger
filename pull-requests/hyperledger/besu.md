@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6474" class=".btn">#6474</a>
+            </td>
+            <td>
+                <b>
+                    filter empty ipv4 and ipv6 ping packet source addresses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+add empty source addresses to ping packet filter lsit
+
+currently on main we are seeing packet errors like:
+```
+2024-01-27 07:21:53.144+00:00 | vert.x-eventloop-thread-1 | WARN  | VertxPeerDiscoveryAgent | Sending to peer DiscoveryPeer{status=bonding, enode=enode://b3af6e4685a1c54447b0510b29397c5534a66ce32224efd250e775ebd0f56c609e3f29d76fcae1893a1b437d6d383673915d9b1c60643be0e45e52acb2f2f335@[::]:28568, firstDiscovered=1706340111143, lastContacted=0, lastSeen=1706340111143} 
+failed, native error code -97, packet: 0xc76f91fa10c899a6a7d270611aba4b9f931447770a3cac9722996ebae807e0d9a403e5c090ef23cec3d81b8a27db826322dd66964656ba0acc6964ee387753796cf000fdc92e10970ec4b6e3ae12f7895c6922a0c07754ce267b98b046c124da0101eb05cb847f000001829d6f829d6fd79000000000000000000000000000000000826f98826f988465b4af4d14, stacktrace: io.netty.channel.unix.Errors$NativeIoException: sendToAddress(..) failed: Address family not supported by protocol
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to #6224 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-27 07:34:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6473" class=".btn">#6473</a>
             </td>
             <td>
