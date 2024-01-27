@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4636" class=".btn">#4636</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Docker Dependency to v20.10.27.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Move `github.com/docker/docker` to v20.10.27.
+
+#### Additional details
+
+This may be the last commit to v2.2, but it's definitely a good one.
+
+#### Related issues
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 19:49:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4635" class=".btn">#4635</a>
             </td>
             <td>
@@ -334,36 +372,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2024-01-20 16:19:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4626" class=".btn">#4626</a>
-            </td>
-            <td>
-                <b>
-                    Re-add the RSA definitions to BCCSP
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                BCCSP supported RSA in version 1.4. The Fabric CA is currently using the Fabric 1.4 dependency. It is necessary to move Fabric CA off of Fabric 1.4 dependencies since they are no longer maintained. Fabric 2.X does not support RSA, however the CA still needs to support RSA for any older but not expired certificates that may be in use by older netwo
-
-Github:
-https://github.com/hyperledger/fabric/issues/4625
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-19 19:14:05 +0000 UTC
     </div>
 </div>
 

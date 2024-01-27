@@ -14,6 +14,181 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/605" class=".btn">#605</a>
+            </td>
+            <td>
+                <b>
+                    update releaes notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+update release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 21:31:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/604" class=".btn">#604</a>
+            </td>
+            <td>
+                <b>
+                    change the prefixes found on exported files to FOC instead of IBP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Clean up
+
+#### Description
+zip files and json files that were downloaded used a legacy prefix of `IBP`, changing that to `FOC`. 
+- example filename with this PR: `FOC.1-26-2024-42454.zip`
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 21:26:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/603" class=".btn">#603</a>
+            </td>
+            <td>
+                <b>
+                    Fix create component modals - default choice
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+  - in the import/deploy component modal for CAs, peers, and OS's, it was defaulting to the deploy flow, even if that choice was not available
+  - the app was hiding the deploy option if it was not available, but it will now show as a disabled choice
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 20:51:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/602" class=".btn">#602</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade deployer to latest Docker Golang client.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+As per CVE-2023-28842 and many others.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 19:20:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/601" class=".btn">#601</a>
+            </td>
+            <td>
+                <b>
+                    Address CVE-2022-1996. emicklei/go-restful.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+CVE-2022-1996: https://nvd.nist.gov/vuln/detail/CVE-2022-1996
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 19:04:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/600" class=".btn">#600</a>
             </td>
             <td>
@@ -183,77 +358,6 @@ API key test cases from console
     </table>
     <div class="right-align">
         Created At 2024-01-24 06:55:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/593" class=".btn">#593</a>
-            </td>
-            <td>
-                <b>
-                    bump release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-update release notes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-19 20:53:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/592" class=".btn">#592</a>
-            </td>
-            <td>
-                <b>
-                    prevent the axios wrapper from deleting body arg
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- The axios wrapper introduced in `1.0.8-5` was copying the `body` filed to `data`, and then deleting `body`. The api would succeed, but later when the code tried to reference `body` it would have issues because it is now empty. This error would surface in the UI with newly created components having blank names/tiles. Other internal fields were also missing.
-- also fixes some npm dependency cves
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-19 18:37:39 +0000 UTC
     </div>
 </div>
 

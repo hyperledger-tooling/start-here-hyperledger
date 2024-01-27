@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2737" class=".btn">#2737</a>
+            </td>
+            <td>
+                <b>
+                    bump pydid to v 0.4.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses #2677
+
+@dbluhm I ran a `poetry update pydid` after changing the version in the `pyproject.toml` file. Seems like it did the trick.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-26 21:48:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2734" class=".btn">#2734</a>
             </td>
             <td>
@@ -93,36 +121,6 @@ This PR will work once the anoncreds-rs issue is also fixed.
     </table>
     <div class="right-align">
         Created At 2024-01-23 19:41:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2729" class=".btn">#2729</a>
-            </td>
-            <td>
-                <b>
-                    Update devcontainer documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Most of the documentation was pretty good but I tried to make it more obvious that this is a good option.
-
-- I added more configurations to make it more obvious you can deploy multiple agent debug sessions. 
-- You don't actually need to expose ports to access the admin api so I removed that stuff.
-- If you run your von-network and tails server from inside the dev container you can use local host and all the webhooks work as well.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-19 21:30:27 +0000 UTC
     </div>
 </div>
 
