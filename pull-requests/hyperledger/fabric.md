@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4637" class=".btn">#4637</a>
+            </td>
+            <td>
+                <b>
+                    BFT synchronizer in orderer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- New feature
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Create a BFT synchronizer for the smartbft chain
+
+
+#### Related issues
+
+#4566 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-28 16:55:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4636" class=".btn">#4636</a>
             </td>
             <td>
