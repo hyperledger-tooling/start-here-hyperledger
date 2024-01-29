@@ -14,6 +14,122 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6485" class=".btn">#6485</a>
+            </td>
+            <td>
+                <b>
+                    standardize on length of truncated peer ID logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">logging</span>
+            </td>
+            <td>
+                standardise format/length of peerId in logs when not logging the entire ID / enode
+
+fixes #6447 
+
+After:
+
+```
+2024-01-29 17:14:44.862+10:00 | nioEventLoopGroup-3-8 | DEBUG | EthPeers | Disconnected EthPeer 0x1e853e7e7504fa3c...
+2024-01-29 17:14:44.866+10:00 | nioEventLoopGroup-3-8 | DEBUG | AbstractPeerConnection | Disconnecting connection 1560687188, peer 0x1e853e7e7504fa3c... reason 0x10 SUBPROTOCOL_TRIGGERED
+2024-01-29 17:14:44.867+10:00 | nioEventLoopGroup-3-2 | DEBUG | EthProtocolManager | Mismatched network id: 56, peer 0x9ad19e13619c6b50...
+2024-01-29 17:14:44.869+10:00 | nioEventLoopGroup-3-2 | DEBUG | EthPeers | Disconnected EthPeer 0x9ad19e13619c6b50...
+2024-01-29 17:14:44.872+10:00 | nioEventLoopGroup-3-2 | DEBUG | AbstractPeerConnection | Disconnecting connection 1737436934, peer 0x9ad19e13619c6b50... reason 0x10 SUBPROTOCOL_TRIGGERED
+2024-01-29 17:14:44.874+10:00 | nioEventLoopGroup-3-7 | DEBUG | EthProtocolManager | Mismatched network id: 56, peer 0x38e30931276e4cda...
+2024-01-29 17:14:44.876+10:00 | nioEventLoopGroup-3-7 | DEBUG | EthPeers | Disconnected EthPeer 0x38e30931276e4cda...
+2024-01-29 17:14:44.879+10:00 | nioEventLoopGroup-3-7 | DEBUG | AbstractPeerConnection | Disconnecting connection 815991447, peer 0x38e30931276e4cda... reason 0x10 SUBPROTOCOL_TRIGGERED
+2024-01-29 17:14:44.905+10:00 | nioEventLoopGroup-3-7 | DEBUG | EthProtocolManager | Mismatched network id: 56, peer 0x42b46ae6443b055d...
+2024-01-29 17:14:44.905+10:00 | nioEventLoopGroup-3-5 | DEBUG | EthProtocolManager | Mismatched network id: 56, peer 0x7592f6686dcc0309...
+2024-01-29 17:14:44.907+10:00 | nioEventLoopGroup-3-7 | DEBUG | EthPeers | Disconnected EthPeer 0x42b46ae6443b055d...
+2024-01-29 17:14:44.907+10:00 | nioEventLoopGroup-3-5 | DEBUG | EthPeers | Disconnected EthPeer 0x7592f6686dcc0309...
+2024-01-29 17:14:44.908+10:00 | nioEventLoopGroup-3-7 | DEBUG | AbstractPeerConnection | Disconnecting connection -2139568981, peer 0x42b46ae6443b055d... reason 0x10 SUBPROTOCOL_TRIGGERED
+2024-01-29 17:14:44.909+10:00 | nioEventLoopGroup-3-5 | DEBUG | AbstractPeerConnection | Disconnecting connection 469943790, peer 0x7592f6686dcc0309... reason 0x10 SUBPROTOCOL_TRIGGERED
+2024-01-29 17:14:44.946+10:00 | nioEventLoopGroup-3-1 | DEBUG | EthProtocolManager | Mismatched network id: 369, peer 0x315e23e64a99f688...
+2024-01-29 17:14:44.947+10:00 | nioEventLoopGroup-3-3 | DEBUG | EthPeers | Disconnected EthPeer 0x3b627d2f1d0dcec9...
+2024-01-29 17:14:44.952+10:00 | nioEventLoopGroup-3-1 | DEBUG | EthPeers | Disconnected EthPeer 0x315e23e64a99f688...
+2024-01-29 17:14:44.955+10:00 | nioEventLoopGroup-3-1 | DEBUG | AbstractPeerConnection | Disconnecting connection -1490407832, peer 0x315e23e64a99f688... reason 0x10 SUBPROTOCOL_TRIGGERED
+2024-01-29 17:14:44.989+10:00 | nioEventLoopGroup-3-9 | DEBUG | DeFramer | Peer enode://6a5b462b8a5b085bb8f791262e46bfc99208b5ec61ae7173eedfbd22f836700b34b68be0ba44243527b609cbfa1507146c77ad8f4cbab3fadf80b04851999379@1.2.3.4:30311 disconnected before sending HELLO.  Reason: 0x04 TOO_MANY_PEERS
+2024-01-29 17:14:44.990+10:00 | nioEventLoopGroup-3-9 | DEBUG | RlpxAgent | Failed to connect to peer 0x6a5b462b8a5b085bb8f791262e46bfc99208b5ec61ae7173eedfbd22f836700b34b68be0ba44243527b609cbfa1507146c77ad8f4cbab3fadf80b04851999379: org.hyperledger.besu.ethereum.p2p.network.exceptions.PeerDisconnectedException: Peer disconnected for reason: 0x04 TOO_MANY_PEERS
+2024-01-29 17:14:45.246+10:00 | nioEventLoopGroup-3-8 | DEBUG | EthProtocolManager | Mismatched network id: 369, peer 0x67dd6cc1cfdd993b...
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 07:19:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6484" class=".btn">#6484</a>
+            </td>
+            <td>
+                <b>
+                    Add segmented transaction get method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add segmented transaction get method. This is needed to fully implement the reference counting for code storage changes to move to hashing by code hash.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 06:40:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6483" class=".btn">#6483</a>
+            </td>
+            <td>
+                <b>
+                    Report estimated disk space freed up by x-trie-log prune subcommand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                > Prune ran successfully. We estimate you freed up 578 KiB! 🚀
+
+Also add `--Xbonsai-trie-log-pruning-enabled` alias back in since users have started using this already
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 06:21:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6482" class=".btn">#6482</a>
             </td>
             <td>
@@ -943,34 +1059,6 @@ Mining options needs the value of the block period from the genesis file, so the
     </table>
     <div class="right-align">
         Created At 2024-01-22 14:58:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6443" class=".btn">#6443</a>
-            </td>
-            <td>
-                <b>
-                    Disconnect worst peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-In AbstractRetryingSwitchingPeerTask.java the method refreshPeers() we are now disconnecting the least useful peer. 
-Another change is that now the peer table is refreshed until we have reached our maxPeers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-22 08:22:38 +0000 UTC
     </div>
 </div>
 

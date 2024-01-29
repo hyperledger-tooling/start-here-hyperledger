@@ -1,13 +1,13 @@
 
-[6482](https://github.com/hyperledger/besu/pull/6482) Backward Sync, reduce retries from 20 to 2
+[538](https://github.com/hyperledger-labs/fabric-token-sdk/pull/538) new update function
 
-[6481](https://github.com/hyperledger/besu/pull/6481) Fix typos
+[247](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/247) Fix to compile successfully without optimizer
 
-[6480](https://github.com/hyperledger/besu/pull/6480) remove repeated part of toString()
+[4240](https://github.com/hyperledger/iroha/pull/4240) [refactor] #1981, #4195: Refactor the event filters
 
-[6479](https://github.com/hyperledger/besu/pull/6479) add sync condition for privacy tests
+[6485](https://github.com/hyperledger/besu/pull/6485) standardize on length of truncated peer ID logging
 
-[6478](https://github.com/hyperledger/besu/pull/6478) [Refactor] - Extract JsonRpcHttpOptions to a new class 
+[6484](https://github.com/hyperledger/besu/pull/6484) Add segmented transaction get method
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
