@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4240" class=".btn">#4240</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #1981, #4195: Refactor the event filters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+- rename the `Filter` trait to `EventFilter`
+- "manually" implement all the event filters without macros
+  - as a consequence, move all the filters to a separate module
+- change the filter types naming scheme to be more logical:
+  - AccountFilter -> AccountEventFilter (filters the event as a whole: by origin id and event type)
+  - AccountEventFilter -> AccountEventMatcher (matches over a type of event)
+- flattens the event filter hierarchy (account event is a kind of domain event, but account event filter is not)
+
+### Linked issue
+
+Closes #1981, #4195
+
+### Benefits
+
+- more orthogonal API: only one way to filter for specific filter API (see #4195)
+- simpler to navigate and edit due to not using macros (and with less code!)
+
+### Checklist
+
+- [ ] write code documentation about using the new API
+- [ ] make ci pass
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 07:40:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4239" class=".btn">#4239</a>
             </td>
             <td>
@@ -63,7 +111,7 @@ Closes #4161 and some others TODO
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
             </td>
             <td>
                 ## Description
@@ -183,7 +231,7 @@ removes redundancy
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.x</span>
             </td>
             <td>
                 A one-liner solution for https://github.com/hyperledger/iroha/issues/4234:
@@ -237,7 +285,7 @@ removes redundancy
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.x</span>
             </td>
             <td>
                 Vladislav Amuzinski is now with us, but Vladimir and Ilia aren't working on Iroha anymore.
