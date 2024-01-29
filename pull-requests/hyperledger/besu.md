@@ -14,6 +14,192 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6482" class=".btn">#6482</a>
+            </td>
+            <td>
+                <b>
+                    Backward Sync, reduce retries from 20 to 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+The backward sync uses the RetryingGetBlockFromPeersTask, which will try to get the block from each of the current peers. 
+Only if none of the current peers can provide that block we need to retry.
+If for any reason we are trying to get a block that is no longer available (reorg) we would try each of out current peers 20 times, each of our peers responding with an empty response. On an EthPeer that is responding with an empty response we will call `recordUselessResponse()`  and if we have accumulated 5 useless responses for a peer within a minute we will disconnect it.
+To make sure that we do not disconnect all of our current peers this PR reduces the retries for requesting that block to 2.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 04:25:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6481" class=".btn">#6481</a>
+            </td>
+            <td>
+                <b>
+                    Fix typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Fix typos in comments.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 03:56:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6480" class=".btn">#6480</a>
+            </td>
+            <td>
+                <b>
+                    remove repeated part of toString()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Remove repeated field in toString()
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 01:54:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6479" class=".btn">#6479</a>
+            </td>
+            <td>
+                <b>
+                    add sync condition for privacy tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">privacy</span><span class="chip">testing</span>
+            </td>
+            <td>
+                addresses flakiness of privacy ATs since #6302 
+
+fixes #6402 
+
+
+cherry-picked from #5968 - kudos to @gtebrean 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 01:45:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6478" class=".btn">#6478</a>
+            </td>
+            <td>
+                <b>
+                    [Refactor] - Extract JsonRpcHttpOptions to a new class 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+
+[Refactor] - Extract JsonRpcHttpOptions to a new class
+
+Moves the JsonRpcHttpOptions cli options to its own class.
+same for related tests
+
+see #6428 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 01:30:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6477" class=".btn">#6477</a>
+            </td>
+            <td>
+                <b>
+                    [CHANGELOG] updated download links and added contributor thanks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                updated download links/shas to match https://github.com/hyperledger/besu/releases/tag/24.1.1
+
+including errata section
+
+Also added links for non-maintainer contributors to the latest release
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 01:10:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6474" class=".btn">#6474</a>
             </td>
             <td>
@@ -785,40 +971,6 @@ Another change is that now the peer table is refreshed until we have reached our
     </table>
     <div class="right-align">
         Created At 2024-01-22 08:22:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6441" class=".btn">#6441</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that Bonsai tests with Key Value storage are using Bonsai data configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Ensure that Bonsai tests with Key Value storage are using Bonsai data configuration. As these key-value storage are explicit with Bonsai classes this doesn't cause an issue using the default forest config but for readability, it is better to use the Bonsai data storage configuration.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-22 01:43:30 +0000 UTC
     </div>
 </div>
 
