@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4640" class=".btn">#4640</a>
+            </td>
+            <td>
+                <b>
+                    Throttle greedy clients in orderer Broadcast API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit implements a shared rate limiter for connections authenticated with mutual TLS. The throttling and rate limiting is applied at both the Authority Key Identifier and Subject Key Identifier level, which guarantees no single organization or client can bombard the orderer with endless transactions on the expense of others.
+
+The effective rate is divided across all clients and orgs for a time period specified by InactivityTimeout.
+
+By default this feature is turned off.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-28 23:23:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4639" class=".btn">#4639</a>
+            </td>
+            <td>
+                <b>
+                    BFT chain test: update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+This PR includes rebasing and updates to the BFT chain unit tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-28 21:26:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4638" class=".btn">#4638</a>
+            </td>
+            <td>
+                <b>
+                    update the following actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <img width="961" alt="Снимок экрана 2024-01-29 в 00 02 10" src="https://github.com/hyperledger/fabric/assets/7284783/1732ca21-a39a-4dc6-bdf6-1558d1f46d0e">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-28 21:03:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4637" class=".btn">#4637</a>
             </td>
             <td>
