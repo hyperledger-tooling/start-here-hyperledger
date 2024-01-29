@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4239" class=".btn">#4239</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4161: rewrite config, _minimally_
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">config-changes</span><span class="chip">Refactor</span><span class="chip">UI</span><span class="chip">python</span>
+            </td>
+            <td>
+                ## Description
+
+TODO
+
+Creating this draft to see the scope of changes and for CI checks.
+
+### Linked issue
+
+Closes #4161 and some others TODO
+
+### Checklist
+
+- [ ] Fill in description of this PR
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 00:39:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4238" class=".btn">#4238</a>
             </td>
             <td>
