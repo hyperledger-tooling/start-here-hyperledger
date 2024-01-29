@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6487" class=".btn">#6487</a>
+            </td>
+            <td>
+                <b>
+                    Delete development artifacts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Delete three files that appear to be work in progress development files.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 17:41:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6485" class=".btn">#6485</a>
             </td>
             <td>
@@ -1023,42 +1055,6 @@ However, we should be aware that if `--Xbonsai-limit-trie-logs-enabled` ever bec
     </table>
     <div class="right-align">
         Created At 2024-01-22 21:20:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6444" class=".btn">#6444</a>
-            </td>
-            <td>
-                <b>
-                    Fix `poa-block-txs-selection-max-time` option that was inadvertently reset to its default after being configured
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Fix `poa-block-txs-selection-max-time` option that was inadvertently reset to its default after being configured.
-Mining options needs the value of the block period from the genesis file, so the way to pass it to the class has been improved to avoid using the mining options if that value was not set, in order to be less error prone.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-22 14:58:01 +0000 UTC
     </div>
 </div>
 
