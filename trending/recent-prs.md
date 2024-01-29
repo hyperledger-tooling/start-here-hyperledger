@@ -1,13 +1,13 @@
 
-[4239](https://github.com/hyperledger/iroha/pull/4239) [refactor] #4161: rewrite config, _minimally_
+[6482](https://github.com/hyperledger/besu/pull/6482) Backward Sync, reduce retries from 20 to 2
 
-[4640](https://github.com/hyperledger/fabric/pull/4640) Throttle greedy clients in orderer Broadcast API
+[6481](https://github.com/hyperledger/besu/pull/6481) Fix typos
 
-[4639](https://github.com/hyperledger/fabric/pull/4639) BFT chain test: update
+[6480](https://github.com/hyperledger/besu/pull/6480) remove repeated part of toString()
 
-[4638](https://github.com/hyperledger/fabric/pull/4638) update the following actions
+[6479](https://github.com/hyperledger/besu/pull/6479) add sync condition for privacy tests
 
-[4637](https://github.com/hyperledger/fabric/pull/4637) BFT synchronizer in orderer
+[6478](https://github.com/hyperledger/besu/pull/6478) [Refactor] - Extract JsonRpcHttpOptions to a new class 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
