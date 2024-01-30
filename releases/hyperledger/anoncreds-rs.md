@@ -15,50 +15,65 @@ permalink: /releases/hyperledger/anoncreds-rs
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.0-dev.7
+                    v0.2.0-dev.9
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.0-dev.7
+                    v0.2.0-dev.9
                 </span>
             </td>
             <td>
                 ## What's Changed
-* fix(js): use quotes instead of brackets for local dependencies by @berendsliedrecht in https://github.com/hyperledger/anoncreds-rs/pull/262
-* use universal for darwin by @berendsliedrecht in https://github.com/hyperledger/anoncreds-rs/pull/264
-* SNYK by @berendsliedrecht in https://github.com/hyperledger/anoncreds-rs/pull/280
-* Address SNYK warnings by @ryjones in https://github.com/hyperledger/anoncreds-rs/pull/277
-* Design: AnonCreds Credentials using the W3C Standard by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/266
-* Manual update of Snyk PRs that are not DCOd by @swcurran in https://github.com/hyperledger/anoncreds-rs/pull/285
-* AnonCreds Credentials using the W3C Standard - implementation by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/271
-* Update Rust version used in CI by @andrewwhitehead in https://github.com/hyperledger/anoncreds-rs/pull/298
-* Reworked w3c credentials and presentations to use DataIntegrityProof  instead of custom AnonCreds context by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/291
-* ci: allow to publish wrappers separately by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/296
-* AnonCreds Credentials using the W3C Standard - proof value encoding by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/276
-* Do not apply prettier to pnpm lockfile by @andrewwhitehead in https://github.com/hyperledger/anoncreds-rs/pull/301
-* Bump follow-redirects from 1.15.3 to 1.15.5 in /wrappers/javascript by @dependabot in https://github.com/hyperledger/anoncreds-rs/pull/300
-* AnonCreds Credentials using the W3C Standard - wrappers by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/273
-* W3C: Reworked predicates representation - no mapping by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/303
-* chore: update version to 0.2.0-dev.6 by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/304
-* Support numbers values in AnonCreds W3C VC by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/305
-* chore: update version to 0.2.0-dev.7 by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/306
+* Fix validation of legacy rev reg definition ID by @andrewwhitehead in https://github.com/hyperledger/anoncreds-rs/pull/313
+* 0.2.0-dev.9 by @swcurran in https://github.com/hyperledger/anoncreds-rs/pull/314
 
-## New Contributors
-* @Artemkaaas made their first contribution in https://github.com/hyperledger/anoncreds-rs/pull/266
-* @swcurran made their first contribution in https://github.com/hyperledger/anoncreds-rs/pull/285
 
-**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.2.0-dev.4...v0.2.0-dev.7
+**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.2.0-dev.8...v0.2.0-dev.9
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.2.0-dev.7" class=".btn">
+    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.2.0-dev.9" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-01-17 05:02:39 +0000 UTC
+        Created At 2024-01-29 17:37:07 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v0.2.0-dev.8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.2.0-dev.8
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* W3C: Removed logic connected to stripping out id property of credential attributes by @Artemkaaas in https://github.com/hyperledger/anoncreds-rs/pull/309
+* Relax validation on prover_did in a credential request by @andrewwhitehead in https://github.com/hyperledger/anoncreds-rs/pull/310
+* chore: update version to 0.2.0-dev.8 by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/311
+
+
+**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.2.0-dev.7...v0.2.0-dev.8
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.2.0-dev.8" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-25 04:32:41 +0000 UTC
     </span>
 </div>
 

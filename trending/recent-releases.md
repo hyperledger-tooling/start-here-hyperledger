@@ -1,13 +1,13 @@
 
+[v0.2.0-dev.9](https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.2.0-dev.9) v0.2.0-dev.9
+
+[v0.3.1](https://github.com/hyperledger/aries-askar/releases/tag/v0.3.1) v0.3.1
+
 [24.1.1](https://github.com/hyperledger/besu/releases/tag/24.1.1) Release 24.1.1
 
-[0.12.0rc0](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.12.0rc0) 0.12.0rc0
+[v0.9.19](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.19) v0.9.19
 
-[quorum-tessera-key-mgmt-1.0.0](https://github.com/hyperledger/bevel/releases/tag/quorum-tessera-key-mgmt-1.0.0) quorum-tessera-key-mgmt-1.0.0
-
-[zkkafka-1.0.0](https://github.com/hyperledger/bevel/releases/tag/zkkafka-1.0.0) zkkafka-1.0.0
-
-[substrate-key-mgmt-1.0.0](https://github.com/hyperledger/bevel/releases/tag/substrate-key-mgmt-1.0.0) substrate-key-mgmt-1.0.0
+[v1.10.0-beta7](https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.0-beta7) Version 1.10.0-beta7
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
