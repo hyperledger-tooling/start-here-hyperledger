@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4644" class=".btn">#4644</a>
+            </td>
+            <td>
+                <b>
+                    change smartbft chain log message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Log message update
+
+#### Description
+
+This PR aims to fix a log message that includes the channel name twice. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 14:32:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4641" class=".btn">#4641</a>
             </td>
             <td>

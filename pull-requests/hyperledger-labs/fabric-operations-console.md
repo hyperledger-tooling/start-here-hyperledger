@@ -141,6 +141,8 @@ The last build was incorrectly showing steps during the deploy CA flow that were
 #### Description
 <!--- Describe your changes in detail, including motivation. -->
 - Update audit log message and status code while fail to add peers to channel.
+- Add Audit log entry on Join Orderer peer to existing channel
+- Add Audit log entry on disconnect orderer peer from channel
 
 
             </td>

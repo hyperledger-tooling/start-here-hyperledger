@@ -1,13 +1,13 @@
 
-[4246](https://github.com/hyperledger/iroha/pull/4246) [ci] #3889: Add docker-compose files run check into iroha2 CI
+[59](https://github.com/hyperledger-labs/cc-tools-demo/pull/59) Check for binaries on system
 
-[4245](https://github.com/hyperledger/iroha/pull/4245) [BACKPORT] #4097: Fix warp noise in logs
+[869](https://github.com/hyperledger-labs/open-enterprise-agent/pull/869) [WIP] fix: re-enable logging with SLF4J and add traceId
 
-[6493](https://github.com/hyperledger/besu/pull/6493) add profile info to help footer
+[4644](https://github.com/hyperledger/fabric/pull/4644) change smartbft chain log message
 
-[6492](https://github.com/hyperledger/besu/pull/6492) IGNORE - estimated saving spike
+[868](https://github.com/hyperledger-labs/open-enterprise-agent/pull/868) feat: Refactor Anoncred Duplicate Code
 
-[2747](https://github.com/hyperledger/aries-cloudagent-python/pull/2747) chore: pin black version
+[186](https://github.com/hyperledger/fabric-sdk-py/pull/186) replace deprecated pysha3 with safe-pysha3
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
