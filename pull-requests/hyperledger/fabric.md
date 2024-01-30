@@ -106,33 +106,6 @@ This PR includes rebasing and updates to the BFT chain unit tests
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4638" class=".btn">#4638</a>
-            </td>
-            <td>
-                <b>
-                    update the following actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <img width="961" alt="Снимок экрана 2024-01-29 в 00 02 10" src="https://github.com/hyperledger/fabric/assets/7284783/1732ca21-a39a-4dc6-bdf6-1558d1f46d0e">
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-28 21:03:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4637" class=".btn">#4637</a>
             </td>
             <td>
