@@ -1,13 +1,13 @@
 
-[6487](https://github.com/hyperledger/besu/pull/6487) Delete development artifacts
+[2747](https://github.com/hyperledger/aries-cloudagent-python/pull/2747) chore: pin black version
 
-[2739](https://github.com/hyperledger/aries-cloudagent-python/pull/2739) Update BBS+ context to bypass redirections
+[2746](https://github.com/hyperledger/aries-cloudagent-python/pull/2746) fix: partial revert of ConnRecord schema change
 
-[606](https://github.com/hyperledger-labs/fabric-operations-console/pull/606) Update audit log message while fail to adding peers to channel
+[6491](https://github.com/hyperledger/besu/pull/6491) Remove `--engine-jwt-enabled` deprecated option
 
-[4641](https://github.com/hyperledger/fabric/pull/4641) Update github actions to use Node 20
+[6490](https://github.com/hyperledger/besu/pull/6490) [Refactor ] Move permission options to its own class
 
-[538](https://github.com/hyperledger-labs/fabric-token-sdk/pull/538) new update function
+[2745](https://github.com/hyperledger/aries-cloudagent-python/pull/2745) chore(deps): Bump aiohttp from 3.9.1 to 3.9.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
