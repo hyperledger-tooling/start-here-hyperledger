@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6491" class=".btn">#6491</a>
+            </td>
+            <td>
+                <b>
+                    Remove `--engine-jwt-enabled` deprecated option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Removes `--engine-jwt-enabled`. Replaced by `--engine-jwt-disabled`
+
+It has been deprecated since 2022. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 00:45:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6490" class=".btn">#6490</a>
+            </td>
+            <td>
+                <b>
+                    [Refactor ] Move permission options to its own class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Move permission options to its own class
+
+## Fixed Issue(s)
+see #6428
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 00:29:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6487" class=".btn">#6487</a>
             </td>
             <td>
@@ -110,7 +169,7 @@ After:
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -991,70 +1050,6 @@ fixes #6326
     </table>
     <div class="right-align">
         Created At 2024-01-23 03:55:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6446" class=".btn">#6446</a>
-            </td>
-            <td>
-                <b>
-                    Enable limit on range Of JSON-RPC API trace_filter method (#5971)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span><span class="chip">RPC</span>
-            </td>
-            <td>
-                Enable a limit on the range of blocks that can be supplied to the JSON-RPC trace_filter method.
-
-The limit has a default value and can be overridden with a command line option at start up.
-
-fixes #5971 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-22 21:27:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6445" class=".btn">#6445</a>
-            </td>
-            <td>
-                <b>
-                    Reuse --bonsai-historical-block-limit for limit trie logs feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Part of https://github.com/hyperledger/besu/issues/5390
-
-* `$BESU --Xbonsai-limit-trie-logs-enabled=true` will use the default value of `--bonsai-historical-block-limit=512`
-* `$BESU --Xbonsai-limit-trie-logs-enabled=true --bonsai-historical-block-limit=511` throws error as must be >= 512
-* `$BESU --Xbonsai-limit-trie-logs-enabled=false --bonsai-historical-block-limit=511` does not throw error as this is allowed until limit-trie-logs-enabled.
-
-This implementation avoids a breaking change for anyone that has a node with --bonsai-historical-block-limit already set to < 512 (could be noone?)
-
-However, we should be aware that if `--Xbonsai-limit-trie-logs-enabled` ever becomes default then this breaking change will come back again
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-22 21:20:44 +0000 UTC
     </div>
 </div>
 

@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/752" class=".btn">#752</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/754" class=".btn">#754</a>
             </td>
             <td>
                 <b>
-                    add docker pull ccenv
+                    Modify actions to avoid processing when only doc PRs
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span><span class="chip">comp/samples</span>
+                
             </td>
             <td>
                 <!--  Thanks for sending a pull request!  Here are some tips for you:
@@ -42,13 +42,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 -->
 
 **What this PR does / why we need it**:
-Adds docker pull in sample for it to work
+
 **Which issue(s) this PR fixes**:
 <!--
   list existing bug, feature and/or work-item which this PR addresses.
   You might also consider creating an issue first for the PR.
 -->
-Fixes #751 
+Fixes #
 
 **Special notes for your reviewer**:
 
@@ -58,12 +58,12 @@ Fixes #751
   If yes, describe what changes and/or what breaks ..
 -->
 ```
-Adds documentation in sample Readme
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-09 19:38:20 +0000 UTC
+        Created At 2024-01-29 19:27:13 +0000 UTC
     </div>
 </div>
 
