@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6493" class=".btn">#6493</a>
+            </td>
+            <td>
+                <b>
+                    add profile info to help footer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #6430 
+
+depends on #6449
+
+![Screenshot 2024-01-30 at 3 21 48 pm](https://github.com/hyperledger/besu/assets/2627919/81aef27d-340e-4bb4-8207-20788071812d)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 05:20:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6492" class=".btn">#6492</a>
+            </td>
+            <td>
+                <b>
+                    IGNORE - estimated saving spike
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+https://github.com/hyperledger/besu/pull/6483#discussion_r1470590198
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 04:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6491" class=".btn">#6491</a>
             </td>
             <td>
@@ -983,73 +1049,6 @@ This PR adds a new hook, `OperationTracer.tracePrepareTransaction`, that is trig
     </table>
     <div class="right-align">
         Created At 2024-01-23 14:22:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6449" class=".btn">#6449</a>
-            </td>
-            <td>
-                <b>
-                    Add minimalist staker profile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Add minimalist staker profile
-
-Use
-`besu --profile=minimalist_staker`
-
-## Fixed Issue(s)
-fixes https://github.com/hyperledger/besu/issues/6324
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-23 04:13:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6448" class=".btn">#6448</a>
-            </td>
-            <td>
-                <b>
-                    Add enterprise/private profile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add enterprise/private profile 
-
-Use:
-`besu --profile=enterprise` or `besu --profile=private`
-
-## Fixed Issue(s)
-fixes #6326
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-23 03:55:12 +0000 UTC
     </div>
 </div>
 
