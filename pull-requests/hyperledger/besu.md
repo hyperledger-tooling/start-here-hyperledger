@@ -14,6 +14,163 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6502" class=".btn">#6502</a>
+            </td>
+            <td>
+                <b>
+                    Fix codehash detection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix issue when using code storage using codehash that mode is incorrectly detected as being stored by account hash after a restart.
+
+## the  Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 05:35:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6501" class=".btn">#6501</a>
+            </td>
+            <td>
+                <b>
+                    Deprecate --Xp2p-peer-lower-bound
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Deprecate CLI option --Xp2p-peer-lower-bound and remove usage
+
+Fixes #6376
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 03:46:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6500" class=".btn">#6500</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] remove duplicate setting of default values for CLI options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                where the default is number/boolean/string, just leave it to the initialized value for the actual field.
+
+same as was done for Sync Options in #6499
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 01:44:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6499" class=".btn">#6499</a>
+            </td>
+            <td>
+                <b>
+                    Flat db heal - deprecate CLI option and set to always true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * set flat db healing enabled to true always
+* remove duplicate setup of default values from Sync Options class
+
+refs #6157
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 01:26:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6498" class=".btn">#6498</a>
+            </td>
+            <td>
+                <b>
+                    Filter Discovered peers for ipv6 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+updates PeerDiscoveryAgent to 
+* use existing NetworkUtility to filter for any/none peers
+* fall back to source address if ipv6 is not supported (like in a docker container)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #6475 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 01:01:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6496" class=".btn">#6496</a>
             </td>
             <td>
@@ -68,41 +225,6 @@ depends on #6449
     </table>
     <div class="right-align">
         Created At 2024-01-30 05:20:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6492" class=".btn">#6492</a>
-            </td>
-            <td>
-                <b>
-                    IGNORE - estimated saving spike
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-https://github.com/hyperledger/besu/pull/6483#discussion_r1470590198
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-30 04:54:44 +0000 UTC
     </div>
 </div>
 
@@ -265,7 +387,7 @@ After:
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamGroot</span>
+                
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -302,7 +424,7 @@ Add segmented transaction get method. This is needed to fully implement the refe
                 <span class="chip">TeamGroot</span>
             </td>
             <td>
-                > Prune ran successfully. We estimate you freed up 578 KiB! 🚀
+                > Prune ran successfully. We estimate you freed up 8 GiB! 🚀
 
 Also add `--Xbonsai-trie-log-pruning-enabled` alias back in since users have started using this already
             </td>
