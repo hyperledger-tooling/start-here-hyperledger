@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/55" class=".btn">#55</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md to reflect project transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should be merged upon TOC decision to Archive the project.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 18:04:30 +0000 UTC
-    </div>
-</div>
-

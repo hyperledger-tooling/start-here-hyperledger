@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/191" class=".btn">#191</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md to reflect project transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should be merged upon TOC decision to Archive the project.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 18:04:20 +0000 UTC
-    </div>
-</div>
-

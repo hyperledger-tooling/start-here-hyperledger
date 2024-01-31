@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/610" class=".btn">#610</a>
+            </td>
+            <td>
+                <b>
+                    fixes mustgather download button w/axios
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Fixes the mustgather download zip button, the previous route for this download was using a `request.get` and a `pipe` method which are not available in our axios-request wrapper.
+
+this fix does require rebuilding the URL allow list, which will happen on startup automatically
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 15:38:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/609" class=".btn">#609</a>
             </td>
             <td>

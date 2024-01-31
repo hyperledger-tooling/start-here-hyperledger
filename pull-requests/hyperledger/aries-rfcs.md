@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/810" class=".btn">#810</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/811" class=".btn">#811</a>
             </td>
             <td>
                 <b>
-                    Update Unqualified DIDs CCU Status
+                    Update RFC statuses in accordance with 01/31/24 WG meeting
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-24 04:59:51 +0000 UTC
+        Created At 2024-01-31 16:52:54 +0000 UTC
     </div>
 </div>
 
