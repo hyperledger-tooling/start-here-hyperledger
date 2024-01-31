@@ -72,7 +72,7 @@ Fixes #2738
             </td>
             <td>
                 <b>
-                    fix: accept and emit didexchange/1.1 when appropriate
+                    fix(credo-interop): various didexchange and did:peer related fixes
                 </b>
             </td>
         </tr>
@@ -81,7 +81,11 @@ Fixes #2738
                 
             </td>
             <td>
-                Fixes #2742. Still in testing for now.
+                Fixes #2742 and various other issues discovered while testing ACA-Py against AFJ.
+
+- Send and accept `didexchange/1.1` as handshake protocol in OOB
+- Credo did not like the fact that we were including both `jwk` and `kid` in the protected headers of signed attachments. The `kid` was redundant so I removed it.
+- Credo does not accept `Multikey` verification method type yet (I opened a PR though: https://github.com/openwallet-foundation/credo-ts/pull/1720 -- tests failing :smile:). So I adjusted our did:peer:4 doc creation to use `Ed25519VerificationKey2020` for now.
             </td>
         </tr>
     </table>

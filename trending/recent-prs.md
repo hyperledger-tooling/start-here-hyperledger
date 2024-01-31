@@ -1,13 +1,13 @@
 
-[2750](https://github.com/hyperledger/aries-cloudagent-python/pull/2750) Fix pytest collection errors when anoncreds package is not installed
+[6502](https://github.com/hyperledger/besu/pull/6502) Fix codehash detection
 
-[4647](https://github.com/hyperledger/fabric/pull/4647) Patch gnark-crypto and github.com/sirupsen/logrus.
+[6501](https://github.com/hyperledger/besu/pull/6501) Deprecate --Xp2p-peer-lower-bound
 
-[2749](https://github.com/hyperledger/aries-cloudagent-python/pull/2749) Add cached copy of BBS v1 context
+[6500](https://github.com/hyperledger/besu/pull/6500) [MINOR] remove duplicate setting of default values for CLI options
 
-[6496](https://github.com/hyperledger/besu/pull/6496) [Refactor] Move graphqloptions to its own class
+[6499](https://github.com/hyperledger/besu/pull/6499) Flat db heal - deprecate CLI option and set to always true
 
-[2748](https://github.com/hyperledger/aries-cloudagent-python/pull/2748) fix: accept and emit didexchange/1.1 when appropriate
+[6498](https://github.com/hyperledger/besu/pull/6498) Filter Discovered peers for ipv6 support
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
