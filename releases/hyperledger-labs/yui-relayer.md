@@ -15,30 +15,62 @@ permalink: /releases/hyperledger-labs/yui-relayer
         <tr>
             <td colspan="2">
                 <b>
-                    v0.4.22
+                    v0.4.24
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.4.22
+                    v0.4.24
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fix a bug from https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.21
-  * Fix to set `HostConsensusStateProof` in ConnectionOpenAck by @bluele in https://github.com/hyperledger-labs/yui-relayer/pull/133
+* Fix make proof by @dongrie in https://github.com/hyperledger-labs/yui-relayer/pull/129
 
-**Full Changelog**: https://github.com/hyperledger-labs/yui-relayer/compare/v0.4.21...v0.4.22
+
+**Full Changelog**: https://github.com/hyperledger-labs/yui-relayer/compare/v0.4.23...v0.4.24
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.22" class=".btn">
+    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.24" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-01-17 11:52:08 +0000 UTC
+        Created At 2024-01-31 06:48:30 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v0.4.23
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.4.23
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Update path config by @dongrie in https://github.com/hyperledger-labs/yui-relayer/pull/127
+
+
+**Full Changelog**: https://github.com/hyperledger-labs/yui-relayer/compare/v0.4.22...v0.4.23
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.23" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-01-30 05:45:54 +0000 UTC
     </span>
 </div>
 
