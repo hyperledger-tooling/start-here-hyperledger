@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4647" class=".btn">#4647</a>
+            </td>
+            <td>
+                <b>
+                    Patch gnark-crypto and github.com/sirupsen/logrus.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Dependencies that need upgrades.
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+These dependencies need some love. They are not transitive dependencies, so they end up getting left behind in typical updates. Trust me, they need to be bumped.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 22:50:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4644" class=".btn">#4644</a>
             </td>
             <td>
