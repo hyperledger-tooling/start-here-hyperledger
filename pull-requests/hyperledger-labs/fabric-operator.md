@@ -38,29 +38,3 @@ See https://nvd.nist.gov/vuln/detail/CVE-2023-28842
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/162" class=".btn">#162</a>
-            </td>
-            <td>
-                <b>
-                    Added Operator Version in debug logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added Logs for Operator
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 09:25:24 +0000 UTC
-    </div>
-</div>
-

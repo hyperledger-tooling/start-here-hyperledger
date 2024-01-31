@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1621" class=".btn">#1621</a>
+            </td>
+            <td>
+                <b>
+                    Fix fresh clippy lints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 09:56:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1620" class=".btn">#1620</a>
+            </td>
+            <td>
+                <b>
+                    Polkadot: Implement `caller_is_root` runtime API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Recent versions of the contracts pallet expose a runtime API for contracts to check whether their caller is of root origin. The PR exposes this API as a builtin.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 09:09:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1619" class=".btn">#1619</a>
             </td>
             <td>

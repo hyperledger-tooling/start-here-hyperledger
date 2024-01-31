@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
         </tr>
         <tr>
             <td>
-                <span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span>
+                <span class="chip">prism-agent</span><span class="chip">build</span>
             </td>
             <td>
                 Re-enable logging with SLF4J
