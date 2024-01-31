@@ -1,13 +1,13 @@
 
-[59](https://github.com/hyperledger-labs/cc-tools-demo/pull/59) Check for binaries on system
+[2750](https://github.com/hyperledger/aries-cloudagent-python/pull/2750) Fix pytest collection errors when anoncreds package is not installed
 
-[869](https://github.com/hyperledger-labs/open-enterprise-agent/pull/869) [WIP] fix: re-enable logging with SLF4J and add traceId
+[4647](https://github.com/hyperledger/fabric/pull/4647) Patch gnark-crypto and github.com/sirupsen/logrus.
 
-[4644](https://github.com/hyperledger/fabric/pull/4644) change smartbft chain log message
+[2749](https://github.com/hyperledger/aries-cloudagent-python/pull/2749) Add cached copy of BBS v1 context
 
-[868](https://github.com/hyperledger-labs/open-enterprise-agent/pull/868) feat: Refactor Anoncred Duplicate Code
+[6496](https://github.com/hyperledger/besu/pull/6496) [Refactor] Move graphqloptions to its own class
 
-[186](https://github.com/hyperledger/fabric-sdk-py/pull/186) replace deprecated pysha3 with safe-pysha3
+[2748](https://github.com/hyperledger/aries-cloudagent-python/pull/2748) fix: accept and emit didexchange/1.1 when appropriate
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

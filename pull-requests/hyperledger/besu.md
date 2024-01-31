@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6496" class=".btn">#6496</a>
+            </td>
+            <td>
+                <b>
+                    [Refactor] Move graphqloptions to its own class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Move GraphQl options options to its own class
+
+## Fixed Issue(s)
+see https://github.com/hyperledger/besu/issues/6428
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 21:46:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6493" class=".btn">#6493</a>
             </td>
             <td>
@@ -820,7 +850,7 @@ release version of 24.1.1 including:
 
 ## PR description
 
-Draft PR just to get a deployable artifact 
+Add a summarize stack log util, use it in Pipeline to summarize abort errors at an info level
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -915,44 +945,6 @@ related to #6224
     </table>
     <div class="right-align">
         Created At 2024-01-24 15:45:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6455" class=".btn">#6455</a>
-            </td>
-            <td>
-                <b>
-                    ignore bws sync requests until initial sync is complete
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Ensure we do not attempt to start BWS sessions if initial sync has not yet completed.  This change prevents BWS from triggering via engine-api during:
-* initial sync
-* auto-heal
-* resync worldstate
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-23 23:07:01 +0000 UTC
     </div>
 </div>
 

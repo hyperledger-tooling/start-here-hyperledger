@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/99" class=".btn">#99</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    [WIP] Create doc site
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                Spelling mistake, it should be `use` not `user`.
+                Resolves #66
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-10 16:51:10 +0000 UTC
+        Created At 2024-01-30 18:53:05 +0000 UTC
     </div>
 </div>
 
