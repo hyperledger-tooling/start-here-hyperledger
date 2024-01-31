@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/67" class=".btn">#67</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md to reflect project transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should be merged upon TOC decision to Archive the project.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 18:04:22 +0000 UTC
-    </div>
-</div>
-

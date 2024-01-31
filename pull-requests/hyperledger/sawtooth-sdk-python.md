@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md to reflect project transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should be merged upon TOC decision to Archive the project.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 18:04:33 +0000 UTC
-    </div>
-</div>
-

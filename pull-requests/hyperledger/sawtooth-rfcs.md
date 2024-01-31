@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-rfcs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-rfcs/pull/56" class=".btn">#56</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md to reflect project transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should be merged upon TOC decision to Archive the project.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 18:04:23 +0000 UTC
-    </div>
-</div>
-

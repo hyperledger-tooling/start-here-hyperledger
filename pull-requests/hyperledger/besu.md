@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6509" class=".btn">#6509</a>
+            </td>
+            <td>
+                <b>
+                    give tests permission to write checks/status and put reports on pr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 15:19:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6508" class=".btn">#6508</a>
+            </td>
+            <td>
+                <b>
+                    Test that peers are not disconnected in `RetryingSwitchingPeerMessageTaskTest::failsWhenAllPeersFail
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Check that since we are below the max number of peers, no peer should be disconnected
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+relates to  #6465
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 13:49:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6505" class=".btn">#6505</a>
             </td>
             <td>
@@ -1028,91 +1098,6 @@ Add a summarize stack log util, use it in Pipeline to summarize abort errors at 
     </table>
     <div class="right-align">
         Created At 2024-01-24 21:50:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6458" class=".btn">#6458</a>
-            </td>
-            <td>
-                <b>
-                    silence dns query error warning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Temporary measure to silence the DNS query WARN errors until we can get an upstream library change in tuweni-dns-discovery
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #6070 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 18:11:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6456" class=".btn">#6456</a>
-            </td>
-            <td>
-                <b>
-                    Add broadcast address to PingPacketData from filter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-address another pathological default PingPacketData from address we are seeing on mainnet - a broadcast address 255.255.255.255 seems to be a default value for some implementations.
-
-For example we are seeing a lot of these log lines on mainnet:
-```
-{
-   "@timestamp":"2024-01-24T06:18:16,129",
-   "level":"WARN",
-   "thread":"vert.x-eventloop-thread-3",
-   "class":"VertxPeerDiscoveryAgent",
-   "message":"Sending to peer DiscoveryPeer{status=bonding, enode=enode://5d01e72875f3485fdcce5255720696087ea7d704c6632282fbe39329db6417a6f5ef940cf05519677be7f9c31b6b553fe9192e9e9feed37db3fb97bcc7fd099e@255.255.255.255:30313, firstDiscovered=1706077069751, lastContacted=0, lastSeen=1706077069751} failed, native error code -13, packet: 0x3123aed37feabe25bd4cc2625a1d1e2b12a5a1bbe6f3ef594c1ea76abbfbae670ab30477655186a5a3bf4487f2fa183807dad26037e950e89cc07ba20eaf229437e69c2e56d44fe934082147098ca4a0bd99964d67d2046789d080f69d5be2c60101df05cb8489757c7882765f82765fcb84ffffffff8276698276698465b0abe402, stacktrace: io.netty.channel.unix.Errors$NativeIoException: sendToAddress(..) failed: Permission denied",
-   "throwable":""
-}
-```
-
-the functional change is minimal, but rearranges the host detection to be in a unit testable method.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-related to #6224 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 15:45:21 +0000 UTC
     </div>
 </div>
 
