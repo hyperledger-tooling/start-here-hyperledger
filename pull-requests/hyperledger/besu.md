@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6509" class=".btn">#6509</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/6510" class=".btn">#6510</a>
             </td>
             <td>
                 <b>
-                    give tests permission to write checks/status and put reports on pr
+                    Gha test report permissions
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+                testing permissions on write to pr
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-31 15:19:22 +0000 UTC
+        Created At 2024-01-31 20:08:18 +0000 UTC
     </div>
 </div>
 
@@ -1024,80 +1017,6 @@ see #6428
     </table>
     <div class="right-align">
         Created At 2024-01-25 01:59:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6460" class=".btn">#6460</a>
-            </td>
-            <td>
-                <b>
-                    Release 24.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-release version of 24.1.1 including:
- - 24.1.1-RC commits
- - RC2 cherry picks of:
-   - #6455 
-   - #6458
- - updated changelog
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 22:10:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6459" class=".btn">#6459</a>
-            </td>
-            <td>
-                <b>
-                    info level log for pipeline abort
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add a summarize stack log util, use it in Pipeline to summarize abort errors at an info level
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-24 21:50:42 +0000 UTC
     </div>
 </div>
 
