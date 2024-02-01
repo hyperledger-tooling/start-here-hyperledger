@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                WIP - I don't think the revocation registry definition is getting created when the `auto-create-revocation-transactions` isn't set to true. Have it true as default currently.
             </td>
         </tr>
     </table>

@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Add docker support for contracts tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Building on the structure used for PDO, this commit adds a recipe for
+building a contracts container that can be used for testing of the
+contracts and the jupyter interface to the contracts.
+    
+The structure is similar to the PDO docker support: keys and
+configuration variables are shared through the xfer directory. Tools
+run in the container build the contracts, run the tests, and also run
+a jupyter server.
+    
+The behavior can be customized through a local makefile that allows
+for override of variables. A local environment file can be used to
+customize the behavior docker compose.
+
+Run contract tests: cd docker; make test
+Run a Jupyter server: cd docker; make jupyter_test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-01 00:45:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/22" class=".btn">#22</a>
             </td>
             <td>
