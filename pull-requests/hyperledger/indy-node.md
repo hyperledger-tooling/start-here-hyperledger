@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1827" class=".btn">#1827</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1829" class=".btn">#1829</a>
             </td>
             <td>
                 <b>
-                    Update documentation
+                    RTD Fixes to enable publishing
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                - Remove obsolete and misleading information.
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-24 17:42:26 +0000 UTC
+        Created At 2024-02-01 06:26:05 +0000 UTC
     </div>
 </div>
 

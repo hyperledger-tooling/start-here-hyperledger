@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/611" class=".btn">#611</a>
+            </td>
+            <td>
+                <b>
+                    hide mustgather section for readers and writers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-01 09:01:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/610" class=".btn">#610</a>
             </td>
             <td>

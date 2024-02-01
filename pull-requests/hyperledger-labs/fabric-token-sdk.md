@@ -204,10 +204,13 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR introduces the following changes:
+- Token Driver: public parameters must be available at time of instantiation
+- AuditorDB does not require a tms anymore
+- if the vault contains the public params, the corresponding tms is instantiated immediately
             </td>
         </tr>
     </table>

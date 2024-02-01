@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/403" class=".btn">#403</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/404" class=".btn">#404</a>
             </td>
             <td>
                 <b>
-                    Fixed RegistrableBox metadata merging for test genesis blocks
+                    feature: unregister role and grant permission token by custom name
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                Before the map to determine the relation between metadata and instruction didn't care about the entity identifier so when there were multiple entities with the same metadata being registered all but one got removed from the resulting genesis.
+                Added new instructions to unregister role and grant permission token by custom name
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-25 10:57:50 +0000 UTC
+        Created At 2024-02-01 08:07:39 +0000 UTC
     </div>
 </div>
 
