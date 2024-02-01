@@ -41,7 +41,7 @@ for override of variables. A local environment file can be used to
 customize the behavior docker compose.
 
 Run contract tests: cd docker; make test
-Run a Jupyter server: cd docker; make jupyter_test
+Run a Jupyter server: cd docker; make test_jupyter
             </td>
         </tr>
     </table>
