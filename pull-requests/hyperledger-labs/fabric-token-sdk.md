@@ -198,7 +198,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    new update function
+                    new public params management
                 </b>
             </td>
         </tr>

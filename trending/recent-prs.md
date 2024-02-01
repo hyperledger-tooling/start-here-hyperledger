@@ -1,13 +1,13 @@
 
+[260](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/260) Hyperledger Splice
+
+[613](https://github.com/hyperledger-labs/fabric-operations-console/pull/613) changed input validation b/c available client and server log levels a…
+
+[612](https://github.com/hyperledger-labs/fabric-operations-console/pull/612) fixes yaml parsing
+
+[11](https://github.com/hyperledger-labs/perun-rs/pull/11) Adapt to work with perun-node
+
 [611](https://github.com/hyperledger-labs/fabric-operations-console/pull/611) hide mustgather section for readers and writers
-
-[404](https://github.com/hyperledger/iroha-java/pull/404) feature: unregister role and grant permission token by custom name
-
-[1829](https://github.com/hyperledger/indy-node/pull/1829) RTD Fixes to enable publishing
-
-[6513](https://github.com/hyperledger/besu/pull/6513) [MINOR] Detect DB version mismatch on Startup and gracefully exit #6511
-
-[6512](https://github.com/hyperledger/besu/pull/6512) [Refactor] Move api options to its own class
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
