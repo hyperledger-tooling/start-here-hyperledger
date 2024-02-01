@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6513" class=".btn">#6513</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Detect DB version mismatch on Startup and gracefully exit #6511
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Detect DB version mismatch on Startup and gracefully exit
+
+Message:
+
+`Mismatch detected: Database at ./database is version '1', but configuration expects version '2'.
+`
+## Fixed Issue(s)
+fixes https://github.com/hyperledger/besu/issues/5926
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-01 05:32:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6512" class=".btn">#6512</a>
+            </td>
+            <td>
+                <b>
+                    [Refactor] Move api options to its own class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Move api options options to its own class
+
+## Fixed Issue(s)
+see https://github.com/hyperledger/besu/issues/6428
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-01 04:06:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6510" class=".btn">#6510</a>
             </td>
             <td>
@@ -947,76 +1011,6 @@ Log lines look like these:
     </table>
     <div class="right-align">
         Created At 2024-01-25 11:25:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6463" class=".btn">#6463</a>
-            </td>
-            <td>
-                <b>
-                    Skip pruning if trie log count is less than retention limit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Rework error messaging in this case.
-
-This can occur if pruning is attempted before the node has reached the configured retention limit (512 by default)
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-25 03:15:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6461" class=".btn">#6461</a>
-            </td>
-            <td>
-                <b>
-                    [Refactor] - Extract websocket options to a new class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-[Refactor] - Extract web socket options to a new class
-
-- Moves the web socket cli options to its own class.
-- same for related tests
-
-## Fixed Issue(s)
-see #6428
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-25 01:59:11 +0000 UTC
     </div>
 </div>
 
