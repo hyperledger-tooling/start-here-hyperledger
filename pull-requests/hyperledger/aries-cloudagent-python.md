@@ -104,7 +104,7 @@ Fixes #2738
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.0.0</span>
             </td>
             <td>
                 Fixes #2742 and various other issues discovered while testing ACA-Py against AFJ.
@@ -164,7 +164,7 @@ Should correct the issues seen in #2737 and #2746 (black was passing locally).
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.0.0</span>
             </td>
             <td>
                 This PR partially reverts some of the changes made in #2661 relating to the `ConnRecordSchema`. The changes in that PR caused the generated openapi to rename the definition to `StoredConnRecord`. We can get the same fix while not causing a change to the name in the openapi; this is preferable because otherwise it impacts downstream consumers of the openapi definition.
@@ -446,32 +446,6 @@ Its not pretty, but its the best solution I could come up with that has minimal 
     </table>
     <div class="right-align">
         Created At 2024-01-26 21:48:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2734" class=".btn">#2734</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade anoncred-rs to version 0.2.0-dev8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Still waiting for integration tests locally.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-25 16:37:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/613" class=".btn">#613</a>
+            </td>
+            <td>
+                <b>
+                    changed input validation b/c available client and server log levels a…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …re different + remove redundant validation
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- removes redundant input validation on the logging settings api (from legacy)
+- client and server log levels have different options, fixed
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-01 15:51:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/612" class=".btn">#612</a>
+            </td>
+            <td>
+                <b>
+                    fixes yaml parsing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+YAML to JSON parsing was broken, `safeDump()` is not longer in the yaml library.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-01 15:34:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/611" class=".btn">#611</a>
             </td>
             <td>
@@ -391,76 +464,6 @@ CVE-2022-1996: https://nvd.nist.gov/vuln/detail/CVE-2022-1996
     </table>
     <div class="right-align">
         Created At 2024-01-26 19:04:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/600" class=".btn">#600</a>
-            </td>
-            <td>
-                <b>
-                    reduce cache expiration from 2 minutes to 1.5 minutes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Lowers the cache expiration of component status APIs from 120 seconds to 90 seconds.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-25 14:36:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/599" class=".btn">#599</a>
-            </td>
-            <td>
-                <b>
-                    update release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Update release notes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-25 14:15:14 +0000 UTC
     </div>
 </div>
 
