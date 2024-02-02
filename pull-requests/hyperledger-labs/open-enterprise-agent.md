@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/871" class=".btn">#871</a>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/872" class=".btn">#872</a>
             </td>
             <td>
                 <b>
-                    test: dummy pr - DO NOT MERGE
+                    ci: pin the 'action-semantic-pull-request' plugin version to 5.2.0 
                 </b>
             </td>
         </tr>
@@ -28,9 +28,8 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes ATL-xxxx
+Pin the 'action-semantic-pull-request' plugin version to 5.2.0 to force node v16 usage. 
 
 ## Checklist
 
@@ -60,7 +59,7 @@ Fixes ATL-xxxx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-02 11:50:55 +0000 UTC
+        Created At 2024-02-02 14:20:18 +0000 UTC
     </div>
 </div>
 
