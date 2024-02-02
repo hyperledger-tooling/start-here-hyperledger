@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/260" class=".btn">#260</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/261" class=".btn">#261</a>
             </td>
             <td>
                 <b>
@@ -28,12 +28,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
             </td>
             <td>
                 Reference applications for funding, operating, and incentivizing the use of a decentralized, public Canton synchronizer. Includes the Amulet reference application for creating native payment utilities for Canton synchronizers and Daml applications.
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-01 17:24:19 +0000 UTC
+        Created At 2024-02-01 19:55:05 +0000 UTC
     </div>
 </div>
 
@@ -62,32 +61,6 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     </table>
     <div class="right-align">
         Created At 2024-01-29 18:38:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/258" class=".btn">#258</a>
-            </td>
-            <td>
-                <b>
-                    Solang Playground
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solang playground is a web IDE for [Hyperledger Solang](https://github.com/hyperledger/solang). It is an easy way for Solidity developers to write, compile, deploy and interact with a Solidity contract deployed on Solana or Polkadot, without prior installation of any of the required tools (including Solang).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-25 18:39:44 +0000 UTC
     </div>
 </div>
 

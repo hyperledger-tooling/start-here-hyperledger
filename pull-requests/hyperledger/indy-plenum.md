@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1639" class=".btn">#1639</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1646" class=".btn">#1646</a>
             </td>
             <td>
                 <b>
-                    indy-plenum Maintainers as of today
+                    [v1.13.1] - Update Version Number for Release
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                [v1.13.1] - Update Version number for Release
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-20 16:15:15 +0000 UTC
+        Created At 2024-02-01 20:08:30 +0000 UTC
     </div>
 </div>
 
