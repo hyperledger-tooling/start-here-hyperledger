@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/541" class=".btn">#541</a>
+            </td>
+            <td>
+                <b>
+                    enhance the token store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR passes to the token store functions also the content of the token stored on the ledger
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-02 10:14:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/540" class=".btn">#540</a>
+            </td>
+            <td>
+                <b>
+                    RWS-based vault
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR refactors the code to better split the RWS-based token vault. This will make more clear that a different implementation can be plugged.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-02 09:38:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/539" class=".btn">#539</a>
             </td>
             <td>
@@ -216,32 +268,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-01-29 10:20:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/537" class=".btn">#537</a>
-            </td>
-            <td>
-                <b>
-                    reduce dependency on service provider
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR replaces dependency to `ServiceProvider` with the actual needed dependencies.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-26 10:09:44 +0000 UTC
     </div>
 </div>
 
