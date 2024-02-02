@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
             </td>
             <td>
                 <b>
-                    Hyperledger Splice
+                    Splice Proposal for Hyperledger Labs
                 </b>
             </td>
         </tr>

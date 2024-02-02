@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4658" class=".btn">#4658</a>
+            </td>
+            <td>
+                <b>
+                    Bump github.com/opencontainers/runc to 1.1.12 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump github.com/opencontainers/runc to 1.1.12 (release-2.5)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-02 16:29:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4657" class=".btn">#4657</a>
             </td>
             <td>
@@ -581,47 +607,6 @@ This may be the last commit to v2.2, but it's definitely a good one.
     </table>
     <div class="right-align">
         Created At 2024-01-26 19:49:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4635" class=".btn">#4635</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix grammer for ledger docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-Fix grammer for ledger docs.
-
-#### Additional details
-
-NA
-#### Related issues
-
-NA
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-26 17:04:14 +0000 UTC
     </div>
 </div>
 
