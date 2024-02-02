@@ -15,31 +15,31 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.16
+                    v1.3.0-alpha.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.16
+                    v1.3.0-alpha.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add manual workflow for updating "latest" on npm by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/83
-* Update getOperation to reflect "detail" param by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/84
+* Add more helpers around subscriptions and batch delivery by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/85
+* Update package version to 1.3.0-alpha.1 by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/87
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.15...v1.2.16
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.16...v1.3.0-alpha.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.16" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.3.0-alpha.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-11-02 12:25:32 +0000 UTC
+        Created At 2024-02-02 18:36:29 +0000 UTC
     </span>
 </div>
 
