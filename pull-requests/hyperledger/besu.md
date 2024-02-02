@@ -14,6 +14,128 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6493" class=".btn">#6493</a>
+            </td>
+            <td>
+                <b>
+                    add profile info to help footer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #6430 
+
+depends on #6449
+
+![Screenshot 2024-01-30 at 3 21 48 pm](https://github.com/hyperledger/besu/assets/2627919/81aef27d-340e-4bb4-8207-20788071812d)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 05:20:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6491" class=".btn">#6491</a>
+            </td>
+            <td>
+                <b>
+                    Remove `--engine-jwt-enabled` deprecated option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Removes `--engine-jwt-enabled`. Replaced by `--engine-jwt-disabled`
+
+It has been deprecated since 2022. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 00:45:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6490" class=".btn">#6490</a>
+            </td>
+            <td>
+                <b>
+                    [Refactor ] Move permission options to its own class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Move permission options to its own class
+
+## Fixed Issue(s)
+see #6428
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-30 00:29:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6487" class=".btn">#6487</a>
+            </td>
+            <td>
+                <b>
+                    Delete development artifacts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Delete three files that appear to be work in progress development files.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-29 17:41:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6485" class=".btn">#6485</a>
             </td>
             <td>
@@ -453,41 +575,6 @@ No issue for this PR
     </table>
     <div class="right-align">
         Created At 2024-01-26 13:43:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6468" class=".btn">#6468</a>
-            </td>
-            <td>
-                <b>
-                    Fix 24.1.1 changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-fix changelog:
- * 24.1.1 entries 
- * 24.1.0 download links
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-26 01:01:18 +0000 UTC
     </div>
 </div>
 
