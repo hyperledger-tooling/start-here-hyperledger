@@ -1,13 +1,13 @@
 
-[4658](https://github.com/hyperledger/fabric/pull/4658) Bump github.com/opencontainers/runc to 1.1.12 (release-2.5)
+[4666](https://github.com/hyperledger/fabric/pull/4666) Bump github.com/opencontainers/runc to 1.1.12 (release-2.2)
 
-[872](https://github.com/hyperledger-labs/open-enterprise-agent/pull/872) ci: pin the 'action-semantic-pull-request' plugin version to 5.2.0 
+[4665](https://github.com/hyperledger/fabric/pull/4665) Bump github.com/opencontainers/runc to 1.1.12 (release-2.5)
 
-[615](https://github.com/hyperledger-labs/fabric-operations-console/pull/615) Changes as per timeout error in pipeline
+[4664](https://github.com/hyperledger/fabric/pull/4664) Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
 
-[541](https://github.com/hyperledger-labs/fabric-token-sdk/pull/541) enhance the token store
+[4663](https://github.com/hyperledger/fabric/pull/4663) Upgrade github.com/sirupsen/logrus to v1.9.3.
 
-[540](https://github.com/hyperledger-labs/fabric-token-sdk/pull/540) RWS-based vault
+[4662](https://github.com/hyperledger/fabric/pull/4662) Upgrade github.com/sirupsen/logrus to v1.9.3.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
