@@ -56,7 +56,8 @@ Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue)
             </td>
             <td>
                 Bump github.com/opencontainers/runc to 1.1.12 (release-2.5)
-Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue)
+Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue with ./scripts/metrics_doc.sh check)
+Only move google.golang.org/protobuf to v1.31.0 (later versions introduce an issue with chaincode build)
             </td>
         </tr>
     </table>
