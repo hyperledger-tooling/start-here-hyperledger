@@ -1,13 +1,13 @@
 
-[1647](https://github.com/hyperledger/indy-plenum/pull/1647) RTD Fixes to enable publishing
+[7](https://github.com/hyperledger-labs/solang-playground/pull/7) Bump follow-redirects from 1.15.1 to 1.15.5
 
-[4666](https://github.com/hyperledger/fabric/pull/4666) Bump github.com/opencontainers/runc to 1.1.12 (release-2.2)
+[6](https://github.com/hyperledger-labs/solang-playground/pull/6) Bump loader-utils from 2.0.2 to 2.0.4
 
-[4665](https://github.com/hyperledger/fabric/pull/4665) Bump github.com/opencontainers/runc to 1.1.12 (release-2.5)
+[5](https://github.com/hyperledger-labs/solang-playground/pull/5) Bump json5 from 2.2.1 to 2.2.3
 
-[4664](https://github.com/hyperledger/fabric/pull/4664) Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
+[4](https://github.com/hyperledger-labs/solang-playground/pull/4) Bump webpack from 5.73.0 to 5.76.0
 
-[4663](https://github.com/hyperledger/fabric/pull/4663) Upgrade github.com/sirupsen/logrus to v1.9.3.
+[3](https://github.com/hyperledger-labs/solang-playground/pull/3) Bump postcss from 8.4.14 to 8.4.33
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
