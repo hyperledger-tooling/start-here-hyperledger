@@ -15,29 +15,29 @@ permalink: /releases/hyperledger/bevel-operator-fabric
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.10.0-beta7
+                    Version 1.10.0-beta8
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.10.0-beta7
+                    v1.10.0-beta8
                 </span>
             </td>
             <td>
                 ## Changelog
-* 5f376fd update
+* fabc95b update
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.0-beta7" class=".btn">
+    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.0-beta8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-01-25 07:56:01 +0000 UTC
+        Created At 2024-02-04 17:09:31 +0000 UTC
     </span>
 </div>
 
