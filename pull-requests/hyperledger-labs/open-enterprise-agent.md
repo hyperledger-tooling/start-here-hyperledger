@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/875" class=".btn">#875</a>
+            </td>
+            <td>
+                <b>
+                    ci: upgrade action plugin versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reverts hyperledger-labs/open-enterprise-agent#872
+
+The GH runner has been upgraded with node20. Now we cannot use old plugin version which doesn't have node20 in path.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-05 12:06:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/874" class=".btn">#874</a>
             </td>
             <td>
