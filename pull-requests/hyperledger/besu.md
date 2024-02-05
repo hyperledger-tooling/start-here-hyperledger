@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6499" class=".btn">#6499</a>
+            </td>
+            <td>
+                <b>
+                    Flat db heal - deprecate CLI option and set to always true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * set flat db healing enabled to true always
+* remove duplicate setup of default values from Sync Options class
+
+refs #6157
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 01:26:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6498" class=".btn">#6498</a>
+            </td>
+            <td>
+                <b>
+                    Filter Discovered peers for ipv6 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+updates PeerDiscoveryAgent to 
+* use existing NetworkUtility to filter for any/none peers
+* fall back to source address if ipv6 is not supported (like in a docker container)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #6475 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 01:01:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6496" class=".btn">#6496</a>
             </td>
             <td>
