@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/44" class=".btn">#44</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/47" class=".btn">#47</a>
             </td>
             <td>
                 <b>
-                    amended for Docker not installed and Not in project dir situations
+                    Feat/witnesses
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-26 14:25:28 +0000 UTC
+        Created At 2024-02-05 15:51:49 +0000 UTC
     </div>
 </div>
 

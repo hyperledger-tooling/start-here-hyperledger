@@ -225,35 +225,3 @@ see #6428
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6487" class=".btn">#6487</a>
-            </td>
-            <td>
-                <b>
-                    Delete development artifacts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Delete three files that appear to be work in progress development files.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-29 17:41:51 +0000 UTC
-    </div>
-</div>
-

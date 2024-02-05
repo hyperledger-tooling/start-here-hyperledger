@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4668" class=".btn">#4668</a>
+            </td>
+            <td>
+                <b>
+                    fix error "runtime error: index out of range [0] with length 0"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix for this [error](https://github.com/hyperledger/fabric/actions/runs/7764041048/job/21228336098) 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-05 15:48:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4667" class=".btn">#4667</a>
             </td>
             <td>
@@ -117,7 +143,8 @@ Only move google.golang.org/protobuf to v1.31.0 (later versions introduce an iss
             </td>
             <td>
                 Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
-Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue)
+Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue with ./scripts/metrics_doc.sh check)
+Only move google.golang.org/protobuf to v1.31.0 (later versions introduce an issue with chaincode build)
 
 
             </td>
@@ -654,34 +681,6 @@ This PR aims to fix a log message that includes the channel name twice.
     </table>
     <div class="right-align">
         Created At 2024-01-30 14:32:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4641" class=".btn">#4641</a>
-            </td>
-            <td>
-                <b>
-                    Update github actions to use Node 20
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - actions/setup-go@v5
-- actions/checkout@v4
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-29 14:20:14 +0000 UTC
     </div>
 </div>
 
