@@ -1,13 +1,13 @@
 
+[875](https://github.com/hyperledger-labs/open-enterprise-agent/pull/875) ci: upgrade action plugin versions
+
+[131](https://github.com/hyperledger-labs/hlf-connector/pull/131) fix issues with metrics counter Aspect and mutli-data transaction Payload.
+
+[523](https://github.com/hyperledger-labs/fabric-smart-client/pull/523) remove support for git download
+
+[4667](https://github.com/hyperledger/fabric/pull/4667) Fix bft handle request
+
 [874](https://github.com/hyperledger-labs/open-enterprise-agent/pull/874) docs(node): Add instructions on how to use the node
-
-[542](https://github.com/hyperledger-labs/fabric-token-sdk/pull/542) wip: add sql backend for token storage
-
-[873](https://github.com/hyperledger-labs/open-enterprise-agent/pull/873) feat: refactor duplcate code
-
-[7](https://github.com/hyperledger-labs/solang-playground/pull/7) Bump follow-redirects from 1.15.1 to 1.15.5
-
-[6](https://github.com/hyperledger-labs/solang-playground/pull/6) Bump loader-utils from 2.0.2 to 2.0.4
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

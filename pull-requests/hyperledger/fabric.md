@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4667" class=".btn">#4667</a>
+            </td>
+            <td>
+                <b>
+                    Fix bft handle request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+
+#### Description
+
+The `HandleRequest` in `BFTChain` should call `HandleRequest` of consensus (and not `SubmitRequest`).
+And the request is already verified inside, so no need to verify here.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-05 09:27:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4666" class=".btn">#4666</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/523" class=".btn">#523</a>
+            </td>
+            <td>
+                <b>
+                    remove support for git download
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/fabric-smart-client/security/dependabot/89
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-05 09:34:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/522" class=".btn">#522</a>
             </td>
             <td>

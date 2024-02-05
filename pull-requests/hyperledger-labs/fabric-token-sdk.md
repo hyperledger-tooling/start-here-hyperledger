@@ -275,32 +275,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/538" class=".btn">#538</a>
-            </td>
-            <td>
-                <b>
-                    new public params management
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR introduces the following changes:
-- Token Driver: public parameters must be available at time of instantiation
-- AuditorDB does not require a tms anymore
-- if the vault contains the public params, the corresponding tms is instantiated immediately
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-29 10:20:25 +0000 UTC
-    </div>
-</div>
-
