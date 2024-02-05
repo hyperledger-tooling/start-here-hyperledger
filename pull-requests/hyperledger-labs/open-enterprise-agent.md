@@ -24,12 +24,10 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span>
             </td>
             <td>
-                Reverts hyperledger-labs/open-enterprise-agent#872
-
-The GH runner has been upgraded with node20. Now we cannot use old plugin version which doesn't have node20 in path.
+                Upgrade any GH action plugin that fail the workflow due to `node20` upgrade.
             </td>
         </tr>
     </table>
