@@ -163,34 +163,3 @@ see https://github.com/hyperledger/besu/issues/6428
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6493" class=".btn">#6493</a>
-            </td>
-            <td>
-                <b>
-                    add profile info to help footer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #6430 
-
-depends on #6449
-
-![Screenshot 2024-01-30 at 3 21 48 pm](https://github.com/hyperledger/besu/assets/2627919/81aef27d-340e-4bb4-8207-20788071812d)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-30 05:20:56 +0000 UTC
-    </div>
-</div>
-
