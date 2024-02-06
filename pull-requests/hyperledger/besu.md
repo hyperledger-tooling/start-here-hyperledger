@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6501" class=".btn">#6501</a>
+            </td>
+            <td>
+                <b>
+                    Deprecate --Xp2p-peer-lower-bound
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Deprecate CLI option --Xp2p-peer-lower-bound and remove usage
+
+Fixes #6376
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-31 03:46:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6500" class=".btn">#6500</a>
             </td>
             <td>
@@ -163,65 +191,6 @@ depends on #6449
     </table>
     <div class="right-align">
         Created At 2024-01-30 05:20:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6491" class=".btn">#6491</a>
-            </td>
-            <td>
-                <b>
-                    Remove `--engine-jwt-enabled` deprecated option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Removes `--engine-jwt-enabled`. Replaced by `--engine-jwt-disabled`
-
-It has been deprecated since 2022. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-30 00:45:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6490" class=".btn">#6490</a>
-            </td>
-            <td>
-                <b>
-                    [Refactor ] Move permission options to its own class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Move permission options to its own class
-
-## Fixed Issue(s)
-see #6428
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-30 00:29:17 +0000 UTC
     </div>
 </div>
 
