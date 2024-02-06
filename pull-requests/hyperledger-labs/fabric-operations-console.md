@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/616" class=".btn">#616</a>
+            </td>
+            <td>
+                <b>
+                    sanitise payload of db backup api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- Code Improvement
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+- Sanitise input payload of db backup api
+- Improve code by duplicate conditions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-06 08:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/615" class=".btn">#615</a>
             </td>
             <td>
