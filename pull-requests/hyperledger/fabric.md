@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4668" class=".btn">#4668</a>
-            </td>
-            <td>
-                <b>
-                    fix error "runtime error: index out of range [0] with length 0"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix for this [error](https://github.com/hyperledger/fabric/actions/runs/7764041048/job/21228336098) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 15:48:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4667" class=".btn">#4667</a>
             </td>
             <td>
@@ -145,6 +119,8 @@ Only move google.golang.org/protobuf to v1.31.0 (later versions introduce an iss
                 Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
 Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue with ./scripts/metrics_doc.sh check)
 Only move google.golang.org/protobuf to v1.31.0 (later versions introduce an issue with chaincode build)
+
+Update tests to reflect message updates in latest grpc v1.61.0.
 
 
             </td>

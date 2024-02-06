@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/259" class=".btn">#259</a>
-            </td>
-            <td>
-                <b>
-                    Aries Agent Deployment Lab
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This lab focuses on deploying Hyperledger Aries agents using Kubernetes. The project includes Kubernetes charts and Helm packages for easy and scalable deployment of Aries agents in a cloud environment, specifically designed for AWS using Amazon EKS. It can be adjusted for use with other cloud providers as well. Also included is an agent controller. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-29 18:38:15 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    Remove unused dependency on Pillow python package from inference cont…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove unused dependency on Pillow Python package while installing inference-contract.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-05 22:53:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/23" class=".btn">#23</a>
             </td>
             <td>
@@ -47,32 +73,6 @@ Run a Jupyter server: cd docker; make test_jupyter
     </table>
     <div class="right-align">
         Created At 2024-02-01 00:45:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/22" class=".btn">#22</a>
-            </td>
-            <td>
-                <b>
-                    Revert the cmake dependency to ensure that ubuntu 20.04 continues to be supported
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Most client development now assumes ubuntu 22.04. However we want to continue to support 20.04 for the moment. This will make cmake work with ubuntu 20.04 default cmake version.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-29 19:28:49 +0000 UTC
     </div>
 </div>
 
