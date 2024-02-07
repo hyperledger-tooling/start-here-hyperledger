@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/169" class=".btn">#169</a>
+            </td>
+            <td>
+                <b>
+                    Updating fabric/fabric-ca APIs to latest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/fabric-operator/issues/164
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 00:59:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/168" class=".btn">#168</a>
             </td>
             <td>

@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
                 <span class="chip">mercury</span>
             </td>
             <td>
-                Related with ATL-5441
+                Related with ATL-5441 and ATL-6549
 
             </td>
         </tr>
