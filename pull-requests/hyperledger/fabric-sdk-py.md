@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/186" class=".btn">#186</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/187" class=".btn">#187</a>
             </td>
             <td>
                 <b>
-                    replace deprecated pysha3 with safe-pysha3
+                    fix: Update doc (#135)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                closes #185 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-30 13:43:37 +0000 UTC
+        Created At 2024-02-05 10:58:58 +0000 UTC
     </div>
 </div>
 

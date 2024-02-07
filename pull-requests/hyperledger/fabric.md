@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4670" class=".btn">#4670</a>
+            </td>
+            <td>
+                <b>
+                    Bump github.com/containerd/containerd to 1.6.26 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
+Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue with ./scripts/metrics_doc.sh check)
+Only move google.golang.org/protobuf to v1.31.0 (later versions introduce an issue with chaincode build)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 14:31:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4667" class=".btn">#4667</a>
             </td>
             <td>
@@ -485,146 +514,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-01-31 22:54:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4652" class=".btn">#4652</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.21.6 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.21.6.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-31 16:00:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4651" class=".btn">#4651</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.21.6 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.21.6
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-31 15:42:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4650" class=".btn">#4650</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.21.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.21.6
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-31 15:36:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4649" class=".btn">#4649</a>
-            </td>
-            <td>
-                <b>
-                    Update github actions to use Node 20 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - actions/setup-go@v5
-- actions/checkout@v4
-
-Need to ensure checkout is done before setup-go for cache to work.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-31 14:29:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4648" class=".btn">#4648</a>
-            </td>
-            <td>
-                <b>
-                    Update github actions to use Node 20 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - actions/setup-go@v5
-- actions/checkout@v4
-
-Need to ensure checkout is done before setup-go for cache to work.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-31 14:24:39 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/622" class=".btn">#622</a>
+            </td>
+            <td>
+                <b>
+                    Sync and update fabric operator apis
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement
+
+#### Description
+Sync the deployer code up to dated with the fabric-operator API changes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 15:11:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/621" class=".btn">#621</a>
             </td>
             <td>
@@ -479,43 +511,6 @@ YAML to JSON parsing was broken, `safeDump()` is not longer in the yaml library.
     </table>
     <div class="right-align">
         Created At 2024-02-01 09:01:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/610" class=".btn">#610</a>
-            </td>
-            <td>
-                <b>
-                    fixes mustgather download button w/axios
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fixes the mustgather download zip button, the previous route for this download was using a `request.get` and a `pipe` method which are not available in our axios-request wrapper.
-
-this fix does require rebuilding the URL allow list, which will happen on startup automatically
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-31 15:38:10 +0000 UTC
     </div>
 </div>
 

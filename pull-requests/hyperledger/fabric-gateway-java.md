@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/166" class=".btn">#166</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/167" class=".btn">#167</a>
             </td>
             <td>
                 <b>
-                    Update version of dependency-check
+                    Build maintenance
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Avoid rate limiting during vulnerability scans.
+                - Cache dependency-check data to avoid unnecessary download of NVD data.
+- Update GitHub actions to avoid deprecated Node 16 actions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-15 12:27:55 +0000 UTC
+        Created At 2024-02-03 16:01:34 +0000 UTC
     </div>
 </div>
 
