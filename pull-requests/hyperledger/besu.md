@@ -167,7 +167,7 @@ Found a bug during additional testing see https://github.com/hyperledger/besu/pu
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                
             </td>
             <td>
                 Deprecate CLI option --Xp2p-peer-lower-bound and remove usage
@@ -273,36 +273,6 @@ fixes #6475
     </table>
     <div class="right-align">
         Created At 2024-01-31 01:01:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6496" class=".btn">#6496</a>
-            </td>
-            <td>
-                <b>
-                    [Refactor] Move graphqloptions to its own class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Move GraphQl options options to its own class
-
-## Fixed Issue(s)
-see https://github.com/hyperledger/besu/issues/6428
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-30 21:46:25 +0000 UTC
     </div>
 </div>
 
