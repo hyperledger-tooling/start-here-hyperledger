@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/325" class=".btn">#325</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/329" class=".btn">#329</a>
             </td>
             <td>
                 <b>
-                    Fix image names in Dockerfile
+                    Update build to avoid deprecated Node 16 GitHub actions
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-07 16:26:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/324" class=".btn">#324</a>
-            </td>
-            <td>
-                <b>
-                    Fix test workflow link in release workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-07 15:37:50 +0000 UTC
+        Created At 2024-02-04 23:01:42 +0000 UTC
     </div>
 </div>
 

@@ -14,28 +14,77 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4246" class=".btn">#4246</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4269" class=".btn">#4269</a>
             </td>
             <td>
                 <b>
-                    [ci] #3889: Add docker-compose files run check into iroha2 CI
+                    Codeowners 2024
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
+                
             </td>
             <td>
-                ## Description
-1. Add community docker-compose files CI check before image pushing
-2. Update community docker-compose files
+                https://github.com/hyperledger/iroha/issues/4268
+
+Current code owner list:
+
+* @s8sato
+* @mversic
+* @arjentix
+* @SamHSmith
+* @outoftardis
+* @Erigara
+* @0x009922
+* @DCNick3
+* @vamuzing
+* @Asem-Abdelhady
+* @horizenight
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 16:49:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4266" class=".btn">#4266</a>
+            </td>
+            <td>
+                <b>
+                    [BACKPORT] #4083: Introduce predictable ordering after too many failed view changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                
+## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
 
 ### Linked issue
-#3889 
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
-Validate community docker-compose files integrity and serviceability.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
 
 ### Checklist
 
@@ -45,12 +94,19 @@ Validate community docker-compose files integrity and serviceability.
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-30 10:32:22 +0000 UTC
+        Created At 2024-02-07 12:05:47 +0000 UTC
     </div>
 </div>
 
@@ -58,11 +114,110 @@ Validate community docker-compose files integrity and serviceability.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4245" class=".btn">#4245</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4263" class=".btn">#4263</a>
             </td>
             <td>
                 <b>
-                    [BACKPORT] #4097: Fix warp noise in logs
+                    [fix] #4256: Introduce predictable ordering after too many failed view changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4256
+Created #4265
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 10:02:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4258" class=".btn">#4258</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #4137: for store tranfer instruction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+Implementation of the store transfer instruction feature.
+
+### Linked issue
+
+Closes #4137
+
+### Checklist
+
+- [X] I've read `CONTRIBUTING.md`
+- [X] I've used the standard signed-off commit format (or will squash just before merging)
+- [] All applicable CI checks pass (or I promised to make them pass later)
+- [X] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-06 11:55:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4257" class=".btn">#4257</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4126: test to prevent cross chain replay attacks
                 </b>
             </td>
         </tr>
@@ -109,7 +264,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-30 09:31:04 +0000 UTC
+        Created At 2024-02-06 09:47:23 +0000 UTC
     </div>
 </div>
 
@@ -117,11 +272,165 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4240" class=".btn">#4240</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4254" class=".btn">#4254</a>
             </td>
             <td>
                 <b>
-                    [refactor] #1981, #4195: Refactor the event filters
+                    [chore] #4255: Update Maintainers, add Sato-san
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Let's add @s8sato back to the list of maintainers
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-05 07:13:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4252" class=".btn">#4252</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3887: Hide an internal structure of the versioned structs.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+Encapsulated the next structs:
+* SignedTransactionV1
+* SignedBlockV1
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3887 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-02 17:55:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4251" class=".btn">#4251</a>
+            </td>
+            <td>
+                <b>
+                    Fixing warning in command SubtractAssetQuantity, removing unnecessarily includes, small documentation change
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">1.x</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                ## Description
+After successful merges:  https://github.com/hyperledger/iroha/pull/4003 and https://github.com/hyperledger/iroha/pull/4032 I was compiling entire Iroha 1.
+
+1. I've noticed some warning, which may cause that the command is not working properly.
+2. I've also corrected warnings connected with unused includes.
+3. I remember that many times I was asking @6r1d how to merge approved Pull Request, he suggested that this information should be in CONTRIBUTION.rst - so I've added its.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+1. Fix of undetected bug
+2. Faster compilation time and less warnings from IDE
+3. No more questions to @6r1d about what button to press:)
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md` - I even edited the file:D
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later) - we will see
+- [ ] (optional) I've written unit tests for the code changes - not required
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-02 15:11:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4250" class=".btn">#4250</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #4083: Add pprof-rs support
                 </b>
             </td>
         </tr>
@@ -132,72 +441,49 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             <td>
                 ## Description
 
-- rename the `Filter` trait to `EventFilter`
-- "manually" implement all the event filters without macros
-  - as a consequence, move all the filters to a separate module
-- change the filter types naming scheme to be more logical:
-  - AccountFilter -> AccountEventFilter (filters the event as a whole: by origin id and event type)
-  - AccountEventFilter -> AccountEventMatcher (matches over a type of event)
-- flattens the event filter hierarchy (account event is a kind of domain event, but account event filter is not)
+Add torii endpoint to serve pprof profiles.
+
+Changed debug to "limited" due to more detailed function names.
+
+Added `-Z build-std` for profiling image in order to force frame pointers in the std as well.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
 
 ### Linked issue
 
-Closes #1981, #4195
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4083 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
 
-- more orthogonal API: only one way to filter for specific filter API (see #4195)
-- simpler to navigate and edit due to not using macros (and with less code!)
+Able to profile iroha without any privileges like (root access of linux cap).
 
-### Checklist
+### Downsides
 
-- [ ] split events into modules mirroring the events API
-- [ ] write code documentation about using the new API
-- [ ] make ci pass
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-29 07:40:19 +0000 UTC
-    </div>
-</div>
+No kernel level traces.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4239" class=".btn">#4239</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4161: rewrite config, _minimally_
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">config-changes</span><span class="chip">Refactor</span><span class="chip">UI</span><span class="chip">python</span>
-            </td>
-            <td>
-                ## Description
+Additional fragile dependency into our codebase.  
 
-TODO
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
 
-Creating this draft to see the scope of changes and for CI checks.
+<!-- HINT:  Add more points to checklist for large draft PRs-->
 
-### Linked issue
-
-Closes #4161 and some others TODO
-
-### Checklist
-
-- [ ] Fill in description of this PR
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-29 00:39:13 +0000 UTC
+        Created At 2024-02-02 06:09:33 +0000 UTC
     </div>
 </div>
 

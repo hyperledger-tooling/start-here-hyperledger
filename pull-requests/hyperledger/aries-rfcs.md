@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/811" class=".btn">#811</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/812" class=".btn">#812</a>
             </td>
             <td>
                 <b>
-                    Update RFC statuses in accordance with 01/31/24 WG meeting
+                    Feature/compression
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-31 16:52:54 +0000 UTC
+        Created At 2024-02-07 15:53:44 +0000 UTC
     </div>
 </div>
 

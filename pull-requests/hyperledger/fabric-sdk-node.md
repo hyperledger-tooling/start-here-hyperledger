@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/692" class=".btn">#692</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/696" class=".btn">#696</a>
             </td>
             <td>
                 <b>
-                    Update jsrsasign dependency
+                    Update build to avoid deprecated GitHub actions
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                This update addresses a vulnerability in the jsrsasign dependency, described by:
-
-https://github.com/advisories/GHSA-rh63-9qcf-83gf
-
-The Node SDK does not make use of this capability and is not affected by this vulnerability.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-20 12:22:28 +0000 UTC
+        Created At 2024-02-05 20:13:41 +0000 UTC
     </div>
 </div>
 
