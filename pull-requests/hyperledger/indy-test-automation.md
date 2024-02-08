@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/131" class=".btn">#131</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    fixed error in pipeline
+                    Fix automated tests
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                <nil>
+                - Pin requests 2.29.0 which is the most recent version that still works with the docker 3.7.0 module.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 12:02:27 +0000 UTC
+        Created At 2024-02-07 23:30:38 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/130" class=".btn">#130</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    Node dockerfile merge & Dispatchable Workflow
+                    Update Dockerfile for build image.
                 </b>
             </td>
         </tr>
@@ -53,12 +53,38 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                Fixes https://github.com/hyperledger/indy-test-automation/issues/127
+                - Hyperledger release packages are published to `stable`, not `master`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-23 15:58:03 +0000 UTC
+        Created At 2024-02-07 21:28:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/132" class=".btn">#132</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade GHA versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Address warning raised while running workflows.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 21:07:49 +0000 UTC
     </div>
 </div>
 
