@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6539" class=".btn">#6539</a>
+            </td>
+            <td>
+                <b>
+                    Fix checkLicense gradle task
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+I'm getting a gradle build failure due the "checkLicenses" task.  This looks like a misspelling:
+```
+% ./gradlew dev -x test
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'checkLicenses' not found in root project 'besu' and its subprojects. Some candidates are: 'checkLicense'.
+```
+
+Fix this by using the existin "checkLicense" task.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-08 00:04:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6537" class=".btn">#6537</a>
             </td>
             <td>
