@@ -15,7 +15,7 @@ permalink: /releases/hyperledger-labs/open-enterprise-agent
         <tr>
             <td colspan="2">
                 <b>
-                    prism-agent-v1.25.0
+                    Open Enterprise Agent v1.25.0
                 </b>
             </td>
         </tr>
@@ -27,17 +27,6 @@ permalink: /releases/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 ## What's Changed
-* fix: correct OAS examples by @patlo-iog in https://github.com/hyperledger-labs/open-enterprise-agent/pull/810
-* feat: Consumer restricition parametarization  by @milosbackonja in https://github.com/hyperledger-labs/open-enterprise-agent/pull/814
-* fix: correct OAS example by @patlo-iog in https://github.com/hyperledger-labs/open-enterprise-agent/pull/816
-* feat: Liveness, and readiness probes by @milosbackonja in https://github.com/hyperledger-labs/open-enterprise-agent/pull/817
-* test: add support of bearer auth for remote envs in integration tests by @antonbaliasnikov in https://github.com/hyperledger-labs/open-enterprise-agent/pull/818
-* fix: Swithing to startupProbe from Readiness by @milosbackonja in https://github.com/hyperledger-labs/open-enterprise-agent/pull/821
-* feat: Tune postgresql - helm chart by @milosbackonja in https://github.com/hyperledger-labs/open-enterprise-agent/pull/822
-* chore: quoute for postgresql definition - helm chart by @milosbackonja in https://github.com/hyperledger-labs/open-enterprise-agent/pull/825
-* fix: Change resource defaults for postgres by @milosbackonja in https://github.com/hyperledger-labs/open-enterprise-agent/pull/827
-* feat: complete the integration with anoncred and fixes by @FabioPinheiro in https://github.com/hyperledger-labs/open-enterprise-agent/pull/820
-* feat: add configuration for gRPC usePlainText (enable TLS for gRPC) by @davidpoltorak-io in https://github.com/hyperledger-labs/open-enterprise-agent/pull/823
 * docs: add ADR on supporting admin auth using keycloak JWT by @patlo-iog in https://github.com/hyperledger-labs/open-enterprise-agent/pull/832
 * docs(prism-agent): ATL-6269 improve connections OpenAPI doc by @bvoiturier in https://github.com/hyperledger-labs/open-enterprise-agent/pull/833
 * docs(prism-agent): add verification policy OpenAPI description by @yshyn-iohk in https://github.com/hyperledger-labs/open-enterprise-agent/pull/835
@@ -53,7 +42,7 @@ permalink: /releases/hyperledger-labs/open-enterprise-agent
 * feat: upgrade ZIO http client to improve performance by @davidpoltorak-io in https://github.com/hyperledger-labs/open-enterprise-agent/pull/850
 
 
-**Full Changelog**: https://github.com/hyperledger-labs/open-enterprise-agent/compare/prism-agent-v1.21.1...prism-agent-v1.25.0
+**Full Changelog**: https://github.com/hyperledger-labs/open-enterprise-agent/compare/prism-agent-v1.24.0...prism-agent-v1.25.0
             </td>
         </tr>
     </table>
