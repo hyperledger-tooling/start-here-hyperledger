@@ -1,13 +1,13 @@
 
-[170](https://github.com/hyperledger-labs/fabric-operator/pull/170) Checking if Restricting roles works and if integrationtests pass
+[4270](https://github.com/hyperledger/iroha/pull/4270) [feature] #3714: Signature validation in no_std
 
-[6541](https://github.com/hyperledger/besu/pull/6541) disable privacy tests since they are currently flaky
+[6546](https://github.com/hyperledger/besu/pull/6546) Blob gas fee checking
 
-[6540](https://github.com/hyperledger/besu/pull/6540) Add total-blob-file-size to rocksdb usage
+[6545](https://github.com/hyperledger/besu/pull/6545) timestamp set for dencun on mainnet.
 
-[4672](https://github.com/hyperledger/fabric/pull/4672) Bump github.com/IBM/idemix and consensys/gnark-crypto (release-2.5)
+[46](https://github.com/hyperledger-labs/perun-eth-backend/pull/46) GasLimit to 0
 
-[6539](https://github.com/hyperledger/besu/pull/6539) Fix checkLicense gradle task
+[49](https://github.com/hyperledger-labs/did-webs-resolver/pull/49) Feat/remote resolve
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
-                    Draft: Introduce Egoistic Funding 
+                    GasLimit to 0
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                This PR introduced "egoistic funding" where one participant can be tagged to be egoistic using the `EgoisticPart` array (which does not change the funder interface) such that it waits until all other participants have deposited their amounts before continuing to deposit.
-
-The background to this is that in PerunX, the hub should not deposit until the client has deposited its funds to prevent losses due to gas costs if the client never actually deposits.
-As a consequence, the Perun Websocket Backend needs to be adapted that one of the participants can register as egoistic (maybe even in the `Initialize` message?) and the WebSocket Backend provides information this to the funder.
+                ## Description:
+This PR sets the GasLimit to a given argument in the ERC20_Depositor, ETH_Depositor and ContractBackend. This allows us to set the gas limit to 0 for all chains that support the dynamic gasLimit estimation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-19 12:26:58 +0000 UTC
+        Created At 2024-02-08 15:21:33 +0000 UTC
     </div>
 </div>
 
