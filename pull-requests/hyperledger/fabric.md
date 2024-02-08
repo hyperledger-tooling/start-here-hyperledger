@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4673" class=".btn">#4673</a>
+            </td>
+            <td>
+                <b>
+                    Block Censorship Test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Test update: Add a test that will checkout how the block deliverer acts with a malicious orderer that censors blocks.
+
+Description: The test creates a network, creates blocks on the chain, replaces the orderers with mocks and communicates with the peer. One of the orderers becomes malicious and after delivering a few data blocks he will stop. Afterwards the peer will ask for another orderer to deliver the data blocks, which should be successful, since he should be a honest orderer.
+
+arkadi.piven@ibm.com
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-08 13:44:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4672" class=".btn">#4672</a>
             </td>
             <td>
