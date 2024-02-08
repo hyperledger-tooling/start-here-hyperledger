@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6541" class=".btn">#6541</a>
+            </td>
+            <td>
+                <b>
+                    disable privacy tests since they are currently flaky
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These tests are flaky right now for 2 reasons, and work is in progress to fix. 
+
+See 
+
+Run tessera as a process (currently using docker) for ATs https://github.com/hyperledger/besu/pull/5968
+
+Also occasionally errors since the txpool is disabled during initial sync - it's been somewhat [mitigated](https://github.com/hyperledger/besu/pull/6479) but hasn't totally fixed it
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-08 02:51:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6540" class=".btn">#6540</a>
+            </td>
+            <td>
+                <b>
+                    Add total-blob-file-size to rocksdb usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ```
+| Column Family                  | Keys            | Column Size  | SST Files Size  | Blob Files Size  |
+|--------------------------------|-----------------|--------------|-----------------|------------------|
+| BLOCKCHAIN                     | 129590          | 11 MiB       | 6 MiB           | 9 MiB            |
+| ACCOUNT_INFO_STATE             | 72842           | 2 MiB        | 2 MiB           | 0 B              |
+| ACCOUNT_STORAGE_STORAGE        | 70              | 3 KiB        | 3 KiB           | 0 B              |
+| TRIE_BRANCH_STORAGE            | 99784           | 1 KiB        | 6 MiB           | 0 B              |
+| TRIE_LOG_STORAGE               | 0               | 578 KiB      | 2 MiB           | 0 B              |
+| VARIABLES                      | 6               | 1 KiB        | 2 KiB           | 0 B              |
+```
+
+
+Also trying out...
+`besu storage rocksdb stats`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-08 02:26:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6539" class=".btn">#6539</a>
             </td>
             <td>
@@ -533,70 +604,6 @@ Also makes the code more readable by checking for unavailability not availabilit
     </table>
     <div class="right-align">
         Created At 2024-02-02 02:12:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6513" class=".btn">#6513</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Detect DB version mismatch on Startup and gracefully exit #6511
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Detect DB version mismatch on Startup and gracefully exit
-
-Message:
-
-`Mismatch detected: Database at ./database is version '1', but configuration expects version '2'.
-`
-## Fixed Issue(s)
-fixes https://github.com/hyperledger/besu/issues/5926
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-01 05:32:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6512" class=".btn">#6512</a>
-            </td>
-            <td>
-                <b>
-                    [Refactor] Move api options to its own class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Move api options options to its own class
-
-## Fixed Issue(s)
-see https://github.com/hyperledger/besu/issues/6428
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-01 04:06:12 +0000 UTC
     </div>
 </div>
 
