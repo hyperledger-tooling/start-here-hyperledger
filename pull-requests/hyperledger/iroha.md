@@ -381,6 +381,10 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 Encapsulated the next structs:
 * SignedTransactionV1
 * SignedBlockV1
+
+The next structs were changed:
+* ValidBlock(pub(super) Signedblock)
+* CommitedBlock(pub(super) ValidBlock)
 <!-- Skip if the title of the PR is self-explanatory -->
 
 ### Linked issue
