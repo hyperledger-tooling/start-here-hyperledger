@@ -32,9 +32,44 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+Besu storage could have different formats, currently Forest or Bonsai, and each format can have different versions. We used to have only one identifier for these two properties, but this is not optimal, for clarity and does not play well with the fact that the storage is implemented via plugins.
+
+Besu should only know about the format, and tell the plugin which is the required format, then the version of the format is something internal to the plugin itself.
+
+So I moved the `DataStorageFormat` to the plugin API project, and this is the reason for the many file changed, most of them are just changes to reflect this move.
+Then inside the RocksDB plugin I introduced the new class `VersionedStorageFormat` to managed the versioning of RocksDB databases.
+
+The database metadata file, reflects this change, having an entry for the format and one for the version, for example, the default Bonsai storage will have this metadata (note the versioning of the metadata itself `v2` object, so we can introduce a `v3` if needed in future): 
+```
+{
+  "v2": {
+    "format": "BONSAI",
+    "version": 2
+  }
+}
+```
+
+To correct the missed introduction of the new version, when the variables storage format was introduced, now for both Forest and Bonsai, a new version has been introduced, the version `2` for each format, being `1` the version pre variables storage.
+
+At startup the existing metadata, that we call `v1` format, is automatically translated to the new format.
+
+Check have been added to detect not managed (up|down)grades, so we can inform the user of the right steps, if the process in not automated.
+
+Test to perform:
+
+- [ ] Vanilla new installation, verify that the default format and version is used and written in DATABASE_METADATA.json 
+- [ ] New installation with custom format selection, verify that the selected format and version is used and written in DATABASE_METADATA.json 
+- [ ] Upgrade existing installation >=23.4.4, verify that DATABASE_METADATA.json has been translated to the new format
+- [ ] Upgrade existing installation >=23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
+- [ ] Upgrade existing installation <23.4.4, verify that variables storage migration is performed and DATABASE_METADATA.json has the new format
+- [ ] Upgrade existing installation <23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+fixes #6408 
             </td>
         </tr>
     </table>
