@@ -14,6 +14,131 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6551" class=".btn">#6551</a>
+            </td>
+            <td>
+                <b>
+                    use terminal width for usage message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ux</span>
+            </td>
+            <td>
+                fixes #6429
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 05:12:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6550" class=".btn">#6550</a>
+            </td>
+            <td>
+                <b>
+                    Uprev24.1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 05:07:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6549" class=".btn">#6549</a>
+            </td>
+            <td>
+                <b>
+                    Uprev24.1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 04:48:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6548" class=".btn">#6548</a>
+            </td>
+            <td>
+                <b>
+                    uprev artifact name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 03:10:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6546" class=".btn">#6546</a>
             </td>
             <td>
@@ -218,7 +343,7 @@ Fix this by using the existin "checkLicense" task.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 Builds on #6530 
@@ -535,129 +660,6 @@ Fixes Issue https://github.com/hyperledger/besu/issues/5243
     </table>
     <div class="right-align">
         Created At 2024-02-02 06:22:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6519" class=".btn">#6519</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Move log before where the subcommand hangs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Indicate pruning has begun before the subcommand starts processing
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-02 05:52:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6518" class=".btn">#6518</a>
-            </td>
-            <td>
-                <b>
-                    Change contract creation halt reason when account already exists
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Change the execution halt reason from INSUFFICIENT_GAS to ILLEGAL_STATE_CHANGE to reflect the real reason behind this case which is a possible contract creation collision with a already existing a account at that address.
-
-Note that some of the trace ATs had to be adjusted after this change, possibly because the frame where we fail execution was getting included into the trace result as we don't ignore frames that halted due to INSUFFICIENT_GAS https://github.com/hyperledger/besu/blob/2a30dfba1a03ad1c2b9d42857615984c439f4970/ethereum/api/src/main/java/org/hyperledger/besu/ethereum/api/jsonrpc/internal/results/tracing/vm/VmTraceGenerator.java#L110
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-02 04:50:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6517" class=".btn">#6517</a>
-            </td>
-            <td>
-                <b>
-                    [minor] Add staker profile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Add staker profile
-
-Use:
-`besu --profile=staker`
-
-More: [#6409](https://github.com/hyperledger/besu/issues/6409)
-
-## Fixed Issue(s)
-fixes [#6325](https://github.com/hyperledger/besu/issues/6325)
-see: [#6323](https://github.com/hyperledger/besu/issues/6323)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-02 04:04:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6516" class=".btn">#6516</a>
-            </td>
-            <td>
-                <b>
-                    Close Sockets after testing for availablity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Close the Sockets after checking for their availability.
-Also makes the code more readable by checking for unavailability not availability.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-02 02:12:44 +0000 UTC
     </div>
 </div>
 
