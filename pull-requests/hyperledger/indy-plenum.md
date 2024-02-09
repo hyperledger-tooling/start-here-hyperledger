@@ -120,29 +120,3 @@ Sorry!!! When I did the last one, I said "If I had done a local build that would
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1646" class=".btn">#1646</a>
-            </td>
-            <td>
-                <b>
-                    [v1.13.1] - Update Version Number for Release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [v1.13.1] - Update Version number for Release
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-01 20:08:30 +0000 UTC
-    </div>
-</div>
-
