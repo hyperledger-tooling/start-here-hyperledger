@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6555" class=".btn">#6555</a>
+            </td>
+            <td>
+                <b>
+                    Database metadata refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 11:33:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6551" class=".btn">#6551</a>
             </td>
             <td>
@@ -229,7 +262,7 @@ Also occasionally errors since the txpool is disabled during initial sync - it's
             </td>
             <td>
                 <b>
-                    Add total-blob-file-size to rocksdb usage
+                    rocksdb usage - Replace Column Size with more accurate Total Size
                 </b>
             </td>
         </tr>
@@ -238,20 +271,55 @@ Also occasionally errors since the txpool is disabled during initial sync - it's
                 
             </td>
             <td>
-                ```
-| Column Family                  | Keys            | Column Size  | SST Files Size  | Blob Files Size  |
-|--------------------------------|-----------------|--------------|-----------------|------------------|
-| BLOCKCHAIN                     | 129590          | 11 MiB       | 6 MiB           | 9 MiB            |
-| ACCOUNT_INFO_STATE             | 72842           | 2 MiB        | 2 MiB           | 0 B              |
-| ACCOUNT_STORAGE_STORAGE        | 70              | 3 KiB        | 3 KiB           | 0 B              |
-| TRIE_BRANCH_STORAGE            | 99784           | 1 KiB        | 6 MiB           | 0 B              |
-| TRIE_LOG_STORAGE               | 0               | 578 KiB      | 2 MiB           | 0 B              |
-| VARIABLES                      | 6               | 1 KiB        | 2 KiB           | 0 B              |
+                Replace "Column Size" with "Total Size" where Total Size = SST Files Size + Blob Files Size
+
+`besu storage rocksdb usage`
+
+BEFORE THIS PR
+
+```
+| Column Family                  | Keys            | Column Size  | SST Files Size  |
+|--------------------------------|-----------------|--------------|-----------------|
+| BLOCKCHAIN                     | 1428244409      | 654 GiB      | 101 GiB         |
+| VARIABLES                      | 3114            | 10 KiB       | 115 KiB         |
+| ACCOUNT_INFO_STATE             | 235049771       | 8 GiB        | 11 GiB          |
+| ACCOUNT_STORAGE_STORAGE        | 1111008228      | 38 GiB       | 49 GiB          |
+| CODE_STORAGE                   | 37676523        | 9 GiB        | 12 GiB          |
+| TRIE_BRANCH_STORAGE            | 1842206479      | 105 GiB      | 132 GiB         |
+| TRIE_LOG_STORAGE               | 515             | 30 MiB       | 77 MiB          |
 ```
 
+Column Size Total =  654 + 8 + 38 + 9 + 105 = 814 GB
 
-Also trying out...
+AFTER THIS PR
+
+```
+| Column Family                  | Keys            | Total Size  | SST Files Size  | Blob Files Size  |
+|--------------------------------|-----------------|-------------|-----------------|------------------|
+| BLOCKCHAIN                     | 1428245080      | 681 GiB     | 101 GiB         | 580 GiB          |
+| VARIABLES                      | 3121            | 115 KiB     | 115 KiB         | 0 B              |
+| ACCOUNT_INFO_STATE             | 235050819       | 11 GiB      | 11 GiB          | 0 B              |
+| ACCOUNT_STORAGE_STORAGE        | 1111009063      | 49 GiB      | 49 GiB          | 0 B              |
+| CODE_STORAGE                   | 37676523        | 9 GiB       | 12 GiB          | 0 B              |
+| TRIE_BRANCH_STORAGE            | 1842217975      | 132 GiB     | 132 GiB         | 0 B              |
+| TRIE_LOG_STORAGE               | 516             | 77 MiB      | 77 MiB          | 0 B              |
+```
+
+Total Files Size Total =  681 + 11 + 49 + 12 + 132 = 885 GB
+
+885 GB is much closer to the on disk result:
+
+```
+du -ksch /data/besu/database
+889G	/data/besu/database
+```
+
+---
+
+Also dumping a bunch of stats out in...
 `besu storage rocksdb stats`
+
+which is useful for seeing the blobdb garbage stats (useful for https://github.com/hyperledger/besu/pull/6289#pullrequestreview-1851948029) among other things.
             </td>
         </tr>
     </table>
@@ -631,35 +699,6 @@ Fixes Issue https://github.com/hyperledger/besu/issues/5243
     </table>
     <div class="right-align">
         Created At 2024-02-04 22:23:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6520" class=".btn">#6520</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Fix typo on github action checklist 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-02 06:22:47 +0000 UTC
     </div>
 </div>
 

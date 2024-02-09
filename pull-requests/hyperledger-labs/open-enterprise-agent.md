@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes ATL-xxxx
+Fixes ATL-6271
 
 ## Checklist
 
@@ -88,7 +88,7 @@ Fixes ATL-xxxx
 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes ATL-xxxx
+Fixes ATL-6269
 
 ## Checklist
 
