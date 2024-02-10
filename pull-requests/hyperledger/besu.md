@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6557" class=".btn">#6557</a>
+            </td>
+            <td>
+                <b>
+                    Move account warming from gas calculator to call operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+The BerlinGasCalculator had a side effect of warming addresses when calculating call gas costs. By introducing a boolean we can keep the side effects in the operation instead of in the gas calculator. This makes gas cost estimation by downstream users of the API safer.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 19:38:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6555" class=".btn">#6555</a>
             </td>
             <td>
