@@ -93,30 +93,3 @@ Sorry!!! When I did the last one, I said "If I had done a local build that would
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1647" class=".btn">#1647</a>
-            </td>
-            <td>
-                <b>
-                    RTD Fixes to enable publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-03 17:47:31 +0000 UTC
-    </div>
-</div>
-
