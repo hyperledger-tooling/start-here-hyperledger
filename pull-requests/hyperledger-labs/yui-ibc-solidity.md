@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/247" class=".btn">#247</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/248" class=".btn">#248</a>
             </td>
             <td>
                 <b>
-                    Fix to compile successfully without optimizer
+                    Make mock-client verification more strict
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-29 09:08:50 +0000 UTC
+        Created At 2024-02-11 13:41:45 +0000 UTC
     </div>
 </div>
 
