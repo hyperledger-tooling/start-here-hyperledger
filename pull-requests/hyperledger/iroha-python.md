@@ -14,40 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/157" class=".btn">#157</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/164" class=".btn">#164</a>
             </td>
             <td>
                 <b>
-                    Add optional title param to AddAssetQuantity and SubtractAssetQuantity (internship 2023)
+                    Push iroha2 python sdk MVP to repo
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha1</span>
+                
             </td>
             <td>
-                Add title param as optional to AddAssetQuantity and SubtractAssetQuantity to proto bufs GRPC.
-
-Technology stack:
-
-Ubuntu 22.04.3 LTS
-Python 3.10
-PyCharm
-protoc libprotoc 23.1
-
-To regenerate files based on predefined protobufs I used iroha-python/scripts/compile-proto.py
-
-This is part of internship project:
-https://wiki.hyperledger.org/display/INTERN/Iroha+1%3A+extend+queries+with+optional+arguments
-
-Link to PR to iroha repository compatible with those changes:
-https://github.com/hyperledger/iroha/pull/4003
+                This PR will not get merged as it will create a very messy git log. Instead I will force push this and move the old branch to iroha2-old.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-02 01:16:25 +0000 UTC
+        Created At 2024-02-12 10:25:30 +0000 UTC
     </div>
 </div>
 

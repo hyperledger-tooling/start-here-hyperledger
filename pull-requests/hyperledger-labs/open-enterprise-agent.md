@@ -523,29 +523,3 @@ The PeerDID JVM  new spec  https://identity.foundation/peer-did-method-spec
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/875" class=".btn">#875</a>
-            </td>
-            <td>
-                <b>
-                    ci: upgrade action plugin versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                Upgrade any GH action plugin that fail the workflow due to `node20` upgrade.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 12:06:22 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2773" class=".btn">#2773</a>
+            </td>
+            <td>
+                <b>
+                    :arrow_up: Upgrade pytest to 8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgrade pytest, now that the latest pytest-asyncio release supports pytest 8
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-12 11:21:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2771" class=".btn">#2771</a>
             </td>
             <td>
