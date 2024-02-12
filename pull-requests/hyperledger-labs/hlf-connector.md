@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/133" class=".btn">#133</a>
+            </td>
+            <td>
+                <b>
+                    Introduce capability to get anchor peer nodes in a channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-12 10:09:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/132" class=".btn">#132</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </table>
     <div class="right-align">
         Created At 2024-02-12 03:33:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    fix issues with metrics counter Aspect and mutli-data transaction Payload.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 11:29:06 +0000 UTC
     </div>
 </div>
 

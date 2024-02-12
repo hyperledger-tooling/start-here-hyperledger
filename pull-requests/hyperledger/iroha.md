@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4274" class=".btn">#4274</a>
+            </td>
+            <td>
+                <b>
+                    [feaute] #4083: Profiling support (backport)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Backport of profiler integration (check #4220, #4221, #4250).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-12 11:18:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4270" class=".btn">#4270</a>
             </td>
             <td>
@@ -88,7 +116,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 https://github.com/hyperledger/iroha/issues/4268
@@ -329,32 +357,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-02-06 09:47:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4254" class=".btn">#4254</a>
-            </td>
-            <td>
-                <b>
-                    [chore] #4255: Update Maintainers, add Sato-san
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Let's add @s8sato back to the list of maintainers
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 07:13:01 +0000 UTC
     </div>
 </div>
 
