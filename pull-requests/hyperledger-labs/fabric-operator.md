@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/167" class=".btn">#167</a>
-            </td>
-            <td>
-                <b>
-                    Bump golang version to 1.20 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/165
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 17:02:40 +0000 UTC
-    </div>
-</div>
-

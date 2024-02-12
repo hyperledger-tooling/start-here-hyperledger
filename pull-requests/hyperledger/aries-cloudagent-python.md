@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2775" class=".btn">#2775</a>
+            </td>
+            <td>
+                <b>
+                    Implement B006 rule
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-12 17:50:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2773" class=".btn">#2773</a>
             </td>
             <td>
@@ -246,38 +272,6 @@ This update doesn't break anything ...  I haven't been able to duplicate the iss
     </table>
     <div class="right-align">
         Created At 2024-02-05 23:47:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2759" class=".btn">#2759</a>
-            </td>
-            <td>
-                <b>
-                    feat: add new format and implement VCDICredFormatHandler (Draft)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add `VC_DI` in `CredFormat.Format`
-- lay out `VCDICredFormatHandler`
-- add new schema classes for cred offer and request
-- implement CredExRecordVCDI
-
-next step
-- Create additional functions `create_credential_offer_vc_di` and `create_credential` in `AnoncredsIssuer`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 17:33:44 +0000 UTC
     </div>
 </div>
 
