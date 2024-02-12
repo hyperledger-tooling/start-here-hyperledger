@@ -74,35 +74,3 @@ permalink: /releases/hyperledger/indy-shared-gha
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.0.15
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.0.15
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* PythonVersionConversion for RepoTriggers by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/27
-
-
-**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v1.0.14...v1.0.15
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.15" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-04-18 15:43:43 +0000 UTC
-    </span>
-</div>
-
