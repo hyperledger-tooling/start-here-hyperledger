@@ -700,32 +700,3 @@ Fixes #6523
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6524" class=".btn">#6524</a>
-            </td>
-            <td>
-                <b>
-                    Add ETC Spiral EVM configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-During the last ETC network upgrade, Besu nodes got stalled because, inadvertently, [EIP-4399](https://eips.ethereum.org/EIPS/eip-4399) was _included_ instead of _omitted_.
-
-For the future, we'll also test omissions to the protocol and not only additions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 05:14:33 +0000 UTC
-    </div>
-</div>
-
