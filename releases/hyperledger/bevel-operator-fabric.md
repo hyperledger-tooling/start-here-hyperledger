@@ -72,34 +72,3 @@ permalink: /releases/hyperledger/bevel-operator-fabric
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Version 1.11.0-beta3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.11.0-beta3
-                </span>
-            </td>
-            <td>
-                ## Changelog
-* e1002a1 go 1.21
-
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.11.0-beta3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-02-06 08:38:14 +0000 UTC
-    </span>
-</div>
-
