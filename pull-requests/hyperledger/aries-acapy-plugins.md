@@ -14,150 +14,152 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/103" class=".btn">#103</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump tj-actions/changed-files from 40 to 41 in /.github/workflows
+                    Upgrade fastapi
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">github_actions</span>
+                
             </td>
             <td>
-                Bumps [tj-actions/changed-files](https://github.com/tj-actions/changed-files) from 40 to 41.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/tj-actions/changed-files/releases">tj-actions/changed-files's releases</a>.</em></p>
-<blockquote>
-<h2>v41</h2>
-<h1>Changes in v41.0.1</h1>
-<h2>What's Changed</h2>
-<ul>
-<li>Upgraded to v41 by <a href="https://github.com/tj-actions-bot"><code>@​tj-actions-bot</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1811">tj-actions/changed-files#1811</a></li>
-<li>chore(deps): update dependency eslint-plugin-prettier to v5.1.2 by <a href="https://github.com/renovate"><code>@​renovate</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1813">tj-actions/changed-files#1813</a></li>
-<li>fix: update characters escaped by safe output by <a href="https://github.com/jackton1"><code>@​jackton1</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1815">tj-actions/changed-files#1815</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/tj-actions/changed-files/compare/v41...v41.0.1">https://github.com/tj-actions/changed-files/compare/v41...v41.0.1</a></p>
-<hr />
-<h1>Changes in v41.0.0</h1>
-<h2>🔥 🔥 BREAKING CHANGE 🔥 🔥</h2>
-<p>A new <code>safe_output</code> input is now available to prevent outputting unsafe filename characters (Enabled by default). This would escape characters in the filename that could be used for command injection.</p>
-<blockquote>
-<p>[!NOTE]
-This can be disabled by setting the <code>safe_output</code> to false this comes with a recommendation to store all outputs generated in an environment variable first before using them.</p>
-</blockquote>
-<h4>Example</h4>
-<pre lang="yaml"><code>...
-    - name: Get changed files
-      id: changed-files
-      uses: tj-actions/changed-files@v40
-      with:
-        safe_output: false # set to false because we are using an environment variable to store the output and avoid command injection.
-<pre><code>- name: List all added files
-  env:
-    ADDED_FILES: ${{ steps.changed-files.outputs.added_files }}
-  run: |
-    for file in &amp;quot;$ADDED_FILES&amp;quot;; do
-      echo &amp;quot;$file was added&amp;quot;
-    done
-</code></pre>
-<p>...
-</code></pre></p>
-<h2>What's Changed</h2>
-<ul>
-<li>chore(deps): update typescript-eslint monorepo to v6.15.0 by <a href="https://github.com/renovate"><code>@​renovate</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1801">tj-actions/changed-files#1801</a></li>
-<li>Upgraded to v40.2.3 by <a href="https://github.com/tj-actions-bot"><code>@​tj-actions-bot</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1800">tj-actions/changed-files#1800</a></li>
-<li>chore(deps): update dependency eslint-plugin-prettier to v5.1.0 by <a href="https://github.com/renovate"><code>@​renovate</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1802">tj-actions/changed-files#1802</a></li>
-<li>chore(deps): lock file maintenance by <a href="https://github.com/renovate"><code>@​renovate</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1803">tj-actions/changed-files#1803</a></li>
-<li>chore(deps): update dependency eslint-plugin-prettier to v5.1.1 by <a href="https://github.com/renovate"><code>@​renovate</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1804">tj-actions/changed-files#1804</a></li>
-<li>fix: update safe output regex and the docs by <a href="https://github.com/tj-actions-bot"><code>@​tj-actions-bot</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1805">tj-actions/changed-files#1805</a></li>
-<li>Revert &quot;chore(deps): update actions/download-artifact action to v4&quot; by <a href="https://github.com/jackton1"><code>@​jackton1</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1806">tj-actions/changed-files#1806</a></li>
-<li>Update README.md by <a href="https://github.com/jackton1"><code>@​jackton1</code></a> in <a href="https://redirect.github.com/tj-actions/changed-files/pull/1808">tj-actions/changed-files#1808</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Upgrade fastapi for security issues
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 22:35:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/102" class=".btn">#102</a>
+            </td>
+            <td>
+                <b>
+                    Update dev container docker-in-docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Was getting dev container crashes. I think related to poetry upgrade but not entirely sure. 
+
+This is an update config.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-09 22:13:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/100" class=".btn">#100</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 41.0.7 to 42.0.0 in /rpc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 41.0.7 to 42.0.0.
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/tj-actions/changed-files/blob/main/HISTORY.md">tj-actions/changed-files's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
 <blockquote>
-<h1>Changelog</h1>
-<h1><a href="https://github.com/tj-actions/changed-files/compare/v41.0.0...v41.0.1">41.0.1</a> - (2023-12-24)</h1>
-<h2><!-- raw HTML omitted -->🐛 Bug Fixes</h2>
-<ul>
-<li>Update characters escaped by safe output (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1815">#1815</a>) (<a href="https://github.com/tj-actions/changed-files/commit/716b1e13042866565e00e85fd4ec490e186c4a2f">716b1e1</a>)  - (Tonye Jack)</li>
-</ul>
-<h2><!-- raw HTML omitted -->⚙️ Miscellaneous Tasks</h2>
-<ul>
-<li><strong>deps:</strong> Update dependency eslint-plugin-prettier to v5.1.2 (<a href="https://github.com/tj-actions/changed-files/commit/7aaf10d9eef19e8a2432a967b88124171152caaf">7aaf10d</a>)  - (renovate[bot])</li>
-</ul>
-<h2><!-- raw HTML omitted -->⬆️ Upgrades</h2>
-<ul>
-<li>Upgraded to v41 (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1811">#1811</a>)</li>
-</ul>
-<p>Co-authored-by: jackton1 <a href="mailto:jackton1@users.noreply.github.com">jackton1@users.noreply.github.com</a> (<a href="https://github.com/tj-actions/changed-files/commit/cc08e170f4447237bcaf8acaacfa615b9cb86612">cc08e17</a>)  - (tj-actions[bot])</p>
-<h1><a href="https://github.com/tj-actions/changed-files/compare/v40.2.3...v41.0.0">41.0.0</a> - (2023-12-23)</h1>
-<h2><!-- raw HTML omitted -->🐛 Bug Fixes</h2>
-<ul>
-<li>Update safe output regex and the docs (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1805">#1805</a>) (<a href="https://github.com/tj-actions/changed-files/commit/ff2f6e6b91913a7be42be1b5917330fe442f2ede">ff2f6e6</a>)  - (tj-actions[bot])</li>
-</ul>
-<h2><!-- raw HTML omitted -->⏪ Reverts</h2>
-<ul>
-<li>Revert &quot;chore(deps): update actions/download-artifact action to v4&quot; (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1806">#1806</a>)</li>
-</ul>
-<p>(<a href="https://github.com/tj-actions/changed-files/commit/4f573fed06c9abb5da4c72f75c1c320718114ff7">4f573fe</a>)  - (Tonye Jack)</p>
-<h2><!-- raw HTML omitted -->🔄 Update</h2>
-<ul>
-<li>Update README.md (<a href="https://github.com/tj-actions/changed-files/commit/6e79d6e3dbe48946636c2939c80ff5c84ff7f9fe">6e79d6e</a>)  - (Tonye Jack)</li>
-<li>Update README.md (<a href="https://github.com/tj-actions/changed-files/commit/d13ac1942fb3c1d7d32017915bb082cebe8a272a">d13ac19</a>)  - (Tonye Jack)</li>
-<li>Update README.md (<a href="https://github.com/tj-actions/changed-files/commit/bb89f97963be96b39e1a303e64d5b91a1af4c340">bb89f97</a>)  - (Tonye Jack)</li>
-<li>Updated README.md (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1810">#1810</a>)</li>
-</ul>
-<p>Co-authored-by: renovate[bot] <!-- raw HTML omitted --> (<a href="https://github.com/tj-actions/changed-files/commit/1864078d0afadf68ba489e671ecc09fefe8b70ab">1864078</a>)  - (tj-actions[bot])</p>
-<ul>
-<li>Update README.md (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1808">#1808</a>)</li>
-</ul>
-<p>(<a href="https://github.com/tj-actions/changed-files/commit/47371c50e97c089212d9eb92ca26c8453224e78e">47371c5</a>)  - (Tonye Jack)</p>
-<h2><!-- raw HTML omitted -->📝 Other</h2>
-<ul>
-<li>Merge pull request from GHSA-mcph-m25j-8j63</li>
-</ul>
-<ul>
-<li>
-<p>feat: add <code>safe_output</code> input enabled by default</p>
-</li>
-<li>
-<p>fix: migrate README to safe uses of interpolation</p>
-</li>
-</ul>
-<!-- raw HTML omitted -->
+<p>42.0.0 - 2024-01-22</p>
+<pre><code>
+* **BACKWARDS INCOMPATIBLE:** Dropped support for LibreSSL &lt; 3.7.
+* **BACKWARDS INCOMPATIBLE:** Loading a PKCS7 with no content field using
+  :func:`~cryptography.hazmat.primitives.serialization.pkcs7.load_pem_pkcs7_certificates`
+  or
+  :func:`~cryptography.hazmat.primitives.serialization.pkcs7.load_der_pkcs7_certificates`
+  will now raise a ``ValueError`` rather than return an empty list.
+* Parsing SSH certificates no longer permits malformed critical options with
+  values, as documented in the 41.0.2 release notes.
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.0.
+* Updated the minimum supported Rust version (MSRV) to 1.63.0, from 1.56.0.
+* We now publish both ``py37`` and ``py39`` ``abi3`` wheels. This should
+  resolve some errors relating to initializing a module multiple times per
+  process.
+* Support :class:`~cryptography.hazmat.primitives.asymmetric.padding.PSS` for
+  X.509 certificate signing requests and certificate revocation lists with the
+  keyword-only argument ``rsa_padding`` on the ``sign`` methods for
+  :class:`~cryptography.x509.CertificateSigningRequestBuilder` and
+  :class:`~cryptography.x509.CertificateRevocationListBuilder`.
+* Added support for obtaining X.509 certificate signing request signature
+  algorithm parameters (including PSS) via
+  :meth:`~cryptography.x509.CertificateSigningRequest.signature_algorithm_parameters`.
+* Added support for obtaining X.509 certificate revocation list signature
+  algorithm parameters (including PSS) via
+  :meth:`~cryptography.x509.CertificateRevocationList.signature_algorithm_parameters`.
+* Added ``mgf`` property to
+  :class:`~cryptography.hazmat.primitives.asymmetric.padding.PSS`.
+* Added ``algorithm`` and ``mgf`` properties to
+  :class:`~cryptography.hazmat.primitives.asymmetric.padding.OAEP`.
+* Added the following properties that return timezone-aware ``datetime`` objects:
+  :meth:`~cryptography.x509.Certificate.not_valid_before_utc`,
+  :meth:`~cryptography.x509.Certificate.not_valid_after_utc`,
+  :meth:`~cryptography.x509.RevokedCertificate.revocation_date_utc`,
+  :meth:`~cryptography.x509.CertificateRevocationList.next_update_utc`,
+  :meth:`~cryptography.x509.CertificateRevocationList.last_update_utc`.
+  These are timezone-aware variants of existing properties that return naïve
+  ``datetime`` objects.
+* Deprecated the following properties that return naïve ``datetime`` objects:
+  :meth:`~cryptography.x509.Certificate.not_valid_before`,
+  :meth:`~cryptography.x509.Certificate.not_valid_after`,
+  :meth:`~cryptography.x509.RevokedCertificate.revocation_date`,
+  :meth:`~cryptography.x509.CertificateRevocationList.next_update`,
+  :meth:`~cryptography.x509.CertificateRevocationList.last_update`
+  in favor of the new timezone-aware variants mentioned above.
+* Added support for
+  :class:`~cryptography.hazmat.primitives.ciphers.algorithms.ChaCha20`
+  on LibreSSL.
+* Added support for RSA PSS signatures in PKCS7 with
+&lt;/tr&gt;&lt;/table&gt; 
+</code></pre>
 </blockquote>
 <p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/tj-actions/changed-files/commit/716b1e13042866565e00e85fd4ec490e186c4a2f"><code>716b1e1</code></a> fix: update characters escaped by safe output (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1815">#1815</a>)</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/7aaf10d9eef19e8a2432a967b88124171152caaf"><code>7aaf10d</code></a> chore(deps): update dependency eslint-plugin-prettier to v5.1.2</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/cc08e170f4447237bcaf8acaacfa615b9cb86612"><code>cc08e17</code></a> Upgraded to v41 (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1811">#1811</a>)</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/6e79d6e3dbe48946636c2939c80ff5c84ff7f9fe"><code>6e79d6e</code></a> Update README.md</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/d13ac1942fb3c1d7d32017915bb082cebe8a272a"><code>d13ac19</code></a> Update README.md</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/bb89f97963be96b39e1a303e64d5b91a1af4c340"><code>bb89f97</code></a> Update README.md</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/1864078d0afadf68ba489e671ecc09fefe8b70ab"><code>1864078</code></a> Updated README.md (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1810">#1810</a>)</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/f495a0321d3fffa62da2573adf70b77d5eb2f57a"><code>f495a03</code></a> chore(deps): lock file maintenance</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/47371c50e97c089212d9eb92ca26c8453224e78e"><code>47371c5</code></a> Update README.md (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1808">#1808</a>)</li>
-<li><a href="https://github.com/tj-actions/changed-files/commit/4f573fed06c9abb5da4c72f75c1c320718114ff7"><code>4f573fe</code></a> Revert &quot;chore(deps): update actions/download-artifact action to v4&quot; (<a href="https://redirect.github.com/tj-actions/changed-files/issues/1806">#1806</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/tj-actions/changed-files/compare/v40...v41">compare view</a></li>
+<li><a href="https://github.com/pyca/cryptography/commit/4e64baf360a3a89bd92582f59344c12b5c0bd3fd"><code>4e64baf</code></a> 42.0.0 version bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10232">#10232</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/7cb13a3bc91b7537c6231674fb5b0d2132a7edbe"><code>7cb13a3</code></a> we'll ship 3.2.0 for 42 (<a href="https://redirect.github.com/pyca/cryptography/issues/9951">#9951</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/605c74e41c75edc717f21afaa5e6a0eee9863a10"><code>605c74e</code></a> Bump x509-limbo and/or wycheproof in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10231">#10231</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/97578b98ffc417864e07d0ff9b76c02d2cb4e6da"><code>97578b9</code></a> Bump BoringSSL and/or OpenSSL in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10230">#10230</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/972a7b5896a6047ea43a86db87820ab474d898ff"><code>972a7b5</code></a> verification: add test_verify_tz_aware (<a href="https://redirect.github.com/pyca/cryptography/issues/10229">#10229</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/41daf2d86dd9bf18081802fa5d851a7953810786"><code>41daf2d</code></a> Migrate PKCS7 backend to Rust (<a href="https://redirect.github.com/pyca/cryptography/issues/10228">#10228</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/d54093e62e7e68c02efbb4d6a09162ddb39bf72f"><code>d54093e</code></a> Remove some skips in tests that aren't needed anymore (<a href="https://redirect.github.com/pyca/cryptography/issues/10223">#10223</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/71929bd91f34213b9f4a3a0a493c218c35fa25eb"><code>71929bd</code></a> Remove binding that's not used anymore (<a href="https://redirect.github.com/pyca/cryptography/issues/10224">#10224</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/7ea4b89cea553ce0f641ed29e1ce2e3e34278f1d"><code>7ea4b89</code></a> fixed formatting in changelog (<a href="https://redirect.github.com/pyca/cryptography/issues/10225">#10225</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/410f4a1ee4cbf46fe7e969bb48fccf261f74bbcd"><code>410f4a1</code></a> Allow brainpool on libressl (<a href="https://redirect.github.com/pyca/cryptography/issues/10222">#10222</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/pyca/cryptography/compare/41.0.7...42.0.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tj-actions/changed-files&package-manager=github_actions&previous-version=40&new-version=41)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=41.0.7&new-version=42.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -189,7 +191,61 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-02 16:53:43 +0000 UTC
+        Created At 2024-02-06 19:14:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/99" class=".btn">#99</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: vc.credentialSubject.id, vc.issuer, iss, and sub should be DID itself
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [OID4VCI]
+credentialSubject.id, iss, and sub should be DID, not DID URLs pointing to verification methods.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-06 13:19:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/98" class=".btn">#98</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: user pin should be retrieved from form data.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [OID4VCI]
+At the token request, the user PIN should be retrieved from form data, similar to the grant type and pre-authorized code, rather than from query parameters.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-06 12:40:57 +0000 UTC
     </div>
 </div>
 

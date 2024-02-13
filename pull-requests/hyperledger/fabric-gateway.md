@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/668" class=".btn">#668</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/676" class=".btn">#676</a>
             </td>
             <td>
                 <b>
-                    Use default GitHub credentials to publish API docs
+                    Add Go 1.22 to compatibility matrix
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Fix failures publishing API docs, likely caused by an expired access token.
+                Closes #673
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-05 10:06:00 +0000 UTC
+        Created At 2024-02-07 20:39:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/675" class=".btn">#675</a>
+            </td>
+            <td>
+                <b>
+                    Add support for Go 1.22
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #673
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 19:47:17 +0000 UTC
     </div>
 </div>
 

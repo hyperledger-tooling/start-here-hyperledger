@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    fix main storage offset
+                    fix leaf deletion issue
                 </b>
             </td>
         </tr>
@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
 
 ## PR description
 
-should be UInt256.valueOf(256).pow(31) , but there is currently a bug in the testnet and instead, the other clients are using a shift left operation. So we are doing a shift left to follow the testnet, but this should be fixed later.
+This PR fixes a bug that occurs when removing a key from a trie that isn't loaded. In a certain configuration, when we want to check if an internal node has only one child, we verify how many children are not NullNodes. However, when the node is not loaded, they are not NullNodes but StoredNodes. So, in the current code, we need to load the StoredNodes to see if they are null or not.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -40,7 +40,7 @@ should be UInt256.valueOf(256).pow(31) , but there is currently a bug in the tes
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-14 14:39:43 +0000 UTC
+        Created At 2024-02-08 14:50:47 +0000 UTC
     </div>
 </div>
 

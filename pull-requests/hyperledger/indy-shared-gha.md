@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    PythonVersionConversion for RepoTriggers
+                    Upgrade additional GHA versions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
                 
             </td>
             <td>
-                <nil>
+                - Address warning raised while running workflows that were missed in the last round of updates.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-18 15:16:56 +0000 UTC
+        Created At 2024-02-07 15:50:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade GHA versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Address warning raised while running workflows.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-07 14:42:47 +0000 UTC
     </div>
 </div>
 
