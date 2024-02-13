@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2780" class=".btn">#2780</a>
+            </td>
+            <td>
+                <b>
+                    updated admin route to include vcdi filter format (Draft)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 05:23:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2775" class=".btn">#2775</a>
             </td>
             <td>
@@ -88,32 +114,6 @@ Didn't add any of the other `B` linting options.
     </table>
     <div class="right-align">
         Created At 2024-02-11 20:03:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2770" class=".btn">#2770</a>
-            </td>
-            <td>
-                <b>
-                    update admin route to include vcdi filter format
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-10 18:32:55 +0000 UTC
     </div>
 </div>
 

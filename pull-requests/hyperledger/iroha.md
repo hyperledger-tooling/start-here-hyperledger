@@ -83,7 +83,7 @@ More robust type-system, less error-handling, simpler ed25519 code
             </td>
             <td>
                 <b>
-                    [feaute] #4083: Profiling support (backport)
+                    [feature] #4083: Profiling support (backport)
                 </b>
             </td>
         </tr>
