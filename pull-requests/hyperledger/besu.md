@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6561" class=".btn">#6561</a>
+            </td>
+            <td>
+                <b>
+                    Bonsai limit trie logs enabled true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ux</span>
+            </td>
+            <td>
+                Swap default value for --Xbonsai-limit-trie-logs-enabled from false to true
+
+Also added a fallback value for the option (otherwise specifying --Xbonsai-limit-trie-logs-enabled on the command line, without a value, has the opposite effect
+
+builds on #6536 
+
+This option is not yet documented so no docs changes required.
+
+Breaking change
+The limit is now enabled by default. If you do not want the limit enabled, you need to explicitly set it to false
+--Xbonsai-limit-trie-logs-enabled=false
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 04:19:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6559" class=".btn">#6559</a>
             </td>
             <td>
@@ -683,32 +720,6 @@ Add missed javadoc for `ClassicEVM` from #6524
     </table>
     <div class="right-align">
         Created At 2024-02-06 06:23:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6526" class=".btn">#6526</a>
-            </td>
-            <td>
-                <b>
-                    Acceptance Tests - only run non-privacy ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                exclude privacy tests since they are currently flaky (they are run on a separate nightly cadence)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 01:33:13 +0000 UTC
     </div>
 </div>
 
