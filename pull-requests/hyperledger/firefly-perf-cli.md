@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    css fixes for performance report
+                    doc: fix broken link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 
             </td>
             <td>
-                updated the CSS so that the sidebar and main page occupy the enter height of the screen
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-15 08:08:36 +0000 UTC
+        Created At 2024-02-13 10:58:48 +0000 UTC
     </div>
 </div>
 

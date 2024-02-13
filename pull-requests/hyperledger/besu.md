@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6562" class=".btn">#6562</a>
+            </td>
+            <td>
+                <b>
+                    feat: add fixed basefee options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add `fixedBaseFee` options to forced `baseFee` same as `gasPrice` value.
+
+
+I'm new to the Java language, please guide any aspects I can further improve or modify.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+https://github.com/hyperledger/besu/issues/6335
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 11:15:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6561" class=".btn">#6561</a>
             </td>
             <td>
@@ -463,43 +501,70 @@ Also occasionally errors since the txpool is disabled during initial sync - it's
 
 `besu storage rocksdb usage`
 
+e.g. with a BONSAI + X_SNAP node...
+
 BEFORE THIS PR
 
 ```
 | Column Family                  | Keys            | Column Size  | SST Files Size  |
 |--------------------------------|-----------------|--------------|-----------------|
-| BLOCKCHAIN                     | 1428244409      | 654 GiB      | 101 GiB         |
-| VARIABLES                      | 3114            | 10 KiB       | 115 KiB         |
-| ACCOUNT_INFO_STATE             | 235049771       | 8 GiB        | 11 GiB          |
-| ACCOUNT_STORAGE_STORAGE        | 1111008228      | 38 GiB       | 49 GiB          |
-| CODE_STORAGE                   | 37676523        | 9 GiB        | 12 GiB          |
-| TRIE_BRANCH_STORAGE            | 1842206479      | 105 GiB      | 132 GiB         |
-| TRIE_LOG_STORAGE               | 515             | 30 MiB       | 77 MiB          |
+| BLOCKCHAIN                     | 2355141414      | 905 GiB      | 166 GiB         |
+| VARIABLES                      | 26              | 120 KiB      | 240 KiB         |
+| ACCOUNT_INFO_STATE             | 9634454         | 294 MiB      | 496 MiB         |
+| ACCOUNT_STORAGE_STORAGE        | 24041432        | 977 MiB      | 1 GiB           |
+| CODE_STORAGE                   | 37703864        | 10 GiB       | 12 GiB          |
+| TRIE_BRANCH_STORAGE            | 1885032116      | 110 GiB      | 138 GiB         |
+| TRIE_LOG_STORAGE               | 267301          | 14 GiB       | 17 GiB          |
 ```
 
-Column Size Total =  654 + 8 + 38 + 9 + 105 = 814 GB
+Column Size Total =  905 + 0.294 + 0.977 + 10 + 110 + 14 = 1042 GB
 
 AFTER THIS PR
 
 ```
 | Column Family                  | Keys            | Total Size  | SST Files Size  | Blob Files Size  |
 |--------------------------------|-----------------|-------------|-----------------|------------------|
-| BLOCKCHAIN                     | 1428245080      | 681 GiB     | 101 GiB         | 580 GiB          |
-| VARIABLES                      | 3121            | 115 KiB     | 115 KiB         | 0 B              |
-| ACCOUNT_INFO_STATE             | 235050819       | 11 GiB      | 11 GiB          | 0 B              |
-| ACCOUNT_STORAGE_STORAGE        | 1111009063      | 49 GiB      | 49 GiB          | 0 B              |
-| CODE_STORAGE                   | 37676523        | 9 GiB       | 12 GiB          | 0 B              |
-| TRIE_BRANCH_STORAGE            | 1842217975      | 132 GiB     | 132 GiB         | 0 B              |
-| TRIE_LOG_STORAGE               | 516             | 77 MiB      | 77 MiB          | 0 B              |
+| BLOCKCHAIN                     | 2355141414      | 933 GiB     | 166 GiB         | 767 GiB          |
+| VARIABLES                      | 26              | 240 KiB     | 240 KiB         | 0 B              |
+| ACCOUNT_INFO_STATE             | 9634454         | 496 MiB     | 496 MiB         | 0 B              |
+| ACCOUNT_STORAGE_STORAGE        | 24041432        | 1 GiB       | 1 GiB           | 0 B              |
+| CODE_STORAGE                   | 37703864        | 12 GiB      | 12 GiB          | 0 B              |
+| TRIE_BRANCH_STORAGE            | 1885032116      | 138 GiB     | 138 GiB         | 0 B              |
+| TRIE_LOG_STORAGE               | 267301          | 17 GiB      | 17 GiB          | 0 B              |
+|--------------------------------|-----------------|-------------|-----------------|------------------|
+| ESTIMATED TOTAL                | 4311820607      | 1104 GiB    | 337 GiB         | 767 GiB          |
 ```
 
-Total Files Size Total =  681 + 11 + 49 + 12 + 132 = 885 GB
-
-885 GB is much closer to the on disk result:
+1104 GB is much closer to the on disk result:
 
 ```
-du -ksch /data/besu/database
-889G	/data/besu/database
+$du -ksch /data/besu/database
+1.1T	/data/besu/database
+1.1T	total
+```
+
+---
+
+Another example with a BONSAI + X_CHECKPOINT node:
+
+```
+| Column Family                  | Keys            | Total Size  | SST Files Size  | Blob Files Size  |
+|--------------------------------|-----------------|-------------|-----------------|------------------|
+| BLOCKCHAIN                     | 1432578448      | 685 GiB     | 101 GiB         | 583 GiB          |
+| VARIABLES                      | 4970            | 89 KiB      | 89 KiB          | 0 B              |
+| ACCOUNT_INFO_STATE             | 236237895       | 11 GiB      | 11 GiB          | 0 B              |
+| ACCOUNT_STORAGE_STORAGE        | 1112465479      | 49 GiB      | 49 GiB          | 0 B              |
+| CODE_STORAGE                   | 37702404        | 12 GiB      | 12 GiB          | 0 B              |
+| TRIE_BRANCH_STORAGE            | 1853480673      | 134 GiB     | 134 GiB         | 0 B              |
+| TRIE_LOG_STORAGE               | 514             | 69 MiB      | 69 MiB          | 0 B              |
+|--------------------------------|-----------------|-------------|-----------------|------------------|
+| ESTIMATED TOTAL                | 4672470383      | 893 GiB     | 309 GiB         | 583 GiB          |
+```
+
+```
+$ du -ksch /data/besu/database
+896G	/data/besu/database
+896G	total
 ```
 
 ---
@@ -668,58 +733,6 @@ Add missed javadoc for `ClassicEVM` from #6524
     </table>
     <div class="right-align">
         Created At 2024-02-06 12:41:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6530" class=".btn">#6530</a>
-            </td>
-            <td>
-                <b>
-                    Make SNAP the default sync mode for named networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                refs #5391
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 09:00:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6528" class=".btn">#6528</a>
-            </td>
-            <td>
-                <b>
-                    error if snap or checkpoint sync specified with privacy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                we enforce that you can't specify FAST sync if privacy is enabled - do the same check for SNAP and CHECKPOINT
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 06:23:54 +0000 UTC
     </div>
 </div>
 

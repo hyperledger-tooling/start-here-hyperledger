@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2467" class=".btn">#2467</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2507" class=".btn">#2507</a>
             </td>
             <td>
                 <b>
-                    fix(indy): add func to prevent injection in indy identity gen script
+                    update(docs): Indy configuration and ops sections
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                <nil>
+                **Primary Changes**
+
+1. Updated operations Indy docs
+2. Updated Indy config file
+3. Added missing field (proxy_namespace) in Substrate
+
+fixes #2465 #2483
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-04 05:36:26 +0000 UTC
+        Created At 2024-02-09 12:44:49 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +46,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2466" class=".btn">#2466</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2506" class=".btn">#2506</a>
             </td>
             <td>
                 <b>
-                    fix(fabric): correct path for core.yaml file; remove cc ops from site.yaml
+                    docs(r3corda): operations section under guide's tab
                 </b>
             </td>
         </tr>
@@ -53,12 +59,16 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                <nil>
+                **Primary Changes**
+1.Updated operations corda docs
+2.Removed cenm console in corda operations
+
+fixes #2483
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-03 06:33:55 +0000 UTC
+        Created At 2024-02-09 06:33:25 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +76,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2464" class=".btn">#2464</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2505" class=".btn">#2505</a>
             </td>
             <td>
                 <b>
-                    feat(besu): enable DLT deployment via GitHub Workflow & Action.
+                    [corda] New charts as per release 1.0.0
                 </b>
             </td>
         </tr>
@@ -79,23 +89,53 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Changes:
-
-Introduced a new GitHub Workflow enabling the deployment of Hyperledger Bevel's BESU DLT Platform to an EKS Cluster. Introduced a new directory at path: platforms/hyperledger-besu/configuration/samples/workflow, containing two new sample network configuration files: 
-network-proxy-besu: Supports deployment with Ingress controller. 
-network-no-proxy-besu: Supports deployment without an Ingress controller, specifically designed for deployment on Minikube.
-
-Additional Changes:
-
-1)Replaced the Ambassador Ansible task with new Ambassador-Edge-Stack. 
-2)platforms/shared/charts/bevel-vault-mgmt/templates/serviceAccount.yaml 3)platforms/shared/configuration/roles/setup/kubectl/tasks/main.yaml
-
-fixes #2416
+                New 1.0.0 changes
+- Added kubectl to bevel-build container
+- Updated `platforms/r3-corda/charts/README.md` to guide on how to deploy using just helm install
+- All `platforms/r3-corda/charts/` updated to use global variables
+- New chart `platforms/r3-corda/charts/corda-init` to initialise a namespace for Corda
+- New Chart `platforms/r3-corda/charts/corda-network-service` to deploy Doorman, NMS and MongoDB together
+- Removed doorman, mongodb, and nms charts
+- Updated `platforms/r3-corda/charts/corda-node` chart to deploy notary as well. Also deploys H2 database.
+- Removed Notary and init-registration charts
+- Hooks used to create certificates
+- All passwords are in values.yaml files now
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-02 09:55:05 +0000 UTC
+        Created At 2024-02-08 11:55:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2504" class=".btn">#2504</a>
+            </td>
+            <td>
+                <b>
+                    docs(quorum): configuration section under guides tab
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                changes:
+
+Configurations:
+networkyaml-quorum.md
+
+fixes:2465
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-06 13:40:53 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Rebased new migrations on the original migrations
+                    Add ngrok setup and documentation
                 </b>
             </td>
         </tr>
@@ -27,18 +27,16 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
                 
             </td>
             <td>
-                This resolves https://github.com/bcgov/DITP-DevOps/issues/138 by correcting the alembic migration error.
+                These days one needs a token to use Ngrok. Starting up the endorser service locally is failing currently with the existing instructions.
 
-Before granular configuration was implemented the original migration file initial_db_tables_d925cb39480e.py was used.
+Add instructions to add your token to an `env` and import that into the ngrok container.
 
-Due to an over site this file was removed and a new complete_regeneration_bc503ce16d6d.py was produced.
-
-While this would work for new deployments this broke backwards compatibility with existing deployments. For this reason we restored initial_db_tables_d925cb39480e.py and based updated_to_support_granular__e6afa1dce289.py on it to preserve this compatibility.
+As a note, most of the other stuff in our ecosystem I believe uses `ngrok/ngrok` as the image whereas this one is still using `image: wernight/ngrok`. Might be a task for later to reconcile that?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-27 20:41:20 +0000 UTC
+        Created At 2024-02-09 19:40:02 +0000 UTC
     </div>
 </div>
 

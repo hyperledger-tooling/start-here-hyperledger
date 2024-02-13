@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/247" class=".btn">#247</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/254" class=".btn">#254</a>
             </td>
             <td>
                 <b>
-                    Update python wrapper version to 0.4.1, proxy to 0.1.5
+                    fix(js): add missing type
                 </b>
             </td>
         </tr>
@@ -27,14 +27,43 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                The Python package is tested against the main branch of ACA-Py.
-
-Due to a new release of the `home` crate, the cross installation on Android was failing. The CI install command is updated to use the lockfile in the cross repository.
+                Getting errors if this is not installed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-18 21:27:32 +0000 UTC
+        Created At 2024-02-13 10:38:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/253" class=".btn">#253</a>
+            </td>
+            <td>
+                <b>
+                    fix: update to indy-vdr native binary 0.4.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+NOTE: this is to the js-0.4.1 branch and the release for JS wrapper must be created from that branch
+
+<img width="337" alt="image" src="https://github.com/hyperledger/indy-vdr/assets/23165168/01f258a4-9d96-4ca5-aa46-984b6c775f5f">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-08 08:01:41 +0000 UTC
     </div>
 </div>
 
