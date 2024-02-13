@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6559" class=".btn">#6559</a>
+            </td>
+            <td>
+                <b>
+                    [Issue 6301] Refactor BadBlockManager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Refactor `BadBlockManager` handling - move it out of `ProtocolSpec` and into `ProtocolContext`.  This will make it simpler to expose bad block events through the plugins API.  
+
+This refactor simplifies access to `BadBlockManager` and improves the clarity of the codebase. Accessing `BadBlockManager` through `ProtocolSpec` is misleading because it implies this object is changing depending on the current spec / milestone.  However, this is not the case - `BadBlockManager` is a global cache unrelated to the spec. 
+
+Now, instead of accessing the `BadBlockManager` in a roundabout way by pulling the latest spec:
+```
+Blockchain chain = protocolContext.getBlockchain();
+BlockHeader head = chain.getChainHeader()
+BadBlockManager badBlockManager = protocolSchedule
+        .getByBlockHeader(head)
+        .getBadBlocksManager()
+``` 
+You can just grab it directly from `ProtocolContext.getBadBlockManager()`. 
+
+**Notes for the reviewer**:
+The first commit moves the instantiation of `BadBlockManager` from `ProtocolScheduleBuilder` to `BesuControllerBuilder`.  This introduces a lot of changes because `BadBlockManager` now has to be injected into `ProtocolScheduleBuilder`.  The second commit pushes `BadBlockManager` into `ProtocolContext`, which also introduces a lot of changes - mostly in tests.  The rest of the commits are much smaller and more manageable. 
+
+## Fixed Issue(s)
+Part of #6301 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-12 22:18:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6558" class=".btn">#6558</a>
             </td>
             <td>
@@ -371,7 +419,7 @@ Also occasionally errors since the txpool is disabled during initial sync - it's
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Replace "Column Size" with "Total Size" where Total Size = SST Files Size + Blob Files Size
@@ -661,42 +709,6 @@ Add missed javadoc for `ClassicEVM` from #6524
     </table>
     <div class="right-align">
         Created At 2024-02-06 01:33:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6525" class=".btn">#6525</a>
-            </td>
-            <td>
-                <b>
-                    Better tracing alignment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Update tracing and evm tool
-* Intrinsic gas is optional in EVMTool
-* For call series, also charge the gas given to the next call level
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-Fixes #6523
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 00:23:47 +0000 UTC
     </div>
 </div>
 

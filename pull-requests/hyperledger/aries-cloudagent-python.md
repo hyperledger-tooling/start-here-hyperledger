@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                Add rule `B006` to the linting config and implements it by creating empty objects in the functions when the parameter is None.
+
+Didn't add any of the other `B` linting options.
             </td>
         </tr>
     </table>
@@ -243,35 +245,6 @@ Edit: these new test failures/errors all come down to either pytest scope needin
     </table>
     <div class="right-align">
         Created At 2024-02-06 18:10:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2760" class=".btn">#2760</a>
-            </td>
-            <td>
-                <b>
-                    Move emit events to profile and delay sending until after commit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See issue #2000 
-
-This update doesn't break anything ...  I haven't been able to duplicate the issue (by strategically inserting `sleep()` statements) so I can't 100% confirm that this fixes the issue, but I think it "should" ...
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 23:47:43 +0000 UTC
     </div>
 </div>
 
