@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/104" class=".btn">#104</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    Require policy engines to map failures during submission to idempotency
+                    Better logging for transaction writer, and TXUpdate de-dup
                 </b>
             </td>
         </tr>
@@ -27,18 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                See https://github.com/hyperledger/firefly/issues/1435
-
-The implementation here:
-- Requires the policy manager implementations to return a new boolean
-- Provides a mapping from the `ErrorReason` information that FFCAPI implementations already provide
-- Uses a `submissionRejected` boolean on the response back to core (so `false` means it is retryable)
-- Updates to latest `firefly-common`
+                - Pulls in latest `firefly-common` with fix for https://github.com/hyperledger/firefly-common/pull/125
+- Adds operation short id to writer operations to trace them through, and also batch size info
+- Merges multiple updates in the same writer batch into a single DB operation
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-21 15:20:19 +0000 UTC
+        Created At 2024-02-13 15:58:30 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger/bevel-operator-fabric/pull/211" class=".btn">#211</a>
             </td>
             <td>
                 <b>
-                    Features
+                    Feat/small feats
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
                 
             </td>
             <td>
-                NetworkConfig: filter the peers to be added per organization
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-06 17:08:34 +0000 UTC
+        Created At 2024-02-13 14:59:19 +0000 UTC
     </div>
 </div>
 

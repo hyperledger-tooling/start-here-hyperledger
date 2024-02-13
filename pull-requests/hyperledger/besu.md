@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6563" class=".btn">#6563</a>
+            </td>
+            <td>
+                <b>
+                    Fix for tx incorrectly discarded when there is a timeout during block creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+In case the selection of transactions during block creation goes in timeout, it is possible that some txs are incorrectly dropped from the txpool, since marked as invalid.
+When the timeout occurs the block is created with all the txs selected until that moment, after that the world state is closed, while it is possible that a tx was still processing, in that case the processing tx validation could fail due fact that is no more possible to get the account from the closed world state, and the tx is wrongly tagged as invalid with UPFRONT_COST_EXCEED_BALANCE, that cause the tx to be dropped from the pool.
+
+This PR, improves the handling of timeout and not selected txs, avoiding that them can be incorrectly dropped in case of timeout
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 13:37:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6562" class=".btn">#6562</a>
             </td>
             <td>
@@ -674,65 +712,6 @@ Refs #5391
     </table>
     <div class="right-align">
         Created At 2024-02-07 02:26:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6534" class=".btn">#6534</a>
-            </td>
-            <td>
-                <b>
-                    [minor] Improve message when existing database is different from the configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ux</span>
-            </td>
-            <td>
-                ## PR description
-
-Improve message error when existing database with a different version is detected
-
-`Mismatch: DB at '/path' is FOREST (Version 1) but config expects BONSAI (Version 2). Please check your config.`
-
-see: #5926
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 13:10:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6533" class=".btn">#6533</a>
-            </td>
-            <td>
-                <b>
-                    Add missing javadoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add missed javadoc for `ClassicEVM` from #6524
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 12:41:58 +0000 UTC
     </div>
 </div>
 

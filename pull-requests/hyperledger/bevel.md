@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2510" class=".btn">#2510</a>
+            </td>
+            <td>
+                <b>
+                    chore: Updated kubeconfig configuration in storage class helm chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                chore: Added kubeconfig configuration for creating storage class using Helm chart
+
+This commit adds the `kubeconfig` configuration field to the task responsible for creating a storage class using a Helm chart. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 16:00:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2507" class=".btn">#2507</a>
             </td>
             <td>
@@ -105,37 +135,6 @@ fixes #2483
     </table>
     <div class="right-align">
         Created At 2024-02-08 11:55:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2504" class=".btn">#2504</a>
-            </td>
-            <td>
-                <b>
-                    docs(quorum): configuration section under guides tab
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                changes:
-
-Configurations:
-networkyaml-quorum.md
-
-fixes:2465
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 13:40:53 +0000 UTC
     </div>
 </div>
 

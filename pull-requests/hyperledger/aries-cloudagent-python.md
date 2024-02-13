@@ -222,29 +222,3 @@ Edit: these new test failures/errors all come down to either pytest scope needin
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2763" class=".btn">#2763</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade anoncreds to version 0.2.0-dev11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 18:10:10 +0000 UTC
-    </div>
-</div>
-
