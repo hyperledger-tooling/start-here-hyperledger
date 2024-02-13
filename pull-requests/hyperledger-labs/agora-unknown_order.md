@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    fix alloc issue with serializing
+                    fix remaining parts from features
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
                 
             </td>
             <td>
-                Fixes that last issue with serializing to human readable formats.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-28 18:08:49 +0000 UTC
+        Created At 2024-02-13 16:53:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/11" class=".btn">#11</a>
+            </td>
+            <td>
+                <b>
+                    Update to 0.8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 16:48:57 +0000 UTC
     </div>
 </div>
 

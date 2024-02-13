@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/128" class=".btn">#128</a>
+            </td>
+            <td>
+                <b>
+                    Add ability to selectively ignore adding a route into the OpenAPI document
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow at the Route level to choose to add it to the OpenAPI generated or not
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 16:48:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/127" class=".btn">#127</a>
+            </td>
+            <td>
+                <b>
+                    [ffapi] Support for Text and Binary Streams
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Motivation
+
+I needed to ensure I was returning the correct `Content-Type` for my responses. Binary was supported but not plain text. And I wanted to have the OpenAPI accurately reflect the expected response `Content-Type`.
+
+## Changes
+
+- For routing / server - adds a new `StreamHandler` extension similar to the `JSONHandler` but with the expectation that an `io.ReadCloser` is returned. The route will be assumed to be streaming binary unless a `StreamOutputContentType` is specified.
+- For OpenAPI generation - adds a new `OutputType` to determine if the default JSON helpers are used, or the stream helpers. Streams are assumed to always return `200 OK` with the `Content-Type` being customizable through the same `StreamOutputContentType`.
+
+## TODOs
+- [ ] confirm from maintainers this the right API we want for streams
+- [ ] unit tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 13:29:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/126" class=".btn">#126</a>
             </td>
             <td>

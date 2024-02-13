@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-besu/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Restore did:indybesu DID method + Restore storage approach for CL objects
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 14:51:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-besu/pull/22" class=".btn">#22</a>
             </td>
             <td>
@@ -91,33 +117,6 @@ permalink: /pull-requests/hyperledger/indy-besu
     </table>
     <div class="right-align">
         Created At 2024-02-07 07:59:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-besu/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    Revert reason handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added revert reason handling for VDR
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 13:47:50 +0000 UTC
     </div>
 </div>
 
