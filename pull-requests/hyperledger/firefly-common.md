@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    Add ability to selectively ignore adding a route into the OpenAPI document
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allow at the Route level to choose to add it to the OpenAPI generated or not
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 16:48:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/127" class=".btn">#127</a>
             </td>
             <td>

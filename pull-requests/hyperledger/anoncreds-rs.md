@@ -65,30 +65,3 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/323" class=".btn">#323</a>
-            </td>
-            <td>
-                <b>
-                    Corrected building of W3C credential values passed through the FFI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related issue: https://github.com/hyperledger/anoncreds-rs/issues/321
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 07:53:45 +0000 UTC
-    </div>
-</div>
-
