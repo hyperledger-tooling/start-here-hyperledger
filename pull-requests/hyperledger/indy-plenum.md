@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1652" class=".btn">#1652</a>
+            </td>
+            <td>
+                <b>
+                    Add Dependabot configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 17:58:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1651" class=".btn">#1651</a>
             </td>
             <td>
@@ -33,32 +61,6 @@ permalink: /pull-requests/hyperledger/indy-plenum
     </table>
     <div class="right-align">
         Created At 2024-02-12 21:36:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1650" class=".btn">#1650</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade GHA versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Address warning raised while running workflows.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 14:47:40 +0000 UTC
     </div>
 </div>
 

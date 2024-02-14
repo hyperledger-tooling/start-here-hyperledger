@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/130" class=".btn">#130</a>
             </td>
             <td>
                 <b>
-                    restore image build on tag (i.e. release)
+                    Add Dependabot configuration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                removing 'tests needed' check that skips container builds for tag runs
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-12 08:20:02 +0000 UTC
+        Created At 2024-02-14 17:42:15 +0000 UTC
     </div>
 </div>
 

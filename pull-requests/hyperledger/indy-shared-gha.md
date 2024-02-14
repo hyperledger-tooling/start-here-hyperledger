@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Upgrade additional GHA versions
+                    Add Dependabot configuration
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
                 
             </td>
             <td>
-                - Address warning raised while running workflows that were missed in the last round of updates.
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-07 15:50:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/28" class=".btn">#28</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade GHA versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Address warning raised while running workflows.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 14:42:47 +0000 UTC
+        Created At 2024-02-14 18:01:10 +0000 UTC
     </div>
 </div>
 

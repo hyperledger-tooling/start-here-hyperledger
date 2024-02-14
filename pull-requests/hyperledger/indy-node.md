@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1839" class=".btn">#1839</a>
+            </td>
+            <td>
+                <b>
+                    Add Dependabot configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 17:59:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1838" class=".btn">#1838</a>
             </td>
             <td>
@@ -111,58 +139,6 @@ permalink: /pull-requests/hyperledger/indy-node
     </table>
     <div class="right-align">
         Created At 2024-02-07 19:37:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1834" class=".btn">#1834</a>
-            </td>
-            <td>
-                <b>
-                    Update CI/CD and Release process docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 16:44:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1833" class=".btn">#1833</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade GHA versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Address warning raised while running workflows.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 14:53:34 +0000 UTC
     </div>
 </div>
 

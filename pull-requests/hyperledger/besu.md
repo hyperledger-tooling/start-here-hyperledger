@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6572" class=".btn">#6572</a>
+            </td>
+            <td>
+                <b>
+                    add a debug flavor of the openjdk-latest image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+As a user of the besu docker image I would like to have curl available in the running container.
+As previous version openjdk-17 was also built in a debug flavor I followed this approach.
+
+NB: teku include curl in their image https://github.com/Consensys/teku/blob/b544b9ebe589e78fa2f075ae389b041dc2871ea2/docker/jdk21/Dockerfile#L17
+
+## Fixed Issue(s)
+fixes #6571
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 15:12:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6570" class=".btn">#6570</a>
+            </td>
+            <td>
+                <b>
+                    remove useless persist during backward sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+During backward sync we call validateAndProcessBlock, which will process the block, update the state, and calculate the root hash.
+
+If the block is validated, we will persist the block again for no reason, which will lead to a new unnecessary calculation of rootHash. Removing this second call should really significantly improve performance.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 14:28:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6568" class=".btn">#6568</a>
             </td>
             <td>
@@ -684,35 +755,6 @@ Fix this by using the existin "checkLicense" task.
     </table>
     <div class="right-align">
         Created At 2024-02-08 00:04:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6537" class=".btn">#6537</a>
-            </td>
-            <td>
-                <b>
-                    Github Actions Updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Uses `pull_request_target` to make sure action definitions only come from `main` or `release-*`. This also allows them to escalate privs.
-- All priv escalations moved as narrowly as possible. Typically this is only required to upload test results.
-- All actions pinned to specific SHA versions. When updated, repository settings will need to be adjusted to allow it.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 17:39:58 +0000 UTC
     </div>
 </div>
 

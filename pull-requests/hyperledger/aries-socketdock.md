@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-socketdock
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger/aries-socketdock/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Disable status call until auth mechanisms
+                    Add Dependabot configuration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-socketdock
                 
             </td>
             <td>
-                The status call has no authentication associated with it. This is great for development, but not-so-great for production. Until a better way to limit the audience, we should probably disable this for now.
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-06 17:00:59 +0000 UTC
+        Created At 2024-02-14 17:19:43 +0000 UTC
     </div>
 </div>
 
