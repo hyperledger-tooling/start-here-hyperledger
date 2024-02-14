@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3022" class=".btn">#3022</a>
+            </td>
+            <td>
+                <b>
+                    test(tools/docker): add new Corda v4.12-SNAPSHOT all-in-one image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Published on GHCR as
+`ghcr.io/hyperledger/cactus-corda-4-12-all-in-one-negotiation:2024-02-13-dev`
+
+1. It is a more bare bones flavor of the previous versions in the sense that it does not support
+running the REST API web servers that come with the samples repository at all. It only supports
+running the nodes A, B and Notary.
+2. There is no Party C because we had to switch over to the negotiation-cordapp example.
+3. This flavor of the image supports customizing the log levels of the Corda node through
+the file at: tools/docker/corda-all-in-one/corda-v4_12/negotiation-cordapp/log4j2.xml
+Note however that applying these changes requires a rebuild of the image so it's still less
+convenient than idea lto use, but at least now we have an option to do so.
+4. Another new feature of this image compared to the earlier Corda AIO images is that it
+uses Ubuntu 22.04 LTS as it's base instead of alpine. This increases the image size a little
+but it's well worth the trade-off of having a uniform image base (which is the long term plan)
+5. There is a builder stage that can be used to clone an arbitrary branch + SHA combination of
+the upstream corda git repository and then build the node .jar file from it which then will be
+used by the image to run the nodes. The custom-built .jar file is placed under  /opt/bin/corda.jar
+so do not mix that one up with the other one that is provided with the corda kotlin-samples repo.
+6. The `run-notary-node.sh`, `run-party-a-node.sh` and `run-party-b-node.sh` scripts were altered
+to use the custom-built .jar file mentioned above and this is the reason why this commit adds
+a (seeming) clone of these scripts.
+7. For now I did not add a CI task for building and publishing the image because even though
+that would match the older images, I'm trying to save on CI resources and at the moment we
+don't necessarily need a fresh build of this image on each new pull request.
+8. Last but not least (first actually) this is also a security adjacent upgrade since using
+this image is the precursor to a much bigger change that will see the Corda v4 connector's
+dependencies upgraded to Spring Boot v3 and Corda v4.12-SNAPSHOT but we can't do that without
+having this image published first if we want to have test-automation verifying those changes.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 00:22:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3021" class=".btn">#3021</a>
             </td>
             <td>
@@ -287,112 +354,6 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
     </table>
     <div class="right-align">
         Created At 2024-02-08 23:32:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3013" class=".btn">#3013</a>
-            </td>
-            <td>
-                <b>
-                    test(cactus-core): fix false negative test results
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The fix was to start statically importing the http helper library we use
-in `packages/cactus-core/src/main/typescript/web-services/handle-rest-endpoint-exception.ts`
-instead of how it was (dynamic imports at runtime).
-
-1. There have been reports of dynamic imports causing segmentation
-faults in the NodeJS process when Jest is involved.
-2. It is looking like this bug was another instance of that manifesting
-but slightly differently because this time around Jest decided to hide
-the stack trace of it as well.
-3. Because of `2)` we have no specific evidence of the theory. We can only
-say that the change in this commit made the problem go away, but since
-there never was any crash logs or stack traces on the CI environment,
-this remains a conjecture.
-4. Trying to reproduce the issue locally failed even when using the
-exact same versions of NodeJS and npm (and all the dependencies of course).
-5. Based on `4)` it is likely that the segmentation fault is due to a
-race condition in the lower level (C/C++) code of NodeJS and/or Jest.
-
-Fixes #2966
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 23:55:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3012" class=".btn">#3012</a>
-            </td>
-            <td>
-                <b>
-                    test(cactus-core): refactor handle-rest-endpoint-exception.test.ts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change makes it easier to read and debug some of the assertions of
-the test case which are a little convoluted due to the usage of the Jest
-spies.
-
-These changes were done as part of another fix but ultimately turned out
-to be not a factor for that fix and therefore I thought it bess to separate
-the change out onto it's own PR to make it easier to review.
-
-Related to #2966 but this is not the actual fix.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 23:54:40 +0000 UTC
     </div>
 </div>
 

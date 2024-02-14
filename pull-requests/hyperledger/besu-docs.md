@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1510" class=".btn">#1510</a>
+            </td>
+            <td>
+                <b>
+                    Update storage amount
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1482 
+
+
+Updating doc to reflect new numbers detailed in [this doc](https://docs.google.com/document/d/1ykIANeVOh9E95-l-ZQU1L6QkyXwpaBcXhPEr7w3xuSs/edit#heading=h.vcpe6a3o9ru9). 
+
+Should Checkpoint values also be added to this table?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 19:20:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1509" class=".btn">#1509</a>
             </td>
             <td>
