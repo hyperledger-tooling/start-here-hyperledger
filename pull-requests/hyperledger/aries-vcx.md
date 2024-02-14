@@ -92,29 +92,3 @@ The changes in [913f348](https://github.com/hyperledger/aries-vcx/pull/1124/comm
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1123" class=".btn">#1123</a>
-            </td>
-            <td>
-                <b>
-                    refactor: improve record category type, closes #1112
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replace a string type with enum.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 12:19:57 +0000 UTC
-    </div>
-</div>
-
