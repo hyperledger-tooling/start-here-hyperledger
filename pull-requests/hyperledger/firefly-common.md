@@ -55,15 +55,15 @@ permalink: /pull-requests/hyperledger/firefly-common
             <td>
                 ## Motivation
 
-I needed to ensure I was returning the correct `Content-Type` for my responses. Binary was supported but not plain text. And I wanted to have the OpenAPI accurately reflect the expected response `Content-Type`.
+I needed to ensure I was returning the correct `Content-Type` for my responses. Binary was supported but not plain text. And I wanted to have the OpenAPI accurately reflect the expected response `Content-Type` and allow for greater future customization.
 
 ## Changes
 
-- For routing / server - adds a new `StreamHandler` extension similar to the `JSONHandler` but with the expectation that an `io.ReadCloser` is returned. The route will be assumed to be streaming binary unless a `StreamOutputContentType` is specified.
-- For OpenAPI generation - adds a new `OutputType` to determine if the default JSON helpers are used, or the stream helpers. Streams are assumed to always return `200 OK` with the `Content-Type` being customizable through the same `StreamOutputContentType`.
+- For routing / server - adds a new `StreamHandler` extension similar to the `JSONHandler` but with the expectation that an `io.ReadCloser` is returned. The route handler will continue to assume it is streaming binary unless a `Content-Type` header is already specified.
+- For OpenAPI generation - adds a new `CustomResponseRefs` to allow for adding custom responses for either streams or JSON. 
 
 ## TODOs
-- [ ] confirm from maintainers this the right API we want for streams
+- [x] confirm from maintainers this the right API we want for streams
 - [ ] unit tests
             </td>
         </tr>

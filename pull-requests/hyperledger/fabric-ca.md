@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/403" class=".btn">#403</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/404" class=".btn">#404</a>
             </td>
             <td>
                 <b>
-                    Bump Go to 1.21.6
+                    Use fabric-lib-go for bccsp, metrics, flogging
                 </b>
             </td>
         </tr>
@@ -27,13 +27,23 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Bump Go to 1.21.6.
+                The following packages are being moved from fabric to fabric-lib-go so that they can be shared across fabric and fabric-ca:
+
+- github.com/hyperledger/fabric/bccsp
+- github.com/hyperledger/fabric/common/flogging
+- github.com/hyperledger/fabric/common/metrics
+
+This commit updates fabric-ca to use the common code in fabric-lib-go.
+
+The fabric-ca dependency on fabric is no longer needed. That's good!
+
+Also ran goimports to clean up imports.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-31 16:07:19 +0000 UTC
+        Created At 2024-02-13 22:47:41 +0000 UTC
     </div>
 </div>
 

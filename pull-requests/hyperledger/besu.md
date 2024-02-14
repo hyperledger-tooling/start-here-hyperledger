@@ -253,7 +253,7 @@ The BerlinGasCalculator had a side effect of warming addresses when calculating 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -286,14 +286,14 @@ Check have been added to detect not managed (up|down)grades, so we can inform th
 
 Test to perform:
 
-- [ ] Vanilla new installation, verify that the default format and version is used and written in DATABASE_METADATA.json 
+- [x] Vanilla new installation, verify that the default format and version is used and written in DATABASE_METADATA.json 
 - [ ] New installation with custom format selection, verify that the selected format and version is used and written in DATABASE_METADATA.json 
 - [ ] Upgrade existing installation >=23.4.4, verify that DATABASE_METADATA.json has been translated to the new format
 - [ ] Upgrade existing installation >=23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
+- [ ] Upgrade existing installation >=23.4.4 then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
 - [ ] Upgrade existing installation <23.4.4, verify that variables storage migration is performed and DATABASE_METADATA.json has the new format
 - [ ] Upgrade existing installation <23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
-
-
+- [ ] Upgrade existing installation <23.4.4 then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

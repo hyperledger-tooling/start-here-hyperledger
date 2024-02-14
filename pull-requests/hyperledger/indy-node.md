@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger/indy-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1831" class=".btn">#1831</a>
-            </td>
-            <td>
-                <b>
-                    Update to indy-plenum==1.13.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the indy-plenum version in `setup.py` to use `indy-plenum==1.13.1`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-06 22:01:53 +0000 UTC
-    </div>
-</div>
-

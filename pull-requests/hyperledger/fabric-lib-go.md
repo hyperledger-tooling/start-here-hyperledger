@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    import protoutils from core fabric 
+                    Remove gendoc debug
                 </b>
             </td>
         </tr>
@@ -27,16 +27,73 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                fabric core context dependency was discovered and marked here.
-https://github.com/davidkhala/protoutil/issues/1
-
-After this is merged, migrate dependency on `./protoutil/common` to `github.com/hyperledger/fabric-lib-go/common`
-
+                Remove gendoc debug
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-17 19:55:07 +0000 UTC
+        Created At 2024-02-13 22:35:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    Update Github Actions to apply to any branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change 'main' to '*'.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 21:22:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Move bccsp, metrics, flogging to fabric-lib-go (on feature branch)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move the following packages from fabric repository to fabric-lib-go
+so that they can be shared more easily between fabric and fabric-ca.
+    
+- github.com/hyperledger/fabric/bccsp
+- github.com/hyperledger/fabric/common/flogging
+- github.com/hyperledger/fabric/common/metrics
+
+This PR targets a feature branch for additional testing, not main branch.
+    
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-13 21:16:18 +0000 UTC
     </div>
 </div>
 
