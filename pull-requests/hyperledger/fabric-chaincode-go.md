@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/94" class=".btn">#94</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    Bump google.golang.org/grpc from 1.54.0 to 1.61.0
+                    Bump google.golang.org/grpc from 1.54.0 to 1.61.1
                 </b>
             </td>
         </tr>
@@ -27,11 +27,20 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.54.0 to 1.61.0.
+                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.54.0 to 1.61.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
 <blockquote>
+<h2>Release 1.61.1</h2>
+<h1>Bug Fixes</h1>
+<ul>
+<li>server: wait to close connection until incoming socket is drained (with timeout) to prevent data loss on client-side (<a href="https://redirect.github.com/grpc/grpc-go/issues/6977">#6977</a>)
+<ul>
+<li>Special Thanks: <a href="https://github.com/s-matyukevich"><code>@​s-matyukevich</code></a> for discovering the root cause</li>
+</ul>
+</li>
+</ul>
 <h2>Release 1.61.0</h2>
 <h1>New Features</h1>
 <ul>
@@ -91,16 +100,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
 <h2>Release 1.60.0</h2>
 <h1>Security</h1>
 <ul>
-<li>credentials/tls: if not set, set TLS MinVersion to 1.2 and CipherSuites according to supported suites not forbidden by RFC7540.
-<ul>
-<li>This is a behavior change to bring us into better alignment with RFC 7540.</li>
-</ul>
-</li>
-</ul>
-<h1>API Changes</h1>
-<ul>
-<li>resolver: remove deprecated and experimental <code>ClientConn.NewServiceConfig</code> (<a href="https://redirect.github.com/grpc/grpc-go/issues/6784">#6784</a>)</li>
-<li>client: remove deprecated <code>grpc.WithServiceConfig</code> <code>DialOption</code> (<a href="https://redirect.github.com/grpc/grpc-go/issues/6800">#6800</a>)</li>
+<li>credentials/tls: if not set, set TLS MinVersion to 1.2 and CipherSuites according to supported suites not forbidden by RFC7540.</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -109,6 +109,9 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/grpc/grpc-go/commit/c6e7f04eb9a3d9535c055b68aea36b723e46d470"><code>c6e7f04</code></a> Change version to 1.61.1 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6981">#6981</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/dbd4cbcef164059f14ecc355d8a22b58c02a7fb8"><code>dbd4cbc</code></a> cherry-pick <a href="https://redirect.github.com/grpc/grpc-go/issues/6977">#6977</a> to 1.61.x release branch (<a href="https://redirect.github.com/grpc/grpc-go/issues/6980">#6980</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/57ed608e2fd7f49761db00d3710ba881cb0944c9"><code>57ed608</code></a> Change version to 1.61.1-dev (<a href="https://redirect.github.com/grpc/grpc-go/issues/6937">#6937</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/8167bc3aca7890b44b5839a2cd92d495016ac7ed"><code>8167bc3</code></a> Change version to 1.61.0 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6936">#6936</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/52e23632fc29be90369d5d479f8b4f752f4b1dc4"><code>52e2363</code></a> test/xds: Use different import path for gRPC Messages (<a href="https://redirect.github.com/grpc/grpc-go/issues/6933">#6933</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/67e50be52699e793bc89a786465e841a18950fae"><code>67e50be</code></a> transport: Remove redundant if in handleGoAway (<a href="https://redirect.github.com/grpc/grpc-go/issues/6930">#6930</a>)</li>
@@ -116,16 +119,13 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
 <li><a href="https://github.com/grpc/grpc-go/commit/987df1309236a950d3f618eb5287279d81a7396e"><code>987df13</code></a> metadata: move FromOutgoingContextRaw() to internal (<a href="https://redirect.github.com/grpc/grpc-go/issues/6765">#6765</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/61eab37838ce213237ecb31aa7cdf95241851431"><code>61eab37</code></a> server: block GracefulStop on method handlers and make blocking optional for ...</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/ddd377f19841eae70862559c854d957d61b3b692"><code>ddd377f</code></a> xds/server: fix RDS handling for non-inline route configs (<a href="https://redirect.github.com/grpc/grpc-go/issues/6915">#6915</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/8b455deef5597ea1d5af9b168028bc8a087a0e8c"><code>8b455de</code></a> removing Roots deprecated Subjects field in tests (<a href="https://redirect.github.com/grpc/grpc-go/issues/6907">#6907</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/953d12a1c6c5b4929ac92eeeedfdad2ddef49976"><code>953d12a</code></a> alts: Forward-fix of ALTS queuing of handshake requests. (<a href="https://redirect.github.com/grpc/grpc-go/issues/6906">#6906</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/6ce73bfbf9c5ca458c346f62c571a3a74369c4c4"><code>6ce73bf</code></a> internal/transport: convert <code>ConnectionError</code> to <code>Unavailable</code> status when wr...</li>
-<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.54.0...v1.61.0">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.54.0...v1.61.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.54.0&new-version=1.61.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.54.0&new-version=1.61.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -157,7 +157,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-24 04:16:30 +0000 UTC
+        Created At 2024-02-14 04:31:38 +0000 UTC
     </div>
 </div>
 

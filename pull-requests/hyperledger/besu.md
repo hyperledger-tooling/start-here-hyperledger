@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6568" class=".btn">#6568</a>
+            </td>
+            <td>
+                <b>
+                    Add tests for user profiles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                Add tests to ensure that the profiles are sensible and besu will start with each of them
+
+Refs #6323
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 04:25:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6563" class=".btn">#6563</a>
             </td>
             <td>
@@ -685,33 +713,6 @@ Fix this by using the existin "checkLicense" task.
     </table>
     <div class="right-align">
         Created At 2024-02-07 17:39:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6536" class=".btn">#6536</a>
-            </td>
-            <td>
-                <b>
-                    Default storage format now Bonsai 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                Builds on #6530 
-Refs #5391 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 02:26:32 +0000 UTC
     </div>
 </div>
 

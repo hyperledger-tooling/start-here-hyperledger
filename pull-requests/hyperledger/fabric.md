@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4678" class=".btn">#4678</a>
+            </td>
+            <td>
+                <b>
+                    Switch to bccsp, metrics, flogging in fabric-lib-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The following packages are being moved from fabric to fabric-lib-go so that they can be shared across fabric and fabric-ca:
+
+- github.com/hyperledger/fabric/bccsp
+- github.com/hyperledger/fabric/common/flogging
+- github.com/hyperledger/fabric/common/metrics (including the gendoc utility)
+
+The [PR](https://github.com/hyperledger/fabric-ca/pull/404) over in fabric-ca finally removes the fabric-ca dependency on core fabric.
+
+This commit updates fabric to use the common code in fabric-lib-go.
+
+For now a temporary branch in fabric-lib-go is used, see the corresponding [commit](https://github.com/hyperledger/fabric-lib-go/commit/cdae4d4a292dbad122b93a2c5c70bc61d846e990).
+After this PR is reviewed and merged fabric-lib-go will be released and the dependency here will be updated to a real versioned release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 02:52:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4674" class=".btn">#4674</a>
             </td>
             <td>
