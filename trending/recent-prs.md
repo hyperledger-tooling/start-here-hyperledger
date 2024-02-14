@@ -1,13 +1,13 @@
 
-[48](https://github.com/hyperledger/aries-endorser-service/pull/48) Allowance endpoints - collection name
+[249](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/249) Bump minimal solidity version to v0.8.20 and improve tests
 
-[3022](https://github.com/hyperledger/cacti/pull/3022) test(tools/docker): add new Corda v4.12-SNAPSHOT all-in-one image
+[95](https://github.com/hyperledger/fabric-chaincode-go/pull/95) Bump google.golang.org/grpc from 1.54.0 to 1.61.1
 
-[91](https://github.com/hyperledger-labs/fabric-opssc/pull/91) chore(deps): Bump follow-redirects from 1.15.2 to 1.15.5 in /common/src
+[6568](https://github.com/hyperledger/besu/pull/6568) Add tests for user profiles
 
-[90](https://github.com/hyperledger-labs/fabric-opssc/pull/90) chore(deps): Bump follow-redirects from 1.15.2 to 1.15.5 in /opssc-agent/src
+[4678](https://github.com/hyperledger/fabric/pull/4678) Switch to bccsp, metrics, flogging in fabric-lib-go
 
-[89](https://github.com/hyperledger-labs/fabric-opssc/pull/89) chore(deps-dev): Bump follow-redirects from 1.14.8 to 1.15.5 in /integration
+[771](https://github.com/hyperledger/aries-agent-test-harness/pull/771) Changes by create-pull-request action
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
