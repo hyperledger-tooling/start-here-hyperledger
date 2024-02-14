@@ -15,85 +15,38 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    GHA.TESTRUN.1
+                    24.1.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    GHA.TESTRUN.1
+                    24.1.2
                 </span>
             </td>
             <td>
-                ## What's Changed
-* prep for release 24.1.1 by @macfarla in https://github.com/hyperledger/besu/pull/6432
-* Use `From` field in a `PING` packet when creating a peer table entry by @matthew1001 in https://github.com/hyperledger/besu/pull/6225
-* Only accept an address from a peer if it is a valid IP address by @matthew1001 in https://github.com/hyperledger/besu/pull/6439
-* Fix changelog after incorrect merge of 6225 by @matthew1001 in https://github.com/hyperledger/besu/pull/6438
-* Import export trie log by @gfukushima in https://github.com/hyperledger/besu/pull/6363
-* Make fork id the default and try to recover the DiscoveryPeer for incoming connections from the PeerTable by @pinges in https://github.com/hyperledger/besu/pull/5628
-* Addition of Profile Configuration CLI Option by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6418
-* Trie log prune using TrieLogEvent by @gfukushima in https://github.com/hyperledger/besu/pull/6394
-* Reuse --bonsai-historical-block-limit for limit trie logs feature by @siladu in https://github.com/hyperledger/besu/pull/6445
-* feat: add `OperationTracer.tracePrepareTransaction` by @delehef in https://github.com/hyperledger/besu/pull/6453
-* use reference tests to verify trielog generation by @matkt in https://github.com/hyperledger/besu/pull/6415
-* Add broadcast address to PingPacketData from filter by @garyschulte in https://github.com/hyperledger/besu/pull/6456
-* silence dns query error warning by @garyschulte in https://github.com/hyperledger/besu/pull/6458
-* ignore bws sync requests until initial sync is complete by @garyschulte in https://github.com/hyperledger/besu/pull/6455
-* Enable limit on range Of JSON-RPC API trace_filter method (#5971) by @alyokaz in https://github.com/hyperledger/besu/pull/6446
-* Snap sync downloader logging by @macfarla in https://github.com/hyperledger/besu/pull/6403
-* [Refactor] - Extract websocket options to a new class by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6461
-* Skip pruning if trie log count is less than retention limit by @siladu in https://github.com/hyperledger/besu/pull/6463
-* Fix `poa-block-txs-selection-max-time` option that was inadvertently reset to its default after being configured by @fab-10 in https://github.com/hyperledger/besu/pull/6444
-* Log blob count when importing a block via Engine API by @fab-10 in https://github.com/hyperledger/besu/pull/6466
-* Fix 24.1.1 changelog by @garyschulte in https://github.com/hyperledger/besu/pull/6468
-* [CHANGELOG] updated download links and added contributor thanks by @macfarla in https://github.com/hyperledger/besu/pull/6477
-* remove repeated part of toString() by @pinges in https://github.com/hyperledger/besu/pull/6480
-* [Refactor] - Extract JsonRpcHttpOptions to a new class  by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6478
-* Write a DEBUG log entry to make it clear of a BFT node is a validator… by @matthew1001 in https://github.com/hyperledger/besu/pull/6470
-* Fix typos by @Thabokani in https://github.com/hyperledger/besu/pull/6481
-* filter empty ipv4 and ipv6 ping packet source addresses by @garyschulte in https://github.com/hyperledger/besu/pull/6474
-* [Refactor ] Move permission options to its own class by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6490
-* Remove `--engine-jwt-enabled` deprecated option by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6491
-* Backward Sync, reduce retries from 20 to 2 by @pinges in https://github.com/hyperledger/besu/pull/6482
-* Upgrade Prometheus and Opentelemetry dependencies by @fab-10 in https://github.com/hyperledger/besu/pull/6422
-* Implement "pending" for qbft_getValidatorsByBlockNumber by @matthew1001 in https://github.com/hyperledger/besu/pull/6436
-* Delete development artifacts by @shemnon in https://github.com/hyperledger/besu/pull/6487
-* Add pragueTime configuration by @shemnon in https://github.com/hyperledger/besu/pull/6473
-* Optimized Keccak Hashing for Account Storage Slots by @matkt in https://github.com/hyperledger/besu/pull/6452
-* info level log for pipeline abort by @garyschulte in https://github.com/hyperledger/besu/pull/6459
-* [Refactor] Move graphqloptions to its own class by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6496
-* Code storage by hash by @jframe in https://github.com/hyperledger/besu/pull/5889
-* [MINOR] remove duplicate setting of default values for CLI options by @macfarla in https://github.com/hyperledger/besu/pull/6500
-* standardize on length of truncated peer ID logging by @macfarla in https://github.com/hyperledger/besu/pull/6485
-* Filter Discovered peers for ipv6 support by @garyschulte in https://github.com/hyperledger/besu/pull/6498
-* Disconnect worst peer by @pinges in https://github.com/hyperledger/besu/pull/6443
-* add sync condition for privacy tests by @macfarla in https://github.com/hyperledger/besu/pull/6479
-* Revert "Bonsai code storage by hash (#5889)" by @jframe in https://github.com/hyperledger/besu/pull/6504
-* Store trielog as blobdb by @usmansaleem in https://github.com/hyperledger/besu/pull/6289
-* GitHub Actions CI/CD by @jflo in https://github.com/hyperledger/besu/pull/6427
-* Test that peers are not disconnected in `RetryingSwitchingPeerMessageTaskTest::failsWhenAllPeersFail by @fab-10 in https://github.com/hyperledger/besu/pull/6508
-* Flat db heal - deprecate CLI option and set to always true by @macfarla in https://github.com/hyperledger/besu/pull/6499
-* Report estimated disk space freed up by x-trie-log prune subcommand by @siladu in https://github.com/hyperledger/besu/pull/6483
-* [Refactor] Move api options to its own class by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6512
-* Add minimalist staker profile by @Gabriel-Trintinalia in https://github.com/hyperledger/besu/pull/6449
+                ## 24.1.2 - Besu is Dencun Ready 
 
-## New Contributors
-* @alyokaz made their first contribution in https://github.com/hyperledger/besu/pull/6446
+This release is the minimum version that is **required** for the upcoming Ethereum Mainnet Dencun upgrade on March 13th. You must upgrade to this version (or greater) before then, or your node will no longer follow the chain. This is also a **required** version for Besu nodes on Ethereum Classic. This release does not contain other fixes or improvements. We plan on releasing more fixes, improvements, and features in our next release. 
 
-**Full Changelog**: https://github.com/hyperledger/besu/compare/24.1.1...GHA.TESTRUN.1
-1c888a1b30bc205272a80cc074b185813e625e470a1f74003ac25165f89ed4d6  besu-GHA.TESTRUN.1.tar.gz
-72af7ba6ed20635229bb3fe43db6d14e17238127df9110608b7a0ef12a571529  besu-GHA.TESTRUN.1.zip
+- Fix ETC Spiral upgrade breach of consensus [#6524](https://github.com/hyperledger/besu/pull/6524)
+- Adds timestamp to enable Cancun upgrade on mainnet [#6545](https://github.com/hyperledger/besu/pull/6545)
 
+**Full Changelog**: https://github.com/hyperledger/besu/compare/24.1.1...24.1.2
+
+Download Links
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/24.1.2/besu-24.1.2.zip sha256 9033f300edd81c770d3aff27a29f59dd4b6142a113936886a8f170718e412971
+
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/24.1.2/besu-24.1.2.tar.gz sha256 082db8cf4fb67527aa0dd757e5d254b3b497f5027c23287f9c0a74a6a743bf08
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/GHA.TESTRUN.1" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/24.1.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-01 08:36:11 +0000 UTC
+        Created At 2024-02-09 05:09:56 +0000 UTC
     </span>
 </div>
 
