@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-blssignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-blssignatures-rs/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger/indy-blssignatures-rs/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    Add FFI support
+                    Add Dependabot configuration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-blssignatures-rs
                 
             </td>
             <td>
-                For use by indy-bls-wrapper-python
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-08-10 02:50:09 +0000 UTC
+        Created At 2024-02-14 17:49:35 +0000 UTC
     </div>
 </div>
 

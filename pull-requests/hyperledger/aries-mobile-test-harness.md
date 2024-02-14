@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/227" class=".btn">#227</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/231" class=".btn">#231</a>
             </td>
             <td>
                 <b>
-                    BCW test handling of in app guides
+                    Add Dependabot configuration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                In BC Wallet build 1395 in app guides was turned on by default and shows on the Home screen. This PR updates the tests to dismiss that modal on the home page to continue with the other tests. 
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-14 20:02:18 +0000 UTC
+        Created At 2024-02-14 17:04:16 +0000 UTC
     </div>
 </div>
 

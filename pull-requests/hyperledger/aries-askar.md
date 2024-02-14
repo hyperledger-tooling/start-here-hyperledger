@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/223" class=".btn">#223</a>
+            </td>
+            <td>
+                <b>
+                    Add Dependabot configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 17:09:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/222" class=".btn">#222</a>
             </td>
             <td>

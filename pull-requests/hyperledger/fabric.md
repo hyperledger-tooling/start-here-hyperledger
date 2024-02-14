@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4679" class=".btn">#4679</a>
+            </td>
+            <td>
+                <b>
+                    BFT chain unit tests: create a new chain without errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+The purpose of this PR is to create BFT chain unit tests. 
+The first step is to create an active chain using mocks. 
+
+#### Related issues
+
+issue #4008 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 15:35:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4678" class=".btn">#4678</a>
             </td>
             <td>
@@ -135,35 +173,6 @@ Note that github.com/IBM/idemix pulls in github.com/kilic/bls12-381, which requi
     </table>
     <div class="right-align">
         Created At 2024-02-08 02:04:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4670" class=".btn">#4670</a>
-            </td>
-            <td>
-                <b>
-                    Bump github.com/containerd/containerd to 1.6.26 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump github.com/containerd/containerd from 1.6.18 to 1.6.26
-Only move golang.org/x/tools to v0.14.0 (later versions introduce an issue with ./scripts/metrics_doc.sh check)
-Only move google.golang.org/protobuf to v1.31.0 (later versions introduce an issue with chaincode build)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 14:31:19 +0000 UTC
     </div>
 </div>
 

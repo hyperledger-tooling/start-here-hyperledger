@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/255" class=".btn">#255</a>
+            </td>
+            <td>
+                <b>
+                    Add Dependabot configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 17:11:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/254" class=".btn">#254</a>
             </td>
             <td>

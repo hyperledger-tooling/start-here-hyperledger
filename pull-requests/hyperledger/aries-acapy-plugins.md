@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/105" class=".btn">#105</a>
+            </td>
+            <td>
+                <b>
+                    Add Dependabot configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
+  - Check for updates once a week.
+  - Group all updates into a single PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 17:06:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/103" class=".btn">#103</a>
             </td>
             <td>

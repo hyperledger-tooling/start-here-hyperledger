@@ -117,35 +117,3 @@ Issue fix channel creation fail on join orderer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/622" class=".btn">#622</a>
-            </td>
-            <td>
-                <b>
-                    Sync and update fabric operator apis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Improvement
-
-#### Description
-Sync the deployer code up to dated with the fabric-operator API changes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 15:11:11 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    QueryInvoke implementation
+                    Fix image not found issue
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
                 
             </td>
             <td>
-                <nil>
+                Fix issue https://github.com/hyperledger/firefly-tezosconnect/actions/runs/7902029495/job/21566748259
+
+Checked success on https://github.com/alex-semenyuk/firefly-tezosconnect/actions/runs/7903271005/job/21570787573
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-04 09:24:28 +0000 UTC
+        Created At 2024-02-14 15:24:59 +0000 UTC
     </div>
 </div>
 
