@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/105" class=".btn">#105</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    Update for submissionRejected return
+                    Propagate block number to eth_call
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Pulling in https://github.com/hyperledger/firefly-transaction-manager/pull/104
+                We had done the work to propagate through the `blockNumber` from FFTM, but not actually passed it down to the `eth_call` when specified.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-21 15:35:12 +0000 UTC
+        Created At 2024-02-14 19:43:52 +0000 UTC
     </div>
 </div>
 

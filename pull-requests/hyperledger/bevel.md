@@ -102,39 +102,3 @@ fixes #2483
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2505" class=".btn">#2505</a>
-            </td>
-            <td>
-                <b>
-                    [corda] New charts as per release 1.0.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                New 1.0.0 changes
-- Added kubectl to bevel-build container
-- Updated `platforms/r3-corda/charts/README.md` to guide on how to deploy using just helm install
-- All `platforms/r3-corda/charts/` updated to use global variables
-- New chart `platforms/r3-corda/charts/corda-init` to initialise a namespace for Corda
-- New Chart `platforms/r3-corda/charts/corda-network-service` to deploy Doorman, NMS and MongoDB together
-- Removed doorman, mongodb, and nms charts
-- Updated `platforms/r3-corda/charts/corda-node` chart to deploy notary as well. Also deploys H2 database.
-- Removed Notary and init-registration charts
-- Hooks used to create certificates
-- All passwords are in values.yaml files now
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-08 11:55:57 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1514" class=".btn">#1514</a>
+            </td>
+            <td>
+                <b>
+                    Document profile files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Document `--profile` CLI option and add how-to page on using profile files. Slight updates to the "Use a configuration file" page. Fixes #1512.
+
+Previews:
+- `--profile` documentation: https://besu-docs-qvq914ru4-hyperledger.vercel.app/development/public-networks/reference/cli/options#profile
+- Use a configuration file: https://besu-docs-qvq914ru4-hyperledger.vercel.app/development/public-networks/how-to/use-configuration-file
+- Use a profile file: https://besu-docs-qvq914ru4-hyperledger.vercel.app/development/public-networks/how-to/use-configuration-file/profile-file
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 07:43:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1513" class=".btn">#1513</a>
+            </td>
+            <td>
+                <b>
+                    Fix example for rpc-http-cors-origins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor fix for `--rpc-http-cors-origins` example with better formatting.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 06:05:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1511" class=".btn">#1511</a>
+            </td>
+            <td>
+                <b>
+                    Add deprecation note
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1506 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 21:11:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1510" class=".btn">#1510</a>
             </td>
             <td>
@@ -90,44 +173,6 @@ Should Checkpoint values also be added to this table?
     </table>
     <div class="right-align">
         Created At 2024-02-09 23:23:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1507" class=".btn">#1507</a>
-            </td>
-            <td>
-                <b>
-                    Add Joan as docs maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds Joan Edwards (@joaniefromtheblock) to the list of Besu docs maintainers. She has authored the following PRs:
-
-- #1485 
-- #1486 
-- #1490 
-- #1501 
-- #1504 
-- #1502 
-- #1503 
-
-You can see [her current list of PRs](https://github.com/hyperledger/besu-docs/pulls?q=is%3Apr+author%3Ajoaniefromtheblock+).
-
-> Note: This PR also moves Mike Sanko to emeritus status.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 19:43:26 +0000 UTC
     </div>
 </div>
 

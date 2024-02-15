@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/812" class=".btn">#812</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/813" class=".btn">#813</a>
             </td>
             <td>
                 <b>
-                    Feature/compression
+                    Update index - Feb 2024
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-07 15:53:44 +0000 UTC
+        Created At 2024-02-15 16:33:52 +0000 UTC
     </div>
 </div>
 
