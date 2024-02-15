@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6575" class=".btn">#6575</a>
+            </td>
+            <td>
+                <b>
+                    bump to 24.2.0-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+post-release bump
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 00:20:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6574" class=".btn">#6574</a>
+            </td>
+            <td>
+                <b>
+                    Apply Reference tests v13.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Apply v 13.1 of the reference tests, includes test related fixes around initing the KZG precompile, uint64s in timestamps and blob gas, and some formatting cleanup.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 23:36:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6572" class=".btn">#6572</a>
             </td>
             <td>
@@ -715,46 +781,6 @@ which is useful for seeing the blobdb garbage stats (useful for https://github.c
     </table>
     <div class="right-align">
         Created At 2024-02-08 02:26:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6539" class=".btn">#6539</a>
-            </td>
-            <td>
-                <b>
-                    Fix checkLicense gradle task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-I'm getting a gradle build failure due the "checkLicenses" task.  This looks like a misspelling:
-```
-% ./gradlew dev -x test
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Task 'checkLicenses' not found in root project 'besu' and its subprojects. Some candidates are: 'checkLicense'.
-```
-
-Fix this by using the existin "checkLicense" task.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-08 00:04:29 +0000 UTC
     </div>
 </div>
 

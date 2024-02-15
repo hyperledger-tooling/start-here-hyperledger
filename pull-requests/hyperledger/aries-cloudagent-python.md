@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2787" class=".btn">#2787</a>
+            </td>
+            <td>
+                <b>
+                    Demo description of reuse in establishing a connection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses #2703 by adding documentation about the process.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-14 23:57:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2784" class=".btn">#2784</a>
             </td>
             <td>
@@ -902,47 +929,6 @@ Didn't add any of the other `B` linting options.
     </table>
     <div class="right-align">
         Created At 2024-02-11 20:03:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2765" class=".btn">#2765</a>
-            </td>
-            <td>
-                <b>
-                    Reorganize the ACA-Py Documentation Files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does a radical reorganization of the documents in the ACA-Py repository. The following is a summary of the changes:
-
-- Most Markdown files in the root have been moved to the docs folder, and organized into folders that match those used on the [https://aca-py.org](https://aca-py.org) -- demo, gettingStarted, testing, deploying, etc.
-- Expected files -- LICENSE, MAINTAINERS.md, README.md and the like were left in the root folder.
-- The MD files in the `demo` folder were moved to `docs/demo' and a new README.md file added pointing to those.
-- The previous Getting Started files were moved to the `docs/gettingStarted` folders.
-- A pass was done to change all the links found (in a manual pass...) to be relative links and to the new location of the files.
-- A pass was done to remove all of the MD lint warnings (other than spelling of ACA-Py/Aries/SSI terms).
-- Some cleanup was done to external references -- changing references from greenlight ledger to BCovrin test, eliminating some references to old demos, adding references to the Traction Tutorial.
-- New README.md files were needed -- such as in the root of the `docs` folder with pointers to guidance for maintaining both the ReadTheDocs documentation and the [https://aca-py.org](https://aca-py.org) documentation.
-- I've not done anything with the ELK Stack MD documents -- will think about what to do with those later (if anything).
-
-Not perfect, but I think it is close.
-
-It is a lot of change. Would appreciate people browsing [my branch](https://github.com/swcurran/aries-cloudagent-python/tree/organize-docs) in the GitHub UI to scan for issues, and report them.  Important things to note are changes that need to be made before we merge this and more general updates that are overdue and needed.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-07 22:38:53 +0000 UTC
     </div>
 </div>
 
