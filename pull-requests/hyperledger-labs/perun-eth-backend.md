@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/47" class=".btn">#47</a>
             </td>
             <td>
                 <b>
-                    GasLimit to 0
+                    Include settle secondary
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                ## Description:
-This PR sets the GasLimit to a given argument in the ERC20_Depositor, ETH_Depositor and ContractBackend. This allows us to set the gas limit to 0 for all chains that support the dynamic gasLimit estimation.
+                This PR reverts the removal of secondary settling to reduce transaction fees.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-08 15:21:33 +0000 UTC
+        Created At 2024-02-15 14:29:27 +0000 UTC
     </div>
 </div>
 

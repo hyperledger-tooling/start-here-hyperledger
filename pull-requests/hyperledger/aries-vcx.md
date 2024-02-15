@@ -64,31 +64,3 @@ which leads to error such as https://github.com/hyperledger/aries-vcx/actions/ru
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1124" class=".btn">#1124</a>
-            </td>
-            <td>
-                <b>
-                    refactor: ledger & anoncreds typing, part 3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span><span class="chip">breaking</span>
-            </td>
-            <td>
-                Continuation of #1116 and #1118.
-
-The changes in [913f348](https://github.com/hyperledger/aries-vcx/pull/1124/commits/913f3485f5426ead98833aecb0ddfaa85050928f) are breaking, so may need to be (partially) reverted.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-08 08:39:15 +0000 UTC
-    </div>
-</div>
-

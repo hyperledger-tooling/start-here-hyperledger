@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/398" class=".btn">#398</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Remove settle secondary (#351)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is linked to https://github.com/hyperledger-labs/perun-eth-backend/pull/47 and reverts commit be6e07257c123309c98fbbea4b86440275be2797.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 15:11:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/397" class=".btn">#397</a>
             </td>
             <td>
