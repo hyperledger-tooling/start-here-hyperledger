@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6578" class=".btn">#6578</a>
+            </td>
+            <td>
+                <b>
+                    fix: Discovery not taking nat manager port-mapping into account
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Proposal to fix the issue i reported in #6573 
+* `PingPacketData` should take into account the NATManager portMapping for the discoveryPort.
+* Take into account the `udpPort` from the `PingPacketData` if the `host` is also taken from there.
+
+## Fixed Issue(s)
+fixes: https://github.com/hyperledger/besu/issues/6573
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 08:43:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6577" class=".btn">#6577</a>
             </td>
             <td>
@@ -508,16 +543,18 @@ At startup the existing metadata, that we call `v1` format, is automatically tra
 
 Check have been added to detect not managed (up|down)grades, so we can inform the user of the right steps, if the process in not automated.
 
+It is possible to downgrade, running the subcommand  `storage revert-metadata v2-to-v1` before installing the previous binaries.
+
 Test to perform:
 
 - [x] Vanilla new installation, verify that the default format and version is used and written in DATABASE_METADATA.json 
-- [ ] New installation with custom format selection, verify that the selected format and version is used and written in DATABASE_METADATA.json 
-- [ ] Upgrade existing installation >=23.4.4, verify that DATABASE_METADATA.json has been translated to the new format
-- [ ] Upgrade existing installation >=23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
-- [ ] Upgrade existing installation >=23.4.4 then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
-- [ ] Upgrade existing installation <23.4.4, verify that variables storage migration is performed and DATABASE_METADATA.json has the new format
-- [ ] Upgrade existing installation <23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
-- [ ] Upgrade existing installation <23.4.4 then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
+- [x] New installation with custom format selection, verify that the selected format and version is used and written in DATABASE_METADATA.json 
+- [x] Upgrade existing installation >=23.4.4, verify that DATABASE_METADATA.json has been translated to the new format
+- [x] Upgrade existing installation >=23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
+- [x] Upgrade existing installation >=23.4.4 then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
+- [x] Upgrade existing installation <23.4.4, verify that variables storage migration is performed and DATABASE_METADATA.json has the new format
+- [x] Upgrade existing installation <23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
+- [x] Upgrade existing installation <23.4.4 first revert variables-storage, then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
