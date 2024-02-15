@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4680" class=".btn">#4680</a>
+            </td>
+            <td>
+                <b>
+                    up consensus library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 05:52:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4679" class=".btn">#4679</a>
             </td>
             <td>
@@ -144,35 +170,6 @@ arkadi.piven@ibm.com
     </table>
     <div class="right-align">
         Created At 2024-02-08 13:44:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4672" class=".btn">#4672</a>
-            </td>
-            <td>
-                <b>
-                    Bump github.com/IBM/idemix and consensys/gnark-crypto (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump github.com/IBM/idemix to get updated github.com/consensys/gnark-crypto.
-
-Note that github.com/IBM/idemix pulls in github.com/kilic/bls12-381, which requires build tag "generic" to compile on amd64 in plugin mode.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-08 02:04:36 +0000 UTC
     </div>
 </div>
 
