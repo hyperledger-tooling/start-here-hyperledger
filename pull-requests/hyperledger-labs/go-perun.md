@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/394" class=".btn">#394</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/397" class=".btn">#397</a>
             </td>
             <td>
                 <b>
-                    Add MAINTAINERS.md file, add Jens to NOTICE
+                    Egoistic funding
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                <nil>
+                ## Description:
+This PR builds upon the changes introduced in https://github.com/hyperledger-labs/perun-eth-backend/pull/45 by extending egoistic funding to cross-chain swaps in the eth-backend.
+
+In this update, we introduce a map for each chain, designating whether a chain is considered egoistic or not. This distinction is crucial in determining the funding order for different chains, ensuring that egoistic chains are funded last.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-15 11:34:18 +0000 UTC
+        Created At 2024-02-15 09:19:01 +0000 UTC
     </div>
 </div>
 

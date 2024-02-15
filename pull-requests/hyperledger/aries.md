@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/aries/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Update chat reference to Discord, not RocketChat
+                    Fix dev getting started link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries
                 
             </td>
             <td>
-                Signed-off-by: Zach Frey <zach@znfrey.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-06 01:08:12 +0000 UTC
+        Created At 2024-02-15 10:10:44 +0000 UTC
     </div>
 </div>
 
