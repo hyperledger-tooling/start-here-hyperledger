@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6577" class=".btn">#6577</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Use better savings estimate for x-trie-log prune
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Following on from #6540, use `total-sst-files-size + total-blob-file-size` instead of `estimate-live-data-size` for x-trie-log prune estimate.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 04:26:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6576" class=".btn">#6576</a>
+            </td>
+            <td>
+                <b>
+                    Remove duplicated addCreate call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Remove duplicated call to the addCreate method. The method is already called here  https://github.com/hyperledger/besu/blob/5c295c5aa6c277287bf3c8d6679a9cca36427838/evm/src/main/java/org/hyperledger/besu/evm/processor/ContractCreationProcessor.java#L125
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 04:06:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6575" class=".btn">#6575</a>
             </td>
             <td>
@@ -279,6 +335,9 @@ This option is not yet documented so no docs changes required.
 Breaking change
 The limit is now enabled by default. If you do not want the limit enabled, you need to explicitly set it to false
 --Xbonsai-limit-trie-logs-enabled=false
+However - the default is set to 512 which should work for most use cases.
+
+fixes #6560
 
             </td>
         </tr>
@@ -648,139 +707,6 @@ Timestamp set for cancun on mainnet.
     </table>
     <div class="right-align">
         Created At 2024-02-08 15:26:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6541" class=".btn">#6541</a>
-            </td>
-            <td>
-                <b>
-                    disable privacy tests since they are currently flaky
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These tests are flaky right now for 2 reasons, and work is in progress to fix. 
-
-See 
-
-Run tessera as a process (currently using docker) for ATs https://github.com/hyperledger/besu/pull/5968
-
-Also occasionally errors since the txpool is disabled during initial sync - it's been somewhat [mitigated](https://github.com/hyperledger/besu/pull/6479) but hasn't totally fixed it
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-08 02:51:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6540" class=".btn">#6540</a>
-            </td>
-            <td>
-                <b>
-                    rocksdb usage - Replace Column Size with more accurate Total Size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Replace "Column Size" with "Total Size" where Total Size = SST Files Size + Blob Files Size
-
-`besu storage rocksdb usage`
-
-e.g. with a BONSAI + X_SNAP node...
-
-BEFORE THIS PR
-
-```
-| Column Family                  | Keys            | Column Size  | SST Files Size  |
-|--------------------------------|-----------------|--------------|-----------------|
-| BLOCKCHAIN                     | 2355141414      | 905 GiB      | 166 GiB         |
-| VARIABLES                      | 26              | 120 KiB      | 240 KiB         |
-| ACCOUNT_INFO_STATE             | 9634454         | 294 MiB      | 496 MiB         |
-| ACCOUNT_STORAGE_STORAGE        | 24041432        | 977 MiB      | 1 GiB           |
-| CODE_STORAGE                   | 37703864        | 10 GiB       | 12 GiB          |
-| TRIE_BRANCH_STORAGE            | 1885032116      | 110 GiB      | 138 GiB         |
-| TRIE_LOG_STORAGE               | 267301          | 14 GiB       | 17 GiB          |
-```
-
-Column Size Total =  905 + 0.294 + 0.977 + 10 + 110 + 14 = 1042 GB
-
-AFTER THIS PR
-
-```
-| Column Family                  | Keys            | Total Size  | SST Files Size  | Blob Files Size  |
-|--------------------------------|-----------------|-------------|-----------------|------------------|
-| BLOCKCHAIN                     | 2355141414      | 933 GiB     | 166 GiB         | 767 GiB          |
-| VARIABLES                      | 26              | 240 KiB     | 240 KiB         | 0 B              |
-| ACCOUNT_INFO_STATE             | 9634454         | 496 MiB     | 496 MiB         | 0 B              |
-| ACCOUNT_STORAGE_STORAGE        | 24041432        | 1 GiB       | 1 GiB           | 0 B              |
-| CODE_STORAGE                   | 37703864        | 12 GiB      | 12 GiB          | 0 B              |
-| TRIE_BRANCH_STORAGE            | 1885032116      | 138 GiB     | 138 GiB         | 0 B              |
-| TRIE_LOG_STORAGE               | 267301          | 17 GiB      | 17 GiB          | 0 B              |
-|--------------------------------|-----------------|-------------|-----------------|------------------|
-| ESTIMATED TOTAL                | 4311820607      | 1104 GiB    | 337 GiB         | 767 GiB          |
-```
-
-1104 GB is much closer to the on disk result:
-
-```
-$du -ksch /data/besu/database
-1.1T	/data/besu/database
-1.1T	total
-```
-
----
-
-Another example with a BONSAI + X_CHECKPOINT node:
-
-```
-| Column Family                  | Keys            | Total Size  | SST Files Size  | Blob Files Size  |
-|--------------------------------|-----------------|-------------|-----------------|------------------|
-| BLOCKCHAIN                     | 1432578448      | 685 GiB     | 101 GiB         | 583 GiB          |
-| VARIABLES                      | 4970            | 89 KiB      | 89 KiB          | 0 B              |
-| ACCOUNT_INFO_STATE             | 236237895       | 11 GiB      | 11 GiB          | 0 B              |
-| ACCOUNT_STORAGE_STORAGE        | 1112465479      | 49 GiB      | 49 GiB          | 0 B              |
-| CODE_STORAGE                   | 37702404        | 12 GiB      | 12 GiB          | 0 B              |
-| TRIE_BRANCH_STORAGE            | 1853480673      | 134 GiB     | 134 GiB         | 0 B              |
-| TRIE_LOG_STORAGE               | 514             | 69 MiB      | 69 MiB          | 0 B              |
-|--------------------------------|-----------------|-------------|-----------------|------------------|
-| ESTIMATED TOTAL                | 4672470383      | 893 GiB     | 309 GiB         | 583 GiB          |
-```
-
-```
-$ du -ksch /data/besu/database
-896G	/data/besu/database
-896G	total
-```
-
----
-
-Also dumping a bunch of stats out in...
-`besu storage rocksdb stats`
-
-which is useful for seeing the blobdb garbage stats (useful for https://github.com/hyperledger/besu/pull/6289#pullrequestreview-1851948029) among other things.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-08 02:26:39 +0000 UTC
     </div>
 </div>
 
