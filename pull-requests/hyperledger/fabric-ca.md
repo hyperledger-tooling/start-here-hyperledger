@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/405" class=".btn">#405</a>
+            </td>
+            <td>
+                <b>
+                    Use fabric-lib-go v1.1.0 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Transition from the fabric-lib-go temporary branch to the actual release v1.1.0.
+
+This is the release that includes the common
+bccsp, metrics, and flogging packages that
+are shared across fabric and fabric-ca.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 14:43:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/404" class=".btn">#404</a>
             </td>
             <td>
