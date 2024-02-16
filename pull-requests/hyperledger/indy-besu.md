@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-besu/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    using config.json as a contracts config file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 10:42:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-besu/pull/27" class=".btn">#27</a>
             </td>
             <td>

@@ -72,33 +72,3 @@ fixes #2465 #2483
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2506" class=".btn">#2506</a>
-            </td>
-            <td>
-                <b>
-                    docs(r3corda): operations section under guide's tab
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Primary Changes**
-1.Updated operations corda docs
-2.Removed cenm console in corda operations
-
-fixes #2483
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 06:33:25 +0000 UTC
-    </div>
-</div>
-
