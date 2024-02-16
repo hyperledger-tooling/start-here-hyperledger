@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/indy-besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-besu/pull/27" class=".btn">#27</a>
+            </td>
+            <td>
+                <b>
+                    Rename `cl` group of contracts to `anoncreds`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 04:57:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-besu/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    Restrict execution of transactions exclusively to users with specific roles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 04:21:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-besu/pull/25" class=".btn">#25</a>
             </td>
             <td>

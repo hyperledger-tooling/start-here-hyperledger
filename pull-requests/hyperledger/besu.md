@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6581" class=".btn">#6581</a>
+            </td>
+            <td>
+                <b>
+                    feat: add `eth_blobBaseFee`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                ## PR description
+Add `eth_blobBaseFee`
+
+## Fixed Issue(s)
+fixes #6579
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 03:47:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6578" class=".btn">#6578</a>
             </td>
             <td>
@@ -565,131 +595,6 @@ fixes #6408
     </table>
     <div class="right-align">
         Created At 2024-02-09 11:33:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6551" class=".btn">#6551</a>
-            </td>
-            <td>
-                <b>
-                    use terminal width for usage message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ux</span>
-            </td>
-            <td>
-                fixes #6429
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 05:12:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6550" class=".btn">#6550</a>
-            </td>
-            <td>
-                <b>
-                    Uprev24.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 05:07:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6549" class=".btn">#6549</a>
-            </td>
-            <td>
-                <b>
-                    Uprev24.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 04:48:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6548" class=".btn">#6548</a>
-            </td>
-            <td>
-                <b>
-                    uprev artifact name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 03:10:25 +0000 UTC
     </div>
 </div>
 
