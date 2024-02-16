@@ -64,29 +64,3 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    Fix failing production suite tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Pin requests to 2.28.2 to resolve a missing attribute error affecting 2.29.0 in the production suite tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-08 18:55:22 +0000 UTC
-    </div>
-</div>
-

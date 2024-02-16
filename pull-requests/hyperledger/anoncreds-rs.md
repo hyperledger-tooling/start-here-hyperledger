@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/325" class=".btn">#325</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/327" class=".btn">#327</a>
             </td>
             <td>
                 <b>
-                    Extra validation for w3c credentials and presentations
+                    fix(rn): update libanoncreds headers
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Related to #322 
+                I was updating my react-native app to last credo alpha (which uses anoncreds-rs 0.2.0) and wasn't able to build in any OS due to a type error. It seems that the libanoncreds.h header wasn't updated after the changes in https://github.com/hyperledger/anoncreds-rs/pull/320.
 
+I've regenerated the file using `cbindgen` and noticed several changes (like comments and some methods that were missing), so I guess it has been modified manually lately.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-08 19:45:33 +0000 UTC
+        Created At 2024-02-15 22:03:29 +0000 UTC
     </div>
 </div>
 

@@ -75,7 +75,7 @@ Previews:
             </td>
             <td>
                 <b>
-                    Add deprecation note
+                    Remove deprecated EA option
                 </b>
             </td>
         </tr>
@@ -168,6 +168,8 @@ Should Checkpoint values also be added to this table?
             </td>
             <td>
                 Add `sequenced` synonym for `legacy` non-layered transaction pool, and remove deprecation warnings for non-layered transaction pool. Fixes #1470.
+
+Preview: https://besu-docs-mg2txtj7o-hyperledger.vercel.app/development/public-networks/reference/cli/options#tx-pool
             </td>
         </tr>
     </table>
