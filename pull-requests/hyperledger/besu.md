@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6584" class=".btn">#6584</a>
+            </td>
+            <td>
+                <b>
+                    Extend BesuConfiguration service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR adds a method to `BesuConfiguration` service get the current `minGasPrice`, in order to implement that a little refactoring was necessary, since services needs to be instantiated very early during the startup, since they need to be visible during the registration of the plugins, but at that stage most configurations are not yet ready, so there is now a separation between the instantiation and the initialization that is done after when the configuration is ready, the initialization is performed before the plugins start, so service are 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 17:45:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6582" class=".btn">#6582</a>
             </td>
             <td>

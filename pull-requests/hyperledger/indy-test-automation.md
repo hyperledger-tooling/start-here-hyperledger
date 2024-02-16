@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/138" class=".btn">#138</a>
+            </td>
+            <td>
+                <b>
+                    Refactor installation of package under test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Refactor get dependency script to work recursively and traverse to the required depth.
+  - The node specific version of this script is no longer needed.
+  - Update (simplify) related scripts and workflows.
+- Remove unused files.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 17:16:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-test-automation/pull/137" class=".btn">#137</a>
             </td>
             <td>

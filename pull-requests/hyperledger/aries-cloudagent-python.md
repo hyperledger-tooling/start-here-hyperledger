@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2791" class=".btn">#2791</a>
+            </td>
+            <td>
+                <b>
+                    Author subwallet setup automation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 17:43:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2790" class=".btn">#2790</a>
+            </td>
+            <td>
+                <b>
+                    feature/per tenant settings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Adds `--emit-did-peer-{2 | 4}` per tenant setting
+- Adds `--preserve-exchange-records` per tenant setting
+- Adds  `--requests-through-public-did` per tenant setting
+
+Resolves: #2724 
+Resolves: #2648
+Resolves: #2572 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 17:10:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2789" class=".btn">#2789</a>
             </td>
             <td>

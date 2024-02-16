@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-besu/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    Added optional network name to client config.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 17:32:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-besu/pull/28" class=".btn">#28</a>
             </td>
             <td>

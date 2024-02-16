@@ -1,13 +1,13 @@
 
-[28](https://github.com/hyperledger/indy-besu/pull/28) using config.json as a contracts config file
+[18](https://github.com/hyperledger-labs/learning-tokens/pull/18) Bump undici from 5.26.3 to 5.28.3 in /src/learning-token
 
-[546](https://github.com/hyperledger-labs/fabric-token-sdk/pull/546) Updated FSC version
+[814](https://github.com/hyperledger/aries-rfcs/pull/814) Update AIP 2.0 to clarified commits, remove some RFCs, retire Please Ack
 
-[4681](https://github.com/hyperledger/fabric/pull/4681) Improve validation and command docs for queryapproved
+[17](https://github.com/hyperledger-labs/learning-tokens/pull/17) Bump undici from 5.23.0 to 5.28.3 in /src/quorum-test-network/dapps/quorumToken
 
-[6582](https://github.com/hyperledger/besu/pull/6582) Use Invalid payload attributes error code 
+[6584](https://github.com/hyperledger/besu/pull/6584) Extend BesuConfiguration service
 
-[27](https://github.com/hyperledger/indy-besu/pull/27) Rename `cl` group of contracts to `anoncreds`
+[2791](https://github.com/hyperledger/aries-cloudagent-python/pull/2791) Author subwallet setup automation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

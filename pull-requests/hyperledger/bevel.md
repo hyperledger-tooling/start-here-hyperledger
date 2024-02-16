@@ -40,35 +40,3 @@ This commit adds the `kubeconfig` configuration field to the task responsible fo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2507" class=".btn">#2507</a>
-            </td>
-            <td>
-                <b>
-                    update(docs): Indy configuration and ops sections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Primary Changes**
-
-1. Updated operations Indy docs
-2. Updated Indy config file
-3. Added missing field (proxy_namespace) in Substrate
-
-fixes #2465 #2483
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 12:44:49 +0000 UTC
-    </div>
-</div>
-
