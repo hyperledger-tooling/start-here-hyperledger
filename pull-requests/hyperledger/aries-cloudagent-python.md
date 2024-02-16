@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2789" class=".btn">#2789</a>
+            </td>
+            <td>
+                <b>
+                    Revert profile inject
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reverts the changes made in https://github.com/hyperledger/aries-cloudagent-python/pull/2705 which caused problems with certain multitenant environments (still unknown). If this is something we want we can look at doing it again in a future release.
+
+Tested the problem described in issue https://github.com/hyperledger/aries-cloudagent-python/issues/2777 by running the multitenant provider plugin integration tests. Could see the problem in 0.12.0dev0, but all the tests pass when pointing to my forked branch with the revert.
+
+I believe this was only used for the `VcLdpManager` to prevent creating a new instance for every handler method call. I reverted these occurrences back to creating a new manager instance. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 21:29:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2788" class=".btn">#2788</a>
+            </td>
+            <td>
+                <b>
+                    Add known issues section to Multiledger.md documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a note to the multiledger documentation that references a known issue when switching ledgers.
+
+@dbluhm @swcurran I referenced the open issue, but didn't add additional details as they will likely be documented in the issue itself.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-15 19:59:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2787" class=".btn">#2787</a>
             </td>
             <td>
