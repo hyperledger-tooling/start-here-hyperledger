@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6582" class=".btn">#6582</a>
+            </td>
+            <td>
+                <b>
+                    Use Invalid payload attributes error code 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Return "invalid payload attributes" instead of "invalid params" if the payload attributes are, in fact, invalid
+
+fixes #6554
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 06:50:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6581" class=".btn">#6581</a>
             </td>
             <td>
@@ -205,7 +233,7 @@ Apply v 13.1 of the reference tests, includes test related fixes around initing 
             </td>
             <td>
                 <b>
-                    add a debug flavor of the openjdk-latest image
+                    add curl in base openjdk-latest dockerfile
                 </b>
             </td>
         </tr>
@@ -216,7 +244,6 @@ Apply v 13.1 of the reference tests, includes test related fixes around initing 
             <td>
                 ## PR description
 As a user of the besu docker image I would like to have curl available in the running container.
-As previous version openjdk-17 was also built in a debug flavor I followed this approach.
 
 NB: teku include curl in their image https://github.com/Consensys/teku/blob/b544b9ebe589e78fa2f075ae389b041dc2871ea2/docker/jdk21/Dockerfile#L17
 
@@ -525,76 +552,6 @@ The BerlinGasCalculator had a side effect of warming addresses when calculating 
     </table>
     <div class="right-align">
         Created At 2024-02-09 19:38:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6555" class=".btn">#6555</a>
-            </td>
-            <td>
-                <b>
-                    Database metadata refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Besu storage could have different formats, currently Forest or Bonsai, and each format can have different versions. We used to have only one identifier for these two properties, but this is not optimal, for clarity and does not play well with the fact that the storage is implemented via plugins.
-
-Besu should only know about the format, and tell the plugin which is the required format, then the version of the format is something internal to the plugin itself.
-
-So I moved the `DataStorageFormat` to the plugin API project, and this is the reason for the many file changed, most of them are just changes to reflect this move.
-Then inside the RocksDB plugin I introduced the new class `VersionedStorageFormat` to managed the versioning of RocksDB databases.
-
-The database metadata file, reflects this change, having an entry for the format and one for the version, for example, the default Bonsai storage will have this metadata (note the versioning of the metadata itself `v2` object, so we can introduce a `v3` if needed in future): 
-```
-{
-  "v2": {
-    "format": "BONSAI",
-    "version": 2
-  }
-}
-```
-
-To correct the missed introduction of the new version, when the variables storage format was introduced, now for both Forest and Bonsai, a new version has been introduced, the version `2` for each format, being `1` the version pre variables storage.
-
-At startup the existing metadata, that we call `v1` format, is automatically translated to the new format.
-
-Check have been added to detect not managed (up|down)grades, so we can inform the user of the right steps, if the process in not automated.
-
-It is possible to downgrade, running the subcommand  `storage revert-metadata v2-to-v1` before installing the previous binaries.
-
-Test to perform:
-
-- [x] Vanilla new installation, verify that the default format and version is used and written in DATABASE_METADATA.json 
-- [x] New installation with custom format selection, verify that the selected format and version is used and written in DATABASE_METADATA.json 
-- [x] Upgrade existing installation >=23.4.4, verify that DATABASE_METADATA.json has been translated to the new format
-- [x] Upgrade existing installation >=23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
-- [x] Upgrade existing installation >=23.4.4 then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
-- [x] Upgrade existing installation <23.4.4, verify that variables storage migration is performed and DATABASE_METADATA.json has the new format
-- [x] Upgrade existing installation <23.4.4 then downgrade, verify that after the downgrade Besu refuses to start since the metadata is not recognized
-- [x] Upgrade existing installation <23.4.4 first revert variables-storage, then revert metadata, then downgrade, verify that after the downgrade Besu starts correctly
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #6408 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 11:33:49 +0000 UTC
     </div>
 </div>
 
