@@ -1,13 +1,13 @@
 
-[18](https://github.com/hyperledger-labs/learning-tokens/pull/18) Bump undici from 5.26.3 to 5.28.3 in /src/learning-token
+[2799](https://github.com/hyperledger/aries-cloudagent-python/pull/2799) 0.12.0rc1
 
-[814](https://github.com/hyperledger/aries-rfcs/pull/814) Update AIP 2.0 to clarified commits, remove some RFCs, retire Please Ack
+[2796](https://github.com/hyperledger/aries-cloudagent-python/pull/2796) Change middleware registration order
 
-[17](https://github.com/hyperledger-labs/learning-tokens/pull/17) Bump undici from 5.23.0 to 5.28.3 in /src/quorum-test-network/dapps/quorumToken
+[2795](https://github.com/hyperledger/aries-cloudagent-python/pull/2795) Bump pyld version to 2.0.4
 
-[6584](https://github.com/hyperledger/besu/pull/6584) Extend BesuConfiguration service
+[2794](https://github.com/hyperledger/aries-cloudagent-python/pull/2794) Revert profile injection for VcLdpManager on vc-api endpoints
 
-[2791](https://github.com/hyperledger/aries-cloudagent-python/pull/2791) Author subwallet setup automation
+[4286](https://github.com/hyperledger/iroha/pull/4286) [fix] #4190: Fix seed-based keys generation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
