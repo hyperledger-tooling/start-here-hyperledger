@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-bls-wrapper-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-bls-wrapper-python/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Update Rust version to 1.70
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-16 19:35:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-bls-wrapper-python/pull/21" class=".btn">#21</a>
             </td>
             <td>

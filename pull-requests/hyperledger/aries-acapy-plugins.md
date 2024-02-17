@@ -14,6 +14,1076 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/116" class=".btn">#116</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /rpc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:59:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /oid4vci
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:59:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /redis_events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:59:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /kafka_events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:59:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /connection_update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:58:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /multitenant_provider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:58:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /redis_events/integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:58:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/109" class=".btn">#109</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump cryptography from 42.0.0 to 42.0.2 in /basicmessage_storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.0 to 42.0.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.2 - 2024-01-30</p>
+<pre><code>
+* Updated Windows, macOS, and Linux wheels to be compiled with OpenSSL 3.2.1.
+* Fixed an issue that prevented the use of Python buffer protocol objects in
+  ``sign`` and ``verify`` methods on asymmetric keys.
+* Fixed an issue with incorrect keyword-argument naming with ``EllipticCurvePrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.exchange`,
+  ``X25519PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x25519.X25519PrivateKey.exchange`,
+  ``X448PrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.x448.X448PrivateKey.exchange`,
+  and ``DHPrivateKey``
+  :meth:`~cryptography.hazmat.primitives.asymmetric.dh.DHPrivateKey.exchange`.
+<p>.. _v42-0-1:</p>
+<p>42.0.1 - 2024-01-24
+</code></pre></p>
+<ul>
+<li>Fixed an issue with incorrect keyword-argument naming with <code>EllipticCurvePrivateKey</code>
+:meth:<code>~cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateKey.sign</code>.</li>
+<li>Resolved compatibility issue with loading certain RSA public keys in
+:func:<code>~cryptography.hazmat.primitives.serialization.load_pem_public_key</code>.</li>
+</ul>
+<p>.. _v42-0-0:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/2202123b50de1b8788f909a3e5afe350c56ad81e"><code>2202123</code></a> changelog and version bump 42.0.2 (<a href="https://redirect.github.com/pyca/cryptography/issues/10268">#10268</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/f7032bdd409838f67fc2b93343f897fb5f397d80"><code>f7032bd</code></a> bump openssl in CI (<a href="https://redirect.github.com/pyca/cryptography/issues/10298">#10298</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10299">#10299</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/002e886f16d8857151c09b11dc86b35f2ac9aec3"><code>002e886</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10294">#10294</a> -- correct accidental change to exchange kwarg (<a href="https://redirect.github.com/pyca/cryptography/issues/10295">#10295</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/92fa9f2f606caea5d499c825e832be5bac6f0c23"><code>92fa9f2</code></a> support bytes-like consistently across our asym sign/verify APIs (<a href="https://redirect.github.com/pyca/cryptography/issues/10260">#10260</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/6478f7e28be54b51931277235de01b249ceabd96"><code>6478f7e</code></a> explicitly support bytes-like for signature/data in RSA sign/verify (<a href="https://redirect.github.com/pyca/cryptography/issues/10259">#10259</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4bb8596ae02d95bb054dbcf55e8771379dbe0c19"><code>4bb8596</code></a> fix the release script (<a href="https://redirect.github.com/pyca/cryptography/issues/10233">#10233</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/337437dc2e62772bde4ad5544f4b1db9ee7572d9"><code>337437d</code></a> 42.0.1 bump (<a href="https://redirect.github.com/pyca/cryptography/issues/10252">#10252</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/56255de6b2d1a2d2e502b0275231ca81907f33f1"><code>56255de</code></a> allow SPKI RSA keys to be parsed even if they have an incorrect delimiter (<a href="https://redirect.github.com/pyca/cryptography/issues/1">#1</a>...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/12f038b38af76e36efe8cef09597010c97647e8f"><code>12f038b</code></a> fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10237">#10237</a> -- correct EC sign parameter name (<a href="https://redirect.github.com/pyca/cryptography/issues/10239">#10239</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10240">#10240</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.0...42.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.0&new-version=42.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:58:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump fastapi from 0.68.2 to 0.109.1 in /redis_events/integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [fastapi](https://github.com/tiangolo/fastapi) from 0.68.2 to 0.109.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/tiangolo/fastapi/releases">fastapi's releases</a>.</em></p>
+<blockquote>
+<h2>0.109.1</h2>
+<h3>Security fixes</h3>
+<ul>
+<li>⬆️ Upgrade minimum version of <code>python-multipart</code> to <code>&gt;=0.0.7</code> to fix a vulnerability when using form data with a ReDos attack. You can also simply upgrade <code>python-multipart</code>.</li>
+</ul>
+<p>Read more in the <a href="https://github.com/tiangolo/fastapi/security/advisories/GHSA-qf9m-vfgh-m389">advisory: Content-Type Header ReDoS</a>.</p>
+<h3>Features</h3>
+<ul>
+<li>✨  Include HTTP 205 in status codes with no body. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10969">#10969</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+</ul>
+<h3>Refactors</h3>
+<ul>
+<li>✅ Refactor tests for duplicate operation ID generation for compatibility with other tools running the FastAPI test suite. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10876">#10876</a> by <a href="https://github.com/emmettbutler"><code>@​emmettbutler</code></a>.</li>
+<li>♻️ Simplify string format with f-strings in <code>fastapi/utils.py</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10576">#10576</a> by <a href="https://github.com/eukub"><code>@​eukub</code></a>.</li>
+<li>🔧 Fix Ruff configuration unintentionally enabling and re-disabling mccabe complexity check. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10893">#10893</a> by <a href="https://github.com/jiridanek"><code>@​jiridanek</code></a>.</li>
+<li>✅ Re-enable test in <code>tests/test_tutorial/test_header_params/test_tutorial003.py</code> after fix in Starlette. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10904">#10904</a> by <a href="https://github.com/ooknimm"><code>@​ooknimm</code></a>.</li>
+</ul>
+<h3>Docs</h3>
+<ul>
+<li>📝 Tweak wording in <code>help-fastapi.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11040">#11040</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>📝 Tweak docs for Behind a Proxy. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11038">#11038</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>📝 Add External Link: 10 Tips for adding SQLAlchemy to FastAPI. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11036">#11036</a> by <a href="https://github.com/Donnype"><code>@​Donnype</code></a>.</li>
+<li>📝 Add External Link: Tips on migrating from Flask to FastAPI and vice-versa. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11029">#11029</a> by <a href="https://github.com/jtemporal"><code>@​jtemporal</code></a>.</li>
+<li>📝 Deprecate old tutorials: Peewee, Couchbase, encode/databases. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10979">#10979</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>✏️ Fix typo in <code>fastapi/security/oauth2.py</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10972">#10972</a> by <a href="https://github.com/RafalSkolasinski"><code>@​RafalSkolasinski</code></a>.</li>
+<li>📝 Update <code>HTTPException</code> details in <code>docs/en/docs/tutorial/handling-errors.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5418">#5418</a> by <a href="https://github.com/papb"><code>@​papb</code></a>.</li>
+<li>✏️ A few tweaks in <code>docs/de/docs/tutorial/first-steps.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10959">#10959</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>✏️ Fix link in <code>docs/en/docs/advanced/async-tests.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10960">#10960</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>✏️ Fix typos for Spanish documentation. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10957">#10957</a> by <a href="https://github.com/jlopezlira"><code>@​jlopezlira</code></a>.</li>
+<li>📝 Add warning about lifespan functions and backwards compatibility with events. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10734">#10734</a> by <a href="https://github.com/jacob-indigo"><code>@​jacob-indigo</code></a>.</li>
+<li>✏️ Fix broken link in <code>docs/tutorial/sql-databases.md</code> in several languages. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10716">#10716</a> by <a href="https://github.com/theoohoho"><code>@​theoohoho</code></a>.</li>
+<li>✏️ Remove broken links from <code>external_links.yml</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10943">#10943</a> by <a href="https://github.com/Torabek"><code>@​Torabek</code></a>.</li>
+<li>📝 Update template docs with more info about <code>url_for</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5937">#5937</a> by <a href="https://github.com/EzzEddin"><code>@​EzzEddin</code></a>.</li>
+<li>📝 Update usage of Token model in security docs. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9313">#9313</a> by <a href="https://github.com/piotrszacilowski"><code>@​piotrszacilowski</code></a>.</li>
+<li>✏️ Update highlighted line in <code>docs/en/docs/tutorial/bigger-applications.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5490">#5490</a> by <a href="https://github.com/papb"><code>@​papb</code></a>.</li>
+<li>📝 Add External Link: Explore How to Effectively Use JWT With FastAPI. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10212">#10212</a> by <a href="https://github.com/aanchlia"><code>@​aanchlia</code></a>.</li>
+<li>📝 Add hyperlink to <code>docs/en/docs/tutorial/static-files.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10243">#10243</a> by <a href="https://github.com/hungtsetse"><code>@​hungtsetse</code></a>.</li>
+<li>📝 Add External Link: Instrument a FastAPI service adding tracing with OpenTelemetry and send/show traces in Grafana Tempo. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9440">#9440</a> by <a href="https://github.com/softwarebloat"><code>@​softwarebloat</code></a>.</li>
+<li>📝 Review and rewording of <code>en/docs/contributing.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10480">#10480</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>📝 Add External Link: ML serving and monitoring with FastAPI and Evidently. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9701">#9701</a> by <a href="https://github.com/mnrozhkov"><code>@​mnrozhkov</code></a>.</li>
+<li>📝 Reword in docs, from &quot;have in mind&quot; to &quot;keep in mind&quot;. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10376">#10376</a> by <a href="https://github.com/malicious"><code>@​malicious</code></a>.</li>
+<li>📝 Add External Link: Talk by Jeny Sadadia. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10265">#10265</a> by <a href="https://github.com/JenySadadia"><code>@​JenySadadia</code></a>.</li>
+<li>📝 Add location info to <code>tutorial/bigger-applications.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10552">#10552</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>✏️ Fix Pydantic method name in <code>docs/en/docs/advanced/path-operation-advanced-configuration.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10826">#10826</a> by <a href="https://github.com/ahmedabdou14"><code>@​ahmedabdou14</code></a>.</li>
+</ul>
+<h3>Translations</h3>
+<ul>
+<li>🌐 Add Spanish translation for <code>docs/es/docs/external-links.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10933">#10933</a> by <a href="https://github.com/pablocm83"><code>@​pablocm83</code></a>.</li>
+<li>🌐 Update Korean translation for <code>docs/ko/docs/tutorial/first-steps.md</code>, <code>docs/ko/docs/tutorial/index.md</code>, <code>docs/ko/docs/tutorial/path-params.md</code>, and <code>docs/ko/docs/tutorial/query-params.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/4218">#4218</a> by <a href="https://github.com/SnowSuno"><code>@​SnowSuno</code></a>.</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/tiangolo/fastapi/commit/7633d1571cc0c2792b766f67172edb9427c66899"><code>7633d15</code></a> 🔖 Release version 0.109.1</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/a4de147521bf1546f700aa494d99fce1bed0741b"><code>a4de147</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc"><code>9d34ad0</code></a> Merge pull request from GHSA-qf9m-vfgh-m389</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/ebf972349431043170c1f6a4550bd29642f09cd2"><code>ebf9723</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/8590d0c2ec301d01da68ad3032f9b119d616a644"><code>8590d0c</code></a> 👥 Update FastAPI People (<a href="https://redirect.github.com/tiangolo/fastapi/issues/11074">#11074</a>)</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/063d7ffb15c4d1fe88745a8d2d2c9202d44046c5"><code>063d7ff</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/3c81e622f3783920ef3e3d4ecfae12c5511747bf"><code>3c81e62</code></a> 🌐 Add Spanish translation for <code>docs/es/docs/external-links.md</code> (<a href="https://redirect.github.com/tiangolo/fastapi/issues/10933">#10933</a>)</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/6c4a143fd0fb2a9963ca60938c4a2bf69573aeca"><code>6c4a143</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/d254e2f6ad773cf6694b7c1917c5792e9f805fd0"><code>d254e2f</code></a> 🌐 Update Korean translation for <code>docs/ko/docs/tutorial/first-steps.md</code>, `docs...</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/6f6e786979eb3156b85e7c2f44d0b8af5cf0af17"><code>6f6e786</code></a> 📝 Update release notes</li>
+<li>Additional commits viewable in <a href="https://github.com/tiangolo/fastapi/compare/0.68.2...0.109.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=fastapi&package-manager=pip&previous-version=0.68.2&new-version=0.109.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:25:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump fastapi from 0.68.2 to 0.109.1 in /redis_events/docker/services
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [fastapi](https://github.com/tiangolo/fastapi) from 0.68.2 to 0.109.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/tiangolo/fastapi/releases">fastapi's releases</a>.</em></p>
+<blockquote>
+<h2>0.109.1</h2>
+<h3>Security fixes</h3>
+<ul>
+<li>⬆️ Upgrade minimum version of <code>python-multipart</code> to <code>&gt;=0.0.7</code> to fix a vulnerability when using form data with a ReDos attack. You can also simply upgrade <code>python-multipart</code>.</li>
+</ul>
+<p>Read more in the <a href="https://github.com/tiangolo/fastapi/security/advisories/GHSA-qf9m-vfgh-m389">advisory: Content-Type Header ReDoS</a>.</p>
+<h3>Features</h3>
+<ul>
+<li>✨  Include HTTP 205 in status codes with no body. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10969">#10969</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+</ul>
+<h3>Refactors</h3>
+<ul>
+<li>✅ Refactor tests for duplicate operation ID generation for compatibility with other tools running the FastAPI test suite. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10876">#10876</a> by <a href="https://github.com/emmettbutler"><code>@​emmettbutler</code></a>.</li>
+<li>♻️ Simplify string format with f-strings in <code>fastapi/utils.py</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10576">#10576</a> by <a href="https://github.com/eukub"><code>@​eukub</code></a>.</li>
+<li>🔧 Fix Ruff configuration unintentionally enabling and re-disabling mccabe complexity check. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10893">#10893</a> by <a href="https://github.com/jiridanek"><code>@​jiridanek</code></a>.</li>
+<li>✅ Re-enable test in <code>tests/test_tutorial/test_header_params/test_tutorial003.py</code> after fix in Starlette. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10904">#10904</a> by <a href="https://github.com/ooknimm"><code>@​ooknimm</code></a>.</li>
+</ul>
+<h3>Docs</h3>
+<ul>
+<li>📝 Tweak wording in <code>help-fastapi.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11040">#11040</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>📝 Tweak docs for Behind a Proxy. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11038">#11038</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>📝 Add External Link: 10 Tips for adding SQLAlchemy to FastAPI. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11036">#11036</a> by <a href="https://github.com/Donnype"><code>@​Donnype</code></a>.</li>
+<li>📝 Add External Link: Tips on migrating from Flask to FastAPI and vice-versa. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/11029">#11029</a> by <a href="https://github.com/jtemporal"><code>@​jtemporal</code></a>.</li>
+<li>📝 Deprecate old tutorials: Peewee, Couchbase, encode/databases. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10979">#10979</a> by <a href="https://github.com/tiangolo"><code>@​tiangolo</code></a>.</li>
+<li>✏️ Fix typo in <code>fastapi/security/oauth2.py</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10972">#10972</a> by <a href="https://github.com/RafalSkolasinski"><code>@​RafalSkolasinski</code></a>.</li>
+<li>📝 Update <code>HTTPException</code> details in <code>docs/en/docs/tutorial/handling-errors.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5418">#5418</a> by <a href="https://github.com/papb"><code>@​papb</code></a>.</li>
+<li>✏️ A few tweaks in <code>docs/de/docs/tutorial/first-steps.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10959">#10959</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>✏️ Fix link in <code>docs/en/docs/advanced/async-tests.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10960">#10960</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>✏️ Fix typos for Spanish documentation. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10957">#10957</a> by <a href="https://github.com/jlopezlira"><code>@​jlopezlira</code></a>.</li>
+<li>📝 Add warning about lifespan functions and backwards compatibility with events. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10734">#10734</a> by <a href="https://github.com/jacob-indigo"><code>@​jacob-indigo</code></a>.</li>
+<li>✏️ Fix broken link in <code>docs/tutorial/sql-databases.md</code> in several languages. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10716">#10716</a> by <a href="https://github.com/theoohoho"><code>@​theoohoho</code></a>.</li>
+<li>✏️ Remove broken links from <code>external_links.yml</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10943">#10943</a> by <a href="https://github.com/Torabek"><code>@​Torabek</code></a>.</li>
+<li>📝 Update template docs with more info about <code>url_for</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5937">#5937</a> by <a href="https://github.com/EzzEddin"><code>@​EzzEddin</code></a>.</li>
+<li>📝 Update usage of Token model in security docs. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9313">#9313</a> by <a href="https://github.com/piotrszacilowski"><code>@​piotrszacilowski</code></a>.</li>
+<li>✏️ Update highlighted line in <code>docs/en/docs/tutorial/bigger-applications.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/5490">#5490</a> by <a href="https://github.com/papb"><code>@​papb</code></a>.</li>
+<li>📝 Add External Link: Explore How to Effectively Use JWT With FastAPI. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10212">#10212</a> by <a href="https://github.com/aanchlia"><code>@​aanchlia</code></a>.</li>
+<li>📝 Add hyperlink to <code>docs/en/docs/tutorial/static-files.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10243">#10243</a> by <a href="https://github.com/hungtsetse"><code>@​hungtsetse</code></a>.</li>
+<li>📝 Add External Link: Instrument a FastAPI service adding tracing with OpenTelemetry and send/show traces in Grafana Tempo. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9440">#9440</a> by <a href="https://github.com/softwarebloat"><code>@​softwarebloat</code></a>.</li>
+<li>📝 Review and rewording of <code>en/docs/contributing.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10480">#10480</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>📝 Add External Link: ML serving and monitoring with FastAPI and Evidently. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/9701">#9701</a> by <a href="https://github.com/mnrozhkov"><code>@​mnrozhkov</code></a>.</li>
+<li>📝 Reword in docs, from &quot;have in mind&quot; to &quot;keep in mind&quot;. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10376">#10376</a> by <a href="https://github.com/malicious"><code>@​malicious</code></a>.</li>
+<li>📝 Add External Link: Talk by Jeny Sadadia. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10265">#10265</a> by <a href="https://github.com/JenySadadia"><code>@​JenySadadia</code></a>.</li>
+<li>📝 Add location info to <code>tutorial/bigger-applications.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10552">#10552</a> by <a href="https://github.com/nilslindemann"><code>@​nilslindemann</code></a>.</li>
+<li>✏️ Fix Pydantic method name in <code>docs/en/docs/advanced/path-operation-advanced-configuration.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10826">#10826</a> by <a href="https://github.com/ahmedabdou14"><code>@​ahmedabdou14</code></a>.</li>
+</ul>
+<h3>Translations</h3>
+<ul>
+<li>🌐 Add Spanish translation for <code>docs/es/docs/external-links.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/10933">#10933</a> by <a href="https://github.com/pablocm83"><code>@​pablocm83</code></a>.</li>
+<li>🌐 Update Korean translation for <code>docs/ko/docs/tutorial/first-steps.md</code>, <code>docs/ko/docs/tutorial/index.md</code>, <code>docs/ko/docs/tutorial/path-params.md</code>, and <code>docs/ko/docs/tutorial/query-params.md</code>. PR <a href="https://redirect.github.com/tiangolo/fastapi/pull/4218">#4218</a> by <a href="https://github.com/SnowSuno"><code>@​SnowSuno</code></a>.</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/tiangolo/fastapi/commit/7633d1571cc0c2792b766f67172edb9427c66899"><code>7633d15</code></a> 🔖 Release version 0.109.1</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/a4de147521bf1546f700aa494d99fce1bed0741b"><code>a4de147</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc"><code>9d34ad0</code></a> Merge pull request from GHSA-qf9m-vfgh-m389</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/ebf972349431043170c1f6a4550bd29642f09cd2"><code>ebf9723</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/8590d0c2ec301d01da68ad3032f9b119d616a644"><code>8590d0c</code></a> 👥 Update FastAPI People (<a href="https://redirect.github.com/tiangolo/fastapi/issues/11074">#11074</a>)</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/063d7ffb15c4d1fe88745a8d2d2c9202d44046c5"><code>063d7ff</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/3c81e622f3783920ef3e3d4ecfae12c5511747bf"><code>3c81e62</code></a> 🌐 Add Spanish translation for <code>docs/es/docs/external-links.md</code> (<a href="https://redirect.github.com/tiangolo/fastapi/issues/10933">#10933</a>)</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/6c4a143fd0fb2a9963ca60938c4a2bf69573aeca"><code>6c4a143</code></a> 📝 Update release notes</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/d254e2f6ad773cf6694b7c1917c5792e9f805fd0"><code>d254e2f</code></a> 🌐 Update Korean translation for <code>docs/ko/docs/tutorial/first-steps.md</code>, `docs...</li>
+<li><a href="https://github.com/tiangolo/fastapi/commit/6f6e786979eb3156b85e7c2f44d0b8af5cf0af17"><code>6f6e786</code></a> 📝 Update release notes</li>
+<li>Additional commits viewable in <a href="https://github.com/tiangolo/fastapi/compare/0.68.2...0.109.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=fastapi&package-manager=pip&previous-version=0.68.2&new-version=0.109.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-17 00:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/106" class=".btn">#106</a>
             </td>
             <td>
@@ -435,60 +1505,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-02-14 17:06:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade fastapi
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Upgrade fastapi for security issues
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 22:35:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Update dev container docker-in-docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Was getting dev container crashes. I think related to poetry upgrade but not entirely sure. 
-
-This is an update config.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 22:13:36 +0000 UTC
     </div>
 </div>
 
