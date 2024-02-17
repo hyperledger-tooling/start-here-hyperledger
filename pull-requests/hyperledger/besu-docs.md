@@ -150,31 +150,3 @@ Should Checkpoint values also be added to this table?
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1508" class=".btn">#1508</a>
-            </td>
-            <td>
-                <b>
-                    Add sequenced synonym for legacy txpool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add `sequenced` synonym for `legacy` non-layered transaction pool, and remove deprecation warnings for non-layered transaction pool. Fixes #1470.
-
-Preview: https://besu-docs-mg2txtj7o-hyperledger.vercel.app/development/public-networks/reference/cli/options#tx-pool
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 23:23:01 +0000 UTC
-    </div>
-</div>
-
