@@ -207,34 +207,3 @@ After this PR is reviewed and merged fabric-lib-go will be released and the depe
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4674" class=".btn">#4674</a>
-            </td>
-            <td>
-                <b>
-                    Bump golang.org/x/tools from v0.14.0 to v0.17.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump golang.org/x/tools to v0.17.0.
-
-Note that gendoc broke with v0.15.0 with error:
-panic: can't determine type sizes for compiler "" on GOARCH ""
-
-It turns out that gendoc didn't need the problematic `packages.NeedTypesInfo` and therefore this option is now removed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-09 20:40:17 +0000 UTC
-    </div>
-</div>
-

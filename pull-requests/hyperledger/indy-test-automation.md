@@ -30,6 +30,7 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 - Refactor get dependency script to work recursively and traverse to the required depth.
   - The node specific version of this script is no longer needed.
   - Update (simplify) related scripts and workflows.
+  - After deleting an erroneous package (python3-semver > 2.13.0) from the `dev` channel traversing the top dependencies for an indy-node based deb is enough.
 - Remove unused files.
             </td>
         </tr>
