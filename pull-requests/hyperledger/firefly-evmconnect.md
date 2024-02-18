@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    Fix docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is an issue with building docker 
+
+`ERROR: failed to solve: golang:1.21-buster: docker.io/library/golang:1.21-buster: not found`
+
+https://github.com/hyperledger/firefly-evmconnect/actions/runs/7922199644/job/21629266487#step:11:156
+
+Fixed it by using 1.21-alpine3.19 as for example for [tezos connector](https://github.com/hyperledger/firefly-tezosconnect/pull/34)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-18 10:46:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/109" class=".btn">#109</a>
             </td>
             <td>
