@@ -92,29 +92,3 @@ The differences from ibc-go's 09-localhost implementation are described here: ht
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/248" class=".btn">#248</a>
-            </td>
-            <td>
-                <b>
-                    Make mock-client verification more strict
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-11 13:41:45 +0000 UTC
-    </div>
-</div>
-
