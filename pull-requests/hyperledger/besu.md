@@ -32,6 +32,7 @@ permalink: /pull-requests/hyperledger/besu
 - renames consolidation checks to separate from workflow names
 - replaces unreliable test splitting action with bash script in reference tests
 - corrects missing test target during unit tests
+- embeds version number at release time, overriding gradle.properties value
             </td>
         </tr>
     </table>
@@ -549,42 +550,6 @@ Part of #6301
     </table>
     <div class="right-align">
         Created At 2024-02-12 22:18:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6558" class=".btn">#6558</a>
-            </td>
-            <td>
-                <b>
-                    Remove uses of org.jetbrains annotations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-We have a mix of org.jetbrains.annotations.NotNull and javax.annotations.Nonnull. Change all to the latter. Add an errorprone check to enforce this.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-10 19:37:34 +0000 UTC
     </div>
 </div>
 
