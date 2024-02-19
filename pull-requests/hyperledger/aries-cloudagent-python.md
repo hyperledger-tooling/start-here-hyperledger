@@ -1137,30 +1137,3 @@ Didn't add any of the other `B` linting options.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2771" class=".btn">#2771</a>
-            </td>
-            <td>
-                <b>
-                    Tweaks to MD files to enable aca-py.org publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-11 20:03:57 +0000 UTC
-    </div>
-</div>
-
