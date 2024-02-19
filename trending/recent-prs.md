@@ -1,13 +1,13 @@
 
+[406](https://github.com/hyperledger/fabric-ca/pull/406) Release commit for v1.5.9
+
+[6587](https://github.com/hyperledger/besu/pull/6587) Mining Parameters Metrics
+
+[4684](https://github.com/hyperledger/fabric/pull/4684) Release commit for v2.2.15
+
+[4683](https://github.com/hyperledger/fabric/pull/4683) Release commit for v2.5.6
+
 [898](https://github.com/hyperledger-labs/open-enterprise-agent/pull/898) ATL-6026: Update documentation
-
-[1515](https://github.com/hyperledger/besu-docs/pull/1515) SNAP and Bonsai are now Besu defaults
-
-[897](https://github.com/hyperledger-labs/open-enterprise-agent/pull/897) [WIP] Fix concurrency issue 
-
-[242](https://github.com/hyperledger/firefly-ethconnect/pull/242) Fix image not found issue
-
-[110](https://github.com/hyperledger/firefly-evmconnect/pull/110) Fix docker image
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
