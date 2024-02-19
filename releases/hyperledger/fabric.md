@@ -15,34 +15,28 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.5.5
+                    v2.5.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.5.5
+                    v2.5.6
                 </span>
             </td>
             <td>
-                v2.5.5 Release Notes - October 31, 2023
-=======================================
+                v2.5.6 Release Notes - February 19, 2024
+========================================
 
-Fixes
------
-
-**Verify transactions in a block are well formed**
-
-Verify that transactions in blocks appear exactly as their marshaled form after unmarshaling.
-[#4503](https://github.com/hyperledger/fabric/pull/4503)
+v2.5.6 updates code dependencies.
 
 
 Dependencies
 ------------
-Fabric v2.5.5 has been tested with the following dependencies:
-* Go 1.21.3
-* CouchDB v3.3.2
+Fabric v2.5.6 has been tested with the following dependencies:
+* Go 1.21.6
+* CouchDB v3.3.3
 
 Fabric docker images on dockerhub utilize Ubuntu 20.04.
 
@@ -132,11 +126,11 @@ for chaincodes. For more details see the
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.5" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-10-31 16:41:46 +0000 UTC
+        Created At 2024-02-19 03:37:09 +0000 UTC
     </span>
 </div>
 
@@ -145,35 +139,29 @@ for chaincodes. For more details see the
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.14
+                    v2.2.15
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.14
+                    v2.2.15
                 </span>
             </td>
             <td>
-                v2.2.14 Release Notes - October 31, 2023
-========================================
+                v2.2.15 Release Notes - February 19, 2024
+=========================================
 
-Fixes
------
-
-**Verify transactions in a block are well formed**
-
-Verify that transactions in blocks appear exactly as their marshaled form after unmarshaling.
-[#4504](https://github.com/hyperledger/fabric/pull/4504)
+v2.2.15 updates code dependencies.
 
 
 Dependencies
 ------------
 
-Fabric v2.2.14 has been tested with the following dependencies:
-* Go 1.21.3
-* CouchDB v3.3.2
+Fabric v2.2.15 has been tested with the following dependencies:
+* Go 1.21.6
+* CouchDB v3.3.3
 
 Fabric docker images on dockerhub utilize Alpine 3.18.
 
@@ -255,11 +243,11 @@ for chaincodes. For more details see the
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.14" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.15" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-10-31 16:06:06 +0000 UTC
+        Created At 2024-02-19 03:37:00 +0000 UTC
     </span>
 </div>
 
