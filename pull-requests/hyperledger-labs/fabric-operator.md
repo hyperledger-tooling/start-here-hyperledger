@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/171" class=".btn">#171</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/172" class=".btn">#172</a>
             </td>
             <td>
                 <b>
-                    Adding Restriction on Security Context to restrict unshare calls
+                    Removing Dind Tests
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-09 08:43:45 +0000 UTC
+        Created At 2024-02-19 06:27:40 +0000 UTC
     </div>
 </div>
 

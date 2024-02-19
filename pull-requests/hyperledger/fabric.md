@@ -14,6 +14,104 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4686" class=".btn">#4686</a>
+            </td>
+            <td>
+                <b>
+                    Catch up installation procedures in main to v2.5.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Since the install procedures in the documentation for each version refer to the install scripts in the main repository, the install scripts in the main repository should also be updated to catch up with v2.5.6.
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 09:59:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4685" class=".btn">#4685</a>
+            </td>
+            <td>
+                <b>
+                    Detect your own endpoint in HeightsByEndpoints()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, when an orderer node chooses a single node endpoint to pull blocks from (and the rest to pull headers from), it may pick itself, which is a problem because this endpoint will never bring it any blocks since it is itself.
+
+This commit makes the function HeightsByEndpoint return the endpoint of yourself, such that the caller can filter it out.
+
+The identification of your own endpoint is done by looking at the TLS certificate of the remote node and comparing it with your own.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 08:53:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4684" class=".btn">#4684</a>
             </td>
             <td>

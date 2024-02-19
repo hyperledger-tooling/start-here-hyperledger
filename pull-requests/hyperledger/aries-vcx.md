@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1127" class=".btn">#1127</a>
+            </td>
+            <td>
+                <b>
+                    refactor: remove ProofRequestData
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                After adding the `anoncreds_types` crate, some types defined in `aries-vcx` are now being duplicated. This set of changes removes `ProofRequestData`.
+
+- [ ] Add tests for the non-legacy restrictions / predicates format
+- [ ] Proper `PresentationRequest` versioning
+- [ ] Custom(ized) builder for `PresentationRequest` (?)
+- [ ] Handle errors resulting from Nonce creation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 09:09:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1126" class=".btn">#1126</a>
             </td>
             <td>

@@ -354,8 +354,8 @@ Add a clue for detecting configuration changes
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [ ] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
@@ -438,34 +438,6 @@ More robust type-system, less error-handling, simpler ed25519 code
     </table>
     <div class="right-align">
         Created At 2024-02-12 23:14:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4274" class=".btn">#4274</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #4083: Profiling support (backport)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Backport of profiler integration (check #4220, #4221, #4250).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-12 11:18:55 +0000 UTC
     </div>
 </div>
 
