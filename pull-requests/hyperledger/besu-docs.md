@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1515" class=".btn">#1515</a>
+            </td>
+            <td>
+                <b>
+                    SNAP and Bonsai are now Besu defaults
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A few changes to Besu defaults coming in 24.2.0 -
+
+SNAP and Checkpoint no longer "early access" - so removed references to X_SNAP and X_CHECKPOINT
+https://github.com/hyperledger/besu/pull/6405
+Snap sync is now default for named networks
+https://github.com/hyperledger/besu/pull/6530
+Bonsai is now default storage format
+https://github.com/hyperledger/besu/pull/6536
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-18 22:23:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1514" class=".btn">#1514</a>
             </td>
             <td>
@@ -121,32 +154,6 @@ Should Checkpoint values also be added to this table?
     </table>
     <div class="right-align">
         Created At 2024-02-13 19:20:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1509" class=".btn">#1509</a>
-            </td>
-            <td>
-                <b>
-                    Document RPC authentication JWT algorithm option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When [generating a keypair for JWT public key authentication](https://besu.hyperledger.org/public-networks/how-to/use-besu-api/authenticate#jwt-public-key-authentication), if you use a different method than `RS256` to generate such keypair, especially if you use a `ESXXX` method, you also need to specify such method in the command line options. Otherwise you'll face a `java.security.InvalidKeyException: Invalid RSA public key` exception when running `besu`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-11 23:45:21 +0000 UTC
     </div>
 </div>
 
