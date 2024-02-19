@@ -35,6 +35,15 @@ permalink: /pull-requests/hyperledger/besu
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 Fixes #1942 
+
+
+Classes to follow:
+
+BesuCommand
+PrivateTransactionProcessor
+PrivateMutableWorldStateUpdater
+SimpleWorld
+PrivacyParameters
             </td>
         </tr>
     </table>

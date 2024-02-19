@@ -1083,31 +1083,3 @@ I deleted the `/anoncreds/revoke` and `/anoncreds/publish-revocation` endpoints 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2775" class=".btn">#2775</a>
-            </td>
-            <td>
-                <b>
-                    Implement B006 rule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add rule `B006` to the linting config and implements it by creating empty objects in the functions when the parameter is None.
-
-Didn't add any of the other `B` linting options.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-12 17:50:46 +0000 UTC
-    </div>
-</div>
-

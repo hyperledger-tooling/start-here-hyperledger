@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/399" class=".btn">#399</a>
+            </td>
+            <td>
+                <b>
+                    #395_Fix_Falling_Unit_Tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+This PR serves to fix the #395 issue of failing unit tests. 
+
+### App Randomizer Internal Test 
+Location: `channel/test/app_randomizer_internal_test.go`
+
+Cause: The issue stems from the lack of Comparator (`Equal`) for MockAppRandomizer. This leads to the test not recognizing that the default appRandomizer has already been set in the internal test.
+
+Solution: Add an identifier to the MockAppRandomizer to compare the old and new appRandomizer.
+
+### Dialer Internal Test
+Location: (`wire/net/simple/dialer_internal_test.go`)
+
+Cause: Like @RmbRT has pointed out, there is a race between the init of `wire/simple` and `backend/sim/wire`, which set the RandomAddress and RandomAccount functions to be used in the internal tests.
+
+Solution: Add the initialization of `NewRandomAddress` and `NewRandomAccount` to use the implementation from the `wire/simple`.
+
+Alternative: Remove `init()` of `wire/simple` and only use the init of `backend/sim/wire`. This also results in passing internal tests but might cause issues for packages using `wire/simple` (need further investigation).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 14:51:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/398" class=".btn">#398</a>
             </td>
             <td>
