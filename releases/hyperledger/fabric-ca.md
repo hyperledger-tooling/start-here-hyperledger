@@ -15,44 +15,28 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.8
+                    v1.5.9
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.8
+                    v1.5.9
                 </span>
             </td>
             <td>
-                v1.5.8 Release Notes - December 20, 2023
+                v1.5.9 Release Notes - February 19, 2024
 ========================================
 
-Fixes
------
-
-**Fix s390x build**
-
-Update github.com/IBM/mathlib to fix compilation issue on s390x.
-[#387](https://github.com/hyperledger/fabric-ca/pull/387)
-
-
-Improvements
-------------
-
-**Log expiry overrides**
-
-If certificate expiry during enrollment gets overridden due to the CA's own expiry,
-log a warning message about the override.
-[#384](https://github.com/hyperledger/fabric-ca/pull/384)
+v1.5.9 updates code dependencies, and removes dependency on core fabric.
 
 
 Dependencies
 ------------
 
-Fabric CA v1.5.8 has been tested with the following dependencies:
-- Go 1.21.5
+Fabric CA v1.5.9 has been tested with the following dependencies:
+- Go 1.21.6
 - Ubuntu 20.04 (for Docker images)
 - Databases
     - PostgreSQL 13
@@ -92,11 +76,11 @@ None.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.8" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.9" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-12-21 19:34:14 +0000 UTC
+        Created At 2024-02-19 03:36:43 +0000 UTC
     </span>
 </div>
 
