@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/628" class=".btn">#628</a>
+            </td>
+            <td>
+                <b>
+                    log added on application startup tasks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (Performance improvement etc)
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Performance improvement update and log added
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 16:14:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/627" class=".btn">#627</a>
+            </td>
+            <td>
+                <b>
+                    Show channel under pending channel if user close window after creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Show created channel in channels if user close window after channel creation.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 14:10:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/626" class=".btn">#626</a>
             </td>
             <td>
