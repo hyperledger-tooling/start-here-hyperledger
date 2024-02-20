@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3028" class=".btn">#3028</a>
+            </td>
+            <td>
+                <b>
+                    refactor(gui): gui framework change from solid to react
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - changed gui framework to react
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 13:36:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3027" class=".btn">#3027</a>
             </td>
             <td>

@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2801" class=".btn">#2801</a>
+            </td>
+            <td>
+                <b>
+                    Add anoncreds multitenant endorsement integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                So, I had a misunderstanding. Endorsement for anoncreds in multitenancy is currently working when the admin agent is askar-anoncreds wallet type and the tenants are created with askar-anoncreds wallet type.
+
+This PR will just add integration tests for this scenario.
+
+I think it's important to have the feature https://github.com/hyperledger/aries-cloudagent-python/issues/2786 available for multitenancy going forward as this is where some of my confusion came from. When I first thought this didn't work, the author tenant wasn't setup completely. (It's pretty much finished other than some unit testing problems)
+
+The other issue somewhat related to this issue is https://github.com/hyperledger/aries-cloudagent-python/issues/2792 but work can be done off of this issue as it is more relevant.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 18:11:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2800" class=".btn">#2800</a>
+            </td>
+            <td>
+                <b>
+                    0.12.0rc1-tweak
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix to the publish GitHub action before release.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 14:51:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2799" class=".btn">#2799</a>
             </td>
             <td>
@@ -142,7 +201,7 @@ For background information you can read [this closed issue on the pyld repo](htt
                 
             </td>
             <td>
-                <nil>
+                Having trouble with unit test  warnings. Leaving this for a bit and focusing on https://github.com/hyperledger/aries-cloudagent-python/issues/2767 for now.
             </td>
         </tr>
     </table>

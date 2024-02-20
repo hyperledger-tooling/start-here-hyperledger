@@ -622,29 +622,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-besu/pull/23" class=".btn">#23</a>
-            </td>
-            <td>
-                <b>
-                    Restore did:indybesu DID method + Restore storage approach for CL objects
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 14:51:21 +0000 UTC
-    </div>
-</div>
-
