@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6596" class=".btn">#6596</a>
+            </td>
+            <td>
+                <b>
+                    Clique block period transition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 07:34:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6595" class=".btn">#6595</a>
             </td>
             <td>
                 <b>
-                    Extend and refactor transaction selection service
+                    Refactor `TransactionSelectionService`
                 </b>
             </td>
         </tr>
@@ -31,6 +57,8 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Scope of this refactor it to move the `TransacationSelectionService` from protocol context to mining parameters where it is more pertinent
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -570,44 +598,6 @@ This PR, improves the handling of timeout and not selected txs, avoiding that th
     </table>
     <div class="right-align">
         Created At 2024-02-13 13:37:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6562" class=".btn">#6562</a>
-            </td>
-            <td>
-                <b>
-                    feat: add fixed basefee options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add `fixedBaseFee` options to forced `baseFee` same as `gasPrice` value.
-
-
-I'm new to the Java language, please guide any aspects I can further improve or modify.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-https://github.com/hyperledger/besu/issues/6335
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 11:15:56 +0000 UTC
     </div>
 </div>
 

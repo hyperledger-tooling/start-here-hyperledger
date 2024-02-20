@@ -679,29 +679,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/254" class=".btn">#254</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): add missing type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Getting errors if this is not installed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 10:38:37 +0000 UTC
-    </div>
-</div>
-

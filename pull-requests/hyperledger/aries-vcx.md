@@ -29,6 +29,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
             <td>
                 After adding the `anoncreds_types` crate, some types defined in `aries-vcx` are now being duplicated. This set of changes removes `ProofRequestData`.
 
+Moreover:
+* Removed `RevocationRegistryDelta` "primitive" struct
+* Removed unused `RevocationDetails`
+* Removed `CredentialDefConfig` to avoid confusion with a similar struct in `anoncreds_types`
+* Removed `update_state` method of `Schema` "primitive", a preliminary step to removing the struct altogether
+
 - [x] Add tests for the non-legacy restrictions / predicates format
 - [x] Proper `PresentationRequest` versioning
 - [ ] Custom(ized) builder for `PresentationRequest` (?)
@@ -66,32 +72,6 @@ which leads to error such as https://github.com/hyperledger/aries-vcx/actions/ru
     </table>
     <div class="right-align">
         Created At 2024-02-13 14:29:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1125" class=".btn">#1125</a>
-            </td>
-            <td>
-                <b>
-                    Add justfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Makes it easier to execute commands used in CI locally.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 08:50:01 +0000 UTC
     </div>
 </div>
 
