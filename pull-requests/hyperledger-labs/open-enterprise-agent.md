@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/902" class=".btn">#902</a>
+            </td>
+            <td>
+                <b>
+                    fix: remove oas schema format for empty repsonse body
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">prism-agent</span>
+            </td>
+            <td>
+                # Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Update tapir definition so that it doesn't render this
+```
+type: string
+format: binary
+```
+
+## Checklist
+
+### My PR contains...
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [x] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 14:28:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/901" class=".btn">#901</a>
+            </td>
+            <td>
+                <b>
+                    fix(prism-agent): increase http timeout communication channel closing…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">prism-agent</span>
+            </td>
+            <td>
+                … with read timeout error
+
+# Overview
+<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
+
+Fixes ATL-xxxx
+
+## Checklist
+
+### My PR contains...
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [x] Improvements (misc. changes to existing features)
+* [x] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [x] My changes do not require a change to the project documentation
+* [ ] My changes require a change to the project documentation
+* [ ] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 12:41:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/900" class=".btn">#900</a>
             </td>
             <td>
@@ -183,7 +297,7 @@ Fixes ATL-xxxx
             </td>
             <td>
                 <b>
-                    [WIP] Fix concurrency issue 
+                    fix(pollux): fix concurrency problem when issuing a credential
                 </b>
             </td>
         </tr>
@@ -195,28 +309,28 @@ Fixes ATL-xxxx
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes ATL-xxxx
+When a credential is issued, the part of the code that determines if a new status list should be allocated for a credential, or if an old one will fit, makes two database calls, one for select and one for insert. these calls are happening in a multi-threaded environment, so they need to happen atomically.
 
 ## Checklist
 
 ### My PR contains...
 * [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [x] Bug fixes (non-breaking change which fixes an issue)
 * [ ] Improvements (misc. changes to existing features)
 * [ ] Features (non-breaking change which adds functionality)
 
 ### My changes...
 * [ ] are breaking changes
-* [ ] are not breaking changes
+* [x] are not breaking changes
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Documentation
-* [ ] My changes do not require a change to the project documentation
+* [x] My changes do not require a change to the project documentation
 * [ ] My changes require a change to the project documentation
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Tests
-* [ ] My changes can not or do not need to be tested
+* [x] My changes can not or do not need to be tested
 * [ ] My changes can and should be tested by unit and/or integration tests
 * [ ] If yes to above: I have added tests to cover my changes
 * [ ] If yes to above: I have taken care to cover edge cases in my tests
@@ -264,60 +378,6 @@ See the related issue. We will try this PR template and work by iteration to imp
     </table>
     <div class="right-align">
         Created At 2024-02-16 16:35:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/892" class=".btn">#892</a>
-            </td>
-            <td>
-                <b>
-                    feat(pollux): add Json VC schema meta validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes [ATL-4842](https://input-output.atlassian.net/browse/ATL-4842)
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [x] Improvements (misc. changes to existing features)
-* [x] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 15:42:06 +0000 UTC
     </div>
 </div>
 
