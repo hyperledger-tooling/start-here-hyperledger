@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">config-changes</span>
             </td>
             <td>
                 ### Linked issue

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    Improve handling of custom errors in receipts - capture returnValue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/firefly/issues/1466 for details 
+
+This PR is the first step of capturing the returnValue in cases it cannot be parsed as a default error
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 20:06:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/111" class=".btn">#111</a>
             </td>
             <td>

@@ -29,10 +29,10 @@ permalink: /pull-requests/hyperledger/aries-vcx
             <td>
                 After adding the `anoncreds_types` crate, some types defined in `aries-vcx` are now being duplicated. This set of changes removes `ProofRequestData`.
 
-- [ ] Add tests for the non-legacy restrictions / predicates format
-- [ ] Proper `PresentationRequest` versioning
+- [x] Add tests for the non-legacy restrictions / predicates format
+- [x] Proper `PresentationRequest` versioning
 - [ ] Custom(ized) builder for `PresentationRequest` (?)
-- [ ] Handle errors resulting from Nonce creation
+- [x] Handle errors resulting from Nonce creation
             </td>
         </tr>
     </table>
