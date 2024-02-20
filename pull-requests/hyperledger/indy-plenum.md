@@ -176,29 +176,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1651" class=".btn">#1651</a>
-            </td>
-            <td>
-                <b>
-                    Fix fpm installation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-12 21:36:01 +0000 UTC
-    </div>
-</div>
-

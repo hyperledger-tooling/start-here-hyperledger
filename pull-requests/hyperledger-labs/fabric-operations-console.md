@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/630" class=".btn">#630</a>
+            </td>
+            <td>
+                <b>
+                    bump release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+update release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 20:47:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/629" class=".btn">#629</a>
+            </td>
+            <td>
+                <b>
+                    bump release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+update release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-19 19:56:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/628" class=".btn">#628</a>
             </td>
             <td>
