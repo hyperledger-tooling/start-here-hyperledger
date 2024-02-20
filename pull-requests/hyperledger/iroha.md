@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4305" class=".btn">#4305</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: remove `Value` enum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+* break dependency of `Metadata::Value` and `Query::Output` on `Value`
+* remove `Value` enum. It's useless after removal of expressions 
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 11:23:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4304" class=".btn">#4304</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #4303: Fix Docker Compose path for tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description
+Fix Docker Compose path for tests after #4239 merge.
+Change Docker Compose path.
+
+### Linked issue
+
+#4303 #4293 
+
+Closes #4303 #4293 
+
+### Benefits
+
+Make available to run Docker Compose files tests before image pushing.
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 09:15:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4302" class=".btn">#4302</a>
             </td>
             <td>
@@ -300,142 +405,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-02-14 08:31:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4280" class=".btn">#4280</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Fix pprof-rs Dockerfile and workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-
-Fix `Dockerfile.glibc` and `iroha2-profiling-image.yml` profiler image build.
-### Linked issue
-
-#4083 
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 09:57:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4279" class=".btn">#4279</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Fix pprof-rs Dockerfile and workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                Backport of profiler `Dockerfile.glibc` and `iroha2-profiling-image.yml` (check https://github.com/hyperledger/iroha/pull/4220, https://github.com/hyperledger/iroha/pull/4221, https://github.com/hyperledger/iroha/pull/4250).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 09:52:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4276" class=".btn">#4276</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Fix auto-labeling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-- Fix: `api-changes` `config-changes` auto-labeling
-- Refactor: merge the above and `iroha2` into one workflow
-- Feature: notify someone specific based on the above auto-labels
-- Feature: add another group of auto-labels to categorize PRs based on title
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-- Closes #4278
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-- Make PR labels easier to handle
-- Reduce workflows by one
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 06:56:04 +0000 UTC
     </div>
 </div>
 
