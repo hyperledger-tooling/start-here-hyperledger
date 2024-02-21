@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4313" class=".btn">#4313</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4311: fix pre-commit hook
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+the `pre-commit` hook still generates the genesis in `peer` even though it does not exist anymore after the big change in the configuration
+
+### Linked issue
+
+Closes #4311
+
+### Checklist
+
+- [X] I've read `CONTRIBUTING.md`
+- [X] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 07:21:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4310" class=".btn">#4310</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3901: delete NewParameter isi and use only SetParameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+`NewParameter` is only used during genesis generation. it does not make sense to have it as ISI. Now the admin will generate the parameters during configuration and he can give permessions for other users to allow them to put parameters. 
+
+### Linked issue
+
+
+Closes #3901
+
+### Checklist
+
+- [X] I've read `CONTRIBUTING.md`
+- [X] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 06:58:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4309" class=".btn">#4309</a>
             </td>
             <td>
@@ -495,78 +584,6 @@ Less useless error-handling
     </table>
     <div class="right-align">
         Created At 2024-02-15 14:45:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4281" class=".btn">#4281</a>
-            </td>
-            <td>
-                <b>
-                    Changed "some-host" to "localhost" in example/config.docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.x</span>
-            </td>
-            <td>
-                ## Description
-In one of our config file we had database default address: "some-postgres". Those sample files are for Iroha's beginners to run Iroha as fast as possible. Telling them to change sample configs to run Iroha IMO is not helping them. Also it is making our life harder, because many times somebody was asking about "I'm doing as in instruction and it is not working".
-
-What is more - we have few config files in `example/` directory:
-```
-ls config*
-config.docker  config.postgres.sample  config.sample  config-win.sample
-```
-in all of config files the host for DB is `localhost`, only in one of them (which I'm changing now) it is `some-postgres`.
-- https://github.com/hyperledger/iroha/blob/88de1c6ca640eacf563bc24ae05c11dd14403c38/example/config-win.sample#L5
-- https://github.com/hyperledger/iroha/blob/88de1c6ca640eacf563bc24ae05c11dd14403c38/example/config.postgres.sample#L7
-- `config.sample` - this is using RocksDB instead of Postgres
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-1. Easier for Iroha's beginners to run example
-2. Less work for us with explaining to them where to change config files
-3. Consequence in config files
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 08:31:40 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    :construction_worker: Configure dependabot to manage pip dependencies for each plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I notice that the dependabot file only manages github-actions
+
+It makes sense to start defining pip dependency management for each plugin.
+
+This PR just adds daily interval scheduling for each plugin.
+
+This _will_ spam with a lot of new dependabot PRs initially, but I think that's good to get out of the way and start having an automated workflow for dependency management.
+
+___
+
+_**Note**_: this may increase the urgency of more frequent tagged releases. Currently this repo has no tagged releases. This means developers installing from this repo can only point to main, commit hashes, or will have to manage their own fork. 
+
+No tagged releases makes version control harder, and developers pointing to main may get problems if they run an older ACA-Py instance which is not in the automated test workflows. e.g. if the tests run on ACA-Py 0.11, then tests may pass when it causes a dependency conflict in ACA-Py 0.10.
+
+So, if this new dependabot workflow is merged, together with the future dependabot updates, it should probably come with an improved release cycle.
+
+I propose daily releases ... when there are new changes. Which can probably be automated to just publish a tag with that day's date. That way there's better version control for people using these plugins. If something breaks for those pointing to main, they can easily point to an older tag. Not sure what alternative is best, considering each individual plugin will have its own development and update cycle.
+
+These PRs can also be scheduled to come weekly, and then there are weekly releases?
+
+Let me know what you think!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 09:20:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/117" class=".btn">#117</a>
             </td>
             <td>
