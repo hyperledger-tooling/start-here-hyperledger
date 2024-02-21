@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6599" class=".btn">#6599</a>
+            </td>
+            <td>
+                <b>
+                    WIP - DebugOperationTRacer - Halt Reason fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 04:41:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6598" class=".btn">#6598</a>
+            </td>
+            <td>
+                <b>
+                    PR Template updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - replaces comment on PR with template like the one used for opening an issue.
+- makes test workflows manually runnable via workflow_dispatch
+- updates to latest version of gradle build action
+- corrects login to ghcr on nightly builds
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 02:33:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6596" class=".btn">#6596</a>
             </td>
             <td>
@@ -532,34 +588,6 @@ If the block is validated, we will persist the block again for no reason, which 
     </table>
     <div class="right-align">
         Created At 2024-02-14 14:28:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6568" class=".btn">#6568</a>
-            </td>
-            <td>
-                <b>
-                    Add tests for user profiles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                Add tests to ensure that the profiles are sensible and besu will start with each of them
-
-Refs #6323
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 04:25:52 +0000 UTC
     </div>
 </div>
 
