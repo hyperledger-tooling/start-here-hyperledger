@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4690" class=".btn">#4690</a>
+            </td>
+            <td>
+                <b>
+                    Add missing procedures to couchdb_tutorial.rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+This patch adds missing procedures to couchdb_tutorial.rst
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+Resolves #4677
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 05:33:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4689" class=".btn">#4689</a>
             </td>
             <td>
@@ -396,43 +465,6 @@ issue #4008
     </table>
     <div class="right-align">
         Created At 2024-02-14 15:35:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4678" class=".btn">#4678</a>
-            </td>
-            <td>
-                <b>
-                    Switch to bccsp, metrics, flogging in fabric-lib-go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The following packages are being moved from fabric to fabric-lib-go so that they can be shared across fabric and fabric-ca:
-
-- github.com/hyperledger/fabric/bccsp
-- github.com/hyperledger/fabric/common/flogging
-- github.com/hyperledger/fabric/common/metrics (including the gendoc utility)
-
-The [PR](https://github.com/hyperledger/fabric-ca/pull/404) over in fabric-ca finally removes the fabric-ca dependency on core fabric.
-
-This commit updates fabric to use the common code in fabric-lib-go.
-
-For now a temporary branch in fabric-lib-go is used, see the corresponding [commit](https://github.com/hyperledger/fabric-lib-go/commit/cdae4d4a292dbad122b93a2c5c70bc61d846e990).
-After this PR is reviewed and merged fabric-lib-go will be released and the dependency here will be updated to a real versioned release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 02:52:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/776" class=".btn">#776</a>
+            </td>
+            <td>
+                <b>
+                    Changes by create-pull-request action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 02:34:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/775" class=".btn">#775</a>
             </td>
             <td>
@@ -413,32 +439,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-02-14 17:02:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/771" class=".btn">#771</a>
-            </td>
-            <td>
-                <b>
-                    Changes by create-pull-request action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 02:34:15 +0000 UTC
     </div>
 </div>
 

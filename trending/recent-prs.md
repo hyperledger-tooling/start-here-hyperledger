@@ -1,13 +1,13 @@
 
-[27](https://github.com/hyperledger-labs/pdo-contracts/pull/27) Extend the jupyter docker tests to support separate guardian process
+[4690](https://github.com/hyperledger/fabric/pull/4690) Add missing procedures to couchdb_tutorial.rst
 
-[297](https://github.com/hyperledger/fabric-sdk-java/pull/297) Bump org.apache.commons:commons-compress from 1.24.0 to 1.26.0
+[135](https://github.com/hyperledger-labs/hlf-connector/pull/135) Fetch only Org peers for Chaincode operations & Configurable offset reset policy
 
-[1516](https://github.com/hyperledger/besu-docs/pull/1516) Bump ip from 2.0.0 to 2.0.1
+[13](https://github.com/hyperledger-labs/TDIDN/pull/13) Bump axios from 1.5.1 to 1.6.0 in /backend/Holder
 
-[117](https://github.com/hyperledger/aries-acapy-plugins/pull/117) bugfix: fix drpc response to permit empty lists or objects
+[19](https://github.com/hyperledger-labs/learning-tokens/pull/19) Bump axios from 1.5.1 to 1.6.7 in /src/learning-token
 
-[4309](https://github.com/hyperledger/iroha/pull/4309) [feature] #4212: Prevent account registration without signatures
+[6599](https://github.com/hyperledger/besu/pull/6599) WIP - DebugOperationTRacer - Halt Reason fix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
