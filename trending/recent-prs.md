@@ -1,13 +1,13 @@
 
-[4308](https://github.com/hyperledger/iroha/pull/4308) [refactor] #4229: Removed MST aggregation
+[27](https://github.com/hyperledger-labs/pdo-contracts/pull/27) Extend the jupyter docker tests to support separate guardian process
 
-[2801](https://github.com/hyperledger/aries-cloudagent-python/pull/2801) Add anoncreds multitenant endorsement integration tests
+[297](https://github.com/hyperledger/fabric-sdk-java/pull/297) Bump org.apache.commons:commons-compress from 1.24.0 to 1.26.0
 
-[4689](https://github.com/hyperledger/fabric/pull/4689) Allow error to be wrapped
+[1516](https://github.com/hyperledger/besu-docs/pull/1516) Bump ip from 2.0.0 to 2.0.1
 
-[632](https://github.com/hyperledger-labs/fabric-operations-console/pull/632) performance enhancement on service up by flatten validation json conve…
+[117](https://github.com/hyperledger/aries-acapy-plugins/pull/117) bugfix: fix drpc response to permit empty lists or objects
 
-[2800](https://github.com/hyperledger/aries-cloudagent-python/pull/2800) 0.12.0rc1-tweak
+[4309](https://github.com/hyperledger/iroha/pull/4309) [feature] #4212: Prevent account registration without signatures
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    Remove unused dependency on Pillow python package from inference cont…
+                    Extend the jupyter docker tests to support separate guardian process
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 
             </td>
             <td>
-                Remove unused dependency on Pillow Python package while installing inference-contract.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-05 22:53:22 +0000 UTC
+        Created At 2024-02-21 00:24:18 +0000 UTC
     </div>
 </div>
 
