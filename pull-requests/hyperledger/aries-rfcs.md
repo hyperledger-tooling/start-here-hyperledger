@@ -79,17 +79,22 @@ The full list of categorized changes made are included here, with `DISCUSS` anno
     - Status update to Adopted, Clarifications and additional guidance about the handling of minor differences in protocols by implementations.
 - [RFC 0008 Message ID and Threading](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0008-message-id-and-threading/README.me)
     - Status update to Adopted, clarification on having an empty `~thread` on a first message.
-- **DISCUSS** [RFC 0519 Goal Codes](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0519-goal-codes/README.md)
+- **DISCUSS** [RFC 0627 Static Peer DIDs](https://github.com/hyperledger/aries-rfcs/tree/main/features/0627-static-peer-dids/README.md)
+    - Status was recently updated to Retired -- so it makes sense to remove it from the AIP 2.0 list.
+    - Update the status line in the RFC to reflect it has been retired.
+- **DISCUSSED - Good** [RFC 0519 Goal Codes](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0519-goal-codes/README.md)
     - Added some commonly used Goal Codes
-- **DISCUSS** [RFC 0015 Acks](https://github.com/hyperledger/aries-rfcs/tree/main/features/0015-message-types/README.md)
+- **DISCUSSED - Good** [RFC 0015 Acks](https://github.com/hyperledger/aries-rfcs/tree/main/features/0015-message-types/README.md)
     - Clarification that an "Ack" value should not be "Fail" and Acks relationship with RFC 0035 Problem Report
 - **DISCUSS** [RFC 0023 DID Exchange](https://github.com/hyperledger/aries-rfcs/tree/main/features/0023-did-exchange/README.md)
     - Status update to Adopted, added to example the use of a DID Rotate attachment to include a signature on the the DID
     - Title of the RFC is 1.0, and the version does not seem to have been changed, but there is a reference to a 1.1 version with the DID Rotate.
-- **DISCUSS** [RFC 0035 Report Problem](https://github.com/hyperledger/aries-rfcs/tree/main/features/0035-report-problem/README.md)
+- **DISCUSSED - Good** [RFC 0035 Report Problem](https://github.com/hyperledger/aries-rfcs/tree/main/features/0035-report-problem/README.md)
     - Clarification that a `description.code` is required, clarification on conventions for warnings
 - [RFC 0044 DIDComm File and MIME Types](https://github.com/hyperledger/aries-rfcs/tree/main/features/0044-didcomm-file-and-mime-types/README.md)
     - Clarifications on fallbacks for the mime types and why, and on using JWEs.
+- [RFC 0211 Route Coordination](https://github.com/hyperledger/aries-rfcs/tree/main/features/0211-route-coordination/README.md)
+    - Adds a comma to the example, correcting a typo.
 - [RFC 0434 Out of Band](https://github.com/hyperledger/aries-rfcs/tree/main/features/0434-outofband/README.md)
     - Status update to Adopted, clarification that did:peer:2 can be used for reuse.
 - [RFC 0592 Indy Attachments](https://github.com/hyperledger/aries-rfcs/tree/main/features/0592-indy-attachments/README.md)
@@ -99,23 +104,23 @@ The full list of categorized changes made are included here, with `DISCUSS` anno
 
 ## Not Updated
 
-- **DISCUSS** [RFC 0211 Route Coordination](https://github.com/hyperledger/aries-rfcs/tree/main/features/0211-route-coordination/README.md)
-    - Adds a `pagination` item to the message -- without a version change in the protocol.
-- **DISCUSS** [RFC 0453 Issue Credential v2](https://github.com/hyperledger/aries-rfcs/tree/main/features/0453-issue-credential-v2/README.md)
+- **DISCUSSED - Good** [RFC 0453 Issue Credential v2](https://github.com/hyperledger/aries-rfcs/tree/main/features/0453-issue-credential-v2/README.md)
     - Status update to Adopted, but applies to v2.2
-- **DISCUSS** [RFC 0454 Present Proof v2](https://github.com/hyperledger/aries-rfcs/tree/main/features/0454-present-proof-v2/README.md)
+- **DISCUSSED - Good** [RFC 0454 Present Proof v2](https://github.com/hyperledger/aries-rfcs/tree/main/features/0454-present-proof-v2/README.md)
     - Status update to Adopted, but applies to v2.2
 
 ## Removed from AIP 2.0
 
-- **DISCUSS** [RFC 0627 Static Peer DIDs](https://github.com/hyperledger/aries-rfcs/tree/main/features/0627-static-peer-dids/README.md)
-    - Status update to Retired -- removed from the AIP 2.0 list.
-    - Update the status line in the RFC to reflect it has been retired.
-- **DISCUSS** [RFC 0587 Encryption Envelope V2](https://github.com/hyperledger/aries-rfcs/tree/main/features/0587-encryption-envelope-v2/README.md)
-    - Remove from AIP 2.0 as not needed until we are transitioning to DIDComm V2
-- **DISCUSS** [RFC 0317 Please ACK](https://github.com/hyperledger/aries-rfcs/tree/main/features/0317-please-ack/README.md)
-    - Remove from AIP 2.0 as not overly complicated and not helpful. Better to be implemented on a per protocol basis as needed.
+- **DISCUSSED - Good** [RFC 0587 Encryption Envelope V2](https://github.com/hyperledger/aries-rfcs/tree/main/features/0587-encryption-envelope-v2/README.md)
+    - Remove from AIP 2.0 as not needed until we are transitioning to DIDComm V2.
+- **DISCUSSED - Good** [RFC 0317 Please ACK](https://github.com/hyperledger/aries-rfcs/tree/main/features/0317-please-ack/README.md)
+    - Remove from AIP 2.0 as overly complicated and not helpful. Better to be implemented on a per protocol basis as needed.
+    - PR also marks the RFC as "RETIRED" and provides the details about why it was retired, with pointers to the details about a design and code that attempted to implement the functionality, and illustrates why the attempt do not meet the intention of the RFC.
 
+I think leaving the name "AIP 2.0" is acceptable because:
+
+- No one (AFAWK) had implemented the RFCs to be removed.
+- Bumping the version would cause more confusion than it is worth.
             </td>
         </tr>
     </table>
