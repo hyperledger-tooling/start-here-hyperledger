@@ -35,6 +35,8 @@ Moreover:
 * Removed `CredentialDefConfig` to avoid confusion with a similar struct in `anoncreds_types`
 * Removed `update_state` method of `Schema` "primitive", a preliminary step to removing the struct altogether
 * Removed unused errors from `anoncreds_types`
+* Removed `ConversionError` and `ValidationError` from `anoncreds_types`
+* Pruned `anoncreds_types::Error`
 
 - [x] Add tests for the non-legacy restrictions / predicates format
 - [x] Proper `PresentationRequest` versioning

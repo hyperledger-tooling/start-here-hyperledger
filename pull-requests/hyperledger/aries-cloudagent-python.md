@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2803" class=".btn">#2803</a>
+            </td>
+            <td>
+                <b>
+                    Get and create anoncreds profile when using anoncreds subwallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should fix https://github.com/hyperledger/aries-cloudagent-python/issues/2792, unless there's something I'm not aware of. 
+
+Start the multitenant admin with
+``` yml
+wallet-type: askar-anoncreds
+multitenancy-config: wallet_type=askar-profile
+wallet-storage-type: default
+```
+and create tenant with 
+
+``` json
+{
+  "extra_settings": {},
+  "key_management_mode": "managed",
+  "label": "Tenant 0",
+  "wallet_dispatch_type": "default",
+  "wallet_key": "tenant_key_0",
+  "wallet_name": "tenant_0",
+  "wallet_type": "askar-anoncreds"
+}
+```
+
+Can create the ledger objects through the api. Before the change was get wrong profile error.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 21:30:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2802" class=".btn">#2802</a>
+            </td>
+            <td>
+                <b>
+                    Add index.html redirector to gh-pages branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 20:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2801" class=".btn">#2801</a>
             </td>
             <td>
@@ -34,6 +108,10 @@ This PR will just add integration tests for this scenario.
 I think it's important to have the feature https://github.com/hyperledger/aries-cloudagent-python/issues/2786 available for multitenancy going forward as this is where some of my confusion came from. When I first thought this didn't work, the author tenant wasn't setup completely. (It's pretty much finished other than some unit testing problems)
 
 The other issue somewhat related to this issue is https://github.com/hyperledger/aries-cloudagent-python/issues/2792 but work can be done off of this issue as it is more relevant.
+
+I'm thinking about how this is going to work with the admin agent on `askar` and a tenant is on `askar-anoncreds` and vice versa, and how this is going to work with the upgrade script etc. Currently this doesn't work because the wallet type of the admin agent is what decides what endpoints are available.
+
+I don't think these questions are related to this ticket though so the tests should be enough to close this issue.
             </td>
         </tr>
     </table>
@@ -201,7 +279,34 @@ For background information you can read [this closed issue on the pyld repo](htt
                 
             </td>
             <td>
-                Having trouble with unit test  warnings. Leaving this for a bit and focusing on https://github.com/hyperledger/aries-cloudagent-python/issues/2767 for now.
+                This allows tenant author setup with an endorser to be automated through the api with the same configs as starting an author agent from the command line. It creates a util with the existing startup code and calls it from the `create_wallet` endpoint. I think this really helps simplify creating author tenants.
+
+example:
+``` json
+{
+  "extra_settings": {
+    "endorser-alias": "endorser",
+    "endorser-protocol-role": "author",
+    "auto-request-endorsement": true,
+    "auto-write-transactions": true,
+    "endorser-public-did": "Aedt1jccq9Do7G9fKp7yHT",
+    "auto-promote-author-did": true,
+    "auto-create-revocation-transactions": true,
+    "endorser-invitation": "http://localhost:9030?oob=eyJAdHlwZSI6ICJodHRwczovL2RpZGNvbW0ub3JnL291dC1vZi1iYW5kLzEuMS9pbnZpdGF0aW9uIiwgIkBpZCI6ICIxZTEyZjY0ZC05MWYwLTRlM2YtYmZmMi1jYzk5NjkxMDNhOWMiLCAibGFiZWwiOiAiZW5kb3JzZXIiLCAiaGFuZHNoYWtlX3Byb3RvY29scyI6IFsiaHR0cHM6Ly9kaWRjb21tLm9yZy9kaWRleGNoYW5nZS8xLjAiXSwgInNlcnZpY2VzIjogW3siaWQiOiAiI2lubGluZSIsICJ0eXBlIjogImRpZC1jb21tdW5pY2F0aW9uIiwgInJlY2lwaWVudEtleXMiOiBbImRpZDprZXk6ejZNa3RFajlkdFJ3UXFzRllWUGpTeEZKYlJHZkN2emExUWoxcU5USjE3TWFza1RqI3o2TWt0RWo5ZHRSd1Fxc0ZZVlBqU3hGSmJSR2ZDdnphMVFqMXFOVEoxN01hc2tUaiJdLCAic2VydmljZUVuZHBvaW50IjogImh0dHA6Ly9sb2NhbGhvc3Q6OTAzMCJ9XX0="
+  },
+  "key_management_mode": "managed",
+  "label": "tenant-0",
+  "wallet_dispatch_type": "default",
+  "wallet_key": "tenant-key-0",
+  "wallet_name": "tenant-0",
+  "wallet_type": "askar-anoncreds"
+}
+```
+
+I had to fix what I believe was a bug with creating the connection for the tenant from the admin context in `aries_cloudagent/protocols/didexchange/v1_0/manager.py` where connection info would be saved for the wrong profile for the responder.
+
+
+ 
             </td>
         </tr>
     </table>
@@ -1107,38 +1212,6 @@ _Description has been truncated_
     </table>
     <div class="right-align">
         Created At 2024-02-14 17:00:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2782" class=".btn">#2782</a>
-            </td>
-            <td>
-                <b>
-                    Anoncreds revoke and publish-revocations endorsement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Opening for visibility. I'm still going to manually test more but the Integration tests are passing for endorsement and publishing revocations.
-
-One area of confusion for me is what happens with the local wallet verse the ledger. Write now an endorsement transaction is created when the `update_revocation_list` is called with changes. Then the local wallet is updated. At the same time the endorsement manager receives the `114` event and notifies the anoncreds `RevocationListFinished` event handler. It checks if the wallet contains a record for the list via `rev_reg_def_id` and if it doesn't it creates the record. If it does then it assumes the record has been updated already and does nothing. 
-
-I was trying some other stuff like deleting the record and creating a new one with a `wait` state but couldn't decide if this was necessary, or something we wanted to do.
-
-I deleted the `/anoncreds/revoke` and `/anoncreds/publish-revocation` endpoints and instead just have the `/revocation/revoke` and `/revocation/publish-revocation`. I thought this was appropriate because the revocation endpoint are all loaded for anoncreds specifically and the rest of the anoncreds endpoints are to do with creating objects. I changed the params for requesting a transaction manually to use the body options and updated the integration tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-13 21:47:00 +0000 UTC
     </div>
 </div>
 

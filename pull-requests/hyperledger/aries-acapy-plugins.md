@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/117" class=".btn">#117</a>
+            </td>
+            <td>
+                <b>
+                    bugfix: fix drpc response to permit empty lists or objects
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Akiff Manji <akiff.manji@quartech.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-20 22:05:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/116" class=".btn">#116</a>
             </td>
             <td>
