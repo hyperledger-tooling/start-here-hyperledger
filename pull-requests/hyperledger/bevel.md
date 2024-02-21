@@ -48,7 +48,6 @@ These changes make deploying and managing the Quorum DLT network smoother with H
 Other Improvements:
 1. Added error handling to ensure clean uninstallation of the besu-genesis and besu-tlscert-gen charts.
 2. Updated the README's API Call section.
-3. Addressed minor issues and fixes around tessera and tls.
 ```
 
 fixes #2484

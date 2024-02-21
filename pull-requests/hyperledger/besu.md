@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    WIP - DebugOperationTRacer - Halt Reason fix
+                    Ensure halt reasons in TraceFrames in `DebugOperationTracer.tracePostExecution`
                 </b>
             </td>
         </tr>
@@ -29,6 +29,70 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 ## PR description
 
+This PR fixes the debug trace series generation for `opcodes` that do not set an explicit `ExceptionalHaltReason` in the `OperationResult`. Previously, operations like `dup5` could lead to an exceptional halt (e.g., due to running out of gas) without this being accurately captured in the trace output, as the halt reason was not set explicitly. This situation affected the `FlatTraceGenerator's` ability to accurately reflect halt conditions and `subtrace` counts.
+
+The `DebugOperationTracer.tracePostExecution` method has been updated to check the `MessageFrame` for an exceptional halt reason if it's absent in the `OperationResult`. This adjustment aligns with the existing approach used by the `StandardJsonTracer`
+
+The trace output for the transaction referenced in the [issue](https://github.com/hyperledger/besu/issues/6591) now accurately displays the correct halt reason and appropriately counts subtraces.
+
+```diff
+{
+   "jsonrpc":"2.0",
+   "id":1,
+   "result":[
+      {
+         "action":{
+            "callType":"call",
+            "from":"0xd8422593f16cd6d65c3f4cfa28b5b5a862037123",
+            "gas":"0x1a18",
+            "input":"0x5b7d7482000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000004034313465376364326235656636313337656166383661396134653064666430333536313063323562323536333031633662396361356361313531653233373965000000000000000000000000000000000000000000000000000000000000004034646163313738646333376331303736346235643862373862633135323635366437316662343865626537396361613835343437336530663031313132313732",
+            "to":"0xd1a3abf42f9e66be86cfdea8c5c2c74f041c5e14",
+            "value":"0x0"
+         },
+         "blockHash":"0x2345afc92f072449294eba81a33116da5d014e74ecbe5db53e5d72b40145976f",
+         "blockNumber":2160351,
+-        "result": {
+-           "gasUsed": "0x0",
+-           "output": "0x"
+-        },
+-        "subtraces": 0,
++       "error":"Out of gas",
++       "subtraces":1,
+        "traceAddress":[
+            
+         ],
+         "transactionHash":"0xea89b8082ab1e9e8f0a025ead197ce8e2cdf4b1212d4ec13a91e97570485a053",
+         "transactionPosition":0,
+         "type":"call"
+      },
+      {
+         "action":{
+            "callType":"delegatecall",
+            "from":"0xd1a3abf42f9e66be86cfdea8c5c2c74f041c5e14",
+            "gas":"0x6dd",
+            "input":"0x5b7d7482000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000004034313465376364326235656636313337656166383661396134653064666430333536313063323562323536333031633662396361356361313531653233373965000000000000000000000000000000000000000000000000000000000000004034646163313738646333376331303736346235643862373862633135323635366437316662343865626537396361613835343437336530663031313132313732",
+            "to":"0x564477025731ee7197eecf2c4a0d0106cc3e4572",
+            "value":"0x0"
+         },
+         "blockHash":"0x2345afc92f072449294eba81a33116da5d014e74ecbe5db53e5d72b40145976f",
+         "blockNumber":2160351,
+-        "result": {
+-           "gasUsed": "0xffffffffffffece0",
+-            "output": "0x"
+-         },
++       "error":"Out of gas",
+         "subtraces":0,
+         "traceAddress":[
+            0
+         ],
+         "transactionHash":"0xea89b8082ab1e9e8f0a025ead197ce8e2cdf4b1212d4ec13a91e97570485a053",
+         "transactionPosition":0,
+         "type":"call"
+      }
+   ]
+}
+
+```
             </td>
         </tr>
     </table>
