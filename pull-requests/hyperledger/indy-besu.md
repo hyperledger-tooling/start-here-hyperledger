@@ -594,31 +594,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-besu/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Add Dependabot configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
-  - Check for updates once a week.
-  - Group all updates into a single PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 17:57:08 +0000 UTC
-    </div>
-</div>
-

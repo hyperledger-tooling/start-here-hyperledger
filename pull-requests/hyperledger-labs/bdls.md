@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    fix conflect
+                    Update CONTRIBUTING.md
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/bdls
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-14 16:48:10 +0000 UTC
+        Created At 2024-02-21 17:24:09 +0000 UTC
     </div>
 </div>
 

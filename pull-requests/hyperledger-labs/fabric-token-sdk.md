@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/549" class=".btn">#549</a>
+            </td>
+            <td>
+                <b>
+                    Simplify the network service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR aims to simplify the network service to the bare minimum and avoid any reference to underlying backend concepts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 17:41:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/548" class=".btn">#548</a>
             </td>
             <td>

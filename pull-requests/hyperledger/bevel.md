@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2515" class=".btn">#2515</a>
+            </td>
+            <td>
+                <b>
+                    feat(fabric): Fabric deployment without channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Primary Changes**
+
+1. The roles related to channel have been removed from the site.yaml file.
+2. The create/configtx, create/channel_artifacts and create/genesis" roles aren't executed by version 2.5.4.
+3. Channel creation can be done afterwards by running the add-new-channel.yaml playbook.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 15:16:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2512" class=".btn">#2512</a>
             </td>
             <td>

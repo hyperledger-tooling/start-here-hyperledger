@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6600" class=".btn">#6600</a>
+            </td>
+            <td>
+                <b>
+                    Gha docker pull
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [x] locally run all integration tests via: `./gradlew integrationTest`
+- [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+Now appends the correct docker pull command to the release notes, i.e.
+
+`docker pull ghcr.io/hyperledger/besu:24.2.0-RC1`
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 16:17:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6599" class=".btn">#6599</a>
             </td>
             <td>
@@ -582,76 +631,6 @@ Apply v 13.1 of the reference tests, includes test related fixes around initing 
     </table>
     <div class="right-align">
         Created At 2024-02-14 23:36:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6572" class=".btn">#6572</a>
-            </td>
-            <td>
-                <b>
-                    add curl in base openjdk-latest dockerfile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-As a user of the besu docker image I would like to have curl available in the running container.
-
-NB: teku include curl in their image https://github.com/Consensys/teku/blob/b544b9ebe589e78fa2f075ae389b041dc2871ea2/docker/jdk21/Dockerfile#L17
-
-## Fixed Issue(s)
-fixes #6571
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 15:12:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6570" class=".btn">#6570</a>
-            </td>
-            <td>
-                <b>
-                    remove useless persist during backward sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-During backward sync we call validateAndProcessBlock, which will process the block, update the state, and calculate the root hash.
-
-If the block is validated, we will persist the block again for no reason, which will lead to a new unnecessary calculation of rootHash. Removing this second call should really significantly improve performance.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 14:28:29 +0000 UTC
     </div>
 </div>
 

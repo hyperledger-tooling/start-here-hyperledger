@@ -907,31 +907,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1091" class=".btn">#1091</a>
-            </td>
-            <td>
-                <b>
-                    chore: add Dependabot configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Configure Dependabot to automatically maintain dependencies for GitHub Actions.
-  - Check for updates once a week.
-  - Group all updates into a single PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 17:15:22 +0000 UTC
-    </div>
-</div>
-
