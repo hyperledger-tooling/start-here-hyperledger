@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6605" class=".btn">#6605</a>
+            </td>
+            <td>
+                <b>
+                    During version check, create data dir if it doesn't exist
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Resolves breaking change in PR https://github.com/hyperledger/besu/pull/6307 that blocks Besu startup if the data dir doesn't exist already
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 08:23:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6604" class=".btn">#6604</a>
             </td>
             <td>
@@ -595,41 +622,6 @@ fixes #6579
     </table>
     <div class="right-align">
         Created At 2024-02-16 03:47:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6578" class=".btn">#6578</a>
-            </td>
-            <td>
-                <b>
-                    fix: Discovery not taking nat manager port-mapping into account
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Proposal to fix the issue i reported in #6573 
-* `PingPacketData` should take into account the NATManager portMapping for the discoveryPort.
-* Take into account the `udpPort` from the `PingPacketData` if the `host` is also taken from there.
-
-## Fixed Issue(s)
-fixes: https://github.com/hyperledger/besu/issues/6573
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 08:43:58 +0000 UTC
     </div>
 </div>
 
