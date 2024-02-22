@@ -297,7 +297,7 @@ Tests will be added in a separate PR withing this epic
             </td>
             <td>
                 <b>
-                    ATL-6026: Update documentation
+                    feat: Update documentation
                 </b>
             </td>
         </tr>

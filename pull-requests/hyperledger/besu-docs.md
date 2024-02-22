@@ -139,29 +139,3 @@ Previews:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1513" class=".btn">#1513</a>
-            </td>
-            <td>
-                <b>
-                    Fix example for rpc-http-cors-origins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Minor fix for `--rpc-http-cors-origins` example with better formatting.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 06:05:51 +0000 UTC
-    </div>
-</div>
-
