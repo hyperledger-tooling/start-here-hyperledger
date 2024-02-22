@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/298" class=".btn">#298</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies to address CVE-2024-25710, CVE-2024-26308
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Address vulnerabilities in Apache commons-compress.
+- Fix some minor compilation issues following dependency updates.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-21 23:15:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/297" class=".btn">#297</a>
             </td>
             <td>

@@ -165,29 +165,3 @@ Previews:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1511" class=".btn">#1511</a>
-            </td>
-            <td>
-                <b>
-                    Remove deprecated EA option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #1506 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 21:11:53 +0000 UTC
-    </div>
-</div>
-

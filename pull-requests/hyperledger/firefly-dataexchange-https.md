@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/77" class=".btn">#77</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md and CODEOWNERS
+                    Add unit tests for blobs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
                 
             </td>
             <td>
-                <nil>
+                With the addition of these tests statement coverage is over 50%
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 20:31:39 +0000 UTC
+        Created At 2024-02-21 20:08:06 +0000 UTC
     </div>
 </div>
 
