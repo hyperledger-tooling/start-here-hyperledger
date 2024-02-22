@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">meeting-minutes</span>
             </td>
             <td>
                 <nil>

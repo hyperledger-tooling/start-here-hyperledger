@@ -27,8 +27,10 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                - changed gui framework to react
-
+                - changed gui framework to react because it is more common
+  and more friendly for newcomers.
+- routing moved from src/pages/Pages to src/main, beside that
+  only refactoring were made
             </td>
         </tr>
     </table>
