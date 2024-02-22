@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4692" class=".btn">#4692</a>
+            </td>
+            <td>
+                <b>
+                    BFT: configure orderer replication policy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Change-Id: I89596f5d10e636e499c36799472e593582847a9e
+
+#### Type of change
+
+- New feature
+
+#### Description
+
+Add a replication policy to the orderer.yaml that allows a BFT orderer to choose whethet it uses the "simple" synchronizer which contacts a single target orderer at a time or the BFT "consensus" synchronizer which contacts all target orderers and is resistant to censorship.
+
+#### Related issues
+
+Issue #4566 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 14:25:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4690" class=".btn">#4690</a>
             </td>
             <td>

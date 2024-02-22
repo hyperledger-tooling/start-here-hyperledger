@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
             </td>
             <td>
                 <b>
-                    Removing Dind Tests
+                    Removing Dind References From CodeBase
                 </b>
             </td>
         </tr>

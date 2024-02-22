@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6606" class=".btn">#6606</a>
+            </td>
+            <td>
+                <b>
+                    repo owner didn't include repo name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor fix for the docker pull command appended to the release notes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 15:39:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6605" class=".btn">#6605</a>
             </td>
             <td>

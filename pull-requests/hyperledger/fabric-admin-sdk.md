@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/177" class=".btn">#177</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/178" class=".btn">#178</a>
             </td>
             <td>
                 <b>
-                    Bump google.golang.org/grpc from 1.61.0 to 1.61.1
+                    Bump google.golang.org/grpc from 1.61.1 to 1.62.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,20 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.61.0 to 1.61.1.
+                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.61.1 to 1.62.0.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
 <blockquote>
-<h2>Release 1.61.1</h2>
+<h2>Release 1.62.0</h2>
+<h1>New Features</h1>
+<ul>
+<li>grpc: Add StaticMethod CallOption as a signal to stats handler that a method is safe to use as an instrument key (<a href="https://redirect.github.com/grpc/grpc-go/issues/6986">#6986</a>)</li>
+</ul>
+<h1>Behavior Changes</h1>
+<ul>
+<li>grpc: Return canonical target string from ClientConn.Target() and resolver.Address.String() (<a href="https://redirect.github.com/grpc/grpc-go/issues/6923">#6923</a>)</li>
+</ul>
 <h1>Bug Fixes</h1>
 <ul>
 <li>server: wait to close connection until incoming socket is drained (with timeout) to prevent data loss on client-side (<a href="https://redirect.github.com/grpc/grpc-go/issues/6977">#6977</a>)
@@ -41,21 +49,53 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
 </ul>
 </li>
 </ul>
+<h1>Performance Improvements</h1>
+<ul>
+<li>*: Allow building without <code>x/net/trace</code> by using <code>grpcnotrace</code> to enable dead code elimination (<a href="https://redirect.github.com/grpc/grpc-go/issues/6954">#6954</a>)
+<ul>
+<li>Special Thanks: <a href="https://github.com/hugelgupf"><code>@​hugelgupf</code></a></li>
+</ul>
+</li>
+<li>rand: improve performance and simplify implementation of <code>grpcrand</code> by adopting <code>math/rand</code>'s top-level functions for go version 1.21.0 and newer. (<a href="https://redirect.github.com/grpc/grpc-go/issues/6925">#6925</a>)
+<ul>
+<li>Special Thanks: <a href="https://github.com/kmirzavaziri"><code>@​kmirzavaziri</code></a></li>
+</ul>
+</li>
+</ul>
+<h1>Dependencies</h1>
+<ul>
+<li>*: Use google.golang.org/protobuf/proto instead of github.com/golang/protobuf. (<a href="https://redirect.github.com/grpc/grpc-go/issues/6919">#6919</a>)
+<ul>
+<li>Special Thanks: <a href="https://github.com/Clement-Jean"><code>@​Clement-Jean</code></a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+The above change in proto library usage introduces a minor behavior change within those libraries.  The old <code>github.com/golang/protobuf</code> library would error if given a <code>nil</code> message to <code>Marshal</code>, while the new <code>google.golang.org/protobuf</code> library will successfully output zero bytes in this case.  This means server method handlers that did <code>return nil, nil</code> will now return an empty message and no error, while it used to return an error.  This also affects the client side, where clients sending <code>nil</code> messages used to fail without sending the RPC, and now they will send an empty message.</p>
+</blockquote>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/grpc/grpc-go/commit/c6e7f04eb9a3d9535c055b68aea36b723e46d470"><code>c6e7f04</code></a> Change version to 1.61.1 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6981">#6981</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/dbd4cbcef164059f14ecc355d8a22b58c02a7fb8"><code>dbd4cbc</code></a> cherry-pick <a href="https://redirect.github.com/grpc/grpc-go/issues/6977">#6977</a> to 1.61.x release branch (<a href="https://redirect.github.com/grpc/grpc-go/issues/6980">#6980</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/57ed608e2fd7f49761db00d3710ba881cb0944c9"><code>57ed608</code></a> Change version to 1.61.1-dev (<a href="https://redirect.github.com/grpc/grpc-go/issues/6937">#6937</a>)</li>
-<li>See full diff in <a href="https://github.com/grpc/grpc-go/compare/v1.61.0...v1.61.1">compare view</a></li>
+<li><a href="https://github.com/grpc/grpc-go/commit/d715b2ef0602fe2133221519cba0642ac282cc3f"><code>d715b2e</code></a> Change version to 1.62.0 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6994">#6994</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/d706a42d29ab785cc1ad86a09fe828ef0a196f26"><code>d706a42</code></a> cherry-pick <a href="https://redirect.github.com/grpc/grpc-go/issues/6926">#6926</a> to 1.62 release branch (<a href="https://redirect.github.com/grpc/grpc-go/issues/6986">#6986</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/8a4ca0cc41ceb5bd0763c865cc4094650df9f95f"><code>8a4ca0c</code></a> cherry-pick <a href="https://redirect.github.com/grpc/grpc-go/issues/6977">#6977</a> to 1.62.x release branch (<a href="https://redirect.github.com/grpc/grpc-go/issues/6979">#6979</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/d41b01db97ca2e3627b2c9949fffe8f152a4255d"><code>d41b01d</code></a> encoding: fix typo (<a href="https://redirect.github.com/grpc/grpc-go/issues/6966">#6966</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/c2b50ee081682eca4b995d2fb79e642019f78aea"><code>c2b50ee</code></a> deps: fix backwards compatibility with encoding (<a href="https://redirect.github.com/grpc/grpc-go/issues/6965">#6965</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/05b4a8b8f779518bb0119042c8c5806fa33d2184"><code>05b4a8b</code></a> Revert &quot;xds/googlec2p: use xdstp names for LDS (<a href="https://redirect.github.com/grpc/grpc-go/issues/6949">#6949</a>)&quot; (<a href="https://redirect.github.com/grpc/grpc-go/issues/6964">#6964</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/03e76b3d2a467a6deebabe2b323780a1890e36d4"><code>03e76b3</code></a> grpc: add ability to compile with or without tracing (<a href="https://redirect.github.com/grpc/grpc-go/issues/6954">#6954</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/84b85babc00b4b8460e53b6ee110bfb49e9311cf"><code>84b85ba</code></a> xds/googledirectpath: Check if ipv6 address is non empty (<a href="https://redirect.github.com/grpc/grpc-go/issues/6959">#6959</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/6f63f05a5b98c484020c143d69450e8679603953"><code>6f63f05</code></a> internal/grpcrand: use Go top-level random functions for go1.21+ (<a href="https://redirect.github.com/grpc/grpc-go/issues/6925">#6925</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/cd69b5d0af6bd46ca17b94acaa09256a863ac277"><code>cd69b5d</code></a> .*: fix minor linter issues (<a href="https://redirect.github.com/grpc/grpc-go/issues/6958">#6958</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.61.1...v1.62.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.61.0&new-version=1.61.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.61.1&new-version=1.62.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -87,7 +127,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-14 14:08:51 +0000 UTC
+        Created At 2024-02-22 14:41:41 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    Run general upgrade on all plugins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                General upgrade on all plugins
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 16:59:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/161" class=".btn">#161</a>
             </td>
             <td>
