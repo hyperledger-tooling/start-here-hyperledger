@@ -26,7 +26,19 @@ permalink: /releases/hyperledger/besu
                 </span>
             </td>
             <td>
-                ### Breaking Changes
+                ## 24.2.0-RC1 
+
+**24.2.0 is Dencun-fork-ready** for Ethereum Mainnet, which happens on March 13th! **Please make sure to upgrade your node to at least version 24.1.2 before that time, or your node will no longer follow the chain.** This is a large release with many breaking changes to Besu configurations. Please **carefully** read the following notes before you update your node. 
+
+Besu now has new, sensible defaults for public networks. BONSAI and SNAP are now default, so check your configuration if you are NOT using these as you upgrade. The database also more gracefully exits when starting up with the other storage format. 
+
+Bonsai is also getting an upgrade to reduce overall storage usage! With a new option to limit accumulation of trie logs, you should save 3GB on state growth per week, with an option to remove old trie logs from your database. See this PR for more details [#5390](https://github.com/hyperledger/besu/issues/5390). There are a few other improvements to reduce Besu's size on disk when using Bonsai. 
+
+With this version, QBFT now supports Shanghai OpCodes and contracts! Besu now also includes an option to restrict downgrades. This can be enabled in your config. 
+
+Lastly, this version includes several performance improvements to the EVM and execution performance, as well as memory usage improvements in the high-spec flag. There are new APIs for Dencun and several bug fixes. See the notes below for more details. 
+
+### Breaking Changes
 - SNAP - Snap sync is now the default for named networks [#6530](https://github.com/hyperledger/besu/pull/6530)
   - if you want to use the previous default behavior, you'll need to specify `--sync-mode=FAST`
 - BONSAI - Default data storage format is now Bonsai [#6536](https://github.com/hyperledger/besu/pull/6536)
@@ -46,7 +58,7 @@ permalink: /releases/hyperledger/besu
 - `--Xp2p-peer-lower-bound` is deprecated. [#6501](https://github.com/hyperledger/besu/pull/6501)
 
 ### Upcoming Breaking Changes
-- `--Xbonsai-limit-trie-logs-enabled` will be removed. You will need to use `--bonsai-limit-trie-logs-enabled` instead. Additionally, this limit will change to be enabled by default.
+- In a future release, `--Xbonsai-limit-trie-logs-enabled` will be renamed to `--bonsai-limit-trie-logs-enabled` instead. Additionally, this limit will change to be enabled by default.
   - If you do not want the limit enabled (eg you have `--bonsai-historical-block-limit` set < 512), you need to explicitly disable it using `--bonsai-limit-trie-logs-enabled=false` or increase the limit. [#6561](https://github.com/hyperledger/besu/pull/6561)
 
 ### Additions and Improvements
@@ -54,8 +66,10 @@ permalink: /releases/hyperledger/besu
 - Add `OperationTracer.tracePrepareTransaction`, where the sender account has not yet been altered[#6453](https://github.com/hyperledger/besu/pull/6453)
 - Improve the high spec flag by limiting it to a few column families [#6354](https://github.com/hyperledger/besu/pull/6354)
 - Log blob count when importing a block via Engine API [#6466](https://github.com/hyperledger/besu/pull/6466)
-- Introduce `--Xbonsai-limit-trie-logs-enabled` experimental feature which by default will only retain the latest 512 trie logs, saving about 3GB per week in database growth [#5390](https://github.com/hyperledger/besu/issues/5390)
-- Introduce `besu storage x-trie-log prune` experimental offline subcommand which will prune all redundant trie logs except the latest 512 [#6303](https://github.com/hyperledger/besu/pull/6303)
+- Introduce `--Xbonsai-limit-trie-logs-enabled` experimental feature which by default will only retain the latest 512 trie logs, saving about 3GB per week in database growth [#5390](https://github.com/hyperledger/besu/issues/5390) 
+  - See https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai for more info
+- Introduce `besu storage x-trie-log prune` experimental offline subcommand which will prune all redundant trie logs except the latest 512 [#6303](https://github.com/hyperledger/besu/pull/6303)  
+  - See https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai for more info
 - Improve flat trace generation performance [#6472](https://github.com/hyperledger/besu/pull/6472)
 - SNAP and CHECKPOINT sync - early access flag removed so now simply SNAP and CHECKPOINT [#6405](https://github.com/hyperledger/besu/pull/6405)
 - X_SNAP and X_CHECKPOINT are marked for deprecation and will be removed in 24.4.0
@@ -91,7 +105,7 @@ permalink: /releases/hyperledger/besu
 44011cf63e0f2d460299144510dc736f3913807580cd4b957b6c274d4dee3f7c  besu-24.2.0-RC1.tar.gz
 00aa0e37c0fd78939345c85cc53ca11e5e11df25735b27856c91c700b8c78532  besu-24.2.0-RC1.zip
 
-`docker pull ghcr.io/hyperledger:24.2.0-RC1`
+`docker pull ghcr.io/hyperledger/besu:24.2.0-RC1`
 
             </td>
         </tr>
