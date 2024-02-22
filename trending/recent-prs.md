@@ -1,13 +1,13 @@
 
-[6604](https://github.com/hyperledger/besu/pull/6604) [MINOR] Rotate changelog since 24.2.0-RC1 has been cut
+[4319](https://github.com/hyperledger/iroha/pull/4319) [feature] #3660: Add Numeric type
 
-[253](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/253) Use custom errors instead of string error
+[299](https://github.com/hyperledger/fabric-sdk-java/pull/299) Dependency updates
 
-[22](https://github.com/hyperledger/aries-framework-kotlin/pull/22) Fix tag to version conversion
+[905](https://github.com/hyperledger-labs/open-enterprise-agent/pull/905) fix: correct the config environment variable name
 
-[96](https://github.com/hyperledger/fabric-chaincode-go/pull/96) Bump google.golang.org/grpc from 1.54.0 to 1.62.0
+[550](https://github.com/hyperledger-labs/fabric-token-sdk/pull/550) identitydb
 
-[6603](https://github.com/hyperledger/besu/pull/6603) remove unnecessary PoS checkpoint methods and variables
+[1471](https://github.com/hyperledger/firefly/pull/1471) Update webhook docs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

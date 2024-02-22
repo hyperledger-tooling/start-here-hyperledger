@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1131" class=".btn">#1131</a>
+            </td>
+            <td>
+                <b>
+                    fix: specify a tag for napi-rs image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                should fix https://github.com/hyperledger/aries-vcx/actions/runs/8000705387/job/21850571000
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 07:41:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1130" class=".btn">#1130</a>
             </td>
             <td>

@@ -108,34 +108,3 @@ https://github.com/hyperledger/besu/pull/6536
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1514" class=".btn">#1514</a>
-            </td>
-            <td>
-                <b>
-                    Document profile files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Document `--profile` CLI option and add how-to page on using profile files. Slight updates to the "Use a configuration file" page. Fixes #1512.
-
-Previews:
-- `--profile` documentation: https://besu-docs-qvq914ru4-hyperledger.vercel.app/development/public-networks/reference/cli/options#profile
-- Use a configuration file: https://besu-docs-qvq914ru4-hyperledger.vercel.app/development/public-networks/how-to/use-configuration-file
-- Use a profile file: https://besu-docs-qvq914ru4-hyperledger.vercel.app/development/public-networks/how-to/use-configuration-file/profile-file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 07:43:49 +0000 UTC
-    </div>
-</div>
-
