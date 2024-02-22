@@ -96,29 +96,3 @@ Fixed it by using 1.21-alpine3.19 as for example for [tezos connector](https://g
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/109" class=".btn">#109</a>
-            </td>
-            <td>
-                <b>
-                    Propagate block number to eth_call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We had done the work to propagate through the `blockNumber` from FFTM, but not actually passed it down to the `eth_call` when specified.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 19:43:52 +0000 UTC
-    </div>
-</div>
-

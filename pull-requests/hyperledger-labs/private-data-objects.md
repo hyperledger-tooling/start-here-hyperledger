@@ -46,36 +46,3 @@ Note that this PR addresses some of the issues brought up in #469
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/468" class=".btn">#468</a>
-            </td>
-            <td>
-                <b>
-                    Simplify build and install for CCF
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Several changes to improve the performance (and remove dependencies) for CCF startup. Many of the changes are centered in the ccf Makefile to separate the creation of the ccf clients (like the ping test, ledger authority retrieval and policy scripts that might reasonably be executed from anywhere) from the environment needed for a ccf service node (the script to start a ccf network).
-
-The big win from the separation is that we can remove dependency on the sandbox script & pre-install all of the python package dependencies independently from the execution of the ccf nodes. The result is that the ledger containers start in a couple seconds instead of several minutes.
-
-Note that a future PR will package the ccf client scripts separately and install them with other PDO packages so they are available on all PDO installations.
-
-@bvavala your review is requested because the second commit adds the code to copy the member keys into the
-ledger key directory. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-14 23:13:15 +0000 UTC
-    </div>
-</div>
-
