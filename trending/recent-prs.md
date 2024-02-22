@@ -1,13 +1,13 @@
 
-[160](https://github.com/hyperledger/aries-acapy-plugins/pull/160) chore(deps-dev): Bump indy-vdr from 0.3.4 to 0.4.1 in /redis_events
+[6604](https://github.com/hyperledger/besu/pull/6604) [MINOR] Rotate changelog since 24.2.0-RC1 has been cut
 
-[159](https://github.com/hyperledger/aries-acapy-plugins/pull/159) chore(deps-dev): Bump pre-commit from 2.21.0 to 3.6.2 in /kafka_events
+[253](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/253) Use custom errors instead of string error
 
-[158](https://github.com/hyperledger/aries-acapy-plugins/pull/158) chore(deps-dev): Bump pytest-cov from 2.10.1 to 4.1.0 in /basicmessage_storage
+[22](https://github.com/hyperledger/aries-framework-kotlin/pull/22) Fix tag to version conversion
 
-[157](https://github.com/hyperledger/aries-acapy-plugins/pull/157) chore(deps-dev): Bump indy-credx from 1.0.3 to 1.1.1 in /oid4vci
+[96](https://github.com/hyperledger/fabric-chaincode-go/pull/96) Bump google.golang.org/grpc from 1.54.0 to 1.62.0
 
-[156](https://github.com/hyperledger/aries-acapy-plugins/pull/156) chore(deps-dev): Bump black from 23.7.0 to 24.2.0 in /redis_events
+[6603](https://github.com/hyperledger/besu/pull/6603) remove unnecessary PoS checkpoint methods and variables
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

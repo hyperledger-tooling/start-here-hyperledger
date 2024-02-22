@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Fix tag to version conversion
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 05:06:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    Try to fix build in release workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 04:32:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Update workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - publish to github packages by tagging
+- try to fix build error
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 02:34:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/19" class=".btn">#19</a>
             </td>
             <td>

@@ -14,6 +14,123 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6604" class=".btn">#6604</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Rotate changelog since 24.2.0-RC1 has been cut
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 06:04:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6603" class=".btn">#6603</a>
+            </td>
+            <td>
+                <b>
+                    remove unnecessary PoS checkpoint methods and variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 04:42:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6602" class=".btn">#6602</a>
+            </td>
+            <td>
+                <b>
+                    Reduce receipt size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+Reduce receipt by introducing a new compact receipt encoding
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 02:55:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6600" class=".btn">#6600</a>
             </td>
             <td>
@@ -193,10 +310,14 @@ The trace output for the transaction referenced in the [issue](https://github.co
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span><span class="chip">TeamGroot</span>
             </td>
             <td>
-                <nil>
+                Add [BFT-style transitions](https://besu.hyperledger.org/private-networks/how-to/configure/consensus/qbft#transitions) to Clique, modelled with `ForksSchedule<CliqueConfigOptions>`
+
+CliqueMiningAcceptanceTest heavily inspired by [BftBlockRewardPaymentAcceptanceTest](https://github.com/hyperledger/besu/blob/main/acceptance-tests/tests/src/test/java/org/hyperledger/besu/tests/acceptance/bft/BftBlockRewardPaymentAcceptanceTest.java)
+
+Preparatory story to https://github.com/hyperledger/besu/issues/6290 - a `createemptyblocks` transition will be added in the next PR.
             </td>
         </tr>
     </table>
@@ -509,62 +630,6 @@ fixes: https://github.com/hyperledger/besu/issues/6573
     </table>
     <div class="right-align">
         Created At 2024-02-15 08:43:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6577" class=".btn">#6577</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Use better savings estimate for x-trie-log prune
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Following on from #6540, use `total-sst-files-size + total-blob-file-size` instead of `estimate-live-data-size` for x-trie-log prune estimate.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 04:26:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6576" class=".btn">#6576</a>
-            </td>
-            <td>
-                <b>
-                    Remove duplicated addCreate call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Remove duplicated call to the addCreate method. The method is already called here  https://github.com/hyperledger/besu/blob/5c295c5aa6c277287bf3c8d6679a9cca36427838/evm/src/main/java/org/hyperledger/besu/evm/processor/ContractCreationProcessor.java#L125
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 04:06:18 +0000 UTC
     </div>
 </div>
 
