@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/638" class=".btn">#638</a>
+            </td>
+            <td>
+                <b>
+                    Fix on while joining channel peer display which is already part of ch…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …annel
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Show peers which is not part of channel at the time of joining channel
+- In audit log capturing remove extra space from log message (for [5974](https://zenhub.ibm.com/workspaces/hyperledger-fabric-support-offering-fka-ibp-59b193b1106772601c6574a3/issues/ibp/optools/5974))
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 08:55:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/637" class=".btn">#637</a>
             </td>
             <td>

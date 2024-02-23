@@ -14,30 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/185" class=".btn">#185</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/187" class=".btn">#187</a>
             </td>
             <td>
                 <b>
-                    Integrate supplementary Protocol Buffers (protobuf) parameters into the JS client to augment the extensibility and functionality of the data model within the designated oneof constructs, ensuring a more comprehensive representation and utilization of transaction related information
+                    README: add links
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha1</span>
+                
             </td>
             <td>
-                This is PR with changes from: https://github.com/hyperledger/iroha-javascript/pull/181
-
-> Incorporate additional Protocol Buffers (protobuf) parameters into the JS client, enhancing the extensibility and functionality of the data model within the specified 'oneof' constructs. This integration ensures a more comprehensive representation and utilization of transaction-related information, thereby expanding the capabilities and flexibility of the system.
-
-> Those changes are connected with: https://github.com/hyperledger/iroha/pull/4003 - this is part of internship project:
-https://wiki.hyperledger.org/pages/viewpage.action?pageId=80778614
+                Small convenience-related change: add links
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-10 17:08:06 +0000 UTC
+        Created At 2024-02-23 07:19:24 +0000 UTC
     </div>
 </div>
 
