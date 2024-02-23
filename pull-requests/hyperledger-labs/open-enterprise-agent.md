@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/907" class=".btn">#907</a>
+            </td>
+            <td>
+                <b>
+                    docs(prism-agent): ATL-6272 improve issue credentials OAS doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">prism-agent</span>
+            </td>
+            <td>
+                # Overview
+
+Fixes ATL-6272
+
+## Checklist
+
+### My PR contains...
+* [x] No code changes (changes to documentation, CI, metadata, etc.)
+* [ ] Bug fixes (non-breaking change which fixes an issue)
+* [ ] Improvements (misc. changes to existing features)
+* [ ] Features (non-breaking change which adds functionality)
+
+### My changes...
+* [ ] are breaking changes
+* [x] are not breaking changes
+* [x] If yes to above: I have updated the documentation accordingly
+
+### Documentation
+* [ ] My changes do not require a change to the project documentation
+* [x] My changes require a change to the project documentation
+* [x] If yes to above: I have updated the documentation accordingly
+
+### Tests
+* [ ] My changes can not or do not need to be tested
+* [ ] My changes can and should be tested by unit and/or integration tests
+* [ ] If yes to above: I have added tests to cover my changes
+* [ ] If yes to above: I have taken care to cover edge cases in my tests
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 13:19:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/906" class=".btn">#906</a>
             </td>
             <td>
@@ -502,44 +555,6 @@ When a credential is issued, the part of the code that determines if a new statu
     </table>
     <div class="right-align">
         Created At 2024-02-18 20:53:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/896" class=".btn">#896</a>
-            </td>
-            <td>
-                <b>
-                    docs: update PR template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                ### Description: 
-The change is to use a new PR template.
-
-### Context: 
-See the related issue. We will try this PR template and work by iteration to improve it. The goal is that it is simple and added-value for the community.
-
-### Checklist: 
-- [x] My PR follows the contribution guidelines of this project
-- [ ] My PR is free of third-party dependencies that don't comply with HL-Allowlist
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-16 16:35:41 +0000 UTC
     </div>
 </div>
 
