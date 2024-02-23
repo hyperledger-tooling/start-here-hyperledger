@@ -397,36 +397,3 @@ update release notes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/626" class=".btn">#626</a>
-            </td>
-            <td>
-                <b>
-                    Fix github.com/docker/docker vulnerability as per GHSA-jq35-85cj-fj4p.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-As per https://github.com/advisories/GHSA-jq35-85cj-fj4p, need to update/upgrade to latest Golang package for github.com/docker/docker.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 20:15:33 +0000 UTC
-    </div>
-</div>
-
