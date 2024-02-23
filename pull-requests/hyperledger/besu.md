@@ -681,31 +681,3 @@ This PR adds a method to `BesuConfiguration` service get the current `minGasPric
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6582" class=".btn">#6582</a>
-            </td>
-            <td>
-                <b>
-                    Use Invalid payload attributes error code 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Return "invalid payload attributes" instead of "invalid params" if the payload attributes are, in fact, invalid
-
-fixes #6554
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-16 06:50:15 +0000 UTC
-    </div>
-</div>
-

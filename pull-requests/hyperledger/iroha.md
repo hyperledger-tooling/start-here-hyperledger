@@ -482,13 +482,12 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             <td>
                 ## Description
 Fix Docker Compose path for tests after #4239 merge.
-Change Docker Compose path.
 
 ### Linked issue
 
-#4303 #4293 
+#4303
 
-Closes #4303 #4293 
+Closes #4303
 
 ### Benefits
 
