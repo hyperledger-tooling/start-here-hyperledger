@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                This PR simplify the `TokenStore` interface unifying the function to append new tokens. As a byproduct, this PR also reworks the data model used by the tokendb's sql implementation. 
             </td>
         </tr>
     </table>
@@ -96,7 +96,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    WIP: Bullet proofs + Crypto primitives clean up
+                    Bullet proofs: implementation + integration in the token-sdk.
                 </b>
             </td>
         </tr>
