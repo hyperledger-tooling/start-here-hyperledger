@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/923" class=".btn">#923</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/924" class=".btn">#924</a>
             </td>
             <td>
                 <b>
-                    fixing mismtaching images and few translation proof reading
+                    Portuguese Translation for What's New
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                fixes https://github.com/hyperledger/fabric-docs-i18n/issues/922
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-21 23:22:17 +0000 UTC
+        Created At 2024-02-23 01:49:51 +0000 UTC
     </div>
 </div>
 

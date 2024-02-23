@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6609" class=".btn">#6609</a>
+            </td>
+            <td>
+                <b>
+                    Check for snap server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+When we are connecting to an EthPeer and we are doing snap sync find out whether that peer does serve snap data.
+This is needed to make sure that we have a minimum of snap data serving peers and to make sure that we only send snap requests to peers that serve snap data.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 04:31:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6608" class=".btn">#6608</a>
+            </td>
+            <td>
+                <b>
+                    clique block period transition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 03:44:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6606" class=".btn">#6606</a>
             </td>
             <td>
@@ -97,7 +183,7 @@ Resolves breaking change in PR https://github.com/hyperledger/besu/pull/6307 tha
             </td>
             <td>
                 <b>
-                    remove unnecessary PoS checkpoint methods and variables
+                    Remove unnecessary PoS checkpoint methods and variables
                 </b>
             </td>
         </tr>
@@ -108,24 +194,26 @@ Resolves breaking change in PR https://github.com/hyperledger/besu/pull/6307 tha
             <td>
                 ### Thanks for sending a pull request! Have you done the following?
 
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
 - [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
 
 ### Most advanced CI tests are deferred until PR approval, but you could:
 
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+- [x] locally run all unit tests via: `./gradlew build`
+- [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [x] locally run all integration tests via: `./gradlew integrationTest`
+- [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
 
 
 ## PR description
+This PR removes unnecessary checks and variables used to work around the latestValidAncestorDescendsFromTerminal from PoW, which has been removed by PR https://github.com/hyperledger/besu/pull/4703
+- Test done:
+- [x] Synced Sepolia successfully
+- [ ] Synced Goerli successfully
+- [ ] Synced Mainnet successfully
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
             </td>
         </tr>
     </table>
@@ -618,36 +706,6 @@ fixes #6554
     </table>
     <div class="right-align">
         Created At 2024-02-16 06:50:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6581" class=".btn">#6581</a>
-            </td>
-            <td>
-                <b>
-                    feat: add `eth_blobBaseFee`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-Add `eth_blobBaseFee`
-
-## Fixed Issue(s)
-fixes #6579
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-16 03:47:26 +0000 UTC
     </div>
 </div>
 
