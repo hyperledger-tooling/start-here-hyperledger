@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/637" class=".btn">#637</a>
+            </td>
+            <td>
+                <b>
+                    remove init required input option in chaincode lifecycle 2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Cleanup update
+
+#### Description
+Removing the legacy `init_required` input option when making a chaincode definition (only applies to the 2.0 lifecycle). It will now always be `false`.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 01:25:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/636" class=".btn">#636</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[1517](https://github.com/hyperledger/besu-docs/pull/1517) Trie logs rewrite
+[23](https://github.com/hyperledger/aries-framework-kotlin/pull/23) Fix version not defined exception
 
-[1473](https://github.com/hyperledger/firefly/pull/1473) Fix contract method not found error
+[6609](https://github.com/hyperledger/besu/pull/6609) Check for snap server
 
-[2812](https://github.com/hyperledger/aries-cloudagent-python/pull/2812) Fix - missing revocation notification
+[6608](https://github.com/hyperledger/besu/pull/6608) clique block period transition
 
-[2811](https://github.com/hyperledger/aries-cloudagent-python/pull/2811) Eliminate the double workflow event
+[924](https://github.com/hyperledger/fabric-docs-i18n/pull/924) Portuguese Translation for What's New
 
-[289](https://github.com/hyperledger/firefly-cli/pull/289) Limit upgrade command
+[637](https://github.com/hyperledger-labs/fabric-operations-console/pull/637) remove init required input option in chaincode lifecycle 2.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

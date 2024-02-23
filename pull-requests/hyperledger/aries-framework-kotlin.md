@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Fix version not defined exception
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 06:04:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/22" class=".btn">#22</a>
             </td>
             <td>
