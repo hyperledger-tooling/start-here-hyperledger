@@ -1,13 +1,13 @@
 
-[163](https://github.com/hyperledger/aries-acapy-plugins/pull/163) Run general upgrade on all plugins
+[1517](https://github.com/hyperledger/besu-docs/pull/1517) Trie logs rewrite
 
-[6606](https://github.com/hyperledger/besu/pull/6606) repo owner didn't include repo name
+[1473](https://github.com/hyperledger/firefly/pull/1473) Fix contract method not found error
 
-[2810](https://github.com/hyperledger/aries-cloudagent-python/pull/2810) More updates to get docs publishing
+[2812](https://github.com/hyperledger/aries-cloudagent-python/pull/2812) Fix - missing revocation notification
 
-[178](https://github.com/hyperledger/fabric-admin-sdk/pull/178) Bump google.golang.org/grpc from 1.61.1 to 1.62.0
+[2811](https://github.com/hyperledger/aries-cloudagent-python/pull/2811) Eliminate the double workflow event
 
-[1132](https://github.com/hyperledger/aries-vcx/pull/1132) fix: push napi image using a simple command
+[289](https://github.com/hyperledger/firefly-cli/pull/289) Limit upgrade command
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

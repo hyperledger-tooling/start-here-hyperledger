@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2812" class=".btn">#2812</a>
+            </td>
+            <td>
+                <b>
+                    Fix - missing revocation notification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes the issue with the revocation notification not happening.
+
+There was a couple things that didn't make sense. 
+
+- For the `/revoke` endpoint if was never calling notify. It was only creating the notification record. This may have been deliberate (see comment), but needs to notify at some point, which it isn't doing.
+- For the `/publish-revocations` endpoint it was not calling notify when there was a connection_id, but this is only used for explicitly using a specific endorser connection. When in author and preconfigured mode, this parameter isn't even used. I think it was trying to prevent the notify from happening for endorsement scenarios. (see next comment)
+
+***comment***: right now the revocation notification is happening after requesting endorsement but before the new list entry has been written to the ledger. This is the same for anoncreds. I'm not sure if this is what we actually want. It kinda makes sense to have it immediately when the issuer revokes, but it also makes sense not to notify until after the endorsement has happened and the entry has been written.
+
+Tested with traction and bc wallet. 
+
+Still testing some scenarios.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 20:01:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2811" class=".btn">#2811</a>
+            </td>
+            <td>
+                <b>
+                    Eliminate the double workflow event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removes the "on create" trigger, since that seems to trigger the workflow twice.
+Fixes the version of the variable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-22 19:31:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2810" class=".btn">#2810</a>
             </td>
             <td>
@@ -509,64 +573,6 @@ Resolves: #2572
     </table>
     <div class="right-align">
         Created At 2024-02-16 17:10:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2789" class=".btn">#2789</a>
-            </td>
-            <td>
-                <b>
-                    Revert profile inject
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reverts the changes made in https://github.com/hyperledger/aries-cloudagent-python/pull/2705 which caused problems with certain multitenant environments (still unknown). If this is something we want we can look at doing it again in a future release.
-
-Tested the problem described in issue https://github.com/hyperledger/aries-cloudagent-python/issues/2777 by running the multitenant provider plugin integration tests. Could see the problem in 0.12.0dev0, but all the tests pass when pointing to my forked branch with the revert.
-
-I believe this was only used for the `VcLdpManager` to prevent creating a new instance for every handler method call. I reverted these occurrences back to creating a new manager instance. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 21:29:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2788" class=".btn">#2788</a>
-            </td>
-            <td>
-                <b>
-                    Add known issues section to Multiledger.md documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a note to the multiledger documentation that references a known issue when switching ledgers.
-
-@dbluhm @swcurran I referenced the open issue, but didn't add additional details as they will likely be documented in the issue itself.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-15 19:59:24 +0000 UTC
     </div>
 </div>
 

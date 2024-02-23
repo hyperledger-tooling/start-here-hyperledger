@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    repo owner didn't include repo name
+                    Abstracts out which container registry
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Minor fix for the docker pull command appended to the release notes.
+                Abstracts out which container registry to point to, anticipating an eventual transition from docker.io to ghcr.io
             </td>
         </tr>
     </table>
