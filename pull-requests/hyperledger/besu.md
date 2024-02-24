@@ -615,34 +615,3 @@ https://github.com/hyperledger/besu/issues/6291
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6585" class=".btn">#6585</a>
-            </td>
-            <td>
-                <b>
-                    Test results artifacts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - corrects path on acceptanceTest
-- adds direct gradle dependency from build to javadoc, fixes #6552 
-- renames consolidation checks to separate from workflow names
-- replaces unreliable test splitting action with bash script in reference tests
-- corrects missing test target during unit tests
-- embeds version number at release time, overriding gradle.properties value
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-17 02:04:38 +0000 UTC
-    </div>
-</div>
-
