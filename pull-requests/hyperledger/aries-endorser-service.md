@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/53" class=".btn">#53</a>
+            </td>
+            <td>
+                <b>
+                    Add description column to allow lists
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR resolves #50
+
+I have added a new details column to each allow list. Now users can
+describe the reason, source, or name of any table element.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 22:31:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/52" class=".btn">#52</a>
             </td>
             <td>
@@ -35,34 +64,6 @@ This preserves the the created_at field for GET v1/endorse/transactions endpoint
     </table>
     <div class="right-align">
         Created At 2024-02-21 02:17:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/49" class=".btn">#49</a>
-            </td>
-            <td>
-                <b>
-                    Corrected the wallet type from indy to askar
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR resolves #39  
-
-To do so it simply corrects the wallet type to askar instead of indy and sets the ACAPY_REQUESTS_THROUGH_PUBLIC_DID=true for the author as required by the tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-16 22:33:20 +0000 UTC
     </div>
 </div>
 

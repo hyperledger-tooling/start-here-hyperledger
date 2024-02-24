@@ -1,13 +1,13 @@
 
-[300](https://github.com/hyperledger/fabric-sdk-java/pull/300) Update version following release
+[2814](https://github.com/hyperledger/aries-cloudagent-python/pull/2814) Fix anoncreds non-endorsement revocation
 
-[233](https://github.com/hyperledger/aries-mobile-test-harness/pull/233) BCW - Updated Wallet Naming tests to use TestID on Android
+[53](https://github.com/hyperledger/aries-endorser-service/pull/53) Add description column to allow lists
 
-[907](https://github.com/hyperledger-labs/open-enterprise-agent/pull/907) docs(prism-agent): ATL-6272 improve issue credentials OAS doc
+[640](https://github.com/hyperledger-labs/fabric-operations-console/pull/640) bump release notes
 
-[2516](https://github.com/hyperledger/bevel/pull/2516) [quorum] implement istanbul_propose method to add or remove a node
+[639](https://github.com/hyperledger-labs/fabric-operations-console/pull/639) retry chaincode transactions with all orderers
 
-[24](https://github.com/hyperledger/aries-framework-kotlin/pull/24) Implement message forwarding
+[262](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/262) Automated-Gateways 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

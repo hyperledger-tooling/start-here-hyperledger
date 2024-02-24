@@ -14,11 +14,80 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2814" class=".btn">#2814</a>
+            </td>
+            <td>
+                <b>
+                    Fix anoncreds non-endorsement revocation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sorry. I should have blocked the last PR from getting merged for a bit. I forgot to test the anoncreds non-endorsement scenario. Integration tests caught it and I fixed the problem with this PR. Tested the failing integration tests locally.
+
+Also, enabled a test that was commented out for askar wallet revoke and then publish scenarios.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 22:51:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2813" class=".btn">#2813</a>
+            </td>
+            <td>
+                <b>
+                    Fix connection reuse handling in demo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Separate the "connection reuse" and "use public did" configuration for the demo:
+
+```
+./run_demo faber --reuse-connection --public-did-connections
+```
+
+(Previously only the `--reuse-connection` parameter was available and it automatically set the connection to use the public DID.)
+
+To run with a `did:peer` use:
+
+```
+DEMO_EXTRA_AGENT_ARGS="[\"--emit-did-peer-2\"]" ./run_demo faber --reuse-connection --events
+```
+
+There are some issues with `did:peer`, see discussion in issue #2703.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 18:56:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2812" class=".btn">#2812</a>
             </td>
             <td>
                 <b>
-                    Fix - missing revocation notification
+                    Create revocation notification after list entry written to ledger
                 </b>
             </td>
         </tr>
@@ -372,121 +441,6 @@ I don't think these questions are related to this ticket though so the tests sho
     </table>
     <div class="right-align">
         Created At 2024-02-20 14:51:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2799" class=".btn">#2799</a>
-            </td>
-            <td>
-                <b>
-                    0.12.0rc1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Draft still, as I would like to get a few more of the PRs in that are ready and just need merging.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-17 00:42:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2796" class=".btn">#2796</a>
-            </td>
-            <td>
-                <b>
-                    Change middleware registration order
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This addresses issue #2666. The validation middlewares were registered before the authorization middlewares resulting in unauthorized requests executing the validation code in the application. This leads to a security flaw as validation libraries could be exploited and could be considered a form [remote code injection](https://owasp.org/www-community/attacks/Code_Injection).
-
-The fix is simple and results on authorization checks happening before request validations. 
-
-@esune @amanji please review these changes and let me know what you think!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-16 23:49:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2795" class=".btn">#2795</a>
-            </td>
-            <td>
-                <b>
-                    Bump pyld version to 2.0.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is to address a bug we have found in the pyld library which was incorrectly asserting context elements as null.
-
-Addresses issue #2743 and will close PR #2744.
-
-For background information you can read [this closed issue on the pyld repo](https://github.com/digitalbazaar/pyld/pull/189).
-
-@swcurran I tested these changes and was able to verify traceable credentials with the proper did document content. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-16 23:08:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2794" class=".btn">#2794</a>
-            </td>
-            <td>
-                <b>
-                    Revert profile injection for VcLdpManager on vc-api endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Pretty straightforward, I changed the way these endpoint instantiate the `VcLdpManager`. This is to address [this issue](https://github.com/hyperledger/aries-cloudagent-python/issues/2793)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-16 22:07:45 +0000 UTC
     </div>
 </div>
 
