@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/261" class=".btn">#261</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/262" class=".btn">#262</a>
             </td>
             <td>
                 <b>
-                    Splice Proposal for Hyperledger Labs
+                    Automated-Gateways 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Reference applications for funding, operating, and incentivizing the use of a decentralized, public Canton synchronizer. Includes the Amulet reference application for creating native payment utilities for Canton synchronizers and Daml applications.
+                
+Automated Gateways is a secure solution which can make Contract-Call interoperatibility happen between Hyperledger Fabrics with minimal efforts. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-01 19:55:05 +0000 UTC
+        Created At 2024-02-23 21:02:26 +0000 UTC
     </div>
 </div>
 

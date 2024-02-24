@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/640" class=".btn">#640</a>
+            </td>
+            <td>
+                <b>
+                    bump release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+update release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 21:53:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/639" class=".btn">#639</a>
+            </td>
+            <td>
+                <b>
+                    retry chaincode transactions with all orderers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+the improvements below help if 1 or more orderers is in a bad state, but the remaining orderers still have consensus:
+
+- if chaincode instantiation or upgrade fails it will now retry the transaction for each consenting orderer node
+- if approving a chaincode definition fails, it will now retry the transaction for each consenting orderer node
+- if commiting a chaincode definition fails, it will now retry the transaction for each consenting orderer node
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-23 21:40:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/638" class=".btn">#638</a>
             </td>
             <td>
