@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Update copyright header
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix Build complaints on copyright header https://github.com/hyperledger/firefly-evmconnect/actions/runs/7963588649/job/21739496482
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-24 20:59:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/113" class=".btn">#113</a>
             </td>
             <td>
