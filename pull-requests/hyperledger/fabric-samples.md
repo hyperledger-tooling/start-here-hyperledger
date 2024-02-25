@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1176" class=".btn">#1176</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1180" class=".btn">#1180</a>
             </td>
             <td>
                 <b>
-                    add extra arguments to lifecycle commands for more flexibility
+                    Update GitHub action versions
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                for instance:
-
-```bash
-APPROVE_EXTRA_ARGS="--init-required" COMMIT_EXTRA_ARGS="--init-required" ./network chaincode deploy mychaincode ../mychaincode
-INVOKE_EXTRA_ARGS="--isInit" ./network chaincode invoke mychaincode '{"Args":["init"]}'
-```
-
+                Avoid using deprecated action versions based on Node versions prior to Node 18.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-03 17:00:28 +0000 UTC
+        Created At 2024-02-25 01:55:22 +0000 UTC
     </div>
 </div>
 
