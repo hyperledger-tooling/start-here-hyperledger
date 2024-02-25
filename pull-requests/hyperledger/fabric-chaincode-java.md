@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/329" class=".btn">#329</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/330" class=".btn">#330</a>
             </td>
             <td>
                 <b>
-                    Update build to avoid deprecated Node 16 GitHub actions
+                    Upgrade Gradle version
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-04 23:01:42 +0000 UTC
+        Created At 2024-02-25 17:52:02 +0000 UTC
     </div>
 </div>
 

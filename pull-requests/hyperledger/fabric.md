@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4695" class=".btn">#4695</a>
+            </td>
+            <td>
+                <b>
+                    BFT: A BFT synchronizer for smartbft
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- New feature
+
+#### Description
+
+A BFT synchronizer for smartbft
+
+#### Related issues
+
+Issue #4566 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-25 13:55:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4694" class=".btn">#4694</a>
+            </td>
+            <td>
+                <b>
+                    Excessive mutex locks were removed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by fubss <ivanlaish@gmail.com>
+
+# Removing excessive mutex locks increasing performance
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+As part of my research [Uncovering the Perfect Scalable Database for Hyperledger Fabric's Evolution](https://ieeexplore.ieee.org/document/10189331) it was discovered that the Hyperledger Fabric peer node does not use resources at 100% for some types of transactions. One of the reasons of it is the often mutexes locks in the source.
+
+This change removes three excessive mutexes locks. Some of them were locking already atomic operations and some were locking nothing.
+
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+
+The results of the peer node performance improvement were published in the paper provided above. The change has given better CPU and Disk usage and increased transaction per second rate.
+
+Performance benchmarks of peer node were made with hyperledger-caliper. The results for write operation are:
+
+  * for 100 byte transactions:
+
+    * TPS rate increased to 5% 
+
+    * CPU usage increased to 7%
+
+    * Disk Write rate increased to 5%
+
+  * for 4000 byte transactions:
+
+    * TPS rate increased to 5% 
+
+    * CPU usage increased to 6%
+
+    * Disk Write rate increased to 4%
+
+  * for 64000 byte transactions:
+
+    * TPS rate increased to 2% 
+
+    * CPU usage stayed the same
+
+    * Disk Write rate increased to 1%
+
+Full Caliper reports are availiable [here](https://drive.google.com/drive/folders/15eOiYOG7QeLv-qj5A5RNHWLNRwf2xduo?usp=sharing). For read operation no performance changes were detected.
+
+The changes were sucessfully tested locally and with GitHub CI/CD.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-25 13:11:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4693" class=".btn">#4693</a>
             </td>
             <td>
