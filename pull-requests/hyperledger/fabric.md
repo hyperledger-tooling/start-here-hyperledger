@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4693" class=".btn">#4693</a>
+            </td>
+            <td>
+                <b>
+                    BFT: skip self-endpoint when pulling blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+Change-Id: Ia183eef4f263943d5f387e8156d450790bee5cb2
+#### Type of change
+
+- New feature
+
+#### Description
+
+The orderer source provides a set of orderers to connect to, and is used by the BFTDeliverer. The BFTDeliverer is employed in the peer and in the orderer. When used in the orderer, it should skip the self-endpoint. In this commit we allow the orderer source to be set with the self-endpoint, and thus allow it to skip it when providing a set of orderers to pull blocks from.
+
+#### Related issues
+
+Issue #4566 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-25 10:12:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4692" class=".btn">#4692</a>
             </td>
             <td>
