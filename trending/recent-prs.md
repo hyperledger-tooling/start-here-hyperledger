@@ -1,13 +1,13 @@
 
-[174](https://github.com/hyperledger-labs/fabric-operator/pull/174) Added Egress changes for deny All Case
+[115](https://github.com/hyperledger/firefly-evmconnect/pull/115) Fix the default regex that is used to check for JSON/RPC provider limits
 
-[174](https://github.com/hyperledger/aries-acapy-plugins/pull/174) chore(deps-dev): Bump pytest from 7.4.4 to 8.0.2 in /oid4vci
+[1135](https://github.com/hyperledger/aries-vcx/pull/1135) Remove redundant arg
 
-[173](https://github.com/hyperledger/aries-acapy-plugins/pull/173) chore(deps-dev): Update pytest requirement from ~7.4.0 to ~8.0.2 in /plugin_globals
+[1134](https://github.com/hyperledger/aries-vcx/pull/1134) Improvement/derive display
 
-[172](https://github.com/hyperledger/aries-acapy-plugins/pull/172) chore(deps-dev): Bump mock from 4.0.3 to 5.1.0 in /oid4vci
+[402](https://github.com/hyperledger-labs/go-perun/pull/402) 381 wire authentication
 
-[171](https://github.com/hyperledger/aries-acapy-plugins/pull/171) chore(deps-dev): Bump pytest from 7.4.4 to 8.0.2 in /multitenant_provider
+[256](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/256) Improve gas cost efficiency
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

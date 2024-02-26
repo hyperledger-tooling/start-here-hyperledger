@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    Fix the default regex that is used to check for JSON/RPC provider limits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 11:35:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/114" class=".btn">#114</a>
             </td>
             <td>
@@ -89,32 +115,6 @@ This PR is the first step of capturing the returnValue in cases it cannot be par
     </table>
     <div class="right-align">
         Created At 2024-02-19 20:06:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/111" class=".btn">#111</a>
-            </td>
-            <td>
-                <b>
-                    fixing copy right headers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                as per title
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 12:01:10 +0000 UTC
     </div>
 </div>
 

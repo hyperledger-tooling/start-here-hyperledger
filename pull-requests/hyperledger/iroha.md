@@ -101,7 +101,7 @@ Simplified code, decimals commonly use in monetary applications.
             </td>
             <td>
                 <b>
-                    [ci]: Unsync auto-labels and actual changes
+                    [ci]: Unsync auto-labels. Fix `config-changes` condition
                 </b>
             </td>
         </tr>
@@ -120,13 +120,14 @@ Simplified code, decimals commonly use in monetary applications.
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-- The bot was observed to remove a label manually added to PR: https://github.com/hyperledger/iroha/pull/4309#issuecomment-1958760549
-
+1. The bot was observed to remove a label manually added to PR: https://github.com/hyperledger/iroha/pull/4309#issuecomment-1958760549
+2. At the same time, the bot was observed to notify false-positive `config-changes` due to its wrong definition
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
 
-- Always prioritize manual labeling/unlabeling
+1. Always prioritize manual labeling/unlabeling
+2. Necessary and sufficient `config-changes` notifications
 
 <!-- EXAMPLE: users can't revoke their own right to revoke rights -->
 
@@ -134,7 +135,7 @@ Simplified code, decimals commonly use in monetary applications.
 
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
@@ -419,7 +420,7 @@ Merge it at `23-26.02.2024`
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span>
             </td>
             <td>
                 ## Description
