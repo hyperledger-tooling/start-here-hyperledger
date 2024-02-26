@@ -579,39 +579,3 @@ Another PR after https://github.com/hyperledger/besu/pull/6584 that extend the d
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6587" class=".btn">#6587</a>
-            </td>
-            <td>
-                <b>
-                    Mining Parameters Metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR adds metrics to the Mining Parameters `minGasPrice` and `minPriorityFee` as `ethereum_min_gas_price` and `ethereum_min_priority_fee` respectively to expose runtime Values of those properties set via cli arguments or RPC methods as a gauge.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-https://github.com/hyperledger/besu/issues/6291
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 02:48:35 +0000 UTC
-    </div>
-</div>
-

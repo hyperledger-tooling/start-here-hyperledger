@@ -1,13 +1,13 @@
 
-[330](https://github.com/hyperledger/fabric-chaincode-java/pull/330) Upgrade Gradle version
+[174](https://github.com/hyperledger-labs/fabric-operator/pull/174) Added Egress changes for deny All Case
 
-[4695](https://github.com/hyperledger/fabric/pull/4695) BFT: A BFT synchronizer for smartbft
+[174](https://github.com/hyperledger/aries-acapy-plugins/pull/174) chore(deps-dev): Bump pytest from 7.4.4 to 8.0.2 in /oid4vci
 
-[4694](https://github.com/hyperledger/fabric/pull/4694) Excessive mutex locks were removed
+[173](https://github.com/hyperledger/aries-acapy-plugins/pull/173) chore(deps-dev): Update pytest requirement from ~7.4.0 to ~8.0.2 in /plugin_globals
 
-[4693](https://github.com/hyperledger/fabric/pull/4693) BFT: skip self-endpoint when pulling blocks
+[172](https://github.com/hyperledger/aries-acapy-plugins/pull/172) chore(deps-dev): Bump mock from 4.0.3 to 5.1.0 in /oid4vci
 
-[1098](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/1098) fix: add missing scan screen features in new scan screen
+[171](https://github.com/hyperledger/aries-acapy-plugins/pull/171) chore(deps-dev): Bump pytest from 7.4.4 to 8.0.2 in /multitenant_provider
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
