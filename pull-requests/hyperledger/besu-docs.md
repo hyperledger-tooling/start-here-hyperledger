@@ -101,36 +101,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1515" class=".btn">#1515</a>
-            </td>
-            <td>
-                <b>
-                    SNAP and Bonsai are now Besu defaults
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A few changes to Besu defaults coming in 24.2.0 -
-
-SNAP and Checkpoint no longer "early access" - so removed references to X_SNAP and X_CHECKPOINT
-https://github.com/hyperledger/besu/pull/6405
-Snap sync is now default for named networks
-https://github.com/hyperledger/besu/pull/6530
-Bonsai is now default storage format
-https://github.com/hyperledger/besu/pull/6536
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-18 22:23:44 +0000 UTC
-    </div>
-</div>
-
