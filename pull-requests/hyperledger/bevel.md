@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2517" class=".btn">#2517</a>
+            </td>
+            <td>
+                <b>
+                    feat(besu): implement qbft_proposeValidatorVote  method to add or rem…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …ove a node
+
+Changes:
+
+Introduced new helm chart named besu-propose-validator at path platforms/hyperledger-besu/charts/. This chart utilizes the qbft_proposeValidatorVote  method to facilitate the addition or removal of nodes from the validator set based on majority votes. fixes #2508
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 15:56:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2516" class=".btn">#2516</a>
             </td>
             <td>

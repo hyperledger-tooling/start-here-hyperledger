@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6611" class=".btn">#6611</a>
+            </td>
+            <td>
+                <b>
+                    Make layered txpool aware of minGasPrice and minPriorityFeePerGas dynamic options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+This PR improved the quality of the txs that are kept in the prioritized layer of the layered txpool, taking in account also the dynamic value of the `minGasPrice` and `minPriorityFeePerGas` options.
+So if a tx effective gas price is below the current value of `minGasPrice` or its effective priority fee is below the `minPriorityFeePerGas` it is not kept, or promoted, in the prioritized layer, since it will not be selected during block creation.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 13:57:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6609" class=".btn">#6609</a>
             </td>
             <td>

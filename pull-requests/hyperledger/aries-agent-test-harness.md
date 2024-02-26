@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/775" class=".btn">#775</a>
-            </td>
-            <td>
-                <b>
-                    Fix invalid docs references to aries-vcx backchannel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Just some minor fixes: some file references didn't link correct file, script examples wouldn't work, etc.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 13:59:20 +0000 UTC
-    </div>
-</div>
-
