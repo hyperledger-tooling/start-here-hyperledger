@@ -83,29 +83,29 @@ Fixes ATL-6272
                 # Overview
 <!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
 
-Fixes ATL-xxxx
+add background job that syncs revocation statuses of individual credentials with their respective status list credentials
 
 ## Checklist
 
 ### My PR contains...
 * [ ] No code changes (changes to documentation, CI, metadata, etc.)
 * [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
+* [x] Improvements (misc. changes to existing features)
 * [ ] Features (non-breaking change which adds functionality)
 
 ### My changes...
 * [ ] are breaking changes
-* [ ] are not breaking changes
+* [x] are not breaking changes
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Documentation
-* [ ] My changes do not require a change to the project documentation
+* [x] My changes do not require a change to the project documentation
 * [ ] My changes require a change to the project documentation
 * [ ] If yes to above: I have updated the documentation accordingly
 
 ### Tests
 * [ ] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
+* [x] My changes can and should be tested by unit and/or integration tests
 * [ ] If yes to above: I have added tests to cover my changes
 * [ ] If yes to above: I have taken care to cover edge cases in my tests
 
@@ -447,114 +447,6 @@ Tests will be added in a separate PR withing this epic
     </table>
     <div class="right-align">
         Created At 2024-02-20 00:29:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/898" class=".btn">#898</a>
-            </td>
-            <td>
-                <b>
-                    feat: Update documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">prism-agent</span><span class="chip">docs</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-Fixes https://input-output.atlassian.net/browse/ATL-6026
-
-## Checklist
-
-### My PR contains...
-* [x] No code changes (changes to documentation, CI, metadata, etc.)
-* [ ] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [ ] My changes do not require a change to the project documentation
-* [x] My changes require a change to the project documentation
-* [x] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [x] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-18 23:49:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/897" class=".btn">#897</a>
-            </td>
-            <td>
-                <b>
-                    fix(pollux): fix concurrency problem when issuing a credential
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span>
-            </td>
-            <td>
-                # Overview
-<!-- What this PR does, and why is needed, a useful description is expected, and relevant tickets should be mentioned -->
-
-When a credential is issued, the part of the code that determines if a new status list should be allocated for a credential, or if an old one will fit, makes two database calls, one for select and one for insert. these calls are happening in a multi-threaded environment, so they need to happen atomically.
-
-## Checklist
-
-### My PR contains...
-* [ ] No code changes (changes to documentation, CI, metadata, etc.)
-* [x] Bug fixes (non-breaking change which fixes an issue)
-* [ ] Improvements (misc. changes to existing features)
-* [ ] Features (non-breaking change which adds functionality)
-
-### My changes...
-* [ ] are breaking changes
-* [x] are not breaking changes
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Documentation
-* [x] My changes do not require a change to the project documentation
-* [ ] My changes require a change to the project documentation
-* [ ] If yes to above: I have updated the documentation accordingly
-
-### Tests
-* [x] My changes can not or do not need to be tested
-* [ ] My changes can and should be tested by unit and/or integration tests
-* [ ] If yes to above: I have added tests to cover my changes
-* [ ] If yes to above: I have taken care to cover edge cases in my tests
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-18 20:53:03 +0000 UTC
     </div>
 </div>
 

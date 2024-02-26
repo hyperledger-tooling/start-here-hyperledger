@@ -211,7 +211,7 @@ Resolves breaking change in PR https://github.com/hyperledger/besu/pull/6307 tha
 This PR removes unnecessary checks and variables used to work around the latestValidAncestorDescendsFromTerminal from PoW, which has been removed by PR https://github.com/hyperledger/besu/pull/4703
 - Test done:
 - [x] Synced Sepolia successfully
-- [x] Synced Goerli successfully
+- [ ] Synced Goerli successfully
 - [x] Synced Mainnet successfully
 
             </td>
