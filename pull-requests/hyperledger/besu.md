@@ -61,19 +61,19 @@ This is needed to make sure that we have a minimum of snap data serving peers an
             </td>
             <td>
                 <b>
-                    clique block period transition
+                    Clique createemptyblocks transition
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
-                - [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+                - [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
 
 ### Most advanced CI tests are deferred until PR approval, but you could:
 
@@ -85,9 +85,36 @@ This is needed to make sure that we have a minimum of snap data serving peers an
 
 ## PR description
 
+Create genesis config transitions:
+```
+  "config": {
+    ...
+    "clique": {
+      "blockperiodseconds": 3,
+      "epochlength": 30,
+      "requesttimeoutseconds": 6,
+      "createemptyblocks": true
+    },
+    "transitions": {
+      "clique": [
+        {
+          "block": 3,
+          "createemptyblocks": false
+        }
+      ]
+    }
+  },
+```
+
+Built on top of https://github.com/hyperledger/besu/pull/6596
+
+Diff for easier review before #6596 is merged: https://github.com/siladu/besu/compare/clique_transition_blocks...clique-transition-createemptyblocks
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+Fixes #6290 
             </td>
         </tr>
     </table>
@@ -459,6 +486,31 @@ The trace output for the transaction referenced in the [issue](https://github.co
 CliqueMiningAcceptanceTest heavily inspired by [BftBlockRewardPaymentAcceptanceTest](https://github.com/hyperledger/besu/blob/main/acceptance-tests/tests/src/test/java/org/hyperledger/besu/tests/acceptance/bft/BftBlockRewardPaymentAcceptanceTest.java)
 
 Preparatory story to https://github.com/hyperledger/besu/issues/6290 - a `createemptyblocks` transition will be added in the next PR.
+
+Create genesis config transitions:
+```
+  "config": {
+    ...
+    "clique": {
+      "blockperiodseconds": 3,
+      "epochlength": 30,
+      "requesttimeoutseconds": 6,
+      "createemptyblocks": true
+    },
+    "transitions": {
+      "clique": [
+        {
+          "block": 3,
+          "blockperiodseconds": 1
+        },
+        {
+          "block": 6,
+          "blockperiodseconds": 2
+        },
+      ]
+    }
+  },
+```
             </td>
         </tr>
     </table>
@@ -489,7 +541,8 @@ Preparatory story to https://github.com/hyperledger/besu/issues/6290 - a `create
 
 ## PR description
 
-Scope of this refactor is to move the `TransacationSelectionService` from protocol context to mining parameters where it is more pertinent
+Scope of this refactor is to move the `TransacationSelectionService` from protocol context to mining parameters where it is more pertinent.
+The relevant changes themselves are small, but there are a lot of touched files due to the update protocol context
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -499,83 +552,6 @@ Scope of this refactor is to move the `TransacationSelectionService` from protoc
     </table>
     <div class="right-align">
         Created At 2024-02-19 19:39:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6593" class=".btn">#6593</a>
-            </td>
-            <td>
-                <b>
-                    Increment private nonce even if transaction failed.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-Fixes #1942 
-
-
-Classes to follow:
-
-BesuCommand
-PrivateTransactionProcessor
-PrivateMutableWorldStateUpdater
-SimpleWorld
-PrivacyParameters
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 11:40:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6592" class=".btn">#6592</a>
-            </td>
-            <td>
-                <b>
-                    Extend Blockchain service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Another PR after https://github.com/hyperledger/besu/pull/6584 that extend the data provided by a service, this time `Blockchain` service, these extensions are needed to introduce the new Transaction Simulation service.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 11:20:11 +0000 UTC
     </div>
 </div>
 

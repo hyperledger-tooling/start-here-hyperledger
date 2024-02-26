@@ -124,29 +124,3 @@ fixes #2484
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2511" class=".btn">#2511</a>
-            </td>
-            <td>
-                <b>
-                    chore: Updated kubeconfig configuration in storage class helm chart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 09:09:16 +0000 UTC
-    </div>
-</div>
-
