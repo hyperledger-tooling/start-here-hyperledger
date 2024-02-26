@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/642" class=".btn">#642</a>
+            </td>
+            <td>
+                <b>
+                    fix chaincode definition approval bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- chaincode definition approvals were not being sent to the ordering service if the orderer msp was different than the ccd approver, bug introduce by PR https://github.com/hyperledger-labs/fabric-operations-console/pull/639
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 17:59:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/641" class=".btn">#641</a>
+            </td>
+            <td>
+                <b>
+                    replace dead api doc link in welcome banner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+- update dead url for the API docs
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 17:54:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/640" class=".btn">#640</a>
             </td>
             <td>
@@ -472,77 +542,6 @@ update release notes
     </table>
     <div class="right-align">
         Created At 2024-02-19 19:56:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/628" class=".btn">#628</a>
-            </td>
-            <td>
-                <b>
-                    log added on application startup tasks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (Performance improvement etc)
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- Performance improvement update and log added
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 16:14:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/627" class=".btn">#627</a>
-            </td>
-            <td>
-                <b>
-                    Show channel under pending channel if user close window after creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- Show created channel in channels if user close window after channel creation.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 14:10:27 +0000 UTC
     </div>
 </div>
 

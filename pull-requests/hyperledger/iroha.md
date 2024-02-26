@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ## Description
@@ -122,6 +122,7 @@ Simplified code, decimals commonly use in monetary applications.
 
 1. The bot was observed to remove a label manually added to PR: https://github.com/hyperledger/iroha/pull/4309#issuecomment-1958760549
 2. At the same time, the bot was observed to notify false-positive `config-changes` due to its wrong definition
+	- Closes #4278
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
@@ -217,7 +218,7 @@ Closes #4311
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ## Description
@@ -258,7 +259,7 @@ Closes #3901
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">config-changes</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ### Linked issue
@@ -420,7 +421,7 @@ Merge it at `23-26.02.2024`
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ## Description
@@ -507,61 +508,6 @@ Make available to run Docker Compose files tests before image pushing.
     </table>
     <div class="right-align">
         Created At 2024-02-20 09:15:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4302" class=".btn">#4302</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3354: Different fuel limit for Executor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">config-changes</span>
-            </td>
-            <td>
-                ### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-- Closes #3354 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Now users can specify different limits for Executor and for other WASM
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 15:10:32 +0000 UTC
     </div>
 </div>
 

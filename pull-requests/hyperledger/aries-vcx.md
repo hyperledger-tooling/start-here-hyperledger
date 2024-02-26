@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1138" class=".btn">#1138</a>
+            </td>
+            <td>
+                <b>
+                    feat: add packing compatibility tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a compatibility tests - packs and unpacks message with different wallet implementations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 14:17:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1137" class=".btn">#1137</a>
+            </td>
+            <td>
+                <b>
+                    Various improvements for aries-agent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 13:24:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1136" class=".btn">#1136</a>
+            </td>
+            <td>
+                <b>
+                    Fix running unit tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 13:04:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1135" class=".btn">#1135</a>
             </td>
             <td>

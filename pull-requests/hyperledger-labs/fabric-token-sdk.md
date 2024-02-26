@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/553" class=".btn">#553</a>
+            </td>
+            <td>
+                <b>
+                    add dependency to the hash of public params in the rws
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 13:38:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/551" class=".btn">#551</a>
             </td>
             <td>
@@ -105,7 +131,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                This PR implements the range proofs in the token-sdk using Bulletproofs. 
             </td>
         </tr>
     </table>
