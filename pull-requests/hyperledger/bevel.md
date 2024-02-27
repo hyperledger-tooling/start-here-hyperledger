@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    feat(besu): implement qbft_proposeValidatorVote  method to add or rem…
+                    feat(besu): implement proposevalidatorvote  method to add or rem…
                 </b>
             </td>
         </tr>

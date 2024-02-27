@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3031" class=".btn">#3031</a>
+            </td>
+            <td>
+                <b>
+                    fix(fabric-test-ledger): fix INVALID_ENDORSER_TRANSACTION error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * reverts changes of commit https://github.com/hyperledger/cacti/commit/3371772c582389f6ee0c6fb66af875dd93cc94c6, which seems to be breaking the Fabric Test Ledger
+
+closes #3009
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-27 17:33:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3030" class=".btn">#3030</a>
             </td>
             <td>
@@ -117,35 +145,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-02-24 02:28:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3028" class=".btn">#3028</a>
-            </td>
-            <td>
-                <b>
-                    refactor(gui): gui framework change from solid to react
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - changed gui framework to react because it is more common
-  and more friendly for newcomers.
-- routing moved from src/pages/Pages to src/main, beside that
-  only refactoring were made
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-20 13:36:02 +0000 UTC
     </div>
 </div>
 

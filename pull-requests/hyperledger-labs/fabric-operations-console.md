@@ -84,44 +84,6 @@ increment release notes
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/643" class=".btn">#643</a>
-            </td>
-            <td>
-                <b>
-                    Join channel issue fix, even if member does not belong to same msp we…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …re able to join, issue fix
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-Join channel issue fix for member who is not belongs to same msp
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-26 20:33:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/642" class=".btn">#642</a>
             </td>
             <td>
@@ -505,81 +467,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-02-20 18:42:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/632" class=".btn">#632</a>
-            </td>
-            <td>
-                <b>
-                    performance enhancement on service up by flatten validation json conve…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …rsion provide instead of building
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- Enhance server startup performance
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-20 15:26:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/631" class=".btn">#631</a>
-            </td>
-            <td>
-                <b>
-                    add full date to logs in the console transport
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-- the file logger and console logger now use the same date time format
-   - this adds the year, month, and date to the console logs (file logs already had the full date)
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-20 14:46:45 +0000 UTC
     </div>
 </div>
 
