@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6619" class=".btn">#6619</a>
+            </td>
+            <td>
+                <b>
+                    Acceptance tests to use bonsai
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                refs #6583 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-27 11:03:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6618" class=".btn">#6618</a>
+            </td>
+            <td>
+                <b>
+                    Cleanup after refactoring `TransactionSelectionService`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+Just some more code that can be removed
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-27 10:21:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6616" class=".btn">#6616</a>
             </td>
             <td>
@@ -558,61 +652,6 @@ The trace output for the transaction referenced in the [issue](https://github.co
     </table>
     <div class="right-align">
         Created At 2024-02-21 02:33:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6596" class=".btn">#6596</a>
-            </td>
-            <td>
-                <b>
-                    Clique block period transition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span><span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Add [BFT-style transitions](https://besu.hyperledger.org/private-networks/how-to/configure/consensus/qbft#transitions) to Clique, modelled with `ForksSchedule<CliqueConfigOptions>`
-
-CliqueMiningAcceptanceTest heavily inspired by [BftBlockRewardPaymentAcceptanceTest](https://github.com/hyperledger/besu/blob/main/acceptance-tests/tests/src/test/java/org/hyperledger/besu/tests/acceptance/bft/BftBlockRewardPaymentAcceptanceTest.java)
-
-Preparatory story to https://github.com/hyperledger/besu/issues/6290 - a `createemptyblocks` transition will be added in the next PR.
-
-Create genesis config transitions:
-```
-  "config": {
-    ...
-    "clique": {
-      "blockperiodseconds": 3,
-      "epochlength": 30,
-      "requesttimeoutseconds": 6,
-      "createemptyblocks": true
-    },
-    "transitions": {
-      "clique": [
-        {
-          "block": 3,
-          "blockperiodseconds": 1
-        },
-        {
-          "block": 6,
-          "blockperiodseconds": 2
-        },
-      ]
-    }
-  },
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-20 07:34:52 +0000 UTC
     </div>
 </div>
 
