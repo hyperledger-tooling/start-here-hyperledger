@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6616" class=".btn">#6616</a>
+            </td>
+            <td>
+                <b>
+                    Fix NPE when running revert variable subcommand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+Fixes NPE when running the revert variables subcommand. 
+
+Due to changes in how the data storage configuration is handled the approach of using the storage provider directly from the `BesuSubcommand` no longer works. Instead changed the approach that to use what was used in the trielog subcommands and creates the BesuController using the `BesuCommand.buildController()` to get access to the `StorageProvider`. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #6614
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-27 03:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6611" class=".btn">#6611</a>
             </td>
             <td>
@@ -232,7 +281,7 @@ Resolves breaking change in PR https://github.com/hyperledger/besu/pull/6307 tha
             </td>
             <td>
                 <b>
-                    [MINOR] Rotate changelog since 24.2.0-RC1 has been cut
+                    [MINOR] Rotate changelog since 24.2.0-RC has been cut
                 </b>
             </td>
         </tr>
