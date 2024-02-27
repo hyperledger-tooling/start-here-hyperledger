@@ -320,30 +320,3 @@ N/A
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4687" class=".btn">#4687</a>
-            </td>
-            <td>
-                <b>
-                    Add ledgerutil to docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                All ledgerutil to docs.
-Also remove idemixgen since it was moved to its own repository.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 18:42:30 +0000 UTC
-    </div>
-</div>
-
