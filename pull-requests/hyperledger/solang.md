@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1622" class=".btn">#1622</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1625" class=".btn">#1625</a>
             </td>
             <td>
                 <b>
-                    Bump inkwell and other crates
+                    MSRV 1.74 (fixes CI)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,40 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Update crates dependencies and fix the CI problems.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-04 10:48:45 +0000 UTC
+        Created At 2024-02-27 17:40:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1624" class=".btn">#1624</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix: Do not mangle overridden non-overloaded virtual function names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1623 
+
+The basic idea of the algorithm checking whether a function name is eligible for mangling or not is to mangle the name if that function is publicly callable but the functions name appears multiple time in the contract. But this doesn't account for virtual functions also appearing more than one time in the same contract if they are overridden. With this PR, we bail early if the function we are checking overrides, marking only the single one non-overriding implementation as eligible for mangling. Consequently, functions which override but do not overload are no longer unnecessarily mangled.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-27 17:22:35 +0000 UTC
     </div>
 </div>
 

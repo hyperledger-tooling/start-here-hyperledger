@@ -95,29 +95,3 @@ An address exchange test has also been added to the package to test the authenti
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/400" class=".btn">#400</a>
-            </td>
-            <td>
-                <b>
-                    Revert: Remove settle secondary (#351)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is linked to https://github.com/hyperledger-labs/perun-eth-backend/pull/47 and reverts commit https://github.com/hyperledger-labs/go-perun/commit/be6e07257c123309c98fbbea4b86440275be2797.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-20 13:35:51 +0000 UTC
-    </div>
-</div>
-
