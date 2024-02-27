@@ -286,7 +286,7 @@ Resolves breaking change in PR https://github.com/hyperledger/besu/pull/6307 tha
 This PR removes unnecessary checks and variables used to work around the latestValidAncestorDescendsFromTerminal from PoW, which has been removed by PR https://github.com/hyperledger/besu/pull/4703
 - Test done:
 - [x] Synced Sepolia successfully
-- [ ] Synced Goerli successfully
+- [x] Synced Goerli successfully
 - [x] Synced Mainnet successfully
 
             </td>
@@ -564,42 +564,6 @@ Create genesis config transitions:
     </table>
     <div class="right-align">
         Created At 2024-02-20 07:34:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6595" class=".btn">#6595</a>
-            </td>
-            <td>
-                <b>
-                    Refactor `TransactionSelectionService`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Scope of this refactor is to move the `TransacationSelectionService` from protocol context to mining parameters where it is more pertinent.
-The relevant changes themselves are small, but there are a lot of touched files due to the update protocol context
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-19 19:39:39 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4326" class=".btn">#4326</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4287: use `algorithm` in `PrivateKey` serialized form
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">UI</span><span class="chip">crypto</span>
+            </td>
+            <td>
+                ## Description
+
+Aligns serialized form of `PrivateKey` with its representation in Rust, i.e. rename `digest_function` to `algorithm`.
+
+This change might cause compatibility issues, but let's consider them as a part of the overall breaking configuration change: #2585 
+
+### Linked issue
+
+Closes #4287
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-26 21:46:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4319" class=".btn">#4319</a>
             </td>
             <td>
