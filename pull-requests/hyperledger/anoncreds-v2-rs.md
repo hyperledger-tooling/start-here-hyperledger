@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-v2-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-v2-rs/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-v2-rs/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    Updated README to reflect the AnonCreds v2 initiative
+                    Add signature and key abstraction for anoncreds
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-v2-rs
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                This adds traits that allow for abstracting the keys, signatures, and proofs to allow for more flexibility than hardcoded structs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-12 18:49:41 +0000 UTC
+        Created At 2024-02-28 00:08:30 +0000 UTC
     </div>
 </div>
 
