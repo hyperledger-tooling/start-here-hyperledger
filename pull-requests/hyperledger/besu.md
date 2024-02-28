@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6625" class=".btn">#6625</a>
+            </td>
+            <td>
+                <b>
+                    prevent startup if PoA and snap/checkpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #6385 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 05:58:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6624" class=".btn">#6624</a>
+            </td>
+            <td>
+                <b>
+                    feat: add fixed basefee options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add `fixedBaseFee` options to forced `baseFee` same as `gasPrice` value.
+
+
+I'm new to the Java language, please guide any aspects I can further improve or modify.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+https://github.com/hyperledger/besu/issues/6335
+
+## Revised PR
+https://github.com/hyperledger/besu/pull/6562
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 05:14:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6622" class=".btn">#6622</a>
             </td>
             <td>
@@ -57,14 +145,14 @@ Part of #6301
                 
             </td>
             <td>
-                refs #6583 
+                fixes #6583 
 
 ### Thanks for sending a pull request! Have you done the following?
 
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
 
 ### Most advanced CI tests are deferred until PR approval, but you could:
 
@@ -562,126 +650,6 @@ Now appends the correct docker pull command to the release notes, i.e.
     </table>
     <div class="right-align">
         Created At 2024-02-21 16:17:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6599" class=".btn">#6599</a>
-            </td>
-            <td>
-                <b>
-                    Ensure halt reasons in TraceFrames in `DebugOperationTracer.tracePostExecution`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-This PR fixes the debug trace series generation for `opcodes` that do not set an explicit `ExceptionalHaltReason` in the `OperationResult`. Previously, operations like `dup5` could lead to an exceptional halt (e.g., due to running out of gas) without this being accurately captured in the trace output, as the halt reason was not set explicitly. This situation affected the `FlatTraceGenerator's` ability to accurately reflect halt conditions and `subtrace` counts.
-
-The `DebugOperationTracer.tracePostExecution` method has been updated to check the `MessageFrame` for an exceptional halt reason if it's absent in the `OperationResult`. This adjustment aligns with the existing approach used by the `StandardJsonTracer`
-
-The trace output for the transaction referenced in the [issue](https://github.com/hyperledger/besu/issues/6591) now accurately displays the correct halt reason and appropriately counts subtraces.
-
-```diff
-{
-   "jsonrpc":"2.0",
-   "id":1,
-   "result":[
-      {
-         "action":{
-            "callType":"call",
-            "from":"0xd8422593f16cd6d65c3f4cfa28b5b5a862037123",
-            "gas":"0x1a18",
-            "input":"0x5b7d7482000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000004034313465376364326235656636313337656166383661396134653064666430333536313063323562323536333031633662396361356361313531653233373965000000000000000000000000000000000000000000000000000000000000004034646163313738646333376331303736346235643862373862633135323635366437316662343865626537396361613835343437336530663031313132313732",
-            "to":"0xd1a3abf42f9e66be86cfdea8c5c2c74f041c5e14",
-            "value":"0x0"
-         },
-         "blockHash":"0x2345afc92f072449294eba81a33116da5d014e74ecbe5db53e5d72b40145976f",
-         "blockNumber":2160351,
--        "result": {
--           "gasUsed": "0x0",
--           "output": "0x"
--        },
--        "subtraces": 0,
-+       "error":"Out of gas",
-+       "subtraces":1,
-        "traceAddress":[
-            
-         ],
-         "transactionHash":"0xea89b8082ab1e9e8f0a025ead197ce8e2cdf4b1212d4ec13a91e97570485a053",
-         "transactionPosition":0,
-         "type":"call"
-      },
-      {
-         "action":{
-            "callType":"delegatecall",
-            "from":"0xd1a3abf42f9e66be86cfdea8c5c2c74f041c5e14",
-            "gas":"0x6dd",
-            "input":"0x5b7d7482000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000004034313465376364326235656636313337656166383661396134653064666430333536313063323562323536333031633662396361356361313531653233373965000000000000000000000000000000000000000000000000000000000000004034646163313738646333376331303736346235643862373862633135323635366437316662343865626537396361613835343437336530663031313132313732",
-            "to":"0x564477025731ee7197eecf2c4a0d0106cc3e4572",
-            "value":"0x0"
-         },
-         "blockHash":"0x2345afc92f072449294eba81a33116da5d014e74ecbe5db53e5d72b40145976f",
-         "blockNumber":2160351,
--        "result": {
--           "gasUsed": "0xffffffffffffece0",
--            "output": "0x"
--         },
-+       "error":"Out of gas",
-         "subtraces":0,
-         "traceAddress":[
-            0
-         ],
-         "transactionHash":"0xea89b8082ab1e9e8f0a025ead197ce8e2cdf4b1212d4ec13a91e97570485a053",
-         "transactionPosition":0,
-         "type":"call"
-      }
-   ]
-}
-
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-21 04:41:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6598" class=".btn">#6598</a>
-            </td>
-            <td>
-                <b>
-                    PR Template updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - replaces comment on PR with template like the one used for opening an issue.
-- makes test workflows manually runnable via workflow_dispatch
-- updates to latest version of gradle build action
-- corrects login to ghcr on nightly builds
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-21 02:33:22 +0000 UTC
     </div>
 </div>
 

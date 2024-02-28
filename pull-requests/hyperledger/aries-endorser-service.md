@@ -39,31 +39,3 @@ describe the reason, source, or name of any table element.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    Add created_at for GET /v1/endorse/transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This resolves #43
-
-This preserves the the created_at field for GET v1/endorse/transactions endpoints
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-21 02:17:14 +0000 UTC
-    </div>
-</div>
-
