@@ -218,29 +218,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1130" class=".btn">#1130</a>
-            </td>
-            <td>
-                <b>
-                    Type requested credentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `requested_credentials_json` is now passed to `prover_create_proof` as a dedicated type instead of `&str`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-21 15:06:18 +0000 UTC
-    </div>
-</div>
-
