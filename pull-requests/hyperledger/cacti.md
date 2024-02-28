@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3035" class=".btn">#3035</a>
+            </td>
+            <td>
+                <b>
+                    fix(cbdc-example): removed dependency on chai and update tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Chai was removed as dependency of the cbdc-backend package
+* A test scenario was removed in the 'bridge-back' feature due to having duplicated logic with another one in the same file
+* Some tests were failing due to timeouts, so we added an explicit and generous timeout limit for each step
+
+closes #3034
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 17:07:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3033" class=".btn">#3033</a>
             </td>
             <td>

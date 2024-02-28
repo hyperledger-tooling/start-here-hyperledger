@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/557" class=".btn">#557</a>
+            </td>
+            <td>
+                <b>
+                    `tokendb` and `tokens`'s support for transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 14:57:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/556" class=".btn">#556</a>
             </td>
             <td>
@@ -170,32 +196,6 @@ This is helpful every time one wants to update the public parameters without upg
     </table>
     <div class="right-align">
         Created At 2024-02-22 10:57:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/549" class=".btn">#549</a>
-            </td>
-            <td>
-                <b>
-                    Simplify the network service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR aims to simplify the network service to the bare minimum and avoid any reference to underlying backend concepts.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-21 17:41:54 +0000 UTC
     </div>
 </div>
 

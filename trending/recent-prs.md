@@ -1,13 +1,13 @@
 
-[556](https://github.com/hyperledger-labs/fabric-token-sdk/pull/556) golangci-lint
+[3035](https://github.com/hyperledger/cacti/pull/3035) fix(cbdc-example): removed dependency on chai and update tests
 
-[555](https://github.com/hyperledger-labs/fabric-token-sdk/pull/555) move owner into ttx
+[6636](https://github.com/hyperledger/besu/pull/6636) Refactor and extend PluginTransactionPoolValidatorService
 
-[6625](https://github.com/hyperledger/besu/pull/6625) prevent startup if PoA and snap/checkpoint
+[1626](https://github.com/hyperledger/solang/pull/1626) Fix `1.76` clippies
 
-[6624](https://github.com/hyperledger/besu/pull/6624) feat: add fixed basefee options
+[909](https://github.com/hyperledger-labs/open-enterprise-agent/pull/909) feat(agent): define the OAS for CredentialIssuerEndpoints [WIP]
 
-[3033](https://github.com/hyperledger/cacti/pull/3033) chore: make spellcheck script less noisy with --no-progress flag
+[557](https://github.com/hyperledger-labs/fabric-token-sdk/pull/557) `tokendb` and `tokens`'s support for transactions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
