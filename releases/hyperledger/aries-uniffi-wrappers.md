@@ -15,26 +15,30 @@ permalink: /releases/hyperledger/aries-uniffi-wrappers
         <tr>
             <td colspan="2">
                 <b>
-                    0.1.1-binary
+                    0.2.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.1-binary
+                    0.2.0
                 </span>
             </td>
             <td>
-                
+                ## What's Changed
+* Dependency update by @conanoc in https://github.com/hyperledger/aries-uniffi-wrappers/pull/20
+* Release 0.2.0 by @conanoc in https://github.com/hyperledger/aries-uniffi-wrappers/pull/21
+
+**Full Changelog**: https://github.com/hyperledger/aries-uniffi-wrappers/compare/0.1.1...0.2.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-uniffi-wrappers/releases/tag/0.1.1-binary" class=".btn">
+    <a href="https://github.com/hyperledger/aries-uniffi-wrappers/releases/tag/0.2.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-11-23 02:53:11 +0000 UTC
+        Created At 2024-02-28 09:47:03 +0000 UTC
     </span>
 </div>
 
@@ -43,30 +47,26 @@ permalink: /releases/hyperledger/aries-uniffi-wrappers
         <tr>
             <td colspan="2">
                 <b>
-                    0.1.1
+                    0.2.0-binary
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.1
+                    0.2.0-binary
                 </span>
             </td>
             <td>
-                Update Anoncreds wrapper
-
-## What's Changed
-* export RevocationRegistryDefinitionPrivate as a local struct by @conanoc in https://github.com/hyperledger/aries-uniffi-wrappers/pull/6
-
+                
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-uniffi-wrappers/releases/tag/0.1.1" class=".btn">
+    <a href="https://github.com/hyperledger/aries-uniffi-wrappers/releases/tag/0.2.0-binary" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-11-23 04:51:02 +0000 UTC
+        Created At 2024-02-28 09:25:16 +0000 UTC
     </span>
 </div>
 
