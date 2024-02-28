@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6622" class=".btn">#6622</a>
+            </td>
+            <td>
+                <b>
+                    [#6301] Track bad block cause
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Track bad block causes in `BadBlockManager` in preparation for exposing plugin events.  This data is useful because a consumer may want to take a different action depending on the cause.  For example, for #6301, we probably want to trace blocks with an actual validation error and ignore blocks that just descend from a bad block. 
+
+## Fixed Issue(s)
+Part of #6301
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-27 23:51:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6619" class=".btn">#6619</a>
             </td>
             <td>
@@ -40,8 +70,8 @@ permalink: /pull-requests/hyperledger/besu
 
 - [x] locally run all unit tests via: `./gradlew build`
 - [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+- [x] locally run all integration tests via: `./gradlew integrationTest`
+- [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
 
 
 ## PR description
