@@ -38,7 +38,7 @@ permalink: /pull-requests/hyperledger/besu
 
 ### Most advanced CI tests are deferred until PR approval, but you could:
 
-- [ ] locally run all unit tests via: `./gradlew build`
+- [x] locally run all unit tests via: `./gradlew build`
 - [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
 - [ ] locally run all integration tests via: `./gradlew integrationTest`
 - [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`

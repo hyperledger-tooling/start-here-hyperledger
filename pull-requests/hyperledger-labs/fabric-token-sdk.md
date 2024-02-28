@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/556" class=".btn">#556</a>
+            </td>
+            <td>
+                <b>
+                    golangci-lint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 11:57:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/555" class=".btn">#555</a>
+            </td>
+            <td>
+                <b>
+                    move owner into ttx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR moves the owner service inside the ttx service. This is in alignment with `audit` and `auditdb` services, and `tokens` and `tokendb` services.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 07:54:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/554" class=".btn">#554</a>
             </td>
             <td>
@@ -24,10 +76,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR introduces the `tokens` service used to update the `tokendb` starting from a `TokenRequest`. 
+The fabric and orion processors will use this service to commit locally the transactions.
+
+In the following PRs, we will address the following points:
+- Atomicity of  `AppendTransaction`. If a failure happens, no traces should be left in the `tokendb`.
+- Ability to remove all the records related to a given transaction
+- Fix  the TODOs in `EndorseView`'s `receiveTransaction` function
             </td>
         </tr>
     </table>
@@ -53,7 +111,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR adds an additional dependency to the current public parameters in the RWSet. 
+This is helpful every time one wants to update the public parameters without upgrading the chaincode.
             </td>
         </tr>
     </table>
@@ -137,32 +196,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-02-21 17:41:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/548" class=".btn">#548</a>
-            </td>
-            <td>
-                <b>
-                    Bullet proofs: implementation + integration in the token-sdk.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the range proofs in the token-sdk using Bulletproofs. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-21 09:40:20 +0000 UTC
     </div>
 </div>
 
