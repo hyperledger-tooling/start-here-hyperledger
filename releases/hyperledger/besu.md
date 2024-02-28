@@ -231,38 +231,3 @@ ac18201442d7addbe09a0416edf3ba712a68d13e8b70b234060bd2972086472c  besu-24.2.0-RC
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    24.2.0-RC1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    24.2.0-RC1
-                </span>
-            </td>
-            <td>
-                ## 24.2.0-RC1 Has been found to be a bad release. Artifacts have been removed, bad hases are still included below. Please use 24.1.2 or 24.2.0-RC2
-
-### Download Info
-~44011cf63e0f2d460299144510dc736f3913807580cd4b957b6c274d4dee3f7c  besu-24.2.0-RC1.tar.gz~
-~00aa0e37c0fd78939345c85cc53ca11e5e11df25735b27856c91c700b8c78532  besu-24.2.0-RC1.zip~
-
-~`docker pull ghcr.io/hyperledger/besu:24.2.0-RC1`~
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/24.2.0-RC1" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-02-21 17:12:22 +0000 UTC
-    </span>
-</div>
-
