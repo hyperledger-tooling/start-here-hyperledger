@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/indy-plenum
             </td>
             <td>
                 <b>
-                    plugin:adding did plugin support in indy-plenum
+                    [WiP] - plugin:adding did plugin support in indy-plenum
                 </b>
             </td>
         </tr>
