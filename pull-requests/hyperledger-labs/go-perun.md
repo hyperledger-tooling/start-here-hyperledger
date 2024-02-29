@@ -116,29 +116,3 @@ An address exchange test has also been added to the package to test the authenti
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/401" class=".btn">#401</a>
-            </td>
-            <td>
-                <b>
-                    Update CHANGELOG to include v0.11.0 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 13:43:26 +0000 UTC
-    </div>
-</div>
-
