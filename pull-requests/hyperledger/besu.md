@@ -14,6 +14,186 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6643" class=".btn">#6643</a>
+            </td>
+            <td>
+                <b>
+                    revert 6499 flat-db-healing-enabled false by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 00:19:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6642" class=".btn">#6642</a>
+            </td>
+            <td>
+                <b>
+                    revert 6499 flat-db-healing-enabled false by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 00:08:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6641" class=".btn">#6641</a>
+            </td>
+            <td>
+                <b>
+                    Feature/fleet mode rebase
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 21:20:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6640" class=".btn">#6640</a>
+            </td>
+            <td>
+                <b>
+                    Snap server rebase
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 21:14:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6636" class=".btn">#6636</a>
             </td>
             <td>
@@ -162,6 +342,18 @@ https://github.com/hyperledger/besu/pull/6562
             <td>
                 ## PR description
 Track bad block causes in `BadBlockManager` in preparation for exposing plugin events.  This data is useful because a consumer may want to take a different action depending on the cause.  For example, for #6301, we probably want to trace blocks with an actual validation error and ignore blocks that just descend from a bad block. 
+
+Summary of changes:
+- Require a `BadBlockCause` when pushing blocks to `BadBlockManager`
+- Simplify bad block checks by adding utility method `BadBlockManager.isBadBlock`
+- Add some basic tests for `BadBlockManager`
+- In event handler `MergeCoordinator.onBadChain`, only push descendants of the bad block to the`BadBlockManager`.  The bad block itself will already have been pushed into the `BadBlockManager` when processed in `MainnetBlockValidator` and the `MergeCoordinator` does not have the context on why the bad block was marked as bad.
+- Remove unused API `MergeMiningCoordinator.addBadBlock`
+- Fix / add tests to `MainnetBlockValidatorTest` 
+   - Add tests for `fastBlockValidation()`
+   - Set all mocks upfront to ensure every test executes from a baseline of success. Previously several tests were passing artificially.  The mocks were not set up correctly so some tests were not hitting the cases that were intended. 
+- Create some factory methods on `InvalidBlockException` to handle cases where (previously required) block data is not available
+- Disambiguate a few different types of errors in `DownloadHeaderSequenceTask` and add tests
 
 ## Fixed Issue(s)
 Part of #6301
