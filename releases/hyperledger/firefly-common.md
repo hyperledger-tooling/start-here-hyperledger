@@ -15,36 +15,38 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v1.4.5
+                    v1.4.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.4.5
+                    v1.4.6
                 </span>
             </td>
             <td>
-                ## Migration consideration
+                ## What's Changed
+* fix: Change how we index the filter operations before evaluation by @SamMayWork in https://github.com/hyperledger/firefly-common/pull/124
+* Fix SQL query time reporting in log messages by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/125
+* Refactor WebSockets to fix window of duplicate delivery after reconect by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/123
+* fix: empty stream state on broadcast by @EnriqueL8 in https://github.com/hyperledger/firefly-common/pull/129
+* [ffapi] Support for Text and Binary Streams by @hfuss in https://github.com/hyperledger/firefly-common/pull/127
+* Do not log an error if a JSON field is missing by @nguyer in https://github.com/hyperledger/firefly-common/pull/130
+* Do not lose calling context in the logger by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/126
 
-Further to the embedding API changes to `eventstreams` in [v1.4.4](https://github.com/hyperledger/firefly-common/releases/tag/v1.4.4), there is an externals change to the JSON configuration of the `webhooks` type of event stream in this release:
-- The duplicate top-level `headers` field is removed.
+## New Contributors
+* @SamMayWork made their first contribution in https://github.com/hyperledger/firefly-common/pull/124
 
-## What's Changed
-* fix: delete stream with name by @EnriqueL8 in https://github.com/hyperledger/firefly-common/pull/121
-* Remove WebhookConfig.Headers in favour of WebhookConfig.HTTP.HTTPHeaders by @chrisbygrave in https://github.com/hyperledger/firefly-common/pull/122
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.4.4...v1.4.5
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.4.5...v1.4.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.4.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.4.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-01-24 13:14:57 +0000 UTC
+        Created At 2024-02-29 16:35:56 +0000 UTC
     </span>
 </div>
 
