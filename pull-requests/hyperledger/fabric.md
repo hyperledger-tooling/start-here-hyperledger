@@ -14,6 +14,125 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4703" class=".btn">#4703</a>
+            </td>
+            <td>
+                <b>
+                    Update documentation on event services
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+This patch updates descriptions in the documentation to shift focus from legacy SDKs to Gateway API.
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related PRs
+- https://github.com/hyperledger/fabric/pull/3219
+- https://github.com/hyperledger/fabric/pull/4221
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 00:34:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4702" class=".btn">#4702</a>
+            </td>
+            <td>
+                <b>
+                    Check env variable before using it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Change-Id: I5167afca9352b5bdc7d96dbe7e9ef25e2e2db69e
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+When the TARGET env variable is not set, the script will fail to run. 
+
+This patchset adds the checking and ouputs useful hints.
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 19:03:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4700" class=".btn">#4700</a>
             </td>
             <td>

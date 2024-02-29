@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/910" class=".btn">#910</a>
+            </td>
+            <td>
+                <b>
+                    Update multi-tenancy.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">docs</span>
+            </td>
+            <td>
+                Fixed environment variable name to enable default entity and wallet.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 22:55:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/909" class=".btn">#909</a>
             </td>
             <td>
