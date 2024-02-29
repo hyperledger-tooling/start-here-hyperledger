@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-news
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-news/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger/iroha-news/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    Add existing news files
+                    Add a file for February 23, 2024
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-news
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-21 07:56:48 +0000 UTC
+        Created At 2024-02-23 07:43:44 +0000 UTC
     </div>
 </div>
 
