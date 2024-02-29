@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6644" class=".btn">#6644</a>
+            </td>
+            <td>
+                <b>
+                    Besu command test split
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refs #6428 
+* split out some tests into separate test classes
+* Also use tempDir for the `dataDirOptionMustBeUsed` test to avoid leaving behind `besu/VERSION_METADATA.json` file
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 07:11:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6643" class=".btn">#6643</a>
             </td>
             <td>
@@ -699,33 +748,6 @@ Fixes #6290
     </table>
     <div class="right-align">
         Created At 2024-02-22 15:39:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6605" class=".btn">#6605</a>
-            </td>
-            <td>
-                <b>
-                    During version check, create data dir if it doesn't exist
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Resolves breaking change in PR https://github.com/hyperledger/besu/pull/6307 that blocks Besu startup if the data dir doesn't exist already
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 08:23:14 +0000 UTC
     </div>
 </div>
 

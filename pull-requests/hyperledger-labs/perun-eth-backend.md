@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Include settle secondary
+                    0.5.0 Release
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                This PR reverts the removal of secondary settling to reduce transaction fees.
+                This PR includes a CHANGELOG and go version update for release v0.5.0.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-15 14:29:27 +0000 UTC
+        Created At 2024-02-29 10:43:57 +0000 UTC
     </div>
 </div>
 

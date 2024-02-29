@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4704" class=".btn">#4704</a>
+            </td>
+            <td>
+                <b>
+                    BFT chain unit tests: successful tx propagation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+The purpose of this PR is to create BFT chain unit tests.
+The first step is to create an active chain using mocks, the second step is to start a network of 4 nodes and the third is to ensure a successful tx propagation.
+
+#### Related issues
+
+issue #4008 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 10:09:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4703" class=".btn">#4703</a>
             </td>
             <td>

@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4334" class=".btn">#4334</a>
+            </td>
+            <td>
+                <b>
+                    [BACKPORT] #3962: Revoke associated tokens on entity unregistration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 08:27:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4333" class=".btn">#4333</a>
             </td>
             <td>
@@ -115,152 +174,6 @@ Closes #4287
     </table>
     <div class="right-align">
         Created At 2024-02-26 21:46:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4319" class=".btn">#4319</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3660: Add Numeric type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-Introduce unified decimal numeric type for assets, no more `Quantity`, `BigQuantity`, `Fixed`.
-
-Type is represented as `96bit` mantissa + `scale` up to 28 decimal places.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3660 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Simplified code, decimals commonly use in monetary applications.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 11:57:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4318" class=".btn">#4318</a>
-            </td>
-            <td>
-                <b>
-                    Update CODEOWNERS: remove Kshitij Roodkee
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                As @0x009922 requested Kshitij Roodkee to be removed from `CODEOWNERS`: Kshitij would contribute, but he's busy with his new internship, as far as I am aware.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 07:47:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4316" class=".btn">#4316</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Unsync auto-labels. Fix `config-changes` condition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-1. The bot was observed to remove a label manually added to PR: https://github.com/hyperledger/iroha/pull/4309#issuecomment-1958760549
-2. At the same time, the bot was observed to notify false-positive `config-changes` due to its wrong definition
-	- Closes #4278
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-1. Always prioritize manual labeling/unlabeling
-2. Necessary and sufficient `config-changes` notifications
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 06:27:45 +0000 UTC
     </div>
 </div>
 
