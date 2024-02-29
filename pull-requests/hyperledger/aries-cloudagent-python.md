@@ -589,30 +589,3 @@ Fixes the version of the variable.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2810" class=".btn">#2810</a>
-            </td>
-            <td>
-                <b>
-                    More updates to get docs publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 14:56:04 +0000 UTC
-    </div>
-</div>
-

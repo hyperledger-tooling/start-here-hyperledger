@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4707" class=".btn">#4707</a>
+            </td>
+            <td>
+                <b>
+                    Fix test flake in TestImpatientStreamDetectSelf
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The implementation of the fake/mock orderer in the unit tests reads a seek envelope and the test fails if reading fails.
+
+When the `TestImpatientStreamDetectSelf` test ends, it shuts down the fake orderer, and as a result, reading from the stream fails and the test fails also.
+
+This commit simply short-circuits the test to avoid reading from the stream, but planting an error before establishing the stream, as reading from the stream is not needed for the test but only establishing it in order to get the TLS certificate.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 18:06:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4706" class=".btn">#4706</a>
+            </td>
+            <td>
+                <b>
+                    Add a doc notice that old version  is no longer supported (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This notice will be added to every rst page, including the welcome page.
+It will not be added to the md pages, but most of the landing pages are rst.
+
+Also update the README accordingly.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 18:01:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4705" class=".btn">#4705</a>
+            </td>
+            <td>
+                <b>
+                    Test flake in BFTDeliverer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Test update
+
+#### Description
+
+Prevent a test flake in BFTDeliverer unit tests
+
+#### Related issues
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 14:47:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4704" class=".btn">#4704</a>
             </td>
             <td>
@@ -456,45 +552,6 @@ Issue #4566
     </table>
     <div class="right-align">
         Created At 2024-02-25 10:12:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4692" class=".btn">#4692</a>
-            </td>
-            <td>
-                <b>
-                    BFT: configure orderer replication policy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Change-Id: I89596f5d10e636e499c36799472e593582847a9e
-
-#### Type of change
-
-- New feature
-
-#### Description
-
-Add a replication policy to the orderer.yaml that allows a BFT orderer to choose whethet it uses the "simple" synchronizer which contacts a single target orderer at a time or the BFT "consensus" synchronizer which contacts all target orderers and is resistant to censorship.
-
-#### Related issues
-
-Issue #4566 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 14:25:55 +0000 UTC
     </div>
 </div>
 
