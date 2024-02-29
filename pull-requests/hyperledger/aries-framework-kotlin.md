@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    Update aries wrapper version to 0.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 06:18:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/24" class=".btn">#24</a>
             </td>
             <td>

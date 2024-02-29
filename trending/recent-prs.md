@@ -1,13 +1,13 @@
 
-[80](https://github.com/hyperledger/aries-framework-swift/pull/80) Update aries wrapper version to 0.2.0
+[153](https://github.com/hyperledger/besu-native/pull/153) Refactor/ipa multipoint interfaces
 
-[4703](https://github.com/hyperledger/fabric/pull/4703) Update documentation on event services
+[48](https://github.com/hyperledger-labs/perun-eth-backend/pull/48) 0.5.0 Release
 
-[6643](https://github.com/hyperledger/besu/pull/6643) revert 6499 flat-db-healing-enabled false by default
+[4704](https://github.com/hyperledger/fabric/pull/4704) BFT chain unit tests: successful tx propagation
 
-[6642](https://github.com/hyperledger/besu/pull/6642) revert 6499 flat-db-healing-enabled false by default
+[403](https://github.com/hyperledger-labs/go-perun/pull/403) Go 1.21 upgrade
 
-[45](https://github.com/hyperledger/aries-akrida/pull/45) Use verifier agent and config for verifier tests
+[4334](https://github.com/hyperledger/iroha/pull/4334) [BACKPORT] #3962: Revoke associated tokens on entity unregistration
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

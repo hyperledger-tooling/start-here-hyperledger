@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/113" class=".btn">#113</a>
-            </td>
-            <td>
-                <b>
-                    Prometheus Metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Pr fixes for #34 
-
-Creating prometheus instrumentation for FFEVM
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 07:43:48 +0000 UTC
-    </div>
-</div>
-

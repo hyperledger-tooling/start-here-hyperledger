@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1471" class=".btn">#1471</a>
-            </td>
-            <td>
-                <b>
-                    Update webhook docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 10:42:16 +0000 UTC
-    </div>
-</div>
-

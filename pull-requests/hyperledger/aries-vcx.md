@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1139" class=".btn">#1139</a>
+            </td>
+            <td>
+                <b>
+                    [WIP]: feat(mediator): Containerise and package mediator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 07:59:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1138" class=".btn">#1138</a>
             </td>
             <td>
@@ -189,32 +215,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2024-02-22 14:30:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1131" class=".btn">#1131</a>
-            </td>
-            <td>
-                <b>
-                    fix: specify a tag for napi-rs image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                should fix https://github.com/hyperledger/aries-vcx/actions/runs/8000705387/job/21850571000
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 07:41:05 +0000 UTC
     </div>
 </div>
 
