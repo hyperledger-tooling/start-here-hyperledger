@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/291" class=".btn">#291</a>
+            </td>
+            <td>
+                <b>
+                    Fix fabric-tools and update E2E matrix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I discovered that despite some of the job labels, all of the jobs in the matrix ended up testing the same type of stack. This PR brings the E2E matrix into alignment with the same set of tests we run in the FireFly Core repo.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 19:23:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/289" class=".btn">#289</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-uniffi-wrappers
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-uniffi-wrappers/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/aries-uniffi-wrappers/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Update readme
+                    Release 0.2.0
                 </b>
             </td>
         </tr>
@@ -27,14 +27,43 @@ permalink: /pull-requests/hyperledger/aries-uniffi-wrappers
                 
             </td>
             <td>
-                - Update readme
-- Add DEVELOP.md
-- Remove `rustup toolchain install 1.65.0 --target $target` from `build-kotlin-library.sh`
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-27 07:23:24 +0000 UTC
+        Created At 2024-02-28 09:46:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-uniffi-wrappers/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Dependency update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bumped up dependencies and ran `cargo update`:
+- anoncreds to v0.2.0
+- aries-askar to v0.3.1
+
+Didn't update indy-vdr because it fails to build on M2 mac.
+Kotlin build often fails on M2 mac, but I managed to build it with several attempts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-28 09:21:54 +0000 UTC
     </div>
 </div>
 

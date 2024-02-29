@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/cacti
             </td>
             <td>
                 <b>
-                    fix(cbdc-example): removed dependency on chai and update tests
+                    test(cbdc-example): removed dependency on chai and update tests
                 </b>
             </td>
         </tr>

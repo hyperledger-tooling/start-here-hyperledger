@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 <b>
-                    Update multi-tenancy.md
+                    docs: update multi-tenancy.md
                 </b>
             </td>
         </tr>
