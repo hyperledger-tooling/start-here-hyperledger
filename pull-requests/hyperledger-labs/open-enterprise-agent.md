@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 <b>
-                    895 update the pr template
+                    docs(prism-agent): 895 update the pr template
                 </b>
             </td>
         </tr>
