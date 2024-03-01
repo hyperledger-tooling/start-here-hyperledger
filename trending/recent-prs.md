@@ -1,13 +1,13 @@
 
-[561](https://github.com/hyperledger-labs/fabric-token-sdk/pull/561) Move msp
+[4712](https://github.com/hyperledger/fabric/pull/4712) Update readme for LTS versions
 
-[560](https://github.com/hyperledger-labs/fabric-token-sdk/pull/560) network service cleanup
+[4711](https://github.com/hyperledger/fabric/pull/4711) Update readme for LTS versions (release-2.4)
 
-[405](https://github.com/hyperledger/iroha-java/pull/405) Updated executor along with stable update
+[4710](https://github.com/hyperledger/fabric/pull/4710) Update readme for LTS versions (release-2.3)
 
-[6662](https://github.com/hyperledger/besu/pull/6662) Eth call with 4844 params
+[915](https://github.com/hyperledger-labs/open-enterprise-agent/pull/915) fix: integration test
 
-[6661](https://github.com/hyperledger/besu/pull/6661) Eth call with 4844 params
+[4709](https://github.com/hyperledger/fabric/pull/4709) Add a doc notice that old version is no longer supported (release-2.3)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
