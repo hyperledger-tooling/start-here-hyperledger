@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/404" class=".btn">#404</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/405" class=".btn">#405</a>
             </td>
             <td>
                 <b>
-                    feature: unregister role and grant permission token by custom name
+                    Updated executor along with stable update
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                Added new instructions to unregister role and grant permission token by custom name
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-01 08:07:39 +0000 UTC
+        Created At 2024-03-01 08:32:46 +0000 UTC
     </div>
 </div>
 

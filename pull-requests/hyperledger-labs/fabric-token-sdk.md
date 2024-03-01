@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/559" class=".btn">#559</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/561" class=".btn">#561</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-29 13:03:03 +0000 UTC
+        Created At 2024-03-01 11:09:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/560" class=".btn">#560</a>
+            </td>
+            <td>
+                <b>
+                    network service cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR proposes the following:
+- remove transient-related function from the network service, they are not needed anymore
+- cleanup sql db logs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-01 10:16:51 +0000 UTC
     </div>
 </div>
 
@@ -170,32 +198,6 @@ This is helpful every time one wants to update the public parameters without upg
     </table>
     <div class="right-align">
         Created At 2024-02-26 13:38:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/551" class=".btn">#551</a>
-            </td>
-            <td>
-                <b>
-                    simplified token processor and db
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR simplify the `TokenStore` interface unifying the function to append new tokens. As a byproduct, this PR also reworks the data model used by the tokendb's sql implementation. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-23 08:06:54 +0000 UTC
     </div>
 </div>
 
