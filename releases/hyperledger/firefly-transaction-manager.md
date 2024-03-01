@@ -15,31 +15,31 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.3.7
+                    v1.3.8
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.3.7
+                    v1.3.8
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Better logging for transaction writer, and TXUpdate de-dup by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/108
-* Fix propagation of `blockNumber` to EVMConnect (and batch logging tweak) by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/109
+* Update golangci-lint by @nguyer in https://github.com/hyperledger/firefly-transaction-manager/pull/107
+* Update firefly-common by @nguyer in https://github.com/hyperledger/firefly-transaction-manager/pull/110
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.6...v1.3.7
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.7...v1.3.8
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.7" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-14 20:41:16 +0000 UTC
+        Created At 2024-02-29 16:54:28 +0000 UTC
     </span>
 </div>
 

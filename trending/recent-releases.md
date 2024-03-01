@@ -1,13 +1,13 @@
 
-[v1.4.6](https://github.com/hyperledger/firefly-common/releases/tag/v1.4.6) v1.4.6
+[v1.3.4](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.4) v1.3.4
 
-[v2.1.1](https://github.com/hyperledger/aries-framework-kotlin/releases/tag/v2.1.1) v2.1.1
+[v1.3.0-rc.1](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.3.0-rc.1) v1.3.0-rc.1
 
-[v2.1.1](https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.1.1) v2.1.1
+[v1.1.13](https://github.com/hyperledger/firefly-signer/releases/tag/v1.1.13) v1.1.13
 
-[24.2.0-RC3](https://github.com/hyperledger/besu/releases/tag/24.2.0-RC3) 24.2.0-RC3
+[v1.3.0-rc.2](https://github.com/hyperledger/firefly-cli/releases/tag/v1.3.0-rc.2) v1.3.0-rc.2
 
-[v1.3.0-rc.1](https://github.com/hyperledger/firefly-cli/releases/tag/v1.3.0-rc.1) v1.3.0-rc.1
+[v1.3.0-rc.1](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.3.0-rc.1) v1.3.0-rc.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)

@@ -15,30 +15,34 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.6
+                    v1.3.0-rc.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.6
+                    v1.3.0-rc.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Pass 409 Conflict back to FireFly Core by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/137
+* Nonroot User in Docker Image by @hfuss in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/139
+* Use separate eventstream per namespace by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/140
+* Update MAINTAINERS.md and CODEOWNERS by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/138
+* Update dependencies by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/145
+* Bump the npm_and_yarn group group in /samples/solidity with 1 update by @dependabot in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/146
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.5...v1.2.6
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.6...v1.3.0-rc.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.3.0-rc.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-19 15:06:17 +0000 UTC
+        Created At 2024-03-01 16:23:12 +0000 UTC
     </span>
 </div>
 

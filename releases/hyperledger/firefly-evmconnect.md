@@ -15,33 +15,35 @@ permalink: /releases/hyperledger/firefly-evmconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v1.3.3
+                    v1.3.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.3.3
+                    v1.3.4
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Change Dockerfile to use non-root user by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/107
-* Auto backoff catchup by @matthew1001 in https://github.com/hyperledger/firefly-evmconnect/pull/106
-* Update dependencies. Update to Go 1.21 by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/108
-* Propagate block number to eth_call by @peterbroadhurst in https://github.com/hyperledger/firefly-evmconnect/pull/109
+* Fix docker image by @alex-semenyuk in https://github.com/hyperledger/firefly-evmconnect/pull/110
+* fixing copy right headers by @Chengxuan in https://github.com/hyperledger/firefly-evmconnect/pull/111
+* Update firefly dependencies by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/116
+* Fix docker build and add to PR checks by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/117
 
+## New Contributors
+* @alex-semenyuk made their first contribution in https://github.com/hyperledger/firefly-evmconnect/pull/110
 
-**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.3.2...v1.3.3
+**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.3.3...v1.3.4
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.3" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-15 20:57:23 +0000 UTC
+        Created At 2024-03-01 19:49:16 +0000 UTC
     </span>
 </div>
 
