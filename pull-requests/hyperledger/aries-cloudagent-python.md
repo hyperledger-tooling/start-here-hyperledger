@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2820" class=".btn">#2820</a>
+            </td>
+            <td>
+                <b>
+                    FIX: GHA update for doc publishing, fix doc file that was blanked
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Next try (if needed) will get into the regex...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-02-29 22:15:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2819" class=".btn">#2819</a>
             </td>
             <td>
@@ -522,70 +548,6 @@ Also, enabled a test that was commented out for askar wallet revoke and then pub
     </table>
     <div class="right-align">
         Created At 2024-02-23 22:51:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2812" class=".btn">#2812</a>
-            </td>
-            <td>
-                <b>
-                    Create revocation notification after list entry written to ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes the issue with the revocation notification not happening.
-
-There was a couple things that didn't make sense. 
-
-- For the `/revoke` endpoint if was never calling notify. It was only creating the notification record. This may have been deliberate (see comment), but needs to notify at some point, which it isn't doing.
-- For the `/publish-revocations` endpoint it was not calling notify when there was a connection_id, but this is only used for explicitly using a specific endorser connection. When in author and preconfigured mode, this parameter isn't even used. I think it was trying to prevent the notify from happening for endorsement scenarios. (see next comment)
-
-***comment***: right now the revocation notification is happening after requesting endorsement but before the new list entry has been written to the ledger. This is the same for anoncreds. I'm not sure if this is what we actually want. It kinda makes sense to have it immediately when the issuer revokes, but it also makes sense not to notify until after the endorsement has happened and the entry has been written.
-
-Tested with traction and bc wallet. 
-
-Still testing some scenarios.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 20:01:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2811" class=".btn">#2811</a>
-            </td>
-            <td>
-                <b>
-                    Eliminate the double workflow event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Removes the "on create" trigger, since that seems to trigger the workflow twice.
-Fixes the version of the variable.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-22 19:31:47 +0000 UTC
     </div>
 </div>
 

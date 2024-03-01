@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger-labs/benchmarking-cross-chain-bridges/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    chore(deps): bump follow-redirects from 1.15.2 to 1.15.4
+                    chore(deps): bump @openzeppelin/contracts from 5.0.0 to 5.0.2
                 </b>
             </td>
         </tr>
@@ -27,27 +27,57 @@ permalink: /pull-requests/hyperledger-labs/benchmarking-cross-chain-bridges
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.2 to 1.15.4.
+                Bumps [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) from 5.0.0 to 5.0.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/releases"><code>@​openzeppelin/contracts</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.2</h2>
+<ul>
+<li><code>Base64</code>: Fix issue where dirty memory located just after the input buffer is affecting the result. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4926">#4926</a>)</li>
+</ul>
+<h2>v5.0.1</h2>
+<ul>
+<li><code>ERC2771Context</code> and <code>Context</code>: Introduce a <code>_contextPrefixLength()</code> getter, used to trim extra information appended to <code>msg.data</code>.</li>
+<li><code>Multicall</code>: Make aware of non-canonical context (i.e. <code>msg.sender</code> is not <code>_msgSender()</code>), allowing compatibility with <code>ERC2771Context</code>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/CHANGELOG.md"><code>@​openzeppelin/contracts</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2>5.0.2 (2024-02-29)</h2>
+<ul>
+<li><code>Base64</code>: Fix issue where dirty memory located just after the input buffer is affecting the result. (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/pull/4926">#4926</a>)</li>
+</ul>
+<h2>5.0.1 (2023-12-07)</h2>
+<ul>
+<li><code>ERC2771Context</code> and <code>Context</code>: Introduce a <code>_contextPrefixLength()</code> getter, used to trim extra information appended to <code>msg.data</code>.</li>
+<li><code>Multicall</code>: Make aware of non-canonical context (i.e. <code>msg.sender</code> is not <code>_msgSender()</code>), allowing compatibility with <code>ERC2771Context</code>.</li>
+</ul>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/65858205e59f1e23c9bf173348a7a7cbb8ac47f5"><code>6585820</code></a> Release version 1.15.4 of the npm package.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/7a6567e16dfa9ad18a70bfe91784c28653fbf19d"><code>7a6567e</code></a> Disallow bracketed hostnames.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/05629af696588b90d64e738bc2e809a97a5f92fc"><code>05629af</code></a> Prefer native URL instead of deprecated url.parse.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/1cba8e85fa73f563a439fe460cf028688e4358df"><code>1cba8e8</code></a> Prefer native URL instead of legacy url.resolve.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/72bc2a4229bc18dc9fbd57c60579713e6264cb92"><code>72bc2a4</code></a> Simplify _processResponse error handling.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/3d42aecdca39b144a0a2f27ea134b4cf67dd796a"><code>3d42aec</code></a> Add bracket tests.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/bcbb096b32686ecad6cd34235358ed6f2217d4f0"><code>bcbb096</code></a> Do not directly set Error properties.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/192dbe7ce671ecad813c074bffe3b3f5d3680fee"><code>192dbe7</code></a> Release version 1.15.3 of the npm package.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/bd8c81e4f32d12f28a35d265f88b1716703687c6"><code>bd8c81e</code></a> Fix resource leak on destroy.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/9c728c314b06f9595dcd7f245d40731e8a27d79f"><code>9c728c3</code></a> Split linting and testing.</li>
-<li>Additional commits viewable in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.15.2...v1.15.4">compare view</a></li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/dbb6104ce834628e473d2173bbc9d47f81a9eec3"><code>dbb6104</code></a> Release v5.0.2 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4928">#4928</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/26b4b6099936fc785309f3da118ec8607b6716ed"><code>26b4b60</code></a> Port Base64 tests to truffle (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4926">#4926</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/d4ec2782b724be9e56bf33aa91ff599df185c0b0"><code>d4ec278</code></a> List every contract in each API doc section (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4848">#4848</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/f7bb9881a8d5119b7a1aaf8dc8a589b48bca64dd"><code>f7bb988</code></a> Replace Defender Admin with Transaction Proposals (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4804">#4804</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/e53f81b7044657e4e14e85a587e92a995e2c266b"><code>e53f81b</code></a> Remove Governor's guide ERC6372 disclaimer for Tally (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4801">#4801</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/01ef448981be9d20ca85f2faf6ebdf591ce409f3"><code>01ef448</code></a> Release v5.0.1 (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4785">#4785</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/9ce0340466bb125d6bb9f22bfcb5e37e062e26e2"><code>9ce0340</code></a> Make Multicall context-aware</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/4eb67a408c13e8c67f7b99a9d618aa442ad53a84"><code>4eb67a4</code></a> Close <code>access-control.adoc</code> code block (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4726">#4726</a>) (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4727">#4727</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/83330a6e4c8efeded3ea2b8d6aae5ac2ffc18555"><code>83330a6</code></a> Add <code>AccessManager</code> guide (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4691">#4691</a>) (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4724">#4724</a>)</li>
+<li><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/commit/ab967b863964b5de4a8be5c30796180a78fb3b6e"><code>ab967b8</code></a> Update the &quot;utilities&quot; documentation page (<a href="https://redirect.github.com/OpenZeppelin/openzeppelin-contracts/issues/4678">#4678</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/compare/v5.0.0...v5.0.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.15.2&new-version=1.15.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@openzeppelin/contracts&package-manager=npm_and_yarn&previous-version=5.0.0&new-version=5.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -79,7 +109,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-10 22:19:47 +0000 UTC
+        Created At 2024-02-29 20:11:14 +0000 UTC
     </div>
 </div>
 
