@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4712" class=".btn">#4712</a>
+            </td>
+            <td>
+                <b>
+                    Update readme for LTS versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update readme for LTS versions
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-01 17:35:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4711" class=".btn">#4711</a>
+            </td>
+            <td>
+                <b>
+                    Update readme for LTS versions (release-2.4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update readme for LTS versions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-01 17:32:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4710" class=".btn">#4710</a>
+            </td>
+            <td>
+                <b>
+                    Update readme for LTS versions (release-2.3)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update readme for LTS versions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-01 17:15:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4709" class=".btn">#4709</a>
+            </td>
+            <td>
+                <b>
+                    Add a doc notice that old version is no longer supported (release-2.3)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This notice will be added to every rst page, including the welcome page. It will not be added to the md pages, but most of the landing pages are rst.
+
+Also update the README accordingly.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-01 16:49:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4707" class=".btn">#4707</a>
             </td>
             <td>

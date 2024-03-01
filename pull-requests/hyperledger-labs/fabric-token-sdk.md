@@ -18,16 +18,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    Move msp
+                    self-contained identity stack
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                See #558 
             </td>
         </tr>
     </table>
