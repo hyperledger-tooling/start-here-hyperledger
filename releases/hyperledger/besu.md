@@ -60,6 +60,7 @@ Lastly, this version includes several performance improvements to the EVM and ex
   - If you do not want the limit enabled (eg you have `--bonsai-historical-block-limit` set < 512), you need to explicitly disable it using `--bonsai-limit-trie-logs-enabled=false` or increase the limit. [#6561](https://github.com/hyperledger/besu/pull/6561)
 
 ### Additions and Improvements
+- Improves block processing performance by precalculating transactions' sender [#6375](https://github.com/hyperledger/besu/pull/6375) and optimizing Keccak hash calculations for account storage slots during the commit phase[#6452](https://github.com/hyperledger/besu/pull/6452).
 - Upgrade Prometheus and Opentelemetry dependencies [#6422](https://github.com/hyperledger/besu/pull/6422)
 - Add `OperationTracer.tracePrepareTransaction`, where the sender account has not yet been altered[#6453](https://github.com/hyperledger/besu/pull/6453)
 - Improve the high spec flag by limiting it to a few column families [#6354](https://github.com/hyperledger/besu/pull/6354)
