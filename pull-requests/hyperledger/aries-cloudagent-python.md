@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2821" class=".btn">#2821</a>
+            </td>
+            <td>
+                <b>
+                    Send revocation list instead of rev_list object - Anoncreds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes anoncreds specific problem on initial rev_list. Was sending the rev_list object to the event handler instead of the actual list.
+
+Added a log message to v1 handler for after the message has been sent.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-01 18:56:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2820" class=".btn">#2820</a>
             </td>
             <td>
@@ -520,34 +548,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-02-26 21:52:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2814" class=".btn">#2814</a>
-            </td>
-            <td>
-                <b>
-                    Fix anoncreds non-endorsement revocation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sorry. I should have blocked the last PR from getting merged for a bit. I forgot to test the anoncreds non-endorsement scenario. Integration tests caught it and I fixed the problem with this PR. Tested the failing integration tests locally.
-
-Also, enabled a test that was commented out for askar wallet revoke and then publish scenarios.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-23 22:51:06 +0000 UTC
     </div>
 </div>
 
