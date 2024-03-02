@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    Feat/remote resolve
+                    updated to keri 1.1.1, unit tests pass
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                Also thank you to @henkvancann for his wording updates.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-08 15:11:40 +0000 UTC
+        Created At 2024-03-02 02:20:35 +0000 UTC
     </div>
 </div>
 
