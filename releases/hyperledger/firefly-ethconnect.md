@@ -15,30 +15,38 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.3.0
+                    v3.3.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.3.0
+                    v3.3.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add synchronized flag to subscriptions by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/235
+* Mark filter stale for Besu nodes by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/238
+* [subscriptions] Fix for Validating URLs by @hfuss in https://github.com/hyperledger/firefly-ethconnect/pull/239
+* Update MAINTAINERS.md and CODEOWNERS by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/237
+* Change Dockerfile to use non-root user by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/240
+* Update to Go 1.21 and update dependencies by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/241
+* Fix image not found issue by @alex-semenyuk in https://github.com/hyperledger/firefly-ethconnect/pull/242
+* Fix docker build and add to PR checks by @nguyer in https://github.com/hyperledger/firefly-ethconnect/pull/243
 
+## New Contributors
+* @alex-semenyuk made their first contribution in https://github.com/hyperledger/firefly-ethconnect/pull/242
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.11...v3.3.0
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.3.0...v3.3.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.3.0" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.3.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-07-25 20:34:21 +0000 UTC
+        Created At 2024-03-01 20:32:10 +0000 UTC
     </span>
 </div>
 
