@@ -38,29 +38,3 @@ Resolves #1177, resolves #1169
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1180" class=".btn">#1180</a>
-            </td>
-            <td>
-                <b>
-                    Update GitHub action versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Avoid using deprecated action versions based on Node versions prior to Node 18.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-25 01:55:22 +0000 UTC
-    </div>
-</div>
-
