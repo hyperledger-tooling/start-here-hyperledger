@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/563" class=".btn">#563</a>
+            </td>
+            <td>
+                <b>
+                    remove suffix, use prefixes consistently, only rollback on error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We don't need the tablesuffix because the db is configured by the user per TMS. Even if they choose to use the same database for multiple TMS, they can use the prefix to have different tables per TMS.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-03 15:11:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/562" class=".btn">#562</a>
             </td>
             <td>
