@@ -1,13 +1,13 @@
 
-[6667](https://github.com/hyperledger/besu/pull/6667) allow snap/checkpoint with clique
+[6672](https://github.com/hyperledger/besu/pull/6672) clean-up: Remove isChainPruneEnabled from MergeContext interface
 
-[563](https://github.com/hyperledger-labs/fabric-token-sdk/pull/563) remove suffix, use prefixes consistently, only rollback on error
+[6671](https://github.com/hyperledger/besu/pull/6671) Eth call with 4844 params
 
-[562](https://github.com/hyperledger-labs/fabric-token-sdk/pull/562) identity types
+[200](https://github.com/hyperledger/aries-acapy-plugins/pull/200) chore(deps): Bump pydantic from 1.10.13 to 1.10.14 in /redis_events
 
-[1](https://github.com/hyperledger-labs/aifaq/pull/1) Poc new release
+[199](https://github.com/hyperledger/aries-acapy-plugins/pull/199) chore(deps-dev): Update pytest-asyncio requirement from 0.14.0 to 0.23.5 in /plugin_globals
 
-[24](https://github.com/hyperledger-labs/learning-tokens/pull/24) Update README.md
+[198](https://github.com/hyperledger/aries-acapy-plugins/pull/198) chore(deps-dev): Update pytest-cov requirement from 2.10.1 to 4.1.0 in /plugin_globals
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
