@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/174" class=".btn">#174</a>
-            </td>
-            <td>
-                <b>
-                    Added Egress changes for deny All Case
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-26 05:58:59 +0000 UTC
-    </div>
-</div>
-
