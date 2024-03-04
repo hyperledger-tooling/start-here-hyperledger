@@ -62,32 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    Improve gas cost efficiency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes the following minor improvements
-- fix calcBlockDelay to early return if timeDelay is zero
-- fix some commitment path generator to accept calldata argument
-- split capabilities into portCapabilities and channelCapabilities 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-26 07:51:43 +0000 UTC
-    </div>
-</div>
-
