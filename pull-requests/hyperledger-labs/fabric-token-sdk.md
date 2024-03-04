@@ -227,30 +227,3 @@ In the following PRs, we will address the following points:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/553" class=".btn">#553</a>
-            </td>
-            <td>
-                <b>
-                    add dependency to the hash of public params in the rws
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR adds an additional dependency to the current public parameters in the RWSet. 
-This is helpful every time one wants to update the public parameters without upgrading the chaincode.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-26 13:38:49 +0000 UTC
-    </div>
-</div>
-
