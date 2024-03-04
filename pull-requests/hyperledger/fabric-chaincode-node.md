@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/411" class=".btn">#411</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/412" class=".btn">#412</a>
             </td>
             <td>
                 <b>
-                    Update build to avoid deprecated GitHub actions
+                    Remove unnecessary use of fs-extras
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Action versions based on Node 16 are deprecated.
+                Current Node versions provide all the required capability in the standard fs package.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-05 20:27:09 +0000 UTC
+        Created At 2024-03-04 18:08:44 +0000 UTC
     </div>
 </div>
 
