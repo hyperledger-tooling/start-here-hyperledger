@@ -248,6 +248,8 @@ Prevent a test flake in BFTDeliverer unit tests
 The purpose of this PR is to create BFT chain unit tests.
 The first step is to create an active chain using mocks, the second step is to start a network of 4 nodes and the third is to ensure a successful tx propagation.
 
+Support for stopping a node and restarting the network has been added. 
+
 #### Related issues
 
 issue #4008 
