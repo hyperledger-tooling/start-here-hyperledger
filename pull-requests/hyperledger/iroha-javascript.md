@@ -14,25 +14,29 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/187" class=".btn">#187</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    README: add links
+                    Rewrite Crypto WASM using the original `iroha_crypto` crate
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">package: crypto</span>
             </td>
             <td>
-                Small convenience-related change: add links
+                Closes #186 
+
+See changesets and the issue for context.
+
+Additionally, I have significantly extended integration tests around crypto. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-23 07:19:24 +0000 UTC
+        Created At 2024-03-05 08:59:46 +0000 UTC
     </div>
 </div>
 

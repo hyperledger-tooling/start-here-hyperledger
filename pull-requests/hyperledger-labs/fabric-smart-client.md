@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/528" class=".btn">#528</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/530" class=".btn">#530</a>
             </td>
             <td>
                 <b>
-                    Added public constructors for services. Added a node constructor with…
+                    Refactor endpoint
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                …out a pre-installed SDK
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-20 14:03:06 +0000 UTC
+        Created At 2024-03-05 09:13:39 +0000 UTC
     </div>
 </div>
 
