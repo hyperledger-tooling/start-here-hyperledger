@@ -14,6 +14,610 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/206" class=".btn">#206</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump nest-asyncio from 1.5.8 to 1.5.9 in /redis_events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [nest-asyncio](https://github.com/erdewit/nest_asyncio) from 1.5.8 to 1.5.9.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/erdewit/nest_asyncio/commit/c4b8289fe4f4a3192fd1d501e74df08fd93ed348"><code>c4b8289</code></a> Fix patching an already running Proactor loop, fixes <a href="https://redirect.github.com/erdewit/nest_asyncio/issues/87">#87</a></li>
+<li><a href="https://github.com/erdewit/nest_asyncio/commit/d5a13b0d5f156ac9076fbc244f49fb9d48af9bbc"><code>d5a13b0</code></a> Update link to build icon</li>
+<li><a href="https://github.com/erdewit/nest_asyncio/commit/a48a68a47e182bd7e1f86c60dfc07d7b8509508b"><code>a48a68a</code></a> Merge pull request <a href="https://redirect.github.com/erdewit/nest_asyncio/issues/84">#84</a> from 5j9/patch-1</li>
+<li><a href="https://github.com/erdewit/nest_asyncio/commit/c20e77426bfb9be50d514a850bc4cabbbc69f114"><code>c20e774</code></a> Update README.rst</li>
+<li><a href="https://github.com/erdewit/nest_asyncio/commit/f7ce59048cdaace5a1a82c78ef476c3bbb3b664a"><code>f7ce590</code></a> v1.5.8</li>
+<li>See full diff in <a href="https://github.com/erdewit/nest_asyncio/compare/v1.5.8...v1.5.9">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=nest-asyncio&package-manager=pip&previous-version=1.5.8&new-version=1.5.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 04:53:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/205" class=".btn">#205</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump mock from 4.0.3 to 5.1.0 in /redis_events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [mock](https://github.com/testing-cabal/mock) from 4.0.3 to 5.1.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/testing-cabal/mock/blob/master/CHANGELOG.rst">mock's changelog</a>.</em></p>
+<blockquote>
+<h2>5.1.0</h2>
+<ul>
+<li>
+<p>bpo-44185: :func:<code>unittest.mock.mock_open</code> will call the :func:<code>close</code>
+method of the file handle mock when it is exiting from the context
+manager. Patch by Samet Yaslan.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/testing-cabal/mock/issues/94924">gh-94924</a>: :func:<code>unittest.mock.create_autospec</code> now properly returns
+coroutine functions compatible with :func:<code>inspect.iscoroutinefunction</code></p>
+</li>
+<li>
+<p>bpo-17013: Add <code>ThreadingMock</code> to :mod:<code>unittest.mock</code> that can be used
+to create Mock objects that can wait until they are called. Patch by
+Karthikeyan Singaravelan and Mario Corchero.</p>
+</li>
+<li>
+<p>bpo-41768: :mod:<code>unittest.mock</code> speccing no longer calls class properties.
+Patch by Melanie Witt.</p>
+</li>
+</ul>
+<h2>5.0.2</h2>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/testing-cabal/mock/issues/102978">gh-102978</a>: Fixes :func:<code>unittest.mock.patch</code> not enforcing function
+signatures for methods decorated with <code>@classmethod</code> or
+<code>@staticmethod</code> when patch is called with <code>autospec=True</code>.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/testing-cabal/mock/issues/103329">gh-103329</a>: Regression tests for the behaviour of
+<code>unittest.mock.PropertyMock</code> were added.</p>
+</li>
+</ul>
+<h2>5.0.1</h2>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/testing-cabal/mock/issues/100740">gh-100740</a>: Fix <code>unittest.mock.Mock</code> not respecting the spec for
+attribute names prefixed with <code>assert</code>.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/testing-cabal/mock/issues/100690">gh-100690</a>: <code>Mock</code> objects which are not unsafe will now raise an
+<code>AttributeError</code> when accessing an attribute that matches the name of an
+assertion but without the prefix <code>assert_</code>, e.g. accessing
+<code>called_once</code> instead of <code>assert_called_once</code>. This is in addition to
+this already happening for accessing attributes with prefixes <code>assert</code>,
+<code>assret</code>, <code>asert</code>, <code>aseert</code>, and <code>assrt</code>.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/testing-cabal/mock/issues/96127">gh-96127</a>: <code>inspect.signature</code> was raising <code>TypeError</code> on call with
+mock objects. Now it correctly returns <code>(*args, **kwargs)</code> as infered
+signature.</p>
+</li>
+</ul>
+<h2>5.0.0</h2>
+<ul>
+<li><a href="https://redirect.github.com/testing-cabal/mock/issues/98624">gh-98624</a>: Add a mutex to unittest.mock.NonCallableMock to protect
+concurrent access to mock attributes.</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/testing-cabal/mock/commit/d344fa2794b3b1ae7e4a4dbf265fb040d6f41d1f"><code>d344fa2</code></a> Preparing for 5.1.0 release.</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/e53a01c315095bac1101fb3545c61382dc0d23fd"><code>e53a01c</code></a> latest sync point</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/73343195e09fd20b9a39187a71c138fa13e02f9d"><code>7334319</code></a> Remove unused branches from mock module (<a href="https://redirect.github.com/testing-cabal/mock/issues/106617">#106617</a>)</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/f0cc38503e2d91341ca4e263d5acf934b7c0d130"><code>f0cc385</code></a> <a href="https://redirect.github.com/testing-cabal/mock/issues/61215">GH-61215</a>: threadingmock: Remove unused branch for <code>timeout</code> (<a href="https://redirect.github.com/testing-cabal/mock/issues/106591">#106591</a>)</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/acd5fc58e41cd866b4ceff262140bd3304fb127a"><code>acd5fc5</code></a> Python 3.6+ compat</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/8d36bf4cc5f86cb7cc0b60d7b9f2c9c5e53f7f37"><code>8d36bf4</code></a> <a href="https://redirect.github.com/testing-cabal/mock/issues/106300">gh-106300</a>: Improve <code>assertRaises(Exception)</code> usages in tests (<a href="https://redirect.github.com/testing-cabal/mock/issues/106302">GH-106302</a>)</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/9cbc589905dbb0f415ab3a995eee48f4906c0418"><code>9cbc589</code></a> <a href="https://redirect.github.com/testing-cabal/mock/issues/106458">gh-106458</a>: Mark <code>testthreadingmock.py</code> with <code>@requires_working_threading</code> (GH...</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/0dc15d43989f7563b442b82e2807819b50b9d726"><code>0dc15d4</code></a> <a href="https://redirect.github.com/testing-cabal/mock/issues/61215">gh-61215</a>: Rename <code>wait_until_any_call</code> to <code>wait_until_any_call_with</code> (<a href="https://redirect.github.com/testing-cabal/mock/issues/106414">#106414</a>)</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/cb8b3c8c8a3f1661f93b989440853b9377a91303"><code>cb8b3c8</code></a> <a href="https://redirect.github.com/testing-cabal/mock/issues/61215">gh-61215</a>: New mock to wait for multi-threaded events to happen (<a href="https://redirect.github.com/testing-cabal/mock/issues/16094">#16094</a>)</li>
+<li><a href="https://github.com/testing-cabal/mock/commit/0bd94e622397bb2245a951086adb450731ee5d63"><code>0bd94e6</code></a> bpo-44185: Added close() to mock_open <strong>exit</strong> (<a href="https://redirect.github.com/testing-cabal/mock/issues/26902">#26902</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/testing-cabal/mock/compare/4.0.3...5.1.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mock&package-manager=pip&previous-version=4.0.3&new-version=5.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 04:52:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/204" class=".btn">#204</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump indy-vdr from 0.3.4 to 0.4.1 in /kafka_events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [indy-vdr](https://github.com/hyperledger/indy-vdr) from 0.3.4 to 0.4.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/hyperledger/indy-vdr/releases">indy-vdr's releases</a>.</em></p>
+<blockquote>
+<h2>v0.4.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix(js): add missing parameters to rn wrapper by <a href="https://github.com/genaris"><code>@​genaris</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/218">hyperledger/indy-vdr#218</a></li>
+<li>Update to indy-data-types 0.7; remove indy-utils by <a href="https://github.com/andrewwhitehead"><code>@​andrewwhitehead</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/224">hyperledger/indy-vdr#224</a></li>
+<li>fix a typo in logs by <a href="https://github.com/xiaolou86"><code>@​xiaolou86</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/231">hyperledger/indy-vdr#231</a></li>
+<li>fix(js): use quotes instead of brackets for local dependencies by <a href="https://github.com/berendsliedrecht"><code>@​berendsliedrecht</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/232">hyperledger/indy-vdr#232</a></li>
+<li>fix(js): use universal architecture for darwin by <a href="https://github.com/berendsliedrecht"><code>@​berendsliedrecht</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/233">hyperledger/indy-vdr#233</a></li>
+<li>fix(rn): do not try to deserialize again if it is a stream by <a href="https://github.com/berendsliedrecht"><code>@​berendsliedrecht</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/234">hyperledger/indy-vdr#234</a></li>
+<li>Faster pool refresh by <a href="https://github.com/andrewwhitehead"><code>@​andrewwhitehead</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/242">hyperledger/indy-vdr#242</a></li>
+<li>Add genesis transactions caching by <a href="https://github.com/andrewwhitehead"><code>@​andrewwhitehead</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/243">hyperledger/indy-vdr#243</a></li>
+<li>genesis cache js by <a href="https://github.com/berendsliedrecht"><code>@​berendsliedrecht</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/244">hyperledger/indy-vdr#244</a></li>
+<li>Update setup.py by <a href="https://github.com/tnkhanh"><code>@​tnkhanh</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/245">hyperledger/indy-vdr#245</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/xiaolou86"><code>@​xiaolou86</code></a> made their first contribution in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/231">hyperledger/indy-vdr#231</a></li>
+<li><a href="https://github.com/tnkhanh"><code>@​tnkhanh</code></a> made their first contribution in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/245">hyperledger/indy-vdr#245</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/hyperledger/indy-vdr/compare/v0.4.0...v0.4.1">https://github.com/hyperledger/indy-vdr/compare/v0.4.0...v0.4.1</a></p>
+<h2>v0.4.0</h2>
+<ul>
+<li>Added support for <code>did:indy</code> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/166">hyperledger/indy-vdr#166</a>, thanks to <a href="https://github.com/domwoe"><code>@​domwoe</code></a>, <a href="https://github.com/c2bo"><code>@​c2bo</code></a></li>
+<li>Added new nodejs and react-native wrappers, thanks to <a href="https://github.com/berendsliedrecht"><code>@​berendsliedrecht</code></a>, <a href="https://github.com/TimoGlastra"><code>@​TimoGlastra</code></a>, <a href="https://github.com/karimStekelenburg"><code>@​karimStekelenburg</code></a>, <a href="https://github.com/genaris"><code>@​genaris</code></a>, <a href="https://github.com/mrlunin"><code>@​mrlunin</code></a></li>
+<li>Switched from Ursa (now archived) to <code>indy-blssignatures</code></li>
+<li>Added builder for POOL_UPGRADE request into FFI and Python by <a href="https://github.com/Artemkaaas"><code>@​Artemkaaas</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/148">hyperledger/indy-vdr#148</a></li>
+<li>Proxy client by <a href="https://github.com/mirgee"><code>@​mirgee</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/184">hyperledger/indy-vdr#184</a></li>
+<li>Support HTTPS by <a href="https://github.com/mirgee"><code>@​mirgee</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/187">hyperledger/indy-vdr#187</a></li>
+<li>Issue <a href="https://redirect.github.com/hyperledger/indy-vdr/issues/210">#210</a> InvalidClientTaaAcceptanceError time too precise error if container timezone is not UTC by <a href="https://github.com/Ennovate-com"><code>@​Ennovate-com</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/211">hyperledger/indy-vdr#211</a></li>
+<li>Fix minor typos by <a href="https://github.com/omahs"><code>@​omahs</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/213">hyperledger/indy-vdr#213</a></li>
+<li>Now publishing arm64 packages</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/hyperledger/indy-vdr/compare/v0.3.4...v0.4.0">https://github.com/hyperledger/indy-vdr/compare/v0.3.4...v0.4.0</a></p>
+<h2>v0.4.0-dev.16</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix(rn): android works with JSC and Hermes by <a href="https://github.com/blu3beri"><code>@​blu3beri</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/194">hyperledger/indy-vdr#194</a></li>
+<li>chore: update version by <a href="https://github.com/blu3beri"><code>@​blu3beri</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/195">hyperledger/indy-vdr#195</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.15...v0.4.0-dev.16">https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.15...v0.4.0-dev.16</a></p>
+<h2>v0.4.0-dev.15</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix(nodejs): compatible with Windows builds by <a href="https://github.com/blu3beri"><code>@​blu3beri</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/183">hyperledger/indy-vdr#183</a></li>
+<li>feat: react native 0.71.x and Expo support by <a href="https://github.com/blu3beri"><code>@​blu3beri</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/186">hyperledger/indy-vdr#186</a></li>
+<li>build(android): use custom cross images by <a href="https://github.com/blu3beri"><code>@​blu3beri</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/189">hyperledger/indy-vdr#189</a></li>
+<li>chore: update version by <a href="https://github.com/blu3beri"><code>@​blu3beri</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/190">hyperledger/indy-vdr#190</a></li>
+<li>build(js): use local network by <a href="https://github.com/blu3beri"><code>@​blu3beri</code></a> in <a href="https://redirect.github.com/hyperledger/indy-vdr/pull/192">hyperledger/indy-vdr#192</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.14...v0.4.0-dev.15">https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.14...v0.4.0-dev.15</a></p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/c4b558c2e99a6e0751642056b66511046a5a35ef"><code>c4b558c</code></a> Merge pull request <a href="https://redirect.github.com/hyperledger/indy-vdr/issues/247">#247</a> from andrewwhitehead/upd/ver-041</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/0d975070f1caf5274563b327718132dab85328bf"><code>0d97507</code></a> use lockfile when installing cross</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/162a1f34f294f099cd925ec3a6ec02a7074c51c1"><code>162a1f3</code></a> update proxy version to 0.1.5</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/a19834485f8c8bd72511d37f8969cf3278f6f164"><code>a198344</code></a> update python wrapper version to 0.4.1</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/83f3507068b8dcbc78e9cef9681d3f414066da9e"><code>83f3507</code></a> Merge pull request <a href="https://redirect.github.com/hyperledger/indy-vdr/issues/245">#245</a> from tnkhanh/patch-1</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/fb2bbbedb68f6a29cbe6dbe04e3cf861054ae35d"><code>fb2bbbe</code></a> Merge branch 'main' into patch-1</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/f70a6d80ff1d2aa53e4cc3f29bfb0bd452dd3e09"><code>f70a6d8</code></a> Merge pull request <a href="https://redirect.github.com/hyperledger/indy-vdr/issues/244">#244</a> from berendsliedrecht/genesis-cache-js</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/9695a179160be3178cc2cb6b39470faedd97f317"><code>9695a17</code></a> Merge branch 'main' into genesis-cache-js</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/a914ef401ed7258c14a89365deb1c5a32dc5d1d5"><code>a914ef4</code></a> Merge pull request <a href="https://redirect.github.com/hyperledger/indy-vdr/issues/243">#243</a> from andrewwhitehead/feat/genesis-cache</li>
+<li><a href="https://github.com/hyperledger/indy-vdr/commit/cc7e2bb4ddae1fe8f6a4bbcf17c4c20a8fedd362"><code>cc7e2bb</code></a> Update setup.py</li>
+<li>Additional commits viewable in <a href="https://github.com/hyperledger/indy-vdr/compare/v0.3.4...v0.4.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=indy-vdr&package-manager=pip&previous-version=0.3.4&new-version=0.4.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 04:51:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/203" class=".btn">#203</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump pytest-asyncio from 0.14.0 to 0.23.5 in /redis_events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) from 0.14.0 to 0.23.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest-asyncio/releases">pytest-asyncio's releases</a>.</em></p>
+<blockquote>
+<h2>pytest-asyncio 0.23.5</h2>
+<h1>0.23.5 (2024-02-09)</h1>
+<ul>
+<li>Declare compatibility with pytest 8 <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/737">#737</a></li>
+<li>Fix typing errors with recent versions of mypy <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/769">#769</a></li>
+<li>Prevent DeprecationWarning about internal use of <code>asyncio.get_event_loop()</code> from affecting test cases <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/757">#757</a></li>
+</ul>
+<h2>Known issues</h2>
+<p>As of v0.23, pytest-asyncio attaches an asyncio event loop to each item of the test suite (i.e. session, packages, modules, classes, functions) and allows tests to be run in those loops when marked accordingly. Pytest-asyncio currently assumes that async fixture scope is correlated with the new event loop scope. This prevents fixtures from being evaluated independently from the event loop scope and breaks some existing test suites (see <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/706">#706</a>). For example, a test suite may require all fixtures and tests to run in the same event loop, but have async fixtures that are set up and torn down for each module. If you're affected by this issue, please continue using the v0.21 release, until it is resolved.</p>
+<h2>pytest-asyncio 0.23.5a0</h2>
+<h1>0.23.5 (UNRELEASED)</h1>
+<ul>
+<li>Declare compatibility with pytest 8 <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/737">#737</a></li>
+<li>Fix typing errors with recent versions of mypy <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/769">#769</a></li>
+</ul>
+<h2>Known issues</h2>
+<p>As of v0.23, pytest-asyncio attaches an asyncio event loop to each item of the test suite (i.e. session, packages, modules, classes, functions) and allows tests to be run in those loops when marked accordingly. Pytest-asyncio currently assumes that async fixture scope is correlated with the new event loop scope. This prevents fixtures from being evaluated independently from the event loop scope and breaks some existing test suites (see <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/706">#706</a>). For example, a test suite may require all fixtures and tests to run in the same event loop, but have async fixtures that are set up and torn down for each module. If you're affected by this issue, please continue using the v0.21 release, until it is resolved.</p>
+<h2>pytest-asyncio 0.23.4</h2>
+<h1>0.23.4 (2024-01-28)</h1>
+<ul>
+<li>pytest-asyncio no longer imports additional, unrelated packages during test collection <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/729">#729</a></li>
+<li>Addresses further issues that caused an internal pytest error during test collection</li>
+<li>Declares incompatibility with pytest 8 <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/737">#737</a></li>
+</ul>
+<h2>pytest-asyncio 0.23.4a2</h2>
+<h1>0.23.4 (UNRELEASED)</h1>
+<ul>
+<li>pytest-asyncio no longer imports additional, unrelated packages during test collection <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/729">#729</a></li>
+<li>Addresses further issues that caused an internal pytest error during test collection</li>
+</ul>
+<h2>Known issues</h2>
+<p>As of v0.23, pytest-asyncio attaches an asyncio event loop to each item of the test suite (i.e. session, packages, modules, classes, functions) and allows tests to be run in those loops when marked accordingly. Pytest-asyncio currently assumes that async fixture scope is correlated with the new event loop scope. This prevents fixtures from being evaluated independently from the event loop scope and breaks some existing test suites (see <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/706">#706</a>). For example, a test suite may require all fixtures and tests to run in the same event loop, but have async fixtures that are set up and torn down for each module. If you're affected by this issue, please continue using the v0.21 release, until it is resolved.</p>
+<h2>pytest-asyncio 0.23.4a1</h2>
+<h1>0.23.4 (UNRELEASED)</h1>
+<ul>
+<li>pytest-asyncio no longer imports additional, unrelated packages during test collection <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/729">#729</a></li>
+</ul>
+<h2>Known issues</h2>
+<p>As of v0.23, pytest-asyncio attaches an asyncio event loop to each item of the test suite (i.e. session, packages, modules, classes, functions) and allows tests to be run in those loops when marked accordingly. Pytest-asyncio currently assumes that async fixture scope is correlated with the new event loop scope. This prevents fixtures from being evaluated independently from the event loop scope and breaks some existing test suites (see <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/706">#706</a>). For example, a test suite may require all fixtures and tests to run in the same event loop, but have async fixtures that are set up and torn down for each module. If you're affected by this issue, please continue using the v0.21 release, until it is resolved.</p>
+<h2>pytest-asyncio 0.23.4a0</h2>
+<h1>0.23.4 (UNRELEASED)</h1>
+<ul>
+<li>pytest-asyncio no longer imports additional, unrelated packages during test collection <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/729">#729</a></li>
+</ul>
+<h2>Known issues</h2>
+<p>As of v0.23, pytest-asyncio attaches an asyncio event loop to each item of the test suite (i.e. session, packages, modules, classes, functions) and allows tests to be run in those loops when marked accordingly. Pytest-asyncio currently assumes that async fixture scope is correlated with the new event loop scope. This prevents fixtures from being evaluated independently from the event loop scope and breaks some existing test suites (see <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/706">#706</a>). For example, a test suite may require all fixtures and tests to run in the same event loop, but have async fixtures that are set up and torn down for each module. If you're affected by this issue, please continue using the v0.21 release, until it is resolved.</p>
+<h2>pytest-asyncio 0.23.3</h2>
+<h1>0.23.3 (2024-01-01)</h1>
+<ul>
+<li>Fixes a bug that caused event loops to be closed prematurely when using async generator fixtures with class scope or wider in a function-scoped test <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/706">#706</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/3aef60532f2a1c634af5f4539eabdd4fbfffcabc"><code>3aef605</code></a> [build] Update actions/upload-artifact and actions/download-artifact to v4.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/4b1908d9ed26895c194a4bb8d4c61cef2dfc5067"><code>4b1908d</code></a> [fix] Prevent DeprecationWarning from bubbling to user code.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/fc6d6cfeb2fd7db1572869b80517ec436ef95e7f"><code>fc6d6cf</code></a> Fix typing and update to mypy 1.8.0 (<a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/769">#769</a>)</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/6008cf16e2a5c6c365e249db975a8a1afec3c8bf"><code>6008cf1</code></a> Build(deps): Bump pluggy from 1.3.0 to 1.4.0 in /dependencies/default</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/712c51bde9d385ecf69ee98e8c40fa6868b80a75"><code>712c51b</code></a> Build(deps): Bump coverage from 7.4.0 to 7.4.1 in /dependencies/default</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/42fd3041c3e44e3428adee10afa7935757375ff9"><code>42fd304</code></a> Build(deps): Bump hypothesis in /dependencies/default</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/a40b4f662454e3b33d44fc552958439db167a294"><code>a40b4f6</code></a> Build(deps): Bump urllib3 from 2.1.0 to 2.2.0 in /dependencies/docs</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/9d90f8ec6e68e2564f5116cf2accfe0b202af390"><code>9d90f8e</code></a> Build(deps): Bump certifi in /dependencies/docs</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/fe5da0771dcc0b939ae9ee3d1b9a50cfc4860667"><code>fe5da07</code></a> Build(deps): Bump markupsafe from 2.1.4 to 2.1.5 in /dependencies/docs</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/42b140decf8de145e76dcd61894a7963b10e815b"><code>42b140d</code></a> fix compatibility with pytest ^8 (<a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/776">#776</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest-asyncio/compare/v0.14.0...v0.23.5">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-asyncio&package-manager=pip&previous-version=0.14.0&new-version=0.23.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 04:51:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Update pytest requirement from ~7.4.0 to ~8.1.0 in /plugin_globals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Updates the requirements on [pytest](https://github.com/pytest-dev/pytest) to permit the latest version.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest's releases</a>.</em></p>
+<blockquote>
+<h2>8.1.0</h2>
+<h1>pytest 8.1.0 (2024-03-03)</h1>
+<h2>Features</h2>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11475">#11475</a>: Added the new <code>consider_namespace_packages</code>{.interpreted-text role=&quot;confval&quot;} configuration option, defaulting to <code>False</code>.</p>
+<p>If set to <code>True</code>, pytest will attempt to identify modules that are part of <a href="https://packaging.python.org/en/latest/guides/packaging-namespace-packages">namespace packages</a> when importing modules.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11653">#11653</a>: Added the new <code>verbosity_test_cases</code>{.interpreted-text role=&quot;confval&quot;} configuration option for fine-grained control of test execution verbosity.
+See <code>Fine-grained verbosity &lt;pytest.fine_grained_verbosity&gt;</code>{.interpreted-text role=&quot;ref&quot;} for more details.</p>
+</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/10865">#10865</a>: <code>pytest.warns</code>{.interpreted-text role=&quot;func&quot;} now validates that <code>warnings.warn</code>{.interpreted-text role=&quot;func&quot;} was called with a [str]{.title-ref} or a [Warning]{.title-ref}.
+Currently in Python it is possible to use other types, however this causes an exception when <code>warnings.filterwarnings</code>{.interpreted-text role=&quot;func&quot;} is used to filter those warnings (see [CPython <a href="https://redirect.github.com/pytest-dev/pytest/issues/103577">#103577</a>](<a href="https://redirect.github.com/python/cpython/issues/103577">python/cpython#103577</a>) for a discussion).
+While this can be considered a bug in CPython, we decided to put guards in pytest as the error message produced without this check in place is confusing.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11311">#11311</a>: When using <code>--override-ini</code> for paths in invocations without a configuration file defined, the current working directory is used
+as the relative directory.</p>
+<p>Previoulsy this would raise an <code>AssertionError</code>{.interpreted-text role=&quot;class&quot;}.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11475">#11475</a>: <code>--import-mode=importlib &lt;import-mode-importlib&gt;</code>{.interpreted-text role=&quot;ref&quot;} now tries to import modules using the standard import mechanism (but still without changing :py<code>sys.path</code>{.interpreted-text role=&quot;data&quot;}), falling back to importing modules directly only if that fails.</p>
+<p>This means that installed packages will be imported under their canonical name if possible first, for example <code>app.core.models</code>, instead of having the module name always be derived from their path (for example <code>.env310.lib.site_packages.app.core.models</code>).</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11801">#11801</a>: Added the <code>iter_parents() &lt;_pytest.nodes.Node.iter_parents&gt;</code>{.interpreted-text role=&quot;func&quot;} helper method on nodes.
+It is similar to <code>listchain &lt;_pytest.nodes.Node.listchain&gt;</code>{.interpreted-text role=&quot;func&quot;}, but goes from bottom to top, and returns an iterator, not a list.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11850">#11850</a>: Added support for <code>sys.last_exc</code>{.interpreted-text role=&quot;data&quot;} for post-mortem debugging on Python&gt;=3.12.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11962">#11962</a>: In case no other suitable candidates for configuration file are found, a <code>pyproject.toml</code> (even without a <code>[tool.pytest.ini_options]</code> table) will be considered as the configuration file and define the <code>rootdir</code>.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11978">#11978</a>: Add <code>--log-file-mode</code> option to the logging plugin, enabling appending to log-files. This option accepts either <code>&quot;w&quot;</code> or <code>&quot;a&quot;</code> and defaults to <code>&quot;w&quot;</code>.</p>
+<p>Previously, the mode was hard-coded to be <code>&quot;w&quot;</code> which truncates the file before logging.</p>
+</li>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/12047">#12047</a>: When multiple finalizers of a fixture raise an exception, now all exceptions are reported as an exception group.
+Previously, only the first exception was reported.</p>
+</li>
+</ul>
+<h2>Bug Fixes</h2>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11904">#11904</a>: Fixed a regression in pytest 8.0.0 that would cause test collection to fail due to permission errors when using <code>--pyargs</code>.</p>
+<p>This change improves the collection tree for tests specified using <code>--pyargs</code>, see <code>12043</code>{.interpreted-text role=&quot;pull&quot;} for a comparison with pytest 8.0 and &lt;8.</p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pytest-dev/pytest/commit/b9a167f9bbbd6eda4f0360c5bf5b7f5af50f2bc4"><code>b9a167f</code></a> Prepare release version 8.1.0</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/00043f7f1047b29fdaeb18e169fe9d6146988cb8"><code>00043f7</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12038">#12038</a> from bluetech/fixtures-rm-arg2index</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/f4e10251a4a003495b5228cea421d4de5fa0ce89"><code>f4e1025</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12048">#12048</a> from bluetech/fixture-teardown-excgroup</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/43492f5707b38dab9b62dfb829bb41a13579629f"><code>43492f5</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12051">#12051</a> from jakkdl/test_debugging_pythonbreakpoint</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/82fe28dae4eec900123175cee87245f37b964e5c"><code>82fe28d</code></a> [automated] Update plugin list (<a href="https://redirect.github.com/pytest-dev/pytest/issues/12049">#12049</a>)</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/5e2ee7175c145f84ff9882be9496abb56e6e56f2"><code>5e2ee71</code></a> monkeypatch.delenv PYTHONBREAKPOINT in two tests that previously failed/skipped</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/89ee4493ccbcd118349082cd78eb52a761683120"><code>89ee449</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/11997">#11997</a> from nicoddemus/11475-importlib</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/8248946a552635f5751a58c7a6dfd24e98db7404"><code>8248946</code></a> Do not collect symlinked tests under Windows (<a href="https://redirect.github.com/pytest-dev/pytest/issues/12050">#12050</a>)</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/434282e17f5f1f4fcc1464a0a0921cf19804bdd7"><code>434282e</code></a> fixtures: use exception group when multiple finalizers raise in fixture teardown</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/d6134bc21e27efee7a2e264bd089e6c223515904"><code>d6134bc</code></a> doc: document consider_namespace_packages option</li>
+<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest/compare/7.4.0...8.1.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 04:51:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/201" class=".btn">#201</a>
             </td>
             <td>
