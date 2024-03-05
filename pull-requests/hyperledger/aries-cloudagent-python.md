@@ -27,7 +27,14 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Very much still in refactoring and testing stage.
+                Implements https://github.com/hyperledger/aries-cloudagent-python/issues/2807.
+
+1. Enables schema, cred_def and revocation endpoints for both askar and askar-anoncreds in multitenant mode. All anoncreds endpoints are prefixed with anoncreds. For some api marshmallow schema objects they were the same name as the askar objects which displayed a warning. I simply appended Anoncreds to the end of these objects that had conflicts.
+2. Returns 403 errors when using the wrong endpoints with message. I thought about trying to do something fancier like a middleware, but decided because it was only a small subset that it would be easier to just add a method to the top of the endpoints. In anoncreds some of the endpoints already had a profile type check and through a ValueError. I did handle this, but for consistency and to prevent unrelated errors I still added the profile check method to the top of the method.
+3. Prevent subwallets from being created that are a different type then the base wallet. For example, in the case of having the base wallet askar and trying to create a askar-anoncreds wallet it will throw a 403 and have a message.
+4. Prevents wallets from being started as an askar wallet and then trying to change the config to askar-anoncreds by using a similar flow as versioning. If the `wallet-type` record is empty and there is a version record (existing wallet) it will assume the wallet is askar.
+5. Updates integration tests and runs a few of the tests that touch most of the effected endpoints in multitenancy mode.
+6. Updates the faber agent in the demos.
             </td>
         </tr>
     </table>
