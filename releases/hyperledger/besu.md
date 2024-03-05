@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
+                    24.2.0-RC4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    24.2.0-RC4
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* RC4 - eth_call and eth_feeHistory add blob fields by @macfarla in https://github.com/hyperledger/besu/pull/6681
+
+
+**Full Changelog**: https://github.com/hyperledger/besu/compare/24.1.2...24.2.0-RC4
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/besu/releases/tag/24.2.0-RC4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-03-05 06:42:04 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     24.2.0-RC3
                 </b>
             </td>
