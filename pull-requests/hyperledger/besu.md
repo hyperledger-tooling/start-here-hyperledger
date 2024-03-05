@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6679" class=".btn">#6679</a>
+            </td>
+            <td>
+                <b>
+                    wip - Add blob fields to eth_feeHistory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 00:26:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6678" class=".btn">#6678</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix - only track intrinsically bad blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This is a follow-up to PR https://github.com/hyperledger/besu/pull/6622.  Rework bad block handling so that we are only tracking blocks that are intrinsically bad due to a spec-related validation error.  We should not be marking blocks as bad if we are missing data locally or encounter some unspecified exception during block processing.  
+
+## Fixed Issue(s)
+Tangentially related to https://github.com/hyperledger/besu/issues/6301
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 22:07:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6677" class=".btn">#6677</a>
             </td>
             <td>
@@ -224,51 +300,6 @@ refs #6657
     </table>
     <div class="right-align">
         Created At 2024-03-04 05:01:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6669" class=".btn">#6669</a>
-            </td>
-            <td>
-                <b>
-                    [DO NOT MERGE] try a different number of AT runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-04 03:20:18 +0000 UTC
     </div>
 </div>
 

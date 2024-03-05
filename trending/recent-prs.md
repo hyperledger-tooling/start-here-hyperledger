@@ -1,13 +1,13 @@
 
-[412](https://github.com/hyperledger/fabric-chaincode-node/pull/412) Remove unnecessary use of fs-extras
+[6679](https://github.com/hyperledger/besu/pull/6679) wip - Add blob fields to eth_feeHistory
 
-[6677](https://github.com/hyperledger/besu/pull/6677) Revert "Acceptance tests to use bonsai (#6619)"
+[2822](https://github.com/hyperledger/aries-cloudagent-python/pull/2822) Anoncreds - support for anoncreds and askar wallets concurrently
 
-[4717](https://github.com/hyperledger/fabric/pull/4717) Set leader rotation disabled but make it possible later
+[4341](https://github.com/hyperledger/iroha/pull/4341) [refactor] #4339: refactor `iroha_crypto`, update API
 
-[6676](https://github.com/hyperledger/besu/pull/6676) Make block txs selection max time aware of PoA transactions
+[475](https://github.com/hyperledger-labs/private-data-objects/pull/475) Updating CCF PDO/TP Documentation with details about recent API changes used to set PDO contract enclave attestation policy.
 
-[4716](https://github.com/hyperledger/fabric/pull/4716) Disable vulnerability scans for v2.2 and v2.4
+[6678](https://github.com/hyperledger/besu/pull/6678) Bugfix - only track intrinsically bad blocks
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
