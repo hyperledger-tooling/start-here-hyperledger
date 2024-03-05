@@ -1,13 +1,13 @@
 
-[6681](https://github.com/hyperledger/besu/pull/6681) RC4 - eth_call and eth_feeHistory add blob fields
+[918](https://github.com/hyperledger-labs/open-enterprise-agent/pull/918) fix: allow configurable path convention for vault secrets
 
-[652](https://github.com/hyperledger-labs/fabric-operations-console/pull/652) forkedChanges
+[530](https://github.com/hyperledger-labs/fabric-smart-client/pull/530) Refactor endpoint
 
-[6679](https://github.com/hyperledger/besu/pull/6679) Add blobs to `eth_feeHistory`
+[4720](https://github.com/hyperledger/fabric/pull/4720) BFT header receiver verifies config blocks in full
 
-[2822](https://github.com/hyperledger/aries-cloudagent-python/pull/2822) Anoncreds - support for anoncreds and askar wallets concurrently
+[188](https://github.com/hyperledger/iroha-javascript/pull/188) Rewrite Crypto WASM using the original `iroha_crypto` crate
 
-[4341](https://github.com/hyperledger/iroha/pull/4341) [refactor] #4339: refactor `iroha_crypto`, update API
+[564](https://github.com/hyperledger-labs/fabric-token-sdk/pull/564) identity stack cleanup
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

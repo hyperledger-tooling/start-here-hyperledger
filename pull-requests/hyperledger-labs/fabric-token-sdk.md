@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/564" class=".btn">#564</a>
+            </td>
+            <td>
+                <b>
+                    identity stack cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 08:43:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/563" class=".btn">#563</a>
             </td>
             <td>
@@ -192,38 +218,6 @@ This allows a driver to support multiple owner identity types
     </table>
     <div class="right-align">
         Created At 2024-02-28 07:54:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/554" class=".btn">#554</a>
-            </td>
-            <td>
-                <b>
-                    tokens service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR introduces the `tokens` service used to update the `tokendb` starting from a `TokenRequest`. 
-The fabric and orion processors will use this service to commit locally the transactions.
-
-In the following PRs, we will address the following points:
-- Atomicity of  `AppendTransaction`. If a failure happens, no traces should be left in the `tokendb`.
-- Ability to remove all the records related to a given transaction
-- Fix  the TODOs in `EndorseView`'s `receiveTransaction` function
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-27 09:34:08 +0000 UTC
     </div>
 </div>
 
