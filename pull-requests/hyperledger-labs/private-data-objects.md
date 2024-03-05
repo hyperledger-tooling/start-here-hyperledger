@@ -14,31 +14,25 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/472" class=".btn">#472</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/475" class=".btn">#475</a>
             </td>
             <td>
                 <b>
-                    Add an experimental command for importing and exporting collections of contracts
+                    Updating CCF PDO/TP Documentation with details about recent API changes used to set PDO contract enclave attestation policy.
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                Often a contract is meaningful only in the context of other contracts. For example, an asset issuer contract object may depend upon an asset type contract object. The type object is necessary to establish trust in the scope of the asset being issued.
-
-In order to simplify sharing, a contract collection file packages information about a collection of contracts and their relationship to each other into a single bundle. The file that is created includes a context file that describes the relationships between the contracts and a list of contract description files that can be used to operate on the contract objects.
-
-Note: collection operations are marked as experimental. Any use will generate a warning message when logging is turned on.
-
-Details of the proposed functionality are found in Issue #471.
+                The API changes are part of PR 467 (https://github.com/hyperledger-labs/private-data-objects/pull/467/files#). This PR updates the subsection `CCF TP TEE attestation verification policy` contained within ledgers/ccf/README.md to reflect the new APIs introduced in PR 467.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-23 01:15:00 +0000 UTC
+        Created At 2024-03-04 22:17:13 +0000 UTC
     </div>
 </div>
 

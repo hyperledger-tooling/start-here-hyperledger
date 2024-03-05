@@ -14,6 +14,98 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4341" class=".btn">#4341</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4339: refactor `iroha_crypto`, update API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span><span class="chip">crypto</span>
+            </td>
+            <td>
+                ## Description
+
+See linked issue.
+
+### Linked issue
+
+Closes #4339
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 23:24:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4340" class=".btn">#4340</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4039: Enhance ClientCli Wait Mechanism for Transaction Completion in pytests and Remove Fixed Sleeps 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-04 18:41:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4334" class=".btn">#4334</a>
             </td>
             <td>
@@ -138,42 +230,6 @@ Forbidding time-triggers in the past was the simpliest solution and I actually t
     </table>
     <div class="right-align">
         Created At 2024-02-27 19:54:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4326" class=".btn">#4326</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #4287: use `algorithm` in `PrivateKey` serialized form
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">UI</span><span class="chip">crypto</span>
-            </td>
-            <td>
-                ## Description
-
-Aligns serialized form of `PrivateKey` with its representation in Rust, i.e. rename `digest_function` to `algorithm`.
-
-This change might cause compatibility issues, but let's consider them as a part of the overall breaking configuration change: #2585 
-
-### Linked issue
-
-Closes #4287
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-26 21:46:23 +0000 UTC
     </div>
 </div>
 
