@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Fix changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Improved readability for descriptions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 14:57:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/48" class=".btn">#48</a>
             </td>
             <td>

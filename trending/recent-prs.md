@@ -1,13 +1,13 @@
 
-[918](https://github.com/hyperledger-labs/open-enterprise-agent/pull/918) fix: allow configurable path convention for vault secrets
+[920](https://github.com/hyperledger-labs/open-enterprise-agent/pull/920) feat: Fix Update Schema and CredentialDef on Receive Credential
 
-[530](https://github.com/hyperledger-labs/fabric-smart-client/pull/530) Refactor endpoint
+[4722](https://github.com/hyperledger/fabric/pull/4722) Nominate Tatsuya Sato as a maintainer
 
-[4720](https://github.com/hyperledger/fabric/pull/4720) BFT header receiver verifies config blocks in full
+[4721](https://github.com/hyperledger/fabric/pull/4721) BFT SyncBuffer capacity
 
-[188](https://github.com/hyperledger/iroha-javascript/pull/188) Rewrite Crypto WASM using the original `iroha_crypto` crate
+[49](https://github.com/hyperledger-labs/perun-eth-backend/pull/49) Fix changelog
 
-[564](https://github.com/hyperledger-labs/fabric-token-sdk/pull/564) identity stack cleanup
+[919](https://github.com/hyperledger-labs/open-enterprise-agent/pull/919) fix(prism-agent): add validation for endpoint url
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
