@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6679" class=".btn">#6679</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/6681" class=".btn">#6681</a>
             </td>
             <td>
                 <b>
-                    wip - Add blob fields to eth_feeHistory
+                    RC4 - eth_call and eth_feeHistory add blob fields
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                ### Thanks for sending a pull request! Have you done the following?
+                Cherry-picks #6679 and #6661 for blob support
+
+### Thanks for sending a pull request! Have you done the following?
 
 - [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
 - [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
@@ -47,6 +49,103 @@ permalink: /pull-requests/hyperledger/besu
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 06:11:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6679" class=".btn">#6679</a>
+            </td>
+            <td>
+                <b>
+                    Add blobs to `eth_feeHistory`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+Add blob fields to eth_fee_History
+
+## Fixed Issue(s)
+fixes #6580
+
+On Sepolia:
+`curl -H "Content-Type: application/json" -d '{"id": 1, "jsonrpc": "2.0", "method": "eth_feeHistory", "params": ["0x5", "0x526006", [20,30]] }' http://127.0.0.1:8545/ | jq .
+`
+```
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "oldestBlock": "0x526002",
+    "baseFeePerGas": [
+      "0x4506f",
+      "0x43d32",
+      "0x44d30",
+      "0x42021",
+      "0x39c1d",
+      "0x38cd0"
+    ],
+    "baseFeePerBlobGas": [
+      "0x4a1bd3218",
+      "0x502994693",
+      "0x4d137e31b",
+      "0x4741676a3",
+      "0x3f5694c1f",
+      "0x4741676a3"
+    ],
+    "gasUsedRatio": [
+      0.4303144,
+      0.5589600333333333,
+      0.3363257666666667,
+      0,
+      0.4337706333333333
+    ],
+    "blobGasUsedRatio": [
+      0.8333333333333334,
+      0.3333333333333333,
+      0.16666666666666666,
+      0,
+      1
+    ],
+    "reward": [
+      [
+        "0x186a1",
+        "0x186a1"
+      ],
+      [
+        "0x186a1",
+        "0x186a1"
+      ],
+      [
+        "0x59682f00",
+        "0x59682f00"
+      ],
+      [
+        "0x0",
+        "0x0"
+      ],
+      [
+        "0x3b9aca00",
+        "0x3b9aca00"
+      ]
+    ]
+  }
+}
+```
+
+
             </td>
         </tr>
     </table>
@@ -1166,55 +1265,6 @@ Just some more code that can be removed
     </table>
     <div class="right-align">
         Created At 2024-02-27 10:21:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6616" class=".btn">#6616</a>
-            </td>
-            <td>
-                <b>
-                    Fix NPE when running revert variable subcommand
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [x] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-Fixes NPE when running the revert variables subcommand. 
-
-Due to changes in how the data storage configuration is handled the approach of using the storage provider directly from the `BesuSubcommand` no longer works. Instead changed the approach that to use what was used in the trielog subcommands and creates the BesuController using the `BesuCommand.buildController()` to get access to the `StorageProvider`. 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #6614
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-27 03:38:42 +0000 UTC
     </div>
 </div>
 
