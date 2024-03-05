@@ -31,6 +31,9 @@ permalink: /releases/hyperledger/besu
 
 
 **Full Changelog**: https://github.com/hyperledger/besu/compare/24.1.2...24.2.0-RC4
+a67e1fa0a936d9b0aff5e3d05b4d8323dc9ec05061ea34c09ba3534624712e64  besu-24.2.0-RC4.tar.gz
+672f9344037fd7b798aae54ffb5ec35c584861ab803b37149e614e6cce95cf3b  besu-24.2.0-RC4.zip
+
             </td>
         </tr>
     </table>
