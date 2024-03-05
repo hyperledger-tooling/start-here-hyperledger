@@ -1,13 +1,13 @@
 
+[0.62.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.62.0) Release 0.62.0
+
+[0.2.1](https://github.com/hyperledger/aries-uniffi-wrappers/releases/tag/0.2.1) 0.2.1
+
+[0.2.1-binary](https://github.com/hyperledger/aries-uniffi-wrappers/releases/tag/0.2.1-binary) 0.2.1-binary
+
+[24.2.0-RC4](https://github.com/hyperledger/besu/releases/tag/24.2.0-RC4) 24.2.0-RC4
+
 [v1.3.0-rc.1](https://github.com/hyperledger/firefly/releases/tag/v1.3.0-rc.1) v1.3.0-rc.1
-
-[v1.3.0-rc.4](https://github.com/hyperledger/firefly-cli/releases/tag/v1.3.0-rc.4) v1.3.0-rc.4
-
-[v1.3.0-rc.3](https://github.com/hyperledger/firefly-cli/releases/tag/v1.3.0-rc.3) v1.3.0-rc.3
-
-[v1.3.0-rc.2](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.3.0-rc.2) v1.3.0-rc.2
-
-[v1.3.0-rc.2](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.3.0-rc.2) v1.3.0-rc.2
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
