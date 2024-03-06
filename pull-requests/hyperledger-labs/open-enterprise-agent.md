@@ -279,39 +279,3 @@ Remove the spaces in the checklist so it appears as a cross (x) instead of a dot
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/909" class=".btn">#909</a>
-            </td>
-            <td>
-                <b>
-                    feat(agent): define the OAS for CredentialIssuerEndpoints [WIP]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">prism-agent</span>
-            </td>
-            <td>
-                ### Description: 
-The Credential Issuance OIDC endpoint MVP is implemented in the Agent. ATL-6518
-
-### Checklist: 
-- [ ] My PR follows the contribution guidelines of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-28 15:00:08 +0000 UTC
-    </div>
-</div>
-

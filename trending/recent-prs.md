@@ -1,13 +1,13 @@
 
-[178](https://github.com/hyperledger-labs/fabric-operator/pull/178) console role definition replicasets resources typo correction
+[4726](https://github.com/hyperledger/fabric/pull/4726) Bump google.golang.org/protobuf to v1.33.0
 
-[98](https://github.com/hyperledger/fabric-chaincode-go/pull/98) Bump google.golang.org/grpc from 1.54.0 to 1.62.1
+[4725](https://github.com/hyperledger/fabric/pull/4725) Bump Go to 1.21.8
 
-[4723](https://github.com/hyperledger/fabric/pull/4723) fix struct names in comments
+[656](https://github.com/hyperledger-labs/fabric-operations-console/pull/656) simplify console_type flag setting
 
-[136](https://github.com/hyperledger-labs/yui-relayer/pull/136) Remove global config
+[56](https://github.com/hyperledger-labs/did-webs-resolver/pull/56) upgrading to keri 1.1.4 and fixing entrypoint issues and upgrade
 
-[2825](https://github.com/hyperledger/aries-cloudagent-python/pull/2825) 0.12.0rc2
+[655](https://github.com/hyperledger-labs/fabric-operations-console/pull/655) Fix Join Channel features showing peers which is already part of the …
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
