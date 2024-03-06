@@ -15,38 +15,39 @@ permalink: /releases/hyperledger/aries-cloudagent-python
         <tr>
             <td colspan="2">
                 <b>
-                    0.12.0rc1
+                    0.12.0rc2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.12.0rc1
+                    0.12.0rc2
                 </span>
             </td>
             <td>
                 Release 0.12.0 is a relative large release but currently with no breaking changes. We expect there will be breaking changes (at least in the handling of endorsement) before the 0.12.0 release is finalized, hence the minor version update.
 
-The first `0.12.0` release candidate, `rc0`, introduced a regression via [PR \#2705] that has been reverted in [PR \#2789]. Further investigation is needed to determine how to accomplish the goal of [PR \#2705] ("feat: inject profile") without the regression.
+The `rc0` release candidate introduced a regression via [PR \#2705] that has been reverted in `rc1` and later via [PR \#2789]. Further investigation is needed to determine how to accomplish the goal of [PR \#2705] ("feat: inject profile") without the regression. The `rc2` and later releases address a regression related to the sending of a revocation notification from the issuer to the holder of a newly revoked credential, fixed in [PR \#2814].
 
+[PR \#2814]: https://github.com/hyperledger/aries-cloudagent-python/pull/2705
 [PR \#2705]: https://github.com/hyperledger/aries-cloudagent-python/pull/2705
 [PR \#2789]: https://github.com/hyperledger/aries-cloudagent-python/pull/2789
 
-Much progress was made on `did:peer` support in this release, with the handling of inbound [DID Peer] 1 added, and inbound and outbound support for DID Peer 2 and 4. The goal of that work is to eliminate the remaining places where "unqualified" DIDs remain. Work continues in supporting ledger agnostic [AnonCreds], and the new [Hyperledger AnonCreds Rust] library. Attention was also given in the release to the handling of JSON-LD [Data Integrity Verifiable Credentials], with more expected before the release is finalized. In addition to those updates, there were fixes and improvements across the codebase.
+Much progress has been made on `did:peer` support in this release, with the handling of inbound [DID Peer] 1 added, and inbound and outbound support for DID Peer 2 and 4. The goal of that work is to eliminate the remaining places where "unqualified" DIDs remain, and to enable the "connection reuse" in the Out of Band protocol when using DID Peer 2 and 4 DIDs. Work continues in supporting ledger agnostic [AnonCreds], and the new [Hyperledger AnonCreds Rust] library. Attention was also given in the release to the handling of JSON-LD [Data Integrity Verifiable Credentials], with more expected before the release is finalized. In addition to those updates, there were fixes and improvements across the codebase.
 
 The most visible change in this release is the re-organization of the ACA-Py documentation, moving the vast majority of the documents to the folders within the `docs` folder -- a long overdue change that will allow us to soon publish the documents on [https://aca-py.org](https://aca-py.org) directly from the ACA-Py repository, rather than from the separate [aries-acapy-docs](https://github.com/hyperledger/aries-acapy-docs) currently being used.
 
-A big developer improvement is a revampling of the test handling to eliminate ~2500 warnings that were previously generated in the test suite.  Nice job [@ff137](https://github.com/ff137)!
+A big developer improvement is a revamping of the test handling to eliminate ~2500 warnings that were previously generated in the test suite.  Nice job [@ff137](https://github.com/ff137)!
 
 [DID Peer]: https://identity.foundation/peer-did-method-spec/
 [AnonCreds]: https://www.hyperledger.org/projects/anoncreds
 [Hyperledger AnonCreds Rust]: https://github.com/hyperledger/anoncreds-rs
 [Data Integrity Verifiable Credentials]: https://www.w3.org/TR/vc-data-integrity/
 
-### 0.12.0rc1 Breaking Changes
+### 0.12.0rc2 Breaking Changes
 
-There are no breaking changes in 0.12.0rc1.
+There are no breaking changes in 0.12.0rc2.
 
 ## What's Changed
 * Initial code migration from anoncreds-rs branch by @ianco in https://github.com/hyperledger/aries-cloudagent-python/pull/2596
@@ -139,6 +140,21 @@ There are no breaking changes in 0.12.0rc1.
 * Change middleware registration order by @PatStLouis in https://github.com/hyperledger/aries-cloudagent-python/pull/2796
 * 0.12.0rc1 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2799
 * 0.12.0rc1-tweak by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2800
+* Author subwallet setup automation by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2791
+* Add anoncreds multitenant endorsement integration tests by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2801
+* Get and create anoncreds profile when using anoncreds subwallet by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2803
+* Update publish-docs to operate on main and on branches prefixed with docs-v by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2804
+* Publish docs GHActions tweak by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2806
+* More updates to get docs publishing by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2810
+* Eliminate the double workflow event by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2811
+* Create revocation notification after list entry written to ledger by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2812
+* Fix anoncreds non-endorsement revocation by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2814
+* chore(deps): Bump the all-actions group with 3 updates by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/2815
+* Allow for crids in event payload to be integers by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2819
+* FIX: GHA update for doc publishing, fix doc file that was blanked by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2820
+* Send revocation list instead of rev_list object - Anoncreds by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2821
+* chore(deps): Bump cryptography from 42.0.3 to 42.0.4 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/2805
+* 0.12.0rc2 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2825
 
 ## New Contributors
 * @mrkaurelius made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2638
@@ -146,15 +162,15 @@ There are no breaking changes in 0.12.0rc1.
 * @PatStLouis made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2670
 * @tra371 made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2674
 
-**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.11.0...0.12.0rc1
+**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.11.0...0.12.0rc2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.12.0rc1" class=".btn">
+    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.12.0rc2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-20 15:41:55 +0000 UTC
+        Created At 2024-03-06 03:11:12 +0000 UTC
     </span>
 </div>
 
