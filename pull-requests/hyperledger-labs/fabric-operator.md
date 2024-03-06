@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/175" class=".btn">#175</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/178" class=".btn">#178</a>
             </td>
             <td>
                 <b>
-                    Fix Insecure File Permissions
+                    console role definition replicasets resources typo correction
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Changes to disable read and write permissions to the group user 
+                https://github.com/hyperledger-labs/fabric-operator/issues/177
+In RBAC role definition for a console for app group, we have added resources as `- replicas` instead of `- replicasets`. Due to this replicasets are not accessible for the user with that RBAC.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-27 16:24:50 +0000 UTC
+        Created At 2024-03-06 09:34:49 +0000 UTC
     </div>
 </div>
 
