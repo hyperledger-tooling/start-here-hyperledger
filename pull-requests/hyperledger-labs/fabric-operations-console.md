@@ -14,39 +14,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/652" class=".btn">#652</a>
-            </td>
-            <td>
-                <b>
-                    forkedChanges
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-
-#### Description
-
-When we download version summary from the settings in the console, in the operator part CA version was coming wrong. So, the changes will help to generate correct version of CA in the Version Summary Module of the console
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-05 06:02:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/651" class=".btn">#651</a>
             </td>
             <td>
