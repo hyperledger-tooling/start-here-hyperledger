@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4723" class=".btn">#4723</a>
+            </td>
+            <td>
+                <b>
+                    fix struct names in comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix struct names in comments
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-06 02:45:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4722" class=".btn">#4722</a>
             </td>
             <td>
