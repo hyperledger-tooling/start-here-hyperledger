@@ -14,6 +14,105 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2825" class=".btn">#2825</a>
+            </td>
+            <td>
+                <b>
+                    0.12.0rc2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes some cleanup of the docs for static site generation -- mostly in MD files, but also in the GHA for generating the docs -- links to docs that are different between the repo and the generated docs.
+
+Still no breaking changes to note.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 23:07:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2824" class=".btn">#2824</a>
+            </td>
+            <td>
+                <b>
+                    patch for #2781: User Agent header in doc loader
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                a patch for #2781 (see issue description). Longer term acapy may consider making a User Agent header globally for all requests, and perhaps configurable. however this one gets us by
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 21:52:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2823" class=".btn">#2823</a>
+            </td>
+            <td>
+                <b>
+                    Support connection re-use for did:peer:2/4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See issue https://github.com/hyperledger/aries-cloudagent-python/issues/2703
+
+This PR is WIP, still need to do a bunch of testing.
+
+- adds additional meta-data to the wallet DID, to flag a did:peer for re-using in invitations
+    - is this acceptable?  ***
+- add the DID meta-data to the admin API `GET /wallet/did` response
+    - is this acceptable?  it's necessary to find an existing re-usable invitation DID ...  ***
+- add a flag to the OOB create invitation to request a unique did (default is to re-use the invitation DID in the wallet)
+- reuse works for did:peer:2 and did:peer:4, and also public DID
+    - should this be generic?  and how to determine if the DID can be used for connection reuse?  should it work for ALL DID methods?  ***
+- added separate flags to the demo for:
+	- `--public-did-connections` - use the inviter's public DID in invitations, and allow use of implicit invitations
+	- `--reuse-connections` - support connection re-use (invitee will reuse an existing connection if it uses the same DID as in the new invitation)
+	- `--multi-use-invitations` - inviter will issue multi-use invitations
+	- note that the `--reuse-connections` flag needs to be enabled in both Faber and Alice for the demo to enable connection reuse
+
+*** see questions above
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 18:38:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2822" class=".btn">#2822</a>
             </td>
             <td>
@@ -29,12 +128,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 Implements https://github.com/hyperledger/aries-cloudagent-python/issues/2807.
 
-1. Enables schema, cred_def and revocation endpoints for both askar and askar-anoncreds in multitenant mode. All anoncreds endpoints are prefixed with anoncreds. For some api marshmallow schema objects they were the same name as the askar objects which displayed a warning. I simply appended Anoncreds to the end of these objects that had conflicts.
-2. Returns 403 errors when using the wrong endpoints with message. I thought about trying to do something fancier like a middleware, but decided because it was only a small subset that it would be easier to just add a method to the top of the endpoints. In anoncreds some of the endpoints already had a profile type check and through a ValueError. I did handle this, but for consistency and to prevent unrelated errors I still added the profile check method to the top of the method.
-3. Prevent subwallets from being created that are a different type then the base wallet. For example, in the case of having the base wallet askar and trying to create a askar-anoncreds wallet it will throw a 403 and have a message.
-4. Prevents wallets from being started as an askar wallet and then trying to change the config to askar-anoncreds by using a similar flow as versioning. If the `wallet-type` record is empty and there is a version record (existing wallet) it will assume the wallet is askar.
-5. Updates integration tests and runs a few of the tests that touch most of the effected endpoints in multitenancy mode.
-6. Updates the faber agent in the demos.
+1. Enables schema, cred_def and revocation endpoints for both askar and askar-anoncreds in multitenant mode. All anoncreds endpoints are prefixed with `/anoncreds/`. For some api marshmallow schema objects they were the same name as the existing  objects which displayed a warning. I simply appended Anoncreds to the end of these objects that had conflicts.
+3. Returns 403 errors when using the wrong endpoints with message. I thought about trying to do something fancier like a middleware, but decided because it was only a small subset that it would be easier to just add a method to the top of the endpoints. In anoncreds some of the endpoints already had a profile type check and through a ValueError. I did handle this, but for consistency and to prevent unrelated errors I still added the profile check method to the top of the method.
+4. Prevent subwallets from being created that are a different type then the base wallet. For example, in the case of having the base wallet askar and trying to create a askar-anoncreds wallet it will throw a 403 and have a message. If the wallet type is empty is defaults to the base wallet.
+5. Prevents wallets from being started as an askar wallet and then trying to change the config to askar-anoncreds by using a similar flow as versioning. If the `wallet-type` record is empty and there is a version record (existing wallet) it will assume the wallet is askar. I'm still unsure if anything needs to happen with `indy` wallets. I'm having trouble installing the library to test.
+6. Updates integration tests and runs a few of the tests that touch most of the effected endpoints in multitenancy mode.
+7. Updates the faber agent in the demos.
             </td>
         </tr>
     </table>
@@ -124,49 +223,6 @@ Ran into a lot of things with testing traction locally against new acapy changes
     </table>
     <div class="right-align">
         Created At 2024-02-28 21:54:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2816" class=".btn">#2816</a>
-            </td>
-            <td>
-                <b>
-                    feat: did-rotate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Taken from #2494 (c/o @dbluhm)
-
-This PR is an early implementation of the [RFC 0794 DID Rotate protocol](https://github.com/hyperledger/aries-rfcs/tree/main/features/0794-did-rotate). This was an exercise to feel out any potential issues with the protocol as defined.
-
-This is not yet a complete implementation. Notably missing right now is a way to actually trigger a DID rotation through an Admin API call. I also need to finish wiring up the handlers to the manager. And who could forget about tests. 🙂
-
-Overall, the protocol is solid. I'll report my thoughts on the protocol on the PR to the Aries RFCs.
-
-An ACA-Py specific concern I discovered in this process that probably deserves some discussion: invalidating the connection target cache when the DID Rotation is committed. As currently structured, we never really expect the connection targets for a connection to change after the protocol establishing it concludes. DID Rotation shakes that expectation up.
-
-Right now, in my changes, I've added a clear_connection_targets_cache helper method to partially address this. It's partial because it will only work for ACA-Py when run as a single instance with the default in memory cache or if you're using Indicio's redis cache plugin for whole cluster shared caching.
-
-I think it would be better for ACA-Py to use a value including both DIDs of the connection in the cache key as a more complete solution. The problem with this and why I've not done it on a first pass is that there would need to be some restructuring of how we use the Responder classes so that the send methods expect a whole ConnRecord and not just a connection_id (or individually a their_did and my_did, I suppose) so we can extract the DIDs from it. 9 times out of 10, I would say that connection record is already available to the caller of the send method and my hypothesis is that in the remaining 1 time out of 10, it will not dramatically impact performance of critical operations (it is not common for us to know the connection_id and not also have a connection record -- maybe only a few places in the Admin API might be like this).
-
-I'll do some more investigation on these points. Might be good to talk implications at the next ACA-PUG call.
-
-cc @swcurran @TelegramSam
-FYI @Jsyro this has ties back to updating the DIDs associated with connections that we've talked about recently.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-27 21:14:27 +0000 UTC
     </div>
 </div>
 

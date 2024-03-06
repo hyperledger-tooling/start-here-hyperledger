@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/54" class=".btn">#54</a>
+            </td>
+            <td>
+                <b>
+                    Fix docker keri101
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes issues reported by Charles
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 21:47:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/53" class=".btn">#53</a>
+            </td>
+            <td>
+                <b>
+                    include pytest in build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 20:47:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/52" class=".btn">#52</a>
+            </td>
+            <td>
+                <b>
+                    adds test common module and cleanup some imports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-05 20:29:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/50" class=".btn">#50</a>
             </td>
             <td>

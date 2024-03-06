@@ -1,13 +1,13 @@
 
-[920](https://github.com/hyperledger-labs/open-enterprise-agent/pull/920) feat: Fix Update Schema and CredentialDef on Receive Credential
+[2825](https://github.com/hyperledger/aries-cloudagent-python/pull/2825) 0.12.0rc2
 
-[4722](https://github.com/hyperledger/fabric/pull/4722) Nominate Tatsuya Sato as a maintainer
+[2824](https://github.com/hyperledger/aries-cloudagent-python/pull/2824) patch for #2781: User Agent header in doc loader
 
-[4721](https://github.com/hyperledger/fabric/pull/4721) BFT SyncBuffer capacity
+[54](https://github.com/hyperledger-labs/did-webs-resolver/pull/54) Fix docker keri101
 
-[49](https://github.com/hyperledger-labs/perun-eth-backend/pull/49) Fix changelog
+[53](https://github.com/hyperledger-labs/did-webs-resolver/pull/53) include pytest in build
 
-[919](https://github.com/hyperledger-labs/open-enterprise-agent/pull/919) fix(prism-agent): add validation for endpoint url
+[52](https://github.com/hyperledger-labs/did-webs-resolver/pull/52) adds test common module and cleanup some imports
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
