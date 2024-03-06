@@ -217,38 +217,3 @@ increment release notes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/646" class=".btn">#646</a>
-            </td>
-            <td>
-                <b>
-                    fix builidng list of possible orderer nodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- it was not correctly building array of orderer urls to use on retries for chaincode related transactions
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-27 19:58:14 +0000 UTC
-    </div>
-</div>
-
