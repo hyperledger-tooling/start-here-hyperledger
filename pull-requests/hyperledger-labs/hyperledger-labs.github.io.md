@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/262" class=".btn">#262</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/263" class=".btn">#263</a>
             </td>
             <td>
                 <b>
-                    Automated-Gateways 
+                    SmartBFT
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                
-Automated Gateways is a secure solution which can make Contract-Call interoperatibility happen between Hyperledger Fabrics with minimal efforts. 
+                Hyperledger Fabric is an enterprise-grade, permissioned distributed ledger platform that offers modularity for a broad set of industry use cases. One modular component is a pluggable ordering service that establishes consensus on the order of transactions and batches them into blocks. This proposal suggests integrating the SmartBFT consensus library into Hyperledger Labs to enhance its blockchain frameworks with a robust, scalable, and resilient consensus mechanism designed for practical BFT deployment.
+
+This lab provides a BFT consensus library based on the [BFTSmart](https://github.com/bft-smart/library) protocol and written in Go. The library is tailored to the blockchain use case yet general enough to cater to a wide variety of other uses. The BFT library's design and integration into Fabric address crucial aspects that were left unsolved in all prior work, making it unfit for production use. 
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-23 21:02:26 +0000 UTC
+        Created At 2024-03-07 07:03:13 +0000 UTC
     </div>
 </div>
 
