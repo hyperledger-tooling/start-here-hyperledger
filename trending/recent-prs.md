@@ -1,13 +1,13 @@
 
-[4726](https://github.com/hyperledger/fabric/pull/4726) Bump google.golang.org/protobuf to v1.33.0
+[29](https://github.com/hyperledger-labs/pdo-contracts/pull/29) Jupyter upgrades for exchange and support functions
 
-[4725](https://github.com/hyperledger/fabric/pull/4725) Bump Go to 1.21.8
+[333](https://github.com/hyperledger/fabric-chaincode-java/pull/333) Move everything to latest fabric-protos (v0.3.3).
 
-[656](https://github.com/hyperledger-labs/fabric-operations-console/pull/656) simplify console_type flag setting
+[332](https://github.com/hyperledger/fabric-chaincode-java/pull/332) Use secure version of JUnit v4 for compilation.
 
-[56](https://github.com/hyperledger-labs/did-webs-resolver/pull/56) upgrading to keri 1.1.4 and fixing entrypoint issues and upgrade
+[331](https://github.com/hyperledger/fabric-chaincode-java/pull/331) Move Maven Contract Example to latest fabric-protos.
 
-[655](https://github.com/hyperledger-labs/fabric-operations-console/pull/655) Fix Join Channel features showing peers which is already part of the …
+[6686](https://github.com/hyperledger/besu/pull/6686) Transaction simulation service
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

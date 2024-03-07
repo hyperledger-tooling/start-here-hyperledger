@@ -253,29 +253,3 @@ Remove the spaces in the checklist so it appears as a cross (x) instead of a dot
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/910" class=".btn">#910</a>
-            </td>
-            <td>
-                <b>
-                    docs: update multi-tenancy.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                Fixed environment variable name to enable default entity and wallet.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-28 22:55:30 +0000 UTC
-    </div>
-</div>
-
