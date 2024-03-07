@@ -175,38 +175,3 @@ When we download version summary from the settings in the console, in the operat
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/650" class=".btn">#650</a>
-            </td>
-            <td>
-                <b>
-                    Show distinct ordering cluster name and same value display in Grid and List view
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- In channel listing show same ordering cluster name show in both Grid and List view
-- In channel listing show distinct ordering cluster name
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-29 07:58:45 +0000 UTC
-    </div>
-</div>
-

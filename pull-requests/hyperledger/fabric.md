@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4729" class=".btn">#4729</a>
+            </td>
+            <td>
+                <b>
+                    add embed files to the package chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Recently [pr](https://github.com/hyperledger/fabric/pull/4726/checks) failed tests and failed to update the `google.golang.org/protobuf` package. 
+The reason is that we added go:embed to the https://github.com/protocolbuffers/protobuf-go/blob/master/internal/editiondefaults/defaults.go. When building the package we didn't copy file editions_defaults.binpb and the build of the chaincode ended with an error.
+
+After accepting this [pr](https://github.com/hyperledger/fabric/pull/4726/checks), you can update the package again 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-07 07:39:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4728" class=".btn">#4728</a>
+            </td>
+            <td>
+                <b>
+                    change flag for ginkgo exec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                --slow-spec-threshold is deprecated --slow-spec-threshold has been deprecated and will be removed in a future version of Ginkgo.  This feature has proved to be more noisy than useful.  You can use --poll-progress-after, instead, to get more actionable feedback about potentially slow specs and understand where they might be getting stuck.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-07 07:21:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4727" class=".btn">#4727</a>
             </td>
             <td>
@@ -482,45 +538,6 @@ Prevent a test flake in BFTDeliverer unit tests
     </table>
     <div class="right-align">
         Created At 2024-02-29 14:47:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4704" class=".btn">#4704</a>
-            </td>
-            <td>
-                <b>
-                    BFT chain unit tests: successful tx propagation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-
-The purpose of this PR is to create BFT chain unit tests.
-The first step is to create an active chain using mocks, the second step is to start a network of 4 nodes and the third is to ensure a successful tx propagation.
-
-Support for stopping a node and restarting the network has been added. 
-
-#### Related issues
-
-issue #4008 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-29 10:09:26 +0000 UTC
     </div>
 </div>
 
