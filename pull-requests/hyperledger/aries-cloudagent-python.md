@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Seeing if adding a did registry retry helps the intermittently failing tests.
+                I'm pretty sure this solves a majority of the problems with the endorsement integration tests. I have run the tests 9 times and not seen the DID not registered error. 
+
+I did get one, unrelated fail about the cred_def not being in the wallet. This seems to be much less often and I will create other tickets, for the other fails, when I see them.
+
+This fix passes an option to fail or not through the POST backchannel, which defaults to true. It will try the promote did call three times if it fails before failing the test.
             </td>
         </tr>
     </table>
