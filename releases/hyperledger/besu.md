@@ -52,7 +52,7 @@ Lastly, this version includes several performance improvements to the EVM and ex
 - `--engine-jwt-enabled` has been removed. Use `--engine-jwt-disabled` instead. [#6491](https://github.com/hyperledger/besu/pull/6491)
 
 ### Deprecations
-- X_SNAP and X_CHECKPOINT are marked for deprecation and will be removed in 24.4.0 in favor of SNAP and CHECKPOINT [#6405](https://github.com/hyperledger/besu/pull/6405)
+- X_SNAP and X_CHECKPOINT are marked for deprecation and will be removed in 24.6.0 in favor of SNAP and CHECKPOINT [#6405](https://github.com/hyperledger/besu/pull/6405)
 - `--Xp2p-peer-lower-bound` is deprecated. [#6501](https://github.com/hyperledger/besu/pull/6501)
 
 ### Upcoming Breaking Changes
