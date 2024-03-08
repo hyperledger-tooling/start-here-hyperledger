@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/learning-tokens
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/learning-tokens/pull/22" class=".btn">#22</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                updating the numbers within the text to reference endnotes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-01 16:23:39 +0000 UTC
-    </div>
-</div>
-
