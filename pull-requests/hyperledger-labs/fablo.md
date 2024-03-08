@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/427" class=".btn">#427</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/431" class=".btn">#431</a>
             </td>
             <td>
                 <b>
-                    Fablo: Christmas edition
+                    Set bevel 1.9
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-20 17:14:27 +0000 UTC
+        Created At 2024-03-08 13:50:10 +0000 UTC
     </div>
 </div>
 

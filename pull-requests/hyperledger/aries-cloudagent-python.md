@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2830" class=".btn">#2830</a>
+            </td>
+            <td>
+                <b>
+                    feat: add new format and implement VCDICredFormatHandler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add VC_DI in CredFormat.Format
+- lay out VCDICredFormatHandler
+- add new schema classes for cred offer and request
+- implement CredExRecordVCDI
+- fix schemas on cred_abstract and cred_request, improve on vc_di support on alice-faber demo
+
+next step
+
+fix unittests issues
+
+Note: this is a rebased version of @tra371 's pr #2759
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-08 10:50:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2827" class=".btn">#2827</a>
             </td>
             <td>
@@ -199,32 +235,6 @@ Added a log message to v1 handler for after the message has been sent.
     </table>
     <div class="right-align">
         Created At 2024-03-01 18:56:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2820" class=".btn">#2820</a>
-            </td>
-            <td>
-                <b>
-                    FIX: GHA update for doc publishing, fix doc file that was blanked
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Next try (if needed) will get into the regex...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-29 22:15:25 +0000 UTC
     </div>
 </div>
 

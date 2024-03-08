@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/190" class=".btn">#190</a>
+            </td>
+            <td>
+                <b>
+                    [feat]: Allure reports in integration tests PoC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                TODO
+
+Main test suite for compat tests is in `packages/client/test/integration/test-node/test/compatibility.spec.ts`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-08 09:51:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-javascript/pull/188" class=".btn">#188</a>
             </td>
             <td>
