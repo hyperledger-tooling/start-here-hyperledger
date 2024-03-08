@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/566" class=".btn">#566</a>
+            </td>
+            <td>
+                <b>
+                    documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is meant to add and refine the available documentation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-08 08:27:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/565" class=".btn">#565</a>
             </td>
             <td>
@@ -112,60 +138,6 @@ This allows a driver to support multiple owner identity types
     </table>
     <div class="right-align">
         Created At 2024-03-03 10:35:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/561" class=".btn">#561</a>
-            </td>
-            <td>
-                <b>
-                    self-contained identity stack
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                See #558 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-01 11:09:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/560" class=".btn">#560</a>
-            </td>
-            <td>
-                <b>
-                    network service cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR proposes the following:
-- remove transient-related function from the network service, they are not needed anymore
-- cleanup sql db logs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-01 10:16:51 +0000 UTC
     </div>
 </div>
 
