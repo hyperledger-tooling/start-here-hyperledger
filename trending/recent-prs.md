@@ -1,13 +1,13 @@
 
-[658](https://github.com/hyperledger-labs/fabric-operations-console/pull/658) Update help doc links according to console type
+[4736](https://github.com/hyperledger/fabric/pull/4736) Bump google.golang.org/protobuf to v1.33.0 (release-2.5)
 
-[531](https://github.com/hyperledger-labs/fabric-smart-client/pull/531) Extracted libp2p functionality into interfaces to allow for alternati…
+[4735](https://github.com/hyperledger/fabric/pull/4735) Bump Go to 1.21.8
 
-[60](https://github.com/hyperledger-labs/cc-tools-demo/pull/60) Update swagger to use gateway endpoints
+[4734](https://github.com/hyperledger/fabric/pull/4734) add embed files to the package chaincode (backport #4729)
 
-[657](https://github.com/hyperledger-labs/fabric-operations-console/pull/657) 2.0 ordering capability channel and fixes to failures
+[3](https://github.com/hyperledger-labs/aifaq/pull/3) Change repo cloning, file splitting and general refine, second attempt
 
-[565](https://github.com/hyperledger-labs/fabric-token-sdk/pull/565) unifiied db
+[179](https://github.com/hyperledger-labs/fabric-operator/pull/179) Disable unshare in the pod containers
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
