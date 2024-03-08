@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    Increment version after release
+                    Expose Kafka Consumer & Producer metrics to Metrics Endpoint. Introduce custom error counters for Invalid Txn Payload & Processing Failures
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">auto-version-increment</span>
+                
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-01 05:59:32 +0000 UTC
+        Created At 2024-03-08 05:23:29 +0000 UTC
     </div>
 </div>
 
