@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6705" class=".btn">#6705</a>
+            </td>
+            <td>
+                <b>
+                    Gha updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+## Fixed Issue(s)
+
+fixes #6695 
+
+- No longer defers testing till after approval, functionality to be redesigned
+- concurrent runs for the same branch will be cancelled on update to the ref
+- new develop floating pre-release to be maintained with downloadable artifacts on push to main
+- codeql job deferred to nightly runs on main
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [x] locally run all integration tests via: `./gradlew integrationTest`
+- [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-08 19:10:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6702" class=".btn">#6702</a>
             </td>
             <td>
@@ -1022,55 +1074,6 @@ Fixes https://github.com/hyperledger/besu/issues/6385
     </table>
     <div class="right-align">
         Created At 2024-03-03 21:53:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6666" class=".btn">#6666</a>
-            </td>
-            <td>
-                <b>
-                    Update Vert.x to 4.5.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-
-A small change was required to update Vert.x, since in the new version the CORS check have changed, and if using `.*` to match any origin, the origin must have as protocol one of: `http`, `https` or `ftp`, but since we also want to support browser extensions as origins, which have protocols like `moz-extension://` , then the regex should be written has `.*://.*`  
-
-[In the version websocket write handlers are disabled by default](https://github.com/eclipse-vertx/vert.x/issues/4625), and since we use them, we need to enable them.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-01 19:35:31 +0000 UTC
     </div>
 </div>
 

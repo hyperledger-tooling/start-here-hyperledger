@@ -355,34 +355,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/182" class=".btn">#182</a>
-            </td>
-            <td>
-                <b>
-                    fix: DIDComm RPC plugin agent messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fix relaxes the validation rules introduced by #78 preventing incoming agent messages from passing validation checks.
-
-Rules removed:
-* Agent messages no longer require `connection_id` or `state` to be included as part of the message. These are still used internally by DRPC records.
-
-Tests and documentation have been updated to reflect the changes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-01 20:03:43 +0000 UTC
-    </div>
-</div>
-

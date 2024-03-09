@@ -210,31 +210,3 @@ Going to leave in draft state and target next release.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2821" class=".btn">#2821</a>
-            </td>
-            <td>
-                <b>
-                    Send revocation list instead of rev_list object - Anoncreds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes anoncreds specific problem on initial rev_list. Was sending the rev_list object to the event handler instead of the actual list.
-
-Added a log message to v1 handler for after the message has been sent.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-01 18:56:13 +0000 UTC
-    </div>
-</div>
-
