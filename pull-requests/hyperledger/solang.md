@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1627" class=".btn">#1627</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1628" class=".btn">#1628</a>
             </td>
             <td>
                 <b>
-                    Fix panics caused by shifting(#1618)
+                    remove repetitive words
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Fixed the bug where there was no load when the right expression of the shift calculation is a structure member.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-01 04:38:23 +0000 UTC
+        Created At 2024-03-09 03:37:38 +0000 UTC
     </div>
 </div>
 

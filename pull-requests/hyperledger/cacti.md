@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3048" class=".btn">#3048</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3049" class=".btn">#3049</a>
             </td>
             <td>
                 <b>
-                    style(docs/examples/supply-chain): move block scoped code to functions
+                    build: upgrade Yarn from v3.6.0 to v4.1.0
                 </b>
             </td>
         </tr>
@@ -27,10 +27,26 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                This is a purely stylistic change that makes the code read much better
-and also reduces the chance of future bugs that would get introduced due
-to block scoping side effects that people not experienced with the
-language could make.
+                **IMPORTANT**: The lock file format has been updated yet again so you
+need to run a `yarn install` after pulling this update on the main branch.
+
+This is not technically a breaking change in the software's APIs but it
+is in terms of breaking developer's workflows unless a specific set of
+instructions (see above) are performed in order to do the migration.
+
+1. Upgraded Yarn to v4. Hopefully I didn't miss any of the places where
+the version was/is declared/documented/etc.
+2. Also added a new dependency vulnerability audit script which uses
+npm's own audit script/mechanism under the hood. Previously this was
+broken if you were using Yarn (e.g. pre-v4 releases of Yarn) but now
+we can have the dependency auditing done locally which is a great resource
+because we no longer have to depend only on GitHub's dependabot to tell
+us when a dependency has some vulnerabilities associated with it.
+
+Point 2 is also the motivation behind the upgrade apart from the usual
+reason for trying to keep us on the latest and greatest when it comes
+to dependencies so that we don't paint ourselves in a corner when old
+dependencies start to have hard to fix vulnerabilities.
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
 
@@ -49,7 +65,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-02 02:47:12 +0000 UTC
+        Created At 2024-03-03 04:43:03 +0000 UTC
     </div>
 </div>
 
