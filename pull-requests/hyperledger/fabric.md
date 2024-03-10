@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4743" class=".btn">#4743</a>
+            </td>
+            <td>
+                <b>
+                    Synchronizer dynamic block puller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+
+- Bug fix
+
+#### Description
+
+The simple synchronizer uses a static block puller which does not get updated.
+
+#### Related issues
+#4696 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-10 16:45:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4742" class=".btn">#4742</a>
+            </td>
+            <td>
+                <b>
+                    Synchronizer dynamic cluster size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+The synchronizer assumes a fixed cluster size, which is wrong.
+This commit fixes that.
+
+#### Related issues
+
+#4697 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-10 14:18:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4740" class=".btn">#4740</a>
             </td>
             <td>
