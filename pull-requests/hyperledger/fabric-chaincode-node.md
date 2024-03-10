@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/414" class=".btn">#414</a>
+            </td>
+            <td>
+                <b>
+                    Fix ChaincodeResponse definition and add new response types (#413)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #413
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-09 18:52:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/412" class=".btn">#412</a>
             </td>
             <td>
