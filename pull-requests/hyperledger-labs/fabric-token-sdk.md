@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/568" class=".btn">#568</a>
+            </td>
+            <td>
+                <b>
+                    Postgres compatibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR improves the compatibility with postgres by fixing some bugs encountered while running a token sdk application:
+
+-`identity_id` has non-utf8 characters which is not supported in a `TEXT` column by postgres.
+- `raw` cannot be the primary key for params if the params are too large. This PR changes the primary key to the time stored in the database, which is also unique.
+- postgres does not have `ON CONFLICT REPLACE` on columns
+- the 'restore auditor db' feature was doing writes while iterating over the dbentries, which causes a deadlock with a single threaded KVS.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-10 17:55:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/567" class=".btn">#567</a>
             </td>
             <td>
@@ -111,32 +142,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-03-05 08:43:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/563" class=".btn">#563</a>
-            </td>
-            <td>
-                <b>
-                    remove suffix, use prefixes consistently, only rollback on error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We don't need the tablesuffix because the db is configured by the user per TMS. Even if they choose to use the same database for multiple TMS, they can use the prefix to have different tables per TMS.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-03 15:11:30 +0000 UTC
     </div>
 </div>
 
