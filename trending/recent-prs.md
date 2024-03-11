@@ -1,13 +1,13 @@
 
-[249](https://github.com/hyperledger/aries-acapy-plugins/pull/249) chore(deps-dev): Bump pytest-ruff from 0.1.1 to 0.3.1 in /rpc
+[569](https://github.com/hyperledger-labs/fabric-token-sdk/pull/569) identity service refactoring
 
-[248](https://github.com/hyperledger/aries-acapy-plugins/pull/248) chore(deps-dev): Bump pytest-asyncio from 0.14.0 to 0.23.5.post1 in /rpc
+[1655](https://github.com/hyperledger/indy-plenum/pull/1655) Bump the all-actions group with 1 update
 
-[4744](https://github.com/hyperledger/fabric/pull/4744) Update documentation on issue assignment process
+[7](https://github.com/hyperledger-labs/splice/pull/7) Delete images/Super Validator Architecture Diagram for Splice-2.jpg
 
-[57](https://github.com/hyperledger-labs/did-webs-resolver/pull/57) Ci cd pytest
+[6](https://github.com/hyperledger-labs/splice/pull/6) Delete images/Super Validator Architecture Diagram for Splice-1.jpg
 
-[568](https://github.com/hyperledger-labs/fabric-token-sdk/pull/568) Postgres compatibility
+[5](https://github.com/hyperledger-labs/splice/pull/5) Replacing "svc" with "dso" and "dso party"
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

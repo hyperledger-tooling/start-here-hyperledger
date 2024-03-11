@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/splice
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger-labs/splice/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Create README.md for Splice Hyperledger Labs project
+                    Delete images/Super Validator Architecture Diagram for Splice-2.jpg
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/splice
                 
             </td>
             <td>
-                <nil>
+                Replacing second image with single updated image in the same folder
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-05 23:22:58 +0000 UTC
+        Created At 2024-03-11 10:42:33 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/splice
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger-labs/splice/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Add files via upload
+                    Delete images/Super Validator Architecture Diagram for Splice-1.jpg
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger-labs/splice
                 
             </td>
             <td>
-                Uploading Super Validator and Validator node architecture diagram images for Splice readme file
+                Replacing image with updated version in the same folder
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-05 23:18:23 +0000 UTC
+        Created At 2024-03-11 10:41:15 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,11 @@ permalink: /pull-requests/hyperledger-labs/splice
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger-labs/splice/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Create an images folder for Splice documentation
+                    Replacing "svc" with "dso" and "dso party"
                 </b>
             </td>
         </tr>
@@ -79,38 +79,18 @@ permalink: /pull-requests/hyperledger-labs/splice
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-05 23:17:14 +0000 UTC
-    </div>
-</div>
+                Responding to legal advice to remove all mentions of "collective" and "consortium" from our descriptions of how decentralized Canton synchronizers work. 
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Add CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+This branch uses "dso" and "dso party" to replace "svc" and "svc party"
+
+An alternative would be to use "vcsp", i.e., "virtual Canton service provider", instead of "dso".
+
+Also, updated the two existing deployment diagrams with a new single diagram of two full Super Validator nodes
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-05 21:32:07 +0000 UTC
+        Created At 2024-03-11 10:39:45 +0000 UTC
     </div>
 </div>
 
