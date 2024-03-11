@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/924" class=".btn">#924</a>
+            </td>
+            <td>
+                <b>
+                    test: enhancements + vault token test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+Updated integration tests
+- Vault token scenario added
+- Added gradle tasks for each config available
+  - e.g. `./gradlew test_basic`
+- Updated ktlint + format (many files changes due that)
+ 
+### Alternatives Considered (optional): 
+Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
+
+### Checklist: 
+- [ ] My PR follows the contribution guidelines of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-11 14:23:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/923" class=".btn">#923</a>
+            </td>
+            <td>
+                <b>
+                    ATL-6027: add Anoncreds Integration Test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+https://input-output.atlassian.net/browse/ATL-6027
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-11 12:57:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/922" class=".btn">#922</a>
             </td>
             <td>
@@ -39,7 +110,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
 
             </td>
         </tr>
@@ -185,46 +256,6 @@ Fixes https://github.com/hyperledger-labs/open-enterprise-agent/issues/908
     </table>
     <div class="right-align">
         Created At 2024-03-05 09:51:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/917" class=".btn">#917</a>
-            </td>
-            <td>
-                <b>
-                    feat(pollux): check verification status on presentation verification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">shared</span>
-            </td>
-            <td>
-                ### Description: 
-
-Check credential revocation status within present proof flow if status is available, and fail it if one of the credentials is revoked
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
-
-### Checklist: 
-- [x] My PR follows the contribution guidelines of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [x] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [x] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-04 14:02:35 +0000 UTC
     </div>
 </div>
 

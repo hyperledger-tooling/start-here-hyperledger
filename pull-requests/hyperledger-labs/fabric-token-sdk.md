@@ -24,10 +24,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR refactors the identity service to bring clarity to the concepts of Long-Term identity, Identity Provider, Role, and Wallet.
+
+A long-term identity is an identity that carries a long-term unique identifier. 
+Long-term identities are grouped in roles. The Token-SDK supports 4 roles: Issuers, Owners, Auditors, and Certifiers.
+The Identity Provider manages long-term identities.
+A wallet is bound to a long-term identity and manages its pseudonyms and tokens. 
+A wallet registry manages all wallets for a given role.
             </td>
         </tr>
     </table>

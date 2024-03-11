@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4746" class=".btn">#4746</a>
+            </td>
+            <td>
+                <b>
+                    BFT chain unit tests: sync a node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+This PR aims to test whether a node can sync successfully when it's behind. 
+
+#### Additional details
+
+For the implementation, a synchronizer factory was needed.
+
+#### Related issues
+
+#4008
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-11 13:32:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4744" class=".btn">#4744</a>
             </td>
             <td>
@@ -727,69 +767,6 @@ Once a header receiver discovers it has a config block rather then a block attes
     </table>
     <div class="right-align">
         Created At 2024-03-05 09:12:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4717" class=".btn">#4717</a>
-            </td>
-            <td>
-                <b>
-                    Set leader rotation disabled but make it possible later
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The current code sets leader election disabled by hardcoding it. More specifically, it overrides leader rotation in the code section that parses the config. This means that if we choose to make it possible to enable it at a later version, it won't be possible to run mixed versions of v3.0.
-
-This commit makes sure that if we decide to permit leader rotation later on, it will be possible if the majority of nodes desire so.
-
-It achieves this by disabling leader rotation in two places:
-- Channel creation
-- Validation of config update transactions
-
-However, the config parsing logic now honors leader election if it's enabled in the channel config.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-04 16:37:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4716" class=".btn">#4716</a>
-            </td>
-            <td>
-                <b>
-                    Disable vulnerability scans for v2.2 and v2.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fabric has recently ended maintenance of v2.2 and will no longer backport dependency updates to v2.2 or v2.4. 
-
-All users are encouraged to use v2.5 at this point, therefore just run the vulnerability scan for v2.5 and main branches.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-04 15:53:09 +0000 UTC
     </div>
 </div>
 
