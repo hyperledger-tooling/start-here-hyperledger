@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4744" class=".btn">#4744</a>
+            </td>
+            <td>
+                <b>
+                    Update documentation on issue assignment process
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+This update clarifies the issue assignment process, addressing GitHub's permission limitations for general developers. It ensures the documentation accurately reflects how developers can engage with issues when direct self-assignment is not possible.
+
+Addtionally, this patch includes other minor fixes in some documantations.
+<!--- Describe your changes in detail, including motivation. -->
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-11 02:53:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4743" class=".btn">#4743</a>
             </td>
             <td>
@@ -44,45 +116,6 @@ The simple synchronizer uses a static block puller which does not get updated.
     </table>
     <div class="right-align">
         Created At 2024-03-10 16:45:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4742" class=".btn">#4742</a>
-            </td>
-            <td>
-                <b>
-                    Synchronizer dynamic cluster size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-
-- Bug fix
-
-#### Description
-
-The synchronizer assumes a fixed cluster size, which is wrong.
-This commit fixes that.
-
-#### Related issues
-
-#4697 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-10 14:18:23 +0000 UTC
     </div>
 </div>
 
