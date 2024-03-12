@@ -72,7 +72,7 @@ Lastly, this version includes several performance improvements to the EVM and ex
   - See https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai for more info
 - Improve flat trace generation performance [#6472](https://github.com/hyperledger/besu/pull/6472)
 - SNAP and CHECKPOINT sync - early access flag removed so now simply SNAP and CHECKPOINT [#6405](https://github.com/hyperledger/besu/pull/6405)
-- X_SNAP and X_CHECKPOINT are marked for deprecation and will be removed in 24.4.0
+- X_SNAP and X_CHECKPOINT are marked for deprecation and will be removed in 24.6.0
 - Github Actions based build.
 - Introduce caching mechanism to optimize Keccak hash calculations for account storage slots during block processing [#6452](https://github.com/hyperledger/besu/pull/6452)
 - Added configuration options for `pragueTime` to genesis file for Prague fork development [#6473](https://github.com/hyperledger/besu/pull/6473)
