@@ -27,44 +27,17 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                TODO
+                This PR introduces a foundation for further development of [Compatibility Matrix](https://hyperledger.github.io/iroha-2-docs/reference/compatibility-matrix.html) tests.
 
-Main test suite for compat tests is in `packages/client/test/integration/test-node/test/compatibility.spec.ts`.
+The main places for them is among all Client Node.js integration tests (`packages/client/test/integration/test-node`). When these tests run, `allure-reports` directory is generated (in the tests directory).
+
+Additionally, in this PR I refactor tests structure in general, making it easier to maintain and expand them.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2024-03-08 09:51:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/188" class=".btn">#188</a>
-            </td>
-            <td>
-                <b>
-                    Rewrite Crypto WASM using the original `iroha_crypto` crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">iroha2</span><span class="chip">package: crypto</span>
-            </td>
-            <td>
-                Closes #186 
-
-See changesets and the issue for context.
-
-Additionally, I have significantly extended integration tests around crypto. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-05 08:59:46 +0000 UTC
     </div>
 </div>
 

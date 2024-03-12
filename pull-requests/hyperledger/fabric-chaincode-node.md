@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/412" class=".btn">#412</a>
-            </td>
-            <td>
-                <b>
-                    Remove unnecessary use of fs-extras
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Current Node versions provide all the required capability in the standard fs package.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-04 18:08:44 +0000 UTC
-    </div>
-</div>
-
