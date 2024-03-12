@@ -1,13 +1,13 @@
 
+[6715](https://github.com/hyperledger/besu/pull/6715) Retry BFT block validation if storage exception occurs
+
 [661](https://github.com/hyperledger-labs/fabric-operations-console/pull/661) Updates for Reader and Writer tests
 
 [660](https://github.com/hyperledger-labs/fabric-operations-console/pull/660) bump release notes
 
-[924](https://github.com/hyperledger-labs/open-enterprise-agent/pull/924) test: enhancements + vault token test
+[6713](https://github.com/hyperledger/besu/pull/6713) [MINOR] Remove unused method
 
-[4746](https://github.com/hyperledger/fabric/pull/4746) BFT chain unit tests: sync a node
-
-[923](https://github.com/hyperledger-labs/open-enterprise-agent/pull/923) ATL-6027: add Anoncreds Integration Test
+[6712](https://github.com/hyperledger/besu/pull/6712) edits to changelog for 24.3.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

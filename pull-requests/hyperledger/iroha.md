@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4357" class=".btn">#4357</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3682: Remove all direct dependencies on syn 1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+This concludes the syn 2 migration saga, removing all mentions of it from the codebase. It also removes the `syn2` renaming of the new version, as we are no longer depending on two versions at the same time. 
+
+We still have syn 1 as a transitive dependency on syn 1 though =(
+
+I suggest reviewing the two commits separately, as the blank rename of `syn2` to `syn` is very noisy
+
+### Linked issue
+
+Closes #3682
+
+### Benefit
+
+Less complexity due to use of multiple versions of the same library; only the shiny new API.
+
+### Checklist
+
+- [ ] make CI pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-11 12:36:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4349" class=".btn">#4349</a>
             </td>
             <td>
@@ -62,157 +107,6 @@ Roles are more flexible.
     </table>
     <div class="right-align">
         Created At 2024-03-06 13:08:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4342" class=".btn">#4342</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4126: test to prevent cross chain replay attacks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-05 08:03:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4341" class=".btn">#4341</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4339: refactor `iroha_crypto`, update API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span><span class="chip">crypto</span>
-            </td>
-            <td>
-                ## Description
-
-See linked issue.
-
-### Linked issue
-
-Closes #4339
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-04 23:24:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4340" class=".btn">#4340</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4039: Enhance ClientCli Wait Mechanism for Transaction Completion in pytests and Remove Fixed Sleeps 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-04 18:41:11 +0000 UTC
     </div>
 </div>
 

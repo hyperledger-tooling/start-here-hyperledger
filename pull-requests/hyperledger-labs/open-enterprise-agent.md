@@ -61,7 +61,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
             </td>
             <td>
                 <b>
-                    ATL-6027: add Anoncreds Integration Test
+                    fix: add Anoncreds Integration Test
                 </b>
             </td>
         </tr>
@@ -154,70 +154,6 @@ Jira Ticket => [ATL-6479](https://input-output.atlassian.net/browse/ATL-6479)
     </table>
     <div class="right-align">
         Created At 2024-03-07 09:46:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/920" class=".btn">#920</a>
-            </td>
-            <td>
-                <b>
-                    feat: Fix Update Schema and CredentialDef on Receive Credential
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span>
-            </td>
-            <td>
-                ### Description: 
-https://input-output.atlassian.net/browse/ATL-6665
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-05 18:05:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/919" class=".btn">#919</a>
-            </td>
-            <td>
-                <b>
-                    fix(prism-agent): add validation for endpoint url
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">prism-agent</span>
-            </td>
-            <td>
-                ### Description: 
-https://github.com/hyperledger-labs/open-enterprise-agent/issues/859 
-
-### Checklist: 
-- [X] My PR follows the contribution guidelines of this project
-- [X] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [] I have commented my code, particularly in hard-to-understand areas
-- [] I have made corresponding changes to the documentation
-- [X] I have added tests that prove my fix is effective or that my feature works
-- [X] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-05 14:48:22 +0000 UTC
     </div>
 </div>
 
