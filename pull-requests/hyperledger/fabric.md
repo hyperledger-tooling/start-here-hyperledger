@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4747" class=".btn">#4747</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4748" class=".btn">#4748</a>
             </td>
             <td>
                 <b>
-                    Simplify code using direct check
+                    Add release notes for v3.0.0-beta
                 </b>
             </td>
         </tr>
@@ -27,37 +27,12 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                
-Change-Id: Ic8f17b24373a1cb4d43f7b7344d8f987f00b48d6
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-The patchset follows Golang style to check method return directly, 
-which can simplify the code too.
-
-
-
-#### Additional details
-
-N/A
-
-#### Related issues
-
-N/A
-
-#### Release Note
-
-N/A
-
+                Add release notes for v3.0.0-beta.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-12 18:58:56 +0000 UTC
+        Created At 2024-03-13 16:35:59 +0000 UTC
     </div>
 </div>
 
@@ -629,58 +604,6 @@ No functional change.
     </table>
     <div class="right-align">
         Created At 2024-03-06 18:38:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4726" class=".btn">#4726</a>
-            </td>
-            <td>
-                <b>
-                    Bump google.golang.org/protobuf to v1.33.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump google.golang.org/protobuf to v1.33.0.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-06 17:15:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4725" class=".btn">#4725</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.21.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.21.8.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-06 17:10:05 +0000 UTC
     </div>
 </div>
 
