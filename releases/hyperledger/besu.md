@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
+                    develop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    develop
+                </span>
+            </td>
+            <td>
+                This is an automated, bleeding edge build from the tip of main. No promises. YOLO.
+
+fac8c6d7d1a1ff089df7a43998bbc2511fe183adac564c76a56b0a459f4b3f68  besu-24.2.0-SNAPSHOT.tar.gz
+bca86f5c17ee1755716e51a97e4c127c4e2846404d7ee3bf2826af7729089440  besu-24.2.0-SNAPSHOT.zip
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/besu/releases/tag/develop" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-03-12 22:24:22 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     24.3.0
                 </b>
             </td>
