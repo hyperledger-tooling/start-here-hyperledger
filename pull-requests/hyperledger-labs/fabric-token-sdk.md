@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/571" class=".btn">#571</a>
+            </td>
+            <td>
+                <b>
+                    check for nil right away
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                it created a nil pointer panic when trying to access tok.Type
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-13 08:59:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/569" class=".btn">#569</a>
             </td>
             <td>
