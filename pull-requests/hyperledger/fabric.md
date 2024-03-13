@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4747" class=".btn">#4747</a>
+            </td>
+            <td>
+                <b>
+                    Simplify code using direct check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Change-Id: Ic8f17b24373a1cb4d43f7b7344d8f987f00b48d6
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The patchset follows Golang style to check method return directly, 
+which can simplify the code too.
+
+
+
+#### Additional details
+
+N/A
+
+#### Related issues
+
+N/A
+
+#### Release Note
+
+N/A
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-12 18:58:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4746" class=".btn">#4746</a>
             </td>
             <td>
