@@ -227,29 +227,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/228" class=".btn">#228</a>
-            </td>
-            <td>
-                <b>
-                    Upgrades
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                General upgrades. Increased some specification on dev dependencies. Fixed some warnings in kafka events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-05 21:54:33 +0000 UTC
-    </div>
-</div>
-
