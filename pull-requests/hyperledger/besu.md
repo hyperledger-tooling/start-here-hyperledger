@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6723" class=".btn">#6723</a>
+            </td>
+            <td>
+                <b>
+                    pull_req instead of target
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Removes annotation of failed tests onto pr, since we have to run them before review anyway. 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [X] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [X] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [X] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [X] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-13 17:58:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6721" class=".btn">#6721</a>
             </td>
             <td>
@@ -27,7 +71,20 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                ### Thanks for sending a pull request! Have you done the following?
+                Here's a breakdown of the PR:
+
+- Splitting Bonsai: The PR aims to divide Bonsai into two packages
+
+- Common Classes with a Prefix: The common part will include classes prefixed with "DiffBased." These classes are designed to provide a base for both Bonsai and any future storage format that might use this diff-based approach.
+
+- Bonsai's Specifics: Bonsai will retain its unique features in its own package. This means that while it shares the diff-based infrastructure with the common part, it also has its own specific functionalities that are not shared with other storage format.
+
+- Extension to Verkle: this modification add the possibility of adding "Verkle" as a new storage format based on the diff-based architecture. Like Bonsai, Verkle would use the common diff-based classes but also have its own specific features.
+
+In summary, the pull request proposes restructuring Bonsai to make it more modular and efficient. This not only improves data management within Bonsai but also sets the stage for incorporating new format like Verkle, which can share the common base while having their unique functionalities.
+
+
+### Thanks for sending a pull request! Have you done the following?
 
 - [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
 - [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
@@ -144,43 +201,6 @@ BadBlockReason was an non-static inner enum in BadBlockCause and it was used in 
     </table>
     <div class="right-align">
         Created At 2024-03-12 23:18:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6715" class=".btn">#6715</a>
-            </td>
-            <td>
-                <b>
-                    Retry BFT block validation if storage exception occurs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-12 15:58:20 +0000 UTC
     </div>
 </div>
 

@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/56" class=".btn">#56</a>
-            </td>
-            <td>
-                <b>
-                    upgrading to keri 1.1.4 and fixing entrypoint issues and upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-06 14:51:43 +0000 UTC
-    </div>
-</div>
-
