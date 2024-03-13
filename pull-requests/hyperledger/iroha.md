@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4365" class=".btn">#4365</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #4059: snapshots "mode"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+- Introduce `mode` of snapshots behaviour: `normal` (read & write), `readonly`, and `disabled`
+- Run `SnapshotMaker` actor only in `normal` mode
+- Configuration: remove `snapshot.creation_enabled`, add `snapshot.mode`
+- Recursively create directories on snapshot writing (#4296)
+- Update related logging
+- Add tests
+
+### Linked issue
+
+Closes #4059, #4296 
+
+### Benefits
+
+More expected behaviour of snapshots for users?
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-13 10:17:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4357" class=".btn">#4357</a>
             </td>
             <td>
