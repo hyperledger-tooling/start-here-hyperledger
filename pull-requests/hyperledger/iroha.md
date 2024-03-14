@@ -29,8 +29,8 @@ permalink: /pull-requests/hyperledger/iroha
             <td>
                 ## Description
 
-- Introduce `mode` of snapshots behaviour: `normal` (read & write), `readonly`, and `disabled`
-- Run `SnapshotMaker` actor only in `normal` mode
+- Introduce `mode` of snapshots behaviour: `read_write`, `readonly`, and `disabled`
+- Run `SnapshotMaker` actor only in `read_write` mode
 - Configuration: remove `snapshot.creation_enabled`, add `snapshot.mode`
 - Recursively create directories on snapshot writing (#4296)
 - Update related logging
