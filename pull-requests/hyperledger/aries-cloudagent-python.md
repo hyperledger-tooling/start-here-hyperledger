@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2836" class=".btn">#2836</a>
+            </td>
+            <td>
+                <b>
+                    Remove requirement for write ledger in read-only mode.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #2829 
+
+This change removes the requirement for the list of ledgers to specify at least a ledger with attribute `is_write` when running the agent in read-only mode.
+
+I initially tried to mock the parsed argument in the tests as one was failing, however having attributes from different groups made mocking very complicated so I opted for moving this setting onto `LedgerGroup` as well, as it seems appropriate.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 01:16:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2835" class=".btn">#2835</a>
             </td>
             <td>

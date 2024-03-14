@@ -1,13 +1,13 @@
 
-[6727](https://github.com/hyperledger/besu/pull/6727) Refactor AbstractGasLimitSpecification to simplify isValidTargetGasLimit bound condition
+[577](https://github.com/hyperledger-labs/SmartBFT/pull/577) change name
 
-[6726](https://github.com/hyperledger/besu/pull/6726) Refactor StorageRangeDataRequest to fix unused variable
+[6729](https://github.com/hyperledger/besu/pull/6729) Change ProcessBesuNodeRunner and ThreadBesuNodeRunner to use DEFAULT_BONSAI_CONFIG
 
-[213](https://github.com/hyperledger/fabric-protos/pull/213) Bump google.golang.org/protobuf from 1.32.0 to 1.33.0 in /bindings/go-apiv1
+[139](https://github.com/hyperledger-labs/hlf-connector/pull/139) Add capabilities during org addition to channel 
 
-[407](https://github.com/hyperledger/fabric-ca/pull/407) Bump google.golang.org/protobuf from 1.31.0 to 1.33.0
+[6728](https://github.com/hyperledger/besu/pull/6728) [MINOR] Move potentially spammy peer discovery warn log to debug
 
-[6725](https://github.com/hyperledger/besu/pull/6725) Refactor PluginPrivacyController to fix parameter name
+[2836](https://github.com/hyperledger/aries-cloudagent-python/pull/2836) Remove requirement for write ledger in read-only mode.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
