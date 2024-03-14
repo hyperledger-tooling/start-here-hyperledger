@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/574" class=".btn">#574</a>
+            </td>
+            <td>
+                <b>
+                    introduce a common wallet service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 07:48:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/573" class=".btn">#573</a>
             </td>
             <td>
@@ -260,32 +286,6 @@ A wallet registry manages all wallets for a given role.
     </table>
     <div class="right-align">
         Created At 2024-03-08 08:27:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/565" class=".btn">#565</a>
-            </td>
-            <td>
-                <b>
-                    unifiied db
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-07 12:24:39 +0000 UTC
     </div>
 </div>
 

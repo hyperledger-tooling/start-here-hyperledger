@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4751" class=".btn">#4751</a>
+            </td>
+            <td>
+                <b>
+                    3.0.0 beta relnotes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 10:38:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4750" class=".btn">#4750</a>
+            </td>
+            <td>
+                <b>
+                    Update smartbft library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The smartbft library was moved to hyperledger labs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 09:22:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4748" class=".btn">#4748</a>
             </td>
             <td>
@@ -511,62 +563,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2024-03-07 21:40:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4729" class=".btn">#4729</a>
-            </td>
-            <td>
-                <b>
-                    add embed files to the package chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Recently [pr](https://github.com/hyperledger/fabric/pull/4726/checks) failed tests and failed to update the `google.golang.org/protobuf` package. 
-The reason is that we added go:embed to the https://github.com/protocolbuffers/protobuf-go/blob/master/internal/editiondefaults/defaults.go. When building the package we didn't copy file editions_defaults.binpb and the build of the chaincode ended with an error.
-
-After accepting this [pr](https://github.com/hyperledger/fabric/pull/4726/checks), you can update the package again 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-07 07:39:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4728" class=".btn">#4728</a>
-            </td>
-            <td>
-                <b>
-                    change flag for ginkgo exec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                --slow-spec-threshold is deprecated --slow-spec-threshold has been deprecated and will be removed in a future version of Ginkgo.  This feature has proved to be more noisy than useful.  You can use --poll-progress-after, instead, to get more actionable feedback about potentially slow specs and understand where they might be getting stuck.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-07 07:21:13 +0000 UTC
     </div>
 </div>
 

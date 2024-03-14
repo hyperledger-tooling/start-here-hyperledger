@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    Adding Restriction on Security Context to restrict unshare calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of the pentest, we have identified an issue in the openshift cluster SCC.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 12:21:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/40" class=".btn">#40</a>
             </td>
             <td>

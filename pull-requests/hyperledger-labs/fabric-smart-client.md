@@ -136,7 +136,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvement</span>
             </td>
             <td>
                 …ve implementations

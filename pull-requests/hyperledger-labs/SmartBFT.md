@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/SmartBFT
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/578" class=".btn">#578</a>
+            </td>
+            <td>
+                <b>
+                    Use Comm.Nodes() only at Consensus Start
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Comm.Nodes() was used also for blacklist
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 10:13:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/577" class=".btn">#577</a>
             </td>
             <td>
