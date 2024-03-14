@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/139" class=".btn">#139</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    Add capabilities during org addition to channel 
+                    Add capabilities during org addition to channel
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                <nil>
+                Add capabilities during org addition to channel
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-14 05:27:54 +0000 UTC
+        Created At 2024-03-14 08:21:29 +0000 UTC
     </div>
 </div>
 

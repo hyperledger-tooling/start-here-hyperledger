@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Add ed25519 support
+                    smartbft transfer to hyperledger labs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                This is related to fabric pull request [#3343](https://github.com/hyperledger/fabric/pull/3343) regarding adding ed25519 support. Since the bccsp folder was moved to fabric-lib-go, I am moving the related changes here.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-21 15:04:10 +0000 UTC
+        Created At 2024-03-14 09:40:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    change gitignore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 09:39:44 +0000 UTC
     </div>
 </div>
 
