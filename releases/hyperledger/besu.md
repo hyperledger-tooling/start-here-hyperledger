@@ -28,8 +28,8 @@ permalink: /releases/hyperledger/besu
             <td>
                 This is an automated, bleeding edge build from the tip of main. No promises. YOLO.
 
-16d99164b97c673389ef3ce0727d2626eec2868a64f926c10a280241fe867ef9  besu-24.3-develop-6dd3c84052.tar.gz
-e644983dbc4c176d823052c8d4b1bc3eba9e41791d7ecbb9e34b83280268f48e  besu-24.3-develop-6dd3c84052.zip
+59c0a45d6a414c4d812c44bb8a8a792da5086f0ce8c626fd53ed994d30d4f79a  besu-24.3-develop-9bf542732b.tar.gz
+2da4511b35005220b5cb98eddd1a8e43d32c0e5208677f0458b7324a5e0640e9  besu-24.3-develop-9bf542732b.zip
 
             </td>
         </tr>
