@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6734" class=".btn">#6734</a>
+            </td>
+            <td>
+                <b>
+                    Change eth trace from 'Message not expected' to 'Request message'
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Change the trace entry for messages that aren't `response`-type messages.
+
+## Fixed Issue(s)
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 14:27:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6733" class=".btn">#6733</a>
+            </td>
+            <td>
+                <b>
+                    Add comments to a couple of the the EthPeer methods to clarify their behaviour
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Very minor PR to add some javadoc comments to 2 methods
+
+## Fixed Issue(s)
+N/A
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 14:06:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6731" class=".btn">#6731</a>
             </td>
             <td>

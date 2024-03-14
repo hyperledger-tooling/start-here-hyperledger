@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/575" class=".btn">#575</a>
+            </td>
+            <td>
+                <b>
+                    enhanced identityDB
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                store in the identityDB also the identity configuration options and raw material that can be optionally used to load the key material from
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 12:48:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/574" class=".btn">#574</a>
             </td>
             <td>

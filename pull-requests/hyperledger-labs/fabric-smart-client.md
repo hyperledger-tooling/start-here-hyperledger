@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/535" class=".btn">#535</a>
+            </td>
+            <td>
+                <b>
+                    fabric: commit unknown fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 15:23:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/534" class=".btn">#534</a>
+            </td>
+            <td>
+                <b>
+                    Websocket implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 13:45:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/533" class=".btn">#533</a>
             </td>
             <td>
@@ -119,32 +171,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-03-13 21:20:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/531" class=".btn">#531</a>
-            </td>
-            <td>
-                <b>
-                    Extracted libp2p functionality into interfaces to allow for alternati…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                …ve implementations
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-07 17:13:45 +0000 UTC
     </div>
 </div>
 
