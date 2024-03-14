@@ -1,20 +1,20 @@
 ---
 layout: default
-title: fabric-ca
-parent: Hyperledger
+title: SmartBFT
+parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/fabric-ca
+permalink: /pull-requests/hyperledger-labs/SmartBFT
 ---
 
-# fabric-ca <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/fabric-ca){: .btn .mr-4 }</span>
+# SmartBFT <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/SmartBFT){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/407" class=".btn">#407</a>
+                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/576" class=".btn">#576</a>
             </td>
             <td>
                 <b>
@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">go</span>
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 Bumps google.golang.org/protobuf from 1.31.0 to 1.33.0.
@@ -55,14 +55,14 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-ca/network/alerts).
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/SmartBFT/network/alerts).
 
 </details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-13 23:24:41 +0000 UTC
+        Created At 2024-03-13 23:23:39 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2835" class=".btn">#2835</a>
+            </td>
+            <td>
+                <b>
+                    feat: external suite provider interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a pluggable component enabling usage of an externally provided signature suite. This is a refinement on previous attempts to make this aspect of ACA-Py more flexible; namely, #2706 which was later reverted due to issues with including profile in the context and multi-tenancy. This approach minimizes the "surface area" of the interface that the plugin must fulfill (at least when compared to what was proposed in #2706).
+
+This is an advanced use case requiring some fairly deep knowledge of the management of DIDs and VCs. I have an example implementation of using an external KMS for signing JSON-LD creds that I may push to the open as a starting point for interested parties.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-13 21:59:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2833" class=".btn">#2833</a>
             </td>
             <td>
@@ -187,36 +215,6 @@ Note: this is a rebased version of @tra371 's pr #2759
     </table>
     <div class="right-align">
         Created At 2024-03-08 10:50:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2827" class=".btn">#2827</a>
-            </td>
-            <td>
-                <b>
-                    Integration tests - Add retry to did registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I'm pretty sure this solves a majority of the problems with the endorsement integration tests. I have run the tests 9 times and not seen the DID not registered error. 
-
-I did get one, unrelated fail about the cred_def not being in the wallet. This seems to be much less often and I will create other tickets, for the other fails, when I see them.
-
-This fix passes an option to fail or not through the POST backchannel, which defaults to true. It will try the promote did call three times if it fails before failing the test.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-06 18:41:36 +0000 UTC
     </div>
 </div>
 

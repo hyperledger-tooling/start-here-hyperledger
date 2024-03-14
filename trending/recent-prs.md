@@ -1,13 +1,13 @@
 
-[818](https://github.com/hyperledger/aries-rfcs/pull/818) Removes references to ~please_ack in other protocols
+[6727](https://github.com/hyperledger/besu/pull/6727) Refactor AbstractGasLimitSpecification to simplify isValidTargetGasLimit bound condition
 
-[6723](https://github.com/hyperledger/besu/pull/6723) pull_req instead of target
+[6726](https://github.com/hyperledger/besu/pull/6726) Refactor StorageRangeDataRequest to fix unused variable
 
-[4748](https://github.com/hyperledger/fabric/pull/4748) Add release notes for v3.0.0-beta
+[213](https://github.com/hyperledger/fabric-protos/pull/213) Bump google.golang.org/protobuf from 1.32.0 to 1.33.0 in /bindings/go-apiv1
 
-[40](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/40) Update MAINTAINERS.md
+[407](https://github.com/hyperledger/fabric-ca/pull/407) Bump google.golang.org/protobuf from 1.31.0 to 1.33.0
 
-[39](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/39) Manual version bump
+[6725](https://github.com/hyperledger/besu/pull/6725) Refactor PluginPrivacyController to fix parameter name
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
