@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/fabric-lib-go
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.0
+                    v1.1.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.0
+                    v1.1.1
                 </span>
             </td>
             <td>
-                v1.1.0 adds bccsp, metrics, and flogging from the fabric repository. These are the remaining packages that are shared across fabric and fabric-ca.
+                v1.1.1 updates the location of SmartBFT metrics.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-lib-go/releases/tag/v1.1.0" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-lib-go/releases/tag/v1.1.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-16 14:28:20 +0000 UTC
+        Created At 2024-03-14 12:53:00 +0000 UTC
     </span>
 </div>
 
