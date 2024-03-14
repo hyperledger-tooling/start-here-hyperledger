@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4753" class=".btn">#4753</a>
+            </td>
+            <td>
+                <b>
+                    Update GitHub Actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                get github actions up-to-date
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 17:06:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4752" class=".btn">#4752</a>
+            </td>
+            <td>
+                <b>
+                    bump smart bft
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 14:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4751" class=".btn">#4751</a>
             </td>
             <td>
@@ -59,32 +111,6 @@ permalink: /pull-requests/hyperledger/fabric
     </table>
     <div class="right-align">
         Created At 2024-03-14 09:22:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4748" class=".btn">#4748</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for v3.0.0-beta
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add release notes for v3.0.0-beta.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 16:35:59 +0000 UTC
     </div>
 </div>
 
