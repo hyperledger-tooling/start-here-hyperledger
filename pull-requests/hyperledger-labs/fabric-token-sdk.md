@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
                 store in the identityDB also the identity configuration options and raw material that can be optionally used to load the key material from
@@ -286,32 +286,6 @@ A wallet registry manages all wallets for a given role.
     </table>
     <div class="right-align">
         Created At 2024-03-08 14:53:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/566" class=".btn">#566</a>
-            </td>
-            <td>
-                <b>
-                    documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is meant to add and refine the available documentation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-08 08:27:34 +0000 UTC
     </div>
 </div>
 

@@ -212,39 +212,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2830" class=".btn">#2830</a>
-            </td>
-            <td>
-                <b>
-                    feat: add new format and implement VCDICredFormatHandler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add VC_DI in CredFormat.Format
-- lay out VCDICredFormatHandler
-- add new schema classes for cred offer and request
-- implement CredExRecordVCDI
-- fix schemas on cred_abstract and cred_request, improve on vc_di support on alice-faber demo
-
-next step
-
-fix unittests issues
-
-Note: this is a rebased version of @tra371 's pr #2759
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-08 10:50:29 +0000 UTC
-    </div>
-</div>
-
