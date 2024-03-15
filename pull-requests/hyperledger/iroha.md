@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4370" class=".btn">#4370</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4291: update genesis config & schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+- remove inline executor mode
+- rename field to `executor_file`
+- remove genesis from schema (revert #1391).
+  - **Why?**
+  - Because it doesn't belong here. It's not a part of the data model, but rather of the configuration system. The original reasoning about "ease for SDK developers" doesn't work (genesis is JSON, but schema is about SCALE; types are straightforward).
+
+### Linked issue
+
+Closes #4291 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-15 03:20:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4369" class=".btn">#4369</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4323: remove `iroha_config/tokio-console` feature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">Chore</span>
+            </td>
+            <td>
+                ## Description
+
+See the linked issue
+
+### Linked issue
+
+Closes #4323 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-15 01:12:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4368" class=".btn">#4368</a>
             </td>
             <td>

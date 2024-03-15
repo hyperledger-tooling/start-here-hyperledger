@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/478" class=".btn">#478</a>
+            </td>
+            <td>
+                <b>
+                    Provide PDO_SOURCE_ROOT default for docker to allow zero-config build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor change to allow docker builds out-of-the-box without any configuration/environment variable definition.  This default for PDO_SOURCE_ROOT also hides an error for undefined `PDO_SOURCE_ROOT` which is _very_ unintuitive to figure out if you haven't run into this issue beforehand.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-15 01:42:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/477" class=".btn">#477</a>
             </td>
             <td>
