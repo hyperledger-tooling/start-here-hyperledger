@@ -263,29 +263,3 @@ A wallet registry manages all wallets for a given role.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/567" class=".btn">#567</a>
-            </td>
-            <td>
-                <b>
-                    Test new FSC version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-08 14:53:22 +0000 UTC
-    </div>
-</div>
-
