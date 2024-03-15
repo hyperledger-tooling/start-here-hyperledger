@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6735" class=".btn">#6735</a>
+            </td>
+            <td>
+                <b>
+                    PR Annotations removed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Removes annotation of failed tests onto pr, since we have to run them before review anyway.
+Updates nightly release with a single artifact.
+Updates PR template order
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-14 20:25:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6734" class=".btn">#6734</a>
             </td>
             <td>
@@ -100,6 +147,7 @@ N/A
 - [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
 - [x] locally run all integration tests via: `./gradlew integrationTest`
 - [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+- [ ] locally run hive tests
 
 
 ## PR description
@@ -302,7 +350,7 @@ Refactor AbstractGasLimitSpecification to simplify isValidTargetGasLimit bound c
             </td>
             <td>
                 <b>
-                    Refactor StorageRangeDataRequest to fix unused variable
+                    Refactor StorageRangeDataRequest to fix nodes saved variable
                 </b>
             </td>
         </tr>
@@ -377,50 +425,6 @@ Refactor PluginPrivacyController. Fix parameter name to match overridden method.
     </table>
     <div class="right-align">
         Created At 2024-03-13 23:24:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6723" class=".btn">#6723</a>
-            </td>
-            <td>
-                <b>
-                    pull_req instead of target
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Removes annotation of failed tests onto pr, since we have to run them before review anyway. 
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [X] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [X] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [X] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [X] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 17:58:56 +0000 UTC
     </div>
 </div>
 
@@ -935,119 +939,6 @@ It can also be defined in TOML configuration profiles.
     </table>
     <div class="right-align">
         Created At 2024-03-08 02:45:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6699" class=".btn">#6699</a>
-            </td>
-            <td>
-                <b>
-                    proposed "develop" build versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-As part of our recent build and release changes, we no longer need to explicitly maintain the build version in gradle.properties file.
-
-This PR is a proposal to change our "develop" builds to use git commit and HEAD details to specify a dynamic build version.
-
-for example this PR, prior to committing the changes, produced a build named:
-`besu-24.3.7-develop-610927511e.tar.gz`
-
-After committing the gradle changes and rebuilding, it produced a build named:
-`besu-24.3.7-develop-600d812d89.tar.gz`
-
-
-Open to suggestions, feedback, and identifying corner cases
-
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-07 23:30:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6698" class=".btn">#6698</a>
-            </td>
-            <td>
-                <b>
-                    Support pruned chain history in peer validators
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Change the behavior of peer block validator to allow block absence to be tolerated for some rules, specifically DaoForkPeerValidator, in support of:
-* https://eips.ethereum.org/EIPS/eip-4444
-* https://github.com/ethereum/EIPs/pull/8266
-* and besu checkpoint sync'd nodes
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-07 21:34:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6696" class=".btn">#6696</a>
-            </td>
-            <td>
-                <b>
-                    fix for txpool inSync listener to honor initial sync state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix and unit test for transaction pool inSync listener to ensure we account for initial sync state when enabling/disabling the pool.
-
-The inSync listener responds to chain events only and does not take into account worldstate sync.  This pr adds an additional initial sync condition in the sync listener to ensure we do not enable the pool when the chain sync finishes, but the worldstate is incomplete (like in the case of a debug_resyncWorldState)
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-07 19:57:33 +0000 UTC
     </div>
 </div>
 
