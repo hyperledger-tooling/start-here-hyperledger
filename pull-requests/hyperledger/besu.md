@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6744" class=".btn">#6744</a>
+            </td>
+            <td>
+                <b>
+                    fix checked out git commit hash for docker builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `getCheckedOutGitCommitHash` was removed in https://github.com/hyperledger/besu/pull/6699
+
+This updates to use the new function
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-15 16:18:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6741" class=".btn">#6741</a>
             </td>
             <td>
@@ -874,51 +902,6 @@ fixes #6695
     </table>
     <div class="right-align">
         Created At 2024-03-08 19:10:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6702" class=".btn">#6702</a>
-            </td>
-            <td>
-                <b>
-                    Transaction call object to accept both input and data field if equal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                ### Thanks for sending a pull request! Have you done the following?
-
-- [X] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [X] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [X] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-https://github.com/hyperledger/besu/pull/6094 introduced the option to provide the calldata via the input field instead of the deprecated data field. It also introduced a check that prevents both field from being set. This seems overly strict as it prevents clients from setting both fields to remain backward-compatible. This PR relaxes the check to only fail if both fields are set and they are not equal.
-
-## Fixed Issue(s)
-fixes #6697 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-08 15:07:28 +0000 UTC
     </div>
 </div>
 
