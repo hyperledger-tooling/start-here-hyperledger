@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6737" class=".btn">#6737</a>
+            </td>
+            <td>
+                <b>
+                    Fix permissioning plugin test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fix PermissioningPluginTest
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-15 06:00:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6735" class=".btn">#6735</a>
             </td>
             <td>
@@ -847,98 +874,6 @@ fixes #6697
     </table>
     <div class="right-align">
         Created At 2024-03-08 15:07:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6701" class=".btn">#6701</a>
-            </td>
-            <td>
-                <b>
-                    Draft - Do not merge - Multi version flat db rebase
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-08 04:03:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6700" class=".btn">#6700</a>
-            </td>
-            <td>
-                <b>
-                    Enhanced control over plugins registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">plugins</span>
-            </td>
-            <td>
-                ## PR description
-This PR introduces improvements to the plugin registration logic in Besu, providing users with granular control over the registration of plugins. Previously, Besu attempted to register all plugins found in the plugins directory indiscriminately. With this update, users can now specify exactly which plugins should be registered, halting the application startup if any specified plugin does not exist. This feature is beneficial for environments where precise plugin configurations are necessary.
-
-fixes #6714
-
-### CLI Options and Configuration Profiles
-The new plugin registration logic introduces one CLI options:
-
-`--plugins`: Specifies a comma-separated list of plugin names to be registered.
-
-### Changes
-
-- Plugins Registration Logic: Users can now specify a list of plugins to be registered via CLI options. This list determines which plugins Besu will attempt to register. Besu validates the presence of each specified plugin in the plugins directory. If any specified plugin is not found, the application will halt, preventing startup with an incomplete set of plugins. Any plugin found in the directory that is not explicitly required will be ignored.
-
-### Examples
-
-`besu  --plugins=essential-plugin,security-plugin`
-
-In this scenario, if either "essential-plugin" or "security-plugin" is not found in the specified directory, Besu will halt, signalling a configuration issue that needs resolution. Any other plugins will be ignored.
-
-It can also be defined in TOML configuration profiles.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-08 02:45:49 +0000 UTC
     </div>
 </div>
 
