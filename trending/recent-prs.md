@@ -1,13 +1,13 @@
 
-[480](https://github.com/hyperledger-labs/private-data-objects/pull/480) Make SGX registration a bit more robust
+[928](https://github.com/hyperledger-labs/open-enterprise-agent/pull/928) refactor(prism-agent): add metrics to status list background job
 
-[6744](https://github.com/hyperledger/besu/pull/6744) fix checked out git commit hash for docker builds
+[192](https://github.com/hyperledger/iroha-javascript/pull/192) Testing, do not merge
 
-[926](https://github.com/hyperledger-labs/open-enterprise-agent/pull/926) test: fix revocation new variable
+[6746](https://github.com/hyperledger/besu/pull/6746) Artifactory publish
 
-[98](https://github.com/hyperledger-labs/fabric-opssc/pull/98) chore(deps-dev): Bump follow-redirects from 1.14.8 to 1.15.6 in /integration
+[6745](https://github.com/hyperledger/besu/pull/6745) uprevved kzg library dependency, aligns version num with upstream
 
-[6741](https://github.com/hyperledger/besu/pull/6741) chore: fix some typos
+[2840](https://github.com/hyperledger/aries-cloudagent-python/pull/2840) Add anoncreds upgrade via api endpoint
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
