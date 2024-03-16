@@ -86,9 +86,7 @@ Note this is tested on top if (2024-03-15) version of PR #477, so for now still 
 
 1. this PR passes the `SGX_MODE` variable to the docker builds. This is necessary when we build the services. Also, since we set the relative env var in the docker file, the env var persists in the image, so later test containers run directly in HW mode.
 
-2. This PR moves the enclave signing key to `/tmp/` to fix the build process. The reason is that `environment.sh` sets `PDO_SGX_KEY_ROOT` to a folder within the XFER folder, but the XFER is not available during a docker build (it's docker compose that later mounts that). This is a problem during the service build, because PDO uses that folder to store the enclave signing key. Since the key is ephemeral for now, this PR moves it in the temp folder.
-
-3. This PR fixes the tests in HW mode by making docker compose mount the appropriate SGX-related volumes and devices on the host.
+2. This PR fixes the tests in HW mode by making docker compose mount the appropriate SGX-related volumes and devices on the host.
 
 
 
