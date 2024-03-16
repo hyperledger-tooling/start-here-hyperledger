@@ -213,30 +213,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2831" class=".btn">#2831</a>
-            </td>
-            <td>
-                <b>
-                    Cleanup of docs, generator label fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds the Traction Sandbox demo as well.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-09 17:00:00 +0000 UTC
-    </div>
-</div>
-
