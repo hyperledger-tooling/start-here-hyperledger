@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2840" class=".btn">#2840</a>
+            </td>
+            <td>
+                <b>
+                    Add anoncreds upgrade via api endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is WIP. More testing and refactoring.
+
+This includes feature https://github.com/hyperledger/aries-cloudagent-python/pull/2822 as it was built off of it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-15 19:27:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2836" class=".btn">#2836</a>
             </td>
             <td>
