@@ -14,6 +14,193 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/250" class=".btn">#250</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump ruff from 0.1.15 to 0.3.2 in /rpc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [ruff](https://github.com/astral-sh/ruff) from 0.1.15 to 0.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/astral-sh/ruff/releases">ruff's releases</a>.</em></p>
+<blockquote>
+<h2>v0.3.2</h2>
+<h2>Changes</h2>
+<h3>Preview features</h3>
+<ul>
+<li>Improve single-<code>with</code> item formatting for Python 3.8 or older (<a href="https://redirect.github.com/astral-sh/ruff/pull/10276">#10276</a>)</li>
+</ul>
+<h3>Rule changes</h3>
+<ul>
+<li>[<code>pyupgrade</code>] Allow fixes for f-string rule regardless of line length (<code>UP032</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10263">#10263</a>)</li>
+<li>[<code>pycodestyle</code>] Include actual conditions in E712 diagnostics (<a href="https://redirect.github.com/astral-sh/ruff/pull/10254">#10254</a>)</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Fix trailing kwargs end of line comment after slash (<a href="https://redirect.github.com/astral-sh/ruff/pull/10297">#10297</a>)</li>
+<li>Fix unstable <code>with</code> items formatting (<a href="https://redirect.github.com/astral-sh/ruff/pull/10274">#10274</a>)</li>
+<li>Avoid repeating function calls in f-string conversions (<a href="https://redirect.github.com/astral-sh/ruff/pull/10265">#10265</a>)</li>
+<li>Fix E203 false positive for slices in format strings (<a href="https://redirect.github.com/astral-sh/ruff/pull/10280">#10280</a>)</li>
+<li>Fix incorrect <code>Parameter</code> range  for <code>*args</code> and <code>**kwargs</code>  (<a href="https://redirect.github.com/astral-sh/ruff/pull/10283">#10283</a>)</li>
+<li>Treat <code>typing.Annotated</code> subscripts as type definitions (<a href="https://redirect.github.com/astral-sh/ruff/pull/10285">#10285</a>)</li>
+</ul>
+<h2>Contributors</h2>
+<ul>
+<li><a href="https://github.com/AlexWaygood"><code>@​AlexWaygood</code></a></li>
+<li><a href="https://github.com/GtrMo"><code>@​GtrMo</code></a></li>
+<li><a href="https://github.com/MichaReiser"><code>@​MichaReiser</code></a></li>
+<li><a href="https://github.com/charliermarsh"><code>@​charliermarsh</code></a></li>
+<li><a href="https://github.com/sciyoshi"><code>@​sciyoshi</code></a></li>
+<li><a href="https://github.com/tjkuson"><code>@​tjkuson</code></a></li>
+</ul>
+<h2>v0.3.1</h2>
+<h2>Changes</h2>
+<h3>Preview features</h3>
+<ul>
+<li>[<code>pycodestyle</code>] Fix E301 not triggering on decorated methods. (<a href="https://redirect.github.com/astral-sh/ruff/pull/10117">#10117</a>)</li>
+<li>[<code>pycodestyle</code>] Respect <code>isort</code> settings in blank line rules (<code>E3*</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10096">#10096</a>)</li>
+<li>[<code>pycodestyle</code>] Make blank lines in typing stub files optional (<code>E3*</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10098">#10098</a>)</li>
+<li>[<code>pylint</code>] Implement <code>singledispatch-method</code> (<code>E1519</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10140">#10140</a>)</li>
+<li>[<code>pylint</code>] Implement <code>useless-exception-statement</code> (<code>W0133</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10176">#10176</a>)</li>
+</ul>
+<h3>Rule changes</h3>
+<ul>
+<li>[<code>flake8-debugger</code>] Check for use of <code>debugpy</code> and <code>ptvsd</code> debug modules (<a href="https://redirect.github.com/astral-sh/ruff/issues/10177">#10177</a>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10194">#10194</a>)</li>
+<li>[<code>pyupgrade</code>] Generate diagnostic for all valid f-string conversions regardless of line length (<code>UP032</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10238">#10238</a>)</li>
+<li>[<code>pep8_naming</code>] Add fixes for <code>N804</code> and <code>N805</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10215">#10215</a>)</li>
+</ul>
+<h3>CLI</h3>
+<ul>
+<li>Colorize the output of <code>ruff format --diff</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10110">#10110</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md">ruff's changelog</a>.</em></p>
+<blockquote>
+<h2>0.3.2</h2>
+<h3>Preview features</h3>
+<ul>
+<li>Improve single-<code>with</code> item formatting for Python 3.8 or older (<a href="https://redirect.github.com/astral-sh/ruff/pull/10276">#10276</a>)</li>
+</ul>
+<h3>Rule changes</h3>
+<ul>
+<li>[<code>pyupgrade</code>] Allow fixes for f-string rule regardless of line length (<code>UP032</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10263">#10263</a>)</li>
+<li>[<code>pycodestyle</code>] Include actual conditions in E712 diagnostics (<a href="https://redirect.github.com/astral-sh/ruff/pull/10254">#10254</a>)</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Fix trailing kwargs end of line comment after slash (<a href="https://redirect.github.com/astral-sh/ruff/pull/10297">#10297</a>)</li>
+<li>Fix unstable <code>with</code> items formatting (<a href="https://redirect.github.com/astral-sh/ruff/pull/10274">#10274</a>)</li>
+<li>Avoid repeating function calls in f-string conversions (<a href="https://redirect.github.com/astral-sh/ruff/pull/10265">#10265</a>)</li>
+<li>Fix E203 false positive for slices in format strings (<a href="https://redirect.github.com/astral-sh/ruff/pull/10280">#10280</a>)</li>
+<li>Fix incorrect <code>Parameter</code> range  for <code>*args</code> and <code>**kwargs</code>  (<a href="https://redirect.github.com/astral-sh/ruff/pull/10283">#10283</a>)</li>
+<li>Treat <code>typing.Annotated</code> subscripts as type definitions (<a href="https://redirect.github.com/astral-sh/ruff/pull/10285">#10285</a>)</li>
+</ul>
+<h2>0.3.1</h2>
+<h3>Preview features</h3>
+<ul>
+<li>[<code>pycodestyle</code>] Fix E301 not triggering on decorated methods. (<a href="https://redirect.github.com/astral-sh/ruff/pull/10117">#10117</a>)</li>
+<li>[<code>pycodestyle</code>] Respect <code>isort</code> settings in blank line rules (<code>E3*</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10096">#10096</a>)</li>
+<li>[<code>pycodestyle</code>] Make blank lines in typing stub files optional (<code>E3*</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10098">#10098</a>)</li>
+<li>[<code>pylint</code>] Implement <code>singledispatch-method</code> (<code>E1519</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10140">#10140</a>)</li>
+<li>[<code>pylint</code>] Implement <code>useless-exception-statement</code> (<code>W0133</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10176">#10176</a>)</li>
+</ul>
+<h3>Rule changes</h3>
+<ul>
+<li>[<code>flake8-debugger</code>] Check for use of <code>debugpy</code> and <code>ptvsd</code> debug modules (<a href="https://redirect.github.com/astral-sh/ruff/issues/10177">#10177</a>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10194">#10194</a>)</li>
+<li>[<code>pyupgrade</code>] Generate diagnostic for all valid f-string conversions regardless of line length (<code>UP032</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/10238">#10238</a>)</li>
+<li>[<code>pep8_naming</code>] Add fixes for <code>N804</code> and <code>N805</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10215">#10215</a>)</li>
+</ul>
+<h3>CLI</h3>
+<ul>
+<li>Colorize the output of <code>ruff format --diff</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10110">#10110</a>)</li>
+<li>Make <code>--config</code> and <code>--isolated</code> global flags (<a href="https://redirect.github.com/astral-sh/ruff/pull/10150">#10150</a>)</li>
+<li>Correctly expand tildes and environment variables in paths passed to <code>--config</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10219">#10219</a>)</li>
+</ul>
+<h3>Configuration</h3>
+<ul>
+<li>Accept a PEP 440 version specifier for <code>required-version</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10216">#10216</a>)</li>
+<li>Implement isort's <code>default-section</code> setting (<a href="https://redirect.github.com/astral-sh/ruff/pull/10149">#10149</a>)</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Remove trailing space from <code>CapWords</code> message (<a href="https://redirect.github.com/astral-sh/ruff/pull/10220">#10220</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/astral-sh/ruff/commit/a892fc755d6d4342c2f5a768aa50a401d704ae2c"><code>a892fc7</code></a> Bump version to v0.3.2 (<a href="https://redirect.github.com/astral-sh/ruff/issues/10304">#10304</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/a067d87ccc9a8e0348b1a2421b7879514d4f26c0"><code>a067d87</code></a> Fix incorrect <code>Parameter</code> range  for <code>*args</code> and <code>**kwargs</code>  (<a href="https://redirect.github.com/astral-sh/ruff/issues/10283">#10283</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/b64f2ea40192436639f668f4a342fcb04b0e4071"><code>b64f2ea</code></a> Formatter: Improve single-with item formatting for Python 3.8 or older (<a href="https://redirect.github.com/astral-sh/ruff/issues/10276">#10276</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/4bce80106545af8d1edd028c7085a9e9d703fc6b"><code>4bce801</code></a> Fix unstable with-items formatting (<a href="https://redirect.github.com/astral-sh/ruff/issues/10274">#10274</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/a56d42f1839cb9b44f0fc369c441f4d329ed868a"><code>a56d42f</code></a> Refactor with statement formatting to have explicit layouts (<a href="https://redirect.github.com/astral-sh/ruff/issues/10296">#10296</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/1d97f2733554c6825c8b4d3e1936d864e0cf4871"><code>1d97f27</code></a> Start tracking quoting style in the AST (<a href="https://redirect.github.com/astral-sh/ruff/issues/10298">#10298</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/965adbed4b56a76d6cce02534e47c4d7a2a9cd32"><code>965adbe</code></a> Fix trailing kwargs end of line comment after slash (<a href="https://redirect.github.com/astral-sh/ruff/issues/10297">#10297</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/c504d7ab11308a08d6d91af7d6f47fc3b2ba4165"><code>c504d7a</code></a> Track quoting style in the tokenizer (<a href="https://redirect.github.com/astral-sh/ruff/issues/10256">#10256</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/72c9f7e4c9928ad2714e8ca68c1defe2e778d4f3"><code>72c9f7e</code></a> Include actual conditions in E712 diagnostics (<a href="https://redirect.github.com/astral-sh/ruff/issues/10254">#10254</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/57be3fce900488a9ce1a0187863599ddf1c0d3ed"><code>57be3fc</code></a> Treat <code>typing.Annotated</code> subscripts as type definitions (<a href="https://redirect.github.com/astral-sh/ruff/issues/10285">#10285</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/astral-sh/ruff/compare/v0.1.15...v0.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ruff&package-manager=pip&previous-version=0.1.15&new-version=0.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-11 04:13:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/249" class=".btn">#249</a>
             </td>
             <td>
