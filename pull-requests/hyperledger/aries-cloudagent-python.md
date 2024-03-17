@@ -187,29 +187,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2832" class=".btn">#2832</a>
-            </td>
-            <td>
-                <b>
-                    Create AnonCredsMethods.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Documentation for creating an AnonCreds Method.  Expands on document that @dbluhm presented the other day, and includes a link to the recording made of the discussion from Wednesday.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-10 04:27:11 +0000 UTC
-    </div>
-</div>
-
