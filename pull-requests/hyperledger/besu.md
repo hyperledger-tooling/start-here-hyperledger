@@ -379,7 +379,7 @@ N/A
 
 - [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
 - [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
 - [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
 
 ### Most advanced CI tests are deferred until PR approval, but you could:
@@ -549,7 +549,7 @@ We determined that it shouldn't affect the peers required for the node to functi
             </td>
             <td>
                 <b>
-                    Refactor AbstractGasLimitSpecification to simplify isValidTargetGasLimit bound condition
+                    Suppress ComparisonOutOfRange errorprone warning in AbstractGasLimitSpecification
                 </b>
             </td>
         </tr>
@@ -559,7 +559,7 @@ We determined that it shouldn't affect the peers required for the node to functi
             </td>
             <td>
                 ## PR description
-Refactor AbstractGasLimitSpecification to simplify isValidTargetGasLimit bound condition. This was reported during errorprone plugin update.
+Suppress ComparisonOutOfRange error-prone warning in AbstractGasLimitSpecification. This was reported during errorprone plugin update. Add a unit test to cover the max limit as well.
 
 ### Thanks for sending a pull request! Have you done the following?
 
