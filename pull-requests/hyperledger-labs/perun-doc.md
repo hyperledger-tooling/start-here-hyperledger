@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/85" class=".btn">#85</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Add tutorial for perun-embedded application
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-https://github.com/hyperledger/toc/issues/32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-16 18:50:23 +0000 UTC
+        Created At 2024-03-18 08:30:28 +0000 UTC
     </div>
 </div>
 

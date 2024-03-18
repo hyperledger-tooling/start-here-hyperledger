@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/576" class=".btn">#576</a>
+            </td>
+            <td>
+                <b>
+                    use 1 connection for sqlite, align database config more with fsc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Run the tests with only one concurrent connection to sqlite (the code should support that).
+
+Also, now doing skipCreateTables instead of createSchema, to default to creating them and to align to how it's configured in Fabric Smart Client.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-18 11:57:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/575" class=".btn">#575</a>
             </td>
             <td>
@@ -197,38 +225,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-03-13 08:59:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/569" class=".btn">#569</a>
-            </td>
-            <td>
-                <b>
-                    identity service refactoring
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR refactors the identity service to bring clarity to the concepts of Long-Term identity, Identity Provider, Role, and Wallet.
-
-A long-term identity is an identity that carries a long-term unique identifier. 
-Long-term identities are grouped in roles. The Token-SDK supports 4 roles: Issuers, Owners, Auditors, and Certifiers.
-The Identity Provider manages long-term identities.
-A wallet is bound to a long-term identity and manages its pseudonyms and tokens. 
-A wallet registry manages all wallets for a given role.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-11 12:10:08 +0000 UTC
     </div>
 </div>
 
