@@ -95,7 +95,7 @@ Closes #4323
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 ## Description
