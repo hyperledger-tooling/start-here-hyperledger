@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6750" class=".btn">#6750</a>
+            </td>
+            <td>
+                <b>
+                    Log an info message on startup to indicate if IPv6 peer connectivity is possible
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Besu doesn't log out if an IPv6 interface is available. Given that some peers advertise IPv6 addresses it would be easier to debug IPv6-related peering errors if the logs were clear about whether the node would try to connect to IPv6 peers.
+
+## Fixed Issue(s)
+Relates to issue https://github.com/hyperledger/besu/issues/6475
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-18 10:13:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6748" class=".btn">#6748</a>
             </td>
             <td>
@@ -944,53 +976,6 @@ fixes #6691
     </table>
     <div class="right-align">
         Created At 2024-03-12 00:18:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6708" class=".btn">#6708</a>
-            </td>
-            <td>
-                <b>
-                    Change`txpool_beusPendingTransactions`:`numResults`  from a required parameter to an optional parameter 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-Enhancement `TX_POOL` API `txpool_besuPendingTransactions` by changing 'numResults' from a required parameter to an optional parameter.  if the parameter `limit` does not exist will use pending transactions size as a limit.
-
-## Fixed Issue(s)
-fixes #6707 
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-11 09:25:07 +0000 UTC
     </div>
 </div>
 

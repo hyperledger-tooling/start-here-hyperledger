@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/668" class=".btn">#668</a>
+            </td>
+            <td>
+                <b>
+                    Removed DIND References from Deployer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (Code Cleanup)
+
+#### Description
+We had references of DIND in the deployer code which is deprecated and no longer needed in fabric 2x. Hence removed all the references of DIND from codebase
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-18 10:30:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/667" class=".btn">#667</a>
             </td>
             <td>
