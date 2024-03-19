@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/cckit
         <tr>
             <td colspan="2">
                 <b>
-                    fix delete private key mockStub behavior
+                    Upd mockstub
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.0.4
+                    v1.0.4
                 </span>
             </td>
             <td>
@@ -30,7 +30,7 @@ permalink: /releases/hyperledger-labs/cckit
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/cckit/releases/tag/1.0.4" class=".btn">
+    <a href="https://github.com/hyperledger-labs/cckit/releases/tag/v1.0.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
