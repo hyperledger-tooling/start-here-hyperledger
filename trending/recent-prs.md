@@ -1,13 +1,13 @@
 
-[6758](https://github.com/hyperledger/besu/pull/6758) feat: add --use-cached-genesis-state-hash paramater
+[6765](https://github.com/hyperledger/besu/pull/6765) Ensure empty withdrawal lists are set in BFT blocks when the protocol spec is shanghai or higher
 
-[669](https://github.com/hyperledger-labs/fabric-operations-console/pull/669) fetch channels list with skip cache just after channel deletion
+[536](https://github.com/hyperledger-labs/fabric-smart-client/pull/536) Support replicas
 
-[4375](https://github.com/hyperledger/iroha/pull/4375) [refactor] #4259: Make Action and Filter non-generic types
+[2845](https://github.com/hyperledger/aries-cloudagent-python/pull/2845) Add functionality for building and running agents seprately
 
-[936](https://github.com/hyperledger-labs/open-enterprise-agent/pull/936) fix: align keycloak version
+[1185](https://github.com/hyperledger/fabric-samples/pull/1185) Fix to configtx.yaml to enable it to work as intended with the test network and channel tutorials
 
-[6756](https://github.com/hyperledger/besu/pull/6756) Fix "Backward sync stuck in a loop" #6749
+[6761](https://github.com/hyperledger/besu/pull/6761) Log blob count
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
