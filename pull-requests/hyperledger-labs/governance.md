@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Add new issue type
+                    CLOWarden
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/governance
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-21 16:52:11 +0000 UTC
+        Created At 2024-03-18 19:42:37 +0000 UTC
     </div>
 </div>
 
