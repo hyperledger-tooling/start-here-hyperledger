@@ -127,7 +127,7 @@ https://github.com/hyperledger/iroha/issues/2085#issuecomment-1985152267
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
+                <span class="chip">question</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ## Description
