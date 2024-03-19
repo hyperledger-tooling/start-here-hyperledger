@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3075" class=".btn">#3075</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3083" class=".btn">#3083</a>
             </td>
             <td>
                 <b>
-                    docs: add Rafael Belchior as a maintainer
+                    refactor(gui): gui structure change to make adding more ledgers easier
                 </b>
             </td>
         </tr>
@@ -27,12 +27,41 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                1. The MAINTAINERS.md file was updated with contact details
-2. The CODEOWNERS file was updated so that in addition to the current
-code owners Rafael also has ownership of some of the sub-direcotires where
-he is the most active in terms of contributions.
-3. We welcome Rafael to expand the scope of ownership on packages later
-as we are always looking to get more help with maintaining the code. :-)
+                - change folder structure
+- each ledger-plugin now has separate folder and configuration
+- added status page for available plugins
+    
+ Signed-off-by: Tomasz Awramski <tomasz.awramski@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-13 17:08:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3082" class=".btn">#3082</a>
+            </td>
+            <td>
+                <b>
+                    test(connector-fabric): move integration tests to use Fabric v2.5.6 AIO
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. This fixes many flakes that we were suffering from before with the
+older versions of the AIO image.
+2. There could still be other flakes lurking around, but their numbers
+should definitely be going down with this change due to the increased
+stability of the new AIO image.
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
 
@@ -51,7 +80,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-10 22:35:39 +0000 UTC
+        Created At 2024-03-12 18:57:47 +0000 UTC
     </div>
 </div>
 

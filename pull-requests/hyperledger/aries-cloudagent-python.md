@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2845" class=".btn">#2845</a>
+            </td>
+            <td>
+                <b>
+                    Add functionality for building and running agents seprately
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Added support for building the agent image using 'build'
+2. Implemented the ability to start the agent container with 'start' with host files mounted into docker container
+3. Updated the script to handle the 'resolution' command with its options(build & run)
+
+Build
+`./demo/run_demo build alice --wallet-type askar-anoncreds --events
+`
+Run
+`./demo/run_demo run alice --wallet-type askar-anoncreds --events
+`
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-19 17:47:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2844" class=".btn">#2844</a>
             </td>
             <td>

@@ -125,7 +125,8 @@ Proof of concept for the new account, with non-essential parts omitted. There is
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-https://github.com/hyperledger/iroha/issues/2085#issuecomment-1985152267
+- The concept demonstrated here is https://github.com/hyperledger/iroha/issues/2085#issuecomment-1985152267
+- Intended to be one of the foundations for #2083 in general and #4373 in particular
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
