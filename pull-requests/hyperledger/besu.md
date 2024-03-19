@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6758" class=".btn">#6758</a>
+            </td>
+            <td>
+                <b>
+                    feat: add --use-cached-genesis-state-hash paramater
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+When Besu starts, it reads the entire contents of the genesis file (besu.json) and traverses all accounts in memory to calculate the genesis state hash. This value is then compared with the contents of the database.
+
+For custom or test networks with potentially large genesis files containing many accounts, this process can significantly lengthen startup times and increase memory usage due to the in-memory calculation of the genesis state hash.
+
+In our testing environment, a genesis file around 1GB requires 16GB of memory and approximately 2 minutes to start the node.
+
+In contrast, other clients like Nethermind do not read the genesis file if a genesis state hash is present in the database, resulting in significantly faster startup times, often just tens of seconds.
+
+Other clients such as Geth, Erigon, and Reth separate initialization operations from node runtime operations, avoiding resource consumption for reading the genesis file during startup, thus achieving quick startup times.
+
+Besu's practice of verifying the genesis file at every startup is largely to ensure user configurations are correct.
+
+Therefore, we propose adding an option for advanced users who are certain they have not modified their genesis file and understand the implications of this option. This trade-off sacrifices some security for faster node startup times, a trade-off we believe advanced users will find acceptable.
+
+With this option, our tests show a startup time of under 30 seconds for a 1GB genesis file, marking a significant improvement.
+
+### CLI Options and Configuration Profiles
+We have introduced a new CLI option:
+
+`--use-cached-genesis-state-hash`: When this option is used to start the node, if the genesis state hash value is already stored in the database, the node will directly utilize this value for startup.
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [x] locally run all integration tests via: `./gradlew integrationTest`
+- [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-19 11:59:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6756" class=".btn">#6756</a>
+            </td>
+            <td>
+                <b>
+                    Fix "Backward sync stuck in a loop" #6749
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR is fixing issue #6749, trying to make minimal changes to the existing implementation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-19 08:13:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6754" class=".btn">#6754</a>
             </td>
             <td>
@@ -453,7 +544,14 @@ N/A
                 
             </td>
             <td>
-                ### Thanks for sending a pull request! Have you done the following?
+                ## PR description
+* allow for maxFeePerBlobGas to be empty even if versioned hashes are present
+* if maxFeePerBlobGas is empty or zero, allow user's balance to be exceeded (same behaviour as other gas params)
+
+## Fixed Issue(s)
+fixes #6709
+
+### Thanks for sending a pull request! Have you done the following?
 
 - [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
 - [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
@@ -468,11 +566,6 @@ N/A
 - [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
 - [x] locally run hive tests `engine-cancun` suite
 
-
-## PR description
-
-## Fixed Issue(s)
-fixes #6709
             </td>
         </tr>
     </table>
