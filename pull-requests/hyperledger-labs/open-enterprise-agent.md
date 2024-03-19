@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             </td>
             <td>
                 <b>
-                    feat(pollux): add revocation for JWT credentials
+                    feat: add revocation for JWT credentials
                 </b>
             </td>
         </tr>
@@ -29,18 +29,18 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
             <td>
                 ### Description: 
 
-WIP
+Epic: [ATL-4095](https://input-output.atlassian.net/browse/ATL-4095)
+This PR (epic) adds all the functionality required to enable JWT revocation. This PR contains files that have been added via other feature PRs that have been reviewed separately.
 
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
+Content of this PR was copied over from https://github.com/hyperledger-labs/open-enterprise-agent/pull/795
 
 ### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [x] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] I have added tests that prove my fix is effective or that my feature works
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
 
             </td>
         </tr>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/597" class=".btn">#597</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/604" class=".btn">#604</a>
             </td>
             <td>
                 <b>
-                    Bump django from 3.1.14 to 3.2.24 in /src/api-engine
+                    Bump django from 3.2.24 to 3.2.25 in /src/api-engine
                 </b>
             </td>
         </tr>
@@ -27,27 +27,23 @@ permalink: /pull-requests/hyperledger/cello
                 <span class="chip">Dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Bumps [django](https://github.com/django/django) from 3.1.14 to 3.2.24.
+                Bumps [django](https://github.com/django/django) from 3.2.24 to 3.2.25.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/django/django/commit/f5c880857e8e01b006c75b9e79a9088cc2c6228f"><code>f5c8808</code></a> [3.2.x] Bumped version for 3.2.24 release.</li>
-<li><a href="https://github.com/django/django/commit/c1171ffbd570db90ca206c30f8e2b9f691243820"><code>c1171ff</code></a> [3.2.x] Fixed CVE-2024-24680 -- Mitigated potential DoS in intcomma template ...</li>
-<li><a href="https://github.com/django/django/commit/9dc345643e94f3a48d58fe7547fbc88ce8dab6e9"><code>9dc3456</code></a> [3.2.x] Added stub release notes 3.2.24.</li>
-<li><a href="https://github.com/django/django/commit/90eae45b3818f6c6e74c2fcb972e2a692ade4c1e"><code>90eae45</code></a> [3.2.x] Fixed documented alias of smart_text().</li>
-<li><a href="https://github.com/django/django/commit/c9ad85803382481a5f6085006bd10987e7c180e9"><code>c9ad858</code></a> [3.2.x] Pinned python-memcached == 1.59 in test requirements.</li>
-<li><a href="https://github.com/django/django/commit/12b685c61fe318cf569d99fc46b12d02ce865c7b"><code>12b685c</code></a> [3.2.x] Added CVE-2023-46695 to security archive.</li>
-<li><a href="https://github.com/django/django/commit/00591826430e7f0352dfbdbac84f01bd008934d3"><code>0059182</code></a> [3.2.x] Post-release version bump.</li>
-<li><a href="https://github.com/django/django/commit/60e648a7ae033a9c2d1ab23a58402f57a1754df1"><code>60e648a</code></a> [3.2.x] Bumped version for 3.2.23 release.</li>
-<li><a href="https://github.com/django/django/commit/f9a7fb8466a7ba4857eaf930099b5258f3eafb2b"><code>f9a7fb8</code></a> [3.2.x] Fixed CVE-2023-46695 -- Fixed potential DoS in UsernameField on Windows.</li>
-<li><a href="https://github.com/django/django/commit/e6d2591d9e8a517b891e49de476640ecae93cc41"><code>e6d2591</code></a> [3.2.x] Added stub release notes for 3.2.23.</li>
-<li>Additional commits viewable in <a href="https://github.com/django/django/compare/3.1.14...3.2.24">compare view</a></li>
+<li><a href="https://github.com/django/django/commit/c98eca322af87adf046ab621e7c8a23d340f7afe"><code>c98eca3</code></a> [3.2.x] Bumped version for 3.2.25 release.</li>
+<li><a href="https://github.com/django/django/commit/072963e4c4d0b3a7a8c5412bc0c7d27d1a9c3521"><code>072963e</code></a> [3.2.x] Fixed CVE-2024-27351 -- Prevented potential ReDoS in Truncator.words().</li>
+<li><a href="https://github.com/django/django/commit/2ad2676456316eb211104d1f0cfc8dea7a7ca76b"><code>2ad2676</code></a> [3.2.x] Added release date for 3.2.25.</li>
+<li><a href="https://github.com/django/django/commit/fc41af69a2e49a717ef069a37e1d68b80a6a5d56"><code>fc41af6</code></a> [3.2.x] Fixed <a href="https://redirect.github.com/django/django/issues/35172">#35172</a> -- Fixed intcomma for string floats.</li>
+<li><a href="https://github.com/django/django/commit/b9170b4a9e7f0dde5d29ef69354c94efa6d6edfb"><code>b9170b4</code></a> [3.2.x] Added CVE-2024-24680 to security archive.</li>
+<li><a href="https://github.com/django/django/commit/e5350a931a017fab6aa0026e8f2d6e9ef09e1e1b"><code>e5350a9</code></a> [3.2.x] Post release version bump.</li>
+<li>See full diff in <a href="https://github.com/django/django/compare/3.2.24...3.2.25">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=django&package-manager=pip&previous-version=3.1.14&new-version=3.2.24)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=django&package-manager=pip&previous-version=3.2.24&new-version=3.2.25)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -79,7 +75,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-07 21:17:55 +0000 UTC
+        Created At 2024-03-18 21:51:07 +0000 UTC
     </div>
 </div>
 
