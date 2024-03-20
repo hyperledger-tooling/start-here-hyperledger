@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6766" class=".btn">#6766</a>
+            </td>
+            <td>
+                <b>
+                    for fcu v2 use correct invalid params error code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+fcuV2 should return invalid params not invalid payload attributes.
+
+Fixes #6757 
+fixes 10 engine-withdrawals tests (hive)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [x] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 06:22:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6765" class=".btn">#6765</a>
             </td>
             <td>
@@ -966,64 +1017,6 @@ Refactor PluginPrivacyController. Fix parameter name to match overridden method.
     </table>
     <div class="right-align">
         Created At 2024-03-13 23:24:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6721" class=".btn">#6721</a>
-            </td>
-            <td>
-                <b>
-                    diffbased refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Here's a breakdown of the PR:
-
-- Splitting Bonsai: The PR aims to divide Bonsai into two packages
-
-- Common Classes with a Prefix: The common part will include classes prefixed with "DiffBased." These classes are designed to provide a base for both Bonsai and any future storage format that might use this diff-based approach.
-
-- Bonsai's Specifics: Bonsai will retain its unique features in its own package. This means that while it shares the diff-based infrastructure with the common part, it also has its own specific functionalities that are not shared with other storage format.
-
-- Extension to Verkle: this modification add the possibility of adding "Verkle" as a new storage format based on the diff-based architecture. Like Bonsai, Verkle would use the common diff-based classes but also have its own specific features.
-
-In summary, the pull request proposes restructuring Bonsai to make it more modular and efficient. This not only improves data management within Bonsai but also sets the stage for incorporating new format like Verkle, which can share the common base while having their unique functionalities.
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 11:04:55 +0000 UTC
     </div>
 </div>
 
