@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/579" class=".btn">#579</a>
+            </td>
+            <td>
+                <b>
+                    Query improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 10:24:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/578" class=".btn">#578</a>
             </td>
             <td>
@@ -251,32 +277,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-03-13 21:18:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/571" class=".btn">#571</a>
-            </td>
-            <td>
-                <b>
-                    check for nil right away
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                it created a nil pointer panic when trying to access tok.Type
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 08:59:05 +0000 UTC
     </div>
 </div>
 
