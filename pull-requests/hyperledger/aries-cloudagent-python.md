@@ -237,9 +237,24 @@ You can trigger Dependabot actions by commenting on this PR:
                 
             </td>
             <td>
-                This is WIP. More testing and refactoring.
+                This currently includes feature https://github.com/hyperledger/aries-cloudagent-python/pull/2822 as it was built off of it.
 
-This includes feature https://github.com/hyperledger/aries-cloudagent-python/pull/2822 as it was built off of it.
+Have added an option to demo to upgrade in multi-tenant mode (non-multi-tenant mode currently requires restart --> see below). Also added an integration test for multi-tenant mode that does object creation and revocation stuff, upgrades, and then does it again with anoncreds.
+
+Have added a decent amount of unit tests. Some harder to test stuff hasn't been covered yet.
+
+Implementation:
+
+- Created an endpoint `/anoncreds/wallet/upgrade` in the wallet routes to trigger the upgrade. For safety it requires adding the wallet name as a parameter.
+- Added a upgrade singleton (set) to manage which wallets are being upgraded in the case of multiple subwallets at the same time.
+- Added a middleware that checks the singleton and blocks traffic for the particular wallet if upgrade is in progress.
+- Uses a DB record to persist an upgrade and restart upgrades in the case of an agent restart.
+- The upgrade is all or nothing with a single transaction. There is a retry mechanism.
+- For subwallets, you can currently upgrade to anoncreds even if the base wallet is askar. Might want to force them to upgrade the base wallet first. A multi-tenant base wallet only changes the storage type and profile which doesn't make much difference. The subwallet will change profile types on the fly. Doesn't require agent restart.
+- For standalone agent and mutitenant admin wallets the agent will shutdown after the upgrade, and then require the wallet-type config to be changed to askar-anoncreds. Maybe there's a more streamline way to do this but I think it could be another ticket if we want to do this.
+- For the upgrade of schema's and cred def's I wasn't able to find all the required anoncred data in the existing storage and resorted to getting it from the ledger. An example is the `attrNames` in schema. Not sure if this exists somewhere in storage I don't know about.
+
+I don't think the upgrade should take very long for any agents or subwallets as the DB changes are just removing and replacing records.
             </td>
         </tr>
     </table>

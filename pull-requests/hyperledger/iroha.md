@@ -117,7 +117,9 @@ Since persistency isn't required in tests it's better to disable snapshot in tes
 
 <!-- Just describe what you did. -->
 
-Proof of concept for the new account, with non-essential parts omitted. There is room for optimization in actual implementation.
+- Proof of concept for the new account, with non-essential parts omitted
+  - There is room for optimization in actual implementation
+- This is in the form of a draft PR just for review and not expected to be merged
 
 <!-- Skip if the title of the PR is self-explanatory -->
 
