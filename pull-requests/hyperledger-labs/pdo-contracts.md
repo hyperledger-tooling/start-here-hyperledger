@@ -14,43 +14,31 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Jupyter upgrades for exchange and support functions
+                    Jupyter Notebooks to illustrate the inference-contract family.
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                
             </td>
             <td>
-                Major update of jupyter notebooks:
+                The Notebooks' structure, installation, execution patterns are same as those used by the Noteboks provided for the Exchange contract family. Please note that the inference guardian service must be started prior to executing the notebooks. Please see inference-contract/README.md for instructions.
 
- *  Update for the new jupyter functions in the python module.  Issuer and token issuer should be fully functional. Other notebooks are work in progress.
-    
-* New notebooks for wallets and orders. Do not expect these to work at present. More than placeholders but less than fully functional.
-    
-* Split the exchange launch page into some additional documentation files and the operational links to the factories.    
-  
-* Add Jupyter files for the root notebook directory. Replace the empty index file with one that contains somewhat useful content. Move a lot of the getting started content into its own file. This should be replaced later by notebooks that allow for managing configurations.
+Some of the additional features offered by this PR taking advantage of recent commits to the contracts repo:
 
-Major update for the python functions that support Jupyter notebooks:
-
-* Create a new jupyter module that can be used for multiple contract families; this will include context handling and ipython magic functions.
-    
-* Update the context creation for exchange family templates; this should make context creation a little more configurable
-    
-* Split out the the reusable components of the exchange jupyter python modue into a separate module. This is both functions that should be exposed to a jupyter notebook and support functions that are note exposed.
-
-
+1. It is possible to use the inference contract jupyter notebook via docker (using features from PR 23)
+2. When using docker, the inference guardian will run in a separate container (using features from PR 27)
+3. The notebooks are constructed using jupytext python modules (using features from PR 29)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-06 23:54:25 +0000 UTC
+        Created At 2024-03-19 23:08:00 +0000 UTC
     </div>
 </div>
 
