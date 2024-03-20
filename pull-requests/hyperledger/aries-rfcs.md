@@ -96,34 +96,3 @@ Also removes the indexgenerate GHA since does not work and is not really worth f
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/818" class=".btn">#818</a>
-            </td>
-            <td>
-                <b>
-                    Removes references to ~please_ack in other protocols
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `~please_ack` was [recently retired](https://github.com/hyperledger/aries-rfcs/tree/main/features/0317-please-ack). This PR removes the remaining references to `~please_ack` in other protocols. Most relevant to the community is the removal from the issue-credential and present-proof protocols -- which need to be update in AIP 2.0 to include recent clarifications (including this one).
-
-This is not controversial as we have already decided to retire `~please_ack` -- this is just post retirement cleanup.
-
-I think this PR could just be merged with approvals from a @TelegramSam, @TimoGlastra, @genaris but could also wait for an Aries Working Group meeting.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 18:12:33 +0000 UTC
-    </div>
-</div>
-

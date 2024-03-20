@@ -14,6 +14,127 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/941" class=".btn">#941</a>
+            </td>
+            <td>
+                <b>
+                    fix(pollux): function that allocates status list credential does not work correctly in multi threaded environment 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span>
+            </td>
+            <td>
+                ### Description: 
+wrap entire function that allocates status list credential in a ZIO semaphore with a single permit
+
+
+### Checklist: 
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [x] I have added tests that prove my fix is effective or that my feature works
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 16:52:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/940" class=".btn">#940</a>
+            </td>
+            <td>
+                <b>
+                    fix: anoncred test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+https://input-output.atlassian.net/browse/ATL-6027
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 14:57:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/939" class=".btn">#939</a>
+            </td>
+            <td>
+                <b>
+                    docs: add local stack examples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+Open for feedback. Experiment with local examples with generated docker configurations.
+
+Just ignore the `st-oidc4vc` example for now, to be cleanup later.
+
+https://nickel-lang.org/ is used to generate all `compose.yaml` in each example.
+
+|example|description|
+|-|-|
+|`st`|single-tenant configuration without external services (except database)|
+|`st-multi`|3 instances of single-tenant configuration|
+|`st-vault`|single-tenant with Vault for secret storage|
+|`mt`|multi-tenant configuration using built-in IAM|
+|`mt-keycloak`|multi-tenant configuration using Keycloak for IAM|
+|`mt-keycloak-vault`|multi-tenant configuration using Keycloak and Vault|
+
+Example we might consider in the future
+- vault with file storage
+- vault with AppRole authentication
+- keycloak with agent `admin` role
+- oidc4vc configuration
+- overriding config with `application.conf`
+- production?
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 14:27:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/937" class=".btn">#937</a>
             </td>
             <td>
