@@ -1,13 +1,13 @@
 
-[579](https://github.com/hyperledger-labs/fabric-token-sdk/pull/579) Query improvements
+[2847](https://github.com/hyperledger/aries-cloudagent-python/pull/2847) chore(deps-dev): Bump black from 24.1.1 to 24.3.0
 
-[671](https://github.com/hyperledger-labs/fabric-operations-console/pull/671) removed duplicate step definition and alignment
+[673](https://github.com/hyperledger-labs/fabric-operations-console/pull/673) Bump github.com/docker/docker from 24.0.7+incompatible to 24.0.9+incompatible in /packages/fabric-deployer
 
-[6766](https://github.com/hyperledger/besu/pull/6766) for fcu v2 use correct invalid params error code
+[581](https://github.com/hyperledger-labs/fabric-token-sdk/pull/581) Bump github.com/docker/docker from 24.0.7+incompatible to 24.0.9+incompatible
 
-[670](https://github.com/hyperledger-labs/fabric-operations-console/pull/670) fix wrong URL to the doc for Peer E-Certificate Renewal and Create Channel 
+[537](https://github.com/hyperledger-labs/fabric-smart-client/pull/537) Bump github.com/docker/docker from 24.0.7+incompatible to 24.0.9+incompatible
 
-[821](https://github.com/hyperledger/aries-rfcs/pull/821) Update DID Exchange examples to use version 1.1 from 1.0
+[4758](https://github.com/hyperledger/fabric/pull/4758) Bump github.com/docker/docker from 24.0.7+incompatible to 24.0.9+incompatible
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

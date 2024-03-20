@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/42" class=".btn">#42</a>
+            </td>
+            <td>
+                <b>
+                    Add component actions and updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds the following to allow component actions (restart, reenroll, etc)
+- certificate_authority_action
+- ordering_service_node_action
+- peer_action
+
+This change also updates the update methods for peer, CA and ordering service nodes to allow for V3 APIs.
+
+There is also an added capability to list associated notes with a CA:
+- certificate_authority_associated_nodes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 16:53:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/41" class=".btn">#41</a>
             </td>
             <td>
@@ -33,84 +67,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     </table>
     <div class="right-align">
         Created At 2024-03-14 12:21:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/40" class=".btn">#40</a>
-            </td>
-            <td>
-                <b>
-                    Update MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 15:27:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Manual version bump
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 14:48:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/38" class=".btn">#38</a>
-            </td>
-            <td>
-                <b>
-                    Adding Restriction on Security Context to restrict unshare calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of the pentest, we have identified an issue in the openshift cluster SCC. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 12:53:54 +0000 UTC
     </div>
 </div>
 
