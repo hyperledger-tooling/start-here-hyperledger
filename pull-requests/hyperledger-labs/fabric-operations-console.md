@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/670" class=".btn">#670</a>
+            </td>
+            <td>
+                <b>
+                    fix wrong URL to the doc for Peer E-Certificate Renewal and Create Channel 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+
+#### Description
+When we click on "Find out more" for E-Certificate Renewal, the URL to the document was wrong, which is now replaced with correct URL. Secondly, while creating channel "Find out more" leads to wrong URL. Now, after changes, it has 2 separate links, one for "Prerequisites" which leads to "Build a Network" page of the doc and second link is for "Additional channel creation help" which leads to specific part of "Create Channel" step in the document.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 05:54:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/669" class=".btn">#669</a>
             </td>
             <td>
