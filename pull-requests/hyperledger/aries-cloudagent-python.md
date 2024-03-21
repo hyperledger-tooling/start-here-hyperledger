@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2850" class=".btn">#2850</a>
+            </td>
+            <td>
+                <b>
+                    fix: did exchange multiuse invites respond in kind
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes: #2817 
+
+DID Exchange was responding incorrectly to requests, sending unqualified DIDs with a `did_rotate~attach` (which is nonsensical). This fixes it to only send a `did_rotate~attach` when the DID associated with the connection is a qualified DID. Additionally, this change also ensures that the webhook for the new connection request will only be emitted after the request has been attached to the connection record. Without this, a race condition can occur for controllers that try to accept the request before ACA-Py finishes storing the request.
+
+As a side note, I left a todo wondering out loud about whether the webhook for the newly created connection record (the one that gets generated from a multi-use connection record) should happen at all.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 17:15:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2849" class=".btn">#2849</a>
+            </td>
+            <td>
+                <b>
+                    Prevent revocable cred def being created without tails server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses https://github.com/hyperledger/aries-cloudagent-python/issues/2838.
+
+Simply returns an error response when creating a revocable cred def without a tails file configured. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 16:04:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2848" class=".btn">#2848</a>
+            </td>
+            <td>
+                <b>
+                    Minor updates to the documentation - links, navigation and markdown
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 15:58:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2847" class=".btn">#2847</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[6778](https://github.com/hyperledger/besu/pull/6778) Fix for `Method input parameters must be final` compilation error
+[6782](https://github.com/hyperledger/besu/pull/6782) Cleanup dev releases
 
-[4760](https://github.com/hyperledger/fabric/pull/4760) add a doc for organization removal from channel
+[2850](https://github.com/hyperledger/aries-cloudagent-python/pull/2850) fix: did exchange multiuse invites respond in kind
 
-[6775](https://github.com/hyperledger/besu/pull/6775) Refactor BackwardsSyncAlgorithm.pickNextStep for readability
+[481](https://github.com/hyperledger-labs/private-data-objects/pull/481) Transition service groups to a persistent data store (comparable to the service endpoints store)
 
-[6773](https://github.com/hyperledger/besu/pull/6773) updated PR template
+[2849](https://github.com/hyperledger/aries-cloudagent-python/pull/2849) Prevent revocable cred def being created without tails server
 
-[6771](https://github.com/hyperledger/besu/pull/6771) Flaky test v2 perm
+[2848](https://github.com/hyperledger/aries-cloudagent-python/pull/2848) Minor updates to the documentation - links, navigation and markdown
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

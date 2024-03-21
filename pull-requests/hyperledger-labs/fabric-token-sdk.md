@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/582" class=".btn">#582</a>
+            </td>
+            <td>
+                <b>
+                    Delete tokens: move nilcheck and simplify the call used by HTLC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This moves the nilcheck to make sure it gets used (Delete does not fail if the token doesn't exist).
+
+When running two replicas of Token SDK, one instance will delete the token from the database and notify its mailman. A current limitation is that the mailman of the second replica will not be notified (if tok turns out to be nil we don't post the event). This is not new in this PR, but we should consider it when working on the statelessness of the Token SDK instance.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 14:15:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/581" class=".btn">#581</a>
             </td>
             <td>
@@ -286,32 +314,6 @@ Also, now doing skipCreateTables instead of createSchema, to default to creating
     </table>
     <div class="right-align">
         Created At 2024-03-18 11:57:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/575" class=".btn">#575</a>
-            </td>
-            <td>
-                <b>
-                    enhanced identityDB
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                store in the identityDB also the identity configuration options and raw material that can be optionally used to load the key material from
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 12:48:12 +0000 UTC
     </div>
 </div>
 

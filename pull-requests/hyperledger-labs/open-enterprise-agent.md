@@ -458,7 +458,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
         </tr>
         <tr>
             <td>
-                <span class="chip">prism-agent</span><span class="chip">shared</span><span class="chip">connect</span>
+                <span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">shared</span><span class="chip">connect</span>
             </td>
             <td>
                 ### Description: 

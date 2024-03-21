@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                <nil>
+                https://github.com/hyperledger-labs/fabric-operator/issues/181
             </td>
         </tr>
     </table>
