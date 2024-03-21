@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4760" class=".btn">#4760</a>
+            </td>
+            <td>
+                <b>
+                    add a doc for organization removal from channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+add a tutorial for removing organization from channel
+
+#### Additional details
+
+The steps for removing organizations is tested and verified.
+Can you help review the document, especially the collection transfer procedure in the section of "Transfer Collection to Another Org (Optional)"
+
+The document is built and tested in 
+https://fabric-remove-org.readthedocs.io/en/latest/channel_remove_org.html
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/4730
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 06:26:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4759" class=".btn">#4759</a>
             </td>
             <td>
@@ -295,58 +368,6 @@ Replaced `BRANCH` variable to `main` value in fabric-samples repo reference URLs
     </table>
     <div class="right-align">
         Created At 2024-03-14 14:37:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4751" class=".btn">#4751</a>
-            </td>
-            <td>
-                <b>
-                    3.0.0 beta relnotes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 10:38:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4750" class=".btn">#4750</a>
-            </td>
-            <td>
-                <b>
-                    Update smartbft library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The smartbft library was moved to hyperledger labs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 09:22:35 +0000 UTC
     </div>
 </div>
 

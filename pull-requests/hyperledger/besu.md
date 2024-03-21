@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6778" class=".btn">#6778</a>
+            </td>
+            <td>
+                <b>
+                    Fix for `Method input parameters must be final` compilation error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Most advanced CI tests are deferred until PR approval, but you could:
+
+- [ ] locally run all unit tests via: `./gradlew build`
+- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
+- [ ] locally run all integration tests via: `./gradlew integrationTest`
+- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 11:30:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6775" class=".btn">#6775</a>
             </td>
             <td>
@@ -80,61 +127,6 @@ Also reduced some word duplication.
     </table>
     <div class="right-align">
         Created At 2024-03-21 03:17:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6772" class=".btn">#6772</a>
-            </td>
-            <td>
-                <b>
-                    bonsai in ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Change ProcessBesuNodeRunner and ThreadBesuNodeRunner to use DEFAULT_BONSAI_CONFIG
-
-the AT flakiness seems to have resolved itself... fishy
-- original PR which shows failure https://github.com/hyperledger/besu/pull/6619
-- second PR which shows when it was failing https://github.com/hyperledger/besu/pull/6729 and is now passing (I thought maybe the last change was making it pass)
-- redux PR which has the same code (with and without that last change) and doesn't fail https://github.com/hyperledger/besu/pull/6770
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-21 03:12:34 +0000 UTC
     </div>
 </div>
 
@@ -973,98 +965,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2024-03-14 14:06:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6731" class=".btn">#6731</a>
-            </td>
-            <td>
-                <b>
-                    allow empty maxFeePerBlobGas for eth_call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-* allow for maxFeePerBlobGas to be empty even if versioned hashes are present
-* if maxFeePerBlobGas is empty or zero, allow user's balance to be exceeded (same behaviour as other gas params)
-
-## Fixed Issue(s)
-fixes #6709
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [x] locally run all unit tests via: `./gradlew build`
-- [x] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [x] locally run all integration tests via: `./gradlew integrationTest`
-- [x] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-- [x] locally run hive tests `engine-cancun` suite
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 08:39:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6730" class=".btn">#6730</a>
-            </td>
-            <td>
-                <b>
-                    chore: remove repetitive words
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 06:20:47 +0000 UTC
     </div>
 </div>
 

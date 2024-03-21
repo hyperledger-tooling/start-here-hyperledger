@@ -315,29 +315,3 @@ Also, now doing skipCreateTables instead of createSchema, to default to creating
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/574" class=".btn">#574</a>
-            </td>
-            <td>
-                <b>
-                    introduce a common wallet service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 07:48:01 +0000 UTC
-    </div>
-</div>
-
