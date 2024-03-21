@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4759" class=".btn">#4759</a>
+            </td>
+            <td>
+                <b>
+                    add a suffix to the name of module v3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Wanted to bring the name of the module to the requirements [go](https://go.dev/ref/mod#major-version-suffixes)
+
+It is not possible to break pr into parts.
+
+It seems to me that such a change would help the community a lot
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-20 19:00:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4758" class=".btn">#4758</a>
             </td>
             <td>
