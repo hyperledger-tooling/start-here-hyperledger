@@ -68,31 +68,3 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/819" class=".btn">#819</a>
-            </td>
-            <td>
-                <b>
-                    Update the Aries RFC Index and remove the indexgenerate GHA since it is not helpful
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates the Aries RFC index.md file since some RFC statuses changed.
-
-Also removes the indexgenerate GHA since does not work and is not really worth fixing.  I'm tired of getting failed run emails for the task :-) .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-13 21:18:40 +0000 UTC
-    </div>
-</div>
-

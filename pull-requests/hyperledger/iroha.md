@@ -201,40 +201,6 @@ Closes #4291
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4369" class=".btn">#4369</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #4323: remove `iroha_config/tokio-console` feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">Chore</span>
-            </td>
-            <td>
-                ## Description
-
-See the linked issue
-
-### Linked issue
-
-Closes #4323 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-15 01:12:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4368" class=".btn">#4368</a>
             </td>
             <td>
