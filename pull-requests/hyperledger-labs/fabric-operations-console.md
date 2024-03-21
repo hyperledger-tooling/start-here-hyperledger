@@ -598,39 +598,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/663" class=".btn">#663</a>
-            </td>
-            <td>
-                <b>
-                    CVE fix for decompress because of Directory Traversal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- [CVE] decompress CVE vulnerability fix
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 09:33:31 +0000 UTC
-    </div>
-</div>
-
