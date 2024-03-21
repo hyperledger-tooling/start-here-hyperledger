@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/481" class=".btn">#481</a>
+            </td>
+            <td>
+                <b>
+                    Transition service groups to a persistent data store (comparable to the service endpoints store)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">client</span>
+            </td>
+            <td>
+                Service group files loaded on demand has been one of the more painful complexities for running contracts. This commit introduces a persistent database comparable to the database used to store service   endpoints. The new groups database is stored at the location specified in the ['Service', 'GroupDatabaseFile'] configuration entry.
+    
+The service groups commands were all updated to accommodate the new style. These are SIGNIFICANT changes. To ensure that correctness has not been compromised, a new test was added for storage groups.
+    
+Finally, the persistent database required updating several other tests.  This change is, for the moment, a "functionally correct" change to the tests (meaning that all tests now use the correct service groups commands) but there is significant room for cleaning up the process.
+
+Note that this will require changes to the test scripts for PDO contracts (and the notebooks that set up the service groups). The correct approach would be (for tests) to invoke the site-configuration.psh script in place of the create-service-groups script. And a future jupyter notebook will create an interface for managing the database more explicitly.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 16:17:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/480" class=".btn">#480</a>
             </td>
             <td>
@@ -84,10 +117,11 @@ Note this is tested on top if (2024-03-15) version of PR #477, so for now still 
             <td>
                 This PR continues the work in #463 to enable tests in SGX HW-mode, and makes the following contributions.
 
-1. this PR passes the `SGX_MODE` variable to the docker builds. This is necessary when we build the services. Also, since we set the relative env var in the docker file, the env var persists in the image, so later test containers run directly in HW mode.
-
-2. This PR fixes the tests in HW mode by making docker compose mount the appropriate SGX-related volumes and devices on the host.
-
+1. this PR adds targets to the docker makefile to enable sgx builds and tests.
+2. the enclave code signing key is passed from the host to the docker container (if one exists)
+3. it adds the necessary volumes and devices for sgx tests in docker compose
+4. it assigns a location for sgx collateral in a container (different from the xfer folder)
+5. at runtime, it copies the sgx collateral from the xfer folder to the location assigned within the container _before_ services are configured (because configuration requires the sgx collateral)
 
 
 
