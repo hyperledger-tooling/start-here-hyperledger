@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4377" class=".btn">#4377</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4323: re-arrange telemetry & tokio console config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+_This is an improved iteration of https://github.com/hyperledger/iroha/pull/4369_
+
+- Remove `logger.tokio_console_address` configuration parameter entirely: this could be configured in a more refined way using default ENVs (see [`console_subscriber` docs](https://docs.rs/console-subscriber/0.2.0/console_subscriber/struct.Builder.html#method.with_default_env))
+- Update `telemetry` and `dev-telemetry` features of `iroha`
+- Update `tokio-console` feature of `iroha_logger`: now console seamlessly starts whenever this feature is enabled
+- Improve warnings
+
+### Linked issue
+
+Closes #4323 
+
+### Benefits
+
+- Less config parameters
+- More flexible way to configure tokio console
+- Less feature mess (?)
+- Better warnings
+
+### Checklist
+
+- [ ] Document somewhere how to use Tokio Console?
+- [ ] Figure out what happened to `Cargo.toml`s
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-21 02:00:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4375" class=".btn">#4375</a>
             </td>
             <td>

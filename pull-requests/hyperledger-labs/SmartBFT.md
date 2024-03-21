@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/SmartBFT
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/577" class=".btn">#577</a>
-            </td>
-            <td>
-                <b>
-                    change name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 05:48:09 +0000 UTC
-    </div>
-</div>
-
