@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6786" class=".btn">#6786</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+fix some typos
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-22 06:06:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6783" class=".btn">#6783</a>
             </td>
             <td>
@@ -1018,33 +1048,6 @@ This updates to use the new function
     </table>
     <div class="right-align">
         Created At 2024-03-15 08:49:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6737" class=".btn">#6737</a>
-            </td>
-            <td>
-                <b>
-                    Fix permissioning plugin test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix PermissioningPluginTest
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-15 06:00:27 +0000 UTC
     </div>
 </div>
 
