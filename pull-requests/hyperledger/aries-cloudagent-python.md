@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2854" class=".btn">#2854</a>
+            </td>
+            <td>
+                <b>
+                    Increase promote did retries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Doh! I think I must have accidentally deleted the wait in between retries somehow and not noticed.
+
+Hopefully this should prevent the errors during promote did.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-22 17:00:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2853" class=".btn">#2853</a>
+            </td>
+            <td>
+                <b>
+                    Change did <--> verkey logging on connections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/aries-cloudagent-python/issues/2846
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-22 16:51:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2852" class=".btn">#2852</a>
+            </td>
+            <td>
+                <b>
+                    Update GHA so that broken image links work on docs site - without breaking them on GitHub
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Links to images are different when the markdown page is displayed by GitHub vs. when deployed as documentation. Fix the links on the fly as the mkdocs site is created.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-22 15:14:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2850" class=".btn">#2850</a>
             </td>
             <td>

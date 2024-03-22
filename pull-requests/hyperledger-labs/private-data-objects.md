@@ -43,32 +43,3 @@ Note that this will require changes to the test scripts for PDO contracts (and t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/480" class=".btn">#480</a>
-            </td>
-            <td>
-                <b>
-                    Make SGX registration a bit more robust
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Handle missing SGX verification status CONFIGURATION_AND_SW_HARDENING_NEEDED
-* Honor PDO_LOG_LEVEL in registration script
-
-Note this is tested on top if (2024-03-15) version of PR #477, so for now still "inherits" also Bruno's commit from that PR.  Once PR#477 is closed i will rebase this one and  "undraft" it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-15 18:00:10 +0000 UTC
-    </div>
-</div>
-

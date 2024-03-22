@@ -1,13 +1,13 @@
 
-[4381](https://github.com/hyperledger/iroha/pull/4381) [feature] #4350: Expose event set bitfields in schema
+[946](https://github.com/hyperledger-labs/open-enterprise-agent/pull/946) test: integration slack notification fix + parameter on client publication
 
-[943](https://github.com/hyperledger-labs/open-enterprise-agent/pull/943) fix: integrate oidc4vc CredentialOffer to IssuanceSession
+[2854](https://github.com/hyperledger/aries-cloudagent-python/pull/2854) Increase promote did retries
 
-[141](https://github.com/hyperledger-labs/hlf-connector/pull/141) Increment version after release
+[2853](https://github.com/hyperledger/aries-cloudagent-python/pull/2853) Change did <--> verkey logging on connections
 
-[675](https://github.com/hyperledger-labs/fabric-operations-console/pull/675) show message if tls certificate not present on joining OS
+[6789](https://github.com/hyperledger/besu/pull/6789) Improve PluginRpcEndpointException
 
-[4761](https://github.com/hyperledger/fabric/pull/4761) chore: fix function and struct names
+[2852](https://github.com/hyperledger/aries-cloudagent-python/pull/2852) Update GHA so that broken image links work on docs site - without breaking them on GitHub
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
