@@ -1,13 +1,13 @@
 
-[6786](https://github.com/hyperledger/besu/pull/6786) chore: fix typos
+[4381](https://github.com/hyperledger/iroha/pull/4381) [feature] #4350: Expose event set bitfields in schema
 
-[674](https://github.com/hyperledger-labs/fabric-operations-console/pull/674) fix for console type on settings api
+[943](https://github.com/hyperledger-labs/open-enterprise-agent/pull/943) fix: integrate oidc4vc CredentialOffer to IssuanceSession
 
-[6783](https://github.com/hyperledger/besu/pull/6783) Adding engine_getPayloadV4 and engine_newPayloadV4
+[141](https://github.com/hyperledger-labs/hlf-connector/pull/141) Increment version after release
 
-[942](https://github.com/hyperledger-labs/open-enterprise-agent/pull/942) test: fix agent client generator
+[675](https://github.com/hyperledger-labs/fabric-operations-console/pull/675) show message if tls certificate not present on joining OS
 
-[6782](https://github.com/hyperledger/besu/pull/6782) Cleanup dev releases
+[4761](https://github.com/hyperledger/fabric/pull/4761) chore: fix function and struct names
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
