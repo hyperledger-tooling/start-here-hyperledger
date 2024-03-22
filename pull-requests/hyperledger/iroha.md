@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4381" class=".btn">#4381</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #4350: Expose event set bitfields in schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+Add a new kind of schema metadata - BitmapMeta - and use it to expose `*EventSet` bitfields in schema
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4350 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+
+### Checklist
+
+- [ ] make ci pass
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-22 11:58:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4379" class=".btn">#4379</a>
             </td>
             <td>
@@ -24,7 +65,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ## Description
