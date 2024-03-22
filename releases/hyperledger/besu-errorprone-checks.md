@@ -38,31 +38,3 @@ permalink: /releases/hyperledger/besu-errorprone-checks
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.3
-                </span>
-            </td>
-            <td>
-                Testing publishing to Artifactory. 
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/besu-errorprone-checks/releases/tag/v0.1.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-03-15 00:53:49 +0000 UTC
-    </span>
-</div>
-
