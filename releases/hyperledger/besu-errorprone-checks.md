@@ -26,7 +26,7 @@ permalink: /releases/hyperledger/besu-errorprone-checks
                 </span>
             </td>
             <td>
-                Testing release workflow.
+                Pre-release publish testing.
             </td>
         </tr>
     </table>
