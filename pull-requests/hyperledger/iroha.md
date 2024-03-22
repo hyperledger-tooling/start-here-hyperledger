@@ -69,13 +69,13 @@ Closes #4075 <!-- Replace with an actual number,  -->
             </td>
             <td>
                 <b>
-                    [refactor] #4323: re-arrange telemetry & tokio console config
+                    [refactor] #4323: telemetry features, tokio console, logs, and configuration
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ## Description
@@ -83,9 +83,12 @@ Closes #4075 <!-- Replace with an actual number,  -->
 _This is an improved iteration of https://github.com/hyperledger/iroha/pull/4369_
 
 - Remove `logger.tokio_console_address` configuration parameter entirely: this could be configured in a more refined way using default ENVs (see [`console_subscriber` docs](https://docs.rs/console-subscriber/0.2.0/console_subscriber/struct.Builder.html#method.with_default_env))
+- Rename `[telemetry.dev]` config section to `[dev_telemetry]`
 - Update `telemetry` and `dev-telemetry` features of `iroha`
 - Update `tokio-console` feature of `iroha_logger`: now console seamlessly starts whenever this feature is enabled
-- Improve warnings
+- Improve logs & warnings
+- Fix dev-telemetry file logs: separate each item with `\n`, and recursively create parent directories
+- Improve config validation: handle file paths
 
 ### Linked issue
 
@@ -97,12 +100,14 @@ Closes #4323
 - More flexible way to configure tokio console
 - Less feature mess (?)
 - Better warnings
+- Refactoring
 
 ### Checklist
 
-- [ ] Document how to use tokio console
-- [ ] Figure out what happened to `Cargo.toml`s
-- [ ] Check manually several cases, how Iroha behaves with `telemetry`/`dev-telemetry` features enabled depending on `telemetry` configuration (warnings, logs, file output, actual tokio console usage)
+- [x] Document how to use tokio console
+- [x] Figure out what happened to `Cargo.toml`s
+- [x] Check manually several cases, how Iroha behaves with `telemetry`/`dev-telemetry` features enabled depending on `telemetry` configuration (warnings, logs, file output)
+- [ ] Check manually Tokio Console
 
 
             </td>
@@ -260,43 +265,6 @@ Since persistency isn't required in tests it's better to disable snapshot in tes
     </table>
     <div class="right-align">
         Created At 2024-03-18 07:33:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4370" class=".btn">#4370</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4291: update genesis config & schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">question</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-- remove inline executor mode
-- rename field to `executor_file`
-- remove genesis from schema (revert #1391).
-  - **Why?**
-  - Because it doesn't belong here. It's not a part of the data model, but rather of the configuration system. The original reasoning about "ease for SDK developers" doesn't work (genesis is JSON, but schema is about SCALE; types are straightforward).
-
-### Linked issue
-
-Closes #4291 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-15 03:20:25 +0000 UTC
     </div>
 </div>
 
