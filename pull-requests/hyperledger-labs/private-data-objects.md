@@ -98,38 +98,3 @@ Note this is tested on top if (2024-03-15) version of PR #477, so for now still 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/477" class=".btn">#477</a>
-            </td>
-            <td>
-                <b>
-                    Fixes for making PDO work in SGX HW-mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR continues the work in #463 to enable tests in SGX HW-mode, and makes the following contributions.
-
-1. this PR adds targets to the docker makefile to enable sgx builds and tests.
-2. the enclave code signing key is passed from the host to the docker container (if one exists)
-3. it adds the necessary volumes and devices for sgx tests in docker compose
-4. it assigns a location for sgx collateral in a container (different from the xfer folder)
-5. at runtime, it copies the sgx collateral from the xfer folder to the location assigned within the container _before_ services are configured (because configuration requires the sgx collateral)
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 19:58:59 +0000 UTC
-    </div>
-</div>
-

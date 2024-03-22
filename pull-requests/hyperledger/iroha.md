@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [refactor]: Move metrics related functionality into MetricsReporter
+                    [refactor] #4075: Move metrics related functionality into MetricsReporter
                 </b>
             </td>
         </tr>
@@ -100,8 +100,10 @@ Closes #4323
 
 ### Checklist
 
-- [ ] Document somewhere how to use Tokio Console?
+- [ ] Document how to use tokio console
 - [ ] Figure out what happened to `Cargo.toml`s
+- [ ] Check manually several cases, how Iroha behaves with `telemetry`/`dev-telemetry` features enabled depending on `telemetry` configuration (warnings, logs, file output, actual tokio console usage)
+
 
             </td>
         </tr>
@@ -295,62 +297,6 @@ Closes #4291
     </table>
     <div class="right-align">
         Created At 2024-03-15 03:20:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4368" class=".btn">#4368</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #4285: Verifiable Random Function in Sumeragi
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-Adds a crypto primitive and randomization of the topology on block commits.
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4285
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 22:35:18 +0000 UTC
     </div>
 </div>
 
