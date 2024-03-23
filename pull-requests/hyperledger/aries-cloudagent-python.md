@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2856" class=".btn">#2856</a>
+            </td>
+            <td>
+                <b>
+                    chore: propose official deprecations of a couple of features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With this PR I'd like to propose that we move the following features to deprecated status:
+
+- Aries RFC 160 Connection Protocol
+- `did:sov:...` as Protocol Doc URI
+
+By moving these to deprecated status, we inform the community that these are features that should no longer be used and steer them to DID Exchange and using didcomm.org as the doc uri in their projects.
+
+These items should more or less already be considered deprecated but there are some final efforts that need to be made to tie up loose ends. With the introduction of qualified DIDs in the pending 0.12.0 release and automatically always emitting https://didcomm.org (by setting the flag for it to be permanently set to `true`), we move close enough to these loose ends being tied off to, in my opinion, move these features to official deprecated status.
+
+In practice, this PR affects the code in the following ways:
+
+- Prints a deprecation notice on startup (to stderr) that these features are now deprecated.
+- When a message with type starting with `did:sov:` is received, log a deprecation warning
+- When a connection protocol operation is taken, log a warning message (this one might be a bit aggressive; I'd be happy to tone this back if it's too much)
+- Mark the Admin API endpoints as deprecated in the OpenAPI/Swagger spec and UI. The endpoints are still usable but are greyed out.
+  - To clarify, only the Admin API endpoints triggering connection protocol specific operations are marked as deprecated. Other connection management endpoints are NOT marked as deprecated (e.g. listing connections, deleting a connection, etc.).
+
+Let me know your thoughts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-22 21:54:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2854" class=".btn">#2854</a>
             </td>
             <td>
@@ -563,49 +606,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-03-18 19:50:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2840" class=".btn">#2840</a>
-            </td>
-            <td>
-                <b>
-                    Add anoncreds upgrade via api endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This currently includes feature https://github.com/hyperledger/aries-cloudagent-python/pull/2822 as it was built off of it.
-
-Have added an option to demo to upgrade in multi-tenant mode (non-multi-tenant mode currently requires restart --> see below). Also added an integration test for multi-tenant mode that does object creation and revocation stuff, upgrades, and then does it again with anoncreds.
-
-Have added a decent amount of unit tests. Some harder to test stuff hasn't been covered yet.
-
-Implementation:
-
-- Created an endpoint `/anoncreds/wallet/upgrade` in the wallet routes to trigger the upgrade. For safety it requires adding the wallet name as a parameter.
-- Added a upgrade singleton (set) to manage which wallets are being upgraded in the case of multiple subwallets at the same time.
-- Added a middleware that checks the singleton and blocks traffic for the particular wallet if upgrade is in progress.
-- Uses a DB record to persist an upgrade and restart upgrades in the case of an agent restart.
-- The upgrade is all or nothing with a single transaction. There is a retry mechanism.
-- For subwallets, you can currently upgrade to anoncreds even if the base wallet is askar. Might want to force them to upgrade the base wallet first. A multi-tenant base wallet only changes the storage type and profile which doesn't make much difference. The subwallet will change profile types on the fly. Doesn't require agent restart.
-- For standalone agent and mutitenant admin wallets the agent will shutdown after the upgrade, and then require the wallet-type config to be changed to askar-anoncreds. Maybe there's a more streamline way to do this but I think it could be another ticket if we want to do this.
-- For the upgrade of schema's and cred def's I wasn't able to find all the required anoncred data in the existing storage and resorted to getting it from the ledger. An example is the `attrNames` in schema. Not sure if this exists somewhere in storage I don't know about.
-
-I don't think the upgrade should take very long for any agents or subwallets as the DB changes are just removing and replacing records.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-15 19:27:39 +0000 UTC
     </div>
 </div>
 
