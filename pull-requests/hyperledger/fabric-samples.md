@@ -68,29 +68,3 @@ The current PR seems has many code smells... but it seems works.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1184" class=".btn">#1184</a>
-            </td>
-            <td>
-                <b>
-                    Update go.mod
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-16 21:02:51 +0000 UTC
-    </div>
-</div>
-
