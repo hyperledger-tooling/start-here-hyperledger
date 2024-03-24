@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang-playground
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang-playground/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger-labs/solang-playground/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Bump follow-redirects from 1.15.5 to 1.15.6
+                    Bump webpack-dev-middleware from 5.3.3 to 5.3.4
                 </b>
             </td>
         </tr>
@@ -27,20 +27,42 @@ permalink: /pull-requests/hyperledger-labs/solang-playground
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.5 to 1.15.6.
+                Bumps [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) from 5.3.3 to 5.3.4.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-dev-middleware/releases">webpack-dev-middleware's releases</a>.</em></p>
+<blockquote>
+<h2>v5.3.4</h2>
+<h3><a href="https://github.com/webpack/webpack-dev-middleware/compare/v5.3.3...v5.3.4">5.3.4</a> (2024-03-20)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>security:</strong> do not allow to read files above (<a href="https://redirect.github.com/webpack/webpack-dev-middleware/issues/1779">#1779</a>) (<a href="https://github.com/webpack/webpack-dev-middleware/commit/189c4ac7d2344ec132a4689e74dc837ec5be0132">189c4ac</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-dev-middleware/blob/v5.3.4/CHANGELOG.md">webpack-dev-middleware's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/webpack/webpack-dev-middleware/compare/v5.3.3...v5.3.4">5.3.4</a> (2024-03-20)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>security:</strong> do not allow to read files above (<a href="https://redirect.github.com/webpack/webpack-dev-middleware/issues/1779">#1779</a>) (<a href="https://github.com/webpack/webpack-dev-middleware/commit/189c4ac7d2344ec132a4689e74dc837ec5be0132">189c4ac</a>)</li>
+</ul>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/35a517c5861d79dc8bff7db8626013d20b711b06"><code>35a517c</code></a> Release version 1.15.6 of the npm package.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/c4f847f85176991f95ab9c88af63b1294de8649b"><code>c4f847f</code></a> Drop Proxy-Authorization across hosts.</li>
-<li><a href="https://github.com/follow-redirects/follow-redirects/commit/8526b4a1b2ab3a2e4044299377df623a661caa76"><code>8526b4a</code></a> Use GitHub for disclosure.</li>
-<li>See full diff in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.15.5...v1.15.6">compare view</a></li>
+<li><a href="https://github.com/webpack/webpack-dev-middleware/commit/86071ead69e946ada25497d3e281923e885229a4"><code>86071ea</code></a> chore(release): 5.3.4</li>
+<li><a href="https://github.com/webpack/webpack-dev-middleware/commit/189c4ac7d2344ec132a4689e74dc837ec5be0132"><code>189c4ac</code></a> fix(security): do not allow to read files above (<a href="https://redirect.github.com/webpack/webpack-dev-middleware/issues/1779">#1779</a>)</li>
+<li>See full diff in <a href="https://github.com/webpack/webpack-dev-middleware/compare/v5.3.3...v5.3.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.15.5&new-version=1.15.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack-dev-middleware&package-manager=npm_and_yarn&previous-version=5.3.3&new-version=5.3.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -72,7 +94,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-16 23:56:25 +0000 UTC
+        Created At 2024-03-24 00:23:39 +0000 UTC
     </div>
 </div>
 
