@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/51" class=".btn">#51</a>
             </td>
             <td>
                 <b>
-                    Fix changelog
+                    feat(wire): add ecdsa authentication to wire
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                Improved readability for descriptions.
+                # Wire Identity Authentication
+
+## Description
+This PR aims to add the ECDSA cryptographic authentication feature to the `wire`'s implementation of perun-eth-backend. The cryptographic key pair is ECDSA, with a signature length of 65, taking inspiration from the wallet implementation of perun-eth-backend. This implementation must be in sync with the wire interface of go-perun 1.11.
+
+### Location: `wire` package
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-05 14:57:50 +0000 UTC
+        Created At 2024-03-25 09:07:04 +0000 UTC
     </div>
 </div>
 

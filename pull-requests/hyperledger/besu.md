@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6802" class=".btn">#6802</a>
+            </td>
+            <td>
+                <b>
+                    Fix some snap sync issues 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+The purpose of this PR is to fix some bugs detected in the snap sync. This should allow for greater stability with the snap sync and the healing of the flat DB.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-25 08:59:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6801" class=".btn">#6801</a>
             </td>
             <td>
@@ -980,38 +1029,6 @@ relates to #6718
     </table>
     <div class="right-align">
         Created At 2024-03-18 22:25:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6750" class=".btn">#6750</a>
-            </td>
-            <td>
-                <b>
-                    Log an info message on startup to indicate if IPv6 peer connectivity is possible
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Besu doesn't log out if an IPv6 interface is available. Given that some peers advertise IPv6 addresses it would be easier to debug IPv6-related peering errors if the logs were clear about whether the node would try to connect to IPv6 peers.
-
-## Fixed Issue(s)
-Relates to issue https://github.com/hyperledger/besu/issues/6475
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-18 10:13:07 +0000 UTC
     </div>
 </div>
 

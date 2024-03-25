@@ -31,12 +31,12 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
 This PR adds documentation for JWT revocation
 
 ### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
 - [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
+- [x] I have made corresponding changes to the documentation
 - [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
 
             </td>
         </tr>
@@ -320,8 +320,6 @@ https://input-output.atlassian.net/browse/ATL-6027
             <td>
                 ### Description: 
 Open for feedback. Experiment with local examples with generated docker configurations.
-
-Just ignore the `st-oidc4vc` example for now, to be cleanup later.
 
 https://nickel-lang.org/ is used to generate all `compose.yaml` in each example.
 
