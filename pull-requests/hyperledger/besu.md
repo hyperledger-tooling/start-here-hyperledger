@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6801" class=".btn">#6801</a>
+            </td>
+            <td>
+                <b>
+                    EIP-7002: Add exits/exits_root to block/block_header
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+- Add exits/exits_root to block/block_header
+- Update `engine_newPayloadV4` and `engine_getPayloadV4` for exits
+- Added some validation and handling logic (similar to what is done to deposits)
+
+Keeping as draft because I need to review some of the testing.
+
+## Fixed Issue(s)
+related to #6800
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-25 05:34:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6798" class=".btn">#6798</a>
             </td>
             <td>
