@@ -15,6 +15,37 @@ permalink: /releases/hyperledger/besu-errorprone-checks
         <tr>
             <td colspan="2">
                 <b>
+                    1.0.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.0.0
+                </span>
+            </td>
+            <td>
+                ## [1.0.0] - 2024-03-25
+### Added
+- Extracting Besu custom error-prone checks to its own repository
+- Added Github Actions for CI/CD
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/besu-errorprone-checks/releases/tag/v1.0.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-03-25 00:24:48 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.5
                 </b>
             </td>
