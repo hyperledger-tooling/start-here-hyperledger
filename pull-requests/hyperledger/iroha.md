@@ -148,7 +148,7 @@ Closes #4323
 - [x] Document how to use tokio console
 - [x] Figure out what happened to `Cargo.toml`s
 - [x] Check manually several cases, how Iroha behaves with `telemetry`/`dev-telemetry` features enabled depending on `telemetry` configuration (warnings, logs, file output)
-- [ ] Check manually Tokio Console
+- [x] Check manually Tokio Console (works, but requires `TRACE` log level)
 
 
             </td>
