@@ -1,13 +1,13 @@
 
-[6801](https://github.com/hyperledger/besu/pull/6801) EIP-7002: Add exits/exits_root to block/block_header
+[1519](https://github.com/hyperledger/caliper/pull/1519) Update the versions of fabric sdks
 
-[4382](https://github.com/hyperledger/iroha/pull/4382) [feature] #4225: Remove genesis signing
+[4764](https://github.com/hyperledger/fabric/pull/4764) Fix struct names in comment
 
-[6798](https://github.com/hyperledger/besu/pull/6798) Fix EngineNewPayloadV4Test unit test
+[51](https://github.com/hyperledger-labs/perun-eth-backend/pull/51) feat(wire): add ecdsa authentication to wire
 
-[9](https://github.com/hyperledger-labs/solang-playground/pull/9) Bump webpack-dev-middleware from 5.3.3 to 5.3.4
+[6802](https://github.com/hyperledger/besu/pull/6802) Fix some snap sync issues 
 
-[947](https://github.com/hyperledger-labs/open-enterprise-agent/pull/947) docs: add revocation docs
+[583](https://github.com/hyperledger-labs/fabric-token-sdk/pull/583) shared wallets
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4384" class=".btn">#4384</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: remove signatures from blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+* remove signatures from blocks stored on chain
+Signatures are transient and only applicable during consensus. Since blocks in a blockchain are tied together via block hashes, keeping block signatures after consensus is not only superfluous but also creates issues when replaying blocks when topology has changed (related to #4145)
+* removed `consensus_estimation` from block header - it was unused
+* removed `event_recommendations` from block - it was unused
+
+## Future work
+* Following this PR, block sync protocol should be modified to prevent syncing with malicious peers. This can be done with not too much overhead
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-25 07:40:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4382" class=".btn">#4382</a>
             </td>
             <td>
@@ -263,112 +314,6 @@ No unnecessary generic in the API -> better code completion and easier API.
     </table>
     <div class="right-align">
         Created At 2024-03-19 10:18:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4374" class=".btn">#4374</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #0000: Disable snapshot read/write in tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-When running tests in parallel, they race for the same snapshot file.
-Since persistency isn't required in tests it's better to disable snapshot in tests.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-18 09:51:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4371" class=".btn">#4371</a>
-            </td>
-            <td>
-                <b>
-                    [poc] DO NOT MERGE: shared account ID is off curve
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-- Proof of concept for the new account, with non-essential parts omitted
-  - There is room for optimization in actual implementation
-- This is in the form of a draft PR just for review and not expected to be merged
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-- The concept demonstrated here is https://github.com/hyperledger/iroha/issues/2085#issuecomment-1985152267
-- Intended to be one of the foundations for #2083 in general and #4373 in particular
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-18 07:33:26 +0000 UTC
     </div>
 </div>
 
