@@ -29,7 +29,9 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 With this PR I'd like to propose that we move the following features to deprecated status:
 
-- Aries RFC 160 Connection Protocol
+- Aries RFC 160: Connection Protocol
+- Aries RFC 0036: Issue Credential 1.0
+- Aries RFC 0037: Present Proof 1.0
 - `did:sov:...` as Protocol Doc URI
 
 By moving these to deprecated status, we inform the community that these are features that should no longer be used and steer them to DID Exchange and using didcomm.org as the doc uri in their projects.
