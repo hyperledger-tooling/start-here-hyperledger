@@ -14,6 +14,121 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6808" class=".btn">#6808</a>
+            </td>
+            <td>
+                <b>
+                    Set noisy TransactionLogBloomCacher debug log to trace
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Example log:
+> Caching logs bloom for block 0x127804
+
+During sync with DEBUG enabled, this is extremely noisy...printed nearly 600K times during a holesky sync in < 1 hour...
+<img width="1259" alt="Screenshot 2024-03-26 at 4 09 35 PM" src="https://github.com/hyperledger/besu/assets/2893793/b17e0ff0-9ed3-494b-9fdd-b1d43e10b675">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 06:10:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6807" class=".btn">#6807</a>
+            </td>
+            <td>
+                <b>
+                    Update develop release action to try to fix draft instead of pre-release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hoping that removing this will default draft to false
+
+https://github.com/softprops/action-gh-release/issues/379
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 04:44:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6806" class=".btn">#6806</a>
+            </td>
+            <td>
+                <b>
+                    Bws internal error fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fixes BWS issue where we are unable to import blocks for some hashes. We are currently getting this log at the end of the BWS.
+
+```
+{"@timestamp":"2024-01-31T10:58:00,982","level":"WARN","thread":"ForkJoinPool.commonPool-worker-374","class":"MergeCoordinator","message":"Internal error, backward sync completed but failed to import finalized block 0xd12ec91829da5af65ba80696d035bac054b8aac7cfcf60c983c12a5bcb1b926e","throwable":""}
+```
+
+ This is due to adding hashes before have finished the initial sync and are ready to do a BWS.
+
+
+Also moved the log message "Appending new head block hash {} to backward sync" into BackwardSyncContext so it is only logged if we are going to add the new block hash to the backward as may not kick off the BWS due to having not finished the initial sync.
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #6527
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 01:50:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6803" class=".btn">#6803</a>
             </td>
             <td>
