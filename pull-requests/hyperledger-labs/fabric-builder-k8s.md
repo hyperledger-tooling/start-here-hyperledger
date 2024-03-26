@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/103" class=".btn">#103</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    Update development environment
+                    Copy statedb/couchdb recursively discarding non .json files to create index for public and private data assets.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,40 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                - Update dependencies
-- Add dev container
-- Initial mkdocs configuration
+                Related to issue: #106 
+
+Problem when private data indexing is needed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-23 10:08:07 +0000 UTC
+        Created At 2024-03-25 21:47:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Copy private data indexes to release dir
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-25 20:24:11 +0000 UTC
     </div>
 </div>
 
