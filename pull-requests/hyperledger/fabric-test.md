@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/507" class=".btn">#507</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/508" class=".btn">#508</a>
             </td>
             <td>
                 <b>
-                    Add branches to daily action
+                    retire as a maintainer
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Add branches to daily action.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-11 16:50:17 +0000 UTC
+        Created At 2024-03-26 17:12:42 +0000 UTC
     </div>
 </div>
 

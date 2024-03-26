@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4768" class=".btn">#4768</a>
+            </td>
+            <td>
+                <b>
+                    Move to docker v24.0.9 as per CVE-2024-24557.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Moving dependency for `github.com/docker/docker` to v24.0.9 from v24.0.7 for CVE-2024-24557.
+
+#### Additional details
+
+n/a
+
+#### Related issues
+
+This was already created and merged by dependabot: https://github.com/hyperledger/fabric/pull/4758 for `main`. Not sure why it didn't include `release-2.5`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 16:05:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4767" class=".btn">#4767</a>
+            </td>
+            <td>
+                <b>
+                    BFT chain unit tests reconfigure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+This PR aims to test reconfiguration cases: 
+1. Add a new node to the network 
+2. Configure the network while a node is down, in such case the node has to sync with other nodes in the network about the config change.
+
+#### Related issues
+
+issue #4008 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 13:54:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4764" class=".btn">#4764</a>
             </td>
             <td>

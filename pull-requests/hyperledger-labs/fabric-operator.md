@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/183" class=".btn">#183</a>
+            </td>
+            <td>
+                <b>
+                    Move github.com/docker/docker to v24.0.9.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As per CVE-2024-24557.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 16:09:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/182" class=".btn">#182</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </table>
     <div class="right-align">
         Created At 2024-03-25 19:24:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/180" class=".btn">#180</a>
-            </td>
-            <td>
-                <b>
-                    Removed DIND References from api
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/181
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-19 12:49:32 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/52" class=".btn">#52</a>
+            </td>
+            <td>
+                <b>
+                    Egoistic Funding Test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR includes a test case that:
+- tests correctness of SetEgoisticPart
+- tests correctness of SetEgoisticChains
+- tests funding when one participant is set to be egoistic (funds last)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 13:10:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/51" class=".btn">#51</a>
             </td>
             <td>
