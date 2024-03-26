@@ -1,13 +1,13 @@
 
-[6811](https://github.com/hyperledger/besu/pull/6811) Update Web3j dependencies
+[52](https://github.com/hyperledger-labs/governance/pull/52) Teams
 
-[109](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/109) Private data indexes with tests
+[6819](https://github.com/hyperledger/besu/pull/6819) Expose `v` field in JSON-RPC in some transaction types
 
-[1523](https://github.com/hyperledger/caliper/pull/1523) downgrade npm on publish as temp fix
+[508](https://github.com/hyperledger/fabric-test/pull/508) retire as a maintainer
 
-[6810](https://github.com/hyperledger/besu/pull/6810) Remove deprecated Forest pruning
+[6818](https://github.com/hyperledger/besu/pull/6818) Block on skipped matrix
 
-[6809](https://github.com/hyperledger/besu/pull/6809) Prevent startup with privacy and bonsai enabled
+[183](https://github.com/hyperledger-labs/fabric-operator/pull/183) Move github.com/docker/docker to v24.0.9.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
