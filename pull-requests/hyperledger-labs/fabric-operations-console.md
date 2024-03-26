@@ -366,39 +366,3 @@ When we click on "Find out more" for E-Certificate Renewal, the URL to the docum
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/669" class=".btn">#669</a>
-            </td>
-            <td>
-                <b>
-                    fetch channels list with skip cache just after channel deletion
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-Fix issue channel visible after deletion on channel list
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-19 11:27:36 +0000 UTC
-    </div>
-</div>
-

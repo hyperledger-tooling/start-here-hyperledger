@@ -290,29 +290,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/578" class=".btn">#578</a>
-            </td>
-            <td>
-                <b>
-                    add atomic write for ttx and audit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-19 07:41:13 +0000 UTC
-    </div>
-</div>
-
