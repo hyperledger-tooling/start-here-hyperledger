@@ -446,29 +446,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4756" class=".btn">#4756</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix minor typos for docs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-19 05:53:01 +0000 UTC
-    </div>
-</div>
-
