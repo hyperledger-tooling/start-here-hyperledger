@@ -1,13 +1,13 @@
 
-[6808](https://github.com/hyperledger/besu/pull/6808) Set noisy TransactionLogBloomCacher debug log to trace
+[6811](https://github.com/hyperledger/besu/pull/6811) Update Web3j dependencies
 
-[6807](https://github.com/hyperledger/besu/pull/6807) Update develop release action to try to fix draft instead of pre-release
+[109](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/109) Private data indexes with tests
 
-[6806](https://github.com/hyperledger/besu/pull/6806) Bws internal error fix
+[1523](https://github.com/hyperledger/caliper/pull/1523) downgrade npm on publish as temp fix
 
-[108](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/108) Copy statedb/couchdb recursively discarding non .json files to create index for public and private data assets.
+[6810](https://github.com/hyperledger/besu/pull/6810) Remove deprecated Forest pruning
 
-[107](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/107) [WIP] Copy private data indexes to release dir
+[6809](https://github.com/hyperledger/besu/pull/6809) Prevent startup with privacy and bonsai enabled
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
