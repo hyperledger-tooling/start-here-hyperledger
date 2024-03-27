@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
                 <nil>
@@ -33,32 +33,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-03-27 05:20:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/585" class=".btn">#585</a>
-            </td>
-            <td>
-                <b>
-                    Update FSC dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-26 12:50:40 +0000 UTC
     </div>
 </div>
 
@@ -106,7 +80,7 @@ It is enough that each node receives the token request.
                 <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR adds to core/common owner wallets for long-term and anonymous owner wallets. Any driver can reuse/extend these wallets as it fits.
             </td>
         </tr>
     </table>
@@ -313,32 +287,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-03-20 16:04:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/579" class=".btn">#579</a>
-            </td>
-            <td>
-                <b>
-                    Query improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-20 10:24:12 +0000 UTC
     </div>
 </div>
 

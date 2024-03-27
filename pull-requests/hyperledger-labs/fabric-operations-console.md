@@ -338,33 +338,3 @@ the console currently uses the field `migrated_from="ibm_saas"` to decide if it 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/671" class=".btn">#671</a>
-            </td>
-            <td>
-                <b>
-                    removed duplicate step definition and alignment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Test update
-
-#### Description
-Removed duplicate step definition and alignment in test case file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-20 07:16:46 +0000 UTC
-    </div>
-</div>
-
