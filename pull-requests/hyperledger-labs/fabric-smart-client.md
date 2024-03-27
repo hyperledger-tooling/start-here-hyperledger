@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/539" class=".btn">#539</a>
+            </td>
+            <td>
+                <b>
+                    improved commit pipelines (fabric and orion)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - introduce ErrDiscardTX
+- introduce validation message
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-27 08:48:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/538" class=".btn">#538</a>
             </td>
             <td>
@@ -24,7 +51,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvement</span>
             </td>
             <td>
                 <nil>
