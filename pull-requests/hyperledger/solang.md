@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1628" class=".btn">#1628</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1631" class=".btn">#1631</a>
             </td>
             <td>
                 <b>
-                    remove repetitive words
+                    Polkadot: Upgrade substrate contracts node to v0.39.0
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-09 03:37:38 +0000 UTC
+        Created At 2024-03-27 16:20:13 +0000 UTC
     </div>
 </div>
 

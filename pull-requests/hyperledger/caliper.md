@@ -44,68 +44,6 @@ This should be considered a temporary solution to getting publish working again 
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1522" class=".btn">#1522</a>
-            </td>
-            <td>
-                <b>
-                    broken-link-fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- Provide a general summary of the pull request in the Title above -->
-
-## Checklist
- - [x]  A link to the issue/user story that the pull request relates to
- - [x]  How to recreate the problem without the fix
- - [x]  Design of the fix
- - [x]  How to prove that the fix works
- - [x]  Automated tests that prove the fix keeps on working
- - [x]  Documentation - any JSDoc, website, or Stackoverflow answers?
-
-
-## Issue/User story
-<!--- What issue / user story is this for -->
-issue #1518
-Broken PSWG whitepaper link in the README.md file for the 
-
-## Steps to Reproduce
-<!--- Provide a link to a live example, or an unambiguous set of steps to -->
-<!--- reproduce this bug include code to reproduce, if relevant -->
-1. Open the README.md file
-2. Click on the PSWG whitepaper link
-
-
-
-<!-- please include any links to issues here -->
-
-## Design of the fix
-<!-- Focus on why you designed this fix this way, and what was discounted. Do not describe just the code - we can read that! -->
-## Broken link
-![image](https://github.com/hyperledger/caliper/assets/132002655/6ca467a9-5a2e-41ce-9327-797fec4b332a)
-
-## Fixed link
-![image](https://github.com/hyperledger/caliper/assets/132002655/aac39f6e-b7d0-4e00-8461-8f9f13bb6ee2)
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-25 14:43:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1520" class=".btn">#1520</a>
             </td>
             <td>
