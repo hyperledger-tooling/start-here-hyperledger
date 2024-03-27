@@ -15,30 +15,29 @@ permalink: /releases/hyperledger-labs/fabric-builder-k8s
         <tr>
             <td colspan="2">
                 <b>
-                    v0.11.0
+                    v0.12.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.11.0
+                    v0.12.0
                 </span>
             </td>
             <td>
-                🎉 Update to the new Fabric 2.5 LTS release 🎉 
+                🐞 Fix issue with private data collection indexes
 
 New contributor:
-🥇 thanks to @satota2 for the [Update amd64 Dockerfile from alpine-based to ubuntu-based](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/92) pull request!
-
+🥇 Thanks to @davidfdr for reporting _and fixing_ problems with private data collection indexes!
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.11.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.12.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-09 14:51:03 +0000 UTC
+        Created At 2024-03-27 10:48:18 +0000 UTC
     </span>
 </div>
 

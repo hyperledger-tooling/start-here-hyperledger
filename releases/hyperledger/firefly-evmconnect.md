@@ -15,35 +15,35 @@ permalink: /releases/hyperledger/firefly-evmconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v1.3.4
+                    v1.3.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.3.4
+                    v1.3.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fix docker image by @alex-semenyuk in https://github.com/hyperledger/firefly-evmconnect/pull/110
-* fixing copy right headers by @Chengxuan in https://github.com/hyperledger/firefly-evmconnect/pull/111
-* Update firefly dependencies by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/116
-* Fix docker build and add to PR checks by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/117
+* Bump google.golang.org/protobuf from 1.32.0 to 1.33.0 by @dependabot in https://github.com/hyperledger/firefly-evmconnect/pull/119
+* Fix the default regex that is used to check for JSON/RPC provider limits by @matthew1001 in https://github.com/hyperledger/firefly-evmconnect/pull/115
+* Improve handling of custom errors in receipts - capture returnValue by @peterbroadhurst in https://github.com/hyperledger/firefly-evmconnect/pull/112
+* picking up index fix from fftm by @Chengxuan in https://github.com/hyperledger/firefly-evmconnect/pull/120
 
 ## New Contributors
-* @alex-semenyuk made their first contribution in https://github.com/hyperledger/firefly-evmconnect/pull/110
+* @dependabot made their first contribution in https://github.com/hyperledger/firefly-evmconnect/pull/119
 
-**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.3.3...v1.3.4
+**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.3.4...v1.3.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-01 19:49:16 +0000 UTC
+        Created At 2024-03-27 13:32:52 +0000 UTC
     </span>
 </div>
 
