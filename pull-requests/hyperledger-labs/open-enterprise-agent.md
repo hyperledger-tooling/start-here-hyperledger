@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/950" class=".btn">#950</a>
+            </td>
+            <td>
+                <b>
+                    test: add schema verification for 2020-12 spec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+Adds scenario to test schema for 2020-12 spec
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-26 19:30:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/948" class=".btn">#948</a>
             </td>
             <td>
@@ -389,48 +425,6 @@ Example we might consider in the future
     </table>
     <div class="right-align">
         Created At 2024-03-20 14:27:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/937" class=".btn">#937</a>
-            </td>
-            <td>
-                <b>
-                    fix(pollux): Undo edit migration for revocation status lists
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span>
-            </td>
-            <td>
-                ### Description: 
-
-This PR undoes the edit of the migration that was introduced in https://github.com/hyperledger-labs/open-enterprise-agent/pull/934,  and instead creates a new migration that archives the same state in the DB. Essentially after introducing this change the state of the database will be the same as previously, but with this change, we are not editing migration that was already applied in the SIT environment, which will make the deployment easier.
-
-P.S The tables that the second migration is editing (which were created by the first migration) will be empty 100%, so there is no need to worry about retaining data in this case.
-
-### Alternatives Considered (optional): 
-Alternatively, we can either clean the database on prod and re-run the migrations, or edit the table manually because migration V16 won't run again on prod, since it has already been applied.
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-19 23:18:44 +0000 UTC
     </div>
 </div>
 

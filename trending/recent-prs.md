@@ -1,13 +1,13 @@
 
-[52](https://github.com/hyperledger-labs/governance/pull/52) Teams
+[950](https://github.com/hyperledger-labs/open-enterprise-agent/pull/950) test: add schema verification for 2020-12 spec
 
-[6819](https://github.com/hyperledger/besu/pull/6819) Expose `v` field in JSON-RPC in some transaction types
+[53](https://github.com/hyperledger-labs/governance/pull/53) cleanup
 
-[508](https://github.com/hyperledger/fabric-test/pull/508) retire as a maintainer
+[6820](https://github.com/hyperledger/besu/pull/6820) Support running acceptance tests on Windows
 
-[6818](https://github.com/hyperledger/besu/pull/6818) Block on skipped matrix
+[677](https://github.com/hyperledger-labs/fabric-operations-console/pull/677) Upgrade Node Package Dependencies.
 
-[183](https://github.com/hyperledger-labs/fabric-operator/pull/183) Move github.com/docker/docker to v24.0.9.
+[2858](https://github.com/hyperledger/aries-cloudagent-python/pull/2858) fix: states for discovery record to emit webhook
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
