@@ -1,13 +1,13 @@
 
-[950](https://github.com/hyperledger-labs/open-enterprise-agent/pull/950) test: add schema verification for 2020-12 spec
+[538](https://github.com/hyperledger-labs/fabric-smart-client/pull/538) tidy up
 
-[53](https://github.com/hyperledger-labs/governance/pull/53) cleanup
+[586](https://github.com/hyperledger-labs/fabric-token-sdk/pull/586) updated FSC dep
 
-[6820](https://github.com/hyperledger/besu/pull/6820) Support running acceptance tests on Windows
+[6824](https://github.com/hyperledger/besu/pull/6824) Add holesky DNS server
 
-[677](https://github.com/hyperledger-labs/fabric-operations-console/pull/677) Upgrade Node Package Dependencies.
+[951](https://github.com/hyperledger-labs/open-enterprise-agent/pull/951) test: add jwt revocation test scenario
 
-[2858](https://github.com/hyperledger/aries-cloudagent-python/pull/2858) fix: states for discovery record to emit webhook
+[6823](https://github.com/hyperledger/besu/pull/6823) throttled regular log of peers list at debug and trace
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
