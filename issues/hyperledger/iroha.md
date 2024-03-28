@@ -14,30 +14,29 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2056" class=".btn">2056</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4301" class=".btn">4301</a>
             </td>
             <td>
                 <b>
-                    Create a iroha procedural macro for impl FromStr for AssetValueType and other C like enums
+                    `panic_on_invalid_genesis.sh` is outdated
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">Tests</span>
             </td>
             <td>
-                The following macro invokation
-```
-easy_from_str_impl! {AssetValueType, Quantity, BigQuantity, Fixed, Store}
-```
+                Update this script to use the new config system (#4239):
 
-does not automatically generate code for all variants. This should be replaced with a custom derive macro for FromStr.
+https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748cd/scripts/tests/panic_on_invalid_genesis.sh#L4
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-04 16:20:44 +0000 UTC
+        Created At 2024-02-18 23:34:09 +0000 UTC
     </div>
 </div>
 
@@ -45,25 +44,65 @@ does not automatically generate code for all variants. This should be replaced w
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2053" class=".btn">2053</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4295" class=".btn">4295</a>
             </td>
             <td>
                 <b>
-                    Unit test the `private_blockchain` permissions validators
+                    Implement human-readable bytes in the config
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Tests</span>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">UI</span>
             </td>
             <td>
-                At present we don't have any unit tests for the `private_blockchain` use case. It would be important to include them in the test coverage of the integration tests. 
+                ## Description
+
+Actually implement parsing from a human-readable string for `HumanBytes`:
+
+https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748cd/config/base/src/lib.rs#L36-L38
+
+### Specification
+
+Here is an excerpt from the config reference draft:
+
+> Bytes amount is specified as a human-readable string:
+> 
+> ```toml
+> # 42 bytes
+> value1 = "42B"
+> 
+> # 1 kilobyte = 1000 bytes
+> value2 = "1KB"
+> 
+> # 1 kilobyte (binary format) = 1024 bytes
+> value3 = "1KiB"
+> 
+> # Sum of multiple
+> value4 = "1GB 5MB"
+> ```
+> 
+> Iroha can parse sizes in bytes, kilobytes (`K`), megabytes (`M`), gigabytes (`G`), terabytes (`T`),
+> and petabytes (`P`).
+> 
+> The format of suffixes:
+> 
+> - **`{size}iB`:** Binary size
+> - **`{size}B`:** Decimal size
+
+I used [`humanfriendly`](https://humanfriendly.readthedocs.io/en/latest/api.html?highlight=parse_size#humanfriendly.parse_size) Python package as a reference.
+
+## Also
+
+- [kb, kB, KiB… What’s Up With That? | Pacoup.com](https://web.archive.org/web/20150324153922/https://pacoup.com/2009/05/26/kb-kb-kib-whats-up-with-that/)
+- #4294 
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-04 08:42:55 +0000 UTC
+        Created At 2024-02-18 22:54:00 +0000 UTC
     </div>
 </div>
 
@@ -71,25 +110,59 @@ does not automatically generate code for all variants. This should be replaced w
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2047" class=".btn">2047</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4294" class=".btn">4294</a>
             </td>
             <td>
                 <b>
-                    Add `non_zero` numeric types where acceptable
+                    Implement human-readable durations in the config
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Optimization</span>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">UI</span>
             </td>
             <td>
-                Discriminant elision may sometimes be effected if the underlying type has a [niche](https://github.com/rust-lang/unsafe-code-guidelines/blob/master/reference/src/layout/enums.md). This fact can be exploited to save one machine word's worth of space in enumerations which are option-like (i.e. can be discriminated using a single bit). 
+                ## Description
+
+Enhance `HumanDuration` type to actually parse a human-readable string:
+
+https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748cd/config/base/src/lib.rs#L23-L27
+
+### Specification
+
+Here is an excerpt from the configuration reference draft:
+
+
+> Duration is specified as a human-readable string:
+> 
+> ```toml
+> value1 = "1sec"
+> value2 = "1hour 12min 5s"
+> value3 = "2years 2min 12us"
+> value4 = "550ms"
+> ```
+> 
+> The duration string is a concatenation of time spans. Each time span is an
+> integer number and a suffix. Supported suffixes:
+> 
+> - `nsec`, `ns` &mdash; nanoseconds
+> - `usec`, `us` &mdash; microseconds
+> - `msec`, `ms` &mdash; milliseconds
+> - `seconds`, `second`, `sec`, `s`
+> - `minutes`, `minute`, `min`, `m`
+> - `hours`, `hour`, `hr`, `h`
+> - `days`, `day`, `d`
+> - `weeks`, `week`, `w`
+> - `months`, `month`, `M` &mdash; defined as $30.44$ days
+> - `years`, `year`, `y` &mdash; defined as $365.25$ days
+
+I used [`humantime`](https://docs.rs/humantime/latest/humantime/fn.parse_duration.html) crate for reference. Maybe it can be used as is. Otherwise, it is straighforward (and quite interesting!) to write our own parser with something like [`winnow`](https://docs.rs/winnow).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-01 12:33:57 +0000 UTC
+        Created At 2024-02-18 22:48:51 +0000 UTC
     </div>
 </div>
 
@@ -97,36 +170,43 @@ does not automatically generate code for all variants. This should be replaced w
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2035" class=".btn">2035</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4291" class=".btn">4291</a>
             </td>
             <td>
                 <b>
-                    Add macro to remove boilerplate from `client/tests/integration`
+                    [suggestion] Update executor config in the genesis block
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">config-changes</span>
             </td>
             <td>
-                ```rust
-    let (_rt, _peer, mut test_client) = <TestPeer>::start_test_with_runtime();
-    wait_for_genesis_committed(&vec[test_client.clone()], 0);
-```
+                ## Description
 
-is repeated at the top of almost every test. 
+> TL;DR: drop inline executor support; rename field to `executor_file`.
 
-We should have a proc-macro `#[integration]` which adds this boilerplate, but allows specifying the number of peers, the genesis, the configuration options and a few other things. 
+Genesis block contains `executor` field, which might either represent an inline base64-encoded WASM blob, or a file path to the WASM blob:
 
-#### Optional 
+https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748cd/configs/swarm/genesis.json#L185
 
-Remove the `start_test_with_runtime` and replace it with the most general `fn` from `test_network`. Instead use the `proc_macro` args to add optional customisation. 
+This is backed by the `ExecutorMode` struct:
+
+https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748cd/genesis/src/lib.rs#L122-L131
+
+As we discussed in #4239, `executor` field with file path should be renamed to `executor_file` for uniformity.
+
+In addition to that, I propose to remove inline executor mode. It was effectively deprecated a long time ago: there was a warning printed when the inline mode is used (cannot find references for that). The reason is that inlining WASM blob makes the whole genesis file (1) clunky and (2) hardly reproducible due to WASM compilation intricacies.
+
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-30 07:27:48 +0000 UTC
+        Created At 2024-02-18 22:34:14 +0000 UTC
     </div>
 </div>
 
@@ -134,297 +214,11 @@ Remove the `start_test_with_runtime` and replace it with the most general `fn` f
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2017" class=".btn">2017</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4290" class=".btn">4290</a>
             </td>
             <td>
                 <b>
-                    Integration test to check if role is removed from accounts after burning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                There was a bug, when role was removed only from domain and not from accounts. This is fixed in #1984. Now we need a test for it
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-28 10:36:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2009" class=".btn">2009</a>
-            </td>
-            <td>
-                <b>
-                    Create an easy way to register trigger using `Client`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                 Most of our downstream clients may want a feature to easy register trigger. So it should be a new method in `Client` structure. It should be looking something like `build_register_tirgger_isi()` in `client/tests/integration/triggers/*`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 11:29:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2007" class=".btn">2007</a>
-            </td>
-            <td>
-                <b>
-                    Grant and revoke role emit `PermissionAdded`/`PermissionRemoved` events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                take a look at `smartcontracts/isi/account.rs` implementation of `Execute` for grant/revoke of `Role` and you will see that permission events are returned for granting and revoking both roles and permission tokens. Is this fine?
-
-Also `PermissionRemoved` event is emitted in `Unregister<Role>` in `smartcontracts/isi/domain.rs`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-25 07:42:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2004" class=".btn">2004</a>
-            </td>
-            <td>
-                <b>
-                    Compile time checking for architecture dependent types on serialized structures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                It would be useful to have compile time checks that ensure our serialized and deserialized types are identical across architectures so that we don't reintroduce fields containing eg usize/isize in future.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 19:47:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/2000" class=".btn">2000</a>
-            </td>
-            <td>
-                <b>
-                    Disallow empty `Identifiers`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">help wanted</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                At the moment it is allowed to create empty `Name`, `DomainId`, `AccountId`, etc. Should we continue to allow empty string identifiers or should we forbid them. What about using `Option`? 
-
-It should be noted that empty string is a well defined identifier
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-23 08:14:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1996" class=".btn">1996</a>
-            </td>
-            <td>
-                <b>
-                    Move `GenesisDomain` and `GenesisAccount` to `iroha_core`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Currently, genesis domain and account are in `iroha_data_model`. It is my understanding that they are only used in `iroha_core` and should in fact not be presented to the user through data model API. Therefore, they should be moved into `iroha_core`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 14:39:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1995" class=".btn">1995</a>
-            </td>
-            <td>
-                <b>
-                    `serde` validation hook in deserialize
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                It is quite often that we need to write custom `serde::Deserialize` implementations just to validate structure's invariants. If possible, we should write some sort of a hook into serde macro system that would take validation function and generate deserialize implementation for a struct. 
-
-Also, maybe there is some crate offering this functionality or it can be done with serde.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 13:24:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1992" class=".btn">1992</a>
-            </td>
-            <td>
-                <b>
-                    Consolidate supporting tools in the `tools` folder of the project. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Iroha is shipped with multiple supporting binaries that can be classified as tools. 
-
-I propose moving 
-- iroha_docs
-- iroha_crypto_cli
-- iroha_schema_bin
-
-into the `tools` folder in the project. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 06:45:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1990" class=".btn">1990</a>
-            </td>
-            <td>
-                <b>
-                    Support running Iroha without `config.json` using pure environment variables. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-22 05:48:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1988" class=".btn">1988</a>
-            </td>
-            <td>
-                <b>
-                    `PartialEq` and `PartialOrd` of `Identifiable` structures 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">help wanted</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Identifiable structures, such as `Domain`, derive their implementation of `PartialEq`, but have the following implementation of `PartialOrd`:
-```rs
-impl PartialOrd for Domain {
-    #[inline]
-    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        Some(self.id().cmp(&other.id))
-    }
-}
-```
-
-Would it make sense to have equivalent implementation of `PartialEq` instead of deriving it?
-Other `Identifiable` structures should be considered as well
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-21 19:32:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1974" class=".btn">1974</a>
-            </td>
-            <td>
-                <b>
-                    Replace `blocks()` with `visit_blocks()` in WSV
+                    [suggestion] Remove `parse_display` dependency entirely
                 </b>
             </td>
         </tr>
@@ -433,24 +227,16 @@ Other `Identifiable` structures should be considered as well
                 <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
-                Right now `WorldStateView::blocks()` has locking behaviour if user stores somewhere an iterator from this function. This can be fixed by replacing it with `visit_blocks()` function, which looks something like this:
+                In #4239 @mversic suggested to remove `parse_display` dependency entirely from the workspace. At the moment it is used by `iroha_ffi_derive`:
 
-```rust
-/// Visit and apply `f` for every block
-///
-/// # Errors
-/// Throws up first `f` error
-pub fn visit_blocks<F>(&self, f: F) -> Result<(), Error>
-where
-    F: Fn(&VersionedCommittedBlock) -> Result<(), Error>,
-```
+https://github.com/hyperledger/iroha/blob/df8c49aab4842aeac64291b108fa6cfcd04fffbe/ffi/derive/Cargo.toml#L27
 
-In this way user can't store reference to a block, cause it is passed as a function parameter and **Rust** won't allow to save references like that
+There are other crates, like `strum` and `serde_with`, that we usually rely on instead.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-16 10:09:35 +0000 UTC
+        Created At 2024-02-18 22:23:32 +0000 UTC
     </div>
 </div>
 
@@ -458,92 +244,11 @@ In this way user can't store reference to a block, cause it is passed as a funct
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1934" class=".btn">1934</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4289" class=".btn">4289</a>
             </td>
             <td>
                 <b>
-                    Handle every `torii::Error` into appropriate response
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">UI</span>
-            </td>
-            <td>
-                An unhandled custom rejection returns 500 ISE.
-https://docs.rs/warp/latest/warp/reject/fn.custom.html
-So every `torii::Error` case should be converted into explicit response in `iroha_core::torii::routing::handle_rejection`.
-Remark that `torii::Error` has already `impl Reply`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-25 07:08:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1926" class=".btn">1926</a>
-            </td>
-            <td>
-                <b>
-                    Add explicit signal handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-20 15:49:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1914" class=".btn">1914</a>
-            </td>
-            <td>
-                <b>
-                    Store rejection reasons for blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">UI</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-17 11:24:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1913" class=".btn">1913</a>
-            </td>
-            <td>
-                <b>
-                    Refactor `DEADLOCK_ACTOR` to use `once_cell` in `iroha/actor/src/deadlock.rs`
+                    [suggestion] Use `nonzero_ext` across workspace
                 </b>
             </td>
         </tr>
@@ -552,12 +257,12 @@ Remark that `torii::Error` has already `impl Reply`
                 <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
-                <nil>
+                #4239 introduced `nonzero_ext` dependency in `iroha_config`. @mversic suggested that it might be a good idea to use it all across the workspace.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-17 11:17:30 +0000 UTC
+        Created At 2024-02-18 22:20:33 +0000 UTC
     </div>
 </div>
 
@@ -565,11 +270,40 @@ Remark that `torii::Error` has already `impl Reply`
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1896" class=".btn">1896</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4227" class=".btn">4227</a>
             </td>
             <td>
                 <b>
-                    Investigate what happens when events sender is not configured
+                    Support encoding/decoding to/from JSON in `parity_scale_decoder`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                1. rename `parity_scale_decoder` to `parity_scale_codec` or something similar
+2. add support to encode/decode SCALE to/from JSON
+
+atm, we're supporting only decoding to Rust debug format. I think we should just replace that with JSON, but we can also support different formats with some flag
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-23 11:25:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4226" class=".btn">4226</a>
+            </td>
+            <td>
+                <b>
+                    Prevent registering genesis Domain or Account
                 </b>
             </td>
         </tr>
@@ -578,27 +312,12 @@ Remark that `torii::Error` has already `impl Reply`
                 <span class="chip">Bug</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
             </td>
             <td>
-                This [piece of code](https://github.com/hyperledger/iroha/blob/iroha2-dev/core/src/wsv.rs#L223) in `core/src/wsv.rs` should be investigated:
-```rs
-    fn produce_events(&self, events: impl IntoIterator<Item = DataEvent>) {
-        let events = events.into_iter().map(Event::from);
-        let events_sender = if let Some(sender) = &self.events_sender {
-            sender
-        } else {
-            return warn!("wsv does not equip an events sender");
-        };
-        for event in events {
-            drop(events_sender.send(event))
-        }
-    }
-```
-
-I can't say why this compiles, maybe it `panics` inside the macro. Probably an error should be returned or events just dropped 
+                We have to make sure that instructions that try to register "genesis" domain or "genesis@genesis" account are always rejected. Tests should be added as well. Additionally, if there are none, tests should be added that confirm that any transaction signed by the "genesis@genesis" is rejected
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-09 20:47:13 +0000 UTC
+        Created At 2024-01-23 07:26:49 +0000 UTC
     </div>
 </div>
 
@@ -606,43 +325,11 @@ I can't say why this compiles, maybe it `panics` inside the macro. Probably an e
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1885" class=".btn">1885</a>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4224" class=".btn">4224</a>
             </td>
             <td>
                 <b>
-                    Add complete IPFS path validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Complete validation requires checking if path is composed only from valid hashes
-
-[ipfs](https://docs.rs/ipfs/latest/ipfs/) crate source code can be helpfull
-
-##  Alternative implementations
-
-https://github.com/hyperledger/iroha/issues/1606
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-02-08 18:24:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/1883" class=".btn">1883</a>
-            </td>
-            <td>
-                <b>
-                    Remove sample configs from the Docker container
+                    `SignedBlock` is immutable
                 </b>
             </td>
         </tr>
@@ -651,37 +338,169 @@ https://github.com/hyperledger/iroha/issues/1606
                 <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
-                > Aleksandr Petrosyan, [2022/02/08 15:19]
-> Another point that Bogdan raised is that we should stop including default configuration files inside containers. People boot up the container, see no error messages, assume everything is fine, when it isn't.
-> 
-> S Sato, [2022/02/08 16:30]
-> [In reply to Aleksandr Petrosyan]
-> The following would be one of the solutions:
-> - Convert config.json to sample.env
-> - Specify env_file: peer0.env .. for each peer in docker-compose.yml
-> - Direct users to edit and rename sample.env and use docker compose
-> https://docs.docker.com/compose/environment-variables/
-> 
-> S Sato, [2022/02/08 16:42]
-> [In reply to S Sato]
-> Not so much difference from directly writing environment section as current though
-> 
-> Aleksandr Petrosyan, [2022/02/08 16:42]
-> [In reply to S Sato]
-> This is a simplification, however.
-> 
-> Aleksandr Petrosyan, [2022/02/08 16:43]
-> If we can reduce the number of places where Iroha can be configured to just one, I don’t see an issue.
-> 
-> S Sato, [2022/02/08 16:57]
-> [In reply to Aleksandr Petrosyan]
-> Yes, at least we can merge peer/config.json into environment variables,
-> but instead, iroha_config will have to have dotenv
+                After #4918 was merged the same should be done for `SignedBlock`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-08 08:30:16 +0000 UTC
+        Created At 2024-01-23 06:52:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4223" class=".btn">4223</a>
+            </td>
+            <td>
+                <b>
+                    Reject `BlockMessage`s eagerly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Optimization</span><span class="chip">Chore</span>
+            </td>
+            <td>
+                              depending on the previously received control flow messages, is it possible that some of the `BlockMessage`s should just be rejected?
+
+_Originally posted by @mversic in https://github.com/hyperledger/iroha/pull/4115#discussion_r1449877651_
+            
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-22 09:01:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4218" class=".btn">4218</a>
+            </td>
+            <td>
+                <b>
+                    [suggestion] Remove JSON encoding for API Version and Health requests, use plain text
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+When you `GET /api_version`, you get a JSON:
+
+```json
+"1"
+```
+
+I think it is redundant to use JSON here and plain text would be just fine:
+
+```
+1
+```
+
+Same applies for `GET /health`:
+
+```json
+"Healthy"
+```
+
+There is no any reason to use JSON here over plain text.
+
+### Benefits
+
+Simplify API a little bit, remove redundancy.
+
+### Research
+
+A simple patch of this sections would suffice:
+
+https://github.com/hyperledger/iroha/blob/565271dd043b6371c1fc2e4edce0754a3058c1bb/torii/src/routing.rs#L308-L317
+
+https://github.com/hyperledger/iroha/blob/565271dd043b6371c1fc2e4edce0754a3058c1bb/torii/src/routing.rs#L139-L141
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-19 01:58:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4197" class=".btn">4197</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Improve decoding of `ChainId`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                              This could be improved by using constructor `fn new(inner: impl Into<Box<str>>)`.
+I will extract it into separate good first issue.
+
+_Originally posted by @Erigara in https://github.com/hyperledger/iroha/pull/4185#discussion_r1450199917_
+
+Idea is to remove redundant clone by directly convert from `String` to `Box<str>`.
+            
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-01-12 10:25:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4176" class=".btn">4176</a>
+            </td>
+            <td>
+                <b>
+                    [suggestion] Support `release` profile in `test_env.py`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span><span class="chip">Tests</span>
+            </td>
+            <td>
+                ## Description
+
+`test_env.py` builds and uses several binaries in `debug` mode (`kagami`, `iroha`, `iroha_client_cli`). In some cases I find it more practical to setup a testing environment using `release` binaries. When I do not change binaries themselves, but want to run tests again and again, tests running with `release` Iroha build might complete much faster, **although I haven't checked**.
+
+So, my request is to extend `test_env.py` CLI with an argument to specify using binaries with `release` profile:
+
+```shell
+./test_env.py setup --release
+# or
+./test_env.py setup --profile=release
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-12-26 11:16:47 +0000 UTC
     </div>
 </div>
 
