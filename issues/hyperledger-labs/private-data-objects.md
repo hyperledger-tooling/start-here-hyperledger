@@ -14,45 +14,29 @@ permalink: /issues/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger-labs/private-data-objects/issues/330" class=".btn">330</a>
+                Issue <a href="https://github.com/hyperledger-labs/private-data-objects/issues/476" class=".btn">476</a>
             </td>
             <td>
                 <b>
-                    enclave quote status error: CONFIGURATION_NEEDED
+                    Copy service availability test from PDO contracts guardian to PDO services
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span><span class="chip">help wanted</span><span class="chip">good first issue</span>
+                <span class="chip">enhancement</span><span class="chip">good first issue</span>
             </td>
             <td>
-                Hi，I am an undergraduate student who just started to study blockchain privacy. I learned about your project from my friend some time ago.  I'm so grateful for this open source project, a fantastic project.
-I reinstalled a ubuntu18.04, a clean environment. I builded PDO followed by host_install.md. Everything is ok! 
-And  I `make` it after changed the value of SGX_MODE from SIM to HW. It break down at register-with-ledger.sh, its output as follow:
+                Current approach for testing availability of the [eps]services is to attempt retrieval of the information from the service through the /info URL. Basically, if the service is running then the operation will succeed. 
 
-> registering enclave and IAS public key on the ledger
-. /root/private-data-objects/bin/activate && /root/private-data-objects/eservice/bin/register-with-ledger.sh
- register-with-ledger.sh: Download IAS certificates and Compute the enclave information
- register-with-ledger.sh: operation failed: eservice-enclave-info --spid ABAC66755CB4E6424B04F96CC07C21C7 --save /tmp/pdo-test.sPkasxVmc --loglevel warn --identity eservice1 --config eservice1.toml enclave.toml --config-dir /root/private-data-objects/opt/pdo/etc/
- register-with-ledger.sh: Clean up temporary files
-Makefile:227: recipe for target 'register' failed
-make: *** [register] Error 111
+However, to accomplish this, we dig through the configuration files looking for host interface and port (using grep). That means that any attempt to override the port or interface will make the test fail.
 
-`
-` 
-I tried the following:
-When I execute this command alone `eservice-enclave-info --spid ABAC66755CB4E6424B04F96CC07C21C7 ...,` there are no errors.
-But I execute this shell file alone `register-with-ledger.sh`, it fail as above.How can I solve it?
-I have done as follows：
-It can be successfully built and tested in Docker. But I need non-docker build. So I followed by host_install.md now. And I have deployed the sawtooth ledger service on a new ubuntu16.04. The variables are configured correctly，such as PDO_LEDGER_URL.
-My plan is as follows：
-If PDO in HW mode can be builded successfully, I'll replace Gipsy with Wawaka.
+Recent commit to the [PDO contracts guardian service](https://github.com/hyperledger-labs/pdo-contracts/blob/main/inference-contract/pdo/inference/scripts/guardianCLI.py#L81) adds a "TestService" interface that is part of the service code. That way, we can start the service and then test it using the same command line (meaning that we end up testing the same configuration). This approach should be far more reliable than the current approach.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 17:13:00 +0000 UTC
+        Created At 2024-03-07 16:22:42 +0000 UTC
     </div>
 </div>
 
