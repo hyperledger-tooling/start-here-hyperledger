@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4771" class=".btn">#4771</a>
+            </td>
+            <td>
+                <b>
+                    BFT synchronizer: integration test against an orderer that does block censorship
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TEST update
+
+* Run a 4 orderer smart bft cluster.
+* Do 10 TXs.
+* Shut down o4.
+* Do 10 more TXs.
+* Shutdown o1,o2,o3
+* Prepares 3 orderer mocks with 20 TXs, with the addresses of o1,o2,o3
+* Emulates block censorship
+* Start o4
+* O4 should detects the block censorship attempt and get all 20 blocks to its ledger
+
+#### Related issues
+BFT synchronizer: integration test against an orderer that does block censorship #4731
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-28 10:13:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4770" class=".btn">#4770</a>
             </td>
             <td>
@@ -445,79 +484,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2024-03-22 06:17:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4760" class=".btn">#4760</a>
-            </td>
-            <td>
-                <b>
-                    add a doc for organization removal from channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-
-add a tutorial for removing organization from channel
-
-#### Additional details
-
-The steps for removing organizations is tested and verified.
-Can you help review the document, especially the collection transfer procedure in the section of "Transfer Collection to Another Org (Optional)"
-
-The document is built and tested in 
-https://fabric-remove-org.readthedocs.io/en/latest/channel_remove_org.html
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/4730
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-21 06:26:57 +0000 UTC
     </div>
 </div>
 
