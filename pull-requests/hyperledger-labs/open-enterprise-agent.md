@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/952" class=".btn">#952</a>
+            </td>
+            <td>
+                <b>
+                    docs(adr): ATL-6599 update ADR based on first implementation experience
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">docs</span><span class="chip">connect</span>
+            </td>
+            <td>
+                ### Description: 
+[ATL-6603](https://input-output.atlassian.net/browse/ATL-6603) part of [ATL-6599](https://input-output.atlassian.net/browse/ATL-6599)
+
+### Checklist: 
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [x] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-28 13:36:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/951" class=".btn">#951</a>
             </td>
             <td>

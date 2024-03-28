@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4396" class=".btn">#4396</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4395: Fix MinSize for ChaCha20Poly1305
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Fix MinSize for ChaCha20Poly1305 & add a test for minimal message size; see linked issue for detailed explanation 
+
+### Linked issue
+
+Closes #4395
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] make CI pass
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-28 16:03:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4394" class=".btn">#4394</a>
             </td>
             <td>
@@ -336,57 +378,6 @@ Closes #4350 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-03-22 11:58:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4379" class=".btn">#4379</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4075: Move metrics related functionality into MetricsReporter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-- sumergai no longer responsible for handling metrics for torii
-- fix bug with not proper view change index in metrics
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4075 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-21 14:09:53 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/184" class=".btn">#184</a>
+            </td>
+            <td>
+                <b>
+                    Add missing k8s_builder config to v25 core.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to #28
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-28 16:35:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/183" class=".btn">#183</a>
             </td>
             <td>
