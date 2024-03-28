@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/587" class=".btn">#587</a>
+            </td>
+            <td>
+                <b>
+                    Update FSC dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-28 14:11:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/586" class=".btn">#586</a>
             </td>
             <td>
@@ -86,34 +112,6 @@ It is enough that each node receives the token request.
     </table>
     <div class="right-align">
         Created At 2024-03-25 08:00:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/582" class=".btn">#582</a>
-            </td>
-            <td>
-                <b>
-                    Delete tokens: move nilcheck and simplify the call used by HTLC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This moves the nilcheck to make sure it gets used (Delete does not fail if the token doesn't exist).
-
-When running two replicas of Token SDK, one instance will delete the token from the database and notify its mailman. A current limitation is that the mailman of the second replica will not be notified (if tok turns out to be nil we don't post the event). This is not new in this PR, but we should consider it when working on the statelessness of the Token SDK instance.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-21 14:15:20 +0000 UTC
     </div>
 </div>
 
