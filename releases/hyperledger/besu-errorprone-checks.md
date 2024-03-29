@@ -69,31 +69,3 @@ permalink: /releases/hyperledger/besu-errorprone-checks
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.4
-                </span>
-            </td>
-            <td>
-                Pre-release publish testing.
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/besu-errorprone-checks/releases/tag/v0.1.4" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-03-19 23:28:42 +0000 UTC
-    </span>
-</div>
-
