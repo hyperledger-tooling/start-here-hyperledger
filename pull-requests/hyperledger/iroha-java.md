@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/405" class=".btn">#405</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/406" class=".btn">#406</a>
             </td>
             <td>
                 <b>
-                    Updated executor along with stable update
+                    docker image config
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-01 08:32:46 +0000 UTC
+        Created At 2024-03-29 08:35:33 +0000 UTC
     </div>
 </div>
 
