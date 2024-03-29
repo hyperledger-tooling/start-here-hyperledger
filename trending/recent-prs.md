@@ -1,13 +1,13 @@
 
-[4](https://github.com/hyperledger-labs/aifaq/pull/4) Update README.md: adding public calendar meetings link
+[6847](https://github.com/hyperledger/besu/pull/6847) Snap client fixes
 
-[4398](https://github.com/hyperledger/iroha/pull/4398) [fix] #4267: Introduce p2p idle timeout
+[953](https://github.com/hyperledger-labs/open-enterprise-agent/pull/953) feat: Create VC Verification API Endpoint
 
-[4774](https://github.com/hyperledger/fabric/pull/4774) common: fix function name in comment
+[32](https://github.com/hyperledger-labs/pdo-contracts/pull/32) Complete several of the utility documents for Jupyter
 
-[406](https://github.com/hyperledger/iroha-java/pull/406) docker image config
+[6846](https://github.com/hyperledger/besu/pull/6846) Log at debug the first error when adding a tx for the sender fails
 
-[44](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/44) Solve error related to running the ansible collections when using the default docker entrypoint linked to ibp-user
+[45](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/45) Update actions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
