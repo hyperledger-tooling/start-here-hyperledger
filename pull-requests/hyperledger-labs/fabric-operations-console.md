@@ -253,39 +253,3 @@ Upgrade several NPMs to newer, secure versions.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/675" class=".btn">#675</a>
-            </td>
-            <td>
-                <b>
-                    show message if tls certificate not present on joining OS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- show message if tls certificate not present on joining OS
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-22 06:34:59 +0000 UTC
-    </div>
-</div>
-

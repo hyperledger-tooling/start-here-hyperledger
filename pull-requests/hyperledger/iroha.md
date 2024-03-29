@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4398" class=".btn">#4398</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4267: Introduce p2p idle timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Previously iroha tried to connect indefinitely to idle peer.
+
+Introduce idle timeout for p2p communication:
+
+Each peer track the last time it received message (or ping) from particular peer, if this time is larger than timeout peer is disconnected.
+
+If no other messages were produced in time equal to half timeout ping is send to prove that peer isn't idle.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4267 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### How to test
+
+1. setup iroha network with multiple peers using `LOGLEVEL=TRACE ./scripts/test_env.py setup`
+2. kill one of the peers (e.g. iroha1)
+3. start listening on p2p port this peer was using `nc -l 1338`
+4. check that peers terminate connection with this "peer" after timeout
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-29 11:21:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4396" class=".btn">#4396</a>
             </td>
             <td>
@@ -337,47 +401,6 @@ Closes #4225 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-03-25 01:22:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4381" class=".btn">#4381</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #4350: Expose event set bitfields in schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-Add a new kind of schema metadata - BitmapMeta - and use it to expose `*EventSet` bitfields in schema
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4350 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-
-### Checklist
-
-- [ ] make ci pass
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-22 11:58:25 +0000 UTC
     </div>
 </div>
 
