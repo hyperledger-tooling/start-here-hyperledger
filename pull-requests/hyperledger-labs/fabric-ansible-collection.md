@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Add component actions and updates
+                    Solve error related to running the ansible collections when using the default docker entrypoint linked to ibp-user
                 </b>
             </td>
         </tr>
@@ -27,20 +27,29 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                This change adds the following to allow component actions (restart, reenroll, etc)
-- certificate_authority_action
-- ordering_service_node_action
-- peer_action
+                Related to issue: #43
 
-This change also updates the update methods for peer, CA and ordering service nodes to allow for V3 APIs.
+Added new docker entrypoint to be able to override the current one.
 
-There is also an added capability to list associated notes with a CA:
-- certificate_authority_associated_nodes
+The error happens when we follow the documentation from the public repository for running the playbooks with the docker image:
+
+```bash
+docker pull ghcr.io/hyperledger-labs/fabric-ansible:sha-c9330b9
+docker run --rm -u $(id -u) -v /path/to/playbooks:/playbooks ghcr.io/hyperledger-labs/fabric-ansible:sha-c9330b9 ansible-playbook /playbooks/playbook.yml
+```
+Error:
+
+```bash
+Traceback (most recent call last):
+  File "/home/hlf-user/.local/bin/ansible-playbook", line 5, in <module>
+    from ansible.cli.playbook import main
+ModuleNotFoundError: No module named 'ansible' 
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-20 16:53:37 +0000 UTC
+        Created At 2024-03-29 03:01:14 +0000 UTC
     </div>
 </div>
 
