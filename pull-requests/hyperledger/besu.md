@@ -64,53 +64,6 @@ fixes #6816
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6836" class=".btn">#6836</a>
-            </td>
-            <td>
-                <b>
-                    Flaky test - new pending tx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">flake</span>
-            </td>
-            <td>
-                ## PR description
-Disable a flaky test [example failure](https://github.com/hyperledger/besu/actions/runs/8464191981/job/23188411404?pr=6833)
-[another failure](https://github.com/hyperledger/besu/actions/runs/8455431673/job/23162883976?pr=6829)
-
-## Fixed Issue(s)
-refs #6816
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-28 10:29:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6835" class=".btn">#6835</a>
             </td>
             <td>
@@ -1326,55 +1279,6 @@ fix some typos
     </table>
     <div class="right-align">
         Created At 2024-03-22 06:06:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6783" class=".btn">#6783</a>
-            </td>
-            <td>
-                <b>
-                    Adding engine_getPayloadV4 and engine_newPayloadV4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-The Engine API spec has been updated with Prague (https://github.com/ethereum/execution-apis/blob/main/src/engine/prague.md). To help test the integration between CL and EL for EIP-6110 and EIP-7002, I have started working to move these methods from experimental into V4 (conditional to Prague activation).
-
-At the moment, only deposit receipts are supported. I am adding support for validator exits as well. I can do it as a separate PR if it makes it easier to review etc. Just let me know.
-
-## Fixed Issue(s)
-N/A
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Most advanced CI tests are deferred until PR approval, but you could:
-
-- [ ] locally run all unit tests via: `./gradlew build`
-- [ ] locally run all acceptance tests via: `./gradlew acceptanceTest`
-- [ ] locally run all integration tests via: `./gradlew integrationTest`
-- [ ] locally run all reference tests via: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-21 21:29:01 +0000 UTC
     </div>
 </div>
 
