@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Jupyter Notebooks to illustrate the inference-contract family.
+                    Complete several of the utility documents for Jupyter
                 </b>
             </td>
         </tr>
@@ -27,18 +27,18 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 
             </td>
             <td>
-                The Notebooks' structure, installation, execution patterns are same as those used by the Noteboks provided for the Exchange contract family. Please note that the inference guardian service must be started prior to executing the notebooks. Please see inference-contract/README.md for instructions.
+                This adds support for several utility notebooks that can be used for managing a client configuration. The notebooks themselves are included along with a collection of widgets that can be used by contract-specific notebooks. The widgets generally include ones to create lists of available resources (e.g. keys, services, groups), select amongst a list of available resources, and create or update resources.
 
-Some of the additional features offered by this PR taking advantage of recent commits to the contracts repo:
+* key-manager: manage keys available to the client
+* service-manager: manage the database of services that can be used for contracts
+* service-groups-manager: manage the database of service groups used for contracts
 
-1. It is possible to use the inference contract jupyter notebook via docker (using features from PR 23)
-2. When using docker, the inference guardian will run in a separate container (using features from PR 27)
-3. The notebooks are constructed using jupytext python modules (using features from PR 29)
+Note that this PR assumes that PDO PR https://github.com/hyperledger-labs/private-data-objects/pull/481 has been applied. Until that PR is merged and the private-data-objects submodule has been updated, this will remain a draft.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-19 23:08:00 +0000 UTC
+        Created At 2024-03-29 16:32:20 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/953" class=".btn">#953</a>
+            </td>
+            <td>
+                <b>
+                    feat: Create VC Verification API Endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">prism-agent</span>
+            </td>
+            <td>
+                ### Description: 
+https://input-output.atlassian.net/browse/ATL-6770
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-29 18:07:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/952" class=".btn">#952</a>
             </td>
             <td>
@@ -187,120 +215,6 @@ This PR adds documentation for JWT revocation
     </table>
     <div class="right-align">
         Created At 2024-03-23 20:07:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/946" class=".btn">#946</a>
-            </td>
-            <td>
-                <b>
-                    test: integration slack notification fix + parameter on client publication
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                ### Description: 
-- Fixes slack notification due missing json summary file
-- Adds parameter on workflow_dispatch for agent client publication
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-22 17:47:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/945" class=".btn">#945</a>
-            </td>
-            <td>
-                <b>
-                    ci: upgrade deployment action to v3 (node 20)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                ### Description: 
-Summarize the changes you're submitting in a few sentences, including Jira ticket ATL-xxxx if applicable.
-Link to any discussion, related issues and bug reports to give the context to help the reviewer understand the PR.
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-22 13:46:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/944" class=".btn">#944</a>
-            </td>
-            <td>
-                <b>
-                    docs(prism-agent): remove `termsOfService` from OAS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">prism-agent</span>
-            </td>
-            <td>
-                ### Description: 
-
-Fixes [ATL-6321](https://input-output.atlassian.net/browse/ATL-6321)
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger-labs/open-enterprise-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [x] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-22 13:42:44 +0000 UTC
     </div>
 </div>
 
