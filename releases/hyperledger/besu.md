@@ -38,7 +38,7 @@ permalink: /releases/hyperledger/besu
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-29 17:41:00 +0000 UTC
+        Created At 2024-03-30 00:13:30 +0000 UTC
     </span>
 </div>
 
