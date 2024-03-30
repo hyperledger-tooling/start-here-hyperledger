@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/409" class=".btn">#409</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/410" class=".btn">#410</a>
             </td>
             <td>
                 <b>
-                    fix links to other docs
+                    handling `setLogLevel` error of `ConfigInit` if both `debug` flag and `loglevel` are set
                 </b>
             </td>
         </tr>
@@ -28,17 +28,16 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 #### Type of change
-
-- Documentation update
+- Bug fix
 
 #### Description
-
-Some links need to be fixed
+Either `debug` flag or a valid `loglevel` string is expected to be set to determine the log level of application.
+When both are set, `setLogLevel` method returns an error which is handled in `ConfigInit`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-20 18:25:18 +0000 UTC
+        Created At 2024-03-30 17:41:46 +0000 UTC
     </div>
 </div>
 
