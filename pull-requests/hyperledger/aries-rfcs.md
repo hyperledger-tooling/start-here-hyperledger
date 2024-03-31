@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/826" class=".btn">#826</a>
+            </td>
+            <td>
+                <b>
+                    Cleanup RFCs for mkdocs website generation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The vast majority of the changes are just to add "mailto:" to the front of the email addresses in the RFCs -- that was missed in the templates, and it carried into the RFCs themselves.
+
+A few other cleanups of paths, and tweaks to the generator.  In the process, a couple of clarifications were made -- minor, to do with things that have changed over time.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-03-30 19:47:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/824" class=".btn">#824</a>
             </td>
             <td>
