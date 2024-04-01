@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/141" class=".btn">#141</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/142" class=".btn">#142</a>
             </td>
             <td>
                 <b>
-                    Increment version after release
+                    Listener Improvements & Incorporate ITs for Listener Tx flows.
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">auto-version-increment</span>
+                
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-22 09:05:14 +0000 UTC
+        Created At 2024-04-01 05:53:27 +0000 UTC
     </div>
 </div>
 
