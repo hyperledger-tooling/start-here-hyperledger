@@ -1,13 +1,13 @@
 
-[679](https://github.com/hyperledger-labs/fabric-operations-console/pull/679) 5991 fix
+[64](https://github.com/hyperledger-labs/did-webs-resolver/pull/64) Gen and resolve metadata arg refactored and tested
 
-[4400](https://github.com/hyperledger/iroha/pull/4400) [fix] #4397: Make queue tests use a mock time source
+[6856](https://github.com/hyperledger/besu/pull/6856) workaround for broken publishing of buildinfo
 
-[954](https://github.com/hyperledger-labs/open-enterprise-agent/pull/954) feat: Configurations load improvement
+[63](https://github.com/hyperledger-labs/did-webs-resolver/pull/63) Updated call bc datetime.utcnow() to be deprecated
 
-[588](https://github.com/hyperledger-labs/fabric-token-sdk/pull/588) return identities slice of len 0 for auditors instead of len 1 with <…
+[61](https://github.com/hyperledger-labs/did-webs-resolver/pull/61) updated keri api erros for getting started docker script
 
-[438](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/438) build(deps): Bump google.golang.org/protobuf from 1.30.0 to 1.33.0 in /samples/fabric/go-cli
+[827](https://github.com/hyperledger/aries-rfcs/pull/827) Add status STALLED and change status of many proposed RFCs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
