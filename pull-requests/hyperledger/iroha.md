@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4400" class=".btn">#4400</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4397: Make queue tests use a mock time source
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This PR adds a `TimeSource` to `iroha_primitives` - a mockable time source. It then proceeds to make the queue tests use the mock time source to make them deterministic.
+
+### Linked issue
+
+Closes #4397
+
+### Benefits
+
+- less flaky CI
+- ability to mock transaction times (useful [here](https://github.com/hyperledger/iroha/pull/4382#discussion_r1540619904))
+
+### Checklist
+
+- [ ] make CI pass
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-01 09:30:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4398" class=".btn">#4398</a>
             </td>
             <td>
@@ -287,57 +328,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-03-27 13:37:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4384" class=".btn">#4384</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: remove signatures from blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-* remove signatures from blocks stored on chain
-Signatures are transient and only applicable during consensus. Since blocks in a blockchain are tied together via block hashes, keeping block signatures after consensus is not only superfluous but also creates issues when replaying blocks when topology has changed (related to #4145)
-* removed `consensus_estimation` from block header - it was unused
-* removed `event_recommendations` from block - it was unused
-
-## Future work
-* Following this PR, block sync protocol should be modified to prevent syncing with malicious peers. This can be done with not too much overhead
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-25 07:40:15 +0000 UTC
     </div>
 </div>
 

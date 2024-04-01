@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/588" class=".btn">#588</a>
+            </td>
+            <td>
+                <b>
+                    return identities slice of len 0 for auditors instead of len 1 with <…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …empty> id when no auditors are set.
+
+This caused tokenchaincode to fail when there are no auditors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-01 08:57:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/587" class=".btn">#587</a>
             </td>
             <td>
@@ -86,32 +114,6 @@ It is enough that each node receives the token request.
     </table>
     <div class="right-align">
         Created At 2024-03-25 14:04:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/583" class=".btn">#583</a>
-            </td>
-            <td>
-                <b>
-                    shared wallets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR adds to core/common owner wallets for long-term and anonymous owner wallets. Any driver can reuse/extend these wallets as it fits.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-25 08:00:06 +0000 UTC
     </div>
 </div>
 
