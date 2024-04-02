@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2861" class=".btn">#2861</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2862" class=".btn">#2862</a>
             </td>
             <td>
                 <b>
-                    feat: Add new format and implement VCDICredFormatHandler
+                    refactor: introduce use_did and use_did_method
                 </b>
             </td>
         </tr>
@@ -27,7 +27,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                This implements #2857. With one modification: rather than having a single parameter `use_did`, I found that the processing became significantly simpler by having a `use_did` and `use_did_method` parameter. Hopefully that's an acceptable trade off.
+
+WIP: Currently, just the updates to the did exchange routes have been made. Working through the OOB route updates now. Wanted to open early for feedback.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-01 19:55:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2861" class=".btn">#2861</a>
+            </td>
+            <td>
+                <b>
+                    feat: Integrate AnonCreds with W3C VCDI Format Support in ACA-Py
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Summary
+Pull request introduces comprehensive support for AnonCreds within the W3C VCDI formats. The changes include the addition of new models, methods, and protocols that enable the Aries Cloud Agent Python to issue, hold, and verify credentials in alignment with W3C's VCDI standards.
+
+### Changes Overview
+
+- AnonCreds Integration: Updated the anoncreds module to handle VCDI-compliant credential offers, requests, and credentials.
+- Indy Models: Adapted indy/models to map onto VCDI credential.
+- Issue Credential Protocol v2.0: Incorporated VCDI support into the existing issue_credential protocol
+- VCDI Credential Format Handling: Introduced a new vc_di module within formats to handle the specificities of the VCDI credential format.
+- Updated alice/faber demo: Introduced handling of multiple cred demo with cred-type argument
+
+### Detailed Changes
+
+- Added handler.py in protocols/issue_credential/v2_0/formats/vc_di to manage VCDI credential operations.
+- Created test_handler.py in the same directory to ensure robustness and reliability through comprehensive testing.
+- Introduced vc_di.py within models/detail for detailed VCDI model definitions.
+- Updated test_routes.py to test the integration of VCDI routes within the agent's service layer.
+- Revised routes.py to handle API endpoints related to VCDI credential operations.
+- Updated faber.py
+- Update alice.py
+- Updated agent_container.py
+- Updated performance.py
+
+
+### Additional Notes
+Link to the detailed documentation and specifications: [W3C VCDI Integration](https://hackmd.io/@swcurran/ryZDzTbta)
             </td>
         </tr>
     </table>
@@ -50,7 +103,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.0.0</span>
             </td>
             <td>
                 Resolves #2318 

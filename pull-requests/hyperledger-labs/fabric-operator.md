@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/182" class=".btn">#182</a>
-            </td>
-            <td>
-                <b>
-                    Set the security Context for Couchdb Container of Console
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-25 19:24:46 +0000 UTC
-    </div>
-</div>
-
