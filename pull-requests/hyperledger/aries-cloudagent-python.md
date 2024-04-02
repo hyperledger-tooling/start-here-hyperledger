@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2866" class=".btn">#2866</a>
+            </td>
+            <td>
+                <b>
+                    Fix run_tests script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix a change that I think @dbluhm did awhile back, which is now causing issues when trying to run tests locally.
+
+@dbluhm  what was the reason for the fix?  This PR removes your change but maybe there is an alternative that addresses your reasons without breaking local tests ...
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 18:04:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2862" class=".btn">#2862</a>
             </td>
             <td>

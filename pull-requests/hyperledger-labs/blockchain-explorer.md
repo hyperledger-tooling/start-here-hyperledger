@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">feature</span>
             </td>
             <td>
                 <!--  Thanks for sending a pull request! 

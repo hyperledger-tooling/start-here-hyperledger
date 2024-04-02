@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    Teams
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-26 17:39:18 +0000 UTC
-    </div>
-</div>
-
