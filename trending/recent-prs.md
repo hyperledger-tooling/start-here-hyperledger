@@ -1,13 +1,13 @@
 
-[680](https://github.com/hyperledger-labs/fabric-operations-console/pull/680) Issue fix for keep loading on pending orderer channels section after …
+[4401](https://github.com/hyperledger/iroha/pull/4401) [refactor] #4290: Replace `parse_display` crate with `strum`
 
-[6858](https://github.com/hyperledger/besu/pull/6858) [MINOR] Use 7 chars instead of 10 for source build hash
+[493](https://github.com/hyperledger-labs/blockchain-explorer/pull/493) UI feature for Additional Search using "block by Txn Id" and "block by block hash" and channels Committers Endorsers list
 
-[6857](https://github.com/hyperledger/besu/pull/6857) build: Remove incomplete artifactory task
+[46](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/46) strip the 'v' prefix that newer fabric binaries print as their versio…
 
-[2862](https://github.com/hyperledger/aries-cloudagent-python/pull/2862) refactor: introduce use_did and use_did_method
+[6860](https://github.com/hyperledger/besu/pull/6860) Remove develop prelease workflow
 
-[64](https://github.com/hyperledger-labs/did-webs-resolver/pull/64) Gen and resolve metadata arg refactored and tested
+[492](https://github.com/hyperledger-labs/blockchain-explorer/pull/492) Additional Search feature using "block by transaction_Id" and "block by block_hash" and channels Committers Endorsers list
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    strip the 'v' prefix that newer fabric binaries print as their versio…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …n, to prevent LooseVersion comparison breakage
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 10:09:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/45" class=".btn">#45</a>
             </td>
             <td>
