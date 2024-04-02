@@ -15,31 +15,30 @@ permalink: /releases/hyperledger-labs/yui-relayer
         <tr>
             <td colspan="2">
                 <b>
-                    v0.4.25
+                    v0.5.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.4.25
+                    v0.5.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add slog by @dongrie in https://github.com/hyperledger-labs/yui-relayer/pull/131
-* Optimize Relay by @dongrie in https://github.com/hyperledger-labs/yui-relayer/pull/108
+* Update ibc-go to v8 by @dongrie in https://github.com/hyperledger-labs/yui-relayer/pull/134
 
 
-**Full Changelog**: https://github.com/hyperledger-labs/yui-relayer/compare/v0.4.24...v0.4.25
+**Full Changelog**: https://github.com/hyperledger-labs/yui-relayer/compare/v0.4.25...v0.5.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.4.25" class=".btn">
+    <a href="https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-01-31 11:21:33 +0000 UTC
+        Created At 2024-04-02 02:52:41 +0000 UTC
     </span>
 </div>
 
