@@ -14,6 +14,217 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4785" class=".btn">#4785</a>
+            </td>
+            <td>
+                <b>
+                    Remove references to Jira in docs (backport #4783)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Jira system has been retired.
+Remove the remaining doc reference to Jira.
+<hr>This is an automatic backport of pull request #4783 done by [Mergify](https://mergify.com).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 16:37:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4784" class=".btn">#4784</a>
+            </td>
+            <td>
+                <b>
+                    add defer GinkgoRecover
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 16:20:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4783" class=".btn">#4783</a>
+            </td>
+            <td>
+                <b>
+                    Remove references to Jira in docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Jira system has been retired.
+Remove the remaining doc reference to Jira.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 16:14:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4782" class=".btn">#4782</a>
+            </td>
+            <td>
+                <b>
+                    I change the RequestMaxBytes setting with the value from the configuration block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 15:46:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4781" class=".btn">#4781</a>
+            </td>
+            <td>
+                <b>
+                    update variable name in create a channel doc. 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update docs
+fix #4779 
+- Bug fix
+- New feature
+- Improvement (improvement to code, performance, etc)
+- Test update
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 14:41:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4778" class=".btn">#4778</a>
+            </td>
+            <td>
+                <b>
+                    Remove global-level endpoints from channel config - WIP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- config update
+
+#### Description
+
+This PR aims to block the option to specify global-level endpoints and enforce that endpoints per org are defined. 
+
+#### Related issues
+
+ issue #4763 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 13:45:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4775" class=".btn">#4775</a>
             </td>
             <td>
@@ -336,85 +547,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2024-03-27 15:22:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4768" class=".btn">#4768</a>
-            </td>
-            <td>
-                <b>
-                    Move to docker v24.0.9 as per CVE-2024-24557.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Moving dependency for `github.com/docker/docker` to v24.0.9 from v24.0.7 for CVE-2024-24557.
-
-#### Additional details
-
-n/a
-
-#### Related issues
-
-This was already created and merged by dependabot: https://github.com/hyperledger/fabric/pull/4758 for `main`. Not sure why it didn't include `release-2.5`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-26 16:05:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4767" class=".btn">#4767</a>
-            </td>
-            <td>
-                <b>
-                    BFT chain unit tests reconfigure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-
-This PR aims to test reconfiguration cases: 
-1. Add a new node to the network 
-2. Configure the network while a node is down, in such case the node has to sync with other nodes in the network about the config change.
-
-#### Related issues
-
-issue #4008 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-26 13:54:36 +0000 UTC
     </div>
 </div>
 
