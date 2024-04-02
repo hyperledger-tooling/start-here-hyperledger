@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/679" class=".btn">#679</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/680" class=".btn">#680</a>
             </td>
             <td>
                 <b>
-                    5991 fix
+                    Issue fix for keep loading on pending orderer channels section after …
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                …joining peer to channel
+                …joining peer to channel and typo fix in message
 
 #### Type of change
 
@@ -37,16 +37,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 
 #### Description
 <!--- Describe your changes in detail, including motivation. -->
-
-Fix provided for pending orderer channels section keep loading after peer join channel
-Update error message for typo fix
+- Fix provided for pending orderer channels section keep loading after peer join channel
+- Update error message for typo fix
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-01 11:42:25 +0000 UTC
+        Created At 2024-04-02 05:17:55 +0000 UTC
     </div>
 </div>
 
