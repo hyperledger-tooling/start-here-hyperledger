@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/aries-agent-controller
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/aries-agent-controller/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger-labs/aries-agent-controller/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Bump python-multipart from 0.0.6 to 0.0.7
+                    Bump django from 4.1.7 to 4.1.13
                 </b>
             </td>
         </tr>
@@ -27,34 +27,27 @@ permalink: /pull-requests/hyperledger-labs/aries-agent-controller
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [python-multipart](https://github.com/andrew-d/python-multipart) from 0.0.6 to 0.0.7.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/Kludex/python-multipart/blob/master/CHANGELOG.md">python-multipart's changelog</a>.</em></p>
-<blockquote>
-<h2>0.0.7 (2024-02-03)</h2>
-<ul>
-<li>Refactor header option parser to use the standard library instead of a custom RegEx <a href="https://redirect.github.com/andrew-d/python-multipart/pull/75">#75</a>.</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [django](https://github.com/django/django) from 4.1.7 to 4.1.13.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/Kludex/python-multipart/commit/c83e6da1a3a6ed002ebb22138baa1664134d540c"><code>c83e6da</code></a> Version 0.0.7 (<a href="https://redirect.github.com/andrew-d/python-multipart/issues/77">#77</a>)</li>
-<li><a href="https://github.com/Kludex/python-multipart/commit/fb7d3c92dd07d63e6f02a2a2d0350cebdf356e3a"><code>fb7d3c9</code></a> Bump pygments from 2.7.4 to 2.15.0 (<a href="https://redirect.github.com/andrew-d/python-multipart/issues/66">#66</a>)</li>
-<li><a href="https://github.com/Kludex/python-multipart/commit/20f0ef6b4e4caf7d69a667c54dff57fe467109a4"><code>20f0ef6</code></a> ♻️ Refactor header option parser to use the standard library instead of a cus...</li>
-<li><a href="https://github.com/Kludex/python-multipart/commit/d3d16dae4b061c34fe9d3c9081d9800c49fc1f7a"><code>d3d16da</code></a> Use latest invoke version (2.2.0) (<a href="https://redirect.github.com/andrew-d/python-multipart/issues/73">#73</a>)</li>
-<li><a href="https://github.com/Kludex/python-multipart/commit/8e59febf3ad42f2b09a42bb06b19cfdb05dd1656"><code>8e59feb</code></a> Use single quotes to avoid special zsh chars '[' and ']' (<a href="https://redirect.github.com/andrew-d/python-multipart/issues/71">#71</a>)</li>
-<li><a href="https://github.com/Kludex/python-multipart/commit/86d422ca6f070f5af8c7ba2cafd218408fa6c58b"><code>86d422c</code></a> Update changelog URL (<a href="https://redirect.github.com/andrew-d/python-multipart/issues/68">#68</a>)</li>
-<li><a href="https://github.com/Kludex/python-multipart/commit/3929f8e5018c3c0ab60737734d0a0e64a1c2536d"><code>3929f8e</code></a> Move tests folder to root folder (<a href="https://redirect.github.com/andrew-d/python-multipart/issues/61">#61</a>)</li>
-<li>See full diff in <a href="https://github.com/andrew-d/python-multipart/compare/0.0.6...0.0.7">compare view</a></li>
+<li><a href="https://github.com/django/django/commit/42591a8aeb48f3cdf7da9fd0631017dd5410525a"><code>42591a8</code></a> [4.1.x] Bumped version for 4.1.13 release.</li>
+<li><a href="https://github.com/django/django/commit/4965bfdde2e5a5c883685019e57d123a3368a75e"><code>4965bfd</code></a> [4.1.x] Fixed CVE-2023-46695 -- Fixed potential DoS in UsernameField on Windows.</li>
+<li><a href="https://github.com/django/django/commit/8581d916899ccd4fe4c09742c9b2b2d2bf3cc457"><code>8581d91</code></a> [4.1.x] Corrected wrap_socket() reference in docs/ref/settings.txt.</li>
+<li><a href="https://github.com/django/django/commit/e4aabf3f0f1638c8171962f92a8f8e9954c8636a"><code>e4aabf3</code></a> [4.1.x] Added stub release notes for 4.1.13 and 3.2.23.</li>
+<li><a href="https://github.com/django/django/commit/348489a29b197e476a134413d832b850c7566c6f"><code>348489a</code></a> [4.1.x] Added CVE-2023-43665 to security archive.</li>
+<li><a href="https://github.com/django/django/commit/31497fdc8fdea7ed6fa0867da4bf0c76ebb2a759"><code>31497fd</code></a> [4.1.x] Post release version bump.</li>
+<li><a href="https://github.com/django/django/commit/865974ee933ac0648fabe4458136ce1ceec62192"><code>865974e</code></a> [4.1.x] Bumped version for 4.1.12 release.</li>
+<li><a href="https://github.com/django/django/commit/c7b7024742250414e426ad49fb80db943e7ba4e8"><code>c7b7024</code></a> [4.1.x] Fixed CVE-2023-43665 -- Mitigated potential DoS in django.utils.text....</li>
+<li><a href="https://github.com/django/django/commit/910df41352165072a40da80df647e62aec874989"><code>910df41</code></a> [4.1.x] Added stub release notes for 4.1.12 and 3.2.22.</li>
+<li><a href="https://github.com/django/django/commit/4c14db34151a1355479c5db584cdf23df903c285"><code>4c14db3</code></a> [4.1.x] Added CVE-2023-41164 to security archive.</li>
+<li>Additional commits viewable in <a href="https://github.com/django/django/compare/4.1.7...4.1.13">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=python-multipart&package-manager=pip&previous-version=0.0.6&new-version=0.0.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=django&package-manager=pip&previous-version=4.1.7&new-version=4.1.13)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -86,7 +79,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-12 17:54:02 +0000 UTC
+        Created At 2024-04-03 16:48:02 +0000 UTC
     </div>
 </div>
 
