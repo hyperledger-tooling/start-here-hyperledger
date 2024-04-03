@@ -1,13 +1,13 @@
 
-[2866](https://github.com/hyperledger/aries-cloudagent-python/pull/2866) Fix run_tests script
+[681](https://github.com/hyperledger-labs/fabric-operations-console/pull/681) bump release notes
 
-[6865](https://github.com/hyperledger/besu/pull/6865) One JDK to rule them all
+[6868](https://github.com/hyperledger/besu/pull/6868) [MINOR] add toString for handshake messages
 
-[4785](https://github.com/hyperledger/fabric/pull/4785) Remove references to Jira in docs (backport #4783)
+[4788](https://github.com/hyperledger/fabric/pull/4788) Update profile data in create a channel doc
 
-[4784](https://github.com/hyperledger/fabric/pull/4784) add defer GinkgoRecover
+[6867](https://github.com/hyperledger/besu/pull/6867) Add prefix to dns on holesky
 
-[4783](https://github.com/hyperledger/fabric/pull/4783) Remove references to Jira in docs
+[2867](https://github.com/hyperledger/aries-cloudagent-python/pull/2867) Add missing verificaiton method option
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

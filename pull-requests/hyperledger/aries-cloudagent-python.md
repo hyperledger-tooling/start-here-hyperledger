@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2867" class=".btn">#2867</a>
+            </td>
+            <td>
+                <b>
+                    Add missing verificaiton method option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I replaced the custom `IssuanceOptionsSchema` schema on the vc/issue endpoint with the previous `LDProofOptionsSchema`. The idea will be to revisit the idea of having custom options field for different endpoints in a post 1.0 version. The verificationMethod option is necessary when issuing using unconventional did methods, such as did:web where the wallet can't correlate a verificationMethod with a specific did
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-02 22:44:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2866" class=".btn">#2866</a>
             </td>
             <td>
@@ -152,34 +178,6 @@ I think the bit of refactoring required for this to work (including plugins once
     </table>
     <div class="right-align">
         Created At 2024-03-28 19:48:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2858" class=".btn">#2858</a>
-            </td>
-            <td>
-                <b>
-                    fix: states for discovery record to emit webhook
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds states to the the Discover Features record in order to trigger emitting webhooks containing the disclosed features to the controller. Without this change, retrieving the supported features of the remote agent is _extremely_ inconsistent. You just have to hope that the disclosure comes back in 5 seconds or try doing an exponential back off polling of the discover feature record to see if it showed up.
-
-And a few other simplifications.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-26 18:45:29 +0000 UTC
     </div>
 </div>
 
