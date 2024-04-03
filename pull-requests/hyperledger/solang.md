@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Upgrade Solang to be compatible with [`ink!`  v5.0 ](https://use.ink/faq/migrating-from-ink-4-to-5).
+
+- Simplify events
+- Latest substrate node on CI
+- Update tests and docs
             </td>
         </tr>
     </table>

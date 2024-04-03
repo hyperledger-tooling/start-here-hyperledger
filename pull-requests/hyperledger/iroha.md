@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4402" class=".btn">#4402</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4289: Use `nonzero!` instead of fallible NonZero* constructors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+Replace fallible or unsafe constructor invocations of non-zero numeric types with the macro from `nonzero_ext` where possible.
+
+### Linked issue
+
+Closes #4289.
+
+### Benefits
+
+Invalid constants are caught at compile time. Unnecessary unsafe code removed.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-03 07:20:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4401" class=".btn">#4401</a>
             </td>
             <td>
@@ -39,9 +83,9 @@ Closes #4290.
 
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
 
             </td>
         </tr>
