@@ -14,6 +14,141 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6877" class=".btn">#6877</a>
+            </td>
+            <td>
+                <b>
+                    Relax PeerReputation timeout threshold
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Relax the peer timeout threshold, align with EthPeer max outstanding requests
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-03 17:15:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6876" class=".btn">#6876</a>
+            </td>
+            <td>
+                <b>
+                    Snap protocol always enabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes bug where disabling snap server disables snap protocol
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-03 15:05:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6875" class=".btn">#6875</a>
+            </td>
+            <td>
+                <b>
+                    Add debug logs for when transaction processing halts or reverts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds `debug` level logs to the transaction processor in the event of either:
+
+1. transaction processing halting (e.g. a post-shanghai transaction submitted to a pre-shanghai fork node)
+2. the transaction reverting
+
+Currently in order to see the reason for a transaction revert you typically have to either:
+
+- Have `--revert-reason-enabled` on the node, and capture the revert reason in the application or trace the receipt response 
+- Have the `DEBUG` JSON/RPC API enabled and use the `debug_traceTransaction` JSON/RPC call
+
+In some scenarios it is useful not to have to enable revert reasons and or use JSON/RPC calls to see the revert reasons. Instead simply turning `DEBUG` logging on for the `MainnetTransactionProcessor` will now let you see the reason for a revert (or a halt).
+
+I considered making it a `TRACE` log instead of `DEBUG` log but my view is that the output is fairly short (not lines and lines of output), transactions are unlikely to revert that frequently, and `TRACE` adds a fair amount of extra noise to the output. Happy to take others comments on whether it should be `TRACE` though.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-03 13:40:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6874" class=".btn">#6874</a>
             </td>
             <td>
@@ -1272,169 +1407,6 @@ This PR adds 4 retries for getting the header before diconnection.
     </table>
     <div class="right-align">
         Created At 2024-03-28 01:45:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6830" class=".btn">#6830</a>
-            </td>
-            <td>
-                <b>
-                    Logging improvements for Bonsai historical queries 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Makes the logs more clear about historical queries in Bonsai when you exceed the `bonsai-historical-block-limit`
-
-## Fixed Issue(s)
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-27 17:01:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6829" class=".btn">#6829</a>
-            </td>
-            <td>
-                <b>
-                    update broken link, issue template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-Fixes previously 404 link in the issue template 
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-27 16:42:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6826" class=".btn">#6826</a>
-            </td>
-            <td>
-                <b>
-                    Dedicated log marker for invalid txs removed from the txpool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Transactions that during block creation are found to be invalid are removed from the pool, and could be difficult to retrieve the content of the tx, so if needed for debug, with this PR is possible to enable the log the RLP of the invalid tx, along with some other info, these log lines have the marker `INVALID_TX_REMOVED` and the following fields, that can be used to format the log line as required:
-
-- `txhash` hash of the tx
-- `txlog` human readable log of the tx
-- `reason` why the tx was invalid
-- `txrlp` the RLP encoding of the tx
-
-Log4j2 example configuration to enable the invalid tx log:
-
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<Configuration monitorInterval="30" status="INFO">
-  <Properties>
-    <Property name="root.log.level">INFO</Property>
-  </Properties>
-  <Appenders>
-    <Console name="Console">
-      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSSZZZ} | %t | %-5level | %c{1} | %msg%n"/>
-    </Console>
-    <Routing name="Router">
-      <Routes pattern="$${event:Marker}">
-        <Route key="INVALID_TX_REMOVED">
-          <Console name="ConsoleITR" target="SYSTEM_OUT">
-            <PatternLayout pattern="Invalid tx removed:%X{txlog}, reason:%X{reason}; RLP={%X{txrlp}}}%n"/>
-          </Console>
-        </Route>
-        <Route ref="Console"/>
-      </Routes>
-    </Routing>
-  </Appenders>
-  <Loggers>
-        <Logger additivity="false" name="org.hyperledger.besu.ethereum.eth.transactions">
-            <AppenderRef ref="Router"/>
-        </Logger>
-    <Root level="${sys:root.log.level}">
-      <AppenderRef ref="Console"/>
-    </Root>
-  </Loggers>
-</Configuration>
-```
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-27 13:50:56 +0000 UTC
     </div>
 </div>
 
