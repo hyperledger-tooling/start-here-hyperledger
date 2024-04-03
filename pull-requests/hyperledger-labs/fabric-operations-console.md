@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/681" class=".btn">#681</a>
+            </td>
+            <td>
+                <b>
+                    bump release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Update release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-03 06:00:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/680" class=".btn">#680</a>
             </td>
             <td>
@@ -46,39 +82,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </table>
     <div class="right-align">
         Created At 2024-04-02 05:17:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/677" class=".btn">#677</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Node Package Dependencies.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Upgrade several NPMs to newer, secure versions.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-26 18:51:25 +0000 UTC
     </div>
 </div>
 

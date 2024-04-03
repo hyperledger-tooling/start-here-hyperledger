@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/164" class=".btn">#164</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/167" class=".btn">#167</a>
             </td>
             <td>
                 <b>
-                    Push iroha2 python sdk MVP to repo
+                    [fix] #166: Hash email address
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                This PR will not get merged as it will create a very messy git log. Instead I will force push this and move the old branch to iroha2-old.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-12 10:25:30 +0000 UTC
+        Created At 2024-04-02 18:19:43 +0000 UTC
     </div>
 </div>
 

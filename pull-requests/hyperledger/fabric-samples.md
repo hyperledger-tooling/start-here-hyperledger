@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1186" class=".btn">#1186</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1189" class=".btn">#1189</a>
             </td>
             <td>
                 <b>
-                    Decouple fabric tools image from fabric sample
+                    Add Go chaincode for asset-transfer-events
                 </b>
             </td>
         </tr>
@@ -27,18 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Decouple fabric tools image from fabric sample.
-change list for running on github action:
-- network for orderer.
-- file path for add org3.
-- core.yaml missing?
+                There were recently questions on how to emit chaincode events from Go smart contracts: hyperledger/fabric-gateway#698
 
-The current PR seems has many code smells... but it seems works.
+This implementation is based on the asset-transfer-basic chaincode (as the README already suggests) and does not include the private data used by the other language implementations. I don't know why private data is necessary to demonstrate chaincode eventing.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-20 13:40:25 +0000 UTC
+        Created At 2024-04-02 19:03:36 +0000 UTC
     </div>
 </div>
 

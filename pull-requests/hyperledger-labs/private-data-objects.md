@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/482" class=".btn">#482</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/483" class=".btn">#483</a>
             </td>
             <td>
                 <b>
-                    Fix several bugs in the service data routines for verification
+                    Minor bug fix in the ping test module used by CCF. 
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">bug</span>
+                
             </td>
             <td>
-                Small changes to fix several problems with the way last_verified_time is handled in the service data store. Improves variable naming and ensures that the value of last_verified_time is pushed through. 
+                loguru warning method is warning() and not warn()
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-26 14:32:25 +0000 UTC
+        Created At 2024-04-02 19:52:04 +0000 UTC
     </div>
 </div>
 
