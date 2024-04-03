@@ -15,39 +15,7 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    develop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    develop
-                </span>
-            </td>
-            <td>
-                This is an automated, bleeding edge build from the tip of main. No promises. YOLO.
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/develop" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-04-02 20:02:25 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    24.4.0
+                    24.4.0-RC1
                 </b>
             </td>
         </tr>
@@ -58,7 +26,7 @@ permalink: /releases/hyperledger/besu
                 </span>
             </td>
             <td>
-                ## 24.4.0
+                ## 24.4.0-RC1
 
 ### Breaking Changes
 - RocksDB database metadata format has changed to be more expressive, the migration of an existing metadata file to the new format is automatic at startup. Before performing a downgrade to a previous version it is mandatory to revert to the original format using the subcommand `besu --data-path=/path/to/besu/datadir storage revert-metadata v2-to-v1`.
@@ -109,35 +77,6 @@ https://github.com/hyperledger/besu/releases/download/24.4.0/besu-24.4.0.zip / T
         </tr>
     </table>
     <a href="https://github.com/hyperledger/besu/releases/tag/24.4.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-03-30 02:27:33 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    24.3.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    24.3.1
-                </span>
-            </td>
-            <td>
-                `docker pull docker.io/hyperledger/besu:24.3.1`
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/24.3.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
