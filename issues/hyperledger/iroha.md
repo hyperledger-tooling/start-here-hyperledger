@@ -170,50 +170,6 @@ I used [`humantime`](https://docs.rs/humantime/latest/humantime/fn.parse_duratio
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4291" class=".btn">4291</a>
-            </td>
-            <td>
-                <b>
-                    [suggestion] Update executor config in the genesis block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">config-changes</span>
-            </td>
-            <td>
-                ## Description
-
-> TL;DR: drop inline executor support; rename field to `executor_file`.
-
-Genesis block contains `executor` field, which might either represent an inline base64-encoded WASM blob, or a file path to the WASM blob:
-
-https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748cd/configs/swarm/genesis.json#L185
-
-This is backed by the `ExecutorMode` struct:
-
-https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748cd/genesis/src/lib.rs#L122-L131
-
-As we discussed in #4239, `executor` field with file path should be renamed to `executor_file` for uniformity.
-
-In addition to that, I propose to remove inline executor mode. It was effectively deprecated a long time ago: there was a warning printed when the inline mode is used (cannot find references for that). The reason is that inlining WASM blob makes the whole genesis file (1) clunky and (2) hardly reproducible due to WASM compilation intricacies.
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-18 22:34:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/4227" class=".btn">4227</a>
             </td>
             <td>
