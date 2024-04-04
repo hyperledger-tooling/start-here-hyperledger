@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6880" class=".btn">#6880</a>
+            </td>
+            <td>
+                <b>
+                    Log detailed timing of block creation steps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+if log level is at debug, detailed timing of block creation steps are logged, along with the standard block info.
+
+Log will look like this:
+
+```
+2024-04-04 15:20:40.626+00:00 | MinerExecutor | INFO  | BlockMiner | Produced #260,592 / 2 tx / 0 om / 200,000 (0.3%) gas / (0xeb30913e8d15e29c04162ac4cbca67b3fa90b92b4cfbea240f7c7a9e39ddc842) in 0.000s, timing [Started at 2024-04-04T15:20:40.418575040Z, protocolWait=PT0.199224809S, duplicateWorldState=PT0.000182886S, preTxsSelection=PT0.003144382S, txsSelection=PT0.004291671S, blockAssembled=PT0.000702624S, importingBlock=PT0.000591079S, notifyListeners=PT0.000001143S, log=PT0.000008992S]
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 15:35:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6879" class=".btn">#6879</a>
             </td>
             <td>
@@ -1232,56 +1287,6 @@ Fixes #6840
     </table>
     <div class="right-align">
         Created At 2024-03-29 01:01:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6837" class=".btn">#6837</a>
-            </td>
-            <td>
-                <b>
-                    Fix two flacky acceptance tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">flake</span>
-            </td>
-            <td>
-                ## PR description
-
-Make the tests more robust, ensuring that the miner has started mining blocks and the the following nodes are correctly syncing from the miner, since otherwise what could happen is that the following nodes are still not aware that the miner is ahead of them, the tx is sent, then they start syncing with the miner but since they could be many block behind, then the txpool is disabled and the sent tx is lost before it could be broadcasted.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #6816
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-28 14:57:33 +0000 UTC
     </div>
 </div>
 
