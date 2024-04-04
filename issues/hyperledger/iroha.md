@@ -214,62 +214,6 @@ In addition to that, I propose to remove inline executor mode. It was effectivel
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4290" class=".btn">4290</a>
-            </td>
-            <td>
-                <b>
-                    [suggestion] Remove `parse_display` dependency entirely
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                In #4239 @mversic suggested to remove `parse_display` dependency entirely from the workspace. At the moment it is used by `iroha_ffi_derive`:
-
-https://github.com/hyperledger/iroha/blob/df8c49aab4842aeac64291b108fa6cfcd04fffbe/ffi/derive/Cargo.toml#L27
-
-There are other crates, like `strum` and `serde_with`, that we usually rely on instead.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-18 22:23:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4289" class=".btn">4289</a>
-            </td>
-            <td>
-                <b>
-                    [suggestion] Use `nonzero_ext` across workspace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                #4239 introduced `nonzero_ext` dependency in `iroha_config`. @mversic suggested that it might be a good idea to use it all across the workspace.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-18 22:20:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/4227" class=".btn">4227</a>
             </td>
             <td>
