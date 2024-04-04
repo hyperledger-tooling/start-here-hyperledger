@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Correction for Ordering Service Node Action plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Completed corrections for the Ordering Node Actions module
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 12:34:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/48" class=".btn">#48</a>
             </td>
             <td>

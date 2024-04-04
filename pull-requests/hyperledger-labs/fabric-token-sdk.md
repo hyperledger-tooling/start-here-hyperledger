@@ -171,29 +171,3 @@ This caused tokenchaincode to fail when there are no auditors.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/587" class=".btn">#587</a>
-            </td>
-            <td>
-                <b>
-                    Update FSC dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-28 14:11:29 +0000 UTC
-    </div>
-</div>
-
