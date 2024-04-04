@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4794" class=".btn">#4794</a>
+            </td>
+            <td>
+                <b>
+                    CouchDB index support for implicit collections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow CouchDB index creation on implicit collection of organisations.
+
+Indexes can be created for specific organisation's implicit collections at:
+`META-INF/statedb/couchdb/collections/_implicit_org_<MSP_ID>` directory of the chaincode package.
+
+Common indexes for all the organisations' implicit collection can be created at:
+`META-INF/statedb/couchdb/collections/_implicit_org_*` directory of the chaincode package.
+( `*` acts as wildcard for all organisation MSP ids. )
+
+#### Type of change
+
+- New feature
+
+#### Description
+Updated chaincode deployment handler to check if the indexes are for implicit collection if given collection directory name not explicitly defined in collection config. If the implicit collection indexes belong this handling peer's organisation or passed as global implicit collection indexes (using `*` notation), then indexes are created on corresponding implicit collection.
+
+#### Additional details
+- Please review the way of fetching `localMspId` directly using `viper` at `NewDB` constructor function.
+- Added few more tar file entries to represent implicit collection indexes in unit tests. (However UT `TestHandleChainCodeDeployOnCouchDB` was already failing due to some other error)
+
+#### Related issues
+- #4780 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 08:10:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4793" class=".btn">#4793</a>
             </td>
             <td>
@@ -722,45 +769,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2024-03-29 08:44:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4771" class=".btn">#4771</a>
-            </td>
-            <td>
-                <b>
-                    BFT synchronizer: integration test against an orderer that does block censorship
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                TEST update
-
-* Run a 4 orderer smart bft cluster.
-* Do 10 TXs.
-* Shut down o4.
-* Do 10 more TXs.
-* Shutdown o1,o2,o3
-* Prepares 3 orderer mocks with 20 TXs, with the addresses of o1,o2,o3
-* Emulates block censorship
-* Start o4
-* O4 should detects the block censorship attempt and get all 20 blocks to its ledger
-
-#### Related issues
-BFT synchronizer: integration test against an orderer that does block censorship #4731
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-28 10:13:45 +0000 UTC
     </div>
 </div>
 
