@@ -1,13 +1,13 @@
 
-[6877](https://github.com/hyperledger/besu/pull/6877) Relax PeerReputation timeout threshold
+[6879](https://github.com/hyperledger/besu/pull/6879) fix: Use HttpRequest authority instead of host
 
-[5](https://github.com/hyperledger-labs/aries-agent-controller/pull/5) Bump django from 4.1.7 to 4.1.13
+[6](https://github.com/hyperledger-labs/aries-agent-controller/pull/6) Bump pillow from 9.4.0 to 10.3.0
 
-[4793](https://github.com/hyperledger/fabric/pull/4793) Remove global level endpoints from the channel config
+[2872](https://github.com/hyperledger/aries-cloudagent-python/pull/2872) Emit the OOB done event even for multi-use invites
 
-[2870](https://github.com/hyperledger/aries-cloudagent-python/pull/2870) refactor: logging configs setup
+[186](https://github.com/hyperledger-labs/fabric-operator/pull/186) Address CVE-2024-24786 in google.golang.org/protobuf.
 
-[2869](https://github.com/hyperledger/aries-cloudagent-python/pull/2869) chore(deps): Bump pillow from 10.2.0 to 10.3.0
+[682](https://github.com/hyperledger-labs/fabric-operations-console/pull/682) Upgrade google.golang.org/protobuf for CVE-2024-24786.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

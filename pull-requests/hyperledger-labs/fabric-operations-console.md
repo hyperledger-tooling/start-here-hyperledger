@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/682" class=".btn">#682</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade google.golang.org/protobuf for CVE-2024-24786.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+[CVE-2024-24786](https://nvd.nist.gov/vuln/detail/CVE-2024-24786)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-03 19:10:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/681" class=".btn">#681</a>
             </td>
             <td>
