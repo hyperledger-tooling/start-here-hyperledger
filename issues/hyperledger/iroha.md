@@ -412,39 +412,3 @@ Idea is to remove redundant clone by directly convert from `String` to `Box<str>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4176" class=".btn">4176</a>
-            </td>
-            <td>
-                <b>
-                    [suggestion] Support `release` profile in `test_env.py`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                ## Description
-
-`test_env.py` builds and uses several binaries in `debug` mode (`kagami`, `iroha`, `iroha_client_cli`). In some cases I find it more practical to setup a testing environment using `release` binaries. When I do not change binaries themselves, but want to run tests again and again, tests running with `release` Iroha build might complete much faster, **although I haven't checked**.
-
-So, my request is to extend `test_env.py` CLI with an argument to specify using binaries with `release` profile:
-
-```shell
-./test_env.py setup --release
-# or
-./test_env.py setup --profile=release
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-12-26 11:16:47 +0000 UTC
-    </div>
-</div>
-
