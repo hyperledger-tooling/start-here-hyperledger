@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1632" class=".btn">#1632</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1633" class=".btn">#1633</a>
             </td>
             <td>
                 <b>
-                    Polkadot: `ink!` 5.0
+                    docs: fix some comments
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Upgrade Solang to be compatible with [`ink!`  v5.0 ](https://use.ink/faq/migrating-from-ink-4-to-5).
-
-- Simplify events
-- Latest substrate node on CI
-- Update tests and docs
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-28 17:35:42 +0000 UTC
+        Created At 2024-04-05 08:16:40 +0000 UTC
     </div>
 </div>
 
