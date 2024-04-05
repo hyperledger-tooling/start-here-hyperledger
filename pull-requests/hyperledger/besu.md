@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6886" class=".btn">#6886</a>
+            </td>
+            <td>
+                <b>
+                    Improve logging of peer disconnects due to subprotocol triggered
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add additional detail when we disconnect with SUBPROTOCOL_TRIGGERED disconnect reason. I've extended the enum with additional SUBPROTOCOL_TRIGGERED values using the same code `0x10` and added a message to these extended `SUBPROTOCOL_TRIGGERED` reasons.
+
+If we receive a `0x10` this is mapped back to the generic `SUBPROTOCOL_TRIGGERED` reason.
+
+example with the changes
+```
+Disconnecting connection 1859339149, peer 0x6b8a113cb2edfa5d... reason 0x10 SUBPROTOCOL_TRIGGERED_MISMATCHED_NETWORK Mismatched network id
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 05:38:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6885" class=".btn">#6885</a>
+            </td>
+            <td>
+                <b>
+                    Add debug logging to see why we stop downloading from peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Logging for debugging #6884 
+
+
+Example when peer disconnected:
+```
+DEBUG | FastSyncDownloadPipelineFactory | Stopping chain download due to disconnected peer PeerId: 0x143e11fb766781d2... PeerReputation score: 150, timeouts: {}, useless: 4, validated? true, disconnected? true, client: Geth/v1.13.14-stable-2bd6bd01/linux-amd64/go1.21.7, [Connection with hashCode 68650968 inboundInitiated? false initAt 1712288750661], enode://143e11fb766781d22d92a2e33f8f104cddae4411a122295ed1fdb6638de96a6ce65f5b7c964ba3763bba27961738fef7d3ecc739268f3e5e771fb4c87b6234ba@146.190.1.103:30303
+```
+
+Example when lastRoundHeader >= pivotBlockHeader:
+```
+DEBUG | FastSyncDownloadPipelineFactory | Stopping chain download as lastRoundHeader=1283816 is not less than pivotBlockHeader=1283816 for peer PeerId: 0x7a52e545cdc62aea... PeerReputation score: 150, timeouts: {}, useless: 0, validated? true, disconnected? false, client: besu/v24.3.0/linux-x86_64/openjdk-java-17, [Connection with hashCode 1511026419 inboundInitiated? true initAt 1712291178516], enode://7a52e545cdc62aea505e6f8795b10741ba7a9ef4b7daba88af55c0bd5af74ebeefe1098faeb31fea320f2c00297cfc5ad5af6c94916ce6b5d4f05e2d8b1ad562@202.61.198.135:30303?discport=0
+```
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 01:52:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6883" class=".btn">#6883</a>
             </td>
             <td>
@@ -1242,105 +1335,6 @@ https://github.com/hyperledger/besu/commit/f2c2512ef64a5c41e69e325c4d2f76837180c
     </table>
     <div class="right-align">
         Created At 2024-03-29 13:28:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6843" class=".btn">#6843</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] make test use threshold values explicitly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">peering</span>
-            </td>
-            <td>
-                ## PR description
-changing these threshold values breaks the tests. make the dependency explicit and use the actual values
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-29 02:04:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6841" class=".btn">#6841</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] refactor to check for null peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Refactor of private method
-Was passing peer.getId() as a param in both instance where it was called
-* which is unnecessary since the peer is passed as a param
-* and the null check is done within registerDisconnect
-* added an extra trace log line since it may be pathological that this method is called with a null peer
-
-## Fixed Issue(s)
-Fixes #6840 
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-29 01:01:42 +0000 UTC
     </div>
 </div>
 
