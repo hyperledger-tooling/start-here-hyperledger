@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4411" class=".btn">#4411</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2085: Authenticate personal accounts by ID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+#### [feature] #2085: Authenticate personal accounts by ID
+
+This is a milestone for the following commit. The inclusion of the public key in the ID allows the ID to match the verifying key of the signature. This makes it possible to authenticate transactions and queries with the ID alone.
+
+- `api-changes`: single signatory account, single signature transaction
+- `api-changes`: remove query `FindAccountsByName`
+- `config-changes`: client config `account.id` changes to `account.domain_id`
+- add `iroha_sample_params` utility for tests
+- different notions of signatories "peer", "genesis", and "alice" in the test network
+
+#### [feature] #2085: Auto-register destination account on transfer
+
+Includes registration of the destination account in the transfer execution. The main use case is described in test `auto_register_account::on_transfer::asset_numeric`
+
+### Linked issue
+
+- This is the 1st of the 3-part work of account restructuring:
+  - Closes #2085
+  - #4372
+  - #4373
+- Opens #4410
+- Contains suggestions for #4409
+
+### Benefits
+
+As long as you know the address (account ID), you can send without worrying whether the destination account is already registered on the chain.
+However, the current design requires the sender to be authorized to register a new account within the domain. See https://github.com/hyperledger/iroha/pull/4411#discussion_r1552269607
+
+### Drawbacks
+
+- Conventional `name@domain` notation will be temporary lost
+  - For dev use, introduces an utility `iroha_sample_params::alias`
+  - To be restored with #4372
+- Multi-signature functionality will be temporary lost, coupled with [the queue change](https://github.com/hyperledger/iroha/pull/4308)
+  - To be restored and enhanced with #4373
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 18:22:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4408" class=".btn">#4408</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Fix resolve history reference
+                    Feature/query search
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
                 
             </td>
             <td>
-                <nil>
+                package created to facilitate asset search in the ledger
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-01-10 17:34:26 +0000 UTC
+        Created At 2024-04-04 23:09:17 +0000 UTC
     </div>
 </div>
 
