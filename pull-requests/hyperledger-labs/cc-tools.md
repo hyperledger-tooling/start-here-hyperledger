@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Feature/query search
+                    create package query-search
                 </b>
             </td>
         </tr>
@@ -27,12 +27,26 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
                 
             </td>
             <td>
-                package created to facilitate asset search in the ledger
+                This package provides a way to query a database, possibly using a CouchDB-like interface and defines several types, methods, and functions for querying. It facilitates the creation of queries without having to write queries in a raw form.
+
+**Features**
+- The Config struct contains the settings used for querying
+- These settings include RemoveTags (a list of tags to be removed from the results)
+- AssetName (the name of the asset being queried) used for create query
+- PageSize (the number of results per page)
+- BookMark (the bookmark for pagination)
+- Resolve (a list of relations to be resolved)
+- Sort (a list of fields to sort by)
+- IndexDoc (a document containing the index design and name)
+- NoRemoveTagsTransaction (a boolean indicating whether to remove tags during the transaction),
+- CallBack (a function to be called after the query is executed)
+- Date handling for searches
+- Wraper to add fields to the search
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-04 23:09:17 +0000 UTC
+        Created At 2024-04-05 17:00:17 +0000 UTC
     </div>
 </div>
 

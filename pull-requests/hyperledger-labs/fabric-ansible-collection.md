@@ -94,29 +94,3 @@ See also: https://hyperledger-fabric.readthedocs.io/en/release-2.5/commands/peer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    Update actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-29 14:59:14 +0000 UTC
-    </div>
-</div>
-

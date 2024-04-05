@@ -128,31 +128,3 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/953" class=".btn">#953</a>
-            </td>
-            <td>
-                <b>
-                    feat: Create VC Verification API Endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">prism-agent</span>
-            </td>
-            <td>
-                ### Description: 
-https://input-output.atlassian.net/browse/ATL-6770
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-29 18:07:35 +0000 UTC
-    </div>
-</div>
-
