@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3170" class=".btn">#3170</a>
+            </td>
+            <td>
+                <b>
+                    refactor(ledger-browser): rename ledger browser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                    refactor(ledger-browser): rename ledger browser
+    - delete solid.js version
+    - rename package
+    - fix type errors
+    - bump vite from 5.0.12 to 5.0.13 in /packages/cacti-ledger-browser-react
+    
+    Closes: #3156
+    
+    Signed-off-by: Tomasz Awramski <tomasz.awramski@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-03 18:32:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3168" class=".btn">#3168</a>
             </td>
             <td>
