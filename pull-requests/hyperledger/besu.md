@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6883" class=".btn">#6883</a>
+            </td>
+            <td>
+                <b>
+                    EIP-7002: Validator Exit contract helper and adding exits to created blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                _Sorry for the big PR! I tried to keep it more concise but lots of the pieces kinda work together so it was hard to separate them! Hopefully it isn't too bad to review as a bulk of the changes are adding a parameter to a constructor or something like that..._ ❤️ 
+
+This is a preliminary implementation of [EIP-7002](https://eips.ethereum.org/EIPS/eip-7002) logic for adding exits from the Validator Exit smart contract into blocks (and including them on the execution payload object of the Engine API).
+
+**Summary of changes**
+- Updated engine API method and ExeutionPayload structure to support exits
+- Implemented Validator Exit Contract Helper
+- Updated BlockCreator to include exits from the validator exit contract
+
+fixes #6881 and #6882
+
+**Open Questions/Future Improvements**
+- Do we need extra validation on `AbstractBlockProcessor` (e.g. check that we do not have more exits than expected). I have a feeling we do not need to as we are running the system logic as part of processing, so any difference between the exits in the block we are validating would be caught by a different exits_root post our processing. But I might be wrong. The same question applies to `MainnetBlockBodyValidator. validateBodyLight()`.
+- The Validator Exits contract address might need to be parameterized for each network. The same applies to things like the maximum number of exits per block, etc.
+- Do we need to have `ValidatorExitContractHelper` behind a protocol schedule setup in case the contract goes through some changes in future upgrades?
+
+## Engine API changes
+
+Most of the logic was already there, few pieces had to be added (e.g. constructor parameters but the core of the logic hasn't changed). The more important change is how GetPayloadV4 includes the exits in the execution payload.
+
+## Validator Exit Contract Helper
+
+This is an initial implementation based on the work done by lightclient on the Validator Exit smart contract (https://github.com/lightclient/7002asm), and also using the bytecode defined in the EIP (https://eips.ethereum.org/EIPS/eip-7002#deployment).
+
+Each exit uses 3 storage slots (each slot has 32 bytes). There is a bit of trickery to ensure they fit in exactly on 3 slots (some right/left padding depending on the field). The detailed diagram of the expected storage can be seen [in this code](https://github.com/lightclient/7002asm/blob/main/src/main.eas#L239-L251).
+
+## Including exits on blocks
+
+The system call logic has been implemented in a way that manipulates the contract storage as if we were executing the call through the EVM (although no EVM is involved). This seems to be the expected behaviour for system calls. The heard of this is how `AbstractBlockCreator` uses `ValidatorExitContractHelper.popExitsFromQueue(..)`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 21:09:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6880" class=".btn">#6880</a>
             </td>
             <td>
