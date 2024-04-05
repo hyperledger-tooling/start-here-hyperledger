@@ -14,6 +14,107 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6890" class=".btn">#6890</a>
+            </td>
+            <td>
+                <b>
+                     Correctly initialize the txpool as disabled on creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Correctly initialize the txpool as disabled on creation, to avoid exception when calling txpool methods before the initial sync phase is done.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #6863 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 10:23:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6889" class=".btn">#6889</a>
+            </td>
+            <td>
+                <b>
+                    confirm pivot block - removed requirement for chain height estimate 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+When choosing the "best" peer to try to confirm the pivot block
+* use the default comparator (TTD then chain height)
+* remove the pre-requirement for the chain height estimate 
+* don't disconnect the "worst" useless peer at this point
+* and update the peer's chain height estimate if the pivot block is confirmed
+
+## Fixed Issue(s)
+Fixes #6887 
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 10:08:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6886" class=".btn">#6886</a>
             </td>
             <td>
@@ -181,7 +282,7 @@ if log level is at debug, detailed timing of block creation steps are logged, al
 Log will look like this:
 
 ```
-2024-04-04 15:20:40.626+00:00 | MinerExecutor | INFO  | BlockMiner | Produced #260,592 / 2 tx / 0 om / 200,000 (0.3%) gas / (0xeb30913e8d15e29c04162ac4cbca67b3fa90b92b4cfbea240f7c7a9e39ddc842) in 0.000s, timing [Started at 2024-04-04T15:20:40.418575040Z, protocolWait=PT0.199224809S, duplicateWorldState=PT0.000182886S, preTxsSelection=PT0.003144382S, txsSelection=PT0.004291671S, blockAssembled=PT0.000702624S, importingBlock=PT0.000591079S, notifyListeners=PT0.000001143S, log=PT0.000008992S]
+2024-04-05 10:54:46.962+00:00 | MinerExecutor | INFO  | BlockMiner | Produced #260,775 / 63 tx / 0 om / 1,577,124 (2.6%) gas / (0xb6907722d13c36fb54747d11f4b7c734d6b57035ca1a3428e4b5c9f347644b63) in 0.000s, timing [Started at 2024-04-05T10:54:46.693633274Z, protocolWait=254ms, duplicateWorldState=0ms, preTxsSelection=3ms, txsSelection=9ms, blockAssembled=1ms, importingBlock=0ms, notifyListeners=0ms, log=0ms]
 ```
 
 ## Fixed Issue(s)
