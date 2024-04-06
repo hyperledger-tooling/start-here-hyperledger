@@ -64,7 +64,7 @@ a2c9c789ca24   hyperledger/fabric-peer:2.5.6      "peer node start"        6 min
 
 I really appreciate any help!
 
-Edit: Sometimes it works correctly when I do `fablo recreate`, but it's really inconsitent. Also, most of the times I do `fablo reset` it fails again, so I need to fix this.
+Edit: Sometimes it works correctly when I do `fablo recreate`, but it's really inconsistent. Also, most of the times I do `fablo reset` it fails again, so I need to fix this.
             </td>
         </tr>
     </table>
