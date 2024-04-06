@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/606" class=".btn">#606</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/607" class=".btn">#607</a>
             </td>
             <td>
                 <b>
-                    Fix the wrong link to nonexistent doc
+                    Connected the chaincode's upload function
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                <nil>
+                Replace the API URL for uploading the chaincode with the updated URL in the front end.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-28 21:59:26 +0000 UTC
+        Created At 2024-04-06 03:48:21 +0000 UTC
     </div>
 </div>
 
