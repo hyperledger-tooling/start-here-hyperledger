@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4798" class=".btn">#4798</a>
+            </td>
+            <td>
+                <b>
+                    add unit test for common/deliverclient/blocksprovider/delivery_requester
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+- Test update
+
+#### Description
+fix #4567 
+Added unit test for deliveryRequester.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-07 00:11:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4797" class=".btn">#4797</a>
             </td>
             <td>
