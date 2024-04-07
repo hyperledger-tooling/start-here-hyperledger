@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4801" class=".btn">#4801</a>
+            </td>
+            <td>
+                <b>
+                    BFT chain unit tests: configure - remove node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+This PR aims to test a removal of a node as part of the BFT chain unit tests.
+
+#### Related issues
+
+#4008 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-07 12:48:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4800" class=".btn">#4800</a>
             </td>
             <td>
