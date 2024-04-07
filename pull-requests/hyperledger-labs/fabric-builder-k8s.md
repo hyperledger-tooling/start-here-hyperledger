@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/110" class=".btn">#110</a>
             </td>
             <td>
                 <b>
-                    Copy statedb/couchdb recursively discarding non .json files to create index for public and private data assets.
+                    add option for peerPodOwnership
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                Related to issue: #106 
+                fix #88 
 
-Problem when private data indexing is needed.
+I tried to fix the issue though I am new to golang and kubernetes both. Would love to improve this pr and get it merged!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-25 21:47:44 +0000 UTC
+        Created At 2024-04-07 17:38:59 +0000 UTC
     </div>
 </div>
 
