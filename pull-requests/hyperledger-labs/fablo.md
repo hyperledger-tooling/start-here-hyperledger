@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/431" class=".btn">#431</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/435" class=".btn">#435</a>
             </td>
             <td>
                 <b>
-                    Set bevel 1.9
+                    Add depends_on section for peers which are using Couch
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-08 13:50:10 +0000 UTC
+        Created At 2024-04-08 05:18:47 +0000 UTC
     </div>
 </div>
 
