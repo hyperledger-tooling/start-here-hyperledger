@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/592" class=".btn">#592</a>
+            </td>
+            <td>
+                <b>
+                    change max token calculation to use big int because high float64 is h…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …andled unreliably across architectures.
+
+Found this out when creating the tokengen params on arm64 and then running the code on amd64... See also https://groups.google.com/g/golang-nuts/c/YxpOo02fT9s?pli=1. I also noticed the original code does -1, whereas I had to -2 to get the same result for a bitlength of 64.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-08 15:10:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/590" class=".btn">#590</a>
             </td>
             <td>

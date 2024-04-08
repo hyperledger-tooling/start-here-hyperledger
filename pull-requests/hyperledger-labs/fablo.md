@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
             </td>
             <td>
                 <b>
-                    Add depends_on section for peers which are using Couch
+                    Add depends_on section for peers which are using CouchDb
                 </b>
             </td>
         </tr>
