@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/959" class=".btn">#959</a>
+            </td>
+            <td>
+                <b>
+                    feat: VC Verification Abstraction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span><span class="chip">prism-agent</span>
+            </td>
+            <td>
+                ### Description: 
+https://input-output.atlassian.net/browse/ATL-6447
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-08 03:55:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/958" class=".btn">#958</a>
             </td>
             <td>
