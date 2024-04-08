@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/590" class=".btn">#590</a>
+            </td>
+            <td>
+                <b>
+                    tokengen: print commit version, time, and modified flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-08 10:52:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/589" class=".btn">#589</a>
             </td>
             <td>
@@ -140,34 +166,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-04-02 14:22:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/588" class=".btn">#588</a>
-            </td>
-            <td>
-                <b>
-                    return identities slice of len 0 for auditors instead of len 1 with <…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                …empty> id when no auditors are set.
-
-This caused tokenchaincode to fail when there are no auditors.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-01 08:57:45 +0000 UTC
     </div>
 </div>
 
