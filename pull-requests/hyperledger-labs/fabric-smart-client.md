@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/542" class=".btn">#542</a>
+            </td>
+            <td>
+                <b>
+                    Fix race conditions in tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-08 09:54:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/541" class=".btn">#541</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
+[590](https://github.com/hyperledger-labs/fabric-token-sdk/pull/590) tokengen: print commit version, time, and modified flag
+
+[542](https://github.com/hyperledger-labs/fabric-smart-client/pull/542) Fix race conditions in tests
+
+[147](https://github.com/hyperledger-labs/hlf-connector/pull/147) Increment version after release
+
+[146](https://github.com/hyperledger-labs/hlf-connector/pull/146) Increment version after release
+
 [145](https://github.com/hyperledger-labs/hlf-connector/pull/145) Increment version after release
-
-[435](https://github.com/hyperledger-labs/fablo/pull/435) Add depends_on section for peers which are using Couch
-
-[959](https://github.com/hyperledger-labs/open-enterprise-agent/pull/959) feat: VC Verification Abstraction
-
-[110](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/110) add option for peerPodOwnership
-
-[144](https://github.com/hyperledger-labs/hlf-connector/pull/144) Improve SSL Expiry Metrics and Switch to Round-Robin Partition Assigner
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
