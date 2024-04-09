@@ -15,28 +15,29 @@ permalink: /releases/hyperledger/aries-cloudagent-python
         <tr>
             <td colspan="2">
                 <b>
-                    0.12.0rc2
+                    0.12.0rc3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.12.0rc2
+                    0.12.0.rc3
                 </span>
             </td>
             <td>
-                Release 0.12.0 is a relative large release but currently with no breaking changes. We expect there will be breaking changes (at least in the handling of endorsement) before the 0.12.0 release is finalized, hence the minor version update.
+                Release 0.12.0 is a relatively large release with many new capabilities, feature improvements, upgrades and bug fixes. Importantly, this release completes the ACA-Py implementation of [Aries Interop Profile v2.0](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0302-aries-interop-profile#aries-interop-profile-version-20), and enables the elimination of unqualified DIDs. While only deprecated for now, all deployments of ACA-Py to move to using only fully qualified DIDs.
 
-The `rc0` release candidate introduced a regression via [PR \#2705] that has been reverted in `rc1` and later via [PR \#2789]. Further investigation is needed to determine how to accomplish the goal of [PR \#2705] ("feat: inject profile") without the regression. The `rc2` and later releases address a regression related to the sending of a revocation notification from the issuer to the holder of a newly revoked credential, fixed in [PR \#2814].
+Much progress has been made on `did:peer` support in this release, with the handling of inbound [DID Peer] 1 added, and inbound and outbound support for DID Peer 2 and 4. Much attention was also paid to making sure that the Peer DID and DID Exchange capabilities match those of [Credo-TS] (formerly Aries Framework JavaScript). The completion of that work eliminates the remaining places where "unqualified" DIDs are being used, and to enable the "connection reuse" in the Out of Band protocol when using DID Peer 2 and 4 DIDs. See the document [Qualified DIDs] for details about how to control the use of DID Peer 2 or 4 in an ACA-Py deployment, and how to eliminate the use of unqualified DIDs. Support for DID Exchange v1.1 has been added to ACA-Py, with support for DID Exchange v1.0 retained, and we've added support for DID Rotation.
 
-[PR \#2814]: https://github.com/hyperledger/aries-cloudagent-python/pull/2705
-[PR \#2705]: https://github.com/hyperledger/aries-cloudagent-python/pull/2705
-[PR \#2789]: https://github.com/hyperledger/aries-cloudagent-python/pull/2789
+[Qualified DIDs]: https://github.com/hyperledger/aries-cloudagent-python/blob/main/docs/features/QualifiedDIDs.md
+[Credo-TS]:  https://github.com/openwallet-foundation/credo-ts
 
-Much progress has been made on `did:peer` support in this release, with the handling of inbound [DID Peer] 1 added, and inbound and outbound support for DID Peer 2 and 4. The goal of that work is to eliminate the remaining places where "unqualified" DIDs remain, and to enable the "connection reuse" in the Out of Band protocol when using DID Peer 2 and 4 DIDs. Work continues in supporting ledger agnostic [AnonCreds], and the new [Hyperledger AnonCreds Rust] library. Attention was also given in the release to the handling of JSON-LD [Data Integrity Verifiable Credentials], with more expected before the release is finalized. In addition to those updates, there were fixes and improvements across the codebase.
+Work continues towards supporting ledger agnostic [AnonCreds], and the new [Hyperledger AnonCreds Rust] library. Some of that work is in this release, the rest will be in the next release.
 
-The most visible change in this release is the re-organization of the ACA-Py documentation, moving the vast majority of the documents to the folders within the `docs` folder -- a long overdue change that will allow us to soon publish the documents on [https://aca-py.org](https://aca-py.org) directly from the ACA-Py repository, rather than from the separate [aries-acapy-docs](https://github.com/hyperledger/aries-acapy-docs) currently being used.
+Attention was given in the release to simplifying the handling of JSON-LD [Data Integrity Verifiable Credentials].
+
+An important change in this release is the re-organization of the ACA-Py documentation, moving the vast majority of the documents to the folders within the `docs` folder -- a long overdue change that will allow us to soon publish the documents on [https://aca-py.org](https://aca-py.org) directly from the ACA-Py repository, rather than from the separate [aries-acapy-docs](https://github.com/hyperledger/aries-acapy-docs) currently being used.
 
 A big developer improvement is a revamping of the test handling to eliminate ~2500 warnings that were previously generated in the test suite.  Nice job [@ff137](https://github.com/ff137)!
 
@@ -45,9 +46,20 @@ A big developer improvement is a revamping of the test handling to eliminate ~25
 [Hyperledger AnonCreds Rust]: https://github.com/hyperledger/anoncreds-rs
 [Data Integrity Verifiable Credentials]: https://www.w3.org/TR/vc-data-integrity/
 
-### 0.12.0rc2 Breaking Changes
+### 0.12.0rc3 Breaking Changes
 
-There are no breaking changes in 0.12.0rc2.
+A deployment of this release that proactively uses DID Peer 2 and 4 will encounter problems interacting with agents deployed using older Aries protocols. Led by the Aries Working Group, the Aries community is encouraging the upgrade of all ecosystem deployments to accept all commonly used qualified DIDs, including DID Peer 2 and 4. See the document [Qualified DIDs] for more details about the transition to using only qualified DIDs.
+
+New deprecation notices were added to ACA-Py on startup and in the OpenAPI/Swagger interface. Those added are listed below. As well, we anticipate 0.12.0 being the **last ACA-Py release** to include support for the previously deprecated Indy SDK.
+
+- RFC 0036 Issue Credential v1
+  - Migrate to use RFC 0453 Issue Credential v2
+- RFC 0037 Present Proof v2
+  - Migrate to use RFC 0454 Present Proof v2
+- RFC 0169 Connections
+  - Migrate to use RFC 0023 DID Exchange and 0434 Out-of-Band
+- The use of `did:sov:...` as a Protocol Doc URI
+  - Migrate to use `https://didcomm.org/`.
 
 ## What's Changed
 * Initial code migration from anoncreds-rs branch by @ianco in https://github.com/hyperledger/aries-cloudagent-python/pull/2596
@@ -155,22 +167,53 @@ There are no breaking changes in 0.12.0rc2.
 * Send revocation list instead of rev_list object - Anoncreds by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2821
 * chore(deps): Bump cryptography from 42.0.3 to 42.0.4 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/2805
 * 0.12.0rc2 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2825
+* Integration tests - Add retry to did registration by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2827
+* Create AnonCredsMethods.md by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2832
+* Cleanup of docs, generator label fix by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2831
+* chore(deps): Bump jwcrypto from 1.5.4 to 1.5.6 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/2833
+* patch for #2781: User Agent header in doc loader by @gmulhearn-anonyome in https://github.com/hyperledger/aries-cloudagent-python/pull/2824
+* feat: did-rotate by @amanji in https://github.com/hyperledger/aries-cloudagent-python/pull/2816
+* Remove requirement for write ledger in read-only mode. by @esune in https://github.com/hyperledger/aries-cloudagent-python/pull/2836
+* chore(deps): Bump the all-actions group with 1 update by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/2844
+* Support connection re-use for did:peer:2/4 by @ianco in https://github.com/hyperledger/aries-cloudagent-python/pull/2823
+* Add functionality for building and running agents seprately by @sarthakvijayvergiya in https://github.com/hyperledger/aries-cloudagent-python/pull/2845
+* Update to run_demo script to support Apple M1 CPUs by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2843
+* chore(deps-dev): Bump black from 24.1.1 to 24.3.0 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/2847
+* Anoncreds - support for anoncreds and askar wallets concurrently by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2822
+* Minor updates to the documentation - links, navigation and markdown by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2848
+* fix: did exchange multiuse invites respond in kind by @dbluhm in https://github.com/hyperledger/aries-cloudagent-python/pull/2850
+* Prevent revocable cred def being created without tails server by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2849
+* Update GHA so that broken image links work on docs site - without breaking them on GitHub by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2852
+* Increase promote did retries by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2854
+* Change did <--> verkey logging on connections by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/2853
+* feat: external signature suite provider interface by @dbluhm in https://github.com/hyperledger/aries-cloudagent-python/pull/2835
+* chore: propose official deprecations of a couple of features by @dbluhm in https://github.com/hyperledger/aries-cloudagent-python/pull/2856
+* fix(credo-interop): various didexchange and did:peer related fixes by @dbluhm in https://github.com/hyperledger/aries-cloudagent-python/pull/2748
+* fix: states for discovery record to emit webhook by @dbluhm in https://github.com/hyperledger/aries-cloudagent-python/pull/2858
+* Fix run_tests script by @ianco in https://github.com/hyperledger/aries-cloudagent-python/pull/2866
+* Add missing VC-DI/LD-Proof verification method option by @PatStLouis in https://github.com/hyperledger/aries-cloudagent-python/pull/2867
+* chore(deps): Bump pillow from 10.2.0 to 10.3.0 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/2869
+* Emit the OOB done event even for multi-use invites by @ianco in https://github.com/hyperledger/aries-cloudagent-python/pull/2872
+* refactor: introduce use_did and use_did_method by @dbluhm in https://github.com/hyperledger/aries-cloudagent-python/pull/2862
+* 0.12.0rc3 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/2878
 
 ## New Contributors
 * @mrkaurelius made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2638
 * @jamshale made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2672
 * @PatStLouis made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2670
 * @tra371 made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2674
+* @gmulhearn-anonyome made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2824
+* @sarthakvijayvergiya made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2845
 
-**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.11.0...0.12.0rc2
+**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.11.0...0.12.0.rc3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.12.0rc2" class=".btn">
+    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.12.0.rc3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-06 03:11:12 +0000 UTC
+        Created At 2024-04-09 02:53:42 +0000 UTC
     </span>
 </div>
 
