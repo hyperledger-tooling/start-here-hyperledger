@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6880" class=".btn">#6880</a>
+            </td>
+            <td>
+                <b>
+                    Log detailed timing of block creation steps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+if log level is at debug, detailed timing of block creation steps are logged, along with the standard block info.
+
+Log will look like this:
+
+```
+2024-04-05 10:54:46.962+00:00 | MinerExecutor | INFO  | BlockMiner | Produced #260,775 / 63 tx / 0 om / 1,577,124 (2.6%) gas / (0xb6907722d13c36fb54747d11f4b7c734d6b57035ca1a3428e4b5c9f347644b63) in 0.000s, timing [Started at 2024-04-05T10:54:46.693633274Z, protocolWait=254ms, duplicateWorldState=0ms, preTxsSelection=3ms, txsSelection=9ms, blockAssembled=1ms, importingBlock=0ms, notifyListeners=0ms, log=0ms]
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 15:35:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6879" class=".btn">#6879</a>
+            </td>
+            <td>
+                <b>
+                    fix: Use HttpRequest authority instead of host
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+fix: Use HttpRequest authority instead of host.
+- Use authority method to determine the host name from header instead of using deprecated host method
+- Fix WebSocketService unit test
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #6878 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [x] acceptance tests: `./gradlew acceptanceTest`
+- [x] integration tests: `./gradlew integrationTest`
+- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 00:18:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6877" class=".btn">#6877</a>
             </td>
             <td>
@@ -539,80 +644,6 @@ fixes #6722
     </table>
     <div class="right-align">
         Created At 2024-04-02 08:15:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6858" class=".btn">#6858</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Use 7 chars instead of 10 for source build hash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Think 7 is the standard length...at least it matches what's in https://github.com/hyperledger/besu/commits/main/ which makes cross referencing a deployment to a commit easier.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 03:06:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6857" class=".btn">#6857</a>
-            </td>
-            <td>
-                <b>
-                    build: Remove incomplete artifactory task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-build: Remove incomplete artifactory task. The top level artifactory task was used to upload dists to artifactory which has been moved to GH
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [x] unit tests: `./gradlew build`
-- [x] acceptance tests: `./gradlew acceptanceTest`
-- [x] integration tests: `./gradlew integrationTest`
-- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 01:37:43 +0000 UTC
     </div>
 </div>
 
