@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    Remove global config
+                    Bump up ibc-go to v8.2.0
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                * Remove global config from Config
-* Add flags to CLI
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-06 02:43:33 +0000 UTC
+        Created At 2024-04-08 21:27:27 +0000 UTC
     </div>
 </div>
 
