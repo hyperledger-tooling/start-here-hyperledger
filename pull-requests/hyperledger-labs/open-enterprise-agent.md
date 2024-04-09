@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/open-enterprise-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/961" class=".btn">#961</a>
+            </td>
+            <td>
+                <b>
+                    feat: Signature, Not Before, Expiration, Schema Verification API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span>
+            </td>
+            <td>
+                https://input-output.atlassian.net/browse/ATL-6788
+https://input-output.atlassian.net/browse/ATL-6780
+https://input-output.atlassian.net/browse/ATL-6774
+https://input-output.atlassian.net/browse/ATL-6781
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 02:50:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/open-enterprise-agent/pull/960" class=".btn">#960</a>
             </td>
             <td>
