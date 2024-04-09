@@ -14,6 +14,155 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4807" class=".btn">#4807</a>
+            </td>
+            <td>
+                <b>
+                    Remove elided badge from README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+removed Azure badge, which is 404
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 17:08:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4806" class=".btn">#4806</a>
+            </td>
+            <td>
+                <b>
+                    Move main to Golang v1.21.9.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Build Fabric using Go v1.21.9.
+
+#### Additional details
+
+n/a
+
+#### Related issues
+
+As per https://github.com/hyperledger/fabric/issues/4804
+
+#### Release Note
+None known.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 16:02:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4805" class=".btn">#4805</a>
+            </td>
+            <td>
+                <b>
+                    Move release 2.5.x to Golang v1.21.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Moves Fabric to being built using v1.21.9
+
+#### Additional details
+
+n/a
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/4804
+
+#### Release Note
+
+No known release impacts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 15:58:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4803" class=".btn">#4803</a>
+            </td>
+            <td>
+                <b>
+                    Update gRPC dependency to address GO-2024-2687
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Use grpc.NewClient() instead of (soon to be) deprecated grpc.Dial().
+- Update staticcheck version to avoid panic when running `make basic-checks` -- at least with Go 1.22.
+- Regenerate documentation and remove trailing space that caused check failure.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 15:31:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4801" class=".btn">#4801</a>
             </td>
             <td>
@@ -670,217 +819,6 @@ Only warnings related to inclusion of document in toctree left
     </table>
     <div class="right-align">
         Created At 2024-04-02 18:47:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4785" class=".btn">#4785</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to Jira in docs (backport #4783)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Jira system has been retired.
-Remove the remaining doc reference to Jira.
-<hr>This is an automatic backport of pull request #4783 done by [Mergify](https://mergify.com).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 16:37:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4784" class=".btn">#4784</a>
-            </td>
-            <td>
-                <b>
-                    add defer GinkgoRecover
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 16:20:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4783" class=".btn">#4783</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to Jira in docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Jira system has been retired.
-Remove the remaining doc reference to Jira.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 16:14:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4782" class=".btn">#4782</a>
-            </td>
-            <td>
-                <b>
-                    I change the RequestMaxBytes setting with the value from the config block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If the RequestMaxBytes parameter is set not equal to 0 when generating a genesis block (passed to the function in the options parameter), it will be ignored. This change corrects the situation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 15:46:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4781" class=".btn">#4781</a>
-            </td>
-            <td>
-                <b>
-                    update variable name in create a channel doc. 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs
-fix #4779 
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 14:41:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4778" class=".btn">#4778</a>
-            </td>
-            <td>
-                <b>
-                    Remove global-level endpoints from channel config - WIP
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- config update
-
-#### Description
-
-This PR aims to block the option to specify global-level endpoints and enforce that endpoints per org are defined. 
-
-#### Related issues
-
- issue #4763 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 13:45:07 +0000 UTC
     </div>
 </div>
 

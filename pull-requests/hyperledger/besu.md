@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6890" class=".btn">#6890</a>
+            </td>
+            <td>
+                <b>
+                     Correctly initialize the txpool as disabled on creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Correctly initialize the txpool as disabled on creation, to avoid exception when calling txpool methods before the initial sync phase is done.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #6863 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 10:23:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6889" class=".btn">#6889</a>
+            </td>
+            <td>
+                <b>
+                    confirm pivot block - removed disconnect based on chain height estimate 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+When choosing the "best" peer to try to confirm the pivot block
+* ~~use the default comparator (TTD then chain height)~~ effectively the same
+* remove the pre-requirement for the chain height estimate 
+* don't disconnect the "worst" useless peer at this point
+* and update the peer's chain height estimate if the pivot block is confirmed
+* also allow 5 peers below the pivot block height since the chain height estimate we use for comparison can be wildly inaccurate
+
+## Fixed Issue(s)
+Fixes #6887 
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 10:08:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6886" class=".btn">#6886</a>
             </td>
             <td>
@@ -669,105 +771,6 @@ This fixes it by using whatever name is given to the release. Don't be clever, j
     </table>
     <div class="right-align">
         Created At 2024-04-02 21:28:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6865" class=".btn">#6865</a>
-            </td>
-            <td>
-                <b>
-                    One JDK to rule them all
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Reduces the number of JDKs used in various docker images to only OpenJDK 21
-Simplifies gradle build scripts to accomodate
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #6703 
-fixes #6722 
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 17:58:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6861" class=".btn">#6861</a>
-            </td>
-            <td>
-                <b>
-                    Remove some dead code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 12:59:29 +0000 UTC
     </div>
 </div>
 
