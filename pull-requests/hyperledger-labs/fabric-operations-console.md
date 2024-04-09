@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/684" class=".btn">#684</a>
+            </td>
+            <td>
+                <b>
+                    Renew MSP admin certificate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Renew MSP admin certificate fix.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 08:44:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/683" class=".btn">#683</a>
+            </td>
+            <td>
+                <b>
+                    os node add to existing channel fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+- Join existing channel by ordering service node without system channel, give warning if OS node msp does not part of channel
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 07:02:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/682" class=".btn">#682</a>
             </td>
             <td>
