@@ -14,6 +14,156 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6886" class=".btn">#6886</a>
+            </td>
+            <td>
+                <b>
+                    Improve logging of peer disconnects due to subprotocol triggered
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add additional detail when we disconnect with SUBPROTOCOL_TRIGGERED disconnect reason. I've extended the enum with additional SUBPROTOCOL_TRIGGERED values using the same code `0x10` and added a message to these extended `SUBPROTOCOL_TRIGGERED` reasons.
+
+If we receive a `0x10` this is mapped back to the generic `SUBPROTOCOL_TRIGGERED` reason.
+
+example with the changes
+```
+Disconnecting connection 1859339149, peer 0x6b8a113cb2edfa5d... reason 0x10 SUBPROTOCOL_TRIGGERED_MISMATCHED_NETWORK Mismatched network id
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 05:38:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6885" class=".btn">#6885</a>
+            </td>
+            <td>
+                <b>
+                    Add debug logging to see why we stop downloading from peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Logging for debugging #6884 
+
+
+Example when peer disconnected:
+```
+DEBUG | FastSyncDownloadPipelineFactory | Stopping chain download due to disconnected peer PeerId: 0x143e11fb766781d2... PeerReputation score: 150, timeouts: {}, useless: 4, validated? true, disconnected? true, client: Geth/v1.13.14-stable-2bd6bd01/linux-amd64/go1.21.7, [Connection with hashCode 68650968 inboundInitiated? false initAt 1712288750661], enode://143e11fb766781d22d92a2e33f8f104cddae4411a122295ed1fdb6638de96a6ce65f5b7c964ba3763bba27961738fef7d3ecc739268f3e5e771fb4c87b6234ba@146.190.1.103:30303
+```
+
+Example when lastRoundHeader >= pivotBlockHeader:
+```
+DEBUG | FastSyncDownloadPipelineFactory | Stopping chain download as lastRoundHeader=1283816 is not less than pivotBlockHeader=1283816 for peer PeerId: 0x7a52e545cdc62aea... PeerReputation score: 150, timeouts: {}, useless: 0, validated? true, disconnected? false, client: besu/v24.3.0/linux-x86_64/openjdk-java-17, [Connection with hashCode 1511026419 inboundInitiated? true initAt 1712291178516], enode://7a52e545cdc62aea505e6f8795b10741ba7a9ef4b7daba88af55c0bd5af74ebeefe1098faeb31fea320f2c00297cfc5ad5af6c94916ce6b5d4f05e2d8b1ad562@202.61.198.135:30303?discport=0
+```
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-05 01:52:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6883" class=".btn">#6883</a>
+            </td>
+            <td>
+                <b>
+                    EIP-7002: Validator Exit contract helper and adding exits to created blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                _Sorry for the big PR! I tried to keep it more concise but lots of the pieces kinda work together so it was hard to separate them! Hopefully, it isn't too bad to review as a bulk of the changes are adding a parameter to a constructor or something like that..._ ❤️ 
+
+This is an experimental implementation of [EIP-7002](https://eips.ethereum.org/EIPS/eip-7002) logic for adding exits from the Validator Exit smart contract into blocks (and including them on the execution payload object of the Engine API).
+
+**Summary of changes**
+- Updated engine API method and ExecutionPayload structure to support exits
+- Implemented Validator Exit Contract Helper (contract storage manipulation)
+- Updated BlockCreator to include exits from the validator exit contract
+
+fixes #6881 and #6882
+
+**Open Questions/Future Improvements**
+- ~~Do we need extra validation on `AbstractBlockProcessor` (e.g. check that we do not have more exits than expected). I have a feeling we do not need to as we are running the system logic as part of processing, so any difference between the exits in the block we are validating would be caught by a different exits_root post our processing. But I might be wrong. The same question applies to `MainnetBlockBodyValidator. validateBodyLight()`.~~
+- The Validator Exits contract address might need to be parameterized for each network. The same applies to things like the maximum number of exits per block, etc.
+- Do we need to have `ValidatorExitContractHelper` behind a protocol schedule setup in case the contract goes through some changes in future upgrades?
+- We need to properly implement a system call to the Validator Exit contract, replacing the exiting contract storage manipulation in the Validator Exit Contract Helper. https://github.com/hyperledger/besu/issues/6918
+
+## Engine API changes
+
+Most of the logic was already there, few pieces had to be added (e.g. constructor parameters but the core of the logic hasn't changed). The more important change is how GetPayloadV4 includes the exits in the execution payload.
+
+## Validator Exit Contract Helper
+
+This is an initial implementation based on the work done by lightclient on the Validator Exit smart contract (https://github.com/lightclient/7002asm), and also using the bytecode defined in the EIP (https://eips.ethereum.org/EIPS/eip-7002#deployment).
+
+Each exit uses 3 storage slots (each slot has 32 bytes). There is a bit of trickery to ensure they fit in exactly on 3 slots (some right/left padding depending on the field). The detailed diagram of the expected storage can be seen [in this code](https://github.com/lightclient/7002asm/blob/main/src/main.eas#L239-L251).
+
+**UPDATE**: contract manipulation is not the best way of implementing this. The smart contract actually has all the logic to handle the system call. All we need to do is implement the mechanism to perform "send a tx" from the system account. I believe we do not have this logic in Besu at the moment, the closest thing I can think of is how we use a fake transaction in the `TransactionSimulator`, but we would need a way of ensuring that changes in contract storage are persisted. See https://github.com/hyperledger/besu/issues/6918
+
+## Including exits on blocks
+
+The system call logic has been implemented in a way that manipulates the contract storage as if we were executing the call through the EVM (although no EVM is involved). ~~This seems to be the expected behaviour for system calls.~~ The heart of this is how `AbstractBlockCreator` uses `ValidatorExitContractHelper.popExitsFromQueue(..)`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-04 21:09:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6880" class=".btn">#6880</a>
             </td>
             <td>
@@ -618,32 +768,6 @@ fixes #6722
     </table>
     <div class="right-align">
         Created At 2024-04-02 12:59:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6860" class=".btn">#6860</a>
-            </td>
-            <td>
-                <b>
-                    Remove develop prelease workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Creates noise in release notifications, can use "build from source" alternatives
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-02 08:15:57 +0000 UTC
     </div>
 </div>
 
