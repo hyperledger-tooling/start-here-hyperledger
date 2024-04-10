@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4812" class=".btn">#4812</a>
+            </td>
+            <td>
+                <b>
+                    Address GO-2024-2687 for v2.5.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Move to golang.org/x/net v0.23.0 which will address GO-2024-2687.
+
+#### Additional details
+
+https://pkg.go.dev/vuln/GO-2024-2687
+
+#### Related issues
+
+n/a
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-10 17:33:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4811" class=".btn">#4811</a>
+            </td>
+            <td>
+                <b>
+                    Address GO-2024-2687.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Move to golang.org/x/net v0.23.0 which will address GO-2024-2687.
+
+#### Additional details
+
+https://pkg.go.dev/vuln/GO-2024-2687
+
+#### Related issues
+
+n/a
+
+#### Release Note
+
+n/a
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-10 14:40:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4810" class=".btn">#4810</a>
             </td>
             <td>
@@ -315,34 +399,6 @@ No known release impacts.
     </table>
     <div class="right-align">
         Created At 2024-04-09 15:58:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4803" class=".btn">#4803</a>
-            </td>
-            <td>
-                <b>
-                    Update gRPC dependency to address GO-2024-2687
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Use grpc.NewClient() instead of (soon to be) deprecated grpc.Dial().
-- Update staticcheck version to avoid panic when running `make basic-checks` -- at least with Go 1.22.
-- Regenerate documentation and remove trailing space that caused check failure.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 15:31:50 +0000 UTC
     </div>
 </div>
 
@@ -675,162 +731,6 @@ Updated chaincode deployment handler to check if the indexes are for implicit co
     </table>
     <div class="right-align">
         Created At 2024-04-04 08:10:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4792" class=".btn">#4792</a>
-            </td>
-            <td>
-                <b>
-                    Update profile data in create a channel doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #4779
-
-Finish the changes that were started in #4781 and #4788.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-03 13:55:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4791" class=".btn">#4791</a>
-            </td>
-            <td>
-                <b>
-                    fix warning during doc build (backport #4786)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #4617 
-
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
-
-#### Description
-
-```
-$ python -m sphinx -T -E -b html -d _build/doctrees -D language=en . ~/html
-Running Sphinx v7.2.6
-myst v2.0.0: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=set(), disable_syntax=[], all_links_external=True, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_transition=True, words_per_minute=200, substitutions={}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, suppress_warnings=[], highlight_code_blocks=True)
-building [mo]: targets for 0 po files that are out of date
-writing output...
-building [html]: targets for 124 source files that are out of date
-updating environment: [new config] 124 added, 0 changed, 0 removed
-reading sources... [100%] write_first_app
-looking for now-outdated files... none found
-pickling environment... done
-checking consistency... /Users/theholygrail/hyperledger/fabric/docs/source/build_network.rst: WARNING: document isn't included in any toctree
-/Users/theholygrail/hyperledger/fabric/docs/source/github/github.rst: WARNING: document isn't included in any toctree
-/Users/theholygrail/hyperledger/fabric/docs/source/msp-identity-validity-rules.rst: WARNING: document isn't included in any toctree
-/Users/theholygrail/hyperledger/fabric/docs/source/policies.rst: WARNING: document isn't included in any toctree
-/Users/theholygrail/hyperledger/fabric/docs/source/raft_bft_migration.md: WARNING: document isn't included in any toctree
-/Users/theholygrail/hyperledger/fabric/docs/source/tutorial/installxcode.md: WARNING: document isn't included in any toctree
-done
-preparing documents... done
-copying assets... copying static files... done
-copying extra files... done
-done
-writing output... [100%] write_first_app
-generating indices... genindex done
-highlighting module code...
-writing additional pages... search done
-copying images... [100%] images/AppConceptsOverview.png
-dumping search index in English (code: en)... done
-dumping object inventory... done
-build succeeded, 6 warnings.
-
-The HTML pages are in ../../../../html.
-```
-
-Only warnings related to inclusion of document in toctree left
-<hr>This is an automatic backport of pull request #4786 done by [Mergify](https://mergify.com).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-03 12:47:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4790" class=".btn">#4790</a>
-            </td>
-            <td>
-                <b>
-                    fix: close file in the PackageMetadata func (backport #4789)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-
-
-#### Type of change
-
-
-
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
-
-#### Description
-close file in the PackageMetadata func
-
-
-#### Additional details
-
-
-
-
-#### Related issues
-
-
-
-
-
-
-<hr>This is an automatic backport of pull request #4789 done by [Mergify](https://mergify.com).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-03 12:35:59 +0000 UTC
     </div>
 </div>
 

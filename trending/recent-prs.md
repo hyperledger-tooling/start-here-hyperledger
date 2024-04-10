@@ -1,13 +1,13 @@
 
-[4810](https://github.com/hyperledger/fabric/pull/4810) fix function name
+[443](https://github.com/hyperledger-labs/fablo/pull/443) Add depends_on section for peers depending on CouchDB
 
-[170](https://github.com/hyperledger/iroha-python/pull/170) [fix] #168: added 'query_all_assets'
+[4415](https://github.com/hyperledger/iroha/pull/4415) [refactor] #4230: Remove `Domain::logo`
 
-[442](https://github.com/hyperledger-labs/fablo/pull/442) fix:  node_version check for the fabric-shim 
+[411](https://github.com/hyperledger/fabric-ca/pull/411) GO-2024-2687.
 
-[4809](https://github.com/hyperledger/fabric/pull/4809) Remove the outputAnchorPeersUpdate flag of configtxgen
+[2880](https://github.com/hyperledger/aries-cloudagent-python/pull/2880) fix: conn proto in invite webhook if known
 
-[543](https://github.com/hyperledger-labs/fabric-smart-client/pull/543) fabric refactor
+[4812](https://github.com/hyperledger/fabric/pull/4812) Address GO-2024-2687 for v2.5.x
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
