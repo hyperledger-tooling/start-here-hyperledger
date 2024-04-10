@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/167" class=".btn">#167</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/169" class=".btn">#169</a>
             </td>
             <td>
                 <b>
-                    [fix] #166: Hash email address
+                    Add test framework
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-02 18:19:43 +0000 UTC
+        Created At 2024-04-08 08:04:06 +0000 UTC
     </div>
 </div>
 
