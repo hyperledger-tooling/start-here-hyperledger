@@ -228,39 +228,3 @@ the console currently uses the field migrated_from="ibm_saas" to decide if it sh
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/681" class=".btn">#681</a>
-            </td>
-            <td>
-                <b>
-                    bump release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- Update release notes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-03 06:00:30 +0000 UTC
-    </div>
-</div>
-

@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                <nil>
+                - Upgrade ibc-go to v8.2.0
+- Fix simapp based on ibc-go's simapp
+- Fix CI (github actions) settings
+- Fix docker compose settings
             </td>
         </tr>
     </table>
