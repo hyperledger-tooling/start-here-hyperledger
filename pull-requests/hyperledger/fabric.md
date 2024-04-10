@@ -720,34 +720,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4788" class=".btn">#4788</a>
-            </td>
-            <td>
-                <b>
-                    Update profile data in create a channel doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #4779 
-
-- Documentation update
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-03 04:03:55 +0000 UTC
-    </div>
-</div>
-
