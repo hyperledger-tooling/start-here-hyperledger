@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/410" class=".btn">#410</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/411" class=".btn">#411</a>
             </td>
             <td>
                 <b>
-                    handling `setLogLevel` error of `ConfigInit` if both `debug` flag and `loglevel` are set
+                    GO-2024-2687.
                 </b>
             </td>
         </tr>
@@ -27,17 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                #### Type of change
-- Bug fix
+                Move to Go v1.21.9 and x/net v0.23.0 to address GO-2024-2687.
 
-#### Description
-Either `debug` flag or a valid `loglevel` string is expected to be set to determine the log level of application.
-When both are set, `setLogLevel` method returns an error which is handled in `ConfigInit`.
+See https://pkg.go.dev/vuln/GO-2024-2687
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-30 17:41:46 +0000 UTC
+        Created At 2024-04-10 17:48:48 +0000 UTC
     </div>
 </div>
 
