@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/441" class=".btn">#441</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Add depends_on section for peers which are using CouchDb"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reverts hyperledger-labs/fablo#435
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 20:37:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/440" class=".btn">#440</a>
+            </td>
+            <td>
+                <b>
+                    confirmation prompt for down, prune and recreate commands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #324 
+I have added the confirmation prompt for critical commands like down, prune recreate also added the  `--silent` flag which will bypass this prompt.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-09 19:42:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fablo/pull/439" class=".btn">#439</a>
             </td>
             <td>
