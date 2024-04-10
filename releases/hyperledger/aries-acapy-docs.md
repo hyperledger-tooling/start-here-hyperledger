@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/aries-acapy-docs
         <tr>
             <td colspan="2">
                 <b>
-                    v0.12.0rc2
+                    v0.12.0rc3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.12.0rc2
+                    v0.12.0rc3
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/aries-acapy-docs
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.12.0rc2" class=".btn">
+    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.12.0rc3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-22 14:55:43 +0000 UTC
+        Created At 2024-04-09 20:10:21 +0000 UTC
     </span>
 </div>
 
