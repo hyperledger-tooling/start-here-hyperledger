@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1532" class=".btn">#1532</a>
+            </td>
+            <td>
+                <b>
+                    Add missing Hyperledger Fabric logo to landing page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- Provide a general summary of the pull request in the Title above -->
+**Title:** Add Missing Hyperledger Fabric Logo
+
+## Checklist
+ - [x] A link to the issue/user story that the pull request relates to
+ - [x] How to recreate the problem without the fix
+ - [x] Design of the fix
+ - [x] How to prove that the fix works
+ - [ ] Automated tests that prove the fix keeps on working
+ - [x] Documentation - any JSDoc, website, or Stackoverflow answers?
+
+## Issue/User story
+This pull request addresses the issue where the Hyperledger Fabric logo was not displayed on the landing page, as described in issue #1531 .
+
+## Steps to Reproduce
+1. Navigate to the Hyperledger Caliper landing page.
+2. Scroll down to the "Supported Blockchains" section.
+3. Notice the absence of the Hyperledger Fabric logo, with only the alt text visible.
+
+## Existing issues
+- [x] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
+Related issue: [link to the GitHub issue you created](https://github.com/hyperledger/caliper/issues/1531)
+
+## Design of the fix
+The fix involved adding the missing logo image to the assets directory and updating the HTML source to point to the correct image file location. The previous image no longer existed.
+
+## Validation of the fix
+The fix was validated locally by refreshing the landing page and confirming that the Hyperledger Fabric logo is now displayed correctly.
+
+## Automated Tests
+No automated tests were added as this fix is related to the static content of the website.
+
+## What documentation has been provided for this pull request
+The change is self-documenting; the addition of the image file is the only update required.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 01:33:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1530" class=".btn">#1530</a>
             </td>
             <td>

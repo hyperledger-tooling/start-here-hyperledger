@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1194" class=".btn">#1194</a>
+            </td>
+            <td>
+                <b>
+                    Fix docs and scripts for asset-transfer-basic as an external service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+This PR fixes docs and scripts for asset-transfer-basic as an external service.
+
+The path to the configuration file that the peer container in the test-network references seems to have changed. So we need to update the path in the procedures.
+
+As discussed in the following mailing list exchange, starting with Fabric v2.5, so we need to change the scripts (detect, build, release, run) to start with #!/bin/bash instead of #!/bin/sh.
+https://lists.hyperledger.org/g/fabric/topic/104464487
+
+#### Related issues
+
+Resolves #1137
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 04:20:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1193" class=".btn">#1193</a>
             </td>
             <td>
