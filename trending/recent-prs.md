@@ -1,13 +1,13 @@
 
-[2028](https://github.com/hyperledger/web3j/pull/2028) change default branch to main
+[1638](https://github.com/hyperledger/solang/pull/1638) Fix CI: SPDX headers in shell scripts
 
-[1194](https://github.com/hyperledger/fabric-samples/pull/1194) Fix docs and scripts for asset-transfer-basic as an external service
+[1637](https://github.com/hyperledger/solang/pull/1637) Polkadot: Bugfix codegen for empty events
 
-[1532](https://github.com/hyperledger/caliper/pull/1532) Add missing Hyperledger Fabric logo to landing page
+[545](https://github.com/hyperledger-labs/fabric-smart-client/pull/545) transaction filter
 
-[260](https://github.com/hyperledger/caliper-benchmarks/pull/260) Benchmark fix of fisco-bcos sample
+[218](https://github.com/hyperledger/fabric-protos/pull/218) Update dependencies to address security vulnerabilities (0.2.x)
 
-[106](https://github.com/hyperledger-labs/fabric-opssc/pull/106) chore(deps): Bump protobufjs from 7.2.4 to 7.2.6 in /common/src
+[217](https://github.com/hyperledger/fabric-protos/pull/217) Update dependencies to address security vulnerabilities (0.3.x)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/545" class=".btn">#545</a>
+            </td>
+            <td>
+                <b>
+                    transaction filter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR does the following: It introduces transaction filters to the committer. If a transaction is unknown, the committer will ask the filter if the transaction needs to be processed anyway as if it was known to the node.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 12:10:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/543" class=".btn">#543</a>
             </td>
             <td>

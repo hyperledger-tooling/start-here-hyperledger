@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4416" class=".btn">#4416</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: add @dima74 to the CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 08:44:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4415" class=".btn">#4415</a>
             </td>
             <td>
@@ -218,48 +244,6 @@ However, the current design requires the sender to be authorized to register a n
     </table>
     <div class="right-align">
         Created At 2024-04-04 18:22:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4408" class=".btn">#4408</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #4093, #4110: Add public key mint and burn commands to `iroha_client_cli`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-- Add a client CLI command for adding a new signatory to an account (minting a public key for an account).
-- Add a client CLI command for burning a public key from an account.
-
-### Linked issue
-
-Closes #4093 and #4110.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-04 07:17:00 +0000 UTC
     </div>
 </div>
 
