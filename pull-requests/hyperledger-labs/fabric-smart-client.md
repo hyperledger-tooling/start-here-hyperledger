@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                This PR does the following: It refactors the fabric platform without changing its functionalities. The services are better separated and then composed in the `Network` and `Channel` interface. The committer service has been unified and cleaned up. 
             </td>
         </tr>
     </table>
