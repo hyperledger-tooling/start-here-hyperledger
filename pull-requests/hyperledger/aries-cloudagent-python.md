@@ -89,30 +89,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2872" class=".btn">#2872</a>
-            </td>
-            <td>
-                <b>
-                    Emit the OOB done event even for multi-use invites
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses issue #2859
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-03 19:43:47 +0000 UTC
-    </div>
-</div>
-
