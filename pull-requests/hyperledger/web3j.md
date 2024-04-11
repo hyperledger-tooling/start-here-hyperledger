@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2030" class=".btn">#2030</a>
+            </td>
+            <td>
+                <b>
+                    Hotfix/4.9.8/update bouncycastle
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+Updates BouncyCastle to latest secure version. This is also a fix for an Android version
+
+### Where should the reviewer start?
+utils build.gradle 
+
+### Why is it needed?
+There are security vulnerabilities with the Java 1.5 version of BouncyCastle
+
+## Checklist
+
+- [ x] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [ ] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 15:57:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j/pull/2029" class=".btn">#2029</a>
             </td>
             <td>

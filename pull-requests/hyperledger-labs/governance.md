@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    davidpoltorak-io deleted his github account
+                    fix slugs
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/governance
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-03 16:00:50 +0000 UTC
+        Created At 2024-04-11 15:36:03 +0000 UTC
     </div>
 </div>
 
@@ -40,7 +40,7 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger-labs/governance
                 
             </td>
             <td>
-                resolves #54
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-03 14:52:54 +0000 UTC
+        Created At 2024-04-11 14:10:49 +0000 UTC
     </div>
 </div>
 

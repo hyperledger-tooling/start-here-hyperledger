@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4422" class=".btn">#4422</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Add Nurzhan Sakén and Dmitry Murzin to MAINTAINERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 12:33:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4421" class=".btn">#4421</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: Add Nurzhan Sakén to iroha2 MAINTAINERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 12:31:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4416" class=".btn">#4416</a>
             </td>
             <td>

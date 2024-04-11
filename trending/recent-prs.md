@@ -1,13 +1,13 @@
 
-[1638](https://github.com/hyperledger/solang/pull/1638) Fix CI: SPDX headers in shell scripts
+[1534](https://github.com/hyperledger/caliper/pull/1534) Remove besu as an adapter
 
-[1637](https://github.com/hyperledger/solang/pull/1637) Polkadot: Bugfix codegen for empty events
+[2882](https://github.com/hyperledger/aries-cloudagent-python/pull/2882) 0.12.0
 
-[545](https://github.com/hyperledger-labs/fabric-smart-client/pull/545) transaction filter
+[2881](https://github.com/hyperledger/aries-cloudagent-python/pull/2881) Add anoncreds migration guide
 
-[218](https://github.com/hyperledger/fabric-protos/pull/218) Update dependencies to address security vulnerabilities (0.2.x)
+[220](https://github.com/hyperledger/fabric-protos/pull/220) Update go-apiv1 dependencies to address security vulnerabilities (0.2.x)
 
-[217](https://github.com/hyperledger/fabric-protos/pull/217) Update dependencies to address security vulnerabilities (0.3.x)
+[219](https://github.com/hyperledger/fabric-protos/pull/219) Update go-apiv1 dependencies to address security vulnerabilities (0.3.x)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
