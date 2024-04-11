@@ -1019,30 +1019,13 @@ Draft while sorting out 2 cli param unit tests
                 ## PR description
 Add a minimal github action to publish `develop` docker containers on merge to main.  
 
-The task will publish each variant and arch as a develop image, and publish a multi-arch image for each variant.
+The task will publish one develop image per arch, and a multi-arch manifest.
 e.g. the images that this task will publish on every merge to main (currently) are:
 
-multi-arch variants
-* develop 
-* develop-openjdk-latest
-* develop-graalvm
-* develop-openj9-jdk-17
-* develop-openjdk-17-debug 
-* develop-openjdk-17 
-
-arch-variants:
-* develop-arm64 
-* develop-openjdk-latest-arm64
-* develop-graalvm-arm64
-* develop-openj9-jdk-17-arm64
-* develop-openjdk-17-debug-arm64
-* develop-openjdk-17-arm64
-* develop-amd64
-* develop-openjdk-latest-amd64
-* develop-graalvm-amd64
-* develop-openj9-jdk-17-amd64
-* develop-openjdk-17-debug-amd64
-* develop-openjdk-17-amd64
+ 
+* develop multi-arch
+* develop-arm64  (aarch64)
+* develop-amd64 (amd64)
 
 
 ## Fixed Issue(s)
@@ -1322,61 +1305,6 @@ The system call logic has been implemented in a way that manipulates the contrac
     </table>
     <div class="right-align">
         Created At 2024-04-04 21:09:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6880" class=".btn">#6880</a>
-            </td>
-            <td>
-                <b>
-                    Log detailed timing of block creation steps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-if log level is at debug, detailed timing of block creation steps are logged, along with the standard block info.
-
-Log will look like this:
-
-```
-2024-04-05 10:54:46.962+00:00 | MinerExecutor | INFO  | BlockMiner | Produced #260,775 / 63 tx / 0 om / 1,577,124 (2.6%) gas / (0xb6907722d13c36fb54747d11f4b7c734d6b57035ca1a3428e4b5c9f347644b63) in 0.000s, timing [Started at 2024-04-05T10:54:46.693633274Z, protocolWait=254ms, duplicateWorldState=0ms, preTxsSelection=3ms, txsSelection=9ms, blockAssembled=1ms, importingBlock=0ms, notifyListeners=0ms, log=0ms]
-```
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-04 15:35:01 +0000 UTC
     </div>
 </div>
 

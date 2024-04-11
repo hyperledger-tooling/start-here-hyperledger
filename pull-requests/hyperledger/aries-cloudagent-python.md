@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2882" class=".btn">#2882</a>
+            </td>
+            <td>
+                <b>
+                    0.12.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 17:23:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2881" class=".btn">#2881</a>
+            </td>
+            <td>
+                <b>
+                    Add anoncreds migration guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a migration guide controllers to upgrade to anoncreds.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 16:25:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2880" class=".btn">#2880</a>
             </td>
             <td>

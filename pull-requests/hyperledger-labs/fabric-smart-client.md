@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/545" class=".btn">#545</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/546" class=".btn">#546</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                This PR does the following: It introduces transaction filters to the committer. If a transaction is unknown, the committer will ask the filter if the transaction needs to be processed anyway as if it was known to the node.
+                This PR does the following: It allows both orion and fabric commit pipeline to process transactions that are unknown but are accepted by the custom filters.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 12:10:16 +0000 UTC
+        Created At 2024-04-11 13:04:56 +0000 UTC
     </div>
 </div>
 
