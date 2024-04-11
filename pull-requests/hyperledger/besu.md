@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6931" class=".btn">#6931</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] logging for fork ID check failed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">logging</span><span class="chip">peering</span>
+            </td>
+            <td>
+                ## PR description
+Logging was confusing - we were getting a "fork id check failed" for a peer that had already responded and given us a good block. I suspect they were in the process of disconnecting us. 
+This PR adds some extra (trace) logging for why the EthProtocolManager does not want to connect, and ensures we only log "fork ID check failed" if in fact that is the problem.
+
+## Fixed Issue(s)
+
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 06:49:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6930" class=".btn">#6930</a>
+            </td>
+            <td>
+                <b>
+                    Fix permissions for publish and gradle issue for publishArtifactory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The changes in https://github.com/hyperledger/besu/pull/6705 broke the release process
+and https://github.com/hyperledger/besu/pull/6856 maybe never worked
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 06:30:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6925" class=".btn">#6925</a>
             </td>
             <td>
@@ -79,7 +154,7 @@ permalink: /pull-requests/hyperledger/besu
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-
+This is to log any possible throwables we're getting up on snap requests
 
 ### Thanks for sending a pull request! Have you done the following?
 

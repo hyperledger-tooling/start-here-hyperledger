@@ -62,35 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/48" class=".btn">#48</a>
-            </td>
-            <td>
-                <b>
-                    remove unsupported flags for init chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The original code leads to an error when init_required is true:
-
-```
-Failed to init legacy chaincode on peer:  Error: unknown flag: --endorsement-plugin
-```
-
-See also: https://hyperledger-fabric.readthedocs.io/en/release-2.5/commands/peerchaincode.html#peer-chaincode-invoke
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-04 07:52:24 +0000 UTC
-    </div>
-</div>
-

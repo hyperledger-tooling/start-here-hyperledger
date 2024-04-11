@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2029" class=".btn">#2029</a>
+            </td>
+            <td>
+                <b>
+                    main branch configs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+main branch config changes
+
+### Where should the reviewer start?
+all
+
+### Why is it needed?
+rename master to main branch
+
+## Checklist
+
+- [x] I've read the contribution guidelines.
+- [x] I've added tests (if applicable).
+- [x] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 06:26:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j/pull/2028" class=".btn">#2028</a>
             </td>
             <td>
