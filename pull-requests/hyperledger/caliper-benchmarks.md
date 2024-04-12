@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Fixes #1529
+                Fixes #170 
 
             </td>
         </tr>

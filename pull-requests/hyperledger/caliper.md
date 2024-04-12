@@ -204,7 +204,7 @@ This pull request resolves issue #1528
             </td>
             <td>
                 <b>
-                    Add missing Hyperledger Fabric logo to landing page
+                    Delete logo image stored in repo since it fetches from an external link
                 </b>
             </td>
         </tr>

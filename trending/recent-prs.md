@@ -1,13 +1,13 @@
 
-[1639](https://github.com/hyperledger/solang/pull/1639) Release 0.3.4 Athens
+[2889](https://github.com/hyperledger/aries-cloudagent-python/pull/2889) fix: integration tests should use didex 1.1
 
-[4425](https://github.com/hyperledger/iroha/pull/4425) Try fix gcc-10 push
+[6942](https://github.com/hyperledger/besu/pull/6942) Update execution-spec-tests support
 
-[548](https://github.com/hyperledger-labs/fabric-smart-client/pull/548) Fix race tests
+[688](https://github.com/hyperledger-labs/fabric-operations-console/pull/688) Revert to UBI8 for now.
 
-[4424](https://github.com/hyperledger/iroha/pull/4424) Add gcc-10 to docker push
+[4430](https://github.com/hyperledger/iroha/pull/4430) [fix] #4429: Dont clear trigger execution queue (STABLE)
 
-[2037](https://github.com/hyperledger/web3j/pull/2037) web3j release fix
+[6941](https://github.com/hyperledger/besu/pull/6941) Consistent nonce handling
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
