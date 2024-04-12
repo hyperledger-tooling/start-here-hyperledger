@@ -73,29 +73,3 @@ One possibility is to update the Fabric protos to add a liveness service for cha
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/issues/98" class=".btn">98</a>
-            </td>
-            <td>
-                <b>
-                    Add signal handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span>
-            </td>
-            <td>
-                Ideally the k8s pod should be terminated if the peer is terminated. This is related to #88 however it will not always be possible to add an owner reference.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-02 19:54:22 +0000 UTC
-    </div>
-</div>
-
