@@ -116,29 +116,3 @@ Related Issues:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1191" class=".btn">#1191</a>
-            </td>
-            <td>
-                <b>
-                    Update Go gRPC dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                grpc.Dial() is deprecated in current gRPC versions. Use grpc.NewClient() instead.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-04 18:18:59 +0000 UTC
-    </div>
-</div>
-
