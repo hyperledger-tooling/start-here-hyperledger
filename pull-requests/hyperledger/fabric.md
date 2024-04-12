@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4815" class=".btn">#4815</a>
+            </td>
+            <td>
+                <b>
+                    add badges to Readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An unneeded badge was recently removed from the Readme.
+I suggest adding the following:
+- Verify Build - main
+- Verify Build - release-2.5
+- Security vulnerability scan
+- Go version from go.mod
+- Last Release
+
+It will look something like this:
+
+<img width="548" alt="image" src="https://github.com/hyperledger/fabric/assets/7284783/92dc4183-ea43-4493-adbb-df1da09bca8f">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-12 14:13:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4814" class=".btn">#4814</a>
             </td>
             <td>

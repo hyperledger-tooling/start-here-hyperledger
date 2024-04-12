@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2889" class=".btn">#2889</a>
+            </td>
+            <td>
+                <b>
+                    fix: integration tests should use didex 1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A quick fix for the integration tests. I added the `use_did_method` parameter to the `get_invite` method of the support agent class but forgot to update the `handshake_protocols` list used to did exchange 1.1. Without this change, the int tests were actually just defaulting back to 1.0 behavior of unqualified DIDs.
+
+This is just a correction in the tests and does not impact the behavior of ACA-Py which, according to my own testing at least, is still correctly sending qualified DIDs in the appropriate circumstances.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-12 17:47:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2888" class=".btn">#2888</a>
+            </td>
+            <td>
+                <b>
+                    Some updates to the mkdocs publishing process
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-12 14:43:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2887" class=".btn">#2887</a>
             </td>
             <td>
