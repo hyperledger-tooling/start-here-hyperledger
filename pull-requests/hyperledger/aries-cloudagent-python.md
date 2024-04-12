@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2885" class=".btn">#2885</a>
+            </td>
+            <td>
+                <b>
+                    Prevent 500 error when re-promoting DID with endorsement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/aries-cloudagent-python/issues/2884
+
+Just decided to fix this when I saw it. Doesn't cause any issues but prevents an unwanted 500 error.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 20:19:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2883" class=".btn">#2883</a>
+            </td>
+            <td>
+                <b>
+                    Fix ack during for auto endorsement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prevents the `TransactionManagerError` when doing endorsement ack without setting up jobs in auto_endorse mode.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-11 20:13:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2882" class=".btn">#2882</a>
             </td>
             <td>

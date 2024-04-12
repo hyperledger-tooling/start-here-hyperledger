@@ -1,13 +1,13 @@
 
-[1534](https://github.com/hyperledger/caliper/pull/1534) Remove besu as an adapter
+[8](https://github.com/hyperledger-labs/aries-agent-controller/pull/8) Bump idna from 2.8 to 3.7 in /docker
 
-[2882](https://github.com/hyperledger/aries-cloudagent-python/pull/2882) 0.12.0
+[1656](https://github.com/hyperledger/indy-plenum/pull/1656) Ubuntu 22.04
 
-[2881](https://github.com/hyperledger/aries-cloudagent-python/pull/2881) Add anoncreds migration guide
+[6934](https://github.com/hyperledger/besu/pull/6934) fix npe on trace msg
 
-[220](https://github.com/hyperledger/fabric-protos/pull/220) Update go-apiv1 dependencies to address security vulnerabilities (0.2.x)
+[2036](https://github.com/hyperledger/web3j/pull/2036) Update secrets
 
-[219](https://github.com/hyperledger/fabric-protos/pull/219) Update go-apiv1 dependencies to address security vulnerabilities (0.3.x)
+[2034](https://github.com/hyperledger/web3j/pull/2034) revert secret changes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
