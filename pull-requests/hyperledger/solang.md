@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1639" class=".btn">#1639</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.3.4 Athens
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-12 11:05:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1638" class=".btn">#1638</a>
             </td>
             <td>
@@ -138,32 +164,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2024-04-08 10:44:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1633" class=".btn">#1633</a>
-            </td>
-            <td>
-                <b>
-                    docs: fix some comments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-05 08:16:40 +0000 UTC
     </div>
 </div>
 
