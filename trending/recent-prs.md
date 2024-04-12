@@ -1,13 +1,13 @@
 
-[6936](https://github.com/hyperledger/besu/pull/6936) Fix Flaky test permv2
+[1639](https://github.com/hyperledger/solang/pull/1639) Release 0.3.4 Athens
 
-[4814](https://github.com/hyperledger/fabric/pull/4814) Bump idna from 3.6 to 3.7 in /docs
+[4425](https://github.com/hyperledger/iroha/pull/4425) Try fix gcc-10 push
 
-[412](https://github.com/hyperledger/fabric-ca/pull/412) Bump idna from 3.6 to 3.7 in /docs
+[548](https://github.com/hyperledger-labs/fabric-smart-client/pull/548) Fix race tests
 
-[2887](https://github.com/hyperledger/aries-cloudagent-python/pull/2887) chore(deps): Bump idna from 3.6 to 3.7
+[4424](https://github.com/hyperledger/iroha/pull/4424) Add gcc-10 to docker push
 
-[337](https://github.com/hyperledger/aries-acapy-plugins/pull/337) chore(deps): Bump idna from 3.4 to 3.7 in /kafka_events/kafka_events/v1_0/deliverer
+[2037](https://github.com/hyperledger/web3j/pull/2037) web3j release fix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2037" class=".btn">#2037</a>
+            </td>
+            <td>
+                <b>
+                    web3j release fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+*required*
+
+### Where should the reviewer start?
+*required*
+
+### Why is it needed?
+*required*
+
+## Checklist
+
+- [x] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [x] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-12 08:30:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j/pull/2036" class=".btn">#2036</a>
             </td>
             <td>
@@ -319,45 +358,6 @@ rename master to main branch
     </table>
     <div class="right-align">
         Created At 2024-04-11 06:05:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/web3j/pull/2026" class=".btn">#2026</a>
-            </td>
-            <td>
-                <b>
-                    Upstream
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### What does this PR do?
-*required*
-
-### Where should the reviewer start?
-*required*
-
-### Why is it needed?
-*required*
-
-## Checklist
-
-- [ ] I've read the contribution guidelines.
-- [ ] I've added tests (if applicable).
-- [ ] I've added a changelog entry if necessary.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-05 07:40:37 +0000 UTC
     </div>
 </div>
 
