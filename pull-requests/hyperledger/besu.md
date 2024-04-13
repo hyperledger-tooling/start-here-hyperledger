@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6943" class=".btn">#6943</a>
+            </td>
+            <td>
+                <b>
+                    Fix named network default disabled for downgrade protection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Address downgrade default for named networks.  Previously the check for named network was only considering command line params, and not toml config files.
+
+Also implemented Comparable on VersionMetadata, and added explicit version test cases for a variety of build versions.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-12 19:08:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6942" class=".btn">#6942</a>
             </td>
             <td>
@@ -1327,63 +1378,6 @@ Draft while sorting out 2 cli param unit tests
     </table>
     <div class="right-align">
         Created At 2024-04-06 05:02:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6893" class=".btn">#6893</a>
-            </td>
-            <td>
-                <b>
-                    Docker develop publishing task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add a minimal github action to publish `develop` docker containers on merge to main.  
-
-The task will publish one develop image per arch, and a multi-arch manifest.
-e.g. the images that this task will publish on every merge to main (currently) are:
-
- 
-* develop multi-arch
-* develop-arm64  (aarch64)
-* develop-amd64 (amd64)
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-06 00:10:02 +0000 UTC
     </div>
 </div>
 
