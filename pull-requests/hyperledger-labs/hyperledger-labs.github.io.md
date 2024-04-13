@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/267" class=".btn">#267</a>
+            </td>
+            <td>
+                <b>
+                    Splice
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                remove html tags from slice.md markdown file
+closes #266
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-12 23:21:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/265" class=".btn">#265</a>
             </td>
             <td>
