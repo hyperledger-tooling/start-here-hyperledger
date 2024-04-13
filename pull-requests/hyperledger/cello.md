@@ -179,29 +179,3 @@ I resolved this by changing ```FABRIC_CHAINCODE_STORE = "/opt/chaincode"``` to `
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/607" class=".btn">#607</a>
-            </td>
-            <td>
-                <b>
-                    Connected the chaincode's upload function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replace the API URL for uploading the chaincode with the updated URL in the front end.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-06 03:48:21 +0000 UTC
-    </div>
-</div>
-
