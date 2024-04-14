@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2892" class=".btn">#2892</a>
+            </td>
+            <td>
+                <b>
+                    feat: drop indy sdk
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">1.0.0</span>
+            </td>
+            <td>
+                Resolves #2865
+
+This is a quick pass at removing all imports of the Indy SDK. I'll spend some more time scanning for other spots where references to the indy wallet type are made (e.g. cli args).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-13 19:35:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2891" class=".btn">#2891</a>
+            </td>
+            <td>
+                <b>
+                    fix: look up conn record by invite msg id instead of key
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2890.
+
+When reusing DIDs in invitations, the invitation key is no longer a unique value by which a connection record can be discovered. To workaround this, this change causes connection records to be looked up by invitation message id (request message's pthid) instead of by invitation key.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-13 18:55:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2889" class=".btn">#2889</a>
             </td>
             <td>
