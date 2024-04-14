@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    #3810 qbft no empty block
+                    Implementation of Issue #3810 QBFT no empty block
                 </b>
             </td>
         </tr>
