@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1635" class=".btn">#1635</a>
-            </td>
-            <td>
-                <b>
-                    Polkadot: Update rust cross contract call example to ink! v5.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 13:01:11 +0000 UTC
-    </div>
-</div>
-

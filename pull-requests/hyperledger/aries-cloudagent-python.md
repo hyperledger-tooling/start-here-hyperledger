@@ -500,29 +500,3 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2877" class=".btn">#2877</a>
-            </td>
-            <td>
-                <b>
-                    Add wallet.type config to /settings endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/aries-cloudagent-python/issues/2876
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 16:02:55 +0000 UTC
-    </div>
-</div>
-
