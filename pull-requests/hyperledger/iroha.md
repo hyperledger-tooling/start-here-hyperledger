@@ -230,7 +230,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.x</span>
             </td>
             <td>
                 ## Description
