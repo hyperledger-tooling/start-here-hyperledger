@@ -15,35 +15,31 @@ permalink: /releases/hyperledger/fabric-gateway
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.0
+                    v1.5.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.0
+                    v1.5.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update dependencies to mitigate CVE-2023-44487 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/661
-* Support for Go 1.22 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/675
-* Support mutual TLS for block eventing by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/685
-* Remove support for Go 1.20 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/686
+* Use @noble/curves for Node ECDSA signing by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/694
+* Update dependencies to address CVE-2023-45288 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/699
 
-## New Contributors
-* @jrasm91 made their first contribution in https://github.com/hyperledger/fabric-gateway/pull/657
 
-**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.4.0...v1.5.0
+**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.5.0...v1.5.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.5.0" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.5.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-07 06:39:36 +0000 UTC
+        Created At 2024-04-15 06:49:18 +0000 UTC
     </span>
 </div>
 
