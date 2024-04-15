@@ -1,13 +1,13 @@
 
-[6948](https://github.com/hyperledger/besu/pull/6948) Attempt to speed up ATs
+[6951](https://github.com/hyperledger/besu/pull/6951) chore: fix some typos in comments
 
-[6947](https://github.com/hyperledger/besu/pull/6947) Peer disconnect message - add client info
+[599](https://github.com/hyperledger-labs/fabric-token-sdk/pull/599) Centralize database initialization logic
 
-[6944](https://github.com/hyperledger/besu/pull/6944) Implementation of Issue #3810 QBFT no empty block
+[4432](https://github.com/hyperledger/iroha/pull/4432) [chore]: Add @safinsaf to MAINTAINERS
 
-[4816](https://github.com/hyperledger/fabric/pull/4816) Fix some comments
+[4431](https://github.com/hyperledger/iroha/pull/4431) [chore] Add @safinsaf to MAINTAINERS (Iroha 1)
 
-[2892](https://github.com/hyperledger/aries-cloudagent-python/pull/2892) feat: drop indy sdk
+[6950](https://github.com/hyperledger/besu/pull/6950) Sync worldstate MerkleTrieException
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
