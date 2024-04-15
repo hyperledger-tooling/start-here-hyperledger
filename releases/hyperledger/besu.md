@@ -43,8 +43,6 @@ b44951e68c6978de7f289ebd5f0111f0087cd266fd0c133afcf33b2004aa1a2a  besu-24.3.3.zi
 
 ### Docker 
 
-TBD
-
 `docker pull docker.io/hyperledger/besu:24.3.3`
 
             </td>
