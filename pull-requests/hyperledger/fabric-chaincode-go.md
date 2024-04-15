@@ -163,29 +163,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    Update shim_test.go
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 10:49:39 +0000 UTC
-    </div>
-</div>
-

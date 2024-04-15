@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1640" class=".btn">#1640</a>
+            </td>
+            <td>
+                <b>
+                    Fix subxt integration test off-by-one test case
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Followup from #1637 which changed the integration test. Locally I forgot to rebuild the contracts in the subxt dir  so it passed and then blamed on the CI just being flaky :sweat_smile: 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 08:41:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1639" class=".btn">#1639</a>
             </td>
             <td>
@@ -137,33 +163,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2024-04-08 13:01:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1634" class=".btn">#1634</a>
-            </td>
-            <td>
-                <b>
-                    Bump dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Upgrade dependencies
-- Add SPDX header to TS sources as the GH action now requires it
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 10:44:20 +0000 UTC
     </div>
 </div>
 

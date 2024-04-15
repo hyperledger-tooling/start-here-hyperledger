@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/599" class=".btn">#599</a>
+            </td>
+            <td>
+                <b>
+                    Centralize database initialization logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Simplifies opening of SQL databases by centralizing the configuration in the database package, similar to how identitydb was already doing it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 10:36:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/598" class=".btn">#598</a>
             </td>
             <td>
                 <b>
-                    F append tokens
+                    append tokens on finality event
                 </b>
             </td>
         </tr>
@@ -53,7 +79,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                The translation of the token request for fabric and orion contain the hash of the token request to later be checked again the local copy.
             </td>
         </tr>
     </table>
@@ -168,32 +194,6 @@ Found this out when creating the tokengen params on arm64 and then running the c
     </table>
     <div class="right-align">
         Created At 2024-04-08 15:10:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/590" class=".btn">#590</a>
-            </td>
-            <td>
-                <b>
-                    tokengen: print commit version, time, and modified flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 10:52:30 +0000 UTC
     </div>
 </div>
 

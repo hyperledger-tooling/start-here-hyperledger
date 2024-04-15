@@ -14,6 +14,130 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6951" class=".btn">#6951</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix some typos in comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+ fix some typos in comments
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 11:43:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6950" class=".btn">#6950</a>
+            </td>
+            <td>
+                <b>
+                    Sync worldstate MerkleTrieException
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Handle MerkleTrieException that can thrown during snapsync worldstate sync in the heal pipeline by triggering the trie heal process to start again. Not handling the exception causes the worldstate download to halt.
+
+Stacktrace from custom build with try/catch around the steps in `SnapWorldStateDownloadProcess` 
+```
+{"@timestamp":"2024-04-11T00:54:12,336","level":"INFO","thread":"nioEventLoopGroup-3-8","class":"SnapWorldDownloadState","message":"Running world state heal process from peers with pivot block 19628877","throwable":""}
+{"@timestamp":"2024-04-11T00:54:15,862","level":"INFO","thread":"EthScheduler-Services-22 (requestLoadLocalTrieNodeData)","class":"SnapWorldStateDownloadProcess","message":"Sync exception detected org.hyperledger.besu.ethereum.trie.MerkleTrieException: Unable to load trie node value for hash 0x2950ee2415e7eb2d2e4e68da92c26f0bdbd4b4b6f5479674ffe90217f70df113 location 0x000700060003","throwable":""}
+{"@timestamp":"2024-04-11T00:54:15,863","level":"INFO","thread":"EthScheduler-Services-23 (requestLoadLocalTrieNodeData)","class":"SnapWorldStateDownloadProcess","message":"Sync exception detected org.hyperledger.besu.ethereum.trie.MerkleTrieException: Unable to load trie node value for hash 0x9a508f8523133ecd0b74e76ac41f9da3c095622a2f06b9a767affd460f9553ba location 0x000700050806","throwable":""}
+org.hyperledger.besu.ethereum.trie.MerkleTrieException: Unable to load trie node value for hash 0x2950ee2415e7eb2d2e4e68da92c26f0bdbd4b4b6f5479674ffe90217f70df113 location 0x000700060003
+        at org.hyperledger.besu.ethereum.trie.StoredNode.lambda$load$0(StoredNode.java:135)
+        at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+        at org.hyperledger.besu.ethereum.trie.StoredNode.load(StoredNode.java:133)
+        at org.hyperledger.besu.ethereum.trie.StoredNode.accept(StoredNode.java:65)
+        at org.hyperledger.besu.ethereum.trie.patricia.GetVisitor.visit(GetVisitor.java:51)
+        at org.hyperledger.besu.ethereum.trie.patricia.BranchNode.accept(BranchNode.java:85)
+        at org.hyperledger.besu.ethereum.trie.StoredNode.accept(StoredNode.java:66)
+        at org.hyperledger.besu.ethereum.trie.patricia.GetVisitor.visit(GetVisitor.java:51)
+        at org.hyperledger.besu.ethereum.trie.patricia.BranchNode.accept(BranchNode.java:85)
+        at org.hyperledger.besu.ethereum.trie.StoredNode.accept(StoredNode.java:66)
+        at org.hyperledger.besu.ethereum.trie.StoredMerkleTrie.getPath(StoredMerkleTrie.java:97)
+        at org.hyperledger.besu.ethereum.eth.sync.snapsync.request.heal.AccountTrieNodeHealingRequest.getRootStorageRequests(AccountTrieNodeHealingRequest.java:117)
+        at org.hyperledger.besu.ethereum.eth.sync.snapsync.LoadLocalDataStep.loadLocalDataTrieNode(LoadLocalDataStep.java:86)
+        at org.hyperledger.besu.ethereum.eth.sync.snapsync.SnapWorldStateDownloadProcess$Builder.lambda$build$23(SnapWorldStateDownloadProcess.java:560)
+        at org.hyperledger.besu.services.pipeline.FlatMapProcessor.processNextInput(FlatMapProcessor.java:32)
+        at org.hyperledger.besu.services.pipeline.ProcessingStage.run(ProcessingStage.java:38)
+        at org.hyperledger.besu.services.pipeline.Pipeline.lambda$runWithErrorHandling$3(Pipeline.java:170)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        at java.base
+````
+
+I haven't been able to reproduce the issue on another node to test that the trie heal works as intended. But we use this elsewhere in the SnapWorldStateDownloadProcess.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 08:58:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6948" class=".btn">#6948</a>
             </td>
             <td>
@@ -278,16 +402,21 @@ Signed-off-by: Danno Ferrin <danno@numisight.com>
             </td>
             <td>
                 <b>
-                    Layered txpool blob tuning
+                    Layered txpool tuning for blob transactions
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 ## PR description
+
+Introduce a new configuration option, `tx-pool-max-prioritized-by-type`, to tune the max number of transaction of a specified type that are kept in the prioritized layer at any time.
+This new option is mostly useful to tune the amount of blob txs to keep in the prioritized layer, that is the layer with the transactions that are candidate for inclusion in a potential next block. Keeping this layer sorted is costly so it makes sense to only keep there the max amount of txs that could fit in a block, plus a small buffer, there is already an option to limit the max number of txs in this layer, but since very few blob txs can be included in a block (max 6 at this time), having the possibility to tune the max number of txs by type help with keeping the prioritized layer performant.
+
+By default `tx-pool-max-prioritized-by-type=["BLOB=6"]`
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -1295,32 +1424,6 @@ Besu Full Grafana dashboard will be updated to render this metrics once the PR w
     </table>
     <div class="right-align">
         Created At 2024-04-08 12:53:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6900" class=".btn">#6900</a>
-            </td>
-            <td>
-                <b>
-                    Update Changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 06:35:16 +0000 UTC
     </div>
 </div>
 

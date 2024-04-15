@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4432" class=".btn">#4432</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: Add @safinsaf to MAINTAINERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 09:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4431" class=".btn">#4431</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Add @safinsaf to MAINTAINERS (Iroha 1)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 09:06:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4430" class=".btn">#4430</a>
             </td>
             <td>
@@ -350,46 +402,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-04-11 08:44:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4415" class=".btn">#4415</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4230: Remove `Domain::logo`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Remove Domain::logo. Users who need it could store logo in domain metadata
-
-### Linked issue
-
-Closes #4230
-
-### Checklist
-
-- [x] I've read CONTRIBUTING.md
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-10 17:54:42 +0000 UTC
     </div>
 </div>
 
