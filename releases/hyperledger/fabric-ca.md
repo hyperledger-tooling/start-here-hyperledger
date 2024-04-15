@@ -15,28 +15,28 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.9
+                    v1.5.10
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.9
+                    v1.5.10
                 </span>
             </td>
             <td>
-                v1.5.9 Release Notes - February 19, 2024
-========================================
+                v1.5.10 Release Notes - April 15, 2024
+======================================
 
-v1.5.9 updates code dependencies, and removes dependency on core fabric.
+v1.5.10 updates code dependencies.
 
 
 Dependencies
 ------------
 
-Fabric CA v1.5.9 has been tested with the following dependencies:
-- Go 1.21.6
+Fabric CA v1.5.10 has been tested with the following dependencies:
+- Go 1.21.9
 - Ubuntu 20.04 (for Docker images)
 - Databases
     - PostgreSQL 13
@@ -76,11 +76,11 @@ None.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.9" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.10" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-19 03:36:43 +0000 UTC
+        Created At 2024-04-15 17:19:14 +0000 UTC
     </span>
 </div>
 

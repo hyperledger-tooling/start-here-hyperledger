@@ -46,35 +46,3 @@ permalink: /releases/hyperledger/firefly-evmconnect
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.3.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.3.6
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* If the revert reason is present in a receipt, skip the call to `debug_traceTransaction` by @matthew1001 in https://github.com/hyperledger/firefly-evmconnect/pull/128
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.3.5...v1.3.6
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.6" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-04-08 16:17:52 +0000 UTC
-    </span>
-</div>
-
