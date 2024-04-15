@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4434" class=".btn">#4434</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #4419: Deduplicate triggers with the same wasm code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+If trigger was already compiled reuse it.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4419 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+To demonstrate the difference 1000 identical triggers were registered. 
+
+Examination of changes was done on apple silicon machine:
+
+```bash
+# might need to: cargo install cargo-instruments
+cd client
+cargo instruments -t Allocations --example register_1000_triggers --profile profiling
+```
+
+Allocation before the change:
+![reg_trigger_before](https://github.com/hyperledger/iroha/assets/40040452/3ecd2816-1dc4-4911-959e-9149d5bc70ae)
+[before_Launch_register_1000_triggers_2024-04-15_18.01.00_EAAEDBCC.trace.zip](https://github.com/hyperledger/iroha/files/14981280/before_Launch_register_1000_triggers_2024-04-15_18.01.00_EAAEDBCC.trace.zip)
+
+Allocations after the change:
+![reg_trigger_after](https://github.com/hyperledger/iroha/assets/40040452/b06e7b13-ab13-4fc5-be6d-cd393e1e0007)
+[after_Launch_register_1000_triggers_2024-04-15_17.50.57_31C6FEB5.trace.zip](https://github.com/hyperledger/iroha/files/14981281/after_Launch_register_1000_triggers_2024-04-15_17.50.57_31C6FEB5.trace.zip)
+
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 15:44:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4432" class=".btn">#4432</a>
             </td>
             <td>

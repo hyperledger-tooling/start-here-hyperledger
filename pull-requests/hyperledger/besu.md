@@ -14,6 +14,127 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6953" class=".btn">#6953</a>
+            </td>
+            <td>
+                <b>
+                    Split acceptance tests by time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Was looking at why our ATs are not correctly split by time, and found that the action that we are using is based on a tool, [that requires a special XML report with additional attributes](https://github.com/mtsmfm/split-test?tab=readme-ov-file#note), so as fallback the split is just done by name, this PR implements the split by time using a custom shell script
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 14:31:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/6952" class=".btn">#6952</a>
+            </td>
+            <td>
+                <b>
+                    optimize node startup speed and memory allocation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+In summary, if a user employs a large genesis file and activates the `--genesis-state-hash-cache-enabled` parameter, their node can start in under **10 seconds**, requiring less than **2GB of memory**. This is the essence of what this PR accomplishes.
+
+1. Regarding the process of serializing the string into a GenesisConfigFile, many parts of the code follow a similar logic pattern: `GenesisConfigFile.fromConfig(genesisContent).getConfigOptions()`, which means obtaining config options from the GenesisConfigFile. In fact, it does not care about the rest of the content, especially the accounts information, while large genesis files often have accounts occupying a large portion.
+
+    Therefore, this PR introduces a new method, `fromConfigWithoutAccounts`, for all places where accounts are not needed. During the serialization of the string into a GenesisConfigFile, it ignores the accounts information. This change is should be safe because the only time accounts information is needed is during the calculation of the genesis state hash.
+
+2. Based on the `-genesis-state-hash-cache-enabled` parameter added in https://github.com/hyperledger/besu/pull/6758, this PR further enhances the performance improvements that the parameter can offer.
+
+    Originally, the parameter's purpose was to cache and skip the calculation of the genesis state hash value. Building upon the previous improvements, this PR determines that if this parameter is enabled and there is a cached genesis state hash in the database, then it will directly ignore the accounts content when reading the genesis file.
+
+The table below outlines the comparison of node startup time and total memory reclaimed before and after the optimizations made in this PR. All tests utilized a genesis file of 1.1GB in size.
+
+|  | Time Consuming - Before optimization | Memory Allocated - Before optimization | Time Consuming - Optimized (this PR) | Memory Allocated - Optimized (this PR) |
+| --- | --- | --- | --- | --- |
+| --genesis-state-hash-cache-enabled=false && block number=0 | 7min37s | 184.95GB | 7min24s | 158.83GB |
+| --genesis-state-hash-cache-enabled=false && block number=1 | 2min53s | 125.47GB | 2min36s | 96.53GB |
+| --genesis-state-hash-cache-enabled=true && block number=0 | 7min35s | 183.33GB | 7min34s | 154.68GB |
+| --genesis-state-hash-cache-enabled=true && block number=1 | 0min50s | 66.75GB | 0min9s | 1.31GB |
+
+Without the `--genesis-state-hash-cache-enabled` parameter enabled, the startup time reduced from **2 minutes and 53 seconds** to **2 minutes and 36 seconds**, and the total memory reclaimed decreased from **125.47GB** to **96.53GB**. The optimization effect here is modest.
+
+With the `--genesis-state-hash-cache-enabled` parameter enabled, the startup time can be reduced from **50 seconds** to **9 seconds**, and the total memory reclaimed from **66.75GB** to **1.31GB**, marking a significant optimization effect.
+
+This is the unit test coverage report for the PR: [Unit Test Coverage Report](https://lyfsn.github.io/besu-starter/pr2/).
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [x] acceptance tests: `./gradlew acceptanceTest`
+- [x] integration tests: `./gradlew integrationTest`
+- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 12:38:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/6951" class=".btn">#6951</a>
             </td>
             <td>
@@ -252,7 +373,7 @@ Refs #6945
             </td>
             <td>
                 ## PR description
-Implementing `emptyblockperiodseconds` for producing empty blocks at a sepecific interval independently of the value of the existing  `blockperiodseconds` setting
+Implementing `emptyblockperiodseconds` for producing empty blocks at a specific interval independently of the value of the existing  `blockperiodseconds` setting
 
 ## Fixed Issue(s)
 https://github.com/hyperledger/besu/issues/3810
@@ -1217,213 +1338,6 @@ N/A
     </table>
     <div class="right-align">
         Created At 2024-04-08 22:00:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6906" class=".btn">#6906</a>
-            </td>
-            <td>
-                <b>
-                    marks NewPendingTransactionAcceptanceTest as flaky
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-marks NewPendingTransactionAcceptanceTest as flaky
-
-evidence of flakiness:  https://github.com/hyperledger/besu/actions/runs/8596349136/job/23553493115?pr=6758
-
-
-## Fixed Issue(s)
-
-intermittent failures
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 17:14:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6905" class=".btn">#6905</a>
-            </td>
-            <td>
-                <b>
-                    Refactor Gas Calculator Create methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Prepatory for EOF.  Refactor the gas calculation logic so that it does
-not depend on specific stack entries, and break out the pieces of the
-calculation for readability.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 15:19:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6904" class=".btn">#6904</a>
-            </td>
-            <td>
-                <b>
-                    Fork/verkle
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 14:38:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6903" class=".btn">#6903</a>
-            </td>
-            <td>
-                <b>
-                    Expose transaction count by type metrics for the layered txpool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Expose transaction count by type metrics for each layer of the layered txpool
-
-The new metric name is `besu_transaction_pool_number_of_transactions_by_type` and has `layer` and `type` as labels.
-
-Example panel 
-![image](https://github.com/hyperledger/besu/assets/91944855/fc000f5c-690c-4071-87c1-d1c11f563b1c)
-
-Besu Full Grafana dashboard will be updated to render this metrics once the PR will be merged.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 12:53:57 +0000 UTC
     </div>
 </div>
 
