@@ -1,13 +1,13 @@
 
-[4451](https://github.com/hyperledger/iroha/pull/4451) Prepare updates for iroha1 CI new main branch
+[414](https://github.com/hyperledger/fabric-ca/pull/414) Update Github Actions
 
-[52](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/52) Action script doc and playbook changes for certificate renewal
+[336](https://github.com/hyperledger/fabric-chaincode-java/pull/336) Address Joda-Time CVE-2024-23080.
 
-[4450](https://github.com/hyperledger/iroha/pull/4450) [chore] #4433: Reflect branch changes in files
+[4820](https://github.com/hyperledger/fabric/pull/4820) Update Github Actions (release-2.5)
 
-[601](https://github.com/hyperledger-labs/fabric-token-sdk/pull/601) network service cleanup
+[4454](https://github.com/hyperledger/iroha/pull/4454) [ci]: Update iroha2 stable/lts branch workflows triggers
 
-[4449](https://github.com/hyperledger/iroha/pull/4449) Bump sha256 from 1.4.0 to 1.5.0
+[4453](https://github.com/hyperledger/iroha/pull/4453) Feature/sup 10039/update branch ci
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

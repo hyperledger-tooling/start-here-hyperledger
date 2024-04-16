@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1636" class=".btn">#1636</a>
-            </td>
-            <td>
-                <b>
-                    Add salaheldin to MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A proud moment.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 14:46:11 +0000 UTC
-    </div>
-</div>
-

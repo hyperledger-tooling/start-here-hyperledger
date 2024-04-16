@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/335" class=".btn">#335</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/336" class=".btn">#336</a>
             </td>
             <td>
                 <b>
-                    Upgrade the version of JUnit vintage gradle used
+                    Address Joda-Time CVE-2024-23080.
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Again for CVE-2020-15250.
-
-
-testImplementation 'org.junit.vintage:junit-vintage-engine:5.3.1' imports `junit:junit:4.12`... gotta move to `org.junit.vintage:junit-vintage-engine:5.10.2` to get to `junit:junit:4.13.2`.
+                As per https://github.com/hyperledger/fabric-chaincode-java/issues/337
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-07 18:55:12 +0000 UTC
+        Created At 2024-04-16 15:44:32 +0000 UTC
     </div>
 </div>
 

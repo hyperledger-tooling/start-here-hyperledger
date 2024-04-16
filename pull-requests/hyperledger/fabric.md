@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4820" class=".btn">#4820</a>
+            </td>
+            <td>
+                <b>
+                    Update Github Actions (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update to avoid Node 16 deprecation warnings.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-16 15:42:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4819" class=".btn">#4819</a>
             </td>
             <td>
@@ -611,127 +638,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2024-04-10 07:01:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4807" class=".btn">#4807</a>
-            </td>
-            <td>
-                <b>
-                    Remove elided badge from README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-removed Azure badge, which is 404
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 17:08:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4806" class=".btn">#4806</a>
-            </td>
-            <td>
-                <b>
-                    Move main to Golang v1.21.9.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Build Fabric using Go v1.21.9.
-
-#### Additional details
-
-n/a
-
-#### Related issues
-
-As per https://github.com/hyperledger/fabric/issues/4804
-
-#### Release Note
-None known.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 16:02:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4805" class=".btn">#4805</a>
-            </td>
-            <td>
-                <b>
-                    Move release 2.5.x to Golang v1.21.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Moves Fabric to being built using v1.21.9
-
-#### Additional details
-
-n/a
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/4804
-
-#### Release Note
-
-No known release impacts.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 15:58:30 +0000 UTC
     </div>
 </div>
 
