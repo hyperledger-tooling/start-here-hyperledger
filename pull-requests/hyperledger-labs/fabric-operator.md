@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/187" class=".btn">#187</a>
-            </td>
-            <td>
-                <b>
-                    Enhance Restarts for Fix Packs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 16:22:59 +0000 UTC
-    </div>
-</div>
-
