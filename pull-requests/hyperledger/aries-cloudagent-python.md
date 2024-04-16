@@ -14,6 +14,127 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2893" class=".btn">#2893</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump psf/black from 24.3.0 to 24.4.0 in the all-actions group
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">github_actions</span>
+            </td>
+            <td>
+                Bumps the all-actions group with 1 update: [psf/black](https://github.com/psf/black).
+
+Updates `psf/black` from 24.3.0 to 24.4.0
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/psf/black/releases">psf/black's releases</a>.</em></p>
+<blockquote>
+<h2>24.4.0</h2>
+<h3>Stable style</h3>
+<ul>
+<li>Fix unwanted crashes caused by AST equivalency check (<a href="https://redirect.github.com/psf/black/issues/4290">#4290</a>)</li>
+</ul>
+<h3>Preview style</h3>
+<ul>
+<li><code>if</code> guards in <code>case</code> blocks are now wrapped in parentheses when the line is too long.
+(<a href="https://redirect.github.com/psf/black/issues/4269">#4269</a>)</li>
+<li>Stop moving multiline strings to a new line unless inside brackets (<a href="https://redirect.github.com/psf/black/issues/4289">#4289</a>)</li>
+</ul>
+<h3>Integrations</h3>
+<ul>
+<li>Add a new option <code>use_pyproject</code> to the GitHub Action <code>psf/black</code>. This will read the
+Black version from <code>pyproject.toml</code>. (<a href="https://redirect.github.com/psf/black/issues/4294">#4294</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/psf/black/blob/main/CHANGES.md">psf/black's changelog</a>.</em></p>
+<blockquote>
+<h2>24.4.0</h2>
+<h3>Stable style</h3>
+<ul>
+<li>Fix unwanted crashes caused by AST equivalency check (<a href="https://redirect.github.com/psf/black/issues/4290">#4290</a>)</li>
+</ul>
+<h3>Preview style</h3>
+<ul>
+<li><code>if</code> guards in <code>case</code> blocks are now wrapped in parentheses when the line is too long.
+(<a href="https://redirect.github.com/psf/black/issues/4269">#4269</a>)</li>
+<li>Stop moving multiline strings to a new line unless inside brackets (<a href="https://redirect.github.com/psf/black/issues/4289">#4289</a>)</li>
+</ul>
+<h3>Integrations</h3>
+<ul>
+<li>Add a new option <code>use_pyproject</code> to the GitHub Action <code>psf/black</code>. This will read the
+Black version from <code>pyproject.toml</code>. (<a href="https://redirect.github.com/psf/black/issues/4294">#4294</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/psf/black/commit/8fe627072f15ff2e3d380887b92f7868efaf6d05"><code>8fe6270</code></a> Prepare release 24.4.0 (<a href="https://redirect.github.com/psf/black/issues/4307">#4307</a>)</li>
+<li><a href="https://github.com/psf/black/commit/6b25e7cdabe2cd0dc2ec9d0009668af085b1e732"><code>6b25e7c</code></a> Bump peter-evans/find-comment from 3.0.0 to 3.1.0 (<a href="https://redirect.github.com/psf/black/issues/4304">#4304</a>)</li>
+<li><a href="https://github.com/psf/black/commit/07fe1ca88abee9a0c88efb6b4213ea04d3fe2eae"><code>07fe1ca</code></a> docs: remove repetitive word (<a href="https://redirect.github.com/psf/black/issues/4303">#4303</a>)</li>
+<li><a href="https://github.com/psf/black/commit/3383f531bc25955eebb2644ba5b389413bd10219"><code>3383f53</code></a> GitHub Action: Allow reading version from pyproject.toml (<a href="https://redirect.github.com/psf/black/issues/4294">#4294</a>)</li>
+<li><a href="https://github.com/psf/black/commit/c8f1a5542c257491e1e093b1404481ece7f7e02c"><code>c8f1a55</code></a> [pre-commit.ci] pre-commit autoupdate (<a href="https://redirect.github.com/psf/black/issues/4297">#4297</a>)</li>
+<li><a href="https://github.com/psf/black/commit/836acad86371578527408a4c8f968cde1302e130"><code>836acad</code></a> Improve AST safety check (<a href="https://redirect.github.com/psf/black/issues/4290">#4290</a>)</li>
+<li><a href="https://github.com/psf/black/commit/13bd0925eb347926399a5bcb8b70853549f3da07"><code>13bd092</code></a> fix: Stop moving multiline strings to a new line unless inside brackets (<a href="https://redirect.github.com/psf/black/issues/4289">#4289</a>)</li>
+<li><a href="https://github.com/psf/black/commit/c9d2635b55d03cd125465cd6d7477e6c3cb8fba3"><code>c9d2635</code></a> Remove mocking from tests (<a href="https://redirect.github.com/psf/black/issues/4287">#4287</a>)</li>
+<li><a href="https://github.com/psf/black/commit/bf1195612c00b008ea67ea0472ae527956eb66fe"><code>bf11956</code></a> Fix two logging calls in the test helper (<a href="https://redirect.github.com/psf/black/issues/4286">#4286</a>)</li>
+<li><a href="https://github.com/psf/black/commit/97993f997fe01cf565924072e4915126cdb86ed2"><code>97993f9</code></a> Bump pypa/cibuildwheel from 2.16.5 to 2.17.0 (<a href="https://redirect.github.com/psf/black/issues/4283">#4283</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/psf/black/compare/24.3.0...24.4.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=psf/black&package-manager=github_actions&previous-version=24.3.0&new-version=24.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore <dependency name> major version` will close this group update PR and stop Dependabot creating any more for the specific dependency's major version (unless you unignore this specific dependency's major version or upgrade to it yourself)
+- `@dependabot ignore <dependency name> minor version` will close this group update PR and stop Dependabot creating any more for the specific dependency's minor version (unless you unignore this specific dependency's minor version or upgrade to it yourself)
+- `@dependabot ignore <dependency name>` will close this group update PR and stop Dependabot creating any more for the specific dependency (unless you unignore this specific dependency or upgrade to it yourself)
+- `@dependabot unignore <dependency name>` will remove all of the ignore conditions of the specified dependency
+- `@dependabot unignore <dependency name> <ignore condition>` will remove the ignore condition of the specified dependency and ignore conditions
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-15 21:22:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2892" class=".btn">#2892</a>
             </td>
             <td>
@@ -29,7 +150,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 Resolves #2865
 
-This is a quick pass at removing all imports of the Indy SDK. I'll spend some more time scanning for other spots where references to the indy wallet type are made (e.g. cli args).
+This PR removes all components and tests referencing the Indy SDK library. This was accomplished by working through each module depending on the library, removing it, and then adjusting the places that referenced that module to be updated to point to replacing components.
+
+It should be noted that the code base was already in a pretty good state; the Indy SDK dependencies were pretty neatly isolated. The "worst" of these updates was the odd test here and there that was directly using Indy SDK pieces when they should have been using things like `InMemoryProfile.test_profile()` or similar.
+
+We have already ceased running tests for Indy specific components automatically in GHA. Because of this, I'm confident the removal of Indy specific tests should not cause a gap we've not already filled. However, I think this will technically result in less overall code coverage of the tests, if you were considering both the indy and non-indy tests.
             </td>
         </tr>
     </table>
@@ -470,33 +595,6 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
     </table>
     <div class="right-align">
         Created At 2024-04-10 17:35:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2878" class=".btn">#2878</a>
-            </td>
-            <td>
-                <b>
-                    0.12.0rc3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Final (we hope) RC before the release.  Need to focus a little more on the content of the Changelog message. Doesn't have to be perfect on this one, but feedback definitely welcome on what we highlight, what we talk about, and what links to additional material we cover.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-08 21:49:43 +0000 UTC
     </div>
 </div>
 

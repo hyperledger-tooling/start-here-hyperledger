@@ -1,13 +1,13 @@
 
-[413](https://github.com/hyperledger/fabric-ca/pull/413) Release commit for v1.5.10
+[611](https://github.com/hyperledger/cello/pull/611) Bump sqlparse from 0.4.4 to 0.5.0 in /src/api-engine
 
-[4817](https://github.com/hyperledger/fabric/pull/4817) Release commit for v2.5.7
+[10](https://github.com/hyperledger-labs/aries-agent-controller/pull/10) Bump sqlparse from 0.3.0 to 0.5.0
 
-[4434](https://github.com/hyperledger/iroha/pull/4434) [refactor] #4419: Deduplicate triggers with the same wasm code
+[4818](https://github.com/hyperledger/fabric/pull/4818) Updates in main docs and scripts for v2.5.7 release
 
-[9](https://github.com/hyperledger-labs/bdls/pull/9) Update README.md
+[2893](https://github.com/hyperledger/aries-cloudagent-python/pull/2893) chore(deps): Bump psf/black from 24.3.0 to 24.4.0 in the all-actions group
 
-[6953](https://github.com/hyperledger/besu/pull/6953) Split acceptance tests by time
+[1852](https://github.com/hyperledger/indy-node/pull/1852) Bump hyperledger/indy-shared-gha from 1 to 2 in the all-actions group
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
