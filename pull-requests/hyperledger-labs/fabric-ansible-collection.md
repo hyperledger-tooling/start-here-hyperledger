@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Add metadata update for CA, peer, ordering nodes
+                    Action script doc and playbook changes for certificate renewal
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-06 22:09:28 +0000 UTC
+        Created At 2024-04-16 10:50:02 +0000 UTC
     </div>
 </div>
 

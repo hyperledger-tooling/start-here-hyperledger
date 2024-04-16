@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/601" class=".btn">#601</a>
+            </td>
+            <td>
+                <b>
+                    network service cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR does the following:
+- remove finality API from network service
+- cleanup ValidationCode
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-16 08:33:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/600" class=".btn">#600</a>
+            </td>
+            <td>
+                <b>
+                    add atomic write to ttxdb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                if this is ok, we can do the same for the auditdb and remove the functions that are now on the AtomicWrite (as well as the 'txn' field) from the database struct.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-16 07:41:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/599" class=".btn">#599</a>
             </td>
             <td>
@@ -85,60 +139,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-04-11 08:44:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/596" class=".btn">#596</a>
-            </td>
-            <td>
-                <b>
-                    support for transaction status message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does the following:
-- the dbs contain a status message too
-- TxStatus has been converted to int
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 08:19:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/595" class=".btn">#595</a>
-            </td>
-            <td>
-                <b>
-                    Integration tests with replicas
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-09 08:15:21 +0000 UTC
     </div>
 </div>
 
