@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">Optimization</span>
             </td>
             <td>
                 ## Description
