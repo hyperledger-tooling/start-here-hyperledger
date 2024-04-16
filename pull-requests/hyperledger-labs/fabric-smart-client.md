@@ -81,10 +81,10 @@ The OrdererAddresses do not have TLSRootCerts. The code only uses the OrdererAdd
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvement</span>
             </td>
             <td>
-                <nil>
+                This PR removes `TxStatusChangeListener` and replace it with the concept of finality listener. 
             </td>
         </tr>
     </table>
