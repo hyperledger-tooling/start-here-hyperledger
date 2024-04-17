@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/602" class=".btn">#602</a>
+            </td>
+            <td>
+                <b>
+                    core logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR does the following: It removes the package level logging to introduce struct level logging.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-17 10:48:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/601" class=".btn">#601</a>
             </td>
             <td>

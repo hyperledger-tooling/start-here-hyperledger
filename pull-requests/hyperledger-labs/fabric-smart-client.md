@@ -119,29 +119,3 @@ The OrdererAddresses do not have TLSRootCerts. The code only uses the OrdererAdd
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/543" class=".btn">#543</a>
-            </td>
-            <td>
-                <b>
-                    fabric refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does the following: It refactors the fabric platform without changing its functionalities. The services are better separated and then composed in the `Network` and `Channel` interface. The committer service has been unified and cleaned up. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-10 08:09:13 +0000 UTC
-    </div>
-</div>
-

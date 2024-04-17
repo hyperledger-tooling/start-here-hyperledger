@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/173" class=".btn">#173</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Update Iroha version to 1.6 in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-17 06:23:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-python/pull/171" class=".btn">#171</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/iroha-python
     </table>
     <div class="right-align">
         Created At 2024-04-15 19:01:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/170" class=".btn">#170</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #168: added 'query_all_assets'
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-10 10:15:17 +0000 UTC
     </div>
 </div>
 

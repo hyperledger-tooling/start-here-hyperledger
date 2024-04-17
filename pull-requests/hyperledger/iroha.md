@@ -14,6 +14,196 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4458" class=".btn">#4458</a>
+            </td>
+            <td>
+                <b>
+                    Feature/sup 10039/update branch ci
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks 
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-17 11:15:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4457" class=".btn">#4457</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3240: Guard against secrets leakage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+* Added `Secret` to `PrivateKey`. Access to inner `PrivateKeyInner` now requires import of `ExposeSecret` trait via `expose_secret` method
+* `Display`, `Debug` and `Serialize` implementations for `PrivateKey` now returns `"[REDACTED]"`
+* Added `ExposedPrivateKey` wrapper which can be formatted and serialized as usual
+* Note that I don't used `secrecy` crate because it requires to implement `Zeroize` trait, but inner key struct (`ed25519_dalek::SigningKey`) implement only `ZeroizeOnDrop`, and not `Zeroize`. So I used modified version of `Secret` which requires `ZeroizeOnDrop` instead of `Zeroize`. This potentially could be controversal, so any suggestions are welcome
+
+### Linked issue
+
+Closes #3240
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-17 11:09:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4456" class=".btn">#4456</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3470, #4299, #4300: improve config debug-ability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span><span class="chip">UI</span>
+            </td>
+            <td>
+                ### Description
+
+This PR contains a major improvement of the work done in https://github.com/hyperledger/iroha/pull/4239. This is a big step towards better debug-ability of Iroha configuration system due to better errors. And yet, there are still many things to improve further!
+
+Key points:
+
+- New `ConfigReader` API, which handles configuration sources in a dynamic manner rather than relying on `serde` completely, thus giving high flexibility in how to handle different cases. It is also built targeting Iroha domain specifically and doesn't have any extra stuff. Much less boilerplate.
+- Heavy use of `error_stack` crate, which gives higher control over errors reporting than `eyre` does.
+- `--trace-config` works! Uses `log` & `stderrlog` crates for it. Seems to be not a heavy solution for this. It is completely separate from `tracing` stack.
+
+### Further enhancements
+
+There are still many things that might be improved.
+
+- Enhance use of attachments API provided by `error_stack`:
+    - Use hooks to colour them conditionally
+    - Attach hints and suggestions
+    - Unify attachments further as specific structs, not just `format!`
+- Use spans to config files, and build reports showing the actual file contents
+- Fine-tune API of `ConfigReader`, use better naming and abstractions, perhaps.
+- Optimise internals of `ConfigReader`. There is lots of naive code and extra allocations.
+- Find a way to reduce extra context changes in `error_stack`. Sometimes it would be really cool to just "forward" underlying context without changing it, but currently it's how `error_stack` is designed. So, we have sometimes stacks like "Failed to load config -> Failed to load config -> failed to read file system -> ..."
+- Possibly, introduce a `slim` compile feature for Iroha, which will remove `--trace-config` support alongside with `log` & `stderrlog` dependencies, and more
+- Use a single multihash string for private keys, thus removing necessity to set private keys in env as two separate variables (e.g. `PRIVATE_KEY_ALGORITHM` + `PRIVATE_KEY_PAYLOAD`, and removing cratchy `env_custom` API from `ConfigReader`
+    - https://github.com/hyperledger/iroha/issues/4412
+- Migrate to Axum, finally! Errors handling in Torii might be improved a lot.
+    - https://github.com/hyperledger/iroha/issues/3776
+
+### Linked isues
+
+Closes #3470, #4299, #4300
+
+### Gallery
+
+_Note: I've changed some bits after making these screenshots._
+
+<details>
+
+<summary>Some terminal screenshots</summary>
+
+<img width="758" alt="Pasted image 20240417100106" src="https://github.com/hyperledger/iroha/assets/43530070/22189dd4-27e1-4793-a1cd-b53150d2eed7">
+
+<img width="802" alt="Pasted image 20240417160528" src="https://github.com/hyperledger/iroha/assets/43530070/6426ef25-602b-437a-9eae-c6404b03c914">
+
+<img width="651" alt="Pasted image 20240417160759" src="https://github.com/hyperledger/iroha/assets/43530070/292c5fa7-6900-4abb-a1f3-3d5b88f42ad1">
+
+<img width="839" alt="Pasted image 20240417160900" src="https://github.com/hyperledger/iroha/assets/43530070/3eeb42e9-7d18-48ff-9390-fc79f7a6f56f">
+
+<img width="659" alt="Pasted image 20240417161142" src="https://github.com/hyperledger/iroha/assets/43530070/1fda2bd1-3b2c-4067-9d9c-b63630e9be5f">
+
+<img width="725" alt="Pasted image 20240417161212" src="https://github.com/hyperledger/iroha/assets/43530070/f33c9cd6-8456-451b-9aa0-bf2e7154d803">
+
+<img width="878" alt="Pasted image 20240417161247" src="https://github.com/hyperledger/iroha/assets/43530070/292d7cc8-4356-4225-8b04-1dec96ed4316">
+
+<img width="732" alt="Pasted image 20240417161611" src="https://github.com/hyperledger/iroha/assets/43530070/fe27e24f-e975-4e12-bcca-8120f4d6c93f">
+
+<img width="1146" alt="Pasted image 20240417162020" src="https://github.com/hyperledger/iroha/assets/43530070/04d9a524-ad47-4d9b-be2f-c3516a7b4997">
+
+</details>
+
+### TODO
+
+- [ ] Document internals of `iroha_config_base`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-17 07:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4455" class=".btn">#4455</a>
             </td>
             <td>
