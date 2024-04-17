@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/174" class=".btn">#174</a>
+            </td>
+            <td>
+                <b>
+                    [fix] Fix malformed link in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-17 14:20:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-python/pull/173" class=".btn">#173</a>
             </td>
             <td>

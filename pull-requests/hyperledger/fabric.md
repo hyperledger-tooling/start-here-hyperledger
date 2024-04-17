@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4821" class=".btn">#4821</a>
+            </td>
+            <td>
+                <b>
+                    smartbft sync is called after restart test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+smartbft sync is called after restart
+
+#### Related issues
+
+Issue #4732
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-17 16:09:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4820" class=".btn">#4820</a>
             </td>
             <td>
@@ -367,90 +403,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-04-12 04:30:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4812" class=".btn">#4812</a>
-            </td>
-            <td>
-                <b>
-                    Address GO-2024-2687 for v2.5.x
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Move to golang.org/x/net v0.23.0 which will address GO-2024-2687.
-
-#### Additional details
-
-https://pkg.go.dev/vuln/GO-2024-2687
-
-#### Related issues
-
-n/a
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-10 17:33:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4811" class=".btn">#4811</a>
-            </td>
-            <td>
-                <b>
-                    Address GO-2024-2687.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Move to golang.org/x/net v0.23.0 which will address GO-2024-2687.
-
-#### Additional details
-
-https://pkg.go.dev/vuln/GO-2024-2687
-
-#### Related issues
-
-n/a
-
-#### Release Note
-
-n/a
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-10 14:40:06 +0000 UTC
     </div>
 </div>
 

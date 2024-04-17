@@ -163,31 +163,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    GO-2024-2687.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move to Go v1.21.9 and x/net v0.23.0 to address GO-2024-2687.
-
-See https://pkg.go.dev/vuln/GO-2024-2687
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-10 17:48:48 +0000 UTC
-    </div>
-</div>
-

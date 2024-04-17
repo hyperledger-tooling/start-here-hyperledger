@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/483" class=".btn">#483</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/485" class=".btn">#485</a>
             </td>
             <td>
                 <b>
-                    Minor bug fix in the ping test module used by CCF. 
+                    Build dependency bug fix
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                loguru warning method is warning() and not warn()
+                Discovered testing [PDO contracts PR #32](https://github.com/hyperledger-labs/pdo-contracts/pull/32), see this [comment](https://github.com/hyperledger-labs/pdo-contracts/pull/32#issuecomment-2061716452)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-02 19:52:04 +0000 UTC
+        Created At 2024-04-17 17:25:34 +0000 UTC
     </div>
 </div>
 
