@@ -1,13 +1,13 @@
 
-[4455](https://github.com/hyperledger/iroha/pull/4455) [ci] Remove arjentix from CODEOWNERS
+[4458](https://github.com/hyperledger/iroha/pull/4458) Feature/sup 10039/update branch ci
 
-[11](https://github.com/hyperledger-labs/aries-agent-controller/pull/11) Bump gunicorn from 20.1.0 to 22.0.0
+[4457](https://github.com/hyperledger/iroha/pull/4457) [refactor] #3240: Guard against secrets leakage
 
-[612](https://github.com/hyperledger/cello/pull/612) Manually calculate the package id
+[602](https://github.com/hyperledger-labs/fabric-token-sdk/pull/602) core logging
 
-[414](https://github.com/hyperledger/fabric-ca/pull/414) Update Github Actions
+[4456](https://github.com/hyperledger/iroha/pull/4456) [feature] #3470, #4299, #4300: improve config debug-ability
 
-[336](https://github.com/hyperledger/fabric-chaincode-java/pull/336) Address Joda-Time CVE-2024-23080.
+[499](https://github.com/hyperledger-labs/blockchain-explorer/pull/499) Added new endpoint in swagger
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
