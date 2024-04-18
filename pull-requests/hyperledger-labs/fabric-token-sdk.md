@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/603" class=".btn">#603</a>
+            </td>
+            <td>
+                <b>
+                    driver cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR does the following: It refactors the `TokenManagerService` to avoid interface imports.
+This makes more modular the implementation of a new driver.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-18 06:37:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/602" class=".btn">#602</a>
             </td>
             <td>
@@ -139,32 +166,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-04-11 13:59:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/597" class=".btn">#597</a>
-            </td>
-            <td>
-                <b>
-                    store token request hash in rwsets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                The translation of the token request for fabric and orion contain the hash of the token request to later be checked again the local copy.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-11 08:44:40 +0000 UTC
     </div>
 </div>
 

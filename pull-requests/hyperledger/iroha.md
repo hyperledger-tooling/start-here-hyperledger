@@ -14,57 +14,31 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4474" class=".btn">#4474</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4476" class=".btn">#4476</a>
             </td>
             <td>
                 <b>
-                    [refactor]: bump dependencies
+                    [ci] #4475: bump rust toolchain and dependencies
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">CI</span>
             </td>
             <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+                ### Description of the Change
+Bump rust toolchain to `2024-04-18-nightly` in CI.
 
 ### Benefits
 
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks 
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
+Close #4475 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-18 06:17:52 +0000 UTC
+        Created At 2024-04-18 07:56:32 +0000 UTC
     </div>
 </div>
 
@@ -1401,6 +1375,8 @@ _Note: I've changed some bits after making these screenshots._
 ### TODO
 
 - [ ] Document internals of `iroha_config_base`
+- [ ] Fix `iroha_client_cli` compilation failure
+- [ ] Enabled failing test back: `fails_with_no_trusted...` in `cli/src/lib.rs`
             </td>
         </tr>
     </table>
@@ -2422,32 +2398,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-04-11 12:31:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4416" class=".btn">#4416</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: add @dima74 to the CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-11 08:44:44 +0000 UTC
     </div>
 </div>
 
