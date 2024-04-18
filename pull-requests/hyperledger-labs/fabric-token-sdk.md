@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">improvements</span>
             </td>
             <td>
-                This PR does the following: It removes the package level logging to introduce struct level logging.
+                This PR does the following: It removes from the `core` package the package level logging to introduce struct level logging.
             </td>
         </tr>
     </table>
@@ -54,8 +54,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 This PR does the following:
-- remove finality API from network service
-- cleanup ValidationCode
+- Remove finality API from network service
+- Cleanup ValidationCode
             </td>
         </tr>
     </table>
