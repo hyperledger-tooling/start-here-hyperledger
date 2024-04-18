@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/SmartBFT
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/579" class=".btn">#579</a>
+                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/580" class=".btn">#580</a>
             </td>
             <td>
                 <b>
-                    minor fixes of config
+                    Create dependabot.yml
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/SmartBFT
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-17 09:24:33 +0000 UTC
+        Created At 2024-04-17 21:40:49 +0000 UTC
     </div>
 </div>
 

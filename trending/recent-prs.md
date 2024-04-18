@@ -1,13 +1,13 @@
 
-[485](https://github.com/hyperledger-labs/private-data-objects/pull/485) Build dependency bug fix
+[54](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/54) Add support for local MSP, channel config
 
-[4473](https://github.com/hyperledger/iroha/pull/4473) Bump faker from 23.2.0 to 24.11.0 in /client_cli/pytests
+[580](https://github.com/hyperledger-labs/SmartBFT/pull/580) Create dependabot.yml
 
-[4472](https://github.com/hyperledger/iroha/pull/4472) Bump tomlkit from 0.12.3 to 0.12.4 in /client_cli/pytests
+[689](https://github.com/hyperledger-labs/fabric-operations-console/pull/689) Upgrade golang.org/x/net to v0.24.0 as per CVE-2023-45288.
 
-[4821](https://github.com/hyperledger/fabric/pull/4821) smartbft sync is called after restart test
+[191](https://github.com/hyperledger-labs/fabric-operator/pull/191) Move to golang.org/x/net v0.24.0 for CVE-2023-45288.
 
-[4471](https://github.com/hyperledger/iroha/pull/4471) Bump vergen from 8.2.6 to 8.3.1
+[2039](https://github.com/hyperledger/web3j/pull/2039) Add contributor call details
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
