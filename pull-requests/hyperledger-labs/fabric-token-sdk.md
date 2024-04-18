@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/605" class=".btn">#605</a>
+            </td>
+            <td>
+                <b>
+                    fsc dep update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-18 17:59:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/604" class=".btn">#604</a>
+            </td>
+            <td>
+                <b>
+                    remove query executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Breaking API change: instead of opening and closing a query executor:
+
+```
+aqe := auditor.NewQueryExecutor()
+defer aqe.Done()
+ aqe.NewPaymentsFilter()
+```
+You have to directly:
+```
+auditor.NewPaymentsFilter()
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-18 14:21:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/603" class=".btn">#603</a>
             </td>
             <td>
@@ -140,32 +202,6 @@ This makes more modular the implementation of a new driver.
     </table>
     <div class="right-align">
         Created At 2024-04-15 10:36:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/598" class=".btn">#598</a>
-            </td>
-            <td>
-                <b>
-                    append tokens on finality event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-11 13:59:42 +0000 UTC
     </div>
 </div>
 

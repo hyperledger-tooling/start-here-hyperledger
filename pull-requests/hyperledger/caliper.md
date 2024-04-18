@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1534" class=".btn">#1534</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1541" class=".btn">#1541</a>
             </td>
             <td>
                 <b>
-                    Remove besu as an adapter
+                    Removed unused dependency
                 </b>
             </td>
         </tr>
@@ -28,18 +28,55 @@ permalink: /pull-requests/hyperledger/caliper
             </td>
             <td>
                 <!--- Provide a general summary of the pull request in the Title above -->
-Fixes #1529
+
 ## Checklist
- - [ x]  A link to the issue/user story that the pull request relates to
+ - [x]  A link to the issue/user story that the pull request relates to
  - [ ]  How to recreate the problem without the fix
  - [ ]  Design of the fix
  - [ ]  How to prove that the fix works
  - [ ]  Automated tests that prove the fix keeps on working
  - [ ]  Documentation - any JSDoc, website, or Stackoverflow answers?
 
+## Issue/User story
+#1365 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-18 16:25:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1540" class=".btn">#1540</a>
+            </td>
+            <td>
+                <b>
+                    Remove Caliper-gui-server packages and Caliper-gui-dashboard packages  #1538
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- Provide a general summary of the pull request in the Title above -->
+
+## Checklist
+ - [x]  A link to the issue/user story that the pull request relates to
+ - [x]  How to recreate the problem without the fix
+ - [x]  Design of the fix
+ - [x]  How to prove that the fix works
+ - [x]  Automated tests that prove the fix keeps on working
+ - [ ]  Documentation - any JSDoc, website, or Stackoverflow answers?
+
 
 ## Issue/User story
-<!--- What issue / user story is this for -->
+#1538 
 
 ## Steps to Reproduce
 <!--- Provide a link to a live example, or an unambiguous set of steps to -->
@@ -74,7 +111,7 @@ Fixes #1529
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 17:56:45 +0000 UTC
+        Created At 2024-04-18 14:26:39 +0000 UTC
     </div>
 </div>
 

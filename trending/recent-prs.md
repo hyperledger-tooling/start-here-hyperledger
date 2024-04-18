@@ -1,13 +1,13 @@
 
-[550](https://github.com/hyperledger-labs/fabric-smart-client/pull/550) Refactor/reuse vault
+[605](https://github.com/hyperledger-labs/fabric-token-sdk/pull/605) fsc dep update
 
-[4476](https://github.com/hyperledger/iroha/pull/4476) [ci] #4475: bump rust toolchain and dependencies
+[4483](https://github.com/hyperledger/iroha/pull/4483) Bump attohttpc from 0.26.1 to 0.28.0
 
-[603](https://github.com/hyperledger-labs/fabric-token-sdk/pull/603) driver cleanup
+[4482](https://github.com/hyperledger/iroha/pull/4482) Bump erased-serde from 0.3.31 to 0.4.4
 
-[4822](https://github.com/hyperledger/fabric/pull/4822) chore: Optimize many comments including structure names and typos
+[4481](https://github.com/hyperledger/iroha/pull/4481) Bump byte-unit from 4.0.19 to 5.1.4
 
-[54](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/54) Add support for local MSP, channel config
+[4480](https://github.com/hyperledger/iroha/pull/4480) Bump http from 0.2.12 to 1.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
