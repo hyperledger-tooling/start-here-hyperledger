@@ -75,7 +75,7 @@ The OrdererAddresses do not have TLSRootCerts. The code only uses the OrdererAdd
             </td>
             <td>
                 <b>
-                    commit pipeline: finality listener management
+                    common platform
                 </b>
             </td>
         </tr>
@@ -84,7 +84,8 @@ The OrdererAddresses do not have TLSRootCerts. The code only uses the OrdererAdd
                 <span class="chip">improvement</span>
             </td>
             <td>
-                This PR removes `TxStatusChangeListener` and replace it with the concept of finality listener. 
+                This PR does the following: It introduces a `common` platform that contains shared code between the fabric and the orion platform. This code can be of help for other platforms in the future.
+In addition, this PR removes `TxStatusChangeListener` and replace it `FinalityListener`.
             </td>
         </tr>
     </table>
