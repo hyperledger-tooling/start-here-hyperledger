@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvement</span>
             </td>
             <td>
                 <nil>
@@ -117,32 +117,6 @@ In addition, this PR removes `TxStatusChangeListener` and replace it `FinalityLi
     </table>
     <div class="right-align">
         Created At 2024-04-12 07:52:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/546" class=".btn">#546</a>
-            </td>
-            <td>
-                <b>
-                    transaction filter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does the following: It allows both orion and fabric commit pipeline to process transactions that are unknown but are accepted by the custom filters.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-11 13:04:56 +0000 UTC
     </div>
 </div>
 
