@@ -1937,8 +1937,8 @@ _Note: I've changed some bits after making these screenshots._
 ### TODO
 
 - [ ] Document internals of `iroha_config_base`
-- [ ] Fix `iroha_client_cli` compilation failure
-- [ ] Enabled failing test back: `fails_with_no_trusted...` in `cli/src/lib.rs`
+- [x] Fix `iroha_client_cli` compilation failure
+- [x] Enabled failing test back: `fails_with_no_trusted...` in `cli/src/lib.rs`
             </td>
         </tr>
     </table>
