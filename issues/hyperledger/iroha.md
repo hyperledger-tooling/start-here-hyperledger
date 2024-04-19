@@ -199,32 +199,6 @@ atm, we're supporting only decoding to Rust debug format. I think we should just
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4226" class=".btn">4226</a>
-            </td>
-            <td>
-                <b>
-                    Prevent registering genesis Domain or Account
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                We have to make sure that instructions that try to register "genesis" domain or "genesis@genesis" account are always rejected. Tests should be added as well. Additionally, if there are none, tests should be added that confirm that any transaction signed by the "genesis@genesis" is rejected
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-23 07:26:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/4224" class=".btn">4224</a>
             </td>
             <td>
