@@ -1,13 +1,13 @@
 
-[4486](https://github.com/hyperledger/iroha/pull/4486) [feature] #4227: Support JSON in parity_scale_decoder
+[608](https://github.com/hyperledger-labs/fabric-token-sdk/pull/608) unit-tests
 
-[4823](https://github.com/hyperledger/fabric/pull/4823) chore: fix some typos in comments
+[454](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/454) build(deps): Bump golang.org/x/net from 0.8.0 to 0.23.0 in /samples/fabric/simpleassetandinterop
 
-[413](https://github.com/hyperledger/iroha-java/pull/413) Bump org.gradle.toolchains.foojay-resolver-convention from 0.5.0 to 0.8.0
+[453](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/453) build(deps): Bump golang.org/x/net from 0.8.0 to 0.23.0 in /samples/fabric/go-cli
 
-[412](https://github.com/hyperledger/iroha-java/pull/412) Bump gradle/gradle-build-action from 2.3.3 to 3.3.1
+[451](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/451) build(deps): Bump golang.org/x/net from 0.8.0 to 0.23.0 in /samples/fabric/simpleasset
 
-[411](https://github.com/hyperledger/iroha-java/pull/411) Bump com.github.docker-java:docker-java from 3.3.0 to 3.3.6
+[450](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/450) build(deps): Bump golang.org/x/net from 0.8.0 to 0.23.0 in /core/network/fabric-interop-cc/libs/assetexchange
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
