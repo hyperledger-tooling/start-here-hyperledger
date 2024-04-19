@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Enable starting guardian sservice at specified interface
+                    Fix Context naming issues with inference contracts
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 
             </td>
             <td>
-                This PR makes it possible to start guardian sservice at the specified interface rather than default localhost
-
-Signed-off-by: Prakash Narayana Moorthy <prakash.narayana.moorthy@intel.com>
+                1. Reuse vetting, asset, and issuer context from exchange modules for the inference jupyter module, rather than redefining. 
+2. Renamed the inference specific contexts to prevent overwriting of exchange related contexts
+3. With these changes, a single instance of jupyter container can be used to interact with both inference and exchange contracts
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-02 19:30:41 +0000 UTC
+        Created At 2024-04-18 20:44:56 +0000 UTC
     </div>
 </div>
 
