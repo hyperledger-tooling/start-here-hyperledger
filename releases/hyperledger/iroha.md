@@ -15,144 +15,127 @@ permalink: /releases/hyperledger/iroha
         <tr>
             <td colspan="2">
                 <b>
-                    Hyperledger Iroha v1.6
+                    2.0.0-pre-rc.21
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.6.0
+                    v2.0.0-pre-rc.21
                 </span>
             </td>
             <td>
-                Here are the changes compared to HL Iroha 1.5 (since 10th May 2022):
+                ### Added
 
-# Features
-1. Added iroha-cpp library. This was done according to Hyperledger Mentorship 2022: [Implement iroha-cpp library for Hyperledger Iroha 1](https://wiki.hyperledger.org/display/INTERN/Implement+iroha-cpp+library+for+Hyperledger+Iroha+1): https://github.com/hyperledger/iroha/pull/2660 by @andprogrammer (mentors were: @baziorek and @Pawlak00)
-2. Extended commands AddAssetQuantity and SubtractAssetQuantity with optional parameter "description". This was done according to Hyperledger Mentorship 2023: [Iroha 1: Enhance query functionality by introducing supplementary, optional parameters to extend the versatility and customization capabilities of queries within the Hyperledger Iroha 1 blockchain](https://wiki.hyperledger.org/pages/viewpage.action?pageId=80778614): https://github.com/hyperledger/iroha/pull/4003 by @dominious1 (mentors were: @baziorek , @andprogrammer, @6r1d and @appetrosyan)
-3. Feature/proposal batches: https://github.com/hyperledger/iroha/pull/2357 by @iceseer 
-4. Feature/db cache multi layer: https://github.com/hyperledger/iroha/pull/2387 by @iceseer 
-5. Feature/single pointer cache ref: https://github.com/hyperledger/iroha/pull/2364 by @iceseer 
-6. Allow configuring max past time of transaction created_time #1776  by @baziorek 
+- include trigger id in trigger entrypoint (#4391)
+- expose event set as bitfields in schema (#4381)
+- introduce new `wsv` with granular access (#2664)
+- add event filters for `PermissionTokenSchemaUpdate`, `Configuration` and `Executor` events
+- introduce snapshot "mode" (#4365)
+- allow granting/revoking role's permissions (#4244)
+- introduce arbitrary-precision numeric type for assets (remove all other numeric types) (#3660)
+- different fuel limit for Executor (#3354)
+- integrate pprof profiler (#4250)
+- add asset subcommand in client CLI (#4200)
+- `Register<AssetDefinition>` permissions (#4049)
+- add `chain_id` to prevent replay attacks (#4185)
+- add subcommands to edit domain metadata in client CLI (#4175)
+- implement store set, remove, get operations in Client CLI (#4163)
+- count identical smart contracts for triggers (#4133)
+- add subcommand into client CLI to transfer domains (#3974)
+- support boxed slices in FFI (#4062)
+- git commit SHA to client CLI (#4042)
+- proc macro for default validator boilerplate (#3856)
+- build progress information to `wasm_builder_cli` (#3237)
+- introduced query request builder into Client API (#3124)
+- lazy queries inside smart contracts (#3929)
+- `fetch_size` query parameter (#3900)
+- asset store tranfer instruction (#4258)
+- guard against secrets leakage (#3240)
+- deduplicate triggers with the same source code (#4419)
 
-# Fixes:
-1. Fix/rdb burrow storage tests #2243 by @iceseer 
-2. Synchronizer fix to store not more than 1000 blocks #2269 by @iceseer
-3. No cache synchronization on round switch and Send/Recv packets size become 128 Mb https://github.com/hyperledger/iroha/pull/2218 by @iceseer
-4. Fix/transfer asset permitions #2720 by @iceseer 
-5. Fix/unkai unexpected symbol check #2731 by @iceseer 
-7. Fix/gRPC drop stream bugfix #2749 by @iceseer 
-8. Many devops fixes of CI by @safinsaf : (17 Pull Requests or commits)
-9. Fix compilation: https://github.com/hyperledger/iroha/pull/2902 by @baziorek 
+### Changed
 
-# Documentation changes:
-1. https://github.com/hyperledger/iroha/issues/2446 by @6r1d
-2. https://github.com/hyperledger/iroha/pull/2448 by @6r1d
-3. https://github.com/hyperledger/iroha/pull/2448 by @6r1d
-4. https://github.com/hyperledger/iroha/pull/2475 by @baziorek 
-5. https://github.com/hyperledger/iroha/pull/2739 by @baziorek 
-6. https://github.com/hyperledger/iroha/pull/2739 by @LiraLemur 
-7. https://github.com/hyperledger/iroha/pull/2739 by @cavalryjim
-8. https://github.com/hyperledger/iroha/issues/1920 by @6r1d
-13. Added information how to built Iroha 1 on Raspberry Pi 4: https://github.com/hyperledger/iroha/pull/2948 by @baziorek 
-14. Maintainer list update: https://github.com/hyperledger/iroha/issues/2957 by @6r1d
-15. https://github.com/hyperledger/iroha/issues/2579 by @6r1d
-16. https://github.com/hyperledger/iroha/pull/3034 by @6r1d
-17. https://github.com/hyperledger/iroha/pull/3057 by @omahs
-18. https://github.com/hyperledger/iroha/issues/3070 by @6r1d
-19. https://github.com/hyperledger/iroha/issues/3079 by @6r1d
-20. https://github.com/hyperledger/iroha/pull/3086 by @6r1d
-21. https://github.com/hyperledger/iroha/issues/4055 by @6r1d
+- bump rust toolchain to nightly-2024-04-18
+- send blocks to observing peers (#4387)
+- split pipeline events into block and transaction events (#4366)
+- rename `[telemetry.dev]` config section to `[dev_telemetry]` (#4377)
+- make `Action` and `Filter` non-generic types (#4375)
+- improve event filtering API with builder pattern (#3068)
+- unify various event filter APIs, introduce a fluent builder API
+- rename `FilterBox` into `EventFilterBox`
+- rename `TriggeringFilterBox` into `TriggeringEventFilterBox`
+- improve filter naming, e.g. `AccountFilter` -> `AccountEventFilter`
+- rewrite config according to the configuration RFC (#4239)
+- hide internal structure of the versioned structs from the public API (#3887)
+- temporarily introduce predictable ordering after too many failed view changes (#4263)
+- use concrete key types in `iroha_crypto` (#4181)
+- split view changes from normal messages (#4115)
+- make `SignedTransaction` immutable (#4162)
+- export `iroha_config` through `iroha_client` (#4147)
+- export `iroha_crypto` through `iroha_client` (#4149)
+- export `data_model` through `iroha_client` (#4081)
+- remove `openssl-sys` dependency from `iroha_crypto` and introduce configurable tls backends to `iroha_client` (#3422)
+- replace unmaintained EOF `hyperledger/ursa` with in-house solution `iroha_crypto` (#3422)
+- optimize executor performance (#4013)
+- topology peer update (#3995)
 
-# What's Changed (all commits)
--------------------
-* [skip ci] Retire inactive maintainers by @ryjones in https://github.com/hyperledger/iroha/pull/2082
-* Feature/dops 1651/enable fork build by @safinsaf in https://github.com/hyperledger/iroha/pull/2046
-* Fix GHA security issue by @safinsaf in https://github.com/hyperledger/iroha/pull/2155
-* [Draft] Iroha forks allow build by @safinsaf in https://github.com/hyperledger/iroha/pull/2019
-* Fix security issues, remove build from commit option by @safinsaf in https://github.com/hyperledger/iroha/pull/2189
-* Bump protobuf from 3.5.1 to 3.15.0 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/1900
-* Update Develop by @safinsaf in https://github.com/hyperledger/iroha/pull/2275
-* Bump babel from 2.5.3 to 2.9.1 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/1549
-* Fix permissions for windows build job by @safinsaf in https://github.com/hyperledger/iroha/pull/2286
-* Update develop from main by @safinsaf in https://github.com/hyperledger/iroha/pull/2300
-* Fix status checks by @safinsaf in https://github.com/hyperledger/iroha/pull/2375
-* Develop to main v1.6-rc.1 by @iceseer in https://github.com/hyperledger/iroha/pull/2405
-* [documentation] #2446: improve issue templates by @6r1d in https://github.com/hyperledger/iroha/pull/2448
-* [documentation] hyperledger#2446 adds a spoiler to issue templates by @6r1d in https://github.com/hyperledger/iroha/pull/2459
-* Updates to requirements by @bhaskarvilles in https://github.com/hyperledger/iroha/pull/1964
-* Bump mistune from 2.0.1 to 2.0.3 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/2570
-* Develop to main by @iceseer in https://github.com/hyperledger/iroha/pull/2739
-* Feature/dops 1957/reduce ci runs by @safinsaf in https://github.com/hyperledger/iroha/pull/2755
-* Reduce CI runs by @safinsaf in https://github.com/hyperledger/iroha/pull/2759
-* Bump protobuf from 3.15.0 to 3.18.3 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/2783
-* Brand new bug report template by @AlexStroke in https://github.com/hyperledger/iroha/pull/2812
-* Fix/gRPC drop stream bugfix by @iceseer in https://github.com/hyperledger/iroha/pull/2749
-* [documentation] Fix #1920 by @6r1d in https://github.com/hyperledger/iroha/pull/2860
-* Allow configuring max past time of transaction `created_time` by @baziorek in https://github.com/hyperledger/iroha/pull/1776
-* Follow-up: #1776: Configurable max past created hours - changed type by @baziorek in https://github.com/hyperledger/iroha/pull/2901
-* Repaired building iroha according to instruction: Added patch file to make sure abseil library is building without changes by @baziorek in https://github.com/hyperledger/iroha/pull/2902
-* Add Iroha select label and restore temporary changes by @safinsaf in https://github.com/hyperledger/iroha/pull/2903
-* Repaired building iroha according to instruction: Added patch file to repair building of benchmark library: std::numeric_limits requires <limits> header by @baziorek in https://github.com/hyperledger/iroha/pull/2906
-* Remove cache from main workflow by @safinsaf in https://github.com/hyperledger/iroha/pull/2908
-* Implement iroha-lib separate module for Hyperledger Iroha 1 by @andprogrammer in https://github.com/hyperledger/iroha/pull/2660
-* Added more descriptive Readme file. by @andprogrammer in https://github.com/hyperledger/iroha/pull/2935
-* Changes in `vcpkg/build_iroha_deps.sh` file and documentation to inform users that Iroha 1 is working in Raspberry Pi 4 (from HL main repo) by @baziorek in https://github.com/hyperledger/iroha/pull/2948
-* [documentation] Fix #2957, update the MAINTAINERS.md file by @6r1d in https://github.com/hyperledger/iroha/pull/2958
-* Bump certifi from 2017.11.5 to 2022.12.7 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/2997
-* [documentation] #2579: mention Iroha 2 in Iroha docs by @outoftardis in https://github.com/hyperledger/iroha/pull/3034
-* doc: correct typos in `readme.md` by @omahs in https://github.com/hyperledger/iroha/pull/3057
-* [documentation] #3070: mention reduced dev activity by @6r1d in https://github.com/hyperledger/iroha/pull/3071
-* [documentation] #3079: reintroduce m2r2 dependency by @6r1d in https://github.com/hyperledger/iroha/pull/3080
-* [documentation] #3079: update the dependencies further by @6r1d in https://github.com/hyperledger/iroha/pull/3086
-* Fix in iroha-cpp library + added example of few transactions (HL branch -> develop) by @baziorek in https://github.com/hyperledger/iroha/pull/3148
-* [CI]: New PR template by @appetrosyan in https://github.com/hyperledger/iroha/pull/3322
-* Update vcpkg from last release by @safinsaf in https://github.com/hyperledger/iroha/pull/3332
-* [fix]: Iroha 1: Mac: Repair benchmark  by @baziorek in https://github.com/hyperledger/iroha/pull/3345
-* Develop2master 3081 corrections by @baziorek in https://github.com/hyperledger/iroha/pull/3328
-* Update MAINTAINERS.md by @6r1d in https://github.com/hyperledger/iroha/pull/3460
-* Develop to Master by @safinsaf in https://github.com/hyperledger/iroha/pull/3081
-* Bump tornado from 5.1 to 6.3.2 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/3531
-* Spelling Mistake by @tarunjainsagar in https://github.com/hyperledger/iroha/pull/3532
-* Bump pipreqs from 0.4.9 to 0.4.12 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/3664
-* [chore]: #3679 add @DCNick3 to the MAINTAINERS.md by @6r1d in https://github.com/hyperledger/iroha/pull/3680
-* Bump pygments from 2.7.4 to 2.15.0 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/3728
-* Bump certifi from 2022.12.7 to 2023.7.22 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/3746
-* Bump tornado from 6.3.2 to 6.3.3 in /docs/source by @dependabot in https://github.com/hyperledger/iroha/pull/3812
-* #3836: Add Bogdan Yamkovoy to MAINTAINERS.md file by @6r1d in https://github.com/hyperledger/iroha/pull/3842
-* Trying to fix sfinae problems by reverting vcpkg upgrade (Iroha 1) by @baziorek in https://github.com/hyperledger/iroha/pull/3852
-* Trying to upgrade libraries in VCPKG by @baziorek in https://github.com/hyperledger/iroha/pull/3862
-* Merge Iroha1 `develop` into `main` by @6r1d in https://github.com/hyperledger/iroha/pull/3960
-* [documentation] #4055: Add ReadTheDocs config by @6r1d in https://github.com/hyperledger/iroha/pull/4056
-* [documentation] #3945: Update MAINTAINERS.md by @6r1d in https://github.com/hyperledger/iroha/pull/3946
-* [chore]: #4102 Update issue templates by @6r1d in https://github.com/hyperledger/iroha/pull/4103
-* Trying to repair dependency which stopped working (protoc for golang) by @baziorek in https://github.com/hyperledger/iroha/pull/4173
-* Introduce an optional title parameter to the AddAssetQuantity and SubtractAssetQuantity, enhancing functionality within Iroha Core for improved message communication. Ensure corresponding handling capabilities in Iroha CLI for seamless integration. by @dominious1 in https://github.com/hyperledger/iroha/pull/4003
-* fix variable error by @xiaolou86 in https://github.com/hyperledger/iroha/pull/4020
-* [Confluence Documentation] Update message AddAssetQuantity and SubtractAssetQuantity with extra optional parameter by @dominious1 in https://github.com/hyperledger/iroha/pull/4032
-* [chore] #4231: Update MAINTAINERS by @6r1d in https://github.com/hyperledger/iroha/pull/4232
-* [chore] #4255: Update Maintainers, add Sato-san by @6r1d in https://github.com/hyperledger/iroha/pull/4254
-* Fixing warning in command SubtractAssetQuantity, removing unnecessarily includes, small documentation change by @baziorek in https://github.com/hyperledger/iroha/pull/4251
-* Changed "some-host" to "localhost" in example/config.docker by @baziorek in https://github.com/hyperledger/iroha/pull/4281
+### Fixed
 
-## New Contributors
-* @bhaskarvilles made their first contribution in https://github.com/hyperledger/iroha/pull/1964
-* @andprogrammer made their first contribution in https://github.com/hyperledger/iroha/pull/2660
-* @omahs made their first contribution in https://github.com/hyperledger/iroha/pull/3057
-* @tarunjainsagar made their first contribution in https://github.com/hyperledger/iroha/pull/3532
-* @dominious1 made their first contribution in https://github.com/hyperledger/iroha/pull/4003
-* @xiaolou86 made their first contribution in https://github.com/hyperledger/iroha/pull/4020
+- remove corresponding triggers on `Unregister<Domain>` (#4461)
+- remove permissions from roles on entity unregistration (#4242)
+- assert that genesis tranasction is signed by genesis pub key (#4253)
+- introduce timeout for unresponsive peers in p2p (#4267)
+- prevent registering genesis Domain or Account (#4226)
+- `MinSize` for `ChaCha20Poly1305` (#4395)
+- start console when `tokio-console` is enabled (#4377)
+- separate each item with `\n` and recursively create parent directories for `dev-telemetry` file logs
+- prevent account registration without signatures (#4212)
+- key pair generation is now infallible (#4283)
+- stop encoding `X25519` keys as `Ed25519` (#4174)
+- do signature validation in `no_std` (#4270)
+- calling blocking methods within async context (#4211)
+- revoke associated tokens on entity unregistretration (#3962)
+- async blocking bug when starting Sumeragi
+- fixed `(get|set)_config` 401 HTTP (#4177)
+- `musl` archiver name in Docker (#4193)
+- smart contract debug print (#4178)
+- topology update on restart (#4164)
+- registration of new peer (#4142)
+- on-chain predictable iteration order (#4130)
+- re-architect logger and dynamic configuration (#4100)
+- trigger atomicity (#4106)
+- query store message ordering issue (#4057)
+- set `Content-Type: application/x-parity-scale` for endpoints which reply using SCALE
 
-**Full Changelog**: https://github.com/hyperledger/iroha/compare/1.5.0...1.6.0
+### Removed
+
+- `logger.tokio_console_address` configuration parameter (#4377)
+- `NotificationEvent` (#4377)
+- `Value` enum (#4305)
+- MST aggregation from iroha (#4229)
+- cloning for ISI and query execution in smart contracts (#4182)
+- `bridge` and `dex` features (#4152)
+- flattened events (#3068)
+- expressions (#4089)
+- auto-generated config reference
+- `IROHA_SKIP_WASM_CHECKS` env variable (#4096)
+- `warp` noise in logs (#4097)
+
+### Security
+
+- prevent pub key spoofing in p2p (#4065)
+- ensure the `secp256k1` signatures coming out of OpenSSL are normalized (#4155)
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/iroha/releases/tag/1.6.0" class=".btn">
+    <a href="https://github.com/hyperledger/iroha/releases/tag/v2.0.0-pre-rc.21" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-14 11:21:12 +0000 UTC
+        Created At 2024-04-19 10:58:34 +0000 UTC
     </span>
 </div>
 
