@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/551" class=".btn">#551</a>
+            </td>
+            <td>
+                <b>
+                    fix finality listener
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-19 07:37:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/550" class=".btn">#550</a>
             </td>
             <td>
@@ -64,59 +90,6 @@ The OrdererAddresses do not have TLSRootCerts. The code only uses the OrdererAdd
     </table>
     <div class="right-align">
         Created At 2024-04-13 13:34:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/548" class=".btn">#548</a>
-            </td>
-            <td>
-                <b>
-                    Fix race tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-12 08:49:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/547" class=".btn">#547</a>
-            </td>
-            <td>
-                <b>
-                    common platform
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                This PR does the following: It introduces a `common` platform that contains shared code between the fabric and the orion platform. This code can be of help for other platforms in the future.
-In addition, this PR removes `TxStatusChangeListener` and replace it `FinalityListener`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-12 07:52:20 +0000 UTC
     </div>
 </div>
 

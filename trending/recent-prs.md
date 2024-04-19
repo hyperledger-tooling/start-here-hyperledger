@@ -1,13 +1,13 @@
 
-[139](https://github.com/hyperledger-labs/yui-relayer/pull/139) [bugfix] Fix handling error returned from `QueryClientStatePair`
+[4486](https://github.com/hyperledger/iroha/pull/4486) [feature] #4227: Support JSON in parity_scale_decoder
 
-[35](https://github.com/hyperledger-labs/pdo-contracts/pull/35) Fix Context naming issues with inference contracts
+[4823](https://github.com/hyperledger/fabric/pull/4823) chore: fix some typos in comments
 
-[605](https://github.com/hyperledger-labs/fabric-token-sdk/pull/605) fsc dep update
+[413](https://github.com/hyperledger/iroha-java/pull/413) Bump org.gradle.toolchains.foojay-resolver-convention from 0.5.0 to 0.8.0
 
-[4483](https://github.com/hyperledger/iroha/pull/4483) Bump attohttpc from 0.26.1 to 0.28.0
+[412](https://github.com/hyperledger/iroha-java/pull/412) Bump gradle/gradle-build-action from 2.3.3 to 3.3.1
 
-[4482](https://github.com/hyperledger/iroha/pull/4482) Bump erased-serde from 0.3.31 to 0.4.4
+[411](https://github.com/hyperledger/iroha-java/pull/411) Bump com.github.docker-java:docker-java from 3.3.0 to 3.3.6
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

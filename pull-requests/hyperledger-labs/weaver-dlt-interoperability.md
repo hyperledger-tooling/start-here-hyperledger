@@ -14,148 +14,40 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/440" class=".btn">#440</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/442" class=".btn">#442</a>
             </td>
             <td>
                 <b>
-                    build(deps): Bump h2 from 0.3.17 to 0.3.26 in /core/relay
+                    build(deps): Bump golang.org/x/net from 0.10.0 to 0.23.0 in /core/network/fabric-interop-cc/contracts/interop
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
+                <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [h2](https://github.com/hyperium/h2) from 0.3.17 to 0.3.26.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/hyperium/h2/releases">h2's releases</a>.</em></p>
-<blockquote>
-<h2>v0.3.26</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Limit number of CONTINUATION frames for misbehaving connections.</li>
-</ul>
-<p>See <a href="https://seanmonstar.com/blog/hyper-http2-continuation-flood/">https://seanmonstar.com/blog/hyper-http2-continuation-flood/</a> for more info.</p>
-<h2>v0.3.25</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>perf: optimize header list size calculations by <a href="https://github.com/Noah-Kennedy"><code>@​Noah-Kennedy</code></a> in <a href="https://redirect.github.com/hyperium/h2/pull/750">hyperium/h2#750</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/hyperium/h2/compare/v0.3.24...v0.3.25">https://github.com/hyperium/h2/compare/v0.3.24...v0.3.25</a></p>
-<h2>v0.3.24</h2>
-<h2>Fixed</h2>
-<ul>
-<li>Limit error resets for misbehaving connections.</li>
-</ul>
-<h2>v0.3.23</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>cherry-pick fix: streams awaiting capacity lockout in <a href="https://redirect.github.com/hyperium/h2/pull/734">hyperium/h2#734</a></li>
-</ul>
-<h2>v0.3.22</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Add <code>header_table_size(usize)</code> option to client and server builders.</li>
-<li>Improve throughput when vectored IO is not available.</li>
-<li>Update indexmap to 2.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/tottoto"><code>@​tottoto</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/714">hyperium/h2#714</a></li>
-<li><a href="https://github.com/xiaoyawei"><code>@​xiaoyawei</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/712">hyperium/h2#712</a></li>
-<li><a href="https://github.com/Protryon"><code>@​Protryon</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/719">hyperium/h2#719</a></li>
-<li><a href="https://github.com/4JX"><code>@​4JX</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/638">hyperium/h2#638</a></li>
-<li><a href="https://github.com/vuittont60"><code>@​vuittont60</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/724">hyperium/h2#724</a></li>
-</ul>
-<h2>v0.3.21</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Fix opening of new streams over peer's max concurrent limit.</li>
-<li>Fix <code>RecvStream</code> to return data even if it has received a <code>CANCEL</code> stream error.</li>
-<li>Update MSRV to 1.63.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/DDtKey"><code>@​DDtKey</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/703">hyperium/h2#703</a></li>
-<li><a href="https://github.com/jwilm"><code>@​jwilm</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/707">hyperium/h2#707</a></li>
-</ul>
-<h2>v0.3.20</h2>
-<h2>Bug Fixes</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/hyperium/h2/blob/v0.3.26/CHANGELOG.md">h2's changelog</a>.</em></p>
-<blockquote>
-<h1>0.3.26 (April 3, 2024)</h1>
-<ul>
-<li>Limit number of CONTINUATION frames for misbehaving connections.</li>
-</ul>
-<h1>0.3.25 (March 15, 2024)</h1>
-<ul>
-<li>Improve performance decoding many headers.</li>
-</ul>
-<h1>0.3.24 (January 17, 2024)</h1>
-<ul>
-<li>Limit error resets for misbehaving connections.</li>
-</ul>
-<h1>0.3.23 (January 10, 2024)</h1>
-<ul>
-<li>Backport fix from 0.4.1 for stream capacity assignment.</li>
-</ul>
-<h1>0.3.22 (November 15, 2023)</h1>
-<ul>
-<li>Add <code>header_table_size(usize)</code> option to client and server builders.</li>
-<li>Improve throughput when vectored IO is not available.</li>
-<li>Update indexmap to 2.</li>
-</ul>
-<h1>0.3.21 (August 21, 2023)</h1>
-<ul>
-<li>Fix opening of new streams over peer's max concurrent limit.</li>
-<li>Fix <code>RecvStream</code> to return data even if it has received a <code>CANCEL</code> stream error.</li>
-<li>Update MSRV to 1.63.</li>
-</ul>
-<h1>0.3.20 (June 26, 2023)</h1>
-<ul>
-<li>Fix panic if a server received a request with a <code>:status</code> pseudo header in the 1xx range.</li>
-<li>Fix panic if a reset stream had pending push promises that were more than allowed.</li>
-<li>Fix potential flow control overflow by subtraction, instead returning a connection error.</li>
-</ul>
-<h1>0.3.19 (May 12, 2023)</h1>
-<ul>
-<li>Fix counting reset streams when triggered by a GOAWAY.</li>
-<li>Send <code>too_many_resets</code> in opaque debug data of GOAWAY when too many resets received.</li>
-</ul>
-<h1>0.3.18 (April 17, 2023)</h1>
-<ul>
-<li>Fix panic because of opposite check in <code>is_remote_local()</code>.</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [golang.org/x/net](https://github.com/golang/net) from 0.10.0 to 0.23.0.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/hyperium/h2/commit/357127e279c06935830fe2140378312eac801494"><code>357127e</code></a> v0.3.26</li>
-<li><a href="https://github.com/hyperium/h2/commit/1a357aaefc7243fdfa9442f45d90be17794a4004"><code>1a357aa</code></a> fix: limit number of CONTINUATION frames allowed</li>
-<li><a href="https://github.com/hyperium/h2/commit/5b6c9e0da092728d702dff3607626aafb7809d77"><code>5b6c9e0</code></a> refactor: cleanup new unused warnings (<a href="https://redirect.github.com/hyperium/h2/issues/757">#757</a>)</li>
-<li><a href="https://github.com/hyperium/h2/commit/3a798327211345b9b2bf797e2e4f3aca4e0ddfee"><code>3a79832</code></a> v0.3.25</li>
-<li><a href="https://github.com/hyperium/h2/commit/94e80b1c72bec282bb5d13596803e6fb341fec4c"><code>94e80b1</code></a> perf: optimize header list size calculations (<a href="https://redirect.github.com/hyperium/h2/issues/750">#750</a>)</li>
-<li><a href="https://github.com/hyperium/h2/commit/7243ab5854b2375213a5a2cdfd543f1d669661e2"><code>7243ab5</code></a> Prepare v0.3.24</li>
-<li><a href="https://github.com/hyperium/h2/commit/d919cd6fd8e0f4f5d1f6282fab0b38a1b4bf999c"><code>d919cd6</code></a> streams: limit error resets for misbehaving connections</li>
-<li><a href="https://github.com/hyperium/h2/commit/a7eb14a487c0094187314fca63cfe4de4d3d78ef"><code>a7eb14a</code></a> v0.3.23</li>
-<li><a href="https://github.com/hyperium/h2/commit/b668c7fbe22e0cb4a76b0a67498cbb4d0aacbc75"><code>b668c7f</code></a> fix: streams awaiting capacity lockout (<a href="https://redirect.github.com/hyperium/h2/issues/730">#730</a>) (<a href="https://redirect.github.com/hyperium/h2/issues/734">#734</a>)</li>
-<li><a href="https://github.com/hyperium/h2/commit/0f412d8b9c8d309966197873ad1d065adc23c794"><code>0f412d8</code></a> v0.3.22</li>
-<li>Additional commits viewable in <a href="https://github.com/hyperium/h2/compare/v0.3.17...v0.3.26">compare view</a></li>
+<li><a href="https://github.com/golang/net/commit/c48da131589f122489348be5dfbcb6457640046f"><code>c48da13</code></a> http2: fix TestServerContinuationFlood flakes</li>
+<li><a href="https://github.com/golang/net/commit/762b58d1cf6e0779780decad89c6c1523386638d"><code>762b58d</code></a> http2: fix tipos in comment</li>
+<li><a href="https://github.com/golang/net/commit/ba872109ef2dc8f1da778651bd1fd3792d0e4587"><code>ba87210</code></a> http2: close connections when receiving too many headers</li>
+<li><a href="https://github.com/golang/net/commit/ebc8168ac8ac742194df729305175940790c55a2"><code>ebc8168</code></a> all: fix some typos</li>
+<li><a href="https://github.com/golang/net/commit/3678185f8a652e52864c44049a9ea96b7bcc066a"><code>3678185</code></a> http2: make TestCanonicalHeaderCacheGrowth faster</li>
+<li><a href="https://github.com/golang/net/commit/448c44f9287b6745f958d74aa2a17ec7761c2f13"><code>448c44f</code></a> http2: remove clientTester</li>
+<li><a href="https://github.com/golang/net/commit/c7877ac4213b2f859831366f5a35b353e0dc9f66"><code>c7877ac</code></a> http2: convert the remaining clientTester tests to testClientConn</li>
+<li><a href="https://github.com/golang/net/commit/d8870b0bf2f2426fc8d19a9332f652da5c25418f"><code>d8870b0</code></a> http2: use synthetic time in TestIdleConnTimeout</li>
+<li><a href="https://github.com/golang/net/commit/d73acffdc9493532acb85777105bb4a351eea702"><code>d73acff</code></a> http2: only set up deadline when Server.IdleTimeout is positive</li>
+<li><a href="https://github.com/golang/net/commit/89f602b7bbf237abe0467031a18b42fc742ced08"><code>89f602b</code></a> http2: validate client/outgoing trailers</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/net/compare/v0.10.0...v0.23.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=h2&package-manager=cargo&previous-version=0.3.17&new-version=0.3.26)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/net&package-manager=go_modules&previous-version=0.10.0&new-version=0.23.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -187,188 +79,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-05 15:57:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/439" class=".btn">#439</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): Bump h2 from 0.3.17 to 0.3.26 in /common/protos-rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [h2](https://github.com/hyperium/h2) from 0.3.17 to 0.3.26.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/hyperium/h2/releases">h2's releases</a>.</em></p>
-<blockquote>
-<h2>v0.3.26</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Limit number of CONTINUATION frames for misbehaving connections.</li>
-</ul>
-<p>See <a href="https://seanmonstar.com/blog/hyper-http2-continuation-flood/">https://seanmonstar.com/blog/hyper-http2-continuation-flood/</a> for more info.</p>
-<h2>v0.3.25</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>perf: optimize header list size calculations by <a href="https://github.com/Noah-Kennedy"><code>@​Noah-Kennedy</code></a> in <a href="https://redirect.github.com/hyperium/h2/pull/750">hyperium/h2#750</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/hyperium/h2/compare/v0.3.24...v0.3.25">https://github.com/hyperium/h2/compare/v0.3.24...v0.3.25</a></p>
-<h2>v0.3.24</h2>
-<h2>Fixed</h2>
-<ul>
-<li>Limit error resets for misbehaving connections.</li>
-</ul>
-<h2>v0.3.23</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>cherry-pick fix: streams awaiting capacity lockout in <a href="https://redirect.github.com/hyperium/h2/pull/734">hyperium/h2#734</a></li>
-</ul>
-<h2>v0.3.22</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Add <code>header_table_size(usize)</code> option to client and server builders.</li>
-<li>Improve throughput when vectored IO is not available.</li>
-<li>Update indexmap to 2.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/tottoto"><code>@​tottoto</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/714">hyperium/h2#714</a></li>
-<li><a href="https://github.com/xiaoyawei"><code>@​xiaoyawei</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/712">hyperium/h2#712</a></li>
-<li><a href="https://github.com/Protryon"><code>@​Protryon</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/719">hyperium/h2#719</a></li>
-<li><a href="https://github.com/4JX"><code>@​4JX</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/638">hyperium/h2#638</a></li>
-<li><a href="https://github.com/vuittont60"><code>@​vuittont60</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/724">hyperium/h2#724</a></li>
-</ul>
-<h2>v0.3.21</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Fix opening of new streams over peer's max concurrent limit.</li>
-<li>Fix <code>RecvStream</code> to return data even if it has received a <code>CANCEL</code> stream error.</li>
-<li>Update MSRV to 1.63.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/DDtKey"><code>@​DDtKey</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/703">hyperium/h2#703</a></li>
-<li><a href="https://github.com/jwilm"><code>@​jwilm</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/h2/pull/707">hyperium/h2#707</a></li>
-</ul>
-<h2>v0.3.20</h2>
-<h2>Bug Fixes</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/hyperium/h2/blob/v0.3.26/CHANGELOG.md">h2's changelog</a>.</em></p>
-<blockquote>
-<h1>0.3.26 (April 3, 2024)</h1>
-<ul>
-<li>Limit number of CONTINUATION frames for misbehaving connections.</li>
-</ul>
-<h1>0.3.25 (March 15, 2024)</h1>
-<ul>
-<li>Improve performance decoding many headers.</li>
-</ul>
-<h1>0.3.24 (January 17, 2024)</h1>
-<ul>
-<li>Limit error resets for misbehaving connections.</li>
-</ul>
-<h1>0.3.23 (January 10, 2024)</h1>
-<ul>
-<li>Backport fix from 0.4.1 for stream capacity assignment.</li>
-</ul>
-<h1>0.3.22 (November 15, 2023)</h1>
-<ul>
-<li>Add <code>header_table_size(usize)</code> option to client and server builders.</li>
-<li>Improve throughput when vectored IO is not available.</li>
-<li>Update indexmap to 2.</li>
-</ul>
-<h1>0.3.21 (August 21, 2023)</h1>
-<ul>
-<li>Fix opening of new streams over peer's max concurrent limit.</li>
-<li>Fix <code>RecvStream</code> to return data even if it has received a <code>CANCEL</code> stream error.</li>
-<li>Update MSRV to 1.63.</li>
-</ul>
-<h1>0.3.20 (June 26, 2023)</h1>
-<ul>
-<li>Fix panic if a server received a request with a <code>:status</code> pseudo header in the 1xx range.</li>
-<li>Fix panic if a reset stream had pending push promises that were more than allowed.</li>
-<li>Fix potential flow control overflow by subtraction, instead returning a connection error.</li>
-</ul>
-<h1>0.3.19 (May 12, 2023)</h1>
-<ul>
-<li>Fix counting reset streams when triggered by a GOAWAY.</li>
-<li>Send <code>too_many_resets</code> in opaque debug data of GOAWAY when too many resets received.</li>
-</ul>
-<h1>0.3.18 (April 17, 2023)</h1>
-<ul>
-<li>Fix panic because of opposite check in <code>is_remote_local()</code>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/hyperium/h2/commit/357127e279c06935830fe2140378312eac801494"><code>357127e</code></a> v0.3.26</li>
-<li><a href="https://github.com/hyperium/h2/commit/1a357aaefc7243fdfa9442f45d90be17794a4004"><code>1a357aa</code></a> fix: limit number of CONTINUATION frames allowed</li>
-<li><a href="https://github.com/hyperium/h2/commit/5b6c9e0da092728d702dff3607626aafb7809d77"><code>5b6c9e0</code></a> refactor: cleanup new unused warnings (<a href="https://redirect.github.com/hyperium/h2/issues/757">#757</a>)</li>
-<li><a href="https://github.com/hyperium/h2/commit/3a798327211345b9b2bf797e2e4f3aca4e0ddfee"><code>3a79832</code></a> v0.3.25</li>
-<li><a href="https://github.com/hyperium/h2/commit/94e80b1c72bec282bb5d13596803e6fb341fec4c"><code>94e80b1</code></a> perf: optimize header list size calculations (<a href="https://redirect.github.com/hyperium/h2/issues/750">#750</a>)</li>
-<li><a href="https://github.com/hyperium/h2/commit/7243ab5854b2375213a5a2cdfd543f1d669661e2"><code>7243ab5</code></a> Prepare v0.3.24</li>
-<li><a href="https://github.com/hyperium/h2/commit/d919cd6fd8e0f4f5d1f6282fab0b38a1b4bf999c"><code>d919cd6</code></a> streams: limit error resets for misbehaving connections</li>
-<li><a href="https://github.com/hyperium/h2/commit/a7eb14a487c0094187314fca63cfe4de4d3d78ef"><code>a7eb14a</code></a> v0.3.23</li>
-<li><a href="https://github.com/hyperium/h2/commit/b668c7fbe22e0cb4a76b0a67498cbb4d0aacbc75"><code>b668c7f</code></a> fix: streams awaiting capacity lockout (<a href="https://redirect.github.com/hyperium/h2/issues/730">#730</a>) (<a href="https://redirect.github.com/hyperium/h2/issues/734">#734</a>)</li>
-<li><a href="https://github.com/hyperium/h2/commit/0f412d8b9c8d309966197873ad1d065adc23c794"><code>0f412d8</code></a> v0.3.22</li>
-<li>Additional commits viewable in <a href="https://github.com/hyperium/h2/compare/v0.3.17...v0.3.26">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=h2&package-manager=cargo&previous-version=0.3.17&new-version=0.3.26)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/weaver-dlt-interoperability/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-05 15:56:17 +0000 UTC
+        Created At 2024-04-19 11:24:30 +0000 UTC
     </div>
 </div>
 
