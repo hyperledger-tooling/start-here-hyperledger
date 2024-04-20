@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    Fix Context naming issues with inference contracts
+                    Make the jupyter context functions more robust
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 
             </td>
             <td>
-                1. Reuse vetting, asset, and issuer context from exchange modules for the inference jupyter module, rather than redefining. 
-2. Renamed the inference specific contexts to prevent overwriting of exchange related contexts
-3. With these changes, a single instance of jupyter container can be used to interact with both inference and exchange contracts
+                In order to support multiple namespaces for the contexts used in jupyter notebooks, make the context names and data more explicit. Fixes a problem with the exchange token issuer caused by a conflict in contexts.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-18 20:44:56 +0000 UTC
+        Created At 2024-04-19 20:26:33 +0000 UTC
     </div>
 </div>
 
