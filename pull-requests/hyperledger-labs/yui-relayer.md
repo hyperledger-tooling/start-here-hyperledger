@@ -39,30 +39,3 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/138" class=".btn">#138</a>
-            </td>
-            <td>
-                <b>
-                    Change behaviors of create client, connection, and channel commands.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 - just exit with status 1 if config.json has id but that client/connection/channel is not exists.
- - just exit with status 0 if config.json has id and that client/connection/channel is already opened.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-13 18:44:25 +0000 UTC
-    </div>
-</div>
-
