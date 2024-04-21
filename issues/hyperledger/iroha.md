@@ -310,35 +310,3 @@ https://github.com/hyperledger/iroha/blob/565271dd043b6371c1fc2e4edce0754a3058c1
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4197" class=".btn">4197</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: Improve decoding of `ChainId`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                              This could be improved by using constructor `fn new(inner: impl Into<Box<str>>)`.
-I will extract it into separate good first issue.
-
-_Originally posted by @Erigara in https://github.com/hyperledger/iroha/pull/4185#discussion_r1450199917_
-
-Idea is to remove redundant clone by directly convert from `String` to `Box<str>`.
-            
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-12 10:25:34 +0000 UTC
-    </div>
-</div>
-
