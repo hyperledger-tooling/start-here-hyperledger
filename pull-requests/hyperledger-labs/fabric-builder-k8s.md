@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/110" class=".btn">#110</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/112" class=".btn">#112</a>
             </td>
             <td>
                 <b>
-                    add option for peerPodOwnership
+                    [WIP] Improve kubernetes object names
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                fix #88 
-
-I tried to fix the issue though I am new to golang and kubernetes both. Would love to improve this pr and get it merged!
+                Resolves #105
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-07 17:38:59 +0000 UTC
+        Created At 2024-04-22 17:46:24 +0000 UTC
     </div>
 </div>
 

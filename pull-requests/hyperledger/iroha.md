@@ -14,6 +14,707 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4498" class=".btn">#4498</a>
+            </td>
+            <td>
+                <b>
+                    Bump actions/cache from 3 to 4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">github_actions</span>
+            </td>
+            <td>
+                Bumps [actions/cache](https://github.com/actions/cache) from 3 to 4.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/actions/cache/releases">actions/cache's releases</a>.</em></p>
+<blockquote>
+<h2>v4.0.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Update action to node20 by <a href="https://github.com/takost"><code>@​takost</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1284">actions/cache#1284</a></li>
+<li>feat: save-always flag by <a href="https://github.com/to-s"><code>@​to-s</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1242">actions/cache#1242</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/takost"><code>@​takost</code></a> made their first contribution in <a href="https://redirect.github.com/actions/cache/pull/1284">actions/cache#1284</a></li>
+<li><a href="https://github.com/to-s"><code>@​to-s</code></a> made their first contribution in <a href="https://redirect.github.com/actions/cache/pull/1242">actions/cache#1242</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/cache/compare/v3...v4.0.0">https://github.com/actions/cache/compare/v3...v4.0.0</a></p>
+<h2>v3.3.3</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Cache v3.3.3 by <a href="https://github.com/robherley"><code>@​robherley</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1302">actions/cache#1302</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/robherley"><code>@​robherley</code></a> made their first contribution in <a href="https://redirect.github.com/actions/cache/pull/1302">actions/cache#1302</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/cache/compare/v3...v3.3.3">https://github.com/actions/cache/compare/v3...v3.3.3</a></p>
+<h2>v3.3.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fixed readme with new segment timeout values by <a href="https://github.com/kotewar"><code>@​kotewar</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1133">actions/cache#1133</a></li>
+<li>Readme fixes by <a href="https://github.com/kotewar"><code>@​kotewar</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1134">actions/cache#1134</a></li>
+<li>Updated description of the lookup-only input for main action by <a href="https://github.com/kotewar"><code>@​kotewar</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1130">actions/cache#1130</a></li>
+<li>Change two new actions mention as quoted text by <a href="https://github.com/bishal-pdMSFT"><code>@​bishal-pdMSFT</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1131">actions/cache#1131</a></li>
+<li>Update Cross-OS Caching tips by <a href="https://github.com/pdotl"><code>@​pdotl</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1122">actions/cache#1122</a></li>
+<li>Bazel example (Take <a href="https://redirect.github.com/actions/cache/issues/2">#2</a>️⃣) by <a href="https://github.com/vorburger"><code>@​vorburger</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1132">actions/cache#1132</a></li>
+<li>Remove actions to add new PRs and issues to a project board by <a href="https://github.com/jorendorff"><code>@​jorendorff</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1187">actions/cache#1187</a></li>
+<li>Consume latest toolkit and fix dangling promise bug by <a href="https://github.com/chkimes"><code>@​chkimes</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1217">actions/cache#1217</a></li>
+<li>Bump action version to 3.3.2 by <a href="https://github.com/bethanyj28"><code>@​bethanyj28</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1236">actions/cache#1236</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/vorburger"><code>@​vorburger</code></a> made their first contribution in <a href="https://redirect.github.com/actions/cache/pull/1132">actions/cache#1132</a></li>
+<li><a href="https://github.com/jorendorff"><code>@​jorendorff</code></a> made their first contribution in <a href="https://redirect.github.com/actions/cache/pull/1187">actions/cache#1187</a></li>
+<li><a href="https://github.com/chkimes"><code>@​chkimes</code></a> made their first contribution in <a href="https://redirect.github.com/actions/cache/pull/1217">actions/cache#1217</a></li>
+<li><a href="https://github.com/bethanyj28"><code>@​bethanyj28</code></a> made their first contribution in <a href="https://redirect.github.com/actions/cache/pull/1236">actions/cache#1236</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/cache/compare/v3...v3.3.2">https://github.com/actions/cache/compare/v3...v3.3.2</a></p>
+<h2>v3.3.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Reduced download segment size to 128 MB and timeout to 10 minutes by <a href="https://github.com/kotewar"><code>@​kotewar</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1129">actions/cache#1129</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/actions/cache/compare/v3...v3.3.1">https://github.com/actions/cache/compare/v3...v3.3.1</a></p>
+<h2>v3.3.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Bug: Permission is missing in cache delete example by <a href="https://github.com/kotokaze"><code>@​kotokaze</code></a> in <a href="https://redirect.github.com/actions/cache/pull/1123">actions/cache#1123</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/actions/cache/blob/main/RELEASES.md">actions/cache's changelog</a>.</em></p>
+<blockquote>
+<h1>Releases</h1>
+<h3>4.0.2</h3>
+<ul>
+<li>Fixed restore <code>fail-on-cache-miss</code> not working.</li>
+</ul>
+<h3>4.0.1</h3>
+<ul>
+<li>Updated <code>isGhes</code> check</li>
+</ul>
+<h3>4.0.0</h3>
+<ul>
+<li>Updated minimum runner version support from node 12 -&gt; node 20</li>
+</ul>
+<h3>3.3.3</h3>
+<ul>
+<li>Updates <code>@​actions/cache</code> to v3.2.3 to fix accidental mutated path arguments to <code>getCacheVersion</code> <a href="https://redirect.github.com/actions/toolkit/pull/1378">actions/toolkit#1378</a></li>
+<li>Additional audit fixes of npm package(s)</li>
+</ul>
+<h3>3.3.2</h3>
+<ul>
+<li>Fixes bug with Azure SDK causing blob downloads to get stuck.</li>
+</ul>
+<h3>3.3.1</h3>
+<ul>
+<li>Reduced segment size to 128MB and segment timeout to 10 minutes to fail fast in case the cache download is stuck.</li>
+</ul>
+<h3>3.3.0</h3>
+<ul>
+<li>Added option to lookup cache without downloading it.</li>
+</ul>
+<h3>3.2.6</h3>
+<ul>
+<li>Fix zstd not being used after zstd version upgrade to 1.5.4 on hosted runners.</li>
+</ul>
+<h3>3.2.5</h3>
+<ul>
+<li>Added fix to prevent from setting MYSYS environment variable globally.</li>
+</ul>
+<h3>3.2.4</h3>
+<ul>
+<li>Added option to fail job on cache miss.</li>
+</ul>
+<h3>3.2.3</h3>
+<ul>
+<li>Support cross os caching on Windows as an opt-in feature.</li>
+<li>Fix issue with symlink restoration on Windows for cross-os caches.</li>
+</ul>
+<h3>3.2.2</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/actions/cache/commit/0c45773b623bea8c8e75f6c82b208c3cf94ea4f9"><code>0c45773</code></a> Merge pull request <a href="https://redirect.github.com/actions/cache/issues/1327">#1327</a> from cdce8p/fix-fail-on-cache-miss</li>
+<li><a href="https://github.com/actions/cache/commit/8a55f839aa4b4578e47bdc8a52828637cbb9a454"><code>8a55f83</code></a> Add test case for process exit</li>
+<li><a href="https://github.com/actions/cache/commit/3884cace147bdf9307fcc52a277f421af7b30798"><code>3884cac</code></a> Bump version</li>
+<li><a href="https://github.com/actions/cache/commit/e29dad3e36390db18fc19fb666cb1302f4929002"><code>e29dad3</code></a> Fix fail-on-cache-miss not working</li>
+<li><a href="https://github.com/actions/cache/commit/ab5e6d0c87105b4c9c2047343972218f562e4319"><code>ab5e6d0</code></a> Merge pull request <a href="https://redirect.github.com/actions/cache/issues/1341">#1341</a> from bethanyj28/main</li>
+<li><a href="https://github.com/actions/cache/commit/89c7d86c71006451e399dfcc588eed8e392e0dcf"><code>89c7d86</code></a> licensed cache</li>
+<li><a href="https://github.com/actions/cache/commit/d2c84da363007d814e47d50565ba3794c1a84c56"><code>d2c84da</code></a> update <code>@​actions/cache</code></li>
+<li><a href="https://github.com/actions/cache/commit/37e7d4eb166540050942d75a6e40742cbfc92f65"><code>37e7d4e</code></a> Merge pull request <a href="https://redirect.github.com/actions/cache/issues/1340">#1340</a> from actions/bethanyj28/update-publish-flow</li>
+<li><a href="https://github.com/actions/cache/commit/a18323f50430a57f9094db3ce508dc1e3a25d4a2"><code>a18323f</code></a> add release action</li>
+<li><a href="https://github.com/actions/cache/commit/a2ed59d39b352305bdd2f628719a53b2cc4f9613"><code>a2ed59d</code></a> Merge pull request <a href="https://redirect.github.com/actions/cache/issues/1305">#1305</a> from actions/yacaovsnc/update_examples</li>
+<li>Additional commits viewable in <a href="https://github.com/actions/cache/compare/v3...v4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/cache&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 17:02:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4497" class=".btn">#4497</a>
+            </td>
+            <td>
+                <b>
+                    Bump base64 from 0.21.7 to 0.22.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [base64](https://github.com/marshallpierce/rust-base64) from 0.21.7 to 0.22.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/marshallpierce/rust-base64/blob/master/RELEASE-NOTES.md">base64's changelog</a>.</em></p>
+<blockquote>
+<h1>0.22.0</h1>
+<ul>
+<li><code>DecodeSliceError::OutputSliceTooSmall</code> is now conservative rather than precise. That is, the error will only occur if the decoded output <em>cannot</em> fit, meaning that <code>Engine::decode_slice</code> can now be used with exactly-sized output slices. As part of this, <code>Engine::internal_decode</code> now returns <code>DecodeSliceError</code> instead of <code>DecodeError</code>, but that is not expected to affect any external callers.</li>
+<li><code>DecodeError::InvalidLength</code> now refers specifically to the <em>number of valid symbols</em> being invalid (i.e. <code>len % 4 == 1</code>), rather than just the number of input bytes. This avoids confusing scenarios when based on interpretation you could make a case for either <code>InvalidLength</code> or <code>InvalidByte</code> being appropriate.</li>
+<li>Decoding is somewhat faster (5-10%)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/5d70ba7576f9aafcbf02bd8acfcb9973411fb95f"><code>5d70ba7</code></a> Merge pull request <a href="https://redirect.github.com/marshallpierce/rust-base64/issues/269">#269</a> from marshallpierce/mp/decode-precisely</li>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/efb6c006c75ddbe60c084c2e3e0e084cd18b0122"><code>efb6c00</code></a> Release notes</li>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/2b91084a31ad11624acd81e06455ba0cbd21d4a8"><code>2b91084</code></a> Add some tests to boost coverage</li>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/9e9c7abe65fed78c35a1e94e11446d66ff118c25"><code>9e9c7ab</code></a> Engine::internal_decode now returns DecodeSliceError</li>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/a8a60f43c56597259558261353b5bf7e953eed36"><code>a8a60f4</code></a> Decode main loop improvements</li>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/a25be0667c63460827cfadd71d1630acb442bb09"><code>a25be06</code></a> Simplify leftover output writes</li>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/9979cc33bb964b4ee36898773a01f546d2c6487a"><code>9979cc3</code></a> Keep morsels as separate bytes</li>
+<li><a href="https://github.com/marshallpierce/rust-base64/commit/37670c5ec224eec3af9778fb371c5529dfab52af"><code>37670c5</code></a> Bump dev toolchain version (<a href="https://redirect.github.com/marshallpierce/rust-base64/issues/268">#268</a>)</li>
+<li>See full diff in <a href="https://github.com/marshallpierce/rust-base64/compare/v0.21.7...v0.22.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=base64&package-manager=cargo&previous-version=0.21.7&new-version=0.22.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 16:43:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4496" class=".btn">#4496</a>
+            </td>
+            <td>
+                <b>
+                    Bump thiserror from 1.0.58 to 1.0.59
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [thiserror](https://github.com/dtolnay/thiserror) from 1.0.58 to 1.0.59.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.59</h2>
+<ul>
+<li>Unblock testing of rustc <code>debug-fmt-detail</code> option (<a href="https://redirect.github.com/dtolnay/thiserror/issues/297">#297</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/thiserror/commit/e7ad85ee6b135c5748d37ed1e8edda950336af77"><code>e7ad85e</code></a> Release 1.0.59</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/af477ecbe5ed355cc1d5da17dc1f2a1b03a696a4"><code>af477ec</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/thiserror/issues/297">#297</a> from dtolnay/traitident</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/f3fbd990483f43153a631604373bb9dc7e071982"><code>f3fbd99</code></a> Implement ToTokens without reliance on {:?}</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/508ece867dce8443efec9d3ff2ace0af659a4755"><code>508ece8</code></a> Revert &quot;Temporarily disable miri on doctests&quot;</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/c8c804ce80c119f5f7a5c20413c2759a4de79246"><code>c8c804c</code></a> Explicitly install a Rust toolchain for cargo-outdated job</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/6969595f5f279cf909ebac7e99b64d17d4c8b08d"><code>6969595</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/thiserror/issues/293">#293</a> from dtolnay/workspacewrapper</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/488d52f111e48103c5bb76cde7e17aafb1dbdcde"><code>488d52f</code></a> Apply RUSTC_WORKSPACE_WRAPPER</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/ba33438c888a04e962c2b9c3439a7312144d386b"><code>ba33438</code></a> Temporarily disable miri on doctests</li>
+<li>See full diff in <a href="https://github.com/dtolnay/thiserror/compare/1.0.58...1.0.59">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=thiserror&package-manager=cargo&previous-version=1.0.58&new-version=1.0.59)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 16:42:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4495" class=".btn">#4495</a>
+            </td>
+            <td>
+                <b>
+                    Bump secp256k1 from 0.28.2 to 0.29.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [secp256k1](https://github.com/rust-bitcoin/rust-secp256k1) from 0.28.2 to 0.29.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/rust-bitcoin/rust-secp256k1/blob/master/CHANGELOG.md">secp256k1's changelog</a>.</em></p>
+<blockquote>
+<h1>0.29.0 - 2024-04-02</h1>
+<ul>
+<li>
+<p>Deprecate <code>ThirtyTwoByteHash</code> <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/pull/686">#686</a></p>
+<p>This trait turned out to be problematic during upgrade because we support a ranged dependency for
+<code>bitcoin_hashes</code>. Consider implementing <code>From&lt;T&gt; for Message</code> for your type iff your type is a 32
+byte hash (ie, output from a hash algorithm that produces a 32 byte digest like sha256). When
+using the impl, consider using <code>Message::from</code> instead of <code>hash.into()</code> because we will be
+introducing generics in a future version and the compiler will not be able to work out the target
+type.</p>
+</li>
+<li>
+<p>Bump MSRV to Rust <code>v1.56.1</code> <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/pull/693">#693</a></p>
+</li>
+<li>
+<p>Upgrade <code>hashes</code> using range dependency <code>version = &quot;&gt;= 0.12, &lt;= 0.14&quot;</code> <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/pull/690">#690</a></p>
+</li>
+<li>
+<p>Depend on latest <code>secp256k1-sys</code> (vendors <code>secp256k1 v0.4.1</code>) <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/pull/688">#688</a></p>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/6648126c69ce8056d053cbaa22246d12c76f3fc1"><code>6648126</code></a> Merge <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/issues/256">rust-bitcoin/rust-secp256k1256</a>: Release tracking PR: <code>v0.29.0</code></li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/5f9baaa7d5f6ff84dafb780a3ab90afcdb1dd5a9"><code>5f9baaa</code></a> Bump version to 0.29.0</li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/1e814e76392391fa04edbe06b85117cbac6b0d0b"><code>1e814e7</code></a> Merge <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/issues/256">rust-bitcoin/rust-secp256k1256</a>: Release tracking PR: `secp256k1-sys 0....</li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/2bba8f9f5a7ea8af619a0df0afb4f36f3e00013a"><code>2bba8f9</code></a> secp256k1-sys: Vendor latest secp256k1</li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/a05078f6e58e2b41997c0dbf7401266fab7d76f6"><code>a05078f</code></a> Merge <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/issues/256">rust-bitcoin/rust-secp256k1256</a>: Deprecate <code>ThirtyTwoByteHash</code></li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/9f28cf6ad01157da2dfb35639db7f624f958cc69"><code>9f28cf6</code></a> Deprecate ThirtyTwoByteHash</li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/88c8c58d8d914279f8aa809413fd53f4929f7de4"><code>88c8c58</code></a> Fix import warnings</li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/d279c13bebc5886bf82009d137954f74d017c5ad"><code>d279c13</code></a> Merge <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/issues/256">rust-bitcoin/rust-secp256k1256</a>: Upgrade hashes dependency</li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/645271dd7456017e3040a7f5eecae74da947d64c"><code>645271d</code></a> Upgrade hashes dependency</li>
+<li><a href="https://github.com/rust-bitcoin/rust-secp256k1/commit/ac706178bff5f0c5f4a848c44164449420e8b56a"><code>ac70617</code></a> Merge <a href="https://redirect.github.com/rust-bitcoin/rust-secp256k1/issues/256">rust-bitcoin/rust-secp256k1256</a>: Bump MSRV to 1.56.1</li>
+<li>Additional commits viewable in <a href="https://github.com/rust-bitcoin/rust-secp256k1/compare/secp256k1-0.28.2...secp256k1-0.29.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=secp256k1&package-manager=cargo&previous-version=0.28.2&new-version=0.29.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 16:42:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4494" class=".btn">#4494</a>
+            </td>
+            <td>
+                <b>
+                    Bump serial_test from 2.0.0 to 3.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [serial_test](https://github.com/palfrey/serial_test) from 2.0.0 to 3.1.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/palfrey/serial_test/releases">serial_test's releases</a>.</em></p>
+<blockquote>
+<h2>v3.1.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Replace <code>lazy_static</code> with <code>once_cell</code> by <a href="https://github.com/Expyron"><code>@​Expyron</code></a> in <a href="https://redirect.github.com/palfrey/serial_test/pull/106">palfrey/serial_test#106</a></li>
+<li>Replace <code>dashmap</code> with <code>scc</code> by <a href="https://github.com/palfrey"><code>@​palfrey</code></a> in <a href="https://redirect.github.com/palfrey/serial_test/pull/109">palfrey/serial_test#109</a></li>
+<li>Standard test attribute worked with <code>mod</code>, others didn't (e.g. <code>tokio::test</code>) by <a href="https://github.com/palfrey"><code>@​palfrey</code></a> in <a href="https://redirect.github.com/palfrey/serial_test/pull/110">palfrey/serial_test#110</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/Expyron"><code>@​Expyron</code></a> made their first contribution in <a href="https://redirect.github.com/palfrey/serial_test/pull/106">palfrey/serial_test#106</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/palfrey/serial_test/compare/v3.0.0...v3.1.0">https://github.com/palfrey/serial_test/compare/v3.0.0...v3.1.0</a></p>
+<h2>v3.0.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Multi key support <a href="https://redirect.github.com/palfrey/serial_test/pull/102">palfrey/serial_test#102</a>
+<ul>
+<li>Attributes like <code>#[serial(one, two)]</code> are now supported (for all attributes)</li>
+<li>This is a breaking change, as <code>file_serial</code> paths now need to be done separately <code>#[file_serial(key, path =&gt; &quot;/tmp/foo&quot;)]</code></li>
+</ul>
+</li>
+<li>Attributes at a mod-level <a href="https://redirect.github.com/palfrey/serial_test/pull/104">palfrey/serial_test#104</a>
+<ul>
+<li>You can set any of the attributes on a <code>mod</code> and all <code>#[test]</code> fn's in that mod will have the attribute applied.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/palfrey/serial_test/compare/v2.0.0...v3.0.0">https://github.com/palfrey/serial_test/compare/v2.0.0...v3.0.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/palfrey/serial_test/commit/25fb94855526a61aa70dba9d09d1d3fd177601be"><code>25fb948</code></a> 3.1.0</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/4ccc6bd7dc9ce1f3cc08b65fe44c17e3971cf486"><code>4ccc6bd</code></a> Merge pull request <a href="https://redirect.github.com/palfrey/serial_test/issues/110">#110</a> from palfrey/serial-mod-non-core</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/fb32f74f21ca7c19d26cb395270245d534534b2b"><code>fb32f74</code></a> Standard test attribute worked with mod, others didn't</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/23894121ec734df7fa12c8f86d95270a8a045c82"><code>2389412</code></a> Merge pull request <a href="https://redirect.github.com/palfrey/serial_test/issues/109">#109</a> from palfrey/remove-dashmap</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/14aa91f5d472a1fd2472d637c0e5a53657be514d"><code>14aa91f</code></a> Add more details fslock names</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/946db45593c1e5b9368e3ccc7da1d1683fca2c1b"><code>946db45</code></a> Allow unused name for Locks</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/1a634fc29b2238fffbbf71e8db7771c172ad750f"><code>1a634fc</code></a> Fix formatting</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/2fdcb0c1640a05a5fc09171007052c762b01a88a"><code>2fdcb0c</code></a> Don't capture logs in test_test</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/dd2e107185a7d32ad8f64473298a34c157d147ea"><code>dd2e107</code></a> Replace dashmap with scc</li>
+<li><a href="https://github.com/palfrey/serial_test/commit/b20dad699e7b50b8b33f1688f57faacb1eb3e9e1"><code>b20dad6</code></a> Merge pull request <a href="https://redirect.github.com/palfrey/serial_test/issues/107">#107</a> from palfrey/dependabot/cargo/mio-0.8.11</li>
+<li>Additional commits viewable in <a href="https://github.com/palfrey/serial_test/compare/v2.0.0...v3.1.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serial_test&package-manager=cargo&previous-version=2.0.0&new-version=3.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 16:41:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4493" class=".btn">#4493</a>
+            </td>
+            <td>
+                <b>
+                    [fix]: fix broken regex in PR title action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+"[fix]" in PR title breaks the check due to a malformed regex pattern
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 14:40:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4492" class=".btn">#4492</a>
+            </td>
+            <td>
+                <b>
+                    [fix]: config test cases use the current configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Some tests in `config` are failing because of outdated fixtures.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 14:30:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4491" class=".btn">#4491</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4418: Trigger is callable by multiple users
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Replace `AccountId` with `FilterOpt<AccountId>` to allow execute trigger by any user with permission.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4418 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 14:10:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4490" class=".btn">#4490</a>
             </td>
             <td>
@@ -2504,78 +3205,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-04-16 08:27:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4434" class=".btn">#4434</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4419: Deduplicate triggers with the same wasm code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">Optimization</span>
-            </td>
-            <td>
-                ## Description
-
-If trigger was already compiled reuse it.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4419 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-To demonstrate the difference 1000 identical triggers were registered. 
-
-Examination of changes was done on apple silicon machine:
-
-```bash
-# might need to: cargo install cargo-instruments
-cd client
-cargo instruments -t Allocations --example register_1000_triggers --profile profiling
-```
-
-Allocation before the change:
-![reg_trigger_before](https://github.com/hyperledger/iroha/assets/40040452/3ecd2816-1dc4-4911-959e-9149d5bc70ae)
-[before_Launch_register_1000_triggers_2024-04-15_18.01.00_EAAEDBCC.trace.zip](https://github.com/hyperledger/iroha/files/14981280/before_Launch_register_1000_triggers_2024-04-15_18.01.00_EAAEDBCC.trace.zip)
-
-Allocations after the change:
-![reg_trigger_after](https://github.com/hyperledger/iroha/assets/40040452/b06e7b13-ab13-4fc5-be6d-cd393e1e0007)
-[after_Launch_register_1000_triggers_2024-04-15_17.50.57_31C6FEB5.trace.zip](https://github.com/hyperledger/iroha/files/14981281/after_Launch_register_1000_triggers_2024-04-15_17.50.57_31C6FEB5.trace.zip)
-
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-15 15:44:04 +0000 UTC
     </div>
 </div>
 
