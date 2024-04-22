@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/690" class=".btn">#690</a>
+            </td>
+            <td>
+                <b>
+                    Cypress UI test fixes as per timeout error in pipeline
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+Cypress UI test fixes as per timeout error in pipeline
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 04:08:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/689" class=".btn">#689</a>
             </td>
             <td>
