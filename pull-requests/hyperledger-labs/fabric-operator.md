@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/188" class=".btn">#188</a>
-            </td>
-            <td>
-                <b>
-                    Move to Go v1.21.9 as per CVE-2023-45288
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-15 13:26:42 +0000 UTC
-    </div>
-</div>
-
