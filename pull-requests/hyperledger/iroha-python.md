@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/177" class=".btn">#177</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #172: Query Block Headers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-21 22:35:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-python/pull/174" class=".btn">#174</a>
             </td>
             <td>
