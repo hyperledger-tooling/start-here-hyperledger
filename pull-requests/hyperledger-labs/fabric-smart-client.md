@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/556" class=".btn">#556</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade docker deps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">NWO</span>
+            </td>
+            <td>
+                This PR updates the go docker deps and changes nwo related code to use the updated API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 11:42:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/555" class=".btn">#555</a>
+            </td>
+            <td>
+                <b>
+                    Allow to start a toplogy without FSC nodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">NWO</span>
+            </td>
+            <td>
+                This PR allows to run topologies even without FSC nodes, which is very helpful when developing nwo platforms and extensions. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 11:29:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/554" class=".btn">#554</a>
             </td>
             <td>

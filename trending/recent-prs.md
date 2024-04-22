@@ -1,13 +1,13 @@
 
-[690](https://github.com/hyperledger-labs/fabric-operations-console/pull/690) Cypress UI test fixes as per timeout error in pipeline
+[556](https://github.com/hyperledger-labs/fabric-smart-client/pull/556) Upgrade docker deps
 
-[613](https://github.com/hyperledger/cello/pull/613) Fixed the chaincode information display issue
+[555](https://github.com/hyperledger-labs/fabric-smart-client/pull/555) Allow to start a toplogy without FSC nodes
 
-[4824](https://github.com/hyperledger/fabric/pull/4824) chore: use errors.New to replace fmt.Errorf with no parameters will much better.
+[194](https://github.com/hyperledger/iroha-javascript/pull/194) [ci]: update jenkins push branch name
 
-[177](https://github.com/hyperledger/iroha-python/pull/177) [fix] #172: Query Block Headers
+[4490](https://github.com/hyperledger/iroha/pull/4490) [ci]: Configure dependabot to follow commit message format
 
-[554](https://github.com/hyperledger-labs/fabric-smart-client/pull/554) Added vault tests using sqlite and postgres
+[4489](https://github.com/hyperledger/iroha/pull/4489) [refactor] #4378: Transactional trigger set
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
