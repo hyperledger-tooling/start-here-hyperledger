@@ -117,7 +117,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    Draft: enforce foreign key constraints in token transaction db
+                    enforce foreign key constraints in token transaction db
                 </b>
             </td>
         </tr>
@@ -126,9 +126,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                (Draft because it includes the code for the previous PR to remove query executor)
-
-Business logic dictates that validations, transactions and movements all flow from a TokenRequest. This PR enforces that in the ttxdb database schema with foreign keys. It also uses JOINs to get the status and the request itself, instead of duplicating it across the tables.
+                Business logic dictates that validations, transactions and movements all flow from a TokenRequest. This PR enforces that in the ttxdb database schema with foreign keys. It also uses JOINs to get the status and the request itself, instead of duplicating it across the tables.
 
 <img width="436" alt="image" src="https://github.com/hyperledger-labs/fabric-token-sdk/assets/6328508/8e4d3f60-25d0-4ea2-9d63-46a5017e230f">
 
@@ -307,32 +305,6 @@ This makes more modular the implementation of a new driver.
     </table>
     <div class="right-align">
         Created At 2024-04-16 07:41:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/599" class=".btn">#599</a>
-            </td>
-            <td>
-                <b>
-                    Centralize database initialization logic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Simplifies opening of SQL databases by centralizing the configuration in the database package, similar to how identitydb was already doing it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-15 10:36:40 +0000 UTC
     </div>
 </div>
 
