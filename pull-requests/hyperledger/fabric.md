@@ -221,30 +221,3 @@ Issue #4732
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4820" class=".btn">#4820</a>
-            </td>
-            <td>
-                <b>
-                    Update Github Actions (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to avoid Node 16 deprecation warnings.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-16 15:42:42 +0000 UTC
-    </div>
-</div>
-
