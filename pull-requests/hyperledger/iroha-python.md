@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/186" class=".btn">#186</a>
+            </td>
+            <td>
+                <b>
+                    [CI]: Add CI workflow to Iroha 1 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Should be merged together with #185.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-23 09:20:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/185" class=".btn">#185</a>
+            </td>
+            <td>
+                <b>
+                    [CI]: Update Iroha 1 branch workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix branch name, rename workflow file
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-23 07:27:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-python/pull/184" class=".btn">#184</a>
             </td>
             <td>
