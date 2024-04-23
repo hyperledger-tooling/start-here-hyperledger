@@ -535,29 +535,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/171" class=".btn">#171</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] add query_all_asset_definitions and more tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-15 19:01:05 +0000 UTC
-    </div>
-</div>
-
