@@ -320,29 +320,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4818" class=".btn">#4818</a>
-            </td>
-            <td>
-                <b>
-                    Updates in main docs and scripts for v2.5.7 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates in main docs and scripts for v2.5.7 release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-15 21:23:40 +0000 UTC
-    </div>
-</div>
-
