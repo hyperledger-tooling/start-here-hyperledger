@@ -561,29 +561,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/173" class=".btn">#173</a>
-            </td>
-            <td>
-                <b>
-                    [chore] Update Iroha version to 1.6 in README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-17 06:23:56 +0000 UTC
-    </div>
-</div>
-

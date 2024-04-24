@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/web3j
             <td>
                 ### What does this PR do?
 Fix two typos in class FullDebugTraceInfo.
-`serReturnValye` => `serReturnValue`
+`serReturnValye` => `setReturnValue`
 
 ### Why is it needed?
 Improves readability
