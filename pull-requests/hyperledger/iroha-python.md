@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    [test] cover all queries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-24 15:42:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-python/pull/186" class=".btn">#186</a>
             </td>
             <td>
@@ -532,32 +558,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-04-22 07:20:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/174" class=".btn">#174</a>
-            </td>
-            <td>
-                <b>
-                    [fix] Fix malformed link in README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-17 14:20:12 +0000 UTC
     </div>
 </div>
 
