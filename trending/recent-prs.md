@@ -1,13 +1,13 @@
 
+[486](https://github.com/hyperledger-labs/private-data-objects/pull/486) Fix assert statements and deprecated logger.warn's
+
+[4503](https://github.com/hyperledger/iroha/pull/4503) [fix] #4331: Revoke removed `PermissionToken`s on `Upgrade<Executor>`
+
+[610](https://github.com/hyperledger-labs/fabric-token-sdk/pull/610) use interface for ScanForPreImage so it can be called outside of a view
+
 [1553](https://github.com/hyperledger/caliper/pull/1553) Update docs around fabric-gateway and 0.5.1 release
 
 [609](https://github.com/hyperledger-labs/fabric-token-sdk/pull/609) Bump github.com/docker/docker from 25.0.3+incompatible to 25.0.5+incompatible
-
-[694](https://github.com/hyperledger-labs/fabric-operations-console/pull/694) handle case for render html translated content
-
-[561](https://github.com/hyperledger-labs/fabric-smart-client/pull/561) Upgrade libp2p
-
-[186](https://github.com/hyperledger/iroha-python/pull/186) [CI]: Add CI workflow to Iroha 1 branch
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
