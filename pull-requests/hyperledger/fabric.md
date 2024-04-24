@@ -248,39 +248,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4821" class=".btn">#4821</a>
-            </td>
-            <td>
-                <b>
-                    smartbft sync is called after restart test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-
-smartbft sync is called after restart
-
-#### Related issues
-
-Issue #4732
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-17 16:09:46 +0000 UTC
-    </div>
-</div>
-
