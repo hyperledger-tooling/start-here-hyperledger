@@ -14,35 +14,6 @@ permalink: /issues/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger-labs/private-data-objects/issues/484" class=".btn">484</a>
-            </td>
-            <td>
-                <b>
-                    The `warn` method in logging is obsolete and should be replaced with `warning`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">good first issue</span>
-            </td>
-            <td>
-                (the title is self-explanatory; issue identified in #483 ; some references are below)
-
-https://github.com/python/cpython/issues/105376
-https://docs.python.org/3/library/logging.html#logging.Logger.warning
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-03 22:29:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger-labs/private-data-objects/issues/476" class=".btn">476</a>
             </td>
             <td>
