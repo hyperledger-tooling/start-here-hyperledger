@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/612" class=".btn">#612</a>
+            </td>
+            <td>
+                <b>
+                    add ability to query for token details
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR:
+
+- Adds the ability to query for token with details, to allow the user to enrich the data about a transaction
+- Splits the Raw Owner into its two components for more efficient queries. This can later be extended to the Owner struct in the Token (replacing the raw version)
+- Stores the ApplicationMetadata as a separate field of the token request and adds it to retrieved transactions (where they are usually used)
+- Returns owners when doing GetToken
+- Simplifies the code of the querybuilder a bit
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-24 09:39:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/611" class=".btn">#611</a>
             </td>
             <td>
@@ -50,7 +83,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
                 <nil>
@@ -407,32 +440,6 @@ This makes more modular the implementation of a new driver.
     </table>
     <div class="right-align">
         Created At 2024-04-18 06:37:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/602" class=".btn">#602</a>
-            </td>
-            <td>
-                <b>
-                    core logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR does the following: It removes from the `core` package the package level logging to introduce struct level logging.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-17 10:48:19 +0000 UTC
     </div>
 </div>
 
