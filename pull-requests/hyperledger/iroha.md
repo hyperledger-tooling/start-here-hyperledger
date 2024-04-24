@@ -2676,29 +2676,3 @@ _Note: I've changed some bits after making these screenshots._
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4455" class=".btn">#4455</a>
-            </td>
-            <td>
-                <b>
-                    [ci] Remove arjentix from CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-17 06:10:11 +0000 UTC
-    </div>
-</div>
-

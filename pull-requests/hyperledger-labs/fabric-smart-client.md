@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/562" class=".btn">#562</a>
+            </td>
+            <td>
+                <b>
+                    committer cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvement</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-24 04:19:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/561" class=".btn">#561</a>
             </td>
             <td>

@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/cello
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/612" class=".btn">#612</a>
-            </td>
-            <td>
-                <b>
-                    Manually calculate the package id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Calculated the sha256 value of the chaincode file and combined it with the label to get the ```package_id```.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-17 01:37:47 +0000 UTC
-    </div>
-</div>
-
