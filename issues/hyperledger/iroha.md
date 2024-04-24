@@ -170,35 +170,6 @@ I used [`humantime`](https://docs.rs/humantime/latest/humantime/fn.parse_duratio
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4227" class=".btn">4227</a>
-            </td>
-            <td>
-                <b>
-                    Support encoding/decoding to/from JSON in `parity_scale_decoder`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                1. rename `parity_scale_decoder` to `parity_scale_codec` or something similar
-2. add support to encode/decode SCALE to/from JSON
-
-atm, we're supporting only decoding to Rust debug format. I think we should just replace that with JSON, but we can also support different formats with some flag
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-23 11:25:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/4224" class=".btn">4224</a>
             </td>
             <td>
