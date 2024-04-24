@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4503" class=".btn">#4503</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #4331: Revoke removed `PermissionToken`s on `Upgrade<Executor>`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+If some permission token was removed from schema during executor migration, then revoke that permission token from related roles and accounts.
+
+### Linked issue
+
+Closes #4331
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-23 18:49:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4498" class=".btn">#4498</a>
             </td>
             <td>
