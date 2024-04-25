@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/696" class=".btn">#696</a>
+            </td>
+            <td>
+                <b>
+                    Import and flatten grpcweb so it's all local.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Incorporates the grpcwebproxy code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-24 21:28:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/695" class=".btn">#695</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade github.com/docker/docker to v25.0.5 to address CVE-2024-29018.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Address latest docker/docker vulnerability in Fabric Deployer APIs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-24 19:22:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/694" class=".btn">#694</a>
             </td>
             <td>
@@ -175,39 +234,6 @@ Cypress UI test fixes as per timeout error in pipeline
     </table>
     <div class="right-align">
         Created At 2024-04-22 04:08:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/689" class=".btn">#689</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade golang.org/x/net to v0.24.0 as per CVE-2023-45288.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Change to `fabric-deployer` to upgrade `golang.org/x/net` to v0.24.0 because of CVE-2023-45288.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-17 18:54:17 +0000 UTC
     </div>
 </div>
 
