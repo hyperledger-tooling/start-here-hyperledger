@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/259" class=".btn">#259</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/261" class=".btn">#261</a>
             </td>
             <td>
                 <b>
-                    Implement 04-upgrade spec
+                    Update README
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-09 03:02:15 +0000 UTC
+        Created At 2024-04-25 09:59:56 +0000 UTC
     </div>
 </div>
 
