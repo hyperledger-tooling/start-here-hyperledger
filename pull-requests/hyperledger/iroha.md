@@ -14,6 +14,251 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4515" class=".btn">#4515</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: Bump serde_with from 3.7.0 to 3.8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [serde_with](https://github.com/jonasbb/serde_with) from 3.7.0 to 3.8.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/jonasbb/serde_with/releases">serde_with's releases</a>.</em></p>
+<blockquote>
+<h2>serde_with v3.8.0</h2>
+<h3>Added</h3>
+<ul>
+<li>Implement (De)Serialization for Pinned Smart Pointers by <a href="https://github.com/Astralchroma"><code>@​Astralchroma</code></a> (<a href="https://redirect.github.com/jonasbb/serde_with/issues/733">#733</a>)</li>
+<li>Implement <code>JsonSchemaAs</code> for <code>PickFirst</code> by <a href="https://github.com/swlynch99"><code>@​swlynch99</code></a>  (<a href="https://redirect.github.com/jonasbb/serde_with/issues/721">#721</a>)</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Bump <code>base64</code> dependency to v0.22 (<a href="https://redirect.github.com/jonasbb/serde_with/issues/724">#724</a>)</li>
+<li>Update dev dependencies</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><code>serde_conv</code> regressed and triggered <code>clippy::ptr_arg</code> and add test to prevent future problems. (<a href="https://redirect.github.com/jonasbb/serde_with/issues/731">#731</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/jonasbb/serde_with/commit/7e66d6bba9d853be888c6e9c819e4388301f67dc"><code>7e66d6b</code></a> Bump version to v3.8.0 (<a href="https://redirect.github.com/jonasbb/serde_with/issues/734">#734</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/4a4fcb3fd4b82bff9e40820e8a44162cfbd08110"><code>4a4fcb3</code></a> Bump version to v3.8.0</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/167e865e407e8f79e56eb8539913521663a96ae5"><code>167e865</code></a> Implement (De)Serialization for Pinned Smart Pointers (<a href="https://redirect.github.com/jonasbb/serde_with/issues/733">#733</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/04de4ce6d8a26dc755cf31b9e1889d19852c4e51"><code>04de4ce</code></a> Add SerializeAs support for Pin&lt;&amp;'a T&gt; and Pin&lt;&amp;'a mut T&gt;</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/9c2dac75e64a4cbf4db5673ae5a4a7b9039b1d15"><code>9c2dac7</code></a> Implement (De)Serialization for Pinned Smart Pointers</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/9989d8e658c5395277699714a3729614b6853bca"><code>9989d8e</code></a> Add test that serde_conv will not trigger <code>clippy::ptr_arg</code> (<a href="https://redirect.github.com/jonasbb/serde_with/issues/731">#731</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/754c0819125f00f382f539bdd9fb9d71c7c80fb4"><code>754c081</code></a> Add test that serde_conv will not trigger <code>clippy::ptr_arg</code></li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/bb90db5334ce7832ea63d06728527294ee5de647"><code>bb90db5</code></a> Update the OneOrMany doctest to test serialization too <a href="https://redirect.github.com/jonasbb/serde_with/issues/728">#728</a> (<a href="https://redirect.github.com/jonasbb/serde_with/issues/730">#730</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/f12ece26c8c50e7de5b097ed22608b9c194db888"><code>f12ece2</code></a> Update the OneOrMany doctest to test serialization too <a href="https://redirect.github.com/jonasbb/serde_with/issues/728">#728</a></li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/57e4ee2fcb8e03681fde86f74942422285d11277"><code>57e4ee2</code></a> Bump dev deps (<a href="https://redirect.github.com/jonasbb/serde_with/issues/726">#726</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/jonasbb/serde_with/compare/v3.7.0...v3.8.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde_with&package-manager=cargo&previous-version=3.7.0&new-version=3.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 16:54:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4514" class=".btn">#4514</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: Bump faker from 24.11.0 to 24.14.0 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [faker](https://github.com/joke2k/faker) from 24.11.0 to 24.14.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
+<blockquote>
+<h2>Release v24.14.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v24.14.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<h2>Release v24.13.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v24.13.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<h2>Release v24.12.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v24.12.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/joke2k/faker/compare/v24.13.0...v24.14.0">v24.14.0 - 2024-04-25</a></h3>
+<ul>
+<li>Add job provider for <code>cs_CZ</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
+</ul>
+<h3><a href="https://github.com/joke2k/faker/compare/v24.12.0...v24.13.0">v24.13.0 - 2024-04-25</a></h3>
+<ul>
+<li>Add geo provider for <code>sk_SK</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
+<li>Clean up data in <code>sk_SK</code> job provider. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
+</ul>
+<h3><a href="https://github.com/joke2k/faker/compare/v24.11.0...v24.12.0">v24.12.0 - 2024-04-25</a></h3>
+<ul>
+<li>Remove offensive word from <code>pl_PL</code> lorem provider. Thanks <a href="https://github.com/Rey092"><code>@​Rey092</code></a>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/joke2k/faker/commit/412ec97720d711184c09f02da3e6bbbf4c3e715f"><code>412ec97</code></a> Bump version: 24.13.0 → 24.14.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/9faf59a48020cf11471efcb88bbce1ac1fc27577"><code>9faf59a</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/86d44c74d2af4d962f7c56ad3c0fa119fe899a07"><code>86d44c7</code></a> :lipstick: Add missing blank lines in test_job.py</li>
+<li><a href="https://github.com/joke2k/faker/commit/ab53f70aea0f97305537c50827d9c7808c00ee35"><code>ab53f70</code></a> Add job provider for <code>cs_CZ</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2023">#2023</a>)</li>
+<li><a href="https://github.com/joke2k/faker/commit/a2e73cf035ba6d7f4bbc540fadcbebb9bb1e7f2e"><code>a2e73cf</code></a> Bump version: 24.12.0 → 24.13.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/7d4668b9ebbed1d165baec5fd3f07e62c521846c"><code>7d4668b</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/215236fdbe1d50398200950a7bd17ffa2b610fd7"><code>215236f</code></a> :lipstick: Format code</li>
+<li><a href="https://github.com/joke2k/faker/commit/35e1c128155d0aed1c78adb4a7d0ac3f0eb0da53"><code>35e1c12</code></a> Clean up data in <code>sk_SK</code> job provider</li>
+<li><a href="https://github.com/joke2k/faker/commit/0888c361f3de85e7185c8b1208ddd42e0b55315a"><code>0888c36</code></a> Add geo provider for <code>sk_SK</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2024">#2024</a>)</li>
+<li><a href="https://github.com/joke2k/faker/commit/3b54c9692c0488cc140bded6016f2ba115765c38"><code>3b54c96</code></a> Bump version: 24.11.0 → 24.12.0</li>
+<li>Additional commits viewable in <a href="https://github.com/joke2k/faker/compare/v24.11.0...v24.14.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=24.11.0&new-version=24.14.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 16:53:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4513" class=".btn">#4513</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3901: Add method to define parameter in executor `migrate` entrypoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+* Added method `add_parameter` which can be called from executor (in `migrate` entrypoint) to define new executor parameter
+* Added test which demonstrates how executor can use it, as suggested [here](https://github.com/hyperledger/iroha/pull/4310#issuecomment-1964247631)
+* Note that this PR was mostly implemented before discussion in #4352, so potentially this should be implemented differently. E.g. if it will be decided to store executor parameters in `Domain::metadata`, then there will be no need for `add_parameter` method since executor parameter will be defined using `SetKeyValue` ISI
+* Note that I didn't removed `NewParameter` ISI since it is currently used to define chain-wide parameters (for wasm engine and sumeragi), and potentially chain-wide parameters should be defined/stored differently as discussed in https://github.com/hyperledger/iroha/issues/4352#issuecomment-2076735651
+
+### Linked issue
+
+Closes #3901
+Related: #4352
+Related: #4310
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 13:55:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4508" class=".btn">#4508</a>
             </td>
             <td>
@@ -1478,298 +1723,6 @@ Closes #4459
     </table>
     <div class="right-align">
         Created At 2024-04-19 07:46:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4482" class=".btn">#4482</a>
-            </td>
-            <td>
-                <b>
-                    Bump erased-serde from 0.3.31 to 0.4.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [erased-serde](https://github.com/dtolnay/erased-serde) from 0.3.31 to 0.4.4.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dtolnay/erased-serde/releases">erased-serde's releases</a>.</em></p>
-<blockquote>
-<h2>0.4.4</h2>
-<ul>
-<li>Documentation improvements</li>
-</ul>
-<h2>0.4.3</h2>
-<ul>
-<li>Fix unused_imports warnings when compiled by rustc 1.78</li>
-</ul>
-<h2>0.4.2</h2>
-<ul>
-<li>Update proc-macro2 to fix caching issue when using a rustc-wrapper such as sccache</li>
-</ul>
-<h2>0.4.1</h2>
-<ul>
-<li>Fix panic when Serialize impl returns error that does not come from a Serializer (<a href="https://redirect.github.com/dtolnay/erased-serde/issues/100">#100</a>, thanks <a href="https://github.com/KodrAus"><code>@​KodrAus</code></a>)</li>
-</ul>
-<h2>0.4.0</h2>
-<p>This release includes a redesign of the erased serialization API (<a href="https://redirect.github.com/dtolnay/erased-serde/issues/93">#93</a>) with the following advantages:</p>
-<ul>
-<li>Eliminates all reliance on unsafe code within the serialization implementation</li>
-<li>Reduces overhead of erased serialization vs monomorphized serialization by a factor of 2 (<a href="https://redirect.github.com/dtolnay/erased-serde/issues/99">#99</a>)</li>
-<li>Supports serializers which have non-'static <code>Ok</code> types</li>
-</ul>
-<h2>0.4.0-rc.1</h2>
-<p>No release notes provided.</p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/e8b323804cec8c0adb3899ae5fd17302c048e7ec"><code>e8b3238</code></a> Release 0.4.4</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/45b65a619df730c22c21ca9518284f359184571e"><code>45b65a6</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/erased-serde/issues/104">#104</a> from dtolnay/dyn</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/631ff110b3bffef5412b08eabab62c30f07fa01a"><code>631ff11</code></a> Fill in 'dyn' in documentation</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/31b0f961ee0bc94511346bb487482b92ac975e99"><code>31b0f96</code></a> Update ui test suite to nightly-2024-03-06</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/427a8a74cc8b0294163f05b666070ba70cad869c"><code>427a8a7</code></a> Release 0.4.3</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/3a77db0e3a4aedf33f9e77a3b246100bcb7356e1"><code>3a77db0</code></a> Work around prelude redundant import warnings</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/f8078da00b7f5b89da8eeb9301b910f4c914ed1f"><code>f8078da</code></a> Update ui test suite to nightly-2024-02-01</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/8f555a2db2dd40e8ab039d4947f1a2b6032bba00"><code>8f555a2</code></a> Release 0.4.2</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/450a9108fc41b84ae1d03b4b1bccfd3bf5da2141"><code>450a910</code></a> Pull in proc-macro2 sccache fix</li>
-<li><a href="https://github.com/dtolnay/erased-serde/commit/4726cdb49deb6ab857fb389eb68e77389ce2ddcd"><code>4726cdb</code></a> Release 0.4.1</li>
-<li>Additional commits viewable in <a href="https://github.com/dtolnay/erased-serde/compare/0.3.31...0.4.4">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=erased-serde&package-manager=cargo&previous-version=0.3.31&new-version=0.4.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-18 16:44:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4481" class=".btn">#4481</a>
-            </td>
-            <td>
-                <b>
-                    Bump byte-unit from 4.0.19 to 5.1.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [byte-unit](https://github.com/magiclen/byte-unit) from 4.0.19 to 5.1.4.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/fb2e4b7c61cdf0b6c88e7f65798dd9e65f5fb436"><code>fb2e4b7</code></a> fix typos</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/b0c78453705b028675afd478e291a65f7131718c"><code>b0c7845</code></a> bump version</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/91b9ef16e0a0d28acd71d4605f6279641efcfd53"><code>91b9ef1</code></a> Merge pull request <a href="https://redirect.github.com/magiclen/byte-unit/issues/24">#24</a> from cospectrum/bit-doc</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/59a923bdac1f60ff5042b17268216bca5e0f7409"><code>59a923b</code></a> Edit doc for Bit</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/e4e4447f4d6a8cd390ab8b33cc3ae766f24bdb41"><code>e4e4447</code></a> fix parameter name</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/e22ff8b977db93a92a394e1e480c64e47908d04d"><code>e22ff8b</code></a> implement more built-in traits</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/45d00cdc5649f92f41d0ffc42a41d70411f58996"><code>45d00cd</code></a> update doc</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/5e4bd34d8211265313a017b91a6ab0e2d9ab17fe"><code>5e4bd34</code></a> support rocket, update MSRV</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/ced7f8f9d15b41dd8ad2f5ff0a860c335d30ee8d"><code>ced7f8f</code></a> fix feature dependency</li>
-<li><a href="https://github.com/magiclen/Byte-Unit/commit/840da0e01be5b0f2f76403b75b9bcbac055e6a99"><code>840da0e</code></a> add the missing rustdoc-args</li>
-<li>Additional commits viewable in <a href="https://github.com/magiclen/byte-unit/compare/v4.0.19...v5.1.4">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=byte-unit&package-manager=cargo&previous-version=4.0.19&new-version=5.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-18 16:44:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4479" class=".btn">#4479</a>
-            </td>
-            <td>
-                <b>
-                    Bump tungstenite from 0.20.1 to 0.21.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [tungstenite](https://github.com/snapview/tungstenite-rs) from 0.20.1 to 0.21.0.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/snapview/tungstenite-rs/blob/master/CHANGELOG.md">tungstenite's changelog</a>.</em></p>
-<blockquote>
-<h1>0.21.0</h1>
-<ul>
-<li>Fix read-predominant auto pong responses not flushing when hitting WouldBlock errors.</li>
-<li>Improve <code>FrameHeader::format</code> write correctness.</li>
-<li>Update <code>rustls</code> to <code>0.22</code>.</li>
-<li>Update <code>webpki-roots</code> to <code>0.26</code>.</li>
-<li>Update <code>rustls-native-certs</code> to <code>0.7</code>.</li>
-<li>Update <code>http</code> to <code>1.0.0</code>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/85463b264e3f672ef2004294d82fd3f4ee6a8ca3"><code>85463b2</code></a> Release version 0.21.0</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/bcd7f85e6510cf5dbf02d6ac60a54141e2e2941b"><code>bcd7f85</code></a> Update <code>rustls</code> to 0.22</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/9f0af2a2e335f477bceb1e6505e64f0a7471f727"><code>9f0af2a</code></a> Test that no additional flushes are called after pong flush success</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/2d5b3e18deaa605af41947bd9fe1392af86cd0f9"><code>2d5b3e1</code></a> Fix auto pong responses not flushing after block</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/a54623ccfe10ed064aa7f1ab692b07386272e4a6"><code>a54623c</code></a> Remove proposed version from changelog</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/866ce20dbed4d2e9b7f0ac5e53c20ad0717154b5"><code>866ce20</code></a> Update webpki-roots to 0.26</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/0f6e6517e62e72502c3720a028efe8c5c653b8e7"><code>0f6e651</code></a> Fix FrameHeader::format write &amp; other lints</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/fc17f7341dada53cf03ce1f4c8c29da318e292cb"><code>fc17f73</code></a> Merge pull request <a href="https://redirect.github.com/snapview/tungstenite-rs/issues/373">#373</a> from psychon/reduce-byteorder</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/a43bb499df8df6444608282641d1304985e67e46"><code>a43bb49</code></a> Merge pull request <a href="https://redirect.github.com/snapview/tungstenite-rs/issues/386">#386</a> from snapview/dependabot/cargo/http-1.0</li>
-<li><a href="https://github.com/snapview/tungstenite-rs/commit/08cdd76dd606ba933eb6edbb342107bea403a0eb"><code>08cdd76</code></a> Merge pull request <a href="https://redirect.github.com/snapview/tungstenite-rs/issues/387">#387</a> from nickelc/deps/socket2</li>
-<li>Additional commits viewable in <a href="https://github.com/snapview/tungstenite-rs/compare/v0.20.1...v0.21.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tungstenite&package-manager=cargo&previous-version=0.20.1&new-version=0.21.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-18 16:43:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4477" class=".btn">#4477</a>
-            </td>
-            <td>
-                <b>
-                    [fix]: Fix trigger filters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Trigger filter match arm was missing.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-18 12:32:35 +0000 UTC
     </div>
 </div>
 
