@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/615" class=".btn">#615</a>
+            </td>
+            <td>
+                <b>
+                    Fts crypto code refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Remove un-necessary crypto code. 
+* Remove anonymous issuance for the time being. Replace it instead with `type_is_hidden` or `not`. In systems with a single issuer hiding the type can be required. For transparent accounting, systems may require the type to be revealed at issuance time. In systems where a single issuer issues a single type, the type is implicitly revealed. 
+* We plan to support anonymous issuance if applications call for it. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 09:23:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/614" class=".btn">#614</a>
             </td>
             <td>
@@ -465,33 +493,6 @@ auditor.NewPaymentsFilter()
     </table>
     <div class="right-align">
         Created At 2024-04-18 14:21:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/603" class=".btn">#603</a>
-            </td>
-            <td>
-                <b>
-                    driver cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR does the following: It refactors the `TokenManagerService` to avoid interface imports.
-This makes more modular the implementation of a new driver.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-18 06:37:38 +0000 UTC
     </div>
 </div>
 

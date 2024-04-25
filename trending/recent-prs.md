@@ -1,13 +1,13 @@
 
-[614](https://github.com/hyperledger-labs/fabric-token-sdk/pull/614) query directly token requests
+[698](https://github.com/hyperledger-labs/fabric-operations-console/pull/698) ordering node join channel issue fix
 
-[613](https://github.com/hyperledger-labs/fabric-token-sdk/pull/613) remove orion commit processor
+[697](https://github.com/hyperledger-labs/fabric-operations-console/pull/697) Update library version
 
-[696](https://github.com/hyperledger-labs/fabric-operations-console/pull/696) Import and flatten grpcweb so it's all local.
+[261](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/261) Update README
 
-[4826](https://github.com/hyperledger/fabric/pull/4826) add unit test against a real grpc server for common/deliverclient/blo…
+[564](https://github.com/hyperledger-labs/fabric-smart-client/pull/564) logging + no panics
 
-[192](https://github.com/hyperledger-labs/fabric-operator/pull/192) Upgrade github.com/docker/docker to v25.0.5 to address CVE-2024-29018.
+[615](https://github.com/hyperledger-labs/fabric-token-sdk/pull/615) Fts crypto code refactoring
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

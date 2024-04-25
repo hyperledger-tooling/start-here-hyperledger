@@ -1773,35 +1773,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4476" class=".btn">#4476</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #4475: bump rust toolchain and dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ### Description of the Change
-Bump rust toolchain to `2024-04-18-nightly` in CI.
-
-### Benefits
-
-Close #4475 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-18 07:56:32 +0000 UTC
-    </div>
-</div>
-

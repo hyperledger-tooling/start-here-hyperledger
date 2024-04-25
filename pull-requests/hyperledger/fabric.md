@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4827" class=".btn">#4827</a>
+            </td>
+            <td>
+                <b>
+                    add mutex usage comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement
+
+#### Description
+
+This PR adds a comment describing the mutex `blockAPIsRWLock`.
+
+#### Additional details
+
+It was found out that removal of some `blockAPIsRWLock` read locks gives better performance for HLF peer and reduces its resource downtime. But after clarification for what this read locks had been made, the clarifying comment was added.
+
+#### Related issues
+
+Initial performance improvements and discussion are available in the [PR#4694](https://github.com/hyperledger/fabric/pull/4694).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 09:02:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4826" class=".btn">#4826</a>
             </td>
             <td>
