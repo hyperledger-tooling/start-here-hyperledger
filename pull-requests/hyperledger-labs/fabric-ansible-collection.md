@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    Add support for updating metadata for imported CAs, peer and ordering…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … nodes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-26 13:08:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/57" class=".btn">#57</a>
             </td>
             <td>
