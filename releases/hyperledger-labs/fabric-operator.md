@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/fabric-operator
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.9-2
+                    v1.0.9-3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.9-2
+                    v1.0.9-3
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger-labs/fabric-operator
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.9-2" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.9-3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-04-02 16:30:47 +0000 UTC
+        Created At 2024-04-26 05:57:17 +0000 UTC
     </span>
 </div>
 
