@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1656" class=".btn">#1656</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1658" class=".btn">#1658</a>
             </td>
             <td>
                 <b>
-                    Ubuntu 22.04
+                    Cleanup package references
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Ubuntu 22.04 upgrade
+                - Remove references to temporary and personal repositories.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 23:34:41 +0000 UTC
+        Created At 2024-04-25 19:59:25 +0000 UTC
     </div>
 </div>
 
