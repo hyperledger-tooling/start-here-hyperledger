@@ -15,32 +15,62 @@ permalink: /releases/hyperledger/indy-shared-gha
         <tr>
             <td colspan="2">
                 <b>
-                    v2.0.1
+                    v2.0.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.0.1
+                    v2.0.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Bump hyperledger/indy-shared-gha from 1 to 2 in the all-actions group by @dependabot in https://github.com/hyperledger/indy-shared-gha/pull/32
+* Fix Python install issue by @WadeBarnes in https://github.com/hyperledger/indy-shared-gha/pull/34
 
-## New Contributors
-* @dependabot made their first contribution in https://github.com/hyperledger/indy-shared-gha/pull/32
 
-**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v2.0.0...v2.0.1
+**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v2.0.2...v2.0.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v2.0.1" class=".btn">
+    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v2.0.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-04-18 13:03:38 +0000 UTC
+        Created At 2024-04-26 18:08:01 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v2.0.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v2.0.2
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Ensure GHA jobs are running with Python 3.10 by @WadeBarnes in https://github.com/hyperledger/indy-shared-gha/pull/33
+
+
+**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v2.0.1...v2.0.2
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v2.0.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-04-26 17:57:02 +0000 UTC
     </span>
 </div>
 
