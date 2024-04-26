@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/38" class=".btn">#38</a>
+            </td>
+            <td>
+                <b>
+                    Parameterize docker(-compose) commands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Companion to [PDO PR #487](https://github.com/hyperledger-labs/private-data-objects/pull/487)  . See there for more context.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 21:33:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/37" class=".btn">#37</a>
             </td>
             <td>

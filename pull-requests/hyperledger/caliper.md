@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1558" class=".btn">#1558</a>
+            </td>
+            <td>
+                <b>
+                    `caliper-core`: add tests for `assignedMessage`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Checklist
+ - [X]  A link to the issue/user story that the pull request relates to
+ - [ ]  How to recreate the problem without the fix
+ - [ ]  Design of the fix
+ - [ ]  How to prove that the fix works
+ - [X]  Automated tests that prove the fix keeps on working
+ - [ ]  Documentation - any JSDoc, website, or Stackoverflow answers?
+
+
+## Issue/User story
+Fixes part of #1557 
+
+## Steps to Reproduce
+<!--- Provide a link to a live example, or an unambiguous set of steps to -->
+<!--- reproduce this bug include code to reproduce, if relevant -->
+1.
+2.
+3.
+4.
+
+
+## Existing issues
+<!-- Have you searched for any existing issues or are their any similar issues that you've found? -->
+- [ ] [Stack Overflow issues](http://stackoverflow.com/tags/hyperledger-caliper)
+- [ ] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
+- [ ] [Discord history](https://discord.com/channels/905194001349627914/941417677778473031)
+
+<!-- please include any links to issues here -->
+
+## Design of the fix
+<!-- Focus on why you designed this fix this way, and what was discounted. Do not describe just the code - we can read that! -->
+
+## Validation of the fix
+<!-- Over and above the tests, what has been done to prove this works? -->
+
+## Automated Tests
+<!-- Please describe the automated tests that are put in place to stop this recurring -->
+
+## What documentation has been provided for this pull request
+<!-- JSDocs, WebSite and answers to Stack Overflow questions are possible documentation sources -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 18:48:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1553" class=".btn">#1553</a>
             </td>
             <td>

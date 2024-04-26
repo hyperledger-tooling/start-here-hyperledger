@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/487" class=".btn">#487</a>
+            </td>
+            <td>
+                <b>
+                    Parameterize docker(-compose) commands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upstream docker doesn't work anymore with (ubuntu) docker-compose and relies now on a docker plugin (invoked as `docker compose`).  To enable both, parameterized invocation of docker-compose (and for consistency also docker) so upstream user can redefine `DOCKER_COMPOSE_COMMAND` to `docker compose` in `make.loc` 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-25 21:33:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/486" class=".btn">#486</a>
             </td>
             <td>
