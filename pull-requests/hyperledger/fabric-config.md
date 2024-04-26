@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-config/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger/fabric-config/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    remove solo as a consensus type
+                    Bump to golang.org/x/net v0.23.0
                 </b>
             </td>
         </tr>
@@ -27,23 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-config
                 
             </td>
             <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-
-This PR aims to remove solo as a consensus type. 
-Tests were fixed accordingly.
-
-#### Related issues
-
-Issue #4496 in fabric repo.
+                Bump to golang.org/x/net v0.23.0
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-05 16:57:19 +0000 UTC
+        Created At 2024-04-23 14:57:57 +0000 UTC
     </div>
 </div>
 

@@ -456,33 +456,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/606" class=".btn">#606</a>
-            </td>
-            <td>
-                <b>
-                    enforce foreign key constraints in token transaction db
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Business logic dictates that validations, transactions and movements all flow from a TokenRequest. This PR enforces that in the ttxdb database schema with foreign keys. It also uses JOINs to get the status and the request itself, instead of duplicating it across the tables.
-
-<img width="436" alt="image" src="https://github.com/hyperledger-labs/fabric-token-sdk/assets/6328508/8e4d3f60-25d0-4ea2-9d63-46a5017e230f">
-
-It doesn't yet include the foreign key constraint for the TransactionEndorseAck, because we don't use JOINs towards the request. But if these also should never exist without a TokenRequest, we should probably add that constraint as well.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-19 11:19:45 +0000 UTC
-    </div>
-</div>
-

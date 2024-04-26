@@ -14,88 +14,94 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/178" class=".btn">#178</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/195" class=".btn">#195</a>
             </td>
             <td>
                 <b>
-                    Bump google.golang.org/grpc from 1.61.1 to 1.62.0
+                    Bump golangci/golangci-lint-action from 4 to 5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">go</span>
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.61.1 to 1.62.0.
+                Bumps [golangci/golangci-lint-action](https://github.com/golangci/golangci-lint-action) from 4 to 5.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/golangci/golangci-lint-action/releases">golangci/golangci-lint-action's releases</a>.</em></p>
 <blockquote>
-<h2>Release 1.62.0</h2>
-<h1>New Features</h1>
+<h2>v5.0.0</h2>
+<!-- raw HTML omitted -->
+<h2>What's Changed</h2>
+<h3>Changes</h3>
 <ul>
-<li>grpc: Add StaticMethod CallOption as a signal to stats handler that a method is safe to use as an instrument key (<a href="https://redirect.github.com/grpc/grpc-go/issues/6986">#6986</a>)</li>
+<li>feat: add support for pull_request_target and only-new-issues by <a href="https://github.com/kovetskiy"><code>@​kovetskiy</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/506">golangci/golangci-lint-action#506</a></li>
+<li>feat: add option to not save cache by <a href="https://github.com/navijation"><code>@​navijation</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/851">golangci/golangci-lint-action#851</a></li>
+<li>feat: remove Go cache management by <a href="https://github.com/ldez"><code>@​ldez</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1024">golangci/golangci-lint-action#1024</a></li>
 </ul>
-<h1>Behavior Changes</h1>
+<h2>New Contributors</h2>
 <ul>
-<li>grpc: Return canonical target string from ClientConn.Target() and resolver.Address.String() (<a href="https://redirect.github.com/grpc/grpc-go/issues/6923">#6923</a>)</li>
+<li><a href="https://github.com/kovetskiy"><code>@​kovetskiy</code></a> made their first contribution in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/506">golangci/golangci-lint-action#506</a></li>
+<li><a href="https://github.com/navijation"><code>@​navijation</code></a> made their first contribution in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/851">golangci/golangci-lint-action#851</a></li>
 </ul>
-<h1>Bug Fixes</h1>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/golangci/golangci-lint-action/compare/v4.0.1...v5.0.0">https://github.com/golangci/golangci-lint-action/compare/v4.0.1...v5.0.0</a></p>
+<h2>v4.0.1</h2>
+<!-- raw HTML omitted -->
+<h2>What's Changed</h2>
+<h3>Documentation</h3>
 <ul>
-<li>server: wait to close connection until incoming socket is drained (with timeout) to prevent data loss on client-side (<a href="https://redirect.github.com/grpc/grpc-go/issues/6977">#6977</a>)
+<li>docs: update the version of the action used in the README example by <a href="https://github.com/178inaba"><code>@​178inaba</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/977">golangci/golangci-lint-action#977</a></li>
+</ul>
+<h3>Dependencies</h3>
 <ul>
-<li>Special Thanks: <a href="https://github.com/s-matyukevich"><code>@​s-matyukevich</code></a> for discovering the root cause</li>
+<li>build(deps): bump <code>@​types/semver</code> from 7.5.6 to 7.5.7 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/969">golangci/golangci-lint-action#969</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 6.20.0 to 6.21.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/970">golangci/golangci-lint-action#970</a></li>
+<li>build(deps-dev): bump eslint-plugin-simple-import-sort from 10.0.0 to 12.0.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/971">golangci/golangci-lint-action#971</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 6.20.0 to 6.21.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/973">golangci/golangci-lint-action#973</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.16 to 20.11.17 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/972">golangci/golangci-lint-action#972</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.17 to 20.11.19 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/979">golangci/golangci-lint-action#979</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 6.21.0 to 7.0.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/980">golangci/golangci-lint-action#980</a></li>
+<li>build(deps): bump undici from 5.26.3 to 5.28.3 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/976">golangci/golangci-lint-action#976</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.19 to 20.11.20 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/985">golangci/golangci-lint-action#985</a></li>
+<li>build(deps): bump <code>@​types/semver</code> from 7.5.7 to 7.5.8 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/986">golangci/golangci-lint-action#986</a></li>
+<li>build(deps-dev): bump eslint from 8.56.0 to 8.57.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/987">golangci/golangci-lint-action#987</a></li>
+<li>build(deps): bump tmp from 0.2.1 to 0.2.3 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/989">golangci/golangci-lint-action#989</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 6.21.0 to 7.1.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/988">golangci/golangci-lint-action#988</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.20 to 20.11.24 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/990">golangci/golangci-lint-action#990</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 7.1.0 to 7.1.1 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/991">golangci/golangci-lint-action#991</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.24 to 20.11.25 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/992">golangci/golangci-lint-action#992</a></li>
+<li>build(deps-dev): bump typescript from 5.3.3 to 5.4.2 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/993">golangci/golangci-lint-action#993</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 7.1.0 to 7.1.1 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/994">golangci/golangci-lint-action#994</a></li>
+<li>build(deps): bump <code>@​actions/http-client</code> from 2.2.0 to 2.2.1 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/995">golangci/golangci-lint-action#995</a></li>
+<li>build(deps): bump google.golang.org/protobuf from 1.28.0 to 1.33.0 in /sample-go-mod by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/997">golangci/golangci-lint-action#997</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 7.1.1 to 7.2.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/998">golangci/golangci-lint-action#998</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.25 to 20.11.28 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1000">golangci/golangci-lint-action#1000</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 7.1.1 to 7.2.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/999">golangci/golangci-lint-action#999</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 7.2.0 to 7.3.1 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1003">golangci/golangci-lint-action#1003</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.28 to 20.11.30 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1004">golangci/golangci-lint-action#1004</a></li>
+<li>build(deps-dev): bump typescript from 5.4.2 to 5.4.3 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1005">golangci/golangci-lint-action#1005</a></li>
+<li>build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 7.2.0 to 7.3.1 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1006">golangci/golangci-lint-action#1006</a></li>
+<li>build(deps): bump <code>@​types/node</code> from 20.11.30 to 20.12.2 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1007">golangci/golangci-lint-action#1007</a></li>
 </ul>
-</li>
-</ul>
-<h1>Performance Improvements</h1>
-<ul>
-<li>*: Allow building without <code>x/net/trace</code> by using <code>grpcnotrace</code> to enable dead code elimination (<a href="https://redirect.github.com/grpc/grpc-go/issues/6954">#6954</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/hugelgupf"><code>@​hugelgupf</code></a></li>
-</ul>
-</li>
-<li>rand: improve performance and simplify implementation of <code>grpcrand</code> by adopting <code>math/rand</code>'s top-level functions for go version 1.21.0 and newer. (<a href="https://redirect.github.com/grpc/grpc-go/issues/6925">#6925</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/kmirzavaziri"><code>@​kmirzavaziri</code></a></li>
-</ul>
-</li>
-</ul>
-<h1>Dependencies</h1>
-<ul>
-<li>*: Use google.golang.org/protobuf/proto instead of github.com/golang/protobuf. (<a href="https://redirect.github.com/grpc/grpc-go/issues/6919">#6919</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/Clement-Jean"><code>@​Clement-Jean</code></a></li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>[!NOTE]
-The above change in proto library usage introduces a minor behavior change within those libraries.  The old <code>github.com/golang/protobuf</code> library would error if given a <code>nil</code> message to <code>Marshal</code>, while the new <code>google.golang.org/protobuf</code> library will successfully output zero bytes in this case.  This means server method handlers that did <code>return nil, nil</code> will now return an empty message and no error, while it used to return an error.  This also affects the client side, where clients sending <code>nil</code> messages used to fail without sending the RPC, and now they will send an empty message.</p>
+<!-- raw HTML omitted -->
 </blockquote>
-</blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/grpc/grpc-go/commit/d715b2ef0602fe2133221519cba0642ac282cc3f"><code>d715b2e</code></a> Change version to 1.62.0 (<a href="https://redirect.github.com/grpc/grpc-go/issues/6994">#6994</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/d706a42d29ab785cc1ad86a09fe828ef0a196f26"><code>d706a42</code></a> cherry-pick <a href="https://redirect.github.com/grpc/grpc-go/issues/6926">#6926</a> to 1.62 release branch (<a href="https://redirect.github.com/grpc/grpc-go/issues/6986">#6986</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/8a4ca0cc41ceb5bd0763c865cc4094650df9f95f"><code>8a4ca0c</code></a> cherry-pick <a href="https://redirect.github.com/grpc/grpc-go/issues/6977">#6977</a> to 1.62.x release branch (<a href="https://redirect.github.com/grpc/grpc-go/issues/6979">#6979</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/d41b01db97ca2e3627b2c9949fffe8f152a4255d"><code>d41b01d</code></a> encoding: fix typo (<a href="https://redirect.github.com/grpc/grpc-go/issues/6966">#6966</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/c2b50ee081682eca4b995d2fb79e642019f78aea"><code>c2b50ee</code></a> deps: fix backwards compatibility with encoding (<a href="https://redirect.github.com/grpc/grpc-go/issues/6965">#6965</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/05b4a8b8f779518bb0119042c8c5806fa33d2184"><code>05b4a8b</code></a> Revert &quot;xds/googlec2p: use xdstp names for LDS (<a href="https://redirect.github.com/grpc/grpc-go/issues/6949">#6949</a>)&quot; (<a href="https://redirect.github.com/grpc/grpc-go/issues/6964">#6964</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/03e76b3d2a467a6deebabe2b323780a1890e36d4"><code>03e76b3</code></a> grpc: add ability to compile with or without tracing (<a href="https://redirect.github.com/grpc/grpc-go/issues/6954">#6954</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/84b85babc00b4b8460e53b6ee110bfb49e9311cf"><code>84b85ba</code></a> xds/googledirectpath: Check if ipv6 address is non empty (<a href="https://redirect.github.com/grpc/grpc-go/issues/6959">#6959</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/6f63f05a5b98c484020c143d69450e8679603953"><code>6f63f05</code></a> internal/grpcrand: use Go top-level random functions for go1.21+ (<a href="https://redirect.github.com/grpc/grpc-go/issues/6925">#6925</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/cd69b5d0af6bd46ca17b94acaa09256a863ac277"><code>cd69b5d</code></a> .*: fix minor linter issues (<a href="https://redirect.github.com/grpc/grpc-go/issues/6958">#6958</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.61.1...v1.62.0">compare view</a></li>
+<li><a href="https://github.com/golangci/golangci-lint-action/commit/82d40c283aeb1f2b6595839195e95c2d6a49081b"><code>82d40c2</code></a> feat: remove Go cache management (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/1024">#1024</a>)</li>
+<li><a href="https://github.com/golangci/golangci-lint-action/commit/c683728f105cc5845aaf6e77791d8757b454d52b"><code>c683728</code></a> feat: add option to not save cache (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/851">#851</a>)</li>
+<li><a href="https://github.com/golangci/golangci-lint-action/commit/bf6479d5eca7bb49c9c6d58a0de6e0cd7770f15c"><code>bf6479d</code></a> feat: add support for pull_request_target and only-new-issues (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/506">#506</a>)</li>
+<li>See full diff in <a href="https://github.com/golangci/golangci-lint-action/compare/v4...v5">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.61.1&new-version=1.62.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golangci/golangci-lint-action&package-manager=github_actions&previous-version=4&new-version=5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -127,7 +133,56 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-22 14:41:41 +0000 UTC
+        Created At 2024-04-25 14:45:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/194" class=".btn">#194</a>
+            </td>
+            <td>
+                <b>
+                    Categorise chaincode operations by peer and gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previous implementation was standalone functions, with all requiring both a gRPC connection and a client signing identity. This required:
+
+- An underisably large number of prameters.
+- Unwritten conventions on parameter ordering.
+- Documentation comments to highlight when the connection should be to a specific peer or to an organization gateway.
+- Duplication of arguments across multiple functions for calling code driving the chaincode lifecycle.
+
+This implementation defines a Peer and Gateway struct that hold a gRPC connection and a client identity. Each of these types defines methods appropriate to their logical role to:
+
+- Avoid the need to provide gRPC connection and client identity arguments on every call.
+- Provide calling code with logical context for what they are interacting with.
+- Allow IDE code completion to suggest appropriate methods for the connection type.
+
+For example, this pseudo-code flow:
+
+    chaincode.Install(ctx, peerConnection, id, chaincodePackage)
+    chaincode.Approve(ctx, gatewayConnection, id, chaincodeDefinition)
+    chaincode.Commit(ctx, gatewayConnection, id, chaincodeDefinition)
+
+becomes:
+
+    peer.Install(ctx, chaincodePackage)
+    gateway.Approve(ctx, chaincodeDefinition)
+    gateway.Commit(ctx, chaincodeDefinition)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-19 17:28:55 +0000 UTC
     </div>
 </div>
 

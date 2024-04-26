@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    Bump black from 21.12b0 to 24.3.0 in /bdd-tests
+                    Bump pydantic from 1.9.0 to 1.10.13 in /bdd-tests
                 </b>
             </td>
         </tr>
@@ -27,110 +27,123 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [black](https://github.com/psf/black) from 21.12b0 to 24.3.0.
+                Bumps [pydantic](https://github.com/pydantic/pydantic) from 1.9.0 to 1.10.13.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/black/releases">black's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/pydantic/pydantic/releases">pydantic's releases</a>.</em></p>
 <blockquote>
-<h2>24.3.0</h2>
-<h3>Highlights</h3>
-<p>This release is a milestone: it fixes Black's first CVE security vulnerability. If you
-run Black on untrusted input, or if you habitually put thousands of leading tab
-characters in your docstrings, you are strongly encouraged to upgrade immediately to fix
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.</p>
-<p>This release also fixes a bug in Black's AST safety check that allowed Black to make
-incorrect changes to certain f-strings that are valid in Python 3.12 and higher.</p>
-<h3>Stable style</h3>
+<h2>V1.10.13 2023-09-27</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Don't move comments along with delimiters, which could cause crashes (<a href="https://redirect.github.com/psf/black/issues/4248">#4248</a>)</li>
-<li>Strengthen AST safety check to catch more unsafe changes to strings. Previous versions
-of Black would incorrectly format the contents of certain unusual f-strings containing
-nested strings with the same quote type. Now, Black will crash on such strings until
-support for the new f-string syntax is implemented. (<a href="https://redirect.github.com/psf/black/issues/4270">#4270</a>)</li>
-<li>Fix a bug where line-ranges exceeding the last code line would not work as expected
-(<a href="https://redirect.github.com/psf/black/issues/4273">#4273</a>)</li>
+<li>Update pip commands to install 1.10 by <a href="https://github.com/chbndrhnns"><code>@​chbndrhnns</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6930">pydantic/pydantic#6930</a></li>
+<li>Make the v1 mypy plugin work with both v1 and v2 by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6920">pydantic/pydantic#6920</a></li>
+<li>[Backport] Add max length check to <code>validate_email</code> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/7673">pydantic/pydantic#7673</a></li>
 </ul>
-<h3>Performance</h3>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.12...v1.10.13">https://github.com/pydantic/pydantic/compare/v1.10.12...v1.10.13</a></p>
+<h2>V1.10.12</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Fix catastrophic performance on docstrings that contain large numbers of leading tab
-characters. This fixes
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.
-(<a href="https://redirect.github.com/psf/black/issues/4278">#4278</a>)</li>
+<li>Deque's maxlen property dropped on V1 validation by <a href="https://github.com/maciekglowka"><code>@​maciekglowka</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6586">pydantic/pydantic#6586</a></li>
+<li>Prepare release 1.10.12 by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6825">pydantic/pydantic#6825</a></li>
 </ul>
-<h3>Documentation</h3>
+<h2>New Contributors</h2>
 <ul>
-<li>Note what happens when <code>--check</code> is used with <code>--quiet</code> (<a href="https://redirect.github.com/psf/black/issues/4236">#4236</a>)</li>
+<li><a href="https://github.com/maciekglowka"><code>@​maciekglowka</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6586">pydantic/pydantic#6586</a></li>
 </ul>
-<h2>24.2.0</h2>
-<h3>Stable style</h3>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.11...v1.10.12">https://github.com/pydantic/pydantic/compare/v1.10.11...v1.10.12</a></p>
+<h2>V1.10.11</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Fixed a bug where comments where mistakenly removed along with redundant parentheses
-(<a href="https://redirect.github.com/psf/black/issues/4218">#4218</a>)</li>
+<li>Fix import of create_model in tools.py by <a href="https://github.com/SharathHuddar"><code>@​SharathHuddar</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6364">pydantic/pydantic#6364</a></li>
+<li>Prepare for 1.10.11 by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6420">pydantic/pydantic#6420</a></li>
 </ul>
-<h3>Preview style</h3>
+<h2>New Contributors</h2>
 <ul>
-<li>Move the <code>hug_parens_with_braces_and_square_brackets</code> feature to the unstable style
-due to an outstanding crash and proposed formatting tweaks (<a href="https://redirect.github.com/psf/black/issues/4198">#4198</a>)</li>
-<li>Fixed a bug where base expressions caused inconsistent formatting of ** in tenary
-expression (<a href="https://redirect.github.com/psf/black/issues/4154">#4154</a>)</li>
-<li>Checking for newline before adding one on docstring that is almost at the line limit
-(<a href="https://redirect.github.com/psf/black/issues/4185">#4185</a>)</li>
-<li>Remove redundant parentheses in <code>case</code> statement <code>if</code> guards (<a href="https://redirect.github.com/psf/black/issues/4214">#4214</a>).</li>
+<li><a href="https://github.com/SharathHuddar"><code>@​SharathHuddar</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6364">pydantic/pydantic#6364</a></li>
 </ul>
-<h3>Configuration</h3>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.10...v1.10.11">https://github.com/pydantic/pydantic/compare/v1.10.10...v1.10.11</a></p>
+<h2>V1.10.10</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fix racy doctests by <a href="https://github.com/K900"><code>@​K900</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6103">pydantic/pydantic#6103</a></li>
+<li>✅ Update FastAPI test script by <a href="https://github.com/Kludex"><code>@​Kludex</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6117">pydantic/pydantic#6117</a></li>
+<li>add roadmap to annoucement by <a href="https://github.com/samuelcolvin"><code>@​samuelcolvin</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6120">pydantic/pydantic#6120</a></li>
+<li>Fixed literal validator errors for unhashable values by <a href="https://github.com/markus1978"><code>@​markus1978</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6194">pydantic/pydantic#6194</a></li>
+<li>Bug fix for forward refs in generics by <a href="https://github.com/mark-todd"><code>@​mark-todd</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6157">pydantic/pydantic#6157</a></li>
+<li>Add Pydantic <code>Json</code> field support to settings management by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6250">pydantic/pydantic#6250</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/K900"><code>@​K900</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6103">pydantic/pydantic#6103</a></li>
+<li><a href="https://github.com/markus1978"><code>@​markus1978</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6194">pydantic/pydantic#6194</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.9...v1.10.10">https://github.com/pydantic/pydantic/compare/v1.10.9...v1.10.10</a></p>
+<h2>V1.10.9</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add Pydantic classifier by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5847">pydantic/pydantic#5847</a></li>
+<li>📌 Use Cython &lt; v3 by <a href="https://github.com/lig"><code>@​lig</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5845">pydantic/pydantic#5845</a></li>
+<li>[cherry-pick] Fix mypy plugin for 1.4.0 (<a href="https://redirect.github.com/pydantic/pydantic/issues/5927">#5927</a>) by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5928">pydantic/pydantic#5928</a></li>
+<li>Add future and past date hypothesis strategies by <a href="https://github.com/bschoenmaeckers"><code>@​bschoenmaeckers</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5850">pydantic/pydantic#5850</a></li>
+</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/psf/black/blob/main/CHANGES.md">black's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/pydantic/pydantic/blob/main/HISTORY.md">pydantic's changelog</a>.</em></p>
 <blockquote>
-<h2>24.3.0</h2>
-<h3>Highlights</h3>
-<p>This release is a milestone: it fixes Black's first CVE security vulnerability. If you
-run Black on untrusted input, or if you habitually put thousands of leading tab
-characters in your docstrings, you are strongly encouraged to upgrade immediately to fix
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.</p>
-<p>This release also fixes a bug in Black's AST safety check that allowed Black to make
-incorrect changes to certain f-strings that are valid in Python 3.12 and higher.</p>
-<h3>Stable style</h3>
+<h2>v1.10.13 (2023-09-27)</h2>
 <ul>
-<li>Don't move comments along with delimiters, which could cause crashes (<a href="https://redirect.github.com/psf/black/issues/4248">#4248</a>)</li>
-<li>Strengthen AST safety check to catch more unsafe changes to strings. Previous versions
-of Black would incorrectly format the contents of certain unusual f-strings containing
-nested strings with the same quote type. Now, Black will crash on such strings until
-support for the new f-string syntax is implemented. (<a href="https://redirect.github.com/psf/black/issues/4270">#4270</a>)</li>
-<li>Fix a bug where line-ranges exceeding the last code line would not work as expected
-(<a href="https://redirect.github.com/psf/black/issues/4273">#4273</a>)</li>
+<li>Fix: Add max length check to <code>pydantic.validate_email</code>, <a href="https://redirect.github.com/pydantic/pydantic/issues/7673">#7673</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>Docs: Fix pip commands to install v1, <a href="https://redirect.github.com/pydantic/pydantic/issues/6930">#6930</a> by <a href="https://github.com/chbndrhnns"><code>@​chbndrhnns</code></a></li>
 </ul>
-<h3>Performance</h3>
+<h2>v1.10.12 (2023-07-24)</h2>
 <ul>
-<li>Fix catastrophic performance on docstrings that contain large numbers of leading tab
-characters. This fixes
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.
-(<a href="https://redirect.github.com/psf/black/issues/4278">#4278</a>)</li>
+<li>Fixes the <code>maxlen</code> property being dropped on <code>deque</code> validation. Happened only if the deque item has been typed. Changes the <code>_validate_sequence_like</code> func, <a href="https://redirect.github.com/pydantic/pydantic/pull/6581">#6581</a> by <a href="https://github.com/maciekglowka"><code>@​maciekglowka</code></a></li>
 </ul>
-<h3>Documentation</h3>
+<h2>v1.10.11 (2023-07-04)</h2>
 <ul>
-<li>Note what happens when <code>--check</code> is used with <code>--quiet</code> (<a href="https://redirect.github.com/psf/black/issues/4236">#4236</a>)</li>
+<li>Importing create_model in tools.py through relative path instead of absolute path - so that it doesn't import V2 code when copied over to V2 branch, <a href="https://redirect.github.com/pydantic/pydantic/pull/6361">#6361</a> by <a href="https://github.com/SharathHuddar"><code>@​SharathHuddar</code></a></li>
 </ul>
-<h2>24.2.0</h2>
-<h3>Stable style</h3>
+<h2>v1.10.10 (2023-06-30)</h2>
 <ul>
-<li>Fixed a bug where comments where mistakenly removed along with redundant parentheses
-(<a href="https://redirect.github.com/psf/black/issues/4218">#4218</a>)</li>
+<li>Add Pydantic <code>Json</code> field support to settings management, <a href="https://redirect.github.com/pydantic/pydantic/pull/6250">#6250</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>Fixed literal validator errors for unhashable values, <a href="https://redirect.github.com/pydantic/pydantic/pull/6188">#6188</a> by <a href="https://github.com/markus1978"><code>@​markus1978</code></a></li>
+<li>Fixed bug with generics receiving forward refs, <a href="https://redirect.github.com/pydantic/pydantic/pull/6130">#6130</a> by <a href="https://github.com/mark-todd"><code>@​mark-todd</code></a></li>
+<li>Update install method of FastAPI for internal tests in CI, <a href="https://redirect.github.com/pydantic/pydantic/pull/6117">#6117</a> by <a href="https://github.com/Kludex"><code>@​Kludex</code></a></li>
 </ul>
-<h3>Preview style</h3>
+<h2>v1.10.9 (2023-06-07)</h2>
 <ul>
-<li>Move the <code>hug_parens_with_braces_and_square_brackets</code> feature to the unstable style
-due to an outstanding crash and proposed formatting tweaks (<a href="https://redirect.github.com/psf/black/issues/4198">#4198</a>)</li>
-<li>Fixed a bug where base expressions caused inconsistent formatting of ** in tenary
-expression (<a href="https://redirect.github.com/psf/black/issues/4154">#4154</a>)</li>
-<li>Checking for newline before adding one on docstring that is almost at the line limit
-(<a href="https://redirect.github.com/psf/black/issues/4185">#4185</a>)</li>
-<li>Remove redundant parentheses in <code>case</code> statement <code>if</code> guards (<a href="https://redirect.github.com/psf/black/issues/4214">#4214</a>).</li>
+<li>Fix trailing zeros not ignored in Decimal validation, <a href="https://redirect.github.com/pydantic/pydantic/pull/5968">#5968</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>Fix mypy plugin for v1.4.0, <a href="https://redirect.github.com/pydantic/pydantic/pull/5928">#5928</a> by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a></li>
+<li>Add future and past date hypothesis strategies, <a href="https://redirect.github.com/pydantic/pydantic/pull/5850">#5850</a> by <a href="https://github.com/bschoenmaeckers"><code>@​bschoenmaeckers</code></a></li>
+<li>Discourage usage of Cython 3 with Pydantic 1.x, <a href="https://redirect.github.com/pydantic/pydantic/pull/5845">#5845</a> by <a href="https://github.com/lig"><code>@​lig</code></a></li>
 </ul>
+<h2>v1.10.8 (2023-05-23)</h2>
+<ul>
+<li>Fix a bug in <code>Literal</code> usage with <code>typing-extension==4.6.0</code>, <a href="https://redirect.github.com/pydantic/pydantic/pull/5826">#5826</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>This solves the (closed) issue <a href="https://redirect.github.com/pydantic/pydantic/pull/3849">#3849</a> where aliased fields that use discriminated union fail to validate when the data contains the non-aliased field name, <a href="https://redirect.github.com/pydantic/pydantic/pull/5736">#5736</a> by <a href="https://github.com/benwah"><code>@​benwah</code></a></li>
+<li>Update email-validator dependency to &gt;=2.0.0post2, <a href="https://redirect.github.com/pydantic/pydantic/pull/5627">#5627</a> by <a href="https://github.com/adriangb"><code>@​adriangb</code></a></li>
+<li>update <code>AnyClassMethod</code> for changes in <a href="https://redirect.github.com/python/typeshed/issues/9771">python/typeshed#9771</a>, <a href="https://redirect.github.com/pydantic/pydantic/pull/5505">#5505</a> by <a href="https://github.com/ITProKyle"><code>@​ITProKyle</code></a></li>
+</ul>
+<h2>v1.10.7 (2023-03-22)</h2>
+<ul>
+<li>Fix creating schema from model using <code>ConstrainedStr</code> with <code>regex</code> as dict key, <a href="https://redirect.github.com/pydantic/pydantic/pull/5223">#5223</a> by <a href="https://github.com/matejetz"><code>@​matejetz</code></a></li>
+<li>Address bug in mypy plugin caused by explicit_package_bases=True, <a href="https://redirect.github.com/pydantic/pydantic/pull/5191">#5191</a> by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a></li>
+<li>Add implicit defaults in the mypy plugin for Field with no default argument, <a href="https://redirect.github.com/pydantic/pydantic/pull/5190">#5190</a> by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a></li>
+<li>Fix schema generated for Enum values used as Literals in discriminated unions, <a href="https://redirect.github.com/pydantic/pydantic/pull/5188">#5188</a> by <a href="https://github.com/javibookline"><code>@​javibookline</code></a></li>
+<li>Fix mypy failures caused by the pydantic mypy plugin when users define <code>from_orm</code> in their own classes, <a href="https://redirect.github.com/pydantic/pydantic/pull/5187">#5187</a> by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a></li>
+<li>Fix <code>InitVar</code> usage with pydantic dataclasses, mypy version <code>1.1.1</code> and the custom mypy plugin, <a href="https://redirect.github.com/pydantic/pydantic/pull/5162">#5162</a> by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a></li>
+</ul>
+<h2>v1.10.6 (2023-03-08)</h2>
+<ul>
+<li>Implement logic to support creating validators from non standard callables by using defaults to identify them and unwrapping <code>functools.partial</code> and <code>functools.partialmethod</code> when checking the signature, <a href="https://redirect.github.com/pydantic/pydantic/pull/5126">#5126</a> by <a href="https://github.com/JensHeinrich"><code>@​JensHeinrich</code></a></li>
+<li>Fix mypy plugin for v1.1.1, and fix <code>dataclass_transform</code> decorator for pydantic dataclasses, <a href="https://redirect.github.com/pydantic/pydantic/pull/5111">#5111</a> by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a></li>
+<li>Raise <code>ValidationError</code>, not <code>ConfigError</code>, when a discriminator value is unhashable, <a href="https://redirect.github.com/pydantic/pydantic/pull/4773">#4773</a> by <a href="https://github.com/kurtmckee"><code>@​kurtmckee</code></a></li>
+</ul>
+<h2>v1.10.5 (2023-02-15)</h2>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -138,13 +151,23 @@ expression (<a href="https://redirect.github.com/psf/black/issues/4154">#4154</a
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/psf/black/commits/24.3.0">compare view</a></li>
+<li><a href="https://github.com/pydantic/pydantic/commit/8822578619bf8d0bb754b1cf7a2a905b50240d01"><code>8822578</code></a> Prepare release 1.10.13 (<a href="https://redirect.github.com/pydantic/pydantic/issues/7674">#7674</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/59d8f38fd6220e3917c53785dbc70317d6f8e631"><code>59d8f38</code></a> [Backport] Add max length check to <code>validate_email</code> (<a href="https://redirect.github.com/pydantic/pydantic/issues/7673">#7673</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/69b92b547f7f268f7914d3346b57c59a0d550e42"><code>69b92b5</code></a> Make the v1 mypy plugin work with both v1 and v2 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6920">#6920</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/87bf41755fe59082abf8352a2cf8c2889ee0849f"><code>87bf417</code></a> Update pip commands to install 1.10 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6930">#6930</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/d9c2af3a701ca982945a590de1a1da98b3fb4003"><code>d9c2af3</code></a> Prepare release 1.10.12 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6825">#6825</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/2aaddf6d692a6a467a401fae5840435c5459aa1b"><code>2aaddf6</code></a> Deque's maxlen property dropped on V1 validation (<a href="https://redirect.github.com/pydantic/pydantic/issues/6586">#6586</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/15c82d978d9e3b3893f00982b9e0c5c8d5c7821d"><code>15c82d9</code></a> Prepare for 1.10.11 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6420">#6420</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/8750c37a553f5107562722605369fcd2cb7cdaa3"><code>8750c37</code></a> no longer tag docs release as latest</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/2c0e2a6d8a961ce320915302caadbb31cc565983"><code>2c0e2a6</code></a> Fix import of create_model in tools.py (<a href="https://redirect.github.com/pydantic/pydantic/issues/6364">#6364</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/0e8a387d6752dd859676da53298601ccae6a23a7"><code>0e8a387</code></a> Prepare for 1.10.10 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6308">#6308</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/pydantic/pydantic/compare/v1.9.0...v1.10.13">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=black&package-manager=pip&previous-version=21.12b0&new-version=24.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pydantic&package-manager=pip&previous-version=1.9.0&new-version=1.10.13)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -176,7 +199,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 11:49:29 +0000 UTC
+        Created At 2024-04-25 06:19:07 +0000 UTC
     </div>
 </div>
 
@@ -184,11 +207,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    Bump starlette from 0.17.1 to 0.36.2 in /endorser
+                    Bump pydantic from 1.9.0 to 1.10.13 in /endorser
                 </b>
             </td>
         </tr>
@@ -197,63 +220,64 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                [//]: # (dependabot-start)
-⚠️  **Dependabot is rebasing this PR** ⚠️ 
-
-Rebasing might not happen immediately, so don't worry if this takes some time.
-
-Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
-
----
-
-[//]: # (dependabot-end)
-
-Bumps [starlette](https://github.com/encode/starlette) from 0.17.1 to 0.36.2.
+                Bumps [pydantic](https://github.com/pydantic/pydantic) from 1.9.0 to 1.10.13.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/encode/starlette/releases">starlette's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/pydantic/pydantic/releases">pydantic's releases</a>.</em></p>
 <blockquote>
-<h2>Version 0.36.2</h2>
-<h2>Fixed</h2>
+<h2>V1.10.13 2023-09-27</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Upgrade <code>python-multipart</code> to <code>0.0.7</code> <a href="https://github.com/encode/starlette/blob/HEAD/13e5c26a27f4903924624736abd6131b2da80cc5">13e5c26</a>.</li>
-<li>Avoid duplicate charset on <code>Content-Type</code> <a href="https://github.com/encode/starlette/2443">#2443</a>.</li>
+<li>Update pip commands to install 1.10 by <a href="https://github.com/chbndrhnns"><code>@​chbndrhnns</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6930">pydantic/pydantic#6930</a></li>
+<li>Make the v1 mypy plugin work with both v1 and v2 by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6920">pydantic/pydantic#6920</a></li>
+<li>[Backport] Add max length check to <code>validate_email</code> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/7673">pydantic/pydantic#7673</a></li>
 </ul>
-<hr />
-<p><strong>Full Changelog</strong>: <a href="https://github.com/encode/starlette/compare/0.36.1...0.36.2">https://github.com/encode/starlette/compare/0.36.1...0.36.2</a></p>
-<h2>Version 0.36.1</h2>
-<h2>Fixed</h2>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.12...v1.10.13">https://github.com/pydantic/pydantic/compare/v1.10.12...v1.10.13</a></p>
+<h2>V1.10.12</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Check if &quot;extensions&quot; in scope before checking the extension <a href="http://redirect.github.com/encode/starlette/pull/2438">#2438</a>.</li>
+<li>Deque's maxlen property dropped on V1 validation by <a href="https://github.com/maciekglowka"><code>@​maciekglowka</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6586">pydantic/pydantic#6586</a></li>
+<li>Prepare release 1.10.12 by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6825">pydantic/pydantic#6825</a></li>
 </ul>
-<hr />
-<p><strong>Full Changelog</strong>: <a href="https://github.com/encode/starlette/compare/0.36.0...0.36.1">https://github.com/encode/starlette/compare/0.36.0...0.36.1</a></p>
-<h2>Version 0.36.0</h2>
-<h2>Added</h2>
+<h2>New Contributors</h2>
 <ul>
-<li>Add support for ASGI <code>pathsend</code> extension <a href="http://redirect.github.com/encode/starlette/pull/2435">#2435</a>.</li>
-<li>Cancel <code>WebSocketTestSession</code> on close <a href="http://redirect.github.com/encode/starlette/pull/2427">#2427</a>.</li>
-<li>Raise <code>WebSocketDisconnect</code> when <code>WebSocket.send()</code> excepts <code>IOError</code> <a href="http://redirect.github.com/encode/starlette/pull/2425">#2425</a>.</li>
-<li>Raise <code>FileNotFoundError</code> when the <code>env_file</code> parameter on <code>Config</code> is not valid <a href="http://redirect.github.com/encode/starlette/pull/2422">#2422</a>.</li>
+<li><a href="https://github.com/maciekglowka"><code>@​maciekglowka</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6586">pydantic/pydantic#6586</a></li>
 </ul>
-<hr />
-<p><strong>Full Changelog</strong>: <a href="https://github.com/encode/starlette/compare/0.35.1...0.36.0">https://github.com/encode/starlette/compare/0.35.1...0.36.0</a></p>
-<h2>Version 0.35.1</h2>
-<h2>Fixed</h2>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.11...v1.10.12">https://github.com/pydantic/pydantic/compare/v1.10.11...v1.10.12</a></p>
+<h2>V1.10.11</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Stop using the deprecated &quot;method&quot; parameter in <code>FileResponse</code> inside of <code>StaticFiles</code> <a href="https://redirect.github.com/encode/starlette/pull/2406">#2406</a>.</li>
-<li>Make <code>typing-extensions</code> optional again <a href="https://redirect.github.com/encode/starlette/pull/2409">#2409</a>.</li>
+<li>Fix import of create_model in tools.py by <a href="https://github.com/SharathHuddar"><code>@​SharathHuddar</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6364">pydantic/pydantic#6364</a></li>
+<li>Prepare for 1.10.11 by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6420">pydantic/pydantic#6420</a></li>
 </ul>
-<hr />
-<p><strong>Full Changelog</strong>: <a href="https://github.com/encode/starlette/compare/0.35.0...0.35.1">https://github.com/encode/starlette/compare/0.35.0...0.35.1</a></p>
-<h2>Version 0.35.0</h2>
-<h2>Added</h2>
+<h2>New Contributors</h2>
 <ul>
-<li>Add <code>*args</code> to <code>Middleware</code> and improve its type hints <a href="https://redirect.github.com/encode/starlette/pull/2381">#2381</a>.</li>
+<li><a href="https://github.com/SharathHuddar"><code>@​SharathHuddar</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6364">pydantic/pydantic#6364</a></li>
 </ul>
-<h2>Fixed</h2>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.10...v1.10.11">https://github.com/pydantic/pydantic/compare/v1.10.10...v1.10.11</a></p>
+<h2>V1.10.10</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Use <code>Iterable</code> instead <code>Iterator</code> on <code>iterate_in_threadpool</code> <a href="https://redirect.github.com/encode/starlette/pull/2362">#2362</a>.</li>
+<li>Fix racy doctests by <a href="https://github.com/K900"><code>@​K900</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6103">pydantic/pydantic#6103</a></li>
+<li>✅ Update FastAPI test script by <a href="https://github.com/Kludex"><code>@​Kludex</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6117">pydantic/pydantic#6117</a></li>
+<li>add roadmap to annoucement by <a href="https://github.com/samuelcolvin"><code>@​samuelcolvin</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6120">pydantic/pydantic#6120</a></li>
+<li>Fixed literal validator errors for unhashable values by <a href="https://github.com/markus1978"><code>@​markus1978</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6194">pydantic/pydantic#6194</a></li>
+<li>Bug fix for forward refs in generics by <a href="https://github.com/mark-todd"><code>@​mark-todd</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6157">pydantic/pydantic#6157</a></li>
+<li>Add Pydantic <code>Json</code> field support to settings management by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/6250">pydantic/pydantic#6250</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/K900"><code>@​K900</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6103">pydantic/pydantic#6103</a></li>
+<li><a href="https://github.com/markus1978"><code>@​markus1978</code></a> made their first contribution in <a href="https://redirect.github.com/pydantic/pydantic/pull/6194">pydantic/pydantic#6194</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pydantic/pydantic/compare/v1.10.9...v1.10.10">https://github.com/pydantic/pydantic/compare/v1.10.9...v1.10.10</a></p>
+<h2>V1.10.9</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add Pydantic classifier by <a href="https://github.com/hramezani"><code>@​hramezani</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5847">pydantic/pydantic#5847</a></li>
+<li>📌 Use Cython &lt; v3 by <a href="https://github.com/lig"><code>@​lig</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5845">pydantic/pydantic#5845</a></li>
+<li>[cherry-pick] Fix mypy plugin for 1.4.0 (<a href="https://redirect.github.com/pydantic/pydantic/issues/5927">#5927</a>) by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5928">pydantic/pydantic#5928</a></li>
+<li>Add future and past date hypothesis strategies by <a href="https://github.com/bschoenmaeckers"><code>@​bschoenmaeckers</code></a> in <a href="https://redirect.github.com/pydantic/pydantic/pull/5850">pydantic/pydantic#5850</a></li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -261,48 +285,58 @@ Bumps [starlette](https://github.com/encode/starlette) from 0.17.1 to 0.36.2.
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/encode/starlette/blob/master/docs/release-notes.md">starlette's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/pydantic/pydantic/blob/main/HISTORY.md">pydantic's changelog</a>.</em></p>
 <blockquote>
-<h2>0.36.2</h2>
-<p>February 3, 2024</p>
-<h4>Fixed</h4>
+<h2>v1.10.13 (2023-09-27)</h2>
 <ul>
-<li>Upgrade <code>python-multipart</code> to <code>0.0.7</code> <a href="https://github.com/encode/starlette/blob/master/docs/13e5c26a27f4903924624736abd6131b2da80cc5">13e5c26</a>.</li>
-<li>Avoid duplicate charset on <code>Content-Type</code> <a href="https://github.com/encode/starlette/2443">#2443</a>.</li>
+<li>Fix: Add max length check to <code>pydantic.validate_email</code>, <a href="https://redirect.github.com/pydantic/pydantic/issues/7673">#7673</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>Docs: Fix pip commands to install v1, <a href="https://redirect.github.com/pydantic/pydantic/issues/6930">#6930</a> by <a href="https://github.com/chbndrhnns"><code>@​chbndrhnns</code></a></li>
 </ul>
-<h2>0.36.1</h2>
-<p>January 23, 2024</p>
-<h4>Fixed</h4>
+<h2>v1.10.12 (2023-07-24)</h2>
 <ul>
-<li>Check if &quot;extensions&quot; in scope before checking the extension <a href="http://redirect.github.com/encode/starlette/pull/2438">#2438</a>.</li>
+<li>Fixes the <code>maxlen</code> property being dropped on <code>deque</code> validation. Happened only if the deque item has been typed. Changes the <code>_validate_sequence_like</code> func, <a href="https://redirect.github.com/pydantic/pydantic/pull/6581">#6581</a> by <a href="https://github.com/maciekglowka"><code>@​maciekglowka</code></a></li>
 </ul>
-<h2>0.36.0</h2>
-<p>January 22, 2024</p>
-<h4>Added</h4>
+<h2>v1.10.11 (2023-07-04)</h2>
 <ul>
-<li>Add support for ASGI <code>pathsend</code> extension <a href="http://redirect.github.com/encode/starlette/pull/2435">#2435</a>.</li>
-<li>Cancel <code>WebSocketTestSession</code> on close <a href="http://redirect.github.com/encode/starlette/pull/2427">#2427</a>.</li>
-<li>Raise <code>WebSocketDisconnect</code> when <code>WebSocket.send()</code> excepts <code>IOError</code> <a href="http://redirect.github.com/encode/starlette/pull/2425">#2425</a>.</li>
-<li>Raise <code>FileNotFoundError</code> when the <code>env_file</code> parameter on <code>Config</code> is not valid <a href="http://redirect.github.com/encode/starlette/pull/2422">#2422</a>.</li>
+<li>Importing create_model in tools.py through relative path instead of absolute path - so that it doesn't import V2 code when copied over to V2 branch, <a href="https://redirect.github.com/pydantic/pydantic/pull/6361">#6361</a> by <a href="https://github.com/SharathHuddar"><code>@​SharathHuddar</code></a></li>
 </ul>
-<h2>0.35.1</h2>
-<p>January 11, 2024</p>
-<h4>Fixed</h4>
+<h2>v1.10.10 (2023-06-30)</h2>
 <ul>
-<li>Stop using the deprecated &quot;method&quot; parameter in <code>FileResponse</code> inside of <code>StaticFiles</code> <a href="https://redirect.github.com/encode/starlette/pull/2406">#2406</a>.</li>
-<li>Make <code>typing-extensions</code> optional again <a href="https://redirect.github.com/encode/starlette/pull/2409">#2409</a>.</li>
+<li>Add Pydantic <code>Json</code> field support to settings management, <a href="https://redirect.github.com/pydantic/pydantic/pull/6250">#6250</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>Fixed literal validator errors for unhashable values, <a href="https://redirect.github.com/pydantic/pydantic/pull/6188">#6188</a> by <a href="https://github.com/markus1978"><code>@​markus1978</code></a></li>
+<li>Fixed bug with generics receiving forward refs, <a href="https://redirect.github.com/pydantic/pydantic/pull/6130">#6130</a> by <a href="https://github.com/mark-todd"><code>@​mark-todd</code></a></li>
+<li>Update install method of FastAPI for internal tests in CI, <a href="https://redirect.github.com/pydantic/pydantic/pull/6117">#6117</a> by <a href="https://github.com/Kludex"><code>@​Kludex</code></a></li>
 </ul>
-<h2>0.35.0</h2>
-<p>January 11, 2024</p>
-<h4>Added</h4>
+<h2>v1.10.9 (2023-06-07)</h2>
 <ul>
-<li>Add <code>*args</code> to <code>Middleware</code> and improve its type hints <a href="https://redirect.github.com/encode/starlette/pull/2381">#2381</a>.</li>
+<li>Fix trailing zeros not ignored in Decimal validation, <a href="https://redirect.github.com/pydantic/pydantic/pull/5968">#5968</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>Fix mypy plugin for v1.4.0, <a href="https://redirect.github.com/pydantic/pydantic/pull/5928">#5928</a> by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a></li>
+<li>Add future and past date hypothesis strategies, <a href="https://redirect.github.com/pydantic/pydantic/pull/5850">#5850</a> by <a href="https://github.com/bschoenmaeckers"><code>@​bschoenmaeckers</code></a></li>
+<li>Discourage usage of Cython 3 with Pydantic 1.x, <a href="https://redirect.github.com/pydantic/pydantic/pull/5845">#5845</a> by <a href="https://github.com/lig"><code>@​lig</code></a></li>
 </ul>
-<h4>Fixed</h4>
+<h2>v1.10.8 (2023-05-23)</h2>
 <ul>
-<li>Use <code>Iterable</code> instead <code>Iterator</code> on <code>iterate_in_threadpool</code> <a href="https://redirect.github.com/encode/starlette/pull/2362">#2362</a>.</li>
+<li>Fix a bug in <code>Literal</code> usage with <code>typing-extension==4.6.0</code>, <a href="https://redirect.github.com/pydantic/pydantic/pull/5826">#5826</a> by <a href="https://github.com/hramezani"><code>@​hramezani</code></a></li>
+<li>This solves the (closed) issue <a href="https://redirect.github.com/pydantic/pydantic/pull/3849">#3849</a> where aliased fields that use discriminated union fail to validate when the data contains the non-aliased field name, <a href="https://redirect.github.com/pydantic/pydantic/pull/5736">#5736</a> by <a href="https://github.com/benwah"><code>@​benwah</code></a></li>
+<li>Update email-validator dependency to &gt;=2.0.0post2, <a href="https://redirect.github.com/pydantic/pydantic/pull/5627">#5627</a> by <a href="https://github.com/adriangb"><code>@​adriangb</code></a></li>
+<li>update <code>AnyClassMethod</code> for changes in <a href="https://redirect.github.com/python/typeshed/issues/9771">python/typeshed#9771</a>, <a href="https://redirect.github.com/pydantic/pydantic/pull/5505">#5505</a> by <a href="https://github.com/ITProKyle"><code>@​ITProKyle</code></a></li>
 </ul>
-<h4>Changes</h4>
+<h2>v1.10.7 (2023-03-22)</h2>
+<ul>
+<li>Fix creating schema from model using <code>ConstrainedStr</code> with <code>regex</code> as dict key, <a href="https://redirect.github.com/pydantic/pydantic/pull/5223">#5223</a> by <a href="https://github.com/matejetz"><code>@​matejetz</code></a></li>
+<li>Address bug in mypy plugin caused by explicit_package_bases=True, <a href="https://redirect.github.com/pydantic/pydantic/pull/5191">#5191</a> by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a></li>
+<li>Add implicit defaults in the mypy plugin for Field with no default argument, <a href="https://redirect.github.com/pydantic/pydantic/pull/5190">#5190</a> by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a></li>
+<li>Fix schema generated for Enum values used as Literals in discriminated unions, <a href="https://redirect.github.com/pydantic/pydantic/pull/5188">#5188</a> by <a href="https://github.com/javibookline"><code>@​javibookline</code></a></li>
+<li>Fix mypy failures caused by the pydantic mypy plugin when users define <code>from_orm</code> in their own classes, <a href="https://redirect.github.com/pydantic/pydantic/pull/5187">#5187</a> by <a href="https://github.com/dmontagu"><code>@​dmontagu</code></a></li>
+<li>Fix <code>InitVar</code> usage with pydantic dataclasses, mypy version <code>1.1.1</code> and the custom mypy plugin, <a href="https://redirect.github.com/pydantic/pydantic/pull/5162">#5162</a> by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a></li>
+</ul>
+<h2>v1.10.6 (2023-03-08)</h2>
+<ul>
+<li>Implement logic to support creating validators from non standard callables by using defaults to identify them and unwrapping <code>functools.partial</code> and <code>functools.partialmethod</code> when checking the signature, <a href="https://redirect.github.com/pydantic/pydantic/pull/5126">#5126</a> by <a href="https://github.com/JensHeinrich"><code>@​JensHeinrich</code></a></li>
+<li>Fix mypy plugin for v1.1.1, and fix <code>dataclass_transform</code> decorator for pydantic dataclasses, <a href="https://redirect.github.com/pydantic/pydantic/pull/5111">#5111</a> by <a href="https://github.com/cdce8p"><code>@​cdce8p</code></a></li>
+<li>Raise <code>ValidationError</code>, not <code>ConfigError</code>, when a discriminator value is unhashable, <a href="https://redirect.github.com/pydantic/pydantic/pull/4773">#4773</a> by <a href="https://github.com/kurtmckee"><code>@​kurtmckee</code></a></li>
+</ul>
+<h2>v1.10.5 (2023-02-15)</h2>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -310,23 +344,23 @@ Bumps [starlette](https://github.com/encode/starlette) from 0.17.1 to 0.36.2.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/encode/starlette/commit/04a7d9d8d1db3734c028d89a6a3fd636ddcafedf"><code>04a7d9d</code></a> Version 0.36.2 (<a href="https://redirect.github.com/encode/starlette/issues/2456">#2456</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/13e5c26a27f4903924624736abd6131b2da80cc5"><code>13e5c26</code></a> Merge pull request from GHSA-93gm-qmq6-w238</li>
-<li><a href="https://github.com/encode/starlette/commit/b8eebef38711902769fc1846c9bb2a1fcd26960d"><code>b8eebef</code></a> Avoid duplicate charset on <code>Content-Type</code> (<a href="https://redirect.github.com/encode/starlette/issues/2443">#2443</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/8da52c2243b8855426c40c16ae24b27734824078"><code>8da52c2</code></a> Bump the python-packages group with 4 updates (<a href="https://redirect.github.com/encode/starlette/issues/2455">#2455</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/4355e6bc288e14dea9597ad9c9265c0f9cad33c0"><code>4355e6b</code></a> Fix nav override for newer version of Mkdocs Material (<a href="https://redirect.github.com/encode/starlette/issues/2444">#2444</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/433da65fc1431754dae0c3c87290b0421aa4a6f9"><code>433da65</code></a> Version 0.36.1 (<a href="https://redirect.github.com/encode/starlette/issues/2440">#2440</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/4ca0a8757a6ac5938c64f8ce925e3abe95625468"><code>4ca0a87</code></a> Downgrade mkdocs-material (<a href="https://redirect.github.com/encode/starlette/issues/2439">#2439</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/e54be85aba48201b0f1c061c892bdc380efb754d"><code>e54be85</code></a> Check if &quot;extensions&quot; in scope before checking the extension (<a href="https://redirect.github.com/encode/starlette/issues/2438">#2438</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/8d09cf4b692a8e28a2f52c7cfa108c80471ffc21"><code>8d09cf4</code></a> Version 0.36.0 (<a href="https://redirect.github.com/encode/starlette/issues/2432">#2432</a>)</li>
-<li><a href="https://github.com/encode/starlette/commit/7936e86f0a0eb7494aee8a1094b0ccda31c67a72"><code>7936e86</code></a> Add support for ASGI <code>pathsend</code> extension (<a href="https://redirect.github.com/encode/starlette/issues/2435">#2435</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/encode/starlette/compare/0.17.1...0.36.2">compare view</a></li>
+<li><a href="https://github.com/pydantic/pydantic/commit/8822578619bf8d0bb754b1cf7a2a905b50240d01"><code>8822578</code></a> Prepare release 1.10.13 (<a href="https://redirect.github.com/pydantic/pydantic/issues/7674">#7674</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/59d8f38fd6220e3917c53785dbc70317d6f8e631"><code>59d8f38</code></a> [Backport] Add max length check to <code>validate_email</code> (<a href="https://redirect.github.com/pydantic/pydantic/issues/7673">#7673</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/69b92b547f7f268f7914d3346b57c59a0d550e42"><code>69b92b5</code></a> Make the v1 mypy plugin work with both v1 and v2 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6920">#6920</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/87bf41755fe59082abf8352a2cf8c2889ee0849f"><code>87bf417</code></a> Update pip commands to install 1.10 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6930">#6930</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/d9c2af3a701ca982945a590de1a1da98b3fb4003"><code>d9c2af3</code></a> Prepare release 1.10.12 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6825">#6825</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/2aaddf6d692a6a467a401fae5840435c5459aa1b"><code>2aaddf6</code></a> Deque's maxlen property dropped on V1 validation (<a href="https://redirect.github.com/pydantic/pydantic/issues/6586">#6586</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/15c82d978d9e3b3893f00982b9e0c5c8d5c7821d"><code>15c82d9</code></a> Prepare for 1.10.11 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6420">#6420</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/8750c37a553f5107562722605369fcd2cb7cdaa3"><code>8750c37</code></a> no longer tag docs release as latest</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/2c0e2a6d8a961ce320915302caadbb31cc565983"><code>2c0e2a6</code></a> Fix import of create_model in tools.py (<a href="https://redirect.github.com/pydantic/pydantic/issues/6364">#6364</a>)</li>
+<li><a href="https://github.com/pydantic/pydantic/commit/0e8a387d6752dd859676da53298601ccae6a23a7"><code>0e8a387</code></a> Prepare for 1.10.10 (<a href="https://redirect.github.com/pydantic/pydantic/issues/6308">#6308</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/pydantic/pydantic/compare/v1.9.0...v1.10.13">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=starlette&package-manager=pip&previous-version=0.17.1&new-version=0.36.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pydantic&package-manager=pip&previous-version=1.9.0&new-version=1.10.13)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -358,7 +392,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 11:49:25 +0000 UTC
+        Created At 2024-04-25 06:16:53 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/679" class=".btn">#679</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/704" class=".btn">#704</a>
             </td>
             <td>
                 <b>
-                    Update golangci-lint action to v4
+                    Update golangci-lint-action
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                This release version uses a non-deprecated Node version, avoiding the need to use a specific commit hash in the development branch.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-21 16:49:02 +0000 UTC
+        Created At 2024-04-26 09:18:36 +0000 UTC
     </div>
 </div>
 
