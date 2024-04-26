@@ -15,30 +15,35 @@ permalink: /releases/hyperledger/aries-framework-swift
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.0
+                    v2.3.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.0
+                    v2.3.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update javascript test, pass AgentTest.testReceiveCredentialThroughOOB() by @conanoc in https://github.com/hyperledger/aries-framework-swift/pull/88
-* Refresh the ledger pool by @conanoc in https://github.com/hyperledger/aries-framework-swift/pull/90
+* Implement DID Exchange Protocol by @conanoc in https://github.com/hyperledger/aries-framework-swift/pull/102
+* support delete by id by @kukgini in https://github.com/hyperledger/aries-framework-swift/pull/96
+* LedgerService as a protocol. by @kukgini in https://github.com/hyperledger/aries-framework-swift/pull/103
+* Seperate IndyLedgerService to a new file by @conanoc in https://github.com/hyperledger/aries-framework-swift/pull/106
+* BaseRecord support Identifiable protocol by @kukgini in https://github.com/hyperledger/aries-framework-swift/pull/104
+* Verify did_rotate attachment signature by @conanoc in https://github.com/hyperledger/aries-framework-swift/pull/107
 
-**Full Changelog**: https://github.com/hyperledger/aries-framework-swift/compare/v2.1.1...v2.2.0
+
+**Full Changelog**: https://github.com/hyperledger/aries-framework-swift/compare/v2.2.0...v2.3.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.2.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-11 08:15:50 +0000 UTC
+        Created At 2024-04-26 09:04:54 +0000 UTC
     </span>
 </div>
 
