@@ -14,88 +14,40 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/228" class=".btn">#228</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/240" class=".btn">#240</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump es5-ext from 0.10.62 to 0.10.64 in /wrappers/javascript
+                    build(deps): bump rustls from 0.21.10 to 0.21.11
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
-                Bumps [es5-ext](https://github.com/medikoo/es5-ext) from 0.10.62 to 0.10.64.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/medikoo/es5-ext/releases">es5-ext's releases</a>.</em></p>
-<blockquote>
-<h2>0.10.64 (2024-02-27)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>Revert update to postinstall script meant to fix Powershell issue, as it's a regression for some Linux terminals (<a href="https://github.com/medikoo/es5-ext/commit/c2e2bb90c295c4c582445a6f03b2a3ad0b22550a">c2e2bb9</a>)</li>
-</ul>
-<hr />
-<p><a href="https://github.com/medikoo/es5-ext/compare/v0.10.63...v0.10.64">Comparison since last release</a></p>
-<h2>0.10.63 (2024-02-23)</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li>Do not rely on problematic regex (<a href="https://github.com/medikoo/es5-ext/commit/3551cdd7b2db08b1632841f819d008757d28e8e2">3551cdd</a>), addresses <a href="https://redirect.github.com/medikoo/es5-ext/issues/201">#201</a></li>
-<li>Support ES2015+ function definitions in <code>function#toStringTokens()</code> (<a href="https://github.com/medikoo/es5-ext/commit/a52e95736690ad1d465ebcd9791d54570e294602">a52e957</a>), addresses <a href="https://redirect.github.com/medikoo/es5-ext/issues/021">#021</a></li>
-<li>Ensure postinstall script does not crash on Windows, fixes <a href="https://redirect.github.com/medikoo/es5-ext/issues/181">#181</a> (<a href="https://github.com/medikoo/es5-ext/commit/bf8ed799d57df53096da9d908ff577f305e1366f">bf8ed79</a>)</li>
-</ul>
-<h3>Maintenance Improvements</h3>
-<ul>
-<li>Simplify the manifest message (<a href="https://github.com/medikoo/es5-ext/commit/7855319f41b9736639cf4555bd2c419f17addf55">7855319</a>)</li>
-</ul>
-<hr />
-<p><a href="https://github.com/medikoo/es5-ext/compare/v0.10.62...v0.10.63">Comparison since last release</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/medikoo/es5-ext/blob/main/CHANGELOG.md">es5-ext's changelog</a>.</em></p>
-<blockquote>
-<h3><a href="https://github.com/medikoo/es5-ext/compare/v0.10.63...v0.10.64">0.10.64</a> (2024-02-27)</h3>
-<h3>Bug Fixes</h3>
-<ul>
-<li>Revert update to postinstall script meant to fix Powershell issue, as it's a regression for some Linux terminals (<a href="https://github.com/medikoo/es5-ext/commit/c2e2bb90c295c4c582445a6f03b2a3ad0b22550a">c2e2bb9</a>)</li>
-</ul>
-<h3><a href="https://github.com/medikoo/es5-ext/compare/v0.10.62...v0.10.63">0.10.63</a> (2024-02-23)</h3>
-<h3>Bug Fixes</h3>
-<ul>
-<li>Do not rely on problematic regex (<a href="https://github.com/medikoo/es5-ext/commit/3551cdd7b2db08b1632841f819d008757d28e8e2">3551cdd</a>), addresses <a href="https://redirect.github.com/medikoo/es5-ext/issues/201">#201</a></li>
-<li>Support ES2015+ function definitions in <code>function#toStringTokens()</code> (<a href="https://github.com/medikoo/es5-ext/commit/a52e95736690ad1d465ebcd9791d54570e294602">a52e957</a>), addresses <a href="https://redirect.github.com/medikoo/es5-ext/issues/021">#021</a></li>
-<li>Ensure postinstall script does not crash on Windows, fixes <a href="https://redirect.github.com/medikoo/es5-ext/issues/181">#181</a> (<a href="https://github.com/medikoo/es5-ext/commit/bf8ed799d57df53096da9d908ff577f305e1366f">bf8ed79</a>)</li>
-</ul>
-<h3>Maintenance Improvements</h3>
-<ul>
-<li>Simplify the manifest message (<a href="https://github.com/medikoo/es5-ext/commit/7855319f41b9736639cf4555bd2c419f17addf55">7855319</a>)</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [rustls](https://github.com/rustls/rustls) from 0.21.10 to 0.21.11.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/medikoo/es5-ext/commit/f76b03d8c49ce4871f37f428c0e1d3ee6637fcc4"><code>f76b03d</code></a> chore: Release v0.10.64</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/2881acda50de0848b456690769919ed4b86be489"><code>2881acd</code></a> chore: Bump dependencies</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/c2e2bb90c295c4c582445a6f03b2a3ad0b22550a"><code>c2e2bb9</code></a> fix: Revert update meant to fix Powershell issue, as it's a regression</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/16f2b7253d3d8d499d8cf1d3ca76c585da7f08d3"><code>16f2b72</code></a> docs: Fix date in the changelog</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/de4e03c4776a303284142f73f3f181a070615817"><code>de4e03c</code></a> chore: Release v0.10.63</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/3fd53b755ec883be8f119c747f0b04130741e456"><code>3fd53b7</code></a> chore: Upgrade<code> lint-staged</code> to v13</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/bf8ed799d57df53096da9d908ff577f305e1366f"><code>bf8ed79</code></a> chore: Ensure postinstall script does not crash on Windows</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/2cbbb0717bd8de6e38fcba1f0d45bc876e7a1951"><code>2cbbb07</code></a> chore: Bump dependencies</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/22d0416ea170000a115609f22a560dfa9193ebb0"><code>22d0416</code></a> chore: Bump LICENSE year</li>
-<li><a href="https://github.com/medikoo/es5-ext/commit/a52e95736690ad1d465ebcd9791d54570e294602"><code>a52e957</code></a> fix: Support ES2015+ function definitions in <code>function#toStringTokens()</code></li>
-<li>Additional commits viewable in <a href="https://github.com/medikoo/es5-ext/compare/v0.10.62...v0.10.64">compare view</a></li>
+<li><a href="https://github.com/rustls/rustls/commit/7b8d1dbc1e666dc4d83640c64e96d257d39cfda4"><code>7b8d1db</code></a> Prepare 0.21.11</li>
+<li><a href="https://github.com/rustls/rustls/commit/ebcb4782f23b4edf9b10a7065d9e8d4362439d9c"><code>ebcb478</code></a> complete_io: bail out if progress is impossible</li>
+<li><a href="https://github.com/rustls/rustls/commit/20f35dfb6d3c353294c562723d4cb6639a8bd01b"><code>20f35df</code></a> Regression test for <code>complete_io</code> infinite loop bug</li>
+<li><a href="https://github.com/rustls/rustls/commit/2f2aae15a4293639669291ab2b257835a2d4bdca"><code>2f2aae1</code></a> Don't specially handle unauthenticated close_notify alerts</li>
+<li><a href="https://github.com/rustls/rustls/commit/e163587b985c894a6ce651992b91eb6897edde8b"><code>e163587</code></a> Don't deny warnings from nightly clippy</li>
+<li><a href="https://github.com/rustls/rustls/commit/9f864874cff7d977cccd4204463ea34fd161a2fe"><code>9f86487</code></a> server::handy: fix new nightly clippy lint</li>
+<li><a href="https://github.com/rustls/rustls/commit/7e0e8ab599a19c2a733be294aaf91eeb6fdebaaa"><code>7e0e8ab</code></a> Correct assorted clippy warnings in test code</li>
+<li><a href="https://github.com/rustls/rustls/commit/3587d98f4ea434495facc0688b8b07313cb02e4a"><code>3587d98</code></a> Apply clippy suggestions from Rust 1.72</li>
+<li><a href="https://github.com/rustls/rustls/commit/d082e837b34c0605b1851e45c421c91c1d15391c"><code>d082e83</code></a> Address <code>clippy::redundant_static_lifetimes</code></li>
+<li><a href="https://github.com/rustls/rustls/commit/5e7a06ca457a6fe67dfbb57193f55138be7ef611"><code>5e7a06c</code></a> Address <code>clippy::slow_vector_initialization</code></li>
+<li>Additional commits viewable in <a href="https://github.com/rustls/rustls/compare/v/0.21.10...v/0.21.11">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=es5-ext&package-manager=npm_and_yarn&previous-version=0.10.62&new-version=0.10.64)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=rustls&package-manager=cargo&previous-version=0.21.10&new-version=0.21.11)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -127,7 +79,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-27 18:03:04 +0000 UTC
+        Created At 2024-04-19 19:51:18 +0000 UTC
     </div>
 </div>
 

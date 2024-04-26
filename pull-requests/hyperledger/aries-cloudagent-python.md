@@ -14,164 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2893" class=".btn">#2893</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2919" class=".btn">#2919</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump psf/black from 24.3.0 to 24.4.0 in the all-actions group
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">github_actions</span>
-            </td>
-            <td>
-                Bumps the all-actions group with 1 update: [psf/black](https://github.com/psf/black).
-
-Updates `psf/black` from 24.3.0 to 24.4.0
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/black/releases">psf/black's releases</a>.</em></p>
-<blockquote>
-<h2>24.4.0</h2>
-<h3>Stable style</h3>
-<ul>
-<li>Fix unwanted crashes caused by AST equivalency check (<a href="https://redirect.github.com/psf/black/issues/4290">#4290</a>)</li>
-</ul>
-<h3>Preview style</h3>
-<ul>
-<li><code>if</code> guards in <code>case</code> blocks are now wrapped in parentheses when the line is too long.
-(<a href="https://redirect.github.com/psf/black/issues/4269">#4269</a>)</li>
-<li>Stop moving multiline strings to a new line unless inside brackets (<a href="https://redirect.github.com/psf/black/issues/4289">#4289</a>)</li>
-</ul>
-<h3>Integrations</h3>
-<ul>
-<li>Add a new option <code>use_pyproject</code> to the GitHub Action <code>psf/black</code>. This will read the
-Black version from <code>pyproject.toml</code>. (<a href="https://redirect.github.com/psf/black/issues/4294">#4294</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/psf/black/blob/main/CHANGES.md">psf/black's changelog</a>.</em></p>
-<blockquote>
-<h2>24.4.0</h2>
-<h3>Stable style</h3>
-<ul>
-<li>Fix unwanted crashes caused by AST equivalency check (<a href="https://redirect.github.com/psf/black/issues/4290">#4290</a>)</li>
-</ul>
-<h3>Preview style</h3>
-<ul>
-<li><code>if</code> guards in <code>case</code> blocks are now wrapped in parentheses when the line is too long.
-(<a href="https://redirect.github.com/psf/black/issues/4269">#4269</a>)</li>
-<li>Stop moving multiline strings to a new line unless inside brackets (<a href="https://redirect.github.com/psf/black/issues/4289">#4289</a>)</li>
-</ul>
-<h3>Integrations</h3>
-<ul>
-<li>Add a new option <code>use_pyproject</code> to the GitHub Action <code>psf/black</code>. This will read the
-Black version from <code>pyproject.toml</code>. (<a href="https://redirect.github.com/psf/black/issues/4294">#4294</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/psf/black/commit/8fe627072f15ff2e3d380887b92f7868efaf6d05"><code>8fe6270</code></a> Prepare release 24.4.0 (<a href="https://redirect.github.com/psf/black/issues/4307">#4307</a>)</li>
-<li><a href="https://github.com/psf/black/commit/6b25e7cdabe2cd0dc2ec9d0009668af085b1e732"><code>6b25e7c</code></a> Bump peter-evans/find-comment from 3.0.0 to 3.1.0 (<a href="https://redirect.github.com/psf/black/issues/4304">#4304</a>)</li>
-<li><a href="https://github.com/psf/black/commit/07fe1ca88abee9a0c88efb6b4213ea04d3fe2eae"><code>07fe1ca</code></a> docs: remove repetitive word (<a href="https://redirect.github.com/psf/black/issues/4303">#4303</a>)</li>
-<li><a href="https://github.com/psf/black/commit/3383f531bc25955eebb2644ba5b389413bd10219"><code>3383f53</code></a> GitHub Action: Allow reading version from pyproject.toml (<a href="https://redirect.github.com/psf/black/issues/4294">#4294</a>)</li>
-<li><a href="https://github.com/psf/black/commit/c8f1a5542c257491e1e093b1404481ece7f7e02c"><code>c8f1a55</code></a> [pre-commit.ci] pre-commit autoupdate (<a href="https://redirect.github.com/psf/black/issues/4297">#4297</a>)</li>
-<li><a href="https://github.com/psf/black/commit/836acad86371578527408a4c8f968cde1302e130"><code>836acad</code></a> Improve AST safety check (<a href="https://redirect.github.com/psf/black/issues/4290">#4290</a>)</li>
-<li><a href="https://github.com/psf/black/commit/13bd0925eb347926399a5bcb8b70853549f3da07"><code>13bd092</code></a> fix: Stop moving multiline strings to a new line unless inside brackets (<a href="https://redirect.github.com/psf/black/issues/4289">#4289</a>)</li>
-<li><a href="https://github.com/psf/black/commit/c9d2635b55d03cd125465cd6d7477e6c3cb8fba3"><code>c9d2635</code></a> Remove mocking from tests (<a href="https://redirect.github.com/psf/black/issues/4287">#4287</a>)</li>
-<li><a href="https://github.com/psf/black/commit/bf1195612c00b008ea67ea0472ae527956eb66fe"><code>bf11956</code></a> Fix two logging calls in the test helper (<a href="https://redirect.github.com/psf/black/issues/4286">#4286</a>)</li>
-<li><a href="https://github.com/psf/black/commit/97993f997fe01cf565924072e4915126cdb86ed2"><code>97993f9</code></a> Bump pypa/cibuildwheel from 2.16.5 to 2.17.0 (<a href="https://redirect.github.com/psf/black/issues/4283">#4283</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/black/compare/24.3.0...24.4.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=psf/black&package-manager=github_actions&previous-version=24.3.0&new-version=24.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore <dependency name> major version` will close this group update PR and stop Dependabot creating any more for the specific dependency's major version (unless you unignore this specific dependency's major version or upgrade to it yourself)
-- `@dependabot ignore <dependency name> minor version` will close this group update PR and stop Dependabot creating any more for the specific dependency's minor version (unless you unignore this specific dependency's minor version or upgrade to it yourself)
-- `@dependabot ignore <dependency name>` will close this group update PR and stop Dependabot creating any more for the specific dependency (unless you unignore this specific dependency or upgrade to it yourself)
-- `@dependabot unignore <dependency name>` will remove all of the ignore conditions of the specified dependency
-- `@dependabot unignore <dependency name> <ignore condition>` will remove the ignore condition of the specified dependency and ignore conditions
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-15 21:22:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2892" class=".btn">#2892</a>
-            </td>
-            <td>
-                <b>
-                    feat: drop indy sdk
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.0.0</span>
-            </td>
-            <td>
-                Resolves #2865
-
-This PR removes all components and tests referencing the Indy SDK library. This was accomplished by working through each module depending on the library, removing it, and then adjusting the places that referenced that module to be updated to point to replacing components.
-
-It should be noted that the code base was already in a pretty good state; the Indy SDK dependencies were pretty neatly isolated. The "worst" of these updates was the odd test here and there that was directly using Indy SDK pieces when they should have been using things like `InMemoryProfile.test_profile()` or similar.
-
-We have already ceased running tests for Indy specific components automatically in GHA. Because of this, I'm confident the removal of Indy specific tests should not cause a gap we've not already filled. However, I think this will technically result in less overall code coverage of the tests, if you were considering both the indy and non-indy tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-13 19:35:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2891" class=".btn">#2891</a>
-            </td>
-            <td>
-                <b>
-                    fix: look up conn record by invite msg id instead of key
+                    :arrow_up: Upgrade pydid (pydantic v2)
                 </b>
             </td>
         </tr>
@@ -180,14 +27,14 @@ We have already ceased running tests for Indy specific components automatically 
                 
             </td>
             <td>
-                Fixes #2890.
+                Testing pydid upgrade to pydantic v2: https://github.com/Indicio-tech/pydid/pull/72
 
-When reusing DIDs in invitations, the invitation key is no longer a unique value by which a connection record can be discovered. To workaround this, this change causes connection records to be looked up by invitation message id (request message's pthid) instead of by invitation key.
+Signed-off-by: ff137 <ff137@proton.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-13 18:55:11 +0000 UTC
+        Created At 2024-04-26 11:35:50 +0000 UTC
     </div>
 </div>
 
@@ -195,11 +42,11 @@ When reusing DIDs in invitations, the invitation key is no longer a unique value
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2889" class=".btn">#2889</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2918" class=".btn">#2918</a>
             </td>
             <td>
                 <b>
-                    fix: integration tests should use didex 1.1
+                    fix: fixes a regression that requires a log file in multi-tenant mode
                 </b>
             </td>
         </tr>
@@ -208,14 +55,12 @@ When reusing DIDs in invitations, the invitation key is no longer a unique value
                 
             </td>
             <td>
-                A quick fix for the integration tests. I added the `use_did_method` parameter to the `get_invite` method of the support agent class but forgot to update the `handshake_protocols` list used to did exchange 1.1. Without this change, the int tests were actually just defaulting back to 1.0 behavior of unqualified DIDs.
-
-This is just a correction in the tests and does not impact the behavior of ACA-Py which, according to my own testing at least, is still correctly sending qualified DIDs in the appropriate circumstances.
+                This fixes a regression introduced by #2870 that required a log file to be present on file when using the default config setup for multi-tenant mode. The log file is only required if the user specifically sets the `--log-file` startup param.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-12 17:47:52 +0000 UTC
+        Created At 2024-04-25 23:44:37 +0000 UTC
     </div>
 </div>
 
@@ -223,11 +68,11 @@ This is just a correction in the tests and does not impact the behavior of ACA-P
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2888" class=".btn">#2888</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2917" class=".btn">#2917</a>
             </td>
             <td>
                 <b>
-                    Some updates to the mkdocs publishing process
+                    Update AnonCreds to 0.2.2
                 </b>
             </td>
         </tr>
@@ -242,7 +87,7 @@ This is just a correction in the tests and does not impact the behavior of ACA-P
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-12 14:43:15 +0000 UTC
+        Created At 2024-04-25 13:40:46 +0000 UTC
     </div>
 </div>
 
@@ -250,230 +95,11 @@ This is just a correction in the tests and does not impact the behavior of ACA-P
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2887" class=".btn">#2887</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2916" class=".btn">#2916</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump idna from 3.6 to 3.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [idna](https://github.com/kjd/idna) from 3.6 to 3.7.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/kjd/idna/releases">idna's releases</a>.</em></p>
-<blockquote>
-<h2>v3.7</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Fix issue where specially crafted inputs to encode() could take exceptionally long amount of time to process. [CVE-2024-3651]</li>
-</ul>
-<p>Thanks to Guido Vranken for reporting the issue.</p>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/kjd/idna/compare/v3.6...v3.7">https://github.com/kjd/idna/compare/v3.6...v3.7</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/kjd/idna/blob/master/HISTORY.rst">idna's changelog</a>.</em></p>
-<blockquote>
-<p>3.7 (2024-04-11)
-++++++++++++++++</p>
-<ul>
-<li>Fix issue where specially crafted inputs to encode() could
-take exceptionally long amount of time to process. [CVE-2024-3651]</li>
-</ul>
-<p>Thanks to Guido Vranken for reporting the issue.</p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/kjd/idna/commit/1d365e17e10d72d0b7876316fc7b9ca0eebdd38d"><code>1d365e1</code></a> Release v3.7</li>
-<li><a href="https://github.com/kjd/idna/commit/c1b3154939907fab67c5754346afaebe165ce8e6"><code>c1b3154</code></a> Merge pull request <a href="https://redirect.github.com/kjd/idna/issues/172">#172</a> from kjd/optimize-contextj</li>
-<li><a href="https://github.com/kjd/idna/commit/0394ec76ff022813e770ba1fd89658790ea35623"><code>0394ec7</code></a> Merge branch 'master' into optimize-contextj</li>
-<li><a href="https://github.com/kjd/idna/commit/cd58a23173d2b0a40b95ee680baf3e59e8d33966"><code>cd58a23</code></a> Merge pull request <a href="https://redirect.github.com/kjd/idna/issues/152">#152</a> from elliotwutingfeng/dev</li>
-<li><a href="https://github.com/kjd/idna/commit/5beb28b9dd77912c0dd656d8b0fdba3eb80222e7"><code>5beb28b</code></a> More efficient resolution of joiner contexts</li>
-<li><a href="https://github.com/kjd/idna/commit/1b121483ed04d9576a1291758f537e1318cddc8b"><code>1b12148</code></a> Update ossf/scorecard-action to v2.3.1</li>
-<li><a href="https://github.com/kjd/idna/commit/d516b874c3388047934938a500c7488d52c4e067"><code>d516b87</code></a> Update Github actions/checkout to v4</li>
-<li><a href="https://github.com/kjd/idna/commit/c095c75943413c75ebf8ac74179757031b7f80b7"><code>c095c75</code></a> Merge branch 'master' into dev</li>
-<li><a href="https://github.com/kjd/idna/commit/60a0a4cb61ec6834d74306bd8a1fa46daac94c98"><code>60a0a4c</code></a> Fix typo in GitHub Actions workflow key</li>
-<li><a href="https://github.com/kjd/idna/commit/5918a0ef8034379c2e409ae93ee11d24295bb201"><code>5918a0e</code></a> Merge branch 'master' into dev</li>
-<li>Additional commits viewable in <a href="https://github.com/kjd/idna/compare/v3.6...v3.7">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=idna&package-manager=pip&previous-version=3.6&new-version=3.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-cloudagent-python/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-12 04:05:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2886" class=".btn">#2886</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): Bump idna from 3.4 to 3.7 in /demo/playground/examples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [idna](https://github.com/kjd/idna) from 3.4 to 3.7.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/kjd/idna/releases">idna's releases</a>.</em></p>
-<blockquote>
-<h2>v3.7</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Fix issue where specially crafted inputs to encode() could take exceptionally long amount of time to process. [CVE-2024-3651]</li>
-</ul>
-<p>Thanks to Guido Vranken for reporting the issue.</p>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/kjd/idna/compare/v3.6...v3.7">https://github.com/kjd/idna/compare/v3.6...v3.7</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/kjd/idna/blob/master/HISTORY.rst">idna's changelog</a>.</em></p>
-<blockquote>
-<p>3.7 (2024-04-11)
-++++++++++++++++</p>
-<ul>
-<li>Fix issue where specially crafted inputs to encode() could
-take exceptionally long amount of time to process. [CVE-2024-3651]</li>
-</ul>
-<p>Thanks to Guido Vranken for reporting the issue.</p>
-<p>3.6 (2023-11-25)
-++++++++++++++++</p>
-<ul>
-<li>Fix regression to include tests in source distribution.</li>
-</ul>
-<p>3.5 (2023-11-24)
-++++++++++++++++</p>
-<ul>
-<li>Update to Unicode 15.1.0</li>
-<li>String codec name is now &quot;idna2008&quot; as overriding the system codec
-&quot;idna&quot; was not working.</li>
-<li>Fix typing error for codec encoding</li>
-<li>&quot;setup.cfg&quot; has been added for this release due to some downstream
-lack of adherence to PEP 517. Should be removed in a future release
-so please prepare accordingly.</li>
-<li>Removed reliance on a symlink for the &quot;idna-data&quot; tool to comport
-with PEP 517 and the Python Packaging User Guide for sdist archives.</li>
-<li>Added security reporting protocol for project</li>
-</ul>
-<p>Thanks Jon Ribbens, Diogo Teles Sant'Anna, Wu Tingfeng for contributions
-to this release.</p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/kjd/idna/commit/1d365e17e10d72d0b7876316fc7b9ca0eebdd38d"><code>1d365e1</code></a> Release v3.7</li>
-<li><a href="https://github.com/kjd/idna/commit/c1b3154939907fab67c5754346afaebe165ce8e6"><code>c1b3154</code></a> Merge pull request <a href="https://redirect.github.com/kjd/idna/issues/172">#172</a> from kjd/optimize-contextj</li>
-<li><a href="https://github.com/kjd/idna/commit/0394ec76ff022813e770ba1fd89658790ea35623"><code>0394ec7</code></a> Merge branch 'master' into optimize-contextj</li>
-<li><a href="https://github.com/kjd/idna/commit/cd58a23173d2b0a40b95ee680baf3e59e8d33966"><code>cd58a23</code></a> Merge pull request <a href="https://redirect.github.com/kjd/idna/issues/152">#152</a> from elliotwutingfeng/dev</li>
-<li><a href="https://github.com/kjd/idna/commit/5beb28b9dd77912c0dd656d8b0fdba3eb80222e7"><code>5beb28b</code></a> More efficient resolution of joiner contexts</li>
-<li><a href="https://github.com/kjd/idna/commit/1b121483ed04d9576a1291758f537e1318cddc8b"><code>1b12148</code></a> Update ossf/scorecard-action to v2.3.1</li>
-<li><a href="https://github.com/kjd/idna/commit/d516b874c3388047934938a500c7488d52c4e067"><code>d516b87</code></a> Update Github actions/checkout to v4</li>
-<li><a href="https://github.com/kjd/idna/commit/c095c75943413c75ebf8ac74179757031b7f80b7"><code>c095c75</code></a> Merge branch 'master' into dev</li>
-<li><a href="https://github.com/kjd/idna/commit/60a0a4cb61ec6834d74306bd8a1fa46daac94c98"><code>60a0a4c</code></a> Fix typo in GitHub Actions workflow key</li>
-<li><a href="https://github.com/kjd/idna/commit/5918a0ef8034379c2e409ae93ee11d24295bb201"><code>5918a0e</code></a> Merge branch 'master' into dev</li>
-<li>Additional commits viewable in <a href="https://github.com/kjd/idna/compare/v3.4...v3.7">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=idna&package-manager=pip&previous-version=3.4&new-version=3.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-cloudagent-python/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-12 03:19:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2885" class=".btn">#2885</a>
-            </td>
-            <td>
-                <b>
-                    Prevent 500 error when re-promoting DID with endorsement
+                    fix: rev notifications on publish pending
                 </b>
             </td>
         </tr>
@@ -482,14 +108,14 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                See https://github.com/hyperledger/aries-cloudagent-python/issues/2884
+                Fixes #2915.
 
-Just decided to fix this when I saw it. Doesn't cause any issues but prevents an unwanted 500 error.
+Ensure revocation notifications are emitted when publishing batched pending revocations when _not_ using an external endorser to publish the transaction.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 20:19:18 +0000 UTC
+        Created At 2024-04-25 01:47:30 +0000 UTC
     </div>
 </div>
 
@@ -497,37 +123,11 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2883" class=".btn">#2883</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2912" class=".btn">#2912</a>
             </td>
             <td>
                 <b>
-                    Fix ack during for auto endorsement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prevents the `TransactionManagerError` when doing endorsement ack without setting up jobs in auto_endorse mode.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-11 20:13:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2882" class=".btn">#2882</a>
-            </td>
-            <td>
-                <b>
-                    0.12.0
+                    0.12.1rc0
                 </b>
             </td>
         </tr>
@@ -542,7 +142,7 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 17:23:49 +0000 UTC
+        Created At 2024-04-24 18:09:12 +0000 UTC
     </div>
 </div>
 
@@ -550,11 +150,11 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2881" class=".btn">#2881</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2910" class=".btn">#2910</a>
             </td>
             <td>
                 <b>
-                    Add anoncreds migration guide
+                    :bug: Fix ServiceDecorator parsing in oob record handling
                 </b>
             </td>
         </tr>
@@ -563,12 +163,74 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
                 
             </td>
             <td>
-                Adds a migration guide controllers to upgrade to anoncreds.
+                Fixes `find_oob_target_for_outbound_message` and `find_oob_record_for_inbound_message` in OobMessageProcessor
+
+Context:
+Attempting to upgrade to 0.12 in https://github.com/didx-xyz/aries-cloudapi-python
+
+Our existing OOB test workflows would raise an error from the following line in `find_oob_record_for_inbound_message`:
+```py
+        their_service = (
+            cast(
+                ServiceDecorator,
+                ServiceDecorator.deserialize(oob_record.their_service),
+            )
+            if oob_record.their_service
+            else None
+        )
+```
+
+The error:
+```py
+Traceback (most recent call last):
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/messaging/models/base.py", line 196, in deserialize
+    schema.loads(obj) if isinstance(obj, str) else schema.load(obj),
+  File "/home/aries/.local/lib/python3.9/site-packages/marshmallow/schema.py", line 723, in load
+    return self._do_load(
+  File "/home/aries/.local/lib/python3.9/site-packages/marshmallow/schema.py", line 910, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'_schema': ['Invalid input type.']
+```
+
+I noticed that according to the compiler, `oob_record.their_service` was already of type ServiceDecorator ... so `cast(ServiceDecorator, ServiceDecorator.deserialize(...` is especially code-smelly!
+
+Resolving that to simply be `their_service = oob_record.their_service` led to the following exception:
+
+```py
+...
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/admin/server.py", line 148, in send_outbound
+    return await self._send(profile, message)
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/core/conductor.py", line 647, in outbound_message_router
+    status: OutboundSendStatus = await self._outbound_message_router(
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/core/conductor.py", line 674, in _outbound_message_router
+    return await self.queue_outbound(profile, outbound, inbound)
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/core/conductor.py", line 722, in queue_outbound
+    outbound.target = await self.dispatcher.run_task(
+  File "/usr/local/lib/python3.9/asyncio/futures.py", line 284, in __await__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/local/lib/python3.9/asyncio/tasks.py", line 328, in __wakeup
+    future.result()
+  File "/usr/local/lib/python3.9/asyncio/futures.py", line 201, in result
+    raise self._exception
+  File "/usr/local/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/home/aries/.local/lib/python3.9/site-packages/aries_cloudagent/core/oob_processor.py", line 110, in find_oob_target_for_outbound_message
+    outbound_message.payload = json.dumps(message)
+...
+TypeError: Object of type ServiceDecorator is not JSON serializable
+```
+
+The above was fixed by adding `.serialize()` to `message["~service"] = oob_record.our_service.serialize()` 
+Tada! With this modification, our previous OOB test workflow is passing again.
+
+This appears to come from some type inconsistencies ... where services are references as either dictionaries or ServiceDecorator types.
+
+Some tests were failing due to mocking their/our_service as dictionaries. Resolved that by using the correct model.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 16:25:09 +0000 UTC
+        Created At 2024-04-23 20:46:29 +0000 UTC
     </div>
 </div>
 
@@ -576,11 +238,11 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2880" class=".btn">#2880</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2909" class=".btn">#2909</a>
             </td>
             <td>
                 <b>
-                    fix: conn proto in invite webhook if known
+                    Fix api schema mixup in revocation routes
                 </b>
             </td>
         </tr>
@@ -589,12 +251,19 @@ Just decided to fix this when I saw it. Doesn't cause any issues but prevents an
                 
             </td>
             <td>
-                Fixes #2879. See the issue for details and reasoning.
+                Fixes https://github.com/hyperledger/aries-cloudagent-python/issues/2901.
+
+I somehow mixed up the schema naming between anoncreds revocation and existing revocation modules in a couple places. Shouldn't cause problems but still needs to be fixed.
+
+Also a couple schemas existed in anoncreds that weren't used (copy and paste error)
+
+##### ***Note***: 
+This does remind me of something. The clear pending revocations method doesn't exist in the anoncreds implementation currently. Not sure how important that is and if it should be implemented for the upcoming 1.0.0 release ?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-10 17:35:50 +0000 UTC
+        Created At 2024-04-23 17:24:49 +0000 UTC
     </div>
 </div>
 

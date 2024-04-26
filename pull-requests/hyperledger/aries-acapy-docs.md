@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/96" class=".btn">#96</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    Updates to docs site generator after aca-py docs reorganization
+                    0.12.1rc0
                 </b>
             </td>
         </tr>
@@ -27,14 +27,39 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
                 
             </td>
             <td>
-                - Major changes related to the ACA-Py docs reorg
-- Another set of changes in testing with ACA-Py main
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-24 20:12:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    0.12.1rc0-main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-11 20:15:55 +0000 UTC
+        Created At 2024-04-24 20:05:38 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/477" class=".btn">#477</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/483" class=".btn">#483</a>
             </td>
             <td>
                 <b>
-                    Housekeeping
+                    Updated Rust guide to include information about transferring assets
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                Updated dependencies. Most notably, VitePress from `rc.14` to `rc.42`.
-
-A notable new feature for the writers:
-
-- https://github.com/vuejs/vitepress/pull/3482
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-12 07:53:05 +0000 UTC
+        Created At 2024-04-19 21:21:16 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1640" class=".btn">#1640</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1641" class=".btn">#1641</a>
             </td>
             <td>
                 <b>
-                    Fix subxt integration test off-by-one test case
+                    Update the Hyperledger Solang logo
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Followup from #1637 which changed the integration test. Locally I forgot to rebuild the contracts in the subxt dir  so it passed and then blamed on the CI just being flaky :sweat_smile: 
+                See https://www.hyperledger.org/blog/just-introduced-refreshed-hyperledger-project-logos
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-15 08:41:43 +0000 UTC
+        Created At 2024-04-26 08:47:58 +0000 UTC
     </div>
 </div>
 

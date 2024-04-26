@@ -1,13 +1,13 @@
 
-[38](https://github.com/hyperledger-labs/pdo-contracts/pull/38) Parameterize docker(-compose) commands
+[2919](https://github.com/hyperledger/aries-cloudagent-python/pull/2919) :arrow_up: Upgrade pydid (pydantic v2)
 
-[487](https://github.com/hyperledger-labs/private-data-objects/pull/487) Parameterize docker(-compose) commands
+[990](https://github.com/hyperledger/identus-cloud-agent/pull/990) fix: update open-api-spec and generator script and package.json
 
-[1658](https://github.com/hyperledger/indy-plenum/pull/1658) Cleanup package references
+[415](https://github.com/hyperledger/iroha-java/pull/415) [DO NOT MERGE YET] Iroha2 RC20 (stable) to main
 
-[1558](https://github.com/hyperledger/caliper/pull/1558) `caliper-core`: add tests for `assignedMessage`
+[704](https://github.com/hyperledger/fabric-gateway/pull/704) Update golangci-lint-action
 
-[4515](https://github.com/hyperledger/iroha/pull/4515) [chore]: Bump serde_with from 3.7.0 to 3.8.0
+[1641](https://github.com/hyperledger/solang/pull/1641) Update the Hyperledger Solang logo
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

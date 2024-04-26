@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Fix image not found issue
+                    Replace a deprecated skip dir option
                 </b>
             </td>
         </tr>
@@ -27,14 +27,64 @@ permalink: /pull-requests/hyperledger/firefly-tezosconnect
                 
             </td>
             <td>
-                Fix issue https://github.com/hyperledger/firefly-tezosconnect/actions/runs/7902029495/job/21566748259
-
-Checked success on https://github.com/alex-semenyuk/firefly-tezosconnect/actions/runs/7903271005/job/21570787573
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-14 15:24:59 +0000 UTC
+        Created At 2024-04-23 15:06:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/39" class=".btn">#39</a>
+            </td>
+            <td>
+                <b>
+                    Move to the latest Mockery version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-23 14:58:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tezosconnect/pull/38" class=".btn">#38</a>
+            </td>
+            <td>
+                <b>
+                    Create a non-root user for a docker container
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-23 14:56:21 +0000 UTC
     </div>
 </div>
 
