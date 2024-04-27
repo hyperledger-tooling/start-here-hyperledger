@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/59" class=".btn">#59</a>
+            </td>
+            <td>
+                <b>
+                    Update docker file dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update base image to ubi9-minimal
+- Upgrade golang version to 1.21.9
+- Upgrade Fabric version to v2.5.7
+- Add Fabric osnadmin utility
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-27 14:59:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/58" class=".btn">#58</a>
             </td>
             <td>
