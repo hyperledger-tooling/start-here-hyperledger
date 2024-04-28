@@ -50,30 +50,3 @@ This is a major breaking change a lot of variable names are changed and all the 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/972" class=".btn">#972</a>
-            </td>
-            <td>
-                <b>
-                    feat: VC Verification test coverage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-https://input-output.atlassian.net/browse/ATL-6777
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-21 16:46:46 +0000 UTC
-    </div>
-</div>
-
