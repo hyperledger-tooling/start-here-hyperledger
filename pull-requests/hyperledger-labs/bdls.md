@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/bdls
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                <span class="chip">documentation</span><span class="chip">BFT</span>
             </td>
             <td>
                 <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
@@ -79,7 +79,7 @@ Checklist (DELETE AFTER READING):
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-15 14:52:03 +0000 UTC
+        Created At 2024-04-28 06:40:14 +0000 UTC
     </div>
 </div>
 
