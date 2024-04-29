@@ -159,7 +159,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                This PR does the following: It removes the orion transaction processor. Transactions are committed into the local databases upon an event received via a finality listener. 
+Next step is to remove the fabric transaction processor too. 
             </td>
         </tr>
     </table>
