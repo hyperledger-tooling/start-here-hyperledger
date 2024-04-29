@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/cello
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/613" class=".btn">#613</a>
-            </td>
-            <td>
-                <b>
-                    Fixed the chaincode information display issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The chaincode's ```package_id``` and ```description``` are correctly displayed now.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-22 03:43:34 +0000 UTC
-    </div>
-</div>
-
