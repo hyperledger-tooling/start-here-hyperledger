@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
             </td>
             <td>
                 <b>
-                    [WIP] Add minikube to devcontainer
+                    Add minikube to devcontainer
                 </b>
             </td>
         </tr>
@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                <nil>
+                Simplify local development with instructions to use the Fabric nano
+test network with minikube
             </td>
         </tr>
     </table>
@@ -59,32 +60,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     </table>
     <div class="right-align">
         Created At 2024-04-25 16:11:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/112" class=".btn">#112</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Improve kubernetes object names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #105
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-22 17:46:24 +0000 UTC
     </div>
 </div>
 
