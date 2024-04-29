@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/974" class=".btn">#974</a>
+            </td>
+            <td>
+                <b>
+                    fix: Integration Test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+https://input-output.atlassian.net/browse/ATL-6990
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-22 15:16:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/973" class=".btn">#973</a>
             </td>
             <td>

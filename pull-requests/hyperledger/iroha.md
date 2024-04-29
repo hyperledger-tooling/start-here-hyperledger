@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4523" class=".btn">#4523</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #4502: Enforce Conventional Commits in PR titles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ## Description
+
+Enforce Conventional Commits style in PR titles.
+
+### Linked issue
+
+Closes #4502.
+
+### Benefits
+
+See [here](https://www.conventionalcommits.org/en/v1.0.0/#why-use-conventional-commits).
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-29 06:44:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4522" class=".btn">#4522</a>
             </td>
             <td>
@@ -912,7 +956,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha1</span>
             </td>
             <td>
                 ## Description
@@ -1688,127 +1732,6 @@ Closes #4418 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-04-22 14:10:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4490" class=".btn">#4490</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Configure dependabot to follow commit message format
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                [ci] Recognize `chore` in PR titles
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks 
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-22 11:10:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4489" class=".btn">#4489</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #4378: Transactional trigger set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-As for WSV, make trigger set make trigger set transactional.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here 
-recently, so please walk us through the concepts. -->
-
-### Issues
-
-Closes #4378
-
-### Benefits
-
-For large amount of triggers and frequent trigger execution transactional model allow not to clone trigger set all the time saving time and space.
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks 
-
-Might be not so efficient when there is small amount of triggers.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-22 11:04:25 +0000 UTC
     </div>
 </div>
 

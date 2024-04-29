@@ -156,37 +156,3 @@ Fixes part of #1557
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1545" class=".btn">#1545</a>
-            </td>
-            <td>
-                <b>
-                    Remove collection of node gc stats in prometheus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                reasons for this
-
-1. we have never documented the metrics
-2. not sure how much use it is anyway
-3. was using an old version of gc-stats which is now unmaintained and has security issues
-4. replacement version of gc-stats is maintained by a single person who controls the binary builds available so is a dangerous thing to rely on
-5. it has no pure javascript fallback therefore requires caliper to pull down or build a binary module (meaning you need python and compilers installed) which will also be dependent on the version of node being used.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-22 10:22:28 +0000 UTC
-    </div>
-</div>
-
