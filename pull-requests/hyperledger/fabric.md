@@ -218,29 +218,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4824" class=".btn">#4824</a>
-            </td>
-            <td>
-                <b>
-                    chore: use errors.New to replace fmt.Errorf with no parameters will much better.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                use errors.New to replace fmt.Errorf with no parameters.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-22 01:49:15 +0000 UTC
-    </div>
-</div>
-
