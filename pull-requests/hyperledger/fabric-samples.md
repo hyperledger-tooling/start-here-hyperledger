@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1195" class=".btn">#1195</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1199" class=".btn">#1199</a>
             </td>
             <td>
                 <b>
-                    test-network envVar.sh script improvement
+                    Update nano test network
                 </b>
             </td>
         </tr>
@@ -27,16 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Change shell script to use single equals.
+                Fix regression in network.sh and update peer scripts to allow chaincodeListenAddress and chaincodeAddress to be overridden if required
 
-In my shell environment single bracket with double equals did not work. It caused failure when running the chaincode-external tutorial README.
+Also updates the nano test network readme to describe the new environment variables for the k8s builder
 
-It looks like for maximum portability, it is best to use single bracket with single equals.
+Fixes #1198
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-12 02:42:43 +0000 UTC
+        Created At 2024-04-29 12:56:19 +0000 UTC
     </div>
 </div>
 
