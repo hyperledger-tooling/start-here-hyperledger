@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
             </td>
             <td>
                 <b>
-                    [WIP] Fix release for packages without indexes
+                    Fix release for packages without indexes
                 </b>
             </td>
         </tr>

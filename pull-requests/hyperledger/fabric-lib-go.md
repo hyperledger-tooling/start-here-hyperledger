@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    smartbft transfer to hyperledger labs
+                    Enable weekly scheduled build
                 </b>
             </td>
         </tr>
@@ -27,38 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                <nil>
+                Enable weekly scheduled build.
+Also update Go to v1.2.9.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-14 09:40:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/30" class=".btn">#30</a>
-            </td>
-            <td>
-                <b>
-                    change gitignore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-03-14 09:39:44 +0000 UTC
+        Created At 2024-04-30 13:34:49 +0000 UTC
     </div>
 </div>
 

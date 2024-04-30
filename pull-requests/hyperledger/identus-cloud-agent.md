@@ -14,26 +14,35 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/974" class=".btn">#974</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/979" class=".btn">#979</a>
             </td>
             <td>
                 <b>
-                    fix: Integration Test
+                    ci: fix integration false positive
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span>
             </td>
             <td>
-                
-https://input-output.atlassian.net/browse/ATL-6990
+                ### Description: 
+Integration workflow has been falsely reporting as `passed` when it shouldn't
+
+### Checklist: 
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-22 15:16:17 +0000 UTC
+        Created At 2024-04-24 14:04:09 +0000 UTC
     </div>
 </div>
 
@@ -41,25 +50,25 @@ https://input-output.atlassian.net/browse/ATL-6990
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/973" class=".btn">#973</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/978" class=".btn">#978</a>
             </td>
             <td>
                 <b>
-                    feat: Align the repo with new name identus-cloud-agent
+                    ci: integration test startup fail workaround
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span><span class="chip">prism-agent</span><span class="chip">build</span><span class="chip">infra</span><span class="chip">ci</span><span class="chip">docs</span><span class="chip">shared</span><span class="chip">mercury</span><span class="chip">castor</span><span class="chip">connect</span><span class="chip">prism-node</span>
+                
             </td>
             <td>
                 ### Description: 
-Align the repo with new name identus-cloud-agent.
-This is a major breaking change a lot of variable names are changed and all the packets are changed.
+Summarize the changes you're submitting in a few sentences, including Jira ticket ATL-xxxx if applicable.
+Link to any discussion, related issues and bug reports to give the context to help the reviewer understand the PR.
 
 ### Alternatives Considered (optional): 
-
+Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
 
 ### Checklist: 
 - [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
@@ -73,7 +82,7 @@ This is a major breaking change a lot of variable names are changed and all the 
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-22 14:43:21 +0000 UTC
+        Created At 2024-04-24 13:41:25 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1203" class=".btn">#1203</a>
+            </td>
+            <td>
+                <b>
+                    Switch microfab to hyperledger-labs version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                full-stack-asset-transfer points to an old image
+that no longer exists.
+Point to the hyperledger-labs microfab image instead.
+
+Also, pass the orderer endpoint in lifecycle commands
+instead of using the channel config fallback.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-30 17:22:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1202" class=".btn">#1202</a>
+            </td>
+            <td>
+                <b>
+                    GHA: Use ubuntu-20.04 for local forks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                GHA: Use ubuntu-20.04 for local forks
+since local forks don't have access to fabric-ubuntu-20.04.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-30 15:54:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1200" class=".btn">#1200</a>
             </td>
             <td>
