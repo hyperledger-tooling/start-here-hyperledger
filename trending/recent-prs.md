@@ -1,13 +1,13 @@
 
-[118](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/118) [WIP] Fix release for packages without indexes
+[342](https://github.com/hyperledger/fabric-chaincode-java/pull/342) Avoid deprecated usage of Docker action
 
-[4533](https://github.com/hyperledger/iroha/pull/4533) [ci] #4501: Set up PR labeler for I1
+[1203](https://github.com/hyperledger/fabric-samples/pull/1203) Switch microfab to hyperledger-labs version
 
-[4532](https://github.com/hyperledger/iroha/pull/4532) [ci] #4501: Remove `iroha2` labeler matcher
+[341](https://github.com/hyperledger/fabric-chaincode-java/pull/341) Avoid deprecated usage of gradle actions in build
 
-[2048](https://github.com/hyperledger/web3j/pull/2048) Repo owner change
+[340](https://github.com/hyperledger/fabric-chaincode-java/pull/340) Configure scheduled weekly build
 
-[41](https://github.com/hyperledger-labs/pdo-contracts/pull/41) Consistent (& bug-fixed) sub-module
+[488](https://github.com/hyperledger-labs/private-data-objects/pull/488) Add comments to SW to address concerns in Issue 195
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

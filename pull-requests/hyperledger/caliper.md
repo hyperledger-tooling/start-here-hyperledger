@@ -76,31 +76,3 @@ Fixes part of #1557
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1553" class=".btn">#1553</a>
-            </td>
-            <td>
-                <b>
-                    Update docs around fabric-gateway and 0.5.1 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - prepare vNext to represent a 0.5.1 release
-- move all references of fabric to now demonstrate the `fabric-gateway`
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-23 14:56:38 +0000 UTC
-    </div>
-</div>
-
