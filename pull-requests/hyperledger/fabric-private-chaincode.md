@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/759" class=".btn">#759</a>
+            </td>
+            <td>
+                <b>
+                    Add Dependabot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Helps us to keep track up of updates.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-04-29 18:19:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/758" class=".btn">#758</a>
             </td>
             <td>
@@ -24,7 +50,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 - Ubuntu 22.04
@@ -81,7 +107,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
                 - Upgrades to the latest version in order to prepare to update other go deps.
