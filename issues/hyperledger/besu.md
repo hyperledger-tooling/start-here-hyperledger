@@ -14,49 +14,25 @@ permalink: /issues/hyperledger/besu
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/besu/issues/2757" class=".btn">2757</a>
+                Issue <a href="https://github.com/hyperledger/besu/issues/6710" class=".btn">6710</a>
             </td>
             <td>
                 <b>
-                    Add headings to Besu help
+                    add blob support to GraphQL
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">good first issue</span>
+                <span class="chip">help wanted</span><span class="chip">RPC</span>
             </td>
             <td>
-                This can be done with PicoCLI headings https://picocli.info/quick-guide.html#_section_headings
-
-See related ticket about formatting of the help output
-https://github.com/hyperledger/besu/issues/541
-
-### Description
-As a developer, I want help grouped sensibly so that it's easy to find what I'm looking for.
-
-Suggested groupings:
-GraphQL
-JSON-RPC HTTP 
-JSON-RPC WebSockets
-Metrics
-Miner
-Privacy
-Permissions
-Tx pool
-(everything else can remain ungrouped)
-
-### Acceptance Criteria
-* Besu help has headings for related CLI options
-
-### Steps to Reproduce (Bug)
-1. besu --help
-
+                Add fields for eip-4844 per execution api change here https://github.com/ethereum/execution-apis/pull/468/files
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-09-14 03:28:00 +0000 UTC
+        Created At 2024-03-12 00:06:51 +0000 UTC
     </div>
 </div>
 
