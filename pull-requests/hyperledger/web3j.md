@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j/pull/2046" class=".btn">#2046</a>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2048" class=".btn">#2048</a>
             </td>
             <td>
                 <b>
-                    Fix typos in class FullDebugTraceInfo
+                    Repo owner change
                 </b>
             </td>
         </tr>
@@ -28,48 +28,24 @@ permalink: /pull-requests/hyperledger/web3j
             </td>
             <td>
                 ### What does this PR do?
-Fix two typos in class FullDebugTraceInfo.
-`serReturnValye` => `setReturnValue`
+*required*
+
+### Where should the reviewer start?
+*required*
 
 ### Why is it needed?
-Improves readability
+*required*
+
+## Checklist
+
+- [x] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [x] I've added a changelog entry if necessary.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-23 07:46:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/web3j/pull/2045" class=".btn">#2045</a>
-            </td>
-            <td>
-                <b>
-                    Fix two typos in package org.web3j.abi.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### What does this PR do?
-Fix two typos in package org.web3j.abi.
-`compatbility` => `compatibility`
-`errror` => `error`
-
-### Why is it needed?
-Improves readability
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-23 07:05:52 +0000 UTC
+        Created At 2024-04-30 06:30:16 +0000 UTC
     </div>
 </div>
 

@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Use github provided runners rather than our own.
             </td>
         </tr>
     </table>

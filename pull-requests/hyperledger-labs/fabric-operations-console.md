@@ -14,38 +14,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/701" class=".btn">#701</a>
-            </td>
-            <td>
-                <b>
-                    Added @mui/material and @mui/styles libraries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Improvement
-
-#### Description
-Removed @material-ui/core library.
-Added @mui/material and @mui/styles libraries and did necessary changes in AuthSetup.js, GenericChips.js and EmailChips.js
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-30 06:03:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/700" class=".btn">#700</a>
             </td>
             <td>
@@ -241,75 +209,6 @@ Incorporates the grpcwebproxy code.
     </table>
     <div class="right-align">
         Created At 2024-04-24 19:22:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/694" class=".btn">#694</a>
-            </td>
-            <td>
-                <b>
-                    handle case for render html translated content
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- handle case for render html translated content
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-23 11:04:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/693" class=".btn">#693</a>
-            </td>
-            <td>
-                <b>
-                    bump release note
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-23 08:01:15 +0000 UTC
     </div>
 </div>
 

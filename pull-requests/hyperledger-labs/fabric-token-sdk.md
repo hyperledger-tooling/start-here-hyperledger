@@ -50,10 +50,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR reduces to the minimum the use of the backend vault to check the status of a transaction.
+This status must be asked to either the ttxdb or auditdb.
+
+This PR contains also some refactoring around the vault structs and interfaces.
             </td>
         </tr>
     </table>
