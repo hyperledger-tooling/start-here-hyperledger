@@ -15,130 +15,99 @@ permalink: /releases/hyperledger/caliper
         <tr>
             <td colspan="2">
                 <b>
-                    Hyperledger Caliper v0.5.0
+                    v0.6.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.5.0
+                    v0.6.0
                 </span>
             </td>
             <td>
-                # Hyperledger Caliper v0.5.0
+                # Notable
 
-# Notable
+## Security Fixes
+💥Address issue in Prometheus monitor that allowed an abitrary binary to be downloaded and executed on a system running a Caliper worker
 
 ## New features
-✨ Official support for Node 14 and Node 16 for users and contributors
-✨Experimental release for a Declaritive Workload Module
-✨Support for the new Peer Gateway API introduced in Hyperledger Fabric 2.4
-
-## Bug fixes
-🐸 Fix Caliper round hang with unfinished transactions never completing
-🐸 Corrections and Improvements to the documentation
+✨ Official support for Node 18 and Node 20 for users and contributors
 
 ## Breaking
-💥Caliper no longer supports the 1.0 version of the Fabric Network Configuration format
-💥Caliper no longer supports creating channels or deploying chaincode to Hyperledger Fabric
-💥Caliper no longer supports Hyperledger Fabric 1.3 or older
+💥Caliper no longer supports Fisco-BCOS
 
 
 # Complete list
 
 ## What's Changed
-* bump to 0.4.3-unstable by @nklincoln in https://github.com/hyperledger/caliper/pull/1100
-* Azure pipelines build by @nklincoln in https://github.com/hyperledger/caliper/pull/1105
-* Enable builds for PRs that target master branch by @nklincoln in https://github.com/hyperledger/caliper/pull/1108
-* Update contributing guide by @nklincoln in https://github.com/hyperledger/caliper/pull/1109
-* publish to npm stage by @nklincoln in https://github.com/hyperledger/caliper/pull/1110
-* update conditionals by @nklincoln in https://github.com/hyperledger/caliper/pull/1112
-* update pipeline condition by @nklincoln in https://github.com/hyperledger/caliper/pull/1113
-* Change build reason for publish by @nklincoln in https://github.com/hyperledger/caliper/pull/1114
-* prevent cascade skip by @nklincoln in https://github.com/hyperledger/caliper/pull/1116
-* Publish containers by @nklincoln in https://github.com/hyperledger/caliper/pull/1117
-* use single publish script by @nklincoln in https://github.com/hyperledger/caliper/pull/1118
-* use 0.21.1 axios by @nklincoln in https://github.com/hyperledger/caliper/pull/1119
-* Adding changes related to value parameter for payable function in Ethereum. by @nachikettapas in https://github.com/hyperledger/caliper/pull/1122
-* Make Mosquitto authentication and authorization explicit for v2 by @aklenik in https://github.com/hyperledger/caliper/pull/1128
-* FIX: caliper bind command now compatible with Windows OS by @fransotodev in https://github.com/hyperledger/caliper/pull/1127
-* Resolve issue in which only first round would be docker-monitored by @Viserius in https://github.com/hyperledger/caliper/pull/1135
-* Added basic value providers in workload module by @bistaastha in https://github.com/hyperledger/caliper/pull/1164
-* Added open in Visual Studio Code badge by @Justinjdaniel in https://github.com/hyperledger/caliper/pull/1170
-* Update link for security bug handling wiki page by @aklenik in https://github.com/hyperledger/caliper/pull/1171
-* Update branch name in Azure CI pipeline configuration by @aklenik in https://github.com/hyperledger/caliper/pull/1172
-* Add factory class, formatted string and list element value providers. by @bistaastha in https://github.com/hyperledger/caliper/pull/1168
-* Fix Besu integration test by @aklenik in https://github.com/hyperledger/caliper/pull/1174
-* Fix Ethereum integration test by @aklenik in https://github.com/hyperledger/caliper/pull/1175
-* Fix generator integration test by @aklenik in https://github.com/hyperledger/caliper/pull/1176
-* Fix issue where init flow errors when not using mutual TLS by @davidkel in https://github.com/hyperledger/caliper/pull/1183
-* Fix CompositeRateController class bug (#1181) by @aklenik in https://github.com/hyperledger/caliper/pull/1184
-* Propose myself as a new caliper Maintainer by @davidkel in https://github.com/hyperledger/caliper/pull/1186
-* Fix the unit of the interval of default-observer in the log by @justin-themedium in https://github.com/hyperledger/caliper/pull/1193
-* Update CONTRIBUTING.md document by @aklenik in https://github.com/hyperledger/caliper/pull/1192
-* Add GitHub web forms-based issue templates by @aklenik in https://github.com/hyperledger/caliper/pull/1189
-* Value provider integration by @bistaastha in https://github.com/hyperledger/caliper/pull/1194
-* address fabric:1.4 sut binding not working in caliper container by @davidkel in https://github.com/hyperledger/caliper/pull/1211
-* Docker monitor metrics fixes - cpu and memory usage by @fraVlaca in https://github.com/hyperledger/caliper/pull/1214
-* enable support for node 14  by @fraVlaca in https://github.com/hyperledger/caliper/pull/1219
-* Node 14 support  by @fraVlaca in https://github.com/hyperledger/caliper/pull/1221
-* Add new connector Wallet facade and Wallet facade Fatory on the peer-gateway folder by @fraVlaca in https://github.com/hyperledger/caliper/pull/1227
-* Add support for node 16 by @davidkel in https://github.com/hyperledger/caliper/pull/1223
-* Reference Discord instead of Rocket Chat by @davidkel in https://github.com/hyperledger/caliper/pull/1228
-* Correct timeout defaults by @davidkel in https://github.com/hyperledger/caliper/pull/1230
-* Bump version to 0.5.0-unstable by @davidkel in https://github.com/hyperledger/caliper/pull/1239
-* Remove the legacy fabric connectors by @davidkel in https://github.com/hyperledger/caliper/pull/1235
-* Update bindings to latest fabric sdks and remove old ones by @davidkel in https://github.com/hyperledger/caliper/pull/1244
-* ensure endorsetimeout is set on v2 fabric connector by @davidkel in https://github.com/hyperledger/caliper/pull/1246
-* add txid to proposal when doing a query by @davidkel in https://github.com/hyperledger/caliper/pull/1247
-* Remove the need for gateway-enabled when binding to a fabric 2.2 SUT by @davidkel in https://github.com/hyperledger/caliper/pull/1255
-* PeerGateway connector: Added new methods in the ConnectionProfileDefinition by @fraVlaca in https://github.com/hyperledger/caliper/pull/1253
-* Improve integration tests by @davidkel in https://github.com/hyperledger/caliper/pull/1259
-* improve message to help when file not found by @davidkel in https://github.com/hyperledger/caliper/pull/1262
-* rename certain terms in code base by @davidkel in https://github.com/hyperledger/caliper/pull/1280
-* Remove CountQueryAsLoad Option by @davidkel in https://github.com/hyperledger/caliper/pull/1276
-* Caliper terminates if prometheus is not available by @davidkel in https://github.com/hyperledger/caliper/pull/1288
-* Fabric Gateway connector implementation: PeerGateway.js implementation + unit tests by @fraVlaca in https://github.com/hyperledger/caliper/pull/1270
-* fix RecordRate rate controller by @davidkel in https://github.com/hyperledger/caliper/pull/1292
-* remove latency values if no successful txns in final report by @davidkel in https://github.com/hyperledger/caliper/pull/1290
-* Update the usage examples to more appropriate versions by @davidkel in https://github.com/hyperledger/caliper/pull/1297
-* Peer Gateway: Added Connector Selector implementation modifications to support the new Peer Gateway Connector by @fraVlaca in https://github.com/hyperledger/caliper/pull/1298
-* Fixes for default.yaml in packages/caliper-core/lib/common/config/ and updates for the fabric Channel operations for the v1 fabric connector by @fraVlaca in https://github.com/hyperledger/caliper/pull/1306
-* Peer Gateway: Integration tests for the new Peer Gateway connnector ( + update docker compose to use  by @fraVlaca in https://github.com/hyperledger/caliper/pull/1310
-* Fixed colors dependency to 1.4.0 by @fraVlaca in https://github.com/hyperledger/caliper/pull/1311
-* Change monitor intervals from milliseconds to seconds by @davidkel in https://github.com/hyperledger/caliper/pull/1314
-* address worker cleanup when an error occurs by @davidkel in https://github.com/hyperledger/caliper/pull/1315
-* Fixed docker monitor to use Dockerode only by @fraVlaca in https://github.com/hyperledger/caliper/pull/1319
-* correct interval usage in fabric-tests by @davidkel in https://github.com/hyperledger/caliper/pull/1323
-* Fix cli and update dependabot security dependencies by @davidkel in https://github.com/hyperledger/caliper/pull/1324
-* Ensure that connector errors finishes caliper transactions by @davidkel in https://github.com/hyperledger/caliper/pull/1328
-* disable logging debug to file by @davidkel in https://github.com/hyperledger/caliper/pull/1331
-* add peers property support to fabric network config by @davidkel in https://github.com/hyperledger/caliper/pull/1329
-* Upgraded node-sdk binding for fabric-v1-lts from 1.4.19 to 1.4.20 by @fraVlaca in https://github.com/hyperledger/caliper/pull/1332
-* upgraded node-sdk binding for fabric-v2-lts from 2.2.11 to 2.2.12 by @fraVlaca in https://github.com/hyperledger/caliper/pull/1335
-* Changed all 'bit.ly' links with a direct link by @fraVlaca in https://github.com/hyperledger/caliper/pull/1336
-* Explicitly bind grpc-js for fabric 2.4 connector by @fraVlaca in https://github.com/hyperledger/caliper/pull/1344
-* Peer Gateway Connector Txs Error messsage: added output of err.details array by @fraVlaca in https://github.com/hyperledger/caliper/pull/1345
-* Fixes caliper hang of unfinished transactions by @davidkel in https://github.com/hyperledger/caliper/pull/1342
-* [Release 0.5.0] Update Changelog by @davidkel in https://github.com/hyperledger/caliper/pull/1350
-* [Release 0.5.0] Publish official release by @davidkel in https://github.com/hyperledger/caliper/pull/1349
+* Fix #536 Update error messages for 'caliper-cli' package by @0xt3j4s in https://github.com/hyperledger/caliper/pull/1348
+* Port the unit test workflow to GitHub Actions by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1364
+* Port the integration test workflow to GitHub Actions by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1376
+* Disable unit and integration tests in Azure Pipelines by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1382
+* Fix #536 Update error messages for 'caliper-ethereum' package by @0xt3j4s in https://github.com/hyperledger/caliper/pull/1363
+* Port the publish workflow to GitHub Actions by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1384
+* Pass secrets to CI workflow for publish by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1390
+* Fix#1377 Change the generator binding from 2.2 to 1.4 by @0xt3j4s in https://github.com/hyperledger/caliper/pull/1391
+* Fix #536: Minor changes in the error messages of 'caliper-fisco-bcos' package by @0xt3j4s in https://github.com/hyperledger/caliper/pull/1383
+* Add DCI linting to CI of PRs by @aklenik in https://github.com/hyperledger/caliper/pull/1393
+* Updated fabric bindings by @fraVlaca in https://github.com/hyperledger/caliper/pull/1402
+* Migrate Fabric integration tests to test network by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1410
+* Remove channel and chaincode operations from Fabric v1 connector by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1411
+* update fabric bindings by @davidkel in https://github.com/hyperledger/caliper/pull/1412
+* Migrate to npm workspaces by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1394
+* Migrate generator tests to test network by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1414
+* Cache node modules across CI workflows by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1406
+* Execute integration tests based on changes by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1421
+* Add workflow for gh-pages branch by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1423
+* Revert "Add workflow for gh-pages branch" by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1425
+* Distinguish different workers in Prometheus PushGateway by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1427
+* Add coverage report workflow by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1428
+* Upload coverage reports on merge by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1433
+* Vscode extension by @eravatee in https://github.com/hyperledger/caliper/pull/1404
+* Add Node 18 to CI by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1455
+* Fix calculation and doc comment in prometheus observer by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1456
+* Revert "Add Node 18 to CI (#1455)" by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1460
+* Fix integration test CI trigger by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1458
+* Add TxObserver for Prometheus manager by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1448
+* Bump moment-timezone from 0.5.34 to 0.5.38 by @dependabot in https://github.com/hyperledger/caliper/pull/1461
+* Move inactive maintainers to emeritus status by @ryjones in https://github.com/hyperledger/caliper/pull/1462
+* Add CODEOWNERS file by @ryjones in https://github.com/hyperledger/caliper/pull/1463
+* Fix npmignore for report html by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1466
+* Update cache action by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1469
+* Add skeleton for development and proposal docs by @aklenik in https://github.com/hyperledger/caliper/pull/1400
+* Use go chaincode in integration tests by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1484
+* Update go chaincode dependencies in integration tests by @CaptainIRS in https://github.com/hyperledger/caliper/pull/1485
+* docker monitor remote monitoring bugfix in https://github.com/hyperledger/caliper/pull/1499
+* Terminate workers if caliper manager is terminated prematurely by @davidkel in https://github.com/hyperledger/caliper/pull/1514
+* Remove fisco-bcos by @davidkel in https://github.com/hyperledger/caliper/pull/1515
+* test node 18/20, minimum version 18.19.0 by @davidkel in https://github.com/hyperledger/caliper/pull/1517
+* Temporarily revert publish to using node 16.x to fix broken publish by @davidkel in https://github.com/hyperledger/caliper/pull/1520
+* downgrade npm on publish as temp fix by @davidkel in https://github.com/hyperledger/caliper/pull/1523
+* Update the versions of fabric sdks by @davidkel in https://github.com/hyperledger/caliper/pull/1519
+* Update PSWG whitepaper link in README #1518 by @vinayakjaas in https://github.com/hyperledger/caliper/pull/1524
+* Remove Caliper-gui-server packages and Caliper-gui-dashboard packages  #1538 by @vinayakjaas in https://github.com/hyperledger/caliper/pull/1540
+* Remove collection of node gc stats in prometheus by @davidkel in https://github.com/hyperledger/caliper/pull/1545
+* Removed unused dependencies by @psankhe28 in https://github.com/hyperledger/caliper/pull/1544
+
+## Special Thanks
+* @CaptainIRS For the excellent contributions in in particular to the move to npm workspaces and the Caliper build environment
 
 ## New Contributors
-* @fransotodev made their first contribution in https://github.com/hyperledger/caliper/pull/1127
-* @Viserius made their first contribution in https://github.com/hyperledger/caliper/pull/1135
-* @Justinjdaniel made their first contribution in https://github.com/hyperledger/caliper/pull/1170
-* @justin-themedium made their first contribution in https://github.com/hyperledger/caliper/pull/1193
+* @0xt3j4s made their first contribution in https://github.com/hyperledger/caliper/pull/1348
+* @eravatee made their first contribution in https://github.com/hyperledger/caliper/pull/1404
+* @dependabot made their first contribution in https://github.com/hyperledger/caliper/pull/1461
+* @psankhe28 made their first contribution in https://github.com/hyperledger/caliper/pull/1544
 
-**Full Changelog**: https://github.com/hyperledger/caliper/compare/v0.4.2...v0.5.0
+**Full Changelog**: https://github.com/hyperledger/caliper/compare/v0.5.0...v0.6.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/caliper/releases/tag/v0.5.0" class=".btn">
+    <a href="https://github.com/hyperledger/caliper/releases/tag/v0.6.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-19 15:32:05 +0000 UTC
+        Created At 2024-05-01 14:45:49 +0000 UTC
     </span>
 </div>
 

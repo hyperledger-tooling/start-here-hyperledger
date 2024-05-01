@@ -15,7 +15,7 @@ permalink: /releases/hyperledger/caliper-benchmarks
         <tr>
             <td colspan="2">
                 <b>
-                    Compatible state with Hyperledger Caliper v0.5.0
+                    v0.5.0
                 </b>
             </td>
         </tr>
