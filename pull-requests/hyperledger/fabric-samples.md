@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1205" class=".btn">#1205</a>
+            </td>
+            <td>
+                <b>
+                    Fix of issue #1204
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix solution of  issue #1204 titled Test-network-k8s network script gets last version Fabric bin files instead of requested version.
+When test-network-k8s is called with a specific but not the last version of Fabric hyper-ledger and the binary files are not available into ./bin folder, the script always downloaded the last version of binary files.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-01 10:34:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1203" class=".btn">#1203</a>
             </td>
             <td>
