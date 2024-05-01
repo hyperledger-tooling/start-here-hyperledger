@@ -192,32 +192,3 @@ I used [`humantime`](https://docs.rs/humantime/latest/humantime/fn.parse_duratio
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4223" class=".btn">4223</a>
-            </td>
-            <td>
-                <b>
-                    Reject `BlockMessage`s eagerly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">Optimization</span><span class="chip">Chore</span>
-            </td>
-            <td>
-                              depending on the previously received control flow messages, is it possible that some of the `BlockMessage`s should just be rejected?
-
-_Originally posted by @mversic in https://github.com/hyperledger/iroha/pull/4115#discussion_r1449877651_
-            
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-22 09:01:53 +0000 UTC
-    </div>
-</div>
-
