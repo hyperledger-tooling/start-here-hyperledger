@@ -27,8 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                full-stack-asset-transfer points to an old image
-that no longer exists.
+                full-stack-asset-transfer points to an old image.
 Point to the hyperledger-labs microfab image instead.
 
 Also, pass the orderer endpoint in lifecycle commands

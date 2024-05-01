@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/486" class=".btn">#486</a>
-            </td>
-            <td>
-                <b>
-                    Fix assert statements and deprecated logger.warn's
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR addresses #288  and #484 .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-23 20:05:57 +0000 UTC
-    </div>
-</div>
-
