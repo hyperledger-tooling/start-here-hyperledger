@@ -14,6 +14,141 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4539" class=".btn">#4539</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump serde from 1.0.199 to 1.0.200
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [serde](https://github.com/serde-rs/serde) from 1.0.199 to 1.0.200.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
+<blockquote>
+<h2>v1.0.200</h2>
+<ul>
+<li>Fix formatting of &quot;invalid type&quot; and &quot;invalid value&quot; deserialization error messages containing NaN or infinite floats (<a href="https://redirect.github.com/serde-rs/serde/issues/2733">#2733</a>, thanks <a href="https://github.com/jamessan"><code>@​jamessan</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/serde-rs/serde/commit/cc865ac5236c094275b10bff4fa41e561b3e359f"><code>cc865ac</code></a> Release 1.0.200</li>
+<li><a href="https://github.com/serde-rs/serde/commit/2d973c1805dd9b613e89cc2375130a23f18ffa73"><code>2d973c1</code></a> Merge pull request <a href="https://redirect.github.com/serde-rs/serde/issues/2733">#2733</a> from jamessan/nan-decimal</li>
+<li><a href="https://github.com/serde-rs/serde/commit/6ca499b2dd3d520903095b202770eba2720ba9b5"><code>6ca499b</code></a> Only format Unexpected::Float with decimal point if it is finite</li>
+<li>See full diff in <a href="https://github.com/serde-rs/serde/compare/v1.0.199...v1.0.200">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde&package-manager=cargo&previous-version=1.0.199&new-version=1.0.200)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-01 16:13:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4538" class=".btn">#4538</a>
+            </td>
+            <td>
+                <b>
+                    fix: Remove nested option on `TransactionEventFilter::block_height`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-01 14:16:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4536" class=".btn">#4536</a>
             </td>
             <td>
@@ -195,7 +330,7 @@ Related to #4502.
             </td>
             <td>
                 <b>
-                    (ci): Set up PR labeler for I1
+                    ci: Set up PR labeler for I1
                 </b>
             </td>
         </tr>
@@ -1475,192 +1610,6 @@ Related: #4310
     </table>
     <div class="right-align">
         Created At 2024-04-25 13:55:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4508" class=".btn">#4508</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: Bump mypy from 1.8.0 to 1.10.0 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [mypy](https://github.com/python/mypy) from 1.8.0 to 1.10.0.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/python/mypy/blob/master/CHANGELOG.md">mypy's changelog</a>.</em></p>
-<blockquote>
-<h1>Mypy Release Notes</h1>
-<h2>Next release</h2>
-<h2>Mypy 1.10</h2>
-<p>We’ve just uploaded mypy 1.10 to the Python Package Index (<a href="https://pypi.org/project/mypy/">PyPI</a>). Mypy is a static type checker for Python. This release includes new features, performance improvements and bug fixes. You can install it as follows:</p>
-<pre><code>python3 -m pip install -U mypy
-</code></pre>
-<p>You can read the full documentation for this release on <a href="http://mypy.readthedocs.io">Read the Docs</a>.</p>
-<h4>Support TypeIs (PEP 742)</h4>
-<p>Mypy now supports <code>TypeIs</code> (<a href="https://peps.python.org/pep-0742/">PEP 742</a>), which allows
-functions to narrow the type of a value, similar to <code>isinstance()</code>. Unlike <code>TypeGuard</code>,
-<code>TypeIs</code> can narrow in both the <code>if</code> and <code>else</code> branches of an if statement:</p>
-<pre lang="python"><code>from typing_extensions import TypeIs
-<p>def is_str(s: object) -&gt; TypeIs[str]:
-return isinstance(s, str)</p>
-<p>def f(o: str | int) -&gt; None:
-if is_str(o):
-# Type of o is 'str'
-...
-else:
-# Type of o is 'int'
-...
-</code></pre></p>
-<p><code>TypeIs</code> will be added to the <code>typing</code> module in Python 3.13, but it
-can be used on earlier Python versions by importing it from
-<code>typing_extensions</code>.</p>
-<p>This feature was contributed by Jelle Zijlstra (PR <a href="https://redirect.github.com/python/mypy/pull/16898">16898</a>).</p>
-<h4>Support TypeVar Defaults (PEP 696)</h4>
-<p><a href="https://peps.python.org/pep-0696/">PEP 696</a> adds support for type parameter defaults.
-Example:</p>
-<pre lang="python"><code>from typing import Generic
-from typing_extensions import TypeVar
-<p>&lt;/tr&gt;&lt;/table&gt;
-</code></pre></p>
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/python/mypy/commit/3faf0fc4798ec3ee6b1cd123965193dc0a753fb0"><code>3faf0fc</code></a> Remove +dev for version for release 1.10</li>
-<li><a href="https://github.com/python/mypy/commit/a5998d20402515f0c0bf05c7fe1029e93aa9bfa8"><code>a5998d2</code></a> Update CHANGELOG.md (<a href="https://redirect.github.com/python/mypy/issues/17159">#17159</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/62ea5b01f0c0c99e7db93326cb8d219eecfb3cb6"><code>62ea5b0</code></a> Various updates to changelog for 1.10 (<a href="https://redirect.github.com/python/mypy/issues/17158">#17158</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/2f0864c4e55a74700d8ce2d97ab2d3ca2b288513"><code>2f0864c</code></a> Update CHANGELOG.md with draft for release 1.10 (<a href="https://redirect.github.com/python/mypy/issues/17150">#17150</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/e1443bbade91118794055449cc8b4b4f7fd08b7d"><code>e1443bb</code></a> fix: incorrect returned type of access descriptors on unions of types (<a href="https://redirect.github.com/python/mypy/issues/16604">#16604</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/5161ac2e5b73dc7597536eb4444219868317e5d9"><code>5161ac2</code></a> Sync typeshed (<a href="https://redirect.github.com/python/mypy/issues/17124">#17124</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/e2fc1f28935806ca04b18fab277217f583b51594"><code>e2fc1f2</code></a> Fix crash when expanding invalid Unpack in a <code>Callable</code> alias (<a href="https://redirect.github.com/python/mypy/issues/17028">#17028</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/3ff6e47c57a67e807e0b4579a816b4f66ab16824"><code>3ff6e47</code></a> Docs: docstrings in checker.py, ast_helpers.py (<a href="https://redirect.github.com/python/mypy/issues/16908">#16908</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/732d98ecb2a98e4eaea14aba1ed8ac9c1f5ccdb6"><code>732d98e</code></a> Fix string formatting for string enums (<a href="https://redirect.github.com/python/mypy/issues/16555">#16555</a>)</li>
-<li><a href="https://github.com/python/mypy/commit/80190101f68b52e960c22572ed6cc814de078b9c"><code>8019010</code></a> Narrow individual items when matching a tuple to a sequence pattern (<a href="https://redirect.github.com/python/mypy/issues/16905">#16905</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/python/mypy/compare/v1.8.0...v1.10.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mypy&package-manager=pip&previous-version=1.8.0&new-version=1.10.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-24 17:04:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4506" class=".btn">#4506</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: Bump zeroize from 1.7.0 to 1.8.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [zeroize](https://github.com/RustCrypto/utils) from 1.7.0 to 1.8.0.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/RustCrypto/utils/commit/9bbfb49e6541d710aea6f7a95c68c9f3d99140e2"><code>9bbfb49</code></a> zeroize 1.8.0 (<a href="https://redirect.github.com/RustCrypto/utils/issues/1065">#1065</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/c0eab7f7abfc244e9fcd482520542329da31f87c"><code>c0eab7f</code></a> cpufeatures: fix macOS build (<a href="https://redirect.github.com/RustCrypto/utils/issues/1066">#1066</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/6d383a554b76df2c6796d8d2982a6a8535342617"><code>6d383a5</code></a> zeroize: always enable AArch64 support (<a href="https://redirect.github.com/RustCrypto/utils/issues/1064">#1064</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/24decb93793936110ae564b6c8e475d91f4e4e44"><code>24decb9</code></a> zeroize: use <code>doc_auto_cfg</code> (<a href="https://redirect.github.com/RustCrypto/utils/issues/1063">#1063</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/cd3a147d62f5f2bf8d5bd10185a52c90f842395b"><code>cd3a147</code></a> build(deps): bump prettyplease from 0.2.16 to 0.2.19 (<a href="https://redirect.github.com/RustCrypto/utils/issues/1061">#1061</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/0105576943f77ae6cd8109cd351a29839150bf02"><code>0105576</code></a> update README to reflect true <code>cmov</code> MSRV (<a href="https://redirect.github.com/RustCrypto/utils/issues/965">#965</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/216d2b82f691487b80e8d94022a1aaf45b2f926f"><code>216d2b8</code></a> build(deps): bump hybrid-array from 0.2.0-rc.7 to 0.2.0-rc.8 (<a href="https://redirect.github.com/RustCrypto/utils/issues/1058">#1058</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/ce47b3c74f46217995192d092c4d2dd3bc954986"><code>ce47b3c</code></a> fiat-constify: filter out <code>let mut</code> declarations (<a href="https://redirect.github.com/RustCrypto/utils/issues/1057">#1057</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/4c583ffa7714ebdaea822ff581aa15b737d66231"><code>4c583ff</code></a> zeroize: add Zeroize impls for <code>__m512</code> types; MSRV 1.72 (<a href="https://redirect.github.com/RustCrypto/utils/issues/1052">#1052</a>)</li>
-<li><a href="https://github.com/RustCrypto/utils/commit/9e1287a31bc99bcab669710dd185bfa909899e6d"><code>9e1287a</code></a> build(deps): bump hybrid-array from 0.2.0-rc.5 to 0.2.0-rc.7 (<a href="https://redirect.github.com/RustCrypto/utils/issues/1056">#1056</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/RustCrypto/utils/compare/zeroize-v1.7.0...zeroize-v1.8.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=zeroize&package-manager=cargo&previous-version=1.7.0&new-version=1.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-24 16:35:15 +0000 UTC
     </div>
 </div>
 
