@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4830" class=".btn">#4830</a>
+            </td>
+            <td>
+                <b>
+                    Suppress scheduled jobs on personal forks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Suppress scheduled jobs on personal forks.
+
+Also, enable running the jobs on-demand in personal forks by using a runner that is available on personal forks.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-01 16:39:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4829" class=".btn">#4829</a>
             </td>
             <td>

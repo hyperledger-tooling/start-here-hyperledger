@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Refactoring, additional tests, README updates
+                    Added R3 design doc for harmonia project
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/harmonia
                 
             </td>
             <td>
-                Added more integrations tests to atomic swap samples.
-Minor refactoring and cleanups.
-Updates to README to reflect latest changes and current status.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-11-07 16:39:52 +0000 UTC
+        Created At 2024-05-01 13:35:19 +0000 UTC
     </div>
 </div>
 

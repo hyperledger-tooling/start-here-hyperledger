@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/43" class=".btn">#43</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in new docker compose macro
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Small PR to fix a typo in the last docker compose PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-01 16:34:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/42" class=".btn">#42</a>
             </td>
             <td>
