@@ -335,29 +335,3 @@ Next step is to remove the fabric transaction processor too.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/610" class=".btn">#610</a>
-            </td>
-            <td>
-                <b>
-                    use interface for ScanForPreImage so it can be called outside of a view
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-23 18:45:20 +0000 UTC
-    </div>
-</div>
-

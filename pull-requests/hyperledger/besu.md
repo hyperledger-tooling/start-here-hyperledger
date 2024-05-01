@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/6990" class=".btn">#6990</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/6998" class=".btn">#6998</a>
             </td>
             <td>
                 <b>
-                    Support for removed and added test when splitting by time in CI
+                    Map SHA outputs correctly
                 </b>
             </td>
         </tr>
@@ -27,35 +27,14 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                ## PR description
+                Tested here https://github.com/siladu/besu/releases/tag/0.0.6
 
-Current `splitTestsByTime.sh` script fails to detect ATs that are removed and does not add new test, this PR add support for both
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
+Also echoing them in the workflow itself as a backup reference https://github.com/siladu/besu/actions/runs/8812363410/job/24187912126 (under "hashes")
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-23 20:34:55 +0000 UTC
+        Created At 2024-04-24 06:48:44 +0000 UTC
     </div>
 </div>
 
