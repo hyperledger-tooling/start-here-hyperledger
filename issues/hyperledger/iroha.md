@@ -166,29 +166,3 @@ I used [`humantime`](https://docs.rs/humantime/latest/humantime/fn.parse_duratio
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4224" class=".btn">4224</a>
-            </td>
-            <td>
-                <b>
-                    `SignedBlock` is immutable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                After #4918 was merged the same should be done for `SignedBlock`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-01-23 06:52:52 +0000 UTC
-    </div>
-</div>
-
