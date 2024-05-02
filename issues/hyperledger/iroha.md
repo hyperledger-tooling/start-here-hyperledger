@@ -24,7 +24,7 @@ permalink: /issues/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">Tests</span>
+                <span class="chip">good first issue</span><span class="chip">iroha2-dev</span><span class="chip">config-changes</span><span class="chip">Tests</span>
             </td>
             <td>
                 Update this script to use the new config system (#4239):
@@ -54,7 +54,7 @@ https://github.com/hyperledger/iroha/blob/964476722e2a219becaacdb3676ca058ec5748
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">UI</span>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2-dev</span><span class="chip">config-changes</span><span class="chip">UI</span>
             </td>
             <td>
                 ## Description
@@ -120,7 +120,7 @@ I used [`humanfriendly`](https://humanfriendly.readthedocs.io/en/latest/api.html
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2</span><span class="chip">config-changes</span><span class="chip">UI</span>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span><span class="chip">question</span><span class="chip">iroha2-dev</span><span class="chip">config-changes</span><span class="chip">UI</span>
             </td>
             <td>
                 ## Description
