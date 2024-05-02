@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/418" class=".btn">#418</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/421" class=".btn">#421</a>
             </td>
             <td>
                 <b>
-                    Fix minor TypeScript issues and add ESLint TypeScript support
+                    Scheduled daily vulnerability scan
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Closes #415 #416 #417 
+                Closes #420
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-13 13:36:36 +0000 UTC
+        Created At 2024-05-01 20:28:42 +0000 UTC
     </div>
 </div>
 

@@ -127,29 +127,3 @@ fi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/57" class=".btn">#57</a>
-            </td>
-            <td>
-                <b>
-                    Add imported flag to CA, peer and ordering service node
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-24 18:42:51 +0000 UTC
-    </div>
-</div>
-

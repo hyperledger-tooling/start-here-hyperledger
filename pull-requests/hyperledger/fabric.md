@@ -152,34 +152,3 @@ Initial performance improvements and discussion are available in the [PR#4694](h
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4826" class=".btn">#4826</a>
-            </td>
-            <td>
-                <b>
-                    add unit test against a real grpc server for common/deliverclient/blo…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Test update
-
-### Description
-fix https://github.com/hyperledger/fabric/issues/4567
-
-Update unit test for deliveryRequester.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-24 19:55:01 +0000 UTC
-    </div>
-</div>
-
