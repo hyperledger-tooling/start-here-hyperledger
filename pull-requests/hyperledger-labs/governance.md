@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    retire-mendix
+                    Add blsful repo
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/governance
                 
             </td>
             <td>
-                <nil>
+                resolves #29 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 18:34:03 +0000 UTC
+        Created At 2024-05-02 15:56:40 +0000 UTC
     </div>
 </div>
 

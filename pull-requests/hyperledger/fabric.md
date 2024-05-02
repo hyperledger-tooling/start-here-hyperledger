@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4831" class=".btn">#4831</a>
+            </td>
+            <td>
+                <b>
+                    Create scorecard.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Run OpenSSF Scorecard report weekly.
+
+The results will not yet be published to OpenSSF
+`(publish_results: false)`
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-02 17:45:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4830" class=".btn">#4830</a>
             </td>
             <td>

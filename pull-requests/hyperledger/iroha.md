@@ -14,6 +14,171 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4545" class=".btn">#4545</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump faker from 25.0.0 to 25.0.1 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [faker](https://github.com/joke2k/faker) from 25.0.0 to 25.0.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
+<blockquote>
+<h2>Release v25.0.1</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.0.1/CHANGELOG.md">CHANGELOG.md</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.0.1">v25.0.1 - 2024-05-02</a></h3>
+<ul>
+<li>Add type stub file to <code>setup.py</code>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/joke2k/faker/commit/2069bd3f57caff88fd0b7cbcd51f970890be43bd"><code>2069bd3</code></a> Bump version: 25.0.0 → 25.0.1</li>
+<li><a href="https://github.com/joke2k/faker/commit/681922c11de9abfae3fd72e92becb54dc3c3c733"><code>681922c</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/106d8ba3981445bad6915a0567931416539149f7"><code>106d8ba</code></a> add stub to setup.py</li>
+<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.0.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.0.0&new-version=25.0.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-02 16:49:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4544" class=".btn">#4544</a>
+            </td>
+            <td>
+                <b>
+                    feat: filtered queries in contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+- remove QueryWithParameters
+- move all parameters to ClientQueryPayload (was QueryPayload before, stored inside SignedQuery); SignedQuery now equivalent to QueryWithParameters<SignedQuery>. All the parameters are now scale-encoded and versioned instead of being passed as query parameters
+- make SmartContractQuery, which is now equivalent to QueryWithParameters<QueryBox> that was used before, but has filtering support
+- move all the post-processing (filterting, sorting, pagination, batching) to a single function (`LazyQueryOutput::apply_postprocessing`), introduce a new type for a post-processed query output
+- add an integration test using the filtering (`ProcessedQueryOutput`)
+
+### Linked issue
+
+Closes #4423 
+
+### Checklist
+
+- [ ] make CI pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-02 13:12:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4543" class=".btn">#4543</a>
+            </td>
+            <td>
+                <b>
+                    fix: Report if a request to check peer status in test_network fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Warn if a peer status request is failed. Helped me debug my misconfigured proxy failing tests when ran in IDE...
+
+This also refactors a function a bit, because IMO it was a bit hard to read with the fold and `map_or`
+
+### Linked issue
+
+Closes #4542
+
+### Benefits
+
+`+` Easier debugging if something went wrong with requests
+`-` Can introduce log noise, but shouldn't happen if the actual connection to the node is OK
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-02 13:04:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4541" class=".btn">#4541</a>
             </td>
             <td>
@@ -1606,53 +1771,6 @@ Closes #4393
     </table>
     <div class="right-align">
         Created At 2024-04-26 13:50:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4513" class=".btn">#4513</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3901: Add method to define parameter in executor `migrate` entrypoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2-dev</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-* Added method `add_parameter` which can be called from executor (in `migrate` entrypoint) to define new executor parameter
-* Added test which demonstrates how executor can use it, as suggested [here](https://github.com/hyperledger/iroha/pull/4310#issuecomment-1964247631)
-* Note that this PR was mostly implemented before discussion in #4352, so potentially this should be implemented differently. E.g. if it will be decided to store executor parameters in `Domain::metadata`, then there will be no need for `add_parameter` method since executor parameter will be defined using `SetKeyValue` ISI
-* Note that I didn't removed `NewParameter` ISI since it is currently used to define chain-wide parameters (for wasm engine and sumeragi), and potentially chain-wide parameters should be defined/stored differently as discussed in https://github.com/hyperledger/iroha/issues/4352#issuecomment-2076735651
-
-### Linked issue
-
-Closes #3901
-Related: #4352
-Related: #4310
-
-### Benefits
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-25 13:55:36 +0000 UTC
     </div>
 </div>
 

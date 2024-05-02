@@ -89,29 +89,3 @@ test network with minikube
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/113" class=".btn">#113</a>
-            </td>
-            <td>
-                <b>
-                    Add nano test network to devcontainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-25 16:11:40 +0000 UTC
-    </div>
-</div>
-
