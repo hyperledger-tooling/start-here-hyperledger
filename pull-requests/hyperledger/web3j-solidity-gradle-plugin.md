@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/67" class=".btn">#67</a>
+                PR <a href="https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/68" class=".btn">#68</a>
             </td>
             <td>
                 <b>
-                    Gradle 8 compatability
+                    release 0.4.1
                 </b>
             </td>
         </tr>
@@ -27,25 +27,21 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
                 
             </td>
             <td>
-                
-### What does this PR do?
-This applies the essential fixes needed to upgrade to Gradle 8.6 but
-continues to use Gradle 7.6 in the plugin build system. This provides
-for Gradle 8.x compatability.
+                ### What does this PR do?
+release 0.4.1
 
 ### Where should the reviewer start?
-These are two small changes focused on the outputDir proeprty and one
-fix that will be needed to test with Gradle 8
+*required*
 
 ### Why is it needed?
-Without these changes the plugin cannot be used in Gradle 8.x, which
-is required for Java 21 support.
+release 0.4.1
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-08 02:57:06 +0000 UTC
+        Created At 2024-05-02 08:26:26 +0000 UTC
     </div>
 </div>
 

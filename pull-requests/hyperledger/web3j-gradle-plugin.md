@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j-gradle-plugin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j-gradle-plugin/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger/web3j-gradle-plugin/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    Use Gradle 8 compatible API
+                    release 4.11.3
                 </b>
             </td>
         </tr>
@@ -27,25 +27,21 @@ permalink: /pull-requests/hyperledger/web3j-gradle-plugin
                 
             </td>
             <td>
-                
-### What does this PR do?
-In Web3JGradle plugin replace an API that was removed in Gradle 8 with a
-Gradle 8 API and an appropriate fallback.
+                ### What does this PR do?
+Release 4.11.3
 
 ### Where should the reviewer start?
-PR is only a few lines, should be self-evident.
+*required*
 
 ### Why is it needed?
-The old getOutputDir API has been removed in Gradle 8.  This prevents 
-the plugin from being used in Gradle 8. The chagnes use a compatable API
-that also falls back to the original code if used in a very old Gradle 7
-build.
+release 4.11.3
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-08 02:50:54 +0000 UTC
+        Created At 2024-05-02 08:59:57 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4541" class=".btn">#4541</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: Use multihash format for private keys
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+Added support for encoding/decoding private keys to `multihash` module, and replaced each occurence of `PRIVATE_KEY_ALGORITHM`/`PRIVATE_KEY_PAYLOAD` pair to `PRIVATE_KEY` in multihash format
+
+### Linked issue
+
+Closes #4412
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-02 12:13:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4539" class=".btn">#4539</a>
             </td>
             <td>
@@ -387,7 +430,7 @@ Linked to #4501
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
+                <span class="chip">iroha2-dev</span><span class="chip">CI</span>
             </td>
             <td>
                 ## Description
@@ -436,7 +479,7 @@ Linked to #4501.
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">python</span>
+                <span class="chip">iroha2-dev</span><span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
                 Bumps [faker](https://github.com/joke2k/faker) from 24.11.0 to 25.0.0.
@@ -552,7 +595,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">python</span>
+                <span class="chip">iroha2-dev</span><span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
                 Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.0.0 to 8.2.0.
@@ -685,7 +728,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">dependencies</span><span class="chip">python</span>
+                <span class="chip">iroha2-dev</span><span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
                 Bumps [pytest-xdist](https://github.com/pytest-dev/pytest-xdist) from 3.5.0 to 3.6.1.
@@ -812,7 +855,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
                 [//]: # (dependabot-start)
@@ -902,7 +945,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
                 Bumps [serde](https://github.com/serde-rs/serde) from 1.0.198 to 1.0.199.
@@ -979,7 +1022,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
                 Bumps [libsodium-sys-stable](https://github.com/jedisct1/libsodium-sys-stable) from 1.20.5 to 1.20.6.
@@ -1044,7 +1087,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
+                <span class="chip">iroha2-dev</span><span class="chip">CI</span>
             </td>
             <td>
                 ## Description
@@ -1088,7 +1131,7 @@ See [here](https://www.conventionalcommits.org/en/v1.0.0/#why-use-conventional-c
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
                 Bumps [serde_with](https://github.com/jonasbb/serde_with) from 3.7.0 to 3.8.1.
@@ -1188,7 +1231,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
                 Bumps [parking_lot](https://github.com/Amanieu/parking_lot) from 0.12.1 to 0.12.2.
@@ -1314,7 +1357,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">python</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
                 Bumps [black](https://github.com/psf/black) from 24.2.0 to 24.4.2.
@@ -1496,7 +1539,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Chore</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Chore</span>
             </td>
             <td>
                 This version was [yanked](https://crates.io/crates/zeroize/1.8.0), it will break iroha builds when the lockfile gets updated (on any change in dependencies)
@@ -1522,7 +1565,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
+                <span class="chip">api-changes</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ## Description
@@ -1580,7 +1623,7 @@ Closes #4393
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+                <span class="chip">iroha2-dev</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ## Description
