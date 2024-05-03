@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4547" class=".btn">#4547</a>
+            </td>
+            <td>
+                <b>
+                    fix: remove serde(flatten) from SetKeyValue/RemoveKeyValue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+serde cannot flatten Strings and O::Id is always serialized as string. As a consequence it's impossible to serialize/deserialize SetKeyValue/RemoveKeyValue in genesis
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-03 11:25:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4546" class=".btn">#4546</a>
+            </td>
+            <td>
+                <b>
+                    fix: remove serde(flatten) from SetKeyValue/RemoveKeyValue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+serde cannot flatten `String`s and `O::Id` is always serialized as string. As a consequence it's impossible to serialize/deserialize `SetKeyValue`/`RemoveKeyValue` in genesis
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-03 11:15:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4545" class=".btn">#4545</a>
             </td>
             <td>
@@ -113,9 +227,9 @@ You can trigger Dependabot actions by commenting on this PR:
             <td>
                 ## Description
 
-- remove QueryWithParameters
-- move all parameters to ClientQueryPayload (was QueryPayload before, stored inside SignedQuery); SignedQuery now equivalent to QueryWithParameters<SignedQuery>. All the parameters are now scale-encoded and versioned instead of being passed as query parameters
-- make SmartContractQuery, which is now equivalent to QueryWithParameters<QueryBox> that was used before, but has filtering support
+- remove `QueryWithParameters`
+- move all parameters to `ClientQueryPayload` (was `QueryPayload` before, stored inside `SignedQuery`); `SignedQuery` now equivalent to `QueryWithParameters<SignedQuery>`. All the parameters are now scale-encoded and versioned instead of being passed as query parameters
+- make `SmartContractQuery`, which is now equivalent to `QueryWithParameters<QueryBox>` that was used before, but has filtering support
 - move all the post-processing (filterting, sorting, pagination, batching) to a single function (`LazyQueryOutput::apply_postprocessing`), introduce a new type for a post-processed query output
 - add an integration test using the filtering (`ProcessedQueryOutput`)
 
