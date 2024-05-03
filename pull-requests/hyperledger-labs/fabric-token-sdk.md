@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/624" class=".btn">#624</a>
+            </td>
+            <td>
+                <b>
+                    Integration replicas
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-03 12:29:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/623" class=".btn">#623</a>
             </td>
             <td>
@@ -114,32 +140,6 @@ This PR contains also some refactoring around the vault structs and interfaces.
     </table>
     <div class="right-align">
         Created At 2024-04-29 14:20:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/618" class=".btn">#618</a>
-            </td>
-            <td>
-                <b>
-                    Reduce SP usage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-26 13:55:31 +0000 UTC
     </div>
 </div>
 

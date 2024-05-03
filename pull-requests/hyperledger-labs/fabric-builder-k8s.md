@@ -62,30 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    Add minikube to devcontainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Simplify local development with instructions to use the Fabric nano
-test network with minikube
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-26 13:37:47 +0000 UTC
-    </div>
-</div>
-
