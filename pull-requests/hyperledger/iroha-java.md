@@ -130,29 +130,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/415" class=".btn">#415</a>
-            </td>
-            <td>
-                <b>
-                    [DO NOT MERGE YET] Iroha2 RC20 (stable) to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To be merged in May
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-26 10:41:12 +0000 UTC
-    </div>
-</div>
-

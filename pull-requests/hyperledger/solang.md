@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1641" class=".btn">#1641</a>
-            </td>
-            <td>
-                <b>
-                    Update the Hyperledger Solang logo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://www.hyperledger.org/blog/just-introduced-refreshed-hyperledger-project-logos
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-26 08:47:58 +0000 UTC
-    </div>
-</div>
-
