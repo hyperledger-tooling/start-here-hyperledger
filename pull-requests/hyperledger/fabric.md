@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 Run OpenSSF Scorecard report weekly.
+Scorecard details available at https://securityscorecards.dev/.
 
 The results will not yet be published to OpenSSF
 `(publish_results: false)`

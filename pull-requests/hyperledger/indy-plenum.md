@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger/indy-plenum
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1658" class=".btn">#1658</a>
-            </td>
-            <td>
-                <b>
-                    Cleanup package references
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove references to temporary and personal repositories.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-25 19:59:25 +0000 UTC
-    </div>
-</div>
-
