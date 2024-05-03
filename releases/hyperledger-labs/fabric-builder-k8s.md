@@ -15,29 +15,27 @@ permalink: /releases/hyperledger-labs/fabric-builder-k8s
         <tr>
             <td colspan="2">
                 <b>
-                    v0.12.0
+                    v0.13.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.12.0
+                    v0.13.0
                 </span>
             </td>
             <td>
-                🐞 Fix issue with private data collection indexes
-
-New contributor:
-🥇 Thanks to @davidfdr for reporting _and fixing_ problems with private data collection indexes!
+                🎉 New more human friendly pod names, e.g. `hlfcc-go-contract-58jlbf8mc8l4a`
+🐞 Fix issue deploying packages with no CouchDB indexes
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.12.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.13.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-27 10:48:18 +0000 UTC
+        Created At 2024-05-03 10:21:34 +0000 UTC
     </span>
 </div>
 
