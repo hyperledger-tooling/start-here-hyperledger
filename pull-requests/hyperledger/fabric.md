@@ -49,7 +49,7 @@ Removed Idemixgen from the documentation to reflect its removal from the set of 
 
 #### Related issues
 
-<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
+Closes https://github.com/hyperledger/fabric/issues/3575
 
 <!---
 #### Release Note
