@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7027" class=".btn">#7027</a>
+            </td>
+            <td>
+                <b>
+                    World state halt and chain halt fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Further improvements to fix the world state halts and some cases of the chain halt.
+
+- Added pivot block checks back into the snap sync pipeline to prevent world state halting due to not having the current pivot block. The World State pipeline could halt due to a chain halt since it depended on block added events to check for new pivot blocks.
+- Made the pivot block check in the snap worldstate pipeline async and this was called on the block added event from the chain download pipeline and blocked the import thread
+- Added time to the pivot block selector and decreased the timeout in the DynamicPivtoBlockSelector from 5 minutes to 20 seconds
+- Disconnect peers when we only receive a partial response for block headers after multiple tries. Some nodes were only sending a response of a single header instead so we would get stuck in the chain download.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixed #6908 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-01 02:13:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7025" class=".btn">#7025</a>
             </td>
             <td>
@@ -691,73 +744,6 @@ Attempt to fix #7000 (and #7007)
     </table>
     <div class="right-align">
         Created At 2024-04-29 06:24:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7006" class=".btn">#7006</a>
-            </td>
-            <td>
-                <b>
-                    Enable JFR continuous profiling with default setting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Enable JFR continuous profiling with default setting.
-Java Flight Recorder (JFR) serves as an integrated mechanism within the Java Virtual Machine (JVM) for gathering, analyzing, and profiling information regarding the performance and memory usage of Java applications. Its design ensures minimal impact on performance, making it suitable for deployment in high-demand production settings.
-With default setting, the impact on performance is less than 1 %.
-
-Once the recording in place, we can either dump the recording from the last restart knowing that the recording is limited to 250 MiB, or start a second recording to have a recording you small set of data and in a controlled period.
-
-**Configure the recording with default setting profile**
-BESU_OPTS=-XX:StartFlightRecording,dumponexit=true,settings=default.jfc
-
-**Check the recording**
-sudo jcmd PID JFR.check
-
-**Start a parallel recording**
-sudo jcmd PID JFR.start
-
-**Dump the profiling to a file**
-Dump the default recording : sudo jcmd PID JFR.dump name=1 filename=FILEPATH
-Dump the parallel recording : sudo jcmd PID JFR.dump name=2 filename=FILEPATH
-
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/6957
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [x] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-28 15:19:10 +0000 UTC
     </div>
 </div>
 
