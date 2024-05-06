@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/564" class=".btn">#564</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/565" class=".btn">#565</a>
             </td>
             <td>
                 <b>
-                    logging + no panics
+                    Upgrade libp2p
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-25 09:25:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/563" class=".btn">#563</a>
-            </td>
-            <td>
-                <b>
-                    Reuse code and reduce usage of service registry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-25 08:16:20 +0000 UTC
+        Created At 2024-05-06 09:45:48 +0000 UTC
     </div>
 </div>
 
