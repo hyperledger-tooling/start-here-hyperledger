@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1206" class=".btn">#1206</a>
+            </td>
+            <td>
+                <b>
+                    Remove double quotes for env variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Double quotes have caused issues in some environments, e.g. see https://github.com/hyperledger/fabric/issues/4358
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 14:28:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1205" class=".btn">#1205</a>
             </td>
             <td>
@@ -121,36 +147,6 @@ fail due to jq not being installed locally.
     </table>
     <div class="right-align">
         Created At 2024-04-29 20:15:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1199" class=".btn">#1199</a>
-            </td>
-            <td>
-                <b>
-                    Update nano test network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix regression in network.sh and update peer scripts to allow chaincodeListenAddress and chaincodeAddress to be overridden if required
-
-Also updates the nano test network readme to describe the new environment variables for the k8s builder
-
-Fixes #1198
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 12:56:19 +0000 UTC
     </div>
 </div>
 

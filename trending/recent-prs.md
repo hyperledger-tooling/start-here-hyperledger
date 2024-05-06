@@ -1,13 +1,13 @@
 
-[565](https://github.com/hyperledger-labs/fabric-smart-client/pull/565) Upgrade libp2p
+[13](https://github.com/hyperledger-labs/agora-unknown_order/pull/13) Updates for 0.9.0
 
-[4553](https://github.com/hyperledger/iroha/pull/4553) ci: Remove executor.wasm from git
+[4560](https://github.com/hyperledger/iroha/pull/4560) chore(deps): bump cryptography from 42.0.3 to 42.0.7 in /client_cli/pytests
 
-[1643](https://github.com/hyperledger/solang/pull/1643) Appease rust 1.78.0 clippies
+[61](https://github.com/hyperledger-labs/governance/pull/61) Retire stewards
 
-[301](https://github.com/hyperledger/fabric-sdk-java/pull/301) Update dependencies to address CVE-2024-29857
+[4559](https://github.com/hyperledger/iroha/pull/4559) chore(deps): bump prometheus from 0.13.3 to 0.13.4
 
-[4834](https://github.com/hyperledger/fabric/pull/4834) Remove Idemixgen from Fabric produced binaries
+[4558](https://github.com/hyperledger/iroha/pull/4558) chore(deps): bump trybuild from 1.0.91 to 1.0.93
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

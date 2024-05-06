@@ -14,6 +14,480 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4560" class=".btn">#4560</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump cryptography from 42.0.3 to 42.0.7 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.3 to 42.0.7.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst">cryptography's changelog</a>.</em></p>
+<blockquote>
+<p>42.0.7 - 2024-05-06</p>
+<pre><code>
+* Restored Windows 7 compatibility for our pre-built wheels. Note that we do
+  not test on Windows 7 and wheels for our next release will not support it.
+  Microsoft no longer provides support for Windows 7 and users are encouraged
+  to upgrade.
+<p>.. _v42-0-6:</p>
+<p>42.0.6 - 2024-05-04
+</code></pre></p>
+<ul>
+<li>Fixed compilation when using LibreSSL 3.9.1.</li>
+</ul>
+<p>.. _v42-0-5:</p>
+<p>42.0.5 - 2024-02-23</p>
+<pre><code>
+* Limit the number of name constraint checks that will be performed in
+  :mod:`X.509 path validation &lt;cryptography.x509.verification&gt;` to protect
+  against denial of service attacks.
+* Upgrade ``pyo3`` version, which fixes building on PowerPC.
+<p>.. _v42-0-4:</p>
+<p>42.0.4 - 2024-02-20
+</code></pre></p>
+<ul>
+<li>Fixed a null-pointer-dereference and segfault that could occur when creating
+a PKCS#12 bundle. Credit to <strong>Alexander-Programming</strong> for reporting the
+issue. <strong>CVE-2024-26130</strong></li>
+<li>Fixed ASN.1 encoding for PKCS7/SMIME signed messages. The fields <code>SMIMECapabilities</code>
+and <code>SignatureAlgorithmIdentifier</code> should now be correctly encoded according to the
+definitions in :rfc:<code>2633</code> :rfc:<code>3370</code>.</li>
+</ul>
+<p>.. _v42-0-3:</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pyca/cryptography/commit/0cc7fc384381ea09eea5f031d31b1417f9f40fdf"><code>0cc7fc3</code></a> Prepare for 42.0.7 release (<a href="https://redirect.github.com/pyca/cryptography/issues/10949">#10949</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/cfad00478a0cc035ad722e68411bac7b6602e195"><code>cfad004</code></a> Prepare backports for 42.0.6 release (<a href="https://redirect.github.com/pyca/cryptography/issues/10929">#10929</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/33833f031d9d36234e11d9671be150d53b9e598d"><code>33833f0</code></a> Release 42.0.5 (<a href="https://redirect.github.com/pyca/cryptography/issues/10470">#10470</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/4be53bf20cc90cbac01f5f94c5d1aecc5289ba1f"><code>4be53bf</code></a> Added a budget for NC checks to protect against DoS (<a href="https://redirect.github.com/pyca/cryptography/issues/10467">#10467</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10468">#10468</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/8e9de309f850a17409da5de39cfcd9296c25ea36"><code>8e9de30</code></a> Bump pyo3 from 0.20.2 to 0.20.3 in /src/rust (<a href="https://redirect.github.com/pyca/cryptography/issues/10462">#10462</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10465">#10465</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/fe18470f7d05f963e7267e34fdf985d81ea6ceea"><code>fe18470</code></a> Bump for 42.0.4 release (<a href="https://redirect.github.com/pyca/cryptography/issues/10445">#10445</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/aaa2dd06ed470695de818405a982d4c459869803"><code>aaa2dd0</code></a> Fix ASN.1 issues in PKCS#7 and S/MIME signing (<a href="https://redirect.github.com/pyca/cryptography/issues/10373">#10373</a>) (<a href="https://redirect.github.com/pyca/cryptography/issues/10442">#10442</a>)</li>
+<li><a href="https://github.com/pyca/cryptography/commit/7a4d012991061974da5d9cb7614de65eac94f49b"><code>7a4d012</code></a> Fixes <a href="https://redirect.github.com/pyca/cryptography/issues/10422">#10422</a> -- don't crash when a PKCS#12 key and cert don't match (<a href="https://redirect.github.com/pyca/cryptography/issues/10423">#10423</a>) ...</li>
+<li><a href="https://github.com/pyca/cryptography/commit/df314bb182bdfd661333969a94325e4680d785f6"><code>df314bb</code></a> backport actions m1 switch to 42.0.x (<a href="https://redirect.github.com/pyca/cryptography/issues/10415">#10415</a>)</li>
+<li>See full diff in <a href="https://github.com/pyca/cryptography/compare/42.0.3...42.0.7">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cryptography&package-manager=pip&previous-version=42.0.3&new-version=42.0.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 17:01:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4559" class=".btn">#4559</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump prometheus from 0.13.3 to 0.13.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [prometheus](https://github.com/tikv/rust-prometheus) from 0.13.3 to 0.13.4.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/tikv/rust-prometheus/blob/master/CHANGELOG.md">prometheus's changelog</a>.</em></p>
+<blockquote>
+<h2>0.13.4</h2>
+<ul>
+<li>
+<p>Improvement: Add PullingGauge (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/405">#405</a>)</p>
+</li>
+<li>
+<p>Improvement: Let cargo know which example requires which features (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/511">#511</a>)</p>
+</li>
+<li>
+<p>Bug fix: Prevent <code>clippy::ignored_unit_patterns</code> in macro expansions (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/497">#497</a>)</p>
+</li>
+<li>
+<p>Internal change: Add CI job for minimum toolchain (MSRV) (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/467">#467</a>)</p>
+</li>
+<li>
+<p>Internal change: Update CI to <code>actions/checkout@v4</code> (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/499">#499</a>)</p>
+</li>
+<li>
+<p>Internal change: Update dependencies</p>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/04fce2f3bf81920c2607e6572dd9eba309969d22"><code>04fce2f</code></a> prometheus: release 0.13.4 (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/520">#520</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/6e435db331f7e269ae1a7498d5ef5b4787e71636"><code>6e435db</code></a> build(deps): update reqwest requirement from ^0.11 to ^0.12 (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/516">#516</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/439e3b8c14938a66352df4228ec32a9b707d1888"><code>439e3b8</code></a> Prevent <code>clippy::ignored_unit_patterns</code> in macro expansions (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/497">#497</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/bf696d642c7ede1c694f93f9b088371e30dd96ab"><code>bf696d6</code></a> ci: bump MSRV to fix test jobs (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/519">#519</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/b7e874524f2b0580a28853e2042656a55b6484f0"><code>b7e8745</code></a> Let the cargo.toml know which example requires which features (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/511">#511</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/f49c724df0e123520554664436da68e555593af0"><code>f49c724</code></a> cargo: update all dependencies (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/504">#504</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/76a634587a95340db56959f5808ac0a6494f6282"><code>76a6345</code></a> ci: Update to <code>actions/checkout@v4</code>. (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/499">#499</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/a72d8d7db880f57ade09dd9139c8b2c5501fbf2f"><code>a72d8d7</code></a> Bump MSRV to 1.65 to fix CI. (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/505">#505</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/7a9adcacd098128ee3017ad973afb841d1fc123e"><code>7a9adca</code></a> ci: Update badge info to not refer to Travis CI (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/500">#500</a>)</li>
+<li><a href="https://github.com/tikv/rust-prometheus/commit/6e81890773ef82e3bcc6c080d406543da1fb8073"><code>6e81890</code></a> bump MSRV to 1.60.0 (<a href="https://redirect.github.com/tikv/rust-prometheus/issues/491">#491</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/tikv/rust-prometheus/compare/v0.13.3...v0.13.4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=prometheus&package-manager=cargo&previous-version=0.13.3&new-version=0.13.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 16:17:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4558" class=".btn">#4558</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump trybuild from 1.0.91 to 1.0.93
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [trybuild](https://github.com/dtolnay/trybuild) from 1.0.91 to 1.0.93.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/trybuild/releases">trybuild's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.93</h2>
+<ul>
+<li>Remove dependency on <code>once_cell</code> crate (<a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a>, thanks <a href="https://github.com/taiki-e"><code>@​taiki-e</code></a>)</li>
+</ul>
+<h2>1.0.92</h2>
+<ul>
+<li>Update normalization of verbose type paths to accommodate error message changes in rust 1.78 (<a href="https://redirect.github.com/dtolnay/trybuild/issues/265">#265</a>, thanks <a href="https://github.com/weiznich"><code>@​weiznich</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/trybuild/commit/8a57d8c2eb84241a5986f11cb99621d8a59ce65e"><code>8a57d8c</code></a> Release 1.0.93</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/b9888357069e2cbc24a752ad5c7c125f60d178ac"><code>b988835</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/267">#267</a> from dtolnay/constmutex</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/95f8cdbd329c1c46d1a413faf3622053838eaa4d"><code>95f8cdb</code></a> Remove OnceLock around intra-process lock's mutex</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/62b1543732bb61ac0cba28d90cc5b17826ebe780"><code>62b1543</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a> from taiki-e/once_cell</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/f8795cf667dec726e3884eccf1b3a3d401726b8d"><code>f8795cf</code></a> Remove dependency on once_cell</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/5fb7caeccc5a1fea9b834659f84658cfa4bfa551"><code>5fb7cae</code></a> Release 1.0.92</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/bbe5be02f83ede9aa2ac096689837ba5b12601fd"><code>bbe5be0</code></a> Merge pull request 265 from weiznich/fix/paths_with_rust_1.78</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/8f99e5a7d21da27a38b410437187ae44715b87f1"><code>8f99e5a</code></a> Fix trimming verbose type paths as the message has slightly changed with</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/59ef19ae203e4345ca3a83cd2b54adbf15c95fb2"><code>59ef19a</code></a> Fix typo in readme</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/3eb5c5a16868838da276430312ee846286f04881"><code>3eb5c5a</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/263">#263</a> from dtolnay/clippy</li>
+<li>Additional commits viewable in <a href="https://github.com/dtolnay/trybuild/compare/1.0.91...1.0.93">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=trybuild&package-manager=cargo&previous-version=1.0.91&new-version=1.0.93)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 16:17:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4557" class=".btn">#4557</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump getrandom from 0.2.14 to 0.2.15
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [getrandom](https://github.com/rust-random/getrandom) from 0.2.14 to 0.2.15.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/rust-random/getrandom/blob/master/CHANGELOG.md">getrandom's changelog</a>.</em></p>
+<blockquote>
+<h2>[0.2.15] - 2024-05-06</h2>
+<h3>Added</h3>
+<ul>
+<li>Apple visionOS support <a href="https://redirect.github.com/rust-random/getrandom/issues/410">#410</a></li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Use <code>libc::getrandom</code> on DragonflyBSD, FreeBSD, illumos, and Solaris <a href="https://redirect.github.com/rust-random/getrandom/issues/411">#411</a> <a href="https://redirect.github.com/rust-random/getrandom/issues/416">#416</a> <a href="https://redirect.github.com/rust-random/getrandom/issues/417">#417</a> <a href="https://redirect.github.com/rust-random/getrandom/issues/420">#420</a></li>
+<li>Unify <code>libc::getentropy</code>-based implementations <a href="https://redirect.github.com/rust-random/getrandom/issues/418">#418</a></li>
+</ul>
+<p><a href="https://redirect.github.com/rust-random/getrandom/issues/410">#410</a>: <a href="https://redirect.github.com/rust-random/getrandom/pull/410">rust-random/getrandom#410</a>
+<a href="https://redirect.github.com/rust-random/getrandom/issues/411">#411</a>: <a href="https://redirect.github.com/rust-random/getrandom/pull/411">rust-random/getrandom#411</a>
+<a href="https://redirect.github.com/rust-random/getrandom/issues/416">#416</a>: <a href="https://redirect.github.com/rust-random/getrandom/pull/416">rust-random/getrandom#416</a>
+<a href="https://redirect.github.com/rust-random/getrandom/issues/417">#417</a>: <a href="https://redirect.github.com/rust-random/getrandom/pull/417">rust-random/getrandom#417</a>
+<a href="https://redirect.github.com/rust-random/getrandom/issues/418">#418</a>: <a href="https://redirect.github.com/rust-random/getrandom/pull/418">rust-random/getrandom#418</a>
+<a href="https://redirect.github.com/rust-random/getrandom/issues/420">#420</a>: <a href="https://redirect.github.com/rust-random/getrandom/pull/420">rust-random/getrandom#420</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/rust-random/getrandom/commit/cf65e83f9df8954df101320de86f80dccfc6b68a"><code>cf65e83</code></a> Release v0.2.15 (<a href="https://redirect.github.com/rust-random/getrandom/issues/419">#419</a>)</li>
+<li><a href="https://github.com/rust-random/getrandom/commit/a24538f0983d385b21f8851ce338bdc0ecb360a1"><code>a24538f</code></a> Remove .cargo/config (<a href="https://redirect.github.com/rust-random/getrandom/issues/421">#421</a>)</li>
+<li><a href="https://github.com/rust-random/getrandom/commit/229d87004d33316664fd5c891f96b6b29972c080"><code>229d870</code></a> Use libc::getrandom on Solaris and update docs. (<a href="https://redirect.github.com/rust-random/getrandom/issues/420">#420</a>)</li>
+<li><a href="https://github.com/rust-random/getrandom/commit/924c88d761b90d87b9fe9d15c7c8a5e15d28d8a8"><code>924c88d</code></a> Unconditionally use <code>libc::getrandom</code> on Illumos and <code>libc::geentropy</code> on Sol...</li>
+<li><a href="https://github.com/rust-random/getrandom/commit/20c22138d5c48993e6d03bb3ce23f87ee3e0887f"><code>20c2213</code></a> Unify getentropy-based implementations (<a href="https://redirect.github.com/rust-random/getrandom/issues/418">#418</a>)</li>
+<li><a href="https://github.com/rust-random/getrandom/commit/dca49613a00bd687e10641c22d68364aebbb7583"><code>dca4961</code></a> Unconditionally use libc::getrandom on FreeBSD (<a href="https://redirect.github.com/rust-random/getrandom/issues/416">#416</a>)</li>
+<li><a href="https://github.com/rust-random/getrandom/commit/d4b0ef09dfdae5e4bb95ce2c93d75299678dd254"><code>d4b0ef0</code></a> Use libc::getrandom on DragonflyBSD (<a href="https://redirect.github.com/rust-random/getrandom/issues/411">#411</a>)</li>
+<li><a href="https://github.com/rust-random/getrandom/commit/0d559231f6dee7693a7721d40da3f147264c7390"><code>0d55923</code></a> Add Apple visionOS support (<a href="https://redirect.github.com/rust-random/getrandom/issues/410">#410</a>)</li>
+<li>See full diff in <a href="https://github.com/rust-random/getrandom/compare/v0.2.14...v0.2.15">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=getrandom&package-manager=cargo&previous-version=0.2.14&new-version=0.2.15)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 16:16:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4556" class=".btn">#4556</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump num-traits from 0.2.18 to 0.2.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [num-traits](https://github.com/rust-num/num-traits) from 0.2.18 to 0.2.19.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/rust-num/num-traits/blob/master/RELEASES.md">num-traits's changelog</a>.</em></p>
+<blockquote>
+<h1>Release 0.2.19 (2024-05-03)</h1>
+<ul>
+<li><a href="https://redirect.github.com/rust-num/num-traits/pull/310">Upgrade to 2021 edition, <strong>MSRV 1.60</strong></a></li>
+<li><a href="https://redirect.github.com/rust-num/num-traits/pull/305">The new <code>Float::clamp</code> limits values by minimum and maximum</a></li>
+</ul>
+<p><strong>Contributors</strong>: <a href="https://github.com/cuviper"><code>@​cuviper</code></a>, <a href="https://github.com/michaelciraci"><code>@​michaelciraci</code></a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/rust-num/num-traits/commit/7ec3d41d39b28190ec1d42db38021107b3951f3a"><code>7ec3d41</code></a> Merge pull request <a href="https://redirect.github.com/rust-num/num-traits/issues/321">#321</a> from cuviper/release-0.2.19</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/1a8d429a2ccc763a0c4345234dbf097ca7d14c1e"><code>1a8d429</code></a> Release 0.2.19</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/8358949084a87873553e81493f8b52b1e3dee302"><code>8358949</code></a> Merge pull request <a href="https://redirect.github.com/rust-num/num-traits/issues/305">#305</a> from michaelciraci/implement-float-clamp</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/1a44ffb9deb4d76988b6ea6bc2767ed40264aac3"><code>1a44ffb</code></a> Add a default impl for <code>Float::clamp</code></li>
+<li><a href="https://github.com/rust-num/num-traits/commit/295704408f524c7df8f036eb875f48e6b998d693"><code>2957044</code></a> Implementing clamp for Float trait</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/a90d4a62deb7946abd40e171f0ee8575bf25f96c"><code>a90d4a6</code></a> Merge pull request <a href="https://redirect.github.com/rust-num/num-traits/issues/310">#310</a> from cuviper/msrv-1.60</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/ca42b4e106486b8fe9b22eeabb90aa8a0452f148"><code>ca42b4e</code></a> Update the MSRV in docs</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/e9bea92808de77ff4d4e94c8fe0dccece542d2ce"><code>e9bea92</code></a> Upgrade to 2021 edition</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/4e253cdaa9948f4fb8b4136c78d655a34eac3c26"><code>4e253cd</code></a> Assume has_float_to_from_bytes</li>
+<li><a href="https://github.com/rust-num/num-traits/commit/7212041f31654953ba55c7bc66e6a8440524dda4"><code>7212041</code></a> Assume has_int_to_from_bytes</li>
+<li>Additional commits viewable in <a href="https://github.com/rust-num/num-traits/compare/num-traits-0.2.18...num-traits-0.2.19">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=num-traits&package-manager=cargo&previous-version=0.2.18&new-version=0.2.19)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 16:15:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4553" class=".btn">#4553</a>
             </td>
             <td>
@@ -849,614 +1323,6 @@ Linked to #4501.
     </table>
     <div class="right-align">
         Created At 2024-04-30 09:25:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4531" class=".btn">#4531</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): Bump faker from 24.11.0 to 25.0.0 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2-dev</span><span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [faker](https://github.com/joke2k/faker) from 24.11.0 to 25.0.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
-<blockquote>
-<h2>Release v25.0.0</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.0.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
-<h2>Release v24.14.1</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v24.14.1/CHANGELOG.md">CHANGELOG.md</a>.</p>
-<h2>Release v24.14.0</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v24.14.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
-<h2>Release v24.13.0</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v24.13.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
-<h2>Release v24.12.0</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v24.12.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
-<blockquote>
-<h3><a href="https://github.com/joke2k/faker/compare/v24.14.1...v25.0.0">v25.0.0 - 2024-04-28</a></h3>
-<ul>
-<li>Drop support for Python 3.7. Thanks <a href="https://github.com/kloczek"><code>@​kloczek</code></a>.</li>
-</ul>
-<h3><a href="https://github.com/joke2k/faker/compare/v24.14.0...v24.14.1">v24.14.1 - 2024-04-28</a></h3>
-<ul>
-<li>Include type stubs in release.</li>
-</ul>
-<h3><a href="https://github.com/joke2k/faker/compare/v24.13.0...v24.14.0">v24.14.0 - 2024-04-25</a></h3>
-<ul>
-<li>Add job provider for <code>cs_CZ</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
-</ul>
-<h3><a href="https://github.com/joke2k/faker/compare/v24.12.0...v24.13.0">v24.13.0 - 2024-04-25</a></h3>
-<ul>
-<li>Add geo provider for <code>sk_SK</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
-<li>Clean up data in <code>sk_SK</code> job provider. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
-</ul>
-<h3><a href="https://github.com/joke2k/faker/compare/v24.11.0...v24.12.0">v24.12.0 - 2024-04-25</a></h3>
-<ul>
-<li>Remove offensive word from <code>pl_PL</code> lorem provider. Thanks <a href="https://github.com/Rey092"><code>@​Rey092</code></a>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/joke2k/faker/commit/7f5dc148afdcf06dee08381a4f85e082da2346b4"><code>7f5dc14</code></a> Bump version: 24.14.1 → 25.0.0</li>
-<li><a href="https://github.com/joke2k/faker/commit/bcd3c693851906803aa5be04af31148d0741782c"><code>bcd3c69</code></a> :pencil: Update CHANGELOG.md</li>
-<li><a href="https://github.com/joke2k/faker/commit/9402b8fbff281fcdcab3b978c7bc39e9723d5158"><code>9402b8f</code></a> fix pip cache</li>
-<li><a href="https://github.com/joke2k/faker/commit/3aba828ec78afe79903aec9241db9efe049723bc"><code>3aba828</code></a> fix pip cache</li>
-<li><a href="https://github.com/joke2k/faker/commit/5b3ef9cc9543d97dab8498e4f840084ce1883b89"><code>5b3ef9c</code></a> fix pip cache</li>
-<li><a href="https://github.com/joke2k/faker/commit/a09f0681e45023fa0ac1b8a4e2a408aa2bc5ea71"><code>a09f068</code></a> :lipstick: format code</li>
-<li><a href="https://github.com/joke2k/faker/commit/d6c08140f56ccb39edb899064de89139c31a7330"><code>d6c0814</code></a> drop python&lt;=3.7 support (<a href="https://redirect.github.com/joke2k/faker/issues/2030">#2030</a>)</li>
-<li><a href="https://github.com/joke2k/faker/commit/2049e02c01aa1deda40af44fe84c07933f134c3e"><code>2049e02</code></a> Fix link formatting in CHANGELOG.md (<a href="https://redirect.github.com/joke2k/faker/issues/2036">#2036</a>)</li>
-<li><a href="https://github.com/joke2k/faker/commit/971b8b62c1002c3994e9854372f8a24ebb4ffb68"><code>971b8b6</code></a> Bump version: 24.14.0 → 24.14.1</li>
-<li><a href="https://github.com/joke2k/faker/commit/d76e3f0fcd5f5d2b816a5613e495ec51f937bc64"><code>d76e3f0</code></a> :pencil: Update CHANGELOG.md</li>
-<li>Additional commits viewable in <a href="https://github.com/joke2k/faker/compare/v24.11.0...v25.0.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=24.11.0&new-version=25.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 16:34:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4530" class=".btn">#4530</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: Bump pytest from 8.0.0 to 8.2.0 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2-dev</span><span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.0.0 to 8.2.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest's releases</a>.</em></p>
-<blockquote>
-<h2>8.2.0</h2>
-<h1>pytest 8.2.0 (2024-04-27)</h1>
-<h2>Deprecations</h2>
-<ul>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/12069">#12069</a>: A deprecation warning is now raised when implementations of one of the following hooks request a deprecated <code>py.path.local</code> parameter instead of the <code>pathlib.Path</code> parameter which replaced it:</p>
-<ul>
-<li><code>pytest_ignore_collect</code>{.interpreted-text role=&quot;hook&quot;} - the <code>path</code> parameter - use <code>collection_path</code> instead.</li>
-<li><code>pytest_collect_file</code>{.interpreted-text role=&quot;hook&quot;} - the <code>path</code> parameter - use <code>file_path</code> instead.</li>
-<li><code>pytest_pycollect_makemodule</code>{.interpreted-text role=&quot;hook&quot;} - the <code>path</code> parameter - use <code>module_path</code> instead.</li>
-<li><code>pytest_report_header</code>{.interpreted-text role=&quot;hook&quot;} - the <code>startdir</code> parameter - use <code>start_path</code> instead.</li>
-<li><code>pytest_report_collectionfinish</code>{.interpreted-text role=&quot;hook&quot;} - the <code>startdir</code> parameter - use <code>start_path</code> instead.</li>
-</ul>
-<p>The replacement parameters are available since pytest 7.0.0.
-The old parameters will be removed in pytest 9.0.0.</p>
-<p>See <code>legacy-path-hooks-deprecated</code>{.interpreted-text role=&quot;ref&quot;} for more details.</p>
-</li>
-</ul>
-<h2>Features</h2>
-<ul>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11871">#11871</a>: Added support for reading command line arguments from a file using the prefix character <code>@</code>, like e.g.: <code>pytest @tests.txt</code>. The file must have one argument per line.</p>
-<p>See <code>Read arguments from file &lt;args-from-file&gt;</code>{.interpreted-text role=&quot;ref&quot;} for details.</p>
-</li>
-</ul>
-<h2>Improvements</h2>
-<ul>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11523">#11523</a>: <code>pytest.importorskip</code>{.interpreted-text role=&quot;func&quot;} will now issue a warning if the module could be found, but raised <code>ImportError</code>{.interpreted-text role=&quot;class&quot;} instead of <code>ModuleNotFoundError</code>{.interpreted-text role=&quot;class&quot;}.</p>
-<p>The warning can be suppressed by passing <code>exc_type=ImportError</code> to <code>pytest.importorskip</code>{.interpreted-text role=&quot;func&quot;}.</p>
-<p>See <code>import-or-skip-import-error</code>{.interpreted-text role=&quot;ref&quot;} for details.</p>
-</li>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11728">#11728</a>: For <code>unittest</code>-based tests, exceptions during class cleanup (as raised by functions registered with <code>TestCase.addClassCleanup &lt;unittest.TestCase.addClassCleanup&gt;</code>{.interpreted-text role=&quot;meth&quot;}) are now reported instead of silently failing.</p>
-</li>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/11777">#11777</a>: Text is no longer truncated in the <code>short test summary info</code> section when <code>-vv</code> is given.</p>
-</li>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/12112">#12112</a>: Improved namespace packages detection when <code>consider_namespace_packages</code>{.interpreted-text role=&quot;confval&quot;} is enabled, covering more situations (like editable installs).</p>
-</li>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/9502">#9502</a>: Added <code>PYTEST_VERSION</code>{.interpreted-text role=&quot;envvar&quot;} environment variable which is defined at the start of the pytest session and undefined afterwards. It contains the value of <code>pytest.__version__</code>, and among other things can be used to easily check if code is running from within a pytest run.</p>
-</li>
-</ul>
-<h2>Bug Fixes</h2>
-<ul>
-<li>
-<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/12065">#12065</a>: Fixed a regression in pytest 8.0.0 where test classes containing <code>setup_method</code> and tests using <code>@staticmethod</code> or <code>@classmethod</code> would crash with <code>AttributeError: 'NoneType' object has no attribute 'setup_method'</code>.</p>
-<p>Now the <code>request.instance &lt;pytest.FixtureRequest.instance&gt;</code>{.interpreted-text role=&quot;attr&quot;} attribute of tests using <code>@staticmethod</code> and <code>@classmethod</code> is no longer <code>None</code>, but a fresh instance of the class, like in non-static methods.</p>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/pytest-dev/pytest/commit/6bd3f313447290380cbc2db30fb9ee5cca7eb941"><code>6bd3f31</code></a> Tweak changelog for 8.2.0</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/9b6219b5e89af237e5bc80354d405d2b5c2fc8a0"><code>9b6219b</code></a> Prepare release version 8.2.0</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/835765c9d31e0a86c6028f983b28d32c82a759c4"><code>835765c</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12130">#12130</a> from bluetech/fixtures-inline</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/7e7503c0b015f61d9d21d3b5f55990b7fcd683f7"><code>7e7503c</code></a> unittest: report class cleanup exceptions (<a href="https://redirect.github.com/pytest-dev/pytest/issues/12250">#12250</a>)</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/882c4da2f37702b00bdbd3b6c74e9821d33e0204"><code>882c4da</code></a> fixtures: inline <code>fail_fixturefunc</code></li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/2e8fb9f1401d727e20f004326752fd1922f9c601"><code>2e8fb9f</code></a> fixtures: extract a <code>_check_fixturedef</code> method</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/acf2971f46a9518b3552d48ea9541a1951c2b207"><code>acf2971</code></a> fixtures: inline <code>_getnextfixturedef</code> into <code>_get_active_fixturedef</code></li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/3c77aec1dac0894ec4ca774b71ec91c85cf91dd1"><code>3c77aec</code></a> fixtures: move &quot;request&quot; check early</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/d217d68cde0c34d619862f15c773ecc02ecdaabe"><code>d217d68</code></a> fixtures: inline <code>_compute_fixture_value</code></li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/530be285751143febe54b8974b234eed5eb8b079"><code>530be28</code></a> fixtures: use early return in <code>_get_active_fixturedef</code></li>
-<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest/compare/8.0.0...8.2.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest&package-manager=pip&previous-version=8.0.0&new-version=8.2.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 16:33:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4529" class=".btn">#4529</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: Bump pytest-xdist from 3.5.0 to 3.6.1 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2-dev</span><span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [pytest-xdist](https://github.com/pytest-dev/pytest-xdist) from 3.5.0 to 3.6.1.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest-xdist/blob/master/CHANGELOG.rst">pytest-xdist's changelog</a>.</em></p>
-<blockquote>
-<h1>pytest-xdist 3.6.1 (2024-04-28)</h1>
-<h2>Bug Fixes</h2>
-<ul>
-<li><code>[#1071](https://github.com/pytest-dev/pytest-xdist/issues/1071) &lt;https://github.com/pytest-dev/pytest-xdist/issues/1071&gt;</code>_: Add backward compatibility for deadlock issue with the <code>execnet</code> new <code>main_thread_only</code> &quot;execmodel&quot; triggered when pytest-cov accesses rinfo.</li>
-</ul>
-<h1>pytest-xdist 3.6.0 (2024-04-19)</h1>
-<p>This release was YANKED due to a regression fixed in 3.6.1.</p>
-<h2>Features</h2>
-<ul>
-<li><code>[#1027](https://github.com/pytest-dev/pytest-xdist/issues/1027) &lt;https://github.com/pytest-dev/pytest-xdist/pull/1027&gt;</code>_:<code>pytest-xdist</code> workers now always execute the tests in the main thread.
-Previously some tests might end up executing in a separate thread other than <code>main</code> in the workers, due to some internal <code>execnet`` details. This can cause problems specially with async frameworks where the event loop is running in the ``main`` thread (for example </code><a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/620">#620</a> <a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/620">pytest-dev/pytest-xdist#620</a>`__).</li>
-</ul>
-<h2>Bug Fixes</h2>
-<ul>
-<li>
-<p><code>[#1024](https://github.com/pytest-dev/pytest-xdist/issues/1024) &lt;https://github.com/pytest-dev/pytest-xdist/issues/1024&gt;</code>_: Added proper handling of <code>shouldstop</code> (such as set by <code>--max-fail</code>) and <code>shouldfail</code> conditions in workers.
-Previously, a worker might have continued executing further tests before the controller could terminate the session.</p>
-</li>
-<li>
-<p><code>[#1028](https://github.com/pytest-dev/pytest-xdist/issues/1028) &lt;https://github.com/pytest-dev/pytest-xdist/issues/1028&gt;</code>_: Fixed compatibility issue between <code>looponfail</code> and editable installs.</p>
-</li>
-<li>
-<p><code>[#620](https://github.com/pytest-dev/pytest-xdist/issues/620) &lt;https://github.com/pytest-dev/pytest-xdist/issues/620&gt;</code>_: Use the new <code>main_thread_only</code> <code>execnet</code> &quot;execmodel&quot; so that code which expects to only run in the main thread will now work as expected.</p>
-</li>
-<li>
-<p><code>[#937](https://github.com/pytest-dev/pytest-xdist/issues/937) &lt;https://github.com/pytest-dev/pytest-xdist/issues/937&gt;</code>_: Fixed a bug where plugin would raise an incompatibility error with <code>--pdb</code> despite using <code>-n0</code>.</p>
-</li>
-</ul>
-<h2>Removals</h2>
-<ul>
-<li>
-<p><code>[#1053](https://github.com/pytest-dev/pytest-xdist/issues/1053) &lt;https://github.com/pytest-dev/pytest-xdist/issues/1053&gt;</code>_: Dropped support for Python 3.7.</p>
-</li>
-<li>
-<p><code>[#1057](https://github.com/pytest-dev/pytest-xdist/issues/1057) &lt;https://github.com/pytest-dev/pytest-xdist/issues/1057&gt;</code>_: pytest&gt;=7.0.0 is now required.</p>
-<p>execnet&gt;=2.1.0 is now required.</p>
-</li>
-</ul>
-<h2>Trivial Changes</h2>
-<ul>
-<li>
-<p><code>[#1020](https://github.com/pytest-dev/pytest-xdist/issues/1020) &lt;https://github.com/pytest-dev/pytest-xdist/issues/1020&gt;</code>_: pytest-xdist's <code>setup.py</code> file is removed.</p>
-<p>If you relied on this file, e.g. to install pytest using <code>setup.py install</code>,
-please see <code>Why you shouldn't invoke setup.py directly &lt;https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html#summary&gt;</code>_ for alternatives.</p>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/4dd2978031eaf7017c84a1cc77667379a2b11c64"><code>4dd2978</code></a> Release 3.6.1</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/b397288b7ed40ac8c55a173566bb881e0adcb546"><code>b397288</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/1072">#1072</a> from zmedico/gateway-cache-rinfo</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/12b3cce0ce4f4cffcc35c0e8369759b71b32c0cc"><code>12b3cce</code></a> Cache execnet gateway rinfo during WorkerController setup</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/c93a106b3ad466e22d19d814394de0422adf4dca"><code>c93a106</code></a> build(deps): bump hynek/build-and-inspect-python-package (<a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/1066">#1066</a>)</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/52e202263827775ad6bcf18a216000aec4412911"><code>52e2022</code></a> [pre-commit.ci] pre-commit autoupdate (<a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/1073">#1073</a>)</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/699f939b5cc2d61df9f622d0449a590be216ee7a"><code>699f939</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/1070">#1070</a> from pytest-dev/release-3.6.0</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/80bc0b8e5be6e256c8f49791e08abd5fa2d2d3a2"><code>80bc0b8</code></a> Release 3.6.0</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/20e3ac774e8fa34b25665ef183b94c9879f98cd1"><code>20e3ac7</code></a> Use execnet main_thread_only execmodel (<a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/1027">#1027</a>)</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/0a4238f6da367a9133882d8810a3b556837cb5ae"><code>0a4238f</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest-xdist/issues/1067">#1067</a> from pytest-dev/pre-commit-ci-update-config</li>
-<li><a href="https://github.com/pytest-dev/pytest-xdist/commit/068627994f91068fb27269be421385c7cd3ab201"><code>0686279</code></a> [pre-commit.ci] pre-commit autoupdate</li>
-<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest-xdist/compare/v3.5.0...v3.6.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-xdist&package-manager=pip&previous-version=3.5.0&new-version=3.6.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 16:32:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4528" class=".btn">#4528</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: Bump serial_test from 3.1.0 to 3.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                [//]: # (dependabot-start)
-⚠️  **Dependabot is rebasing this PR** ⚠️ 
-
-Rebasing might not happen immediately, so don't worry if this takes some time.
-
-Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
-
----
-
-[//]: # (dependabot-end)
-
-Bumps [serial_test](https://github.com/palfrey/serial_test) from 3.1.0 to 3.1.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/palfrey/serial_test/releases">serial_test's releases</a>.</em></p>
-<blockquote>
-<h2>v3.1.1</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>Fix async test functions inside a serial mod block in <a href="https://redirect.github.com/palfrey/serial_test/pull/111">palfrey/serial_test#111</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/palfrey/serial_test/compare/v3.1.0...v3.1.1">https://github.com/palfrey/serial_test/compare/v3.1.0...v3.1.1</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/palfrey/serial_test/commit/b39310b3cff129ab032af0f4ce1c219da540d9b2"><code>b39310b</code></a> 3.1.1</li>
-<li><a href="https://github.com/palfrey/serial_test/commit/bf3222814090d9cf1df575b68e7e45cd66f0c5dd"><code>bf32228</code></a> Merge pull request <a href="https://redirect.github.com/palfrey/serial_test/issues/111">#111</a> from palfrey/fix-mod-with-async</li>
-<li><a href="https://github.com/palfrey/serial_test/commit/2cb08809ba9a9089dc3c3f17014a4b4b46a10ed8"><code>2cb0880</code></a> Only test async with mod when async is on</li>
-<li><a href="https://github.com/palfrey/serial_test/commit/3c258420387224c0c54044a4ac3238b1b8e062c9"><code>3c25842</code></a> Fix async test functions inside a serial mod block</li>
-<li>See full diff in <a href="https://github.com/palfrey/serial_test/compare/v3.1.0...v3.1.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serial_test&package-manager=cargo&previous-version=3.1.0&new-version=3.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 16:16:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4527" class=".btn">#4527</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: Bump serde from 1.0.198 to 1.0.199
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [serde](https://github.com/serde-rs/serde) from 1.0.198 to 1.0.199.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
-<blockquote>
-<h2>v1.0.199</h2>
-<ul>
-<li>Fix ambiguous associated item when <code>forward_to_deserialize_any!</code> is used on an enum with <code>Error</code> variant (<a href="https://redirect.github.com/serde-rs/serde/issues/2732">#2732</a>, thanks <a href="https://github.com/aatifsyed"><code>@​aatifsyed</code></a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/serde-rs/serde/commit/147702871760a38d2e97e0cd15d568559876aeda"><code>1477028</code></a> Release 1.0.199</li>
-<li><a href="https://github.com/serde-rs/serde/commit/789740be0d2cc1d4e280639039f189cc5d98fb40"><code>789740b</code></a> Merge pull request <a href="https://redirect.github.com/serde-rs/serde/issues/2732">#2732</a> from aatifsyed/master</li>
-<li><a href="https://github.com/serde-rs/serde/commit/8fe7539bb2b46001f70751f1db60e1a7144f8f3d"><code>8fe7539</code></a> fix: ambiguous associated type in forward_to_deserialize_any!</li>
-<li><a href="https://github.com/serde-rs/serde/commit/f6623a36548cfce02f880a33c6d2f420934c95c5"><code>f6623a3</code></a> Ignore cast_precision_loss pedantic clippy lint</li>
-<li>See full diff in <a href="https://github.com/serde-rs/serde/compare/v1.0.198...v1.0.199">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde&package-manager=cargo&previous-version=1.0.198&new-version=1.0.199)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 16:14:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4526" class=".btn">#4526</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: Bump libsodium-sys-stable from 1.20.5 to 1.20.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2-dev</span><span class="chip">Chore</span><span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [libsodium-sys-stable](https://github.com/jedisct1/libsodium-sys-stable) from 1.20.5 to 1.20.6.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/jedisct1/libsodium-sys-stable/commit/31622bd4380ea8b35d4f1e17d707ed36f4df223b"><code>31622bd</code></a> Update libsodium</li>
-<li><a href="https://github.com/jedisct1/libsodium-sys-stable/commit/7a9d205df74cf97d6916a257a8bfd25c5ce56505"><code>7a9d205</code></a> Allow pre-compiled files to be retrieved from a local directory</li>
-<li>See full diff in <a href="https://github.com/jedisct1/libsodium-sys-stable/compare/1.20.5...1.20.6">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=libsodium-sys-stable&package-manager=cargo&previous-version=1.20.5&new-version=1.20.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 16:13:51 +0000 UTC
     </div>
 </div>
 
