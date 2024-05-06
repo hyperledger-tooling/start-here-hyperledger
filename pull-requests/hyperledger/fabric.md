@@ -14,6 +14,161 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4842" class=".btn">#4842</a>
+            </td>
+            <td>
+                <b>
+                    update staticcheck version (backport #4840)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgrate staticcheck version to latest release.
+The current version breaks with go 1.22, so cannot be used locally when go 1.22 is installed. see https://staticcheck.io/changes/2023.1/#2023.1.7
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 16:08:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4841" class=".btn">#4841</a>
+            </td>
+            <td>
+                <b>
+                    Doc tutorials - Remove double quotes for env variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Double quotes are problematic in some environments, see https://github.com/hyperledger/fabric/issues/4358.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 14:45:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4840" class=".btn">#4840</a>
+            </td>
+            <td>
+                <b>
+                    update staticcheck version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Upgrate staticcheck version to latest release.
+The current version breaks with go 1.22, so cannot be used locally when  go 1.22 is installed.
+see https://staticcheck.io/changes/2023.1/#2023.1.7
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 13:58:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4839" class=".btn">#4839</a>
+            </td>
+            <td>
+                <b>
+                    Remove guidance on Docker Desktop version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Docker Desktop 2.5.0.1 is now outdated.
+There have not been problems reported in recent versions of Docker Desktop.
+We can fallback to the "prereq" doc topic that states to use the latest version.
+
+Closes #4833
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 13:37:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4838" class=".btn">#4838</a>
+            </td>
+            <td>
+                <b>
+                    test flake bft deliverer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Removing a test flake
+
+#### Related issues
+
+#4832 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 13:18:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4834" class=".btn">#4834</a>
             </td>
             <td>

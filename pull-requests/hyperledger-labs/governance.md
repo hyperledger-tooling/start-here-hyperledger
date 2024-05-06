@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    Retire stewards
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Per https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/264
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 16:59:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/governance/pull/60" class=".btn">#60</a>
             </td>
             <td>
