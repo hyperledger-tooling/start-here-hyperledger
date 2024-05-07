@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/260" class=".btn">#260</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/264" class=".btn">#264</a>
             </td>
             <td>
                 <b>
-                    Benchmark fix of fisco-bcos sample
+                    move builds to newer versions
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Fixes #170 
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-10 22:17:01 +0000 UTC
+        Created At 2024-05-03 08:18:46 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +40,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/259" class=".btn">#259</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/263" class=".btn">#263</a>
             </td>
             <td>
                 <b>
-                    Linter added for go and javascript
+                    Delete Fisco BCOS benchmarks
                 </b>
             </td>
         </tr>
@@ -54,16 +53,12 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Fixes #215 
-
-Works like `make lint-js` and `make lint-go`
-
-Added a Makefile which has targets mainly `lint-js` and `lint-go` and a combined target `lint` which executes the scripts added to lint the code
+                Caliper no longer supports Fisco BCOS
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-10 21:25:11 +0000 UTC
+        Created At 2024-05-01 09:50:23 +0000 UTC
     </div>
 </div>
 
