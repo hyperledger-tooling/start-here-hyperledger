@@ -1,13 +1,13 @@
 
+[7063](https://github.com/hyperledger/besu/pull/7063) build: Add default constructor and javadoc for :consensus subprojects
+
+[7062](https://github.com/hyperledger/besu/pull/7062) build: Add default constructor and javadoc
+
 [69](https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/69) Different evmVersions for different sourceSets
 
-[616](https://github.com/hyperledger/cello/pull/616) Bump the pip group across 1 directory with 2 updates
+[7061](https://github.com/hyperledger/besu/pull/7061) build: Add default constructor and javadoc for :besu
 
-[12](https://github.com/hyperledger-labs/aries-agent-controller/pull/12) Bump jinja2 from 3.1.2 to 3.1.4
-
-[13](https://github.com/hyperledger-labs/agora-unknown_order/pull/13) Updates for 0.9.0
-
-[4560](https://github.com/hyperledger/iroha/pull/4560) chore(deps): bump cryptography from 42.0.3 to 42.0.7 in /client_cli/pytests
+[7060](https://github.com/hyperledger/besu/pull/7060) build - Add missing gradle wrapper scripts
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
