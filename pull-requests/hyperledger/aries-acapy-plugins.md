@@ -14,6 +14,362 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/423" class=".btn">#423</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump pytest-ruff from 0.1.1 to 0.3.2 in /basicmessage_storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [pytest-ruff](https://github.com/businho/pytest-ruff) from 0.1.1 to 0.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/businho/pytest-ruff/releases">pytest-ruff's releases</a>.</em></p>
+<blockquote>
+<h2>Cleaner test error output</h2>
+<p>Full stack trace is not relevant for us, it was removed in <a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>. Thanks to <a href="https://github.com/lexi-k"><code>@​lexi-k</code></a>.</p>
+<h2>Add support to pytest 8.1.x</h2>
+<p>No release notes provided.</p>
+<h2>Support old pytest versions</h2>
+<p>No release notes provided.</p>
+<h2>Fix previous messed up release</h2>
+<p>It makes <code>--ruff</code> and <code>--ruff-format</code> work independently and make the plugin work again.</p>
+<h2>Support ruff format and respect exclude config</h2>
+<p>No release notes provided.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/businho/pytest-ruff/commit/cb1685eacf28dc25bda0dcd6f4bc43705e1cf13a"><code>cb1685e</code></a> Stop printing whole pytest traceback on error (<a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/9efc242a519f8c7648bc732a170079864b592521"><code>9efc242</code></a> fix: pytest 8.1 compat (<a href="https://redirect.github.com/businho/pytest-ruff/issues/16">#16</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/41ec4c4cc327aa3c5f86f466025dc53bee29304d"><code>41ec4c4</code></a> Silence some deprecation warnings for Python 3.14</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/ef9d0e0bc173dac03f1af954f9a9d3574203a64e"><code>ef9d0e0</code></a> Fail tests with warnings</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/37b8e736063f61ca4b5118ac499ee63fb3943b17"><code>37b8e73</code></a> Support old pytests (<a href="https://redirect.github.com/businho/pytest-ruff/issues/13">#13</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/463bb48aed573d28b63b00e81f317ffcf0c2cbf9"><code>463bb48</code></a> Fix cov (<a href="https://redirect.github.com/businho/pytest-ruff/issues/14">#14</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/8a6a5a32602cd4936029ddae1bda4ce899b8d98f"><code>8a6a5a3</code></a> Run tox with 3.12 and drop 3.7</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/1ef9b2244f6dc63be9fefeef909092e4cf50c9a1"><code>1ef9b22</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/10">#10</a> from cclauss/patch-1</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/951ece4fff3c07d9be59ab1dcb64bf7e7ad49130"><code>951ece4</code></a> Upgrade GitHub Actions and add Python 3.12</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/2098829cfb8f95c2885c6dec3e229ed3092e2c1e"><code>2098829</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/8">#8</a> from skellys/fix/fix_v0_2</li>
+<li>Additional commits viewable in <a href="https://github.com/businho/pytest-ruff/compare/v0.1.1...v0.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-ruff&package-manager=pip&previous-version=0.1.1&new-version=0.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-03 04:43:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/422" class=".btn">#422</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump pytest-ruff from 0.1.1 to 0.3.2 in /multitenant_provider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [pytest-ruff](https://github.com/businho/pytest-ruff) from 0.1.1 to 0.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/businho/pytest-ruff/releases">pytest-ruff's releases</a>.</em></p>
+<blockquote>
+<h2>Cleaner test error output</h2>
+<p>Full stack trace is not relevant for us, it was removed in <a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>. Thanks to <a href="https://github.com/lexi-k"><code>@​lexi-k</code></a>.</p>
+<h2>Add support to pytest 8.1.x</h2>
+<p>No release notes provided.</p>
+<h2>Support old pytest versions</h2>
+<p>No release notes provided.</p>
+<h2>Fix previous messed up release</h2>
+<p>It makes <code>--ruff</code> and <code>--ruff-format</code> work independently and make the plugin work again.</p>
+<h2>Support ruff format and respect exclude config</h2>
+<p>No release notes provided.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/businho/pytest-ruff/commit/cb1685eacf28dc25bda0dcd6f4bc43705e1cf13a"><code>cb1685e</code></a> Stop printing whole pytest traceback on error (<a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/9efc242a519f8c7648bc732a170079864b592521"><code>9efc242</code></a> fix: pytest 8.1 compat (<a href="https://redirect.github.com/businho/pytest-ruff/issues/16">#16</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/41ec4c4cc327aa3c5f86f466025dc53bee29304d"><code>41ec4c4</code></a> Silence some deprecation warnings for Python 3.14</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/ef9d0e0bc173dac03f1af954f9a9d3574203a64e"><code>ef9d0e0</code></a> Fail tests with warnings</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/37b8e736063f61ca4b5118ac499ee63fb3943b17"><code>37b8e73</code></a> Support old pytests (<a href="https://redirect.github.com/businho/pytest-ruff/issues/13">#13</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/463bb48aed573d28b63b00e81f317ffcf0c2cbf9"><code>463bb48</code></a> Fix cov (<a href="https://redirect.github.com/businho/pytest-ruff/issues/14">#14</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/8a6a5a32602cd4936029ddae1bda4ce899b8d98f"><code>8a6a5a3</code></a> Run tox with 3.12 and drop 3.7</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/1ef9b2244f6dc63be9fefeef909092e4cf50c9a1"><code>1ef9b22</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/10">#10</a> from cclauss/patch-1</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/951ece4fff3c07d9be59ab1dcb64bf7e7ad49130"><code>951ece4</code></a> Upgrade GitHub Actions and add Python 3.12</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/2098829cfb8f95c2885c6dec3e229ed3092e2c1e"><code>2098829</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/8">#8</a> from skellys/fix/fix_v0_2</li>
+<li>Additional commits viewable in <a href="https://github.com/businho/pytest-ruff/compare/v0.1.1...v0.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-ruff&package-manager=pip&previous-version=0.1.1&new-version=0.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-03 04:42:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/421" class=".btn">#421</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump pytest-ruff from 0.1.1 to 0.3.2 in /oid4vci
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [pytest-ruff](https://github.com/businho/pytest-ruff) from 0.1.1 to 0.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/businho/pytest-ruff/releases">pytest-ruff's releases</a>.</em></p>
+<blockquote>
+<h2>Cleaner test error output</h2>
+<p>Full stack trace is not relevant for us, it was removed in <a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>. Thanks to <a href="https://github.com/lexi-k"><code>@​lexi-k</code></a>.</p>
+<h2>Add support to pytest 8.1.x</h2>
+<p>No release notes provided.</p>
+<h2>Support old pytest versions</h2>
+<p>No release notes provided.</p>
+<h2>Fix previous messed up release</h2>
+<p>It makes <code>--ruff</code> and <code>--ruff-format</code> work independently and make the plugin work again.</p>
+<h2>Support ruff format and respect exclude config</h2>
+<p>No release notes provided.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/businho/pytest-ruff/commit/cb1685eacf28dc25bda0dcd6f4bc43705e1cf13a"><code>cb1685e</code></a> Stop printing whole pytest traceback on error (<a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/9efc242a519f8c7648bc732a170079864b592521"><code>9efc242</code></a> fix: pytest 8.1 compat (<a href="https://redirect.github.com/businho/pytest-ruff/issues/16">#16</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/41ec4c4cc327aa3c5f86f466025dc53bee29304d"><code>41ec4c4</code></a> Silence some deprecation warnings for Python 3.14</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/ef9d0e0bc173dac03f1af954f9a9d3574203a64e"><code>ef9d0e0</code></a> Fail tests with warnings</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/37b8e736063f61ca4b5118ac499ee63fb3943b17"><code>37b8e73</code></a> Support old pytests (<a href="https://redirect.github.com/businho/pytest-ruff/issues/13">#13</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/463bb48aed573d28b63b00e81f317ffcf0c2cbf9"><code>463bb48</code></a> Fix cov (<a href="https://redirect.github.com/businho/pytest-ruff/issues/14">#14</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/8a6a5a32602cd4936029ddae1bda4ce899b8d98f"><code>8a6a5a3</code></a> Run tox with 3.12 and drop 3.7</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/1ef9b2244f6dc63be9fefeef909092e4cf50c9a1"><code>1ef9b22</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/10">#10</a> from cclauss/patch-1</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/951ece4fff3c07d9be59ab1dcb64bf7e7ad49130"><code>951ece4</code></a> Upgrade GitHub Actions and add Python 3.12</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/2098829cfb8f95c2885c6dec3e229ed3092e2c1e"><code>2098829</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/8">#8</a> from skellys/fix/fix_v0_2</li>
+<li>Additional commits viewable in <a href="https://github.com/businho/pytest-ruff/compare/v0.1.1...v0.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-ruff&package-manager=pip&previous-version=0.1.1&new-version=0.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-03 04:37:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/420" class=".btn">#420</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump pytest-ruff from 0.1.1 to 0.3.2 in /rpc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [pytest-ruff](https://github.com/businho/pytest-ruff) from 0.1.1 to 0.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/businho/pytest-ruff/releases">pytest-ruff's releases</a>.</em></p>
+<blockquote>
+<h2>Cleaner test error output</h2>
+<p>Full stack trace is not relevant for us, it was removed in <a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>. Thanks to <a href="https://github.com/lexi-k"><code>@​lexi-k</code></a>.</p>
+<h2>Add support to pytest 8.1.x</h2>
+<p>No release notes provided.</p>
+<h2>Support old pytest versions</h2>
+<p>No release notes provided.</p>
+<h2>Fix previous messed up release</h2>
+<p>It makes <code>--ruff</code> and <code>--ruff-format</code> work independently and make the plugin work again.</p>
+<h2>Support ruff format and respect exclude config</h2>
+<p>No release notes provided.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/businho/pytest-ruff/commit/cb1685eacf28dc25bda0dcd6f4bc43705e1cf13a"><code>cb1685e</code></a> Stop printing whole pytest traceback on error (<a href="https://redirect.github.com/businho/pytest-ruff/issues/18">#18</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/9efc242a519f8c7648bc732a170079864b592521"><code>9efc242</code></a> fix: pytest 8.1 compat (<a href="https://redirect.github.com/businho/pytest-ruff/issues/16">#16</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/41ec4c4cc327aa3c5f86f466025dc53bee29304d"><code>41ec4c4</code></a> Silence some deprecation warnings for Python 3.14</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/ef9d0e0bc173dac03f1af954f9a9d3574203a64e"><code>ef9d0e0</code></a> Fail tests with warnings</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/37b8e736063f61ca4b5118ac499ee63fb3943b17"><code>37b8e73</code></a> Support old pytests (<a href="https://redirect.github.com/businho/pytest-ruff/issues/13">#13</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/463bb48aed573d28b63b00e81f317ffcf0c2cbf9"><code>463bb48</code></a> Fix cov (<a href="https://redirect.github.com/businho/pytest-ruff/issues/14">#14</a>)</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/8a6a5a32602cd4936029ddae1bda4ce899b8d98f"><code>8a6a5a3</code></a> Run tox with 3.12 and drop 3.7</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/1ef9b2244f6dc63be9fefeef909092e4cf50c9a1"><code>1ef9b22</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/10">#10</a> from cclauss/patch-1</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/951ece4fff3c07d9be59ab1dcb64bf7e7ad49130"><code>951ece4</code></a> Upgrade GitHub Actions and add Python 3.12</li>
+<li><a href="https://github.com/businho/pytest-ruff/commit/2098829cfb8f95c2885c6dec3e229ed3092e2c1e"><code>2098829</code></a> Merge pull request <a href="https://redirect.github.com/businho/pytest-ruff/issues/8">#8</a> from skellys/fix/fix_v0_2</li>
+<li>Additional commits viewable in <a href="https://github.com/businho/pytest-ruff/compare/v0.1.1...v0.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-ruff&package-manager=pip&previous-version=0.1.1&new-version=0.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-03 04:34:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/419" class=".btn">#419</a>
             </td>
             <td>

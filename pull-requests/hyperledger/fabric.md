@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4846" class=".btn">#4846</a>
+            </td>
+            <td>
+                <b>
+                    Update ordering service docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Remove references to Kafka.
+- Mention CFT and BFT options.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-07 15:08:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4845" class=".btn">#4845</a>
+            </td>
+            <td>
+                <b>
+                    Bump jinja to 3.1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump jinja to 3.1.4.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-07 13:19:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4844" class=".btn">#4844</a>
+            </td>
+            <td>
+                <b>
+                    Publish OpenSSF scorecard results
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I've found that fabric scorecard is already published at https://scorecard.dev/viewer/?uri=github.com/hyperledger/fabric
+
+Publishing from our own github action will at least give us control over the scorecard execution and publishing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-07 12:57:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4843" class=".btn">#4843</a>
+            </td>
+            <td>
+                <b>
+                    Add GHA permission to broken link checker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Every github action should have top level permission set to read.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-07 12:52:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4842" class=".btn">#4842</a>
             </td>
             <td>

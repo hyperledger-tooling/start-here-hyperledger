@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/443" class=".btn">#443</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/445" class=".btn">#445</a>
             </td>
             <td>
                 <b>
-                    Add depends_on section for peers depending on CouchDB
+                    Install chaincode from docker image
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-10 18:06:47 +0000 UTC
+        Created At 2024-05-07 12:42:22 +0000 UTC
     </div>
 </div>
 
