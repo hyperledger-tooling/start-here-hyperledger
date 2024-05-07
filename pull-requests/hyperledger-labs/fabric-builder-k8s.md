@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/116" class=".btn">#116</a>
-            </td>
-            <td>
-                <b>
-                    Update github checkout and setup-go actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes Node.js 16 deprecation warnings
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 18:25:06 +0000 UTC
-    </div>
-</div>
-

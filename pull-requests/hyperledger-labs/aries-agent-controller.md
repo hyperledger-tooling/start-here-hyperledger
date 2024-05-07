@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/aries-agent-controller
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/aries-agent-controller/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger-labs/aries-agent-controller/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Bump gunicorn from 20.1.0 to 22.0.0
+                    Bump jinja2 from 3.1.2 to 3.1.4
                 </b>
             </td>
         </tr>
@@ -27,80 +27,71 @@ permalink: /pull-requests/hyperledger-labs/aries-agent-controller
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 20.1.0 to 22.0.0.
+                Bumps [jinja2](https://github.com/pallets/jinja) from 3.1.2 to 3.1.4.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/benoitc/gunicorn/releases">gunicorn's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/pallets/jinja/releases">jinja2's releases</a>.</em></p>
 <blockquote>
-<h2>Gunicorn 22.0 has been released</h2>
-<p><strong>Gunicorn 22.0.0 has been released.</strong> This version fix the numerous security vulnerabilities. You're invited to upgrade asap your own installation.</p>
-<p>Changes:</p>
-<pre><code>22.0.0 - 2024-04-17
-===================
+<h2>3.1.4</h2>
+<p>This is the Jinja 3.1.4 security release, which fixes security issues and bugs but does not otherwise change behavior and should not result in breaking changes.</p>
+<p>PyPI: <a href="https://pypi.org/project/Jinja2/3.1.4/">https://pypi.org/project/Jinja2/3.1.4/</a>
+Changes: <a href="https://jinja.palletsprojects.com/en/3.1.x/changes/#version-3-1-4">https://jinja.palletsprojects.com/en/3.1.x/changes/#version-3-1-4</a></p>
 <ul>
-<li>use <code>utime</code> to notify workers liveness</li>
-<li>migrate setup to pyproject.toml</li>
-<li>fix numerous security vulnerabilities in HTTP parser (closing some request smuggling vectors)</li>
-<li>parsing additional requests is no longer attempted past unsupported request framing</li>
-<li>on HTTP versions &lt; 1.1 support for chunked transfer is refused (only used in exploits)</li>
-<li>requests conflicting configured or passed SCRIPT_NAME now produce a verbose error</li>
-<li>Trailer fields are no longer inspected for headers indicating secure scheme</li>
-<li>support Python 3.12</li>
+<li>The <code>xmlattr</code> filter does not allow keys with <code>/</code> solidus, <code>&gt;</code> greater-than sign, or <code>=</code> equals sign, in addition to disallowing spaces. Regardless of any validation done by Jinja, user input should never be used as keys to this filter, or must be separately validated first. GHSA-h75v-3vvj-5mfj</li>
 </ul>
-<p>** Breaking changes **</p>
+<h2>3.1.3</h2>
+<p>This is a fix release for the 3.1.x feature branch.</p>
 <ul>
-<li>minimum version is Python 3.7</li>
-<li>the limitations on valid characters in the HTTP method have been bounded to Internet Standards</li>
-<li>requests specifying unsupported transfer coding (order) are refused by default (rare)</li>
-<li>HTTP methods are no longer casefolded by default (IANA method registry contains none affected)</li>
-<li>HTTP methods containing the number sign (#) are no longer accepted by default (rare)</li>
-<li>HTTP versions &lt; 1.0 or &gt;= 2.0 are no longer accepted by default (rare, only HTTP/1.1 is supported)</li>
-<li>HTTP versions consisting of multiple digits or containing a prefix/suffix are no longer accepted</li>
-<li>HTTP header field names Gunicorn cannot safely map to variables are silently dropped, as in other software</li>
-<li>HTTP headers with empty field name are refused by default (no legitimate use cases, used in exploits)</li>
-<li>requests with both Transfer-Encoding and Content-Length are refused by default (such a message might indicate an attempt to perform request smuggling)</li>
-<li>empty transfer codings are no longer permitted (reportedly seen with really old &amp; broken proxies)</li>
+<li>Fix for <a href="https://github.com/pallets/jinja/security/advisories/GHSA-h5c8-rqwp-cp95">GHSA-h5c8-rqwp-cp95</a>. You are affected if you are using <code>xmlattr</code> and passing user input as attribute keys.</li>
+<li>Changes: <a href="https://jinja.palletsprojects.com/en/3.1.x/changes/#version-3-1-3">https://jinja.palletsprojects.com/en/3.1.x/changes/#version-3-1-3</a></li>
+<li>Milestone: <a href="https://github.com/pallets/jinja/milestone/15?closed=1">https://github.com/pallets/jinja/milestone/15?closed=1</a></li>
 </ul>
-<p>** SECURITY **</p>
-<ul>
-<li>fix CVE-2024-1135
-</code></pre></li>
-</ul>
-<ol>
-<li>Documentation is available there: <a href="https://docs.gunicorn.org/en/stable/news.html">https://docs.gunicorn.org/en/stable/news.html</a></li>
-<li>Packages: <a href="https://pypi.org/project/gunicorn/">https://pypi.org/project/gunicorn/</a></li>
-</ol>
-<h2>Gunicorn 21.2.0 has been released</h2>
-<p><strong>Gunicorn 21.2.0 has been released.</strong> This version fix the issue introduced in the threaded worker.</p>
-<p>Changes:</p>
-<pre><code>21.2.0 - 2023-07-19
-===================
-fix thread worker: revert change considering connection as idle .
-&lt;/tr&gt;&lt;/table&gt; 
-</code></pre>
 </blockquote>
-<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pallets/jinja/blob/main/CHANGES.rst">jinja2's changelog</a>.</em></p>
+<blockquote>
+<h2>Version 3.1.4</h2>
+<p>Released 2024-05-05</p>
+<ul>
+<li>The <code>xmlattr</code> filter does not allow keys with <code>/</code> solidus, <code>&gt;</code>
+greater-than sign, or <code>=</code> equals sign, in addition to disallowing spaces.
+Regardless of any validation done by Jinja, user input should never be used
+as keys to this filter, or must be separately validated first.
+:ghsa:<code>h75v-3vvj-5mfj</code></li>
+</ul>
+<h2>Version 3.1.3</h2>
+<p>Released 2024-01-10</p>
+<ul>
+<li>Fix compiler error when checking if required blocks in parent templates are
+empty. :pr:<code>1858</code></li>
+<li><code>xmlattr</code> filter does not allow keys with spaces. :ghsa:<code>h5c8-rqwp-cp95</code></li>
+<li>Make error messages stemming from invalid nesting of <code>{% trans %}</code> blocks
+more helpful. :pr:<code>1918</code></li>
+</ul>
+</blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/benoitc/gunicorn/commit/f63d59e4d73a8ee28748d2c700fb81c8780bc419"><code>f63d59e</code></a> bump to 22.0</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/4ac81e0a1037ba5b570323be7430e09caa233e38"><code>4ac81e0</code></a> Merge pull request <a href="https://redirect.github.com/benoitc/gunicorn/issues/3175">#3175</a> from e-kwsm/typo</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/401cecfaed85d79236c7a9a1f7d8946b01c466fc"><code>401cecf</code></a> Merge pull request <a href="https://redirect.github.com/benoitc/gunicorn/issues/3179">#3179</a> from dhdaines/exclude-eventlet-0360</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/0243ec39ef4fc1b479ff4e1659e165f0b980b571"><code>0243ec3</code></a> fix(deps): exclude eventlet 0.36.0</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/628a0bcb61ef3a211d67dfd68ad1ba161cccb3b8"><code>628a0bc</code></a> chore: fix typos</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/88fc4a43152039c28096c8ba3eeadb3fbaa4aff9"><code>88fc4a4</code></a> Merge pull request <a href="https://redirect.github.com/benoitc/gunicorn/issues/3131">#3131</a> from pajod/patch-py12-rebased</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/deae2fc4c5f93bfce59be5363055d4cd4ab1b0b6"><code>deae2fc</code></a> CI: back off the agressive timeout</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/f4703824c323fe6867dce0e2f11013b8de319353"><code>f470382</code></a> docs: promise 3.12 compat</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/5e30bfa6b1a3e1f2bde7feb514d1734d28f39231"><code>5e30bfa</code></a> add changelog to project.urls (updated for PEP621)</li>
-<li><a href="https://github.com/benoitc/gunicorn/commit/481c3f9522edc58806a3efc5b49be4f202cc7700"><code>481c3f9</code></a> remove setup.cfg - overridden by pyproject.toml</li>
-<li>Additional commits viewable in <a href="https://github.com/benoitc/gunicorn/compare/20.1.0...22.0.0">compare view</a></li>
+<li><a href="https://github.com/pallets/jinja/commit/dd4a8b5466d8790540c181590b14db4d4d889d57"><code>dd4a8b5</code></a> release version 3.1.4</li>
+<li><a href="https://github.com/pallets/jinja/commit/0668239dc6b44ef38e7a6c9f91f312fd4ca581cb"><code>0668239</code></a> Merge pull request from GHSA-h75v-3vvj-5mfj</li>
+<li><a href="https://github.com/pallets/jinja/commit/d655030770081e2dfe46f90e27620472a502289d"><code>d655030</code></a> disallow invalid characters in keys to xmlattr filter</li>
+<li><a href="https://github.com/pallets/jinja/commit/a7863ba9d3521f1450f821119c50d19d7ecea329"><code>a7863ba</code></a> add ghsa links</li>
+<li><a href="https://github.com/pallets/jinja/commit/b5c98e78c2ee7d2bf0aa06d29ed9bf7082de9cf4"><code>b5c98e7</code></a> start version 3.1.4</li>
+<li><a href="https://github.com/pallets/jinja/commit/da3a9f0b804199845fcb76f2e08748bdaeba93ee"><code>da3a9f0</code></a> update project files (<a href="https://redirect.github.com/pallets/jinja/issues/1968">#1968</a>)</li>
+<li><a href="https://github.com/pallets/jinja/commit/0ee5eb41d1a2d7d9a05a02dc26dd70e63aaaeeb1"><code>0ee5eb4</code></a> satisfy formatter, linter, and strict mypy</li>
+<li><a href="https://github.com/pallets/jinja/commit/20477c63575175196bfc8103f223cc9f5642595d"><code>20477c6</code></a> update project files (<a href="https://redirect.github.com/pallets/jinja/issues/5457">#5457</a>)</li>
+<li><a href="https://github.com/pallets/jinja/commit/e491223739dedbb1f4fc6a71340c1484e149d947"><code>e491223</code></a> update pyyaml dev dependency</li>
+<li><a href="https://github.com/pallets/jinja/commit/36f98854c721f98ba103f97f65a8a098da5af0d7"><code>36f9885</code></a> fix pr link</li>
+<li>Additional commits viewable in <a href="https://github.com/pallets/jinja/compare/3.1.2...3.1.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gunicorn&package-manager=pip&previous-version=20.1.0&new-version=22.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jinja2&package-manager=pip&previous-version=3.1.2&new-version=3.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -132,7 +123,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-17 02:21:54 +0000 UTC
+        Created At 2024-05-06 20:30:41 +0000 UTC
     </div>
 </div>
 
