@@ -1,13 +1,13 @@
 
-[7063](https://github.com/hyperledger/besu/pull/7063) build: Add default constructor and javadoc for :consensus subprojects
+[625](https://github.com/hyperledger-labs/fabric-token-sdk/pull/625) remove envelope
 
-[7062](https://github.com/hyperledger/besu/pull/7062) build: Add default constructor and javadoc
+[4566](https://github.com/hyperledger/iroha/pull/4566) chore(deps): bump trybuild from 1.0.91 to 1.0.94
 
-[69](https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/69) Different evmVersions for different sourceSets
+[4565](https://github.com/hyperledger/iroha/pull/4565) chore(deps): bump anyhow from 1.0.82 to 1.0.83
 
-[7061](https://github.com/hyperledger/besu/pull/7061) build: Add default constructor and javadoc for :besu
+[2051](https://github.com/hyperledger/web3j/pull/2051) Upgrade gradle to v8.5
 
-[7060](https://github.com/hyperledger/besu/pull/7060) build - Add missing gradle wrapper scripts
+[4846](https://github.com/hyperledger/fabric/pull/4846) Update ordering service docs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

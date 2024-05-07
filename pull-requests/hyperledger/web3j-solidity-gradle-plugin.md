@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
             </td>
             <td>
                 <b>
-                    Different evmVersions for different sourceSets
+                    Different solidity compile config for different sourceSets
                 </b>
             </td>
         </tr>
@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
             </td>
             <td>
                 ### What does this PR do?
-Add functionality where user can set different evmVersions for different Source Sets
+Add functionality where user can set different evmVersions, sol version, optimize, optmizeRuns and ignnoreMissing values for different Source Sets
 
 ### Where should the reviewer start?
 src/main/groovy/org/web3j/solidity/gradle/plugin/SoliditySourceSet.groovy
@@ -40,7 +40,7 @@ currently, we can define different sourceSets in web3j solidity gradle plugin, b
 
 - [x] I've read the contribution guidelines.
 - [x] I've added tests (if applicable).
-- [ ] I've added a changelog entry if necessary.
+- [x] I've added a changelog entry if necessary.
             </td>
         </tr>
     </table>
