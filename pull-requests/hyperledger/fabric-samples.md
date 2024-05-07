@@ -120,33 +120,3 @@ since local forks don't have access to fabric-ubuntu-20.04.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1200" class=".btn">#1200</a>
-            </td>
-            <td>
-                <b>
-                    test-network error message if jq not installed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                With removal of fabric-tools image, test-network
-now depends on jq being installed locally.
-
-This commit logs an error message if jq commands
-fail due to jq not being installed locally.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-29 20:15:16 +0000 UTC
-    </div>
-</div>
-
