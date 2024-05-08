@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/263" class=".btn">#263</a>
-            </td>
-            <td>
-                <b>
-                    Delete Fisco BCOS benchmarks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Caliper no longer supports Fisco BCOS
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 09:50:23 +0000 UTC
-    </div>
-</div>
-

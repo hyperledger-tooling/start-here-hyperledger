@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/627" class=".btn">#627</a>
+            </td>
+            <td>
+                <b>
+                    add an option to stop the htlc scan for preimage when all blocks are …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …searched until the tip of the blockchain.
+
+Can be used for a better experience if triggered by a user and you want to show them immediately whether the preimage is available on the current ledger, instead of having to wait until timing out.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-08 15:24:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/626" class=".btn">#626</a>
+            </td>
+            <td>
+                <b>
+                    cleaup service provider's use in services
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR does the following:
+- Use token.ServiceProvider rather than view.ServiceProvider.
+- Remove ServiceProvider as a field where possible.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-08 14:51:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/625" class=".btn">#625</a>
             </td>
             <td>
