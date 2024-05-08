@@ -14,6 +14,141 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7055" class=".btn">#7055</a>
+            </td>
+            <td>
+                <b>
+                    Reftests 13.3 / EIP-7610 implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+* Upgrade reftests to 13.3
+* Implement retroactive EIP-7610
+
+We need to do both of these at once as the reference tests needed to be
+updated to reflect the changes in the retroactive EIP.
+
+Signed-off-by: Danno Ferrin <danno@numisight.com>
+
+
+## Fixed Issue(s)
+
+This does not fix #6984, even though there are reftests.  The tests are disabled not only Besu doesn't implement the reftests, but because they were filled with a version of Prague that does not implement EIP-6110. Blockchain tests need to remain disabled until there is a 13.4 with 6110 or a 14.0 version.
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 19:48:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7054" class=".btn">#7054</a>
+            </td>
+            <td>
+                <b>
+                    Use github arm64 runners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                github now offer arm64 runners.
+
+The arm64 image is a plain ubuntu 22.04 server with nothing installed (no docker).
+
+Fixes  #7026
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 13:45:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7053" class=".btn">#7053</a>
+            </td>
+            <td>
+                <b>
+                    EIP-2537 activation and updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+** Add EIP-2537 precompiles to prague
+* Update gas schedule
+* Update native lib to one with subgroup checks in mul and multiexp
+
+## Fixed Issue(s)
+#6984
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-06 01:53:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7052" class=".btn">#7052</a>
             </td>
             <td>
@@ -942,34 +1077,6 @@ See #6785
     </table>
     <div class="right-align">
         Created At 2024-05-02 07:14:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7028" class=".btn">#7028</a>
-            </td>
-            <td>
-                <b>
-                    Authcall
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - adds AUTH and AUTHCALL opcodes to Prague evms.
-- adds a mutable authorizedBy:Address field to the MessageFrame
-- adds AUTH opcode costing to gas calculators
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 11:39:12 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/118" class=".btn">#118</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    Fix release for packages without indexes
+                    [WIP] Run chaincode using jobs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                Resolves #115
+                See #119
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-30 10:44:53 +0000 UTC
+        Created At 2024-05-08 11:03:23 +0000 UTC
     </div>
 </div>
 

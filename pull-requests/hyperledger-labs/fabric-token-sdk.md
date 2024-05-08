@@ -24,10 +24,10 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR does the following: It removes the need to register the envelope at the network interface level. This reduces further the dependencies with the underlying backend.
             </td>
         </tr>
     </table>
