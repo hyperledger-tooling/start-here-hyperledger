@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4568" class=".btn">#4568</a>
+            </td>
+            <td>
+                <b>
+                    fix: export RawGenesisBlockFile instead of RawGenesisBlock in schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-08 07:36:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4566" class=".btn">#4566</a>
             </td>
             <td>
@@ -681,65 +740,6 @@ Closes #4549 <!-- Replace with an actual number,  -->
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4548" class=".btn">#4548</a>
-            </td>
-            <td>
-                <b>
-                    IGNORE: Merge to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-03 12:40:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4547" class=".btn">#4547</a>
             </td>
             <td>
@@ -1190,183 +1190,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-05-01 14:16:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4536" class=".btn">#4536</a>
-            </td>
-            <td>
-                <b>
-                    ci: trigger PR CI on lockfile updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Trigger PR CI when `.lock` files are updated. 
-
-### Benefits
-
-pytests will run on dependabot version updates
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 08:27:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4535" class=".btn">#4535</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump base64 from 0.22.0 to 0.22.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [base64](https://github.com/marshallpierce/rust-base64) from 0.22.0 to 0.22.1.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/marshallpierce/rust-base64/blob/master/RELEASE-NOTES.md">base64's changelog</a>.</em></p>
-<blockquote>
-<h1>0.22.1</h1>
-<ul>
-<li>Correct the symbols used for the predefined <code>alphabet::BIN_HEX</code>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/e14400697453bcc85997119b874bc03d9601d0af"><code>e144006</code></a> v0.22.1</li>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/64cca59ddbb4c43244a8f38629b59960ffe36bc0"><code>64cca59</code></a> Merge pull request <a href="https://redirect.github.com/marshallpierce/rust-base64/issues/271">#271</a> from JobanSD/patch-1</li>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/838355e0ac5fb8237ec9b96be5edb011bff00275"><code>838355e</code></a> Correct BinHex 4.0 alphabet according to specifications</li>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/bf15ccf30af8bb6b1f326fffa025d7b0aaa3342f"><code>bf15ccf</code></a> Merge pull request <a href="https://redirect.github.com/marshallpierce/rust-base64/issues/270">#270</a> from marshallpierce/mp/clippy</li>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/fc6aabee8afaf8b2f4cfb12df4cf461bcf9b003d"><code>fc6aabe</code></a> Appease clippy</li>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/9a518a2d5d028068d4bf83ebf437f7a3575e640e"><code>9a518a2</code></a> Merge pull request <a href="https://redirect.github.com/marshallpierce/rust-base64/issues/267">#267</a> from bdura/patch-1</li>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/d96c80f242e3080a03fd1c079730e17373ef0eb6"><code>d96c80f</code></a> Merge branch 'marshallpierce:master' into patch-1</li>
-<li><a href="https://github.com/marshallpierce/rust-base64/commit/e8e4a22761614cab33d838b354c946427d136db8"><code>e8e4a22</code></a> docs: fix trailing ``` in mod.rs example</li>
-<li>See full diff in <a href="https://github.com/marshallpierce/rust-base64/compare/v0.22.0...v0.22.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=base64&package-manager=cargo&previous-version=0.22.0&new-version=0.22.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 06:31:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4534" class=".btn">#4534</a>
-            </td>
-            <td>
-                <b>
-                    chore(dependabot): follow conventional commits
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Linked issue
-
-Related to #4502.
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 06:29:18 +0000 UTC
     </div>
 </div>
 
