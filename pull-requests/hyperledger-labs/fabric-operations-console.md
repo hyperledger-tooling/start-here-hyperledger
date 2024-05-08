@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/703" class=".btn">#703</a>
+            </td>
+            <td>
+                <b>
+                    api fixes for allow to generate token for reader and writer roles and…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                … update message key
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+- Update error message key from msg to message
+- Allow Reader and Writer to generate authentication token to consume other relavant apis
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-08 12:50:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/702" class=".btn">#702</a>
             </td>
             <td>

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4848" class=".btn">#4848</a>
+            </td>
+            <td>
+                <b>
+                    Improve softhsm test guidance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update docs for softhsm integration tests.
+Add log message when softhsm tests don't execute.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-08 16:48:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4846" class=".btn">#4846</a>
             </td>
             <td>
@@ -302,7 +329,7 @@ Removing a test flake
 - Documentation update
 
 #### Description
-Removed Idemixgen from the documentation to reflect its removal from the set of Fabric produced binaries.
+Removed Idemixgen from the documentation to reflect its removal from the set of Fabric produced binaries. Also created the seperate PR for idemix repo.
 
 <!--- Describe your changes in detail, including motivation. -->
 
@@ -372,34 +399,6 @@ The results will not yet be published to OpenSSF
     </table>
     <div class="right-align">
         Created At 2024-05-02 17:45:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4830" class=".btn">#4830</a>
-            </td>
-            <td>
-                <b>
-                    Suppress scheduled jobs on personal forks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Suppress scheduled jobs on personal forks.
-
-Also, enable running the jobs on-demand in personal forks by using a runner that is available on personal forks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 16:39:31 +0000 UTC
     </div>
 </div>
 

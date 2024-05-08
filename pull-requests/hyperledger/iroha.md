@@ -14,6 +14,107 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4571" class=".btn">#4571</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump tomlkit from 0.12.4 to 0.12.5 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [tomlkit](https://github.com/sdispater/tomlkit) from 0.12.4 to 0.12.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/sdispater/tomlkit/releases">tomlkit's releases</a>.</em></p>
+<blockquote>
+<h2>0.12.5</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>[pre-commit.ci] pre-commit autoupdate by <a href="https://github.com/pre-commit-ci"><code>@​pre-commit-ci</code></a> in <a href="https://redirect.github.com/python-poetry/tomlkit/pull/337">python-poetry/tomlkit#337</a></li>
+<li>chore(deps-dev): bump idna from 3.4 to 3.7 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/python-poetry/tomlkit/pull/339">python-poetry/tomlkit#339</a></li>
+<li>fix: CI workflow for macos by <a href="https://github.com/frostming"><code>@​frostming</code></a> in <a href="https://redirect.github.com/python-poetry/tomlkit/pull/342">python-poetry/tomlkit#342</a></li>
+<li>chore(deps-dev): bump jinja2 from 3.1.3 to 3.1.4 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/python-poetry/tomlkit/pull/344">python-poetry/tomlkit#344</a></li>
+<li>fix: don't add sign if the float is negative by <a href="https://github.com/frostming"><code>@​frostming</code></a> in <a href="https://redirect.github.com/python-poetry/tomlkit/pull/345">python-poetry/tomlkit#345</a></li>
+<li>fix: Construction of OutOfOrderTableProxy can cause newlines to be inserted by <a href="https://github.com/frostming"><code>@​frostming</code></a> in <a href="https://redirect.github.com/python-poetry/tomlkit/pull/347">python-poetry/tomlkit#347</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/pre-commit-ci"><code>@​pre-commit-ci</code></a> made their first contribution in <a href="https://redirect.github.com/python-poetry/tomlkit/pull/337">python-poetry/tomlkit#337</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/python-poetry/tomlkit/compare/0.12.4...0.12.5">https://github.com/python-poetry/tomlkit/compare/0.12.4...0.12.5</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/python-poetry/tomlkit/blob/master/CHANGELOG.md">tomlkit's changelog</a>.</em></p>
+<blockquote>
+<h1>Change Log</h1>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/a96883b15f545169dd33f16160bd609d624471e3"><code>a96883b</code></a> chore: release 0.12.5</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/c2611c555261e41e1219a675cef14dd24229c607"><code>c2611c5</code></a> fix: Construction of OutOfOrderTableProxy can cause newlines to be inserted (...</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/990e325d72b96e3d8e34d2dc5224a64a444c5d12"><code>990e325</code></a> fix: redundant minus sign added to negative integers when multiplie by -1</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/e5e09e9e815010a6ab562d17c3ead4034fba6d19"><code>e5e09e9</code></a> chore: switch to ruff lint and format</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/bf01a25e26e5968c0fcb515f0513b9f88ab83e03"><code>bf01a25</code></a> fix: don't add sign if the float is negative (<a href="https://redirect.github.com/sdispater/tomlkit/issues/345">#345</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/059fab2227a23215595894db66f8f731abe8387b"><code>059fab2</code></a> chore(deps-dev): bump jinja2 from 3.1.3 to 3.1.4 (<a href="https://redirect.github.com/sdispater/tomlkit/issues/344">#344</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/6351f3d68dbc3d67ccfc20b7b0b79479d7fb982a"><code>6351f3d</code></a> fix: CI workflow for macos (<a href="https://redirect.github.com/sdispater/tomlkit/issues/342">#342</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/3711b066f1da9850cbd5053e2ffcb492ea54a8cc"><code>3711b06</code></a> fix: linter errors caused by black</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/dab2da8ea684eee0278119fb5b6e88948a0aed26"><code>dab2da8</code></a> chore(deps-dev): bump idna from 3.4 to 3.7 (<a href="https://redirect.github.com/sdispater/tomlkit/issues/339">#339</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/4f2ae7f255611036bc2ff1f0b300e2ea43d7bf6b"><code>4f2ae7f</code></a> [pre-commit.ci] pre-commit autoupdate (<a href="https://redirect.github.com/sdispater/tomlkit/issues/337">#337</a>)</li>
+<li>See full diff in <a href="https://github.com/sdispater/tomlkit/compare/0.12.4...0.12.5">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tomlkit&package-manager=pip&previous-version=0.12.4&new-version=0.12.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-08 16:22:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4568" class=".btn">#4568</a>
             </td>
             <td>
@@ -1055,141 +1156,6 @@ Closes #4412
     </table>
     <div class="right-align">
         Created At 2024-05-02 12:13:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4539" class=".btn">#4539</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump serde from 1.0.199 to 1.0.200
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [serde](https://github.com/serde-rs/serde) from 1.0.199 to 1.0.200.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
-<blockquote>
-<h2>v1.0.200</h2>
-<ul>
-<li>Fix formatting of &quot;invalid type&quot; and &quot;invalid value&quot; deserialization error messages containing NaN or infinite floats (<a href="https://redirect.github.com/serde-rs/serde/issues/2733">#2733</a>, thanks <a href="https://github.com/jamessan"><code>@​jamessan</code></a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/serde-rs/serde/commit/cc865ac5236c094275b10bff4fa41e561b3e359f"><code>cc865ac</code></a> Release 1.0.200</li>
-<li><a href="https://github.com/serde-rs/serde/commit/2d973c1805dd9b613e89cc2375130a23f18ffa73"><code>2d973c1</code></a> Merge pull request <a href="https://redirect.github.com/serde-rs/serde/issues/2733">#2733</a> from jamessan/nan-decimal</li>
-<li><a href="https://github.com/serde-rs/serde/commit/6ca499b2dd3d520903095b202770eba2720ba9b5"><code>6ca499b</code></a> Only format Unexpected::Float with decimal point if it is finite</li>
-<li>See full diff in <a href="https://github.com/serde-rs/serde/compare/v1.0.199...v1.0.200">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde&package-manager=cargo&previous-version=1.0.199&new-version=1.0.200)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 16:13:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4538" class=".btn">#4538</a>
-            </td>
-            <td>
-                <b>
-                    fix: Remove nested option on `TransactionEventFilter::block_height`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 14:16:06 +0000 UTC
     </div>
 </div>
 

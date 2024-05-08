@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2937" class=".btn">#2937</a>
+            </td>
+            <td>
+                <b>
+                    0.11.1 ChangeLog fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes to the changelog file for the release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-07 19:19:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2936" class=".btn">#2936</a>
+            </td>
+            <td>
+                <b>
+                    0.11.1 and aiohttp dependency update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR for a patch release of ACA-Py 0.11.1, with the only change being an update of the aiohttp dependency to one that addresses [CVE-2024-30251](https://github.com/advisories/GHSA-5m98-qgg9-wh84).
+
+Fixes #2935.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-07 17:13:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2933" class=".btn">#2933</a>
             </td>
             <td>
@@ -240,33 +294,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-05-01 19:55:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2926" class=".btn">#2926</a>
-            </td>
-            <td>
-                <b>
-                    0.12.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 17:01:58 +0000 UTC
     </div>
 </div>
 
