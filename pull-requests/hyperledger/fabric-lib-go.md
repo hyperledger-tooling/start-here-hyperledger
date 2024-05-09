@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Enable weekly scheduled build
+                    Add logging for pkcs11 initialize
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                Enable weekly scheduled build.
-Also update Go to v1.2.9.
+                Add warnings and debug logging to troubleshoot
+pkcs11 initialize function.
+
+Enable debug using `bccsp_p11` component in FABRIC_LOGGING_SPEC.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-30 13:34:49 +0000 UTC
+        Created At 2024-05-09 16:17:34 +0000 UTC
     </div>
 </div>
 

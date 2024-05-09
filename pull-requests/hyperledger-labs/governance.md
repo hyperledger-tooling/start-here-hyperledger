@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    Add blsful repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                resolves #29 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-02 15:56:40 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4572" class=".btn">#4572</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump faker from 25.0.0 to 25.1.0 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [faker](https://github.com/joke2k/faker) from 25.0.0 to 25.1.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
+<blockquote>
+<h2>Release v25.1.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.1.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<h2>Release v25.0.1</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.0.1/CHANGELOG.md">CHANGELOG.md</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.0.1...v25.1.0">v25.1.0 - 2024-05-08</a></h3>
+<ul>
+<li>Add geo for <code>pl_PL</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
+<li>Add geo for <code>sk_SK</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
+</ul>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.0.1">v25.0.1 - 2024-05-02</a></h3>
+<ul>
+<li>Add type stub file to <code>setup.py</code>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/joke2k/faker/commit/66b0388d0cec9d97e7ef4541911c1d8d19c6a983"><code>66b0388</code></a> Bump version: 25.0.1 → 25.1.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/0303623c6019f8677646db358d81e2759ae7c9de"><code>0303623</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/6c52ddeb182198ae6d4ae30ce3bf70f83667a794"><code>6c52dde</code></a> :lipstick: format code</li>
+<li><a href="https://github.com/joke2k/faker/commit/c3c1c0f3f8cd74db16df71825f1331bbdca458be"><code>c3c1c0f</code></a> Add geo for <code>pl_PL</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2044">#2044</a>)</li>
+<li><a href="https://github.com/joke2k/faker/commit/0512242754bbfaaec27d891bdb985a88617e8698"><code>0512242</code></a> Update <strong>init</strong>.py (<a href="https://redirect.github.com/joke2k/faker/issues/2031">#2031</a>)</li>
+<li><a href="https://github.com/joke2k/faker/commit/2069bd3f57caff88fd0b7cbcd51f970890be43bd"><code>2069bd3</code></a> Bump version: 25.0.0 → 25.0.1</li>
+<li><a href="https://github.com/joke2k/faker/commit/681922c11de9abfae3fd72e92becb54dc3c3c733"><code>681922c</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/106d8ba3981445bad6915a0567931416539149f7"><code>106d8ba</code></a> add stub to setup.py</li>
+<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.1.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.0.0&new-version=25.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-09 16:17:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4571" class=".btn">#4571</a>
             </td>
             <td>
@@ -948,171 +1044,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-05-03 11:15:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4545" class=".btn">#4545</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump faker from 25.0.0 to 25.0.1 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [faker](https://github.com/joke2k/faker) from 25.0.0 to 25.0.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
-<blockquote>
-<h2>Release v25.0.1</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.0.1/CHANGELOG.md">CHANGELOG.md</a>.</p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
-<blockquote>
-<h3><a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.0.1">v25.0.1 - 2024-05-02</a></h3>
-<ul>
-<li>Add type stub file to <code>setup.py</code>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/joke2k/faker/commit/2069bd3f57caff88fd0b7cbcd51f970890be43bd"><code>2069bd3</code></a> Bump version: 25.0.0 → 25.0.1</li>
-<li><a href="https://github.com/joke2k/faker/commit/681922c11de9abfae3fd72e92becb54dc3c3c733"><code>681922c</code></a> :pencil: Update CHANGELOG.md</li>
-<li><a href="https://github.com/joke2k/faker/commit/106d8ba3981445bad6915a0567931416539149f7"><code>106d8ba</code></a> add stub to setup.py</li>
-<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.0.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.0.0&new-version=25.0.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-02 16:49:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4544" class=".btn">#4544</a>
-            </td>
-            <td>
-                <b>
-                    feat: filtered queries in contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-- remove `QueryWithParameters`
-- move all parameters to `ClientQueryPayload` (was `QueryPayload` before, stored inside `SignedQuery`); `SignedQuery` now equivalent to `QueryWithParameters<SignedQuery>`. All the parameters are now scale-encoded and versioned instead of being passed as query parameters
-- make `SmartContractQuery`, which is now equivalent to `QueryWithParameters<QueryBox>` that was used before, but has filtering support
-- move all the post-processing (filterting, sorting, pagination, batching) to a single function (`LazyQueryOutput::apply_postprocessing`), introduce a new type for a post-processed query output
-- add an integration test using the filtering (`ProcessedQueryOutput`)
-
-### Linked issue
-
-Closes #4423 
-
-### Checklist
-
-- [ ] make CI pass
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-02 13:12:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4543" class=".btn">#4543</a>
-            </td>
-            <td>
-                <b>
-                    fix: Report if a request to check peer status in test_network fails
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Warn if a peer status request is failed. Helped me debug my misconfigured proxy failing tests when ran in IDE...
-
-This also refactors a function a bit, because IMO it was a bit hard to read with the fold and `map_or`
-
-### Linked issue
-
-Closes #4542
-
-### Benefits
-
-`+` Easier debugging if something went wrong with requests
-`-` Can introduce log noise, but shouldn't happen if the actual connection to the node is OK
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-02 13:04:27 +0000 UTC
     </div>
 </div>
 
