@@ -271,29 +271,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2927" class=".btn">#2927</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed all relative paths to absolute paths for PyPI project description compatibility
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-01 19:55:10 +0000 UTC
-    </div>
-</div>
-
