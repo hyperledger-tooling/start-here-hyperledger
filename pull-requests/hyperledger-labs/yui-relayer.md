@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/139" class=".btn">#139</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    [bugfix] Fix handling error returned from `QueryClientStatePair`
+                    update README to add the v0.5 release
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                This PR also does:
-- Fix some other error handling
-- Delete some unused code
-- Update buf (protobuf) stuffs
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-18 22:26:43 +0000 UTC
+        Created At 2024-05-09 01:25:44 +0000 UTC
     </div>
 </div>
 

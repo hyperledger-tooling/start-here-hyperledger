@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             <td>
                 This PR does the following: It fixes the bug reported in #568 .
 The integration tests by default have the web server disabled. Only the `pingpong` test uses it.
-The web server can be enabled by calling the `EnableWeb` function on the fsc topology.
+The web server can be enabled by setting `WebEnabled` to `true` on the fsc topology.
             </td>
         </tr>
     </table>
