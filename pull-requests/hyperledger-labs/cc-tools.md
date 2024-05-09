@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/44" class=".btn">#44</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    create package query-search
+                    Bump Go version to 1.21
                 </b>
             </td>
         </tr>
@@ -27,26 +27,17 @@ permalink: /pull-requests/hyperledger-labs/cc-tools
                 
             </td>
             <td>
-                This package provides a way to query a database, possibly using a CouchDB-like interface and defines several types, methods, and functions for querying. It facilitates the creation of queries without having to write queries in a raw form.
+                ## What was done
+- The Golang version of the project was bumped to version 1.21 (the version used on official Fabric images since Fabric 2.2).
+- Multiple packages were updated to correct dependabot warnings
 
-**Features**
-- The Config struct contains the settings used for querying
-- These settings include RemoveTags (a list of tags to be removed from the results)
-- AssetName (the name of the asset being queried) used for create query
-- PageSize (the number of results per page)
-- BookMark (the bookmark for pagination)
-- Resolve (a list of relations to be resolved)
-- Sort (a list of fields to sort by)
-- IndexDoc (a document containing the index design and name)
-- NoRemoveTagsTransaction (a boolean indicating whether to remove tags during the transaction),
-- CallBack (a function to be called after the query is executed)
-- Date handling for searches
-- Wraper to add fields to the search
+## Breaking changes
+- Due to the update on the Golang version, this version is set to work with Fabric official images from version 2.2 or higher
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-05 17:00:17 +0000 UTC
+        Created At 2024-05-08 20:54:40 +0000 UTC
     </div>
 </div>
 
