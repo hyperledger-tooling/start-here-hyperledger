@@ -1,13 +1,13 @@
 
+[4850](https://github.com/hyperledger/fabric/pull/4850) Update channel_update_tutorial.rst
+
+[4849](https://github.com/hyperledger/fabric/pull/4849) Add logging spec for integration tests
+
+[4572](https://github.com/hyperledger/iroha/pull/4572) chore(deps): bump faker from 25.0.0 to 25.1.0 in /client_cli/pytests
+
+[33](https://github.com/hyperledger/fabric-lib-go/pull/33) Add logging for pkcs11 initialize
+
 [1569](https://github.com/hyperledger/caliper/pull/1569) remove vscode extension
-
-[126](https://github.com/hyperledger/web3j-maven-plugin/pull/126) Bump to 4.11.4-SNAPSHOT
-
-[7080](https://github.com/hyperledger/besu/pull/7080) EIP-2935: Serve historical block hashes from state
-
-[704](https://github.com/hyperledger-labs/fabric-operations-console/pull/704) Update libraries
-
-[140](https://github.com/hyperledger-labs/yui-relayer/pull/140) update README to add the v0.5 release
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

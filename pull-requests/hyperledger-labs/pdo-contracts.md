@@ -39,31 +39,3 @@ Scenarios for testing (05 and 06 should work, 07 is future work)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/44" class=".btn">#44</a>
-            </td>
-            <td>
-                <b>
-                    Couple fixes that will make the multiuser tests easier to build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds two things:
-* A multiuser jupyter test (basically just starts 3 containers each with separate jupyter instanced); allows for testing sharing of contracts between distinct users.
-* Better support for moving files into and out of containers; file upload widget, contract import, key download.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-02 15:16:37 +0000 UTC
-    </div>
-</div>
-
