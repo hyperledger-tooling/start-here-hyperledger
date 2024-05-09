@@ -550,26 +550,33 @@ build: Add default constructor and javadoc for crypto, datatypes subprojects
                 
             </td>
             <td>
-                ## PR description
+                ## Description
+###  General purpose execution layer requests [eip-7685](https://eips.ethereum.org/EIPS/eip-7685 )
+This PR implements the generic execution layer requests.
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+Fixes #6985, #6986 and the last item of #6800
 
+### Main changes:
 
-### Thanks for sending a pull request! Have you done the following?
+- Removal of `depositRoot` and `withdrawalRequestRoot` from the `blockheader`
+- Removal of `deposit` and `withdrawal` requests from the block body
+- Introduction of `requestRoot` in the `blockHeader`
+- Introduction of requests in the block body
+- Introduction of Generic Request Type
+- Removed `depoistValidator` and `withdrawalRequestValidator`
+- Added a generic Request decoder/encoder
+- Introduction of `RequestValidatorCoordinator` and `RequestProcessorCoordinator`
+- Extract the processing logic of `deposits` and `withdrawalRequests` from block creation and block processing to new `DepositProcessor` and `WithdrawalRequestProcessor`
+- Replaced of `depositValidatorProvider` and `withdrawalRequestValidatorProvider` by `RequestValidadorProvider`
+- Change logic in the engine methods to use the correct validator to validate requests
+- Adapts deposit existing tests and withdrawal existing tests to use the new classess
+- Adds generic validation to the request list (Request root, request ordering, etc)
 
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+This PR does not ensure the logic of `Deposits` and `withdrawalRequests` but encapsulates them into a generic request list that is used to calculate the new `requestRoot`. The engine API has not changed and the requests are still split into `deposits` and `withdrawalRequests`.
 
-### Locally, you can run these tests to catch failures early:
+## To do: 
+- [ ] Add more unit tests
 
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
 
 
             </td>
