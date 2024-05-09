@@ -1,24 +1,24 @@
 ---
 layout: default
-title: caliper
+title: web3j-maven-plugin
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/caliper
+permalink: /pull-requests/hyperledger/web3j-maven-plugin
 ---
 
-# caliper <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/caliper){: .btn .mr-4 }</span>
+# web3j-maven-plugin <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/web3j-maven-plugin){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1569" class=".btn">#1569</a>
+                PR <a href="https://github.com/hyperledger/web3j-maven-plugin/pull/126" class=".btn">#126</a>
             </td>
             <td>
                 <b>
-                    remove vscode extension
+                    Bump to 4.11.4-SNAPSHOT
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/caliper
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-09 10:37:42 +0000 UTC
+        Created At 2024-05-09 09:47:08 +0000 UTC
     </div>
 </div>
 
