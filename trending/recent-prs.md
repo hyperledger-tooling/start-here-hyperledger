@@ -1,13 +1,13 @@
 
-[2943](https://github.com/hyperledger/aries-cloudagent-python/pull/2943) fix(interop): overly strict validation
+[628](https://github.com/hyperledger-labs/fabric-token-sdk/pull/628) F identity refactor
 
-[7083](https://github.com/hyperledger/besu/pull/7083) changelog - Java 17 and Java 21 upcoming changes
+[7089](https://github.com/hyperledger/besu/pull/7089) Peering - disconnect peers that have multiple discovery ports
 
-[7082](https://github.com/hyperledger/besu/pull/7082) changelog - Java 17 and Java 21 upcoming changes
+[7088](https://github.com/hyperledger/besu/pull/7088) Update gradle wrapper validation
 
-[46](https://github.com/hyperledger-labs/pdo-contracts/pull/46) Add multi-issuer support for wallets
+[7087](https://github.com/hyperledger/besu/pull/7087) Revert "Use github arm64 runners (#7054)"
 
-[4851](https://github.com/hyperledger/fabric/pull/4851) Add OpenSSF Scorecard bug
+[7086](https://github.com/hyperledger/besu/pull/7086) disable flaky test - NewPendingTransactionAcceptanceTest > subscriptionToMinerNodeMustReceiveEveryPublishEvent 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
