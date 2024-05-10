@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-hipe
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-hipe/pull/165" class=".btn">#165</a>
+                PR <a href="https://github.com/hyperledger/indy-hipe/pull/166" class=".btn">#166</a>
             </td>
             <td>
                 <b>
-                    RTD Fixes to enable publishing
+                    chore: updating dependabot file to support Python packages
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/indy-hipe
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-03 17:56:52 +0000 UTC
+        Created At 2024-05-10 16:07:02 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2945" class=".btn">#2945</a>
+            </td>
+            <td>
+                <b>
+                    chore: updating dependabot to support gha, python, docker and dev container packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-10 16:21:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2943" class=".btn">#2943</a>
             </td>
             <td>
@@ -33,51 +59,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2024-05-10 00:28:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2942" class=".btn">#2942</a>
-            </td>
-            <td>
-                <b>
-                    :construction_worker: Add pip to dependabot config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Configures pip dependency management with dependabot
-
-I've specified:
-```yml
-    schedule:
-      interval: daily
-    update-types:
-      - "minor"
-      - "major"
-    commit-message:
-      prefix: "chore(deps): "
-    labels:
-      - "dependencies"
-      - "python"
-```
-
-Let me know if there are any desired changes.
-
-`update-types` specifies to ignore patch releases, so it doesn't spam too much (and because ~ or ^ versioning already would include patch releases when lock file is updated)
-Then, `commit-message: prefix` and `labels` is to match the existing dependabot PR style (which I assume is currently created manually)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 21:00:30 +0000 UTC
     </div>
 </div>
 

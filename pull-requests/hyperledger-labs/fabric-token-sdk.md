@@ -18,16 +18,20 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    F identity refactor
+                    identity deserialization
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR does the following:
+- It introduces an alias of `view.Identity` from the smart client in the Token and Driver API. In future PR, the alias will be used everywhere and then the dependency to the smart client removed.
+- It refactors the identity deserialization infrastructure to be more customizable. The identity type tells which deserializer to use in all circumstances.
+
+Side node: This PR leaves a TODO to be addressed in another PR. The auditor of the zkatdlog driver needs to be updated to better handle the htlc identities and their relative audit information.
             </td>
         </tr>
     </table>
@@ -116,32 +120,6 @@ Can be used for a better experience if triggered by a user and you want to show 
     </table>
     <div class="right-align">
         Created At 2024-05-07 17:31:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/624" class=".btn">#624</a>
-            </td>
-            <td>
-                <b>
-                    Integration replicas
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-03 12:29:57 +0000 UTC
     </div>
 </div>
 
