@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                This PR introduces the notifiers that allow us to listen for any row insert/update/delete in the DB.
+The new functionality is in the two files notifier.go. The rest is moving files to allow for deduplication of logic between the Postgres and the sqlite implementation.
             </td>
         </tr>
     </table>

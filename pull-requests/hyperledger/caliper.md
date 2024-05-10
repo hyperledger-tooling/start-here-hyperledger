@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1571" class=".btn">#1571</a>
+            </td>
+            <td>
+                <b>
+                    FIX #1570: Enhance the test coverage of fixedRate controller.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                FIX #1570 
+## Checklist
+ - [X]  A link to the issue/user story that the pull request relates to
+
+## Existing issues
+No
+
+## Automated Tests
+Enhance the tests.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-10 13:40:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1569" class=".btn">#1569</a>
             </td>
             <td>

@@ -14,6 +14,101 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4574" class=".btn">#4574</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump trybuild from 1.0.91 to 1.0.95
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [trybuild](https://github.com/dtolnay/trybuild) from 1.0.91 to 1.0.95.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/trybuild/releases">trybuild's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.95</h2>
+<ul>
+<li>Keep long type names in diagnostics so that test output does not vary depending on the length of the absolute filepath of the crate (<a href="https://redirect.github.com/dtolnay/trybuild/issues/269">#269</a>)</li>
+</ul>
+<h2>1.0.94</h2>
+<ul>
+<li>Resolve unexpected_cfgs warning (<a href="https://redirect.github.com/dtolnay/trybuild/issues/268">#268</a>)</li>
+</ul>
+<h2>1.0.93</h2>
+<ul>
+<li>Remove dependency on <code>once_cell</code> crate (<a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a>, thanks <a href="https://github.com/taiki-e"><code>@​taiki-e</code></a>)</li>
+</ul>
+<h2>1.0.92</h2>
+<ul>
+<li>Update normalization of verbose type paths to accommodate error message changes in rust 1.78 (<a href="https://redirect.github.com/dtolnay/trybuild/issues/265">#265</a>, thanks <a href="https://github.com/weiznich"><code>@​weiznich</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/trybuild/commit/02e6117084d81540ff533da81a3bdd74e00cdf27"><code>02e6117</code></a> Release 1.0.95</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/619bfcd491cbdcc443e54f66aa329dc207cc6034"><code>619bfcd</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/270">#270</a> from dtolnay/typename</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/db3c9b4f545d8e9250e2defeb724d6f46c4f22cc"><code>db3c9b4</code></a> Disable long typename shortening in diagnostics</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/9ed763b56f204ecc2624657016c12aeae3d26920"><code>9ed763b</code></a> Release 1.0.94</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/b3c948124251872bc3111d2cf2938ae044e9e9d1"><code>b3c9481</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/268">#268</a> from dtolnay/checkcfg</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/7bb6f2fb22f39744771fa229740d8e023c67e424"><code>7bb6f2f</code></a> Resolve unexpected_cfgs warning</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/8a57d8c2eb84241a5986f11cb99621d8a59ce65e"><code>8a57d8c</code></a> Release 1.0.93</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/b9888357069e2cbc24a752ad5c7c125f60d178ac"><code>b988835</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/267">#267</a> from dtolnay/constmutex</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/95f8cdbd329c1c46d1a413faf3622053838eaa4d"><code>95f8cdb</code></a> Remove OnceLock around intra-process lock's mutex</li>
+<li><a href="https://github.com/dtolnay/trybuild/commit/62b1543732bb61ac0cba28d90cc5b17826ebe780"><code>62b1543</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a> from taiki-e/once_cell</li>
+<li>Additional commits viewable in <a href="https://github.com/dtolnay/trybuild/compare/1.0.91...1.0.95">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=trybuild&package-manager=cargo&previous-version=1.0.91&new-version=1.0.95)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-10 16:31:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4573" class=".btn">#4573</a>
             </td>
             <td>
@@ -311,97 +406,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-05-08 07:36:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4566" class=".btn">#4566</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump trybuild from 1.0.91 to 1.0.94
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [trybuild](https://github.com/dtolnay/trybuild) from 1.0.91 to 1.0.94.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dtolnay/trybuild/releases">trybuild's releases</a>.</em></p>
-<blockquote>
-<h2>1.0.94</h2>
-<ul>
-<li>Resolve unexpected_cfgs warning (<a href="https://redirect.github.com/dtolnay/trybuild/issues/268">#268</a>)</li>
-</ul>
-<h2>1.0.93</h2>
-<ul>
-<li>Remove dependency on <code>once_cell</code> crate (<a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a>, thanks <a href="https://github.com/taiki-e"><code>@​taiki-e</code></a>)</li>
-</ul>
-<h2>1.0.92</h2>
-<ul>
-<li>Update normalization of verbose type paths to accommodate error message changes in rust 1.78 (<a href="https://redirect.github.com/dtolnay/trybuild/issues/265">#265</a>, thanks <a href="https://github.com/weiznich"><code>@​weiznich</code></a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dtolnay/trybuild/commit/9ed763b56f204ecc2624657016c12aeae3d26920"><code>9ed763b</code></a> Release 1.0.94</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/b3c948124251872bc3111d2cf2938ae044e9e9d1"><code>b3c9481</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/268">#268</a> from dtolnay/checkcfg</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/7bb6f2fb22f39744771fa229740d8e023c67e424"><code>7bb6f2f</code></a> Resolve unexpected_cfgs warning</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/8a57d8c2eb84241a5986f11cb99621d8a59ce65e"><code>8a57d8c</code></a> Release 1.0.93</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/b9888357069e2cbc24a752ad5c7c125f60d178ac"><code>b988835</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/267">#267</a> from dtolnay/constmutex</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/95f8cdbd329c1c46d1a413faf3622053838eaa4d"><code>95f8cdb</code></a> Remove OnceLock around intra-process lock's mutex</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/62b1543732bb61ac0cba28d90cc5b17826ebe780"><code>62b1543</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a> from taiki-e/once_cell</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/f8795cf667dec726e3884eccf1b3a3d401726b8d"><code>f8795cf</code></a> Remove dependency on once_cell</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/5fb7caeccc5a1fea9b834659f84658cfa4bfa551"><code>5fb7cae</code></a> Release 1.0.92</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/bbe5be02f83ede9aa2ac096689837ba5b12601fd"><code>bbe5be0</code></a> Merge pull request 265 from weiznich/fix/paths_with_rust_1.78</li>
-<li>Additional commits viewable in <a href="https://github.com/dtolnay/trybuild/compare/1.0.91...1.0.94">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=trybuild&package-manager=cargo&previous-version=1.0.91&new-version=1.0.94)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 16:39:41 +0000 UTC
     </div>
 </div>
 
