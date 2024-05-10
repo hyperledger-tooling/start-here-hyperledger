@@ -3021,37 +3021,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/418" class=".btn">#418</a>
-            </td>
-            <td>
-                <b>
-                    Release workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Opening this as a new PR again. I had to do work on my forked main branch and when I rebased it forced closed the old PR's.  
-https://github.com/hyperledger/aries-acapy-plugins/pull/391
-https://github.com/hyperledger/aries-acapy-plugins/pull/387
-
-I think I addressed all the comments. 
-
-Some of the bash scripting is pretty gross but I tried to comment and document it well.
-
-I had to fix some tests and I upgraded the anoncreds library as well. This is where the changes unrelated to the workflows came from. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-02 21:20:07 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[4850](https://github.com/hyperledger/fabric/pull/4850) Update channel_update_tutorial.rst
+[2943](https://github.com/hyperledger/aries-cloudagent-python/pull/2943) fix(interop): overly strict validation
 
-[4849](https://github.com/hyperledger/fabric/pull/4849) Add logging spec for integration tests
+[7083](https://github.com/hyperledger/besu/pull/7083) changelog - Java 17 and Java 21 upcoming changes
 
-[4572](https://github.com/hyperledger/iroha/pull/4572) chore(deps): bump faker from 25.0.0 to 25.1.0 in /client_cli/pytests
+[7082](https://github.com/hyperledger/besu/pull/7082) changelog - Java 17 and Java 21 upcoming changes
 
-[33](https://github.com/hyperledger/fabric-lib-go/pull/33) Add logging for pkcs11 initialize
+[46](https://github.com/hyperledger-labs/pdo-contracts/pull/46) Add multi-issuer support for wallets
 
-[1569](https://github.com/hyperledger/caliper/pull/1569) remove vscode extension
+[4851](https://github.com/hyperledger/fabric/pull/4851) Add OpenSSF Scorecard bug
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
