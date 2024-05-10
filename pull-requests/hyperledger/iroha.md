@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    ci: by command, exclude client integration tests from coverage
+                    ci: restore `with_coverage`, isolate not `unstable` but `extra_functional`
                 </b>
             </td>
         </tr>
@@ -29,21 +29,18 @@ permalink: /pull-requests/hyperledger/iroha
             <td>
                 ## Description
 
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
+1. redefine `with_coverage` step to exclude client integration tests 
+   - and to include p2p integration tests
+2. expand the exception of the client integration tests from `unstable_network` to `extra_functional`
 
 ### Linked issue
 
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-- Closes https://github.com/hyperledger/iroha/issues/4488#issuecomment-2103228798
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
+1. closes https://github.com/hyperledger/iroha/issues/4488#issuecomment-2103228798
+2. sometimes `integration` step is marked red due to some flaky `extra_functional` tests
 
 ### Benefits
 
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+2. isolation of flaky tests more in line with current realities
 
 ### Checklist
 
@@ -52,14 +49,6 @@ permalink: /pull-requests/hyperledger/iroha
 - [ ] All applicable CI checks pass (or I promised to make them pass later)
 - [x] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
 
             </td>
         </tr>
@@ -989,120 +978,6 @@ Closes #4549 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-05-06 09:32:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4547" class=".btn">#4547</a>
-            </td>
-            <td>
-                <b>
-                    fix: remove serde(flatten) from SetKeyValue/RemoveKeyValue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-serde cannot flatten Strings and O::Id is always serialized as string. As a consequence it's impossible to serialize/deserialize SetKeyValue/RemoveKeyValue in genesis
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-03 11:25:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4546" class=".btn">#4546</a>
-            </td>
-            <td>
-                <b>
-                    fix: remove serde(flatten) from SetKeyValue/RemoveKeyValue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-serde cannot flatten `String`s and `O::Id` is always serialized as string. As a consequence it's impossible to serialize/deserialize `SetKeyValue`/`RemoveKeyValue` in genesis
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-03 11:15:55 +0000 UTC
     </div>
 </div>
 
