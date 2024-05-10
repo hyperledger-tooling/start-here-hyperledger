@@ -14,6 +14,143 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2943" class=".btn">#2943</a>
+            </td>
+            <td>
+                <b>
+                    fix(interop): overly strict validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change relaxes some overly strict validation that was preventing presenting proof using LDP-VC from Credo 0.5.X based agents.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-10 00:28:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2942" class=".btn">#2942</a>
+            </td>
+            <td>
+                <b>
+                    :construction_worker: Add pip to dependabot config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Configures pip dependency management with dependabot
+
+I've specified:
+```yml
+    schedule:
+      interval: daily
+    update-types:
+      - "minor"
+      - "major"
+    commit-message:
+      prefix: "chore(deps): "
+    labels:
+      - "dependencies"
+      - "python"
+```
+
+Let me know if there are any desired changes.
+
+`update-types` specifies to ignore patch releases, so it doesn't spam too much (and because ~ or ^ versioning already would include patch releases when lock file is updated)
+Then, `commit-message: prefix` and `labels` is to match the existing dependabot PR style (which I assume is currently created manually)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-09 21:00:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2940" class=".btn">#2940</a>
+            </td>
+            <td>
+                <b>
+                    :arrow_up: Upgrade lint dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ⬆️ Upgrades:
+
+- `black`: 24.3.0 -> 24.4.2
+- `ruff`: 0.1.2 -> 0.4.4
+- `pre-commit`: 3.3.3 -> 3.7.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-09 18:45:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2939" class=".btn">#2939</a>
+            </td>
+            <td>
+                <b>
+                    :arrow_up: Upgrade test dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                :arrow_up: Upgrades:
+- `pytest`: 8.0.0 -> 8.2.0
+- `pytest-asyncio`: 0.23.5 -> 0.23.6
+- `pytest-cov`: 4.1.0 -> 5.0.0
+- `pytest-ruff`: 0.1.1 -> 0.3.2
+
+➖ Removes:
+- `mock`
+  - This dependency is used to provide unittest.mock features to older version of python
+  - Not needed with current python version
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-09 18:28:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2937" class=".btn">#2937</a>
             </td>
             <td>
