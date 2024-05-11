@@ -1584,32 +1584,3 @@ Revert to unbreak referenceTests execution specs task.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7050" class=".btn">#7050</a>
-            </td>
-            <td>
-                <b>
-                    Update execution-spec tests to 2.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-update execution spec tests to latest release version
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-04 01:06:49 +0000 UTC
-    </div>
-</div>
-
