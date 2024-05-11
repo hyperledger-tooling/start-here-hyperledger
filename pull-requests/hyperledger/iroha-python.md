@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/189" class=".btn">#189</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/193" class=".btn">#193</a>
             </td>
             <td>
                 <b>
-                    [test] cover all queries
+                    [fix] #191: Updated to iroha version v2.0.0-pre-rc.21
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-24 15:42:00 +0000 UTC
+        Created At 2024-05-10 19:20:27 +0000 UTC
     </div>
 </div>
 
