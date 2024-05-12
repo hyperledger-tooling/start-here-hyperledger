@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4856" class=".btn">#4856</a>
+            </td>
+            <td>
+                <b>
+                    Allow the peer delivery client to select policy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Issue: #4847
+
+#### Related issues
+
+#4847
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-12 16:09:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4855" class=".btn">#4855</a>
             </td>
             <td>

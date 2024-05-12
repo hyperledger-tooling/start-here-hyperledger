@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/832" class=".btn">#832</a>
+            </td>
+            <td>
+                <b>
+                    RFC 0829: VDR Proxy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A VDR ([verifiable data registry]) is a place where DIDs and objects related to
+DIDs (such as [Hyperledger AnonCreds] objects) are stored such that they can be
+resolved. The VDR Proxy protocol defined by this RFC is a DIDComm protocol that
+can be used by a DIDComm agent to request another agent resolve VDR URIs
+([Uniform Resource Identifier]s) and return the resolved objects to the
+requesting agent. The protocol is a simple client/server protocol, supporting
+the ability to request and receive back multiple resolutions in a single exchange.
+
+[VDR]: https://www.w3.org/TR/did-core/#dfn-verifiable-data-registry
+[verifiable data registry]: https://www.w3.org/TR/did-core/#dfn-verifiable-data-registry
+[Hyperledger AnonCreds]: https://www.hyperledger.org/projects/anoncreds
+[Uniform Resource Identifier]: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-12 14:20:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/831" class=".btn">#831</a>
             </td>
             <td>
