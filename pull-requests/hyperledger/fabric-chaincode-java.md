@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
             </td>
             <td>
                 <b>
-                    Update test dependencies following v2.5.2 release
+                    Restore Java 8 compatibility
                 </b>
             </td>
         </tr>
@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                <nil>
+                Build with source and target bytecode compatibility for Java 8. This allows chaincode implementation code that requires Java 8 compatibility to compile against the fabric-chaincode-shim package.
+
+Ensure javaenv Docker image has up-to-date Gradle and Maven versions.
+
+Avoid use of mavenLocal() and (deprecated) jcenter() Gradle repositories.
             </td>
         </tr>
     </table>
