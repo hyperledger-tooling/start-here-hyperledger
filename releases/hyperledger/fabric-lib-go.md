@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/fabric-lib-go
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.1
+                    v1.1.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.1
+                    v1.1.2
                 </span>
             </td>
             <td>
-                v1.1.1 updates the location of SmartBFT metrics.
+                Add logging for bccsp pkcs11 initialize.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-lib-go/releases/tag/v1.1.1" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-lib-go/releases/tag/v1.1.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-03-14 12:53:00 +0000 UTC
+        Created At 2024-05-13 13:09:49 +0000 UTC
     </span>
 </div>
 
