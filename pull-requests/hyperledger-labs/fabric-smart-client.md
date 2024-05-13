@@ -117,29 +117,3 @@ The web server can be enabled by setting `WebEnabled` to `true` on the fsc topol
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/565" class=".btn">#565</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade libp2p
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-06 09:45:48 +0000 UTC
-    </div>
-</div>
-

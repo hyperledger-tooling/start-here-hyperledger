@@ -141,7 +141,7 @@ You can trigger Dependabot actions by commenting on this PR:
 
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [x] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
@@ -933,55 +933,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-05-06 16:15:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4553" class=".btn">#4553</a>
-            </td>
-            <td>
-                <b>
-                    ci: Remove executor.wasm from git
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">CI</span>
-            </td>
-            <td>
-                ## Description
-
-Remove `executor.wasm` from git, executor is built in the CI.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4549 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-06 09:32:04 +0000 UTC
     </div>
 </div>
 
