@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7096" class=".btn">#7096</a>
+            </td>
+            <td>
+                <b>
+                    Wire EIP-2935 into evmtool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Cover one missed case where the BlockHashLookup changes in the EIP-2935
+handling, ensuring the `state-test` tool gets proper prague handling.
+
+Signed-off-by: Danno Ferrin <danno@numisight.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-13 14:38:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7095" class=".btn">#7095</a>
+            </td>
+            <td>
+                <b>
+                    no npe when account doesn't exist yet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Assume a nonce of 0 for an account that doesn't exist yet.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-13 12:54:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7093" class=".btn">#7093</a>
             </td>
             <td>
@@ -889,7 +968,7 @@ build: Add default constructor and javadoc for crypto, datatypes subprojects
             </td>
             <td>
                 <b>
-                    WIP EIP-7685
+                    EIP-7685
                 </b>
             </td>
         </tr>
@@ -1448,37 +1527,6 @@ This does not fix #6984, even though there are reftests.  The tests are disabled
     </table>
     <div class="right-align">
         Created At 2024-05-06 19:48:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7054" class=".btn">#7054</a>
-            </td>
-            <td>
-                <b>
-                    Use github arm64 runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                github now offer arm64 runners.
-
-The arm64 image is a plain ubuntu 22.04 server with nothing installed (no docker).
-
-Fixes  #7026
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-06 13:45:37 +0000 UTC
     </div>
 </div>
 

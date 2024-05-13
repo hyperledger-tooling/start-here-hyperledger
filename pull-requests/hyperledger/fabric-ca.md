@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/414" class=".btn">#414</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/415" class=".btn">#415</a>
             </td>
             <td>
                 <b>
-                    Update Github Actions
+                    Bump github.com/hyperledger/fabric-lib-go to v1.1.2
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Update to Node 20.
-Do checkout before setup-go.
+                Bump github.com/hyperledger/fabric-lib-go to v1.1.2.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-16 15:55:15 +0000 UTC
+        Created At 2024-05-13 18:13:44 +0000 UTC
     </div>
 </div>
 
