@@ -1,13 +1,13 @@
 
-[833](https://github.com/hyperledger/aries-rfcs/pull/833) Bump mkdocs-material from 9.5.21 to 9.5.22
+[415](https://github.com/hyperledger/fabric-ca/pull/415) Bump github.com/hyperledger/fabric-lib-go to v1.1.2
 
-[263](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/263) Fix typos
+[4857](https://github.com/hyperledger/fabric/pull/4857) Bump github.com/hyperledger/fabric-lib-go to v1.1.2
 
-[262](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/262) ics20: Remove unused `Address` library
+[4583](https://github.com/hyperledger/iroha/pull/4583) chore(deps): bump faker from 25.1.0 to 25.2.0 in /client_cli/pytests
 
-[7093](https://github.com/hyperledger/besu/pull/7093) Fix eip 2935 reftests
+[4582](https://github.com/hyperledger/iroha/pull/4582) chore(deps): bump parity-scale-codec from 3.6.9 to 3.6.12
 
-[4856](https://github.com/hyperledger/fabric/pull/4856) Allow the peer delivery client to select policy
+[4581](https://github.com/hyperledger/iroha/pull/4581) chore(deps-dev): bump pylint from 3.1.0 to 3.1.1 in /client_cli/pytests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

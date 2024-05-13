@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/508" class=".btn">#508</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/510" class=".btn">#510</a>
             </td>
             <td>
                 <b>
-                    retire as a maintainer
+                    Bump chaincode integration tool version to 0.8.1
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger/fabric-test
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-26 17:12:42 +0000 UTC
+        Created At 2024-05-13 14:28:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/509" class=".btn">#509</a>
+            </td>
+            <td>
+                <b>
+                    Patch vulnerable npms; move off request npm and latest cloudant.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-13 14:07:48 +0000 UTC
     </div>
 </div>
 
