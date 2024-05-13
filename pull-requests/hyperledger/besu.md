@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7092" class=".btn">#7092</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/7093" class=".btn">#7093</a>
             </td>
             <td>
                 <b>
-                    chore: fix some typos in comments
+                    Fix eip 2935 reftests
                 </b>
             </td>
         </tr>
@@ -28,8 +28,6 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 ## PR description
-
-fix some typos in comments
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -55,7 +53,7 @@ fix some typos in comments
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-12 10:15:16 +0000 UTC
+        Created At 2024-05-12 21:27:57 +0000 UTC
     </div>
 </div>
 
