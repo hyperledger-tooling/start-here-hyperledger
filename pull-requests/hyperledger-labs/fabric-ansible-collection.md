@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Correct the docker-entrypoint.sh to use hlf-user
+                    added check for NoneType
                 </b>
             </td>
         </tr>
@@ -27,22 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                Update the docker-entrypoint.sh to use hlf-user instead of ibp-user
-
-```
-if ! whoami &> /dev/null; then
-    sed '/hlf-user/d' /etc/passwd > /tmp/passwd
-    cat /tmp/passwd > /etc/passwd
-    rm -f /tmp/passwd
-    echo "hlf-user:x:$(id -u):0::/home/hlf-user:/bin/bash" >> /etc/passwd
-    export HOME=/home/hlf-user
-fi
-```
+                Added check if any console doesn't have a peer or orderer, and in that case, it returns None.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-29 14:39:57 +0000 UTC
+        Created At 2024-05-14 07:00:12 +0000 UTC
     </div>
 </div>
 
