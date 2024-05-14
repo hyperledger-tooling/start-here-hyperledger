@@ -674,6 +674,7 @@ You can trigger Dependabot actions by commenting on this PR:
 ### Linked issue
 
 1. closes https://github.com/hyperledger/iroha/issues/4488#issuecomment-2103228798
+	- opens https://github.com/hyperledger/iroha/issues/4584
 2. sometimes `integration` step fails due to some flaky `extra_functional` tests
 
 ### Benefits
