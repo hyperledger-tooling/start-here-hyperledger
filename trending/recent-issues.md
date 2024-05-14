@@ -1,13 +1,13 @@
 
+[4517](https://github.com/hyperledger/iroha/issues/4517) Rename `TransactionValue` into `CommittedTransaction`
+
+[4511](https://github.com/hyperledger/iroha/issues/4511) Rename `Upgrade::new` into `Upgrade::executor`
+
+[4499](https://github.com/hyperledger/iroha/issues/4499) Investigate why `actions/setup-python@v5` fails sometimes in `I2::CI::check_for_incorrect_images`
+
+[4487](https://github.com/hyperledger/iroha/issues/4487) Detect color support in `parity_scale_decoder`
+
 [434](https://github.com/hyperledger-labs/fablo/issues/434) "Error while dialing" when using CouchDB
-
-[476](https://github.com/hyperledger-labs/private-data-objects/issues/476) Copy service availability test from PDO contracts guardian to PDO services
-
-[1516](https://github.com/hyperledger/caliper/issues/1516) Benchmarking Ethereum Network (Error: Nonce undefined)
-
-[4301](https://github.com/hyperledger/iroha/issues/4301) `panic_on_invalid_genesis.sh` is outdated
-
-[4295](https://github.com/hyperledger/iroha/issues/4295) Implement human-readable bytes in the config
 
 
 [See more >>>](https://start-here.hyperledger.org/issues)
