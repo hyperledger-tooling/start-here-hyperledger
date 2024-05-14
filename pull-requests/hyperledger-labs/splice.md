@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/splice
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/splice/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    remove html tags from markdown file
+                    Removed incorrect reference to "collective"
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/splice
                 
             </td>
             <td>
-                closes #8 
+                This ReadMe retained some incorrect terms from prior work, including referring to a group of Super Validators as a "collective", and referring in one place to the operators of Super Validator nodes as "Validators". 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-11 21:02:32 +0000 UTC
+        Created At 2024-05-14 16:37:36 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2948" class=".btn">#2948</a>
+            </td>
+            <td>
+                <b>
+                    Example integration test issuing 2 credentials under the same schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-14 17:34:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2947" class=".btn">#2947</a>
             </td>
             <td>
@@ -50,7 +76,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.0.0</span>
             </td>
             <td>
                 See https://github.com/hyperledger/aries-cloudagent-python/issues/2934.
@@ -209,34 +235,6 @@ I have tested with the demo and manually. I still want to make an integration te
     </table>
     <div class="right-align">
         Created At 2024-05-07 19:19:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2936" class=".btn">#2936</a>
-            </td>
-            <td>
-                <b>
-                    0.11.1 and aiohttp dependency update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR for a patch release of ACA-Py 0.11.1, with the only change being an update of the aiohttp dependency to one that addresses [CVE-2024-30251](https://github.com/advisories/GHSA-5m98-qgg9-wh84).
-
-Fixes #2935.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 17:13:35 +0000 UTC
     </div>
 </div>
 
