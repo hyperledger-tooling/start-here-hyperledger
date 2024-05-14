@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1574" class=".btn">#1574</a>
+            </td>
+            <td>
+                <b>
+                    Grafana correction in caliper documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix [1437](https://github.com/hyperledger/caliper/issues/1437)  
+## Checklist
+ - [x] A link to the issue/user story that the pull request relates to
+
+## Existing issues
+- [x] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
+<!-- please include any links to issues here -->
+
+#1437 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-14 03:02:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1573" class=".btn">#1573</a>
             </td>
             <td>
