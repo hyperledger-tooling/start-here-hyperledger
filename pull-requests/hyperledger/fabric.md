@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4858" class=".btn">#4858</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix function names in comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+
+- Documentation update
+
+#### Description
+
+fix function names in comment
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-14 13:09:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4857" class=".btn">#4857</a>
             </td>
             <td>
@@ -344,115 +412,6 @@ Add log message when softhsm tests don't execute.
     </table>
     <div class="right-align">
         Created At 2024-05-08 16:48:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4846" class=".btn">#4846</a>
-            </td>
-            <td>
-                <b>
-                    Update ordering service docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove references to Kafka.
-- Mention CFT and BFT options.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 15:08:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4845" class=".btn">#4845</a>
-            </td>
-            <td>
-                <b>
-                    Bump jinja to 3.1.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump jinja to 3.1.4.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 13:19:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4844" class=".btn">#4844</a>
-            </td>
-            <td>
-                <b>
-                    Publish OpenSSF scorecard results
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I've found that fabric scorecard is already published at https://scorecard.dev/viewer/?uri=github.com/hyperledger/fabric
-
-Publishing from our own github action will at least give us control over the scorecard execution and publishing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 12:57:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4843" class=".btn">#4843</a>
-            </td>
-            <td>
-                <b>
-                    Add GHA permission to broken link checker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Every github action should have top level permission set to read.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 12:52:44 +0000 UTC
     </div>
 </div>
 

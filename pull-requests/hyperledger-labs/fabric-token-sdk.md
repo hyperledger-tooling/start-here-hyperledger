@@ -97,29 +97,3 @@ Can be used for a better experience if triggered by a user and you want to show 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/625" class=".btn">#625</a>
-            </td>
-            <td>
-                <b>
-                    remove envelope
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR does the following: It removes the need to register the envelope at the network interface level. This reduces further the dependencies with the underlying backend.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 17:31:08 +0000 UTC
-    </div>
-</div>
-
