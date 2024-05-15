@@ -464,30 +464,3 @@ be edited when troubleshooting specific tests.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4848" class=".btn">#4848</a>
-            </td>
-            <td>
-                <b>
-                    Improve softhsm test guidance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs for softhsm integration tests.
-Add log message when softhsm tests don't execute.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-08 16:48:02 +0000 UTC
-    </div>
-</div>
-

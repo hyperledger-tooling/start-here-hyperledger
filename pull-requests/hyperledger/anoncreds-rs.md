@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/330" class=".btn">#330</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/338" class=".btn">#338</a>
             </td>
             <td>
                 <b>
-                    mark Python wrapper as not under construction anymore
+                    chore: update minSdkVersion to get the project version or fallback to 21
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Signed-off-by: Berend Sliedrecht <sliedrecht@berend.io>
+                This PR updates the react-native wrapper to get the minSdkVersion from the project config or fallback to the current hardcoded version. @TimoGlastra @berendsliedrecht 
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-19 11:07:50 +0000 UTC
+        Created At 2024-05-13 08:51:02 +0000 UTC
     </div>
 </div>
 

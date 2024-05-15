@@ -38,34 +38,3 @@ I'm not entirely sure if anything else is needed but with this change I could ge
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/247" class=".btn">#247</a>
-            </td>
-            <td>
-                <b>
-                    chore(js): add expo example app and move to pnpm
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - supersedes #246
-- builds on top of #245
-- Moves to pnpm from yarn
-- Update lerna from 7 to 8 to fix issue with building
-- Added react native (expo) example app
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-08 12:51:14 +0000 UTC
-    </div>
-</div>
-

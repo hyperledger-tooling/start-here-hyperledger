@@ -90,7 +90,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span>
+                <span class="chip">pollux</span><span class="chip">build</span>
             </td>
             <td>
                 ### Description: 
@@ -736,58 +736,6 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
     </table>
     <div class="right-align">
         Created At 2024-05-10 08:34:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1025" class=".btn">#1025</a>
-            </td>
-            <td>
-                <b>
-                    style: apply linters automatic fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-08 15:28:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1024" class=".btn">#1024</a>
-            </td>
-            <td>
-                <b>
-                    style: apply linters automatic fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-08 14:03:01 +0000 UTC
     </div>
 </div>
 
