@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/835" class=".btn">#835</a>
+            </td>
+            <td>
+                <b>
+                    Updated dates 793
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates as discussed last WG.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 01:18:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/834" class=".btn">#834</a>
+            </td>
+            <td>
+                <b>
+                    Update 496 OOB transition with dates and title
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated to bring it back into action.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 01:15:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/833" class=".btn">#833</a>
             </td>
             <td>

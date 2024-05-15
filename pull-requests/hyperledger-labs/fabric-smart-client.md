@@ -91,29 +91,3 @@ The web server can be enabled by setting `WebEnabled` to `true` on the fsc topol
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/566" class=".btn">#566</a>
-            </td>
-            <td>
-                <b>
-                    updated vault's DiscardTx function behaviour
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-08 04:39:42 +0000 UTC
-    </div>
-</div>
-
