@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/besu-verkle-trie/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    fix leaf deletion issue
+                    Update commitment batch
                 </b>
             </td>
         </tr>
@@ -31,8 +31,6 @@ permalink: /pull-requests/hyperledger/besu-verkle-trie
 
 ## PR description
 
-This PR fixes a bug that occurs when removing a key from a trie that isn't loaded. In a certain configuration, when we want to check if an internal node has only one child, we verify how many children are not NullNodes. However, when the node is not loaded, they are not NullNodes but StoredNodes. So, in the current code, we need to load the StoredNodes to see if they are null or not.
-
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
@@ -40,7 +38,7 @@ This PR fixes a bug that occurs when removing a key from a trie that isn't loade
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-08 14:50:47 +0000 UTC
+        Created At 2024-05-10 14:20:43 +0000 UTC
     </div>
 </div>
 

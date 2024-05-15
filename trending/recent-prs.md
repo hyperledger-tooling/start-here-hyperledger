@@ -1,13 +1,13 @@
 
-[3265](https://github.com/hyperledger/cacti/pull/3265) fix(cactus-example-cbdc-bridging-backend): add missing CRPC port conf…
+[713](https://github.com/hyperledger/fabric-gateway/pull/713) Remove unnecessary GitHub Actions permissions
 
-[4589](https://github.com/hyperledger/iroha/pull/4589) fix: trigger set is correctly serialized
+[4595](https://github.com/hyperledger/iroha/pull/4595) chore(deps-dev): bump pylint from 3.1.1 to 3.2.0 in /client_cli/pytests
 
-[417](https://github.com/hyperledger/iroha-java/pull/417) feature: added trigger deserialization
+[4594](https://github.com/hyperledger/iroha/pull/4594) chore(deps): bump erased-serde from 0.4.4 to 0.4.5
 
-[7104](https://github.com/hyperledger/besu/pull/7104) Blockhash lookup in test harness
+[4593](https://github.com/hyperledger/iroha/pull/4593) chore(deps): bump trybuild from 1.0.95 to 1.0.96
 
-[267](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/267) QBFT support
+[4592](https://github.com/hyperledger/iroha/pull/4592) chore(deps): bump serde from 1.0.201 to 1.0.202
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

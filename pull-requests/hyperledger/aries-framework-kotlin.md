@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    Update aries wrapper version to 0.2.0
+                    Implement DID Exchange Protocol
                 </b>
             </td>
         </tr>
@@ -27,64 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-kotlin
                 
             </td>
             <td>
-                <nil>
+                Refer https://github.com/hyperledger/aries-framework-swift/pull/102
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-29 06:18:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Implement message forwarding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix #16 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-23 11:34:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-kotlin/pull/23" class=".btn">#23</a>
-            </td>
-            <td>
-                <b>
-                    Fix version not defined exception
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-23 06:04:55 +0000 UTC
+        Created At 2024-05-09 08:58:38 +0000 UTC
     </div>
 </div>
 

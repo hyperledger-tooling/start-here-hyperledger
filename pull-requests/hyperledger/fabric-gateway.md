@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/713" class=".btn">#713</a>
+            </td>
+            <td>
+                <b>
+                    Remove unnecessary GitHub Actions permissions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Explicit default permissions in workflows are not required with read-only permissions set at the repository level.
+
+Also use a concurrency group for GitHub Pages deployment.
+
+Closes #712
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 17:43:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/711" class=".btn">#711</a>
             </td>
             <td>

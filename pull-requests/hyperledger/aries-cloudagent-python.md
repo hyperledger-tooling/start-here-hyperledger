@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2951" class=".btn">#2951</a>
+            </td>
+            <td>
+                <b>
+                    Fix Snyk Container scanning workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fix branch and path filtering syntax.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 14:34:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2950" class=".btn">#2950</a>
             </td>
             <td>
