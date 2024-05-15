@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2950" class=".btn">#2950</a>
+            </td>
+            <td>
+                <b>
+                    CodeCov report on PR's
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This will bring back `codecov` reporting on PR's and add comments like:
+
+![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/1d4c9db8-a5af-4ec0-9c90-8ef8248b9040)
+
+The warning only happened because I forced pushed.
+
+The readme badge should also start working again.
+
+There is a bit of setup for the repo admin. I'm hoping the covecov account that was used a year ago can be used again. The repo admin has to setup a token. It's really easy. The instructions are here https://docs.codecov.com/docs/github-2-getting-a-codecov-account-and-uploading-coverage.
+
+Note: The unit tests for this PR won't pass until the token is available. 
+![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/ab6fa794-396c-4d5c-8f72-75ed65a25799)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-14 21:52:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2948" class=".btn">#2948</a>
             </td>
             <td>
@@ -134,7 +172,7 @@ I have tested with the demo and manually. I still want to make an integration te
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.0.0</span>
             </td>
             <td>
                 This change relaxes some overly strict validation that was preventing presenting proof using LDP-VC from Credo 0.5.X based agents.
@@ -160,7 +198,7 @@ I have tested with the demo and manually. I still want to make an integration te
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.0.0</span>
             </td>
             <td>
                 ⬆️ Upgrades:
@@ -190,7 +228,7 @@ I have tested with the demo and manually. I still want to make an integration te
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">1.0.0</span>
             </td>
             <td>
                 :arrow_up: Upgrades:
@@ -209,32 +247,6 @@ I have tested with the demo and manually. I still want to make an integration te
     </table>
     <div class="right-align">
         Created At 2024-05-09 18:28:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2937" class=".btn">#2937</a>
-            </td>
-            <td>
-                <b>
-                    0.11.1 ChangeLog fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes to the changelog file for the release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-07 19:19:27 +0000 UTC
     </div>
 </div>
 
