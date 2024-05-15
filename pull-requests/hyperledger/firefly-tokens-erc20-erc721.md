@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/144" class=".btn">#144</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/160" class=".btn">#160</a>
             </td>
             <td>
                 <b>
-                    Dependency updates
+                    Add ERC-721 variant with URIs but no "data" args
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                This PR updates lots of dependencies to address all open CVEs, including in the smart contract build/test toolchain itself.
-
-Note this branch is branched off of: https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/140
-I recommend reviewing/merging that PR first which should reduce the diff to a single commit here.
+                This is another common pattern (and is supported by the token connector already).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-20 20:58:55 +0000 UTC
+        Created At 2024-05-13 15:16:58 +0000 UTC
     </div>
 </div>
 

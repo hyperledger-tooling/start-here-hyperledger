@@ -1,13 +1,13 @@
 
-[265](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/265) Mkdir clients/{09-localhost,ibft2,mock} and move implementations into the directories respectively
+[3265](https://github.com/hyperledger/cacti/pull/3265) fix(cactus-example-cbdc-bridging-backend): add missing CRPC port conf…
 
-[107](https://github.com/hyperledger/fabric-chaincode-go/pull/107) Bump google.golang.org/grpc from 1.63.2 to 1.64.0
+[4589](https://github.com/hyperledger/iroha/pull/4589) fix: trigger set is correctly serialized
 
-[835](https://github.com/hyperledger/aries-rfcs/pull/835) Updated dates 793
+[417](https://github.com/hyperledger/iroha-java/pull/417) feature: added trigger deserialization
 
-[834](https://github.com/hyperledger/aries-rfcs/pull/834) Update 496 OOB transition with dates and title
+[7104](https://github.com/hyperledger/besu/pull/7104) Blockhash lookup in test harness
 
-[2950](https://github.com/hyperledger/aries-cloudagent-python/pull/2950) CodeCov report on PR's
+[267](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/267) QBFT support
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

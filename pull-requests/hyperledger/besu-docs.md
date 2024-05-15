@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1583" class=".btn">#1583</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1593" class=".btn">#1593</a>
             </td>
             <td>
                 <b>
-                    Document Clique block period transition
+                    Document `rlp decode` subcommand
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Document Clique block period transitions. Also fix some formatting and link issues on the QBFT and IBFT transition sections.
+                Document the `besu rlp decode` subcommand for decoding IBFT 2.0 and QBFT RLP-encoded `extraData` strings. Minor fixes to related content for consistency. Fixes #1575.
 
-Fixes #1528 
-
-Preview: https://besu-docs-6t3ncxz8d-hyperledger.vercel.app/development/private-networks/how-to/configure/consensus/clique#transitions
+Preview: https://besu-docs-5cuvz4xt6-hyperledger.vercel.app/development/private-networks/reference/cli/subcommands#decode
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-24 21:25:30 +0000 UTC
+        Created At 2024-05-14 22:35:08 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +42,11 @@ Preview: https://besu-docs-6t3ncxz8d-hyperledger.vercel.app/development/private-
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1582" class=".btn">#1582</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1591" class=".btn">#1591</a>
             </td>
             <td>
                 <b>
-                    Clarify - do not use bonsai + archive node
+                    Replace Goerli with Holesky
                 </b>
             </td>
         </tr>
@@ -57,18 +55,12 @@ Preview: https://besu-docs-6t3ncxz8d-hyperledger.vercel.app/development/private-
                 
             </td>
             <td>
-                Clarify syncing and data storage format pages that you shouldn't run an archive node with bonsai. Clarify the definitions of full and archive nodes.
-
-Fixes #1524 
-
-Preview:
-- https://besu-docs-piadi9en9-hyperledger.vercel.app/development/public-networks/get-started/connect/sync-node
-- https://besu-docs-piadi9en9-hyperledger.vercel.app/development/public-networks/concepts/data-storage-formats
+                This is a follow-up to the pull request 1581.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-24 20:19:54 +0000 UTC
+        Created At 2024-05-12 18:58:26 +0000 UTC
     </div>
 </div>
 
@@ -76,11 +68,11 @@ Preview:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1581" class=".btn">#1581</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1590" class=".btn">#1590</a>
             </td>
             <td>
                 <b>
-                    replace goerli with holesky
+                    release 24.5.0 docs
                 </b>
             </td>
         </tr>
@@ -89,15 +81,12 @@ Preview:
                 
             </td>
             <td>
-                just not sure what to do with this page ./docs/private-networks/how-to/deploy/ethstats.md
-since I can only find https://ethstats.holesky.ethpandaops.io/
-
-Fixes #1563
+                pending besu release https://github.com/hyperledger/besu/issues/6966
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-23 05:32:13 +0000 UTC
+        Created At 2024-05-10 00:55:23 +0000 UTC
     </div>
 </div>
 
@@ -105,11 +94,11 @@ Fixes #1563
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1580" class=".btn">#1580</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1589" class=".btn">#1589</a>
             </td>
             <td>
                 <b>
-                    clarify miner methods and options
+                    Fix formatting issues
                 </b>
             </td>
         </tr>
@@ -118,12 +107,66 @@ Fixes #1563
                 
             </td>
             <td>
-                Clarify and slightly rearrange `miner` options and methods. Fixes #1445.
+                Fix formatting issues throughout docs. Fixes #1587.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-20 05:45:45 +0000 UTC
+        Created At 2024-05-09 21:16:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1588" class=".btn">#1588</a>
+            </td>
+            <td>
+                <b>
+                    Add tx-pool-max-prioritized-by-type option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add option for `tx-pool-max-prioritized-by-type` option
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-09 21:06:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1586" class=".btn">#1586</a>
+            </td>
+            <td>
+                <b>
+                    Document fixedBaseFee genesis option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add `fixedbasefee` option to docs. 
+
+Fixes #1550 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-08 20:49:59 +0000 UTC
     </div>
 </div>
 

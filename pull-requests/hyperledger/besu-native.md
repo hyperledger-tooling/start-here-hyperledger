@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/168" class=".btn">#168</a>
             </td>
             <td>
                 <b>
-                    Refactor/ipa multipoint interfaces
+                    Implement EIP-2537 in gnark
                 </b>
             </td>
         </tr>
@@ -27,50 +27,19 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                This PR initialise a refactor of the JNI/FFI_interface to standardize the interfaces between Java and Rust.
+                implement [eip-2537](https://eips.ethereum.org/EIPS/eip-2537) in gnark.
 
-Notably, we want to leverage only crypto-primitives related to vector commitments from rust-verkle.
-Any verkle logic is for besu-verkle-tries.
-Moreover, methods are composable since they follow a uniform format.
+related to #165 
+related to #91 
 
-Here are the new features:
+implements subgroup checks and is-on-curve checks.  Initial testing indicates this implementation compares favorably with the matter-labs eip-1962 implementation for all operations.
 
-- Inputs and outputs between java and rust are rlp-encoded with all values being little-endian bytes.
-- types module includes 3 types: CommitmentBytes, CommitmentBytesCompressed, ScalarBytes. These are the only primitives that are used by the ffi-interface.
-- convert modules implements conversions to and from rust-verkle types.
-- encoding/decoding modules implements rlp Decodable and Encodable for our types.
-- traits module includes Committable and Updatable for vector commitments functionalities.
+Draft while awaiting feedback and additional performance testing.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-29 11:36:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/152" class=".btn">#152</a>
-            </td>
-            <td>
-                <b>
-                    Add prover and verifier calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Will wait for https://github.com/hyperledger/besu-native/pull/151 and/or changes to pedersenHash before asking for review on this
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-02-26 17:19:20 +0000 UTC
+        Created At 2024-05-11 09:54:40 +0000 UTC
     </div>
 </div>
 

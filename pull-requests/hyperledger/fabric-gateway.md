@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/704" class=".btn">#704</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/711" class=".btn">#711</a>
             </td>
             <td>
                 <b>
-                    Update golangci-lint-action
+                    Use workflow to publish directly to GitHub Pages
                 </b>
             </td>
         </tr>
@@ -27,12 +27,40 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Rather than pushing a commit to the gh-pages branch and having the built-in GitHub pages workflow deploy the contents of that branch, deploy the site content directly using a custom workflow. This avoids complexity and access requirements of pushing to another branch within a workflow.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-26 09:18:36 +0000 UTC
+        Created At 2024-05-14 18:03:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/710" class=".btn">#710</a>
+            </td>
+            <td>
+                <b>
+                    Use latest stable Go and Node releases in CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For GitHub Actions jobs that are not sensitive to the version of Go or Node used, use "stable" or "lts/*" as the version for Go and Node respectively.
+
+Previously the version number was specified explicitly, which requires more ongoing maintenance and conveys less clarity of the intent that the latest stable version should be used.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-12 13:49:25 +0000 UTC
     </div>
 </div>
 

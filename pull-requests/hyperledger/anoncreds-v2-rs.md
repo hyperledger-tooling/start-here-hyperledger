@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-v2-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-v2-rs/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-v2-rs/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Add signature and key abstraction for anoncreds
+                    chore: updating dependabot file to support gha and cargo package
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-v2-rs
                 
             </td>
             <td>
-                This adds traits that allow for abstracting the keys, signatures, and proofs to allow for more flexibility than hardcoded structs.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-28 00:08:30 +0000 UTC
+        Created At 2024-05-14 16:03:25 +0000 UTC
     </div>
 </div>
 

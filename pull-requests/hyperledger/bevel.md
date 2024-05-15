@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2553" class=".btn">#2553</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2561" class=".btn">#2561</a>
             </td>
             <td>
                 <b>
-                    [substrate] update helm charts readmes
+                    [substrate] enable platform deployment via ansible server
                 </b>
             </td>
         </tr>
@@ -29,17 +29,24 @@ permalink: /pull-requests/hyperledger/bevel
             <td>
                 ### **Commit to be reviewed**
 ---
-**docs(substrate): update helm charts readmes**
 
-Changes:
-- Updated Substrate Helm charts Readmes.
+**feat(substrate): enable platform deployment via ansible server**
 
-fixes #2537
+```
+This commit introduces support for deploying a decentralized ledger technology (DLT) network using Ansible automation. The changes include:
+
+- Added a new network configuration file to define nodes (Bootnode, Validator, Member, IPFS) within a single organization.
+- Updated the `deployment-network.yaml` to support the new network configuration.
+- Updated multiple Ansible roles, Helm release templates, and charts to align with the new network configuration.
+- Updated the user guide documentation to assist users/developers in correctly configuring the network.
+```
+
+**fixes #2547**
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-24 08:10:30 +0000 UTC
+        Created At 2024-05-13 11:54:46 +0000 UTC
     </div>
 </div>
 
@@ -47,11 +54,11 @@ fixes #2537
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2552" class=".btn">#2552</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2560" class=".btn">#2560</a>
             </td>
             <td>
                 <b>
-                    [fabric] Catools should be dependency of orderer/peer
+                    [fabric] Create channel using just helm
                 </b>
             </td>
         </tr>
@@ -62,23 +69,56 @@ fixes #2537
             <td>
                 **Primary Changes**
 
-1. Added fabric-catools chat as a dependency on orderer/peer.
-4. Deploy with Ansible pending
-5. Update README.md files is pending
+1.Deploy fabric 2.5.4 with channel using helm charts. 
+2.Deploy fabric 2.2.2 with channel using helm charts. 
+3.Delete platforms/hyperledger-fabric/charts/fabric-anchorpper 
+4.Deploy with Ansible is pending
+5.Update README.md files is pending
 
 **Changes in charts**
-platforms/hyperledger-fabric/charts/fabric-ca-server
+platforms/hyperledger-fabric/charts/fabric-ca-server 
 platforms/hyperledger-fabric/charts/fabric-catools 
 platforms/hyperledger-fabric/charts/fabric-cli
 platforms/hyperledger-fabric/charts/fabric-orderernode 
-platforms/hyperledger-fabric/charts/fabric-peernode
+platforms/hyperledger-fabric/charts/fabric-peernode 
+platforms/hyperledger-fabric/charts/fabric-channel-join 
+platforms/hyperledger-fabric/charts/fabric-channel-create 
+platforms/hyperledger-fabric/charts/fabric-osnadmin-channel-create
 
-fixes #2533
+fixes #2539 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-23 14:01:04 +0000 UTC
+        Created At 2024-05-09 15:44:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2559" class=".btn">#2559</a>
+            </td>
+            <td>
+                <b>
+                    feat(r3-corda-ent): helm only deployment using proxy and vault
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change log**
+- Added code to enable deployment using vault(hashicorp) and proxy (ambassador)
+Fixes #2540 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-09 09:16:53 +0000 UTC
     </div>
 </div>
 

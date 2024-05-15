@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    Build updates
+                    Move to latest fabric-chaincode-integration for dependency fix.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                - Use non-deprecated GitHub actions, avoiding ones based on Node 16.
-- Use supported (Debian-based) Golang Docker images.
-- Use Ubuntu 22.04
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-06 22:31:23 +0000 UTC
+        Created At 2024-05-13 15:02:38 +0000 UTC
     </div>
 </div>
 

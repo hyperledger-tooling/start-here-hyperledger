@@ -14,43 +14,11 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/250" class=".btn">#250</a>
+                PR <a href="https://github.com/hyperledger/governance/pull/262" class=".btn">#262</a>
             </td>
             <td>
                 <b>
-                    Update access-control.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Username changes:
-- Change Hfuss to @onelapahead
-- Change eberger727 to @dechdev
-
-- Adding SamMayWork as a new maintainer, he was voted in as a FireFly Maintainer during the FireFly Community Call on 4/11/2024. 
-
-- Adding alex-semenyuk as a new maintainer,  he was voted in as a FireFly Maintainer during the FireFly Community Call on 4/11/2024.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-25 16:29:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/249" class=".btn">#249</a>
-            </td>
-            <td>
-                <b>
-                    Add atala-dev account to the identus-maintainers team
+                    Clean up read only
                 </b>
             </td>
         </tr>
@@ -64,7 +32,7 @@ permalink: /pull-requests/hyperledger/governance
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-25 10:11:49 +0000 UTC
+        Created At 2024-05-13 12:26:41 +0000 UTC
     </div>
 </div>
 
@@ -72,11 +40,11 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/248" class=".btn">#248</a>
+                PR <a href="https://github.com/hyperledger/governance/pull/261" class=".btn">#261</a>
             </td>
             <td>
                 <b>
-                    Add identus-admins team
+                    Remove nguyer
                 </b>
             </td>
         </tr>
@@ -90,7 +58,7 @@ permalink: /pull-requests/hyperledger/governance
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-25 00:22:52 +0000 UTC
+        Created At 2024-05-13 12:03:32 +0000 UTC
     </div>
 </div>
 
@@ -98,11 +66,11 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/247" class=".btn">#247</a>
+                PR <a href="https://github.com/hyperledger/governance/pull/260" class=".btn">#260</a>
             </td>
             <td>
                 <b>
-                    Add EnriqueL8 as FireFly Community Lead
+                    Remove nguyer as FireFly Maintainer
                 </b>
             </td>
         </tr>
@@ -111,12 +79,15 @@ permalink: /pull-requests/hyperledger/governance
                 
             </td>
             <td>
-                Enrique Lacal (@EnriqueL8) was voted in as a FireFly Maintainer during the FireFly Community Call on 4/11/2024. He is taking over my role as FireFly Community Lead, so this PR gives him the same level of permissions that I have across FireFly repos.
+                Removing Nicko Guyer as FireFly maintainer 
+
+- Discord message of Nicko Guyer announcing that he is leaving the FireFly community https://discord.com/channels/905194001349627914/928377875827154984/1227676503572090880
+- Announced in Community Call https://wiki.hyperledger.org/display/FIR/2024-04-10+FireFly+Community+Call
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-24 15:39:37 +0000 UTC
+        Created At 2024-05-13 09:02:02 +0000 UTC
     </div>
 </div>
 
@@ -124,11 +95,11 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/245" class=".btn">#245</a>
+                PR <a href="https://github.com/hyperledger/governance/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                    Identus Project
+                    janrxyz -> janrtvld
                 </b>
             </td>
         </tr>
@@ -142,7 +113,37 @@ permalink: /pull-requests/hyperledger/governance
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-19 14:50:39 +0000 UTC
+        Created At 2024-05-10 18:33:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/governance/pull/257" class=".btn">#257</a>
+            </td>
+            <td>
+                <b>
+                    Allow branch protection access for bestbeforetoday
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                For the project where bestbeforetoday is the primary maintainer, set then as a group maintainer, and grant the maintainer group admin access to the corresponding repository. This allows branch protection settings to be configured and kept in step with the CI pipeline and review requirements.
+
+Also remove access to emeritus maintainers for the same repositories.
+
+Closes #256
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-10 17:13:03 +0000 UTC
     </div>
 </div>
 
