@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/71" class=".btn">#71</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md and CODEOWNERS
+                    Fix links
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-09-13 20:34:27 +0000 UTC
+        Created At 2024-05-10 20:55:20 +0000 UTC
     </div>
 </div>
 

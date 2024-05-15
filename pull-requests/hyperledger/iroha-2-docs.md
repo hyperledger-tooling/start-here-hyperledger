@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/483" class=".btn">#483</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/485" class=".btn">#485</a>
             </td>
             <td>
                 <b>
-                    Updated Rust guide to include information about transferring assets
+                    Update the data model reference to the latest iroha dev revision
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                <nil>
+                This PR does three things:
+- support for bitmaps in schema (introduced in https://github.com/hyperledger/iroha/pull/4381)
+- "fixes" paths to referenced config files
+- updates torii reference to be in line with https://github.com/hyperledger/iroha/pull/4544
+
+While the inclusion of toml templates in place of old json files makes the config documentation "wrong", this allows writing new documentation with references to a more up-to-date `schema.json`.
+
+In the end I think the #397 will in the end remove the toml templates altogether, I consider this just a way to unblock my updates to the torii reference for https://github.com/hyperledger/iroha/pull/4544
+
+@0x009922 Do you think it's a good approach? Or should we try somehow to keep the old `json`'s in place while the new config reference is not yet complete?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-19 21:21:16 +0000 UTC
+        Created At 2024-05-14 14:01:33 +0000 UTC
     </div>
 </div>
 
