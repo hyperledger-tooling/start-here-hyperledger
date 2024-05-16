@@ -213,29 +213,3 @@ Enhance the tests.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1569" class=".btn">#1569</a>
-            </td>
-            <td>
-                <b>
-                    remove vscode extension
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 10:37:42 +0000 UTC
-    </div>
-</div>
-

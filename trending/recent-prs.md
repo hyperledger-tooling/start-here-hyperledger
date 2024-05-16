@@ -1,13 +1,13 @@
 
-[711](https://github.com/hyperledger-labs/fabric-operations-console/pull/711) Fix for console setup open source issue
+[195](https://github.com/hyperledger/iroha-python/pull/195) [test] add more allure annotations and fix problem with types
 
-[4597](https://github.com/hyperledger/iroha/pull/4597) feat!: unify executor data model
+[193](https://github.com/hyperledger-labs/fabric-operator/pull/193) update latest version in deployer config map template
 
-[7110](https://github.com/hyperledger/besu/pull/7110) [LOGGING] for fail to confirm pivot block error
+[714](https://github.com/hyperledger-labs/fabric-operations-console/pull/714) bump release note
 
-[7107](https://github.com/hyperledger/besu/pull/7107) [MINOR] update download link in readme
+[713](https://github.com/hyperledger-labs/fabric-operations-console/pull/713) translate issue fix
 
-[2953](https://github.com/hyperledger/aries-cloudagent-python/pull/2953) Switch Snyk Container scan back to on push.
+[276](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/276) Bump node to v20
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

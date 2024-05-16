@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4600" class=".btn">#4600</a>
+            </td>
+            <td>
+                <b>
+                    [BACKPORT]: support https URL scheme in config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 09:31:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4597" class=".btn">#4597</a>
             </td>
             <td>
@@ -36,13 +95,16 @@ permalink: /pull-requests/hyperledger/iroha
 This PR solves a few problems:
 
 - Allows executor define its config parameters through a single `ExecutorDataModel` entity.
-- Unifies parameters and permission tokens to `ExecutorDataModelObject` trait, having a `definition_id` and an arbitrary JSON `payload` (possible to support SCALE too): #4352
+- Unifies parameters and permission tokens to `ExecutorDataModelObject` trait, having a `definition_id` and an arbitrary JSON `payload` (possible to support SCALE too):
+  - #4352
+  - #3901
 - Parameters no longer configure Sumeragi/WASM/limits. I.e. chain wide configuration could only be set through the config file. **It is temporary:** this PR is a preparation for a proper implementation of chain-wide configuration: #4028
 - Removes extra `PermissionTokenSchemaUpdated` event. Since this action only happens during executor migration, which emits its own event `ExecutorEvent::Upgraded`, I also included the updated `ExecutorDataModel` in this event.
 
 ## Linked issue
 
 Closes #4352
+Closes #3901
             </td>
         </tr>
     </table>
