@@ -1,13 +1,13 @@
 
-[713](https://github.com/hyperledger/fabric-gateway/pull/713) Remove unnecessary GitHub Actions permissions
+[2953](https://github.com/hyperledger/aries-cloudagent-python/pull/2953) Switch Snyk Container scan back to on push.
 
-[4595](https://github.com/hyperledger/iroha/pull/4595) chore(deps-dev): bump pylint from 3.1.1 to 3.2.0 in /client_cli/pytests
+[288](https://github.com/hyperledger/indy-vdr/pull/288) fix: fixed binary for react native
 
-[4594](https://github.com/hyperledger/iroha/pull/4594) chore(deps): bump erased-serde from 0.4.4 to 0.4.5
+[140](https://github.com/hyperledger/indy-test-automation/pull/140) chore: updating dependabot to support gha, python and docker packages
 
-[4593](https://github.com/hyperledger/iroha/pull/4593) chore(deps): bump trybuild from 1.0.95 to 1.0.96
+[71](https://github.com/hyperledger/indy-node-monitor/pull/71) chore: updating dependabot to support python and docker packages
 
-[4592](https://github.com/hyperledger/iroha/pull/4592) chore(deps): bump serde from 1.0.201 to 1.0.202
+[50](https://github.com/hyperledger/indy-besu/pull/50) chore: updating dependabot to support gha, TS, JS and Cargo packages
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

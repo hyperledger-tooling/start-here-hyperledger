@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
-                    Minor updates to the Dockerfile
+                    chore: updating dependabot to support python and docker packages
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-21 15:27:38 +0000 UTC
+        Created At 2024-05-15 18:24:33 +0000 UTC
     </div>
 </div>
 

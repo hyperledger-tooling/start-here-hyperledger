@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1595" class=".btn">#1595</a>
+            </td>
+            <td>
+                <b>
+                    Snap Server shipped update data storage format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 18:20:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1593" class=".btn">#1593</a>
             </td>
             <td>
@@ -139,34 +165,6 @@ Preview: https://besu-docs-5cuvz4xt6-hyperledger.vercel.app/development/private-
     </table>
     <div class="right-align">
         Created At 2024-05-09 21:06:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1586" class=".btn">#1586</a>
-            </td>
-            <td>
-                <b>
-                    Document fixedBaseFee genesis option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add `fixedbasefee` option to docs. 
-
-Fixes #1550 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-08 20:49:59 +0000 UTC
     </div>
 </div>
 

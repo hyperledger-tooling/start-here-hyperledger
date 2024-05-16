@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-besu/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    chore: updating dependabot to support gha, TS, JS and Cargo packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 18:20:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-besu/pull/48" class=".btn">#48</a>
             </td>
             <td>

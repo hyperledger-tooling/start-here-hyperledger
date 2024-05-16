@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2953" class=".btn">#2953</a>
+            </td>
+            <td>
+                <b>
+                    Switch Snyk Container scan back to on push.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - The Snyk Container scan relies on a token, which is not available to PRs from external forks.
+- Switch back to running the scan on push until we can get things sorted on how to run the scans on PRs securely.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 20:32:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2951" class=".btn">#2951</a>
             </td>
             <td>
@@ -214,41 +241,11 @@ I have tested with the demo and manually. I still want to make an integration te
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2940" class=".btn">#2940</a>
-            </td>
-            <td>
-                <b>
-                    :arrow_up: Upgrade lint dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.0.0</span>
-            </td>
-            <td>
-                ⬆️ Upgrades:
-
-- `black`: 24.3.0 -> 24.4.2
-- `ruff`: 0.1.2 -> 0.4.4
-- `pre-commit`: 3.3.3 -> 3.7.0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 18:45:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2939" class=".btn">#2939</a>
             </td>
             <td>
                 <b>
-                    :arrow_up: Upgrade test dependencies
+                    :arrow_up: Upgrade test and lint dependencies
                 </b>
             </td>
         </tr>
@@ -267,6 +264,16 @@ I have tested with the demo and manually. I still want to make an integration te
 - `mock`
   - This dependency is used to provide unittest.mock features to older version of python
   - Not needed with current python version
+
+___
+Edit: additional dependency upgrades from #2940 are pulled in here to speed up merge cycle
+
+Therefore includes:
+⬆️ Upgrades:
+
+- `black`: 24.3.0 -> 24.4.2
+- `ruff`: 0.1.2 -> 0.4.4
+- `pre-commit`: 3.3.3 -> 3.7.1
 
             </td>
         </tr>
