@@ -14,6 +14,267 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4608" class=".btn">#4608</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump proc-macro2 from 1.0.81 to 1.0.82
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [proc-macro2](https://github.com/dtolnay/proc-macro2) from 1.0.81 to 1.0.82.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/proc-macro2/releases">proc-macro2's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.82</h2>
+<ul>
+<li>Resolve unexpected_cfgs warning (<a href="https://redirect.github.com/dtolnay/proc-macro2/issues/456">#456</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/8dc63f36f6735ff2e384e34422f57f393929f09f"><code>8dc63f3</code></a> Release 1.0.82</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/790cb418978e41899c286752803a77ba8a817d20"><code>790cb41</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/proc-macro2/issues/457">#457</a> from dtolnay/defaultfeatures</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/2ebe71180da1813be5dc3f77ce13020a49455c95"><code>2ebe711</code></a> Fix use of deprecated default_features in Cargo.toml</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/a720819a80afd67b10062d819c742d7cb05934cc"><code>a720819</code></a> Delete unused nightly cfg</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/37c5d18ec0e7b8a5c15cc3934ce136c2d2ee1220"><code>37c5d18</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/proc-macro2/issues/456">#456</a> from dtolnay/checkcfg</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/5e02f52b954f40a4cb8f26020c3ff494c3c5426a"><code>5e02f52</code></a> Suppress unknown_lints warning on old rustc</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/2660d3026a70e1478997c55044c76529ca157eda"><code>2660d30</code></a> Resolve unexpected_cfgs warning</li>
+<li>See full diff in <a href="https://github.com/dtolnay/proc-macro2/compare/1.0.81...1.0.82">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=proc-macro2&package-manager=cargo&previous-version=1.0.81&new-version=1.0.82)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 16:26:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4607" class=".btn">#4607</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump darling from 0.20.8 to 0.20.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [darling](https://github.com/TedDriggs/darling) from 0.20.8 to 0.20.9.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/TedDriggs/darling/blob/master/CHANGELOG.md">darling's changelog</a>.</em></p>
+<blockquote>
+<h2>v0.20.9 (May 15, 2024)</h2>
+<ul>
+<li>Allow word-form for newtype enum variants whose only field produces a value when <code>from_none</code> is called on their type <a href="https://redirect.github.com/TedDriggs/darling/issues/249">#249</a></li>
+<li>Add <code>FromMeta</code> impls for the <code>std::num::NonZero*</code> types <a href="https://redirect.github.com/TedDriggs/darling/pull/288">#288</a></li>
+<li>Fix panic in number <code>FromMeta</code> impls when the parsed value is too large for the receiver type <a href="https://redirect.github.com/TedDriggs/darling/issues/289">#289</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/TedDriggs/darling/commits">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=darling&package-manager=cargo&previous-version=0.20.8&new-version=0.20.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 16:26:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4606" class=".btn">#4606</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Reject `BlockMessages` eagerly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Currently we may ignore `BlockMessage::BlockCreated` if it's view change index is less then view change index of control message received in same invocation of `receive_network_packet` function. E.g. currently we have such behaviour:
+```
+function receive_network_packet invoked
+received block message with vc#1
+received control message with vc#2
+=> ignored block message with vc#1
+```
+
+This PR extends this behaviour to support more cases, e.g.:
+```
+function receive_network_packet invoked
+received control message with vc#2
+
+function receive_network_packet invoked
+received block message with vc#1
+=> ignored block message with vc#1
+```
+
+### Linked issue
+
+Closes #4223
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 16:16:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4605" class=".btn">#4605</a>
+            </td>
+            <td>
+                <b>
+                    ci: Refactor Sonarqube & DefectDojo job
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">CI</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+1. Move `workspace_analysis`, `with_coverage` and  `sonarqube-defectdojo` jobs to the new dedicated workflow.
+2. Change docker registries repo for `iroha2:dev` and `iroha2-nightly` images.
+
+### Linked issue
+#4510 #4598 
+
+### Closes
+(should): #4510 #4598 
+
+### Benefits
+Fix clippy and lcov reports uploading to Sonarqube and DefectDojo.
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 15:32:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4600" class=".btn">#4600</a>
             </td>
             <td>
@@ -1293,102 +1554,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-05-09 18:45:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4572" class=".btn">#4572</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump faker from 25.0.0 to 25.1.0 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [faker](https://github.com/joke2k/faker) from 25.0.0 to 25.1.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
-<blockquote>
-<h2>Release v25.1.0</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.1.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
-<h2>Release v25.0.1</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.0.1/CHANGELOG.md">CHANGELOG.md</a>.</p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
-<blockquote>
-<h3><a href="https://github.com/joke2k/faker/compare/v25.0.1...v25.1.0">v25.1.0 - 2024-05-08</a></h3>
-<ul>
-<li>Add geo for <code>pl_PL</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
-<li>Add geo for <code>sk_SK</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
-</ul>
-<h3><a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.0.1">v25.0.1 - 2024-05-02</a></h3>
-<ul>
-<li>Add type stub file to <code>setup.py</code>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/joke2k/faker/commit/66b0388d0cec9d97e7ef4541911c1d8d19c6a983"><code>66b0388</code></a> Bump version: 25.0.1 → 25.1.0</li>
-<li><a href="https://github.com/joke2k/faker/commit/0303623c6019f8677646db358d81e2759ae7c9de"><code>0303623</code></a> :pencil: Update CHANGELOG.md</li>
-<li><a href="https://github.com/joke2k/faker/commit/6c52ddeb182198ae6d4ae30ce3bf70f83667a794"><code>6c52dde</code></a> :lipstick: format code</li>
-<li><a href="https://github.com/joke2k/faker/commit/c3c1c0f3f8cd74db16df71825f1331bbdca458be"><code>c3c1c0f</code></a> Add geo for <code>pl_PL</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2044">#2044</a>)</li>
-<li><a href="https://github.com/joke2k/faker/commit/0512242754bbfaaec27d891bdb985a88617e8698"><code>0512242</code></a> Update <strong>init</strong>.py (<a href="https://redirect.github.com/joke2k/faker/issues/2031">#2031</a>)</li>
-<li><a href="https://github.com/joke2k/faker/commit/2069bd3f57caff88fd0b7cbcd51f970890be43bd"><code>2069bd3</code></a> Bump version: 25.0.0 → 25.0.1</li>
-<li><a href="https://github.com/joke2k/faker/commit/681922c11de9abfae3fd72e92becb54dc3c3c733"><code>681922c</code></a> :pencil: Update CHANGELOG.md</li>
-<li><a href="https://github.com/joke2k/faker/commit/106d8ba3981445bad6915a0567931416539149f7"><code>106d8ba</code></a> add stub to setup.py</li>
-<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.0.0...v25.1.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.0.0&new-version=25.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 16:17:39 +0000 UTC
     </div>
 </div>
 

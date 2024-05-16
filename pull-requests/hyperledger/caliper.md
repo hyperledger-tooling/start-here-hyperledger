@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1576" class=".btn">#1576</a>
+            </td>
+            <td>
+                <b>
+                    Typo fix in fix-load documentation 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">PR/change requested</span><span class="chip">documentation</span>
+            </td>
+            <td>
+                Fix [1471](https://github.com/hyperledger/caliper/issues/1471)  
+## Checklist
+ - [x] A link to the issue/user story that the pull request relates to
+
+## Existing issues
+- [x] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
+<!-- please include any links to issues here -->
+
+#1471 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 15:20:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1574" class=".btn">#1574</a>
             </td>
             <td>

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4861" class=".btn">#4861</a>
+            </td>
+            <td>
+                <b>
+                    up go 1.22.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The following changes have been made:
+- added new possible error based on platform and Go release
+- changed the work with [encoding/json](https://go.dev/pkg/encoding/json/) - https://go.dev/doc/go1.22#minor_library_changes. 
+`Marshaling and encoding functionality now escapes '\b' and '\f' characters as \b and \f instead of \u0008 and \u000c`.
+- The creators of go overmuch with the change of cover work. So far I have turned on the old flag of cover operation - `GOEXPERIMENT=nocoverageredesign`. I will open a question in the go community. Most likely in the next release of go it will be necessary to remove this flag.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 12:32:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4859" class=".btn">#4859</a>
             </td>
             <td>
@@ -358,109 +388,6 @@ Add the Scorecard bug to the Readme.
     </table>
     <div class="right-align">
         Created At 2024-05-09 22:26:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4850" class=".btn">#4850</a>
-            </td>
-            <td>
-                <b>
-                    Update channel_update_tutorial.rst
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There is two 'use' in the text. Deleting one of them.
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 17:33:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4849" class=".btn">#4849</a>
-            </td>
-            <td>
-                <b>
-                    Add logging spec for integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add logging spec for integration tests so that it can
-be edited when troubleshooting specific tests.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 16:33:49 +0000 UTC
     </div>
 </div>
 
