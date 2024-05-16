@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/711" class=".btn">#711</a>
+            </td>
+            <td>
+                <b>
+                    Fix for console setup open source issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Translation fix with updated library
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-16 06:11:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/710" class=".btn">#710</a>
             </td>
             <td>
@@ -176,41 +212,6 @@ Updated libs and added other necessary libs
     </table>
     <div class="right-align">
         Created At 2024-05-10 08:48:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/704" class=".btn">#704</a>
-            </td>
-            <td>
-                <b>
-                    Update libraries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-Update react and localisation, routing and redux and other dependent libraries 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 04:04:54 +0000 UTC
     </div>
 </div>
 

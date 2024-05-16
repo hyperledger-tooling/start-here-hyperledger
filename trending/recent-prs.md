@@ -1,13 +1,13 @@
 
+[711](https://github.com/hyperledger-labs/fabric-operations-console/pull/711) Fix for console setup open source issue
+
+[4597](https://github.com/hyperledger/iroha/pull/4597) feat!: unify executor data model
+
+[7110](https://github.com/hyperledger/besu/pull/7110) [LOGGING] for fail to confirm pivot block error
+
+[7107](https://github.com/hyperledger/besu/pull/7107) [MINOR] update download link in readme
+
 [2953](https://github.com/hyperledger/aries-cloudagent-python/pull/2953) Switch Snyk Container scan back to on push.
-
-[288](https://github.com/hyperledger/indy-vdr/pull/288) fix: fixed binary for react native
-
-[140](https://github.com/hyperledger/indy-test-automation/pull/140) chore: updating dependabot to support gha, python and docker packages
-
-[71](https://github.com/hyperledger/indy-node-monitor/pull/71) chore: updating dependabot to support python and docker packages
-
-[50](https://github.com/hyperledger/indy-besu/pull/50) chore: updating dependabot to support gha, TS, JS and Cargo packages
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
