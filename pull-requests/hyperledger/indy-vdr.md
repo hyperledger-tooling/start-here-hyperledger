@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/288" class=".btn">#288</a>
+            </td>
+            <td>
+                <b>
+                    fix: fixed binary for react native
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                the async_trait macro appeared to be crashing Bifold in react native. I've refactored the code to remove the `async_trait` macro and made some changes to the code to compensate
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-15 19:23:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/285" class=".btn">#285</a>
             </td>
             <td>
@@ -2004,32 +2030,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-05-10 15:59:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/270" class=".btn">#270</a>
-            </td>
-            <td>
-                <b>
-                    feat: updated to fetch 0.4.2 binary
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated the javascript wrappers to use the 0.4.2 binary
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-08 19:54:39 +0000 UTC
     </div>
 </div>
 
