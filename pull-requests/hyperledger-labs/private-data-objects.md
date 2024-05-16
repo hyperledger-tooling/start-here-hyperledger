@@ -38,7 +38,7 @@ The additions/modifications are as follows:
 
 - it updates the pservice with additional attestation checks before provisioning an enclave. To do this, it extends the metadata header built by the eservice to provide info about the enclave to the pservice. Originally, it contained only mrenclave; now it contains the enclave attributes and relative mask. The pservice always checks the 64-bit flag. Also, it checks the debug flag in the attributes  _only if_ this is set in the mask -- if set in the mask, it must be enforced. (Note: the mask is derived from how the [SDK manages the DisableDebug field](https://github.com/intel/linux-sgx/blob/80a6625c497056c43e78d993e414ca99a9efed5c/sdk/sign_tool/SignTool/manage_metadata.cpp#L294) in the configuration file; if 1, it forces the debug flag to 0; if 0, it considers the debug flag irrelevant, and the untrusted host which runs the enclave can set it arbitrarily; in this last case, the debug flag is still verifiable through the attestation, and its value may differ compared to the one appearing in the signed enclave metadata).
 
--it adds consistency checks in cmake files to disallow builds where (sgx_mode=sim, PDO_DEBUG_BUILD=0) and (sgx_mode=hw, cmake_build_type=release, PDO_DEBUG_BUILD=1).
+- it adds consistency checks in cmake files to disallow builds where (sgx_mode=sim, PDO_DEBUG_BUILD=0) and (sgx_mode=hw, cmake_build_type=release, PDO_DEBUG_BUILD=1).
 
             </td>
         </tr>

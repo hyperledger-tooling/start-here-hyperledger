@@ -42,32 +42,6 @@ Avoid use of mavenLocal() and (deprecated) jcenter() Gradle repositories.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/348" class=".btn">#348</a>
-            </td>
-            <td>
-                <b>
-                    Update shim version in integration test chaincodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Now that we have a new Shim version 2.5.2, there's a couple of other examples that can point to it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-10 19:27:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/345" class=".btn">#345</a>
             </td>
             <td>
