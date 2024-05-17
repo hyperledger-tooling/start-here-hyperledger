@@ -359,35 +359,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4851" class=".btn">#4851</a>
-            </td>
-            <td>
-                <b>
-                    Add OpenSSF Scorecard bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-Add the Scorecard bug to the Readme.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 22:26:31 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/762" class=".btn">#762</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/764" class=".btn">#764</a>
             </td>
             <td>
                 <b>
-                    Use caching CI builds
+                    Restrict actions permission
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                [WIP]
-Fixes #753 
-This PR activates caching on a directory on the runner and mounting it to the go location where dependencies are installed inside the container building the app
+                This PR restricts the github workflows permission as recommended by OpenSSF as mentioned in issue #763 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-07 19:52:30 +0000 UTC
+        Created At 2024-05-16 20:08:31 +0000 UTC
     </div>
 </div>
 
