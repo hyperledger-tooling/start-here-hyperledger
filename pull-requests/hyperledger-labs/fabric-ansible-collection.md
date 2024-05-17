@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/64" class=".btn">#64</a>
+            </td>
+            <td>
+                <b>
+                    updated webhook deployment container securityContext to restrict unshare call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                updated webhook deployment container securityContext to restrict unshare call
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-17 12:59:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/63" class=".btn">#63</a>
             </td>
             <td>

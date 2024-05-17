@@ -1,13 +1,13 @@
 
-[571](https://github.com/hyperledger-labs/fabric-smart-client/pull/571) Replace deprecated logging param in nwo
+[1579](https://github.com/hyperledger/caliper/pull/1579) Implement part of #1557: Add tests for replayRate controller.
 
-[4611](https://github.com/hyperledger/iroha/pull/4611) fix(kura): Inline kura initialization into constructor
+[4615](https://github.com/hyperledger/iroha/pull/4615) chore(deps): bump syn from 2.0.63 to 2.0.64
 
-[1578](https://github.com/hyperledger/caliper/pull/1578) Address use/reference of startingTps where not correct
+[4614](https://github.com/hyperledger/iroha/pull/4614) chore(deps): bump thiserror from 1.0.60 to 1.0.61
 
-[457](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/457) Update weaver dependencies and respository links
+[4863](https://github.com/hyperledger/fabric/pull/4863) Upgrading the fabric components 
 
-[4610](https://github.com/hyperledger/iroha/pull/4610) refactor!: rename TransactionValue into CommittedTransaction
+[121](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/121) Initial mkdocs content
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

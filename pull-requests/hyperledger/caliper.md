@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1579" class=".btn">#1579</a>
+            </td>
+            <td>
+                <b>
+                    Implement part of #1557: Add tests for replayRate controller.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Proof
+![image](https://github.com/hyperledger/caliper/assets/136263179/94383ceb-5bb3-4ab7-99f9-c78aa939ea24)
+
+## Checklist
+ - [X]  A link to the issue/user story that the pull request relates to
+ - [ ]  How to recreate the problem without the fix
+ - [ ]  Design of the fix
+ - [ ]  How to prove that the fix works
+ - [ ]  Automated tests that prove the fix keeps on working
+ - [ ]  Documentation - any JSDoc, website, or Stackoverflow answers?
+
+## Issue/User story
+Add tests for replayRate controller.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-17 18:12:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1578" class=".btn">#1578</a>
             </td>
             <td>
@@ -138,44 +177,6 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1573" class=".btn">#1573</a>
-            </td>
-            <td>
-                <b>
-                    Implement part of #1557: Add tests for replayRate controller.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix 
-## Checklist
- - [X]  A link to the issue/user story that the pull request relates to
- - [ ]  How to recreate the problem without the fix
- - [ ]  Design of the fix
- - [ ]  How to prove that the fix works
- - [ ]  Automated tests that prove the fix keeps on working
- - [ ]  Documentation - any JSDoc, website, or Stackoverflow answers?
-
-## Issue/User story
-Add tests for replayRate controller.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-13 13:47:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1572" class=".btn">#1572</a>
             </td>
             <td>
@@ -263,41 +264,6 @@ This issue is a small part of #1557 which aims to increase overall code-coverage
     </table>
     <div class="right-align">
         Created At 2024-05-11 19:17:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1571" class=".btn">#1571</a>
-            </td>
-            <td>
-                <b>
-                    FIX #1570: Enhance the test coverage of fixedRate controller.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                FIX #1570 
-## Checklist
- - [X]  A link to the issue/user story that the pull request relates to
-
-## Existing issues
-No
-
-## Automated Tests
-Enhance the tests.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-10 13:40:32 +0000 UTC
     </div>
 </div>
 
