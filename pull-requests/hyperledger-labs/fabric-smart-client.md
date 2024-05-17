@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/570" class=".btn">#570</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/571" class=".btn">#571</a>
             </td>
             <td>
                 <b>
-                    Notifiers
+                    Replace deprecated logging param in nwo
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                This PR introduces the notifiers that allow us to listen for any row insert/update/delete in the DB.
-The new functionality is in the two files notifier.go. The rest is moving files to allow for deduplication of logic between the Postgres and the sqlite implementation.
+                Currently, NWO uses the deprecated --logging-level param when invoking the peer cli. This commit replaces this param with FABRIC_LOGGING_SPEC env variable.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-10 08:31:15 +0000 UTC
+        Created At 2024-05-17 12:06:01 +0000 UTC
     </div>
 </div>
 

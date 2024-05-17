@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1578" class=".btn">#1578</a>
+            </td>
+            <td>
+                <b>
+                    Address use/reference of startingTps where not correct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-17 07:45:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1577" class=".btn">#1577</a>
             </td>
             <td>
@@ -125,7 +151,7 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                fix #1557 
+                fix 
 ## Checklist
  - [X]  A link to the issue/user story that the pull request relates to
  - [ ]  How to recreate the problem without the fix
