@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/456" class=".btn">#456</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/457" class=".btn">#457</a>
             </td>
             <td>
                 <b>
-                    Updates and Cleanup as Preparation for Archival
+                    chore: update all go module dependencies 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Added deprecation notes and suggestions for users to migrate to using Hyperledger Cacti.
-Deleting unnecessary and obsolete files.
-Fixing typos and updating dependencies to avoid vulnerabilities and match what's currently in Hyperledger Cacti.
+                * fix(weaver-go-sdk): use updated weaver protobuf for fabric and corda view
+* chore: add script to generate checksums for go modules
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-08 08:26:06 +0000 UTC
+        Created At 2024-05-17 06:18:22 +0000 UTC
     </div>
 </div>
 

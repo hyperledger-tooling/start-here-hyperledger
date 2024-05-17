@@ -1,13 +1,13 @@
 
-[491](https://github.com/hyperledger-labs/private-data-objects/pull/491) Several small cleanups
+[457](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/457) chore: update all go module dependencies 
 
-[764](https://github.com/hyperledger/fabric-private-chaincode/pull/764) Restrict actions permission
+[4610](https://github.com/hyperledger/iroha/pull/4610) refactor!: rename TransactionValue into CommittedTransaction
 
-[270](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/270) Add section on becoming a steward
+[4609](https://github.com/hyperledger/iroha/pull/4609) [BACKPORT]: make TransactionValue::error field public
 
-[4608](https://github.com/hyperledger/iroha/pull/4608) chore(deps): bump proc-macro2 from 1.0.81 to 1.0.82
+[1577](https://github.com/hyperledger/caliper/pull/1577) test
 
-[4607](https://github.com/hyperledger/iroha/pull/4607) chore(deps): bump darling from 0.20.8 to 0.20.9
+[1644](https://github.com/hyperledger/solang/pull/1644) chore: fix typos
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
