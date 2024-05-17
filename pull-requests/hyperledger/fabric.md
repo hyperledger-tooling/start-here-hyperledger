@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4863" class=".btn">#4863</a>
+            </td>
+            <td>
+                <b>
+                    Upgrading the fabric components 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+I was trying to upgrade the chaincode version from v2.2 to v2.5.4 so I went to the documentation and tried to do the steps mentioned in the documentation. When I tried with those commands I faced different errors. The errors I encountered are couldn't run the orderer container as the orderer was looking for certificates which was not backed up. The opt path in the docker container has no files in it. Instead we have to backup from var directory which includes both the orderer and production folders. In  the peer container we have to mention the name of the fabric network for the chaincode container to start otherwise the chaincode container is not starting. So I fixed all the errors and made a new documentation for upgrading the fabric components and upgrading the capabilities.
+
+#### Additional details
+Added upgrading steps for couchdb and fabric-ca also.
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/4862
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-17 16:36:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4861" class=".btn">#4861</a>
             </td>
             <td>
@@ -31,7 +73,7 @@ permalink: /pull-requests/hyperledger/fabric
 - added new possible error based on platform and Go release
 - changed the work with [encoding/json](https://go.dev/pkg/encoding/json/) - https://go.dev/doc/go1.22#minor_library_changes. 
 `Marshaling and encoding functionality now escapes '\b' and '\f' characters as \b and \f instead of \u0008 and \u000c`.
-- The creators of go overmuch with the change of cover work. So far I have turned on the old flag of cover operation - `GOEXPERIMENT=nocoverageredesign`. I will open a question in the go community. Most likely in the next release of go it will be necessary to remove this flag.
+- The creators of go overmuch with the change of cover work. So far I have turned on the old flag of cover operation - `GOEXPERIMENT=nocoverageredesign`. I will open a question in the go community. Most likely in the next release of go it will be necessary to remove this flag - https://github.com/golang/go/issues/67427. 
             </td>
         </tr>
     </table>

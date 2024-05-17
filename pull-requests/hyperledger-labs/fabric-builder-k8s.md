@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    [WIP] Run chaincode using jobs
+                    Initial mkdocs content
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                See #119
+                See #66
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-08 11:03:23 +0000 UTC
+        Created At 2024-05-17 16:23:14 +0000 UTC
     </div>
 </div>
 

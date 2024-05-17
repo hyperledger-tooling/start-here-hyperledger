@@ -14,6 +14,223 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4615" class=".btn">#4615</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump syn from 2.0.63 to 2.0.64
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.63 to 2.0.64.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/syn/releases">syn's releases</a>.</em></p>
+<blockquote>
+<h2>2.0.64</h2>
+<ul>
+<li>Support using ParseBuffer across <code>catch_unwind</code> (<a href="https://redirect.github.com/dtolnay/syn/issues/1646">#1646</a>)</li>
+<li>Validate that the expression in a let-else ends in brace as required by rustc (<a href="https://redirect.github.com/dtolnay/syn/issues/1648">#1648</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1649">#1649</a>)</li>
+<li>Legalize invalid const generic arguments by wrapping in braces (<a href="https://redirect.github.com/dtolnay/syn/issues/1654">#1654</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1655">#1655</a>)</li>
+<li>Fix some expression precedence edge cases involving <code>break</code> and <code>return</code> in loop headers (<a href="https://redirect.github.com/dtolnay/syn/issues/1656">#1656</a>)</li>
+<li>Always print closure bodies with a brace when the closure has an explicit return type (<a href="https://redirect.github.com/dtolnay/syn/issues/1658">#1658</a>)</li>
+<li>Automatically insert necessary parentheses in ToTokens for Expr when required by expression precedence (<a href="https://redirect.github.com/dtolnay/syn/issues/1659">#1659</a>)</li>
+<li>Support struct literal syntax in match guard expressions (<a href="https://redirect.github.com/dtolnay/syn/issues/1662">#1662</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/syn/commit/98a62cbee4f3364787a4a04a9c18f2831ebb7e0a"><code>98a62cb</code></a> Release 2.0.64</li>
+<li><a href="https://github.com/dtolnay/syn/commit/1f8eddbf4fa8b6536c4a938ed9fef17871d1e42a"><code>1f8eddb</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1662">#1662</a> from dtolnay/guardstruct</li>
+<li><a href="https://github.com/dtolnay/syn/commit/0a3d3bd837905bc48c6c2082f92cb7cbb2788d0d"><code>0a3d3bd</code></a> Fix parsing of struct literal in match guard expression</li>
+<li><a href="https://github.com/dtolnay/syn/commit/f4641931718f41ab0a81c173d8e4fc1f38fe772e"><code>f464193</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1659">#1659</a> from dtolnay/needspar</li>
+<li><a href="https://github.com/dtolnay/syn/commit/afa1c7259aa6ef5795e922f7820d95fc205a74f9"><code>afa1c72</code></a> Add more auto-parenthesization tests</li>
+<li><a href="https://github.com/dtolnay/syn/commit/532d3a37cf33ef13e5a878a9efdde2415b4cd2fe"><code>532d3a3</code></a> Insert necessary parentheses in ToTokens for Expr</li>
+<li><a href="https://github.com/dtolnay/syn/commit/1b6a45079d2cfde0731ea47a23f5713f47d88d73"><code>1b6a450</code></a> Add test of parenthesis insertion by Expr's ToTokens</li>
+<li><a href="https://github.com/dtolnay/syn/commit/83ea28918bcac980b7382c64ffe8982c70a01a18"><code>83ea289</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1658">#1658</a> from dtolnay/closurebrace</li>
+<li><a href="https://github.com/dtolnay/syn/commit/206d897ed8dd784d7a36e7ca3b0920052c025cbc"><code>206d897</code></a> Create braces around closure body during printing if needed</li>
+<li><a href="https://github.com/dtolnay/syn/commit/9b60027c1605420778f41a1082ec80fd730b0c25"><code>9b60027</code></a> Ignore struct_excessive_bools pedantic clippy lint</li>
+<li>Additional commits viewable in <a href="https://github.com/dtolnay/syn/compare/2.0.63...2.0.64">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.63&new-version=2.0.64)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-17 16:59:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4614" class=".btn">#4614</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump thiserror from 1.0.60 to 1.0.61
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [thiserror](https://github.com/dtolnay/thiserror) from 1.0.60 to 1.0.61.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.61</h2>
+<ul>
+<li>Use <code>core::fmt</code> and <code>core::panic</code> to facilitate <code>error_in_core</code> support (<a href="https://redirect.github.com/dtolnay/thiserror/issues/299">#299</a>, thanks <a href="https://github.com/jordens"><code>@​jordens</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/thiserror/commit/5c8016393fec09330ae495d71edee4d8104a9466"><code>5c80163</code></a> Release 1.0.61</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/e3b1b91ced4e590ac8823fa0945f01a0560dada9"><code>e3b1b91</code></a> Format PR 299 with rustfmt</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/6b2b871f39cfb0a24c24d9d27b145a9fd0a6a714"><code>6b2b871</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/thiserror/issues/299">#299</a> from quartiq/core</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/ce974bc2bd7773ef6e2cf19a2e35c0d31519c353"><code>ce974bc</code></a> also {std -&gt; core}::panic::UnwindSafe</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/7b6e35b992e96581ed5feee917fdb3c2d5918839"><code>7b6e35b</code></a> use core::fmt instead of std::fmt</li>
+<li>See full diff in <a href="https://github.com/dtolnay/thiserror/compare/1.0.60...1.0.61">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=thiserror&package-manager=cargo&previous-version=1.0.60&new-version=1.0.61)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-17 16:59:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4612" class=".btn">#4612</a>
+            </td>
+            <td>
+                <b>
+                    fix(sumeragi): Use proper view_change_index on init block load
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span>
+            </td>
+            <td>
+                ## Description
+
+- if error  shutdown happened while iroha was listening for genesis exit happens gracefully
+- loading blocks now respect fallback peer order
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4604 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-17 13:45:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4611" class=".btn">#4611</a>
             </td>
             <td>
@@ -1583,101 +1800,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-05-13 16:14:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4574" class=".btn">#4574</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump trybuild from 1.0.91 to 1.0.95
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [trybuild](https://github.com/dtolnay/trybuild) from 1.0.91 to 1.0.95.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dtolnay/trybuild/releases">trybuild's releases</a>.</em></p>
-<blockquote>
-<h2>1.0.95</h2>
-<ul>
-<li>Keep long type names in diagnostics so that test output does not vary depending on the length of the absolute filepath of the crate (<a href="https://redirect.github.com/dtolnay/trybuild/issues/269">#269</a>)</li>
-</ul>
-<h2>1.0.94</h2>
-<ul>
-<li>Resolve unexpected_cfgs warning (<a href="https://redirect.github.com/dtolnay/trybuild/issues/268">#268</a>)</li>
-</ul>
-<h2>1.0.93</h2>
-<ul>
-<li>Remove dependency on <code>once_cell</code> crate (<a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a>, thanks <a href="https://github.com/taiki-e"><code>@​taiki-e</code></a>)</li>
-</ul>
-<h2>1.0.92</h2>
-<ul>
-<li>Update normalization of verbose type paths to accommodate error message changes in rust 1.78 (<a href="https://redirect.github.com/dtolnay/trybuild/issues/265">#265</a>, thanks <a href="https://github.com/weiznich"><code>@​weiznich</code></a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dtolnay/trybuild/commit/02e6117084d81540ff533da81a3bdd74e00cdf27"><code>02e6117</code></a> Release 1.0.95</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/619bfcd491cbdcc443e54f66aa329dc207cc6034"><code>619bfcd</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/270">#270</a> from dtolnay/typename</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/db3c9b4f545d8e9250e2defeb724d6f46c4f22cc"><code>db3c9b4</code></a> Disable long typename shortening in diagnostics</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/9ed763b56f204ecc2624657016c12aeae3d26920"><code>9ed763b</code></a> Release 1.0.94</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/b3c948124251872bc3111d2cf2938ae044e9e9d1"><code>b3c9481</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/268">#268</a> from dtolnay/checkcfg</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/7bb6f2fb22f39744771fa229740d8e023c67e424"><code>7bb6f2f</code></a> Resolve unexpected_cfgs warning</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/8a57d8c2eb84241a5986f11cb99621d8a59ce65e"><code>8a57d8c</code></a> Release 1.0.93</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/b9888357069e2cbc24a752ad5c7c125f60d178ac"><code>b988835</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/267">#267</a> from dtolnay/constmutex</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/95f8cdbd329c1c46d1a413faf3622053838eaa4d"><code>95f8cdb</code></a> Remove OnceLock around intra-process lock's mutex</li>
-<li><a href="https://github.com/dtolnay/trybuild/commit/62b1543732bb61ac0cba28d90cc5b17826ebe780"><code>62b1543</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/trybuild/issues/266">#266</a> from taiki-e/once_cell</li>
-<li>Additional commits viewable in <a href="https://github.com/dtolnay/trybuild/compare/1.0.91...1.0.95">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=trybuild&package-manager=cargo&previous-version=1.0.91&new-version=1.0.95)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-10 16:31:55 +0000 UTC
     </div>
 </div>
 
