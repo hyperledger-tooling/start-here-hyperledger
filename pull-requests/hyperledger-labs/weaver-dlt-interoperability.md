@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
             </td>
             <td>
                 <b>
-                    chore: update all go module dependencies 
+                    Update weaver dependencies and respository links
                 </b>
             </td>
         </tr>
@@ -27,8 +27,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                * fix(weaver-go-sdk): use updated weaver protobuf for fabric and corda view
+                * chore: update all go module dependencies, add all go tests to workflow
+* fix(weaver-go-sdk): use updated weaver protobuf for fabric and corda view
 * chore: add script to generate checksums for go modules
+* fix: update broken corda repository links
+* chore: use node 18 for besu asset exchange workflow
             </td>
         </tr>
     </table>
