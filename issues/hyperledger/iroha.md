@@ -14,32 +14,6 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4517" class=".btn">4517</a>
-            </td>
-            <td>
-                <b>
-                    Rename `TransactionValue` into `CommittedTransaction`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2-dev</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-26 10:25:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/4511" class=".btn">4511</a>
             </td>
             <td>
