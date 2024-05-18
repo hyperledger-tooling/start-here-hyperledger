@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
             </td>
             <td>
                 <b>
-                    Update weaver dependencies and respository links
+                    Update weaver dependencies and repository links
                 </b>
             </td>
         </tr>
