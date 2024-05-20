@@ -1,13 +1,13 @@
 
-[4617](https://github.com/hyperledger/iroha/pull/4617) feat: support `https` for `torii_url` (#4601)
+[1666](https://github.com/hyperledger/indy-plenum/pull/1666) Bump gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-05-13-09-12-40
 
-[4616](https://github.com/hyperledger/iroha/pull/4616) [Fix] #4586: Added register trigger permissions check
+[1863](https://github.com/hyperledger/indy-node/pull/1863) Bump gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-05-13-09-12-40
 
-[4865](https://github.com/hyperledger/fabric/pull/4865) fix: the typo in docs
+[4620](https://github.com/hyperledger/iroha/pull/4620) refactor: Make `SignedBlock` immutable
 
-[1645](https://github.com/hyperledger/solang/pull/1645) Soroban counter.sol example
+[4619](https://github.com/hyperledger/iroha/pull/4619) fix(test_network): Set myself in trusted_peers
 
-[89](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/89) cleanup
+[2057](https://github.com/hyperledger/web3j/pull/2057) Upgrade gradle to 8.7 and remove Consensys Repo dependency
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
