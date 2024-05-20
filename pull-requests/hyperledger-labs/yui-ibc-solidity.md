@@ -218,29 +218,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/262" class=".btn">#262</a>
-            </td>
-            <td>
-                <b>
-                    ics20: Remove unused `Address` library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-13 03:11:03 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7093" class=".btn">#7093</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/7096" class=".btn">#7096</a>
             </td>
             <td>
                 <b>
-                    Fix eip 2935 reftests
+                    Wire EIP-2935 into evmtool
                 </b>
             </td>
         </tr>
@@ -28,6 +28,11 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 ## PR description
+
+Cover one missed case where the BlockHashLookup changes in the EIP-2935
+handling, ensuring the `state-test` tool gets proper prague handling.
+
+Signed-off-by: Danno Ferrin <danno@numisight.com>
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -53,7 +58,34 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-12 21:27:57 +0000 UTC
+        Created At 2024-05-13 14:38:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7095" class=".btn">#7095</a>
+            </td>
+            <td>
+                <b>
+                    no npe when account doesn't exist yet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Assume a nonce of 0 for an account that doesn't exist yet.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-13 12:54:06 +0000 UTC
     </div>
 </div>
 

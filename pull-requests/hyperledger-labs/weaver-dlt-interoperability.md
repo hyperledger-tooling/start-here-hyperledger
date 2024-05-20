@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 * fix(weaver-go-sdk): use updated weaver protobuf for fabric and corda view
 * chore: add script to generate checksums for go modules
 * fix: update broken corda repository links
-* chore: use node 18 for besu asset exchange workflow
+* ci: fix besu asset exchange workflow to use node 16
             </td>
         </tr>
     </table>
