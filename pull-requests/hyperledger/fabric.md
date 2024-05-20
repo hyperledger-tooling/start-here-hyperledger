@@ -263,29 +263,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4857" class=".btn">#4857</a>
-            </td>
-            <td>
-                <b>
-                    Bump github.com/hyperledger/fabric-lib-go to v1.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump github.com/hyperledger/fabric-lib-go to v1.1.2.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-13 18:09:16 +0000 UTC
-    </div>
-</div>
-

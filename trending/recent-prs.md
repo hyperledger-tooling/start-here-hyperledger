@@ -1,13 +1,13 @@
 
-[1666](https://github.com/hyperledger/indy-plenum/pull/1666) Bump gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-05-13-09-12-40
+[4629](https://github.com/hyperledger/iroha/pull/4629) chore(deps): bump syn from 2.0.64 to 2.0.65
 
-[1863](https://github.com/hyperledger/indy-node/pull/1863) Bump gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-05-13-09-12-40
+[4628](https://github.com/hyperledger/iroha/pull/4628) chore(deps-dev): bump pytest from 8.2.0 to 8.2.1 in /client_cli/pytests
 
-[4620](https://github.com/hyperledger/iroha/pull/4620) refactor: Make `SignedBlock` immutable
+[4627](https://github.com/hyperledger/iroha/pull/4627) chore(deps-dev): bump pylint from 3.2.0 to 3.2.2 in /client_cli/pytests
 
-[4619](https://github.com/hyperledger/iroha/pull/4619) fix(test_network): Set myself in trusted_peers
+[4626](https://github.com/hyperledger/iroha/pull/4626) chore(deps): bump anyhow from 1.0.83 to 1.0.86
 
-[2057](https://github.com/hyperledger/web3j/pull/2057) Upgrade gradle to 8.7 and remove Consensys Repo dependency
+[4625](https://github.com/hyperledger/iroha/pull/4625) chore(deps): bump proc-macro2 from 1.0.82 to 1.0.83
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
