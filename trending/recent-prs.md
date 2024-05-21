@@ -1,13 +1,13 @@
 
-[4867](https://github.com/hyperledger/fabric/pull/4867) Bump requests from 2.31.0 to 2.32.0 in /docs in the pip group across 1 directory
+[418](https://github.com/hyperledger/fabric-ca/pull/418) Release commit for v1.5.11
 
-[417](https://github.com/hyperledger/fabric-ca/pull/417) Bump requests from 2.31.0 to 2.32.0 in /docs in the pip group across 1 directory
+[4868](https://github.com/hyperledger/fabric/pull/4868) Release commit for v2.5.8
 
-[620](https://github.com/hyperledger/cello/pull/620) Bump the pip group across 2 directories with 1 update
+[459](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/459) build(deps-dev): Bump @babel/traverse from 7.17.9 to 7.24.5 in /common/policy-dsl
 
-[582](https://github.com/hyperledger-labs/SmartBFT/pull/582) up go 1.22.3
+[591](https://github.com/hyperledger-labs/SmartBFT/pull/591) Change go mod1
 
-[581](https://github.com/hyperledger-labs/SmartBFT/pull/581) fix dependabot.yml
+[765](https://github.com/hyperledger/fabric-private-chaincode/pull/765) Fix gh action permission
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

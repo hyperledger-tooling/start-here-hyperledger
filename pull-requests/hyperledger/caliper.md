@@ -79,32 +79,6 @@ Add tests for replayRate controller.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1577" class=".btn">#1577</a>
-            </td>
-            <td>
-                <b>
-                    test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-17 04:02:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1576" class=".btn">#1576</a>
             </td>
             <td>
