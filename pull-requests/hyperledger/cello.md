@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/619" class=".btn">#619</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/620" class=".btn">#620</a>
             </td>
             <td>
                 <b>
@@ -28,74 +28,16 @@ permalink: /pull-requests/hyperledger/cello
             </td>
             <td>
                 Updates the requirements on  and [requests](https://github.com/psf/requests) to permit the latest version.
-Updates `requests` to 2.32.0
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
-<blockquote>
-<h2>v2.32.0</h2>
-<h2>2.32.0 (2024-05-20)</h2>
-<h2>🐍 PYCON US 2024 EDITION 🐍</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/matthewarmand"><code>@​matthewarmand</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6258">psf/requests#6258</a></li>
-<li><a href="https://github.com/cpzt"><code>@​cpzt</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6456">psf/requests#6456</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+Updates `requests` to 2.32.1
 <details>
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
 <blockquote>
+<h2>2.32.1 (2024-05-20)</h2>
+<p><strong>Bugfixes</strong></p>
+<ul>
+<li>Add missing test certs to the sdist distributed on PyPI.</li>
+</ul>
 <h2>2.32.0 (2024-05-20)</h2>
 <p><strong>Security</strong></p>
 <ul>
@@ -141,11 +83,8 @@ urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.git
 The source files for the projects (formerly <code>requests</code>) is now located
 in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
 <li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
+using <code>hatchling</code>. This should not impact the average user, but extremely old</li>
 </ul>
-<h2>2.31.0 (2023-05-22)</h2>
-<p><strong>Security</strong></p>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -153,6 +92,7 @@ versions of packaging utilities may have issues with the new packaging format.</
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/psf/requests/commit/970e8cec988421bd43da57350723b05c8ce8dc7e"><code>970e8ce</code></a> v2.32.1</li>
 <li><a href="https://github.com/psf/requests/commit/d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f"><code>d6ebc4a</code></a> v2.32.0</li>
 <li><a href="https://github.com/psf/requests/commit/9a40d1277807f0a4f26c9a37eea8ec90faa8aadc"><code>9a40d12</code></a> Avoid reloading root certificates to improve concurrent performance (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
 <li><a href="https://github.com/psf/requests/commit/0c030f78d24f29a459dbf39b28b4cc765e2153d7"><code>0c030f7</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a> from nateprewitt/no_char_detection</li>
@@ -162,80 +102,21 @@ versions of packaging utilities may have issues with the new packaging format.</
 <li><a href="https://github.com/psf/requests/commit/2d5f54779ad174035c5437b3b3c1146b0eaf60fe"><code>2d5f547</code></a> Pin 3.8 and 3.9 runners back to macos-13 (<a href="https://redirect.github.com/psf/requests/issues/6688">#6688</a>)</li>
 <li><a href="https://github.com/psf/requests/commit/f1bb07d39b74d6444e333879f8b8a3d9dd4d2311"><code>f1bb07d</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6687">#6687</a> from psf/dependabot/github_actions/github/codeql-act...</li>
 <li><a href="https://github.com/psf/requests/commit/60047ade64b0b882cbc94e047198818ab580911e"><code>60047ad</code></a> Bump github/codeql-action from 3.24.0 to 3.25.0</li>
-<li><a href="https://github.com/psf/requests/commit/31ebb8102c00f8cf8b396a6356743cca4362e07b"><code>31ebb81</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6682">#6682</a> from frenzymadness/pytest8</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v0.2.0...v2.32.0">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v0.2.0...v2.32.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 Updates `requests` from 2.31.0 to 2.32.0
 <details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
-<blockquote>
-<h2>v2.32.0</h2>
-<h2>2.32.0 (2024-05-20)</h2>
-<h2>🐍 PYCON US 2024 EDITION 🐍</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/matthewarmand"><code>@​matthewarmand</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6258">psf/requests#6258</a></li>
-<li><a href="https://github.com/cpzt"><code>@​cpzt</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6456">psf/requests#6456</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
 <blockquote>
+<h2>2.32.1 (2024-05-20)</h2>
+<p><strong>Bugfixes</strong></p>
+<ul>
+<li>Add missing test certs to the sdist distributed on PyPI.</li>
+</ul>
 <h2>2.32.0 (2024-05-20)</h2>
 <p><strong>Security</strong></p>
 <ul>
@@ -281,11 +162,8 @@ urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.git
 The source files for the projects (formerly <code>requests</code>) is now located
 in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
 <li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
+using <code>hatchling</code>. This should not impact the average user, but extremely old</li>
 </ul>
-<h2>2.31.0 (2023-05-22)</h2>
-<p><strong>Security</strong></p>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -293,6 +171,7 @@ versions of packaging utilities may have issues with the new packaging format.</
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/psf/requests/commit/970e8cec988421bd43da57350723b05c8ce8dc7e"><code>970e8ce</code></a> v2.32.1</li>
 <li><a href="https://github.com/psf/requests/commit/d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f"><code>d6ebc4a</code></a> v2.32.0</li>
 <li><a href="https://github.com/psf/requests/commit/9a40d1277807f0a4f26c9a37eea8ec90faa8aadc"><code>9a40d12</code></a> Avoid reloading root certificates to improve concurrent performance (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
 <li><a href="https://github.com/psf/requests/commit/0c030f78d24f29a459dbf39b28b4cc765e2153d7"><code>0c030f7</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a> from nateprewitt/no_char_detection</li>
@@ -302,8 +181,7 @@ versions of packaging utilities may have issues with the new packaging format.</
 <li><a href="https://github.com/psf/requests/commit/2d5f54779ad174035c5437b3b3c1146b0eaf60fe"><code>2d5f547</code></a> Pin 3.8 and 3.9 runners back to macos-13 (<a href="https://redirect.github.com/psf/requests/issues/6688">#6688</a>)</li>
 <li><a href="https://github.com/psf/requests/commit/f1bb07d39b74d6444e333879f8b8a3d9dd4d2311"><code>f1bb07d</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6687">#6687</a> from psf/dependabot/github_actions/github/codeql-act...</li>
 <li><a href="https://github.com/psf/requests/commit/60047ade64b0b882cbc94e047198818ab580911e"><code>60047ad</code></a> Bump github/codeql-action from 3.24.0 to 3.25.0</li>
-<li><a href="https://github.com/psf/requests/commit/31ebb8102c00f8cf8b396a6356743cca4362e07b"><code>31ebb81</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6682">#6682</a> from frenzymadness/pytest8</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v0.2.0...v2.32.0">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v0.2.0...v2.32.1">compare view</a></li>
 </ul>
 </details>
 <br />
@@ -341,7 +219,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-20 20:16:51 +0000 UTC
+        Created At 2024-05-21 05:39:12 +0000 UTC
     </div>
 </div>
 
