@@ -1,13 +1,13 @@
 
-[418](https://github.com/hyperledger/fabric-ca/pull/418) Release commit for v1.5.11
+[592](https://github.com/hyperledger-labs/SmartBFT/pull/592) refactoring for and delete github.com/pkg/errors
 
-[4868](https://github.com/hyperledger/fabric/pull/4868) Release commit for v2.5.8
+[716](https://github.com/hyperledger-labs/fabric-operations-console/pull/716) update landing page issue and clipboard with localizaton fix
 
-[459](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/459) build(deps-dev): Bump @babel/traverse from 7.17.9 to 7.24.5 in /common/policy-dsl
+[466](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/466) bump: weaver/testutils version in all go modules
 
-[591](https://github.com/hyperledger-labs/SmartBFT/pull/591) Change go mod1
+[4633](https://github.com/hyperledger/iroha/pull/4633) chore(deps): bump libsodium-sys-stable from 1.20.7 to 1.20.8
 
-[765](https://github.com/hyperledger/fabric-private-chaincode/pull/765) Fix gh action permission
+[631](https://github.com/hyperledger-labs/fabric-token-sdk/pull/631) various improvements
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

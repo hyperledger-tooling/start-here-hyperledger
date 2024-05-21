@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/716" class=".btn">#716</a>
+            </td>
+            <td>
+                <b>
+                    update landing page issue and clipboard with localizaton fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+Landing page issue and clipboard with localisation issue fix
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 17:42:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/715" class=".btn">#715</a>
             </td>
             <td>
@@ -186,37 +222,6 @@ Security vulnerabilities and api swagger update
     </table>
     <div class="right-align">
         Created At 2024-05-16 06:11:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/710" class=".btn">#710</a>
-            </td>
-            <td>
-                <b>
-                    updated react-idle-timer library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Improvement
-#### Description
-Updated react-idle-timer library
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-14 14:17:46 +0000 UTC
     </div>
 </div>
 
