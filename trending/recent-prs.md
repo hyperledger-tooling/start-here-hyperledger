@@ -1,13 +1,13 @@
 
-[619](https://github.com/hyperledger/cello/pull/619) Bump the pip group across 2 directories with 1 update
+[4867](https://github.com/hyperledger/fabric/pull/4867) Bump requests from 2.31.0 to 2.32.0 in /docs in the pip group across 1 directory
 
-[4629](https://github.com/hyperledger/iroha/pull/4629) chore(deps): bump syn from 2.0.64 to 2.0.65
+[417](https://github.com/hyperledger/fabric-ca/pull/417) Bump requests from 2.31.0 to 2.32.0 in /docs in the pip group across 1 directory
 
-[4628](https://github.com/hyperledger/iroha/pull/4628) chore(deps-dev): bump pytest from 8.2.0 to 8.2.1 in /client_cli/pytests
+[620](https://github.com/hyperledger/cello/pull/620) Bump the pip group across 2 directories with 1 update
 
-[4627](https://github.com/hyperledger/iroha/pull/4627) chore(deps-dev): bump pylint from 3.2.0 to 3.2.2 in /client_cli/pytests
+[582](https://github.com/hyperledger-labs/SmartBFT/pull/582) up go 1.22.3
 
-[4626](https://github.com/hyperledger/iroha/pull/4626) chore(deps): bump anyhow from 1.0.83 to 1.0.86
+[581](https://github.com/hyperledger-labs/SmartBFT/pull/581) fix dependabot.yml
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
