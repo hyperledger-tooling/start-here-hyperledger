@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4869" class=".btn">#4869</a>
+            </td>
+            <td>
+                <b>
+                    Add logging for pkcs11 initialize (release-2.5 backport)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add warnings and debug logging to troubleshoot
+pkcs11 initialize function.
+
+Note that main branch uses fabric-lib-go which
+has these same bccsp/pkcs11 updates,
+see https://github.com/hyperledger/fabric-lib-go/pull/33
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 13:22:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4868" class=".btn">#4868</a>
             </td>
             <td>
@@ -402,74 +433,6 @@ The changes were tested locally and with GitHub CI/CD.
     </table>
     <div class="right-align">
         Created At 2024-05-14 19:49:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4858" class=".btn">#4858</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix function names in comment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-
-- Documentation update
-
-#### Description
-
-fix function names in comment
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-14 13:09:37 +0000 UTC
     </div>
 </div>
 
