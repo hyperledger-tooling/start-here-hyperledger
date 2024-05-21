@@ -14,43 +14,6 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4865" class=".btn">#4865</a>
-            </td>
-            <td>
-                <b>
-                    fix: the typo in docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-This PR fixes various typo in documentations.
-
-Fixes #3271 
-
-- Documentation update
-
-#### Description
--  typo of "have" changed to "having".
-- "v2.0" replaced by "v2.x" throughout the docs.
-- Fixed a number of missing :(colon) & .(period).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-18 19:32:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4863" class=".btn">#4863</a>
             </td>
             <td>
