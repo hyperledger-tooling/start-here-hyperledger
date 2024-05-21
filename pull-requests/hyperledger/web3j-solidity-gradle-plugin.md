@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    Different solidity compile config for different sourceSets
+                    Upgrade to gradle8.7
                 </b>
             </td>
         </tr>
@@ -28,24 +28,24 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
             </td>
             <td>
                 ### What does this PR do?
-Add functionality where user can set different evmVersions, sol version, optimize, optmizeRuns and ignnoreMissing values for different Source Sets
+Upgrade to gradle8.7
 
 ### Where should the reviewer start?
-src/main/groovy/org/web3j/solidity/gradle/plugin/SoliditySourceSet.groovy
+*required*
 
 ### Why is it needed?
-currently, we can define different sourceSets in web3j solidity gradle plugin, but solidity config for compilation is global and it can be set as different for different source Sets.
+Upgrade to gradle8.7
 
 ## Checklist
 
-- [x] I've read the contribution guidelines.
-- [x] I've added tests (if applicable).
-- [x] I've added a changelog entry if necessary.
+- [ ] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [ ] I've added a changelog entry if necessary.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-07 02:51:39 +0000 UTC
+        Created At 2024-05-21 08:57:39 +0000 UTC
     </div>
 </div>
 

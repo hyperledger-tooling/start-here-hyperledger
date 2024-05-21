@@ -27,7 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                … the alias
+                … the alias.
+
+This PR attempts to solve two things:
+
+1. The default resolver, which was registered with the node id and the grpc address, was causing unpredictable behaviour with the new websockets communication method (the default resolver is selected instead of the correct one - even though the grpc address is empty).
+2. It was necessary to list the resolver id as 'alias' in the configuration, even though it's not really an alias if it's the same id. The code in this PR binds the node id to itself, so it's not necessary anymore to do that.
+
+For the first one, I'm not sure if this code was still in use in some way. For the second, binding the id to itself looks a bit odd, and there might be cleaner solutions available that I'm not aware of. Would like to get some feedback before 'undrafting' it.
             </td>
         </tr>
     </table>

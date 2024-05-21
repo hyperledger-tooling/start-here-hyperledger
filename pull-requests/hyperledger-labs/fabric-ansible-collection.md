@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    added check for NoneType
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added check if any console doesn't have a peer or orderer, and in that case, it returns None.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-14 07:00:12 +0000 UTC
-    </div>
-</div>
-
