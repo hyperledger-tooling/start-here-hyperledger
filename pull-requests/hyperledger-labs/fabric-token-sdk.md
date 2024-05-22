@@ -18,16 +18,19 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    various improvements
+                    cleanup
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR does the following:
+- It replaces view.Identity with token.Identity or driver.Identity.
+- Use services/logging
+- TokenRequest#Issue appends the metadata as produced by the driver
             </td>
         </tr>
     </table>
