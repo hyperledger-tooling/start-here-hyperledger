@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/719" class=".btn">#719</a>
+            </td>
+            <td>
+                <b>
+                    Timeout issues and MSP definition scenario
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+Timeout issues and MSP definition scenario
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-22 08:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/718" class=".btn">#718</a>
+            </td>
+            <td>
+                <b>
+                    fix url to documentation for peer node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+#### Description
+Fixed url for "Configuring Node Logging" part in Peer Nodes> Log Settings option
+
+Currently there is no url to the documentation.
+
+Correct url - https://www.ibm.com/docs/en/hlf-support/1.0.0?topic=console-administering-your#ibm-hlfsupport-console-manage-logger
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-22 08:30:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/717" class=".btn">#717</a>
             </td>
             <td>
