@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4871" class=".btn">#4871</a>
+            </td>
+            <td>
+                <b>
+                    fix: typo in documentations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+This PR fixes various typo in documentations.
+
+fixes #3271 
+
+- Documentation update
+
+#### Description
+
+- fixed the typo "have" ---> "having" 
+- Added a number of missing colons(:)
+
+<img width="1437" alt="Screenshot 2024-05-22 at 02 22 28" src="https://github.com/hyperledger/fabric/assets/144223699/7747d0db-0019-4154-aea3-49fc52792b38">
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 20:57:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4870" class=".btn">#4870</a>
+            </td>
+            <td>
+                <b>
+                    Bump actions/download-artifact to v4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                download-artifact needs to be v4 because
+upload-artifact is already v4.
+They must be at the same level for release pipeline to work correctly.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 19:25:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4869" class=".btn">#4869</a>
             </td>
             <td>
@@ -357,82 +427,6 @@ https://github.com/hyperledger/fabric/issues/4862
     </table>
     <div class="right-align">
         Created At 2024-05-16 12:32:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4859" class=".btn">#4859</a>
-            </td>
-            <td>
-                <b>
-                    add badger as alternative state database
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- New feature
-
-#### Description
-
-BadgerDB was added as alternative for GolevelDB state database.
-Choosing the better alternative for the GolevelDB was a goal of my research within the paper *"A Journey Towards the Most Efficient State Database For Hyperledger Fabric"*: 
-
-  * [Short version](https://ieeexplore.ieee.org/document/10174970)
-  * [Detailed version](https://www.oajaiml.com/uploads/archivepdf/36321188.pdf)
-
-This PR adds Badger because it showed better performance results in comparison with GolevelDB, Bbolt and RocksDB. 
-
-PR satisfies [potential future items of the current Hyperledger Fabric Roadmap](https://wiki.hyperledger.org/display/fabric/Hyperledger+Fabric+Roadmap#:~:text=Replace%20GolevelDB%20with%20faster%20database) where the goal to replace the GolevelDB with faster database is mentioned.
- 
-
-#### Additional details
-
-Detailed Hyperledger Fabric performance reports mentioned in the papers above are availiable [here](https://drive.google.com/drive/folders/102_Kgpxsjcog5RNcXPo8MK1dvVYoGODp?usp=sharing). They were made using Hyperledger Caliper tool. The tool was used to measure main performance metrics on HLF peer with default GolevelDB and integrated Badger, Bbolt and RocksDB. More measuring details are described in the aforementioned studies.
-
-To demonstrate Badger's potential advantage over GolevelDB, go benchmarks were added to the packages leveldbhelper and badgerdbhelper respectively. The results measured locally show that Badger has better performance for "*put*" operations than GolevelDB. The output is:
-
-#### GolevelDB
-```bash
-go test -benchmem -run=^$ -bench ^BenchmarkLevelDBHelper$ github.com/hyperledger/fabric/common/ledger/util/leveldbhelper
-goos: darwin
-goarch: arm64
-pkg: github.com/hyperledger/fabric/common/ledger/util/leveldbhelper
-BenchmarkLevelDBHelper/get-leveldb-little-data-10                5452860               189.3 ns/op           108 B/op          4 allocs/op
-BenchmarkLevelDBHelper/put-leveldb-10                                673           2768479 ns/op             248 B/op          3 allocs/op
-BenchmarkLevelDBHelper/put-leveldb-type-2-10                         415           2560133 ns/op             204 B/op          3 allocs/op
-PASS
-ok      github.com/hyperledger/fabric/common/ledger/util/leveldbhelper  7.145s
-```
-
-#### Badger
-```bash
- go test -benchmem -run=^$ -bench ^BenchmarkBadgerDBHelper$ github.com/hyperledger/fabric/common/ledger/util/badgerdbhelper
-goos: darwin
-goarch: arm64
-pkg: github.com/hyperledger/fabric/common/ledger/util/badgerdbhelper
-BenchmarkBadgerDBHelper/get-badgerdb-little-data-10          1388515               727.7 ns/op           410 B/op          8 allocs/op
-BenchmarkBadgerDBHelper/put-badgerdb-10                           207873              5808 ns/op            1408 B/op         37 allocs/op
-BenchmarkBadgerDBHelper/put-badgerdb-type-2-10                171474              7206 ns/op            1477 B/op         37 allocs/op
-PASS
-ok      github.com/hyperledger/fabric/common/ledger/util/badgerdbhelper 13.984s
-```
-
-The changes were tested locally and with GitHub CI/CD.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-14 19:49:05 +0000 UTC
     </div>
 </div>
 

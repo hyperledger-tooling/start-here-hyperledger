@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/122" class=".btn">#122</a>
+            </td>
+            <td>
+                <b>
+                    Create mkdocs workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 21:49:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/121" class=".btn">#121</a>
             </td>
             <td>
