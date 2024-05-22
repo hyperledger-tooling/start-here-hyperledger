@@ -32,8 +32,8 @@ permalink: /pull-requests/hyperledger/solang
 - [x] Support Soroban storage function calls `put_contract_data`, `get_contract_data` and `has_contract_data`
 - [x] Implement a wrapper `init` for `storage_initializer` 
 - [x] Implement wrappers for public functions
-- [ ] Insert decoding/encoding instructions into the wrapper functions 
-- [ ] Soroban doesn't have function return codes. This needs to be handled all over emit
+- [x] Insert decoding/encoding instructions into the wrapper functions 
+- [x] Soroban doesn't have function return codes. This needs to be handled all over emit
 - [ ] Add integration tests and MockVm tests
             </td>
         </tr>
