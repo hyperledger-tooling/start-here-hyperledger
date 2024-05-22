@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/417" class=".btn">#417</a>
-            </td>
-            <td>
-                <b>
-                    feature: added trigger deserialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added trigger deserialization
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-15 10:44:50 +0000 UTC
-    </div>
-</div>
-
