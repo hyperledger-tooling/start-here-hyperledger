@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/270" class=".btn">#270</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/271" class=".btn">#271</a>
             </td>
             <td>
                 <b>
-                    Add section on becoming a steward
+                    Add new stewards approved on May 23, 2024
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-16 17:17:14 +0000 UTC
+        Created At 2024-05-23 15:55:37 +0000 UTC
     </div>
 </div>
 

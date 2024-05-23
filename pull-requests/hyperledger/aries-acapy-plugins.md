@@ -3213,35 +3213,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/479" class=".btn">#479</a>
-            </td>
-            <td>
-                <b>
-                    Fix logic for release workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I thought I tested this really good but there was a couple mistakes. 
-
-The exit 0 in release_pr workflow wasn't exiting. I think changing the permissions broke this. I just added a condition for the remaining workflows instead of trying to force exit.
-
-I had some bad logic in the release workflow. I don't know when I messed this up, but it was supposed to check that any lock files that were merged had been on an older version of aca-py. It was actually just checking if any lock files had changed :/
-
-This fixes both those problems.  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-16 17:09:59 +0000 UTC
-    </div>
-</div>
-

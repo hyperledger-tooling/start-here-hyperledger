@@ -1,13 +1,13 @@
 
-[72](https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/72) release 0.5.0
+[95](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/95) Security patches
 
-[636](https://github.com/hyperledger-labs/fabric-token-sdk/pull/636) remove dependencies to core and driver packages
+[94](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/94) Update SECURITY.md
 
-[635](https://github.com/hyperledger-labs/fabric-token-sdk/pull/635) clean up dependencies of sdk.go
+[93](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/93) Update README.md
 
-[71](https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/71) added CANCUN update version
+[92](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/92) Subsections for Hyperledger-specific vs. Generic tools
 
-[4640](https://github.com/hyperledger/iroha/pull/4640) refactor: remove association between domains and triggers
+[91](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/91) Remove Initial Maintainer and Sponsor section
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

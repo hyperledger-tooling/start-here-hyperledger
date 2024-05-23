@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/62" class=".btn">#62</a>
             </td>
             <td>
                 <b>
-                    Retire stewards
+                    Add new lab stewards
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/governance
                 
             </td>
             <td>
-                Per https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/264
+                Per TOC vote 23 MAY 2024
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-06 16:59:04 +0000 UTC
+        Created At 2024-05-23 14:17:48 +0000 UTC
     </div>
 </div>
 

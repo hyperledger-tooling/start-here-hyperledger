@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">cleanup</span>
             </td>
             <td>
                 <nil>
