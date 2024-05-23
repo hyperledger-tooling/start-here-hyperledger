@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/421" class=".btn">#421</a>
+            </td>
+            <td>
+                <b>
+                    decrease CI fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                disable parallel
+update testContainersVer
+add delay for peer test
+with all 3 updates CI fails decreased
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-23 07:02:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/418" class=".btn">#418</a>
             </td>
             <td>
