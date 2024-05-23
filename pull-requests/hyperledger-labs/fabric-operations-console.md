@@ -290,39 +290,3 @@ Security vulnerabilities and api swagger update
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/711" class=".btn">#711</a>
-            </td>
-            <td>
-                <b>
-                    Fix for console setup open source issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- Translation fix with updated library
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-16 06:11:31 +0000 UTC
-    </div>
-</div>
-
