@@ -14,6 +14,141 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1078" class=".btn">#1078</a>
+            </td>
+            <td>
+                <b>
+                    build: sbt and plugins dependency update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span>
+            </td>
+            <td>
+                ## About this PR
+Updates:
+
+* 📦 [com.eed3si9n:sbt-buildinfo](https://github.com/sbt/sbt-buildinfo) from `0.11.0` to `0.12.0`
+  + 📜 [GitHub Release Notes](https://github.com/sbt/sbt-buildinfo/releases/tag/v0.12.0) - [Version Diff](https://github.com/sbt/sbt-buildinfo/compare/v0.11.0...v0.12.0)
+* 📦 [com.github.sbt:sbt-native-packager](https://github.com/sbt/sbt-native-packager) from `1.9.11` to `1.9.16`
+  + 📜 [GitHub Release Notes](https://github.com/sbt/sbt-native-packager/releases/tag/v1.9.16) - [Changelog](https://github.com/sbt/sbt-native-packager/blob/master/CHANGELOG.md) - [Version Diff](https://github.com/sbt/sbt-native-packager/compare/v1.9.11...v1.9.16)
+* 📦 [com.github.sbt:sbt-release](https://github.com/sbt/sbt-release) from `1.1.0` to `1.4.0`
+  + 📜 [GitHub Release Notes](https://github.com/sbt/sbt-release/releases/tag/v1.4.0) - [Version Diff](https://github.com/sbt/sbt-release/compare/v1.1.0...v1.4.0)
+* 📦 [org.scala-sbt:sbt](https://github.com/sbt/sbt) from `1.9.9` to `1.10.0`
+  + 📜 [GitHub Release Notes](https://github.com/sbt/sbt/releases/tag/v1.10.0) - [Version Diff](https://github.com/sbt/sbt/compare/v1.9.9...v1.10.0)
+* 📦 [org.scalameta:sbt-scalafmt](https://github.com/scalameta/sbt-scalafmt) from `2.5.0` to `2.5.2`
+  + 📜 [GitHub Release Notes](https://github.com/scalameta/sbt-scalafmt/releases/tag/v2.5.2) - [Version Diff](https://github.com/scalameta/sbt-scalafmt/compare/v2.5.0...v2.5.2)
+* 📦 [org.scalameta:scalafmt-core](https://github.com/scalameta/scalafmt) from `3.7.17` to `3.8.1`
+  + 📜 [GitHub Release Notes](https://github.com/scalameta/scalafmt/releases/tag/v3.8.1) - [Version Diff](https://github.com/scalameta/scalafmt/compare/v3.7.17...v3.8.1)
+* 📦 [org.scoverage:sbt-coveralls](https://github.com/scoverage/sbt-coveralls) from `1.3.9` to `1.3.11`
+  + 📜 [GitHub Release Notes](https://github.com/scoverage/sbt-coveralls/releases/tag/v1.3.11) - [Version Diff](https://github.com/scoverage/sbt-coveralls/compare/v1.3.9...v1.3.11)
+* 📦 [org.scoverage:sbt-scoverage](https://github.com/scoverage/sbt-scoverage) from `2.0.6` to `2.0.12`
+  + 📜 [GitHub Release Notes](https://github.com/scoverage/sbt-scoverage/releases/tag/v2.0.12) - [Version Diff](https://github.com/scoverage/sbt-scoverage/compare/v2.0.6...v2.0.12)
+
+## Usage
+✅ **Please merge!**
+
+I'll automatically update this PR to resolve conflicts as long as you don't change it yourself.
+
+If you have any feedback, just mention me in the comments below.
+
+Configure Scala Steward for your repository with a [`.scala-steward.conf`](https://github.com/scala-steward-org/scala-steward/blob/767fcfecbfd53c507152f6cf15c846176bae561d/docs/repo-specific-configuration.md) file.
+
+_Have a fantastic day writing Scala!_
+
+<details>
+<summary>🔍 Files still referring to the old version numbers</summary>
+
+The following files still refer to the old version numbers.
+You might want to review and update them manually.
+```
+CHANGELOG.md
+DEPENDENCIES.md
+cloud-agent/service/CHANGELOG.md
+connect/CHANGELOG.md
+mercury/CHANGELOG.md
+package-lock.json
+pollux/CHANGELOG.md
+cloud-agent/client/generator/yarn.lock
+cloud-agent/service/api/http/cloud-agent-openapi-spec.yaml
+cloud-agent/service/server/src/main/scala/org/hyperledger/identus/system/controller/http/HealthInfo.scala
+docs/docusaurus/schemas/update.md
+tests/performance-tests/agent-performance-tests-k6/yarn.lock
+.git-blame-ignore-revs
+```
+</details>
+<details>
+<summary>⚙ Adjust future updates</summary>
+
+Add these to your `.scala-steward.conf` file to ignore future updates of these dependencies:
+```
+updates.ignore = [
+  { groupId = "com.eed3si9n", artifactId = "sbt-buildinfo" },
+  { groupId = "com.github.sbt", artifactId = "sbt-native-packager" },
+  { groupId = "com.github.sbt", artifactId = "sbt-release" },
+  { groupId = "org.scala-sbt", artifactId = "sbt" },
+  { groupId = "org.scalameta", artifactId = "sbt-scalafmt" },
+  { groupId = "org.scalameta", artifactId = "scalafmt-core" },
+  { groupId = "org.scoverage", artifactId = "sbt-coveralls" },
+  { groupId = "org.scoverage", artifactId = "sbt-scoverage" }
+]
+```
+Or, add these to slow down future updates of these dependencies:
+```
+dependencyOverrides = [
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "com.eed3si9n", artifactId = "sbt-buildinfo" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "com.github.sbt", artifactId = "sbt-native-packager" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "com.github.sbt", artifactId = "sbt-release" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.scala-sbt", artifactId = "sbt" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.scalameta", artifactId = "sbt-scalafmt" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.scalameta", artifactId = "scalafmt-core" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.scoverage", artifactId = "sbt-coveralls" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.scoverage", artifactId = "sbt-scoverage" }
+  }
+]
+```
+</details>
+
+<sup>
+labels: sbt-plugin-update, library-update, early-semver-major, semver-spec-minor, early-semver-patch, semver-spec-patch, early-semver-minor, version-scheme:early-semver, old-version-remains, commit-count:n:8
+</sup>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 11:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1077" class=".btn">#1077</a>
             </td>
             <td>

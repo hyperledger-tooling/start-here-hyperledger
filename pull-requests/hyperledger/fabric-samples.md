@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1209" class=".btn">#1209</a>
+            </td>
+            <td>
+                <b>
+                    Add CA capability to test-network-nano-bash
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds:
+- shell scripts to start CAs for each org
+- optional flag (-c) to network.sh to start CAs
+- generate crypto material in the same format as cryptogen using the CAs
+- describe how to start the CAs using terminals
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-23 15:12:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1208" class=".btn">#1208</a>
             </td>
             <td>

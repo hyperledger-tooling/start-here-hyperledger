@@ -455,33 +455,3 @@ https://github.com/hyperledger/fabric/issues/4862
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4861" class=".btn">#4861</a>
-            </td>
-            <td>
-                <b>
-                    up go 1.22.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The following changes have been made:
-- added new possible error based on platform and Go release
-- changed the work with [encoding/json](https://go.dev/pkg/encoding/json/) - https://go.dev/doc/go1.22#minor_library_changes. 
-`Marshaling and encoding functionality now escapes '\b' and '\f' characters as \b and \f instead of \u0008 and \u000c`.
-- The creators of go overmuch with the change of cover work. So far I have turned on the old flag of cover operation - `GOEXPERIMENT=nocoverageredesign`. I will open a question in the go community. Most likely in the next release of go it will be necessary to remove this flag - https://github.com/golang/go/issues/67427. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-16 12:32:57 +0000 UTC
-    </div>
-</div>
-
