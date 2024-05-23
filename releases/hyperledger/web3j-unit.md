@@ -15,35 +15,34 @@ permalink: /releases/hyperledger/web3j-unit
         <tr>
             <td colspan="2">
                 <b>
-                    v4.11.3
+                    v4.12.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v4.11.3
+                    v4.12.0
                 </span>
             </td>
             <td>
                 ## Commits
-- d2f19d5: release/4.11.3 (Nischal Sharma)
+- a106e10: release/4.12.0 (Nischal Sharma)
 
 ## What's Changed
-* bump snapshot version to 4.11.3 by @NickSneo in https://github.com/hyperledger/web3j-unit/pull/76
-* master to main changes by @NickSneo in https://github.com/hyperledger/web3j-unit/pull/78
-* Repo owner Changed and Geth Tests Fix by @NickSneo in https://github.com/hyperledger/web3j-unit/pull/79
+* Bump snapshot version to 4.11.4 by @NickSneo in https://github.com/hyperledger/web3j-unit/pull/80
+* Upgrade gradle to 8.7 by @NickSneo in https://github.com/hyperledger/web3j-unit/pull/81
 
 
-**Full Changelog**: https://github.com/hyperledger/web3j-unit/compare/v4.11.2...v4.11.3
+**Full Changelog**: https://github.com/hyperledger/web3j-unit/compare/v4.11.3...v4.12.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/web3j-unit/releases/tag/v4.11.3" class=".btn">
+    <a href="https://github.com/hyperledger/web3j-unit/releases/tag/v4.12.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-05-01 11:47:51 +0000 UTC
+        Created At 2024-05-23 12:46:20 +0000 UTC
     </span>
 </div>
 
