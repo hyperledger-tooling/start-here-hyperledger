@@ -1,13 +1,13 @@
 
-[492](https://github.com/hyperledger-labs/private-data-objects/pull/492) Improved cmake for generating the configuration file
+[72](https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/72) release 0.5.0
 
-[514](https://github.com/hyperledger/aries-acapy-plugins/pull/514) Bump react-router-dom from 6.16.0 to 6.23.1 in /oid4vci/demo/frontend
+[636](https://github.com/hyperledger-labs/fabric-token-sdk/pull/636) remove dependencies to core and driver packages
 
-[513](https://github.com/hyperledger/aries-acapy-plugins/pull/513) Bump pytest-asyncio from 0.23.6 to 0.23.7 in /basicmessage_storage/integration
+[635](https://github.com/hyperledger-labs/fabric-token-sdk/pull/635) clean up dependencies of sdk.go
 
-[512](https://github.com/hyperledger/aries-acapy-plugins/pull/512) Bump pytest-asyncio from 0.23.6 to 0.23.7 in /firebase_push_notifications/integration
+[71](https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/71) added CANCUN update version
 
-[511](https://github.com/hyperledger/aries-acapy-plugins/pull/511) Bump fastapi from 0.68.2 to 0.83.0 in /kafka_events/kafka_events/v1_0/http_kafka_relay
+[4640](https://github.com/hyperledger/iroha/pull/4640) refactor: remove association between domains and triggers
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

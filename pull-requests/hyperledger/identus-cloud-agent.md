@@ -14,6 +14,233 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1077" class=".btn">#1077</a>
+            </td>
+            <td>
+                <b>
+                    build: protobuf dependency update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span>
+            </td>
+            <td>
+                ## About this PR
+Updates:
+
+* 📦 [com.thesamet.scalapb:compilerplugin](https://github.com/scalapb/ScalaPB) from `0.11.13` to `0.11.15`
+  + 📜 [GitHub Release Notes](https://github.com/scalapb/ScalaPB/releases/tag/v0.11.15) - [Changelog](https://github.com/scalapb/ScalaPB/blob/master/CHANGELOG.md) - [Version Diff](https://github.com/scalapb/ScalaPB/compare/v0.11.13...v0.11.15)
+* 📦 [com.thesamet.scalapb:scalapb-runtime-grpc](https://github.com/scalapb/ScalaPB) from `0.11.13` to `0.11.15`
+  + 📜 [GitHub Release Notes](https://github.com/scalapb/ScalaPB/releases/tag/v0.11.15) - [Changelog](https://github.com/scalapb/ScalaPB/blob/master/CHANGELOG.md) - [Version Diff](https://github.com/scalapb/ScalaPB/compare/v0.11.13...v0.11.15)
+
+## Usage
+✅ **Please merge!**
+
+I'll automatically update this PR to resolve conflicts as long as you don't change it yourself.
+
+If you have any feedback, just mention me in the comments below.
+
+Configure Scala Steward for your repository with a [`.scala-steward.conf`](https://github.com/scala-steward-org/scala-steward/blob/767fcfecbfd53c507152f6cf15c846176bae561d/docs/repo-specific-configuration.md) file.
+
+_Have a fantastic day writing Scala!_
+
+<details>
+<summary>🔍 Files still referring to the old version numbers</summary>
+
+The following files still refer to the old version numbers.
+You might want to review and update them manually.
+```
+DEPENDENCIES.md
+```
+</details>
+<details>
+<summary>⚙ Adjust future updates</summary>
+
+Add these to your `.scala-steward.conf` file to ignore future updates of these dependencies:
+```
+updates.ignore = [
+  { groupId = "com.thesamet.scalapb", artifactId = "compilerplugin" },
+  { groupId = "com.thesamet.scalapb", artifactId = "scalapb-runtime-grpc" }
+]
+```
+Or, add these to slow down future updates of these dependencies:
+```
+dependencyOverrides = [
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "com.thesamet.scalapb", artifactId = "compilerplugin" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "com.thesamet.scalapb", artifactId = "scalapb-runtime-grpc" }
+  }
+]
+```
+</details>
+
+<sup>
+labels: library-update, early-semver-minor, semver-spec-patch, version-scheme:early-semver, old-version-remains, commit-count:1
+</sup>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 11:21:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1076" class=".btn">#1076</a>
+            </td>
+            <td>
+                <b>
+                    build: DAL dependency update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span><span class="chip">build</span><span class="chip">shared</span>
+            </td>
+            <td>
+                ## About this PR
+Updates:
+
+* 📦 [io.getquill:quill-doobie](https://github.com/zio/zio-protoquill) from `4.7.3` to `4.8.4`
+  + 📜 [GitHub Release Notes](https://github.com/zio/zio-protoquill/releases/tag/v4.8.4) - [Changelog](https://github.com/zio/zio-protoquill/blob/master/CHANGELOG.md) - [Version Diff](https://github.com/zio/zio-protoquill/compare/v4.7.3...v4.8.4)
+* 📦 [io.getquill:quill-jdbc-zio](https://github.com/zio/zio-protoquill) from `4.7.3` to `4.8.4`
+  + 📜 [GitHub Release Notes](https://github.com/zio/zio-protoquill/releases/tag/v4.8.4) - [Changelog](https://github.com/zio/zio-protoquill/blob/master/CHANGELOG.md) - [Version Diff](https://github.com/zio/zio-protoquill/compare/v4.7.3...v4.8.4)
+* 📦 [org.postgresql:postgresql](https://github.com/pgjdbc/pgjdbc) from `42.2.29` to `42.7.3`
+  + 📜 [Changelog](https://github.com/pgjdbc/pgjdbc/blob/master/CHANGELOG.md)
+* 📦 [org.tpolecat:doobie-hikari](https://github.com/tpolecat/doobie) from `1.0.0-RC2` to `1.0.0-RC5`
+  + 📜 [GitHub Release Notes](https://github.com/tpolecat/doobie/releases/tag/v1.0.0-RC5) - [Version Diff](https://github.com/tpolecat/doobie/compare/v1.0.0-RC2...v1.0.0-RC5)
+* 📦 [org.tpolecat:doobie-postgres](https://github.com/tpolecat/doobie) from `1.0.0-RC2` to `1.0.0-RC5`
+  + 📜 [GitHub Release Notes](https://github.com/tpolecat/doobie/releases/tag/v1.0.0-RC5) - [Version Diff](https://github.com/tpolecat/doobie/compare/v1.0.0-RC2...v1.0.0-RC5)
+* 📦 [org.tpolecat:doobie-postgres-circe](https://github.com/tpolecat/doobie) from `1.0.0-RC2` to `1.0.0-RC5`
+  + 📜 [GitHub Release Notes](https://github.com/tpolecat/doobie/releases/tag/v1.0.0-RC5) - [Version Diff](https://github.com/tpolecat/doobie/compare/v1.0.0-RC2...v1.0.0-RC5)
+
+## Usage
+✅ **Please merge!**
+
+I'll automatically update this PR to resolve conflicts as long as you don't change it yourself.
+
+If you have any feedback, just mention me in the comments below.
+
+Configure Scala Steward for your repository with a [`.scala-steward.conf`](https://github.com/scala-steward-org/scala-steward/blob/767fcfecbfd53c507152f6cf15c846176bae561d/docs/repo-specific-configuration.md) file.
+
+_Have a fantastic day writing Scala!_
+
+<details>
+<summary>🔍 Files still referring to the old version numbers</summary>
+
+The following files still refer to the old version numbers.
+You might want to review and update them manually.
+```
+DEPENDENCIES.md
+build.sbt
+```
+</details>
+<details>
+<summary>⚙ Adjust future updates</summary>
+
+Add these to your `.scala-steward.conf` file to ignore future updates of these dependencies:
+```
+updates.ignore = [
+  { groupId = "io.getquill", artifactId = "quill-doobie" },
+  { groupId = "io.getquill", artifactId = "quill-jdbc-zio" },
+  { groupId = "org.postgresql", artifactId = "postgresql" },
+  { groupId = "org.tpolecat", artifactId = "doobie-hikari" },
+  { groupId = "org.tpolecat", artifactId = "doobie-postgres" },
+  { groupId = "org.tpolecat", artifactId = "doobie-postgres-circe" }
+]
+```
+Or, add these to slow down future updates of these dependencies:
+```
+dependencyOverrides = [
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "io.getquill", artifactId = "quill-doobie" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "io.getquill", artifactId = "quill-jdbc-zio" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.postgresql", artifactId = "postgresql" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.tpolecat", artifactId = "doobie-hikari" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.tpolecat", artifactId = "doobie-postgres" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "org.tpolecat", artifactId = "doobie-postgres-circe" }
+  }
+]
+```
+</details>
+
+<sup>
+labels: library-update, early-semver-minor, semver-spec-minor, version-scheme:always, early-semver-pre-release, semver-spec-pre-release, version-scheme:early-semver, old-version-remains, commit-count:n:3
+</sup>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 11:21:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1074" class=".btn">#1074</a>
+            </td>
+            <td>
+                <b>
+                    ci: scala steward DCO by hardcoding the message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+- implemented workaround to configure the DCO for the Scala Steward bot
+
+### Checklist: 
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [x] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 09:55:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1071" class=".btn">#1071</a>
             </td>
             <td>
