@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/web3j-gradle-plugin
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j-gradle-plugin/pull/86" class=".btn">#86</a>
+            </td>
+            <td>
+                <b>
+                    release 4.12.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+*required*
+
+### Where should the reviewer start?
+*required*
+
+### Why is it needed?
+*required*
+
+## Checklist
+
+- [ ] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [ ] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-24 05:05:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j-gradle-plugin/pull/85" class=".btn">#85</a>
             </td>
             <td>

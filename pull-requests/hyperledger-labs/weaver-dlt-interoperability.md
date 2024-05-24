@@ -1470,33 +1470,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    Update weaver dependencies and repository links
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * chore: update all go module dependencies, add all go tests to workflow
-* fix(weaver-go-sdk): use updated weaver protobuf for fabric and corda view
-* chore: add script to generate checksums for go modules
-* fix: update broken corda repository links
-* ci: fix besu asset exchange workflow to use node 16
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-17 06:18:22 +0000 UTC
-    </div>
-</div>
-
