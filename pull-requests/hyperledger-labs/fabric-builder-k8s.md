@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/125" class=".btn">#125</a>
+            </td>
+            <td>
+                <b>
+                    Update kubernetes permissions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The latest implementation uses jobs
+
+Still need to work out the exact permissions required- see #52
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-24 14:55:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/124" class=".btn">#124</a>
             </td>
             <td>
@@ -89,32 +117,6 @@ Closes #89
     </table>
     <div class="right-align">
         Created At 2024-05-21 21:49:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/121" class=".btn">#121</a>
-            </td>
-            <td>
-                <b>
-                    Initial mkdocs content
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See #66
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-17 16:23:14 +0000 UTC
     </div>
 </div>
 

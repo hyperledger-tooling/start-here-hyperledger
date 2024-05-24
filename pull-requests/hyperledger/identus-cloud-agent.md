@@ -811,29 +811,3 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1047" class=".btn">#1047</a>
-            </td>
-            <td>
-                <b>
-                    style: apply linters automatic fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-17 12:50:51 +0000 UTC
-    </div>
-</div>
-
