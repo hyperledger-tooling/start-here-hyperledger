@@ -15,28 +15,31 @@ permalink: /releases/hyperledger/web3j-gradle-plugin
         <tr>
             <td colspan="2">
                 <b>
-                    v4.11.3-hotfix
+                    v4.12.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v4.11.3-hotfix
+                    v4.12.0
                 </span>
             </td>
             <td>
-                **Full Changelog**: https://github.com/hyperledger/web3j-gradle-plugin/compare/v4.11.3...v4.11.3-hotfix
+                ## What's Changed
+* Upgrade gradle to 8.7 by @NickSneo in https://github.com/hyperledger/web3j-gradle-plugin/pull/85
+* release 4.12.0 by @NickSneo in https://github.com/hyperledger/web3j-gradle-plugin/pull/86
 
-Updated web3j-solidity-gradle-plugin to v0.4.1
+
+**Full Changelog**: https://github.com/hyperledger/web3j-gradle-plugin/compare/v4.11.3-hotfix...v4.12.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/web3j-gradle-plugin/releases/tag/v4.11.3-hotfix" class=".btn">
+    <a href="https://github.com/hyperledger/web3j-gradle-plugin/releases/tag/v4.12.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-05-08 04:17:52 +0000 UTC
+        Created At 2024-05-24 05:07:16 +0000 UTC
     </span>
 </div>
 
