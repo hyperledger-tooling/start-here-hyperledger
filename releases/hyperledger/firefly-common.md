@@ -15,38 +15,34 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v1.4.6
+                    v1.4.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.4.6
+                    v1.4.7
                 </span>
             </td>
             <td>
                 ## What's Changed
-* fix: Change how we index the filter operations before evaluation by @SamMayWork in https://github.com/hyperledger/firefly-common/pull/124
-* Fix SQL query time reporting in log messages by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/125
-* Refactor WebSockets to fix window of duplicate delivery after reconect by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/123
-* fix: empty stream state on broadcast by @EnriqueL8 in https://github.com/hyperledger/firefly-common/pull/129
-* [ffapi] Support for Text and Binary Streams by @hfuss in https://github.com/hyperledger/firefly-common/pull/127
-* Do not log an error if a JSON field is missing by @nguyer in https://github.com/hyperledger/firefly-common/pull/130
-* Do not lose calling context in the logger by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/126
+* [fftls] Allow for In-Memory or Inlined TLS Certificates by @onelapahead in https://github.com/hyperledger/firefly-common/pull/132
+* Do not add alias prefix to filter fields that are already qualified by @awrichar in https://github.com/hyperledger/firefly-common/pull/134
+* Add custom ID field and AfterLoad hook by @awrichar in https://github.com/hyperledger/firefly-common/pull/137
+* DB-side UPSERT optimiziation support by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/138
+* Add missing config descriptions by @awrichar in https://github.com/hyperledger/firefly-common/pull/140
 
-## New Contributors
-* @SamMayWork made their first contribution in https://github.com/hyperledger/firefly-common/pull/124
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.4.5...v1.4.6
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.4.6...v1.4.7
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.4.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.4.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-29 16:35:56 +0000 UTC
+        Created At 2024-05-24 17:23:43 +0000 UTC
     </span>
 </div>
 
