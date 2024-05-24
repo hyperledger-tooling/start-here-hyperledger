@@ -123,29 +123,3 @@ For the first one, I'm not sure if this code was still in use in some way. For t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/571" class=".btn">#571</a>
-            </td>
-            <td>
-                <b>
-                    Replace deprecated logging param in nwo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently, NWO uses the deprecated --logging-level param when invoking the peer cli. This commit replaces this param with FABRIC_LOGGING_SPEC env variable.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-17 12:06:01 +0000 UTC
-    </div>
-</div>
-

@@ -49,29 +49,3 @@ Add tests for replayRate controller.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1578" class=".btn">#1578</a>
-            </td>
-            <td>
-                <b>
-                    Address use/reference of startingTps where not correct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-17 07:45:59 +0000 UTC
-    </div>
-</div>
-
