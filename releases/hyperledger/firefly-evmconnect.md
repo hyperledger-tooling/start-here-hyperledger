@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-evmconnect
         <tr>
             <td colspan="2">
                 <b>
+                    v1.3.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.3.10
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Update fftm by @Chengxuan in https://github.com/hyperledger/firefly-evmconnect/pull/137
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.3.9...v1.3.10
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.3.10" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-05-23 11:02:31 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.3.9
                 </b>
             </td>
