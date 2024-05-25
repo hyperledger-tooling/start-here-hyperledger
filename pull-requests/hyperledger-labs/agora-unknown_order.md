@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Updates for 0.9.0
+                    Update to faster glass_pumpkin 1.7
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
                 
             </td>
             <td>
-                <nil>
+                Fix bug in rust impl and update to newer faster glass_pumpkin 1.7
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-06 18:10:49 +0000 UTC
+        Created At 2024-05-24 18:49:19 +0000 UTC
     </div>
 </div>
 
