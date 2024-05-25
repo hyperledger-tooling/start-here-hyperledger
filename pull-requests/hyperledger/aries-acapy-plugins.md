@@ -3184,32 +3184,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/480" class=".btn">#480</a>
-            </td>
-            <td>
-                <b>
-                    Fix the release workflow upgrade check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I still had issues here :/
-
-1. I needed to avoid all lock files that aren't rooted. Some plugins have embedded lock files I hadn't accounted for.
-2. I still wasn't doing what I wanted to detect upgrades after merge to main. I needed to look at the diff and then the `aries-cloudagent` dependency. If it had been changed and the old version was older then the global version then this is when we should release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-17 19:06:05 +0000 UTC
-    </div>
-</div>
-

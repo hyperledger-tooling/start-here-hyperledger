@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2953" class=".btn">#2953</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2968" class=".btn">#2968</a>
             </td>
             <td>
                 <b>
-                    Switch Snyk Container scan back to on push.
+                    Sonarcloud with code coverage
                 </b>
             </td>
         </tr>
@@ -27,13 +27,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                - The Snyk Container scan relies on a token, which is not available to PRs from external forks.
-- Switch back to running the scan on push until we can get things sorted on how to run the scans on PRs securely.
+                This is used to get code coverage for our sonarcloud integration on PR's and when code is pushed to main. 
+
+The complication comes with using the sonarcloud token from forked repos. I have tested using two github accounts and forking my fork. 
+
+This works by saving the test report from the `PR Tests` workflow as an artifact and also the pr number. Then when the `PR Tests` workflow completes successfully a workflow will begin for sonarcloud witch gets information about the forked repo, and fetches the code for the scan. The code coverage is downloaded from the artifact, updated and then upload to sonarcloud.
+
+Another workflow runs the tests on merge to main, runs the scan and uploads results. I thought about doing this as one workflow but decided separate workflows was actually much simpler.
+
+I changed the workflow `Tests` to an action and adjusted the other workflows that used it. When calling from the push to main workflow it was having trouble as a workflow.
+
+Requires disabling `Automatic Analysis` in the sonarcloud admin console. You can't use automatic and manage it from CI at the same time. Also won't exist until the workflows have been merged to main.
+
+Main branch:
+
+![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/028b59c9-6977-4402-a26b-5d693305b3a3)
+
+PR (Failing):
+
+The required coverage can be adjusted in sonarcloud console.
+
+![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/4b30d724-da76-4187-ae6b-619e8c839568)
+
+![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/ee0efd1a-d5fb-4ffe-8c2b-5c6a0b2f0890)
+
+![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/a6ec57c1-ac31-4802-b93d-4cdddc4ada9d)
+
+PR (Passing):
+
+![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/ff860d3b-5746-4248-8c30-b69f1334d79e)
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-15 20:32:40 +0000 UTC
+        Created At 2024-05-24 19:51:16 +0000 UTC
     </div>
 </div>
 
@@ -41,75 +70,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2951" class=".btn">#2951</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2967" class=".btn">#2967</a>
             </td>
             <td>
                 <b>
-                    Fix Snyk Container scanning workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fix branch and path filtering syntax.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-15 14:34:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2950" class=".btn">#2950</a>
-            </td>
-            <td>
-                <b>
-                    CodeCov report on PR's
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This will bring back `codecov` reporting on PR's and add comments like:
-
-![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/1d4c9db8-a5af-4ec0-9c90-8ef8248b9040)
-
-The warning only happened because I forced pushed.
-
-The readme badge should also start working again.
-
-There is a bit of setup for the repo admin. I'm hoping the covecov account that was used a year ago can be used again. The repo admin has to setup a token. It's really easy. The instructions are here https://docs.codecov.com/docs/github-2-getting-a-codecov-account-and-uploading-coverage.
-
-Note: The unit tests for this PR won't pass until the token is available. 
-![image](https://github.com/hyperledger/aries-cloudagent-python/assets/31809382/ab6fa794-396c-4d5c-8f72-75ed65a25799)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-14 21:52:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2948" class=".btn">#2948</a>
-            </td>
-            <td>
-                <b>
-                    Example integration test issuing 2 credentials under the same schema
+                    Add support for revocable credentials in vc_di handler
                 </b>
             </td>
         </tr>
@@ -123,7 +88,7 @@ Note: The unit tests for this PR won't pass until the token is available.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-14 17:34:59 +0000 UTC
+        Created At 2024-05-24 11:15:00 +0000 UTC
     </div>
 </div>
 
@@ -131,11 +96,39 @@ Note: The unit tests for this PR won't pass until the token is available.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2947" class=".btn">#2947</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2961" class=".btn">#2961</a>
             </td>
             <td>
                 <b>
-                    DOC: Verifiable Credential Data Integrity (VC-DI) Credentials in Aries Cloud Agent Python (ACA-Py)
+                    Fix Snyk sarif file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes the issue with Snyk sarif file. Replace any "null" security severity values with 0. The null value is used in the case of license-related findings, which do not do not indicate a security vulnerability.
+
+See https://github.com/github/codeql-action/issues/2187 for more context.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 19:27:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2960" class=".btn">#2960</a>
+            </td>
+            <td>
+                <b>
+                    feat: VC DI proof request
                 </b>
             </td>
         </tr>
@@ -149,7 +142,7 @@ Note: The unit tests for this PR won't pass until the token is available.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-14 08:08:00 +0000 UTC
+        Created At 2024-05-21 18:09:05 +0000 UTC
     </div>
 </div>
 
@@ -157,43 +150,11 @@ Note: The unit tests for this PR won't pass until the token is available.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2946" class=".btn">#2946</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2959" class=".btn">#2959</a>
             </td>
             <td>
                 <b>
-                    Anoncreds - Send full registry list when getting revocation states
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.0.0</span>
-            </td>
-            <td>
-                See https://github.com/hyperledger/aries-cloudagent-python/issues/2934.
-
-So this ended up being a one line fix. The anoncreds legacy_indy implementation for the holder, was getting the revocation list (registry) from the ledger. Then it was removing index 0, which doesn't actually represent a credential but is expected by anoncreds-rs when getting the revocation state. See https://github.com/hyperledger/anoncreds-rs/issues/336.
-
-This is a bit weird and will need to be remembered when other implementations get added.
-
-I have tested with the demo and manually. I still want to make an integration test for this scenario.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-13 21:33:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2945" class=".btn">#2945</a>
-            </td>
-            <td>
-                <b>
-                    chore: updating dependabot to support gha, python, docker and dev container packages
+                    DIDComm V2 Initial Implementation
                 </b>
             </td>
         </tr>
@@ -202,84 +163,16 @@ I have tested with the demo and manually. I still want to make an integration te
                 
             </td>
             <td>
-                <nil>
+                The purpose of this PR is to add basic DIDComm V2 support to ACA-Py. It is our intention to add support gradually with small PRs, rather than one massive PR. To that end, at present, here's what we've added:
+
+- Added `--experimental-didcomm-v2` flag to enable the DIDComm V2 code
+- Added the ability to decrypt/unpack V2 messages
+- When a message is received, we respond back with a DIDComm V1 problem report (there-by, providing a foundation to rely upon when adding protocols) and pack it the same way that we'd pack a DIDComm V2 message
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-10 16:21:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2943" class=".btn">#2943</a>
-            </td>
-            <td>
-                <b>
-                    fix(interop): overly strict validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.0.0</span>
-            </td>
-            <td>
-                This change relaxes some overly strict validation that was preventing presenting proof using LDP-VC from Credo 0.5.X based agents.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-10 00:28:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2939" class=".btn">#2939</a>
-            </td>
-            <td>
-                <b>
-                    :arrow_up: Upgrade test and lint dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.0.0</span>
-            </td>
-            <td>
-                :arrow_up: Upgrades:
-- `pytest`: 8.0.0 -> 8.2.0
-- `pytest-asyncio`: 0.23.5 -> 0.23.6
-- `pytest-cov`: 4.1.0 -> 5.0.0
-- `pytest-ruff`: 0.1.1 -> 0.3.2
-
-➖ Removes:
-- `mock`
-  - This dependency is used to provide unittest.mock features to older version of python
-  - Not needed with current python version
-
-___
-Edit: additional dependency upgrades from #2940 are pulled in here to speed up merge cycle
-
-Therefore includes:
-⬆️ Upgrades:
-
-- `black`: 24.3.0 -> 24.4.2
-- `ruff`: 0.1.2 -> 0.4.4
-- `pre-commit`: 3.3.3 -> 3.7.1
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 18:28:24 +0000 UTC
+        Created At 2024-05-21 14:50:00 +0000 UTC
     </div>
 </div>
 

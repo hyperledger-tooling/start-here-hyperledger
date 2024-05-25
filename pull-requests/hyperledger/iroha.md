@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4645" class=".btn">#4645</a>
+            </td>
+            <td>
+                <b>
+                    feat: Custom instructions in executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+Added ISI for custom instructions, and two tests demonstrating possible use:
+* Test with one custom instruction `MintAssetForAllAccounts`
+* Test with simple expression system
+
+### Linked issue
+
+Closes #4599
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-24 19:42:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4644" class=".btn">#4644</a>
             </td>
             <td>
