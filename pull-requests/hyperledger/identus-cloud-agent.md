@@ -14,6 +14,159 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1081" class=".btn">#1081</a>
+            </td>
+            <td>
+                <b>
+                    docs: rebranding to the Identus, OEA->ICA
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">infra</span><span class="chip">ci</span>
+            </td>
+            <td>
+                ### Description: 
+- updated terms OEA (Open Enterprise Agent) to ICA (Identus Cloud Agent)
+- updated suffixes `-oea` to `-ica` or `-agent`
+
+### Checklist: 
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [x] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 12:03:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1080" class=".btn">#1080</a>
+            </td>
+            <td>
+                <b>
+                    ci: use branch name in pre-release version name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span>
+            </td>
+            <td>
+                ### Description: 
+
+When there are multiple `prerelease/*` branch, the release task will fail as the prerelease version must be unique. This PR added the branch to the prerelease tag so it has this versioning `<version>-snapshot.<branch>.<n>`
+
+![Screenshot_2024-05-21_18-27-16](https://github.com/hyperledger/identus-cloud-agent/assets/108713642/9d986151-9e1b-46ad-ba06-4a7237ae267e)
+
+### Alternatives Considered (optional): 
+Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 11:31:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1079" class=".btn">#1079</a>
+            </td>
+            <td>
+                <b>
+                    build: internal dependency updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span>
+            </td>
+            <td>
+                ## About this PR
+Updates:
+
+* 📦 [io.iohk.atala.prism.apollo:apollo-jvm](https://github.com/input-output-hk/atala-prism-apollo) from `1.2.14` to `1.2.16`
+  + 📜 [GitHub Release Notes](https://github.com/input-output-hk/atala-prism-apollo/releases/tag/v1.2.16) - [Version Diff](https://github.com/input-output-hk/atala-prism-apollo/compare/v1.2.14...v1.2.16)
+
+## Usage
+✅ **Please merge!**
+
+I'll automatically update this PR to resolve conflicts as long as you don't change it yourself.
+
+If you have any feedback, just mention me in the comments below.
+
+Configure Scala Steward for your repository with a [`.scala-steward.conf`](https://github.com/scala-steward-org/scala-steward/blob/767fcfecbfd53c507152f6cf15c846176bae561d/docs/repo-specific-configuration.md) file.
+
+_Have a fantastic day writing Scala!_
+
+<details>
+<summary>🔍 Files still referring to the old version numbers</summary>
+
+The following files still refer to the old version numbers.
+You might want to review and update them manually.
+```
+DEPENDENCIES.md
+```
+</details>
+<details>
+<summary>⚙ Adjust future updates</summary>
+
+Add these to your `.scala-steward.conf` file to ignore future updates of these dependencies:
+```
+updates.ignore = [
+  { groupId = "io.iohk.atala.prism.apollo", artifactId = "apollo-jvm" }
+]
+```
+Or, add these to slow down future updates of these dependencies:
+```
+dependencyOverrides = [
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "io.iohk.atala.prism.apollo", artifactId = "apollo-jvm" }
+  }
+]
+```
+</details>
+
+<sup>
+labels: library-update, early-semver-patch, semver-spec-patch, old-version-remains, commit-count:1
+</sup>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-21 11:24:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1078" class=".btn">#1078</a>
             </td>
             <td>
