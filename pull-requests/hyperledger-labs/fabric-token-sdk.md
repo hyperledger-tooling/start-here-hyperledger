@@ -50,10 +50,10 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR adapts the code in #437 to the current shape of the token-sdk. The code is mostly contribution of @HagarMeir .
             </td>
         </tr>
     </table>
@@ -206,7 +206,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
                 <nil>
