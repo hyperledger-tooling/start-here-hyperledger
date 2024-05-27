@@ -1,13 +1,13 @@
 
-[2991](https://github.com/hyperledger/aries-cloudagent-python/pull/2991) Add `proof_key` issuance option
+[4648](https://github.com/hyperledger/iroha/pull/4648) ci: Remove coveralls
 
-[2990](https://github.com/hyperledger/aries-cloudagent-python/pull/2990) Enable `no-transport` mode as startup parameter
+[4647](https://github.com/hyperledger/iroha/pull/4647) refactor: replace u64 with usize internally
 
-[48](https://github.com/hyperledger-labs/pdo-contracts/pull/48) Bump private-data-objects from `da7fddb` to `6a30f64`
+[640](https://github.com/hyperledger-labs/fabric-token-sdk/pull/640) Refactor drivers
 
-[199](https://github.com/hyperledger/iroha-python/pull/199) [fix] #192: Added queries for transactions
+[639](https://github.com/hyperledger-labs/fabric-token-sdk/pull/639) asset transfer
 
-[63](https://github.com/hyperledger-labs/governance/pull/63) add Tarek to solang-playground committers
+[4646](https://github.com/hyperledger/iroha/pull/4646) chore: update CODEOWNERS
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
