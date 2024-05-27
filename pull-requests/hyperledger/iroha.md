@@ -1056,29 +1056,3 @@ Closes #4613  <!-- Replace with an actual number,  -->
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4617" class=".btn">#4617</a>
-            </td>
-            <td>
-                <b>
-                    feat: support `https` for `torii_url` (#4601)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">config-changes</span>
-            </td>
-            <td>
-                Close #4601
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-20 03:44:57 +0000 UTC
-    </div>
-</div>
-

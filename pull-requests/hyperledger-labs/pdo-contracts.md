@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Bump private-data-objects from `5fa37a1` to `da7fddb`
+                    Bump private-data-objects from `da7fddb` to `6a30f64`
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [private-data-objects](https://github.com/hyperledger-labs/private-data-objects) from `5fa37a1` to `da7fddb`.
+                Bumps [private-data-objects](https://github.com/hyperledger-labs/private-data-objects) from `da7fddb` to `6a30f64`.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/da7fddba217ea7ac097e50c62b38f20e9520e2e1"><code>da7fddb</code></a> Move to standard tools for in-memory contract object cache</li>
-<li>See full diff in <a href="https://github.com/hyperledger-labs/private-data-objects/compare/5fa37a13fac2749b1a6a43039ed2bee16d6cc70e...da7fddba217ea7ac097e50c62b38f20e9520e2e1">compare view</a></li>
+<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/6a30f6426883c22760dd9bd5eef452e9db5b3692"><code>6a30f64</code></a> Fix missing exception import for twisted</li>
+<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/c2f2165e49b494fa1320724277b5995b10e5486b"><code>c2f2165</code></a> fix variable reference in ledgers setup</li>
+<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/21854f1bb02176e1306e3ddbeddabbc817155e9a"><code>21854f1</code></a> Clean up loops and exits</li>
+<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/542d56c363fc833ae9944bea9e344bfed47a916e"><code>542d56c</code></a> Add a method to get the raw (unexpanded) value in a context</li>
+<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/aef9a2d719ee109dbd436fb47a55259f1abdae16"><code>aef9a2d</code></a> Small update for logging message</li>
+<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/1777d7e96cddb97748edcd32e24fc1d457fbefab"><code>1777d7e</code></a> Remove unused &quot;wait&quot; parameter for ledger</li>
+<li>See full diff in <a href="https://github.com/hyperledger-labs/private-data-objects/compare/da7fddba217ea7ac097e50c62b38f20e9520e2e1...6a30f6426883c22760dd9bd5eef452e9db5b3692">compare view</a></li>
 </ul>
 </details>
 <br />
@@ -68,7 +73,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-10 01:30:21 +0000 UTC
+        Created At 2024-05-27 01:53:37 +0000 UTC
     </div>
 </div>
 
