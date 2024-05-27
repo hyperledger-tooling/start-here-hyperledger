@@ -261,29 +261,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/416" class=".btn">#416</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.22.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.22.3.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-20 14:33:06 +0000 UTC
-    </div>
-</div>
-

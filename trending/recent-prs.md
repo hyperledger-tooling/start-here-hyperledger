@@ -1,13 +1,13 @@
 
-[4648](https://github.com/hyperledger/iroha/pull/4648) ci: Remove coveralls
+[4656](https://github.com/hyperledger/iroha/pull/4656) chore(deps): bump alpine from 3.19 to 3.20
 
-[4647](https://github.com/hyperledger/iroha/pull/4647) refactor: replace u64 with usize internally
+[4655](https://github.com/hyperledger/iroha/pull/4655) chore(deps): bump libsodium-sys-stable from 1.20.7 to 1.20.9
 
-[640](https://github.com/hyperledger-labs/fabric-token-sdk/pull/640) Refactor drivers
+[4654](https://github.com/hyperledger/iroha/pull/4654) chore(deps): bump proc-macro2 from 1.0.83 to 1.0.84
 
-[639](https://github.com/hyperledger-labs/fabric-token-sdk/pull/639) asset transfer
+[4653](https://github.com/hyperledger/iroha/pull/4653) chore(deps): bump zeroize from 1.7.0 to 1.8.1
 
-[4646](https://github.com/hyperledger/iroha/pull/4646) chore: update CODEOWNERS
+[4652](https://github.com/hyperledger/iroha/pull/4652) chore(deps): bump serde from 1.0.202 to 1.0.203
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
