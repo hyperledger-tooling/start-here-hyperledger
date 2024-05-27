@@ -74,6 +74,7 @@ Upgrade gradle to 8.7
 
 ### Why is it needed?
 Upgrade gradle to 8.7
+fixes - https://github.com/hyperledger/web3j-gradle-plugin/issues/81
 
 ## Checklist
 
