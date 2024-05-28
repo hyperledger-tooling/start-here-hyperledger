@@ -54,6 +54,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 This PR adapts the code in #437 to the current shape of the token-sdk. The code is mostly contribution of @HagarMeir .
+
+The code needs still the following:
+- Unit tests
+- Resolve TODO
+- Additional integration tests
             </td>
         </tr>
     </table>
