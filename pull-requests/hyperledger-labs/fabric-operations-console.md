@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/724" class=".btn">#724</a>
+            </td>
+            <td>
+                <b>
+                    bump release note
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Update release document
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-28 11:00:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/723" class=".btn">#723</a>
+            </td>
+            <td>
+                <b>
+                    connection profile issue fix lib update issue fix and added subtitle …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …with support doc link
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- UI issue fix for connection profile and added subtitle with support link and remove appboy.images.com for CSP
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-28 10:48:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/722" class=".btn">#722</a>
             </td>
             <td>
@@ -247,43 +320,6 @@ Landing page issue and clipboard with localisation issue fix
     </table>
     <div class="right-align">
         Created At 2024-05-21 17:42:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/715" class=".btn">#715</a>
-            </td>
-            <td>
-                <b>
-                    ZAP issues and developer api doc updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- Documentation update
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-Security vulnerabilities and api swagger update 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 09:30:40 +0000 UTC
     </div>
 </div>
 

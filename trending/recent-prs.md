@@ -1,13 +1,13 @@
 
-[722](https://github.com/hyperledger-labs/fabric-operations-console/pull/722) fix doc url for peer log settings
+[4661](https://github.com/hyperledger/iroha/pull/4661) fix(BACKPORT): compare permission payloads as `serde_json::Value`
 
-[4658](https://github.com/hyperledger/iroha/pull/4658) feat!: generalize permissions schema to executor data model
+[4660](https://github.com/hyperledger/iroha/pull/4660) chore(debug): Improve deserialization error message
 
-[4657](https://github.com/hyperledger/iroha/pull/4657) ci: Remove coveralls
+[4659](https://github.com/hyperledger/iroha/pull/4659) chore(debug): improve deserialization error message
 
-[4656](https://github.com/hyperledger/iroha/pull/4656) chore(deps): bump alpine from 3.19 to 3.20
+[424](https://github.com/hyperledger/fabric-chaincode-node/pull/424) Update versions for v2.5.5 release
 
-[4655](https://github.com/hyperledger/iroha/pull/4655) chore(deps): bump libsodium-sys-stable from 1.20.7 to 1.20.9
+[724](https://github.com/hyperledger-labs/fabric-operations-console/pull/724) bump release note
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
