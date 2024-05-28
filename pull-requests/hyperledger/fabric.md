@@ -166,29 +166,3 @@ see https://github.com/hyperledger/fabric-lib-go/pull/33
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4868" class=".btn">#4868</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v2.5.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add docs and release notes for v2.5.8 release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 12:07:02 +0000 UTC
-    </div>
-</div>
-
