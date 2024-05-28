@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4658" class=".btn">#4658</a>
+            </td>
+            <td>
+                <b>
+                    feat!: generalize permissions schema to executor data model
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+This is a version of #4597, but without changing anything about parameters. What to do with parameters is not yet clear.
+
+### Benefits
+
+Gives a foundation for executor-defined...
+
+- Parameters: #4352 
+- Instructions: #4599 and #4645 
+- Metadata: #4353 
+
+### Linked issue
+
+None
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-28 01:36:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4657" class=".btn">#4657</a>
             </td>
             <td>
