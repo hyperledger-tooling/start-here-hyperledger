@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/545" class=".btn">#545</a>
+            </td>
+            <td>
+                <b>
+                    Bump react-dom from 18.2.0 to 18.3.1 in /oid4vci/demo/frontend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [react-dom](https://github.com/facebook/react/tree/HEAD/packages/react-dom) from 18.2.0 to 18.3.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/facebook/react/releases">react-dom's releases</a>.</em></p>
+<blockquote>
+<h2>18.3.1 (April 26, 2024)</h2>
+<ul>
+<li>Export <code>act</code> from <code>react</code> <a href="https://github.com/facebook/react/commit/f1338f8080abd1386454a10bbf93d67bfe37ce85">f1338f</a></li>
+</ul>
+<h2>18.3.0 (April 25, 2024)</h2>
+<p>This release is identical to 18.2 but adds warnings for deprecated APIs and other changes that are needed for React 19.</p>
+<p>Read the <a href="https://react.dev/blog/2024/04/25/react-19-upgrade-guide">React 19 Upgrade Guide</a> for more info.</p>
+<h3>React</h3>
+<ul>
+<li>Allow writing to <code>this.refs</code> to support string ref codemod <a href="https://github.com/facebook/react/commit/9090712fd3ca4e1099e1f92e67933c2cb4f32552">909071</a></li>
+<li>Warn for deprecated <code>findDOMNode</code> outside StrictMode <a href="https://github.com/facebook/react/commit/c3b283964108b0e8dbcf1f9eb2e7e67815e39dfb">c3b283</a></li>
+<li>Warn for deprecated <code>test-utils</code> methods <a href="https://github.com/facebook/react/commit/d4ea75dc4258095593b6ac764289f42bddeb835c">d4ea75</a></li>
+<li>Warn for deprecated Legacy Context outside StrictMode <a href="https://github.com/facebook/react/commit/415ee0e6ea0fe3e288e65868df2e3241143d5f7f">415ee0</a></li>
+<li>Warn for deprecated string refs outside StrictMode <a href="https://redirect.github.com/facebook/react/pull/25383">#25383</a></li>
+<li>Warn for deprecated <code>defaultProps</code> for function components <a href="https://redirect.github.com/facebook/react/pull/25699">#25699</a></li>
+<li>Warn when spreading <code>key</code> <a href="https://redirect.github.com/facebook/react/pull/25697">#25697</a></li>
+<li>Warn when using <code>act</code> from <code>test-utils</code> <a href="https://github.com/facebook/react/commit/d4ea75dc4258095593b6ac764289f42bddeb835c">d4ea75</a></li>
+</ul>
+<h3>React DOM</h3>
+<ul>
+<li>Warn for deprecated <code>unmountComponentAtNode</code> <a href="https://github.com/facebook/react/commit/8a015b68cc060079878e426610e64e86fb328f8d">8a015b</a></li>
+<li>Warn for deprecated <code>renderToStaticNodeStream</code> <a href="https://redirect.github.com/facebook/react/pull/28874">#28874</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/facebook/react/blob/main/CHANGELOG.md">react-dom's changelog</a>.</em></p>
+<blockquote>
+<h2>18.3.1 (April 26, 2024)</h2>
+<ul>
+<li>Export <code>act</code> from <code>react</code> <a href="https://github.com/facebook/react/commit/f1338f8080abd1386454a10bbf93d67bfe37ce85">f1338f</a></li>
+</ul>
+<h2>18.3.0 (April 25, 2024)</h2>
+<p>This release is identical to 18.2 but adds warnings for deprecated APIs and other changes that are needed for React 19.</p>
+<p>Read the <a href="https://react.dev/blog/2024/04/25/react-19-upgrade-guide">React 19 Upgrade Guide</a> for more info.</p>
+<h3>React</h3>
+<ul>
+<li>Allow writing to <code>this.refs</code> to support string ref codemod <a href="https://github.com/facebook/react/commit/9090712fd3ca4e1099e1f92e67933c2cb4f32552">909071</a></li>
+<li>Warn for deprecated <code>findDOMNode</code> outside StrictMode <a href="https://github.com/facebook/react/commit/c3b283964108b0e8dbcf1f9eb2e7e67815e39dfb">c3b283</a></li>
+<li>Warn for deprecated <code>test-utils</code> methods <a href="https://github.com/facebook/react/commit/d4ea75dc4258095593b6ac764289f42bddeb835c">d4ea75</a></li>
+<li>Warn for deprecated Legacy Context outside StrictMode <a href="https://github.com/facebook/react/commit/415ee0e6ea0fe3e288e65868df2e3241143d5f7f">415ee0</a></li>
+<li>Warn for deprecated string refs outside StrictMode <a href="https://redirect.github.com/facebook/react/pull/25383">#25383</a></li>
+<li>Warn for deprecated <code>defaultProps</code> for function components <a href="https://redirect.github.com/facebook/react/pull/25699">#25699</a></li>
+<li>Warn when spreading <code>key</code> <a href="https://redirect.github.com/facebook/react/pull/25697">#25697</a></li>
+<li>Warn when using <code>act</code> from <code>test-utils</code> <a href="https://github.com/facebook/react/commit/d4ea75dc4258095593b6ac764289f42bddeb835c">d4ea75</a></li>
+</ul>
+<h3>React DOM</h3>
+<ul>
+<li>Warn for deprecated <code>unmountComponentAtNode</code> <a href="https://github.com/facebook/react/commit/8a015b68cc060079878e426610e64e86fb328f8d">8a015b</a></li>
+<li>Warn for deprecated <code>renderToStaticNodeStream</code> <a href="https://redirect.github.com/facebook/react/pull/28874">#28874</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/facebook/react/commit/d6c42f7b1134c4f033296ce4d47a7803aa0929df"><code>d6c42f7</code></a> Bump to 18.3.1</li>
+<li><a href="https://github.com/facebook/react/commit/8a015b68cc060079878e426610e64e86fb328f8d"><code>8a015b6</code></a> Add deprecation warning for unmountComponentAtNode</li>
+<li><a href="https://github.com/facebook/react/commit/c3b283964108b0e8dbcf1f9eb2e7e67815e39dfb"><code>c3b2839</code></a> Add deprecation warning for findDOMNode</li>
+<li><a href="https://github.com/facebook/react/commit/d4ea75dc4258095593b6ac764289f42bddeb835c"><code>d4ea75d</code></a> ReactDOMTestUtils deprecation warnings</li>
+<li><a href="https://github.com/facebook/react/commit/7548c019ce44e41301555aac645fbdfcf180e9b9"><code>7548c01</code></a> Deprecate <code>renderToStaticNodeStream</code> (<a href="https://github.com/facebook/react/tree/HEAD/packages/react-dom/issues/28872">#28872</a>) (<a href="https://github.com/facebook/react/tree/HEAD/packages/react-dom/issues/28874">#28874</a>)</li>
+<li><a href="https://github.com/facebook/react/commit/589423270e8d69fce914f12f7dc7bb61bb7b81de"><code>5894232</code></a> Enable warning for defaultProps on function components for everyone (<a href="https://github.com/facebook/react/tree/HEAD/packages/react-dom/issues/25699">#25699</a>)</li>
+<li><a href="https://github.com/facebook/react/commit/c2a246e956a164c7a92a3807c973bf9b56f85a6b"><code>c2a246e</code></a> Turn on string ref deprecation warning for everybody (not codemoddable) (<a href="https://github.com/facebook/react/tree/HEAD/packages/react-dom/issues/25383">#25383</a>)</li>
+<li><a href="https://github.com/facebook/react/commit/2cfb4741fdf2f9e3a843930d95ee6965fab44b8f"><code>2cfb474</code></a> Bump version from 18.2 to 18.3</li>
+<li>See full diff in <a href="https://github.com/facebook/react/commits/v18.3.1/packages/react-dom">compare view</a></li>
+</ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~react-bot">react-bot</a>, a new releaser for react-dom since your current version.</p>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-dom&package-manager=npm_and_yarn&previous-version=18.2.0&new-version=18.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-22 16:18:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/544" class=".btn">#544</a>
             </td>
             <td>

@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4657" class=".btn">#4657</a>
+            </td>
+            <td>
+                <b>
+                    ci: Remove coveralls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+1. Remove coveralls tool for coverage since it's useless while having it in the workflow trigger type (btw, it's still might be possible to fix). However, coverage is uploading in Sonarqube now.
+2. Modify concurrency.
+3. Run clippy and lcov jobs in the head branch context.
+4. Remove defecdojo output print.
+5. Trigger workflow within one parent workflow onlyto reduce parallel jobs creation.
+
+
+### Benefits
+
+Remove coveralls that doesn't work.
+Reduce the possible amount of parallel runs of I2::Dev::CodeQuality workflow.
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-27 20:06:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4656" class=".btn">#4656</a>
             </td>
             <td>
