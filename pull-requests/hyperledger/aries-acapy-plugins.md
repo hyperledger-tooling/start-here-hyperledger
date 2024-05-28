@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/546" class=".btn">#546</a>
+            </td>
+            <td>
+                <b>
+                    Bump pytest-asyncio from 0.23.6 to 0.23.7 in /redis_events/integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) from 0.23.6 to 0.23.7.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest-asyncio/releases">pytest-asyncio's releases</a>.</em></p>
+<blockquote>
+<h2>pytest-asyncio 0.23.7</h2>
+<h1>0.23.7 (2024-05-19)</h1>
+<ul>
+<li>Silence deprecation warnings about unclosed event loops that occurred with certain CPython patch releases <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/pull/817">#817</a></li>
+</ul>
+<h2>Known issues</h2>
+<p>As of v0.23, pytest-asyncio attaches an asyncio event loop to each item of the test suite (i.e. session, packages, modules, classes, functions) and allows tests to be run in those loops when marked accordingly. Pytest-asyncio currently assumes that async fixture scope is correlated with the new event loop scope. This prevents fixtures from being evaluated independently from the event loop scope and breaks some existing test suites (see <a href="https://redirect.github.com/pytest-dev/pytest-asyncio/issues/706">#706</a>). For example, a test suite may require all fixtures and tests to run in the same event loop, but have async fixtures that are set up and torn down for each module. If you're affected by this issue, please continue using the v0.21 release, until it is resolved.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/eb63d5ad0ca21041726ada3d5c00211d36418a9b"><code>eb63d5a</code></a> docs: Prepared for release of v0.23.7.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/da04a7a645bdd46d0533c727e85cf2c0e13c7def"><code>da04a7a</code></a> Build(deps): Bump exceptiongroup in /dependencies/default</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/00c667ad80571fc8e937f4422267b135f55ec6e6"><code>00c667a</code></a> Build(deps): Bump pytest from 8.1.1 to 8.2.0 in /dependencies/default</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/3bd9cd885b5cc78ce4a73a03c878ac93e0a1840f"><code>3bd9cd8</code></a> [docs] Add changelog entry.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/15544f0ee29152086b14e63cb040836f33b0b416"><code>15544f0</code></a> Revert GitHub Actions and Tox changes.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/6316b285c1ee8f6d300916e531ff1d320bec8d6b"><code>6316b28</code></a> Deduplicate simplefilter snippet.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/3ffdfc5607a112a9a2cb933a6af044eaf47e0227"><code>3ffdfc5</code></a> asyncio.run(port_afinalizer())</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/0107fd7ae7e42d399b5be9af6f3ee4427e16ea7d"><code>0107fd7</code></a> Remove extra space.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/3bf700a80cb12354fbe0a9295be9fbd4317c8d8f"><code>3bf700a</code></a> Fix GH Action mapping.</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio/commit/d15dc31f7459810af824b5e9e903f914140ceb2c"><code>d15dc31</code></a> Fix 3109/3108 typo.</li>
+<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest-asyncio/compare/v0.23.6...v0.23.7">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest-asyncio&package-manager=pip&previous-version=0.23.6&new-version=0.23.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-22 16:18:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/545" class=".btn">#545</a>
             </td>
             <td>
@@ -2039,118 +2125,6 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/524" class=".btn">#524</a>
-            </td>
-            <td>
-                <b>
-                    Bump python from 3.9-bullseye to 3.12-bullseye in /oid4vci/docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">docker</span>
-            </td>
-            <td>
-                Bumps python from 3.9-bullseye to 3.12-bullseye.
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=python&package-manager=docker&previous-version=3.9-bullseye&new-version=3.12-bullseye)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 16:17:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/523" class=".btn">#523</a>
-            </td>
-            <td>
-                <b>
-                    Bump python from 3.9-bullseye to 3.12-bullseye in /multitenant_provider/docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">docker</span>
-            </td>
-            <td>
-                Bumps python from 3.9-bullseye to 3.12-bullseye.
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=python&package-manager=docker&previous-version=3.9-bullseye&new-version=3.12-bullseye)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 16:17:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/522" class=".btn">#522</a>
             </td>
             <td>
@@ -2367,62 +2341,6 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/520" class=".btn">#520</a>
-            </td>
-            <td>
-                <b>
-                    Bump python from 3.9-bullseye to 3.12-bullseye in /connection_update/docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">docker</span>
-            </td>
-            <td>
-                Bumps python from 3.9-bullseye to 3.12-bullseye.
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=python&package-manager=docker&previous-version=3.9-bullseye&new-version=3.12-bullseye)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 16:17:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/519" class=".btn">#519</a>
             </td>
             <td>
@@ -2543,62 +2461,6 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/518" class=".btn">#518</a>
-            </td>
-            <td>
-                <b>
-                    Bump python from 3.9-bullseye to 3.12-bullseye in /basicmessage_storage/docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">docker</span>
-            </td>
-            <td>
-                Bumps python from 3.9-bullseye to 3.12-bullseye.
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=python&package-manager=docker&previous-version=3.9-bullseye&new-version=3.12-bullseye)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 16:17:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/517" class=".btn">#517</a>
             </td>
             <td>
@@ -2648,62 +2510,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-05-22 16:17:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/516" class=".btn">#516</a>
-            </td>
-            <td>
-                <b>
-                    Bump python from 3.9-bullseye to 3.12-bullseye in /firebase_push_notifications/docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">docker</span>
-            </td>
-            <td>
-                Bumps python from 3.9-bullseye to 3.12-bullseye.
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=python&package-manager=docker&previous-version=3.9-bullseye&new-version=3.12-bullseye)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 16:17:31 +0000 UTC
     </div>
 </div>
 
@@ -4561,635 +4367,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-05-22 16:17:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/494" class=".btn">#494</a>
-            </td>
-            <td>
-                <b>
-                    chore: updating dependabot to support GHA, python, JS, TS, docker and dev container packages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 16:15:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/493" class=".btn">#493</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): Bump the pip group across 4 directories with 1 update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps the pip group with 1 update in the /firebase_push_notifications/integration directory: [requests](https://github.com/psf/requests).
-Bumps the pip group with 1 update in the /kafka_events/integration directory: [requests](https://github.com/psf/requests).
-Bumps the pip group with 1 update in the /multitenant_provider/integration directory: [requests](https://github.com/psf/requests).
-Bumps the pip group with 1 update in the /rpc/integration directory: [requests](https://github.com/psf/requests).
-
-Updates `requests` from 2.31.0 to 2.32.0
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
-<blockquote>
-<h2>v2.32.0</h2>
-<h2>2.32.0 (2024-05-20)</h2>
-<h2>🐍 PYCON US 2024 EDITION 🐍</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/matthewarmand"><code>@​matthewarmand</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6258">psf/requests#6258</a></li>
-<li><a href="https://github.com/cpzt"><code>@​cpzt</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6456">psf/requests#6456</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
-<blockquote>
-<h2>2.32.0 (2024-05-20)</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/psf/requests/commit/d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f"><code>d6ebc4a</code></a> v2.32.0</li>
-<li><a href="https://github.com/psf/requests/commit/9a40d1277807f0a4f26c9a37eea8ec90faa8aadc"><code>9a40d12</code></a> Avoid reloading root certificates to improve concurrent performance (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/0c030f78d24f29a459dbf39b28b4cc765e2153d7"><code>0c030f7</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a> from nateprewitt/no_char_detection</li>
-<li><a href="https://github.com/psf/requests/commit/555b870eb19d497ddb67042645420083ec8efb02"><code>555b870</code></a> Allow character detection dependencies to be optional in post-packaging steps</li>
-<li><a href="https://github.com/psf/requests/commit/d6dded3f00afcf56a7e866cb0732799045301eb0"><code>d6dded3</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6700">#6700</a> from franekmagiera/update-redirect-to-invalid-uri-test</li>
-<li><a href="https://github.com/psf/requests/commit/bf24b7d8d17da34be720c19e5978b2d3bf94a53b"><code>bf24b7d</code></a> Use an invalid URI that will not cause httpbin to throw 500</li>
-<li><a href="https://github.com/psf/requests/commit/2d5f54779ad174035c5437b3b3c1146b0eaf60fe"><code>2d5f547</code></a> Pin 3.8 and 3.9 runners back to macos-13 (<a href="https://redirect.github.com/psf/requests/issues/6688">#6688</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/f1bb07d39b74d6444e333879f8b8a3d9dd4d2311"><code>f1bb07d</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6687">#6687</a> from psf/dependabot/github_actions/github/codeql-act...</li>
-<li><a href="https://github.com/psf/requests/commit/60047ade64b0b882cbc94e047198818ab580911e"><code>60047ad</code></a> Bump github/codeql-action from 3.24.0 to 3.25.0</li>
-<li><a href="https://github.com/psf/requests/commit/31ebb8102c00f8cf8b396a6356743cca4362e07b"><code>31ebb81</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6682">#6682</a> from frenzymadness/pytest8</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v2.31.0...v2.32.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-Updates `requests` from 2.32.0 to 2.32.1
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
-<blockquote>
-<h2>v2.32.0</h2>
-<h2>2.32.0 (2024-05-20)</h2>
-<h2>🐍 PYCON US 2024 EDITION 🐍</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/matthewarmand"><code>@​matthewarmand</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6258">psf/requests#6258</a></li>
-<li><a href="https://github.com/cpzt"><code>@​cpzt</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6456">psf/requests#6456</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
-<blockquote>
-<h2>2.32.0 (2024-05-20)</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/psf/requests/commit/d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f"><code>d6ebc4a</code></a> v2.32.0</li>
-<li><a href="https://github.com/psf/requests/commit/9a40d1277807f0a4f26c9a37eea8ec90faa8aadc"><code>9a40d12</code></a> Avoid reloading root certificates to improve concurrent performance (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/0c030f78d24f29a459dbf39b28b4cc765e2153d7"><code>0c030f7</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a> from nateprewitt/no_char_detection</li>
-<li><a href="https://github.com/psf/requests/commit/555b870eb19d497ddb67042645420083ec8efb02"><code>555b870</code></a> Allow character detection dependencies to be optional in post-packaging steps</li>
-<li><a href="https://github.com/psf/requests/commit/d6dded3f00afcf56a7e866cb0732799045301eb0"><code>d6dded3</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6700">#6700</a> from franekmagiera/update-redirect-to-invalid-uri-test</li>
-<li><a href="https://github.com/psf/requests/commit/bf24b7d8d17da34be720c19e5978b2d3bf94a53b"><code>bf24b7d</code></a> Use an invalid URI that will not cause httpbin to throw 500</li>
-<li><a href="https://github.com/psf/requests/commit/2d5f54779ad174035c5437b3b3c1146b0eaf60fe"><code>2d5f547</code></a> Pin 3.8 and 3.9 runners back to macos-13 (<a href="https://redirect.github.com/psf/requests/issues/6688">#6688</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/f1bb07d39b74d6444e333879f8b8a3d9dd4d2311"><code>f1bb07d</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6687">#6687</a> from psf/dependabot/github_actions/github/codeql-act...</li>
-<li><a href="https://github.com/psf/requests/commit/60047ade64b0b882cbc94e047198818ab580911e"><code>60047ad</code></a> Bump github/codeql-action from 3.24.0 to 3.25.0</li>
-<li><a href="https://github.com/psf/requests/commit/31ebb8102c00f8cf8b396a6356743cca4362e07b"><code>31ebb81</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6682">#6682</a> from frenzymadness/pytest8</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v2.31.0...v2.32.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-Updates `requests` from 2.31.0 to 2.32.0
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
-<blockquote>
-<h2>v2.32.0</h2>
-<h2>2.32.0 (2024-05-20)</h2>
-<h2>🐍 PYCON US 2024 EDITION 🐍</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/matthewarmand"><code>@​matthewarmand</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6258">psf/requests#6258</a></li>
-<li><a href="https://github.com/cpzt"><code>@​cpzt</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6456">psf/requests#6456</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
-<blockquote>
-<h2>2.32.0 (2024-05-20)</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/psf/requests/commit/d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f"><code>d6ebc4a</code></a> v2.32.0</li>
-<li><a href="https://github.com/psf/requests/commit/9a40d1277807f0a4f26c9a37eea8ec90faa8aadc"><code>9a40d12</code></a> Avoid reloading root certificates to improve concurrent performance (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/0c030f78d24f29a459dbf39b28b4cc765e2153d7"><code>0c030f7</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a> from nateprewitt/no_char_detection</li>
-<li><a href="https://github.com/psf/requests/commit/555b870eb19d497ddb67042645420083ec8efb02"><code>555b870</code></a> Allow character detection dependencies to be optional in post-packaging steps</li>
-<li><a href="https://github.com/psf/requests/commit/d6dded3f00afcf56a7e866cb0732799045301eb0"><code>d6dded3</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6700">#6700</a> from franekmagiera/update-redirect-to-invalid-uri-test</li>
-<li><a href="https://github.com/psf/requests/commit/bf24b7d8d17da34be720c19e5978b2d3bf94a53b"><code>bf24b7d</code></a> Use an invalid URI that will not cause httpbin to throw 500</li>
-<li><a href="https://github.com/psf/requests/commit/2d5f54779ad174035c5437b3b3c1146b0eaf60fe"><code>2d5f547</code></a> Pin 3.8 and 3.9 runners back to macos-13 (<a href="https://redirect.github.com/psf/requests/issues/6688">#6688</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/f1bb07d39b74d6444e333879f8b8a3d9dd4d2311"><code>f1bb07d</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6687">#6687</a> from psf/dependabot/github_actions/github/codeql-act...</li>
-<li><a href="https://github.com/psf/requests/commit/60047ade64b0b882cbc94e047198818ab580911e"><code>60047ad</code></a> Bump github/codeql-action from 3.24.0 to 3.25.0</li>
-<li><a href="https://github.com/psf/requests/commit/31ebb8102c00f8cf8b396a6356743cca4362e07b"><code>31ebb81</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6682">#6682</a> from frenzymadness/pytest8</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v2.31.0...v2.32.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-Updates `requests` from 2.31.0 to 2.32.0
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
-<blockquote>
-<h2>v2.32.0</h2>
-<h2>2.32.0 (2024-05-20)</h2>
-<h2>🐍 PYCON US 2024 EDITION 🐍</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/matthewarmand"><code>@​matthewarmand</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6258">psf/requests#6258</a></li>
-<li><a href="https://github.com/cpzt"><code>@​cpzt</code></a> made their first contribution in <a href="https://redirect.github.com/psf/requests/pull/6456">psf/requests#6456</a></li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
-<blockquote>
-<h2>2.32.0 (2024-05-20)</h2>
-<p><strong>Security</strong></p>
-<ul>
-<li>Fixed an issue where setting <code>verify=False</code> on the first request from a
-Session will cause subsequent requests to the <em>same origin</em> to also ignore
-cert verification, regardless of the value of <code>verify</code>.
-(<a href="https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56">https://github.com/psf/requests/security/advisories/GHSA-9wx4-h78v-vm56</a>)</li>
-</ul>
-<p><strong>Improvements</strong></p>
-<ul>
-<li><code>verify=True</code> now reuses a global SSLContext which should improve
-request time variance between first and subsequent requests. It should
-also minimize certificate load time on Windows systems when using a Python
-version built with OpenSSL 3.x. (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li>Requests now supports optional use of character detection
-(<code>chardet</code> or <code>charset_normalizer</code>) when repackaged or vendored.
-This enables <code>pip</code> and other projects to minimize their vendoring
-surface area. The <code>Response.text()</code> and <code>apparent_encoding</code> APIs
-will default to <code>utf-8</code> if neither library is present. (<a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a>)</li>
-</ul>
-<p><strong>Bugfixes</strong></p>
-<ul>
-<li>Fixed bug in length detection where emoji length was incorrectly
-calculated in the request content-length. (<a href="https://redirect.github.com/psf/requests/issues/6589">#6589</a>)</li>
-<li>Fixed deserialization bug in JSONDecodeError. (<a href="https://redirect.github.com/psf/requests/issues/6629">#6629</a>)</li>
-<li>Fixed bug where an extra leading <code>/</code> (path separator) could lead
-urllib3 to unnecessarily reparse the request URI. (<a href="https://redirect.github.com/psf/requests/issues/6644">#6644</a>)</li>
-</ul>
-<p><strong>Deprecations</strong></p>
-<ul>
-<li>Requests has officially added support for CPython 3.12 (<a href="https://redirect.github.com/psf/requests/issues/6503">#6503</a>)</li>
-<li>Requests has officially added support for PyPy 3.9 and 3.10 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-<li>Requests has officially dropped support for CPython 3.7 (<a href="https://redirect.github.com/psf/requests/issues/6642">#6642</a>)</li>
-<li>Requests has officially dropped support for PyPy 3.7 and 3.8 (<a href="https://redirect.github.com/psf/requests/issues/6641">#6641</a>)</li>
-</ul>
-<p><strong>Documentation</strong></p>
-<ul>
-<li>Various typo fixes and doc improvements.</li>
-</ul>
-<p><strong>Packaging</strong></p>
-<ul>
-<li>Requests has started adopting some modern packaging practices.
-The source files for the projects (formerly <code>requests</code>) is now located
-in <code>src/requests</code> in the Requests sdist. (<a href="https://redirect.github.com/psf/requests/issues/6506">#6506</a>)</li>
-<li>Starting in Requests 2.33.0, Requests will migrate to a PEP 517 build system
-using <code>hatchling</code>. This should not impact the average user, but extremely old
-versions of packaging utilities may have issues with the new packaging format.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/psf/requests/commit/d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f"><code>d6ebc4a</code></a> v2.32.0</li>
-<li><a href="https://github.com/psf/requests/commit/9a40d1277807f0a4f26c9a37eea8ec90faa8aadc"><code>9a40d12</code></a> Avoid reloading root certificates to improve concurrent performance (<a href="https://redirect.github.com/psf/requests/issues/6667">#6667</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/0c030f78d24f29a459dbf39b28b4cc765e2153d7"><code>0c030f7</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6702">#6702</a> from nateprewitt/no_char_detection</li>
-<li><a href="https://github.com/psf/requests/commit/555b870eb19d497ddb67042645420083ec8efb02"><code>555b870</code></a> Allow character detection dependencies to be optional in post-packaging steps</li>
-<li><a href="https://github.com/psf/requests/commit/d6dded3f00afcf56a7e866cb0732799045301eb0"><code>d6dded3</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6700">#6700</a> from franekmagiera/update-redirect-to-invalid-uri-test</li>
-<li><a href="https://github.com/psf/requests/commit/bf24b7d8d17da34be720c19e5978b2d3bf94a53b"><code>bf24b7d</code></a> Use an invalid URI that will not cause httpbin to throw 500</li>
-<li><a href="https://github.com/psf/requests/commit/2d5f54779ad174035c5437b3b3c1146b0eaf60fe"><code>2d5f547</code></a> Pin 3.8 and 3.9 runners back to macos-13 (<a href="https://redirect.github.com/psf/requests/issues/6688">#6688</a>)</li>
-<li><a href="https://github.com/psf/requests/commit/f1bb07d39b74d6444e333879f8b8a3d9dd4d2311"><code>f1bb07d</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6687">#6687</a> from psf/dependabot/github_actions/github/codeql-act...</li>
-<li><a href="https://github.com/psf/requests/commit/60047ade64b0b882cbc94e047198818ab580911e"><code>60047ad</code></a> Bump github/codeql-action from 3.24.0 to 3.25.0</li>
-<li><a href="https://github.com/psf/requests/commit/31ebb8102c00f8cf8b396a6356743cca4362e07b"><code>31ebb81</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6682">#6682</a> from frenzymadness/pytest8</li>
-<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v2.31.0...v2.32.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore <dependency name> major version` will close this group update PR and stop Dependabot creating any more for the specific dependency's major version (unless you unignore this specific dependency's major version or upgrade to it yourself)
-- `@dependabot ignore <dependency name> minor version` will close this group update PR and stop Dependabot creating any more for the specific dependency's minor version (unless you unignore this specific dependency's minor version or upgrade to it yourself)
-- `@dependabot ignore <dependency name>` will close this group update PR and stop Dependabot creating any more for the specific dependency (unless you unignore this specific dependency or upgrade to it yourself)
-- `@dependabot unignore <dependency name>` will remove all of the ignore conditions of the specified dependency
-- `@dependabot unignore <dependency name> <ignore condition>` will remove the ignore condition of the specified dependency and ignore conditions
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-plugins/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 15:47:30 +0000 UTC
     </div>
 </div>
 

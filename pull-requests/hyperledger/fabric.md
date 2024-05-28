@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4876" class=".btn">#4876</a>
+            </td>
+            <td>
+                <b>
+                    blockprovider test flakes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Increase Eventually timeout to reduce flakes.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-28 15:53:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4873" class=".btn">#4873</a>
             </td>
             <td>
@@ -132,37 +166,6 @@ They must be at the same level for release pipeline to work correctly.
     </table>
     <div class="right-align">
         Created At 2024-05-21 19:25:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4869" class=".btn">#4869</a>
-            </td>
-            <td>
-                <b>
-                    Add logging for pkcs11 initialize (release-2.5 backport)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add warnings and debug logging to troubleshoot
-pkcs11 initialize function.
-
-Note that main branch uses fabric-lib-go which
-has these same bccsp/pkcs11 updates,
-see https://github.com/hyperledger/fabric-lib-go/pull/33
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 13:22:44 +0000 UTC
     </div>
 </div>
 

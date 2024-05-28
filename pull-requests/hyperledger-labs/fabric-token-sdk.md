@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/642" class=".btn">#642</a>
+            </td>
+            <td>
+                <b>
+                    configuration service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-28 14:48:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/641" class=".btn">#641</a>
             </td>
             <td>
@@ -246,35 +272,6 @@ The code needs still the following:
     </table>
     <div class="right-align">
         Created At 2024-05-22 08:48:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/631" class=".btn">#631</a>
-            </td>
-            <td>
-                <b>
-                    cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR does the following:
-- It replaces view.Identity with token.Identity or driver.Identity.
-- Use services/logging
-- TokenRequest#Issue appends the metadata as produced by the driver
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 16:46:26 +0000 UTC
     </div>
 </div>
 

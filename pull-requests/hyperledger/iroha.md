@@ -14,6 +14,149 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4663" class=".btn">#4663</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump faker from 25.2.0 to 25.3.0 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [faker](https://github.com/joke2k/faker) from 25.2.0 to 25.3.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
+<blockquote>
+<h2>Release v25.3.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.3.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.2.0...v25.3.0">v25.3.0 - 2024-05-28</a></h3>
+<ul>
+<li>Add more iOS versions to <code>user_agent</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/joke2k/faker/commit/e0e0460ff715032ad5eda184d2fcb3720ce26b9c"><code>e0e0460</code></a> Bump version: 25.2.0 → 25.3.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/3497f21cceea485410927696358bb0de0218ce64"><code>3497f21</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/4cba6ee90e2637e66d3a7fb64b4aa71f6f5f1b21"><code>4cba6ee</code></a> Add more iOS versions to <code>user_agent</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2032">#2032</a>)</li>
+<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.2.0...v25.3.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.2.0&new-version=25.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-28 16:10:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4662" class=".btn">#4662</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: rename iroha server and client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+* rename `iroha` crate and binary to `irohad`
+* rename `iroha_client_cli` binary to `iroha`
+* rename `iroha_client` crate and binary to `iroha`
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4512
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-28 15:33:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4661" class=".btn">#4661</a>
             </td>
             <td>
@@ -1240,57 +1383,6 @@ Closes #4585 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-05-21 19:18:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4632" class=".btn">#4632</a>
-            </td>
-            <td>
-                <b>
-                    refactor(executor): Check custom visit functions in `#[derive(Visit)]`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-While working on #4599, I noticed that in custom executor it is possible to derive `Visit` with invalid `#[visit(custom())]` functions which will be ignored (only rustc error that function is unused). This PR adds check for custom visit function names to avoid potential bugs. Also I updated documentation of some proc-macros related to custom executor.
-
-```rust
-#[derive(Constructor, ValidateEntrypoints, Validate, Visit)]
-#[visit(custom(visit_register_domain2))]  // typo in visit_register_domain
-struct Executor {
-    verdict: Result,
-    block_height: u64,
-}
-fn visit_register_domain(...) { ... }
-```
-
-### Linked issue
-
-### Benefits
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 16:30:05 +0000 UTC
     </div>
 </div>
 
