@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4665" class=".btn">#4665</a>
+            </td>
+            <td>
+                <b>
+                    fix: Fix test `generate_peers_deterministically`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix test `generate_peers_deterministically` after `iroha` → `irohad` renaming (#4662)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-29 16:11:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4663" class=".btn">#4663</a>
             </td>
             <td>
@@ -1183,77 +1209,6 @@ Closes #4630.
     </table>
     <div class="right-align">
         Created At 2024-05-23 08:04:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4639" class=".btn">#4639</a>
-            </td>
-            <td>
-                <b>
-                    fix(sumeragi): Use proper view_change_index on init block load
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Backport of #4612
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 13:45:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4638" class=".btn">#4638</a>
-            </td>
-            <td>
-                <b>
-                    feat!: Add traits for iterable and non-iterable queries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-This PR is a first step towards more type-safe queries (#4569). It adds traits for singular and iterable queries and prohibits supplying filters, sorting, pagination and batching parameters in compile time (it is already a runtime error to do so).
-
-### Linked issue
-
-Partially addresses #4569
-
-### Benefits
-
-- less error prone API
-- lays foundation to allow type-checking query filters
-
-### Checklist
-
-- [ ] make CI pass
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 12:46:29 +0000 UTC
     </div>
 </div>
 
