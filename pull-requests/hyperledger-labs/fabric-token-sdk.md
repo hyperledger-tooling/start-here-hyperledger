@@ -24,10 +24,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR does the following: It introduces a new configuration service that is used by core and other services (i.e. identity service) to obtain various configuration parameters.
+The Driver API has been therefore simplified.
             </td>
         </tr>
     </table>
@@ -246,32 +247,6 @@ The code needs still the following:
     </table>
     <div class="right-align">
         Created At 2024-05-23 07:48:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/632" class=".btn">#632</a>
-            </td>
-            <td>
-                <b>
-                    Sherdlock
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-22 08:48:09 +0000 UTC
     </div>
 </div>
 
