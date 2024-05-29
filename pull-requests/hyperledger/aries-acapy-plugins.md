@@ -14,6 +14,151 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/547" class=".btn">#547</a>
+            </td>
+            <td>
+                <b>
+                    Bump prettier from 3.0.3 to 3.2.5 in /oid4vci/integration/afj
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [prettier](https://github.com/prettier/prettier) from 3.0.3 to 3.2.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/prettier/prettier/releases">prettier's releases</a>.</em></p>
+<blockquote>
+<h2>3.2.5</h2>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#325">Changelog</a></p>
+<h2>3.2.4</h2>
+<ul>
+<li>Fix <code>.eslintrc.json</code> format <a href="https://redirect.github.com/prettier/prettier/issues/15947">#15947</a></li>
+</ul>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#324">Changelog</a></p>
+<h2>3.2.3</h2>
+<ul>
+<li>Format <code>tsconfig.json</code> file with <code>jsonc</code> parser <a href="https://redirect.github.com/prettier/prettier/issues/15927">#15927</a></li>
+</ul>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#323">Changelog</a></p>
+<h2>3.2.2</h2>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#322">Changelog</a></p>
+<h2>3.2.1</h2>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#321">Changelog</a></p>
+<h2>3.2.0</h2>
+<p><a href="https://github.com/prettier/prettier/compare/3.1.1...3.2.0">diff</a></p>
+<p>🔗 <a href="https://prettier.io/blog/2024/01/12/3.2.0.html">Release note</a></p>
+<h2>3.1.1</h2>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#311">Changelog</a></p>
+<h2>3.1.0</h2>
+<p><a href="https://github.com/prettier/prettier/compare/3.0.3...3.1.0">diff</a></p>
+<p>🔗 <a href="https://prettier.io/blog/2023/11/13/3.1.0.html">Release note</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md">prettier's changelog</a>.</em></p>
+<blockquote>
+<h1>3.2.5</h1>
+<p><a href="https://github.com/prettier/prettier/compare/3.2.4...3.2.5">diff</a></p>
+<h4>Support Angular inline styles as single template literal (<a href="https://redirect.github.com/prettier/prettier/pull/15968">#15968</a> by <a href="https://github.com/sosukesuzuki"><code>@​sosukesuzuki</code></a>)</h4>
+<p><a href="https://blog.angular.io/introducing-angular-v17-4d7033312e4b">Angular v17</a> supports single string inline styles.</p>
+<!-- raw HTML omitted -->
+<pre lang="ts"><code>// Input
+@Component({
+  template: `&lt;div&gt;...&lt;/div&gt;`,
+  styles: `h1 { color: blue; }`,
+})
+export class AppComponent {}
+<p>// Prettier 3.2.4
+<a href="https://github.com/Component"><code>@​Component</code></a>({
+template: <code>&amp;lt;div&amp;gt;...&amp;lt;/div&amp;gt;</code>,
+styles: <code>h1 { color: blue; }</code>,
+})
+export class AppComponent {}</p>
+<p>// Prettier 3.2.5
+<a href="https://github.com/Component"><code>@​Component</code></a>({
+template: <code>&amp;lt;div&amp;gt;...&amp;lt;/div&amp;gt;</code>,
+styles: <code>h1 { color: blue; }</code>,
+})
+export class AppComponent {}</p>
+<p></code></pre></p>
+<h4>Unexpected embedded formatting for Angular template (<a href="https://redirect.github.com/prettier/prettier/pull/15969">#15969</a> by <a href="https://github.com/JounQin"><code>@​JounQin</code></a>)</h4>
+<p>Computed template should not be considered as Angular component template</p>
+<!-- raw HTML omitted -->
+<pre lang="ts"><code>// Input
+const template = &quot;foobar&quot;;
+<p><a href="https://github.com/Component"><code>@​Component</code></a>({
+[template]: <code>&amp;lt;h1&amp;gt;{{       hello }}&amp;lt;/h1&amp;gt;</code>,
+})
+export class AppComponent {}
+&lt;/tr&gt;&lt;/table&gt;
+</code></pre></p>
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/prettier/prettier/commit/7142cf354cce2558f41574f44b967baf11d5b603"><code>7142cf3</code></a> Release 3.2.5</li>
+<li><a href="https://github.com/prettier/prettier/commit/8cbee2e217baad7acf4cb3947834e8c1b41ed647"><code>8cbee2e</code></a> chore(deps): update glimmer to v0.88.1 (<a href="https://redirect.github.com/prettier/prettier/issues/15991">#15991</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/45baee061cb982d9dd298fefa74f4c195a3e0709"><code>45baee0</code></a> chore(deps): update dependency magic-string to v0.30.6 (<a href="https://redirect.github.com/prettier/prettier/issues/16022">#16022</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/9fb32a1a6b10bfb6dae317492f10e5e42956cf23"><code>9fb32a1</code></a> Minor refactor to property print (<a href="https://redirect.github.com/prettier/prettier/issues/15924">#15924</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/08f19401e48ccfeddff4300827da4c8677cb2b79"><code>08f1940</code></a> Update install script for husky v9 (<a href="https://redirect.github.com/prettier/prettier/issues/16000">#16000</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/6d0b1d2a935d47e0517721a0d5e62eb79e972b0c"><code>6d0b1d2</code></a> Update yarn to v4.1.0 (<a href="https://redirect.github.com/prettier/prettier/issues/16021">#16021</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/c8ba8dbca18858a7962184bbb3898502b9ec7cfb"><code>c8ba8db</code></a> chore(deps): update dependency <code>@​angular/compiler</code> to v17.1.2 (<a href="https://redirect.github.com/prettier/prettier/issues/16018">#16018</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/e2250ec6881222a1bb46ef55403067a259d8c7a3"><code>e2250ec</code></a> chore(deps): update typescript-eslint to v6.20.0 (<a href="https://redirect.github.com/prettier/prettier/issues/16015">#16015</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/02865f6cc77858b3a4cbaf7d4e2e72a4e88fe175"><code>02865f6</code></a> chore(deps): update dependency npm-run-all2 to v6.1.2 (<a href="https://redirect.github.com/prettier/prettier/issues/16017">#16017</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/014ee5d47445ae79233291d5b4846b28bedf3601"><code>014ee5d</code></a> chore(deps): update dependency hermes-parser to v0.19.0 (<a href="https://redirect.github.com/prettier/prettier/issues/16014">#16014</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/prettier/prettier/compare/3.0.3...3.2.5">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=prettier&package-manager=npm_and_yarn&previous-version=3.0.3&new-version=3.2.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-22 16:18:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/546" class=".btn">#546</a>
             </td>
             <td>
