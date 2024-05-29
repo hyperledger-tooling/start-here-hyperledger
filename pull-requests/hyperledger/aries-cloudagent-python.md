@@ -380,31 +380,3 @@ PR (Passing):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2961" class=".btn">#2961</a>
-            </td>
-            <td>
-                <b>
-                    Fix Snyk sarif file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes the issue with Snyk sarif file. Replace any "null" security severity values with 0. The null value is used in the case of license-related findings, which do not do not indicate a security vulnerability.
-
-See https://github.com/github/codeql-action/issues/2187 for more context.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-21 19:27:29 +0000 UTC
-    </div>
-</div>
-
