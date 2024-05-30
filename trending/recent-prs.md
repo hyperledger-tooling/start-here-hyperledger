@@ -1,13 +1,13 @@
 
-[4878](https://github.com/hyperledger/fabric/pull/4878) Update install.md
+[148](https://github.com/hyperledger-labs/hlf-connector/pull/148) Introduce dedupe for outbound events
 
-[202](https://github.com/hyperledger/iroha-python/pull/202) [fix] #201: Add tests for transaction queries
+[4668](https://github.com/hyperledger/iroha/pull/4668) feat!: recognize and activate accounts
 
-[4665](https://github.com/hyperledger/iroha/pull/4665) fix: Fix test `generate_peers_deterministically`
+[4667](https://github.com/hyperledger/iroha/pull/4667) refactor!: revert `_ms` and `_bytes` suffixes in config
 
-[161](https://github.com/hyperledger-labs/microfab/pull/161) Update dependencies for Golang and Node
+[4666](https://github.com/hyperledger/iroha/pull/4666) fix: avoid early drop of `ConfigReader` in `iroha_client` (#4623)
 
-[643](https://github.com/hyperledger-labs/fabric-token-sdk/pull/643) ci script update
+[49](https://github.com/hyperledger-labs/pdo-contracts/pull/49) Bump private-data-objects from `6a30f64` to `37ab11b`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

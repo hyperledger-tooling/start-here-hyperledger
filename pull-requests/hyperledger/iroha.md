@@ -14,6 +14,152 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4668" class=".btn">#4668</a>
+            </td>
+            <td>
+                <b>
+                    feat!: recognize and activate accounts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                BREAKING_CHANGE:
+
+- `Account` contains `is_active` field
+- `AccountEvent::Created` divides into `Recognized` and `Activated`
+- `ValidationFail` contains `UnrecognizedAuthority` and `InactiveAuthority` variants
+
+## Description
+
+When an account is _recognized_,
+
+- it becomes able to hold assets, permissions, roles, and metadata
+- it cannot yet execute any queries or transactions
+
+When an account is _activated_,
+
+- it becomes able to execute queries and transactions
+
+Recognize and activate an account when targeted as:
+
+- `Register<Account>` object
+
+Recognize an account when targeted as:
+
+- `Register<Asset>` object.account
+- `Mint<Numeric, Asset>` destination.account
+- ~~`Transfer<Account, DomainId, Account>` destination~~ See [comment](https://github.com/hyperledger/iroha/pull/4668#discussion_r1619777320)
+- `Transfer<Account, AssetDefinitionId, Account>` destination
+- `Transfer<Asset, Numeric, Account>` destination
+- `Transfer<Asset, Metadata, Account>` destination
+- `SetKeyValue<Account>` object
+- `SetKeyValue<Asset>` object.account
+- `Grant<Permission, Account>` destination
+- `Grant<Role, Account>` destination
+
+Let me call these _creative instructions_ in documentation
+
+### Linked issue
+
+- Closes #4426
+
+### Benefits
+
+- Who targets an account does not need to care if it has been registered or not
+- Depending on use case, accounts can be registered implicitly/automatically or explicitly/manually
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-30 03:01:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4667" class=".btn">#4667</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: revert `_ms` and `_bytes` suffixes in config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">config-changes</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+Since there is still no consensus about using human readable types in configuration (#4294, #4295), I decided to at least make it explicit that they aren't supported.
+
+- Reverted use of `_ms` suffix for millisecond numbers
+- Used `_bytes` suffix for <code>torii.max_content_length<b>_bytes</b></code>
+- Updated config templates
+- Refactored internals:
+  - Renamed `HumanDuration` to `DurationMs`, and `HumanBytes` to just `Bytes`
+  - Chore refactors
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-30 02:56:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4666" class=".btn">#4666</a>
+            </td>
+            <td>
+                <b>
+                    fix: avoid early drop of `ConfigReader` in `iroha_client` (#4623)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span>
+            </td>
+            <td>
+                ## Description
+
+Fixed usage of `ConfigReader` in `iroha_client`.
+
+### Linked issue
+
+Closes #4623
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-30 01:57:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4665" class=".btn">#4665</a>
             </td>
             <td>
