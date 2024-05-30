@@ -89,29 +89,3 @@ This PR removes all teams and engineers from the hyperledger-labs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/62" class=".btn">#62</a>
-            </td>
-            <td>
-                <b>
-                    Add new lab stewards
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Per TOC vote 23 MAY 2024
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-23 14:17:48 +0000 UTC
-    </div>
-</div>
-
