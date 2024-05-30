@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4673" class=".btn">#4673</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: Remove genesis signing from Iroha
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+Implementation of https://github.com/hyperledger/iroha/issues/4225#issuecomment-2087976958 partially based on #4382.
+
+This PR includes:
+* New `kagami genesis sign` command to sign and transform `genesis.json` into `signed-genesis.scale` (SCALE serialized `SignedTransaction`)
+* Changes in config:
+  * `genesis.private_key` removed
+  * `genesis.file` renamed to `genesis.signed_file`
+* Changes in swarm: added signing genesis with kagami before starting peer
+
+Things left for future PRs:
+* Remove `--submit-genesis` CLI argument and make all peers submit genesis ?
+* Small refactoring - remove/inline `GenesisNetwork` struct (it always contains only one `GenesisTransaction`)
+
+### Linked issue
+
+Closes #4225
+Closes #4382
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-30 15:56:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4671" class=".btn">#4671</a>
+            </td>
+            <td>
+                <b>
+                    fix: Fix test `no_extra_or_missing_schemas`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated schema types to fix test `no_extra_or_missing_schemas`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-30 14:03:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4668" class=".btn">#4668</a>
             </td>
             <td>
@@ -1257,55 +1338,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-05-24 16:13:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4642" class=".btn">#4642</a>
-            </td>
-            <td>
-                <b>
-                    refactor(executor): remove `Visit` bound from `Validate`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4237.
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-23 13:50:05 +0000 UTC
     </div>
 </div>
 
