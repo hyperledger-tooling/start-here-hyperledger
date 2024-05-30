@@ -65,12 +65,12 @@ Let me call these _creative instructions_ in documentation
 
 ### Linked issue
 
-- Closes #4426
+- closes #4426
 
 ### Benefits
 
-- Who targets an account does not need to care if it has been registered or not
-- Depending on use case, accounts can be registered implicitly/automatically or explicitly/manually
+- who targets an account does not need to care if it has been registered or not
+- depending on use case, accounts can be registered implicitly/automatically or explicitly/manually
 
 ### Checklist
 
@@ -1306,55 +1306,6 @@ Closes #4237.
     </table>
     <div class="right-align">
         Created At 2024-05-23 13:50:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4640" class=".btn">#4640</a>
-            </td>
-            <td>
-                <b>
-                    refactor: remove association between domains and triggers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Remove the association between domains and triggers.
-
-### Linked issue
-
-Closes #4630.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-23 08:04:23 +0000 UTC
     </div>
 </div>
 
