@@ -24,7 +24,7 @@ permalink: /issues/hyperledger/caliper
         </tr>
         <tr>
             <td>
-                <span class="chip">help wanted</span>
+                <span class="chip">help wanted</span><span class="chip">component/ethereum</span>
             </td>
             <td>
                 ### Which Caliper version are you using?
