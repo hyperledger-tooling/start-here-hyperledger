@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/microfab
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/161" class=".btn">#161</a>
+                PR <a href="https://github.com/hyperledger-labs/microfab/pull/162" class=".btn">#162</a>
             </td>
             <td>
                 <b>
-                    Update dependencies for Golang and Node
+                    Update docker image dependencies
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger-labs/microfab
                 
             </td>
             <td>
-                Upgrade to golang 1.22.3
-Upgrade to Node 20.14.0
-Upgrade Fabric to 2.5.7
+                    Upgrade to golang 1.22.3
+    Upgrade to Node 20.14.0
+    Upgrade Fabric CA to 1.5.11
+    Upgrade maven to 3.9.7
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-29 14:17:55 +0000 UTC
+        Created At 2024-05-30 20:33:50 +0000 UTC
     </div>
 </div>
 
