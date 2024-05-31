@@ -15,34 +15,37 @@ permalink: /releases/hyperledger/fabric-chaincode-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.5.4
+                    v2.5.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.5.4
+                    v2.5.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Correctly apply gRPC options when starting chaincode as a service by @delaooliveira in https://github.com/hyperledger/fabric-chaincode-node/pull/401
-* Avoid calling non-existent grpc-js duplex stream cancel() function by @bestbeforetoday in https://github.com/hyperledger/fabric-chaincode-node/pull/403
-* Fix Stub getTxTimestamp() and getDateTimestamp() functions by @bestbeforetoday in https://github.com/hyperledger/fabric-chaincode-node/pull/404
+* Fix ChaincodeResponse TypeScript definition and add new response types (#413) by @Jerrylum in https://github.com/hyperledger/fabric-chaincode-node/pull/414
+* Fix minor TypeScript issues and add ESLint TypeScript support by @Jerrylum in https://github.com/hyperledger/fabric-chaincode-node/pull/418
+* Remove unnecessary dependency on fs-extra by @bestbeforetoday in https://github.com/hyperledger/fabric-chaincode-node/pull/412
+* Use Node 20 for chaincode runtime by @bestbeforetoday in https://github.com/hyperledger/fabric-chaincode-node/pull/410
 
 ## New Contributors
-* @delaooliveira made their first contribution in https://github.com/hyperledger/fabric-chaincode-node/pull/401
+* @sahid made their first contribution in https://github.com/hyperledger/fabric-chaincode-node/pull/407
+* @Jerrylum made their first contribution in https://github.com/hyperledger/fabric-chaincode-node/pull/414
+* @s7santosh made their first contribution in https://github.com/hyperledger/fabric-chaincode-node/pull/423
 
-**Full Changelog**: https://github.com/hyperledger/fabric-chaincode-node/compare/v2.5.3...v2.5.4
+**Full Changelog**: https://github.com/hyperledger/fabric-chaincode-node/compare/v2.5.4...v2.5.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.5.4" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.5.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-06-16 13:54:37 +0000 UTC
+        Created At 2024-05-31 08:41:46 +0000 UTC
     </span>
 </div>
 
