@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/aifaq
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Update CONTRIBUTING.md and requirements.txt
+                    Added Readthedocs files
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger-labs/aifaq
                 
             </td>
             <td>
-                Fixes #5 
-
-Following changes were made.
-
-- Added a CONTRIBUTING.md file
-- Shift requirements and update requirements.txt for cleaner code
+                Added the ReadTheDocs version and the Wiki page guide
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-02 06:16:35 +0000 UTC
+        Created At 2024-05-31 16:54:54 +0000 UTC
     </div>
 </div>
 
