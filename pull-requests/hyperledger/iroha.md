@@ -69,7 +69,7 @@ Reduces warnings noise
 Implementation of https://github.com/hyperledger/iroha/issues/4225#issuecomment-2087976958 partially based on #4382.
 
 This PR includes:
-* New `kagami genesis sign` command to sign and transform `genesis.json` into `signed-genesis.scale` (SCALE serialized `SignedTransaction`)
+* New `kagami genesis sign` command to sign and transform `genesis.json` into `genesis.signed.scale` (SCALE serialized `SignedTransaction`)
 * Changes in config:
   * `genesis.private_key` removed
   * `genesis.file` renamed to `genesis.signed_file`

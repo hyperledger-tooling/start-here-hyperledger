@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/423" class=".btn">#423</a>
-            </td>
-            <td>
-                <b>
-                    Added doc update how to start chaincode as a service, and how to set grpc parameters in the startup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Santosh Kumar <s7santosh@gmail.com>
-
-https://github.com/hyperledger/fabric-chaincode-node/issues/419 Added doc update how to start chaincode as a service, and how to set grpc parameters in the startup
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-24 06:41:09 +0000 UTC
-    </div>
-</div>
-
