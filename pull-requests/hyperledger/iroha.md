@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4674" class=".btn">#4674</a>
+            </td>
+            <td>
+                <b>
+                    chore: use temporary `displaydoc` fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Use the fix from https://github.com/yaahc/displaydoc/pull/47 until it is merged into the upstream.
+
+### Linked issue
+
+Closes #4567
+
+### Benefits
+
+Reduces warnings noise
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-31 04:50:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4673" class=".btn">#4673</a>
             </td>
             <td>
@@ -212,7 +249,7 @@ Since there is still no consensus about using human readable types in configurat
             </td>
             <td>
                 <b>
-                    fix: avoid early drop of `ConfigReader` in `iroha_client` (#4623)
+                    fix: avoid early drop of `ConfigReader` in `iroha_client`
                 </b>
             </td>
         </tr>
