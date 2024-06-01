@@ -43,8 +43,7 @@ Issue #1497 - Allow the Ethereum connector to use an already deployed contract
 - [x] [GitHub Issues](https://github.com/hyperledger/caliper/issues/1497)
 
 ## Design of the fix
-The connector reads the 'address' key from the respective Contract Definition File.
-Documentation needs to be updated accordingly.
+To use a contract that is already deployed, an optional 'address' key may be specified on the [Contract Definition file](https://hyperledger.github.io/caliper/vNext/ethereum-config/#contract-definition-file). The new connector reads the 'address' key from the Contract Definition File, and if it exists, it does not deploy a new contract.
 
 ## Validation of the fix
 Working on my local Besu network

@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4678" class=".btn">#4678</a>
+            </td>
+            <td>
+                <b>
+                    fix: Fix invalid value for profile.profiling.debug in Cargo.toml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The  key in the Cargo.toml  file was assigned an invalid value, causing the manifest parsing to fail. This commit updates the value to a valid boolean () to resolve the issue.
+
+Fixes #4677
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4677
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Installation succeeds with `cargo build`.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [x] (optional) I've written unit tests for the code changes
+- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-31 23:48:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4676" class=".btn">#4676</a>
             </td>
             <td>
@@ -1384,51 +1441,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-05-27 06:58:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4645" class=".btn">#4645</a>
-            </td>
-            <td>
-                <b>
-                    feat: Custom instructions in executor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-Added ISI for custom instructions, and two tests demonstrating possible use:
-* Test with one custom instruction `MintAssetForAllAccounts`
-* Test with simple expression system
-
-### Linked issue
-
-Closes #4599
-
-### Benefits
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-24 19:42:36 +0000 UTC
     </div>
 </div>
 
