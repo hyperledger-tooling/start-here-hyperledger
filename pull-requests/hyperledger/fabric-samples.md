@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1210" class=".btn">#1210</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1212" class=".btn">#1212</a>
             </td>
             <td>
                 <b>
-                    Update test-network-k8s
+                    Update Node chaincode for v2.5.5 release
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Add required permissions for upcoming k8s builder release
-
-Also adds ttl to install jobs and configures the k8s builder prefix
+                This change also updates dependencies and adopts new (v9) ESLint configuration format in some of the chaincode implementations.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-24 15:06:40 +0000 UTC
+        Created At 2024-05-31 18:30:19 +0000 UTC
     </div>
 </div>
 
