@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/646" class=".btn">#646</a>
+            </td>
+            <td>
+                <b>
+                    db extensions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR introduces a mechanism to extend the TokenDB to store additional information about a token. 
+For example, when a token's owner field contains an HTLC (`service/interop/htlc`) script, it would be convenient to store script-related information for more targeted queries and data analysis.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-02 07:43:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/645" class=".btn">#645</a>
+            </td>
+            <td>
+                <b>
+                    remove storage service as it is not needed anymore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">cleanup</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-02 07:42:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/643" class=".btn">#643</a>
             </td>
             <td>
