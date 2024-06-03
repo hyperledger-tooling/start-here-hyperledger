@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/iroha-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/199" class=".btn">#199</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #192: Added queries for transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-26 22:10:21 +0000 UTC
-    </div>
-</div>
-
