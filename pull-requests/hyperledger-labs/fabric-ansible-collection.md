@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    updated webhook deployment container securityContext to restrict unshare call
+                    Correct Linter errors in fabproxy removal
                 </b>
             </td>
         </tr>
@@ -27,12 +27,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                updated webhook deployment container securityContext to restrict unshare call
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-17 12:59:02 +0000 UTC
+        Created At 2024-06-03 14:58:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    Add fabproxy removal example
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add example code for removing fabproxy.
+
+This is only applicable for migrated IBM SaaS instances.
+
+The code is being added to the collection, since there are examples that may be useful for building support processes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-03 13:05:48 +0000 UTC
     </div>
 </div>
 
