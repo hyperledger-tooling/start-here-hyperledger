@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/126" class=".btn">#126</a>
             </td>
             <td>
                 <b>
-                    Update kubernetes permissions
+                    Update quick start guide
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                The latest implementation uses jobs
-
-Still need to work out the exact permissions required- see #52
+                Update to the 0.14.0 release and matching test-network-k8s commit
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-24 14:55:24 +0000 UTC
+        Created At 2024-06-03 10:12:12 +0000 UTC
     </div>
 </div>
 
