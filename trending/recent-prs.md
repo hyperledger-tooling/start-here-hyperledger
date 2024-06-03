@@ -1,13 +1,13 @@
 
-[126](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/126) Update quick start guide
+[4683](https://github.com/hyperledger/iroha/pull/4683) chore(deps): bump faker from 25.3.0 to 25.4.0 in /client_cli/pytests
 
-[579](https://github.com/hyperledger-labs/fabric-smart-client/pull/579) Prefixed persistence tables for Postgres for disambiguation between different networks
+[425](https://github.com/hyperledger/fabric-chaincode-node/pull/425) Update versions following v2.5.5 release
 
-[151](https://github.com/hyperledger-labs/hlf-connector/pull/151) Increment version after release
+[4682](https://github.com/hyperledger/iroha/pull/4682) chore(deps): bump proc-macro2 from 1.0.84 to 1.0.85
 
-[4879](https://github.com/hyperledger/fabric/pull/4879) Remove global endpoints
+[4681](https://github.com/hyperledger/iroha/pull/4681) chore(deps): bump w3f-bls from 0.1.3 to 0.1.4
 
-[646](https://github.com/hyperledger-labs/fabric-token-sdk/pull/646) db extensions
+[4680](https://github.com/hyperledger/iroha/pull/4680) feat: Add detect support for `parity_scale_decoder`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
