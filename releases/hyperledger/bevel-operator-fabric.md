@@ -15,35 +15,31 @@ permalink: /releases/hyperledger/bevel-operator-fabric
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.10.0
+                    Version 1.10.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.10.0
+                    v1.10.1
                 </span>
             </td>
             <td>
-                New resources added:
+                ## Changelog
+* 66a688b Merge pull request #216 from adityajoshi12/fix-signupdate
+* 72e6350 fixed the dependency of identity file while signing update
+* f0f56f1 Fixes #200 - Replace CA service port name as per https://istio.io/latest/docs/ops/configuration/traffic-management/protocol-selection/ (#203)
 
-- FabricNetworkConfig: Manage the network configuration based on the hlf operator and external configuration
-- FabricIdentity: Manage the registering and enrolling of users automatically (including renewal)
-
-Improvements:
-- Added parameters to the operator to update the nodes sequentially (recommended for production)
-- Bug fixes on FabricMainChannel configuration updates
-- Support for Fabric 2.5.5 LTS
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.10.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-02-13 15:08:14 +0000 UTC
+        Created At 2024-04-20 12:38:59 +0000 UTC
     </span>
 </div>
 
