@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2561" class=".btn">#2561</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2573" class=".btn">#2573</a>
             </td>
             <td>
                 <b>
-                    [substrate] enable platform deployment via ansible server
+                    [fabric] Fix Chart versions and add-cli via helm chart
                 </b>
             </td>
         </tr>
@@ -27,26 +27,13 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                ### **Commit to be reviewed**
----
-
-**feat(substrate): enable platform deployment via ansible server**
-
-```
-This commit introduces support for deploying a decentralized ledger technology (DLT) network using Ansible automation. The changes include:
-
-- Added a new network configuration file to define nodes (Bootnode, Validator, Member, IPFS) within a single organization.
-- Updated the `deployment-network.yaml` to support the new network configuration.
-- Updated multiple Ansible roles, Helm release templates, and charts to align with the new network configuration.
-- Updated the user guide documentation to assist users/developers in correctly configuring the network.
-```
-
-**fixes #2547**
+                - Chart version update in dependencies
+- `add-cli` readme updated with helm install option
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-13 11:54:46 +0000 UTC
+        Created At 2024-06-03 13:10:51 +0000 UTC
     </div>
 </div>
 
@@ -54,11 +41,67 @@ This commit introduces support for deploying a decentralized ledger technology (
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2560" class=".btn">#2560</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2572" class=".btn">#2572</a>
             </td>
             <td>
                 <b>
-                    [fabric] Create channel using just helm
+                    [fabric] Fix approve chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-31 09:32:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2571" class=".btn">#2571</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Helm chart updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Final Helm chart updates for Fabric
+- Simplified Fabric network deployment with only helm charts
+- HAProxy Ingress upgrade to 0.14.x version to support `ingressClassName`
+- Readme simplification
+- Sample values updated
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-30 12:02:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2570" class=".btn">#2570</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Update ansible playbooks and roles
                 </b>
             </td>
         </tr>
@@ -69,56 +112,17 @@ This commit introduces support for deploying a decentralized ledger technology (
             <td>
                 **Primary Changes**
 
-1.Deploy fabric 2.5.4 with channel using helm charts. 
-2.Deploy fabric 2.2.2 with channel using helm charts. 
-3.Delete platforms/hyperledger-fabric/charts/fabric-anchorpper 
-4.Deploy with Ansible is pending
-5.Update README.md files is pending
+1.Deploy fabric 2.5.4 without channel using ansible. 
+2.Deploy fabric 2.2.2 without channel using ansible.
+4.Update deploy-network.yalm
+3.Update cleanup.yaml
 
-**Changes in charts**
-platforms/hyperledger-fabric/charts/fabric-ca-server 
-platforms/hyperledger-fabric/charts/fabric-catools 
-platforms/hyperledger-fabric/charts/fabric-cli
-platforms/hyperledger-fabric/charts/fabric-orderernode 
-platforms/hyperledger-fabric/charts/fabric-peernode 
-platforms/hyperledger-fabric/charts/fabric-channel-join 
-platforms/hyperledger-fabric/charts/fabric-channel-create 
-platforms/hyperledger-fabric/charts/fabric-osnadmin-channel-create
-
-fixes #2539 
+fixes #2556
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-09 15:44:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2559" class=".btn">#2559</a>
-            </td>
-            <td>
-                <b>
-                    feat(r3-corda-ent): helm only deployment using proxy and vault
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Change log**
-- Added code to enable deployment using vault(hashicorp) and proxy (ambassador)
-Fixes #2540 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-09 09:16:53 +0000 UTC
+        Created At 2024-05-29 09:59:52 +0000 UTC
     </div>
 </div>
 

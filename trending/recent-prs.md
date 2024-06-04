@@ -1,13 +1,13 @@
 
-[1864](https://github.com/hyperledger/indy-node/pull/1864) Bump the all-actions group with 2 updates
+[4880](https://github.com/hyperledger/fabric/pull/4880) Fix: URL Path in smartcontract.html
 
-[12](https://github.com/hyperledger-labs/bdls/pull/12) Update The date for the next upcoming community meeting
+[7169](https://github.com/hyperledger/besu/pull/7169) EIP-7692 "Mega" EOF Implementation
 
-[169](https://github.com/hyperledger-labs/microfab/pull/169) noop change
+[1213](https://github.com/hyperledger/fabric-samples/pull/1213) test-network-k8s: bump k8s-builder and couchdb
 
-[168](https://github.com/hyperledger-labs/microfab/pull/168) Enable TLS for Integration Tests
+[1605](https://github.com/hyperledger/besu-docs/pull/1605) Clarify that snap is faster than fast sync
 
-[1667](https://github.com/hyperledger/indy-plenum/pull/1667) fix: fix python version
+[7168](https://github.com/hyperledger/besu/pull/7168) 6620 enable ip filtering
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

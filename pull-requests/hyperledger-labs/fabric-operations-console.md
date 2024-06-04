@@ -157,34 +157,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/722" class=".btn">#722</a>
-            </td>
-            <td>
-                <b>
-                    fix doc url for peer log settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Bug fix
-#### Description
-fixed url for peer node log settings
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-28 05:21:42 +0000 UTC
-    </div>
-</div>
-

@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/bdls
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Update The date for the next upcoming community meeting
