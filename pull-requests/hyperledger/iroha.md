@@ -345,63 +345,6 @@ Closes #4675
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4678" class=".btn">#4678</a>
-            </td>
-            <td>
-                <b>
-                    fix: Fix invalid value for profile.profiling.debug in Cargo.toml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The  key in the Cargo.toml  file was assigned an invalid value, causing the manifest parsing to fail. This commit updates the value to a valid boolean () to resolve the issue.
-
-Fixes #4677
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4677
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Installation succeeds with `cargo build`.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [x] (optional) I've written unit tests for the code changes
-- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 23:48:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4676" class=".btn">#4676</a>
             </td>
             <td>
@@ -1136,48 +1079,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-05-28 11:23:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4658" class=".btn">#4658</a>
-            </td>
-            <td>
-                <b>
-                    feat!: generalize permissions schema to executor data model
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-This is a version of #4597, but without changing anything about parameters. What to do with parameters is not yet clear.
-
-### Benefits
-
-Gives a foundation for executor-defined...
-
-- Parameters: #4352 
-- Instructions: #4599 and #4645 
-- Metadata: #4353 
-
-### Linked issue
-
-None
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-28 01:36:29 +0000 UTC
     </div>
 </div>
 
