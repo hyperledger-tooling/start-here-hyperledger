@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4883" class=".btn">#4883</a>
+            </td>
+            <td>
+                <b>
+                    Test flake in BFT deliverer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Test flake in BFT deliverer
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 12:27:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4882" class=".btn">#4882</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in the upgrade procedure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- Documentation update
+
+#### Description
+
+Fix typo in the upgrade procedure
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 08:49:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4881" class=".btn">#4881</a>
+            </td>
+            <td>
+                <b>
+                    Integration tests for censorship detection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+#4731
+
+#### Additional details
+
+a fix of #4771
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 07:01:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4880" class=".btn">#4880</a>
             </td>
             <td>

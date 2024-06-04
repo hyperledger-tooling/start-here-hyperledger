@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3295" class=".btn">#3295</a>
+            </td>
+            <td>
+                <b>
+                    feat(bungee-hermes): ability to use connectors without instanciating …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                BUNGEE-Hermes required API credentials for ledger connectors within its methods. This change enables using Bungee with the connectors themselves.
+
+https://github.com/hyperledger/cacti/pull/3251#pullrequestreview-2077548976
+
+Summary:
+- This includes the implementation to possibilitate the usage of ledgers connectors without instaciating API's with bungee.
+- Tests changed to test for both using connectos and API's.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 11:57:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3292" class=".btn">#3292</a>
             </td>
             <td>
