@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/924" class=".btn">#924</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/930" class=".btn">#930</a>
             </td>
             <td>
                 <b>
-                    Portuguese Translation for What's New
+                    Fix maintainer team names
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                <nil>
+                Recently I've found that the members of the fabric-ja-jp-doc-maintainers team cannot merge the pull request for a Japanese document, which seems to be caused by the name changes for the i18n maintainers teams.
+
+This patch fixes the CODEOWNERS file to point to the correct teams for each subdirectory for a language.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-23 01:49:51 +0000 UTC
+        Created At 2024-06-03 09:04:45 +0000 UTC
     </div>
 </div>
 

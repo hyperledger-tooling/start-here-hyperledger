@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/168" class=".btn">#168</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/172" class=".btn">#172</a>
             </td>
             <td>
                 <b>
-                    Implement EIP-2537 in gnark
+                    prepare 0.8.6 - next release
                 </b>
             </td>
         </tr>
@@ -27,19 +27,68 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                implement [eip-2537](https://eips.ethereum.org/EIPS/eip-2537) in gnark.
+                merge this after #171 
 
-related to #165 
-related to #91 
-
-implements subgroup checks and is-on-curve checks.  Initial testing indicates this implementation compares favorably with the matter-labs eip-1962 implementation for all operations.
-
-Draft while awaiting feedback and additional performance testing.
+ Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-11 09:54:40 +0000 UTC
+        Created At 2024-06-04 04:35:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/171" class=".btn">#171</a>
+            </td>
+            <td>
+                <b>
+                    release 0.8.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 04:33:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/170" class=".btn">#170</a>
+            </td>
+            <td>
+                <b>
+                    Feature/eip 2537 libraries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Branch used to performance bake-off besu eip-2537 with 3 lib choices: matter-labs, gnark-crypto and blst.
+
+the blst implementation currently relies on an as-yet-unreleased version of jblst, and this [PR](https://github.com/supranational/blst/pull/220)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-05-30 23:15:35 +0000 UTC
     </div>
 </div>
 

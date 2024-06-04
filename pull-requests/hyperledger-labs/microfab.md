@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/microfab
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/169" class=".btn">#169</a>
-            </td>
-            <td>
-                <b>
-                    noop change
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                noop change
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 21:45:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/microfab/pull/168" class=".btn">#168</a>
             </td>
             <td>
@@ -532,33 +506,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-05-30 20:33:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/160" class=".btn">#160</a>
-            </td>
-            <td>
-                <b>
-                    Unarchive repo and update maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unarchive repo and assign Chris Elder as a maintainer.
-Retire Matthew White and James Taylor.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-28 15:13:16 +0000 UTC
     </div>
 </div>
 

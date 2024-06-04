@@ -167,30 +167,3 @@ For example, when a token's owner field contains an HTLC (`service/interop/htlc`
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/642" class=".btn">#642</a>
-            </td>
-            <td>
-                <b>
-                    configuration service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR does the following: It introduces a new configuration service that is used by core and other services (i.e. identity service) to obtain various configuration parameters.
-The Driver API has been therefore simplified.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-28 14:48:50 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,55 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3296" class=".btn">#3296</a>
+            </td>
+            <td>
+                <b>
+                    build(connector-stellar): add a run soroban transaction endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add a run soroban transaction endpoint to the Stellar Connector plugin.
+
+**Remarks:**
+
+The `runSorobanTransaction` endpoint can be used to make smart contract invocations on the Soroban platform. The endpoint accepts a flag called `readOnly` to indicate when the transaction should not alter ledger state. When `true`, the transaction will only be simulated based on the current ledger state and provide an up-to-date output without registering the transaction to the ledger, ensuring no fees are consumed. When `false`, the transaction will be executed and registered to the ledger even if it doesn't alter the ledger state, incurring fees as usual.
+
+More details can be found in the `README.md` file under the connector root directory.
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 13:41:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3295" class=".btn">#3295</a>
             </td>
             <td>
                 <b>
-                    feat(bungee-hermes): ability to use connectors without instanciating …
+                    feat(bungee-hermes): ability to use connectors without instanciating APIs
                 </b>
             </td>
         </tr>

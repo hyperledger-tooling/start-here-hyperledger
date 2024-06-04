@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    Grant maintainers admin priv
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Grant maintainers admin priv on established fabric labs.
+
+Note that for existing labs, some maintainers have admin priv, some don't.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 14:39:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/governance/pull/66" class=".btn">#66</a>
             </td>
             <td>
@@ -34,32 +62,6 @@ This PR removes all teams and engineers from the hyperledger-labs
     </table>
     <div class="right-align">
         Created At 2024-05-29 08:38:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    Unarchive microfab
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-28 14:08:45 +0000 UTC
     </div>
 </div>
 
