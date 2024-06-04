@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3015" class=".btn">#3015</a>
+            </td>
+            <td>
+                <b>
+                    added some clarifications for environment variable use in ACA-Py
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hi @WadeBarnes I made a very quick attempt at some clarifications for Environment Variables, please let me know what you would like me to change or elaborate on.
+
+I always feel it's best to open a PR quickly to get feedback and iterate. I think that `Command Line Parameters` and `Environment Variables` could be nested under the `Configuring ACA-PY` heading.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 17:36:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3014" class=".btn">#3014</a>
+            </td>
+            <td>
+                <b>
+                    Add sonarcloud badges
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds some sonarcloud badges to the readme.
+
+They are easy. Additional ones can be found here. https://sonarcloud.io/project/information?id=hyperledger_aries-cloudagent-python
+
+I added coverage, security, vulnerbilities and lines of code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 15:46:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3012" class=".btn">#3012</a>
             </td>
             <td>

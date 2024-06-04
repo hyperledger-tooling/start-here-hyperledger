@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/231" class=".btn">#231</a>
+            </td>
+            <td>
+                <b>
+                    Update buf to 1.32.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 15:06:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Generate C# bindings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Just experimenting!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 13:43:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/229" class=".btn">#229</a>
             </td>
             <td>

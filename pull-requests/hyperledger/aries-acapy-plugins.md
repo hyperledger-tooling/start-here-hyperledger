@@ -38,29 +38,3 @@ Currently it mostly just updates the authentication decorator. Kafka events and 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/566" class=".btn">#566</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade ruff to 0.4.5 - All plugins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-28 18:01:28 +0000 UTC
-    </div>
-</div>
-
