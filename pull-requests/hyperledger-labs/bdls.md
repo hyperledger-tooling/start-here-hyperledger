@@ -14,20 +14,22 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    Update The date for the next upcoming community meeting
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                
             </td>
             <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+                Update The date for the next upcoming community meeting
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
 
 <!--- Provide a descriptive summary of your changes in the Title above. -->
 
@@ -79,7 +81,7 @@ Checklist (DELETE AFTER READING):
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-14 04:05:58 +0000 UTC
+        Created At 2024-06-03 21:51:53 +0000 UTC
     </div>
 </div>
 

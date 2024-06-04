@@ -64,31 +64,3 @@ Currently it mostly just updates the authentication decorator. Kafka events and 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/565" class=".btn">#565</a>
-            </td>
-            <td>
-                <b>
-                    add option to upgrade one package in all plugins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds an option to the repo manager to upgrade a single dependency in all plugins. Useful for the dependabot stuff. Sometimes you want to make a pr for all plugins but not complicate it with multiple packages at the same time.
-
-Might be possible to leverage dependabot and this script manager at some point ?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-27 22:21:04 +0000 UTC
-    </div>
-</div>
-

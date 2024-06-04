@@ -1,13 +1,13 @@
 
-[4683](https://github.com/hyperledger/iroha/pull/4683) chore(deps): bump faker from 25.3.0 to 25.4.0 in /client_cli/pytests
+[1864](https://github.com/hyperledger/indy-node/pull/1864) Bump the all-actions group with 2 updates
 
-[425](https://github.com/hyperledger/fabric-chaincode-node/pull/425) Update versions following v2.5.5 release
+[12](https://github.com/hyperledger-labs/bdls/pull/12) Update The date for the next upcoming community meeting
 
-[4682](https://github.com/hyperledger/iroha/pull/4682) chore(deps): bump proc-macro2 from 1.0.84 to 1.0.85
+[169](https://github.com/hyperledger-labs/microfab/pull/169) noop change
 
-[4681](https://github.com/hyperledger/iroha/pull/4681) chore(deps): bump w3f-bls from 0.1.3 to 0.1.4
+[168](https://github.com/hyperledger-labs/microfab/pull/168) Enable TLS for Integration Tests
 
-[4680](https://github.com/hyperledger/iroha/pull/4680) feat: Add detect support for `parity_scale_decoder`
+[1667](https://github.com/hyperledger/indy-plenum/pull/1667) fix: fix python version
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
