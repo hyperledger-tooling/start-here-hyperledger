@@ -122,6 +122,16 @@ See #6722
             <td>
                 ## PR description
 
+when in PoS networks, Besu repeatedly builds proposal until the getPayload method is called, in order to try to include new txs that could arrive in the meantime, so when more that one block is created in the interval, we need to have a strategy to select the best one, currently the decision is simply made on the gas used of the block, since we include txs from the most profitable to the least. 
+So in theory the more the block is filled the more value it should have, but it turns out that there are edge cases where this assumption fails, in particular when the are enough txs to fill the block since the beginning, and following blocks are just a little smaller that the previous in term of gas, they are discarded even if better in term of value.
+
+Real world example:
+* 1st block has `cumulativeGasUsed=29988510` and 50 txs
+* last has `cumulativeGasUsed=29984151` and 185 txs with higher value, but since smaller by ~4000 gas is not selected as best.
+
+Calculating the block value, does not add computation time to getPayload, since it was already done to include it in the response, and was refactored to compute it only one and use everywhere it is needed.
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

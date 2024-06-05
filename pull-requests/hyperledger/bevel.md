@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2574" class=".btn">#2574</a>
+            </td>
+            <td>
+                <b>
+                    [indy] enable platform deployment via ansible server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+**feat(indy): enable platform deployment via ansible-server**
+
+```
+This commit introduces support for deploying a decentralized ledger technology (DLT) network using Ansible automation. The changes include:
+
+1. Updated the Ansible codebase to support network deployment in respect of the standalone Helm chart.
+2. The following Ansible roles have been introduced to appropriately deploy the network:
+   - 1. Generate keys for each node of each organization.
+   - 2. Fetch generated keys in JSON format to deploy genesis with known nodes only.
+   - 3. Utilize keys stored in the JSON file to configure the genesis with known nodes and then install the genesis block.
+   - 4. A secondary genesis setup is also included to support deployment in multiple namespaces for a multi-organization Indy network.
+   - 5. Deploy stewards for all organizations.
+   - 6. Deploy the endorser.
+3. Updated the Reset Ansible code to delete each node's key from the vault, along with the organization policy and Authentication engine.
+4. Added an individual role to clean all the network-supported local files (JSON files).
+5. Updated the sample network configuration file to provide information on which networks can be deployed using this file and how to customize the network by following the network rules specified in the file itself.
+```
+
+fixes #2557
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 07:35:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2573" class=".btn">#2573</a>
             </td>
             <td>
@@ -90,39 +136,6 @@ permalink: /pull-requests/hyperledger/bevel
     </table>
     <div class="right-align">
         Created At 2024-05-30 12:02:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2570" class=".btn">#2570</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Update ansible playbooks and roles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Primary Changes**
-
-1.Deploy fabric 2.5.4 without channel using ansible. 
-2.Deploy fabric 2.2.2 without channel using ansible.
-4.Update deploy-network.yalm
-3.Update cleanup.yaml
-
-fixes #2556
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 09:59:52 +0000 UTC
     </div>
 </div>
 
