@@ -14,11 +14,41 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1213" class=".btn">#1213</a>
+            </td>
+            <td>
+                <b>
+                    [Update] Update to anoncreds-rs 0.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In order to migrate off of mirgee's fork and onto 0.2.0, we lose the following patches made on 0.2.0: https://github.com/hyperledger/anoncreds-rs/compare/v0.2.0...mirgee:anoncreds-rs:refactor/public-api-changes.
+
+However we can get around those public APIs being missing by using into our `Convert` layer: we can switch between the anoncreds-rs definition of RevocationStatusList, and our own anoncreds_types definition of RevocationStatusList. These definitions are exactly the same, and JSON de/serialize the exact same way, however our version has the public APIs we need. So we can switch between theirs and ours when we need to. 
+
+Note that it is not perfectly efficient, as we are converting to JSON Value as an intermediate type (as we do for some other anoncreds types too), but this could potentially be cleaned up if we fully move to using the real types from anoncreds-rs crate.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 04:09:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1212" class=".btn">#1212</a>
             </td>
             <td>
                 <b>
-                    [FiX] Loosen "version" restriction on PresentationRequestPayload
+                    [FIX] Loosen "version" restriction on PresentationRequestPayload
                 </b>
             </td>
         </tr>
