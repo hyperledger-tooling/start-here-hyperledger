@@ -1,13 +1,13 @@
 
-[v2.5.5](https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.5.5) v2.5.5
+[common/protos-go/v1.6.0](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.6.0) v1.6.0 - GO Weaver Protos - Jun 05, 2024
 
-[v1.0.9-4](https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.9-4) v1.0.9-4
+[sdks/fabric/go-sdk/v1.6.0](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/sdks/fabric/go-sdk/v1.6.0) v1.6.0 - GO Fabric Weaver SDK - Jun 05, 2024
 
-[v1.6.0](https://github.com/hyperledger/web3j-cli/releases/tag/v1.6.0) v1.6.0
+[core/network/fabric-interop-cc/libs/utils/v1.6.0](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/v1.6.0) v1.6.0 - GO Fabric Utils Library for Interoperation - Jun 05, 2024
 
-[v0.14.0](https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.14.0) v0.14.0
+[core/network/fabric-interop-cc/libs/assetexchange/v1.6.0](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/v1.6.0) v1.6.0 - GO Fabric Library for Asset Exchange - Jun 05, 2024
 
-[v2.12](https://github.com/hyperledger/identus/releases/tag/v2.12) Identus v2.12
+[core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.0](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.0) v1.6.0 - GO Fabric Asset Management Interface - Jun 05, 2024
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
