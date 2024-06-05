@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1215" class=".btn">#1215</a>
+            </td>
+            <td>
+                <b>
+                    Add external builders for golang and node chaincode to test-network-n…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …ano-bash
+
+The external builders will build and launch binary chaincode instead of docker containers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 16:42:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1213" class=".btn">#1213</a>
             </td>
             <td>

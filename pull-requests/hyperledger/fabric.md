@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4886" class=".btn">#4886</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.22.4 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.22.4.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 15:33:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4885" class=".btn">#4885</a>
+            </td>
+            <td>
+                <b>
+                    Replace DCO bot with local action.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+Replace DCO bot with local check.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 13:27:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4884" class=".btn">#4884</a>
             </td>
             <td>
@@ -211,79 +268,6 @@ Emphasize the `install-fabric.sh` script so that viewers can utilize it straight
     </table>
     <div class="right-align">
         Created At 2024-05-30 00:29:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4877" class=".btn">#4877</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix some function names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-
-- Documentation update
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-
- fix some function names
-
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 13:11:22 +0000 UTC
     </div>
 </div>
 
