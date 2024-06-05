@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1212" class=".btn">#1212</a>
+            </td>
+            <td>
+                <b>
+                    [FiX] Loosen "version" restriction on PresentationRequestPayload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently our `anoncreds_types` crate (which mostly mirrors [anoncreds-rs](https://github.com/hyperledger/anoncreds-rs/blob/main/src/data_types/pres_request.rs#L18)), has an additional restriction on the presentation request payload: it requires that the inner "version" field is either "1.0" or "2.0".
+
+However, the real anoncreds-rs types do not require this. They allow any string: https://github.com/hyperledger/anoncreds-rs/blob/main/src/data_types/pres_request.rs#L18.
+
+The anoncreds spec also seems to imply that the version field is whatever the verifier wants it to be: https://hyperledger.github.io/anoncreds-spec/#create-presentation-request .
+
+I think perhaps we were confusing this field `version` with the other field `ver`. which does seem to be required as "1.0" or "2.0": we have correctly implemented that though.
+
+I've kept a default of "1.0" in the builder for backwards compatibility
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 23:52:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1211" class=".btn">#1211</a>
             </td>
             <td>

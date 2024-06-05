@@ -85,7 +85,9 @@ I added coverage, security, vulnerbilities and lines of code.
                 
             </td>
             <td>
-                <nil>
+                This fixes several low security issues and other reliability issues reported by sonarcloud.
+
+Some unit tests were testing it correctly and I stepped through some other spots. 
             </td>
         </tr>
     </table>

@@ -83,7 +83,7 @@ permalink: /pull-requests/hyperledger/besu-native
             <td>
                 Branch used to performance bake-off besu eip-2537 with 3 lib choices: matter-labs, gnark-crypto and blst.
 
-the blst implementation currently relies on an as-yet-unreleased version of jblst, and this [PR](https://github.com/supranational/blst/pull/220)
+Adds gnark and blst implementations for eip-2537
             </td>
         </tr>
     </table>

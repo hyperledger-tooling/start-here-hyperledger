@@ -1,13 +1,13 @@
 
-[3015](https://github.com/hyperledger/aries-cloudagent-python/pull/3015) added some clarifications for environment variable use in ACA-Py
+[7177](https://github.com/hyperledger/besu/pull/7177) feat!: Java 21 for build and runtime
 
-[257](https://github.com/hyperledger/toc/pull/257) new dashboard format
+[1212](https://github.com/hyperledger/aries-vcx/pull/1212) [FiX] Loosen "version" restriction on PresentationRequestPayload
 
-[97](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/97) Change format to not include badge name
+[840](https://github.com/hyperledger/aries-rfcs/pull/840) fix: RFC JSON formatting
 
-[4691](https://github.com/hyperledger/iroha/pull/4691) chore(deps): bump toml from 0.8.13 to 0.8.14
+[232](https://github.com/hyperledger/fabric-protos/pull/232) Update buf to 1.32.2
 
-[4690](https://github.com/hyperledger/iroha/pull/4690) chore(deps-dev): bump pytest from 8.2.1 to 8.2.2 in /client_cli/pytests
+[1607](https://github.com/hyperledger/besu-docs/pull/1607) Bump the npm_and_yarn group across 1 directory with 3 updates
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
