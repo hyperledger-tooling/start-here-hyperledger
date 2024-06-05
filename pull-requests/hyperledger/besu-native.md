@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/173" class=".btn">#173</a>
+            </td>
+            <td>
+                <b>
+                    Use github arm64 runners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See: https://github.com/hyperledger/besu/pull/7173
+
+Cc: @ryjones 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 11:13:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/172" class=".btn">#172</a>
             </td>
             <td>

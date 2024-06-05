@@ -1,13 +1,13 @@
 
-[7179](https://github.com/hyperledger/besu/pull/7179) DCO Check GitHub workflow
+[4692](https://github.com/hyperledger/iroha/pull/4692) fix: Correct default value for `JsonString`
 
-[650](https://github.com/hyperledger-labs/fabric-token-sdk/pull/650) stress test + audit bug fix
+[580](https://github.com/hyperledger-labs/fabric-smart-client/pull/580) Fix concurrent writes in idrouter
 
-[1213](https://github.com/hyperledger/aries-vcx/pull/1213) [Update] Update to anoncreds-rs 0.2
+[173](https://github.com/hyperledger/besu-native/pull/173) Use github arm64 runners
 
-[123](https://github.com/hyperledger/homebrew-besu/pull/123) java 21
+[2574](https://github.com/hyperledger/bevel/pull/2574) [indy] enable platform deployment via ansible server
 
-[7177](https://github.com/hyperledger/besu/pull/7177) feat!: Java 21 for build and runtime
+[651](https://github.com/hyperledger-labs/fabric-token-sdk/pull/651) Refactor integration tests and add web socket integration tests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

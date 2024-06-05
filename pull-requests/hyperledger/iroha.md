@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4692" class=".btn">#4692</a>
+            </td>
+            <td>
+                <b>
+                    fix: Correct default value for `JsonString`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span>
+            </td>
+            <td>
+                ## Description
+
+Set `"null"` as default value for `JsonString` instead of `""` which is not valid json.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4686 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+### How to test
+
+```
+cargo test --package iroha_core --lib -- snapshot::tests --show-output 
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 11:46:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4691" class=".btn">#4691</a>
             </td>
             <td>

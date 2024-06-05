@@ -440,7 +440,7 @@ New default behavior:
 - wallets_list will now return a default limit of 100 wallets, with a maximum allowable limit of 10'000.
 - :boom: This represents a breaking change because it will no longer fetch all wallets (which is a good breaking change, because it can take minutes to fetch all when there are 100s of 1000s of wallets)
 
-Tests to be added soon :tm: 
+Old behavior is preserved for any BaseRecord.query that doesn't specify a limit or offset, it will still fetch all records.
 
 Additional change that may be worth including: add `sort_by` query param to wallets_list endpoint, so that the client can customise the sorting used by Askar's scan method. Pending support in Askar.
 
