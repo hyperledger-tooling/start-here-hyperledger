@@ -1,13 +1,13 @@
 
-[4692](https://github.com/hyperledger/iroha/pull/4692) fix: Correct default value for `JsonString`
+[4695](https://github.com/hyperledger/iroha/pull/4695) chore(deps): bump cryptography from 42.0.7 to 42.0.8 in /client_cli/pytests
 
-[580](https://github.com/hyperledger-labs/fabric-smart-client/pull/580) Fix concurrent writes in idrouter
+[4694](https://github.com/hyperledger/iroha/pull/4694) chore(deps): bump faker from 25.4.0 to 25.5.0 in /client_cli/pytests
 
-[173](https://github.com/hyperledger/besu-native/pull/173) Use github arm64 runners
+[1215](https://github.com/hyperledger/fabric-samples/pull/1215) Add external builders for golang and node chaincode to test-network-n…
 
-[2574](https://github.com/hyperledger/bevel/pull/2574) [indy] enable platform deployment via ansible server
+[4886](https://github.com/hyperledger/fabric/pull/4886) Bump Go to 1.22.4 (release-2.5)
 
-[651](https://github.com/hyperledger-labs/fabric-token-sdk/pull/651) Refactor integration tests and add web socket integration tests
+[4693](https://github.com/hyperledger/iroha/pull/4693) refactor: Remove `GenesisNetwork`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

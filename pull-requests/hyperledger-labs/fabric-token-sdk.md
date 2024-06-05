@@ -199,29 +199,3 @@ For example, when a token's owner field contains an HTLC (`service/interop/htlc`
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/643" class=".btn">#643</a>
-            </td>
-            <td>
-                <b>
-                    ci script update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 14:11:02 +0000 UTC
-    </div>
-</div>
-
