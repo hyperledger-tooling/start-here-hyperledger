@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7179" class=".btn">#7179</a>
+            </td>
+            <td>
+                <b>
+                    DCO Check GitHub workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+DCO App not working and needed to be disabled the check. Introducing DCO GitHub action workflow to validate the commit signatures.
+
+## Fixed Issue(s)
+fixes #7175
+
+### Thanks for sending a pull request! Have you done the following?
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [x] acceptance tests: `./gradlew acceptanceTest`
+- [x] integration tests: `./gradlew integrationTest`
+- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 06:02:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7177" class=".btn">#7177</a>
             </td>
             <td>
@@ -563,59 +608,6 @@ Updated dependencies:
     </table>
     <div class="right-align">
         Created At 2024-05-30 02:36:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7152" class=".btn">#7152</a>
-            </td>
-            <td>
-                <b>
-                    #6994: Consolidate release GitHub workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Release process has been broken down to pre-release and release to allow user testing. This is not required and adds additional step. Release workflows are combined into a single release workflow which trigger on a release. Following diagram shows the structure of the release workflow. Workflow jobs `artifacts` and `hadolint` are triggered when a release created. This PR Closes #6994.
-
-![besu-release](https://github.com/hyperledger/besu/assets/1728667/ab27ef5c-3016-429c-a0c6-f390a7cbac23)
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 05:52:39 +0000 UTC
     </div>
 </div>
 

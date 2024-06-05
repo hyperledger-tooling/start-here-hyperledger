@@ -455,35 +455,3 @@ Notes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2997" class=".btn">#2997</a>
-            </td>
-            <td>
-                <b>
-                    feat: inject profile and session
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is yet another attempt at #2705 which was reverted in #2789 because of issues reported in #2777. This time, I have explicitly tested using the integration tests in the Multitenant provider plugin to ensure the same issue does not arise.
-
-The same benefits mentioned in #2705 of course apply here. This makes it easier to provide pluggable components that depend on a Profile without the interface of those components accepting a profile in every method.
-
-The primary difference between this PR and #2705 is that this ensures a unique scope based on wallet id of multi-tenant subwallets.
-
-I have also tacked on injecting the session. This enables binding dependencies that require a session from plugins and other components. For instance, the DIDComm v2 work in #2959 could use this to bind a provider for the `SecretsAdapter` needed to provide access to Askar to the pack and unpack methods.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 02:47:38 +0000 UTC
-    </div>
-</div>
-
