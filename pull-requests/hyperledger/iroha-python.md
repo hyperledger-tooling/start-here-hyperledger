@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/202" class=".btn">#202</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/204" class=".btn">#204</a>
             </td>
             <td>
                 <b>
-                    [fix] #201: Add tests for transaction queries
+                    [fix] #203: Update the readme
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-29 22:41:32 +0000 UTC
+        Created At 2024-06-05 23:10:44 +0000 UTC
     </div>
 </div>
 
