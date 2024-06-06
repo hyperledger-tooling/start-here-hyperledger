@@ -14,6 +14,104 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4701" class=".btn">#4701</a>
+            </td>
+            <td>
+                <b>
+                    refactor: remove index Assets in AssetsMap by AssetDefinitionId
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+AssetsMap stores assets for a particular account, so indexing them via AssetId (which is AccountId + AssetDefinitionId) is redundant
+
+Also remove some unnecessary AccoundId clones
+
+### Linked issue
+
+Closes #4700
+
+### Benefits
+
+A bit more efficient, allows for more efficient implementations testing whether an account has some asset or not.
+
+### Checklist
+
+- [ ] make CI pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 10:44:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4699" class=".btn">#4699</a>
+            </td>
+            <td>
+                <b>
+                    refactor(irohad): always start torii as task
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+Simplify iroha startup + fix in integration test.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4562 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Simpler code.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 08:56:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4697" class=".btn">#4697</a>
             </td>
             <td>
