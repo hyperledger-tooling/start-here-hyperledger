@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7181" class=".btn">#7181</a>
+            </td>
+            <td>
+                <b>
+                    Enable --Xbonsai-limit-trie-logs-enabled by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 16:54:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7180" class=".btn">#7180</a>
+            </td>
+            <td>
+                <b>
+                    Avoid keeping txpool lock during block creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 13:13:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7179" class=".btn">#7179</a>
             </td>
             <td>
@@ -126,7 +220,7 @@ when in PoS networks, Besu repeatedly builds proposal until the getPayload metho
 So in theory the more the block is filled the more value it should have, but it turns out that there are edge cases where this assumption fails, in particular when the are enough txs to fill the block since the beginning, and following blocks are just a little smaller that the previous in term of gas, they are discarded even if better in term of value.
 
 Real world example:
-* 1st block has `cumulativeGasUsed=29988510` and 50 txs
+* 1st block iteration has `cumulativeGasUsed=29988510` and 50 txs
 * last has `cumulativeGasUsed=29984151` and 185 txs with higher value, but since smaller by ~4000 gas is not selected as best.
 
 Calculating the block value, does not add computation time to getPayload, since it was already done to include it in the response, and was refactored to compute it only one and use everywhere it is needed.
@@ -302,35 +396,26 @@ One important change from the video is the introduction of a "PragueEOF" fork, w
             </td>
             <td>
                 <b>
-                    6620 enable ip filtering
+                    Subnet-Based Peer Permissions
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 ## PR description
+This pull request introduces a new feature for managing peer permissions based on IP subnet configurations in the networking layer. The core addition is the `PeerPermissionSubnet` class, which extends the existing `PeerPermissions` class to allow for the specification of allowed IP subnets. Peers whose IP addresses fall within these allowed subnets are granted access, enhancing the network's security by ensuring that only peers from specific, trusted IP ranges can interact with the node.
 
 ## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+Fixes #6620
 
+## Key Changes:
 
-### Thanks for sending a pull request! Have you done the following?
+- `PeerPermissionSubnet` Class: This class implements logic to control access based on IP subnet configurations. It applies restrictions to all peer actions, including but not limited to, sending and receiving messages in both the discovery protocol and the RLPx transport layer. If no subnets are specified, the default behaviour permits all peers.
 
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+- CLI Configuration: The introduction of the `--net-restrict` CLI option allows network administrators to specify allowed IP subnets directly through the CLI. This option accepts a comma-separated list of subnet specifications (e.g., --net-restrict=192.168.1.0/24,10.0.0.0/8), converting them into `SubnetInfo` objects using the `SubnetInfoConverter`. If this option is not utilised, no subnet-based peer permission restrictions will be applied, allowing the network to operate without these specific constraints.
 
 
             </td>
@@ -587,37 +672,6 @@ This PR also increases the number of AT runners as a workaround for failing jobs
     </table>
     <div class="right-align">
         Created At 2024-05-30 10:01:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7156" class=".btn">#7156</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] - Vertx and Netty minor version bumps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR Description
-
-Updated dependencies:
-- Vert.x: `4.5.4` -> `4.5.8`
-- Netty: `4.1.104.Final` -> `4.1.110.Final`
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-30 02:36:50 +0000 UTC
     </div>
 </div>
 
