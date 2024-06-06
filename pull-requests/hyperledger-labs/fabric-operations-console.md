@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/727" class=".btn">#727</a>
+            </td>
+            <td>
+                <b>
+                    Updated carbon library v10 to v11
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Carbon UI updation
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+- Update carbon UI by v11
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 09:55:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/726" class=".btn">#726</a>
             </td>
             <td>
