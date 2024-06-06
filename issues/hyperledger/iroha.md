@@ -69,35 +69,3 @@ Error: The version '3.11' with architecture 'x64' was not found for this operati
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                Issue <a href="https://github.com/hyperledger/iroha/issues/4487" class=".btn">4487</a>
-            </td>
-            <td>
-                <b>
-                    Detect color support in `parity_scale_decoder`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">good first issue</span><span class="chip">iroha2-dev</span>
-            </td>
-            <td>
-                > Instead of feature-gating it, I would suggest following the same pattern that `iroha` (crate in /cli/) itself follows:
-> 
-> * It detects colors support automatically via `supports_color` crate
-> * User can override it by `--terminal-colors=false`/`--terminal-colors=true` flag
-
-_Originally posted by @0x009922 in https://github.com/hyperledger/iroha/pull/4486#discussion_r1572274579_
-            
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-04-19 13:26:20 +0000 UTC
-    </div>
-</div>
-
