@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j/pull/2059" class=".btn">#2059</a>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2060" class=".btn">#2060</a>
             </td>
             <td>
                 <b>
-                    remove ERC20.java empty statement
+                    Bug fix: Same inner struct name of different libraries result in failure in compilation for wrapper generated 
                 </b>
             </td>
         </tr>
@@ -28,24 +28,24 @@ permalink: /pull-requests/hyperledger/web3j
             </td>
             <td>
                 ### What does this PR do?
-remove ERC20.java empty statement
+Bug fix: Same inner struct name of different libraries result in failure in compilation for wrapper generated. Example of such contract is in the test case 
 
 ### Where should the reviewer start?
-package org.web3j.contracts.eip20.generated ERC20.java
+All files
 
 ### Why is it needed?
-Remove useless comma
+It is a bug fix
 
 ## Checklist
 
-- [ ] I've read the contribution guidelines.
-- [ ] I've added tests (if applicable).
-- [ ] I've added a changelog entry if necessary.
+- [x] I've read the contribution guidelines.
+- [x] I've added tests (if applicable).
+- [x] I've added a changelog entry if necessary.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-27 12:31:45 +0000 UTC
+        Created At 2024-06-06 17:29:45 +0000 UTC
     </div>
 </div>
 
