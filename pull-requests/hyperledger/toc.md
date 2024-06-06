@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/258" class=".btn">#258</a>
+            </td>
+            <td>
+                <b>
+                    June 6, 2024 Meeting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">meeting-minutes</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 16:01:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/toc/pull/257" class=".btn">#257</a>
             </td>
             <td>
@@ -172,58 +198,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2024-05-30 13:55:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/251" class=".btn">#251</a>
-            </td>
-            <td>
-                <b>
-                    Add dashboards
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 21:47:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/250" class=".btn">#250</a>
-            </td>
-            <td>
-                <b>
-                    May 30, 2024 Agenda
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">meeting-minutes</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 18:45:36 +0000 UTC
     </div>
 </div>
 

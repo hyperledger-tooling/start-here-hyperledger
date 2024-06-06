@@ -145,32 +145,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/293" class=".btn">#293</a>
-            </td>
-            <td>
-                <b>
-                    feat: added improved gh actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added github actions to automatically publish alpha versions to npm.
-Included binaries in react native package so we have a smoother release cycle without having to wait for a binary release
-
-This PR does not effect the usual release cycle, this only adds alpha releases. Normal major releases will still have to be triggered manually
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-29 23:31:23 +0000 UTC
-    </div>
-</div>
-

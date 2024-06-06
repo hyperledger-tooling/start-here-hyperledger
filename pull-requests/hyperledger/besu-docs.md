@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1608" class=".btn">#1608</a>
+            </td>
+            <td>
+                <b>
+                    Document logging invalid txs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Document how to log invalid transactions using the `INVALID_TX_REMOVED` log marker.
+
+Fixes #1578
+
+Preview: https://besu-docs-git-fork-alexandratran-1578-log4j2-hyperledger.vercel.app/development/public-networks/how-to/monitor/logging#log-invalid-transactions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 04:46:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1607" class=".btn">#1607</a>
             </td>
             <td>

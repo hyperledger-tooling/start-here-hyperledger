@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1126" class=".btn">#1126</a>
+            </td>
+            <td>
+                <b>
+                    build: internal dependency updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## About this PR
+Updates:
+
+* 📦 [io.iohk.atala.prism.apollo:apollo-jvm](https://github.com/input-output-hk/atala-prism-apollo) from `1.2.16` to `1.3.4`
+  + 📜 [GitHub Release Notes](https://github.com/input-output-hk/atala-prism-apollo/releases/tag/v1.3.4) - [Version Diff](https://github.com/input-output-hk/atala-prism-apollo/compare/v1.2.16...v1.3.4)
+
+## Usage
+✅ **Please merge!**
+
+I'll automatically update this PR to resolve conflicts as long as you don't change it yourself.
+
+If you have any feedback, just mention me in the comments below.
+
+Configure Scala Steward for your repository with a [`.scala-steward.conf`](https://github.com/scala-steward-org/scala-steward/blob/767fcfecbfd53c507152f6cf15c846176bae561d/docs/repo-specific-configuration.md) file.
+
+_Have a fantastic day writing Scala!_
+
+<details>
+<summary>🔍 Files still referring to the old version numbers</summary>
+
+The following files still refer to the old version numbers.
+You might want to review and update them manually.
+```
+DEPENDENCIES.md
+```
+</details>
+<details>
+<summary>⚙ Adjust future updates</summary>
+
+Add these to your `.scala-steward.conf` file to ignore future updates of these dependencies:
+```
+updates.ignore = [
+  { groupId = "io.iohk.atala.prism.apollo", artifactId = "apollo-jvm" }
+]
+```
+Or, add these to slow down future updates of these dependencies:
+```
+dependencyOverrides = [
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "io.iohk.atala.prism.apollo", artifactId = "apollo-jvm" }
+  }
+]
+```
+</details>
+
+<sup>
+labels: library-update, early-semver-minor, semver-spec-minor, old-version-remains, commit-count:1
+</sup>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-02 00:18:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1124" class=".btn">#1124</a>
             </td>
             <td>

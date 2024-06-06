@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    Introduce dedupe for outbound events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-30 05:08:40 +0000 UTC
-    </div>
-</div>
-

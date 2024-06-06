@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3019" class=".btn">#3019</a>
+            </td>
+            <td>
+                <b>
+                    Use a published version of aiohttp-apispec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                So this is my idea for the `aiohttp-apispec` library. I forked the repo from @ff137 and then published my own pypi library called `aiohttp-apispec-acapy`. This isn't really a lot better than downloading it from the forked repo as I could still delete the package. I do think it's a bit safer than using the remote repo and tag.
+
+https://pypi.org/project/aiohttp-apispec-acapy/3.0.1/
+
+It would be better if someone with a hyperledger account published it there instead.
+
+I think this is a bit more solid until we come up with a long term migration plan which I think will hold up v1.0.0 release too long.
+
+I'd need to make some adjustments to the readme file and I'm not certain if I should have the original owners information on it.
+
+Just wanted to get others thoughts on this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 19:04:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3015" class=".btn">#3015</a>
             </td>
             <td>
