@@ -238,36 +238,3 @@ Remove and prevent the use of global orderer endpoints on version V3 and above
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4878" class=".btn">#4878</a>
-            </td>
-            <td>
-                <b>
-                    Update install.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-Emphasize the `install-fabric.sh` script so that viewers can utilize it straightforwardly.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-30 00:29:57 +0000 UTC
-    </div>
-</div>
-
