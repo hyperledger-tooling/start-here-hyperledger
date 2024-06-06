@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4888" class=".btn">#4888</a>
+            </td>
+            <td>
+                <b>
+                    Remove DCO github action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now that the integrated DCO app is working again,
+we don't need the extra DCO github action.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 18:00:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4887" class=".btn">#4887</a>
+            </td>
+            <td>
+                <b>
+                    Address review comments for Remove global endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Address review comments for Remove global endpoints.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 17:27:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4886" class=".btn">#4886</a>
             </td>
             <td>

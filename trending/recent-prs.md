@@ -1,13 +1,13 @@
 
-[4701](https://github.com/hyperledger/iroha/pull/4701) refactor: remove index Assets in AssetsMap by AssetDefinitionId
+[4888](https://github.com/hyperledger/fabric/pull/4888) Remove DCO github action
 
-[404](https://github.com/hyperledger-labs/go-perun/pull/404) Update CHANGELOG.md to include missing wire changes
+[2060](https://github.com/hyperledger/web3j/pull/2060) Bug fix: Same inner struct name of different libraries result in failure in compilation for wrapper generated 
 
-[14](https://github.com/hyperledger-labs/splice/pull/14) Generalized diagram for Splice + Canton
+[4887](https://github.com/hyperledger/fabric/pull/4887) Address review comments for Remove global endpoints
 
-[727](https://github.com/hyperledger-labs/fabric-operations-console/pull/727) Updated carbon library v10 to v11
+[15](https://github.com/hyperledger-labs/splice/pull/15) Sync Daml models
 
-[4699](https://github.com/hyperledger/iroha/pull/4699) refactor(irohad): always start torii as task
+[4706](https://github.com/hyperledger/iroha/pull/4706) chore(deps-dev): bump pylint from 3.2.2 to 3.2.3 in /client_cli/pytests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
