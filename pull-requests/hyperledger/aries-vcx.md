@@ -1238,29 +1238,3 @@ Adds note about aries-vcx-agent is not production ready and that a new framework
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1186" class=".btn">#1186</a>
-            </td>
-            <td>
-                <b>
-                    Update MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates discord username formats
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-30 23:07:02 +0000 UTC
-    </div>
-</div>
-
