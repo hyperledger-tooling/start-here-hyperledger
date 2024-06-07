@@ -480,32 +480,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/162" class=".btn">#162</a>
-            </td>
-            <td>
-                <b>
-                    Update docker image dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                    Upgrade to golang 1.22.3
-    Upgrade to Node 20.14.0
-    Upgrade Fabric CA to 1.5.11
-    Upgrade maven to 3.9.7
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-30 20:33:50 +0000 UTC
-    </div>
-</div>
-

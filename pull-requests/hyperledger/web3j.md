@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2061" class=".btn">#2061</a>
+            </td>
+            <td>
+                <b>
+                    Bug fix for detecting struct only being used as array of struct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+Bug fix for detecting struct only being used as array of struct during wrapper generation, example of such contract is in test case
+
+### Where should the reviewer start?
+All files 
+
+### Why is it needed?
+Bug fix
+
+## Checklist
+
+- [x] I've read the contribution guidelines.
+- [x] I've added tests (if applicable).
+- [x] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 20:19:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j/pull/2060" class=".btn">#2060</a>
             </td>
             <td>

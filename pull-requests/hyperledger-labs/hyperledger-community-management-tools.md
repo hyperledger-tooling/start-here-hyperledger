@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/98" class=".btn">#98</a>
+            </td>
+            <td>
+                <b>
+                    Add output_file parameter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 19:55:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/97" class=".btn">#97</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     </table>
     <div class="right-align">
         Created At 2024-06-04 16:33:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    Use committer timestamp
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-30 19:50:22 +0000 UTC
     </div>
 </div>
 
