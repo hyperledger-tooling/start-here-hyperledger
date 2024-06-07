@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/aifaq
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Added Readthedocs files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added the ReadTheDocs version and the Wiki page guide
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 16:54:54 +0000 UTC
-    </div>
-</div>
-

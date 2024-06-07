@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1138" class=".btn">#1138</a>
+            </td>
+            <td>
+                <b>
+                    fix: Schema Error Handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span><span class="chip">cloud-agent</span>
+            </td>
+            <td>
+                https://input-output.atlassian.net/browse/ATL-6828
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-04 19:56:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1135" class=".btn">#1135</a>
             </td>
             <td>
@@ -439,78 +465,6 @@ labels: library-update, early-semver-minor, semver-spec-minor, old-version-remai
     </table>
     <div class="right-align">
         Created At 2024-06-02 00:18:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1124" class=".btn">#1124</a>
-            </td>
-            <td>
-                <b>
-                    fix:  SemanticCheckOfClaims In Verification API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                https://input-output.atlassian.net/browse/ATL-7176
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 14:44:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1123" class=".btn">#1123</a>
-            </td>
-            <td>
-                <b>
-                    ci: revert switch to the GitHub runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                This reverts commit efba1aac0be8bfdb73cbc11cdd0cc0d0aa283aea.
-
-### Description: 
-
-This this PR https://github.com/hyperledger/identus-cloud-agent/pull/1121, we switch to `ubuntu-latest` because our `self-hosted` were offline. Now we have our runners online, we should switch back since the CI job took much longer to execute.
-
-- took 26m on `ubuntu-latest` https://github.com/hyperledger/identus-cloud-agent/actions/runs/9317151746
-- took 16m on `self-hosted` https://github.com/hyperledger/identus-cloud-agent/actions/runs/9283779143
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 12:32:55 +0000 UTC
     </div>
 </div>
 
