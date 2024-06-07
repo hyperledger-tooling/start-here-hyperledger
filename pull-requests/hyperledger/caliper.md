@@ -114,29 +114,3 @@ Issue #1589 - Caliper ethereum documentation needs a complete overhaul
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1582" class=".btn">#1582</a>
-            </td>
-            <td>
-                <b>
-                    Add Support for Org targeting to peer gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 13:12:12 +0000 UTC
-    </div>
-</div>
-

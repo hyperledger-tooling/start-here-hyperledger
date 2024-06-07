@@ -14,6 +14,178 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4709" class=".btn">#4709</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump clap from 4.5.4 to 4.5.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [clap](https://github.com/clap-rs/clap) from 4.5.4 to 4.5.6.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+<blockquote>
+<h2>v4.5.6</h2>
+<h2>[4.5.6] - 2024-06-06</h2>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's changelog</a>.</em></p>
+<blockquote>
+<h2>[4.5.6] - 2024-06-06</h2>
+<h2>[4.5.5] - 2024-06-06</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Allow <code>exclusive</code> to override <code>required_unless_present</code>, <code>required_unless_present_any</code>, <code>required_unless_present_all</code></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/clap-rs/clap/commit/51de731521efb05c5503e05c33036d8fa439bc5a"><code>51de731</code></a> chore(ci): Lint clippy::items_after_statements seems too strict</li>
+<li><a href="https://github.com/clap-rs/clap/commit/181a2cf5e673d0f6f42133a5b30ccafd86b0106d"><code>181a2cf</code></a> chore(ci): Allow prelude wildcard imports</li>
+<li><a href="https://github.com/clap-rs/clap/commit/82cf9a62b027c10c6fafdcaaee24c4e92d7da61d"><code>82cf9a6</code></a> chore(ci): Reduce noisy lints</li>
+<li>See full diff in <a href="https://github.com/clap-rs/clap/compare/clap_complete-v4.5.4...v4.5.6">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=clap&package-manager=cargo&previous-version=4.5.4&new-version=4.5.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-07 16:27:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4708" class=".btn">#4708</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump faker from 25.5.0 to 25.6.0 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [faker](https://github.com/joke2k/faker) from 25.5.0 to 25.6.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
+<blockquote>
+<h2>Release v25.6.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.6.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.5.0...v25.6.0">v25.6.0 - 2024-05-06</a></h3>
+<ul>
+<li>Fix data in geo for <code>pl_PL</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>, <a href="https://github.com/mgorny"><code>@​mgorny</code></a>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/joke2k/faker/commit/9b1c0d271470f1475664d07c70c0bf7712b5c265"><code>9b1c0d2</code></a> Bump version: 25.5.0 → 25.6.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/7a523b2e6ccfabbe362aa223b12c74a033969b17"><code>7a523b2</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/3ad60494991c99e6976dcd9a62d0f396a85a25f7"><code>3ad6049</code></a> Update <strong>init</strong>.py</li>
+<li><a href="https://github.com/joke2k/faker/commit/1e61099ba19c9af48f8ff74d90f6d36d0439c8f9"><code>1e61099</code></a> More fixes for the <code>geo/pl_PL</code> provider (<a href="https://redirect.github.com/joke2k/faker/issues/2057">#2057</a>)</li>
+<li><a href="https://github.com/joke2k/faker/commit/1368651130202741c8b9fdccb08d53a4b513747a"><code>1368651</code></a> Add more cities in geo <code>pl_PL</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2058">#2058</a>)</li>
+<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.5.0...v25.6.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.5.0&new-version=25.6.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-07 16:14:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4707" class=".btn">#4707</a>
             </td>
             <td>
@@ -1192,137 +1364,6 @@ Closes #4675
     </table>
     <div class="right-align">
         Created At 2024-06-03 14:35:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4676" class=".btn">#4676</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump tokio from 1.37.0 to 1.38.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [tokio](https://github.com/tokio-rs/tokio) from 1.37.0 to 1.38.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/tokio-rs/tokio/releases">tokio's releases</a>.</em></p>
-<blockquote>
-<h2>Tokio v1.38.0</h2>
-<p>This release marks the beginning of stabilization for runtime metrics. It
-stabilizes <code>RuntimeMetrics::worker_count</code>. Future releases will continue to
-stabilize more metrics.</p>
-<h3>Added</h3>
-<ul>
-<li>fs: add <code>File::create_new</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6573">#6573</a>)</li>
-<li>io: add <code>copy_bidirectional_with_sizes</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6500">#6500</a>)</li>
-<li>io: implement <code>AsyncBufRead</code> for <code>Join</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6449">#6449</a>)</li>
-<li>net: add Apple visionOS support (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6465">#6465</a>)</li>
-<li>net: implement <code>Clone</code> for <code>NamedPipeInfo</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6586">#6586</a>)</li>
-<li>net: support QNX OS (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6421">#6421</a>)</li>
-<li>sync: add <code>Notify::notify_last</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6520">#6520</a>)</li>
-<li>sync: add <code>mpsc::Receiver::{capacity,max_capacity}</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6511">#6511</a>)</li>
-<li>sync: add <code>split</code> method to the semaphore permit (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6472">#6472</a>, <a href="https://redirect.github.com/tokio-rs/tokio/issues/6478">#6478</a>)</li>
-<li>task: add <code>tokio::task::join_set::Builder::spawn_blocking</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6578">#6578</a>)</li>
-<li>wasm: support rt-multi-thread with wasm32-wasi-preview1-threads (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6510">#6510</a>)</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li>macros: make <code>#[tokio::test]</code> append <code>#[test]</code> at the end of the attribute list (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6497">#6497</a>)</li>
-<li>metrics: fix <code>blocking_threads</code> count (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6551">#6551</a>)</li>
-<li>metrics: stabilize <code>RuntimeMetrics::worker_count</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6556">#6556</a>)</li>
-<li>runtime: move task out of the <code>lifo_slot</code> in <code>block_in_place</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6596">#6596</a>)</li>
-<li>runtime: panic if <code>global_queue_interval</code> is zero (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6445">#6445</a>)</li>
-<li>sync: always drop message in destructor for oneshot receiver (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6558">#6558</a>)</li>
-<li>sync: instrument <code>Semaphore</code> for task dumps (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6499">#6499</a>)</li>
-<li>sync: use FIFO ordering when waking batches of wakers (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6521">#6521</a>)</li>
-<li>task: make <code>LocalKey::get</code> work with Clone types (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6433">#6433</a>)</li>
-<li>tests: update nix and mio-aio dev-dependencies (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6552">#6552</a>)</li>
-<li>time: clean up implementation (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6517">#6517</a>)</li>
-<li>time: lazily init timers on first poll (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6512">#6512</a>)</li>
-<li>time: remove the <code>true_when</code> field in <code>TimerShared</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6563">#6563</a>)</li>
-<li>time: use sharding for timer implementation (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6534">#6534</a>)</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>taskdump: allow building taskdump docs on non-unix machines (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6564">#6564</a>)</li>
-<li>time: check for overflow in <code>Interval::poll_tick</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6487">#6487</a>)</li>
-<li>sync: fix incorrect <code>is_empty</code> on mpsc block boundaries (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6603">#6603</a>)</li>
-</ul>
-<h3>Documented</h3>
-<ul>
-<li>fs: rewrite file system docs (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6467">#6467</a>)</li>
-<li>io: fix <code>stdin</code> documentation (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6581">#6581</a>)</li>
-<li>io: fix obsolete reference in <code>ReadHalf::unsplit()</code> documentation (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6498">#6498</a>)</li>
-<li>macros: render more comprehensible documentation for <code>select!</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6468">#6468</a>)</li>
-<li>net: add missing types to module docs (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6482">#6482</a>)</li>
-<li>net: fix misleading <code>NamedPipeServer</code> example (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6590">#6590</a>)</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/tokio-rs/tokio/commit/14c17fc09656a30230177b600bacceb9db33e942"><code>14c17fc</code></a> chore: prepare Tokio v1.38.0 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6601">#6601</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/65cbf730de48ef9d3c84959d26ab717a85a5de62"><code>65cbf73</code></a> chore: prepare tokio-macros v2.3.0 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6600">#6600</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/dbf93c71844a01574a10f9dee0d4d9655a569f0a"><code>dbf93c7</code></a> sync: fix incorrect is_empty on mpsc block boundaries (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6603">#6603</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/873cb8ae2fc291eaffbd71e3c83d17b2f0ed7abf"><code>873cb8a</code></a> runtime: move task out of the <code>lifo_slot</code> in <code>block_in_place</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6596">#6596</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/97bb47b480c66083397c21d54e7ae33cab6c1b20"><code>97bb47b</code></a> task: fix a typo in doc of <code>LocalSet::run_until</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6599">#6599</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/86658bd87dc470f8e36eb6b893cc403820cfb7ee"><code>86658bd</code></a> metrics: stabilize <code>RuntimeMetrics::worker_count</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6556">#6556</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/9e00b266e08d263c497dc9de57d9acbc049ae69b"><code>9e00b26</code></a> sync: add <code>Notify::notify_last</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6520">#6520</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/6c42d286b343f498ce29de2aab9358a0aedb081c"><code>6c42d28</code></a> net: fix misleading <code>NamedPipeServer</code> example (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6590">#6590</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/3a6fdc05681841c30fe4e27b63924c7908ea4634"><code>3a6fdc0</code></a> license: fix formatting and remove year in licenses (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6451">#6451</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/2890d0c3db4f595330d8d223bfbfeb81e205b048"><code>2890d0c</code></a> metrics: fix blocking_threads count (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6551">#6551</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/tokio-rs/tokio/compare/tokio-1.37.0...tokio-1.38.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tokio&package-manager=cargo&previous-version=1.37.0&new-version=1.38.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 16:44:37 +0000 UTC
     </div>
 </div>
 

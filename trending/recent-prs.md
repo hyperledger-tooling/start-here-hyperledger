@@ -1,13 +1,13 @@
 
-[728](https://github.com/hyperledger-labs/fabric-operations-console/pull/728) Adding Console API tests
+[104](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/104) Add scorecard badge
 
-[4707](https://github.com/hyperledger/iroha/pull/4707) fix: add missing getters for data model structs
+[103](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/103) Scorecard work
 
-[1650](https://github.com/hyperledger/solang/pull/1650) Evaluate Comparison Expressions with Constant Operands during Compilation
+[102](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/102) Upgrade dependencies
 
-[2061](https://github.com/hyperledger/web3j/pull/2061) Bug fix for detecting struct only being used as array of struct
+[1216](https://github.com/hyperledger/fabric-samples/pull/1216) Remove legacy sample applications
 
-[98](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/98) Add output_file parameter
+[4709](https://github.com/hyperledger/iroha/pull/4709) chore(deps): bump clap from 4.5.4 to 4.5.6
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

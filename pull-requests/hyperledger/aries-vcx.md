@@ -1211,30 +1211,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1187" class=".btn">#1187</a>
-            </td>
-            <td>
-                <b>
-                    chore: minor readme updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates Aries VCX Community Call timing
-Adds note about aries-vcx-agent is not production ready and that a new framework is in development that will fill end developer's needs (as discussed on [5-15-24 community call](https://wiki.hyperledger.org/display/ARIES/2024-5-15+Aries-vcx+community+call))
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 16:11:43 +0000 UTC
-    </div>
-</div>
-
