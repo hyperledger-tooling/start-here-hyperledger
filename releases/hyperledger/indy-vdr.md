@@ -15,35 +15,38 @@ permalink: /releases/hyperledger/indy-vdr
         <tr>
             <td colspan="2">
                 <b>
-                    v0.4.2
+                    v0.4.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.4.2
+                    v0.4.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* fix(js): type the revocation registry delta by @berendsliedrecht in https://github.com/hyperledger/indy-vdr/pull/249
-* feat: transaction caching by @wadeking98 in https://github.com/hyperledger/indy-vdr/pull/252
-* fix(js): add missing type by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/254
-* fix(js): update ffi-napi by @genaris in https://github.com/hyperledger/indy-vdr/pull/263
+* chore: update minSdkVersion to get the project version or fallback to 21 by @ja-bravo in https://github.com/hyperledger/indy-vdr/pull/272
+* chore: updating dependabot file to support gha, TS, JS, gradle, Go lang, cargo and docker packages by @rajpalc7 in https://github.com/hyperledger/indy-vdr/pull/271
+* ci: fix build by pinning to MacOS 12 by @cvarjao in https://github.com/hyperledger/indy-vdr/pull/292
+* Fix check for macos major version by @andrewwhitehead in https://github.com/hyperledger/indy-vdr/pull/291
+* fix: fixed binary for react native by @wadeking98 in https://github.com/hyperledger/indy-vdr/pull/288
 
 ## New Contributors
-* @wadeking98 made their first contribution in https://github.com/hyperledger/indy-vdr/pull/252
+* @ja-bravo made their first contribution in https://github.com/hyperledger/indy-vdr/pull/272
+* @rajpalc7 made their first contribution in https://github.com/hyperledger/indy-vdr/pull/271
+* @cvarjao made their first contribution in https://github.com/hyperledger/indy-vdr/pull/292
 
-**Full Changelog**: https://github.com/hyperledger/indy-vdr/compare/v0.4.1...v0.4.2
+**Full Changelog**: https://github.com/hyperledger/indy-vdr/compare/v0.4.2...v0.4.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.2" class=".btn">
+    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-04-23 21:02:44 +0000 UTC
+        Created At 2024-06-07 21:30:40 +0000 UTC
     </span>
 </div>
 
