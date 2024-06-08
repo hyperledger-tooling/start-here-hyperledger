@@ -371,7 +371,7 @@ ATL-7050: Regenerate PNG images from updated PUML files
         </tr>
         <tr>
             <td>
-                <span class="chip">pollux</span><span class="chip">build</span><span class="chip">shared</span>
+                <span class="chip">pollux</span><span class="chip">build</span><span class="chip">shared</span><span class="chip">cloud-agent</span>
             </td>
             <td>
                 ### Description: 
