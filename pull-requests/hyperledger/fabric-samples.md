@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 The removed samples make use of deprecated legacy client SDKs. They all have equivalent samples implemented using the currently supported Fabric Gateway client API, and are therefore redundant.
+
+Contributes to #1087
             </td>
         </tr>
     </table>
@@ -87,32 +89,6 @@ The external builders will build and launch binary chaincode instead of docker c
     </table>
     <div class="right-align">
         Created At 2024-06-04 01:25:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1212" class=".btn">#1212</a>
-            </td>
-            <td>
-                <b>
-                    Update Node chaincode for v2.5.5 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change also updates dependencies and adopts new (v9) ESLint configuration format in some of the chaincode implementations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-31 18:30:19 +0000 UTC
     </div>
 </div>
 
