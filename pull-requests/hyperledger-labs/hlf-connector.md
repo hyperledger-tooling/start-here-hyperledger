@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Provide configuration backed support for atmost once delivery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-02 05:54:42 +0000 UTC
-    </div>
-</div>
-
