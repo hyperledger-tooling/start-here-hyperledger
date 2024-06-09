@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1139" class=".btn">#1139</a>
+            </td>
+            <td>
+                <b>
+                    feat: ATL-6834 Use ZIO Failures and Defects effectively in the Issue flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span><span class="chip">shared</span><span class="chip">cloud-agent</span>
+            </td>
+            <td>
+                ### Description: 
+[ATL-6834](https://input-output.atlassian.net/browse/ATL-6834): Use ZIO Failures and Defects effectively in the Issue flow
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-05 09:22:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1138" class=".btn">#1138</a>
             </td>
             <td>
@@ -391,80 +427,6 @@ DO NOT MERGE THIS YET
     </table>
     <div class="right-align">
         Created At 2024-06-02 01:17:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1126" class=".btn">#1126</a>
-            </td>
-            <td>
-                <b>
-                    build: internal dependency updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">build</span><span class="chip">shared</span><span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                ## About this PR
-Updates:
-
-* 📦 [io.iohk.atala.prism.apollo:apollo-jvm](https://github.com/input-output-hk/atala-prism-apollo) from `1.2.16` to `1.3.4`
-  + 📜 [GitHub Release Notes](https://github.com/input-output-hk/atala-prism-apollo/releases/tag/v1.3.4) - [Version Diff](https://github.com/input-output-hk/atala-prism-apollo/compare/v1.2.16...v1.3.4)
-
-## Usage
-✅ **Please merge!**
-
-I'll automatically update this PR to resolve conflicts as long as you don't change it yourself.
-
-If you have any feedback, just mention me in the comments below.
-
-Configure Scala Steward for your repository with a [`.scala-steward.conf`](https://github.com/scala-steward-org/scala-steward/blob/767fcfecbfd53c507152f6cf15c846176bae561d/docs/repo-specific-configuration.md) file.
-
-_Have a fantastic day writing Scala!_
-
-<details>
-<summary>🔍 Files still referring to the old version numbers</summary>
-
-The following files still refer to the old version numbers.
-You might want to review and update them manually.
-```
-DEPENDENCIES.md
-```
-</details>
-<details>
-<summary>⚙ Adjust future updates</summary>
-
-Add these to your `.scala-steward.conf` file to ignore future updates of these dependencies:
-```
-updates.ignore = [
-  { groupId = "io.iohk.atala.prism.apollo", artifactId = "apollo-jvm" }
-]
-```
-Or, add these to slow down future updates of these dependencies:
-```
-dependencyOverrides = [
-  {
-    pullRequests = { frequency = "30 days" },
-    dependency = { groupId = "io.iohk.atala.prism.apollo", artifactId = "apollo-jvm" }
-  }
-]
-```
-</details>
-
-<sup>
-labels: library-update, early-semver-minor, semver-spec-minor, old-version-remains, commit-count:1
-</sup>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-02 00:18:18 +0000 UTC
     </div>
 </div>
 
