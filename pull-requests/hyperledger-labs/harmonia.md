@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/harmonia
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger-labs/harmonia/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Added R3 design doc for harmonia project
+                    Align with EEA DLT Interoperability Specification
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/harmonia
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-01 13:35:19 +0000 UTC
+        Created At 2024-06-10 11:27:09 +0000 UTC
     </div>
 </div>
 
