@@ -1,13 +1,13 @@
 
-[70](https://github.com/hyperledger-labs/governance/pull/70) Rename benchmarking-cross-chain-bridge-aggregators
+[4715](https://github.com/hyperledger/iroha/pull/4715) chore(deps): bump faker from 25.5.0 to 25.8.0 in /client_cli/pytests
 
-[69](https://github.com/hyperledger-labs/governance/pull/69) step one rename benchmarking-cross-chain-bridge-aggregators
+[4714](https://github.com/hyperledger/iroha/pull/4714) refactor!: remove `_id` suffix for entity ids in public API
 
-[64](https://github.com/hyperledger-labs/harmonia/pull/64) Align with EEA DLT Interoperability Specification
+[4713](https://github.com/hyperledger/iroha/pull/4713) chore(deps): bump url from 2.5.0 to 2.5.1
 
-[1668](https://github.com/hyperledger/indy-plenum/pull/1668) Bump the all-actions group with 2 updates
+[4712](https://github.com/hyperledger/iroha/pull/4712) chore(deps): bump console-subscriber from 0.2.0 to 0.3.0
 
-[595](https://github.com/hyperledger/aries-acapy-plugins/pull/595) Bump redis from 5.0.4 to 5.0.5 in /redis_events/integration
+[4711](https://github.com/hyperledger/iroha/pull/4711) chore(deps): bump clap from 4.5.4 to 4.5.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,173 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4709" class=".btn">#4709</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4715" class=".btn">#4715</a>
             </td>
             <td>
                 <b>
-                    chore(deps): bump clap from 4.5.4 to 4.5.6
+                    chore(deps): bump faker from 25.5.0 to 25.8.0 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [faker](https://github.com/joke2k/faker) from 25.5.0 to 25.8.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
+<blockquote>
+<h2>Release v25.8.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.8.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<h2>Release v25.7.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.7.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<h2>Release v25.6.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.6.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.7.0..v25.8.0">v25.8.0 - 2024-05-07</a></h3>
+<ul>
+<li>Add handshake emoji with different color variations to emoji provider list. Thanks <a href="https://github.com/tamkc"><code>@​tamkc</code></a>.</li>
+</ul>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.6.0..v25.7.0">v25.7.0 - 2024-05-07</a></h3>
+<ul>
+<li>Add missing translation for countries in <code>pt-BR</code>. Thanks <a href="https://github.com/LeonardoFurtado"><code>@​LeonardoFurtado</code></a>.</li>
+</ul>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.5.0...v25.6.0">v25.6.0 - 2024-05-06</a></h3>
+<ul>
+<li>Fix data in geo for <code>pl_PL</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>, <a href="https://github.com/mgorny"><code>@​mgorny</code></a>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/joke2k/faker/commit/cf60c42dbfbb202e6d55c43057455530bf1edd1e"><code>cf60c42</code></a> Bump version: 25.7.0 → 25.8.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/cbdeb1c37c8e9f0d4227301baa0f4466e7c376b9"><code>cbdeb1c</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/e2d94bfbbc321b4dc6367648ed8255dc07bc6795"><code>e2d94bf</code></a> Add handshake emoji with different color variations to emoji provider list (#...</li>
+<li><a href="https://github.com/joke2k/faker/commit/aa64332a1dd87adcd439d326197b47898c28caab"><code>aa64332</code></a> Bump version: 25.6.0 → 25.7.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/4d63c7d6ec59ac2cdccea6d772323daacc8addf1"><code>4d63c7d</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/ac86040d87c6ffdc5621cdb3f33a068b216f63e6"><code>ac86040</code></a> Add missing translation for countries in <code>pt-BR</code>. (<a href="https://redirect.github.com/joke2k/faker/issues/2049">#2049</a>)</li>
+<li><a href="https://github.com/joke2k/faker/commit/9b1c0d271470f1475664d07c70c0bf7712b5c265"><code>9b1c0d2</code></a> Bump version: 25.5.0 → 25.6.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/7a523b2e6ccfabbe362aa223b12c74a033969b17"><code>7a523b2</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/3ad60494991c99e6976dcd9a62d0f396a85a25f7"><code>3ad6049</code></a> Update <strong>init</strong>.py</li>
+<li><a href="https://github.com/joke2k/faker/commit/1e61099ba19c9af48f8ff74d90f6d36d0439c8f9"><code>1e61099</code></a> More fixes for the <code>geo/pl_PL</code> provider (<a href="https://redirect.github.com/joke2k/faker/issues/2057">#2057</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/joke2k/faker/compare/v25.5.0...v25.8.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.5.0&new-version=25.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-10 17:00:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4714" class=".btn">#4714</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: remove `_id` suffix for entity ids in public API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span><span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-10 16:37:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4713" class=".btn">#4713</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump url from 2.5.0 to 2.5.1
                 </b>
             </td>
         </tr>
@@ -27,11 +189,197 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
-                Bumps [clap](https://github.com/clap-rs/clap) from 4.5.4 to 4.5.6.
+                Bumps [url](https://github.com/servo/rust-url) from 2.5.0 to 2.5.1.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/servo/rust-url/commit/3d6dbbb1dfc64c597745d5d6b97f2a8dd543c42b"><code>3d6dbbb</code></a> Reimplement idna on top of ICU4X (<a href="https://redirect.github.com/servo/rust-url/issues/923">#923</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/de947abf896f44efc5f0fe382064fd95363dff37"><code>de947ab</code></a> Document possible replacements of the base URL (<a href="https://redirect.github.com/servo/rust-url/issues/926">#926</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/8b8431bbe10d0f06c53885d5ba2602d69f61888f"><code>8b8431b</code></a> docs: document SyntaxViolation variants, remove bare URLs (<a href="https://redirect.github.com/servo/rust-url/issues/924">#924</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/fd042e003fe583426454001554542ef95538d794"><code>fd042e0</code></a> Non-special URLs can have their paths erased (<a href="https://redirect.github.com/servo/rust-url/issues/921">#921</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/49eea1c2eb3bb7259e3f8e15ace5f86990adb0bd"><code>49eea1c</code></a> Fix multiple issues on wasm32: (<a href="https://redirect.github.com/servo/rust-url/issues/886">#886</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/a4dd58be5989afedddec023174b2cdcd81912239"><code>a4dd58b</code></a> Fix lint (<a href="https://redirect.github.com/servo/rust-url/issues/920">#920</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/73803fa780c8890e0b40cd01fbbd5362fbe4c9e0"><code>73803fa</code></a> Update URLs (<a href="https://redirect.github.com/servo/rust-url/issues/916">#916</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/8e4331d26018d3c46a42f81b5613fcc7ab16b850"><code>8e4331d</code></a> Add bench for to_ascii on an already-Punycode name (<a href="https://redirect.github.com/servo/rust-url/issues/915">#915</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/9c51937adba5f5f54117999a6a7983b00a049995"><code>9c51937</code></a> Rename <code>master</code> branch to <code>main</code> (<a href="https://redirect.github.com/servo/rust-url/issues/914">#914</a>)</li>
+<li><a href="https://github.com/servo/rust-url/commit/e654efb9c19732f680f14db43a673a726b834f42"><code>e654efb</code></a> Fix non-base64 data URLs with % character not followed by hex digits (<a href="https://redirect.github.com/servo/rust-url/issues/797">#797</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/servo/rust-url/compare/v2.5.0...v2.5.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=url&package-manager=cargo&previous-version=2.5.0&new-version=2.5.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-10 16:29:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4712" class=".btn">#4712</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump console-subscriber from 0.2.0 to 0.3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [console-subscriber](https://github.com/tokio-rs/console) from 0.2.0 to 0.3.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/tokio-rs/console/releases">console-subscriber's releases</a>.</em></p>
+<blockquote>
+<h2>console-subscriber-v0.3.0 - (2024-06-10)</h2>
+<h3><!-- raw HTML omitted --><!-- raw HTML omitted -->Breaking Changes</h3>
+<ul>
+<li><strong>Bump tonic to 0.11 (<a href="https://redirect.github.com/tokio-rs/console/pull/547">#547</a>)</strong> (<a href="https://github.com/tokio-rs/console/commit/ef6816caa0fe84171105b513425506f25d3082af">ef6816c</a>)<!-- raw HTML omitted -->This is a breaking change for users of <code>console-api</code> and
+<code>console-subscriber</code>, as it changes the public <code>tonic</code> dependency to a
+semver-incompatible version. This breaks compatibility with <code>tonic</code>
+0.10.x.</li>
+</ul>
+<h3>Added</h3>
+<ul>
+<li>Replace target column with kind column in tasks view (<a href="https://redirect.github.com/tokio-rs/console/pull/478">#478</a>) (<a href="https://github.com/tokio-rs/console/commit/903d9fa9f9d2dddec2235206b792c264ed9892fb">903d9fa</a>)</li>
+<li>Reduce retention period to fit in max message size (<a href="https://redirect.github.com/tokio-rs/console/pull/503">#503</a>) (<a href="https://github.com/tokio-rs/console/commit/bd3dd71eb0645c028858967ed5b3f14ed34d0605">bd3dd71</a>)</li>
+<li>Support grpc-web and add <code>grpc-web</code> feature (<a href="https://redirect.github.com/tokio-rs/console/pull/498">#498</a>) (<a href="https://github.com/tokio-rs/console/commit/41502531396106b551a9dde2d3a83ddb0beac774">4150253</a>)</li>
+</ul>
+<h3>Documented</h3>
+<ul>
+<li>Add a grpc-web app example (<a href="https://redirect.github.com/tokio-rs/console/pull/526">#526</a>) (<a href="https://github.com/tokio-rs/console/commit/4af30f2c1df919a1e0d4f448534d15b4a1bb836b">4af30f2</a>)</li>
+<li>Fix typo in doc comment (<a href="https://redirect.github.com/tokio-rs/console/pull/543">#543</a>) (<a href="https://github.com/tokio-rs/console/commit/ff2267880ba96f4fdf32090e05b66cf80189d7f8">ff22678</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Don't save poll_ops if no-one is receiving them (<a href="https://redirect.github.com/tokio-rs/console/pull/501">#501</a>) (<a href="https://github.com/tokio-rs/console/commit/1656c791af35bb0500bb6dd3c60344a0ceb12520">1656c79</a>)</li>
+<li>Ignore metadata that is not a span or event (<a href="https://redirect.github.com/tokio-rs/console/pull/554">#554</a>) (<a href="https://github.com/tokio-rs/console/commit/852a977bab71d0f6ae47c6c5c1c20b8679c9e576">852a977</a>)</li>
+</ul>
+<h3>Updated</h3>
+<ul>
+<li><a href="%5B#0%5D(https://redirect.github.com/tokio-rs/console/issues/0).3.0-breaking"><strong>breaking</strong></a> Bump tonic to 0.11 (<a href="https://redirect.github.com/tokio-rs/console/pull/547">#547</a>) (<a href="https://github.com/tokio-rs/console/commit/ef6816caa0fe84171105b513425506f25d3082af">ef6816c</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/tokio-rs/console/commit/b802bf147bc0e54e01c7946e6ca67ff428eb4f86"><code>b802bf1</code></a> chore: release tokio-console-v0.1.11, console-api-v0.7.0, console-subscriber-...</li>
+<li><a href="https://github.com/tokio-rs/console/commit/87ba91c9a5cd88037072f9758d9b94309c619164"><code>87ba91c</code></a> chore(console): update cargo dist (<a href="https://redirect.github.com/tokio-rs/console/issues/556">#556</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/dcf8c2c73794cc92c78061316875f36ae2b7653b"><code>dcf8c2c</code></a> chore: include tonic updates in release notes (<a href="https://redirect.github.com/tokio-rs/console/issues/559">#559</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/99437b012ac419150a96fe33ca66d2d481f6c51e"><code>99437b0</code></a> chore: automate releases with Release-plz (<a href="https://redirect.github.com/tokio-rs/console/issues/545">#545</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/852a977bab71d0f6ae47c6c5c1c20b8679c9e576"><code>852a977</code></a> fix(subscriber): ignore metadata that is not a span or event (<a href="https://redirect.github.com/tokio-rs/console/issues/554">#554</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/a0d20fd62df07470b6033524afc00a96d156aaa5"><code>a0d20fd</code></a> docs(console): add note about running on Windows (<a href="https://redirect.github.com/tokio-rs/console/issues/510">#510</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/60bcf87537d414b21efbd84159207f9ecda5e914"><code>60bcf87</code></a> chore: get rid of remove_dir_all (<a href="https://redirect.github.com/tokio-rs/console/issues/542">#542</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/1c1d599d5b741af89aef14889762ee3bf9c4e688"><code>1c1d599</code></a> chore: bump clap and clap_complete to the latest version (<a href="https://redirect.github.com/tokio-rs/console/issues/552">#552</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/ef6816caa0fe84171105b513425506f25d3082af"><code>ef6816c</code></a> chore: bump tonic to 0.11 (<a href="https://redirect.github.com/tokio-rs/console/issues/547">#547</a>)</li>
+<li><a href="https://github.com/tokio-rs/console/commit/6cbd6db7b50893c4d4f6b9f090be309fc0e34d8c"><code>6cbd6db</code></a> chore(console): bump ratatui to 0.26.2 and crossterm to 0.27.0 (<a href="https://redirect.github.com/tokio-rs/console/issues/515">#515</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/tokio-rs/console/compare/console-subscriber-v0.2.0...console-subscriber-v0.3.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=console-subscriber&package-manager=cargo&previous-version=0.2.0&new-version=0.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-10 16:28:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4711" class=".btn">#4711</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump clap from 4.5.4 to 4.5.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [clap](https://github.com/clap-rs/clap) from 4.5.4 to 4.5.7.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
 <blockquote>
+<h2>v4.5.7</h2>
+<h2>[4.5.7] - 2024-06-10</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Clean up error message when too few arguments for <code>num_args</code></li>
+</ul>
 <h2>v4.5.6</h2>
 <h2>[4.5.6] - 2024-06-06</h2>
 </blockquote>
@@ -40,6 +388,11 @@ permalink: /pull-requests/hyperledger/iroha
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's changelog</a>.</em></p>
 <blockquote>
+<h2>[4.5.7] - 2024-06-10</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Clean up error message when too few arguments for <code>num_args</code></li>
+</ul>
 <h2>[4.5.6] - 2024-06-06</h2>
 <h2>[4.5.5] - 2024-06-06</h2>
 <h3>Fixes</h3>
@@ -51,16 +404,22 @@ permalink: /pull-requests/hyperledger/iroha
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/clap-rs/clap/commit/51de731521efb05c5503e05c33036d8fa439bc5a"><code>51de731</code></a> chore(ci): Lint clippy::items_after_statements seems too strict</li>
-<li><a href="https://github.com/clap-rs/clap/commit/181a2cf5e673d0f6f42133a5b30ccafd86b0106d"><code>181a2cf</code></a> chore(ci): Allow prelude wildcard imports</li>
-<li><a href="https://github.com/clap-rs/clap/commit/82cf9a62b027c10c6fafdcaaee24c4e92d7da61d"><code>82cf9a6</code></a> chore(ci): Reduce noisy lints</li>
-<li>See full diff in <a href="https://github.com/clap-rs/clap/compare/clap_complete-v4.5.4...v4.5.6">compare view</a></li>
+<li><a href="https://github.com/clap-rs/clap/commit/6c6839a454c2cbfc3007e6a2b2a55dd64685771e"><code>6c6839a</code></a> chore: Release</li>
+<li><a href="https://github.com/clap-rs/clap/commit/e79ff0d42be524502cc9a59b6e1d4c669cb4c760"><code>e79ff0d</code></a> docs: Update changelog</li>
+<li><a href="https://github.com/clap-rs/clap/commit/be2e5ca91e34c60333cc7c7e7daeaf457972c815"><code>be2e5ca</code></a> Merge pull request <a href="https://redirect.github.com/clap-rs/clap/issues/5527">#5527</a> from epage/min</li>
+<li><a href="https://github.com/clap-rs/clap/commit/cf5c95862ecea004df7a8f44b234a959ea8ea36f"><code>cf5c958</code></a> fix(parser): Report correct num_args on too-few</li>
+<li><a href="https://github.com/clap-rs/clap/commit/e0c9619c2796c9b7d784d4b8465b51c60756e05c"><code>e0c9619</code></a> test(parser): Snapshot num_args errors</li>
+<li><a href="https://github.com/clap-rs/clap/commit/2f645d3e81c783a4e76ad17f1ccf283a58b75660"><code>2f645d3</code></a> chore: Release</li>
+<li><a href="https://github.com/clap-rs/clap/commit/6e1e0368f9456eb85f232b4c72ccdf18b039947a"><code>6e1e036</code></a> docs: Update changelog</li>
+<li><a href="https://github.com/clap-rs/clap/commit/7e1bbf82afd8dfd56926cbcdc687348086f9ade6"><code>7e1bbf8</code></a> Merge pull request <a href="https://redirect.github.com/clap-rs/clap/issues/5523">#5523</a> from ben--/zsh-colon</li>
+<li><a href="https://github.com/clap-rs/clap/commit/8e3c273b611b5579699d4ddd0eada278f490798b"><code>8e3c273</code></a> fix(zsh): Separate options from _arguments options</li>
+<li>See full diff in <a href="https://github.com/clap-rs/clap/compare/clap_complete-v4.5.4...v4.5.7">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=clap&package-manager=cargo&previous-version=4.5.4&new-version=4.5.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=clap&package-manager=cargo&previous-version=4.5.4&new-version=4.5.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -92,93 +451,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-07 16:27:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4708" class=".btn">#4708</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump faker from 25.5.0 to 25.6.0 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [faker](https://github.com/joke2k/faker) from 25.5.0 to 25.6.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
-<blockquote>
-<h2>Release v25.6.0</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.6.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
-<blockquote>
-<h3><a href="https://github.com/joke2k/faker/compare/v25.5.0...v25.6.0">v25.6.0 - 2024-05-06</a></h3>
-<ul>
-<li>Fix data in geo for <code>pl_PL</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>, <a href="https://github.com/mgorny"><code>@​mgorny</code></a>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/joke2k/faker/commit/9b1c0d271470f1475664d07c70c0bf7712b5c265"><code>9b1c0d2</code></a> Bump version: 25.5.0 → 25.6.0</li>
-<li><a href="https://github.com/joke2k/faker/commit/7a523b2e6ccfabbe362aa223b12c74a033969b17"><code>7a523b2</code></a> :pencil: Update CHANGELOG.md</li>
-<li><a href="https://github.com/joke2k/faker/commit/3ad60494991c99e6976dcd9a62d0f396a85a25f7"><code>3ad6049</code></a> Update <strong>init</strong>.py</li>
-<li><a href="https://github.com/joke2k/faker/commit/1e61099ba19c9af48f8ff74d90f6d36d0439c8f9"><code>1e61099</code></a> More fixes for the <code>geo/pl_PL</code> provider (<a href="https://redirect.github.com/joke2k/faker/issues/2057">#2057</a>)</li>
-<li><a href="https://github.com/joke2k/faker/commit/1368651130202741c8b9fdccb08d53a4b513747a"><code>1368651</code></a> Add more cities in geo <code>pl_PL</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2058">#2058</a>)</li>
-<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.5.0...v25.6.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.5.0&new-version=25.6.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-07 16:14:50 +0000 UTC
+        Created At 2024-06-10 16:27:42 +0000 UTC
     </div>
 </div>
 
@@ -1031,339 +1304,6 @@ Simplify troubleshooting.
     </table>
     <div class="right-align">
         Created At 2024-06-04 09:26:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4683" class=".btn">#4683</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump faker from 25.3.0 to 25.4.0 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [faker](https://github.com/joke2k/faker) from 25.3.0 to 25.4.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
-<blockquote>
-<h2>Release v25.4.0</h2>
-<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.4.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
-<blockquote>
-<h3><a href="https://github.com/joke2k/faker/compare/v25.3.0...v25.4.0">v25.4.0 - 2024-05-03</a></h3>
-<ul>
-<li>Add landmarks in <code>geo</code> for <code>pl_PL</code>. Thanks <a href="https://github.com/george0st"><code>@​george0st</code></a>.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/joke2k/faker/commit/9c25db8bb15fa4da30cadbbbab52943e749e7b8e"><code>9c25db8</code></a> Bump version: 25.3.0 → 25.4.0</li>
-<li><a href="https://github.com/joke2k/faker/commit/605d1ecc1fad2ad328846b7eaa757b6457613b04"><code>605d1ec</code></a> :pencil: Update CHANGELOG.md</li>
-<li><a href="https://github.com/joke2k/faker/commit/705b9e85e344b8ab2ba631bedb915ba818b7a000"><code>705b9e8</code></a> Add landmarks in <code>geo</code> for <code>pl_PL</code> (<a href="https://redirect.github.com/joke2k/faker/issues/2048">#2048</a>)</li>
-<li><a href="https://github.com/joke2k/faker/commit/6e888548325f6e280aef6ecc5c8001a25a6c9114"><code>6e88854</code></a> lint code</li>
-<li><a href="https://github.com/joke2k/faker/commit/5f791e4e9832a52e721c3f076f48baaffb58e2b0"><code>5f791e4</code></a> Filter code over <code>pyupgrade --py38-plus</code> and ruff (<a href="https://redirect.github.com/joke2k/faker/issues/2052">#2052</a>)</li>
-<li><a href="https://github.com/joke2k/faker/commit/2ad1315be066e7b35f10e9b93b0b78904f3dd6d2"><code>2ad1315</code></a> Use comprehension in it_IT address provider to populate cities for performanc...</li>
-<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.3.0...v25.4.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.3.0&new-version=25.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 16:44:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4682" class=".btn">#4682</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump proc-macro2 from 1.0.84 to 1.0.85
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [proc-macro2](https://github.com/dtolnay/proc-macro2) from 1.0.84 to 1.0.85.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dtolnay/proc-macro2/releases">proc-macro2's releases</a>.</em></p>
-<blockquote>
-<h2>1.0.85</h2>
-<ul>
-<li>Mark some tests as only for 64-bit targets (<a href="https://redirect.github.com/dtolnay/proc-macro2/issues/463">#463</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dtolnay/proc-macro2/commit/5ee1cabadb40abe12abe27e3b34de8fc6f60bc0a"><code>5ee1cab</code></a> Release 1.0.85</li>
-<li><a href="https://github.com/dtolnay/proc-macro2/commit/aa64c2007390a33d4edbc07aa3e576848ae3d653"><code>aa64c20</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/proc-macro2/issues/464">#464</a> from dtolnay/testsize</li>
-<li><a href="https://github.com/dtolnay/proc-macro2/commit/bc9f4d938058be43d38f921f34f48b94a25278b7"><code>bc9f4d9</code></a> Ignore size tests on non-64bit target</li>
-<li><a href="https://github.com/dtolnay/proc-macro2/commit/1160ec3c7d723e115c5acf2b4e9f00c2c049e84a"><code>1160ec3</code></a> Make size tests #[ignore] in cfg(randomize_layout)</li>
-<li>See full diff in <a href="https://github.com/dtolnay/proc-macro2/compare/1.0.84...1.0.85">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=proc-macro2&package-manager=cargo&previous-version=1.0.84&new-version=1.0.85)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 16:20:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4681" class=".btn">#4681</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump w3f-bls from 0.1.3 to 0.1.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [w3f-bls](https://github.com/w3f/bls) from 0.1.3 to 0.1.4.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/w3f/bls/commits">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=w3f-bls&package-manager=cargo&previous-version=0.1.3&new-version=0.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 16:16:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4680" class=".btn">#4680</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add detect support for `parity_scale_decoder`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-- add color detect support in partiy_scale_decoder
-- fix typo (colour -> color) in cli
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4487
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-Users don't have to rebuild `parity_scale_cli` when disabling terminal-colors. 
-Which seems not happening right now since no color is used in parity_scale_cli for now.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [x] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 15:08:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4679" class=".btn">#4679</a>
-            </td>
-            <td>
-                <b>
-                    refactor!: Rename `--outfile` to `--out-file`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Rename parameter `--outfile` to `--out-file` for `iroha_swarm` and `iroha_wasm_builder`
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4675
-
-### Benefits
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 14:35:25 +0000 UTC
     </div>
 </div>
 
