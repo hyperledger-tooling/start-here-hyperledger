@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1149" class=".btn">#1149</a>
+            </td>
+            <td>
+                <b>
+                    docs: updating the hdkey ADR  [skip ci] 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">docs</span>
+            </td>
+            <td>
+                
+### Description: 
+Updating the ADR to reflect the recent changes in bip32 derivation. 
+
+Mainly, secp256k1 stays the same.
+We introduce now HDKeys for Ed25519, those will be using  different bip32 implementation.
+
+The ADR changes are to reflect this but no more changes have been done to the derivationPath specification.
+
+Requires no cloud agent changes as that is already implemented.
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 11:16:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1148" class=".btn">#1148</a>
             </td>
             <td>
@@ -323,12 +367,12 @@ https://input-output.atlassian.net/browse/ATL-6830
 [ATL-6834](https://input-output.atlassian.net/browse/ATL-6834): Use ZIO Failures and Defects effectively in the Issue flow
 
 ### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
 
             </td>
         </tr>
@@ -361,42 +405,6 @@ https://input-output.atlassian.net/browse/ATL-6830
     </table>
     <div class="right-align">
         Created At 2024-06-04 19:56:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1135" class=".btn">#1135</a>
-            </td>
-            <td>
-                <b>
-                    style: remove unused imports
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                ### Description: 
-Remove unused imports
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 14:18:57 +0000 UTC
     </div>
 </div>
 
