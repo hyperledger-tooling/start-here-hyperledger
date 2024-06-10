@@ -15,34 +15,33 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v1.4.7
+                    v1.4.8
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.4.7
+                    v1.4.8
                 </span>
             </td>
             <td>
                 ## What's Changed
-* [fftls] Allow for In-Memory or Inlined TLS Certificates by @onelapahead in https://github.com/hyperledger/firefly-common/pull/132
-* Do not add alias prefix to filter fields that are already qualified by @awrichar in https://github.com/hyperledger/firefly-common/pull/134
-* Add custom ID field and AfterLoad hook by @awrichar in https://github.com/hyperledger/firefly-common/pull/137
-* DB-side UPSERT optimiziation support by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/138
-* Add missing config descriptions by @awrichar in https://github.com/hyperledger/firefly-common/pull/140
+* ffresty metrics and hooks by @alexwood in https://github.com/hyperledger/firefly-common/pull/143
+* Adding support for leaky bucket throttling (rps + burst) in ffresty client by @Chengxuan in https://github.com/hyperledger/firefly-common/pull/141
 
+## New Contributors
+* @alexwood made their first contribution in https://github.com/hyperledger/firefly-common/pull/143
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.4.6...v1.4.7
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.4.7...v1.4.8
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.4.7" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.4.8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-05-24 17:23:43 +0000 UTC
+        Created At 2024-06-07 17:08:13 +0000 UTC
     </span>
 </div>
 

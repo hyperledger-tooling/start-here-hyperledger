@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
+                    v1.3.14
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.3.14
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* fix: deleting listeners from event stream pagination by @EnriqueL8 in https://github.com/hyperledger/firefly-transaction-manager/pull/122
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.3.13...v1.3.14
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.3.14" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-06-06 17:26:14 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.3.13
                 </b>
             </td>
