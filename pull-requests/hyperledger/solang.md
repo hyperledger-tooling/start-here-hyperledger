@@ -46,7 +46,7 @@ Fixes #755
             </td>
             <td>
                 <b>
-                    Copy forge-fmt into solang crate
+                    Vendor forge-fmt into solang repo
                 </b>
             </td>
         </tr>

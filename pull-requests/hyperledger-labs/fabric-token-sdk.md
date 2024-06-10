@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/652" class=".btn">#652</a>
+            </td>
+            <td>
+                <b>
+                    Separate token parsing from storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The existing implementation opens up a database transaction and then starts parsing the token request. This operation indirectly, via other structs, does a few database calls outside of the open db transaction. This causes failures when performing a large amount of concurrent transactions in specific configurations; specifically with sqlite as backend or with a low maximum of open database connections.
+
+This PR splits out the parsing from the storing/deleting operations, to leave the db transaction open for as short as possible and free up resources again. As a bonus it improves the testability of the parsing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-10 08:58:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/651" class=".btn">#651</a>
             </td>
             <td>
