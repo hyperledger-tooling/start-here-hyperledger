@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
+                <span class="chip">Enhancement</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ## Description
@@ -185,9 +185,7 @@ You can trigger Dependabot actions by commenting on this PR:
             <td>
                 ## Description
 
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
+Remove `_id` suffix from tokens, config files and data model
 
 ### Linked issue
 
@@ -1247,116 +1245,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-04 16:30:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4688" class=".btn">#4688</a>
-            </td>
-            <td>
-                <b>
-                    build(Dockerfile): pin platform to `linux/amd64`, refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Since the Dockerfile only supports building for `linux/amd64`, let's pin it for now before we introduce multi-arch builds. Unused (seemingly) dependencies and unnecessary `RUN` layers have been removed/compressed.
-
-### Linked issue
-
-Related to #4687.
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Docker builds should be faster, unneeded stuff doesn't clutter the Dockerfile.
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 11:09:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4684" class=".btn">#4684</a>
-            </td>
-            <td>
-                <b>
-                    feat(client cli): extend client cli to request json queries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Extend `json` subcommand to allow pass json queries.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Examples
-
-```bash
-echo '{"FindAllParameters": null }' | ./iroha --config client.toml json query
-```
-
-### Benefits
-
-Simplify troubleshooting.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 09:26:57 +0000 UTC
     </div>
 </div>
 

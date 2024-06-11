@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">cleanup</span>
             </td>
             <td>
                 <nil>
@@ -119,84 +119,6 @@ This PR splits out the parsing from the storing/deleting operations, to leave th
     </table>
     <div class="right-align">
         Created At 2024-06-05 05:12:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/649" class=".btn">#649</a>
-            </td>
-            <td>
-                <b>
-                    metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 08:03:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/648" class=".btn">#648</a>
-            </td>
-            <td>
-                <b>
-                    move types to utils
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cleanup</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 07:22:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/647" class=".btn">#647</a>
-            </td>
-            <td>
-                <b>
-                    reduce the use of view.Identity where possible
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cleanup</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 06:47:33 +0000 UTC
     </div>
 </div>
 

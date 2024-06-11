@@ -1,13 +1,13 @@
 
-[4716](https://github.com/hyperledger/iroha/pull/4716) refactor: supervise spawned tasks
+[735](https://github.com/hyperledger-labs/fabric-operations-console/pull/735) release note added
 
-[110](https://github.com/hyperledger-labs/fabric-opssc/pull/110) chore(deps-dev): Bump braces from 3.0.2 to 3.0.3 in /opssc-api-server/src
+[734](https://github.com/hyperledger-labs/fabric-operations-console/pull/734) release note and revert unwanted code
 
-[109](https://github.com/hyperledger-labs/fabric-opssc/pull/109) chore(deps): Bump @grpc/grpc-js, fabric-common, fabric-network and fabric-protos in /common/src
+[733](https://github.com/hyperledger-labs/fabric-operations-console/pull/733) bump change log
 
-[4891](https://github.com/hyperledger/fabric/pull/4891) Replace ioutil.WriteFile with os.WriteFile
+[732](https://github.com/hyperledger-labs/fabric-operations-console/pull/732) hlfoc console doc link updated
 
-[1866](https://github.com/hyperledger/indy-node/pull/1866) Bump the all-actions group across 1 directory with 2 updates
+[731](https://github.com/hyperledger-labs/fabric-operations-console/pull/731) Fix code linters
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
