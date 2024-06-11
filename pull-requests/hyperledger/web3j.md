@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2065" class=".btn">#2065</a>
+            </td>
+            <td>
+                <b>
+                    add missing LFID
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+*required*
+
+### Where should the reviewer start?
+*required*
+
+### Why is it needed?
+*required*
+
+## Checklist
+
+- [ ] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [ ] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-11 15:09:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j/pull/2064" class=".btn">#2064</a>
             </td>
             <td>

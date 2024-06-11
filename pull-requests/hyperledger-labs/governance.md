@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger-labs/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/68" class=".btn">#68</a>
-            </td>
-            <td>
-                <b>
-                    Grant maintainers admin priv
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Grant maintainers admin priv on established fabric labs.
-
-Note that for existing labs, some maintainers have admin priv, some don't.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 14:39:31 +0000 UTC
-    </div>
-</div>
-

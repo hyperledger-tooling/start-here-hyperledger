@@ -38,31 +38,3 @@ permalink: /pull-requests/hyperledger/caliper
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1592" class=".btn">#1592</a>
-            </td>
-            <td>
-                <b>
-                    Add fixed-load rate controller to calliper generator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #1587 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 13:10:34 +0000 UTC
-    </div>
-</div>
-
