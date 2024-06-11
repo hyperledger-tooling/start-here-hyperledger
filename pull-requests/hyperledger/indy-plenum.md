@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1671" class=".btn">#1671</a>
+            </td>
+            <td>
+                <b>
+                    [v1.14.0-rc0] - Update Version Number for Release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [v1.14.0-rc0] - Update Version number for Release
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-10 18:41:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1669" class=".btn">#1669</a>
             </td>
             <td>
@@ -236,32 +262,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-10 11:23:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1667" class=".btn">#1667</a>
-            </td>
-            <td>
-                <b>
-                    fix: fix python version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-03 20:05:52 +0000 UTC
     </div>
 </div>
 
