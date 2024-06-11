@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/765" class=".btn">#765</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/766" class=".btn">#766</a>
             </td>
             <td>
                 <b>
-                    Fix gh action permission
+                    Feature/solution skvs
                 </b>
             </td>
         </tr>
@@ -27,13 +27,25 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                Recent commit 21455f27 restricted gh action permissions to read only, however, it needs package write permissions to update container images.
+                **What this PR does / why we need it**:
+
+Implement a Rollback attack protection solution for FPC: SKVS.
+user can choose to use it by changing the chaincode to SVKS chaincode
+ex: `skvsChaincode := fpc.NewSkvsChaincode(secretChaincode)`
+
+
+**Which issue(s) this PR fixes**:
+Fixes #484 
+
+**Special notes for your reviewer**:
+Loom demonstration video: [Watch here](https://www.loom.com/share/4790cd0cba9e4433879083b41158d42d?sid=a0f367e7-dc49-4065-926d-df7b2fbf55a1)
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-21 11:40:48 +0000 UTC
+        Created At 2024-06-11 12:56:04 +0000 UTC
     </div>
 </div>
 

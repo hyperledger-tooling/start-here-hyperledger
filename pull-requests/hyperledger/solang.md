@@ -96,29 +96,3 @@ commit: 00854b602ef0e67379a2027ccc5d0aad553e5333
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1646" class=".btn">#1646</a>
-            </td>
-            <td>
-                <b>
-                    Fix Solana integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 15:58:06 +0000 UTC
-    </div>
-</div>
-
