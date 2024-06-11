@@ -14,38 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1865" class=".btn">#1865</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1866" class=".btn">#1866</a>
             </td>
             <td>
                 <b>
-                    Update action-download-artifact actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update to the latest version of action-download-artifact.
-- Do not update the indy-shared-gha actions to v2 on the 20.04 branch. v2 is for the 22.04 branch.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-10 15:17:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1864" class=".btn">#1864</a>
-            </td>
-            <td>
-                <b>
-                    Bump the all-actions group with 2 updates
+                    Bump the all-actions group across 1 directory with 2 updates
                 </b>
             </td>
         </tr>
@@ -54,7 +27,7 @@ permalink: /pull-requests/hyperledger/indy-node
                 <span class="chip">dependencies</span><span class="chip">github_actions</span>
             </td>
             <td>
-                Bumps the all-actions group with 2 updates: [hyperledger/indy-shared-gha](https://github.com/hyperledger/indy-shared-gha) and [dawidd6/action-download-artifact](https://github.com/dawidd6/action-download-artifact).
+                Bumps the all-actions group with 2 updates in the / directory: [hyperledger/indy-shared-gha](https://github.com/hyperledger/indy-shared-gha) and [dawidd6/action-download-artifact](https://github.com/dawidd6/action-download-artifact).
 
 Updates `hyperledger/indy-shared-gha` from 1 to 2
 <details>
@@ -126,11 +99,13 @@ Support for Ubuntu 20.04 has been dropped - use <code>@v1</code> for Ubuntu 20.0
 </details>
 <br />
 
-Updates `dawidd6/action-download-artifact` from 3 to 4
+Updates `dawidd6/action-download-artifact` from 3 to 5
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/dawidd6/action-download-artifact/releases">dawidd6/action-download-artifact's releases</a>.</em></p>
 <blockquote>
+<h2>v5</h2>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/dawidd6/action-download-artifact/compare/v4...v5">https://github.com/dawidd6/action-download-artifact/compare/v4...v5</a></p>
 <h2>v4</h2>
 <h2>What's Changed</h2>
 <ul>
@@ -181,7 +156,6 @@ Updates `dawidd6/action-download-artifact` from 3 to 4
 <li>Head sha revert by <a href="https://github.com/romangg"><code>@​romangg</code></a> in <a href="https://redirect.github.com/dawidd6/action-download-artifact/pull/271">dawidd6/action-download-artifact#271</a></li>
 <li>build(deps): bump undici from 5.28.2 to 5.28.3 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/dawidd6/action-download-artifact/pull/272">dawidd6/action-download-artifact#272</a></li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/dawidd6/action-download-artifact/compare/v3...v3.1.1">https://github.com/dawidd6/action-download-artifact/compare/v3...v3.1.1</a></p>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -189,12 +163,14 @@ Updates `dawidd6/action-download-artifact` from 3 to 4
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/dawidd6/action-download-artifact/commit/deb3bb83256a78589fef6a7b942e5f2573ad7c13"><code>deb3bb8</code></a> node_modules: upgrade</li>
+<li><a href="https://github.com/dawidd6/action-download-artifact/commit/1d93f37db2a8005b41437c75a4793d52e664d858"><code>1d93f37</code></a> README: v4</li>
 <li><a href="https://github.com/dawidd6/action-download-artifact/commit/854e2de9396304899dbe03bf9995fd73533190d1"><code>854e2de</code></a> Set allow_forks to false by default (<a href="https://redirect.github.com/dawidd6/action-download-artifact/issues/290">#290</a>)</li>
 <li><a href="https://github.com/dawidd6/action-download-artifact/commit/436c9d3774019b3e2789d7332e9c4efdba3d9d79"><code>436c9d3</code></a> build(deps): bump adm-zip from 0.5.12 to 0.5.13 (<a href="https://redirect.github.com/dawidd6/action-download-artifact/issues/289">#289</a>)</li>
 <li><a href="https://github.com/dawidd6/action-download-artifact/commit/14040524bb7e51dee9683e2e755e0d562621a1d5"><code>1404052</code></a> build(deps): bump <code>@​actions/artifact</code> from 2.1.5 to 2.1.7 (<a href="https://redirect.github.com/dawidd6/action-download-artifact/issues/287">#287</a>)</li>
 <li><a href="https://github.com/dawidd6/action-download-artifact/commit/8a9be734dc508dcf8d67c27ba3f727b0d682ccb0"><code>8a9be73</code></a> build(deps): bump <code>@​actions/artifact</code> from 2.1.4 to 2.1.5 (<a href="https://redirect.github.com/dawidd6/action-download-artifact/issues/285">#285</a>)</li>
 <li><a href="https://github.com/dawidd6/action-download-artifact/commit/df593bbd0462b45b479f042d043c3aa47fe1c483"><code>df593bb</code></a> build(deps): bump undici from 5.28.3 to 5.28.4 (<a href="https://redirect.github.com/dawidd6/action-download-artifact/issues/284">#284</a>)</li>
-<li>See full diff in <a href="https://github.com/dawidd6/action-download-artifact/compare/v3...v4">compare view</a></li>
+<li>See full diff in <a href="https://github.com/dawidd6/action-download-artifact/compare/v3...v5">compare view</a></li>
 </ul>
 </details>
 <br />
@@ -232,7 +208,34 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-03 22:05:04 +0000 UTC
+        Created At 2024-06-10 21:12:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1865" class=".btn">#1865</a>
+            </td>
+            <td>
+                <b>
+                    Update action-download-artifact actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update to the latest version of action-download-artifact.
+- Do not update the indy-shared-gha actions to v2 on the 20.04 branch. v2 is for the 22.04 branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-10 15:17:18 +0000 UTC
     </div>
 </div>
 
