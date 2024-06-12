@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2066" class=".btn">#2066</a>
+            </td>
+            <td>
+                <b>
+                    Remove registration of bouncy castle as JCE provider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+This PR removes static registration of `BouncyCastleProvider` as a JCE provider.
+
+### Where should the reviewer start?
+In `Keys.java`, review the change for key pair generation to refer to `BouncyCastleProvider` by reference instead of by string.
+
+### Why is it needed?
+It prevents the usage of the `Keys` class from inadvertently changing the behavior of the depending application.
+
+## Checklist
+
+- [ x ] I've read the contribution guidelines.
+- [  ] I've added tests (if applicable). (I am assuming that additional tests are not required because `Keys` is already well-tested)
+- [  ] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-11 23:20:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j/pull/2065" class=".btn">#2065</a>
             </td>
             <td>

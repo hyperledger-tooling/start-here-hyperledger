@@ -33,9 +33,11 @@ Reimplement most of Swarm generation logic, optimize the generated Compose confi
 
 ### Benefits
 
-- less cluttered structure
-- removed almost all clones
-- Compose config optimized, builds/pulls image only once instead of per peer (this has caused sigkills during builds)
+- declutters schema code
+- removes almost all clones
+- optimizes Compose config: builds/pulls image only once instead of per peer (this has caused sigkills during builds)
+- fixes placeholder replacement in `kagami genesis sign` params
+- allows writing to any `std::io::Write` instead of just files
 
 ### Checklist
 
