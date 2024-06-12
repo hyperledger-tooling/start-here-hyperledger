@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger-labs/agora-unknown_order/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Update to faster glass_pumpkin 1.7
+                    Fix random_range with openssl backend
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/agora-unknown_order
                 
             </td>
             <td>
-                Fix bug in rust impl and update to newer faster glass_pumpkin 1.7
+                The variables were swapped, resulting in a negative value in `range`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-24 18:49:19 +0000 UTC
+        Created At 2024-06-12 15:31:12 +0000 UTC
     </div>
 </div>
 
