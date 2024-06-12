@@ -93,32 +93,3 @@ This PR splits out the parsing from the storing/deleting operations, to leave th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/650" class=".btn">#650</a>
-            </td>
-            <td>
-                <b>
-                    stress test + audit bug fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                This PR brings the following:
-- An integration test that can be run locally for stress tests;
-- A fix to the auditor lock strategy that avoids deadlocks that was discovered during the stress test;
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-05 05:12:33 +0000 UTC
-    </div>
-</div>
-
