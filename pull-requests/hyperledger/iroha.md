@@ -38,14 +38,15 @@ Reimplement most of Swarm generation logic, optimize the generated Compose confi
 - optimizes Compose config: builds/pulls image only once instead of per peer (this has caused sigkills during builds)
 - fixes placeholder replacement in `kagami genesis sign` params
 - allows writing to any `std::io::Write` instead of just files
+  - adds an option to print the config to stdout (used in CI to check config updates)
 
 ### Checklist
 
-- [ ] 🚧 I've written unit tests for the code changes (some, rest are WIP)
-- [ ] 🚧 Update usage of Swarm in CI
+- [x] 🚧 I've written unit tests for the code changes (some, rest are WIP)
+- [x] 🚧 Update usage of Swarm in CI
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
             </td>
@@ -1131,58 +1132,6 @@ Continuation of #4673.
     </table>
     <div class="right-align">
         Created At 2024-06-05 14:32:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4692" class=".btn">#4692</a>
-            </td>
-            <td>
-                <b>
-                    fix: Correct default value for `JsonString`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span>
-            </td>
-            <td>
-                ## Description
-
-Set `"null"` as default value for `JsonString` instead of `""` which is not valid json.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4686 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-### How to test
-
-```
-cargo test --package iroha_core --lib -- snapshot::tests --show-output 
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-05 11:46:27 +0000 UTC
     </div>
 </div>
 

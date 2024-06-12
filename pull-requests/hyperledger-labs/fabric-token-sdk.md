@@ -64,32 +64,3 @@ This PR splits out the parsing from the storing/deleting operations, to leave th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/651" class=".btn">#651</a>
-            </td>
-            <td>
-                <b>
-                    Refactor integration tests and add web socket integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Split the tests into more parts
-* Added web socket integration tests
-* Extracted common code from integration tests to avoid duplication
-* Added selectors to distinguish when we need the ID and when the name of a node
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-05 07:21:33 +0000 UTC
-    </div>
-</div>
-
