@@ -41,11 +41,11 @@ Reimplement most of Swarm generation logic, optimize the generated Compose confi
 
 ### Checklist
 
+- [ ] 🚧 I've written unit tests for the code changes (some, rest are WIP)
 - [ ] 🚧 Update usage of Swarm in CI
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] I've written unit tests for the code changes (⚠️ some, rest are WIP 🚧 )
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
             </td>
@@ -129,7 +129,7 @@ Bring more simplicity to torii.
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">Refactor</span>
+                <span class="chip">Enhancement</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ## Description
