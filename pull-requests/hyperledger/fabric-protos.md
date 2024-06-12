@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/237" class=".btn">#237</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go dependencies (0.2.x)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go dependencies.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-12 15:11:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/236" class=".btn">#236</a>
             </td>
             <td>

@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2067" class=".btn">#2067</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix some comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+
+ fix some comments
+
+### Where should the reviewer start?
+*required*
+
+### Why is it needed?
+*required*
+
+## Checklist
+
+- [ ] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [ ] I've added a changelog entry if necessary.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-12 15:31:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/web3j/pull/2066" class=".btn">#2066</a>
             </td>
             <td>
