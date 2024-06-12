@@ -382,29 +382,3 @@ https://input-output.atlassian.net/browse/ATL-6830
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1138" class=".btn">#1138</a>
-            </td>
-            <td>
-                <b>
-                    fix: Schema Error Handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                https://input-output.atlassian.net/browse/ATL-6828
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-04 19:56:51 +0000 UTC
-    </div>
-</div>
-
