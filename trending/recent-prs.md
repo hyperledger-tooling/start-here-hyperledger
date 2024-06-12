@@ -1,13 +1,13 @@
 
-[2066](https://github.com/hyperledger/web3j/pull/2066) Remove registration of bouncy castle as JCE provider
+[738](https://github.com/hyperledger-labs/fabric-operations-console/pull/738) bump release note
 
-[170](https://github.com/hyperledger-labs/microfab/pull/170) Add VSCode tasks example and documentation
+[737](https://github.com/hyperledger-labs/fabric-operations-console/pull/737) max update limit exceed issue fix on msp creation
 
-[4719](https://github.com/hyperledger/iroha/pull/4719) feat(swarm): reimplement, optimize compose config and its generation
+[7213](https://github.com/hyperledger/besu/pull/7213) [VERKLE] Fix unit tests
 
-[2065](https://github.com/hyperledger/web3j/pull/2065) add missing LFID
+[7212](https://github.com/hyperledger/besu/pull/7212) changed arm runner
 
-[4718](https://github.com/hyperledger/iroha/pull/4718) refactor: migrate to axum
+[7211](https://github.com/hyperledger/besu/pull/7211) disable flaky test
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

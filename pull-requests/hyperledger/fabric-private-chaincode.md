@@ -30,7 +30,10 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 **What this PR does / why we need it**:
 
 Implement a Rollback attack protection solution for FPC: SKVS.
-user can choose to use it by changing the chaincode to SVKS chaincode
+
+Single Key-Value Storage (SKVS) is a naive approach for rollback attacks. All key-value pairs are encapsulated and stored in this approach with a single call to put_state(). During execution, the enclave must load the entire state before accessing individual key-value pairs. While this approach prevents the rollback attack, applications with large states and multiple writers will experience bad performance, as the use of a single key-value pair will cause transactions to fail due to concurrent write issues.
+
+A user can use it by changing the chain code to SVKS chaincode
 ex: `skvsChaincode := fpc.NewSkvsChaincode(secretChaincode)`
 
 
