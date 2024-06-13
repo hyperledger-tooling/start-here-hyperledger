@@ -14,6 +14,170 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7221" class=".btn">#7221</a>
+            </td>
+            <td>
+                <b>
+                    Handle invalid snap getTrieNode requests with empty paths gracefully
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Handle invalid requests with empty paths for GetTrieNode snapsync server requests more gracefully and return an empty response instead of throwing an `ArrayIndexOutOfBoundsException`, catching this and returning an empty response.
+
+In the snapsync server handling of `GetTrieNodes` message we are assuming that there is at least one path in the request. When there is an invalid request with no paths we fail with an `ArrayIndexOutOfBoundsException`.
+
+```
+2024-06-12 03:26:15.257+00:00 | nioEventLoopGroup-3-9 | ERROR | SnapServer | Unexpected exception serving trienodes request
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/java.util.ImmutableCollections$ListN.get(ImmutableCollections.java:687)
+	at org.hyperledger.besu.ethereum.eth.manager.snap.SnapServer.lambda$constructGetTrieNodesResponse$23(SnapServer.java:549)
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 00:41:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7219" class=".btn">#7219</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Update Dockerfile - reuse NO_PROXY_CACHE env (#7203)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit dfe256e6478a91122e40adda928a71e1353668f1.
+Reverts https://github.com/hyperledger/besu/pull/7203
+
+There's an issue running docker develop workflow
+
+https://github.com/hyperledger/besu/actions/runs/9491467523
+
+```
+Run docker run --rm -i hadolint/hadolint < docker/Dockerfile
+Unable to find image 'hadolint/hadolint:latest' locally
+latest: Pulling from hadolint/hadolint
+db4123164570: Pulling fs layer
+db4123164570: Download complete
+db4123164570: Pull complete
+Digest: sha256:fff226bdf9ebcc08db47fb90ee144dd770120b35c2b1cbbb46e932a650cfe232
+Status: Downloaded newer image for hadolint/hadolint:latest
+-:7 DL3008 warning: Pin versions in apt get install. Instead of `apt-get install <package>` use `apt-get install <package>=<version>`
+Error: Process completed with exit code 1.
+```
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 00:25:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7216" class=".btn">#7216</a>
+            </td>
+            <td>
+                <b>
+                    Add container security scanning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Container security scanning workflow added. This runs on schedule everyday. Also possible to run on-demand for a given image tag. This replace the CircleCI job running container scan daily. Schedule job only runs for the tag `develop`.
+
+## Fixed Issue(s)
+fixes #7154
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 00:04:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7215" class=".btn">#7215</a>
             </td>
             <td>
