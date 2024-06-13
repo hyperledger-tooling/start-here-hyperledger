@@ -1,13 +1,13 @@
 
-[4725](https://github.com/hyperledger/iroha/pull/4725) fix: Make `iroha_smart_contract_utils` `log` and `dbg` functions work outside of wasm
+[514](https://github.com/hyperledger/fabric-test/pull/514) Update github actions to use Node 20
 
-[272](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/272) Hyperledger Signare lab proposal
+[513](https://github.com/hyperledger/fabric-test/pull/513) Bump chaincode integration tool version to 0.8.2
 
-[4724](https://github.com/hyperledger/iroha/pull/4724) refactor(genesis)!: remove _id and _file suffix from genesis fields
+[450](https://github.com/hyperledger-labs/fablo/pull/450) Remove dev dependencies on chaincode installation
 
-[4723](https://github.com/hyperledger/iroha/pull/4723) fix(swarm): remove `_id` suffix from docker-compose files
+[512](https://github.com/hyperledger/fabric-test/pull/512) Bump grpc-js to 1.10.9
 
-[585](https://github.com/hyperledger-labs/fabric-smart-client/pull/585) F dig
+[71](https://github.com/hyperledger-labs/governance/pull/71) new lab steward - Esteban
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

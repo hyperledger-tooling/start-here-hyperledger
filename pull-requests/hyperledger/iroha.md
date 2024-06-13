@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4728" class=".btn">#4728</a>
+            </td>
+            <td>
+                <b>
+                    fix: Introduce p2p idle timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Backport of #4398.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4267 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+No problem with connectivity on rc20.
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 14:20:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4725" class=".btn">#4725</a>
             </td>
             <td>
@@ -822,128 +875,6 @@ Struct fields could be accessed from wasm or client.
     </table>
     <div class="right-align">
         Created At 2024-06-07 07:59:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4706" class=".btn">#4706</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps-dev): bump pylint from 3.2.2 to 3.2.3 in /client_cli/pytests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [pylint](https://github.com/pylint-dev/pylint) from 3.2.2 to 3.2.3.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/pylint-dev/pylint/commit/918d2168e15662df90cfb993df100e566f69d418"><code>918d216</code></a> Bump pylint to 3.2.3, update changelog</li>
-<li><a href="https://github.com/pylint-dev/pylint/commit/8aba7d1ccca0552f2e47183bd748e4a535926b05"><code>8aba7d1</code></a> Fix false positive in <code>use-yield-from</code> when using <code>yield</code> return (<a href="https://redirect.github.com/pylint-dev/pylint/issues/9700">#9700</a>) (<a href="https://redirect.github.com/pylint-dev/pylint/issues/9701">#9701</a>)</li>
-<li><a href="https://github.com/pylint-dev/pylint/commit/192727b7b30c7fb4e261518a55b4fe75a1027b64"><code>192727b</code></a> [multiple-statements] Make pylint compatible with black's 2024 style (<a href="https://redirect.github.com/pylint-dev/pylint/issues/9697">#9697</a>) ...</li>
-<li><a href="https://github.com/pylint-dev/pylint/commit/7e5e4f9a4bdca1af4f32f981d11ee42bfc6f5f3d"><code>7e5e4f9</code></a> Fix a false positive for <code>redefined-outer-name</code> (<a href="https://redirect.github.com/pylint-dev/pylint/issues/9678">#9678</a>) (<a href="https://redirect.github.com/pylint-dev/pylint/issues/9695">#9695</a>)</li>
-<li>See full diff in <a href="https://github.com/pylint-dev/pylint/compare/v3.2.2...v3.2.3">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pylint&package-manager=pip&previous-version=3.2.2&new-version=3.2.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 16:10:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4705" class=".btn">#4705</a>
-            </td>
-            <td>
-                <b>
-                    fix: add missing getters for data model structs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Add missing getters.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4420 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Struct fields could be accessed from wasm or client.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 13:49:02 +0000 UTC
     </div>
 </div>
 

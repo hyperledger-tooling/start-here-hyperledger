@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    new lab steward - Esteban
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 15:57:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/governance/pull/70" class=".btn">#70</a>
             </td>
             <td>

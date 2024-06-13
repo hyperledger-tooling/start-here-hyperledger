@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/425" class=".btn">#425</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/428" class=".btn">#428</a>
             </td>
             <td>
                 <b>
-                    Update versions following v2.5.5 release
+                    Update gRPC dependency to address CVE-2024-37168
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                <nil>
+                Bump grpc-js to 1.10.9.
+Bump fabric-protos to 0.2.1.
+Remove unused proto-loader.
+
+Used `rush update` command.
+
+Closes #427 
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-03 16:36:16 +0000 UTC
+        Created At 2024-06-13 15:00:57 +0000 UTC
     </div>
 </div>
 

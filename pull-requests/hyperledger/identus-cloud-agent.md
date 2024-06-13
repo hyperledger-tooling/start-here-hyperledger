@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1154" class=".btn">#1154</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1157" class=".btn">#1157</a>
             </td>
             <td>
                 <b>
-                    fix: update issuer auth server model parity
+                    fix: pick right key type when creating corresponding issuer
                 </b>
             </td>
         </tr>
@@ -29,8 +29,9 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
             <td>
                 ### Description: 
 
-`CredentialIssuer` update api should have parity with the create model. Added a `client_id` and `client_secret` patch. 
+In integration-test, we start to create multiple key types inside the DID document. This result in flaky test since the way we pick key is not filtered by key types, so sometime we pick the wrong key and fail the test. 
 
+https://github.com/hyperledger/identus-cloud-agent/actions/runs/9414449925
 
 ### Alternatives Considered (optional): 
 Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
@@ -47,7 +48,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-06 13:32:01 +0000 UTC
+        Created At 2024-06-07 09:41:44 +0000 UTC
     </div>
 </div>
 
