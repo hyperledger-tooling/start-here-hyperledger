@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    Bump private-data-objects from `6a30f64` to `37ab11b`
+                    Bump private-data-objects from `6a30f64` to `214e656`
                 </b>
             </td>
         </tr>
@@ -27,16 +27,17 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [private-data-objects](https://github.com/hyperledger-labs/private-data-objects) from `6a30f64` to `37ab11b`.
+                Bumps [private-data-objects](https://github.com/hyperledger-labs/private-data-objects) from `6a30f64` to `214e656`.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/214e656641b12bc769580e53ae6b436378ac1ac3"><code>214e656</code></a> small docker fixes to fix loglevel switch in tools</li>
 <li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/37ab11beaa4b5f68eb237ef2ac3deacdd12c5380"><code>37ab11b</code></a> Change the default value of PDO_DEBUG_BUILD to 1.</li>
 <li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/b6fd980ca3e89f1e2446850980db817354bed82e"><code>b6fd980</code></a> Port eservice build updates to pservice.</li>
 <li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/02ee00a93e4a96184a69ba156eeb8411f5a97bea"><code>02ee00a</code></a> Add sgx flag checks to pservice.</li>
 <li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/1f34ce025e0b9c26155d2c614a0e729535e83257"><code>1f34ce0</code></a> Update PDO TP with more sgx attestation checks.</li>
 <li><a href="https://github.com/hyperledger-labs/private-data-objects/commit/c876a5eae6866837dca5c01be4101d6b2b523e30"><code>c876a5e</code></a> Make the sgx debug flag dependent on PDO_DEBUG_BUILD.</li>
-<li>See full diff in <a href="https://github.com/hyperledger-labs/private-data-objects/compare/6a30f6426883c22760dd9bd5eef452e9db5b3692...37ab11beaa4b5f68eb237ef2ac3deacdd12c5380">compare view</a></li>
+<li>See full diff in <a href="https://github.com/hyperledger-labs/private-data-objects/compare/6a30f6426883c22760dd9bd5eef452e9db5b3692...214e656641b12bc769580e53ae6b436378ac1ac3">compare view</a></li>
 </ul>
 </details>
 <br />
@@ -72,7 +73,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-30 01:17:50 +0000 UTC
+        Created At 2024-06-13 01:32:29 +0000 UTC
     </div>
 </div>
 
