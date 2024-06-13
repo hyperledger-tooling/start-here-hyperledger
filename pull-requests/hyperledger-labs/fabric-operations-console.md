@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/740" class=".btn">#740</a>
+            </td>
+            <td>
+                <b>
+                    update node version from 18 to 20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Nodejs version update
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Nodejs version update from 18 to 20
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 06:31:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/739" class=".btn">#739</a>
             </td>
             <td>
@@ -432,41 +468,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-06-07 08:12:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/727" class=".btn">#727</a>
-            </td>
-            <td>
-                <b>
-                    Updated carbon library v10 to v11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Carbon UI updation
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-- Update carbon UI by v11
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 09:55:27 +0000 UTC
     </div>
 </div>
 
