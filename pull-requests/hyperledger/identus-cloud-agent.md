@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1153" class=".btn">#1153</a>
+            </td>
+            <td>
+                <b>
+                    style: apply linters automatic fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 11:51:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1149" class=".btn">#1149</a>
             </td>
             <td>
@@ -137,32 +163,6 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
     </table>
     <div class="right-align">
         Created At 2024-06-06 05:37:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1146" class=".btn">#1146</a>
-            </td>
-            <td>
-                <b>
-                    style: apply linters automatic fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-05 22:34:55 +0000 UTC
     </div>
 </div>
 
