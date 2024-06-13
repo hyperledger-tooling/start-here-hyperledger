@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/271" class=".btn">#271</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/272" class=".btn">#272</a>
             </td>
             <td>
                 <b>
-                    Add new stewards approved on May 23, 2024
+                    Hyperledger Signare lab proposal
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                <nil>
+                # Hyperledger Signare
+Signare, a Hyperledger Lab, is an enterprise grade digital signing solution for DLT related applications and Ethereum client
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-23 15:55:37 +0000 UTC
+        Created At 2024-06-13 11:04:25 +0000 UTC
     </div>
 </div>
 

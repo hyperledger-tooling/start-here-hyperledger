@@ -1,13 +1,13 @@
 
-[50](https://github.com/hyperledger-labs/pdo-contracts/pull/50) Bump private-data-objects from `6a30f64` to `214e656`
+[4725](https://github.com/hyperledger/iroha/pull/4725) fix: Make `iroha_smart_contract_utils` `log` and `dbg` functions work outside of wasm
 
-[7221](https://github.com/hyperledger/besu/pull/7221) Handle invalid snap getTrieNode requests with empty paths gracefully
+[272](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/272) Hyperledger Signare lab proposal
 
-[7219](https://github.com/hyperledger/besu/pull/7219) Revert "Update Dockerfile - reuse NO_PROXY_CACHE env (#7203)"
+[4724](https://github.com/hyperledger/iroha/pull/4724) refactor(genesis)!: remove _id and _file suffix from genesis fields
 
-[7216](https://github.com/hyperledger/besu/pull/7216) Add container security scanning
+[4723](https://github.com/hyperledger/iroha/pull/4723) fix(swarm): remove `_id` suffix from docker-compose files
 
-[469](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/469) build(deps): Bump the npm_and_yarn group across 1 directory with 2 updates
+[585](https://github.com/hyperledger-labs/fabric-smart-client/pull/585) F dig
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

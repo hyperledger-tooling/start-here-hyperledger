@@ -14,81 +14,11 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1153" class=".btn">#1153</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1154" class=".btn">#1154</a>
             </td>
             <td>
                 <b>
-                    style: apply linters automatic fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 11:51:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1149" class=".btn">#1149</a>
-            </td>
-            <td>
-                <b>
-                    docs: updating the hdkey ADR  [skip ci] 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">docs</span>
-            </td>
-            <td>
-                
-### Description: 
-Updating the ADR to reflect the recent changes in bip32 derivation. 
-
-Mainly, secp256k1 stays the same.
-We introduce now HDKeys for Ed25519, those will be using  different bip32 implementation.
-
-The ADR changes are to reflect this but no more changes have been done to the derivationPath specification.
-
-Requires no cloud agent changes as that is already implemented.
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 11:16:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1148" class=".btn">#1148</a>
-            </td>
-            <td>
-                <b>
-                    feat: authentication for oid4vci credential and nonce endpoint
+                    fix: update issuer auth server model parity
                 </b>
             </td>
         </tr>
@@ -99,11 +29,8 @@ Requires no cloud agent changes as that is already implemented.
             <td>
                 ### Description: 
 
-- Keycloak plugin add access token when getting nonce from the agent
-- oid4vci nonce endpoint has authenticator based on `issuer_state`
-- oid4vci credential endpoint has authenticator based on `issuer_id`
-- Add authorization server `client_id` and `client_secret` option when creating `CredentialIssuer`
-- `ExtendedErrorResponse` has correct `Schema`, `Encoder`, and `Decoder`
+`CredentialIssuer` update api should have parity with the create model. Added a `client_id` and `client_secret` patch. 
+
 
 ### Alternatives Considered (optional): 
 Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
@@ -120,7 +47,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-06 07:43:40 +0000 UTC
+        Created At 2024-06-06 13:32:01 +0000 UTC
     </div>
 </div>
 

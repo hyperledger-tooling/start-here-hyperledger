@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7223" class=".btn">#7223</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add network option for LUKSO Mainnet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+This PR provides an option to connect to [LUKSO Mainnet](https://www.lukso.network/) network, using `--network=lukso` flag.
+
+## Fixed Issue(s)
+
+No matching issues 
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [X] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [X] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [X] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 09:24:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7222" class=".btn">#7222</a>
+            </td>
+            <td>
+                <b>
+                    Add build version option to prefix git hash with custom version property
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Adds the option to provide a custom version prefix at build time that will be prefixed to the git hash. Currently a custom version can't include the githash. This follows on from some recent version refactoring in https://github.com/hyperledger/besu/pull/6699
+
+Specifically it allows for `-Pversionprefix=24.5.2` to result in a version like `v24.5.2-16ff080`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 09:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7221" class=".btn">#7221</a>
             </td>
             <td>

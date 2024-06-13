@@ -14,6 +14,165 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4725" class=".btn">#4725</a>
+            </td>
+            <td>
+                <b>
+                    fix: Make `iroha_smart_contract_utils` `log` and `dbg` functions work outside of wasm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+This PR adds support for `iroha_smart_contract_utils`'s `log` and `dbg` functions to be used outside of wasm. This allows writing tests to be ran against the host target and to still use those wasm-specific functions.
+
+Both implementations just print the requested object to stderr.
+
+As a drive-by, this also makes sure to run wasm tests from `iroha_smart_contract_utils`, which was omitted in CI for some time.
+
+### Linked issue
+
+Fixes #4721
+
+### Benefits
+
+- [ ] make CI pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 11:56:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4724" class=".btn">#4724</a>
+            </td>
+            <td>
+                <b>
+                    refactor(genesis)!: remove _id and _file suffix from genesis fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 11:00:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4723" class=".btn">#4723</a>
+            </td>
+            <td>
+                <b>
+                    fix(swarm): remove `_id` suffix from docker-compose files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 10:57:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4719" class=".btn">#4719</a>
             </td>
             <td>
@@ -36,7 +195,6 @@ Reimplement most of Swarm generation logic, optimize the generated Compose confi
 - declutters schema code
 - removes almost all clones
 - optimizes Compose config: builds/pulls image only once instead of per peer (this has caused sigkills during builds)
-- fixes placeholder replacement in `kagami genesis sign` params
 - allows writing to any `std::io::Write` instead of just files
   - adds an option to print the config to stdout (used in CI to check config updates)
 
@@ -786,104 +944,6 @@ Struct fields could be accessed from wasm or client.
     </table>
     <div class="right-align">
         Created At 2024-06-06 13:49:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4701" class=".btn">#4701</a>
-            </td>
-            <td>
-                <b>
-                    refactor: remove index Assets in AssetsMap by AssetDefinitionId
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-AssetsMap stores assets for a particular account, so indexing them via AssetId (which is AccountId + AssetDefinitionId) is redundant
-
-Also remove some unnecessary AccoundId clones
-
-### Linked issue
-
-Closes #4700
-
-### Benefits
-
-A bit more efficient, allows for more efficient implementations testing whether an account has some asset or not.
-
-### Checklist
-
-- [ ] make CI pass
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 10:44:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4699" class=".btn">#4699</a>
-            </td>
-            <td>
-                <b>
-                    refactor(irohad): always start torii as task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Simplify iroha startup + fix in integration test.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4562 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Simpler code.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 08:56:19 +0000 UTC
     </div>
 </div>
 
