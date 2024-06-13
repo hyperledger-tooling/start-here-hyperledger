@@ -64,29 +64,3 @@ This diagram also replaces the term "SV App", which was used to the describe the
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/13" class=".btn">#13</a>
-            </td>
-            <td>
-                <b>
-                    github: Enable syntax highlighting for Daml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is done by making GitHub believe it's Haskell
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 02:37:52 +0000 UTC
-    </div>
-</div>
-
