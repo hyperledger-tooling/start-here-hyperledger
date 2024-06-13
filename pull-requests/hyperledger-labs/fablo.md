@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/448" class=".btn">#448</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/450" class=".btn">#450</a>
             </td>
             <td>
                 <b>
-                    depricate test-03-private-data test
+                    Remove dev dependencies on chaincode installation
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                fixes #396 
-I have removed the test-03-private-data from the CI and have also renamed couple of files in CI as well as in script.
-- [x] Remove test-03-private-data check - both from CI and the whole test script
-- [x] Move private data checks to test-02-private-data
-- [x] Rename remaining checks, to keep naming consistent (i.e. either rename 04 to 03, or remove numbers entirely from names)
-- [ ] Update TEST_CASES.md to reflect the updated test cases
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-21 15:53:27 +0000 UTC
+        Created At 2024-06-13 17:50:16 +0000 UTC
     </div>
 </div>
 

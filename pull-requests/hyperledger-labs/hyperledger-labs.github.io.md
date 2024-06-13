@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
             </td>
             <td>
                 <b>
-                    Hyperledger Signare lab proposal
+                    Signare lab proposal
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                # Hyperledger Signare
+                # Signare
 Signare, a Hyperledger Lab, is an enterprise grade digital signing solution for DLT related applications and Ethereum client
 
             </td>
