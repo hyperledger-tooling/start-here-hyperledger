@@ -14,11 +14,92 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1157" class=".btn">#1157</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1159" class=".btn">#1159</a>
             </td>
             <td>
                 <b>
-                    fix: pick right key type when creating corresponding issuer
+                    build: protobuf dependency update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">build</span>
+            </td>
+            <td>
+                ## About this PR
+Updates:
+
+* 📦 [com.thesamet.scalapb:compilerplugin](https://github.com/scalapb/ScalaPB) from `0.11.15` to `0.11.17`
+  + 📜 [GitHub Release Notes](https://github.com/scalapb/ScalaPB/releases/tag/v0.11.17) - [Changelog](https://github.com/scalapb/ScalaPB/blob/master/CHANGELOG.md) - [Version Diff](https://github.com/scalapb/ScalaPB/compare/v0.11.15...v0.11.17)
+* 📦 [com.thesamet.scalapb:scalapb-runtime-grpc](https://github.com/scalapb/ScalaPB) from `0.11.15` to `0.11.17`
+  + 📜 [GitHub Release Notes](https://github.com/scalapb/ScalaPB/releases/tag/v0.11.17) - [Changelog](https://github.com/scalapb/ScalaPB/blob/master/CHANGELOG.md) - [Version Diff](https://github.com/scalapb/ScalaPB/compare/v0.11.15...v0.11.17)
+
+## Usage
+✅ **Please merge!**
+
+I'll automatically update this PR to resolve conflicts as long as you don't change it yourself.
+
+If you have any feedback, just mention me in the comments below.
+
+Configure Scala Steward for your repository with a [`.scala-steward.conf`](https://github.com/scala-steward-org/scala-steward/blob/767fcfecbfd53c507152f6cf15c846176bae561d/docs/repo-specific-configuration.md) file.
+
+_Have a fantastic day writing Scala!_
+
+<details>
+<summary>🔍 Files still referring to the old version numbers</summary>
+
+The following files still refer to the old version numbers.
+You might want to review and update them manually.
+```
+DEPENDENCIES.md
+```
+</details>
+<details>
+<summary>⚙ Adjust future updates</summary>
+
+Add these to your `.scala-steward.conf` file to ignore future updates of these dependencies:
+```
+updates.ignore = [
+  { groupId = "com.thesamet.scalapb", artifactId = "compilerplugin" },
+  { groupId = "com.thesamet.scalapb", artifactId = "scalapb-runtime-grpc" }
+]
+```
+Or, add these to slow down future updates of these dependencies:
+```
+dependencyOverrides = [
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "com.thesamet.scalapb", artifactId = "compilerplugin" }
+  },
+  {
+    pullRequests = { frequency = "30 days" },
+    dependency = { groupId = "com.thesamet.scalapb", artifactId = "scalapb-runtime-grpc" }
+  }
+]
+```
+</details>
+
+<sup>
+labels: library-update, early-semver-minor, semver-spec-patch, version-scheme:early-semver, old-version-remains, commit-count:1
+</sup>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-09 00:19:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1158" class=".btn">#1158</a>
+            </td>
+            <td>
+                <b>
+                    fix: Update the Holder to send the presentation only, No claims to disclose is needed separately 
                 </b>
             </td>
         </tr>
@@ -28,11 +109,8 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
             </td>
             <td>
                 ### Description: 
-
-In integration-test, we start to create multiple key types inside the DID document. This result in flaky test since the way we pick key is not filtered by key types, so sometime we pick the wrong key and fail the test. 
-
-https://github.com/hyperledger/identus-cloud-agent/actions/runs/9414449925
-
+This change allows the Holder to make a presentation without sending the claims to be disclosed separately. As a result, the DIDComm attachment will only contain the presentation
+https://input-output.atlassian.net/browse/ATL-7240
 ### Alternatives Considered (optional): 
 Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
 
@@ -48,7 +126,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-07 09:41:44 +0000 UTC
+        Created At 2024-06-07 13:49:40 +0000 UTC
     </div>
 </div>
 
