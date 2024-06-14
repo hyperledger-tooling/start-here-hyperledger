@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/171" class=".btn">#171</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/172" class=".btn">#172</a>
             </td>
             <td>
                 <b>
-                    Remove scheduled vulnerability scan
+                    Use only v2.2.x packages in test chaincode
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Since the project is now deprecated, vulnerabilities are no longer being proactively fixed.
+                Newer v2.5 chaincode packages are not compatible with the v2.2 chaincode container. The test chaincode previously used the latest v2.x release of the chaincode packages. This change restricts use to only v2.2.x packages, matching the Fabric v2.2 version used for testing.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-13 12:52:30 +0000 UTC
+        Created At 2024-06-13 18:30:26 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3032" class=".btn">#3032</a>
+            </td>
+            <td>
+                <b>
+                    Prevent getting stuck with no active registry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a problem where it was possible to get stuck in a state where a new registry wouldn't become active or created after rotating occurred when the tails server was unavailable.
+
+Refactored some code in the revocation/indy module.
+
+I'm not super happy with querying all the rev reg defs to find the full and posted ones. Could use quite a bit more memory. Looking into a solution to only return the total number.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 18:58:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3029" class=".btn">#3029</a>
             </td>
             <td>

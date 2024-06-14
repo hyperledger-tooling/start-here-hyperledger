@@ -14,6 +14,104 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7228" class=".btn">#7228</a>
+            </td>
+            <td>
+                <b>
+                    fix: pin github actions in container security scan workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Repository follow standard to use git hash to pin the GitHub actions. Updated the container security scan workflow actions with their git hashes.
+
+## Fixed Issue(s)
+fix requested in [discord](https://discord.com/channels/905194001349627914/905205502940696607/1250837893040177175) message
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 21:18:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7227" class=".btn">#7227</a>
+            </td>
+            <td>
+                <b>
+                    Temporary CancunEOF fork for EOF testing.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add Genesis ("CancunEOFTime") and reference test ("CancunEOF") support
+for a temporary Cancun+EOF fork, in anticipation of potential devnets.
+
+Signed-off-by: Danno Ferrin <danno@numisight.com>
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-13 19:12:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7226" class=".btn">#7226</a>
             </td>
             <td>
@@ -134,7 +232,7 @@ Specifically it allows for `-Pversionprefix=24.5.2` to result in a version like 
             </td>
             <td>
                 ## PR description
-Handle invalid requests with empty paths for GetTrieNode snapsync server requests more gracefully and return an empty response instead of throwing an `ArrayIndexOutOfBoundsException`, catching this and returning an empty response.
+Make the logs clearer so there is no exception in the logs by handling invalid requests with empty paths for GetTrieNode snapsync server requests more gracefully. Currently, we throw an `ArrayIndexOutOfBoundsException` exception which is caught and we return an empty response. This PR still returns an empty response we just don't log this as an error in the logs with the exception.
 
 In the snapsync server handling of `GetTrieNodes` message we are assuming that there is at least one path in the request. When there is an invalid request with no paths we fail with an `ArrayIndexOutOfBoundsException`.
 
