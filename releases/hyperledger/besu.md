@@ -71,7 +71,7 @@ permalink: /releases/hyperledger/besu
 ### Upcoming Breaking Changes
 - Receipt compaction will be enabled by default in a future version of Besu. After this change it will not be possible to downgrade to the previous Besu version.
 - PKI-backed QBFT will be removed in a future version of Besu. Other forms of QBFT will remain unchanged.
-- --Xbonsai-limit-trie-logs-enabled is deprecated, use --bonsai-limit-trie-logs-enabled instead
+- --Xbonsai-limit-trie-logs-enabled (and --Xbonsai-trie-log-pruning-enabled) is deprecated, use --bonsai-limit-trie-logs-enabled instead
 - --Xbonsai-trie-logs-pruning-window-size is deprecated, use --bonsai-trie-logs-pruning-window-size instead
 - Receipt compaction will be enabled by default in a future version of Besu. After this change it will not be possible to downgrade to the previous Besu version.
 
