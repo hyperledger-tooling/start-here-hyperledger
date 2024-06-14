@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/591" class=".btn">#591</a>
+            </td>
+            <td>
+                <b>
+                    remove orion import from fabric platform
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvement</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 13:23:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/590" class=".btn">#590</a>
             </td>
             <td>
@@ -44,7 +70,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    Use `SerializedIdemixIdentity` proto def from idemix
+                    SchemaManager handles options for Verification and KeyImport
                 </b>
             </td>
         </tr>

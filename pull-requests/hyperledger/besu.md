@@ -1281,36 +1281,3 @@ fixes #5658
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7193" class=".btn">#7193</a>
-            </td>
-            <td>
-                <b>
-                    Promote --bonsai-limit-trie-logs-enabled to stable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also --bonsai-trie-logs-pruning-window-size
-
-Following https://github.com/hyperledger/besu/pull/7181 and https://github.com/hyperledger/besu/pull/7192
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-07 13:38:00 +0000 UTC
-    </div>
-</div>
-

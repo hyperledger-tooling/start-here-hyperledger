@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3033" class=".btn">#3033</a>
+            </td>
+            <td>
+                <b>
+                    :sparkles: Add pagination support for listing Connection, Cred Ex, and Pres Ex records
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Marking as draft to first confirm functionality works as expected
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 12:41:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3032" class=".btn">#3032</a>
             </td>
             <td>
@@ -57,7 +83,11 @@ I'm not super happy with querying all the rev reg defs to find the full and post
                 
             </td>
             <td>
-                <nil>
+                Repairs synchronization of the `IssuerCredRevRecord` revoke statuses with the `RevList` revocation list. The individual records will take precedence. Then if the `RevList` revocation list has revoked credentials that aren't on the ledger it will try to update the entry on the ledger and the accum value.
+
+Moves the recover module to the anoncreds indy_legacy directory because it's indy specific. Removes the usage of the credx module in anoncreds.
+
+Refactors some code.
             </td>
         </tr>
     </table>

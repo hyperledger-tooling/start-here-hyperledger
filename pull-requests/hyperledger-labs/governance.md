@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/73" class=".btn">#73</a>
+            </td>
+            <td>
+                <b>
+                    Remove tkuhrt from teams not part of
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 16:59:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/72" class=".btn">#72</a>
+            </td>
+            <td>
+                <b>
+                    Add signare
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 15:18:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/governance/pull/71" class=".btn">#71</a>
             </td>
             <td>
