@@ -14,6 +14,154 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4732" class=".btn">#4732</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Metadata became dynamic and consists of JsonString
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+* Removed MetadataValueBox
+* Added JsonString
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+* Closes #4353  <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 09:56:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4731" class=".btn">#4731</a>
+            </td>
+            <td>
+                <b>
+                    fix!: remove on-chain parameters from config and remove NewParameter ISI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span><span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+* remove `NewParametere` ISI
+* remove on-chain parameters from configuration
+* strong type on-chain parameters
+* removed `MetadataLimits` and `LenghtLimits` as built-in on-chain parameters (they can be defined as custom)
+
+Next PR will introduce Custom parameters
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 09:35:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4730" class=".btn">#4730</a>
+            </td>
+            <td>
+                <b>
+                    fix: update schema.json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Add missing types into the schema.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 08:58:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4728" class=".btn">#4728</a>
             </td>
             <td>
@@ -253,8 +401,8 @@ Reimplement most of Swarm generation logic, optimize the generated Compose confi
 
 ### Checklist
 
-- [x] 🚧 I've written unit tests for the code changes (some, rest are WIP)
-- [x] 🚧 Update usage of Swarm in CI
+- [x] I've written unit tests for the code changes=
+- [x] Update usage of Swarm in CI
 - [x] I've read `CONTRIBUTING.md`
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [x] All applicable CI checks pass (or I promised to make them pass later)
@@ -820,61 +968,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-10 16:27:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4707" class=".btn">#4707</a>
-            </td>
-            <td>
-                <b>
-                    fix: add missing getters for data model structs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span>
-            </td>
-            <td>
-                ## Description
-
-Add missing getters.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4420 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Struct fields could be accessed from wasm or client.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-07 07:59:27 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1650" class=".btn">#1650</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1651" class=".btn">#1651</a>
             </td>
             <td>
                 <b>
-                    Evaluate Comparison Expressions with Constant Operands during Compilation
+                    Appease rust 1.79 clippies
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                This patch supports evaluation of comparison expressions with constants as operands during compile time.
-
-Fixes #755 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-07 07:43:55 +0000 UTC
+        Created At 2024-06-14 09:03:02 +0000 UTC
     </div>
 </div>
 
