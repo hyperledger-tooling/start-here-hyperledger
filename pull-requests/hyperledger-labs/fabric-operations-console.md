@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/741" class=".btn">#741</a>
+            </td>
+            <td>
+                <b>
+                    library update issue fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+- HTML Rendering issue on re-enroll user
+- UI issue on peer detail page
+- Ordering service node detail page loading issue
+- Blank Ordering Service page is displayed navigating from ordering service node page
+- Add button alignment issue in Create Channel -> Organisations screen
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-14 20:28:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/740" class=".btn">#740</a>
             </td>
             <td>
