@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/74" class=".btn">#74</a>
+            </td>
+            <td>
+                <b>
+                    Resolve Clowarden flapping
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                alpha sort some repos
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-15 12:20:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/governance/pull/73" class=".btn">#73</a>
             </td>
             <td>
