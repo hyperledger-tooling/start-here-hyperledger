@@ -1,5 +1,5 @@
 
-[592](https://github.com/hyperledger-labs/fabric-smart-client/pull/592) F refactor test
+[74](https://github.com/hyperledger-labs/governance/pull/74) Resolve Clowarden flapping
 
 [494](https://github.com/hyperledger-labs/private-data-objects/pull/494) Update memory configurations and simplify specification 
 

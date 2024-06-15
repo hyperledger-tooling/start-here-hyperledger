@@ -14,58 +14,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/592" class=".btn">#592</a>
-            </td>
-            <td>
-                <b>
-                    F refactor test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-15 06:05:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/591" class=".btn">#591</a>
-            </td>
-            <td>
-                <b>
-                    remove orion import from fabric platform
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-14 13:23:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/590" class=".btn">#590</a>
             </td>
             <td>
@@ -189,34 +137,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2024-06-13 06:30:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/583" class=".btn">#583</a>
-            </td>
-            <td>
-                <b>
-                    refactor fabric platform for better customizability
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                This PR does the following: 
-- It refactors the common platform to have types under **driver**
-- It refactors the fabric platform to make more easy to create an alternative to the generic driver.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-11 08:18:48 +0000 UTC
     </div>
 </div>
 
