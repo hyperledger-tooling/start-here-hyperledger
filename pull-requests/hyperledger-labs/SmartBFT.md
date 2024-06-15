@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/SmartBFT
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/592" class=".btn">#592</a>
+                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/595" class=".btn">#595</a>
             </td>
             <td>
                 <b>
-                    refactoring for and delete github.com/pkg/errors
+                    bump google.golang.org/protobuf v1.34.2
                 </b>
             </td>
         </tr>
@@ -27,13 +27,64 @@ permalink: /pull-requests/hyperledger-labs/SmartBFT
                 
             </td>
             <td>
-                refactoring for and 
-delete archived package github.com/pkg/errors
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-21 17:58:50 +0000 UTC
+        Created At 2024-06-15 13:15:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/594" class=".btn">#594</a>
+            </td>
+            <td>
+                <b>
+                    up go in pipeline
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-15 12:52:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/SmartBFT/pull/593" class=".btn">#593</a>
+            </td>
+            <td>
+                <b>
+                    revert version go in go.mod for fabric
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-15 12:51:52 +0000 UTC
     </div>
 </div>
 
