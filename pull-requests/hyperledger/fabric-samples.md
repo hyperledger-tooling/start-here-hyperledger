@@ -30,6 +30,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 - Dependency updates
 - ESLint flat configuration format, replacing deprecated configuration
 - Minor fixes to compile and lint issues
+- Consistent TypeScript formatting with .editorconfig
             </td>
         </tr>
     </table>
