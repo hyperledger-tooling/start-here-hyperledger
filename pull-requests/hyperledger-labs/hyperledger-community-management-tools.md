@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/106" class=".btn">#106</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    Update SECURITY.md
+                    Add quarter-reports tool to generate quarter reports for the labs
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-07 18:37:10 +0000 UTC
-    </div>
-</div>
+                This PR includes a new tool called *quarter-reports* to help stewards generate a report for the quarter.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/105" class=".btn">#105</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+ 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-07 18:24:12 +0000 UTC
+        Created At 2024-06-16 16:50:51 +0000 UTC
     </div>
 </div>
 
