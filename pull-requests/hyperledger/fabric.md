@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4894" class=".btn">#4894</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4895" class=".btn">#4895</a>
             </td>
             <td>
                 <b>
-                    bump google.golang.org/protobuf v1.34.2
+                    bump github.com/stretchr/testify v1.9.0
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-16 05:44:14 +0000 UTC
+        Created At 2024-06-16 07:01:03 +0000 UTC
     </div>
 </div>
 
@@ -181,78 +181,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2024-06-10 21:29:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4889" class=".btn">#4889</a>
-            </td>
-            <td>
-                <b>
-                    chore: make function comments match function names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-
-- Documentation update
-
-#### Description
-
-make function comments match function names
-
-<!--- Describe your changes in detail, including motivation. -->
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Github issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-09 11:17:22 +0000 UTC
     </div>
 </div>
 

@@ -1,5 +1,5 @@
 
-[4894](https://github.com/hyperledger/fabric/pull/4894) bump google.golang.org/protobuf v1.34.2
+[4895](https://github.com/hyperledger/fabric/pull/4895) bump github.com/stretchr/testify v1.9.0
 
 [7233](https://github.com/hyperledger/besu/pull/7233) check initcode size earlier
 
