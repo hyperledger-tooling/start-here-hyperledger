@@ -14,6 +14,42 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4703" class=".btn">4703</a>
+            </td>
+            <td>
+                <b>
+                    remove `Sealed` trait from `Instruction` supertraits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">good first issue</span>
+            </td>
+            <td>
+                > To use `client.submit()` for `CustomInstructionExpr`, it is necessary for `CustomInstructionExpr` to implement `Instruction` and `Sealed` traits. This will require some changes to iroha_data_model (at least make `Sealed` trait public). I am not sure if it is worth it.
+> 
+> Currently I added `pub fn into_instruction(self) -> InstructionBox` method to `CustomInstructionExpr`, so it is possible to write:
+> 
+> ```rust
+> let isi = CustomInstructionExpr::If(...);
+> client.submit_blocking(isi.into_instruction())?;
+> ```
+
+_Originally posted by @dima74 in https://github.com/hyperledger/iroha/pull/4645#discussion_r1626440158_
+            
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 11:20:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/4511" class=".btn">4511</a>
             </td>
             <td>
