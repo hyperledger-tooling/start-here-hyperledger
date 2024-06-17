@@ -1,13 +1,13 @@
 
-[425](https://github.com/hyperledger/iroha-java/pull/425) Bump gradle/gradle-build-action from 2.3.3 to 3.4.1
+[747](https://github.com/hyperledger-labs/fabric-operations-console/pull/747) Certificate expire warning issue fix for imported component
 
-[743](https://github.com/hyperledger-labs/fabric-operations-console/pull/743) update nodejs version
+[3038](https://github.com/hyperledger/aries-cloudagent-python/pull/3038) chore(deps): Bump marshmallow from 3.20.2 to 3.21.3
 
-[4896](https://github.com/hyperledger/fabric/pull/4896) bump go.uber.org/zap v1.27.0
+[3037](https://github.com/hyperledger/aries-cloudagent-python/pull/3037) chore(deps): Bump packaging from 23.1 to 23.2
 
-[594](https://github.com/hyperledger-labs/fabric-smart-client/pull/594) F tracer
+[3036](https://github.com/hyperledger/aries-cloudagent-python/pull/3036) chore(deps): Bump mkdocs-material from 9.5.10 to 9.5.27
 
-[107](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/107) Add quarter-reports tool to generate quarter reports for the labs
+[3035](https://github.com/hyperledger/aries-cloudagent-python/pull/3035) chore(deps): Bump configargparse from 1.5.5 to 1.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
