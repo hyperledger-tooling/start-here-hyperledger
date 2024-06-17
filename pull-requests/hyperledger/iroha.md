@@ -77,7 +77,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             </td>
             <td>
                 <b>
-                    refactor: Metadata became dynamic and consists of JsonString
+                    refactor: Make the metadata dynamic via implementing JsonString
                 </b>
             </td>
         </tr>
