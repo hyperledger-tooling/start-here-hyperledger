@@ -28,9 +28,11 @@ permalink: /pull-requests/hyperledger/web3j
             </td>
             <td>
                 ### What does this PR do?
- After fixing https://github.com/hyperledger/web3j/pull/2061, there is still an edge case where array of struct and struct are used together in the same contract e.g `Foo` and `Foo[2]`
+ After fixing https://github.com/hyperledger/web3j/pull/2061, there is still an edge case where array of struct and struct are used together in the same contract e.g `Foo` and `Foo[2]`. Fix this by having `normalizeNamedType` to take care of static array
 
-Also, structIdentifer is using hashCode which does not have uniqueness Property, it could subject to quite significant collision
+Also, structIdentifer is using hashCode which does not have uniqueness Property, it could subject to quite significant collision.
+
+This should also fix https://github.com/hyperledger/web3j/issues/2056. Added test case for the example in the issue
 
 ### Where should the reviewer start?
 All files

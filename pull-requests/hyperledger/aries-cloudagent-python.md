@@ -14,6 +14,624 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3038" class=".btn">#3038</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump marshmallow from 3.20.2 to 3.21.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [marshmallow](https://github.com/marshmallow-code/marshmallow) from 3.20.2 to 3.21.3.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/marshmallow-code/marshmallow/blob/dev/CHANGELOG.rst">marshmallow's changelog</a>.</em></p>
+<blockquote>
+<p>3.21.3 (2024-06-05)</p>
+<hr />
+<p>Bug fixes:</p>
+<ul>
+<li>Fix memory leak that prevented schema instances from getting GC'd (:pr:<code>2277</code>).
+Thanks :user:<code>mrcljx</code> for the PR.</li>
+</ul>
+<p>3.21.2 (2024-05-01)</p>
+<hr />
+<p>Bug fixes:</p>
+<ul>
+<li>Allow timestamp 0 in <code>fields.DateTime</code> (:issue:<code>2133</code>).
+Thanks :user:<code>flydzen</code> for reporting.</li>
+</ul>
+<p>3.21.1 (2024-03-04)</p>
+<hr />
+<p>Bug fixes:</p>
+<ul>
+<li>Fix error message when field is declared as a class and not an instance (:issue:<code>2245</code>).
+Thanks :user:<code>travnick</code> for reporting.</li>
+</ul>
+<p>3.21.0 (2024-02-26)</p>
+<hr />
+<p>Bug fixes:</p>
+<ul>
+<li>Fix validation of <code>URL</code> fields to allow missing user field,
+per NWG RFC 3986 (:issue:<code>2232</code>). Thanks :user:<code>ddennerline3</code> for reporting
+and :user:<code>deckar01</code> for the PR.</li>
+</ul>
+<p>Other changes:</p>
+<ul>
+<li><em>Backwards-incompatible</em>: <code>__version__</code>, <code>__parsed_version__</code>, and <code>__version_info__</code>
+attributes are deprecated (:issue:<code>2227</code>). Use feature detection or
+<code>importlib.metadata.version(&quot;marshmallow&quot;)</code> instead.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/b9646e326c511c11fc07aef4aa0004c14a5d454c"><code>b9646e3</code></a> Bump version and update changelog</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/99103a675fa469c05ea93c4cbc91d47fd5556eee"><code>99103a6</code></a> Remove leaky lru_cache (<a href="https://redirect.github.com/marshmallow-code/marshmallow/issues/2277">#2277</a>)</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/47205b5c4f89794341eebbbbd0e39b765c4c8bbe"><code>47205b5</code></a> [pre-commit.ci] pre-commit autoupdate (<a href="https://redirect.github.com/marshmallow-code/marshmallow/issues/2276">#2276</a>)</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/aaecd5b02dc46b068e30964edbfb8d91d1eab3db"><code>aaecd5b</code></a> [pre-commit.ci] pre-commit autoupdate</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/c592536b649fab0bbfb4bc3f84b65577a13b8ca2"><code>c592536</code></a> [pre-commit.ci] pre-commit autoupdate (<a href="https://redirect.github.com/marshmallow-code/marshmallow/issues/2269">#2269</a>)</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/ee0c903c3c1ea6ee4e00b9565ab2556da996b6de"><code>ee0c903</code></a> [pre-commit.ci] pre-commit autoupdate</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/d4fd5a4abbb556e337afde6b46bf3a37ab7100f9"><code>d4fd5a4</code></a> [pre-commit.ci] pre-commit autoupdate</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/511b8c5354929b78b63d57578556443e41f8293f"><code>511b8c5</code></a> Bump version and update changelog</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/03f56a4f0fae9e650028227be265b5786b0575a9"><code>03f56a4</code></a> Merge pull request <a href="https://redirect.github.com/marshmallow-code/marshmallow/issues/2264">#2264</a> from marshmallow-code/allow_timestamp_0</li>
+<li><a href="https://github.com/marshmallow-code/marshmallow/commit/58fbbcd3446ade39ea3be83ce9ee9170acf0230b"><code>58fbbcd</code></a> Encapsulate timestamp boolean check in utils</li>
+<li>Additional commits viewable in <a href="https://github.com/marshmallow-code/marshmallow/compare/3.20.2...3.21.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=marshmallow&package-manager=pip&previous-version=3.20.2&new-version=3.21.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-17 12:07:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3037" class=".btn">#3037</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump packaging from 23.1 to 23.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [packaging](https://github.com/pypa/packaging) from 23.1 to 23.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pypa/packaging/releases">packaging's releases</a>.</em></p>
+<blockquote>
+<h2>23.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>parse_marker should consume the entire source string by <a href="https://github.com/mwerschy"><code>@​mwerschy</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/687">pypa/packaging#687</a></li>
+<li>Create a Security Policy file  by <a href="https://github.com/joycebrum"><code>@​joycebrum</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/695">pypa/packaging#695</a></li>
+<li>Add python 3.12 to CI by <a href="https://github.com/mayeut"><code>@​mayeut</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/689">pypa/packaging#689</a></li>
+<li>Remove URL validation from requirement parsing by <a href="https://github.com/uranusjr"><code>@​uranusjr</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/684">pypa/packaging#684</a></li>
+<li>Add types for packaging.version._Version by <a href="https://github.com/hauntsaninja"><code>@​hauntsaninja</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/665">pypa/packaging#665</a></li>
+<li>Add PyPy 3.10 to CI by <a href="https://github.com/mayeut"><code>@​mayeut</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/699">pypa/packaging#699</a></li>
+<li>Remove unused argument in <code>_manylinux._is_compatible</code> by <a href="https://github.com/mayeut"><code>@​mayeut</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/700">pypa/packaging#700</a></li>
+<li>Canonicalize names for requirements comparison by <a href="https://github.com/astrojuanlu"><code>@​astrojuanlu</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/696">pypa/packaging#696</a></li>
+<li>Add platform tag support for LoongArch by <a href="https://github.com/loongson-zn"><code>@​loongson-zn</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/693">pypa/packaging#693</a></li>
+<li>Ability to install <code>armv7l manylinux/musllinux</code> wheels on <code>armv8l</code> by <a href="https://github.com/mayeut"><code>@​mayeut</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/690">pypa/packaging#690</a></li>
+<li>Include CHANGELOG.rst in sdist by <a href="https://github.com/astrojuanlu"><code>@​astrojuanlu</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/704">pypa/packaging#704</a></li>
+<li>Update pyupgrade to Python 3.7+ by <a href="https://github.com/fangchenli"><code>@​fangchenli</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/580">pypa/packaging#580</a></li>
+<li>Fix version pattern pre-releases by <a href="https://github.com/deathaxe"><code>@​deathaxe</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/705">pypa/packaging#705</a></li>
+<li>Fix typos found by codespell by <a href="https://github.com/DimitriPapadopoulos"><code>@​DimitriPapadopoulos</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/706">pypa/packaging#706</a></li>
+<li>Support enriched metadata by <a href="https://github.com/brettcannon"><code>@​brettcannon</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/686">pypa/packaging#686</a></li>
+<li>Correct rST syntax in CHANGELOG.rst by <a href="https://github.com/atugushev"><code>@​atugushev</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/709">pypa/packaging#709</a></li>
+<li>fix: platform tag for GraalPy by <a href="https://github.com/mayeut"><code>@​mayeut</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/711">pypa/packaging#711</a></li>
+<li>Document that this library uses a calendar-based versioning scheme by <a href="https://github.com/faph"><code>@​faph</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/717">pypa/packaging#717</a></li>
+<li>fix: Update copyright date for docs by <a href="https://github.com/garrypolley"><code>@​garrypolley</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/713">pypa/packaging#713</a></li>
+<li>Bump pip version to avoid known vulnerabilities by <a href="https://github.com/joycebrum"><code>@​joycebrum</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/720">pypa/packaging#720</a></li>
+<li>Typing annotations fixed in version.py by <a href="https://github.com/jolaf"><code>@​jolaf</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/723">pypa/packaging#723</a></li>
+<li>parse_{sdist,wheel}_filename: don't raise InvalidVersion by <a href="https://github.com/SpecLad"><code>@​SpecLad</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/721">pypa/packaging#721</a></li>
+<li>Fix code blocks in CHANGELOG.md by <a href="https://github.com/edmorley"><code>@​edmorley</code></a> in <a href="https://redirect.github.com/pypa/packaging/pull/724">pypa/packaging#724</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/mwerschy"><code>@​mwerschy</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/687">pypa/packaging#687</a></li>
+<li><a href="https://github.com/joycebrum"><code>@​joycebrum</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/695">pypa/packaging#695</a></li>
+<li><a href="https://github.com/astrojuanlu"><code>@​astrojuanlu</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/696">pypa/packaging#696</a></li>
+<li><a href="https://github.com/loongson-zn"><code>@​loongson-zn</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/693">pypa/packaging#693</a></li>
+<li><a href="https://github.com/fangchenli"><code>@​fangchenli</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/580">pypa/packaging#580</a></li>
+<li><a href="https://github.com/deathaxe"><code>@​deathaxe</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/705">pypa/packaging#705</a></li>
+<li><a href="https://github.com/DimitriPapadopoulos"><code>@​DimitriPapadopoulos</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/706">pypa/packaging#706</a></li>
+<li><a href="https://github.com/atugushev"><code>@​atugushev</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/709">pypa/packaging#709</a></li>
+<li><a href="https://github.com/faph"><code>@​faph</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/717">pypa/packaging#717</a></li>
+<li><a href="https://github.com/garrypolley"><code>@​garrypolley</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/713">pypa/packaging#713</a></li>
+<li><a href="https://github.com/jolaf"><code>@​jolaf</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/723">pypa/packaging#723</a></li>
+<li><a href="https://github.com/SpecLad"><code>@​SpecLad</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/721">pypa/packaging#721</a></li>
+<li><a href="https://github.com/edmorley"><code>@​edmorley</code></a> made their first contribution in <a href="https://redirect.github.com/pypa/packaging/pull/724">pypa/packaging#724</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/pypa/packaging/compare/23.1...23.2">https://github.com/pypa/packaging/compare/23.1...23.2</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/pypa/packaging/blob/main/CHANGELOG.rst">packaging's changelog</a>.</em></p>
+<blockquote>
+<p>23.2 - 2023-10-01</p>
+<pre><code>
+* Document calendar-based versioning scheme (:issue:`716`)
+* Enforce that the entire marker string is parsed (:issue:`687`)
+* Requirement parsing no longer automatically validates the URL (:issue:`120`)
+* Canonicalize names for requirements comparison (:issue:`644`)
+* Introduce ``metadata.Metadata`` (along with ``metadata.ExceptionGroup`` and ``metadata.InvalidMetadata``; :issue:`570`)
+* Introduce the ``validate`` keyword parameter to ``utils.normalize_name()`` (:issue:`570`)
+* Introduce ``utils.is_normalized_name()`` (:issue:`570`)
+* Make ``utils.parse_sdist_filename()`` and ``utils.parse_wheel_filename()``
+  raise ``InvalidSdistFilename`` and ``InvalidWheelFilename``, respectively,
+  when the version component of the name is invalid
+</code></pre>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pypa/packaging/commit/b3a5d7d68991c040615d5345bb55f61de53ba176"><code>b3a5d7d</code></a> Bump for release</li>
+<li><a href="https://github.com/pypa/packaging/commit/d7ce40d8cc005a6b83f4abb33ae7d48d0428a4f6"><code>d7ce40d</code></a> Fix code blocks in CHANGELOG.md (<a href="https://redirect.github.com/pypa/packaging/issues/724">#724</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/524b701c6e30fc4da9355117367273f591c6de72"><code>524b701</code></a> parse_{sdist,wheel}_filename: don't raise InvalidVersion (<a href="https://redirect.github.com/pypa/packaging/issues/721">#721</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/b509bef6a4573595b23a97ecbfe569000918157f"><code>b509bef</code></a> Typing annotations fixed (<a href="https://redirect.github.com/pypa/packaging/issues/723">#723</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/0206c394cebce1b261299032edcb33f842b65d10"><code>0206c39</code></a> Bump pip version to avoid known vulnerabilities (<a href="https://redirect.github.com/pypa/packaging/issues/720">#720</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/702353715de375a65e49d1ae4af21c35dce838b8"><code>7023537</code></a> fix: Update copyright date for docs (<a href="https://redirect.github.com/pypa/packaging/issues/713">#713</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/39786bb4bf661bdb5137b8db8bd38d8e838dd67f"><code>39786bb</code></a> Document use of calendar-based versioning scheme (<a href="https://redirect.github.com/pypa/packaging/issues/717">#717</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/c1346dfdafecffc30ca777ac004ed2898e60e34e"><code>c1346df</code></a> fix: Detect when a platform is 32-bit more accurately (<a href="https://redirect.github.com/pypa/packaging/issues/711">#711</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/7e68d828f265ef05cf4cd3b5def9baffef8c2968"><code>7e68d82</code></a> Correct rST syntax in CHANGELOG.rst (<a href="https://redirect.github.com/pypa/packaging/issues/709">#709</a>)</li>
+<li><a href="https://github.com/pypa/packaging/commit/61e6efb6b6ee99e445f575bc522b716daeaa37cf"><code>61e6efb</code></a> Support enriched metadata in <code>packaging.metadata</code> (<a href="https://redirect.github.com/pypa/packaging/issues/686">#686</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/pypa/packaging/compare/23.1...23.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=packaging&package-manager=pip&previous-version=23.1&new-version=23.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-17 12:07:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3036" class=".btn">#3036</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump mkdocs-material from 9.5.10 to 9.5.27
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.5.10 to 9.5.27.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/releases">mkdocs-material's releases</a>.</em></p>
+<blockquote>
+<h2>mkdocs-material-9.5.27</h2>
+<ul>
+<li>Updated Estonian translations</li>
+</ul>
+<p>Thanks to <a href="https://github.com/Eilyre"><code>@​Eilyre</code></a> for their contributions</p>
+<h2>mkdocs-material-9.5.26</h2>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7232">#7232</a>: Tab switches on scroll when linking tabs (9.5.19 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7230">#7230</a>: Blog author avatar broken when referring to local file</li>
+</ul>
+<h2>mkdocs-material-9.5.25</h2>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7209">#7209</a>: Tags plugin crashing on numeric tags</li>
+</ul>
+<h2>mkdocs-material-9.5.24</h2>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7187">#7187</a>: Version selector title rendering issue</li>
+</ul>
+<h2>mkdocs-material-9.5.23</h2>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7183">#7183</a>: Edge case in anchor navigation when using instant navigation</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/6436">#6436</a>: Version selector not showing version alias</li>
+</ul>
+<h2>mkdocs-material-9.5.22</h2>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7170">#7170</a>: Copy button adds empty lines for line spans (9.5.18 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7160">#7160</a>: Version switching doesn't stay on page (9.5.5 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5619">#5619</a>: Links in Mermaid.js diagrams not discernible</li>
+</ul>
+<h2>mkdocs-material-9.5.21</h2>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7133">#7133</a>: Ensure latest version of Mermaid.js is used</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7125">#7125</a>: Added warning for dotfiles in info plugin</li>
+</ul>
+<p>Thanks to <a href="https://github.com/kamilkrzyskow"><code>@​kamilkrzyskow</code></a> for their contributions</p>
+<h2>mkdocs-material-9.5.20</h2>
+<ul>
+<li>Fixed deprecation warning in privacy plugin (9.5.19 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7119">#7119</a>: Tags plugin emits deprecation warning (9.5.19 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7118">#7118</a>: Social plugin crashes if fonts are disabled (9.5.19 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7085">#7085</a>: Social plugin crashes on Windows when downloading fonts</li>
+</ul>
+<h2>mkdocs-material-9.5.19</h2>
+<ul>
+<li>Updated MkDocs to 1.6 and limited version to &lt; 2</li>
+<li>Updated Docker image to latest Alpine Linux</li>
+<li>Removed <code>setup.py</code>, now that GitHub fully understands <code>pyproject.toml</code></li>
+<li>Improved interop of social plugin with third-party MkDocs themes</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7099">#7099</a>: Blog reading time not rendered correctly for Japanese</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7097">#7097</a>: Improved resilience of tags plugin when no tags are given</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7090">#7090</a>: Active tab indicator in nested content tabs rendering bug</li>
+</ul>
+<h2>mkdocs-material-9.5.18</h2>
+<ul>
+<li>Refactored tooltips implementation to fix positioning issues</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7044">#7044</a>: Rendering glitch when hovering contributor avatar in Chrome</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7043">#7043</a>: Highlighted lines in code blocks cutoff on mobile</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/6910">#6910</a>: Incorrect position of tooltip for page status in sidebar</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/blob/master/CHANGELOG">mkdocs-material's changelog</a>.</em></p>
+<blockquote>
+<p>mkdocs-material-9.5.27 (2024-06-16)</p>
+<ul>
+<li>Updated Estonian translations</li>
+</ul>
+<p>mkdocs-material-9.5.26 (2024-06-06)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7232">#7232</a>: Tab switches on scroll when linking tabs (9.5.19 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7230">#7230</a>: Blog author avatar broken when referring to local file</li>
+</ul>
+<p>mkdocs-material-9.5.25+insiders-4.53.11 (2024-05-27)</p>
+<ul>
+<li>Fixed projects plugin crashing when serving before building subprojects</li>
+</ul>
+<p>mkdocs-material-9.5.25 (2024-05-27)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7209">#7209</a>: Tags plugin crashing on numeric tags</li>
+</ul>
+<p>mkdocs-material-9.5.24+insiders-4.53.10 (2024-05-20)</p>
+<ul>
+<li>Fixed projects plugin crashing in serve mode when disabled</li>
+<li>Fixed projects plugin crashing when building nested projects</li>
+</ul>
+<p>mkdocs-material-9.5.24+insiders-4.53.9 (2024-05-20)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7191">#7191</a>: Tags listings not rendering when toc_depth is changed</li>
+</ul>
+<p>mkdocs-material-9.5.24 (2024-05-20)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7187">#7187</a>: Version selector title rendering issue</li>
+</ul>
+<p>mkdocs-material-9.5.23 (2024-05-15)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7183">#7183</a>: Edge case in anchor navigation when using instant navigation</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/6436">#6436</a>: Version selector not showing version alias</li>
+</ul>
+<p>mkdocs-material-9.5.22 (2024-05-12)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7170">#7170</a>: Copy button adds empty lines for line spans (9.5.18 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7160">#7160</a>: Version switching doesn't stay on page (9.5.5 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5619">#5619</a>: Links in Mermaid.js diagrams not discernible</li>
+</ul>
+<p>mkdocs-material-9.5.21 (2024-05-03)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7133">#7133</a>: Ensure latest version of Mermaid.js is used</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7125">#7125</a>: Added warning for dotfiles in info plugin</li>
+</ul>
+<p>mkdocs-material-9.5.20 (2024-04-29)</p>
+<ul>
+<li>Fixed deprecation warning in privacy plugin (9.5.19 regression)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7119">#7119</a>: Tags plugin emits deprecation warning (9.5.19 regression)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f4adebd7587ed7d38a09062ca9af29283ad3d13f"><code>f4adebd</code></a> Prepare 9.5.27 release</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/9e1f527e57eae44656ea86e3553e9bc29144da0f"><code>9e1f527</code></a> Updated dependencies</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f4db9de0f018427ceb6bc28d5fb095d6c1468b13"><code>f4db9de</code></a> Updated Estonian translations</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/b45c51dee43472b4164f703b5ee1db775a99a5a6"><code>b45c51d</code></a> Changed Twitter to X (<a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7266">#7266</a>)</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/4ba7a6db51029b346f7ac1fecc1c99e46654cade"><code>4ba7a6d</code></a> Add reference to PlantUML Markdown schema (<a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7260">#7260</a>)</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/ccc8d8491f35a9b37ff2ea4a60503304fab1cf9b"><code>ccc8d84</code></a> Updated dependencies</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/0c54a880d27803cb57aa4c5ca20ed70347e82aeb"><code>0c54a88</code></a> Updated Premium sponsors</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f8871975babb2928ef5d797ddcc659ddf8aa19ff"><code>f887197</code></a> Updated changelog</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/0d5a08ca9de9f97cb2302490b8ef9d451dfd17f3"><code>0d5a08c</code></a> Prepare 9.5.26 release</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/1cc45d50d077c8c27d58b71dcc11b941779ec9b2"><code>1cc45d5</code></a> Fixed active tab stolen on scroll with linked content tabs</li>
+<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.5.10...9.5.27">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.5.10&new-version=9.5.27)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-17 12:06:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3035" class=".btn">#3035</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump configargparse from 1.5.5 to 1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [configargparse](https://github.com/bw2/ConfigArgParse) from 1.5.5 to 1.7.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/ee77f44d03415f2afe73c82096bae2293db29a3b"><code>ee77f44</code></a> added several missed global variables from the argparse module</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/9f73219735abff20751523b5250875a7839daa1e"><code>9f73219</code></a> Merge pull request <a href="https://redirect.github.com/bw2/ConfigArgParse/issues/279">#279</a> from shadchin/drop_py2</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/6acc381513c2289a8301e8643742af91fecbb454"><code>6acc381</code></a> remove 2.7 since github doesn't have a test environment for it</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/959c190571f3762dcf6c883e5181a5a3b18153b5"><code>959c190</code></a> try adding tests for 2.7</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/c1a08f418c43ee55890c213a870429e05f48665b"><code>c1a08f4</code></a> Remove Python 2 support</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/bca2c2fb8f13f45dea0f06d4b4c3f0b4336c2d54"><code>bca2c2f</code></a> updated README</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/82fd623a01879368dfd4f44195e153917f4d924b"><code>82fd623</code></a> re-ordered badges</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/15c4c05657992de04a610b61b7d103c009d815dc"><code>15c4c05</code></a> added downloads per week stat</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/64637827bbcb70b341c3a79fe0828dbd76f71b1c"><code>6463782</code></a> attempt to fix apidocs</li>
+<li><a href="https://github.com/bw2/ConfigArgParse/commit/6d8b8494d30148ee2040b5f11f39beb444d363aa"><code>6d8b849</code></a> attempt to fix apidocs</li>
+<li>Additional commits viewable in <a href="https://github.com/bw2/ConfigArgParse/compare/1.5.5...1.7">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=configargparse&package-manager=pip&previous-version=1.5.5&new-version=1.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-17 12:06:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3034" class=".btn">#3034</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): Bump uuid-utils from 0.7.0 to 0.8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [uuid-utils](https://github.com/aminalaee/uuid-utils) from 0.7.0 to 0.8.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/aminalaee/uuid-utils/releases">uuid-utils's releases</a>.</em></p>
+<blockquote>
+<h2>Version 0.8.0</h2>
+<h3>Added</h3>
+<ul>
+<li>Add optional <code>nanos</code> argument to <code>uuid6</code> and <code>uuid7</code> by <a href="https://github.com/cstruct"><code>@​cstruct</code></a> in <a href="https://redirect.github.com/aminalaee/uuid-utils/pull/51">aminalaee/uuid-utils#51</a></li>
+<li>Make <code>uuid3</code> and <code>uuid5</code> compatible with Python 3.12 by <a href="https://github.com/aminalaee"><code>@​aminalaee</code></a> in <a href="https://redirect.github.com/aminalaee/uuid-utils/pull/56">aminalaee/uuid-utils#56</a></li>
+<li>Improve <code>compat</code> typings by <a href="https://github.com/aminalaee"><code>@​aminalaee</code></a> in <a href="https://redirect.github.com/aminalaee/uuid-utils/pull/55">aminalaee/uuid-utils#55</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/moritzwilksch"><code>@​moritzwilksch</code></a> made their first contribution in <a href="https://redirect.github.com/aminalaee/uuid-utils/pull/48">aminalaee/uuid-utils#48</a></li>
+<li><a href="https://github.com/cstruct"><code>@​cstruct</code></a> made their first contribution in <a href="https://redirect.github.com/aminalaee/uuid-utils/pull/51">aminalaee/uuid-utils#51</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/aminalaee/uuid-utils/compare/0.7.0...0.8.0">https://github.com/aminalaee/uuid-utils/compare/0.7.0...0.8.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/43ca15c2e620ff0c3a823685d6dc4e64b772b01e"><code>43ca15c</code></a> Update release Action</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/1e9284887ac340d19477d361dca4fd110d3b0964"><code>1e92848</code></a> Version 0.8.0 (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/57">#57</a>)</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/2c2161fa753439ed953e4fa50893454e268a170a"><code>2c2161f</code></a> Make <code>uuid3</code> and <code>uuid5</code> compatible with Python 3.12 (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/56">#56</a>)</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/063eec8dd8e96a751eebb75d65d0073970c9159d"><code>063eec8</code></a> Improve compat typings (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/55">#55</a>)</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/88739a3f39a78d00d282332452df1d34bcc5420c"><code>88739a3</code></a> Add docs (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/53">#53</a>)</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/d4902b310364468680c6eae2a41d1a2f713acae6"><code>d4902b3</code></a> Remove <code>black</code> and <code>isort</code> (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/52">#52</a>)</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/8c9391bd9c56116c1054ad75b9c7d9bc3c4cfe1e"><code>8c9391b</code></a> Add optional <code>nanos</code> argument to <code>uuid6</code> and <code>uuid7</code> (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/51">#51</a>)</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/4838dddc1c773907d455c77eef38735237518c79"><code>4838ddd</code></a> Add conda install to Readme (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/48">#48</a>)</li>
+<li>See full diff in <a href="https://github.com/aminalaee/uuid-utils/compare/0.7.0...0.8.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=uuid-utils&package-manager=pip&previous-version=0.7.0&new-version=0.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-17 12:06:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3033" class=".btn">#3033</a>
             </td>
             <td>
@@ -255,416 +873,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-10 21:17:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3026" class=".btn">#3026</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): Update prompt-toolkit requirement from ~=2.0.9 to ~=2.0.10 in /demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Updates the requirements on [prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit) to permit the latest version.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/prompt-toolkit/python-prompt-toolkit/blob/2.0.10/CHANGELOG">prompt-toolkit's changelog</a>.</em></p>
-<blockquote>
-<h2>2.0.10: 2019-10-03</h2>
-<p>Bug fixes:</p>
-<ul>
-<li>Handle HANDLE sizes correctly on windows. This made things break randomly.on
-64 bit systems.</li>
-<li>Handle terminal size correctly when reported as (0, 0).</li>
-<li>Fix width computation in progress bar formatter.</li>
-<li>Fix option-up and -down on Mac with iTerm2.</li>
-<li>Removed ctrl-c in confirmation prompt.</li>
-</ul>
-<p>New features:</p>
-<ul>
-<li>Added PROMPT_TOOLKIT_NO_CPR=1 environment variable to disable CPR requests.</li>
-<li>Accept a pattern in <code>WordCompleter</code>.</li>
-</ul>
-<h2>2.0.9: 2019-02-19</h2>
-<p>Bug fixes:</p>
-<ul>
-<li>Fixed <code>Application.run_system_command</code> on Windows.</li>
-<li>Fixed bug in ANSI text formatting: correctly handle 256/true color sequences.</li>
-<li>Fixed bug in WordCompleter. Provide completions when there's a space before
-the cursor.</li>
-</ul>
-<h2>2.0.8: 2019-01-27</h2>
-<p>Bug fixes:</p>
-<ul>
-<li>Fixes the issue where changes made to the buffer in the accept handler were
-not reflected in the history.</li>
-<li>Fix in the application invalidate handler. This prevents a significat slow
-down in some applications after some time (especially if there is a refresh
-interval).</li>
-<li>Make <code>print_container</code> utility work if the input is not a pty.</li>
-</ul>
-<p>New features:</p>
-<ul>
-<li>Underline non breaking spaces instead of rendering as '&amp;'.</li>
-<li>Added mouse support for radio list.</li>
-<li>Support completion styles for <code>READLINE_LIKE</code> display method.</li>
-<li>Accept formatted text in the display text of completions.</li>
-<li>Added a <code>FuzzyCompleter</code> and <code>FuzzyWordCompleter</code>.</li>
-<li>Improved error handling in Application (avoid displaying a meaningless
-AssertionError in many cases).</li>
-</ul>
-<h2>2.0.7: 2018-10-30</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/394a618a66db2c13b2ddc9d32891795e1add6505"><code>394a618</code></a> Release 2.0.10</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/a0e50373a07f5e181d113de2b3842112042583f9"><code>a0e5037</code></a> Make sure HANDLE on Windows has correct size</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/2eb19a1fb8a7cf05308d209f7a512a158fe8396a"><code>2eb19a1</code></a> Python 2.6 not supported anymore on Travis.</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/7490c3b3ee074652914d7188a342333caeeb8f17"><code>7490c3b</code></a> Remove no-\r assertion in print_formatted_text</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/74ef692c9c4db176865548f1f1690ee283ecd92d"><code>74ef692</code></a> Add PROMPT_TOOLKIT_NO_CPR=1 environment variable to disable CPR requests</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/1cd47b1c605789b19c9d40ab6b040036dc5dfa05"><code>1cd47b1</code></a> Add python_requires to help pip</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/eee625be858316fff0a0dc032bf5843fa17a54bd"><code>eee625b</code></a> Fix docstring for output.base.Output</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/237cf46ff50c8a689a72e3dfe664dfe69bffd245"><code>237cf46</code></a> Sorting of imports (using <code>isort -m 3 -tc</code>).</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/f66f74ebcc7f82c4d4afbe431c93b0f2088f24d2"><code>f66f74e</code></a> fallback for incorrectly reported terminal size</li>
-<li><a href="https://github.com/prompt-toolkit/python-prompt-toolkit/commit/37dcf633a0851dc63da3354f2c49d366ae257b52"><code>37dcf63</code></a> Update README.rst</li>
-<li>Additional commits viewable in <a href="https://github.com/prompt-toolkit/python-prompt-toolkit/compare/2.0.9...2.0.10">compare view</a></li>
-</ul>
-</details>
-<br />
-
-<details>
-<summary>Most Recent Ignore Conditions Applied to This Pull Request</summary>
-
-| Dependency Name | Ignore Conditions |
-| --- | --- |
-| prompt-toolkit | [>= 3.a, < 4] |
-</details>
-
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-10 11:57:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3025" class=".btn">#3025</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps-dev): Bump pytest from 8.2.1 to 8.2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.2.1 to 8.2.2.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest's releases</a>.</em></p>
-<blockquote>
-<h2>8.2.2</h2>
-<h1>pytest 8.2.2 (2024-06-04)</h1>
-<h2>Bug Fixes</h2>
-<ul>
-<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/12355">#12355</a>: Fix possible catastrophic performance slowdown on a certain parametrization pattern involving many higher-scoped parameters.</li>
-<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/12367">#12367</a>: Fix a regression in pytest 8.2.0 where unittest class instances (a fresh one is created for each test) were not released promptly on test teardown but only on session teardown.</li>
-<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/12381">#12381</a>: Fix possible &quot;Directory not empty&quot; crashes arising from concurent cache dir (<code>.pytest_cache</code>) creation. Regressed in pytest 8.2.0.</li>
-</ul>
-<h2>Improved Documentation</h2>
-<ul>
-<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/12290">#12290</a>: Updated Sphinx theme to use Furo instead of Flask, enabling Dark mode theme.</li>
-<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/12356">#12356</a>: Added a subsection to the documentation for debugging flaky tests to mention
-lack of thread safety in pytest as a possible source of flakyness.</li>
-<li><a href="https://redirect.github.com/pytest-dev/pytest/issues/12363">#12363</a>: The documentation webpages now links to a canonical version to reduce outdated documentation in search engine results.</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/pytest-dev/pytest/commit/329d3712146e69c471be3e30883d54bdde2f76cb"><code>329d371</code></a> Prepare release version 8.2.2</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/214d098fcce88940f5ce9353786b3cc8f0bd3938"><code>214d098</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12414">#12414</a> from bluetech/backport-12409</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/153a436bc40c9e89d90d62255ef5a89e9a762dca"><code>153a436</code></a> [8.2.x] fixtures: fix catastrophic performance problem in <code>reorder_items</code></li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/b41d5a52bbb808780ab310456d71e5ce509fd402"><code>b41d5a5</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12412">#12412</a> from pytest-dev/backport-12408-to-8.2.x</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/9bb73d734ff40f52d7bbebd708b5e3ab1ba20798"><code>9bb73d7</code></a> [8.2.x] cacheprovider: fix &quot;Directory not empty&quot; crash from cache directory c...</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/4569a01e3d20d64811d48b0b09539596520ea5a6"><code>4569a01</code></a> [8.2.x] doc: Update trainings/events (<a href="https://redirect.github.com/pytest-dev/pytest/issues/12402">#12402</a>)</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/1d103e5cdc1cb08f332e61a5b20fb205fa5228e7"><code>1d103e5</code></a> [8.2.x] Clarify pytest_ignore_collect docs (<a href="https://redirect.github.com/pytest-dev/pytest/issues/12386">#12386</a>)</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/240a252d34fff26efad5b3a92e62be4c9af94b70"><code>240a252</code></a> [8.2.x] Add html_baseurl to sphinx conf.py (<a href="https://redirect.github.com/pytest-dev/pytest/issues/12372">#12372</a>)</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/a5ee3c41268199c2c0af59c33050326b1c4a342e"><code>a5ee3c4</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12370">#12370</a> from pytest-dev/backport-12368-to-8.2.x</li>
-<li><a href="https://github.com/pytest-dev/pytest/commit/f7358aec2884720b4de4594ffd0811b46316514c"><code>f7358ae</code></a> [8.2.x] unittest: fix class instances no longer released on test teardown sin...</li>
-<li>Additional commits viewable in <a href="https://github.com/pytest-dev/pytest/compare/8.2.1...8.2.2">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest&package-manager=pip&previous-version=8.2.1&new-version=8.2.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-10 11:50:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3024" class=".btn">#3024</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): Bump pydid from 0.5.0 to 0.5.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [pydid](https://github.com/Indicio-tech/pydid) from 0.5.0 to 0.5.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/Indicio-tech/pydid/releases">pydid's releases</a>.</em></p>
-<blockquote>
-<h2>v0.5.1</h2>
-<h2>What's Changed</h2>
-<ul>
-<li>chore(deps-dev): Bump ruff from 0.4.3 to 0.4.7 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/Indicio-tech/pydid/pull/120">Indicio-tech/pydid#120</a></li>
-<li>:art: Fix Pydantic warning and :arrow_up: upgrade dependencies by <a href="https://github.com/ff137"><code>@​ff137</code></a> in <a href="https://redirect.github.com/Indicio-tech/pydid/pull/123">Indicio-tech/pydid#123</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/Indicio-tech/pydid/compare/v0.5.0...v0.5.1">https://github.com/Indicio-tech/pydid/compare/v0.5.0...v0.5.1</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/Indicio-tech/pydid/commit/735446cd9bfd0c9f87f828c03018ff32812f2138"><code>735446c</code></a> Merge pull request <a href="https://redirect.github.com/Indicio-tech/pydid/issues/123">#123</a> from ff137/fix/warning</li>
-<li><a href="https://github.com/Indicio-tech/pydid/commit/d247a875c1c68c535ca3c0a38e04f2b71fcaa2c7"><code>d247a87</code></a> Increment version</li>
-<li><a href="https://github.com/Indicio-tech/pydid/commit/56bcab4ff8030f63365f658fa4b6600af9621b5f"><code>56bcab4</code></a> :arrow_up: Upgrade dependencies</li>
-<li><a href="https://github.com/Indicio-tech/pydid/commit/ace842a8df206b40371cf4756d38df248e9124f0"><code>ace842a</code></a> :art: fix Pydantic UserWarning</li>
-<li><a href="https://github.com/Indicio-tech/pydid/commit/189c1fff89e1432e087a4fd20ac5881dc0c07a75"><code>189c1ff</code></a> Merge pull request <a href="https://redirect.github.com/Indicio-tech/pydid/issues/120">#120</a> from Indicio-tech/dependabot/pip/ruff-0.4.7</li>
-<li><a href="https://github.com/Indicio-tech/pydid/commit/fd2f4ec0f5874e5525fbe94e8fae62e729024de5"><code>fd2f4ec</code></a> chore(deps-dev): Bump ruff from 0.4.3 to 0.4.7</li>
-<li>See full diff in <a href="https://github.com/Indicio-tech/pydid/compare/v0.5.0...v0.5.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pydid&package-manager=pip&previous-version=0.5.0&new-version=0.5.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-10 11:49:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3021" class=".btn">#3021</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): Bump sphinx from 1.8.4 to 1.8.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 1.8.4 to 1.8.6.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst">sphinx's changelog</a>.</em></p>
-<blockquote>
-<h1>Release 1.8.6 (released Nov 18, 2021)</h1>
-<h2>Dependencies</h2>
-<ul>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/9807">#9807</a>: Restrict Docutils to 0.17.x or older</li>
-</ul>
-<h1>Release 1.8.5 (released Mar 10, 2019)</h1>
-<h2>Bugs fixed</h2>
-<ul>
-<li>LaTeX: Remove extraneous space after author names on PDF title page (refs:
-<a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6004">#6004</a>)</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6026">#6026</a>: LaTeX: A cross reference to definition list does not work</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6046">#6046</a>: LaTeX: <code>TypeError</code> is raised when invalid latex_elements given</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6067">#6067</a>: LaTeX: images having a target are concatenated to next line</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6067">#6067</a>: LaTeX: images having a target are not aligned even if specified</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6149">#6149</a>: LaTeX: <code>:index:</code> role in titles causes <code>Use of \@icentercr doesn't match its definition</code> error on latexpdf build</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6019">#6019</a>: imgconverter: Including multipage PDF fails</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6047">#6047</a>: autodoc: <code>autofunction</code> emits a warning for method objects</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6028">#6028</a>: graphviz: Ensure the graphviz filenames are reproducible</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6068">#6068</a>: doctest: <code>skipif</code> option may remove the code block from documentation</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6136">#6136</a>: <code>:name:</code> option for <code>math</code> directive causes a crash</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6139">#6139</a>: intersphinx: ValueError on failure reporting</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6135">#6135</a>: changes: Fix UnboundLocalError when any module found</li>
-<li><a href="https://redirect.github.com/sphinx-doc/sphinx/issues/3859">#3859</a>: manpage: code-block captions are not displayed correctly</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/303a37735e564a3f0bdba15d72727445e0f7cf5f"><code>303a377</code></a> Bump to 1.8.6 final</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/b0e119cd722dead4e61686991dac6070a2e33634"><code>b0e119c</code></a> Close <a href="https://redirect.github.com/sphinx-doc/sphinx/issues/9807">#9807</a>: Restrict docutils to 0.17.x or older</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/f34a0dddff99839dfd1f0896d14966d1efe9c483"><code>f34a0dd</code></a> Bump version</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/591bdd74c0739269a9b2651aec2fa2554a3d8d23"><code>591bdd7</code></a> Bump to 1.8.5 final</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/f44aa2376180a24eed4d0227fcc1a304662bc1ef"><code>f44aa23</code></a> Merge pull request <a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6159">#6159</a> from tk0miya/3859_code-block_captions_for_manpage</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/fc9968710561582752d5038618dd0dbfce779734"><code>fc99687</code></a> Fix <a href="https://redirect.github.com/sphinx-doc/sphinx/issues/3859">#3859</a>: manpage: code-block captions are not displayed correctly</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/f57041ab000c6c2b1e672f3d963d849ecd3ee7ab"><code>f57041a</code></a> Merge pull request <a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6152">#6152</a> from tk0miya/6149_index_on_title</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/05d3e37ef798fc3ea621f973e83211102fa3eab8"><code>05d3e37</code></a> Fix <a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6149">#6149</a>: LaTeX: :index: role titles causes build error of LaTeX</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/9f283bc3f1d6a7f9aacfaa377f0983d3709a0dc1"><code>9f283bc</code></a> Merge pull request <a href="https://redirect.github.com/sphinx-doc/sphinx/issues/6153">#6153</a> from tk0miya/use_bionic_on_circleci</li>
-<li><a href="https://github.com/sphinx-doc/sphinx/commit/f61a5f91f75556c3e886fbef7621acd77760bf51"><code>f61a5f9</code></a> Fix test: imgconverter expects size of images fixed</li>
-<li>Additional commits viewable in <a href="https://github.com/sphinx-doc/sphinx/compare/v1.8.4...v1.8.6">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=sphinx&package-manager=pip&previous-version=1.8.4&new-version=1.8.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-10 11:48:38 +0000 UTC
     </div>
 </div>
 

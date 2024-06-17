@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/206" class=".btn">#206</a>
-            </td>
-            <td>
-                <b>
-                    [test] Add test to transfer asset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-10 09:41:29 +0000 UTC
-    </div>
-</div>
-
