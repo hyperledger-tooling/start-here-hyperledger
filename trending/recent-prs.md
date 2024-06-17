@@ -1,13 +1,13 @@
 
-[747](https://github.com/hyperledger-labs/fabric-operations-console/pull/747) Certificate expire warning issue fix for imported component
+[3042](https://github.com/hyperledger/aries-cloudagent-python/pull/3042) Fix - only run integration tests on opened PR's
 
-[3038](https://github.com/hyperledger/aries-cloudagent-python/pull/3038) chore(deps): Bump marshmallow from 3.20.2 to 3.21.3
+[4738](https://github.com/hyperledger/iroha/pull/4738) chore(deps-dev): bump flake8 from 7.0.0 to 7.1.0 in /client_cli/pytests
 
-[3037](https://github.com/hyperledger/aries-cloudagent-python/pull/3037) chore(deps): Bump packaging from 23.1 to 23.2
+[4737](https://github.com/hyperledger/iroha/pull/4737) chore(deps): bump docker/build-push-action from 4 to 6
 
-[3036](https://github.com/hyperledger/aries-cloudagent-python/pull/3036) chore(deps): Bump mkdocs-material from 9.5.10 to 9.5.27
+[4736](https://github.com/hyperledger/iroha/pull/4736) chore(deps): bump derive_more from 0.99.17 to 0.99.18
 
-[3035](https://github.com/hyperledger/aries-cloudagent-python/pull/3035) chore(deps): Bump configargparse from 1.5.5 to 1.7
+[274](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/274) Add new steward - Esteban Garcia
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

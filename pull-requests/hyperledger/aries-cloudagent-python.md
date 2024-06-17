@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3042" class=".btn">#3042</a>
+            </td>
+            <td>
+                <b>
+                    Fix - only run integration tests on opened PR's
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This check to only run integration tests was added recently on the unrelated PR https://github.com/hyperledger/aries-cloudagent-python/pull/3000. The problem is it didn't run the integration tests after a draft was converted to open. 
+
+This seems to fix it. By adding the pull request types.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-17 17:05:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3038" class=".btn">#3038</a>
             </td>
             <td>

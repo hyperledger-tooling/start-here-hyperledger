@@ -63,29 +63,3 @@ In this case, the FSC node will not run directly the chaincode but its logic dir
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/653" class=".btn">#653</a>
-            </td>
-            <td>
-                <b>
-                    remove append from crypto library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cleanup</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-10 14:39:51 +0000 UTC
-    </div>
-</div>
-
