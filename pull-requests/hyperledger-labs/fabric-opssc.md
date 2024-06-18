@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/110" class=".btn">#110</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/111" class=".btn">#111</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): Bump braces from 3.0.2 to 3.0.3 in /opssc-api-server/src
+                    chore(deps): Bump ws from 7.5.4 to 7.5.10 in /opssc-api-server/src
                 </b>
             </td>
         </tr>
@@ -27,27 +27,65 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.
+                Bumps [ws](https://github.com/websockets/ws) from 7.5.4 to 7.5.10.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/websockets/ws/releases">ws's releases</a>.</em></p>
+<blockquote>
+<h2>7.5.10</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported e55e5106 to the 7.x release line (22c28763).</li>
+</ul>
+<h2>7.5.9</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported bc8bd34e to the 7.x release line (0435e6e1).</li>
+</ul>
+<h2>7.5.8</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported 0fdcc0af to the 7.x release line (2758ed35).</li>
+<li>Backported d68ba9e1 to the 7.x release line (dc1781bc).</li>
+</ul>
+<h2>7.5.7</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported 6946f5fe to the 7.x release line (1f72e2e1).</li>
+</ul>
+<h2>7.5.6</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported b8186dd1 to the 7.x release line (73dec34b).</li>
+<li>Backported ed2b8039 to the 7.x release line (22a26afb).</li>
+</ul>
+<h2>7.5.5</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported ec9377ca to the 7.x release line (0e274acd).</li>
+</ul>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/micromatch/braces/commit/74b2db2938fad48a2ea54a9c8bf27a37a62c350d"><code>74b2db2</code></a> 3.0.3</li>
-<li><a href="https://github.com/micromatch/braces/commit/88f1429a0f47e1dd3813de35211fc97ffda27f9e"><code>88f1429</code></a> update eslint. lint, fix unit tests.</li>
-<li><a href="https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff"><code>415d660</code></a> Snyk js braces 6838727 (<a href="https://redirect.github.com/micromatch/braces/issues/40">#40</a>)</li>
-<li><a href="https://github.com/micromatch/braces/commit/190510f79db1adf21d92798b0bb6fccc1f72c9d6"><code>190510f</code></a> fix tests, skip 1 test in test/braces.expand</li>
-<li><a href="https://github.com/micromatch/braces/commit/716eb9f12d820b145a831ad678618731927e8856"><code>716eb9f</code></a> readme bump</li>
-<li><a href="https://github.com/micromatch/braces/commit/a5851e57f45c3431a94d83fc565754bc10f5bbc3"><code>a5851e5</code></a> Merge pull request <a href="https://redirect.github.com/micromatch/braces/issues/37">#37</a> from coderaiser/fix/vulnerability</li>
-<li><a href="https://github.com/micromatch/braces/commit/2092bd1fb108d2c59bd62e243b70ad98db961538"><code>2092bd1</code></a> feature: braces: add maxSymbols (<a href="https://github.com/micromatch/braces/issues/">https://github.com/micromatch/braces/issues/</a>...</li>
-<li><a href="https://github.com/micromatch/braces/commit/9f5b4cf47329351bcb64287223ffb6ecc9a5e6d3"><code>9f5b4cf</code></a> fix: vulnerability (<a href="https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727">https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727</a>)</li>
-<li><a href="https://github.com/micromatch/braces/commit/98414f9f1fabe021736e26836d8306d5de747e0d"><code>98414f9</code></a> remove funding file</li>
-<li><a href="https://github.com/micromatch/braces/commit/665ab5d561c017a38ba7aafd92cc6655b91d8c14"><code>665ab5d</code></a> update keepEscaping doc (<a href="https://redirect.github.com/micromatch/braces/issues/27">#27</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/micromatch/braces/compare/3.0.2...3.0.3">compare view</a></li>
+<li><a href="https://github.com/websockets/ws/commit/d962d70649e393841ee1ed726a8f7ffbe90d0c06"><code>d962d70</code></a> [dist] 7.5.10</li>
+<li><a href="https://github.com/websockets/ws/commit/22c28763234aa75a7e1b76f5c01c181260d7917f"><code>22c2876</code></a> [security] Fix crash when the Upgrade header cannot be read (<a href="https://redirect.github.com/websockets/ws/issues/2231">#2231</a>)</li>
+<li><a href="https://github.com/websockets/ws/commit/8a78f8770618cc5a1ade485a7445cb6d6f46e2f2"><code>8a78f87</code></a> [dist] 7.5.9</li>
+<li><a href="https://github.com/websockets/ws/commit/0435e6e12b8d38992cf0651cb8605dde2294bd25"><code>0435e6e</code></a> [security] Fix same host check for ws+unix: redirects</li>
+<li><a href="https://github.com/websockets/ws/commit/4271f07cfc95cf7e1936388fb69e22a3731fa260"><code>4271f07</code></a> [dist] 7.5.8</li>
+<li><a href="https://github.com/websockets/ws/commit/dc1781bc319cb347878d11cf730947d0bef69a51"><code>dc1781b</code></a> [security] Drop sensitive headers when following insecure redirects</li>
+<li><a href="https://github.com/websockets/ws/commit/2758ed355073105a60b8b836b25265b8cdcb3b42"><code>2758ed3</code></a> [fix] Abort the handshake if the Upgrade header is invalid</li>
+<li><a href="https://github.com/websockets/ws/commit/a370613fab74b82990582fa7728e130c5e87ee4c"><code>a370613</code></a> [dist] 7.5.7</li>
+<li><a href="https://github.com/websockets/ws/commit/1f72e2e14f4fbb20265c228a43bb64ab915d8046"><code>1f72e2e</code></a> [security] Drop sensitive headers when following redirects (<a href="https://redirect.github.com/websockets/ws/issues/2013">#2013</a>)</li>
+<li><a href="https://github.com/websockets/ws/commit/8ecd890800dfbe210298438ab9bb8dbe328f3e0b"><code>8ecd890</code></a> [dist] 7.5.6</li>
+<li>Additional commits viewable in <a href="https://github.com/websockets/ws/compare/7.5.4...7.5.10">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=braces&package-manager=npm_and_yarn&previous-version=3.0.2&new-version=3.0.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ws&package-manager=npm_and_yarn&previous-version=7.5.4&new-version=7.5.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -79,7 +117,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-11 01:17:08 +0000 UTC
+        Created At 2024-06-18 06:15:24 +0000 UTC
     </div>
 </div>
 
