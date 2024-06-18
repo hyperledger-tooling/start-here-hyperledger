@@ -1,13 +1,13 @@
 
-[470](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/470) build(deps-dev): Bump ws from 7.5.7 to 7.5.10 in /common/policy-dsl
+[422](https://github.com/hyperledger/fabric-ca/pull/422) Release commit for v1.5.12
 
-[4741](https://github.com/hyperledger/iroha/pull/4741) refactor!: fix naming convention for assets and permissions
+[4905](https://github.com/hyperledger/fabric/pull/4905) Release commit for v2.5.9
 
-[4740](https://github.com/hyperledger/iroha/pull/4740) fix: fix unit tests
+[52](https://github.com/hyperledger-labs/pdo-contracts/pull/52) Add jupyter notebook interface for the digital asset (images) contracts
 
-[4739](https://github.com/hyperledger/iroha/pull/4739) refactor!: Supply `SignedBlock` instead of `SignedTransaction` to peer
+[4904](https://github.com/hyperledger/fabric/pull/4904) Bump github.com/docker/docker to v26.1.4 (release-2.5)
 
-[753](https://github.com/hyperledger-labs/fabric-operations-console/pull/753) Console Automation - Blank screen appears while clicking on MSP Identify dropdown
+[75](https://github.com/hyperledger-labs/governance/pull/75) Create agora-allosaurus-rs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/422" class=".btn">#422</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v1.5.12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add release notes for v1.5.12.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 17:05:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/421" class=".btn">#421</a>
             </td>
             <td>
