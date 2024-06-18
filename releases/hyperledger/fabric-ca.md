@@ -15,28 +15,28 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.11
+                    v1.5.12
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.11
+                    v1.5.12
                 </span>
             </td>
             <td>
-                v1.5.11 Release Notes - May 21, 2024
-====================================
+                v1.5.12 Release Notes - June 18, 2024
+=====================================
 
-v1.5.11 updates code dependencies.
+v1.5.12 updates code dependencies.
 
 
 Dependencies
 ------------
 
-Fabric CA v1.5.11 has been tested with the following dependencies:
-- Go 1.22.3
+Fabric CA v1.5.12 has been tested with the following dependencies:
+- Go 1.22.4
 - Ubuntu 20.04 (for Docker images)
 - Databases
     - PostgreSQL 13
@@ -76,11 +76,11 @@ None.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.11" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.12" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-05-21 19:18:36 +0000 UTC
+        Created At 2024-06-18 17:19:58 +0000 UTC
     </span>
 </div>
 
