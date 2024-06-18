@@ -1,13 +1,13 @@
 
-[3042](https://github.com/hyperledger/aries-cloudagent-python/pull/3042) Fix - only run integration tests on opened PR's
+[7234](https://github.com/hyperledger/besu/pull/7234) fix: workflow permission to upload trivy sarif report
 
-[4738](https://github.com/hyperledger/iroha/pull/4738) chore(deps-dev): bump flake8 from 7.0.0 to 7.1.0 in /client_cli/pytests
+[421](https://github.com/hyperledger/fabric-ca/pull/421) Bump urllib3 from 2.1.0 to 2.2.2 in /docs in the pip group across 1 directory
 
-[4737](https://github.com/hyperledger/iroha/pull/4737) chore(deps): bump docker/build-push-action from 4 to 6
+[639](https://github.com/hyperledger/aries-acapy-plugins/pull/639) Bump urllib3 from 2.2.1 to 2.2.2 in /firebase_push_notifications/integration in the pip group
 
-[4736](https://github.com/hyperledger/iroha/pull/4736) chore(deps): bump derive_more from 0.99.17 to 0.99.18
+[638](https://github.com/hyperledger/aries-acapy-plugins/pull/638) Bump urllib3 from 2.2.1 to 2.2.2 in /rpc/integration in the pip group
 
-[274](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/274) Add new steward - Esteban Garcia
+[637](https://github.com/hyperledger/aries-acapy-plugins/pull/637) Bump urllib3 from 2.2.1 to 2.2.2 in /multitenant_provider/integration in the pip group
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
