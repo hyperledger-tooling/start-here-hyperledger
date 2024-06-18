@@ -15,27 +15,27 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.5.8
+                    v2.5.9
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.5.8
+                    v2.5.9
                 </span>
             </td>
             <td>
-                v2.5.8 Release Notes - May 21, 2024
-===================================
+                v2.5.9 Release Notes - June 18, 2024
+====================================
 
-v2.5.8 updates code dependencies.
+v2.5.9 updates code dependencies.
 
 
 Dependencies
 ------------
-Fabric v2.5.8 has been tested with the following dependencies:
-* Go 1.22.3
+Fabric v2.5.9 has been tested with the following dependencies:
+* Go 1.22.4
 * CouchDB v3.3.3
 
 Fabric docker images on dockerhub utilize Ubuntu 20.04.
@@ -126,11 +126,11 @@ for chaincodes. For more details see the
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.8" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.9" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-05-22 01:53:21 +0000 UTC
+        Created At 2024-06-18 19:42:58 +0000 UTC
     </span>
 </div>
 
