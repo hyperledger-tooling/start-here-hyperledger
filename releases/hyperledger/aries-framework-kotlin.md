@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/aries-framework-kotlin
         <tr>
             <td colspan="2">
                 <b>
-                    v2.3.0
+                    v2.4.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.3.0
+                    v2.4.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Implement DID Exchange Protocol by @conanoc in https://github.com/hyperledger/aries-framework-kotlin/pull/28
+* Fix DID Exchange protocol by @conanoc in https://github.com/hyperledger/aries-framework-kotlin/pull/30
+* Support connection-less exchange by @conanoc in https://github.com/hyperledger/aries-framework-kotlin/pull/31
 
 
-**Full Changelog**: https://github.com/hyperledger/aries-framework-kotlin/compare/v2.2.0...v2.3.0
+**Full Changelog**: https://github.com/hyperledger/aries-framework-kotlin/compare/v2.3.0...v2.4.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-kotlin/releases/tag/v2.3.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-kotlin/releases/tag/v2.4.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-05-09 09:03:01 +0000 UTC
+        Created At 2024-06-18 09:23:45 +0000 UTC
     </span>
 </div>
 
