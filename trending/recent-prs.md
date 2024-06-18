@@ -1,13 +1,13 @@
 
-[111](https://github.com/hyperledger-labs/fabric-opssc/pull/111) chore(deps): Bump ws from 7.5.4 to 7.5.10 in /opssc-api-server/src
+[470](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/470) build(deps-dev): Bump ws from 7.5.7 to 7.5.10 in /common/policy-dsl
 
-[748](https://github.com/hyperledger-labs/fabric-operations-console/pull/748) Bump ws from 7.4.6 to 7.5.10 in /packages/athena
+[4741](https://github.com/hyperledger/iroha/pull/4741) refactor!: fix naming convention for assets and permissions
 
-[623](https://github.com/hyperledger/cello/pull/623) Bump the pip group across 2 directories with 2 updates
+[4740](https://github.com/hyperledger/iroha/pull/4740) fix: fix unit tests
 
-[7234](https://github.com/hyperledger/besu/pull/7234) fix: workflow permission to upload trivy sarif report
+[4739](https://github.com/hyperledger/iroha/pull/4739) refactor!: Supply `SignedBlock` instead of `SignedTransaction` to peer
 
-[421](https://github.com/hyperledger/fabric-ca/pull/421) Bump urllib3 from 2.1.0 to 2.2.2 in /docs in the pip group across 1 directory
+[753](https://github.com/hyperledger-labs/fabric-operations-console/pull/753) Console Automation - Blank screen appears while clicking on MSP Identify dropdown
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

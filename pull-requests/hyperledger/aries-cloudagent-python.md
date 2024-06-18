@@ -1255,31 +1255,3 @@ Refactors some code.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3028" class=".btn">#3028</a>
-            </td>
-            <td>
-                <b>
-                    docs: added section on environment variables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hi @WadeBarnes I made a very quick attempt at some clarifications for Environment Variables, please let me know what you would like me to change or elaborate on.
-
-I always feel it's best to open a PR quickly to get feedback and iterate. I think that Command Line Parameters and Environment Variables could be nested under the Configuring ACA-PY heading.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-11 08:11:42 +0000 UTC
-    </div>
-</div>
-
