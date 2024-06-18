@@ -14,6 +14,32 @@ permalink: /issues/hyperledger/iroha
     <table>
         <tr>
             <td>
+                Issue <a href="https://github.com/hyperledger/iroha/issues/4704" class=".btn">4704</a>
+            </td>
+            <td>
+                <b>
+                    Implement `Instruction` for `*Box` wrappers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">good first issue</span>
+            </td>
+            <td>
+                Currently, only `InstructionBox` implements `Instruction` out of all ISI wrappers. I expected `RegisterBox`, `MintBox` and the rest of the wrappers to be usable with `iroha.submit_*()` directly, but they are not. I think it would be more ergonomic if they were.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-06 11:42:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 Issue <a href="https://github.com/hyperledger/iroha/issues/4703" class=".btn">4703</a>
             </td>
             <td>
