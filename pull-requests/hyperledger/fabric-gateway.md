@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/713" class=".btn">#713</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/721" class=".btn">#721</a>
             </td>
             <td>
                 <b>
-                    Remove unnecessary GitHub Actions permissions
+                    Use PMD and Spotless for Java code
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Explicit default permissions in workflows are not required with read-only permissions set at the repository level.
-
-Also use a concurrency group for GitHub Pages deployment.
-
-Closes #712
+                Checkstyle only works with Java 11 and later, and does both code formatting and some static analysis. Replace Checkstyle with PMD for more thorough static analysis, and Spotless for formatting of Java code. Spotless also provides the capability to automatically reformat code to match the formatting rules.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-15 17:43:15 +0000 UTC
+        Created At 2024-06-14 19:52:51 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +40,11 @@ Closes #712
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/711" class=".btn">#711</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/720" class=".btn">#720</a>
             </td>
             <td>
                 <b>
-                    Use workflow to publish directly to GitHub Pages
+                    Use only v2.5.x packages in test Node chaincode
                 </b>
             </td>
         </tr>
@@ -57,40 +53,12 @@ Closes #712
                 
             </td>
             <td>
-                Rather than pushing a commit to the gh-pages branch and having the built-in GitHub pages workflow deploy the contents of that branch, deploy the site content directly using a custom workflow. This avoids complexity and access requirements of pushing to another branch within a workflow.
+                Ensures that the chaincode packages align with the Fabric version used for testing.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-14 18:03:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/710" class=".btn">#710</a>
-            </td>
-            <td>
-                <b>
-                    Use latest stable Go and Node releases in CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For GitHub Actions jobs that are not sensitive to the version of Go or Node used, use "stable" or "lts/*" as the version for Go and Node respectively.
-
-Previously the version number was specified explicitly, which requires more ongoing maintenance and conveys less clarity of the intent that the latest stable version should be used.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-12 13:49:25 +0000 UTC
+        Created At 2024-06-13 18:56:25 +0000 UTC
     </div>
 </div>
 

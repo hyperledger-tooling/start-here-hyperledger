@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    doc: fix broken link
+                    Adding control for submission rate.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 
             </td>
             <td>
-                <nil>
+                Currently in no wait submission mode, firefly-perf-cli submit test requests as fast as it possibly can. This can cause undesired load on the targeting system under test.
+
+This PR introduces `maxSubmissionsPerSecond` setting in the configuration to add control for a more stable submission pattern.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-13 10:58:48 +0000 UTC
+        Created At 2024-06-13 11:05:01 +0000 UTC
     </div>
 </div>
 

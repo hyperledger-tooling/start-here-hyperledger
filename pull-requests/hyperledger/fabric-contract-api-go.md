@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/136" class=".btn">#136</a>
             </td>
             <td>
                 <b>
-                    Move to latest fabric-chaincode-integration for dependency fix.
+                    Update test dependencies to address CVE-2024-37168
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                <nil>
+                Update to latest fabric-chaincode-integration to pick up new grpc-js dependency.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-13 15:02:38 +0000 UTC
+        Created At 2024-06-13 19:06:24 +0000 UTC
     </div>
 </div>
 

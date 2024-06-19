@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    Fix links
+                    Update firefly-helm-charts to FireFly 1.3 and KiND deployment
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                <nil>
+                ref: https://github.com/hyperledger/firefly-helm-charts/pull/74
+
+This PR is only a slight change from the core of the PR above with the following differences:
+
+ - Deploys FireFly 1.3
+ - Does not directly mirror the Besu helm charts from an external provider, they're now cloned at deploy-time and applied to the cluster
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-10 20:55:20 +0000 UTC
+        Created At 2024-06-17 14:26:30 +0000 UTC
     </div>
 </div>
 
