@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/224" class=".btn">#224</a>
             </td>
             <td>
                 <b>
-                    [david-maintainers-username-change]
+                    Fix docs links
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-ui
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-23 18:20:46 +0000 UTC
+        Created At 2024-06-16 21:32:21 +0000 UTC
     </div>
 </div>
 

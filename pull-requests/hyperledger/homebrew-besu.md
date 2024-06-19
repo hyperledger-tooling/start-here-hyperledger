@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/125" class=".btn">#125</a>
             </td>
             <td>
                 <b>
-                    java 21
+                    release 24.6.0
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                fixes https://github.com/hyperledger/besu/issues/7178
-
-requires this to be merged https://github.com/hyperledger/besu/pull/7177
+                release 24.6.0
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-05 03:50:15 +0000 UTC
+        Created At 2024-06-14 01:21:16 +0000 UTC
     </div>
 </div>
 

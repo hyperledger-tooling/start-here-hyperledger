@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/830" class=".btn">#830</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/839" class=".btn">#839</a>
             </td>
             <td>
                 <b>
-                    Bump prettier from 2.8.8 to 3.3.0 in /aries-backchannels/javascript/server
+                    Change parallelism to 1 in GHA runs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Attempts to address #835 .  We don’t really care how long the runs take, but we would like the results to be accurate.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 05:35:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/838" class=".btn">#838</a>
+            </td>
+            <td>
+                <b>
+                    Bump prettier from 2.8.8 to 3.3.2 in /aries-backchannels/javascript/server
                 </b>
             </td>
         </tr>
@@ -27,11 +53,15 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [prettier](https://github.com/prettier/prettier) from 2.8.8 to 3.3.0.
+                Bumps [prettier](https://github.com/prettier/prettier) from 2.8.8 to 3.3.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/prettier/prettier/releases">prettier's releases</a>.</em></p>
 <blockquote>
+<h2>3.3.2</h2>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#332">Changelog</a></p>
+<h2>3.3.1</h2>
+<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#331">Changelog</a></p>
 <h2>3.3.0</h2>
 <p><a href="https://github.com/prettier/prettier/compare/3.2.5...3.3.0">diff</a></p>
 <p>🔗 <a href="https://prettier.io/blog/2024/06/01/3.3.0.html">Release note</a></p>
@@ -64,10 +94,6 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
 <h2>3.0.2</h2>
 <p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#302">Changelog</a></p>
 <h2>3.0.1</h2>
-<p>🔗 <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md#301">Changelog</a></p>
-<h2>3.0.0</h2>
-<p><a href="https://github.com/prettier/prettier/compare/3.0.0-alpha.6...3.0.0">diff</a></p>
-<p>🔗 <a href="https://prettier.io/blog/2023/07/05/3.0.0.html">Release note</a></p>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -76,62 +102,71 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/prettier/prettier/blob/main/CHANGELOG.md">prettier's changelog</a>.</em></p>
 <blockquote>
-<h1>3.3.0</h1>
-<p><a href="https://github.com/prettier/prettier/compare/3.2.5...3.3.0">diff</a></p>
-<p>🔗 <a href="https://prettier.io/blog/2024/06/01/3.3.0.html">Release Notes</a></p>
-<h1>3.2.5</h1>
-<p><a href="https://github.com/prettier/prettier/compare/3.2.4...3.2.5">diff</a></p>
-<h4>Support Angular inline styles as single template literal (<a href="https://redirect.github.com/prettier/prettier/pull/15968">#15968</a> by <a href="https://github.com/sosukesuzuki"><code>@​sosukesuzuki</code></a>)</h4>
-<p><a href="https://blog.angular.io/introducing-angular-v17-4d7033312e4b">Angular v17</a> supports single string inline styles.</p>
+<h1>3.3.2</h1>
+<p><a href="https://github.com/prettier/prettier/compare/3.3.1...3.3.2">diff</a></p>
+<h4>Fix handlebars path expressions starts with <code>@</code> (<a href="https://redirect.github.com/prettier/prettier/pull/16358">#16358</a> by <a href="https://github.com/Princeyadav05"><code>@​Princeyadav05</code></a>)</h4>
 <!-- raw HTML omitted -->
-<pre lang="ts"><code>// Input
-@Component({
-  template: `&lt;div&gt;...&lt;/div&gt;`,
-  styles: `h1 { color: blue; }`,
-})
-export class AppComponent {}
-<p>// Prettier 3.2.4
-<a href="https://github.com/Component"><code>@​Component</code></a>({
-template: <code>&amp;lt;div&amp;gt;...&amp;lt;/div&amp;gt;</code>,
-styles: <code>h1 { color: blue; }</code>,
-})
-export class AppComponent {}</p>
-<p>// Prettier 3.2.5
-<a href="https://github.com/Component"><code>@​Component</code></a>({
-template: <code>&amp;lt;div&amp;gt;...&amp;lt;/div&amp;gt;</code>,
-styles: <code>h1 { color: blue; }</code>,
-})
-export class AppComponent {}</p>
-<p></code></pre></p>
-<h4>Unexpected embedded formatting for Angular template (<a href="https://redirect.github.com/prettier/prettier/pull/15969">#15969</a> by <a href="https://github.com/JounQin"><code>@​JounQin</code></a>)</h4>
-<p>Computed template should not be considered as Angular component template</p>
+<pre lang="hbs"><code>{{! Input }}
+&lt;div&gt;{{@x.y.z}}&lt;/div&gt;
+<p>{{! Prettier 3.3.1 }}
+&lt;div&gt;{{<a href="https://github.com/x"><code>@​x</code></a>}}&lt;/div&gt;</p>
+<p>{{! Prettier 3.3.2 }}
+&lt;div&gt;{{<a href="https://github.com/x"><code>@​x</code></a>.y.z}}&lt;/div&gt;
+</code></pre></p>
+<h1>3.3.1</h1>
+<p><a href="https://github.com/prettier/prettier/compare/3.3.0...3.3.1">diff</a></p>
+<h4>Preserve empty lines in front matter (<a href="https://redirect.github.com/prettier/prettier/pull/16347">#16347</a> by <a href="https://github.com/fisker"><code>@​fisker</code></a>)</h4>
 <!-- raw HTML omitted -->
-<pre lang="ts"><code>// Input
-&lt;/tr&gt;&lt;/table&gt; 
-</code></pre>
+<pre lang="markdown"><code>&lt;!-- Input --&gt;
+---
+foo:
+  - bar1
+<ul>
+<li>
+<p>bar2</p>
+</li>
+<li>
+<p>bar3</p>
+</li>
+</ul>
+<hr />
+<p>Markdown</p>
+<p>&lt;!-- Prettier 3.3.0 --&gt;</p>
+<hr />
+<p>foo:</p>
+<ul>
+<li>bar1</li>
+<li>bar2</li>
+<li>bar3</li>
+</ul>
+<hr />
+<p>Markdown</p>
+<p>&lt;!-- Prettier 3.3.1 --&gt;
+&lt;/tr&gt;&lt;/table&gt;
+</code></pre></p>
 </blockquote>
 <p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/prettier/prettier/commit/c4ab460357478d2b847c60a1efb40098b1181931"><code>c4ab460</code></a> Release 3.3.0</li>
-<li><a href="https://github.com/prettier/prettier/commit/8a88cdce6d4605f206305ebb9204a0cabf96a070"><code>8a88cdc</code></a> Respect <code>trailingComma</code> in angular templates (<a href="https://redirect.github.com/prettier/prettier/issues/15926">#15926</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/c2e20fbae8ce1800ac0c8242c176d9379db5c001"><code>c2e20fb</code></a> chore(deps): update babel to v7.24.6 (<a href="https://redirect.github.com/prettier/prettier/issues/16326">#16326</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/41f1dffed08b33fe6d43da1e82d798b23ba0b57c"><code>41f1dff</code></a> Add newline between markdown footnote definitions (<a href="https://redirect.github.com/prettier/prettier/issues/16063">#16063</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/da5ad84bf441afd5c157bf83840814b1deaa39b1"><code>da5ad84</code></a> chore(deps): update babel to v7.24.6 (<a href="https://redirect.github.com/prettier/prettier/issues/16325">#16325</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/f790be81319a70f08942b1e3c12d68ee392d3269"><code>f790be8</code></a> chore(deps): update dependency file-entry-cache to v9 (<a href="https://redirect.github.com/prettier/prettier/issues/16324">#16324</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/7250556e287922508d9f28c12a82165a60bab5d7"><code>7250556</code></a> chore(deps): update dependency meriyah to v4.4.3 (<a href="https://redirect.github.com/prettier/prettier/issues/16323">#16323</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/96e057a0dc1efa7247b1c50843c9422a0ed66900"><code>96e057a</code></a> chore(deps): update dependency <code>@​angular/compiler</code> to v18 (<a href="https://redirect.github.com/prettier/prettier/issues/16322">#16322</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/a4ea5a2e2fcebe72315c9c0523b35bc79fe91405"><code>a4ea5a2</code></a> chore(deps): update dependency eslint-plugin-regexp to v2.6.0 (<a href="https://redirect.github.com/prettier/prettier/issues/16320">#16320</a>)</li>
-<li><a href="https://github.com/prettier/prettier/commit/229006cd5b5178c195e5d66ce924d2b58bfde4ef"><code>229006c</code></a> chore(deps): update dependency micromatch to v4.0.7 (<a href="https://redirect.github.com/prettier/prettier/issues/16319">#16319</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/prettier/prettier/compare/2.8.8...3.3.0">compare view</a></li>
+<li><a href="https://github.com/prettier/prettier/commit/1596a608dedac55c20bad3f1b5bfd47f961c696b"><code>1596a60</code></a> Release 3.3.2</li>
+<li><a href="https://github.com/prettier/prettier/commit/aebcee5ea49ff0ee934ce39d26edb09cbd3f17db"><code>aebcee5</code></a> chore(deps): update dependency esbuild to v0.21.5 (<a href="https://redirect.github.com/prettier/prettier/issues/16379">#16379</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/57aa9287a078f0ed266e779bd00528fff2598bb2"><code>57aa928</code></a> chore(deps): update dependency c8 to v10 (<a href="https://redirect.github.com/prettier/prettier/issues/16380">#16380</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/c3d0b7f419f6f51876bbb1fc36b9755b8c9dcb8e"><code>c3d0b7f</code></a> chore(deps): update typescript-eslint to v7.13.0 (<a href="https://redirect.github.com/prettier/prettier/issues/16376">#16376</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/27c35db5e20a121aad0cc3fff7a80658b7503ea0"><code>27c35db</code></a> chore(deps): update dependency codemirror-graphql to v2.0.12 (<a href="https://redirect.github.com/prettier/prettier/issues/16369">#16369</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/6de325866695e23269d0d217cf73c4cc0340226e"><code>6de3258</code></a> chore(deps): update dependency jest to v30.0.0-alpha.5 (<a href="https://redirect.github.com/prettier/prettier/issues/16371">#16371</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/b5f983d2bb24ae78ba560c7d57c4b1753ea32cfa"><code>b5f983d</code></a> Upgrade yarn to v4.3.0 (<a href="https://redirect.github.com/prettier/prettier/issues/16377">#16377</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/d6f37c4109e97fdfa054d7af147e82495a18d1c7"><code>d6f37c4</code></a> chore(deps): update dependency browserslist to v4.23.1 (<a href="https://redirect.github.com/prettier/prettier/issues/16368">#16368</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/5055b7d39265fddae29917390c83ef28df497f23"><code>5055b7d</code></a> chore(deps): update dependency execa to v9.2.0 (<a href="https://redirect.github.com/prettier/prettier/issues/16372">#16372</a>)</li>
+<li><a href="https://github.com/prettier/prettier/commit/f4608cc76b097a03487f00132a904dea1312c56d"><code>f4608cc</code></a> chore(deps): update dependency cspell to v8.8.4 (<a href="https://redirect.github.com/prettier/prettier/issues/16370">#16370</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/prettier/prettier/compare/2.8.8...3.3.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=prettier&package-manager=npm_and_yarn&previous-version=2.8.8&new-version=3.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=prettier&package-manager=npm_and_yarn&previous-version=2.8.8&new-version=3.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -163,7 +198,59 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-03 11:19:05 +0000 UTC
+        Created At 2024-06-17 11:16:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/837" class=".btn">#837</a>
+            </td>
+            <td>
+                <b>
+                    Changes by create-pull-request action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-17 02:27:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/836" class=".btn">#836</a>
+            </td>
+            <td>
+                <b>
+                    Changes by create-pull-request action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-16 19:32:44 +0000 UTC
     </div>
 </div>
 

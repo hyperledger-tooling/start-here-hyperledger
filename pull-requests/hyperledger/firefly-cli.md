@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/291" class=".btn">#291</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/308" class=".btn">#308</a>
             </td>
             <td>
                 <b>
-                    Fix fabric-tools and update E2E matrix
+                    fix: no such volume error
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                I discovered that despite some of the job labels, all of the jobs in the matrix ended up testing the same type of stack. This PR brings the E2E matrix into alignment with the same set of tests we run in the FireFly Core repo.
+                Fixes https://github.com/hyperledger/firefly-cli/issues/295
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-28 19:23:54 +0000 UTC
+        Created At 2024-06-17 11:08:56 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/289" class=".btn">#289</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/307" class=".btn">#307</a>
             </td>
             <td>
                 <b>
-                    Limit upgrade command
+                    Prioritise docker compose v2
                 </b>
             </td>
         </tr>
@@ -53,16 +53,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                The existing upgrade command is pretty limited in what it is able to do. It simply rewrites the stack.json and docker-compose file with newer image tags from a different version manifest. If there is any additional migration (such as config changes) required between versions it will not work.
-
-As an example, when we moved all of the containers to run as a non-root user the FireFly CLI also had to be updated to put config files in a different location which a non-root user could read. This change was _backward_ compatible with older versions of FireFly, but older versions of the CLI would not be able to generate the proper config for _newer_ versions of FireFly. Thus, simply swapping the image tag would not work to move from 1.2.x -> 1.3.x because of permissions changes.
-
-This PR sets some guardrails on the upgrade command to allow it to apply patch releases only (which should not contain these types of changes), and does not allow downgrades.
+                V1 is actually end of life https://github.com/docker/compose/issues/11742#issuecomment-2137583574 so prioritise docker compose v2
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-22 19:29:25 +0000 UTC
+        Created At 2024-06-13 16:34:49 +0000 UTC
     </div>
 </div>
 

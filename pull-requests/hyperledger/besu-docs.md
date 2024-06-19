@@ -14,41 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1608" class=".btn">#1608</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1619" class=".btn">#1619</a>
             </td>
             <td>
                 <b>
-                    Document logging invalid txs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Document how to log invalid transactions using the `INVALID_TX_REMOVED` log marker.
-
-Fixes #1578
-
-Preview: https://besu-docs-git-fork-alexandratran-1578-log4j2-hyperledger.vercel.app/development/public-networks/how-to/monitor/logging#log-invalid-transactions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-06 04:46:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1607" class=".btn">#1607</a>
-            </td>
-            <td>
-                <b>
-                    Bump the npm_and_yarn group across 1 directory with 3 updates
+                    Bump the npm_and_yarn group across 1 directory with 4 updates
                 </b>
             </td>
         </tr>
@@ -57,7 +27,7 @@ Preview: https://besu-docs-git-fork-alexandratran-1578-log4j2-hyperledger.vercel
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps the npm_and_yarn group with 3 updates in the / directory: [tar](https://github.com/isaacs/node-tar), [semantic-release](https://github.com/semantic-release/semantic-release) and [@semantic-release/npm](https://github.com/semantic-release/npm).
+                Bumps the npm_and_yarn group with 4 updates in the / directory: [tar](https://github.com/isaacs/node-tar), [semantic-release](https://github.com/semantic-release/semantic-release), [@semantic-release/npm](https://github.com/semantic-release/npm) and [ws](https://github.com/websockets/ws).
 
 Removes `tar`
 
@@ -191,6 +161,28 @@ intended for consumption anyway)</li>
 </details>
 <br />
 
+Updates `ws` from 7.5.9 to 7.5.10
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/websockets/ws/releases">ws's releases</a>.</em></p>
+<blockquote>
+<h2>7.5.10</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported e55e5106 to the 7.x release line (22c28763).</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/websockets/ws/commit/d962d70649e393841ee1ed726a8f7ffbe90d0c06"><code>d962d70</code></a> [dist] 7.5.10</li>
+<li><a href="https://github.com/websockets/ws/commit/22c28763234aa75a7e1b76f5c01c181260d7917f"><code>22c2876</code></a> [security] Fix crash when the Upgrade header cannot be read (<a href="https://redirect.github.com/websockets/ws/issues/2231">#2231</a>)</li>
+<li>See full diff in <a href="https://github.com/websockets/ws/compare/7.5.9...7.5.10">compare view</a></li>
+</ul>
+</details>
+<br />
+
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -224,7 +216,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-04 18:31:18 +0000 UTC
+        Created At 2024-06-18 20:02:33 +0000 UTC
     </div>
 </div>
 
@@ -232,11 +224,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1605" class=".btn">#1605</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1617" class=".btn">#1617</a>
             </td>
             <td>
                 <b>
-                    Clarify that snap is faster than fast sync
+                    release 24.6.0
                 </b>
             </td>
         </tr>
@@ -245,12 +237,12 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                User raised a [question](https://discord.com/channels/905194001349627914/1129455688255553717/1247277719968940046) on discord about snap being faster than checkpoint. I think it makes sense to clarify that it's faster than fast sync
+                release 24.6.0
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-04 00:44:23 +0000 UTC
+        Created At 2024-06-14 01:29:29 +0000 UTC
     </div>
 </div>
 
@@ -258,11 +250,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1604" class=".btn">#1604</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1616" class=".btn">#1616</a>
             </td>
             <td>
                 <b>
-                    Add additional miner methods
+                    Clarify the difference between `latest` and `pending` validators
                 </b>
             </td>
         </tr>
@@ -271,19 +263,12 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Fixes #1592 
-
-Add miner methods:
-
-* `miner_getExtraData` request has no parameters, and the response is the hex string of the extra data bytes
-
-* `miner_setExtraData` request has only 1 parameter: the hex string of the extra data bytes.
-
+                The documentation could do with clarifying why the `qbft_getValidatorsByBlockNumber` can return 2 different lists of validators. I've tried to explain that here.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-03 19:25:33 +0000 UTC
+        Created At 2024-06-12 09:37:07 +0000 UTC
     </div>
 </div>
 
