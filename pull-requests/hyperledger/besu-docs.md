@@ -246,29 +246,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1616" class=".btn">#1616</a>
-            </td>
-            <td>
-                <b>
-                    Clarify the difference between `latest` and `pending` validators
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The documentation could do with clarifying why the `qbft_getValidatorsByBlockNumber` can return 2 different lists of validators. I've tried to explain that here.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-12 09:37:07 +0000 UTC
-    </div>
-</div>
-

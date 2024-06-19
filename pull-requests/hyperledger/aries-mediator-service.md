@@ -14,6 +14,161 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/159" class=".btn">#159</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump the npm_and_yarn group in /afj with 2 updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps the npm_and_yarn group in /afj with 2 updates: [ws](https://github.com/websockets/ws) and [tar](https://github.com/isaacs/node-tar).
+
+Updates `ws` from 7.5.9 to 7.5.10
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/websockets/ws/releases">ws's releases</a>.</em></p>
+<blockquote>
+<h2>7.5.10</h2>
+<h1>Bug fixes</h1>
+<ul>
+<li>Backported e55e5106 to the 7.x release line (22c28763).</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/websockets/ws/commit/d962d70649e393841ee1ed726a8f7ffbe90d0c06"><code>d962d70</code></a> [dist] 7.5.10</li>
+<li><a href="https://github.com/websockets/ws/commit/22c28763234aa75a7e1b76f5c01c181260d7917f"><code>22c2876</code></a> [security] Fix crash when the Upgrade header cannot be read (<a href="https://redirect.github.com/websockets/ws/issues/2231">#2231</a>)</li>
+<li>See full diff in <a href="https://github.com/websockets/ws/compare/7.5.9...7.5.10">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `tar` from 6.1.13 to 6.2.1
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/isaacs/node-tar/blob/main/CHANGELOG.md">tar's changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h2>7.4</h2>
+<ul>
+<li>Deprecate <code>onentry</code> in favor of <code>onReadEntry</code> for clarity.</li>
+</ul>
+<h2>7.3</h2>
+<ul>
+<li>Add <code>onWriteEntry</code> option</li>
+</ul>
+<h2>7.2</h2>
+<ul>
+<li>DRY the command definitions into a single <code>makeCommand</code> method,
+and update the type signatures to more appropriately infer the
+return type from the options and arguments provided.</li>
+</ul>
+<h2>7.1</h2>
+<ul>
+<li>Update minipass to v7.1.0</li>
+<li>Update the type definitions of <code>write()</code> and <code>end()</code> methods on
+<code>Unpack</code> and <code>Parser</code> classes to be compatible with the
+NodeJS.WritableStream type in the latest versions of
+<code>@types/node</code>.</li>
+</ul>
+<h2>7.0</h2>
+<ul>
+<li>Rewrite in TypeScript, provide ESM and CommonJS hybrid
+interface</li>
+<li>Add tree-shake friendly exports, like <code>import('tar/create')</code>
+and <code>import('tar/read-entry')</code> to get individual functions or
+classes.</li>
+<li>Add <code>chmod</code> option that defaults to false, and deprecate
+<code>noChmod</code>. That is, reverse the default option regarding
+explicitly setting file system modes to match tar entry
+settings.</li>
+<li>Add <code>processUmask</code> option to avoid having to call
+<code>process.umask()</code> when <code>chmod: true</code> (or <code>noChmod: false</code>) is
+set.</li>
+</ul>
+<h2>6.2</h2>
+<ul>
+<li>Add support for brotli compression</li>
+<li>Add <code>maxDepth</code> option to prevent extraction into excessively
+deep folders.</li>
+</ul>
+<h2>6.1</h2>
+<ul>
+<li>remove dead link to benchmarks (<a href="https://redirect.github.com/isaacs/node-tar/issues/313">#313</a>) (<a href="https://github.com/yetzt"><code>@​yetzt</code></a>)</li>
+<li>add examples/explanation of using tar.t (<a href="https://github.com/isaacs"><code>@​isaacs</code></a>)</li>
+<li>ensure close event is emited after stream has ended (<a href="https://github.com/webark"><code>@​webark</code></a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/isaacs/node-tar/commit/bef7b1e4ffab822681fea2a9b22187192ed14717"><code>bef7b1e</code></a> 6.2.1</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/fe8cd57da5686f8695415414bda49206a545f7f7"><code>fe8cd57</code></a> prevent extraction in excessively deep subfolders</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/fe7ebfdcede1f8a2e65db12e19ecc4b3a9934648"><code>fe7ebfd</code></a> remove security.md</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/5bc9d404e88c39870e0fbb55655a53de6fbf0a04"><code>5bc9d40</code></a> 6.2.0</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/fe1ef5ec87156ddadcec8b70cdec201f26665681"><code>fe1ef5e</code></a> changelog 6.2</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/e483220935d931cf6b09292aba62170e68f36205"><code>e483220</code></a> get rid of npm lint stuff</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/689928a0ba7d9b9014d88a5fa35261f9ae4ef2f3"><code>689928a</code></a> ci that works outside of npm org</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/db6f53928650a04b340ecdc01db2d49937e5d63c"><code>db6f539</code></a> file inference improvements for .tbr and .tgz</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/336fa8f27c44bec70d46a6482096af24c668ee16"><code>336fa8f</code></a> refactor: dry and other pr comments</li>
+<li><a href="https://github.com/isaacs/node-tar/commit/eeba22238736ed0832488efb3c515ada98073424"><code>eeba222</code></a> chore: lint fixes</li>
+<li>Additional commits viewable in <a href="https://github.com/isaacs/node-tar/compare/v6.1.13...v6.2.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore <dependency name> major version` will close this group update PR and stop Dependabot creating any more for the specific dependency's major version (unless you unignore this specific dependency's major version or upgrade to it yourself)
+- `@dependabot ignore <dependency name> minor version` will close this group update PR and stop Dependabot creating any more for the specific dependency's minor version (unless you unignore this specific dependency's minor version or upgrade to it yourself)
+- `@dependabot ignore <dependency name>` will close this group update PR and stop Dependabot creating any more for the specific dependency (unless you unignore this specific dependency or upgrade to it yourself)
+- `@dependabot unignore <dependency name>` will remove all of the ignore conditions of the specified dependency
+- `@dependabot unignore <dependency name> <ignore condition>` will remove the ignore condition of the specified dependency and ignore conditions
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-mediator-service/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 07:46:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/158" class=".btn">#158</a>
             </td>
             <td>
