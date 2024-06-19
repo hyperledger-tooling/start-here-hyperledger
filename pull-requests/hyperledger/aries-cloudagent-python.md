@@ -1054,33 +1054,3 @@ Refactored some code in the revocation/indy module.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3029" class=".btn">#3029</a>
-            </td>
-            <td>
-                <b>
-                    Fix and refactor anoncreds revocation recovery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Repairs synchronization of the `IssuerCredRevRecord` revoke statuses with the `RevList` revocation list. The individual records will take precedence. Then if the `RevList` revocation list has revoked credentials that aren't on the ledger it will try to update the entry on the ledger and the accum value.
-
-Moves the recover module to the anoncreds indy_legacy directory because it's indy specific. Removes the usage of the credx module in anoncreds.
-
-Refactors some code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-11 21:55:54 +0000 UTC
-    </div>
-</div>
-

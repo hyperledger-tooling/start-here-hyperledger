@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7239" class=".btn">#7239</a>
+            </td>
+            <td>
+                <b>
+                    container verify GitHub workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Container verification step in release process automated with the container verify GitHub workflow. New workflow is triggered at the end of the release workflow which will check the released container images starts successfully. Verification test only checks container starts and reach the Ethereum main loop.
+
+## Fixed Issue(s)
+fixes #7176
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [x] acceptance tests: `./gradlew acceptanceTest`
+- [x] integration tests: `./gradlew integrationTest`
+- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 23:05:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7237" class=".btn">#7237</a>
             </td>
             <td>
@@ -950,95 +996,6 @@ fixes #7170
     </table>
     <div class="right-align">
         Created At 2024-06-12 01:57:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7209" class=".btn">#7209</a>
-            </td>
-            <td>
-                <b>
-                    Updated EIP-7002 WithdrawalRequestV1 field (validatorPublicKey -> validatorPubkey)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Updated WithdrawalRequestV1 field according to https://github.com/ethereum/execution-apis/pull/549.
-
-(validatorPublicKey -> validatorPubkey)
-
-This will soon be updated in Teku as well (https://github.com/Consensys/teku/issues/8359)
-
-## Fixed Issue(s)
-N/A
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-11 23:51:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7208" class=".btn">#7208</a>
-            </td>
-            <td>
-                <b>
-                    Remove EIP-3074 code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-Remove all EIP-3074 code from Besu. Since EIP-3074 has been replaced
-with EIP-7702 in Pectra, and there is no intent to schedule it for a
-future fork there is no need to retain the code.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-11 19:02:27 +0000 UTC
     </div>
 </div>
 
