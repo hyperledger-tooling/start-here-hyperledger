@@ -604,39 +604,3 @@ Reader and Writer role user is now able to get bearer token details for the toke
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/739" class=".btn">#739</a>
-            </td>
-            <td>
-                <b>
-                    revert connect src and update release doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- Release doc update
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-12 14:23:04 +0000 UTC
-    </div>
-</div>
-

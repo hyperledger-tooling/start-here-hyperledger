@@ -14,190 +14,11 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3332" class=".btn">#3332</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3337" class=".btn">#3337</a>
             </td>
             <td>
                 <b>
-                    ci(github): yarn lint job now fails if formatting was needed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If someone sends a pull request that isn't formatted according to the
-tools we have in place for auto-format code (ESLint, prettier) then after
-this change the CI will fail and this way we don't end up in a situation
-where running `yarn lint` on the main branch produces a diff of auto-formatted
-code files (which is currently sadly the case).
-
-At the same time as introducing this constraint I'm also applying the automatic
-formatting on the code project wide so that the check can actually pass as
-intended when this change is getting merged.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 00:30:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3331" class=".btn">#3331</a>
-            </td>
-            <td>
-                <b>
-                    test(connector-besu): migrate deploy-contract/* test cases to Jest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 23:59:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3330" class=".btn">#3330</a>
-            </td>
-            <td>
-                <b>
-                    ci(github): add --ignore-scripts to lerna publish - some are failing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Longer term we'll just fix the scripts that are crashing, but right now
-as a short term solution I disabled the script execution.
-2. It might even be more secure for us to use this ignore scripts flag
-permanently because some of the attack vectors are in those scripts which
-new versions of the dependencies can execute arbitrary code.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 16:56:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3329" class=".btn">#3329</a>
-            </td>
-            <td>
-                <b>
-                    docs(RELEASE_MANAGEMENT): explain auto-merge for release PRs is a no-no
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The detailed explanation is here:
-
-Do not enable auto-merging on GitHub for the pull request doing the release.
-The problem with auto-merging here is that it would modify the release commit's SHA as the
-rebase would happen on GitHub's servers where your git signing identity is not available to use
-given that GitHub does (should) not have access to your private key for signing.
-The way the preserve your commit signature as valid the commit SHA must remain the same and the
-way to achieve this is to perform the pull request merging with fast forward. The merging
-ensures that there is no commit SHA change and the `--ff-only` option ensures that there is no
-merge commit to throw a wrench in the process.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 16:32:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3328" class=".btn">#3328</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump the npm_and_yarn group across 15 directories with 15 updates
+                    build: bump the npm_and_yarn group across 35 directories with 17 updates
                 </b>
             </td>
         </tr>
@@ -206,12 +27,13 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps the npm_and_yarn group with 14 updates in the / directory:
+                Bumps the npm_and_yarn group with 15 updates in the / directory:
 
 | Package | From | To |
 | --- | --- | --- |
 | [@grpc/grpc-js](https://github.com/grpc/grpc-node) | `1.10.3` | `1.10.9` |
 | [axios](https://github.com/axios/axios) | `1.5.1` | `1.6.0` |
+| [socket.io](https://github.com/socketio/socket.io) | `4.5.4` | `4.6.2` |
 | [@azure/identity](https://github.com/Azure/azure-sdk-for-js) | `3.3.1` | `4.2.1` |
 | [bl](https://github.com/rvagg/bl) | `5.0.0` | `5.1.0` |
 | [undici](https://github.com/nodejs/undici) | `6.11.1` | `6.12.0` |
@@ -225,15 +47,35 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
 | [react-devtools-core](https://github.com/facebook/react/tree/HEAD/packages/react-devtools-core) | `4.27.8` | `4.28.5` |
 | [word-wrap](https://github.com/jonschlinkert/word-wrap) | `1.2.3` | `1.2.5` |
 
-Bumps the npm_and_yarn group with 1 update in the /examples/cactus-example-tcs-huawei directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
-Bumps the npm_and_yarn group with 1 update in the /examples/test-run-transaction directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
-Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-cmd-api-server directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node) and [axios](https://github.com/axios/axios).
+Bumps the npm_and_yarn group with 4 updates in the /examples/cactus-example-discounted-asset-trade directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken), [@types/jsonwebtoken](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/jsonwebtoken), [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /examples/cactus-example-electricity-trade directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 1 update in the /examples/cactus-example-electricity-trade/tools/transferNumericAsset directory: [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /examples/cactus-example-tcs-huawei directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 1 update in the /examples/cactus-example-tcs-huawei/tools/transferNumericAsset directory: [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /examples/test-run-transaction directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /extensions/cactus-plugin-htlc-coordinator-besu directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cacti-plugin-ledger-connector-stellar directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 3 updates in the /packages/cactus-cmd-api-server directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node), [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 3 updates in the /packages/cactus-cmd-socketio-server directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken), [@types/jsonwebtoken](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/jsonwebtoken) and [socket.io](https://github.com/socketio/socket.io).
 Bumps the npm_and_yarn group with 1 update in the /packages/cactus-common directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node).
-Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-core-api directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node) and [axios](https://github.com/axios/axios).
+Bumps the npm_and_yarn group with 3 updates in the /packages/cactus-core-api directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node), [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-bungee-hermes directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
 Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-keychain-azure-kv directory: [axios](https://github.com/axios/axios) and [@azure/identity](https://github.com/Azure/azure-sdk-for-js).
-Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-ledger-connector-besu directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node) and [axios](https://github.com/axios/axios).
-Bumps the npm_and_yarn group with 1 update in the /packages/cactus-plugin-ledger-connector-tcs-huawei-socketio directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
-Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-test-plugin-ledger-connector-besu directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node) and [axios](https://github.com/axios/axios).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-ledger-connector-aries directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 3 updates in the /packages/cactus-plugin-ledger-connector-besu directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node), [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-ledger-connector-ethereum directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 3 updates in the /packages/cactus-plugin-ledger-connector-fabric directory: [axios](https://github.com/axios/axios), [socket.io](https://github.com/socketio/socket.io) and [bl](https://github.com/rvagg/bl).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-ledger-connector-go-ethereum-socketio directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 3 updates in the /packages/cactus-plugin-ledger-connector-iroha2 directory: [axios](https://github.com/axios/axios), [socket.io](https://github.com/socketio/socket.io) and [undici](https://github.com/nodejs/undici).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-ledger-connector-quorum directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-ledger-connector-sawtooth directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-ledger-connector-tcs-huawei-socketio directory: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-persistence-ethereum directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-persistence-fabric directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-plugin-satp-hermes directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 3 updates in the /packages/cactus-test-plugin-ledger-connector-besu directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node), [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 2 updates in the /packages/cactus-test-tooling directory: [axios](https://github.com/axios/axios) and [socket.io](https://github.com/socketio/socket.io).
+Bumps the npm_and_yarn group with 1 update in the /packages/cactus-test-verifier-client directory: [socket.io](https://github.com/socketio/socket.io).
 Bumps the npm_and_yarn group with 1 update in the /weaver/common/protos-js directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node).
 Bumps the npm_and_yarn group with 1 update in the /weaver/core/drivers/fabric-driver directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node).
 Bumps the npm_and_yarn group with 1 update in the /weaver/core/identity-management/iin-agent directory: [@grpc/grpc-js](https://github.com/grpc/grpc-node).
@@ -359,6 +201,122 @@ Updates `axios` from 1.5.1 to 1.6.0
 <li><a href="https://github.com/axios/axios/commit/a1c8ad008b3c13d53e135bbd0862587fb9d3fc09"><code>a1c8ad0</code></a> fix(types): fix AxiosHeaders types; (<a href="https://redirect.github.com/axios/axios/issues/5931">#5931</a>)</li>
 <li><a href="https://github.com/axios/axios/commit/2ac731d60545ba5c4202c25fd2e732ddd8297d82"><code>2ac731d</code></a> chore(docs): update readme.md (<a href="https://redirect.github.com/axios/axios/issues/5889">#5889</a>)</li>
 <li>See full diff in <a href="https://github.com/axios/axios/compare/v1.5.1...v1.6.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `socket.io` from 4.5.4 to 4.6.2
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/socketio/socket.io/releases">socket.io's releases</a>.</em></p>
+<blockquote>
+<h2>4.6.2</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>exports:</strong> move <code>types</code> condition to the top (<a href="https://redirect.github.com/socketio/socket.io/issues/4698">#4698</a>) (<a href="https://github.com/socketio/socket.io/commit/3d44aae381af38349fdb808d510d9f47a0c2507e">3d44aae</a>)</li>
+</ul>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/socketio/socket.io/compare/4.6.1...4.6.2">https://github.com/socketio/socket.io/compare/4.6.1...4.6.2</a></li>
+<li>Client release: <a href="https://github.com/socketio/socket.io-client/releases/tag/4.6.2">4.6.2</a></li>
+<li><a href="https://github.com/socketio/engine.io/releases/tag/6.4.2"><code>engine.io@~6.4.2</code></a> (<a href="https://github.com/socketio/engine.io/compare/6.4.1...6.4.2">diff</a>)</li>
+<li><a href="https://github.com/websockets/ws/releases/tag/8.11.0"><code>ws@~8.11.0</code></a> (no change)</li>
+</ul>
+<h2>4.6.1</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>properly handle manually created dynamic namespaces (<a href="https://github.com/socketio/socket.io/commit/0d0a7a22b5ff95f864216c529114b7dd41738d1e">0d0a7a2</a>)</li>
+<li><strong>types:</strong> fix nodenext module resolution compatibility (<a href="https://redirect.github.com/socketio/socket.io/issues/4625">#4625</a>) (<a href="https://github.com/socketio/socket.io/commit/d0b22c630208669aceb7ae013180c99ef90279b0">d0b22c6</a>)</li>
+</ul>
+<h4>Links</h4>
+<ul>
+<li>Diff: <a href="https://github.com/socketio/socket.io/compare/4.6.0...4.6.1">https://github.com/socketio/socket.io/compare/4.6.0...4.6.1</a></li>
+<li>Client release: <a href="https://github.com/socketio/socket.io-client/releases/tag/4.6.1">4.6.1</a></li>
+<li><a href="https://github.com/socketio/engine.io/releases/tag/6.4.1"><code>engine.io@~6.4.1</code></a> (<a href="https://github.com/socketio/engine.io/compare/6.4.0...6.4.1">diff</a>)</li>
+<li><a href="https://github.com/websockets/ws/releases/tag/8.11.0"><code>ws@~8.11.0</code></a> (no change)</li>
+</ul>
+<h2>4.6.0</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>add timeout method to remote socket (<a href="https://redirect.github.com/socketio/socket.io/issues/4558">#4558</a>) (<a href="https://github.com/socketio/socket.io/commit/0c0eb0016317218c2be3641e706cfaa9bea39a2d">0c0eb00</a>)</li>
+<li><strong>typings:</strong> properly type emits with timeout (<a href="https://github.com/socketio/socket.io/commit/f3ada7d8ccc02eeced2b9b9ac8e4bc921eb630d2">f3ada7d</a>)</li>
+</ul>
+<h3>Features</h3>
+<h4>Promise-based acknowledgements</h4>
+<p>This commit adds some syntactic sugar around acknowledgements:</p>
+<ul>
+<li><code>emitWithAck()</code></li>
+</ul>
+<pre lang="js"><code>try {
+  const responses = await io.timeout(1000).emitWithAck(&quot;some-event&quot;);
+  console.log(responses); // one response per client
+} catch (e) {
+  // some clients did not acknowledge the event in the given delay
+}
+<p>io.on(&quot;connection&quot;, async (socket) =&gt; {
+// without timeout
+&lt;/tr&gt;&lt;/table&gt;
+</code></pre></p>
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/socketio/socket.io/blob/main/CHANGELOG.md">socket.io's changelog</a>.</em></p>
+<blockquote>
+<h2><a href="https://github.com/socketio/socket.io/compare/4.6.1...4.6.2">4.6.2</a> (2023-05-31)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>exports:</strong> move <code>types</code> condition to the top (<a href="https://redirect.github.com/socketio/socket.io/issues/4698">#4698</a>) (<a href="https://github.com/socketio/socket.io/commit/3d44aae381af38349fdb808d510d9f47a0c2507e">3d44aae</a>)</li>
+</ul>
+<h3>Dependencies</h3>
+<ul>
+<li><a href="https://github.com/socketio/engine.io/releases/tag/6.4.0"><code>engine.io@~6.4.2</code></a> (<a href="https://github.com/socketio/engine.io/compare/6.4.1...6.4.2">diff</a>)</li>
+<li><a href="https://github.com/websockets/ws/releases/tag/8.11.0"><code>ws@~8.11.0</code></a> (no change)</li>
+</ul>
+<h2><a href="https://github.com/socketio/socket.io/compare/4.6.0...4.6.1">4.6.1</a> (2023-02-20)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>properly handle manually created dynamic namespaces (<a href="https://github.com/socketio/socket.io/commit/0d0a7a22b5ff95f864216c529114b7dd41738d1e">0d0a7a2</a>)</li>
+<li><strong>types:</strong> fix nodenext module resolution compatibility (<a href="https://redirect.github.com/socketio/socket.io/issues/4625">#4625</a>) (<a href="https://github.com/socketio/socket.io/commit/d0b22c630208669aceb7ae013180c99ef90279b0">d0b22c6</a>)</li>
+</ul>
+<h3>Dependencies</h3>
+<ul>
+<li><a href="https://github.com/socketio/engine.io/releases/tag/6.4.1"><code>engine.io@~6.4.1</code></a> (<a href="https://github.com/socketio/engine.io/compare/6.4.0...6.4.1">diff</a>)</li>
+<li><a href="https://github.com/websockets/ws/releases/tag/8.11.0"><code>ws@~8.11.0</code></a> (no change)</li>
+</ul>
+<h2><a href="https://github.com/socketio/socket.io/compare/4.5.4...4.6.0">4.6.0</a> (2023-02-07)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>add timeout method to remote socket (<a href="https://redirect.github.com/socketio/socket.io/issues/4558">#4558</a>) (<a href="https://github.com/socketio/socket.io/commit/0c0eb0016317218c2be3641e706cfaa9bea39a2d">0c0eb00</a>)</li>
+<li><strong>typings:</strong> properly type emits with timeout (<a href="https://github.com/socketio/socket.io/commit/f3ada7d8ccc02eeced2b9b9ac8e4bc921eb630d2">f3ada7d</a>)</li>
+</ul>
+<h3>Features</h3>
+<h4>Promise-based acknowledgements</h4>
+<p>This commit adds some syntactic sugar around acknowledgements:</p>
+<ul>
+<li><code>emitWithAck()</code></li>
+</ul>
+<pre lang="js"><code>try {
+&lt;/tr&gt;&lt;/table&gt; 
+</code></pre>
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/socketio/socket.io/commit/faf914c9ab3e06a6e84fc91774a4182e58f8ae70"><code>faf914c</code></a> chore(release): 4.6.2</li>
+<li><a href="https://github.com/socketio/socket.io/commit/15af22fc22bc6030fcead322c106f07640336115"><code>15af22f</code></a> refactor: add a noop handler for the error event</li>
+<li><a href="https://github.com/socketio/socket.io/commit/d3658944e562e538db094ef298d274821984dea2"><code>d365894</code></a> chore: bump socket.io-parser to version 4.2.3</li>
+<li><a href="https://github.com/socketio/socket.io/commit/12b0de4f524083c31b613ce33e4fd9f8d313f434"><code>12b0de4</code></a> chore: bump engine.io to version 6.4.2</li>
+<li><a href="https://github.com/socketio/socket.io/commit/3d44aae381af38349fdb808d510d9f47a0c2507e"><code>3d44aae</code></a> fix(exports): move <code>types</code> condition to the top (<a href="https://redirect.github.com/socketio/socket.io/issues/4698">#4698</a>)</li>
+<li><a href="https://github.com/socketio/socket.io/commit/cbf0362476a23a573233369f1119f7e305539336"><code>cbf0362</code></a> docs(examples): bump dependencies for the private messaging example</li>
+<li><a href="https://github.com/socketio/socket.io/commit/59280da20b5ab6509bafb87793cc0077d60d9c27"><code>59280da</code></a> docs(examples): update examples to docker compose v2</li>
+<li><a href="https://github.com/socketio/socket.io/commit/50a4d37cb82f2a14e058ae5a3038ee25796c2121"><code>50a4d37</code></a> docs(changelog): add version of transitive dependencies</li>
+<li><a href="https://github.com/socketio/socket.io/commit/6458b2bef171aa0d7dea198297608ea2ed4b1db9"><code>6458b2b</code></a> docs(example): basic WebSocket-only client</li>
+<li><a href="https://github.com/socketio/socket.io/commit/b56da8a99f4814d553064af175edcf747d5561d7"><code>b56da8a</code></a> docs(examples): upgrade to React 18</li>
+<li>Additional commits viewable in <a href="https://github.com/socketio/socket.io/compare/4.5.4...4.6.2">compare view</a></li>
 </ul>
 </details>
 <br />
@@ -704,152 +662,193 @@ Updates `pkg` from 4.5.1 to 5.8.1
 <ul>
 <li>Bump to vercel/pkg-fetch@v3.4.1 by <a href="https://github.com/jesec"><code>@​jesec</code></a> in <a href="https://redirect.github.com/vercel/pkg/pull/1616">vercel/pkg#1616</a>
 <ul>
-<li>No longer take NODE_OPTIONS from the environment of the end-user. Only the users (developers who use pkg to package their project) should have control over the flags via the &quot;bake in&quot; (--options) mechanism (Fixes: <a href="https://redirect.github.com/vercel/pkg/issues/954">vercel/pkg#954</a>, <a href="https://redirect.github.com/vercel/pkg/issues/989">vercel/pkg#989</a>, <a href="https://redirect.github.com/vercel/pkg/issues/1194">vercel/pkg#1194</a>, <a href="https://redirect.github.com/vercel/pkg/issues/1517">vercel/pkg#1517</a>)</li>
-<li>Patched Node: bump to 16.15.0, add 18.1.0 and drop 17</li>
-</ul>
-</li>
-<li>fix broken tests on node 12; latest pnpm requires node &gt;= 14.19 by <a href="https://github.com/kldzj"><code>@​kldzj</code></a> in <a href="https://redirect.github.com/vercel/pkg/pull/1613">vercel/pkg#1613</a></li>
-<li>dependencies: bump (minor) by <a href="https://github.com/jesec"><code>@​jesec</code></a> in <a href="https://redirect.github.com/vercel/pkg/pull/1615">vercel/pkg#1615</a></li>
-<li>fix(bootstrap): prevent to override existing node addon file by <a href="https://github.com/renkei"><code>@​renkei</code></a> in <a href="https://redirect.github.com/vercel/pkg/pull/1611">vercel/pkg#1611</a></li>
-</ul>
-<h2>New Contributors</h2>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/vercel/pkg/commit/5dc987b90ffd191263eb0202833dc382cea0d47d"><code>5dc987b</code></a> 5.8.1</li>
-<li><a href="https://github.com/vercel/pkg/commit/f19285db72f4592110f49335923d9199da49a137"><code>f19285d</code></a> fix: add force flag to codesign to avoid already signed error (<a href="https://redirect.github.com/vercel/pkg/issues/1756">#1756</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/e3ac4902e9cb023f0ac2a596e21ff9166d2e268c"><code>e3ac490</code></a> chore: bump prebuild-install@7.1.1 (<a href="https://redirect.github.com/vercel/pkg/issues/1788">#1788</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/be1123c474b3653abf3bfb89c068378f66b3849b"><code>be1123c</code></a> style: fix typo in test-99-<a href="https://redirect.github.com/vercel/pkg/issues/1192">#1192</a>/main.js (<a href="https://redirect.github.com/vercel/pkg/issues/1790">#1790</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/614c02a06830e0a4a898e6cf4eb35dbbf6110af3"><code>614c02a</code></a> chore: upgrade actions runners (<a href="https://redirect.github.com/vercel/pkg/issues/1767">#1767</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/39e99859fe2fd33fb59c4a75318389b477c1a443"><code>39e9985</code></a> chore: remove unused entry (<a href="https://redirect.github.com/vercel/pkg/issues/1766">#1766</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/b8deba40c0c9dced29e5c15aaefe575285e716d6"><code>b8deba4</code></a> chore: use <code>@types/babel__generator</code> package (<a href="https://redirect.github.com/vercel/pkg/issues/1755">#1755</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/332c7d971a6a8f918f6d24470557f2dcb1de5abf"><code>332c7d9</code></a> chore: separate individual test scripts (<a href="https://redirect.github.com/vercel/pkg/issues/1759">#1759</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/6efa7cfbbac323a019680609c2c78bbf7b9fff0f"><code>6efa7cf</code></a> chore: add prettier check in linting step (<a href="https://redirect.github.com/vercel/pkg/issues/1764">#1764</a>)</li>
-<li><a href="https://github.com/vercel/pkg/commit/56135b583b901d552e3780e749e79e70e71fd3ea"><code>56135b5</code></a> chore: clean up obsolete eslint disable comments (<a href="https://redirect.github.com/vercel/pkg/issues/1760">#1760</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/vercel/pkg/compare/4.5.1...5.8.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-Updates `@adobe/css-tools` from 4.2.0 to 4.4.0
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/adobe/css-tools/blob/main/History.md"><code>@​adobe/css-tools</code>'s changelog</a>.</em></p>
-<blockquote>
-<h1>4.4.0 / 2024-06-05</h1>
-<ul>
-<li>add support for <a href="https://github.com/starting-style"><code>@​starting-style</code></a> <a href="https://redirect.github.com/adobe/css-tools/issues/319">#319</a></li>
-</ul>
-<h1>4.3.3 / 2024-01-24</h1>
-<ul>
-<li>Update export property <a href="https://redirect.github.com/adobe/css-tools/issues/271">#271</a></li>
-</ul>
-<h1>4.3.2 / 2023-11-28</h1>
-<ul>
-<li>Fix redos vulnerability with specific crafted css string - CVE-2023-48631</li>
-<li>Fix Problem parsing with :is() and nested :nth-child() <a href="https://redirect.github.com/adobe/css-tools/issues/211">#211</a></li>
-</ul>
-<h1>4.3.1 / 2023-03-14</h1>
-<ul>
-<li>Fix redos vulnerability with specific crafted css string - CVE-2023-26364</li>
-</ul>
-<h1>4.3.0 / 2023-03-07</h1>
-<ul>
-<li>Update build tools</li>
-<li>Update exports path and files</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/adobe/css-tools/commits">compare view</a></li>
-</ul>
-</details>
-<br />
-
-Updates `apollo-server-core` from 3.12.0 to 3.13.0
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/apollographql/apollo-server/commit/f93284e853efd6da46d91ae40da47a2dd15b61fe"><code>f93284e</code></a> Release</li>
-<li><a href="https://github.com/apollographql/apollo-server/commit/4745ebed69775959212bbca7b02cff65c1f0dc64"><code>4745ebe</code></a> Rename option from disableValidation to dangerouslyDisableValidation</li>
-<li><a href="https://github.com/apollographql/apollo-server/commit/11f5981067f570c60a0003b51f3d634ebd8fa792"><code>11f5981</code></a> Add disableValidation option to apollo-server-core</li>
-<li><a href="https://github.com/apollographql/apollo-server/commit/ea2e2c3e071afc9144af00cae7b51720b9cc8b32"><code>ea2e2c3</code></a> Release</li>
-<li><a href="https://github.com/apollographql/apollo-server/commit/1dd45b8366a6cee75e4ca321eeb5acf107e6c73e"><code>1dd45b8</code></a> get CI passing</li>
-<li><a href="https://github.com/apollographql/apollo-server/commit/d38b43bac88acdef4295759d7dcc3d4c348d9575"><code>d38b43b</code></a> Merge pull request from GHSA-j5g3-5c8r-7qfx</li>
-<li>See full diff in <a href="https://github.com/apollographql/apollo-server/commits/apollo-server-core@3.13.0/packages/apollo-server-core">compare view</a></li>
-</ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~apollo-bot">apollo-bot</a>, a new releaser for apollo-server-core since your current version.</p>
-</details>
-<br />
-
-Updates `browserify-sign` from 4.2.1 to 4.2.3
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/browserify/browserify-sign/blob/main/CHANGELOG.md">browserify-sign's changelog</a>.</em></p>
-<blockquote>
-<h2><a href="https://github.com/browserify/browserify-sign/compare/v4.2.2...v4.2.3">v4.2.3</a> - 2024-03-05</h2>
-<h3>Commits</h3>
-<ul>
-<li>[patch] widen support to 0.12 <a href="https://github.com/browserify/browserify-sign/commit/9247adfd261ededfec1c036c9d8f36c4e9f87c0e"><code>9247adf</code></a></li>
-<li>[patch] drop minimum node support to v1 <a href="https://github.com/browserify/browserify-sign/commit/4d0ee49ae2dc238b877dce9aed7e23fb4cb5088d"><code>4d0ee49</code></a></li>
-<li>[Dev Deps] update <code>aud</code>, <code>npmignore</code>, <code>tape</code> <a href="https://github.com/browserify/browserify-sign/commit/87f3a35a587b377da2c1987af8d41c57b5afe0a5"><code>87f3a35</code></a></li>
-<li>[actions] remove redundant finisher <a href="https://github.com/browserify/browserify-sign/commit/37a475856843b7d1b2403fdafac0024ba252e579"><code>37a4758</code></a></li>
-<li>[Deps] pin <code>hash-base</code> to ~3.0, due to a breaking change <a href="https://github.com/browserify/browserify-sign/commit/9e2bf122b70970cb92f69d53e963f18299f14d66"><code>9e2bf12</code></a></li>
-<li>[Deps] update <code>parse-asn1 [</code>f427270`](<a href="https://github.com/browserify/browserify-sign/commit/f427270ac11dc6be29f87d7afb046c16376a5a9c">https://github.com/browserify/browserify-sign/commit/f427270ac11dc6be29f87d7afb046c16376a5a9c</a>)</li>
-<li>[Deps] update <code>elliptic</code> <a href="https://github.com/browserify/browserify-sign/commit/fb261cea57f92b3d98bc4d8bc6228c43a5de2e91"><code>fb261ce</code></a></li>
-<li>[Deps] pin <code>elliptic</code> due to a breaking change <a href="https://github.com/browserify/browserify-sign/commit/168e16fcb54886a0281b0c983e1482a097042684"><code>168e16f</code></a></li>
-</ul>
-<h2><a href="https://github.com/browserify/browserify-sign/compare/v4.2.1...v4.2.2">v4.2.2</a> - 2023-10-25</h2>
-<h3>Fixed</h3>
-<ul>
-<li>[Tests] log when openssl doesn't support cipher <a href="https://redirect.github.com/browserify/browserify-sign/issues/37"><code>[#37](https://github.com/crypto-browserify/browserify-sign/issues/37)</code></a></li>
-</ul>
-<h3>Commits</h3>
-<ul>
-<li>Only apps should have lockfiles <a href="https://github.com/browserify/browserify-sign/commit/09a89959393b3c89fedd4f7f3bafa4fec44371d7"><code>09a8995</code></a></li>
-<li>[eslint] switch to eslint <a href="https://github.com/browserify/browserify-sign/commit/83fe46374b819e959d56d2c0b931308f7451a664"><code>83fe463</code></a></li>
-<li>[meta] add <code>npmignore</code> and <code>auto-changelog</code> <a href="https://github.com/browserify/browserify-sign/commit/44181838e7dcc4d5d0c568f74312ea28f0bcdfd5"><code>4418183</code></a></li>
-<li>[meta] fix package.json indentation <a href="https://github.com/browserify/browserify-sign/commit/9ac5a5eaaac8a11eb70ec2febd13745c8764ae02"><code>9ac5a5e</code></a></li>
-<li>[Tests] migrate from travis to github actions <a href="https://github.com/browserify/browserify-sign/commit/d845d855def38e2085d5a21e447a48300f99fa60"><code>d845d85</code></a></li>
-<li>[Fix] <code>sign</code>: throw on unsupported padding scheme <a href="https://github.com/browserify/browserify-sign/commit/8767739a4516289568bcce9fed8a3b7e23478de9"><code>8767739</code></a></li>
-<li>[Fix] properly check the upper bound for DSA signatures <a href="https://github.com/browserify/browserify-sign/commit/85994cd6348b50f2fd1b73c54e20881416f44a30"><code>85994cd</code></a></li>
-<li>[Tests] handle openSSL not supporting a scheme <a href="https://github.com/browserify/browserify-sign/commit/f5f17c27f9824de40b5ce8ebd8502111203fd6af"><code>f5f17c2</code></a></li>
-<li>[Deps] update <code>bn.js</code>, <code>browserify-rsa</code>, <code>elliptic</code>, <code>parse-asn1</code>, <code>readable-stream</code>, <code>safe-buffer</code> <a href="https://github.com/browserify/browserify-sign/commit/a67d0eb4ffceabb366b69da69ce9a223e9d5e96b"><code>a67d0eb</code></a></li>
-<li>[Dev Deps] update <code>nyc</code>, <code>standard</code>, <code>tape</code> <a href="https://github.com/browserify/browserify-sign/commit/cc5350b96702fcba930e0662cf763844fd2f59bf"><code>cc5350b</code></a></li>
-<li>[Tests] always run coverage; downgrade <code>nyc</code> <a href="https://github.com/browserify/browserify-sign/commit/75ce1d5c49a6591dd13422016c07f8f9cae13371"><code>75ce1d5</code></a></li>
-<li>[meta] add <code>safe-publish-latest</code> <a href="https://github.com/browserify/browserify-sign/commit/dcf49ce85a1a66a6fb31689508d916d7894286a9"><code>dcf49ce</code></a></li>
-<li>[Tests] add <code>npm run posttest</code> <a href="https://github.com/browserify/browserify-sign/commit/75dd8fd6ce56eb37b12e30807e5f913867b21733"><code>75dd8fd</code></a></li>
-<li>[Dev Deps] update <code>tape</code> <a href="https://github.com/browserify/browserify-sign/commit/3aec0386dc8dfba8698be756ec770df863867c84"><code>3aec038</code></a></li>
-<li>[Tests] skip unsupported schemes <a href="https://github.com/browserify/browserify-sign/commit/703c83ea72db2f45714fe749c6f04b05243ca9a8"><code>703c83e</code></a></li>
-<li>[Tests] node &lt; 6 lacks array <code>includes</code> <a href="https://github.com/browserify/browserify-sign/commit/3aa43cfbc1fdde8481bcdd3bff581574159b869a"><code>3aa43cf</code></a></li>
-<li>[Dev Deps] fix eslint range <a href="https://github.com/browserify/browserify-sign/commit/98d4e0d7ff18871b0ca07415f758a610ccf8ebbe"><code>98d4e0d</code></a></li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/browserify/browserify-sign/commit/bf2c3ec8fa046a52420ccd322186cc477d82165c"><code>bf2c3ec</code></a> v4.2.3</li>
-<li><a href="https://github.com/browserify/browserify-sign/commit/9247adfd261ededfec1c036c9d8f36c4e9f87c0e"><code>9247adf</code></a> [patch] widen support to 0.12</li>
-<li><a href="https://github.com/browserify/browserify-sign/commit/f427270ac11dc6be29f87d7afb046c16376a5a9c"><code>f427270</code></a> [Deps] update `parse-asn1</li>
-<li><a href="https://github.com/browserify/browserify-sign/commit/87f3a35a587b377da2c1987af8d41c57b5afe0a5"><code>87f3a35</code></a> [Dev Deps] update <code>aud</code>, <code>npmignore</code>, <code>tape</code></li>
-<li><a href="https://github.com/browserify/browserify-sign/commit/fb261cea57f92b3d98bc4d8bc622...
+<li>No longer take NODE_OPTIONS from the environment of the end-user. Only the users (developers who use pkg to package their project) should have control over the flags via the &quot;bake in&quot; (--options) mechanism (Fixes: <a href="https://redirect.github.com/vercel/pkg/issues/954">vercel/pkg#954</a>, <a href="https://redirect.github.com/vercel/pkg/issues/989">vercel/pk...
 
 _Description has been truncated_
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-17 20:29:54 +0000 UTC
+        Created At 2024-06-19 16:34:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3332" class=".btn">#3332</a>
+            </td>
+            <td>
+                <b>
+                    ci(github): yarn lint job now fails if formatting was needed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If someone sends a pull request that isn't formatted according to the
+tools we have in place for auto-format code (ESLint, prettier) then after
+this change the CI will fail and this way we don't end up in a situation
+where running `yarn lint` on the main branch produces a diff of auto-formatted
+code files (which is currently sadly the case).
+
+At the same time as introducing this constraint I'm also applying the automatic
+formatting on the code project wide so that the check can actually pass as
+intended when this change is getting merged.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 00:30:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3331" class=".btn">#3331</a>
+            </td>
+            <td>
+                <b>
+                    test(connector-besu): migrate deploy-contract/* test cases to Jest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 23:59:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3330" class=".btn">#3330</a>
+            </td>
+            <td>
+                <b>
+                    ci(github): add --ignore-scripts to lerna publish - some are failing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Longer term we'll just fix the scripts that are crashing, but right now
+as a short term solution I disabled the script execution.
+2. It might even be more secure for us to use this ignore scripts flag
+permanently because some of the attack vectors are in those scripts which
+new versions of the dependencies can execute arbitrary code.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 16:56:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3329" class=".btn">#3329</a>
+            </td>
+            <td>
+                <b>
+                    docs(RELEASE_MANAGEMENT): explain auto-merge for release PRs is a no-no
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The detailed explanation is here:
+
+Do not enable auto-merging on GitHub for the pull request doing the release.
+The problem with auto-merging here is that it would modify the release commit's SHA as the
+rebase would happen on GitHub's servers where your git signing identity is not available to use
+given that GitHub does (should) not have access to your private key for signing.
+The way the preserve your commit signature as valid the commit SHA must remain the same and the
+way to achieve this is to perform the pull request merging with fast forward. The merging
+ensures that there is no commit SHA change and the `--ff-only` option ensures that there is no
+merge commit to throw a wrench in the process.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 16:32:34 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3048" class=".btn">#3048</a>
+            </td>
+            <td>
+                <b>
+                    :adhesive_bandage: add exception handling to wallet-upgrade check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Simple fix for non-critical issue.
+
+Currently, if something goes wrong with the `check_for_wallet_upgrades_in_progress` method, then startup will be aborted. This PR just adds a try-except block, such that the exception is logged and startup can proceed.
+
+Relates to #3030
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 13:37:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3046" class=".btn">#3046</a>
             </td>
             <td>
@@ -1018,6 +1048,22 @@ You can trigger Dependabot actions by commenting on this PR:
             </td>
             <td>
                 Marking as draft to first confirm functionality works as expected
+
+Edit: Success! I've written a local test to assert that limit/offset does indeed work as expected, and that unique records are returned across pages. 
+___
+
+This adds `limit` and `offset` query parameters to:
+- listing connection records (in v1 connections API)
+- listing credential exchange records (in v1 and v2 issue_credentials API)
+- listing presentation exchange records (in v1 and v2 present_proof API)
+
+As with #3000: the default behavior is now changed to no longer attempt to fetch all records for these endpoints. A default page size of 100 is used, with a maximum allowable page size of 10'000.
+
+As you can see, adding the functionality is as simple as extending `PaginatedQuerySchema` for the query parameter schemas, and then to read limit and offset, and passing it to the Records.query method.
+
+There are probably more endpoints where this functionality can be added, so I'm open for suggestions to apply the same elsewhere, but it should be straight forward enough for other contributors to add too.
+
+These are just what I believe to be the essential endpoints, such that issuers/verifiers listing connections or exchange records won't try to read potentially millions of records.
             </td>
         </tr>
     </table>
