@@ -88,30 +88,3 @@ permalink: /pull-requests/hyperledger/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/280" class=".btn">#280</a>
-            </td>
-            <td>
-                <b>
-                    Update access-control.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added new user to the bevel team, and removed an user.
-[bevel-triage](https://github.com/orgs/hyperledger/teams/bevel-triage) does not reflect the users properly. Missing `saikumarbommakanti`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-12 10:51:57 +0000 UTC
-    </div>
-</div>
-

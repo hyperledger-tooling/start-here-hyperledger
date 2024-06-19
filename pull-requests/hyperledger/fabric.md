@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4907" class=".btn">#4907</a>
+            </td>
+            <td>
+                <b>
+                    peer delivery client policy integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+Integration tests for #4847
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 10:34:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4906" class=".btn">#4906</a>
             </td>
             <td>
