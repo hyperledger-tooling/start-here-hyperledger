@@ -61,7 +61,7 @@ Handles the scenario where the tails server isn't available during revocation ro
 
 Keeps the revocation list in a failed state if the revocation registry has never been uploaded. During issuance it will check for a failed state and try to upload and finish the revocation list. Issuance will not occur until a successful tails server and connection occurs.
 
-Thought about keeping the revocation registry itself in a failed state but seemed to make sense to have it this way so the registry will still handle the full registry scenario.
+Thought about keeping the revocation registry definition itself in a failed state but seemed to make sense to have it this way so the registry will still handle the full registry scenario.
             </td>
         </tr>
     </table>

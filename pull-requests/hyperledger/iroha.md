@@ -14,6 +14,101 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4752" class=".btn">#4752</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump faker from 25.8.0 to 25.9.1 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [faker](https://github.com/joke2k/faker) from 25.8.0 to 25.9.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/releases">faker's releases</a>.</em></p>
+<blockquote>
+<h2>Release v25.9.1</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.9.1/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<h2>Release v25.9.0</h2>
+<p>See <a href="https://github.com/joke2k/faker/blob/refs/tags/v25.9.0/CHANGELOG.md">CHANGELOG.md</a>.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/joke2k/faker/blob/master/CHANGELOG.md">faker's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.9.0..v25.9.1">v25.9.1 - 2024-06-20</a></h3>
+<ul>
+<li>Change <code>pydecimal</code> type hint for <code>min_value</code>, <code>max_value</code> to allow <code>int</code>s. Thanks <a href="https://github.com/parsariyahi"><code>@​parsariyahi</code></a>.</li>
+</ul>
+<h3><a href="https://github.com/joke2k/faker/compare/v25.8.0..v25.9.0">v25.9.0 - 2024-06-20</a></h3>
+<ul>
+<li>Add support for Nigerian Yoruba names and surnames (<code>yo_NG</code>). Thanks <a href="https://github.com/5uru"><code>@​5uru</code></a>.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/joke2k/faker/commit/fb42357d0ac30c0fdba200d5339f8fe9f9ce6f81"><code>fb42357</code></a> Bump version: 25.9.0 → 25.9.1</li>
+<li><a href="https://github.com/joke2k/faker/commit/7c391c45d840c9b7ea29e723fee6cbfd6ba08d24"><code>7c391c4</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/10c2ba35cda949188c460464f46e79ee0236d605"><code>10c2ba3</code></a> Fix typing on <code>pydecimal</code></li>
+<li><a href="https://github.com/joke2k/faker/commit/d0bfbfbf7a30b1831bf466cfb48ac627bb090b15"><code>d0bfbfb</code></a> Change <code>pydecimal</code> type hint for <code>min_value</code>, <code>max_value</code> to <code>numbers.Number</code>...</li>
+<li><a href="https://github.com/joke2k/faker/commit/c49ef43bf5ac8ccaaded6ff02866e9eabdaa27b5"><code>c49ef43</code></a> Bump version: 25.8.0 → 25.9.0</li>
+<li><a href="https://github.com/joke2k/faker/commit/f375cbc42d8dd973aa170207dbe2e2ab2ea945c3"><code>f375cbc</code></a> :pencil: Update CHANGELOG.md</li>
+<li><a href="https://github.com/joke2k/faker/commit/fc329ad841d45967ff3cda49d06c9399d5f56299"><code>fc329ad</code></a> 💄 format code</li>
+<li><a href="https://github.com/joke2k/faker/commit/84766274e5476f7698df00bc7e7ba3c3c99ad82f"><code>8476627</code></a> Added support for Nigerian Yoruba names and surnames (yo_NG) (<a href="https://redirect.github.com/joke2k/faker/issues/2054">#2054</a>)</li>
+<li>See full diff in <a href="https://github.com/joke2k/faker/compare/v25.8.0...v25.9.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=faker&package-manager=pip&previous-version=25.8.0&new-version=25.9.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-20 16:29:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4750" class=".btn">#4750</a>
             </td>
             <td>
@@ -991,59 +1086,6 @@ Add missing types into the schema.
     </table>
     <div class="right-align">
         Created At 2024-06-14 08:58:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4728" class=".btn">#4728</a>
-            </td>
-            <td>
-                <b>
-                    fix: Introduce p2p idle timeout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Backport of #4398.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4267 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-No problem with connectivity on rc20.
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-13 14:20:07 +0000 UTC
     </div>
 </div>
 
