@@ -520,32 +520,3 @@ Signed-off-by: Danno Ferrin <danno@numisight.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7226" class=".btn">#7226</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix typos in changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-- This PR fixes some typos found in the changelog
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-13 14:36:25 +0000 UTC
-    </div>
-</div>
-
