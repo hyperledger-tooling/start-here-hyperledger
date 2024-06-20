@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/660" class=".btn">#660</a>
+            </td>
+            <td>
+                <b>
+                    Test fsc int 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-20 12:21:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/659" class=".btn">#659</a>
             </td>
             <td>
@@ -86,33 +112,6 @@ Notice that this integration test is not included in the CI. It is uses locally 
     </table>
     <div class="right-align">
         Created At 2024-06-13 12:46:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/655" class=".btn">#655</a>
-            </td>
-            <td>
-                <b>
-                    fabric network adaptor: support for FSC-based endorsement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR does the following: It allows the developer to configure FSC nodes as endorsers of the Token Chaincode.
-In this case, the FSC node will not run directly the chaincode but its logic directly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-13 08:54:25 +0000 UTC
     </div>
 </div>
 

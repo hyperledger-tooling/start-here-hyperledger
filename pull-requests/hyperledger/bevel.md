@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2587" class=".btn">#2587</a>
+            </td>
+            <td>
+                <b>
+                    [indy] refactor codebase for effective deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+**feat(indy): refactor codebase for effective deployment**
+
+```
+This PR enhances our deployment process for the Indy DLT platform by using the Main branch code.
+
+Changes:
+- Updated various 'tasks' and the 'Helmrelease' template file.
+- Added support for the new Indy version 1.12.6.
+```
+
+fixes #quick-fix
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-20 09:12:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2583" class=".btn">#2583</a>
             </td>
             <td>
@@ -94,32 +133,6 @@ fixes hyperledger#2548
     </table>
     <div class="right-align">
         Created At 2024-06-17 07:24:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2580" class=".btn">#2580</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Operator readme updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                And Istio version update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-13 08:53:37 +0000 UTC
     </div>
 </div>
 
