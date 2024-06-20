@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                <nil>
+                Fixes #1618 
             </td>
         </tr>
     </table>

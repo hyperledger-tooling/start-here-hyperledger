@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/722" class=".btn">#722</a>
+            </td>
+            <td>
+                <b>
+                    Consistent Go license headers with linting check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use goheader linter in golangci-lint to check that Go files contain correct license header.
+
+Also add cognitive complexity linter in addition to existing cyclomatic complexity linter.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 22:29:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/721" class=".btn">#721</a>
             </td>
             <td>

@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3050" class=".btn">#3050</a>
+            </td>
+            <td>
+                <b>
+                    fix: respond to did:peer:1 with did:peer:4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adjusts the default did method ACA-Py will respond to did:peer:1 with to did:peer:4. This should help the situation reported in #3020.
+
+Marked as draft until I have a chance to test against Credo.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 23:34:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3049" class=".btn">#3049</a>
+            </td>
+            <td>
+                <b>
+                    Handle failed tails server issuance [Anoncreds]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ***WIP***
+
+Handles the scenario where the tails server isn't available during revocation rotation.
+
+Keeps the revocation list in a failed state if the revocation registry has never been uploaded. During issuance it will check for a failed state and try to upload and finish the revocation list. Issuance will not occur until a successful tails server and connection occurs.
+
+Thought about keeping the revocation registry itself in a failed state but seemed to make sense to have it this way so the registry will still handle the full registry scenario.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 21:26:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3048" class=".btn">#3048</a>
             </td>
             <td>

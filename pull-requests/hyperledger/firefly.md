@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1529" class=".btn">#1529</a>
+            </td>
+            <td>
+                <b>
+                    fix: do not start multiple blockchain plugin on retry of namespace start
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/firefly/issues/1527
+
+Make sure that in the case where the NS fails to restart because of another plugin has failed do not start the blockchain plugin again when it was successfully started before.
+
+Played around with the idea of using context to clear everything but it didn't make sense. Also I don't think a mutexLock is needed for this. 
+
+If you are wondering how all the other plugins work it's because at initialisation part those plugins return a struct that we then use as part of starting the managers/plugins.  So we can check for the existence of that struct and not re-initialise that manager/plugin. In the case of the blockchain plugin, it's a shared struct and we just start a new event streams in the init part.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 17:14:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1526" class=".btn">#1526</a>
             </td>
             <td>
