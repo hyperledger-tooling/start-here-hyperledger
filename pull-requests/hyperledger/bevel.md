@@ -55,12 +55,12 @@ permalink: /pull-requests/hyperledger/bevel
             <td>
                 feat (r3-corda-ent): enable platform deployment via ansible-server
 
-This commit introduces support for deploying a decentralized ledger technology (DLT) network using Ansible automation. The c>
+This commit introduces support for deploying a decentralized ledger technology (DLT) network using Ansible automation. 
 
 - Updated the Ansible codebase to support network deployment in respect of the standalone Helm chart
 - The following Ansible roles have been introduced to appropriately deploy the network of one organization only: 1. initlize the organization 2. setup cenm 3. setup notary 4. setup networkmap
 
-- updated the sample network configuration file to provide information on which networks can be deployed using this file and>
+- updated the sample network configuration file to provide information on which networks can be deployed using this file 
 
 fixes hyperledger#2548
             </td>
