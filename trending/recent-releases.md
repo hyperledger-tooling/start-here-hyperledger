@@ -7,7 +7,7 @@
 
 [v2.0.0-rc.1](https://github.com/hyperledger/cacti/releases/tag/v2.0.0-rc.1) v2.0.0-rc.1
 
-[weaver/core/network/fabric-interop-cc/contracts/interop/v2.0.0-rc.1](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/contracts/interop/v2.0.0-rc.1) v2.0.0-rc.1 - GO Fabric Interop Chaincode - Jun 18, 2024
+[weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-rc.1](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-rc.1) v2.0.0-rc.1 - GO Fabric Utils Library for Interoperation - Jun 18, 2024
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
