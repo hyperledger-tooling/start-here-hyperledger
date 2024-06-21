@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/195" class=".btn">#195</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/196" class=".btn">#196</a>
             </td>
             <td>
                 <b>
-                    Fixed HSM Library Upgrade Path for 2.5.x Scenario
+                    Bump fabric, fabric-ca, fabric-lib-go
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                <nil>
+                Update to the latest fabric (v2.5.9), fabric-ca, and fabric-lib-go. These versions all depend on the same version of github.com/IBM/idemix and resolves issues related to breaking changes in github.com/IBM/idemix.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-22 05:24:48 +0000 UTC
+        Created At 2024-06-20 22:08:52 +0000 UTC
     </div>
 </div>
 

@@ -55,11 +55,12 @@ Marked as draft until I have a chance to test against Credo.
                 
             </td>
             <td>
-                ***WIP***
+                - Handles the scenario where the tails server isn't available during revocation rotation.
+- Fixes a bug with the openapi verse expected value for `max_cred_num`
+- Refactors the create_credential function
+- Removes some TODO's. Most with documentation that I think is good enough.
 
-Handles the scenario where the tails server isn't available during revocation rotation.
-
-Keeps the revocation list in a failed state if the revocation registry has never been uploaded. During issuance it will check for a failed state and try to upload and finish the revocation list. Issuance will not occur until a successful tails server and connection occurs.
+Keeps the revocation list in a failed state if the revocation registry has never been uploaded to the tails server. During issuance it will check for a failed state and try to upload and finish the revocation list. Issuance will not occur until a successful tails server and connection occurs.
 
 Thought about keeping the revocation registry definition itself in a failed state but seemed to make sense to have it this way so the registry will still handle the full registry scenario.
             </td>
@@ -1129,34 +1130,6 @@ These are just what I believe to be the essential endpoints, such that issuers/v
     </table>
     <div class="right-align">
         Created At 2024-06-14 12:41:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3032" class=".btn">#3032</a>
-            </td>
-            <td>
-                <b>
-                    Prevent getting stuck with no active registry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes a problem where it was possible to get stuck in a state where a new registry wouldn't become active or created after rotating occurred when the tails server was unavailable.
-
-Refactored some code in the revocation/indy module.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-13 18:58:49 +0000 UTC
     </div>
 </div>
 
