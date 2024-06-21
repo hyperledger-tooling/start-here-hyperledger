@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/273" class=".btn">#273</a>
-            </td>
-            <td>
-                <b>
-                    Rename file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-14 15:14:08 +0000 UTC
-    </div>
-</div>
-

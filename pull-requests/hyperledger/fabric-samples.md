@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    WIP: fabric-contract-api-go/v2
+                    Update Go chaincode to fabric-contract-api-go/v2
                 </b>
             </td>
         </tr>
@@ -166,33 +166,6 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </table>
     <div class="right-align">
         Created At 2024-06-15 16:07:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1221" class=".btn">#1221</a>
-            </td>
-            <td>
-                <b>
-                    Add chaincode logging for binary chaincode in test-network-nano-bash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Correct sh compability in ca_utils.sh
-- Correct linux compatibility in external builder
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-14 16:33:09 +0000 UTC
     </div>
 </div>
 

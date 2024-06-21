@@ -1,13 +1,13 @@
 
-[662](https://github.com/hyperledger-labs/fabric-token-sdk/pull/662) NWO-based suite runner
+[3350](https://github.com/hyperledger/cacti/pull/3350) feat(connector-besu): expose API client and OpenAPI code for web builds
 
-[602](https://github.com/hyperledger-labs/fabric-smart-client/pull/602) Fixes in context propagation
+[7251](https://github.com/hyperledger/besu/pull/7251) Update Docker base image to Ubuntu 24.04
 
-[661](https://github.com/hyperledger-labs/fabric-token-sdk/pull/661) Added tracer support and integrated new FSC version
+[604](https://github.com/hyperledger-labs/fabric-smart-client/pull/604) Support for traces in sessions
 
-[4757](https://github.com/hyperledger/iroha/pull/4757) fix!: Upgrade executor in separate transaction in genesis block
+[4760](https://github.com/hyperledger/iroha/pull/4760) chore(deps): bump syn from 2.0.66 to 2.0.67
 
-[1628](https://github.com/hyperledger/besu-docs/pull/1628) Bump the npm_and_yarn group across 1 directory with 5 updates
+[7250](https://github.com/hyperledger/besu/pull/7250) Make code sizes a characteristic of the EVM version
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

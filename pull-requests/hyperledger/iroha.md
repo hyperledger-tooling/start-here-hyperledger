@@ -14,6 +14,168 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4760" class=".btn">#4760</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump syn from 2.0.66 to 2.0.67
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.66 to 2.0.67.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/syn/releases">syn's releases</a>.</em></p>
+<blockquote>
+<h2>2.0.67</h2>
+<ul>
+<li>Produce more accurate error message locations for errors located at the end of a nested group (<a href="https://redirect.github.com/dtolnay/syn/issues/1679">#1679</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1680">#1680</a>)</li>
+<li>Support peeking <code>LitCStr</code> in ParseStream::peek (<a href="https://redirect.github.com/dtolnay/syn/issues/1682">#1682</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/syn/commit/25f6299c982276bf55faac834538d78ea61d6bad"><code>25f6299</code></a> Release 2.0.67</li>
+<li><a href="https://github.com/dtolnay/syn/commit/666e15e95ff3763571f14af93be2641eecc5c2d9"><code>666e15e</code></a> Revert &quot;List peekable token types in documentation of Peek trait&quot;</li>
+<li><a href="https://github.com/dtolnay/syn/commit/2955706a736b5ca293eff45a3b2cade32baa01aa"><code>2955706</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1683">#1683</a> from dtolnay/peekimpl</li>
+<li><a href="https://github.com/dtolnay/syn/commit/0c902919850353ddfe4d90f5ba0474e6ac8aaaa8"><code>0c90291</code></a> List peekable token types in documentation of Peek trait</li>
+<li><a href="https://github.com/dtolnay/syn/commit/26ce3d9134644b62298963d0abf0e9a3584f6896"><code>26ce3d9</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1682">#1682</a> from dtolnay/peekcstr</li>
+<li><a href="https://github.com/dtolnay/syn/commit/ec0c84b282c8ade12f6afaad7425b90ec5a1fd7d"><code>ec0c84b</code></a> Make LitCStr peekable</li>
+<li><a href="https://github.com/dtolnay/syn/commit/8cb56cc59d8ea0117dd6df3915f4c730249618bc"><code>8cb56cc</code></a> Update test suite to nightly-2024-06-20</li>
+<li><a href="https://github.com/dtolnay/syn/commit/7cc7eac262467d4c1e6cac8f9beeb20d256f7d49"><code>7cc7eac</code></a> Inline lookahead::is_delimiter into delimiter Token impls</li>
+<li><a href="https://github.com/dtolnay/syn/commit/8a2a86bce92d1f440a7b2d6d244ab825d426bb61"><code>8a2a86b</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1681">#1681</a> from dtolnay/offset</li>
+<li><a href="https://github.com/dtolnay/syn/commit/e86538ccd80494c8bf239b36550c0f9e298b50c5"><code>e86538c</code></a> Optimize reverse iteration of TokenBuffer</li>
+<li>Additional commits viewable in <a href="https://github.com/dtolnay/syn/compare/2.0.66...2.0.67">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.66&new-version=2.0.67)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 17:05:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4759" class=".btn">#4759</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump proc-macro2 from 1.0.85 to 1.0.86
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [proc-macro2](https://github.com/dtolnay/proc-macro2) from 1.0.85 to 1.0.86.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/proc-macro2/releases">proc-macro2's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.86</h2>
+<ul>
+<li>Documentation improvements</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/aa9476b27932ae1b1b50bbfe0530b3b261fc1b72"><code>aa9476b</code></a> Release 1.0.86</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/19613587b70633e8bd383dd2fc29856d2d080f45"><code>1961358</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/proc-macro2/issues/466">#466</a> from dtolnay/buildrs</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/e1bd2cc29da09be421555bb0e1156c5e2b87df5d"><code>e1bd2cc</code></a> Bring build script comments up to date</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/5b271279521e11ac6eada5435e5a8d87f46d3619"><code>5b27127</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/proc-macro2/issues/465">#465</a> from dtolnay/ignorereason</li>
+<li><a href="https://github.com/dtolnay/proc-macro2/commit/0da4629757024ac6dac1680ba3be44bac24af809"><code>0da4629</code></a> Fill in ignore reasons in all #[ignore] attributes</li>
+<li>See full diff in <a href="https://github.com/dtolnay/proc-macro2/compare/1.0.85...1.0.86">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=proc-macro2&package-manager=cargo&previous-version=1.0.85&new-version=1.0.86)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 17:01:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4757" class=".btn">#4757</a>
             </td>
             <td>
