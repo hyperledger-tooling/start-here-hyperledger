@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3346" class=".btn">#3346</a>
+            </td>
+            <td>
+                <b>
+                    ci(custom-checks): fix depcheck not detecting missing dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                1. The depcheck tool we use have not correctly discovered some of the
+missing dependencies that we have because it only verifies that the
+imported dependency is present SOMEwhere in the package.json file, not that
+it is specifically present in the production dependencies section which
+leads to crashes and broken packages due to the API server not installing
+dev dependencies when instantiating a plugin and therefore missing a few
+of the dependencies that are otherwise very much needed at runtime in
+production.
+2. The solution to the problem was to implement our own typescript parsing
+with babel and then double check the work of depcheck to make sure that
+the dependencies that it marks as "no issues" are actually OK and have no
+issues.
+3. The hardest edge case was type imports e.g. `import type { Express } from "express";`
+because the import was there, but we did not actually need that dependency
+in the production dependencies as long as ALL of the imports to it in the
+given package were type imports. To robustly verify this being the case or not
+we had to pull out the big guns and parse all the typescript code per package
+to make sure that we've looked at every single import of the dependency in
+question at every single code file of the package in question.
+
+Depends on #3345
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 01:28:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3345" class=".btn">#3345</a>
+            </td>
+            <td>
+                <b>
+                    fix(deps): fix batch of missing production dependencies v2.0.0-rc.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Huge diff, simple changes:
+1. Where applicable, I added `import type {..}` instead of `import {...}`
+so that we do not need the dependency in the production dependencies.
+2. For imports where the code imported was actually used at runtime I
+altered the package.json file so that the dependency is marked as a production
+dependency and therefore won't crash anymore when being imported in isolation
+(e.g. outside of the mono-repo dev build).
+
+Fixes #3344
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [X] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [X] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [X] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [X] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [X] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 01:26:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3343" class=".btn">#3343</a>
             </td>
             <td>
@@ -204,6 +312,9 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
             <td>
                     - chore: fix update-weaver-version script typo with quotes
     - chore: bug fix in release script go-gen-checksum
+
+Previous release of `weaver-go-sdk` failed because of a bug in CI.
+Also fixed the script `go-gen-checksum` identified in previous release and tested it on Ubuntu and Mac both.
 
 **Pull Request Requirements**
 - [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
@@ -1433,43 +1544,6 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
     </table>
     <div class="right-align">
         Created At 2024-06-14 09:12:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3321" class=".btn">#3321</a>
-            </td>
-            <td>
-                <b>
-                    test(weaver): added missed fabric-ca-server config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - These files were missed when we were merging Weaver into Cacti, due to a wrong `.gitignore`. It also extends expiry of certs to 10 years.
-
-- test(weaver): re-generate expired fabric testnet certs
-
-**Pull Request Requirements**
-- [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-14 05:37:13 +0000 UTC
     </div>
 </div>
 
