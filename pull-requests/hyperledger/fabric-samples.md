@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1228" class=".btn">#1228</a>
+            </td>
+            <td>
+                <b>
+                    WIP: fabric-contract-api-go/v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 00:21:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1227" class=".btn">#1227</a>
+            </td>
+            <td>
+                <b>
+                    Add JavaScript asset-transfer-basic application
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While the TypeScript application sample is essentially identical (with the addition of some type declarations), there seems to be sufficient uncertainty amongst JavaScript developers not familiar with TypeScript on how best to implement a JavaScript application that it is worthwhile having one plain JavaScript sample using the current client API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-20 22:43:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1226" class=".btn">#1226</a>
             </td>
             <td>
@@ -141,60 +193,6 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </table>
     <div class="right-align">
         Created At 2024-06-14 16:33:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1219" class=".btn">#1219</a>
-            </td>
-            <td>
-                <b>
-                    Use more specific chaincode package versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This demonstrates good practice in restricting the chaincode package versions to those applicable for the specific Fabric (major/minor) version targeted for deployment.
-
-Also some corrections to the repository README. Particularly referring to other branches for samples targeted at earlier Fabric versions, since samples in the main branch may exploit features not available in older Fabric releases, which can cause confusion for end users.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-13 22:12:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1218" class=".btn">#1218</a>
-            </td>
-            <td>
-                <b>
-                    Use only v2.2.x chaincode package dependencies (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Avoid chaincode packages picking up dependencies on later v2.x releases, such as v2.5.x. Later releases may exploit features not compatible with the v2.2 chaincode container runtime.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-13 21:26:42 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/423" class=".btn">#423</a>
+            </td>
+            <td>
+                <b>
+                    Bump github.com/IBM/idemix v0.0.2-0.20231011101252-a4feda90f3f7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump github.com/IBM/idemix v0.0.2-0.20231011101252-a4feda90f3f7.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-20 21:42:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/422" class=".btn">#422</a>
             </td>
             <td>
