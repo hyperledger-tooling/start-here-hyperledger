@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3051" class=".btn">#3051</a>
+            </td>
+            <td>
+                <b>
+                    LTS Release Strategy and corresponding changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Creating this PR to add the LTS (Long Term Support) Release Strategy for Aca-py releases. This closes https://github.com/hyperledger/aries-cloudagent-python/issues/2993
+
+The following are the summary of changes.
+
+1. Releases section added to Readme
+2. LTS Release Strategy document added to docs
+3. Snyk container image scanning mode changed to 'monitor' for LTS images
+4. Supported Features checklist updated with LTS versions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 13:18:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3050" class=".btn">#3050</a>
             </td>
             <td>
@@ -1088,48 +1121,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-17 12:06:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3033" class=".btn">#3033</a>
-            </td>
-            <td>
-                <b>
-                    :sparkles: Add pagination support for listing Connection, Cred Ex, and Pres Ex records
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Marking as draft to first confirm functionality works as expected
-
-Edit: Success! I've written a local test to assert that limit/offset does indeed work as expected, and that unique records are returned across pages. 
-___
-
-This adds `limit` and `offset` query parameters to:
-- listing connection records (in v1 connections API)
-- listing credential exchange records (in v1 and v2 issue_credentials API)
-- listing presentation exchange records (in v1 and v2 present_proof API)
-
-As with #3000: the default behavior is now changed to no longer attempt to fetch all records for these endpoints. A default page size of 100 is used, with a maximum allowable page size of 10'000.
-
-As you can see, adding the functionality is as simple as extending `PaginatedQuerySchema` for the query parameter schemas, and then to read limit and offset, and passing it to the Records.query method.
-
-There are probably more endpoints where this functionality can be added, so I'm open for suggestions to apply the same elsewhere, but it should be straight forward enough for other contributors to add too.
-
-These are just what I believe to be the essential endpoints, such that issuers/verifiers listing connections or exchange records won't try to read potentially millions of records.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-14 12:41:05 +0000 UTC
     </div>
 </div>
 
