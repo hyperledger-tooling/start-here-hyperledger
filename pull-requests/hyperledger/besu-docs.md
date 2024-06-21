@@ -246,29 +246,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1617" class=".btn">#1617</a>
-            </td>
-            <td>
-                <b>
-                    release 24.6.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                release 24.6.0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-14 01:29:29 +0000 UTC
-    </div>
-</div>
-
