@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1621" class=".btn">#1621</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1628" class=".btn">#1628</a>
             </td>
             <td>
                 <b>
-                    1618 docs adds eth_maxFeePG
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1618 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 14:46:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1619" class=".btn">#1619</a>
-            </td>
-            <td>
-                <b>
-                    Bump the npm_and_yarn group across 1 directory with 4 updates
+                    Bump the npm_and_yarn group across 1 directory with 5 updates
                 </b>
             </td>
         </tr>
@@ -53,7 +27,35 @@ permalink: /pull-requests/hyperledger/besu-docs
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps the npm_and_yarn group with 4 updates in the / directory: [tar](https://github.com/isaacs/node-tar), [semantic-release](https://github.com/semantic-release/semantic-release), [@semantic-release/npm](https://github.com/semantic-release/npm) and [ws](https://github.com/websockets/ws).
+                Bumps the npm_and_yarn group with 5 updates in the / directory:
+
+| Package | From | To |
+| --- | --- | --- |
+| [braces](https://github.com/micromatch/braces) | `3.0.2` | `3.0.3` |
+| [tar](https://github.com/isaacs/node-tar) | `6.1.15` | `removed` |
+| [semantic-release](https://github.com/semantic-release/semantic-release) | `21.1.2` | `24.0.0` |
+| [@semantic-release/npm](https://github.com/semantic-release/npm) | `10.0.6` | `12.0.1` |
+| [ws](https://github.com/websockets/ws) | `7.5.9` | `7.5.10` |
+
+
+Updates `braces` from 3.0.2 to 3.0.3
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/micromatch/braces/commit/74b2db2938fad48a2ea54a9c8bf27a37a62c350d"><code>74b2db2</code></a> 3.0.3</li>
+<li><a href="https://github.com/micromatch/braces/commit/88f1429a0f47e1dd3813de35211fc97ffda27f9e"><code>88f1429</code></a> update eslint. lint, fix unit tests.</li>
+<li><a href="https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff"><code>415d660</code></a> Snyk js braces 6838727 (<a href="https://redirect.github.com/micromatch/braces/issues/40">#40</a>)</li>
+<li><a href="https://github.com/micromatch/braces/commit/190510f79db1adf21d92798b0bb6fccc1f72c9d6"><code>190510f</code></a> fix tests, skip 1 test in test/braces.expand</li>
+<li><a href="https://github.com/micromatch/braces/commit/716eb9f12d820b145a831ad678618731927e8856"><code>716eb9f</code></a> readme bump</li>
+<li><a href="https://github.com/micromatch/braces/commit/a5851e57f45c3431a94d83fc565754bc10f5bbc3"><code>a5851e5</code></a> Merge pull request <a href="https://redirect.github.com/micromatch/braces/issues/37">#37</a> from coderaiser/fix/vulnerability</li>
+<li><a href="https://github.com/micromatch/braces/commit/2092bd1fb108d2c59bd62e243b70ad98db961538"><code>2092bd1</code></a> feature: braces: add maxSymbols (<a href="https://github.com/micromatch/braces/issues/">https://github.com/micromatch/braces/issues/</a>...</li>
+<li><a href="https://github.com/micromatch/braces/commit/9f5b4cf47329351bcb64287223ffb6ecc9a5e6d3"><code>9f5b4cf</code></a> fix: vulnerability (<a href="https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727">https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727</a>)</li>
+<li><a href="https://github.com/micromatch/braces/commit/98414f9f1fabe021736e26836d8306d5de747e0d"><code>98414f9</code></a> remove funding file</li>
+<li><a href="https://github.com/micromatch/braces/commit/665ab5d561c017a38ba7aafd92cc6655b91d8c14"><code>665ab5d</code></a> update keepEscaping doc (<a href="https://redirect.github.com/micromatch/braces/issues/27">#27</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/micromatch/braces/compare/3.0.2...3.0.3">compare view</a></li>
+</ul>
+</details>
+<br />
 
 Removes `tar`
 
@@ -242,7 +244,59 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-18 20:02:33 +0000 UTC
+        Created At 2024-06-21 12:07:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1627" class=".btn">#1627</a>
+            </td>
+            <td>
+                <b>
+                    Add bonsai-limit-trie-logs options and update how to page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/besu-docs/issues/1624
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 11:11:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1621" class=".btn">#1621</a>
+            </td>
+            <td>
+                <b>
+                    1618 docs adds eth_maxFeePG
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1618 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 14:46:47 +0000 UTC
     </div>
 </div>
 
