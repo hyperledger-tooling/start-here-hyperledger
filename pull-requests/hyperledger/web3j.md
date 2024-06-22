@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j/pull/2068" class=".btn">#2068</a>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2070" class=".btn">#2070</a>
             </td>
             <td>
                 <b>
-                    Big fix for codegen when Array of struct and struct used together
+                    Bug fix for Int256 decode range [2^248, type(int256).max] and [ type(int256.min), -(2^248) )
                 </b>
             </td>
         </tr>
@@ -28,17 +28,15 @@ permalink: /pull-requests/hyperledger/web3j
             </td>
             <td>
                 ### What does this PR do?
- After fixing https://github.com/hyperledger/web3j/pull/2061, there is still an edge case where array of struct and struct are used together in the same contract e.g `Foo` and `Foo[2]`. Fix this by having `normalizeNamedType` to take care of static array
-
-Also, structIdentifer is using hashCode which does not have uniqueness Property, it could subject to quite significant collision.
-
-This should also fix https://github.com/hyperledger/web3j/issues/2056. Added test case for the example in the issue
+Bug fix for decoding Int256 range [2^248, type(int256).max] and [ type(int256.min), -(2^248) )
 
 ### Where should the reviewer start?
 All files
 
 ### Why is it needed?
-Bug fix
+The decoding of int256 number range  [2^248, type(int256).max] and [ type(int256.min), -(2^248) ) will throw exception,
+type(int256.min) and type(int256).max is the particular case that we found
+
 
 ## Checklist
 
@@ -49,7 +47,7 @@ Bug fix
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-14 19:19:39 +0000 UTC
+        Created At 2024-06-22 17:25:14 +0000 UTC
     </div>
 </div>
 
