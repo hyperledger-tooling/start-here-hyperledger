@@ -126,7 +126,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
         </tr>
         <tr>
             <td>
-                <span class="chip">build</span><span class="chip">dependencies</span><span class="chip">javascript</span>
+                <span class="chip">build</span><span class="chip">dependencies</span><span class="chip">javascript</span><span class="chip">autoupdate</span>
             </td>
             <td>
                 Bumps the npm_and_yarn group with 1 update in the / directory: [braces](https://github.com/micromatch/braces).

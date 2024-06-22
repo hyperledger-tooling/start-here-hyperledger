@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4761" class=".btn">#4761</a>
+            </td>
+            <td>
+                <b>
+                    chore: move back to the upstream displaydoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Now that the displaydoc has released a version which fixed the nightly warnings, we can migrate back to it.
+
+(We were previously using a git version because of #4567)
+
+### Checklist
+
+- [ ] make ci pass
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 18:42:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4760" class=".btn">#4760</a>
             </td>
             <td>

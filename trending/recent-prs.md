@@ -1,13 +1,13 @@
 
-[3350](https://github.com/hyperledger/cacti/pull/3350) feat(connector-besu): expose API client and OpenAPI code for web builds
+[3356](https://github.com/hyperledger/cacti/pull/3356) build(deps): upgrade Yarn to v4.3.1
 
-[7251](https://github.com/hyperledger/besu/pull/7251) Update Docker base image to Ubuntu 24.04
+[3355](https://github.com/hyperledger/cacti/pull/3355) test(test-tooling: add negotiation-cordapp support from kotlin-samples
 
-[604](https://github.com/hyperledger-labs/fabric-smart-client/pull/604) Support for traces in sessions
+[663](https://github.com/hyperledger-labs/fabric-token-sdk/pull/663) Stress client
 
-[4760](https://github.com/hyperledger/iroha/pull/4760) chore(deps): bump syn from 2.0.66 to 2.0.67
+[3354](https://github.com/hyperledger/cacti/pull/3354) build(devcontainer): upgrade docker engine to v26.x.y in the image
 
-[7250](https://github.com/hyperledger/besu/pull/7250) Make code sizes a characteristic of the EVM version
+[3353](https://github.com/hyperledger/cacti/pull/3353) feat(docs): add openapi specs to docs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
