@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/662" class=".btn">#662</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/663" class=".btn">#663</a>
             </td>
             <td>
                 <b>
-                    NWO-based suite runner
+                    Stress client
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-21 12:21:13 +0000 UTC
+        Created At 2024-06-21 19:40:16 +0000 UTC
     </div>
 </div>
 
@@ -59,32 +59,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-06-21 12:15:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/660" class=".btn">#660</a>
-            </td>
-            <td>
-                <b>
-                    Test fsc int 2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-20 12:21:06 +0000 UTC
     </div>
 </div>
 
