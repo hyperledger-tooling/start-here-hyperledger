@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4762" class=".btn">#4762</a>
+            </td>
+            <td>
+                <b>
+                    fix: Replace use of Duration for timestamps with an actual timestamp, e.g. chrono::DateTime
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+This PR resolves issue number #4729 
+
+### Before resolving:
+![Screenshot_23-6-2024_24127_github com](https://github.com/hyperledger/iroha/assets/122338009/51a5059a-b260-4463-b134-725949a5a05b)
+![Screenshot_23-6-2024_2427_github com](https://github.com/hyperledger/iroha/assets/122338009/c4f4efb4-19b0-414c-bbd2-ca13c81b83f1)
+
+### After resolving the issue
+
+![image](https://github.com/hyperledger/iroha/assets/122338009/23cfa41b-d337-4fab-b1de-b4c942221a40)
+![image](https://github.com/hyperledger/iroha/assets/122338009/8897b469-0c8a-4ef9-9a07-3747251c01a1)
+![image](https://github.com/hyperledger/iroha/assets/122338009/d840ad0d-01fa-4d76-ba2d-5c76e543bd37)
+
+Also, apart from this I made the required changes that involved changing of start to start_ms and since to since_ms.
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-22 21:14:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4761" class=".btn">#4761</a>
             </td>
             <td>
@@ -1118,65 +1161,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-17 16:04:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4734" class=".btn">#4734</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Make domain structure shallow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-15 22:27:14 +0000 UTC
     </div>
 </div>
 
