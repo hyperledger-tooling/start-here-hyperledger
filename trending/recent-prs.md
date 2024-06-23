@@ -1,5 +1,5 @@
 
-[4762](https://github.com/hyperledger/iroha/pull/4762) fix: Replace use of Duration for timestamps with an actual timestamp, e.g. chrono::DateTime
+[1230](https://github.com/hyperledger/fabric-samples/pull/1230) Fix directory path for chaincode-external
 
 [7252](https://github.com/hyperledger/besu/pull/7252) Fix the wrong 'Identifier' and 'Synchronizer' usage
 
