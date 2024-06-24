@@ -440,30 +440,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4898" class=".btn">#4898</a>
-            </td>
-            <td>
-                <b>
-                    bump google.golang.org/protobuf v1.34.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Not only the package has been changed, but also some tests that were running with an error.
-The problem was that at proto.Marshal in the structure the XXX_sizecache field becomes equal to 1. And in the compared structure it is early 0.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 11:57:25 +0000 UTC
-    </div>
-</div>
-
