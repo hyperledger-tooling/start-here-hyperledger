@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/194" class=".btn">#194</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/196" class=".btn">#196</a>
             </td>
             <td>
                 <b>
-                    [ci]: update jenkins push branch name
+                    [test] add allure annotation
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-22 11:28:24 +0000 UTC
+        Created At 2024-06-24 14:19:06 +0000 UTC
     </div>
 </div>
 

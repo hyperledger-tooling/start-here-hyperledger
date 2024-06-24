@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1632" class=".btn">#1632</a>
+            </td>
+            <td>
+                <b>
+                    1576(docs): documents config option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                as per issue https://github.com/hyperledger/besu-docs/issues/1576
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-24 12:11:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1631" class=".btn">#1631</a>
+            </td>
+            <td>
+                <b>
+                    1611(docs): improves clarity for profile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Responds to [issue](https://github.com/hyperledger/besu-docs/issues/1611)
+
+BUT raises Qs for me:
+
+1. It sounds as if this feature was designed to allow users to create a set of configs to extend the config.toml BUT that it has been implemented to only support 3 pre-configured profiles.
+> Is it really not possible to create your own custom profile?
+2. I don't believe the pre-configured profiles are all doing what they say on the tin (!). Staker has 1 variable network=Mainnet >> I find it v. hard to believe that there would be a config file that does not provide network, relying on profile setting to do that. This profile claims to "maximize their hardware value and also want to serve full sets of data to their peers" -- but without putting this together with a boilerplate config.toml that helps achieve that, I suspect it!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-24 08:43:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1630" class=".btn">#1630</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix typos in api index.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes some typos found in the api index.md
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-24 05:36:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1628" class=".btn">#1628</a>
             </td>
             <td>

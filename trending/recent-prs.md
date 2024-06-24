@@ -1,13 +1,13 @@
 
-[758](https://github.com/hyperledger-labs/fabric-operations-console/pull/758) issue fix ordering service creation while CA selection state update m…
+[4766](https://github.com/hyperledger/iroha/pull/4766) chore(deps): bump uuid from 1.8.0 to 1.9.0
 
-[39](https://github.com/hyperledger-labs/cckit/pull/39) signer / crypto abstractions
+[7253](https://github.com/hyperledger/besu/pull/7253) update to work with the new max retries value
 
-[138](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/138) Bump k8s.io/apimachinery from 0.29.2 to 0.30.2
+[3358](https://github.com/hyperledger/cacti/pull/3358) fix(weaver-fabric-examples): use docker compose v2
 
-[137](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/137) Bump github.com/onsi/ginkgo/v2 from 2.13.0 to 2.19.0
+[196](https://github.com/hyperledger/iroha-javascript/pull/196) [test] add allure annotation
 
-[136](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/136) Bump k8s.io/api from 0.29.2 to 0.30.2
+[2588](https://github.com/hyperledger/bevel/pull/2588) [substrate] refactor codebase for effective deployment
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
