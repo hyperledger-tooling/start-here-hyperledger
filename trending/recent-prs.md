@@ -1,13 +1,13 @@
 
-[1231](https://github.com/hyperledger/fabric-samples/pull/1231) Faisal/from main
+[758](https://github.com/hyperledger-labs/fabric-operations-console/pull/758) issue fix ordering service creation while CA selection state update m…
 
-[4764](https://github.com/hyperledger/iroha/pull/4764) chore(deps): bump syn from 2.0.66 to 2.0.68
+[39](https://github.com/hyperledger-labs/cckit/pull/39) signer / crypto abstractions
 
-[427](https://github.com/hyperledger/iroha-java/pull/427) Bump gradle/gradle-build-action from 2.3.3 to 3.4.2
+[138](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/138) Bump k8s.io/apimachinery from 0.29.2 to 0.30.2
 
-[757](https://github.com/hyperledger-labs/fabric-operations-console/pull/757) update lint rule
+[137](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/137) Bump github.com/onsi/ginkgo/v2 from 2.13.0 to 2.19.0
 
-[756](https://github.com/hyperledger-labs/fabric-operations-console/pull/756) Dropdown change issue and ordering node issue fix
+[136](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/136) Bump k8s.io/api from 0.29.2 to 0.30.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

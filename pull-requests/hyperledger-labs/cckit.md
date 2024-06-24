@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    fix delete private key from mockStub
+                    signer / crypto abstractions
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                When deleting private data (with the DelPrivateData function), it returns an error if the key to be deleted is not found in the collection.
-But if you perform DelPrivateData of a non-existent key on a real stack, no error is returned
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-12-04 10:43:24 +0000 UTC
+        Created At 2024-06-24 11:23:46 +0000 UTC
     </div>
 </div>
 

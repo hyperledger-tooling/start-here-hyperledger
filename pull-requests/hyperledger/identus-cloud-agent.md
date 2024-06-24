@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1198" class=".btn">#1198</a>
+            </td>
+            <td>
+                <b>
+                    ci: automerge the changes from the main to the feature branch using squash commit [skip ci]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ci</span><span class="chip">autoupdate</span>
+            </td>
+            <td>
+                ### Description: 
+- allow the engineer to configure the PR to be automatically updated by the GitHub action
+
+### Checklist: 
+- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 10:14:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1197" class=".btn">#1197</a>
+            </td>
+            <td>
+                <b>
+                    style: apply linters automatic fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-18 09:55:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1196" class=".btn">#1196</a>
             </td>
             <td>
@@ -224,118 +286,6 @@ Methods should not throw exceptions
     </table>
     <div class="right-align">
         Created At 2024-06-17 13:06:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1191" class=".btn">#1191</a>
-            </td>
-            <td>
-                <b>
-                    ci: auto merge main into the feature branch [skip ci]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                ### Description: 
-- auto merge the main branch into the a feature brach when a pull request is labeled with `autoupdate`. The idea of this improvement is to optimize the work of the engineers: engineer shouldn't keep an eye on the PR and press "Update..." button after each successful merge of another PR into the main branch. The bot will do this work for you.
-
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [x] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 09:32:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1190" class=".btn">#1190</a>
-            </td>
-            <td>
-                <b>
-                    fix: KeyID from String to Opaque Type and presentation job cleanup 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">shared</span><span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                ### Description: 
-making KeyId type safe and general cleanup of unused functions
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
-
-### Checklist: 
-- [ X] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ X] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ X] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 08:53:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1189" class=".btn">#1189</a>
-            </td>
-            <td>
-                <b>
-                    build: make docker image only for the server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">build</span>
-            </td>
-            <td>
-                ### Description: 
-- republish the @FabioPinheiro [PR](https://github.com/hyperledger/identus-cloud-agent/pull/900) with DCO to disable the docker image build for the pollux building block
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 08:22:30 +0000 UTC
     </div>
 </div>
 
