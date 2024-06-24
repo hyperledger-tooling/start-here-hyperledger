@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2588" class=".btn">#2588</a>
+            </td>
+            <td>
+                <b>
+                    [substrate] refactor codebase for effective deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+**feat(substrate): refactor codebase for effective deployment**
+
+```
+This PR improves Substrate DLT deployment using code from the main branch.
+
+Changes:
+- Updated the 'Vault-Auth' path for pods to match the expected Vault Authentication Engine in Vault.
+- Updated the 'Storage-class' name for pods to match the name of the expected 'storage-class'.
+```
+
+fixes #quick-fix
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-24 13:45:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2587" class=".btn">#2587</a>
             </td>
             <td>
@@ -72,67 +111,6 @@ fixes #quick-fix
     </table>
     <div class="right-align">
         Created At 2024-06-18 10:55:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2582" class=".btn">#2582</a>
-            </td>
-            <td>
-                <b>
-                    [r3-corda-ent] enable platform deployment via ansible-server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                feat (r3-corda-ent): enable platform deployment via ansible-server
-
-This commit introduces support for deploying a decentralized ledger technology (DLT) network using Ansible automation. 
-
-- Updated the Ansible codebase to support network deployment in respect of the standalone Helm chart
-- The following Ansible roles have been introduced to appropriately deploy the network of one organization only: 1. initlize the organization 2. setup cenm 3. setup notary 4. setup networkmap
-
-- updated the sample network configuration file to provide information on which networks can be deployed using this file 
-
-fixes hyperledger#2548
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 13:04:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2581" class=".btn">#2581</a>
-            </td>
-            <td>
-                <b>
-                    docs: add repo md files as per lfx best practices
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 07:24:53 +0000 UTC
     </div>
 </div>
 
