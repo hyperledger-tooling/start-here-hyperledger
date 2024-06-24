@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/426" class=".btn">#426</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/427" class=".btn">#427</a>
             </td>
             <td>
                 <b>
-                    deserializers fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 07:15:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/425" class=".btn">#425</a>
-            </td>
-            <td>
-                <b>
-                    Bump gradle/gradle-build-action from 2.3.3 to 3.4.1
+                    Bump gradle/gradle-build-action from 2.3.3 to 3.4.2
                 </b>
             </td>
         </tr>
@@ -53,11 +27,25 @@ permalink: /pull-requests/hyperledger/iroha-java
                 <span class="chip">dependencies</span><span class="chip">github_actions</span>
             </td>
             <td>
-                Bumps [gradle/gradle-build-action](https://github.com/gradle/gradle-build-action) from 2.3.3 to 3.4.1.
+                Bumps [gradle/gradle-build-action](https://github.com/gradle/gradle-build-action) from 2.3.3 to 3.4.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/gradle/gradle-build-action/releases">gradle/gradle-build-action's releases</a>.</em></p>
 <blockquote>
+<h2>v3.4.2</h2>
+<blockquote>
+<p>[!IMPORTANT]
+As of <code>v3</code> this action has been superceded by <code>gradle/actions/setup-gradle</code>.
+Any workflow that uses <code>gradle/gradle-build-action@v3</code> will transparently delegate to <code>gradle/actions/setup-gradle@v3</code>.</p>
+<p>Users are encouraged to update their workflows, replacing:</p>
+<pre><code>uses: gradle/gradle-build-action@v3
+</code></pre>
+<p>with</p>
+<pre><code>uses: gradle/actions/setup-gradle@v3
+</code></pre>
+<p>See the <a href="https://github.com/gradle/actions/tree/main/setup-gradle">setup-gradle documentation</a> for up-to-date documentation for <code>gradle/actions/setup-gradle</code>.</p>
+</blockquote>
+<p>For release details, see <a href="https://github.com/gradle/actions/releases/tag/v3.4.2">https://github.com/gradle/actions/releases/tag/v3.4.2</a></p>
 <h2>v3.4.1</h2>
 <blockquote>
 <p>[!IMPORTANT]
@@ -81,20 +69,6 @@ Any workflow that uses <code>gradle/gradle-build-action@v3</code> will transpare
 <pre><code>uses: gradle/gradle-build-action@v3
 </code></pre>
 <p>with</p>
-<pre><code>uses: gradle/actions/setup-gradle@v3
-</code></pre>
-<p>See the <a href="https://github.com/gradle/actions/tree/main/setup-gradle">setup-gradle documentation</a> for up-to-date documentation for <code>gradle/actions/setup-gradle</code>.</p>
-</blockquote>
-<p>For release details, see <a href="https://github.com/gradle/actions/releases/tag/v3.4.0">https://github.com/gradle/actions/releases/tag/v3.4.0</a></p>
-<h2>v3.3.2</h2>
-<blockquote>
-<p>[!IMPORTANT]
-As of <code>v3</code> this action has been superceded by <code>gradle/actions/setup-gradle</code>.
-Any workflow that uses <code>gradle/gradle-build-action@v3</code> will transparently delegate to <code>gradle/actions/setup-gradle@v3</code>.</p>
-<p>Users are encouraged to update their workflows, replacing:</p>
-<pre><code>uses: gradle/gradle-build-action@v3
-</code></pre>
-<p>with</p>
 <pre><code></code></pre>
 </blockquote>
 <!-- raw HTML omitted -->
@@ -104,6 +78,7 @@ Any workflow that uses <code>gradle/gradle-build-action@v3</code> will transpare
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/gradle/gradle-build-action/commit/66535aaf56f831b35e3a8481c9c99b665b84dd45"><code>66535aa</code></a> Bump to v3.4.2</li>
 <li><a href="https://github.com/gradle/gradle-build-action/commit/04b20c065cf1ab708c96e64a8811018d0a1fbc88"><code>04b20c0</code></a> Bump to v3.4.1</li>
 <li><a href="https://github.com/gradle/gradle-build-action/commit/db35f2304698ac6ff98958322dfd3db0a5da9fdf"><code>db35f23</code></a> Bump to v3.4.0</li>
 <li><a href="https://github.com/gradle/gradle-build-action/commit/4c39dd82cd5e1ec7c6fa0173bb41b4b6bb3b86ff"><code>4c39dd8</code></a> Bump to v3.3.2</li>
@@ -113,14 +88,13 @@ Any workflow that uses <code>gradle/gradle-build-action@v3</code> will transpare
 <li><a href="https://github.com/gradle/gradle-build-action/commit/f02f491d0d40a7ae88c67d3eaf2f3aa55c60a27b"><code>f02f491</code></a> Update action.yml for setup-gradle@v3.3.0</li>
 <li><a href="https://github.com/gradle/gradle-build-action/commit/cb6e43f18001186272630908bb44a8246d3df780"><code>cb6e43f</code></a> Emit correct deprecation warnings in setup-gradle</li>
 <li><a href="https://github.com/gradle/gradle-build-action/commit/bdf99f9dada2506e990bac6de8ec5e3de34a04f1"><code>bdf99f9</code></a> Update action.yml for v3.2.1</li>
-<li><a href="https://github.com/gradle/gradle-build-action/commit/fe59895742b4f984530980e4f693943577526b61"><code>fe59895</code></a> Disable dependabot for this repo</li>
-<li>Additional commits viewable in <a href="https://github.com/gradle/gradle-build-action/compare/v2.3.3...v3.4.1">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/gradle/gradle-build-action/compare/v2.3.3...v3.4.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gradle/gradle-build-action&package-manager=github_actions&previous-version=2.3.3&new-version=3.4.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gradle/gradle-build-action&package-manager=github_actions&previous-version=2.3.3&new-version=3.4.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -152,7 +126,33 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-17 05:36:41 +0000 UTC
+        Created At 2024-06-24 05:43:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/426" class=".btn">#426</a>
+            </td>
+            <td>
+                <b>
+                    deserializers fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 07:15:54 +0000 UTC
     </div>
 </div>
 
