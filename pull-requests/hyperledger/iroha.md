@@ -14,45 +14,11 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4761" class=".btn">#4761</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4764" class=".btn">#4764</a>
             </td>
             <td>
                 <b>
-                    chore: move back to the upstream displaydoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Now that the displaydoc has released a version which fixed the nightly warnings, we can migrate back to it.
-
-(We were previously using a git version because of #4567)
-
-### Checklist
-
-- [ ] make ci pass
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 18:42:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4760" class=".btn">#4760</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump syn from 2.0.66 to 2.0.67
+                    chore(deps): bump syn from 2.0.66 to 2.0.68
                 </b>
             </td>
         </tr>
@@ -61,11 +27,16 @@ Now that the displaydoc has released a version which fixed the nightly warnings,
                 <span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
-                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.66 to 2.0.67.
+                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.66 to 2.0.68.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/dtolnay/syn/releases">syn's releases</a>.</em></p>
 <blockquote>
+<h2>2.0.68</h2>
+<ul>
+<li>Improve panic location when <code>parse_quote!</code> parses invalid syntax (<a href="https://redirect.github.com/dtolnay/syn/issues/1690">#1690</a>, thanks <a href="https://github.com/stepancheg"><code>@​stepancheg</code></a>)</li>
+<li>More efficient peek implementation for <code>Group</code> and <code>Lifetime</code> (<a href="https://redirect.github.com/dtolnay/syn/issues/1687">#1687</a>)</li>
+</ul>
 <h2>2.0.67</h2>
 <ul>
 <li>Produce more accurate error message locations for errors located at the end of a nested group (<a href="https://redirect.github.com/dtolnay/syn/issues/1679">#1679</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1680">#1680</a>)</li>
@@ -76,23 +47,23 @@ Now that the displaydoc has released a version which fixed the nightly warnings,
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/dtolnay/syn/commit/25f6299c982276bf55faac834538d78ea61d6bad"><code>25f6299</code></a> Release 2.0.67</li>
-<li><a href="https://github.com/dtolnay/syn/commit/666e15e95ff3763571f14af93be2641eecc5c2d9"><code>666e15e</code></a> Revert &quot;List peekable token types in documentation of Peek trait&quot;</li>
-<li><a href="https://github.com/dtolnay/syn/commit/2955706a736b5ca293eff45a3b2cade32baa01aa"><code>2955706</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1683">#1683</a> from dtolnay/peekimpl</li>
-<li><a href="https://github.com/dtolnay/syn/commit/0c902919850353ddfe4d90f5ba0474e6ac8aaaa8"><code>0c90291</code></a> List peekable token types in documentation of Peek trait</li>
-<li><a href="https://github.com/dtolnay/syn/commit/26ce3d9134644b62298963d0abf0e9a3584f6896"><code>26ce3d9</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1682">#1682</a> from dtolnay/peekcstr</li>
-<li><a href="https://github.com/dtolnay/syn/commit/ec0c84b282c8ade12f6afaad7425b90ec5a1fd7d"><code>ec0c84b</code></a> Make LitCStr peekable</li>
-<li><a href="https://github.com/dtolnay/syn/commit/8cb56cc59d8ea0117dd6df3915f4c730249618bc"><code>8cb56cc</code></a> Update test suite to nightly-2024-06-20</li>
-<li><a href="https://github.com/dtolnay/syn/commit/7cc7eac262467d4c1e6cac8f9beeb20d256f7d49"><code>7cc7eac</code></a> Inline lookahead::is_delimiter into delimiter Token impls</li>
-<li><a href="https://github.com/dtolnay/syn/commit/8a2a86bce92d1f440a7b2d6d244ab825d426bb61"><code>8a2a86b</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1681">#1681</a> from dtolnay/offset</li>
-<li><a href="https://github.com/dtolnay/syn/commit/e86538ccd80494c8bf239b36550c0f9e298b50c5"><code>e86538c</code></a> Optimize reverse iteration of TokenBuffer</li>
-<li>Additional commits viewable in <a href="https://github.com/dtolnay/syn/compare/2.0.66...2.0.67">compare view</a></li>
+<li><a href="https://github.com/dtolnay/syn/commit/ecb0429297d3da2f20ab8559e41ddf8a2137d83b"><code>ecb0429</code></a> Release 2.0.68</li>
+<li><a href="https://github.com/dtolnay/syn/commit/37edbd23908006e77c42dae3e64f13f53470c5b6"><code>37edbd2</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1690">#1690</a> from stepancheg/track-called</li>
+<li><a href="https://github.com/dtolnay/syn/commit/43387720a3d52db3c148e5383cd6d9ef3b766611"><code>4338772</code></a> track-caller in parse_quote_spanned</li>
+<li><a href="https://github.com/dtolnay/syn/commit/537b0c58f4d00c1f412fb83d258900843f65814e"><code>537b0c5</code></a> Update test suite to nightly-2024-06-22</li>
+<li><a href="https://github.com/dtolnay/syn/commit/b088d5c2242478edb5b07e5a7221c37507287840"><code>b088d5c</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1688">#1688</a> from dtolnay/peeklit</li>
+<li><a href="https://github.com/dtolnay/syn/commit/9b4e478a98aeb90a113eeac2bf882402c8574dfb"><code>9b4e478</code></a> Relocate Lit peek impls into lit module</li>
+<li><a href="https://github.com/dtolnay/syn/commit/38f2ddb7632a39d7ef98a836369acaf8fb9babf1"><code>38f2ddb</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1687">#1687</a> from dtolnay/fastpeek</li>
+<li><a href="https://github.com/dtolnay/syn/commit/ef20bfdfbf32c06a4930b26d683b61defb34b043"><code>ef20bfd</code></a> Optimize the peek impl of Group and Lifetime</li>
+<li><a href="https://github.com/dtolnay/syn/commit/4b6c96a642be81c8020e0d4a6502b91facf5026e"><code>4b6c96a</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1686">#1686</a> from dtolnay/isempty</li>
+<li><a href="https://github.com/dtolnay/syn/commit/87d57920513951b05a4dd64a39d1d8a39c314624"><code>87d5792</code></a> Reword explanation of ParseBuffer::is_empty</li>
+<li>Additional commits viewable in <a href="https://github.com/dtolnay/syn/compare/2.0.66...2.0.68">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.66&new-version=2.0.67)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.66&new-version=2.0.68)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -124,7 +95,41 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-21 17:05:29 +0000 UTC
+        Created At 2024-06-24 05:43:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4761" class=".btn">#4761</a>
+            </td>
+            <td>
+                <b>
+                    chore: move back to the upstream displaydoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Now that the displaydoc has released a version which fixed the nightly warnings, we can migrate back to it.
+
+(We were previously using a git version because of #4567)
+
+### Checklist
+
+- [ ] make ci pass
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 18:42:45 +0000 UTC
     </div>
 </div>
 
