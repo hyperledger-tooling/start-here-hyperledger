@@ -467,29 +467,3 @@ The problem was that at proto.Marshal in the structure the XXX_sizecache field b
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4896" class=".btn">#4896</a>
-            </td>
-            <td>
-                <b>
-                    bump go.uber.org/zap v1.27.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-16 20:40:08 +0000 UTC
-    </div>
-</div>
-
