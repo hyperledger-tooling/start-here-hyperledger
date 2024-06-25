@@ -1,13 +1,13 @@
 
-[4766](https://github.com/hyperledger/iroha/pull/4766) chore(deps): bump uuid from 1.8.0 to 1.9.0
+[3359](https://github.com/hyperledger/cacti/pull/3359) build: bump the npm_and_yarn group across 1 directory with 4 updates
 
-[7253](https://github.com/hyperledger/besu/pull/7253) update to work with the new max retries value
+[1633](https://github.com/hyperledger/besu-docs/pull/1633) Update minimum Java version.
 
-[3358](https://github.com/hyperledger/cacti/pull/3358) fix(weaver-fabric-examples): use docker compose v2
+[139](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/139) Bump golangci/golangci-lint-action from 4.0.0 to 6.0.1
 
-[196](https://github.com/hyperledger/iroha-javascript/pull/196) [test] add allure annotation
+[3064](https://github.com/hyperledger/aries-cloudagent-python/pull/3064) chore(deps): Bump dawidd6/action-download-artifact from 5 to 6 in the all-actions group
 
-[2588](https://github.com/hyperledger/bevel/pull/2588) [substrate] refactor codebase for effective deployment
+[3063](https://github.com/hyperledger/aries-cloudagent-python/pull/3063) Use anoncreds registry for holder credential endpoints
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

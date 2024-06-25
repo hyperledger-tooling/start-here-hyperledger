@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1633" class=".btn">#1633</a>
+            </td>
+            <td>
+                <b>
+                    Update minimum Java version.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Updated the documentation related to minimum Java version required to run Besu.
+ 
+
+### Issue(s) fixed
+#1622
+
+### Preview
+https://besu-docs-git-fork-bgravenorst-doc-1622-hyperledger.vercel.app/
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-24 23:29:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1632" class=".btn">#1632</a>
             </td>
             <td>
