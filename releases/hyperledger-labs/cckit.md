@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/cckit
         <tr>
             <td colspan="2">
                 <b>
-                    Upd mockstub
+                    Envelope verifier
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.4
+                    v1.0.5
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger-labs/cckit
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/cckit/releases/tag/v1.0.4" class=".btn">
+    <a href="https://github.com/hyperledger-labs/cckit/releases/tag/v1.0.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-01-09 09:24:11 +0000 UTC
+        Created At 2024-06-25 14:21:49 +0000 UTC
     </span>
 </div>
 
