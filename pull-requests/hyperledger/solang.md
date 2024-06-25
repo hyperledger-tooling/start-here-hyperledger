@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1651" class=".btn">#1651</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1655" class=".btn">#1655</a>
             </td>
             <td>
                 <b>
-                    Appease rust 1.79 clippies
+                    It is better to use the repository field in Cargo.toml
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                To allow [Crates.io](https://crates.io/) , [lib.rs](https://lib.rs/) and the [Rust Digger](https://rust-digger.code-maven.com/) to link to it. See [the manifest](https://doc.rust-lang.org/cargo/reference/manifest.html#the-repository-field) for the explanation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-14 09:03:02 +0000 UTC
+        Created At 2024-06-25 08:23:28 +0000 UTC
     </div>
 </div>
 

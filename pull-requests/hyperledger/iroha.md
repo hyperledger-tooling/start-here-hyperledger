@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4768" class=".btn">#4768</a>
+            </td>
+            <td>
+                <b>
+                    docs: fix typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                docs: fix typos
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 09:47:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4766" class=".btn">#4766</a>
             </td>
             <td>
@@ -807,149 +833,6 @@ It's just for users to query it the same way as `ExecutorDataModel::custom_instr
     </table>
     <div class="right-align">
         Created At 2024-06-19 07:51:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4741" class=".btn">#4741</a>
-            </td>
-            <td>
-                <b>
-                    refactor!: fix naming convention for assets and permissions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 12:07:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4740" class=".btn">#4740</a>
-            </td>
-            <td>
-                <b>
-                    fix: fix unit tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span>
-            </td>
-            <td>
-                ## Description
-
-Fix failing unit tests.
-
-Checked tests locally to verify if errors are resolved.
-
-```
-cargo test --all-features --no-fail-fast --workspace --exclude iroha_executor
-```
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 11:52:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4739" class=".btn">#4739</a>
-            </td>
-            <td>
-                <b>
-                    refactor!: Supply `SignedBlock` instead of `SignedTransaction` to peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-This is first part of #4696:
-* Added `topology` field to `genesis.json`
-* Changed `kagami genesis sign` to generate `SignedBlock`
-* Adapted `iroha_swarm` and `test_env.py` to those changes
-
-Planned changes for next PRs:
-* Provide hash of genesis block to all peers (#4555)
-* Allow multiple peers to submit genesis
-
-### Benefits
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 11:50:04 +0000 UTC
     </div>
 </div>
 
