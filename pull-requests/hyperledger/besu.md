@@ -74,12 +74,16 @@ Add getNearestAfter method needed for verkle and fix getNearestBefore method
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">peering</span>
             </td>
             <td>
                 ## PR description
-This PR adds the bootnodes to the maintained-peer list, which currently only contains static nodes. Doing so ensures that if a bootnode is offline when a node starts, it will retry its connection once a minute rather than requiring a restart.
+This PR adds the bootnodes to the maintained-peer list in a permissioned chain. Currently the maintained node list only contains static nodes and nodes added with `admin_addPeer`. Adding bootnodes to the maintained list ensures that if a bootnode is offline when the node starts, it will retry its connection once a minute rather than requiring a restart.
 
+Bootnode connectivity in a public-chain node remains unchanged.
+
+## Fixed issues
+Fixes https://github.com/hyperledger/besu/issues/7261
 
 ### Thanks for sending a pull request! Have you done the following?
 
@@ -466,52 +470,6 @@ fixes #7176
     </table>
     <div class="right-align">
         Created At 2024-06-18 23:05:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7237" class=".btn">#7237</a>
-            </td>
-            <td>
-                <b>
-                    EIP 7702
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-fixes #7205 
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 14:07:25 +0000 UTC
     </div>
 </div>
 

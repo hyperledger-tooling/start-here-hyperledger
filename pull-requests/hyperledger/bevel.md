@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2589" class=".btn">#2589</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Update ansible playbooks for create a channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Primary Changes**
+
+1.Deploy fabric 2.5.4 with channel using ansible.
+2.Deploy fabric 2.2.2 with channel using ansible.
+
+fixes #2576
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 13:12:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2588" class=".btn">#2588</a>
             </td>
             <td>

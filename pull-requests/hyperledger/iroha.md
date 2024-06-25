@@ -14,11 +14,210 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4772" class=".btn">#4772</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump mypy from 1.10.0 to 1.10.1 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [mypy](https://github.com/python/mypy) from 1.10.0 to 1.10.1.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/python/mypy/blob/master/CHANGELOG.md">mypy's changelog</a>.</em></p>
+<blockquote>
+<h4>Mypy 1.10.1</h4>
+<ul>
+<li>Fix error reporting on cached run after uninstallation of third party library (Shantanu, PR <a href="https://redirect.github.com/python/mypy/pull/17420">17420</a>)</li>
+</ul>
+<h4>Acknowledgements</h4>
+<p>Thanks to all mypy contributors who contributed to this release:</p>
+<ul>
+<li>Alex Waygood</li>
+<li>Ali Hamdan</li>
+<li>Edward Paget</li>
+<li>Evgeniy Slobodkin</li>
+<li>Hashem</li>
+<li>hesam</li>
+<li>Hugo van Kemenade</li>
+<li>Ihor</li>
+<li>James Braza</li>
+<li>Jelle Zijlstra</li>
+<li>jhance</li>
+<li>Jukka Lehtosalo</li>
+<li>Loïc Simon</li>
+<li>Marc Mueller</li>
+<li>Matthieu Devlin</li>
+<li>Michael R. Crusoe</li>
+<li>Nikita Sobolev</li>
+<li>Oskari Lehto</li>
+<li>Riccardo Di Maio</li>
+<li>Richard Si</li>
+<li>roberfi</li>
+<li>Roman Solomatin</li>
+<li>Sam Xifaras</li>
+<li>Shantanu</li>
+<li>Spencer Brown</li>
+<li>Srinivas Lade</li>
+<li>Tamir Duberstein</li>
+<li>youkaichao</li>
+</ul>
+<p>I’d also like to thank my employer, Dropbox, for supporting mypy development.</p>
+<h2>Mypy 1.9</h2>
+<p>We’ve just uploaded mypy 1.9 to the Python Package Index (<a href="https://pypi.org/project/mypy/">PyPI</a>). Mypy is a static type checker for Python. This release includes new features, performance improvements and bug fixes. You can install it as follows:</p>
+<pre><code>python3 -m pip install -U mypy
+</code></pre>
+<p>You can read the full documentation for this release on <a href="http://mypy.readthedocs.io">Read the Docs</a>.</p>
+<h4>Breaking Changes</h4>
+<p>Because the version of typeshed we use in mypy 1.9 doesn't support 3.7, neither does mypy 1.9. (Jared Hance, PR <a href="https://redirect.github.com/python/mypy/pull/16883">16883</a>)</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/python/mypy/commit/c28b5257b528f65a028e7d0dbecbcd81c7997356"><code>c28b525</code></a> [1.10 backport] Fix error reporting on cached run after uninstallation of thi...</li>
+<li>See full diff in <a href="https://github.com/python/mypy/compare/v1.10.0...v1.10.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mypy&package-manager=pip&previous-version=1.10.0&new-version=1.10.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 16:55:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4771" class=".btn">#4771</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump serde_json from 1.0.117 to 1.0.118
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [serde_json](https://github.com/serde-rs/json) from 1.0.117 to 1.0.118.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/serde-rs/json/releases">serde_json's releases</a>.</em></p>
+<blockquote>
+<h2>v1.0.118</h2>
+<ul>
+<li>Implement Hash for serde_json::Value (<a href="https://redirect.github.com/serde-rs/json/issues/1127">#1127</a>, thanks <a href="https://github.com/edwardycl"><code>@​edwardycl</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/serde-rs/json/commit/c4f24f3be29a3d096d3ac7b1d5594777a613ec0d"><code>c4f24f3</code></a> Release 1.0.118</li>
+<li><a href="https://github.com/serde-rs/json/commit/51d94ebdc07127de22fb655bdcf6a01d119492d5"><code>51d94eb</code></a> Combine Map's Hash into one impl</li>
+<li><a href="https://github.com/serde-rs/json/commit/5e7bedc0a0e19ecda1c15a412ab7c69569f4aa84"><code>5e7bedc</code></a> Touch up PR 1127</li>
+<li><a href="https://github.com/serde-rs/json/commit/0af2bdae9483a9c54f8e032fcbf357dbe7803c49"><code>0af2bda</code></a> Resolve semicolon_if_nothing_returned pedantic clippy lint from PR 1127</li>
+<li><a href="https://github.com/serde-rs/json/commit/eb0330a178e0c179321101fbcbb5cb7530a2a3e5"><code>eb0330a</code></a> Merge pull request <a href="https://redirect.github.com/serde-rs/json/issues/1127">#1127</a> from edwardycl/hash</li>
+<li><a href="https://github.com/serde-rs/json/commit/24d868f4e9be428afa1c744f8218a32660a1e0bf"><code>24d868f</code></a> Another lexical const that is unused, though not in test</li>
+<li><a href="https://github.com/serde-rs/json/commit/4c894eaa18181860f3f5cf3fb11e18d4ee454120"><code>4c894ea</code></a> Delete unused associated constant from lexical</li>
+<li><a href="https://github.com/serde-rs/json/commit/fa8aa223c66018cae73efa57fd276af329a343f4"><code>fa8aa22</code></a> Fill in ignore reasons in all #[ignore] attributes</li>
+<li><a href="https://github.com/serde-rs/json/commit/c9b9f88c1add99e20fefcd377a29b00715b4e8c3"><code>c9b9f88</code></a> Run more of test suite in preserve_order mode</li>
+<li><a href="https://github.com/serde-rs/json/commit/b83d243e711b65e32925510343df566080776dd5"><code>b83d243</code></a> Ignore large_digit_groups pedantic clippy lint in test</li>
+<li>Additional commits viewable in <a href="https://github.com/serde-rs/json/compare/v1.0.117...v1.0.118">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde_json&package-manager=cargo&previous-version=1.0.117&new-version=1.0.118)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 16:32:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4768" class=".btn">#4768</a>
             </td>
             <td>
                 <b>
-                    docs: fix typos
+                    chore: fix typos in CONTRIBUTING.md, iroha_2_whitepaper.md and hot-reload.md
                 </b>
             </td>
         </tr>

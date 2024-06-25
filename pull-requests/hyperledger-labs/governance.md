@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/75" class=".btn">#75</a>
-            </td>
-            <td>
-                <b>
-                    Create agora-allosaurus-rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 15:00:28 +0000 UTC
-    </div>
-</div>
-
