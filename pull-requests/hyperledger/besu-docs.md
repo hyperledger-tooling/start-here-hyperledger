@@ -63,7 +63,7 @@ https://besu-docs-git-fork-bgravenorst-doc-1622-hyperledger.vercel.app/
                 
             </td>
             <td>
-                as per issue https://github.com/hyperledger/besu-docs/issues/1576
+                Fixes issue https://github.com/hyperledger/besu-docs/issues/1576
             </td>
         </tr>
     </table>

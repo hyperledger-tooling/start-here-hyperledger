@@ -88,29 +88,3 @@ fixes #quick-fix
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2583" class=".btn">#2583</a>
-            </td>
-            <td>
-                <b>
-                    feat(fabric): update manage-user-certificate playbook to refresh user certificates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR contains updates in the manage-user-certificate playbook, as well as minor changes in the ca-tools role to consider the refresh-user-certs variable so whenever this playbook is run, only the user certificates will be affected (updated).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 10:55:52 +0000 UTC
-    </div>
-</div>
-
