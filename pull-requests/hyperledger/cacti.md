@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3360" class=".btn">#3360</a>
+            </td>
+            <td>
+                <b>
+                    chore(examples): update versions in discounted-asset-trade example
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This updates the versions in the discounted-asset-trade example to ensure
+compatibility and proper functionality.
+
+The Fabric version was upgraded from 2.4.4 to 2.5.6 as the internal image
+being used required v2_5 capability.
+
+Additionally, as per the Hyperledger Fabric documentation
+(https://hyperledger-fabric.readthedocs.io/en/release-2.5/prereqs.html),
+Go version 1.22.4 is needed for the example to work in its entirety.
+
+Signed-off-by: Rajat Sharma <rajat.sharma@ril.com>
+
+**Pull Request Requirements**
+- [X] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [X] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [X] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [X] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [X] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 14:49:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3359" class=".btn">#3359</a>
             </td>
             <td>
@@ -1981,99 +2029,6 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
     </table>
     <div class="right-align">
         Created At 2024-06-18 23:59:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3330" class=".btn">#3330</a>
-            </td>
-            <td>
-                <b>
-                    ci(github): add --ignore-scripts to lerna publish - some are failing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Longer term we'll just fix the scripts that are crashing, but right now
-as a short term solution I disabled the script execution.
-2. It might even be more secure for us to use this ignore scripts flag
-permanently because some of the attack vectors are in those scripts which
-new versions of the dependencies can execute arbitrary code.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 16:56:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3329" class=".btn">#3329</a>
-            </td>
-            <td>
-                <b>
-                    docs(RELEASE_MANAGEMENT): explain auto-merge for release PRs is a no-no
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The detailed explanation is here:
-
-Do not enable auto-merging on GitHub for the pull request doing the release.
-The problem with auto-merging here is that it would modify the release commit's SHA as the
-rebase would happen on GitHub's servers where your git signing identity is not available to use
-given that GitHub does (should) not have access to your private key for signing.
-The way the preserve your commit signature as valid the commit SHA must remain the same and the
-way to achieve this is to perform the pull request merging with fast forward. The merging
-ensures that there is no commit SHA change and the `--ff-only` option ensures that there is no
-merge commit to throw a wrench in the process.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 16:32:34 +0000 UTC
     </div>
 </div>
 

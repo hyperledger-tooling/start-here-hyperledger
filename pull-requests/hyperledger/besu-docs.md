@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1634" class=".btn">#1634</a>
+            </td>
+            <td>
+                <b>
+                    fixes 1615:temp redirect to perm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+fixes 1615: https://github.com/hyperledger/besu-docs/issues/1615
+
+- 
+
+### Issue(s) fixed
+<!-- Include the issue number that this PR fixes. {Example: Fixes #123} -->
+
+Fixes #
+
+### Preview
+<!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
+
+- 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 16:00:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1633" class=".btn">#1633</a>
             </td>
             <td>
@@ -63,7 +103,7 @@ https://besu-docs-git-fork-bgravenorst-doc-1622-hyperledger.vercel.app/
                 
             </td>
             <td>
-                Fixes issue https://github.com/hyperledger/besu-docs/issues/1576
+                Fixes https://github.com/hyperledger/besu-docs/issues/1576
             </td>
         </tr>
     </table>
