@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/126" class=".btn">#126</a>
             </td>
             <td>
                 <b>
-                    release 24.6.0
+                    Automation to update the Besu version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                release 24.6.0
+                Introduced the workflow to run on demand to update the Besu version. Workflow will create the PR if the workflow job has the permission
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-14 01:21:16 +0000 UTC
+        Created At 2024-06-26 05:59:09 +0000 UTC
     </div>
 </div>
 

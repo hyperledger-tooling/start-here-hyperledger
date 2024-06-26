@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1202" class=".btn">#1202</a>
+            </td>
+            <td>
+                <b>
+                    style: apply linters automatic fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-19 14:02:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1201" class=".btn">#1201</a>
             </td>
             <td>
