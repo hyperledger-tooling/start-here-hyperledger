@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4911" class=".btn">#4911</a>
+            </td>
+            <td>
+                <b>
+                    Disable peer.deliveryclient.blockGossipEnabled in sample core.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since v2.2 it has been recommended to configure all peers to be orgLeaders so that they pull blocks from ordering service.
+
+In v2.4 peer.deliveryclient.blockGossipEnabled was added and recommended to be set to false so that peers don't gossip pulled blocks.
+
+These settings simplify peer behavior and reduce communication between peers (at the expense of more connections to ordering service).
+
+Finally in v3.0 peer.deliveryclient.blockGossipEnabled is set to false by default.
+
+This change also updates core.yaml and documentation to make these recommendations clear and consistent.
+
+Closes https://github.com/hyperledger/fabric/issues/3961
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 19:39:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4910" class=".btn">#4910</a>
             </td>
             <td>
@@ -91,32 +127,6 @@ Integration tests for #4847
     </table>
     <div class="right-align">
         Created At 2024-06-19 10:34:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4906" class=".btn">#4906</a>
-            </td>
-            <td>
-                <b>
-                    Updates in main docs and scripts for v2.5.9 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates in main docs and scripts for v2.5.9 release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 20:44:40 +0000 UTC
     </div>
 </div>
 

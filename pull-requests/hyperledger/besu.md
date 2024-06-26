@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7263" class=".btn">#7263</a>
+            </td>
+            <td>
+                <b>
+                    Implement System Calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">Prague</span>
+            </td>
+            <td>
+                ## PR description
+
+- Introduces system calls -  ( a call to `CONTRACT_ADDRESS` as `SYSTEM_ADDRESS`). This is a system operation and therefore:
+  - the call must be executed to completion
+  - the call does not count against the block’s gas limit
+  - the call does not follow the [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) burn semantics - no value should be transferred as part of the call
+  - if no code exists at CONTRACT_ADDRESS, the call must fail silently
+
+- Changes `withdrawalRequestProcessor` to perform a `system call` instead of directly manipulating storage. 
+
+## Fixed Issue(s)
+fixes #6918 
+fixes #7259
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 23:59:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7262" class=".btn">#7262</a>
+            </td>
+            <td>
+                <b>
+                    Feature/use gnark-crypto for ecc precompiles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Use gnark-crypto from besu-native for ECC precompiles
+* eip-2537
+* eip-196
+* eip-197
+
+This will get besu onto a supported and more performant ECC library, and should allow us to remove tech debt in besu-native.
+
+This PR also addresses some templating problems that exist with some of the execution spec tests, where tests are created in directories that do not match their namespace (and thus were not being run)
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 23:01:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7258" class=".btn">#7258</a>
             </td>
             <td>
@@ -424,52 +521,6 @@ This is also required to address a recent EOF change limiting the total size of 
     </table>
     <div class="right-align">
         Created At 2024-06-19 17:25:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7239" class=".btn">#7239</a>
-            </td>
-            <td>
-                <b>
-                    container verify GitHub workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Container verification step in release process automated with the container verify GitHub workflow. New workflow is triggered at the end of the release workflow which will check the released container images starts successfully. Verification test only checks container starts and reach the Ethereum main loop.
-
-## Fixed Issue(s)
-fixes #7176
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [x] unit tests: `./gradlew build`
-- [x] acceptance tests: `./gradlew acceptanceTest`
-- [x] integration tests: `./gradlew integrationTest`
-- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 23:05:45 +0000 UTC
     </div>
 </div>
 
