@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4773" class=".btn">#4773</a>
+            </td>
+            <td>
+                <b>
+                    fix: fix apply/validate blocks benchmarks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Fix number of issues with block benchmarks:
+- correct block signing
+- generating accounts correctly
+- correctly get accounts by domain id
+- remove account permissions on account removal
+- update storage crate to fix issues with range iterator and removal of accounts 
+
+## Benchmark results
+
+After making account shallow we have the following result:
+
+```plain
+apply_blocks/apply_blocks
+    time:   [18.491 ms 19.988 ms 21.691 ms]
+    change: [+7.2201% +19.955% +34.299%] (p = 0.01 < 0.10)
+    Performance has regressed.
+
+validate_blocks/validate_blocks
+    time:   [11.090 s 11.425 s 11.751 s]
+    change: [-32.585% -29.986% -27.411%] (p = 0.00 < 0.10)
+    Performance has improved.
+```
+
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-26 12:04:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4772" class=".btn">#4772</a>
             </td>
             <td>
@@ -943,95 +1008,6 @@ Backport of #4392
     </table>
     <div class="right-align">
         Created At 2024-06-19 13:00:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4744" class=".btn">#4744</a>
-            </td>
-            <td>
-                <b>
-                    fix(sumeragi): early exit from handle_block_sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Exit early from `handle_block_sync` if received block is the same or has smaller or equal view change index.
-
-## Benefits
-
-Improve performance of block sync by avoid doing work where not necessary.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 11:46:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4742" class=".btn">#4742</a>
-            </td>
-            <td>
-                <b>
-                    refactor: move permission migration into executor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-we no longer depend on the `ExecutorDataModel::permissions` being correct. 
-It's just for users to query it the same way as `ExecutorDataModel::custom_instruction` is
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 07:51:17 +0000 UTC
     </div>
 </div>
 

@@ -31,6 +31,7 @@ permalink: /pull-requests/hyperledger/bevel
 
 1.Deploy fabric 2.5.4 with channel using ansible.
 2.Deploy fabric 2.2.2 with channel using ansible.
+3. Add a new channel to an existing network.
 
 fixes #2576
             </td>

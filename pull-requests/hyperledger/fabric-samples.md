@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1226" class=".btn">#1226</a>
-            </td>
-            <td>
-                <b>
-                    GetHistoryForKey added to the chaincode-typescript
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a chaincode transaction to retrieve the complete history of an asset using its asset ID.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 09:52:52 +0000 UTC
-    </div>
-</div>
-
