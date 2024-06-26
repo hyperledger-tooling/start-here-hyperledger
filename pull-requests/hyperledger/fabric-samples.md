@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1224" class=".btn">#1224</a>
-            </td>
-            <td>
-                <b>
-                    Bump fabric to v2.5.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump fabric to v2.5.9.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-18 20:36:14 +0000 UTC
-    </div>
-</div>
-

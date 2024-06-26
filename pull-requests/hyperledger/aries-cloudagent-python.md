@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3068" class=".btn">#3068</a>
+            </td>
+            <td>
+                <b>
+                    For proof problem handler, allow no connection record (OOB cases), prevent unhandled exception
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Details in https://github.com/hyperledger/aries-cloudagent-python/issues/3069
+
+Just add a conditional to handle the case where there's no connection record. Already did this for v1.0 here https://github.com/hyperledger/aries-cloudagent-python/pull/2723 but missed this was done in a different place for 2.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 22:19:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3067" class=".btn">#3067</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade python [Do Not Merge] [WIP]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Initial changes to test with pipelines
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-25 22:07:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3064" class=".btn">#3064</a>
             </td>
             <td>
