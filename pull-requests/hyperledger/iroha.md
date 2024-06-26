@@ -217,7 +217,7 @@ You can trigger Dependabot actions by commenting on this PR:
             </td>
             <td>
                 <b>
-                    chore: fix typos in CONTRIBUTING.md, iroha_2_whitepaper.md and hot-reload.md
+                    docs(md): fix typos in CONTRIBUTING, iroha_2_whitepaper, hot-reload
                 </b>
             </td>
         </tr>
@@ -226,7 +226,7 @@ You can trigger Dependabot actions by commenting on this PR:
                 
             </td>
             <td>
-                docs: fix typos
+                docs(md): fix typos in CONTRIBUTING, iroha_2_whitepaper, hot-reload
             </td>
         </tr>
     </table>
