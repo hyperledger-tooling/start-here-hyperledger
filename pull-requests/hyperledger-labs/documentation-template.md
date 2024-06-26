@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Use grid cards instead of a table
+                    Devcontainers
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-08 17:23:54 +0000 UTC
+        Created At 2024-06-26 15:13:55 +0000 UTC
     </div>
 </div>
 

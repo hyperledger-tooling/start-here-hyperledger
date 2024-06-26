@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                - For unit-test in smartbft I increased the waiting time for the desired altitude. There were cases when orders went to synchronization and there was simply not enough time.
+                - For unit-test in smartbft I increased the waiting time for the desired altitude. There were cases when orders went to synchronization and there was simply not enough time and changed the heartbeat settings
 - Fix the integration test in smartbft_block_deliverer_test.go
             </td>
         </tr>

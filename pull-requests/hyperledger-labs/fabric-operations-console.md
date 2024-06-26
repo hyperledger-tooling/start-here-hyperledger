@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/761" class=".btn">#761</a>
+            </td>
+            <td>
+                <b>
+                    updated tab ui as per previous console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+- Update tab ui as per previous console 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-26 13:21:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/759" class=".btn">#759</a>
             </td>
             <td>
