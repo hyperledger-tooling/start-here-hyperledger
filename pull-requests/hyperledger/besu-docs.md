@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1636" class=".btn">#1636</a>
+            </td>
+            <td>
+                <b>
+                    fixes:1620 deprecates old image improves new
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+CL drives EL via Engine API -- at first I fixed image with single head arrow to clarify this BUT implication then is no coms btwn EL and CL >> this fix should allow 000 knowledge folk to understand 
+
+### Issue(s) fixed
+Fixes #1620
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-26 13:16:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1635" class=".btn">#1635</a>
             </td>
             <td>
@@ -28,7 +60,7 @@ permalink: /pull-requests/hyperledger/besu-docs
             </td>
             <td>
                 ## Description
-fixes 1615
+fixes #1615
 
 ### Issue(s) fixed
 : https://github.com/hyperledger/besu-docs/issues/1615
@@ -424,32 +456,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-06-21 11:11:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1621" class=".btn">#1621</a>
-            </td>
-            <td>
-                <b>
-                    1618 docs adds eth_maxFeePG
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1618 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 14:46:47 +0000 UTC
     </div>
 </div>
 

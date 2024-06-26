@@ -734,33 +734,3 @@ Thought about keeping the revocation registry definition itself in a failed stat
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3048" class=".btn">#3048</a>
-            </td>
-            <td>
-                <b>
-                    :adhesive_bandage: add exception handling to wallet-upgrade check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Simple fix for non-critical issue.
-
-Currently, if something goes wrong with the `check_for_wallet_upgrades_in_progress` method, then startup will be aborted. This PR just adds a try-except block, such that the exception is logged and startup can proceed.
-
-Relates to #3030
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 13:37:29 +0000 UTC
-    </div>
-</div>
-

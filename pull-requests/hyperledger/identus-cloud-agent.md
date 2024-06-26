@@ -14,100 +14,25 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1203" class=".btn">#1203</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1204" class=".btn">#1204</a>
             </td>
             <td>
                 <b>
-                    feat: ATL-6832 ZIO failures and defects in entity controller
+                    fix: Present Error Handling Job
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">shared</span><span class="chip">cloud-agent</span>
+                <span class="chip">pollux</span><span class="chip">mercury</span><span class="chip">cloud-agent</span>
             </td>
             <td>
-                ### Description: 
-[ATL-6832](https://input-output.atlassian.net/browse/ATL-6832)
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
+                https://input-output.atlassian.net/browse/ATL-7264
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-19 14:07:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1202" class=".btn">#1202</a>
-            </td>
-            <td>
-                <b>
-                    style: apply linters automatic fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 14:02:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1201" class=".btn">#1201</a>
-            </td>
-            <td>
-                <b>
-                    test: add verification api integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                ### Description: 
-Test for ATL-6400
-
-A bug was found
-<img width="975" alt="image" src="https://github.com/hyperledger/identus-cloud-agent/assets/101114634/8cb71f99-f689-4544-8c6c-691de4361c1a">
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [x] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [x] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 13:59:47 +0000 UTC
+        Created At 2024-06-20 12:34:20 +0000 UTC
     </div>
 </div>
 

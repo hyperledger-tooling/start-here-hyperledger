@@ -1,13 +1,13 @@
 
-[4773](https://github.com/hyperledger/iroha/pull/4773) fix: fix apply/validate blocks benchmarks
+[4777](https://github.com/hyperledger/iroha/pull/4777) chore(deps): bump faker from 25.9.1 to 25.9.2 in /client_cli/pytests
 
-[3361](https://github.com/hyperledger/cacti/pull/3361) enable useUnknownInCatchVariables typescript compiler
+[4776](https://github.com/hyperledger/iroha/pull/4776) chore(deps-dev): bump pylint from 3.2.3 to 3.2.4 in /client_cli/pytests
 
-[4912](https://github.com/hyperledger/fabric/pull/4912) find and fix error in tests
+[4775](https://github.com/hyperledger/iroha/pull/4775) feat: Allow multiple peers submit genesis block
 
-[7266](https://github.com/hyperledger/besu/pull/7266) add consolidation request type
+[18](https://github.com/hyperledger-labs/documentation-template/pull/18) Devcontainers
 
-[1635](https://github.com/hyperledger/besu-docs/pull/1635) fixes 1615:temp redirect to perm
+[761](https://github.com/hyperledger-labs/fabric-operations-console/pull/761) updated tab ui as per previous console
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
