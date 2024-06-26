@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3361" class=".btn">#3361</a>
+            </td>
+            <td>
+                <b>
+                    enable useUnknownInCatchVariables typescript compiler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - enable useUnknownInCatchVariables flag in tsconfig
+
+Closes: #2463
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-26 11:52:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3360" class=".btn">#3360</a>
             </td>
             <td>

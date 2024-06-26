@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4912" class=".btn">#4912</a>
+            </td>
+            <td>
+                <b>
+                    find and fix error in tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - For unit-test in smartbft I increased the waiting time for the desired altitude. There were cases when orders went to synchronization and there was simply not enough time.
+- Fix the integration test in smartbft_block_deliverer_test.go
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-26 11:36:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4911" class=".btn">#4911</a>
             </td>
             <td>
@@ -95,38 +122,6 @@ Closes https://github.com/hyperledger/fabric/issues/3961
     </table>
     <div class="right-align">
         Created At 2024-06-21 07:31:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4907" class=".btn">#4907</a>
-            </td>
-            <td>
-                <b>
-                    peer delivery client policy integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-
-Integration tests for #4847
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 10:34:37 +0000 UTC
     </div>
 </div>
 

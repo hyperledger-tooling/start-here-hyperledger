@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1634" class=".btn">#1634</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1635" class=".btn">#1635</a>
             </td>
             <td>
                 <b>
@@ -28,25 +28,18 @@ permalink: /pull-requests/hyperledger/besu-docs
             </td>
             <td>
                 ## Description
-fixes 1615: https://github.com/hyperledger/besu-docs/issues/1615
-
-- 
+fixes 1615
 
 ### Issue(s) fixed
-<!-- Include the issue number that this PR fixes. {Example: Fixes #123} -->
+: https://github.com/hyperledger/besu-docs/issues/1615
+reissued PR (with sign!)
 
-Fixes #
-
-### Preview
-<!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
-
-- 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-25 16:00:08 +0000 UTC
+        Created At 2024-06-26 07:26:41 +0000 UTC
     </div>
 </div>
 
