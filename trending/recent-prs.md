@@ -1,13 +1,13 @@
 
-[763](https://github.com/hyperledger-labs/fabric-operations-console/pull/763) Detect secret
+[4785](https://github.com/hyperledger/iroha/pull/4785) chore(deps): bump faker from 25.9.2 to 26.0.0 in /client_cli/pytests
 
-[4779](https://github.com/hyperledger/iroha/pull/4779) fix: Updated time events acc. to provided instructions
+[62](https://github.com/hyperledger-labs/cc-tools-demo/pull/62) Implement qscc endpoints
 
-[1657](https://github.com/hyperledger/solang/pull/1657) macOS 11 runners are being removed
+[605](https://github.com/hyperledger-labs/fabric-smart-client/pull/605) allow a second registration of the same fabric driver
 
-[625](https://github.com/hyperledger/cello/pull/625) Bump the pip group across 2 directories with 3 updates
+[459](https://github.com/hyperledger-labs/fablo/pull/459) Set version 1.3.0
 
-[4778](https://github.com/hyperledger/iroha/pull/4778) refactor: improve custom instruction usage
+[458](https://github.com/hyperledger-labs/fablo/pull/458) Update publish CI
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
