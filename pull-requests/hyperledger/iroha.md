@@ -286,8 +286,8 @@ You can trigger Dependabot actions by commenting on this PR:
 
 Continuation of #4739:
 * Topology stored in genesis block will be used as initial topology, as a result multiple peers can submit genesis
-* No changes in the config from the DevOps side required, current setup where one peer submit genesis will continue work
-* Added `--all-peers-submit-genesis` flag to `scripts/test_env.py` for testing purposes
+* Removed `--submit-genesis` flag
+* Changed `scripts/test_env.py`, it will submit genesis for all peers
 
 ### Linked issue
 
@@ -1155,51 +1155,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-20 16:29:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4750" class=".btn">#4750</a>
-            </td>
-            <td>
-                <b>
-                    ci: Modify CodeQuality job branch checkout variable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-Attempt to fix `CodeQuality` workflow `checkout` actions that always points to repository defaults branch even if PR is coming from not-default branch.
-
-### Linked issue
-https://github.com/orgs/community/discussions/66784
-https://github.com/orgs/community/discussions/25220
-
-### Benefits
-
-Perhaps will fix `CodeQuality` workflow.
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-20 11:29:11 +0000 UTC
     </div>
 </div>
 
