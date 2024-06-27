@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4779" class=".btn">#4779</a>
+            </td>
+            <td>
+                <b>
+                    fix: Updated time events acc. to provided instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+This PR resolves issue number #4729 
+
+### Before resolving:
+![Screenshot_23-6-2024_24127_github com](https://github.com/hyperledger/iroha/assets/122338009/51a5059a-b260-4463-b134-725949a5a05b)
+![Screenshot_23-6-2024_2427_github com](https://github.com/hyperledger/iroha/assets/122338009/c4f4efb4-19b0-414c-bbd2-ca13c81b83f1)
+
+### After resolving the issue
+
+![image](https://github.com/hyperledger/iroha/assets/122338009/23cfa41b-d337-4fab-b1de-b4c942221a40)
+![image](https://github.com/hyperledger/iroha/assets/122338009/8897b469-0c8a-4ef9-9a07-3747251c01a1)
+![image](https://github.com/hyperledger/iroha/assets/122338009/d840ad0d-01fa-4d76-ba2d-5c76e543bd37)
+
+Also, apart from this I made the required changes that involved changing of start to start_ms and since to since_ms.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-27 05:10:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4778" class=".btn">#4778</a>
             </td>
             <td>
