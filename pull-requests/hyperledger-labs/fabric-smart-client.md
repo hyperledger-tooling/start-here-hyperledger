@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/601" class=".btn">#601</a>
-            </td>
-            <td>
-                <b>
-                    Allow skipping register errors for prometheus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-20 08:38:53 +0000 UTC
-    </div>
-</div>
-
