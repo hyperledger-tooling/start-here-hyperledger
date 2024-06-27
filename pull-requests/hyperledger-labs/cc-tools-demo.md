@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/62" class=".btn">#62</a>
             </td>
             <td>
                 <b>
-                    Update swagger to use gateway endpoints
+                    Implement qscc endpoints
                 </b>
             </td>
         </tr>
@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-03-07 16:47:25 +0000 UTC
+        Created At 2024-06-27 15:00:31 +0000 UTC
     </div>
 </div>
 

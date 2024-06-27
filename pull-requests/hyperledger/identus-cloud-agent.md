@@ -14,29 +14,52 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1205" class=".btn">#1205</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1210" class=".btn">#1210</a>
             </td>
             <td>
                 <b>
-                    docs: update docs with SDJWT example and make consistence revocation
+                    style: apply linters automatic fixes
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">docs</span>
+                
+            </td>
+            <td>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-21 07:21:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1209" class=".btn">#1209</a>
+            </td>
+            <td>
+                <b>
+                    ci: skip @flaky tests in e2e suite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
             </td>
             <td>
                 ### Description: 
-docs  update for SDJWT credential format
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
+- temporary ignore specifications marked as @flaky
 
 ### Checklist: 
 - [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [x] I have commented my code, particularly in hard-to-understand areas
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
 - [x] I have made corresponding changes to the documentation
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -45,33 +68,7 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-20 15:37:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1204" class=".btn">#1204</a>
-            </td>
-            <td>
-                <b>
-                    fix: Present Error Handling Job
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">mercury</span><span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                https://input-output.atlassian.net/browse/ATL-7264
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-20 12:34:20 +0000 UTC
+        Created At 2024-06-21 07:19:15 +0000 UTC
     </div>
 </div>
 
