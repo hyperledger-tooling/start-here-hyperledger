@@ -304,29 +304,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/624" class=".btn">#624</a>
-            </td>
-            <td>
-                <b>
-                    Updated the dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As titled.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 03:30:09 +0000 UTC
-    </div>
-</div>
-

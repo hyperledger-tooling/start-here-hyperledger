@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/142" class=".btn">#142</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/143" class=".btn">#143</a>
             </td>
             <td>
                 <b>
-                    add generic([]byte base) signer interface
+                    Channel upgrade
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                add generic([]byte base) signer interface
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-04 09:57:37 +0000 UTC
+        Created At 2024-06-28 05:57:49 +0000 UTC
     </div>
 </div>
 
