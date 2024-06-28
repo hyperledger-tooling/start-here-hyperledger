@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    Initial checkin for a new identity & policy contract family
+                    Fix numpy version to 1.24.4 for use within Inference contract guardian.
                 </b>
             </td>
         </tr>
@@ -27,18 +27,14 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
                 
             </td>
             <td>
-                ### THIS CONTRACT FAMILY IS WORK IN PROGRESS
-
-Initial commit for a new contract family for identity and policy. An identity is a contract that manages a collection of hierarchically generated keys. As a result, a standard format for keys would involve <contract_id>/<key1>/key2>/.... 
-
-The policy support is incomplete. Documentation for (and serialization/deserialization of) verifiable credentials and verifiable presentations is available. 
+                Before this PR, numpy was autoinstalled as part of opencv installation. At the time of this PR, opencv attempts to install numpy 2.0.0, and this is not consistent with the rest of the guardian code. This change fixes the recent guardian failures that were being seen due to the numpy dependency issue.
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-18 22:19:19 +0000 UTC
+        Created At 2024-06-27 22:57:19 +0000 UTC
     </div>
 </div>
 
