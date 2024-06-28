@@ -14,53 +14,27 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1210" class=".btn">#1210</a>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1214" class=".btn">#1214</a>
             </td>
             <td>
                 <b>
-                    style: apply linters automatic fixes
+                    ci: refactor auto-merge flow to use GitHub script and don't block the CI [skip ci]
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 07:21:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1209" class=".btn">#1209</a>
-            </td>
-            <td>
-                <b>
-                    ci: skip @flaky tests in e2e suite
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
+                <span class="chip">ci</span>
             </td>
             <td>
                 ### Description: 
-- temporary ignore specifications marked as @flaky
+- rewrite the script that is able to automatically merge the main branch into the feature branch
 
 ### Checklist: 
 - [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [x] I have made corresponding changes to the documentation
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [x] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
 
@@ -68,7 +42,7 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-21 07:19:15 +0000 UTC
+        Created At 2024-06-21 12:59:37 +0000 UTC
     </div>
 </div>
 

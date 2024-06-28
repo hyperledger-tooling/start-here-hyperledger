@@ -127,29 +127,3 @@ Closes https://github.com/hyperledger/fabric/issues/3961
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4909" class=".btn">#4909</a>
-            </td>
-            <td>
-                <b>
-                    Update my email address
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 07:31:51 +0000 UTC
-    </div>
-</div>
-

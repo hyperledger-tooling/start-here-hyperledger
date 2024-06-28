@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/764" class=".btn">#764</a>
+            </td>
+            <td>
+                <b>
+                    UI automation test update as per carbon library update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+UI automation test update as per carbon library update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-28 12:09:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/763" class=".btn">#763</a>
             </td>
             <td>
