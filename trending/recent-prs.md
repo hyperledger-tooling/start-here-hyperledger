@@ -1,13 +1,13 @@
 
-[4785](https://github.com/hyperledger/iroha/pull/4785) chore(deps): bump faker from 25.9.2 to 26.0.0 in /client_cli/pytests
+[54](https://github.com/hyperledger-labs/pdo-contracts/pull/54) Fix numpy version to 1.24.4 for use within Inference contract guardian.
 
-[62](https://github.com/hyperledger-labs/cc-tools-demo/pull/62) Implement qscc endpoints
+[209](https://github.com/hyperledger/iroha-python/pull/209) [fix] #198: Role manipulation
 
-[605](https://github.com/hyperledger-labs/fabric-smart-client/pull/605) allow a second registration of the same fabric driver
+[4913](https://github.com/hyperledger/fabric/pull/4913) Update docs for Ed25519 support
 
-[459](https://github.com/hyperledger-labs/fablo/pull/459) Set version 1.3.0
+[2072](https://github.com/hyperledger/web3j/pull/2072) Document the minimum required Java version for the target project to use Web3j as a dependency
 
-[458](https://github.com/hyperledger-labs/fablo/pull/458) Update publish CI
+[350](https://github.com/hyperledger/fabric-chaincode-java/pull/350) Update maintainer email address
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

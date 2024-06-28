@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/432" class=".btn">#432</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/433" class=".btn">#433</a>
             </td>
             <td>
                 <b>
-                    Update CONTRIBUTING.md
+                    Update maintainer email address
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Add rush tips for dependency management.
-Also update outdated links.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-17 21:28:11 +0000 UTC
+        Created At 2024-06-27 19:01:32 +0000 UTC
     </div>
 </div>
 

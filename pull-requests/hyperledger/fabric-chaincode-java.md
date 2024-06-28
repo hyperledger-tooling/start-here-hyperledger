@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/349" class=".btn">#349</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/350" class=".btn">#350</a>
             </td>
             <td>
                 <b>
-                    Restore Java 8 compatibility
+                    Update maintainer email address
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Build with source and target bytecode compatibility for Java 8. This allows chaincode implementation code that requires Java 8 compatibility to compile against the fabric-chaincode-shim package.
-
-Avoid use of mavenLocal() and (deprecated) jcenter() Gradle repositories.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-11 17:56:16 +0000 UTC
+        Created At 2024-06-27 19:01:57 +0000 UTC
     </div>
 </div>
 
