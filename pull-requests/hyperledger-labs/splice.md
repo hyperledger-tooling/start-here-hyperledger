@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/splice
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger-labs/splice/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    Sync Daml models
+                    Changes from release 0.1.13
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/splice
                 
             </td>
             <td>
-                from https://github.com/digital-asset/decentralized-canton-sync/pull/3
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-06 16:33:01 +0000 UTC
+        Created At 2024-06-28 07:47:15 +0000 UTC
     </div>
 </div>
 

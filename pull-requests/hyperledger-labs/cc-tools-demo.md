@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/63" class=".btn">#63</a>
+            </td>
+            <td>
+                <b>
+                    Update .gitignore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Similar to the first one, but it includes some additional patterns that are specific to Go projects.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-28 12:15:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/62" class=".btn">#62</a>
             </td>
             <td>

@@ -94,29 +94,3 @@ Fixes: #346 #228
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/456" class=".btn">#456</a>
-            </td>
-            <td>
-                <b>
-                    Create ARCHITECTURE.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 09:33:10 +0000 UTC
-    </div>
-</div>
-

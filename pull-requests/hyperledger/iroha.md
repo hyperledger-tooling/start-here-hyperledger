@@ -14,6 +14,197 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4788" class=".btn">#4788</a>
+            </td>
+            <td>
+                <b>
+                    feat!: reimplement multisignature transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+This PR provide an example how multisignature transactions could be implemented using iroha triggers.
+In this PR i've tried to make as small invasive changes into the core as possible.
+
+How this work?
+
+There is 2 triggers (thanks @s8sato  for inspiration in account activation feature): 
+1. `multisig_register` - responsible for registering new multisig user and trigger `multisig`
+2. `multisig` - responsible for executing instructions on behalf of multisig user when enough votes are collected  
+
+Assumptions: 
+- user have to come up with they own public key for multisig account:
+    - it might be ok to have primary private key in case of emergency or smt
+    - it could be generated at random or obtained through key aggregation
+    - it's currently not possible to generate public key inside wasm smart-contracts
+- `multisig_register` should be registered either as part of genesis or by domain owner to have enough permissions for it's actions
+    - currently in default genesis there is no way to allow certain trigger to be executable by anyone (workaround would be to have trigger which would grant this permission on account registration)
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4373 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Get back multisig functionality without too much changes on iroha side.
+
+### Downsides
+
+Executing multisig instructions through tirgger probably slower that backed in solution.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-28 12:22:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4787" class=".btn">#4787</a>
+            </td>
+            <td>
+                <b>
+                    refactor(env)!: simplify naming of env variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+* rename `GENESIS_SIGNED_FILE` to `GENESIS`
+* rename `SUMERAGI_TRUSTED_PEERS` to `TRUSTED_PEERS`
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-28 11:17:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4786" class=".btn">#4786</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Add #[ignore] to the sorting test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-28 08:59:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4785" class=".btn">#4785</a>
             </td>
             <td>
@@ -424,7 +615,7 @@ Closes #4696
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #4755 <!-- Replace with an actual number,  -->
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -434,10 +625,10 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
+- [x] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
 <!-- HINT:  Add more points to checklist for large draft PRs-->
@@ -1103,49 +1294,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-21 17:01:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4757" class=".btn">#4757</a>
-            </td>
-            <td>
-                <b>
-                    fix!: Upgrade executor in separate transaction in genesis block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-`GenesisBlock` now have two transactions, first with single `Upgrade` instruction to set executor, and second with all other instructions. If there are no other instructions, second transaction will be omitted.
-
-### Linked issue
-
-Closes #4743
-
-### Benefits
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 12:09:55 +0000 UTC
     </div>
 </div>
 
