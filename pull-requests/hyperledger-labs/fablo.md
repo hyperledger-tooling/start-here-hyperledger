@@ -62,35 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fablo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Support Channel-Specific Chaincode Directories to Prevent Duplicate Docker Mounts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix: updated fablo.sh to support channel-name/chaincode-name directory structure for Docker mounts
-
-- Modify `executeOnFabloDocker` function to dynamically create Docker volume mounts for each chaincode based on the channel-name/chaincode-name directory structure.
-- This change resolves the issue of duplicate Docker mount errors when multiple chaincodes are defined for the same network.
-
-
-Fixes: #346 #228 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-22 12:10:49 +0000 UTC
-    </div>
-</div>
-
