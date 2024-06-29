@@ -1,13 +1,13 @@
 
-[4788](https://github.com/hyperledger/iroha/pull/4788) feat!: reimplement multisignature transactions
+[4790](https://github.com/hyperledger/iroha/pull/4790) chore(deps-dev): bump pylint from 3.2.4 to 3.2.5 in /client_cli/pytests
 
-[63](https://github.com/hyperledger-labs/cc-tools-demo/pull/63) Update .gitignore
+[4789](https://github.com/hyperledger/iroha/pull/4789) chore(deps): bump log from 0.4.21 to 0.4.22
 
-[764](https://github.com/hyperledger-labs/fabric-operations-console/pull/764) UI automation test update as per carbon library update
+[279](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/279) Bump github.com/cometbft/cometbft from 0.38.7 to 0.38.8
 
-[4787](https://github.com/hyperledger/iroha/pull/4787) refactor(env)!: simplify naming of env variables
+[48](https://github.com/hyperledger-labs/cc-tools/pull/48) ⬆️ Bump google.golang.org/protobuf from 1.30.0 to 1.33.0
 
-[4786](https://github.com/hyperledger/iroha/pull/4786) refactor: Add #[ignore] to the sorting test
+[64](https://github.com/hyperledger-labs/cc-tools-demo/pull/64) Resolved Deprecated Function and Updated .gitignore File
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
