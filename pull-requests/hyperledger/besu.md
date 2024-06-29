@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7249" class=".btn">#7249</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/7252" class=".btn">#7252</a>
             </td>
             <td>
                 <b>
-                    Fix flaky SECP256R1 test
+                    Fix the wrong 'Identifier' and 'Synchronizer' usage
                 </b>
             </td>
         </tr>
@@ -28,32 +28,13 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 ## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
+Fix the wrong 'Identifier' and 'Synchronizer' usage
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-21 14:24:55 +0000 UTC
+        Created At 2024-06-22 19:01:21 +0000 UTC
     </div>
 </div>
 

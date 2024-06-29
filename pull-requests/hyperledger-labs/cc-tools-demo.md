@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/64" class=".btn">#64</a>
+            </td>
+            <td>
+                <b>
+                    Resolved Deprecated Function and Updated .gitignore File
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this update,I have addressed some deprecated function from ioutil that may cause issues in our project. I have replaced the deprecated function with a more up-to-date alternative, which has resolved the problem and improved the overall stability of the project.
+
+Reference:
+https://github.com/go-critic/go-critic/issues/1019
+https://github.com/golang/go/issues/42026
+https://github.com/golang/go/issues/40025
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-28 12:44:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/63" class=".btn">#63</a>
             </td>
             <td>
