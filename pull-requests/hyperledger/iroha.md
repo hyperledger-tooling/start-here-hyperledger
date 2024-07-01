@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4794" class=".btn">#4794</a>
+            </td>
+            <td>
+                <b>
+                    refactor(swarm): build with `irohad0` instead of dummy builder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Image for Compose is now built by the first peer service instead of the dummy builder. Solves [the CI failure](https://github.com/hyperledger/iroha/actions/runs/9739223415/job/26874072004) when testing generated Compose configs caused by https://github.com/docker/compose/issues/10596.
+
+### Benefits
+
+No need for a dummy service to build images.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 10:36:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4793" class=".btn">#4793</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: Use hash to validate genesis block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+* Added `genesis.hash` config parameter and removed `genesis.public_key`
+* Added command `kagami genesis hash` which calculates hash of genesis block
+* `kagami genesis sign` still needs genesis key pair because it needs to be matched with genesis account id potentially present in `genesis.json` instructions
+  * Maybe we could try to use `genesis@genesis` alias in `genesis.json`? That way `kagami genesis sign` will generate genesis key pair, replace `genesis@genesis` alias with actual genesis account id, and users will not have to deal with genesis key pair generation
+* Genesis domain and account is now added to the `World` after receiving genesis block (since we now don't know genesis account id at startup but need to use authority of genesis block)
+
+### Deployment changes
+Will be needed to change from:
+```sh
+kagami genesis sign ... --out-file genesis.signed.scale
+irohad
+```
+
+To:
+* `kagami genesis sign ... --out-file genesis.signed.scale` - as before, no changes
+* `kagami genesis hash genesis.signed.scale` - get hash of genesis block
+* Provide hash using `GENESIS_HASH` environment variable to `irohad`
+
+### Linked issue
+
+Closes #4555
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 09:43:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4792" class=".btn">#4792</a>
             </td>
             <td>
@@ -83,7 +191,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">api-changes</span>
             </td>
             <td>
                 ## Description
@@ -91,14 +199,12 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 * remove `derive` crates from workspace dependencies
 * split `executor` into `data_model` and `core` crates 
 * rewrite tests/examples so that they use statically typed permissions
+* removed `MigrationResult` -> migration should always succeed, the error is unrecoverable
 
 <!-- Skip if the title of the PR is self-explanatory -->
 
 ### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+ #4552
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -850,7 +956,8 @@ Closes #4696
             <td>
                 ## Description
 
-<!-- Just describe what you did. -->
+Сleaned up the code by creating methods to reduce duplication and make things more readable. 
+Also removed some unimplemented tests that were marked as TODO since it's easier and more effective and easier to cover those cases at the `SDK` level rather than through the `UI`. 
 
 <!-- Skip if the title of the PR is self-explanatory -->
 
@@ -1277,65 +1384,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-24 16:40:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4765" class=".btn">#4765</a>
-            </td>
-            <td>
-                <b>
-                    fix: restore RawGenesisTransaction schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-24 08:30:19 +0000 UTC
     </div>
 </div>
 
