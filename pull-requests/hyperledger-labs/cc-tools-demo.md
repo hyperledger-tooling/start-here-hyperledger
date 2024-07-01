@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    Bump to CC-Tools 1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Bump CC-Tools version to 1.0
+- Bump CCAPI Go version to 1.21
+- Update dependencies
+- Remove `ioutil` references, following its deprecation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 17:36:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/64" class=".btn">#64</a>
             </td>
             <td>
