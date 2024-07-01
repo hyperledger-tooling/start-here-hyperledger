@@ -14,6 +14,268 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4799" class=".btn">#4799</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump serde_json from 1.0.118 to 1.0.120
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [serde_json](https://github.com/serde-rs/json) from 1.0.118 to 1.0.120.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/serde-rs/json/releases">serde_json's releases</a>.</em></p>
+<blockquote>
+<h2>v1.0.120</h2>
+<ul>
+<li>Correctly specify required version of <code>indexmap</code> dependency (<a href="https://redirect.github.com/serde-rs/json/issues/1152">#1152</a>, thanks <a href="https://github.com/cforycki"><code>@​cforycki</code></a>)</li>
+</ul>
+<h2>v1.0.119</h2>
+<ul>
+<li>Add <code>serde_json::Map::shift_insert</code> (<a href="https://redirect.github.com/serde-rs/json/issues/1149">#1149</a>, thanks <a href="https://github.com/joshka"><code>@​joshka</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/serde-rs/json/commit/bcedc3d96bcc33184f16d63eab397295e2193350"><code>bcedc3d</code></a> Release 1.0.120</li>
+<li><a href="https://github.com/serde-rs/json/commit/962c0fbbecc7dc8559cfeb019c2611737512f937"><code>962c0fb</code></a> Merge pull request <a href="https://redirect.github.com/serde-rs/json/issues/1152">#1152</a> from cforycki/fix/index-map-minimal-version</li>
+<li><a href="https://github.com/serde-rs/json/commit/3480feda7b572d33992544061a8e0fbf8610a803"><code>3480fed</code></a> fix: indexmap minimal version with Map::shift_insert()</li>
+<li><a href="https://github.com/serde-rs/json/commit/b48b9a3a0c09952579e98c8940fe0d1ee4aae588"><code>b48b9a3</code></a> Release 1.0.119</li>
+<li><a href="https://github.com/serde-rs/json/commit/8878cd7c042a5f94ae4ee9889cbcbd12cc5ce334"><code>8878cd7</code></a> Make shift_insert available for inlining like other Map methods</li>
+<li><a href="https://github.com/serde-rs/json/commit/352b7abf007cf3b9b063b01e0b1e8f6af62a4e39"><code>352b7ab</code></a> Document the cfg required for Map::shift_insert to exist</li>
+<li><a href="https://github.com/serde-rs/json/commit/c17e63f6eff6cb40594beb1bddd4562c4cc81442"><code>c17e63f</code></a> Merge pull request <a href="https://redirect.github.com/serde-rs/json/issues/1149">#1149</a> from joshka/master</li>
+<li><a href="https://github.com/serde-rs/json/commit/309ef6b8870e47622a283061cbda3f5514bfaf0d"><code>309ef6b</code></a> Add Map::shift_insert()</li>
+<li><a href="https://github.com/serde-rs/json/commit/a9e089a2ce245bc223b56fbb6c525e2fe7b1f0ef"><code>a9e089a</code></a> Merge pull request <a href="https://redirect.github.com/serde-rs/json/issues/1146">#1146</a> from haouvw/master</li>
+<li><a href="https://github.com/serde-rs/json/commit/a83fe96ae2a202925f1caa7abc51991f321d7c22"><code>a83fe96</code></a> chore: remove repeat words</li>
+<li>See full diff in <a href="https://github.com/serde-rs/json/compare/v1.0.118...v1.0.120">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde_json&package-manager=cargo&previous-version=1.0.118&new-version=1.0.120)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 18:13:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4797" class=".btn">#4797</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump serde_with from 3.8.1 to 3.8.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [serde_with](https://github.com/jonasbb/serde_with) from 3.8.1 to 3.8.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/jonasbb/serde_with/releases">serde_with's releases</a>.</em></p>
+<blockquote>
+<h2>serde_with v3.8.2</h2>
+<h3>Changed</h3>
+<ul>
+<li>Bump MSRV to 1.67, since that is required for the <code>time</code> dependency.
+The <code>time</code> version needed to be updated for nightly compatibility.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Implement <code>JsonSchemaAs</code> for <code>OneOrMany</code> instead of <code>JsonSchema</code> by <a href="https://github.com/swlynch99"><code>@​swlynch99</code></a> (<a href="https://redirect.github.com/jonasbb/serde_with/issues/760">#760</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/jonasbb/serde_with/commit/2274dd142afbd6788ad43cba7f66710af78c4e03"><code>2274dd1</code></a> Bump version to 3.8.2 (<a href="https://redirect.github.com/jonasbb/serde_with/issues/761">#761</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/e9e7a7e99c8d49cdc335203418ca858b9d0d2a92"><code>e9e7a7e</code></a> Bump version to 3.8.2</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/c9d96723876291a6d2830d7d50f0382a11805c28"><code>c9d9672</code></a> Implement JsonSchemaAs for OneOrMany instead of JsonSchema (<a href="https://redirect.github.com/jonasbb/serde_with/issues/760">#760</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/dee706a528cb37f853be5bd2b6b4c2b3605eab80"><code>dee706a</code></a> Implement JsonSchemaAs for OneOrMany instead of JsonSchema</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/f74b460e69535738b876bd8f52bacc499cfe7228"><code>f74b460</code></a> Fix two clippy issues (<a href="https://redirect.github.com/jonasbb/serde_with/issues/755">#755</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/3ae442485e34c8b0c3c34fa3c953fa77e0a1a19d"><code>3ae4424</code></a> Fix two clippy issues</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/729e8d23eaf013d9de8b3806b7f574901009af56"><code>729e8d2</code></a> Replace future deprecated functions from chrono (<a href="https://redirect.github.com/jonasbb/serde_with/issues/752">#752</a>)</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/685338f44f01eaefdbdb40fc7a636d113e693916"><code>685338f</code></a> Replace future deprecated functions from chrono</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/9593f932721046e2a50a0c761ee43634d7c9517b"><code>9593f93</code></a> Enable the <code>unexpected_cfgs</code> lint now that it can be configured via `Cargo.to...</li>
+<li><a href="https://github.com/jonasbb/serde_with/commit/242286c52bc2210da3863e3bc9e71c142f67b788"><code>242286c</code></a> Enable the <code>unexpected_cfgs</code> lint now that it can be configured via <code>Cargo.toml</code></li>
+<li>Additional commits viewable in <a href="https://github.com/jonasbb/serde_with/compare/v3.8.1...v3.8.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde_with&package-manager=cargo&previous-version=3.8.1&new-version=3.8.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 16:19:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4796" class=".btn">#4796</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump clap from 4.5.7 to 4.5.8
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [clap](https://github.com/clap-rs/clap) from 4.5.7 to 4.5.8.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+<blockquote>
+<h2>v4.5.8</h2>
+<h2>[4.5.8] - 2024-06-28</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Reduce extra flushes</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's changelog</a>.</em></p>
+<blockquote>
+<h2>[4.5.8] - 2024-06-28</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Reduce extra flushes</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/clap-rs/clap/compare/clap_complete-v4.5.7...v4.5.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=clap&package-manager=cargo&previous-version=4.5.7&new-version=4.5.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 16:18:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4794" class=".btn">#4794</a>
             </td>
             <td>
@@ -957,7 +1219,7 @@ Closes #4696
                 ## Description
 
 Сleaned up the code by creating methods to reduce duplication and make things more readable. 
-Also removed some unimplemented tests that were marked as TODO since it's easier and more effective and easier to cover those cases at the `SDK` level rather than through the `UI`. 
+Also removed some unimplemented tests that were marked as TODO since it's easier and more effective to cover those cases at the `SDK` level rather than through the `UI`. 
 
 <!-- Skip if the title of the PR is self-explanatory -->
 
@@ -1284,106 +1546,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-25 09:47:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4766" class=".btn">#4766</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump uuid from 1.8.0 to 1.9.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [uuid](https://github.com/uuid-rs/uuid) from 1.8.0 to 1.9.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/uuid-rs/uuid/releases">uuid's releases</a>.</em></p>
-<blockquote>
-<h2>1.9.0</h2>
-<h2><code>Uuid::now_v7()</code> is guaranteed to be monotonic</h2>
-<p>Before this release, <code>Uuid::now_v7()</code> would only use the millisecond-precision timestamp for ordering. It now also uses a global 42-bit counter that's re-initialized each millisecond so that the following will always pass:</p>
-<pre lang="rust"><code>let a = Uuid::now_v7();
-let b = Uuid::now_v7();
-<p>assert!(a &lt; b);
-</code></pre></p>
-<h2>What's Changed</h2>
-<ul>
-<li>Add a get_node_id method for v1 and v6 UUIDs by <a href="https://github.com/KodrAus"><code>@​KodrAus</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/748">uuid-rs/uuid#748</a></li>
-<li>Update atomic and zerocopy to latest by <a href="https://github.com/KodrAus"><code>@​KodrAus</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/750">uuid-rs/uuid#750</a></li>
-<li>Add repository field to uuid-macro-internal crate by <a href="https://github.com/paolobarbolini"><code>@​paolobarbolini</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/752">uuid-rs/uuid#752</a></li>
-<li>update docs to updated RFC (from 4122 to 9562) by <a href="https://github.com/Mikopet"><code>@​Mikopet</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/753">uuid-rs/uuid#753</a></li>
-<li>Support counters in v7 UUIDs by <a href="https://github.com/KodrAus"><code>@​KodrAus</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/755">uuid-rs/uuid#755</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li><a href="https://github.com/paolobarbolini"><code>@​paolobarbolini</code></a> made their first contribution in <a href="https://redirect.github.com/uuid-rs/uuid/pull/752">uuid-rs/uuid#752</a></li>
-<li><a href="https://github.com/Mikopet"><code>@​Mikopet</code></a> made their first contribution in <a href="https://redirect.github.com/uuid-rs/uuid/pull/753">uuid-rs/uuid#753</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/uuid-rs/uuid/compare/1.8.0...1.9.0">https://github.com/uuid-rs/uuid/compare/1.8.0...1.9.0</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/uuid-rs/uuid/commit/4a129e728174a340ac2772f3cc6310ba77d1969f"><code>4a129e7</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/760">#760</a> from uuid-rs/cargo/1.9.0</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/6bfee6ba82ad8e7a0155f3161157dc3ea3a5d552"><code>6bfee6b</code></a> prepare for 1.9.0 release</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/62b7145d95913642298d5a954314ea28a199fa78"><code>62b7145</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/759">#759</a> from uuid-rs/chore/v7-counter-cleanup</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/62e968c92b464c81a73b6002ab66a32c4bdad9ad"><code>62e968c</code></a> clean up new Timestamp APIs</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/49319a7ff766dc7c7638c0226294beebd45f6762"><code>49319a7</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/758">#758</a> from uuid-rs/chore/test-overflow</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/47b9130ada093391db900b03e53f716310ae1ca0"><code>47b9130</code></a> ensure v7 methods don't overflow on max values</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/0c561e3443191065b724e8f8eb7b116f08d4e181"><code>0c561e3</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/757">#757</a> from uuid-rs/ci/more-miri</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/252770be2f824e2cb4a2f68cb5980e0b7bd4b6cc"><code>252770b</code></a> expand miri tests to cover all features</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/e62647f7623f8663f806ec69d8264fbfb836a6e3"><code>e62647f</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/755">#755</a> from uuid-rs/feat/v7-counter</li>
-<li><a href="https://github.com/uuid-rs/uuid/commit/c270b3d66ae809517663ffeb38d56e004c517f7f"><code>c270b3d</code></a> improve testing for contexts</li>
-<li>Additional commits viewable in <a href="https://github.com/uuid-rs/uuid/compare/1.8.0...1.9.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=uuid&package-manager=cargo&previous-version=1.8.0&new-version=1.9.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-24 16:40:55 +0000 UTC
     </div>
 </div>
 
