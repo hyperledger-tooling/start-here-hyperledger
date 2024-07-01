@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/766" class=".btn">#766</a>
+            </td>
+            <td>
+                <b>
+                    renamed the misc cases file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                renamed the misc cases file as file name was having space in word and failing in firefox
+
+#### Type of change
+- Test update
+
+#### Description
+renamed the misc cases file as file name was having space in word
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 05:11:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/765" class=".btn">#765</a>
             </td>
             <td>
@@ -322,77 +355,6 @@ UI automation test update as per carbon library update
     </table>
     <div class="right-align">
         Created At 2024-06-24 13:04:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/757" class=".btn">#757</a>
-            </td>
-            <td>
-                <b>
-                    update lint rule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-24 05:08:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/756" class=".btn">#756</a>
-            </td>
-            <td>
-                <b>
-                    Dropdown change issue and ordering node issue fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-- Dropdown change issue and ordering node issue fix
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-24 04:53:47 +0000 UTC
     </div>
 </div>
 
