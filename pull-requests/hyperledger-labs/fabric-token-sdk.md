@@ -44,16 +44,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    F auth
+                    move authorization to the driver space
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                This PR moves the responsibility of the implementation of the Authorization interface to the driver that better knows the relation between tokens and wallets.
             </td>
         </tr>
     </table>
