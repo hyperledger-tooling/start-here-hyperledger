@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/signare
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/signare/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Source code of signare
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-25 10:15:31 +0000 UTC
-    </div>
-</div>
-

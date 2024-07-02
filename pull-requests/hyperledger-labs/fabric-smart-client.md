@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/607" class=".btn">#607</a>
+            </td>
+            <td>
+                <b>
+                    Support for Orion deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 11:23:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/606" class=".btn">#606</a>
+            </td>
+            <td>
+                <b>
+                    check if grpc server is nil before accessing it
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                caused panic if `grpc.enabled: false`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 10:21:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/605" class=".btn">#605</a>
             </td>
             <td>
