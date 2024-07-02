@@ -14,91 +14,40 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/139" class=".btn">#139</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    Bump golangci/golangci-lint-action from 4.0.0 to 6.0.1
+                    Bump k8s.io/client-go from 0.29.2 to 0.30.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">github_actions</span>
+                <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [golangci/golangci-lint-action](https://github.com/golangci/golangci-lint-action) from 4.0.0 to 6.0.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/golangci/golangci-lint-action/releases">golangci/golangci-lint-action's releases</a>.</em></p>
-<blockquote>
-<h2>v6.0.1</h2>
-<!-- raw HTML omitted -->
-<h2>What's Changed</h2>
-<h3>Changes</h3>
-<ul>
-<li>fix: use 3-dots syntax for diff on push by <a href="https://github.com/ldez"><code>@​ldez</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1040">golangci/golangci-lint-action#1040</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/golangci/golangci-lint-action/compare/v6.0.0...v6.0.1">https://github.com/golangci/golangci-lint-action/compare/v6.0.0...v6.0.1</a></p>
-<h2>v6.0.0</h2>
-<!-- raw HTML omitted -->
-<h2>What's Changed</h2>
-<p>This version removes <code>annotations</code> option (because it was useless), and removes the default output format (<code>github-actions</code>).
-The annotations are still produced but with another approach.</p>
-<h3>Changes</h3>
-<ul>
-<li>feat: rewrite format handling by <a href="https://github.com/ldez"><code>@​ldez</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1038">golangci/golangci-lint-action#1038</a></li>
-</ul>
-<h3>Dependencies</h3>
-<ul>
-<li>build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 7.7.1 to 7.8.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1034">golangci/golangci-lint-action#1034</a></li>
-<li>build(deps): bump <code>@​types/node</code> from 20.12.7 to 20.12.8 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1036">golangci/golangci-lint-action#1036</a></li>
-<li>build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 7.7.1 to 7.8.0 by <a href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1035">golangci/golangci-lint-action#1035</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/golangci/golangci-lint-action/compare/v5.3.0...v6.0.0">https://github.com/golangci/golangci-lint-action/compare/v5.3.0...v6.0.0</a></p>
-<h2>v5.3.0</h2>
-<!-- raw HTML omitted -->
-<h2>What's Changed</h2>
-<h3>Changes</h3>
-<ul>
-<li>feat: uses 2 dots compare syntax for push diff by <a href="https://github.com/ldez"><code>@​ldez</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1030">golangci/golangci-lint-action#1030</a></li>
-<li>feat: add option to control cache invalidation interval by <a href="https://github.com/ldez"><code>@​ldez</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1031">golangci/golangci-lint-action#1031</a></li>
-<li>feat: use OS and working-directory as cache key by <a href="https://github.com/ldez"><code>@​ldez</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1032">golangci/golangci-lint-action#1032</a></li>
-<li>feat: improve log about pwd/cwd by <a href="https://github.com/ldez"><code>@​ldez</code></a> in <a href="https://redirect.github.com/golangci/golangci-lint-action/pull/1033">golangci/golangci-lint-action#1033</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/golangci/golangci-lint-action/compare/v5.2.0...v5.3.0">https://github.com/golangci/golangci-lint-action/compare/v5.2.0...v5.3.0</a></p>
-<h2>v5.2.0</h2>
-<!-- raw HTML omitted -->
-<h2>What's Changed</h2>
-<h3>Changes</h3>
-<ul>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/aebff4bd9cd0198ff4f020915c27258a9edc4c01">feat: add an option to enable/disable annotations</a> by <a href="https://github.com/ldez"><code>@​ldez</code></a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/golangci/golangci-lint-action/compare/v5.1.0...v5.2.0">https://github.com/golangci/golangci-lint-action/compare/v5.1.0...v5.2.0</a></p>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [k8s.io/client-go](https://github.com/kubernetes/client-go) from 0.29.2 to 0.30.2.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/a4f60bb28d35aeee14e6880718e0c85ff1882e64"><code>a4f60bb</code></a> fix: use 3-dots syntax for diff on push (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/1040">#1040</a>)</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/5815a4b9176ef5d9477ec687e3e7f68f04e1a3fc"><code>5815a4b</code></a> doc: improve readme</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/23faadfdeb23a6f9e511beaba149bb123b5b145a"><code>23faadf</code></a> doc: improve readme</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/b556f25b3c7399b6dad72f47062098ff1b36e060"><code>b556f25</code></a> doc: improve readme</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/789f114c52eaee9275c87b15fc90e449e56d1b0a"><code>789f114</code></a> feat: rewrite format handling (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/1038">#1038</a>)</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/d36b91c2948e1d383efc1388208baed5ac9b8e0d"><code>d36b91c</code></a> build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 7.7.1 to 7.8.0 (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/1035">#1035</a>)</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/a9eb1153485e197079024eb082ecd007e94b286b"><code>a9eb115</code></a> build(deps): bump <code>@​types/node</code> from 20.12.7 to 20.12.8 (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/1036">#1036</a>)</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/bd4fa7c9002facfc2cebdefb1a94ba57d2e87851"><code>bd4fa7c</code></a> build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> from 7.7.1 to 7.8.0 (#...</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/38e1018663fa5173f3968ea0777460d3de38f256"><code>38e1018</code></a> feat: improve log about pwd/cwd (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/1033">#1033</a>)</li>
-<li><a href="https://github.com/golangci/golangci-lint-action/commit/21e9e6b47f3490b8adcca53fe65c03e2687b503c"><code>21e9e6b</code></a> feat: use OS and working-directory as cache key (<a href="https://redirect.github.com/golangci/golangci-lint-action/issues/1032">#1032</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/golangci/golangci-lint-action/compare/3cfe3a4abbb849e10058ce4af15d205b6da42804...a4f60bb28d35aeee14e6880718e0c85ff1882e64">compare view</a></li>
+<li><a href="https://github.com/kubernetes/client-go/commit/592d891671b2a09e5f81781b28ebe078d8115e41"><code>592d891</code></a> Update dependencies to v0.30.2 tag</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/4e1652b143b33e94a1dd4d4130d22661aba29362"><code>4e1652b</code></a> Merge pull request <a href="https://redirect.github.com/kubernetes/client-go/issues/124694">#124694</a> from pmalek/backport-124553-to-release-1.30</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/2daa31e07112fa180f05de5cc5d5bc35b299b104"><code>2daa31e</code></a> fix(api): make LocalObjectReference.Name and HostAlias.IP required (<a href="https://redirect.github.com/kubernetes/client-go/issues/124553">#124553</a>)</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/2df4de16d44fd14ef82e7d1c02c683a0877a45c0"><code>2df4de1</code></a> Merge remote-tracking branch 'origin/master' into release-1.30</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/ade2ae222800c49166836f245f777c3ecfa0eacd"><code>ade2ae2</code></a> Update x/net for CVE-2023-45288</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/b4632b75ff72912498b7e9d42e3945ca01fcfeca"><code>b4632b7</code></a> Merge pull request <a href="https://redirect.github.com/kubernetes/client-go/issues/123932">#123932</a> from pohly/dra-api-resource-model-rename</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/4467b1e4375ab06abab1beec60691767334379c6"><code>4467b1e</code></a> Merge pull request <a href="https://redirect.github.com/kubernetes/client-go/issues/123909">#123909</a> from AkihiroSuda/fix-123906</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/650f39267a15ca778ad5fb0cec62dbe4ebd607c2"><code>650f392</code></a> dra api: NodeResourceModel -&gt; ResourceModel</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/00e4609774f85ccbd8f018ebaac8d03e7bd83e84"><code>00e4609</code></a> api: NodeStatus: rename RuntimeClasses to RuntimeHandlers</li>
+<li><a href="https://github.com/kubernetes/client-go/commit/7ebe0ea60e0a6bea3e8280871c1241d0405cdb32"><code>7ebe0ea</code></a> Merge pull request <a href="https://redirect.github.com/kubernetes/client-go/issues/123180">#123180</a> from AkihiroSuda/rro</li>
+<li>Additional commits viewable in <a href="https://github.com/kubernetes/client-go/compare/v0.29.2...v0.30.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golangci/golangci-lint-action&package-manager=github_actions&previous-version=4.0.0&new-version=6.0.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=k8s.io/client-go&package-manager=go_modules&previous-version=0.29.2&new-version=0.30.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -130,7 +79,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-24 23:13:59 +0000 UTC
+        Created At 2024-07-01 22:11:17 +0000 UTC
     </div>
 </div>
 
