@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4800" class=".btn">#4800</a>
+            </td>
+            <td>
+                <b>
+                    fix(validate_blocks): remove loger double initialiation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Fix error with double initialization of logger.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 11:05:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4799" class=".btn">#4799</a>
             </td>
             <td>
@@ -1520,32 +1549,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-06-25 16:32:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4768" class=".btn">#4768</a>
-            </td>
-            <td>
-                <b>
-                    docs(md): fix typos in CONTRIBUTING, iroha_2_whitepaper, hot-reload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                docs(md): fix typos in CONTRIBUTING, iroha_2_whitepaper, hot-reload
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-25 09:47:07 +0000 UTC
     </div>
 </div>
 

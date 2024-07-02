@@ -1,13 +1,13 @@
 
-[140](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/140) Bump k8s.io/client-go from 0.29.2 to 0.30.2
+[670](https://github.com/hyperledger-labs/fabric-token-sdk/pull/670) Support for Orion deployment and TXGen
 
-[4799](https://github.com/hyperledger/iroha/pull/4799) chore(deps): bump serde_json from 1.0.118 to 1.0.120
+[607](https://github.com/hyperledger-labs/fabric-smart-client/pull/607) Support for Orion deployment
 
-[65](https://github.com/hyperledger-labs/cc-tools-demo/pull/65) Bump to CC-Tools 1.0
+[4800](https://github.com/hyperledger/iroha/pull/4800) fix(validate_blocks): remove loger double initialiation
 
-[4797](https://github.com/hyperledger/iroha/pull/4797) chore(deps): bump serde_with from 3.8.1 to 3.8.2
+[606](https://github.com/hyperledger-labs/fabric-smart-client/pull/606) check if grpc server is nil before accessing it
 
-[4796](https://github.com/hyperledger/iroha/pull/4796) chore(deps): bump clap from 4.5.7 to 4.5.8
+[1599](https://github.com/hyperledger/caliper/pull/1599) fix: #1596 restructure all test folders to match the library they test so it is …
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
