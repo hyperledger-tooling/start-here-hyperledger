@@ -14,6 +14,136 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/612" class=".btn">#612</a>
+            </td>
+            <td>
+                <b>
+                    Support for traces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 17:49:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/611" class=".btn">#611</a>
+            </td>
+            <td>
+                <b>
+                    improve logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 15:11:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/610" class=".btn">#610</a>
+            </td>
+            <td>
+                <b>
+                    fabric-sdk: refactor generic's peer manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvement</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 14:28:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/609" class=".btn">#609</a>
+            </td>
+            <td>
+                <b>
+                    fabric: inject drivers into provider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes the need to have global fabric drivers. Now the drivers are injected directly into the provider.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 13:11:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/608" class=".btn">#608</a>
+            </td>
+            <td>
+                <b>
+                    endorser service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 13:11:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/607" class=".btn">#607</a>
             </td>
             <td>

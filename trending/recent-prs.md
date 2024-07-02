@@ -1,13 +1,13 @@
 
-[670](https://github.com/hyperledger-labs/fabric-token-sdk/pull/670) Support for Orion deployment and TXGen
+[671](https://github.com/hyperledger-labs/fabric-token-sdk/pull/671) F trace support
 
-[607](https://github.com/hyperledger-labs/fabric-smart-client/pull/607) Support for Orion deployment
+[612](https://github.com/hyperledger-labs/fabric-smart-client/pull/612) Support for traces
 
-[4800](https://github.com/hyperledger/iroha/pull/4800) fix(validate_blocks): remove loger double initialiation
+[611](https://github.com/hyperledger-labs/fabric-smart-client/pull/611) improve logs
 
-[606](https://github.com/hyperledger-labs/fabric-smart-client/pull/606) check if grpc server is nil before accessing it
+[610](https://github.com/hyperledger-labs/fabric-smart-client/pull/610) fabric-sdk: refactor generic's peer manager
 
-[1599](https://github.com/hyperledger/caliper/pull/1599) fix: #1596 restructure all test folders to match the library they test so it is …
+[609](https://github.com/hyperledger-labs/fabric-smart-client/pull/609) fabric: inject drivers into provider
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

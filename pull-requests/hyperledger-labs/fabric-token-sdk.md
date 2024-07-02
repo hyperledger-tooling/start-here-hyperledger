@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/671" class=".btn">#671</a>
+            </td>
+            <td>
+                <b>
+                    F trace support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-02 17:52:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/670" class=".btn">#670</a>
             </td>
             <td>
@@ -70,7 +96,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    topology improvements
+                    unity driver for everything + table renaming
                 </b>
             </td>
         </tr>
@@ -79,7 +105,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">improvements</span>
             </td>
             <td>
-                This PR allows you to choose unity as the single provider for all databases used in a test.
+                This PR does the following: 
+- Allows you to choose unity as the single provider for all databases used in a test.
+- Better naming for sql tables.
             </td>
         </tr>
     </table>
