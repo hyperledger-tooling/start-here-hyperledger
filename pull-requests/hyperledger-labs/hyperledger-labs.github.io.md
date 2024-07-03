@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/274" class=".btn">#274</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/275" class=".btn">#275</a>
             </td>
             <td>
                 <b>
-                    Add new steward - Esteban Garcia
+                    Zeto
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                <nil>
+                Zeto is a UTXO based privacy-preserving token toolkit for EVM using Zero Knowledge Proofs.
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-17 15:55:06 +0000 UTC
+        Created At 2024-07-03 17:52:05 +0000 UTC
     </div>
 </div>
 

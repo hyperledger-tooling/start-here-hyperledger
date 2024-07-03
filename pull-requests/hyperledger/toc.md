@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/264" class=".btn">#264</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/267" class=".btn">#267</a>
             </td>
             <td>
                 <b>
-                    June 20, 2024 Meeting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">meeting-minutes</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 16:46:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/263" class=".btn">#263</a>
-            </td>
-            <td>
-                <b>
-                    Solang Q2 2024 report
+                    Besu q2 report
                 </b>
             </td>
         </tr>
@@ -53,12 +27,12 @@ permalink: /pull-requests/hyperledger/toc
                 <span class="chip">quarterly-report</span>
             </td>
             <td>
-                <nil>
+                Besu Q2 Report 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-15 19:46:42 +0000 UTC
+        Created At 2024-06-27 17:45:29 +0000 UTC
     </div>
 </div>
 
