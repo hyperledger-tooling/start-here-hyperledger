@@ -64,30 +64,3 @@ Also clarify ECDSA and RSA support.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4912" class=".btn">#4912</a>
-            </td>
-            <td>
-                <b>
-                    find and fix error in tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - For unit-test in smartbft I increased the waiting time for the desired altitude. There were cases when orders went to synchronization and there was simply not enough time and changed the heartbeat settings
-- Fix the integration test in smartbft_block_deliverer_test.go
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-26 11:36:35 +0000 UTC
-    </div>
-</div>
-
