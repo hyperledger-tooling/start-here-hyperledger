@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4801" class=".btn">#4801</a>
+            </td>
+            <td>
+                <b>
+                    chore: add `a-zorina` to maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-03 06:47:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4800" class=".btn">#4800</a>
             </td>
             <td>
@@ -1293,71 +1319,6 @@ Closes #4755 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-06-26 13:12:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4773" class=".btn">#4773</a>
-            </td>
-            <td>
-                <b>
-                    fix: fix apply/validate blocks benchmarks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Fix number of issues with block benchmarks:
-- correct block signing
-- generating accounts correctly
-- correctly get accounts by domain id
-- remove account permissions on account removal
-- update storage crate to fix issues with range iterator and removal of accounts 
-
-## Benchmark results
-
-After making account shallow we have the following result:
-
-```plain
-apply_blocks/apply_blocks
-    time:   [18.491 ms 19.988 ms 21.691 ms]
-    change: [+7.2201% +19.955% +34.299%] (p = 0.01 < 0.10)
-    Performance has regressed.
-
-validate_blocks/validate_blocks
-    time:   [11.090 s 11.425 s 11.751 s]
-    change: [-32.585% -29.986% -27.411%] (p = 0.00 < 0.10)
-    Performance has improved.
-```
-
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-26 12:04:28 +0000 UTC
     </div>
 </div>
 

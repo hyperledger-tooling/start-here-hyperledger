@@ -53,7 +53,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                Added a tx generator to use in integration tests and demo deployments
+Integrated orion in the deployment
             </td>
         </tr>
     </table>
