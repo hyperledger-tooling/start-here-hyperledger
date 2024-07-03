@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/673" class=".btn">#673</a>
+            </td>
+            <td>
+                <b>
+                    Fixes for orion deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-03 18:16:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/672" class=".btn">#672</a>
+            </td>
+            <td>
+                <b>
+                    observable token services with context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvements</span>
+            </td>
+            <td>
+                This PR does the following:
+- Adding context to the token driver issue, transfer, and audit service
+- Install observable services for both fabtoken and dlog
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-03 13:04:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/671" class=".btn">#671</a>
             </td>
             <td>

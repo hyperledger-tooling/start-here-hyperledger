@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/137" class=".btn">#137</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    v2 implementation based on fabric-chaincode-go/v2
+                    Use full go version in go.mod
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                The v2 implementation retains wire-level compatibility with Fabric but does include the following breaking changes:
-
-- Chaincode implementations that make direct use of fabric-protos-go will experience protocol buffer namespace conflicts (as described in https://protobuf.dev/reference/go/faq/). Any use of fabric-protos-go must be replaced by fabric-protos-go-apiv2.
-
-Closes #102
+                From Go 1.21, in the absence of a toolchain line in the go.mod file, the go line is used as the minimum toolchain version. Toolchain versions must be a full Go version, including patch level.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-19 16:57:16 +0000 UTC
+        Created At 2024-06-29 12:03:16 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +40,11 @@ Closes #102
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/139" class=".btn">#139</a>
             </td>
             <td>
                 <b>
-                    Update test dependencies to address CVE-2024-37168
+                    Scan both v1 and v2 for vulnerabilities
                 </b>
             </td>
         </tr>
@@ -57,12 +53,38 @@ Closes #102
                 
             </td>
             <td>
-                Update to latest fabric-chaincode-integration to pick up new grpc-js dependency.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-13 19:06:24 +0000 UTC
+        Created At 2024-06-29 11:39:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/138" class=".btn">#138</a>
+            </td>
+            <td>
+                <b>
+                    Update maintainer email address
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-27 19:01:00 +0000 UTC
     </div>
 </div>
 

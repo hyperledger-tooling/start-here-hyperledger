@@ -1,13 +1,13 @@
 
-[4801](https://github.com/hyperledger/iroha/pull/4801) chore: add `a-zorina` to maintainers
+[673](https://github.com/hyperledger-labs/fabric-token-sdk/pull/673) Fixes for orion deployment
 
-[4915](https://github.com/hyperledger/fabric/pull/4915) bump go.etcd.io/etcd/pkg 3.5.14
+[613](https://github.com/hyperledger-labs/fabric-smart-client/pull/613) Fixes for orion deployment
 
-[671](https://github.com/hyperledger-labs/fabric-token-sdk/pull/671) F trace support
+[275](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/275) Zeto
 
-[612](https://github.com/hyperledger-labs/fabric-smart-client/pull/612) Support for traces
+[3081](https://github.com/hyperledger/aries-cloudagent-python/pull/3081) Add by_format to terse webhook for presentations
 
-[611](https://github.com/hyperledger-labs/fabric-smart-client/pull/611) improve logs
+[2596](https://github.com/hyperledger/bevel/pull/2596) [chore] release 1.1 merge
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

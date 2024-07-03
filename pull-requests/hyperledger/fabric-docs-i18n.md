@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/930" class=".btn">#930</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/934" class=".btn">#934</a>
             </td>
             <td>
                 <b>
-                    Fix maintainer team names
+                    Update tox.ini for fix local build error
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Recently I've found that the members of the fabric-ja-jp-doc-maintainers team cannot merge the pull request for a Japanese document, which seems to be caused by the name changes for the i18n maintainers teams.
-
-This patch fixes the CODEOWNERS file to point to the correct teams for each subdirectory for a language.
+                This patch fixes 9 tox.ini files to execute local build correctly except for Japanese language.
+This is the same solution as #931 .
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-03 09:04:45 +0000 UTC
+        Created At 2024-06-27 06:28:18 +0000 UTC
     </div>
 </div>
 

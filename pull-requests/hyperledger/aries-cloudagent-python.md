@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3068" class=".btn">#3068</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3081" class=".btn">#3081</a>
             </td>
             <td>
                 <b>
-                    For proof problem handler, allow no connection record (OOB cases), prevent unhandled exception
+                    Add by_format to terse webhook for presentations
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Details in https://github.com/hyperledger/aries-cloudagent-python/issues/3069
+                Fix for issue #3065
 
-Just add a conditional to handle the case where there's no connection record. Already did this for v1.0 here https://github.com/hyperledger/aries-cloudagent-python/pull/2723 but missed this was done in a different place for 2.0
+Note that this is for the 2.0 presentation protocol only, do we need to apply a similar fix for 1.0?
+
+This adds the `by_format` attribute for all webhooks, not just for status `done`, however the demo requires this to work with terse webhooks (and no additional calls to the api endpoints)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-25 22:19:15 +0000 UTC
+        Created At 2024-07-03 17:21:52 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +45,11 @@ Just add a conditional to handle the case where there's no connection record. Al
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3067" class=".btn">#3067</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3080" class=".btn">#3080</a>
             </td>
             <td>
                 <b>
-                    Upgrade python [Do Not Merge] [WIP]
+                    Switch from black to ruff
                 </b>
             </td>
         </tr>
@@ -55,12 +58,16 @@ Just add a conditional to handle the case where there's no connection record. Al
                 
             </td>
             <td>
-                Initial changes to test with pipelines
+                Completely removes black from the project in favour of ruff for linting and formatting.
+
+***Note*** there's a few things failing right now because they are linting issues. They are fixed in the Rule D437 PR.
+
+Adjust the decontainer and the github actions workflow.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-25 22:07:16 +0000 UTC
+        Created At 2024-07-03 02:14:54 +0000 UTC
     </div>
 </div>
 
@@ -68,88 +75,11 @@ Just add a conditional to handle the case where there's no connection record. Al
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3064" class=".btn">#3064</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3077" class=".btn">#3077</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump dawidd6/action-download-artifact from 5 to 6 in the all-actions group
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">github_actions</span>
-            </td>
-            <td>
-                Bumps the all-actions group with 1 update: [dawidd6/action-download-artifact](https://github.com/dawidd6/action-download-artifact).
-
-Updates `dawidd6/action-download-artifact` from 5 to 6
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dawidd6/action-download-artifact/releases">dawidd6/action-download-artifact's releases</a>.</em></p>
-<blockquote>
-<h2>v6</h2>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/dawidd6/action-download-artifact/compare/v5...v6">https://github.com/dawidd6/action-download-artifact/compare/v5...v6</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dawidd6/action-download-artifact/commit/bf251b5aa9c2f7eeb574a96ee720e24f801b7c11"><code>bf251b5</code></a> node_modules: upgrade</li>
-<li><a href="https://github.com/dawidd6/action-download-artifact/commit/93c629661111aae296c04004b30ae3ba22ed46f3"><code>93c6296</code></a> README: v5</li>
-<li>See full diff in <a href="https://github.com/dawidd6/action-download-artifact/compare/v5...v6">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=dawidd6/action-download-artifact&package-manager=github_actions&previous-version=5&new-version=6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore <dependency name> major version` will close this group update PR and stop Dependabot creating any more for the specific dependency's major version (unless you unignore this specific dependency's major version or upgrade to it yourself)
-- `@dependabot ignore <dependency name> minor version` will close this group update PR and stop Dependabot creating any more for the specific dependency's minor version (unless you unignore this specific dependency's minor version or upgrade to it yourself)
-- `@dependabot ignore <dependency name>` will close this group update PR and stop Dependabot creating any more for the specific dependency (unless you unignore this specific dependency or upgrade to it yourself)
-- `@dependabot unignore <dependency name>` will remove all of the ignore conditions of the specified dependency
-- `@dependabot unignore <dependency name> <ignore condition>` will remove the ignore condition of the specified dependency and ignore conditions
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-24 21:50:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3063" class=".btn">#3063</a>
-            </td>
-            <td>
-                <b>
-                    Use anoncreds registry for holder credential endpoints
+                    fix: print provision messages when auto-provision is triggered
                 </b>
             </td>
         </tr>
@@ -158,12 +88,14 @@ You can trigger Dependabot actions by commenting on this PR:
                 
             </td>
             <td>
-                When a holder has wallet-type `askar-anoncreds` it should use the anoncreds holder registry instead of the indy specific holder. 
+                It was recently discovered that if you set a static seed, and you have auto-provisioning enabled on the start command, there is no way to get the verkey for the created DID. The verkey is never printed out to the command line and I do not remember there being an API for retrieving the verkey (one of those, "See it once, copy it, or forever lose it" kinds of things).
+
+After this point in the code, the only thing that "provision" enables are the print statements talking about the did/verkey being created as well as some basic profile information. It doesn't trigger any code that would make changes to the system, those lines precede the line I've added.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-24 18:44:19 +0000 UTC
+        Created At 2024-07-02 15:39:58 +0000 UTC
     </div>
 </div>
 
@@ -171,11 +103,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3062" class=".btn">#3062</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3076" class=".btn">#3076</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump markupsafe from 2.0.1 to 2.1.5
+                    chore(deps): Bump requests from 2.32.2 to 2.32.3
                 </b>
             </td>
         </tr>
@@ -184,119 +116,52 @@ You can trigger Dependabot actions by commenting on this PR:
                 <span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Bumps [markupsafe](https://github.com/pallets/markupsafe) from 2.0.1 to 2.1.5.
+                Bumps [requests](https://github.com/psf/requests) from 2.32.2 to 2.32.3.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/pallets/markupsafe/releases">markupsafe's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
 <blockquote>
-<h2>2.1.5</h2>
-<p>This is a fix release for the 2.1.x feature release branch. It fixes bugs but does not otherwise change behavior and should not result in breaking changes.</p>
-<p>Fixes a regression in <code>striptags</code> behavior from 2.14. Spaces are now collapsed correctly.</p>
+<h2>v2.32.3</h2>
+<h2>2.32.3 (2024-05-29)</h2>
+<p><strong>Bugfixes</strong></p>
 <ul>
-<li>Changes: <a href="https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-5">https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-5</a></li>
-<li>Milestone: <a href="https://github.com/pallets/markupsafe/milestone/12?closed=1">https://github.com/pallets/markupsafe/milestone/12?closed=1</a></li>
-<li>PyPI: <a href="https://pypi.org/project/MarkupSafe/2.1.5/">https://pypi.org/project/MarkupSafe/2.1.5/</a></li>
-</ul>
-<h2>2.1.4</h2>
-<p>This is a fix release for the 2.1.x feature release branch. It fixes bugs but does not otherwise change behavior and should not result in breaking changes.</p>
-<ul>
-<li>
-<p>Improves performance of the <code>Markup.striptags</code> method for large input.</p>
-</li>
-<li>
-<p>Changes: <a href="https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-4">https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-4</a></p>
-</li>
-<li>
-<p>Milestone: <a href="https://github.com/pallets/markupsafe/milestone/11?closed=1">https://github.com/pallets/markupsafe/milestone/11?closed=1</a></p>
-</li>
-<li>
-<p>PyPI: <a href="https://pypi.org/project/MarkupSafe/2.1.4/">https://pypi.org/project/MarkupSafe/2.1.4/</a></p>
-</li>
-</ul>
-<h2>2.1.3</h2>
-<p>This is a fix release for the 2.1.x feature branch.</p>
-<ul>
-<li>Changes: <a href="https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-3">https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-3</a></li>
-<li>Milestone: <a href="https://github.com/pallets/markupsafe/milestone/9?closed=1">https://github.com/pallets/markupsafe/milestone/9?closed=1</a></li>
-</ul>
-<h2>2.1.2</h2>
-<p>This is the first release to provide wheels for Python 3.11. An SLSA provenance file is also generated, and is available to download from the GitHub release page.</p>
-<ul>
-<li>Changes: <a href="https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-2">https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-2</a></li>
-<li>Milestone: <a href="https://github.com/pallets/markupsafe/milestone/8?closed=1">https://github.com/pallets/markupsafe/milestone/8?closed=1</a></li>
-</ul>
-<h2>2.1.1</h2>
-<ul>
-<li>Changes: <a href="https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-1">https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-1</a></li>
-<li>Milestone: <a href="https://github.com/pallets/markupsafe/milestone/7?closed=1">https://github.com/pallets/markupsafe/milestone/7?closed=1</a></li>
-</ul>
-<h2>2.1.0</h2>
-<ul>
-<li>Changes: <a href="https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-0">https://markupsafe.palletsprojects.com/en/2.1.x/changes/#version-2-1-0</a></li>
-<li>Milestone: <a href="https://github.com/pallets/markupsafe/milestone/5">https://github.com/pallets/markupsafe/milestone/5</a></li>
+<li>Fixed bug breaking the ability to specify custom SSLContexts in sub-classes of
+HTTPAdapter. (<a href="https://redirect.github.com/psf/requests/issues/6716">#6716</a>)</li>
+<li>Fixed issue where Requests started failing to run on Python versions compiled
+without the <code>ssl</code> module. (<a href="https://redirect.github.com/psf/requests/issues/6724">#6724</a>)</li>
 </ul>
 </blockquote>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/pallets/markupsafe/blob/main/CHANGES.rst">markupsafe's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
 <blockquote>
-<h2>Version 2.1.5</h2>
-<p>Released 2024-02-02</p>
+<h2>2.32.3 (2024-05-29)</h2>
+<p><strong>Bugfixes</strong></p>
 <ul>
-<li>Fix <code>striptags</code> not collapsing spaces. :issue:<code>417</code></li>
+<li>Fixed bug breaking the ability to specify custom SSLContexts in sub-classes of
+HTTPAdapter. (<a href="https://redirect.github.com/psf/requests/issues/6716">#6716</a>)</li>
+<li>Fixed issue where Requests started failing to run on Python versions compiled
+without the <code>ssl</code> module. (<a href="https://redirect.github.com/psf/requests/issues/6724">#6724</a>)</li>
 </ul>
-<h2>Version 2.1.4</h2>
-<p>Released 2024-01-19</p>
-<ul>
-<li>Don't use regular expressions for <code>striptags</code>, avoiding a performance
-issue. :pr:<code>413</code></li>
-</ul>
-<h2>Version 2.1.3</h2>
-<p>Released 2023-06-02</p>
-<ul>
-<li>Implement <code>format_map</code>, <code>casefold</code>, <code>removeprefix</code>, and <code>removesuffix</code>
-methods. :issue:<code>370</code></li>
-<li>Fix static typing for basic <code>str</code> methods on <code>Markup</code>. :issue:<code>358</code></li>
-<li>Use <code>Self</code> for annotating return types. :pr:<code>379</code></li>
-</ul>
-<h2>Version 2.1.2</h2>
-<p>Released 2023-01-17</p>
-<ul>
-<li>Fix <code>striptags</code> not stripping tags containing newlines.
-:issue:<code>310</code></li>
-</ul>
-<h2>Version 2.1.1</h2>
-<p>Released 2022-03-14</p>
-<ul>
-<li>Avoid ambiguous regex matches in <code>striptags</code>. :pr:<code>293</code></li>
-</ul>
-<h2>Version 2.1.0</h2>
-<p>Released 2022-02-17</p>
-<!-- raw HTML omitted -->
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/pallets/markupsafe/commit/fbba4acd0312826cec9cfe18371c7df07962cb65"><code>fbba4ac</code></a> release version 2.1.5</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/c5fa23ba96336160204ed1376d60693b0d65e18d"><code>c5fa23b</code></a> update publish actions</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/60a6512315d0ce05e6788808f80be526f2084b3f"><code>60a6512</code></a> striptags collapses spaces correctly (<a href="https://redirect.github.com/pallets/markupsafe/issues/418">#418</a>)</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/0b6bee071fbd8d3171fb1ac4fb669baace808438"><code>0b6bee0</code></a> collapse spaces after stripping tags</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/73e6a4886564a554c4a19983d29c97f9fc95457d"><code>73e6a48</code></a> start version 2.1.5</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/d704bf45a1f77926a669261b394afef38eda2a70"><code>d704bf4</code></a> use pip-compile, dependabot updates (<a href="https://redirect.github.com/pallets/markupsafe/issues/419">#419</a>)</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/1f82932e5c5a6e54181308afeb8443df21858ea0"><code>1f82932</code></a> use pip-compile, dependabot updates</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/25a640f38297bfdc2ec2c82fe68df4c7613d083a"><code>25a640f</code></a> release version 2.1.4 (<a href="https://redirect.github.com/pallets/markupsafe/issues/414">#414</a>)</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/b7cd6523579ea5a08d89799f2a64ec2c2bc45eca"><code>b7cd652</code></a> release version 2.1.4</li>
-<li><a href="https://github.com/pallets/markupsafe/commit/3bead8eedcfb434097dc61a18dd4721201df262a"><code>3bead8e</code></a> update cibuildwheel for 3.12 wheels</li>
-<li>Additional commits viewable in <a href="https://github.com/pallets/markupsafe/compare/2.0.1...2.1.5">compare view</a></li>
+<li><a href="https://github.com/psf/requests/commit/0e322af87745eff34caffe4df68456ebc20d9068"><code>0e322af</code></a> v2.32.3</li>
+<li><a href="https://github.com/psf/requests/commit/e18879932287c2bf4bcee4ddf6ccb8a69b6fc656"><code>e188799</code></a> Don't create default SSLContext if ssl module isn't present (<a href="https://redirect.github.com/psf/requests/issues/6724">#6724</a>)</li>
+<li><a href="https://github.com/psf/requests/commit/145b5399486b56e00250204f033441f3fdf2f3c9"><code>145b539</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6716">#6716</a> from sigmavirus24/bug/6715</li>
+<li><a href="https://github.com/psf/requests/commit/b1d73ddb509a3a2d3e10744e85f9cdebdbde90f0"><code>b1d73dd</code></a> Don't use default SSLContext with custom poolmanager kwargs</li>
+<li><a href="https://github.com/psf/requests/commit/6badbac6e0d6b5a53872f26401761ad37a9002b8"><code>6badbac</code></a> Update HISTORY.md</li>
+<li><a href="https://github.com/psf/requests/commit/a62a2d35d918baa8e793f7aa4fb41527644dfca5"><code>a62a2d3</code></a> Allow for overriding of specific pool key params</li>
+<li>See full diff in <a href="https://github.com/psf/requests/compare/v2.32.2...v2.32.3">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=markupsafe&package-manager=pip&previous-version=2.0.1&new-version=2.1.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=requests&package-manager=pip&previous-version=2.32.2&new-version=2.32.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -328,7 +193,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-24 11:27:42 +0000 UTC
+        Created At 2024-07-01 12:02:46 +0000 UTC
     </div>
 </div>
 
@@ -336,11 +201,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3060" class=".btn">#3060</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3075" class=".btn">#3075</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): Bump pydevd-pycharm from 193.6015.41 to 193.7288.30
+                    chore(deps): Bump uuid-utils from 0.8.0 to 0.9.0
                 </b>
             </td>
         </tr>
@@ -349,17 +214,31 @@ You can trigger Dependabot actions by commenting on this PR:
                 <span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Bumps [pydevd-pycharm](https://github.com/JetBrains/intellij-community) from 193.6015.41 to 193.7288.30.
+                Bumps [uuid-utils](https://github.com/aminalaee/uuid-utils) from 0.8.0 to 0.9.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/aminalaee/uuid-utils/releases">uuid-utils's releases</a>.</em></p>
+<blockquote>
+<h2>Version 0.9.0</h2>
+<h3>What's Changed</h3>
+<ul>
+<li>Upgrade <code>uuid</code> to <code>1.9.1</code> and <code>pyo3</code> to <code>0.22.0</code> in <a href="https://redirect.github.com/aminalaee/uuid-utils/pull/60">aminalaee/uuid-utils#60</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/aminalaee/uuid-utils/compare/0.8.0...0.9.0">https://github.com/aminalaee/uuid-utils/compare/0.8.0...0.9.0</a></p>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/JetBrains/intellij-community/commits/pycharm/193.7288.30">compare view</a></li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/a80fb4f838158c5c4b6e821c93977a74a29a05ab"><code>a80fb4f</code></a> Version 0.9.0 (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/61">#61</a>)</li>
+<li><a href="https://github.com/aminalaee/uuid-utils/commit/21b455c36399baed29cf060a23b74c3140a676c4"><code>21b455c</code></a> Upgrade dependencies (<a href="https://redirect.github.com/aminalaee/uuid-utils/issues/60">#60</a>)</li>
+<li>See full diff in <a href="https://github.com/aminalaee/uuid-utils/compare/0.8.0...0.9.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pydevd-pycharm&package-manager=pip&previous-version=193.6015.41&new-version=193.7288.30)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=uuid-utils&package-manager=pip&previous-version=0.8.0&new-version=0.9.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -391,7 +270,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-24 11:26:48 +0000 UTC
+        Created At 2024-07-01 12:02:20 +0000 UTC
     </div>
 </div>
 
@@ -399,11 +278,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3058" class=".btn">#3058</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3074" class=".btn">#3074</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): Bump ruff from 0.4.4 to 0.4.10
+                    chore(deps): Bump mike from 2.0.0 to 2.1.2
                 </b>
             </td>
         </tr>
@@ -412,60 +291,190 @@ You can trigger Dependabot actions by commenting on this PR:
                 <span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Bumps [ruff](https://github.com/astral-sh/ruff) from 0.4.4 to 0.4.10.
+                Bumps [mike](https://github.com/jimporter/mike) from 2.0.0 to 2.1.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/jimporter/mike/releases">mike's releases</a>.</em></p>
+<blockquote>
+<h2>v2.1.2</h2>
+<h3>Bug fixes</h3>
+<ul>
+<li>Remove ambiguity of some Git commands so that file and branch names don't collide</li>
+</ul>
+<h2>v2.1.1</h2>
+<h3>Bug fixes</h3>
+<ul>
+<li>Support using environment variables for <code>INHERIT</code> when injecting the <code>mike</code> plugin into <code>mkdocs.yml</code></li>
+</ul>
+<h2>v2.1.0</h2>
+<h3>New features</h3>
+<ul>
+<li>When calling <code>set-default</code>, you can now pass <code>--allow-undefined</code> to set the default to a version that doesn't exist yet</li>
+<li>Add global-level <code>-q</code> / <code>--quiet</code> option to suppress warning messages</li>
+<li>Add support for handling <code>!relative</code> in <code>mkdocs.yml</code></li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>When loading an MkDocs config, mike now runs the <code>startup</code> and <code>shutdown</code> events</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/jimporter/mike/blob/master/CHANGES.md">mike's changelog</a>.</em></p>
+<blockquote>
+<h2>v2.1.2 (2024-06-23)</h2>
+<h3>Bug fixes</h3>
+<ul>
+<li>Remove ambiguity of some Git commands so that file and branch names don't
+collide</li>
+</ul>
+<hr />
+<h2>v2.1.1 (2024-05-03)</h2>
+<h3>Bug fixes</h3>
+<ul>
+<li>Support using environment variables for <code>INHERIT</code> when injecting the <code>mike</code>
+plugin into <code>mkdocs.yml</code></li>
+</ul>
+<hr />
+<h2>v2.1.0 (2024-05-01)</h2>
+<h3>New features</h3>
+<ul>
+<li>When calling <code>set-default</code>, you can now pass <code>--allow-undefined</code> to set the
+default to a version that doesn't exist yet</li>
+<li>Add global-level <code>-q</code> / <code>--quiet</code> option to suppress warning messages</li>
+<li>Add support for handling <code>!relative</code> in <code>mkdocs.yml</code></li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>When loading an MkDocs config, mike now runs the <code>startup</code> and <code>shutdown</code>
+events</li>
+</ul>
+<hr />
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/jimporter/mike/commit/62aaeafe60927b0653b319585cbe4a1a1eb1bc23"><code>62aaeaf</code></a> Update version to 2.1.2</li>
+<li><a href="https://github.com/jimporter/mike/commit/3f7d756e26fca03660e6f08927c7cd911e933c78"><code>3f7d756</code></a> Use &quot;--&quot; to disambiguate Git arguments in a few more places; resolves <a href="https://redirect.github.com/jimporter/mike/issues/218">#218</a></li>
+<li><a href="https://github.com/jimporter/mike/commit/5e6970d65beaf2c92fa1d22dbf524a931a393e8b"><code>5e6970d</code></a> Belatedly update copyright year</li>
+<li><a href="https://github.com/jimporter/mike/commit/9291efbd6961d652c16c000dc1fe4f2f1e19f94c"><code>9291efb</code></a> Update version to 2.2.0.dev0</li>
+<li><a href="https://github.com/jimporter/mike/commit/0bdfe24c20fb0774652230a7abe8466b98098da4"><code>0bdfe24</code></a> Update version to 2.1.1</li>
+<li><a href="https://github.com/jimporter/mike/commit/3351d5feabff8ee107f4ad6d1f86055843c7dbf1"><code>3351d5f</code></a> Expand environment variables when injecting the mike plugin; resolves <a href="https://redirect.github.com/jimporter/mike/issues/217">#217</a></li>
+<li><a href="https://github.com/jimporter/mike/commit/e4d83eda046b1dea0493f91fcacbf86634c93db5"><code>e4d83ed</code></a> Update version to 2.2.0.dev0</li>
+<li><a href="https://github.com/jimporter/mike/commit/6e6cfbb9a3e78d2ab2a529b72b84e8918c101f6c"><code>6e6cfbb</code></a> Update version to 2.1.0</li>
+<li><a href="https://github.com/jimporter/mike/commit/5773be928d1a6e99e61755df0d73a8b2ce16660f"><code>5773be9</code></a> Fix CI</li>
+<li><a href="https://github.com/jimporter/mike/commit/7904925595827ccba3908775b2f9b5add3ae9030"><code>7904925</code></a> Further tests for deserializing Python objects during <code>inject_plugin</code></li>
+<li>Additional commits viewable in <a href="https://github.com/jimporter/mike/compare/v2.0.0...v2.1.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mike&package-manager=pip&previous-version=2.0.0&new-version=2.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-01 12:01:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3073" class=".btn">#3073</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): Bump ruff from 0.4.10 to 0.5.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [ruff](https://github.com/astral-sh/ruff) from 0.4.10 to 0.5.0.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/astral-sh/ruff/releases">ruff's releases</a>.</em></p>
 <blockquote>
-<h2>v0.4.10</h2>
-<h2>Changes</h2>
-<h3>Parser</h3>
+<h2>0.5.0</h2>
+<h2>Release Notes</h2>
+<p>Check out the <a href="https://astral.sh/blog/ruff-v0.5.0">blog post</a> for a migration guide and overview of the changes!</p>
+<h3>Breaking changes</h3>
+<p>See also, the &quot;Remapped rules&quot; section which may result in disabled rules.</p>
 <ul>
-<li>Implement re-lexing logic for better error recovery (<a href="https://redirect.github.com/astral-sh/ruff/pull/11845">#11845</a>)</li>
+<li>Follow the XDG specification to discover user-level configurations on macOS (same as on other Unix platforms)</li>
+<li>Selecting <code>ALL</code> now excludes deprecated rules</li>
+<li>The released archives now include an extra level of nesting, which can be removed with <code>--strip-components=1</code> when untarring.</li>
+<li>The release artifact's file name no longer includes the version tag. This enables users to install via <code>/latest</code> URLs on GitHub.</li>
+<li>The diagnostic ranges for some <code>flake8-bandit</code> rules were modified (<a href="https://redirect.github.com/astral-sh/ruff/pull/10667">#10667</a>).</li>
 </ul>
-<h3>Rule changes</h3>
+<h3>Deprecations</h3>
+<p>The following rules are now deprecated:</p>
 <ul>
-<li>[<code>flake8-copyright</code>] Update <code>CPY001</code> to check the first 4096 bytes instead of 1024 (<a href="https://redirect.github.com/astral-sh/ruff/pull/11927">#11927</a>)</li>
-<li>[<code>pycodestyle</code>] Update <code>E999</code> to show all syntax errors instead of just the first one (<a href="https://redirect.github.com/astral-sh/ruff/pull/11900">#11900</a>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/syntax-error/"><code>syntax-error</code></a> (<code>E999</code>): Syntax errors are now always shown</li>
 </ul>
-<h3>Server</h3>
+<h3>Remapped rules</h3>
+<p>The following rules have been remapped to new rule codes:</p>
 <ul>
-<li>Add tracing setup guide to Helix documentation (<a href="https://redirect.github.com/astral-sh/ruff/pull/11883">#11883</a>)</li>
-<li>Add tracing setup guide to Neovim documentation (<a href="https://redirect.github.com/astral-sh/ruff/pull/11884">#11884</a>)</li>
-<li>Defer notebook cell deletion to avoid an error message (<a href="https://redirect.github.com/astral-sh/ruff/pull/11864">#11864</a>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/blocking-http-call-in-async-function/"><code>blocking-http-call-in-async-function</code></a>: <code>ASYNC100</code> to <code>ASYNC210</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/open-sleep-or-subprocess-in-async-function/"><code>open-sleep-or-subprocess-in-async-function</code></a>: <code>ASYNC101</code> split into <code>ASYNC220</code>, <code>ASYNC221</code>, <code>ASYNC230</code>, and <code>ASYNC251</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/blocking-os-call-in-async-function/"><code>blocking-os-call-in-async-function</code></a>: <code>ASYNC102</code> has been merged into <code>ASYNC220</code> and <code>ASYNC221</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-timeout-without-await/"><code>trio-timeout-without-await</code></a>: <code>TRIO100</code> to <code>ASYNC100</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-sync-call/"><code>trio-sync-call</code></a>: <code>TRIO105</code> to <code>ASYNC105</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-async-function-with-timeout/"><code>trio-async-function-with-timeout</code></a>: <code>TRIO109</code> to <code>ASYNC109</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-unneeded-sleep/"><code>trio-unneeded-sleep</code></a>: <code>TRIO110</code> to <code>ASYNC110</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-zero-sleep-call/"><code>trio-zero-sleep-call</code></a>: <code>TRIO115</code> to <code>ASYNC115</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/repeated-isinstance-calls/"><code>repeated-isinstance-calls</code></a>: <code>PLR1701</code> to <code>SIM101</code></li>
 </ul>
-<h3>Security</h3>
+<h3>Stabilization</h3>
+<p>The following rules have been stabilized and are no longer in preview:</p>
 <ul>
-<li>Guard against malicious ecosystem comment artifacts (<a href="https://redirect.github.com/astral-sh/ruff/pull/11879">#11879</a>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/mutable-fromkeys-value/"><code>mutable-fromkeys-value</code></a> (<code>RUF024</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/default-factory-kwarg/"><code>default-factory-kwarg</code></a> (<code>RUF026</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/django-extra/"><code>django-extra</code></a> (<code>S610</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/manual-dict-comprehension/"><code>manual-dict-comprehension</code></a> (<code>PERF403</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/print-empty-string/"><code>print-empty-string</code></a> (<code>FURB105</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/readlines-in-for/"><code>readlines-in-for</code></a> (<code>FURB129</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/if-expr-min-max/"><code>if-expr-min-max</code></a> (<code>FURB136</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/bit-count/"><code>bit-count</code></a> (<code>FURB161</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/redundant-log-base/"><code>redundant-log-base</code></a> (<code>FURB163</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/regex-flag-alias/"><code>regex-flag-alias</code></a> (<code>FURB167</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/isinstance-type-none/"><code>isinstance-type-none</code></a> (<code>FURB168</code>)</li>
 </ul>
-<h2>Contributors</h2>
-<ul>
-<li><a href="https://github.com/AlexWaygood"><code>@​AlexWaygood</code></a></li>
-<li><a href="https://github.com/MichaReiser"><code>@​MichaReiser</code></a></li>
-<li><a href="https://github.com/adrinjalali"><code>@​adrinjalali</code></a></li>
-<li><a href="https://github.com/dhruvmanila"><code>@​dhruvmanila</code></a></li>
-<li><a href="https://github.com/github-actions"><code>@​github-actions</code></a></li>
-<li><a href="https://github.com/psychedelicious"><code>@​psychedelicious</code></a></li>
-<li><a href="https://github.com/renovate"><code>@​renovate</code></a></li>
-<li><a href="https://github.com/snowsignal"><code>@​snowsignal</code></a></li>
-<li><a href="https://github.com/zanieb"><code>@​zanieb</code></a></li>
-</ul>
-<h2>v0.4.9</h2>
-<h2>Changes</h2>
-<h3>Preview features</h3>
-<ul>
-<li>[<code>pylint</code>] Implement <code>consider-dict-items</code> (<code>C0206</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/11688">#11688</a>)</li>
-<li>[<code>refurb</code>] Implement <code>repeated-global</code> (<code>FURB154</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/11187">#11187</a>)</li>
-</ul>
-<h3>Rule changes</h3>
-<ul>
-<li>[<code>pycodestyle</code>] Adapt fix for <code>E203</code> to work identical to <code>ruff format</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10999">#10999</a>)</li>
-</ul>
-<h3>Formatter</h3>
-<ul>
-<li>Fix formatter instability for lines only consisting of zero-width characters (<a href="https://redirect.github.com/astral-sh/ruff/pull/11748">#11748</a>)</li>
-</ul>
-<h3>Server</h3>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -474,53 +483,51 @@ You can trigger Dependabot actions by commenting on this PR:
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md">ruff's changelog</a>.</em></p>
 <blockquote>
-<h2>0.4.10</h2>
-<h3>Parser</h3>
+<h2>0.5.0</h2>
+<p>Check out the <a href="https://astral.sh/blog/ruff-v0.5.0">blog post</a> for a migration guide and overview of the changes!</p>
+<h3>Breaking changes</h3>
+<p>See also, the &quot;Remapped rules&quot; section which may result in disabled rules.</p>
 <ul>
-<li>Implement re-lexing logic for better error recovery (<a href="https://redirect.github.com/astral-sh/ruff/pull/11845">#11845</a>)</li>
+<li>Follow the XDG specification to discover user-level configurations on macOS (same as on other Unix platforms)</li>
+<li>Selecting <code>ALL</code> now excludes deprecated rules</li>
+<li>The released archives now include an extra level of nesting, which can be removed with <code>--strip-components=1</code> when untarring.</li>
+<li>The release artifact's file name no longer includes the version tag. This enables users to install via <code>/latest</code> URLs on GitHub.</li>
+<li>The diagnostic ranges for some <code>flake8-bandit</code> rules were modified (<a href="https://redirect.github.com/astral-sh/ruff/pull/10667">#10667</a>).</li>
 </ul>
-<h3>Rule changes</h3>
+<h3>Deprecations</h3>
+<p>The following rules are now deprecated:</p>
 <ul>
-<li>[<code>flake8-copyright</code>] Update <code>CPY001</code> to check the first 4096 bytes instead of 1024 (<a href="https://redirect.github.com/astral-sh/ruff/pull/11927">#11927</a>)</li>
-<li>[<code>pycodestyle</code>] Update <code>E999</code> to show all syntax errors instead of just the first one (<a href="https://redirect.github.com/astral-sh/ruff/pull/11900">#11900</a>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/syntax-error/"><code>syntax-error</code></a> (<code>E999</code>): Syntax errors are now always shown</li>
 </ul>
-<h3>Server</h3>
+<h3>Remapped rules</h3>
+<p>The following rules have been remapped to new rule codes:</p>
 <ul>
-<li>Add tracing setup guide to Helix documentation (<a href="https://redirect.github.com/astral-sh/ruff/pull/11883">#11883</a>)</li>
-<li>Add tracing setup guide to Neovim documentation (<a href="https://redirect.github.com/astral-sh/ruff/pull/11884">#11884</a>)</li>
-<li>Defer notebook cell deletion to avoid an error message (<a href="https://redirect.github.com/astral-sh/ruff/pull/11864">#11864</a>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/blocking-http-call-in-async-function/"><code>blocking-http-call-in-async-function</code></a>: <code>ASYNC100</code> to <code>ASYNC210</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/open-sleep-or-subprocess-in-async-function/"><code>open-sleep-or-subprocess-in-async-function</code></a>: <code>ASYNC101</code> split into <code>ASYNC220</code>, <code>ASYNC221</code>, <code>ASYNC230</code>, and <code>ASYNC251</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/blocking-os-call-in-async-function/"><code>blocking-os-call-in-async-function</code></a>: <code>ASYNC102</code> has been merged into <code>ASYNC220</code> and <code>ASYNC221</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-timeout-without-await/"><code>trio-timeout-without-await</code></a>: <code>TRIO100</code> to <code>ASYNC100</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-sync-call/"><code>trio-sync-call</code></a>: <code>TRIO105</code> to <code>ASYNC105</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-async-function-with-timeout/"><code>trio-async-function-with-timeout</code></a>: <code>TRIO109</code> to <code>ASYNC109</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-unneeded-sleep/"><code>trio-unneeded-sleep</code></a>: <code>TRIO110</code> to <code>ASYNC110</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/trio-zero-sleep-call/"><code>trio-zero-sleep-call</code></a>: <code>TRIO115</code> to <code>ASYNC115</code></li>
+<li><a href="https://docs.astral.sh/ruff/rules/repeated-isinstance-calls/"><code>repeated-isinstance-calls</code></a>: <code>PLR1701</code> to <code>SIM101</code></li>
 </ul>
-<h3>Security</h3>
+<h3>Stabilization</h3>
+<p>The following rules have been stabilized and are no longer in preview:</p>
 <ul>
-<li>Guard against malicious ecosystem comment artifacts (<a href="https://redirect.github.com/astral-sh/ruff/pull/11879">#11879</a>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/mutable-fromkeys-value/"><code>mutable-fromkeys-value</code></a> (<code>RUF024</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/default-factory-kwarg/"><code>default-factory-kwarg</code></a> (<code>RUF026</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/django-extra/"><code>django-extra</code></a> (<code>S610</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/manual-dict-comprehension/"><code>manual-dict-comprehension</code></a> (<code>PERF403</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/print-empty-string/"><code>print-empty-string</code></a> (<code>FURB105</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/readlines-in-for/"><code>readlines-in-for</code></a> (<code>FURB129</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/if-expr-min-max/"><code>if-expr-min-max</code></a> (<code>FURB136</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/bit-count/"><code>bit-count</code></a> (<code>FURB161</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/redundant-log-base/"><code>redundant-log-base</code></a> (<code>FURB163</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/regex-flag-alias/"><code>regex-flag-alias</code></a> (<code>FURB167</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/isinstance-type-none/"><code>isinstance-type-none</code></a> (<code>FURB168</code>)</li>
+<li><a href="https://docs.astral.sh/ruff/rules/type-none-comparison/"><code>type-none-comparison</code></a> (<code>FURB169</code>)</li>
 </ul>
-<h2>0.4.9</h2>
-<h3>Preview features</h3>
-<ul>
-<li>[<code>pylint</code>] Implement <code>consider-dict-items</code> (<code>C0206</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/11688">#11688</a>)</li>
-<li>[<code>refurb</code>] Implement <code>repeated-global</code> (<code>FURB154</code>) (<a href="https://redirect.github.com/astral-sh/ruff/pull/11187">#11187</a>)</li>
-</ul>
-<h3>Rule changes</h3>
-<ul>
-<li>[<code>pycodestyle</code>] Adapt fix for <code>E203</code> to work identical to <code>ruff format</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/10999">#10999</a>)</li>
-</ul>
-<h3>Formatter</h3>
-<ul>
-<li>Fix formatter instability for lines only consisting of zero-width characters (<a href="https://redirect.github.com/astral-sh/ruff/pull/11748">#11748</a>)</li>
-</ul>
-<h3>Server</h3>
-<ul>
-<li>Add supported commands in server capabilities (<a href="https://redirect.github.com/astral-sh/ruff/pull/11850">#11850</a>)</li>
-<li>Use real file path when available in <code>ruff server</code> (<a href="https://redirect.github.com/astral-sh/ruff/pull/11800">#11800</a>)</li>
-<li>Improve error message when a command is run on an unavailable document (<a href="https://redirect.github.com/astral-sh/ruff/pull/11823">#11823</a>)</li>
-<li>Introduce the <code>ruff.printDebugInformation</code> command (<a href="https://redirect.github.com/astral-sh/ruff/pull/11831">#11831</a>)</li>
-<li>Tracing system now respects log level and trace level, with options to log to a file (<a href="https://redirect.github.com/astral-sh/ruff/pull/11747">#11747</a>)</li>
-</ul>
-<h3>CLI</h3>
-<ul>
-<li>Handle non-printable characters in diff view (<a href="https://redirect.github.com/astral-sh/ruff/pull/11687">#11687</a>)</li>
-</ul>
-<h3>Bug fixes</h3>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -528,23 +535,23 @@ You can trigger Dependabot actions by commenting on this PR:
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/astral-sh/ruff/commit/b54922fd7394c36cdc390fd21aaee99206ebc361"><code>b54922f</code></a> Bump version to v0.4.10 (<a href="https://redirect.github.com/astral-sh/ruff/issues/11953">#11953</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/3f884b4b34b234c91c8af3bc44ef8d18cde7b363"><code>3f884b4</code></a> Avoid running logical line rule logic if not enabled (<a href="https://redirect.github.com/astral-sh/ruff/issues/11951">#11951</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/b456051be8277e11a3bb3aa5625c3f9ebd9b6108"><code>b456051</code></a> [red-knot] Add tracing to Salsa queries (<a href="https://redirect.github.com/astral-sh/ruff/issues/11949">#11949</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/2dfbf118d7aff26c50360767cd0803ad6c4b7abf"><code>2dfbf11</code></a> [red-knot] Extract <code>red_knot_python_semantic</code> crate (<a href="https://redirect.github.com/astral-sh/ruff/issues/11926">#11926</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/ed948eaefbde81695f8a2eb0c0b0c2c21420d092"><code>ed948ea</code></a> Avoid moving back the lexer for triple-quoted fstring (<a href="https://redirect.github.com/astral-sh/ruff/issues/11939">#11939</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/22733cb7c7eda64f535458c4e0cd47c71874d2b2"><code>22733cb</code></a> red-knot(Salsa): Types without refinements (<a href="https://redirect.github.com/astral-sh/ruff/issues/11899">#11899</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/a26bd01be2b673f13cb6c88f4150dd12e5873f55"><code>a26bd01</code></a> Avoid depth counting when detecting indentation (<a href="https://redirect.github.com/astral-sh/ruff/issues/11947">#11947</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/b617d906510ab6ea04e019f73b5aa56fe3692e0a"><code>b617d90</code></a> Update <code>E999</code> to show all syntax errors (<a href="https://redirect.github.com/astral-sh/ruff/issues/11900">#11900</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/cdc7c7144997ca9aa99a6bfae9dd73b4fa53de49"><code>cdc7c71</code></a> Avoid consuming trailing whitespace during re-lexing (<a href="https://redirect.github.com/astral-sh/ruff/issues/11933">#11933</a>)</li>
-<li><a href="https://github.com/astral-sh/ruff/commit/ff3bf583b28c455a19571a54cd4a4e2bc024b5b8"><code>ff3bf58</code></a> <code>ruff server</code>: Add tracing setup guide to Neovim documentation (<a href="https://redirect.github.com/astral-sh/ruff/issues/11884">#11884</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/astral-sh/ruff/compare/v0.4.4...v0.4.10">compare view</a></li>
+<li><a href="https://github.com/astral-sh/ruff/commit/244b923f615c2c162278fc0e06051853614760f3"><code>244b923</code></a> Add necessary permissions for cargo-dist Docker build (<a href="https://redirect.github.com/astral-sh/ruff/issues/12072">#12072</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/a8b48fce7e32b35538072ccd55dac64e158d1e34"><code>a8b48fc</code></a> Release v0.5.0 (<a href="https://redirect.github.com/astral-sh/ruff/issues/12068">#12068</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/04c8597b8ab1a459d77058b6899571095092bc2d"><code>04c8597</code></a> [<code>flake8-simplify</code>] Stabilize detection of Yoda conditions for &quot;constant&quot; col...</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/4029a25ebd88a26424f45b20aba20c8e56a54d62"><code>4029a25</code></a> [Ruff v0.5] Stabilise 15 pylint rules (<a href="https://redirect.github.com/astral-sh/ruff/issues/12051">#12051</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/0917ce16f477f20b60d6d6f96462d4c83168f6f6"><code>0917ce1</code></a> Update documentation to mention <code>etcetera</code> crate instead of <code>dirs</code> for user c...</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/22cebdf29b79c9bb39b341149b2764730de72d97"><code>22cebdf</code></a> Add server config to filter out syntax error diagnostics (<a href="https://redirect.github.com/astral-sh/ruff/issues/12059">#12059</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/72b6c26101ca920137202d455b014f9e680712f7"><code>72b6c26</code></a> Simplify <code>LinterResult</code>, avoid cloning <code>ParseError</code> (<a href="https://redirect.github.com/astral-sh/ruff/issues/11903">#11903</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/73851e73ab0629461fbec84ee35ea91948d0c474"><code>73851e7</code></a> Avoid displaying syntax error as log message (<a href="https://redirect.github.com/astral-sh/ruff/issues/11902">#11902</a>)</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/e7b49694a795e3347ffc6f499245dfcbbb4b28ed"><code>e7b4969</code></a> Remove <code>E999</code> as a rule, disallow any disablement methods for syntax error (#...</li>
+<li><a href="https://github.com/astral-sh/ruff/commit/c98d8a040fbcd3428f1b0189ebdc9fbb8183b215"><code>c98d8a0</code></a> [<code>pyflakes</code>] Stabilize detection of is comparisons to lists, etc. (<code>F632</code>) (#...</li>
+<li>Additional commits viewable in <a href="https://github.com/astral-sh/ruff/compare/v0.4.10...0.5.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ruff&package-manager=pip&previous-version=0.4.4&new-version=0.4.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ruff&package-manager=pip&previous-version=0.4.10&new-version=0.5.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -576,7 +583,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-24 11:25:40 +0000 UTC
+        Created At 2024-07-01 12:01:41 +0000 UTC
     </div>
 </div>
 
@@ -584,11 +591,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3057" class=".btn">#3057</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3072" class=".btn">#3072</a>
             </td>
             <td>
                 <b>
-                    fix: didexchange manager not checking the did-rotate content correctly
+                    Rule D417
                 </b>
             </td>
         </tr>
@@ -597,14 +604,14 @@ You can trigger Dependabot actions by commenting on this PR:
                 
             </td>
             <td>
-                minor error i noticed while browsing acapy code whilst working on aries-vcx: https://github.com/hyperledger/aries-vcx/issues/1226.
+                Updates function documentation to the appropriate level needed for rule D417 https://docs.astral.sh/ruff/rules/undocumented-param/. Helps developers understand and more quickly use functions if these are accurate.
 
-if statement was not checking the correct data, resulting in it always being `true`
+Mostly used co-pilot to fill in wrong or missing arguments. Reviewed most of it and it looked like it was doing a good job.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-24 01:40:30 +0000 UTC
+        Created At 2024-06-28 19:59:59 +0000 UTC
     </div>
 </div>
 
@@ -612,11 +619,11 @@ if statement was not checking the correct data, resulting in it always being `tr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3056" class=".btn">#3056</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3070" class=".btn">#3070</a>
             </td>
             <td>
                 <b>
-                    Add vcdm 2.0 issuance/verification
+                    Re-enable ledger plugin when `--no-legder` is set
                 </b>
             </td>
         </tr>
@@ -625,112 +632,12 @@ if statement was not checking the correct data, resulting in it always being `tr
                 
             </td>
             <td>
-                Initial attempt at adding VCDM  2.0 issuance with `ED25519Signature2020` proof type.
-
-Will add a couple test cases.
-
-What are opinions regarding if the credential models/schemas should be bundled into the same or have 2 distinct models?
-
-I went with the latter.
+                @ff137 @jamshale [in response to this](https://github.com/hyperledger/aries-cloudagent-python/pull/2990#discussion_r1654980350)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-24 01:35:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3051" class=".btn">#3051</a>
-            </td>
-            <td>
-                <b>
-                    LTS Release Strategy and corresponding changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Creating this PR to add the LTS (Long Term Support) Release Strategy for Aca-py releases. This closes https://github.com/hyperledger/aries-cloudagent-python/issues/2993
-
-The following are the summary of changes.
-
-1. Releases section added to Readme
-2. LTS Release Strategy document added to docs
-3. Snyk container image scanning mode changed to 'monitor' for LTS images
-4. Supported Features checklist updated with LTS versions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-21 13:18:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3050" class=".btn">#3050</a>
-            </td>
-            <td>
-                <b>
-                    fix: respond to did:peer:1 with did:peer:4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adjusts the default did method ACA-Py will respond to did:peer:1 with to did:peer:4. This should help the situation reported in #3020.
-
-Marked as draft until I have a chance to test against Credo.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 23:34:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3049" class=".btn">#3049</a>
-            </td>
-            <td>
-                <b>
-                    Handle failed tails server issuance [Anoncreds]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Handles the scenario where the tails server isn't available during revocation rotation.
-- Fixes a bug with the openapi verse expected value for `max_cred_num`
-- Refactors the create_credential function
-- Removes some TODO's. Most with documentation that I think is good enough.
-
-Keeps the revocation list in a failed state if the revocation registry has never been uploaded to the tails server. During issuance it will check for a failed state and try to upload and finish the revocation list. Issuance will not occur until a successful tails server and connection occurs.
-
-Thought about keeping the revocation registry definition itself in a failed state but seemed to make sense to have it this way so the registry will still handle the full registry scenario.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-19 21:26:58 +0000 UTC
+        Created At 2024-06-28 02:40:07 +0000 UTC
     </div>
 </div>
 

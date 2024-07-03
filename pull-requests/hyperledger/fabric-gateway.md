@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/722" class=".btn">#722</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/730" class=".btn">#730</a>
             </td>
             <td>
                 <b>
-                    Consistent Go license headers with linting check
+                    Include generate Go mocks
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Use goheader linter in golangci-lint to check that Go files contain correct license header.
-
-Also add cognitive complexity linter in addition to existing cyclomatic complexity linter.
+                Add generated Go mocks to source control. This makes it easier for new contributors to get started with the respository since no mocks need to be generated. It also avoids the need to generate mocks for CodeQL to be able to scan all Go source files.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-19 22:29:25 +0000 UTC
+        Created At 2024-07-02 18:35:14 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ Also add cognitive complexity linter in addition to existing cyclomatic complexi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/721" class=".btn">#721</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/729" class=".btn">#729</a>
             </td>
             <td>
                 <b>
-                    Use PMD and Spotless for Java code
+                    Use current Go version for OSV-Scanner
                 </b>
             </td>
         </tr>
@@ -55,12 +53,14 @@ Also add cognitive complexity linter in addition to existing cyclomatic complexi
                 
             </td>
             <td>
-                Checkstyle only works with Java 11 and later, and does both code formatting and some static analysis. Replace Checkstyle with PMD for more thorough static analysis, and Spotless for formatting of Java code. Spotless also provides the capability to automatically reformat code to match the formatting rules.
+                OSV-Scanner uses the Go version specified by the `go` line in the `go.mod` file. The patch level specified is deliberately a lower version than the latest to allow consumers to select their own Go patch level, provided that the major / minor version are at the required level. This behaviour results in OSV-Scanner detecting standard library vulnerabilities from the back-level Go patch level.
+
+This change forces OSV-Scanner to use the exact version of the Go binary used to run the scan.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-14 19:52:51 +0000 UTC
+        Created At 2024-07-02 18:34:13 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +68,11 @@ Also add cognitive complexity linter in addition to existing cyclomatic complexi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/720" class=".btn">#720</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/728" class=".btn">#728</a>
             </td>
             <td>
                 <b>
-                    Use only v2.5.x packages in test Node chaincode
+                    Update PMD version used for Java static analysis
                 </b>
             </td>
         </tr>
@@ -81,12 +81,122 @@ Also add cognitive complexity linter in addition to existing cyclomatic complexi
                 
             </td>
             <td>
-                Ensures that the chaincode packages align with the Fabric version used for testing.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-13 18:56:25 +0000 UTC
+        Created At 2024-07-01 14:57:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/727" class=".btn">#727</a>
+            </td>
+            <td>
+                <b>
+                    Add support for Node 22
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-29 17:05:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/726" class=".btn">#726</a>
+            </td>
+            <td>
+                <b>
+                    Use Java dependency-check GitHub Action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The Maven dependency-check plugin is tricky to run due to:
+
+- Need for NVD API token.
+- Need to cache vulnerability database to avoid downloading the whole database on every invocation.
+- Unreliability of the NVD API endpoint.
+
+The action uses a Docker container that includes an up-to-date copy of the vulnerability database so avoids the need to use the NVD API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-29 16:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/725" class=".btn">#725</a>
+            </td>
+            <td>
+                <b>
+                    Use full go version in go.mod
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                From Go 1.21, in the absence of a toolchain line in the go.mod file, the go line is used as the minimum toolchain version. Toolchain versions must be a full Go version, including patch level.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-29 12:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/724" class=".btn">#724</a>
+            </td>
+            <td>
+                <b>
+                    Remove CycloneDX Java SBOM generation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was used to generate an SBOM containing transitive dependencies for OSV-Scanner. OSV-Scanner v1.8.1 and later can natively scan transitive dependencies in Maven pom.xml files so the CycloneDX SBOM generation step is no longer required.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-06-29 08:04:12 +0000 UTC
     </div>
 </div>
 

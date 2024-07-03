@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/77" class=".btn">#77</a>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/82" class=".btn">#82</a>
             </td>
             <td>
                 <b>
-                    Add unit tests for blobs
+                    fix: WS cve
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
                 
             </td>
             <td>
-                With the addition of these tests statement coverage is over 50%
+                This fixes a critical CVE with the websocket package 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-02-21 20:08:06 +0000 UTC
+        Created At 2024-06-28 11:07:50 +0000 UTC
     </div>
 </div>
 
