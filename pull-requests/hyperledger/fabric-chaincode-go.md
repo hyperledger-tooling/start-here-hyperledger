@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
             </td>
             <td>
                 <b>
-                    Bump Go to 1.22
+                    Change go.mod to 1.21.0
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 
             </td>
             <td>
-                Also update go.mod files to use toolchain compatible full version.
+                Update go.mod files to use toolchain compatible full version.
             </td>
         </tr>
     </table>

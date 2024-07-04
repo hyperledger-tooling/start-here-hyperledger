@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7292" class=".btn">#7292</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/7293" class=".btn">#7293</a>
             </td>
             <td>
                 <b>
-                    --profile to load external profiles
+                    Add evmtool block-test subcommand
                 </b>
             </td>
         </tr>
@@ -27,10 +27,67 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
+                
+## PR description
+
+Add an evmtool subcommand that will run non-hive blockchain tests.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-03 20:53:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7292" class=".btn">#7292</a>
+            </td>
+            <td>
+                <b>
+                    Enhance --profile to load external profiles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
                 ## PR description
 Add support to load external profiles using `--profile` option. The external profiles are expected to be placed in `profiles` directory under besu home (similar to `plugins` directory). This can be overridden using system property `besu.profiles.dir`. Running `./besu --help` should report internal profiles along with external profiles - file names without .toml extension.
 
 External profiles can be used to create custom Besu bundles with various plugins and their default options.
+
+Example setup:
+- Create `profiles` directory under besu home
+- Create `profiles/custom_profile.toml` with configuration values to override.
+- Use `./besu --profile=custom_profile ...` to load the custom profile
+
+Docs link: https://besu.hyperledger.org/public-networks/how-to/use-configuration-file/profile
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
