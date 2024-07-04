@@ -396,38 +396,3 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1230" class=".btn">#1230</a>
-            </td>
-            <td>
-                <b>
-                    feat: restrict CORS to first applicationUrl
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">infra</span>
-            </td>
-            <td>
-                ### Description:
-If CORS is enabled, set allow_origins: to the first applicationUrl if unspecified
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [x] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 12:06:59 +0000 UTC
-    </div>
-</div>
-

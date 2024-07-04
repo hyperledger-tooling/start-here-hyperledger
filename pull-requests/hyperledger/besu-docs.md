@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1646" class=".btn">#1646</a>
+            </td>
+            <td>
+                <b>
+                    adds nat-restrict to cli options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+Adds net-restrict to CLI options (supports Comma-separated array of allowed IP subnets). 
+
+### Issue(s) fixed
+<!-- Include the issue number that this PR fixes. {Example: Fixes #123} -->
+
+Fixes #1625 
+
+### Preview
+<!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
+
+- 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 12:15:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1644" class=".btn">#1644</a>
             </td>
             <td>
@@ -34,13 +72,13 @@ Small proofs to the CLI page
 
 ### Issue(s) fixed
 Fixes #1611
+Fixes #1623 
 
 Fixes #
 
 ### Preview
 <!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
 
-- 
 
             </td>
         </tr>
@@ -224,45 +262,6 @@ Fixes #
     </table>
     <div class="right-align">
         Created At 2024-06-28 06:43:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1639" class=".btn">#1639</a>
-            </td>
-            <td>
-                <b>
-                    1577: adds price bump config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-Blob price bump percentage to replace an already existing transaction blob tx
-blob tx can only replace and be replaced by blob tx
-Bash: TX_POOL_BLOB_PRICE_BUMP
-syntax: --tx-pool-blob-price-bump
-
-### Issue(s) fixed
-Fixes #1577 
-
-### Preview
-<!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
-
-- [Preview](https://besu-docs-git-fork-m4sterbunny-1577-price-bump-hyperledger.vercel.app/development/public-networks/reference/cli/options#tx-pool-blob-price-bump)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 12:04:04 +0000 UTC
     </div>
 </div>
 
