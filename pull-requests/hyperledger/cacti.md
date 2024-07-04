@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3380" class=".btn">#3380</a>
+            </td>
+            <td>
+                <b>
+                    docs(examples): migrate supply chain app to XDai connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                1. We are in the process of decomissioning the Quorum connector and this
+is a pre-requisite to that end.
+
+Depends on #3379
+> test(test-tooling): fix BesuTestLedger start cfg: publish all ports)
+
+Fixes #3272
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 02:42:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3379" class=".btn">#3379</a>
+            </td>
+            <td>
+                <b>
+                    test(test-tooling): fix BesuTestLedger start cfg: publish all ports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Previously we specified the publish all ports flag of the Docker Engine
+incorrectly and this lead to the ports not actually being published on
+randomized ports.
+2. This broke the supply chain app example when we tried to migrate it to
+use 2 separate besu test ledger instances in tandem because they were
+conflicting on the ports due to the lack of randomization.
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 02:31:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3378" class=".btn">#3378</a>
             </td>
             <td>
@@ -24,7 +115,7 @@ permalink: /pull-requests/hyperledger/cacti
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependent</span>
             </td>
             <td>
                 1. The `main` field of the package.json of these two packages were invalid
@@ -34,6 +125,8 @@ of it originally was invalid that caused warnings in our tooling.
 2. By using the yarn **patch** feature we overcame this problem by modifying
 the sources of the dependencies in question: `@ionic-native/splash-screen` and
 `@ionic-native/status-bar`
+
+Depends on https://github.com/lerna-lite/lerna-lite/pull/887
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
 
@@ -457,7 +550,7 @@ Hope it helps.
             </td>
             <td>
                 <b>
-                    fix(sync-ts-config): fix no such file or directory tsconfig.json
+                    build(sync-ts-config): fix no such file or directory protos-js/tsconfig.json
                 </b>
             </td>
         </tr>
@@ -468,7 +561,7 @@ Hope it helps.
             <td>
                 ### **Commit** to be reviewed
 ---
-fix(sync-ts-config): fix no such file or directory tsconfig.json
+build(sync-ts-config): fix no such file or directory protos-js/tsconfig.json
 ```
 Primary Changes
 ---------------
@@ -496,149 +589,6 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
     </table>
     <div class="right-align">
         Created At 2024-06-28 03:54:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3365" class=".btn">#3365</a>
-            </td>
-            <td>
-                <b>
-                    fix(cmd-api-server): shutdown hook was not waiting for promises
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. The library we use for having async functions handle resource deallocation
-was not being used correctly by the API server.
-2. The library only supports callback style asynchronous code and the API
-server assumed that it could return a promise from the shutdown hooks which
-lead to the problem that our shutdown hooks were not being awaited for.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 03:47:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3364" class=".btn">#3364</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples/supply-chain-app): fix resource cleanup of shutdown logic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Now you can run the supply chain app example locally and then hit CTRL+C
-on the terminal and it will gracefully shut down all the containers hosting
-the infrastructure and only after that the NodeJS process itself will exit.
-2. Previously we had a bug where it wouldn't wait for the containers to wind
-down and it left them running which was causing problems when people didn't
-notice this behavior and their machines would get into this broken state where
-the previous execution's containers were hanging around and one of them blocking
-ports too.
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 03:35:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3363" class=".btn">#3363</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples/supply-chain-app): print correct web host in the CLI logs 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. The logs were showing the bound host which in our case was 0.0.0.0
-but that is not accepted by web browsers when you are executing HTTP XHR
-requests from Javascript.
-2. This change makes it so that even though we bind to 0.0.0.0 the logs
-to the person running the example application will show 127.0.0.1.
-This might potentially cause further confusion in some people who'd think
-that we are binding to 127.0.0.1 based on the logs, but this seems like an
-acceptable trade-off for an example which has the number one priority of
-being easily digestable.
-
-Fixes #2390
-
-Depends on #3362
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-
-**Pull Request Requirements**
-- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
-- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
-- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
-
-**Character Limit**
-- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
-- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
-
-**A Must Read for Beginners**
-For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 01:56:13 +0000 UTC
     </div>
 </div>
 
