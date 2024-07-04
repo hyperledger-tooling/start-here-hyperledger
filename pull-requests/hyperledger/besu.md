@@ -582,31 +582,3 @@ empty accounts.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7274" class=".btn">#7274</a>
-            </td>
-            <td>
-                <b>
-                    Evm tool readme update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates README for new users
-Removes Graal vm use
-Corrects JVM install for docker image
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 18:10:00 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3382" class=".btn">#3382</a>
+            </td>
+            <td>
+                <b>
+                    feat(satp-hermes): Fabric and Besu Bridges POC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bridges POC
+
+- Test for Besu and Fabric Implementation
+- Besu and Fabric Contracts (ERC20 example and the wrapper contract)
+
+closes [#3281](https://github.com/hyperledger/cacti/issues/3281)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 12:49:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3380" class=".btn">#3380</a>
             </td>
             <td>
