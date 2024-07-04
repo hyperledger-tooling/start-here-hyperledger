@@ -266,35 +266,3 @@ Fixes #1577
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1638" class=".btn">#1638</a>
-            </td>
-            <td>
-                <b>
-                    Automate the Besu version update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-New workflow file update.yml automates the process outlined in https://wiki.hyperledger.org/display/BESU/Documentation+release+process. Added a comment token to the file to identify the location of the version configuration
-
-### Issue(s) fixed
-Fixes hyperledger/besu#7133
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 01:45:51 +0000 UTC
-    </div>
-</div>
-

@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/besu-native
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Constantine bindings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 04:19:28 +0000 UTC
-    </div>
-</div>
-
