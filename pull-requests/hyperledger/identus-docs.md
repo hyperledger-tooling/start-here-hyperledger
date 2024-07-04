@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/identus-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    ci: switch to the Hyperledger secrets in the GitHub actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The PR contains the following changes:
+- replace ATALA_GITHUB_TOKEN whenever it's possible
+- switch from `atala-dev` bot to `hyperledger-bot`
+- update GPG keys to sign the commits
+- upgrade the GitHub actions to newer versions
+- IDENTUS_CI token is added to the repository, but should be tested
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 10:53:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-docs/pull/108" class=".btn">#108</a>
             </td>
             <td>

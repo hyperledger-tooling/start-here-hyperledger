@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4802" class=".btn">#4802</a>
+            </td>
+            <td>
+                <b>
+                    fix: Smarter transaction expire logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 07:05:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4801" class=".btn">#4801</a>
             </td>
             <td>
@@ -373,73 +432,6 @@ No need for a dummy service to build images.
     </table>
     <div class="right-align">
         Created At 2024-07-01 10:36:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4793" class=".btn">#4793</a>
-            </td>
-            <td>
-                <b>
-                    refactor!: Use hash to validate genesis block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span><span class="chip">config-changes</span>
-            </td>
-            <td>
-                ## Description
-
-* Added `genesis.hash` config parameter and removed `genesis.public_key`
-* Added `genesis` field (account id) to `genesis.json`. It will be authority of genesis transactions
-* Genesis transactions will not be signed (actually signed by some random key pair and peers will ignore signatory for genesis transactions and instead check genesis block hash match)
-* Replaced `kagami genesis sign` with `kagami genesis prepare` which converts `genesis.json` to `genesis.scale` (`SignedBlock`) and outputs genesis hash to stdout
-* Genesis domain and account is now added to the `World` after receiving genesis block (since we now don't know genesis account id at startup but need to use authority of genesis block)
-
-Todo:
-* [ ] Fix docker-compose. Currently each peer generates genesis block independently, so its time and hash will be different
-
-### Deployment changes
-1. Add `genesis` field to `genesis.json` (genesis account id)
-2. Change `kagami genesis sign` invocation
-
-Before:
-```sh
-kagami genesis sign genesis.json --public-key ... --private-key ... --out-file ...
-```
-
-After:
-```sh
-kagami genesis prepare ... --out-file ...
-```
-This will also output genesis hash
-
-3. Provide genesis hash using `GENESIS_HASH` environment variable to `irohad`
-
-### Linked issue
-
-Closes #4555
-
-### Benefits
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-01 09:43:47 +0000 UTC
     </div>
 </div>
 

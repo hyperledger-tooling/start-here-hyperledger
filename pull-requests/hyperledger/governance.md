@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/governance/pull/298" class=".btn">#298</a>
+            </td>
+            <td>
+                <b>
+                    Add womfoo to the identus-admins team
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                womfoo is a platform engineer who maintains self-hosted runners of the identus-cloud-agent and should have the access to the Runners tab in the repository setting.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 08:11:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/governance/pull/297" class=".btn">#297</a>
             </td>
             <td>

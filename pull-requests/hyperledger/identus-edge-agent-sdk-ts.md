@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/identus-edge-agent-sdk-ts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-ts/pull/244" class=".btn">#244</a>
+            </td>
+            <td>
+                <b>
+                    fix: add e2e tests for jwt revocation, sdk verification for jwt and anoncreds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+This adds test coverage for:
+1. JWT Verification across Edge Agents [ATL-6628]
+2. Anoncreds verification across Edge agents [ATL-6849]
+3. JWT Revocation in all flows [ATL-7035]
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/input-output-hk/atala-prism-wallet-sdk-ts/blob/master/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 10:13:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-ts/pull/243" class=".btn">#243</a>
             </td>
             <td>
@@ -113,6 +152,7 @@ Tests ATL-6609
             <td>
                 ### Description: 
 While debugging the repeated message from Mediator we found out the cause of it. This PR fixes this long time issue.
+Fixes ATL-7354
 
 Unit tests:
 <img width="571" alt="image" src="https://github.com/input-output-hk/atala-prism-wallet-sdk-ts/assets/101114634/aa47c904-bada-4e41-85f9-c8af6999dbf2">
