@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3082" class=".btn">#3082</a>
+            </td>
+            <td>
+                <b>
+                    :bug: fix storage record pagination with post-filter query params
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to: https://github.com/hyperledger/aries-cloudagent-python/issues/3001#issuecomment-2206110085
+
+Marking as draft to first validate things work as expected (testing here: https://github.com/didx-xyz/aries-cloudapi-python/pull/850)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-03 19:25:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3081" class=".btn">#3081</a>
             </td>
             <td>
@@ -59,8 +87,6 @@ This adds the `by_format` attribute for all webhooks, not just for status `done`
             </td>
             <td>
                 Completely removes black from the project in favour of ruff for linting and formatting.
-
-***Note*** there's a few things failing right now because they are linting issues. They are fixed in the Rule D437 PR.
 
 Adjust the decontainer and the github actions workflow.
             </td>
