@@ -215,39 +215,3 @@ Adding base64 and base64url fallback in didcomm attachment extract fn's. earlier
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-ts/pull/238" class=".btn">#238</a>
-            </td>
-            <td>
-                <b>
-                    test: enable multi sdk actors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description: 
-Enables multiple sdk actors for e2e test
-
-### Checklist: 
-- [x] My PR follows the [contribution guidelines](https://github.com/input-output-hk/atala-prism-wallet-sdk-ts/blob/master/CONTRIBUTING.md) of this project
-- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [x] I have commented my code, particularly in hard-to-understand areas
-- [x] I have made corresponding changes to the documentation
-- [x] I have added tests that prove my fix is effective or that my feature works
-- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 16:57:55 +0000 UTC
-    </div>
-</div>
-

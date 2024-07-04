@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1248" class=".btn">#1248</a>
+            </td>
+            <td>
+                <b>
+                    fix: Wallet Management Error Handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pollux</span><span class="chip">cloud-agent</span>
+            </td>
+            <td>
+                https://input-output.atlassian.net/browse/ATL-6838
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 13:49:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1245" class=".btn">#1245</a>
             </td>
             <td>
@@ -313,86 +339,6 @@ Link to existing ADR (Architecture Decision Record), if any. If relevant, descri
     </table>
     <div class="right-align">
         Created At 2024-06-28 07:54:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1232" class=".btn">#1232</a>
-            </td>
-            <td>
-                <b>
-                    fix: add reportProcessingFailure back in PresentationRepository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pollux</span><span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                ### Description: 
-Add reportProcessingFailure back in PresentationRepository
-
-Fix: this was removed recently in another PR 
-Work for ATL-6932
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 16:03:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1231" class=".btn">#1231</a>
-            </td>
-            <td>
-                <b>
-                    feat(agent): add browser fingerprint label to http metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                ### Description: 
-This PR adds a browser fingerprint label to HTTP metrics, as well as API key or bearer token if present from headers
-<img width="1505" alt="image" src="https://github.com/hyperledger/identus-cloud-agent/assets/12943302/33b7c23d-6c3c-4c02-8e92-20807bfdb30a">
-
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 12:59:50 +0000 UTC
     </div>
 </div>
 

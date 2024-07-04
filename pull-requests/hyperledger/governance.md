@@ -141,29 +141,3 @@ permalink: /pull-requests/hyperledger/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    Add users to read-only
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 14:15:34 +0000 UTC
-    </div>
-</div>
-

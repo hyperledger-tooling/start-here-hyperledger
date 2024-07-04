@@ -14,6 +14,269 @@ permalink: /pull-requests/hyperledger/identus-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/121" class=".btn">#121</a>
+            </td>
+            <td>
+                <b>
+                    ci: switch to PAT for checkout action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 16:52:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/120" class=".btn">#120</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix release flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 15:10:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    feat: add submodule directories
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 14:57:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix ghcr login
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 14:52:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/117" class=".btn">#117</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix release flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 14:45:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/116" class=".btn">#116</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix deployment.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 14:41:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    ci: use PAT for commit the changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 14:36:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix autocommit action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 14:26:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix gpg github action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 14:19:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    chore: reinit submodules from atala to identus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+- removed atala repositories submodules
+- added identus repositories submodules
+- fixed the paths in the CI
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 13:03:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-docs/pull/111" class=".btn">#111</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[1646](https://github.com/hyperledger/besu-docs/pull/1646) adds nat-restrict to cli options
+[4919](https://github.com/hyperledger/fabric/pull/4919) Implement 'osnadmin channel info' subcommand and update tests #4892
 
-[176](https://github.com/hyperledger/identus-apollo/pull/176) fix: move to hyperledger and update ci tasks
+[677](https://github.com/hyperledger-labs/fabric-token-sdk/pull/677) Injecting network drivers
 
-[111](https://github.com/hyperledger/identus-docs/pull/111) ci: switch to the Hyperledger secrets in the GitHub actions
+[121](https://github.com/hyperledger/identus-docs/pull/121) ci: switch to PAT for checkout action
 
-[675](https://github.com/hyperledger-labs/fabric-token-sdk/pull/675) Sessions with traces
+[4918](https://github.com/hyperledger/fabric/pull/4918) fix data race in unit test
 
-[674](https://github.com/hyperledger-labs/fabric-token-sdk/pull/674) reactivate all test types
+[120](https://github.com/hyperledger/identus-docs/pull/120) ci: fix release flow
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
