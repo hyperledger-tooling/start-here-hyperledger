@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    Correction of the getBlockByHash function - QueryQSCC Handler: hashBytes, err := hex.DecodeString(hash), passed as a parameter to the chaincode.QueryGateway function, assigned to result.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matheus Lázaro <matheus.lazaro@discente.ufg.br>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 23:25:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/66" class=".btn">#66</a>
             </td>
             <td>

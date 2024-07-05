@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    Implement 'osnadmin channel info' subcommand and update tests #4892
+                    Implement 'osnadmin channel info' subcommand and update tests #4890
                 </b>
             </td>
         </tr>
@@ -35,7 +35,7 @@ Implemented the osnadmin channel info subcommand to retrieve detailed informatio
 
 Introduced info subcommand under osnadmin channel to support querying individual channel details.
 Updated existing tests and added new tests to cover the new feature and edge cases.
-Closes #4892
+
             </td>
         </tr>
     </table>
@@ -150,34 +150,6 @@ Improper Restriction of Excessive Authentication Attempts vulnerability with Hig
     </table>
     <div class="right-align">
         Created At 2024-07-02 22:07:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4913" class=".btn">#4913</a>
-            </td>
-            <td>
-                <b>
-                    Update docs for Ed25519 support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs for Ed25519 support.
-Also clarify ECDSA and RSA support.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 21:13:53 +0000 UTC
     </div>
 </div>
 
