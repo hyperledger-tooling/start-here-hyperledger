@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3083" class=".btn">#3083</a>
+            </td>
+            <td>
+                <b>
+                    :art: improve record querying logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor amendments that I wanted to include before #3082 was merged.
+
+Expands error handling for the unlikely case where json.loads fails, and improves readability / reduces complexity of nested if conditions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-04 21:58:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3082" class=".btn">#3082</a>
             </td>
             <td>
@@ -60,6 +88,10 @@ Marking as draft to first validate things work as expected (testing here: https:
 Note that this is for the 2.0 presentation protocol only, do we need to apply a similar fix for 1.0?
 
 This adds the `by_format` attribute for all webhooks, not just for status `done`, however the demo requires this to work with terse webhooks (and no additional calls to the api endpoints)
+
+Added `by_format` for issue cred as well - was failing in the demo for json-ld :-(
+
+Makes the terse webhooks slightly less terse, but is required if we want the webhook to contain "enough" info for the controller to respond to.
 
             </td>
         </tr>

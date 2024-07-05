@@ -1,13 +1,13 @@
 
-[4919](https://github.com/hyperledger/fabric/pull/4919) Implement 'osnadmin channel info' subcommand and update tests #4892
+[67](https://github.com/hyperledger-labs/cc-tools-demo/pull/67) Correction of the getBlockByHash function - QueryQSCC Handler: hashBytes, err := hex.DecodeString(hash), passed as a parameter to the chaincode.QueryGateway function, assigned to result.
 
-[677](https://github.com/hyperledger-labs/fabric-token-sdk/pull/677) Injecting network drivers
+[3083](https://github.com/hyperledger/aries-cloudagent-python/pull/3083) :art: improve record querying logic
 
-[121](https://github.com/hyperledger/identus-docs/pull/121) ci: switch to PAT for checkout action
+[615](https://github.com/hyperledger-labs/fabric-smart-client/pull/615) Remove static drivers for DB
 
-[4918](https://github.com/hyperledger/fabric/pull/4918) fix data race in unit test
+[171](https://github.com/hyperledger/identus-edge-agent-sdk-kmp/pull/171) chore: update codeowners
 
-[120](https://github.com/hyperledger/identus-docs/pull/120) ci: fix release flow
+[170](https://github.com/hyperledger/identus-edge-agent-sdk-kmp/pull/170) test: add backup e2e scenario
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

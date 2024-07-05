@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/138" class=".btn">#138</a>
-            </td>
-            <td>
-                <b>
-                    Update maintainer email address
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 19:01:00 +0000 UTC
-    </div>
-</div>
-

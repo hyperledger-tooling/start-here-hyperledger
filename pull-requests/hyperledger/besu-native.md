@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/besu-native
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix/eip 196 edge case
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix for a weird (imo) EIP-196 expectation that a malformed/incomplete g1 point should return an error if the X value is readable, but not in the field; whereas a malformed/incomplete g1 point will otherwise return 0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-27 22:11:55 +0000 UTC
-    </div>
-</div>
-
