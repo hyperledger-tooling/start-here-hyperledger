@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/308" class=".btn">#308</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/313" class=".btn">#313</a>
             </td>
             <td>
                 <b>
-                    fix: no such volume error
+                    Fix doc link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Fixes https://github.com/hyperledger/firefly-cli/issues/295
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-17 11:08:56 +0000 UTC
+        Created At 2024-07-05 11:05:09 +0000 UTC
     </div>
 </div>
 

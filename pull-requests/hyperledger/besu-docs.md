@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1647" class=".btn">#1647</a>
+            </td>
+            <td>
+                <b>
+                    Add Lukso to command line table
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+<!-- Briefly describe the changes made in your pull request (PR) below. -->
+
+-  Add Lukso support
+
+### Issue(s) fixed
+<!-- Include the issue number that this PR fixes. {Example: Fixes #123} -->
+
+Fixes #1637 
+
+### Preview
+<!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
+
+- 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-05 13:50:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1646" class=".btn">#1646</a>
             </td>
             <td>
@@ -180,88 +220,6 @@ Commands:
     </table>
     <div class="right-align">
         Created At 2024-07-01 03:03:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1641" class=".btn">#1641</a>
-            </td>
-            <td>
-                <b>
-                    Copy edits for consistency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-<!-- Briefly describe the changes made in your pull request (PR) below. -->
-
--  Fixes inconsistency in styling for doc
-
-### Issue(s) fixed
-<!-- Include the issue number that this PR fixes. {Example: Fixes #123} -->
-
-Fixes #
-
-### Preview
-<!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
-
--  [Preview](https://besu-docs-git-minor-style-edits-hyperledger.vercel.app/development/public-networks/how-to/bonsai-limit-trie-logs)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 11:16:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1640" class=".btn">#1640</a>
-            </td>
-            <td>
-                <b>
-                    Promote x-trie-log subcommand to trie-log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-## Description
-<!-- Briefly describe the changes made in your pull request (PR) below. -->
-
-Following https://github.com/hyperledger/besu/pull/7278 this renames "x-trie-log" to "trie-log"
-
-### Issue(s) fixed
-<!-- Include the issue number that this PR fixes. {Example: Fixes #123} -->
-
-Fixes #
-
-### Preview
-<!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
-
-- 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 06:43:37 +0000 UTC
     </div>
 </div>
 

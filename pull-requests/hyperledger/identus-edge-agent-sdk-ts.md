@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/identus-edge-agent-sdk-ts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-ts/pull/245" class=".btn">#245</a>
+            </td>
+            <td>
+                <b>
+                    fix: move to hyperledger namespace
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description: 
+Changing tokens and npm namespace to hyperledger
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/input-output-hk/atala-prism-wallet-sdk-ts/blob/master/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-05 09:14:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-ts/pull/244" class=".btn">#244</a>
             </td>
             <td>
@@ -174,44 +210,6 @@ Integration tests:
     </table>
     <div class="right-align">
         Created At 2024-06-28 21:30:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-ts/pull/239" class=".btn">#239</a>
-            </td>
-            <td>
-                <b>
-                    fix: attachment encoding fallback base64 + base64url by default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-### Description: 
-Adding base64 and base64url fallback in didcomm attachment extract fn's. earlier we were using Buffer which was able to handle cases where we get base64url and we should be getting base64.
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/input-output-hk/atala-prism-wallet-sdk-ts/blob/master/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 14:20:00 +0000 UTC
     </div>
 </div>
 

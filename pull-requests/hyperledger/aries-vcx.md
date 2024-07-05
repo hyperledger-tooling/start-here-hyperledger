@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1254" class=".btn">#1254</a>
+            </td>
+            <td>
+                <b>
+                    Handle trust pings in the AATH backchannel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Close #1253 
+
+This adds handling for TrustPing, which solves the issue of connections not entering complete state when VCX is the connection inviter.
+
+# Results of ariesvcx-acapy manual runset of RFC0160
+` behave -D Acme=http://0.0.0.0:9020 -D Bob=http://0.0.0.0:9030 -t @RFC0160 -t ~@wip -t ~@RFC0434 -t ~@RFC0453 -t ~@RFC0211 -t ~@DIDExchangeConnection -t ~@Transport_Ws`
+## Before
+all failures.
+
+## After
+(failures are due to running this with only 2 agents)
+```
+Failing scenarios:
+  features/0160-connection.feature:52  Inviter Sends invitation for one agent second agent tries after connection
+  features/0160-connection.feature:69  Inviter Sends invitation for one agent second agent tries during first share phase
+
+0 features passed, 2 failed, 13 skipped
+4 scenarios passed, 2 failed, 154 skipped
+28 steps passed, 2 failed, 1353 skipped, 0 undefined
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-05 06:47:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1249" class=".btn">#1249</a>
             </td>
             <td>
