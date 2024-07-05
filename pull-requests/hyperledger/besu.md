@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7295" class=".btn">#7295</a>
+            </td>
+            <td>
+                <b>
+                    Fix t8n eip7002 test - Execute Requests before block persist
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">Prague</span>
+            </td>
+            <td>
+                ## PR description
+Execute requests before persisting the block. 
+
+Fix [multiple_block_above_max_withdrawal_requests_from_eoa]
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-05 04:27:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7293" class=".btn">#7293</a>
             </td>
             <td>
@@ -444,88 +473,6 @@ Cannot enable --bonsai-limit-trie-logs-enabled with sync-mode FULL. You must set
     </table>
     <div class="right-align">
         Created At 2024-06-28 06:31:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7278" class=".btn">#7278</a>
-            </td>
-            <td>
-                <b>
-                    Promote storage x-trie-log subcommand to trie-log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Following https://github.com/hyperledger/besu/pull/7193
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 05:47:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7277" class=".btn">#7277</a>
-            </td>
-            <td>
-                <b>
-                    javadoc - Add missing javadoc for evmtool module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-javadoc - Add missing javadoc for evmtool module
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [x] unit tests: `./gradlew build`
-- [x] acceptance tests: `./gradlew acceptanceTest`
-- [x] integration tests: `./gradlew integrationTest`
-- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 02:09:48 +0000 UTC
     </div>
 </div>
 

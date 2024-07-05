@@ -673,29 +673,3 @@ Mostly used co-pilot to fill in wrong or missing arguments. Reviewed most of it 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3070" class=".btn">#3070</a>
-            </td>
-            <td>
-                <b>
-                    Re-enable ledger plugin when `--no-legder` is set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @ff137 @jamshale [in response to this](https://github.com/hyperledger/aries-cloudagent-python/pull/2990#discussion_r1654980350)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 02:40:07 +0000 UTC
-    </div>
-</div>
-

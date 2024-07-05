@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/730" class=".btn">#730</a>
-            </td>
-            <td>
-                <b>
-                    Include generate Go mocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add generated Go mocks to source control. This makes it easier for new contributors to get started with the respository since no mocks need to be generated. It also avoids the need to generate mocks for CodeQL to be able to scan all Go source files.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-02 18:35:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/729" class=".btn">#729</a>
             </td>
             <td>
