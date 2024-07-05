@@ -63,7 +63,7 @@ N/A
             </td>
             <td>
                 <b>
-                    WIP: bump test libraries to latest
+                    Bump test libraries to latest
                 </b>
             </td>
         </tr>
@@ -75,7 +75,7 @@ N/A
                 <!--- Provide a general summary of the pull request in the Title above -->
 
 ## Checklist
- - [ ]  A link to the issue/user story that the pull request relates to
+ - [X ]  A link to the issue/user story that the pull request relates to
  - [ ]  How to recreate the problem without the fix
  - [ ]  Design of the fix
  - [ ]  How to prove that the fix works
@@ -85,21 +85,20 @@ N/A
 
 ## Issue/User story
 <!--- What issue / user story is this for -->
+[#1597](https://github.com/hyperledger/caliper/issues/1597)
+
 
 ## Steps to Reproduce
 <!--- Provide a link to a live example, or an unambiguous set of steps to -->
 <!--- reproduce this bug include code to reproduce, if relevant -->
-1.
-2.
-3.
-4.
+N/A
 
 
 ## Existing issues
 <!-- Have you searched for any existing issues or are their any similar issues that you've found? -->
-- [ ] [Stack Overflow issues](http://stackoverflow.com/tags/hyperledger-caliper)
-- [ ] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
-- [ ] [Discord history](https://discord.com/channels/905194001349627914/941417677778473031)
+- [ X] [Stack Overflow issues](http://stackoverflow.com/tags/hyperledger-caliper)
+- [ X] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
+- [ X] [Discord history](https://discord.com/channels/905194001349627914/941417677778473031)
 
 <!-- please include any links to issues here -->
 

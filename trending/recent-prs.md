@@ -1,13 +1,13 @@
 
-[7295](https://github.com/hyperledger/besu/pull/7295) Fix t8n eip7002 test - Execute Requests before block persist
+[4808](https://github.com/hyperledger/iroha/pull/4808) chore(deps): bump serde_with from 3.8.2 to 3.8.3
 
-[1249](https://github.com/hyperledger/identus-cloud-agent/pull/1249) feat: change all resource URLs in VCs from http URLs to DID URLs
+[32](https://github.com/hyperledger/identus/pull/32) feat: add the triage process to resolve #3
 
-[67](https://github.com/hyperledger-labs/cc-tools-demo/pull/67) Correction of the getBlockByHash function - QueryQSCC Handler: hashBytes, err := hex.DecodeString(hash), passed as a parameter to the chaincode.QueryGateway function, assigned to result.
+[680](https://github.com/hyperledger-labs/fabric-token-sdk/pull/680) Removed SP from token drivers
 
-[3083](https://github.com/hyperledger/aries-cloudagent-python/pull/3083) :art: improve record querying logic
+[7296](https://github.com/hyperledger/besu/pull/7296) Optimistic parallelization of transactions to improve performance
 
-[615](https://github.com/hyperledger-labs/fabric-smart-client/pull/615) Remove static drivers for DB
+[1251](https://github.com/hyperledger/identus-cloud-agent/pull/1251) build: add predef to remove ???
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
