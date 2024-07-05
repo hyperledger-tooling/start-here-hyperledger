@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/731" class=".btn">#731</a>
+            </td>
+            <td>
+                <b>
+                    Add pkcs11 Go build tag to CodeQL autobuild
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allows CodeQL to scan Go files excluded by this build contraint.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-05 09:30:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/729" class=".btn">#729</a>
             </td>
             <td>

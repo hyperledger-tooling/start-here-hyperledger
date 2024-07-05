@@ -542,34 +542,3 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3368" class=".btn">#3368</a>
-            </td>
-            <td>
-                <b>
-                    Docs improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR addresses several typographical errors across various files in the project. The changes improve readability and maintain the professional standard of the documentation and code comments.
-
-Justification
-Typographical errors, while minor, can detract from the overall quality of the project. Correcting these errors ensures clarity and professionalism, making the project more accessible and understandable for current and future contributors.
-
-Hope it helps.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 06:42:23 +0000 UTC
-    </div>
-</div>
-

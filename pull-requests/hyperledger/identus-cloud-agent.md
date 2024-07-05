@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/identus-cloud-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1250" class=".btn">#1250</a>
+            </td>
+            <td>
+                <b>
+                    fix: use Put and Get for DID in doobie statement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">cloud-agent</span>
+            </td>
+            <td>
+                ### Description: 
+
+During integration testing, there was a bug when using both longForm and shortForm DID together because inconsistency when lookup the table.This PR makes the lookup use `Get` `Put` typeclass instead of adhoc `.toString`.
+
+### Alternatives Considered (optional): 
+Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
+
+### Checklist: 
+- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
+- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-05 11:01:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1249" class=".btn">#1249</a>
             </td>
             <td>
@@ -273,112 +313,6 @@ Move mocks classes into the test modules
     </table>
     <div class="right-align">
         Created At 2024-06-28 15:57:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1235" class=".btn">#1235</a>
-            </td>
-            <td>
-                <b>
-                    style: apply linters automatic fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 07:58:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1234" class=".btn">#1234</a>
-            </td>
-            <td>
-                <b>
-                    test: add oid4vci issuer crud scenario
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                ### Description: 
-Summarize the changes you're submitting in a few sentences, including Jira ticket ATL-xxxx if applicable.
-Link to any discussion, related issues and bug reports to give the context to help the reviewer understand the PR.
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 07:55:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-cloud-agent/pull/1233" class=".btn">#1233</a>
-            </td>
-            <td>
-                <b>
-                    fix: avoid name and operationId conflict when creating oas client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cloud-agent</span>
-            </td>
-            <td>
-                ### Description: 
-
-This fix some issues when generating OAS client as it fails some validation. New client release is required for new oid4vci test scenarios.
-
-### Alternatives Considered (optional): 
-Link to existing ADR (Architecture Decision Record), if any. If relevant, describe other approaches explored and the selected approach. Documenting why the methods were not selected will create a knowledge base for future reference, helping prevent others from revisiting less optimal ideas.
-
-### Checklist: 
-- [ ] My PR follows the [contribution guidelines](https://github.com/hyperledger/identus-cloud-agent/blob/main/CONTRIBUTING.md) of this project
-- [ ] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 07:54:24 +0000 UTC
     </div>
 </div>
 
