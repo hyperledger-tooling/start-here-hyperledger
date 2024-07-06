@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/71" class=".btn">#71</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/73" class=".btn">#73</a>
             </td>
             <td>
                 <b>
-                    Updates from getting started guide
+                    fix: #72 fixed with datetime.timezone.utc
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                <nil>
+                This one line fix resolves the error mentioned in #72 . The UTC property is not exposed on the `datetime` module and using `datetime.timezone.utc` works for me.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-04-08 16:02:55 +0000 UTC
+        Created At 2024-07-05 20:41:14 +0000 UTC
     </div>
 </div>
 
