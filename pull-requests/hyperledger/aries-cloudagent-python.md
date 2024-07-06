@@ -645,31 +645,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3072" class=".btn">#3072</a>
-            </td>
-            <td>
-                <b>
-                    Rule D417
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates function documentation to the appropriate level needed for rule D417 https://docs.astral.sh/ruff/rules/undocumented-param/. Helps developers understand and more quickly use functions if these are accurate.
-
-Mostly used co-pilot to fill in wrong or missing arguments. Reviewed most of it and it looked like it was doing a good job.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-28 19:59:59 +0000 UTC
-    </div>
-</div>
-

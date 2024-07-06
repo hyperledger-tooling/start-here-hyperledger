@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/625" class=".btn">#625</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/626" class=".btn">#626</a>
             </td>
             <td>
                 <b>
-                    Bump the pip group across 2 directories with 3 updates
+                    Bump the pip group across 2 directories with 4 updates
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/cello
                 <span class="chip">Dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Updates the requirements on [requests](https://github.com/psf/requests), [djangorestframework](https://github.com/encode/django-rest-framework) and [urllib3](https://github.com/urllib3/urllib3) to permit the latest version.
+                Updates the requirements on [requests](https://github.com/psf/requests), [certifi](https://github.com/certifi/python-certifi), [djangorestframework](https://github.com/encode/django-rest-framework) and [urllib3](https://github.com/urllib3/urllib3) to permit the latest version.
 Updates `requests` to 2.32.3
 <details>
 <summary>Release notes</summary>
@@ -206,6 +206,25 @@ will default to <code>utf-8</code> if neither library is present. (<a href="http
 </details>
 <br />
 
+Updates `certifi` from 2023.7.22 to 2024.7.4
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/certifi/python-certifi/commit/bd8153872e9c6fc98f4023df9c2deaffea2fa463"><code>bd81538</code></a> 2024.07.04 (<a href="https://redirect.github.com/certifi/python-certifi/issues/295">#295</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/06a2cbf21f345563dde6c28b60e29d57e9b210b3"><code>06a2cbf</code></a> Bump peter-evans/create-pull-request from 6.0.5 to 6.1.0 (<a href="https://redirect.github.com/certifi/python-certifi/issues/294">#294</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/13bba02b72bac97c432c277158bc04b4d2a6bc23"><code>13bba02</code></a> Bump actions/checkout from 4.1.6 to 4.1.7 (<a href="https://redirect.github.com/certifi/python-certifi/issues/293">#293</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/e8abcd0e62b334c164b95d49fcabdc9ecbca0554"><code>e8abcd0</code></a> Bump pypa/gh-action-pypi-publish from 1.8.14 to 1.9.0 (<a href="https://redirect.github.com/certifi/python-certifi/issues/292">#292</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/124f4adf171e15cd9a91a8b6e0325ecc97be8fe1"><code>124f4ad</code></a> 2024.06.02 (<a href="https://redirect.github.com/certifi/python-certifi/issues/291">#291</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/c2196ce5d6ee675b27755a19948480a7823e2c6a"><code>c2196ce</code></a> --- (<a href="https://redirect.github.com/certifi/python-certifi/issues/290">#290</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/fefdeec7588ff1c05214b85a552afcad5fdb51b2"><code>fefdeec</code></a> Bump actions/checkout from 4.1.4 to 4.1.5 (<a href="https://redirect.github.com/certifi/python-certifi/issues/289">#289</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/3c5fb1560b826a7f83f1f9750173ff766492c9cf"><code>3c5fb15</code></a> Bump actions/download-artifact from 4.1.6 to 4.1.7 (<a href="https://redirect.github.com/certifi/python-certifi/issues/286">#286</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/4a9569a3eb58db8548536fc16c5c5c7af946a5b1"><code>4a9569a</code></a> Bump actions/checkout from 4.1.2 to 4.1.4 (<a href="https://redirect.github.com/certifi/python-certifi/issues/287">#287</a>)</li>
+<li><a href="https://github.com/certifi/python-certifi/commit/1fc808626a895a916b1e4c2b63abae6c5eafdbe3"><code>1fc8086</code></a> Bump peter-evans/create-pull-request from 6.0.4 to 6.0.5 (<a href="https://redirect.github.com/certifi/python-certifi/issues/288">#288</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/certifi/python-certifi/compare/2023.07.22...2024.07.04">compare view</a></li>
+</ul>
+</details>
+<br />
+
 Updates `djangorestframework` from 3.15.1 to 3.15.2
 <details>
 <summary>Commits</summary>
@@ -300,7 +319,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-26 19:40:32 +0000 UTC
+        Created At 2024-07-06 00:32:04 +0000 UTC
     </div>
 </div>
 

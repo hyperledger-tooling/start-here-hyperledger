@@ -1,13 +1,13 @@
 
-[4808](https://github.com/hyperledger/iroha/pull/4808) chore(deps): bump serde_with from 3.8.2 to 3.8.3
+[3384](https://github.com/hyperledger/cacti/pull/3384) feat(connector-corda): add vaultQueryV1 REST API operation + endpoint
 
-[32](https://github.com/hyperledger/identus/pull/32) feat: add the triage process to resolve #3
+[49](https://github.com/hyperledger/aries-acapy-tools/pull/49) build(deps-dev): Bump certifi from 2023.7.22 to 2024.7.4 in the pip group
 
-[680](https://github.com/hyperledger-labs/fabric-token-sdk/pull/680) Removed SP from token drivers
+[626](https://github.com/hyperledger/cello/pull/626) Bump the pip group across 2 directories with 4 updates
 
-[7296](https://github.com/hyperledger/besu/pull/7296) Optimistic parallelization of transactions to improve performance
+[4921](https://github.com/hyperledger/fabric/pull/4921) Bump certifi from 2023.11.17 to 2024.7.4 in /docs in the pip group across 1 directory
 
-[1251](https://github.com/hyperledger/identus-cloud-agent/pull/1251) build: add predef to remove ???
+[425](https://github.com/hyperledger/fabric-ca/pull/425) Bump certifi from 2023.11.17 to 2024.7.4 in /docs in the pip group
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
