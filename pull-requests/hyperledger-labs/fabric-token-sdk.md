@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/681" class=".btn">#681</a>
+            </td>
+            <td>
+                <b>
+                    Refactored load generator metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-06 14:41:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/680" class=".btn">#680</a>
             </td>
             <td>
