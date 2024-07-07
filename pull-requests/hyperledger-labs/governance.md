@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/77" class=".btn">#77</a>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    Add devanshpurani7
+                    Add Zeto Lab
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/governance
                 
             </td>
             <td>
-                Fixes #76 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-20 14:49:51 +0000 UTC
+        Created At 2024-07-07 14:38:34 +0000 UTC
     </div>
 </div>
 

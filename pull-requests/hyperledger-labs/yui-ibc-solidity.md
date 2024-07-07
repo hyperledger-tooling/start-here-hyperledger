@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/280" class=".btn">#280</a>
-            </td>
-            <td>
-                <b>
-                    qbft: add `max_clock_drift` to client state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-30 14:33:14 +0000 UTC
-    </div>
-</div>
-
