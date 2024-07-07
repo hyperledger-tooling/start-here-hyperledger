@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/89" class=".btn">#89</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/90" class=".btn">#90</a>
             </td>
             <td>
                 <b>
-                    Up ws version
+                    Fix docs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                Address https://github.com/advisories/GHSA-3h5v-q93c-6h6q and npm audit finding
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-18 09:18:56 +0000 UTC
+        Created At 2024-07-06 18:19:26 +0000 UTC
     </div>
 </div>
 
