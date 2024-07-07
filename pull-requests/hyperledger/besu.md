@@ -349,32 +349,3 @@ Consider previously self-destructed accounts when creating accounts.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7282" class=".btn">#7282</a>
-            </td>
-            <td>
-                <b>
-                    Make snap tasks switching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Convert snap tasks from retrying (same peer) to retrying switching (different peer per retry).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-30 06:28:01 +0000 UTC
-    </div>
-</div>
-
