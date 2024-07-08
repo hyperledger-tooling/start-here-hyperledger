@@ -27,7 +27,13 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                And also
+                BREAKING CHANGE: Renamed classes to fix typos in their name: `PluginFactoryPersistanceFabric`
+This is being done in this pull request because for some reason (that I still don't understand)
+the spell checker started failing on these only in the context of this pull request.
+The typos were present on the main branch already somehow having passed spellchecking earlier
+and every other time since then.
+
+And also
 - prom-clien@15.1.3
 - del-cli@5.1.0
 - cspell@8.10.4
