@@ -1,13 +1,13 @@
 
-[79](https://github.com/hyperledger-labs/governance/pull/79) Add Zeto Lab
+[1254](https://github.com/hyperledger/identus-cloud-agent/pull/1254) style: apply linters automatic fixes
 
-[682](https://github.com/hyperledger-labs/fabric-token-sdk/pull/682) stress test update + bug fixes
+[91](https://github.com/hyperledger/indy-did-method/pull/91) Bump JamesIves/github-pages-deploy-action from 4.6.1 to 4.6.3 in the all-actions group
 
-[124](https://github.com/hyperledger/identus-docs/pull/124) chore(deps): bump the npm_and_yarn group across 1 directory with 17 updates
+[1253](https://github.com/hyperledger/identus-cloud-agent/pull/1253) style: apply linters automatic fixes
 
-[618](https://github.com/hyperledger-labs/fabric-smart-client/pull/618) Fix data race errors 
+[1252](https://github.com/hyperledger/identus-cloud-agent/pull/1252) test: e2e test for oid4vci authorization code flow
 
-[4923](https://github.com/hyperledger/fabric/pull/4923) [WIP]: Remove legacy lscc chaincode
+[112](https://github.com/hyperledger-labs/fabric-opssc/pull/112) chore(deps): Bump ws from 7.5.4 to 7.5.10 in /opssc-agent/src
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

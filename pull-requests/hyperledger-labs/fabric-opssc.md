@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/111" class=".btn">#111</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/112" class=".btn">#112</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump ws from 7.5.4 to 7.5.10 in /opssc-api-server/src
+                    chore(deps): Bump ws from 7.5.4 to 7.5.10 in /opssc-agent/src
                 </b>
             </td>
         </tr>
@@ -117,7 +117,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-18 06:15:24 +0000 UTC
+        Created At 2024-07-08 02:28:24 +0000 UTC
     </div>
 </div>
 
