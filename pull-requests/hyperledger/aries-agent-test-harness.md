@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/848" class=".btn">#848</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade python to 3.12 in acapy-main backchannel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ACA-Py recently upgraded to python version 3.12. Having the docker image be 3.9-slim-bullseye caused compatibility issues with the libraries. Possibly using a different image would have more success figuring out libraries and allow acapy to install via a 3.9 image. 
+
+I think it's acceptable to require a 3.12 image to use acapy with a 3.12 dependency and hence the change here.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 17:53:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/847" class=".btn">#847</a>
             </td>
             <td>

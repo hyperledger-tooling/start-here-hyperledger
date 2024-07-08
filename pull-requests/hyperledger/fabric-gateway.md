@@ -64,29 +64,3 @@ This change forces OSV-Scanner to use the exact version of the Go binary used to
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/728" class=".btn">#728</a>
-            </td>
-            <td>
-                <b>
-                    Update PMD version used for Java static analysis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-01 14:57:59 +0000 UTC
-    </div>
-</div>
-

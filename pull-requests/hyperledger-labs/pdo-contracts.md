@@ -14,27 +14,27 @@ permalink: /pull-requests/hyperledger-labs/pdo-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger-labs/pdo-contracts/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    Fix numpy version to 1.24.4 for use within Inference contract guardian.
+                    Token Object Contracts for policy-based usage of Hugging Face Models
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">good first issue</span>
             </td>
             <td>
-                Before this PR, numpy was autoinstalled as part of opencv installation. At the time of this PR, opencv attempts to install numpy 2.0.0, and this is not consistent with the rest of the guardian code. This change fixes the recent guardian failures that were being seen due to the numpy dependency issue.
+                This PR provides a PoC for tokenization and policy-based access of (possibly private) models hosted on Hugging Face, and made available for inferencing via Serverless Inference API. The PoC in spirit is similar to what is demonstrated via the inference contract family, where we provided PDO contracts/guardians for policy-based access control of ML models hosted via OpenVINO model server. 
 
-
+Please see hfmodels-contract/README.md for problem statement, solution overview, and details on how to test the PoC.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-27 22:57:19 +0000 UTC
+        Created At 2024-07-08 16:46:46 +0000 UTC
     </div>
 </div>
 

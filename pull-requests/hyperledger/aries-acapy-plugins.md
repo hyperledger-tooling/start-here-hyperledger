@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/733" class=".btn">#733</a>
+            </td>
+            <td>
+                <b>
+                    General library upgrades
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                General weekly library upgrades. All looked safe to me.
+
+- ruff
+- aries-askar
+- certifi
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 15:46:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/732" class=".btn">#732</a>
             </td>
             <td>
@@ -2757,187 +2787,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-07-08 11:22:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/713" class=".btn">#713</a>
-            </td>
-            <td>
-                <b>
-                    Bump aiokafka from 0.7.2 to 0.9.0 in /kafka_events/integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">python</span>
-            </td>
-            <td>
-                Bumps [aiokafka](https://github.com/aio-libs/aiokafka) from 0.7.2 to 0.9.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/aio-libs/aiokafka/releases">aiokafka's releases</a>.</em></p>
-<blockquote>
-<h2>v0.9.0</h2>
-<p>New features:</p>
-<ul>
-<li>Include <code>kafka-python</code> into <code>aiokafka</code>'s code base (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/928">#928</a> and others)</li>
-<li>Replace <code>python-snappy</code> and <code>zstandard</code> with <code>cramjam</code> (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/930">#930</a>)</li>
-<li>PEP518 compliant <code>pyproject.toml</code></li>
-<li>Python 3.12 support</li>
-</ul>
-<p>Bugfixes:</p>
-<ul>
-<li>Fix type annotation for <code>ConsumerRecord</code> (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/912">#912</a> by <a href="https://github.com/zschumacher"><code>@​zschumacher</code></a>)</li>
-<li>Improve send performance (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/943">#943</a>)</li>
-</ul>
-<p>Improved Documentation:</p>
-<ul>
-<li>Fix <code>AbstractTokenProvider.token</code> example (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/919">#919</a> by <a href="https://github.com/mtomilov"><code>@​mtomilov</code></a>)</li>
-</ul>
-<h2>v0.9.0.rc1</h2>
-<p>New features:</p>
-<ul>
-<li>Include <code>kafka-python</code> into <code>aiokafka</code>'s code base</li>
-<li>Replace <code>python-snappy</code> and <code>zstandard</code> with <code>cramjam</code></li>
-<li>PEP518 compliant <code>pyproject.toml</code></li>
-<li>Python 3.12 support</li>
-</ul>
-<p>Bugfixes:</p>
-<ul>
-<li>Fix type annotation for <code>ConsumerRecord</code> (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/912">#912</a> by <a href="https://github.com/zschumacher"><code>@​zschumacher</code></a>)</li>
-<li>Improve send performance (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/943">#943</a>)</li>
-</ul>
-<p>Improved Documentation:</p>
-<ul>
-<li>Fix <code>AbstractTokenProvider.token</code> example (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/919">#919</a> by <a href="https://github.com/mtomilov"><code>@​mtomilov</code></a>)</li>
-</ul>
-<h2>v0.9.0.rc0</h2>
-<p>New features:</p>
-<ul>
-<li>Include <code>kafka-python</code> into <code>aiokafka</code>'s code base</li>
-<li>Replace <code>python-snappy</code> and <code>zstandard</code> with <code>cramjam</code></li>
-<li>PEP518 compliant <code>pyproject.toml</code></li>
-<li>Python 3.12 support</li>
-</ul>
-<p>Bugfixes:</p>
-<ul>
-<li>Fix type annotation for <code>ConsumerRecord</code> (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/912">#912</a> by <a href="https://github.com/zschumacher"><code>@​zschumacher</code></a>)</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/aio-libs/aiokafka/blob/master/CHANGES.rst">aiokafka's changelog</a>.</em></p>
-<blockquote>
-<h1>0.9.0 (2023-12-04)</h1>
-<p>New features:</p>
-<ul>
-<li>Include <code>kafka-python</code> into <code>aiokafka</code>'s code base (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/928">#928</a> and others)</li>
-<li>Replace <code>python-snappy</code> and <code>zstandard</code> with <code>cramjam</code> (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/930">#930</a>)</li>
-<li>PEP518 compliant <code>pyproject.toml</code></li>
-<li>Python 3.12 support</li>
-</ul>
-<p>Bugfixes:</p>
-<ul>
-<li>Fix type annotation for <code>ConsumerRecord</code> (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/912">#912</a> by <a href="https://github.com/zschumacher"><code>@​zschumacher</code></a>)</li>
-<li>Improve send performance (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/943">#943</a>)</li>
-<li>Fix <code>DescribeConfigsResponse_v1</code></li>
-</ul>
-<p>Improved Documentation:</p>
-<ul>
-<li>Fix <code>AbstractTokenProvider.token</code> example (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/919">#919</a> by <a href="https://github.com/mtomilov"><code>@​mtomilov</code></a>)</li>
-</ul>
-<h1>0.8.1 (2023-05-31)</h1>
-<p>New features:</p>
-<ul>
-<li>Drop support for Python 3.7 due to end of life (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/893">#893</a>)</li>
-</ul>
-<p>Bugfixes:</p>
-<ul>
-<li>Add SASL authentication support to <code>AIOKafkaAdminClient</code> (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/889">#889</a>,
-pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/890">#890</a> by <a href="https://github.com/selevit"><code>@​selevit</code></a>)</li>
-</ul>
-<p>Improved Documentation:</p>
-<ul>
-<li>Update <code>security_protocol</code> argument docstring (issue <a href="https://redirect.github.com/aio-libs/aiokafka/issues/883">#883</a>, pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/884">#884</a> by
-<a href="https://github.com/gabrielmbmb"><code>@​gabrielmbmb</code></a>)</li>
-<li>Remove incorrect <code>await</code> for <code>AIOKafkaConsumer.highwater()</code> (pr <a href="https://redirect.github.com/aio-libs/aiokafka/issues/858">#858</a> by
-<a href="https://github.com/yi-jiayu"><code>@​yi-jiayu</code></a>)</li>
-</ul>
-<h1>0.8.0 (2022-11-21)</h1>
-<p>New features:</p>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/881851783673e927591ba274a7703c9b52d387ac"><code>8818517</code></a> Prepare 0.9.0 release</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/d7201c1e26fd2f3e51f15a2cdeda9753d4fd3a1a"><code>d7201c1</code></a> Prepare 0.9.0.rc1 release</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/a25e5c2294ab5967dc4480a71dd07244cbca468d"><code>a25e5c2</code></a> Merge pull request <a href="https://redirect.github.com/aio-libs/aiokafka/issues/947">#947</a> from ods/kafka-python-cleanup</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/fdba76455bfeb91ec349201e396e9840ddda2f90"><code>fdba764</code></a> Fix docstrings</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/170834fa9f5abbef64e3157860ebb873a3aff428"><code>170834f</code></a> Drop unused KafkaBytes</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/2e3ed6460dd561d6bc26f71a217dd0b0ee25c902"><code>2e3ed64</code></a> Remove unused modules</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/702b31f3495295d3ef774bb4dc2a2c2afb2c0f5e"><code>702b31f</code></a> Configure coverage</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/8814e7b8cac108527d98ff5378eab9a0519a8528"><code>8814e7b</code></a> Merge pull request <a href="https://redirect.github.com/aio-libs/aiokafka/issues/946">#946</a> from ods/issue943-send-perfomance</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/3554731f74f936cc004ab4479f9443ed9576b5ae"><code>3554731</code></a> Improve send performance</li>
-<li><a href="https://github.com/aio-libs/aiokafka/commit/b029fa292a95540ce06157324faa4e837f719b59"><code>b029fa2</code></a> Prepare 0.9.0.rc0 release</li>
-<li>Additional commits viewable in <a href="https://github.com/aio-libs/aiokafka/compare/v0.7.2...v0.9.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-<details>
-<summary>Most Recent Ignore Conditions Applied to This Pull Request</summary>
-
-| Dependency Name | Ignore Conditions |
-| --- | --- |
-| aiokafka | [>= 0.10.a, < 0.11] |
-| aiokafka | [>= 0.11.a, < 0.12] |
-</details>
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=aiokafka&package-manager=pip&previous-version=0.7.2&new-version=0.9.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-08 11:16:55 +0000 UTC
     </div>
 </div>
 
