@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3090" class=".btn">#3090</a>
+            </td>
+            <td>
+                <b>
+                    :bug: fix IndyAttrValue bad reference in OpenAPI spec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #3086
+
+See comment for detail: https://github.com/hyperledger/aries-cloudagent-python/issues/3086#issuecomment-2213956023
+
+___
+
+You'll see in the commit logs I first regenerated the OpenAPI spec, to capture all the latest changes since 0.12.1.
+Then I upgraded the openapi gen tools to latest versions, which just improves the default model names in a couple cases:
+- `IndyProofProofProofsProof_non_revoc_proof` -> `IndyNonRevocProof` 
+- `IndyPrimaryProof_eq_proof` -> `IndyEQProof`
+
+No other changes from upgrading the openapi generators to latest versions.
+
+Then, I removed the description metadata from the `IndyAttrValue` field in `DictWithIndyAttrValueSchema`, and regenerated the spec. That solves the bad reference.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 12:43:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3089" class=".btn">#3089</a>
             </td>
             <td>

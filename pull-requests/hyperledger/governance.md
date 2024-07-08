@@ -115,29 +115,3 @@ permalink: /pull-requests/hyperledger/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/294" class=".btn">#294</a>
-            </td>
-            <td>
-                <b>
-                    Add a-zorina
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #293
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-01 12:32:43 +0000 UTC
-    </div>
-</div>
-

@@ -114,12 +114,15 @@ Small proofs to the CLI page
 Fixes #1611
 Fixes #1623 
 
-Fixes #
 
 ### Preview
 <!-- Provide a PR preview link to the page(s) changed. {Example: https://besu-docs-git-100-branch-hyperledger.vercel.app} -->
 
+* [Use configuration file](https://besu-docs-git-fork-m4sterbunny-1611-profile-623a56-hyperledger.vercel.app/development/public-networks/how-to/use-configuration-file)
 
+* [Profile](https://besu-docs-git-fork-m4sterbunny-1611-profile-623a56-hyperledger.vercel.app/development/public-networks/how-to/use-configuration-file/profile)
+
+* [CLI option](https://besu-docs-git-fork-m4sterbunny-1611-profile-623a56-hyperledger.vercel.app/development/public-networks/reference/cli/options#profile)
             </td>
         </tr>
     </table>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/70" class=".btn">#70</a>
+            </td>
+            <td>
+                <b>
+                    Fix upgrade for 1 org
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 13:46:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/69" class=".btn">#69</a>
+            </td>
+            <td>
+                <b>
+                    Fix 1 org upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #68 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 13:19:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/67" class=".btn">#67</a>
             </td>
             <td>
@@ -66,35 +118,6 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     </table>
     <div class="right-align">
         Created At 2024-07-02 12:51:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    Bump to CC-Tools 1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Bump CC-Tools version to 1.0
-- Bump CCAPI Go version to 1.21
-- Update dependencies
-- Remove `ioutil` references, following its deprecation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-01 17:36:42 +0000 UTC
     </div>
 </div>
 

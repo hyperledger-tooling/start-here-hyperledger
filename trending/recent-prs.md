@@ -1,13 +1,13 @@
 
-[327](https://github.com/hyperledger/identus-mediator/pull/327) Build: cleanup for #255
+[848](https://github.com/hyperledger/aries-agent-test-harness/pull/848) Upgrade python to 3.12 in acapy-main backchannel
 
-[732](https://github.com/hyperledger/aries-acapy-plugins/pull/732) Bump ruff from 0.5.0 to 0.5.1 in /firebase_push_notifications
+[178](https://github.com/hyperledger/identus-apollo/pull/178) fix: ci issues after moving to HL 
 
-[731](https://github.com/hyperledger/aries-acapy-plugins/pull/731) Bump google-auth from 2.29.0 to 2.31.0 in /firebase_push_notifications
+[4819](https://github.com/hyperledger/iroha/pull/4819) chore(deps): bump trybuild from 1.0.96 to 1.0.97
 
-[730](https://github.com/hyperledger/aries-acapy-plugins/pull/730) Bump aries-askar from 0.3.1 to 0.3.2 in /firebase_push_notifications
+[4818](https://github.com/hyperledger/iroha/pull/4818) chore(deps): bump async-trait from 0.1.80 to 0.1.81
 
-[729](https://github.com/hyperledger/aries-acapy-plugins/pull/729) Bump ruff from 0.5.0 to 0.5.1 in /oid4vci
+[4817](https://github.com/hyperledger/iroha/pull/4817) chore(deps): bump syn from 2.0.68 to 2.0.69
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

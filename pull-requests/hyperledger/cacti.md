@@ -163,13 +163,13 @@ closes [#3281](https://github.com/hyperledger/cacti/issues/3281)
             </td>
             <td>
                 <b>
-                    docs(examples): migrate supply chain app to XDai connector
+                    docs(examples): migrate supply chain app to XDai connector 
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependent</span>
+                
             </td>
             <td>
                 1. We are in the process of decomissioning the Quorum connector and this
