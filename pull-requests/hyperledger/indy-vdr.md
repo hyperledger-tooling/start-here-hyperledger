@@ -14,49 +14,113 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/304" class=".btn">#304</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/308" class=".btn">#308</a>
             </td>
             <td>
                 <b>
-                    Update Cargo.toml time package
+                    chore(deps): update hyper requirement from 0.14 to 1.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
-                I think this should fix the mac build errors, though I'm still not sure why it's only happening on mac
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-17 17:12:53 +0000 UTC
-    </div>
-</div>
+                Updates the requirements on [hyper](https://github.com/hyperium/hyper) to permit the latest version.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/hyperium/hyper/releases">hyper's releases</a>.</em></p>
+<blockquote>
+<h2>v0.14.29</h2>
+<h2>Bug Fixes</h2>
+<ul>
+<li><strong>http1:</strong> start header read timeout immediately (<a href="https://redirect.github.com/hyperium/hyper/issues/3305">#3305</a>) (<a href="https://github.com/hyperium/hyper/commit/b5c2592fde5e20d29c69428c85aef3d682ee36bc">b5c2592f</a>)</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li><strong>http2:</strong> add config for <code>max_local_error_reset_streams</code> in server (<a href="https://redirect.github.com/hyperium/hyper/issues/3528">#3528</a>) (<a href="https://github.com/hyperium/hyper/commit/dedcb674f35eaec765a42b550caabe6f694d86d1">dedcb674</a>)</li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/jeromegn"><code>@​jeromegn</code></a> made their first contribution in <a href="https://redirect.github.com/hyperium/hyper/pull/3305">hyperium/hyper#3305</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/hyperium/hyper/compare/v0.14.28...v0.14.29">https://github.com/hyperium/hyper/compare/v0.14.28...v0.14.29</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/hyperium/hyper/blob/v0.14.29/CHANGELOG.md">hyper's changelog</a>.</em></p>
+<blockquote>
+<h3>v0.14.29 (2024-06-03)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>http1:</strong> start header read timeout immediately (<a href="https://redirect.github.com/hyperium/hyper/issues/3305">#3305</a>) (<a href="https://github.com/hyperium/hyper/commit/b5c2592fde5e20d29c69428c85aef3d682ee36bc">b5c2592f</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>http2:</strong> add config for <code>max_local_error_reset_streams</code> in server (<a href="https://redirect.github.com/hyperium/hyper/issues/3528">#3528</a>) (<a href="https://github.com/hyperium/hyper/commit/dedcb674f35eaec765a42b550caabe6f694d86d1">dedcb674</a>)</li>
+</ul>
+<h3>v0.14.28 (2023-12-18)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>client:</strong>
+<ul>
+<li>panic when pool idle timeout set to zero (<a href="https://redirect.github.com/hyperium/hyper/issues/3365">#3365</a>) (<a href="https://github.com/hyperium/hyper/commit/34d38008499de37d9b5b65440b3123ccd05c7510">34d38008</a>)</li>
+<li>divide by zero error when DNS returns no addrs (<a href="https://redirect.github.com/hyperium/hyper/issues/3355">#3355</a>) (<a href="https://github.com/hyperium/hyper/commit/41eaf2042b8169d3dd067d49cfdbdaaf36678903">41eaf204</a>)</li>
+<li>Do not strip <code>path</code> and <code>scheme</code> components from URIs for HTTP/2 Extended CONNEC (<a href="https://github.com/hyperium/hyper/commit/45aa62494127066c63c987a57cc5eae2c5361886">45aa6249</a>)</li>
+<li>early respond from server shouldn't propagate reset error (<a href="https://redirect.github.com/hyperium/hyper/issues/3274">#3274</a>) (<a href="https://github.com/hyperium/hyper/commit/aac6760e032050dd47f5dbd32f852bf1ede9312b">aac6760e</a>, closes <a href="https://redirect.github.com/hyperium/hyper/issues/2872">#2872</a>)</li>
+</ul>
+</li>
+<li><strong>http1:</strong>
+<ul>
+<li>add internal limit for chunked extensions (<a href="https://redirect.github.com/hyperium/hyper/issues/3495">#3495</a>) (<a href="https://github.com/hyperium/hyper/commit/344a87822951a46d252843ccc0b48e62988fc85b">344a8782</a>)</li>
+<li>reject chunked headers missing a digit (<a href="https://redirect.github.com/hyperium/hyper/issues/3494">#3494</a>) (<a href="https://github.com/hyperium/hyper/commit/5eca028f4142e3e73f6d6188a4076f4db292b252">5eca028f</a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>body:</strong> deprecate to_bytes() and aggregate() (<a href="https://redirect.github.com/hyperium/hyper/issues/3466">#3466</a>) (<a href="https://github.com/hyperium/hyper/commit/7f382ad64326e1470912feb310d348fd79099c44">7f382ad6</a>)</li>
+<li><strong>client:</strong> add <code>conn::http1::Connection::without_shutdown()</code> method (<a href="https://redirect.github.com/hyperium/hyper/issues/3431">#3431</a>) (<a href="https://github.com/hyperium/hyper/commit/ad504977b520a9582e5516a08b2f1028ef1b5e45">ad504977</a>)</li>
+<li><strong>server:</strong> add <code>Builder::local_addr()</code> (<a href="https://redirect.github.com/hyperium/hyper/issues/3278">#3278</a>) (<a href="https://github.com/hyperium/hyper/commit/d342c2c714498d33891fa285a3c9ae991dc34769">d342c2c7</a>)</li>
+</ul>
+<h3>v0.14.27 (2023-06-26)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>http1:</strong>
+<ul>
+<li>send error on Incoming body when connection errors (<a href="https://redirect.github.com/hyperium/hyper/issues/3256">#3256</a>) (<a href="https://github.com/hyperium/hyper/commit/b107655ff8557d001bb8e558752f5f2247381e98">b107655f</a>, closes <a href="https://redirect.github.com/hyperium/hyper/issues/3253">#3253</a>)</li>
+<li>properly end chunked bodies when it was known to be empty (<a href="https://redirect.github.com/hyperium/hyper/issues/3254">#3254</a>) (<a href="https://github.com/hyperium/hyper/commit/32422c47ec35e7405873277c87de14c18dbb98bd">32422c47</a>, closes <a href="https://redirect.github.com/hyperium/hyper/issues/3252">#3252</a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>client:</strong> include connection info in <code>Client::send_request</code> errors (<a href="https://redirect.github.com/hyperium/hyper/issues/2749">#2749</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/hyperium/hyper/commit/4e61351c1c07f59f8d7b79dcb37c1384acb9f3cb"><code>4e61351</code></a> v0.14.29</li>
+<li><a href="https://github.com/hyperium/hyper/commit/b5c2592fde5e20d29c69428c85aef3d682ee36bc"><code>b5c2592</code></a> fix(http1): start header read timeout immediately (<a href="https://redirect.github.com/hyperium/hyper/issues/3305">#3305</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/093665e3c318b1360df5a7338facc2b47ac5b54a"><code>093665e</code></a> refactor(lib): allow warnings in 0.14.x (<a href="https://redirect.github.com/hyperium/hyper/issues/3677">#3677</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/dedcb674f35eaec765a42b550caabe6f694d86d1"><code>dedcb67</code></a> feat(http2): add config for <code>max_local_error_reset_streams</code> in server (<a href="https://redirect.github.com/hyperium/hyper/issues/3528">#3528</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/98a7ab039461cd859e835ae4d15413489fe5cf6b"><code>98a7ab0</code></a> v0.14.28</li>
+<li><a href="https://github.com/hyperium/hyper/commit/344a87822951a46d252843ccc0b48e62988fc85b"><code>344a878</code></a> fix(http1): add internal limit for chunked extensions (<a href="https://redirect.github.com/hyperium/hyper/issues/3495">#3495</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/5eca028f4142e3e73f6d6188a4076f4db292b252"><code>5eca028</code></a> fix(http1): reject chunked headers missing a digit (<a href="https://redirect.github.com/hyperium/hyper/issues/3494">#3494</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/7f382ad64326e1470912feb310d348fd79099c44"><code>7f382ad</code></a> feat(body): deprecate to_bytes() and aggregate() (<a href="https://redirect.github.com/hyperium/hyper/issues/3466">#3466</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/ad504977b520a9582e5516a08b2f1028ef1b5e45"><code>ad50497</code></a> feat(client): add <code>conn::http1::Connection::without_shutdown()</code> method (<a href="https://redirect.github.com/hyperium/hyper/issues/3431">#3431</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/48997034ed388ae7e0cb083ab1d343df312919a2"><code>4899703</code></a> chore(ci): cache rust dependency</li>
+<li>Additional commits viewable in <a href="https://github.com/hyperium/hyper/compare/v0.14.0...v0.14.29">compare view</a></li>
+</ul>
+</details>
+<br />
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/303" class=".btn">#303</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump rust from 1.41-slim to 1.79-slim in /docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">docker</span>
-            </td>
-            <td>
-                Bumps rust from 1.41-slim to 1.79-slim.
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=rust&package-manager=docker&previous-version=1.41-slim&new-version=1.79-slim)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -88,7 +152,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-17 11:55:53 +0000 UTC
+        Created At 2024-07-08 11:54:22 +0000 UTC
     </div>
 </div>
 
@@ -96,11 +160,11 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/302" class=".btn">#302</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/307" class=".btn">#307</a>
             </td>
             <td>
                 <b>
-                    chore(deps-dev): bump react-native from 0.67.2 to 0.74.2 in /wrappers/javascript
+                    chore(deps-dev): bump react-native from 0.67.2 to 0.74.3 in /wrappers/javascript
                 </b>
             </td>
         </tr>
@@ -109,40 +173,44 @@ You can trigger Dependabot actions by commenting on this PR:
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [react-native](https://github.com/facebook/react-native/tree/HEAD/packages/react-native) from 0.67.2 to 0.74.2.
+                Bumps [react-native](https://github.com/facebook/react-native/tree/HEAD/packages/react-native) from 0.67.2 to 0.74.3.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/facebook/react-native/releases">react-native's releases</a>.</em></p>
 <blockquote>
-<h2>0.74.2</h2>
+<h2>0.74.3</h2>
+<h3>Added</h3>
+<ul>
+<li>Add the ReactMarkerConstants.CONTENT_APPEARED support on Android in bridgeless mode. (<a href="https://github.com/facebook/react-native/commit/3c4d7618f00751b08f73ffcec9ef1f69d44136da">3c4d7618f0</a> by <a href="https://github.com/Kudo"><code>@​Kudo</code></a>)</li>
+</ul>
 <h3>Changed</h3>
 <ul>
-<li>Updated <code>typescript-eslint</code> monorepo to <code>v7</code>
-(<a href="https://github.com/facebook/react-native/commit/91d725136e8fe0fd55fdfca5a4f5bd8ab527f94e">91d725136e</a> by <a href="https://github.com/huntie"><code>@​huntie</code></a>)</li>
-<li>Upgrade CLI to <code>13.6.8</code> (<a href="https://github.com/facebook/react-native/commit/335f6ed83306bfa150c818d26dce4b279de4869f">335f6ed833</a> by <a href="https://github.com/szymonrybczak"><code>@​szymonrybczak</code></a>)</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>Warn only in <code>init</code> command when CLI uses cached <code>npx</code> version (<a href="https://github.com/facebook/react-native/commit/b98c5b960ccc4fe9d2792c35994c414c709a3d7a">b98c5b960c</a> by <a href="https://github.com/szymonrybczak"><code>@​szymonrybczak</code></a>)</li>
-<li><code>selection</code> prop in <code>TextInput</code> was not being applied at component creation (<a href="https://github.com/facebook/react-native/commit/be09d12667044f237f08af410b2838062eb8e657">be09d12667</a> by <a href="https://github.com/alanleedev"><code>@​alanleedev</code></a>)</li>
-</ul>
-<h4>Android specific</h4>
-<ul>
-<li>Fixed dangling <code>mAttachedSurfaces</code> after <code>ReactHost.destroy()</code> (<a href="https://github.com/facebook/react-native/commit/c70d7910361f56bc361ad825fe13fb2178edfeba">c70d791036</a> by <a href="https://github.com/Kudo"><code>@​Kudo</code></a>)</li>
-<li>ReactSoftExceptions in ReactHostImpl only when Context is null (<a href="https://github.com/facebook/react-native/commit/ac3261ff608768ff43736b413c5a5ad67668af61">ac3261ff60</a> by <a href="https://github.com/arushikesarwani94"><code>@​arushikesarwani94</code></a>)</li>
+<li>Feat: update CLI to 13.6.9 (<a href="https://github.com/facebook/react-native/commit/d1e2a3506152abde9b870b1a63f16d00ec277ea6">d1e2a35061</a> by <a href="https://github.com/szymonrybczak"><code>@​szymonrybczak</code></a>)</li>
 </ul>
 <h4>iOS specific</h4>
 <ul>
-<li>Privacy Manifest aggregation failing due to no <code>NSPrivacyAccessedAPITypes</code> key (<a href="https://github.com/facebook/react-native/commit/fc4e0999206ec7c1f465bb2b1fea987e43485a82">fc4e099920</a> by <a href="https://github.com/renchap"><code>@​renchap</code></a>)</li>
-<li>In privacy manifest post install script, handle the case where the file reference doesn't have a path (<a href="https://github.com/facebook/react-native/commit/4ad65ac59a2491db598abb7b32fb793e9693d5ac">4ad65ac59a</a> by <a href="https://github.com/robertying"><code>@​robertying</code></a>)</li>
-<li>Fixed an issue where the <code>selectionColor</code> prop was not being applied on the <code>TextInput</code> component. (<a href="https://github.com/facebook/react-native/commit/2bde626a9fa2f782864937a5258ac494afe27f9f">2bde626a9f</a> by <a href="https://github.com/robinshin"><code>@​robinshin</code></a>)</li>
+<li>Support <code>customizeRootView</code> from <code>RCTRootViewFactory</code> (<a href="https://github.com/facebook/react-native/commit/3c4d7618f00751b08f73ffcec9ef1f69d44136da">3c4d761</a> by <a href="https://github.com/Kudo"><code>@​Kudo</code></a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Codegen computes output path relative to project root instead of current working directory. (<a href="https://github.com/facebook/react-native/commit/d3e0430deac573fd44792e6005d5de20e9ad2797">d3e0430dea</a> by <a href="https://github.com/dmytrorykun"><code>@​dmytrorykun</code></a>)</li>
+</ul>
+<h3>Android specific</h3>
+<ul>
+<li>Android native rejections should be instanceof Error (<a href="https://github.com/facebook/react-native/commit/f4b0fcb92263667754348f82030f85cc941846ba">f4b0fcb9</a> by <a href="https://github.com/huzhanbo1996">huzhanbo1996</a>)</li>
+<li>Tentative fix for NPE <code>JavaTimerManager$IdleCallbackRunnable.cancel</code> (<a href="https://github.com/facebook/react-native/commit/988bf162a0f36d9919cebbebc1fca27b58be4ae5">988bf162a0</a> by <a href="https://github.com/cortinico"><code>@​cortinico</code></a>)</li>
+</ul>
+<h4>iOS specific</h4>
+<ul>
+<li>Fixed Multiline TextInput with a fixed height scrolls to the bottom when changing AttributedText (<a href="https://github.com/facebook/react-native/commit/e210c7c5741202a6e1b372731b50fdb59a7232bb">e210c7c5</a> by <a href="https://github.com/fabOnReact"><code>@​fabOnReact</code></a>)</li>
+<li>Fixed border being drawn over children when no color was set (<a href="https://github.com/facebook/react-native/commit/a2b52af3bcc273cf85f01510c24d4e8da1b45656">a2b52af3</a> by <a href="https://github.com/j-piasecki"><code>@​j-piasecki</code></a>)</li>
 </ul>
 <hr />
 <!-- raw HTML omitted -->
 <p>Hermes dSYMS:</p>
 <ul>
-<li><a href="https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/0.74.2/react-native-artifacts-0.74.2-hermes-framework-dSYM-debug.tar.gz">Debug</a></li>
-<li><a href="https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/0.74.2/react-native-artifacts-0.74.2-hermes-framework-dSYM-release.tar.gz">Release</a></li>
+<li><a href="https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/0.74.3/react-native-artifacts-0.74.3-hermes-framework-dSYM-debug.tar.gz">Debug</a></li>
+<li><a href="https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/0.74.3/react-native-artifacts-0.74.3-hermes-framework-dSYM-release.tar.gz">Release</a></li>
 </ul>
 <hr />
 <p>You can file issues or pick requests against this release <a href="https://github.com/reactwg/react-native-releases/issues/new/choose">here</a>.</p>
@@ -150,12 +218,7 @@ You can trigger Dependabot actions by commenting on this PR:
 <p>To help you upgrade to this version, you can use the <a href="https://react-native-community.github.io/upgrade-helper/">Upgrade Helper</a> ⚛️.</p>
 <hr />
 <p>View the whole changelog in the <a href="https://github.com/facebook/react-native/blob/main/CHANGELOG.md">CHANGELOG.md file</a>.</p>
-<h2>0.74.1</h2>
-<h3>Added</h3>
-<h4>iOS Specific</h4>
-<ul>
-<li>Implement privacy manifest aggregation  (<a href="https://github.com/facebook/react-native/commit/4be1fafec8edca5da5ebe515ad359d4178db7d23">4be1fafec8</a> by <a href="https://github.com/@aleqsio"><code>@​aleqsio</code></a>)</li>
-</ul>
+<h2>0.74.2</h2>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -212,17 +275,17 @@ You can trigger Dependabot actions by commenting on this PR:
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/facebook/react-native/commit/17c0b1766f7e3c1c3a59f7701704f0ea6a6f6bc3"><code>17c0b17</code></a> Release 0.74.2</li>
-<li><a href="https://github.com/facebook/react-native/commit/053f1d9822831187149bb57effc677dad99d723c"><code>053f1d9</code></a> Fix dangling surfaces in ReactHostImpl (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/44393">#44393</a>)</li>
-<li><a href="https://github.com/facebook/react-native/commit/0f44ca644bcf7c124226b42ad484d1e6643c4270"><code>0f44ca6</code></a> chore: Increase iOS script portability (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/44417">#44417</a>)</li>
-<li><a href="https://github.com/facebook/react-native/commit/2e21543017006ee6418c6953d976593d07407755"><code>2e21543</code></a> [LOCAL] Fix prettier</li>
-<li><a href="https://github.com/facebook/react-native/commit/58f232c6c20475309a7cd789863e88a6888bd8f2"><code>58f232c</code></a> [LOCAL] Bump hermes version</li>
-<li><a href="https://github.com/facebook/react-native/commit/1e3d2161e85906e781b2272a9ffefb3dfcf09191"><code>1e3d216</code></a> Merge branch '0.74-stable' of <a href="https://github.com/facebook/react-native">https://github.com/facebook/react-native</a> into 0...</li>
-<li><a href="https://github.com/facebook/react-native/commit/335f6ed83306bfa150c818d26dce4b279de4869f"><code>335f6ed</code></a> feat: upgrade CLI to <code>13.6.8</code> (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/44757">#44757</a>)</li>
-<li><a href="https://github.com/facebook/react-native/commit/752c173da529b48ead482be5088af6758f08ee65"><code>752c173</code></a> Fix Privacy Manifest generator when it does not contain a `NSPrivacyAccessedA...</li>
-<li><a href="https://github.com/facebook/react-native/commit/1860441d848b8f620e0b959e43122628b1cd04c9"><code>1860441</code></a> fix: warn only in <code>init</code> command when CLI uses cached <code>npx</code> version (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/44644">#44644</a>)</li>
-<li><a href="https://github.com/facebook/react-native/commit/a88a3c5bbfbb2d7ea1e9af6f8bea11542bf88cf1"><code>a88a3c5</code></a> iOS: Fixes textinput onscroll event payload (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/43445">#43445</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/facebook/react-native/commits/v0.74.2/packages/react-native">compare view</a></li>
+<li><a href="https://github.com/facebook/react-native/commit/8e5a9360bb8dbf27f05261f11085c1972265ce15"><code>8e5a936</code></a> Release 0.74.3</li>
+<li><a href="https://github.com/facebook/react-native/commit/3d53992051f698665b93a0d2747aaa75b51f3af5"><code>3d53992</code></a> fix: typo when cherry picking from kotlin to java</li>
+<li><a href="https://github.com/facebook/react-native/commit/3c4d7618f00751b08f73ffcec9ef1f69d44136da"><code>3c4d761</code></a> Back out &quot;Revert D58459930: [react-native][PR] Add ReactMarkerConstants.CONTE...</li>
+<li><a href="https://github.com/facebook/react-native/commit/bdf6583c7e5538648e624afd0883aaf392b7eef8"><code>bdf6583</code></a> Fix output path for generated artifacts (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/45165">#45165</a>)</li>
+<li><a href="https://github.com/facebook/react-native/commit/3a1ff948399c7ff568c9f86a4616f2fed7b53616"><code>3a1ff94</code></a> [Hermes] Bump Hermes (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/45220">#45220</a>)</li>
+<li><a href="https://github.com/facebook/react-native/commit/d1e2a3506152abde9b870b1a63f16d00ec277ea6"><code>d1e2a35</code></a> feat: update CLI to 13.6.9 (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/44793">#44793</a>)</li>
+<li><a href="https://github.com/facebook/react-native/commit/7dd6549e099d018027473760c3486c0623f2b65f"><code>7dd6549</code></a> Continue running microtasks when parent task throws</li>
+<li><a href="https://github.com/facebook/react-native/commit/487c8489f1fb88b07acbcd61c223f7c3c0c32f9a"><code>487c848</code></a> Refactor: RuntimeScheduler: Delete ErrorUtils.h (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/43953">#43953</a>)</li>
+<li><a href="https://github.com/facebook/react-native/commit/37b33c34baf4be78f24d3bc3d0a0910da9180827"><code>37b33c3</code></a> Small refactor in RuntimeScheduler_Modern to favor references over shared_ptr...</li>
+<li><a href="https://github.com/facebook/react-native/commit/988bf162a0f36d9919cebbebc1fca27b58be4ae5"><code>988bf16</code></a> Tentative fix for NPE <code>JavaTimerManager$IdleCallbackRunnable.cancel</code> (<a href="https://github.com/facebook/react-native/tree/HEAD/packages/react-native/issues/44852">#44852</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/facebook/react-native/commits/v0.74.3/packages/react-native">compare view</a></li>
 </ul>
 </details>
 <details>
@@ -232,7 +295,7 @@ You can trigger Dependabot actions by commenting on this PR:
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-native&package-manager=npm_and_yarn&previous-version=0.67.2&new-version=0.74.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-native&package-manager=npm_and_yarn&previous-version=0.67.2&new-version=0.74.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -264,7 +327,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-17 11:25:27 +0000 UTC
+        Created At 2024-07-08 11:48:03 +0000 UTC
     </div>
 </div>
 
