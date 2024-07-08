@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/282" class=".btn">#282</a>
+            </td>
+            <td>
+                <b>
+                    Add `getCanTransitionToFlushComplete` to IBCQuerier 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Moved from https://github.com/hyperledger-labs/yui-ibc-solidity/pull/281
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 09:15:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/281" class=".btn">#281</a>
             </td>
             <td>

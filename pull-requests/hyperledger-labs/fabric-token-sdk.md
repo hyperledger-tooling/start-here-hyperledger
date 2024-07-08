@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/683" class=".btn">#683</a>
+            </td>
+            <td>
+                <b>
+                    Re-use logic for new wallet service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 08:03:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/682" class=".btn">#682</a>
             </td>
             <td>
@@ -378,60 +404,6 @@ Integrated orion in the deployment
     </table>
     <div class="right-align">
         Created At 2024-07-02 07:05:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/667" class=".btn">#667</a>
-            </td>
-            <td>
-                <b>
-                    selector streamlining
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR does the following:
-- It introduces an integration test used to test the selectors
-- It deprecates mailman (long glory to it)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-01 07:47:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/666" class=".btn">#666</a>
-            </td>
-            <td>
-                <b>
-                    move authorization to the driver space
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR moves the responsibility of the implementation of the Authorization interface to the driver that better knows the relation between tokens and wallets.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-01 06:36:16 +0000 UTC
     </div>
 </div>
 

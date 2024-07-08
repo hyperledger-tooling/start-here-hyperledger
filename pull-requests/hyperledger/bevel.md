@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2598" class=".btn">#2598</a>
+            </td>
+            <td>
+                <b>
+                    feat(docs): Add helm charts installation guide for ops
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Platforms 
+The crossed out ones is because the implementation is not done (using helm) so the documentation is missing
+## Hyperledger Fabric
+
+- Add Cli
+- Add Channel
+- ~~Add Org~~
+- Add Peer
+- ~~Add orderer~~
+- ~~Add orderer org~~
+- ~~Chaincode Ops~~
+
+## Hyperledger Besu
+
+- Add Validator Node <em>Added in this PR</em>
+- ~~Add Validator Org~~
+- Add Member Org <em>Added in this PR</em>
+
+## Hyperledger Indy
+
+- Add Member Org <em>Added in this PR</em>
+
+## Quorum
+
+- Add Member Org <em>Added in this PR</em>
+
+## R3 Corda
+
+- Add Member Org <em>Added in this PR</em>
+- ~~Add Cordapps~~
+- ~~Add new notary~~
+
+## R3 Corda Ent
+<em>Missing in documentation</em>
+
+## Substrate
+<em>Missing in documentation</em>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 08:56:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2596" class=".btn">#2596</a>
             </td>
             <td>
@@ -59,32 +121,6 @@ permalink: /pull-requests/hyperledger/bevel
     </table>
     <div class="right-align">
         Created At 2024-07-03 14:24:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2593" class=".btn">#2593</a>
-            </td>
-            <td>
-                <b>
-                    chore: merged changes from main to develop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                pre-release merges
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-01 06:36:29 +0000 UTC
     </div>
 </div>
 

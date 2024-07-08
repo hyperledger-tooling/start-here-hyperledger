@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/619" class=".btn">#619</a>
+            </td>
+            <td>
+                <b>
+                    Remove race conditions and simplify endpoint service constructor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes a few race conditions and simplifies the constructor for the endpoint service.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 09:31:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/618" class=".btn">#618</a>
             </td>
             <td>
