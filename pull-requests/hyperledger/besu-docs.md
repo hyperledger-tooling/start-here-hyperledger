@@ -131,32 +131,3 @@ Fixes #1623
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1643" class=".btn">#1643</a>
-            </td>
-            <td>
-                <b>
-                    adding in some details re the peering process
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-Adding in some details regarding the peering process to make it easier to follow
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-02 10:46:58 +0000 UTC
-    </div>
-</div>
-

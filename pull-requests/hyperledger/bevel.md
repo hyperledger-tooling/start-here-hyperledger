@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2601" class=".btn">#2601</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Update ansible playbooks add-peer and add-cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Primary Changes**
+
+1 .Updated playbook platforms/hyperledger-fabric/configuration/add-cli.yaml
+2. Updated playbook platforms/hyperledger-fabric/configuration/add-peer.yaml
+3. Added the component_dir field to the gitops section. This directory stores the values.yaml files created with the role platforms/shared/configuration/roles/create/job_component because storing them in the same directory as the flux manifests causes incompatibility.
+
+fixes #2584
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 11:06:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2598" class=".btn">#2598</a>
             </td>
             <td>

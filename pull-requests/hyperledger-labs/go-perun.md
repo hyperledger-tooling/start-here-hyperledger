@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/404" class=".btn">#404</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/405" class=".btn">#405</a>
             </td>
             <td>
                 <b>
-                    Update CHANGELOG.md to include missing wire changes
+                    381_wire authentication
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                <nil>
+                Add more bus_test for the implemented `wire/net/simple` 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-06 10:14:11 +0000 UTC
+        Created At 2024-07-09 08:40:59 +0000 UTC
     </div>
 </div>
 

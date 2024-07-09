@@ -875,33 +875,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/271" class=".btn">#271</a>
-            </td>
-            <td>
-                <b>
-                    chore: update library versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update aries-askar version (patch)
-- Update askar-crypto version (patch)
-- Update python wrapper version (patch)
-- Update js wrapper versions (patch)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-02 12:11:18 +0000 UTC
-    </div>
-</div>
-
