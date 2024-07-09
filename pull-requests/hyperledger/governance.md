@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/governance/pull/300" class=".btn">#300</a>
+            </td>
+            <td>
+                <b>
+                    update besu groups
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 01:09:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/governance/pull/298" class=".btn">#298</a>
             </td>
             <td>

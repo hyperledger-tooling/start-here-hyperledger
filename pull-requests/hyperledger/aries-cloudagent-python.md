@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3093" class=".btn">#3093</a>
+            </td>
+            <td>
+                <b>
+                    Draft: Add DIF presentation exchange context and cache document
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2634
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 03:51:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3092" class=".btn">#3092</a>
             </td>
             <td>
