@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1260" class=".btn">#1260</a>
+            </td>
+            <td>
+                <b>
+                    Suppressed warnings and removed unused code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added #[allow(dead_code)]. on a few files to avoid building errors.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 00:59:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1259" class=".btn">#1259</a>
+            </td>
+            <td>
+                <b>
+                    Update uniffi readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                the new command for running the script should be: `sh aries/wrappers/uniffi-aries-vcx/scripts/android.build.cargo.ndk.sh`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 23:11:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/1258" class=".btn">#1258</a>
             </td>
             <td>

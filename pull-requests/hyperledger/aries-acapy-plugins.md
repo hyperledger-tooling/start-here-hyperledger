@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/734" class=".btn">#734</a>
+            </td>
+            <td>
+                <b>
+                    Draft: Modular OID4VCI Credential Format Support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this draft, we've restructured the OID4VCI plugin by extracting the JWT credential issuance logic and moving it to a new plugin, JWT_VC_JSON. This adjustment enables the OID4VCI plugin to concentrate exclusively on the protocol, eliminating the need to process individual credential formats. This modular approach simplifies the addition of new credential formats in the future without requiring changes to the OID4VCI plugin.
+
+
+
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 23:08:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/733" class=".btn">#733</a>
             </td>
             <td>
