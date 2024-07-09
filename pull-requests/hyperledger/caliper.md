@@ -14,56 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1599" class=".btn">#1599</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1602" class=".btn">#1602</a>
             </td>
             <td>
                 <b>
-                    fix: #1596 restructure all test folders to match the library they test so it is …
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …easy to locate corresponding tests
-
-<!--- Provide a general summary of the pull request in the Title above -->
-
-## Checklist
- - [ X]  A link to the issue/user story that the pull request relates to
- - [ ]  How to recreate the problem without the fix
- - []  Design of the fix
- - [ ]  How to prove that the fix works
- - [ ]  Automated tests that prove the fix keeps on working
- - [ ]  Documentation - any JSDoc, website, or Stackoverflow answers?
-
-
-## Issue/User story
-<!--- What issue / user story is this for -->
-[#1596](https://github.com/hyperledger/caliper/issues/1596)
-## Steps to Reproduce
-N/A
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-02 10:00:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1598" class=".btn">#1598</a>
-            </td>
-            <td>
-                <b>
-                    Bump test libraries to latest
+                    added version v0.5.0
                 </b>
             </td>
         </tr>
@@ -75,7 +30,7 @@ N/A
                 <!--- Provide a general summary of the pull request in the Title above -->
 
 ## Checklist
- - [X ]  A link to the issue/user story that the pull request relates to
+ - [x]  A link to the issue/user story that the pull request relates to
  - [ ]  How to recreate the problem without the fix
  - [ ]  Design of the fix
  - [ ]  How to prove that the fix works
@@ -84,21 +39,22 @@ N/A
 
 
 ## Issue/User story
-<!--- What issue / user story is this for -->
-[#1597](https://github.com/hyperledger/caliper/issues/1597)
-
+#1600 
 
 ## Steps to Reproduce
 <!--- Provide a link to a live example, or an unambiguous set of steps to -->
 <!--- reproduce this bug include code to reproduce, if relevant -->
-N/A
+1.
+2.
+3.
+4.
 
 
 ## Existing issues
 <!-- Have you searched for any existing issues or are their any similar issues that you've found? -->
-- [ X] [Stack Overflow issues](http://stackoverflow.com/tags/hyperledger-caliper)
-- [ X] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
-- [ X] [Discord history](https://discord.com/channels/905194001349627914/941417677778473031)
+- [ ] [Stack Overflow issues](http://stackoverflow.com/tags/hyperledger-caliper)
+- [ ] [GitHub Issues](https://github.com/hyperledger/caliper/issues)
+- [ ] [Discord history](https://discord.com/channels/905194001349627914/941417677778473031)
 
 <!-- please include any links to issues here -->
 
@@ -118,7 +74,7 @@ N/A
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-02 09:56:30 +0000 UTC
+        Created At 2024-07-09 09:49:14 +0000 UTC
     </div>
 </div>
 

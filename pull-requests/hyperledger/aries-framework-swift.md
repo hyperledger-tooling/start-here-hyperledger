@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/109" class=".btn">#109</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/118" class=".btn">#118</a>
             </td>
             <td>
                 <b>
-                    Update readme
+                    Support Bluetooth
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                <nil>
+                Support device-to-device communication over BLE.
+- Introduce BleInboundTransport and BleOutboundTransport
+- Add a scenario for proof exchange over BLE to the sample app
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-09 09:06:24 +0000 UTC
+        Created At 2024-07-09 08:33:34 +0000 UTC
     </div>
 </div>
 

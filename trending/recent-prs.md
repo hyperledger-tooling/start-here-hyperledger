@@ -1,13 +1,13 @@
 
-[7298](https://github.com/hyperledger/besu/pull/7298) Update status badges
+[3391](https://github.com/hyperledger/cacti/pull/3391) chore(cleanup): deleted deprecated files and folders
 
-[3389](https://github.com/hyperledger/cacti/pull/3389) docs(connector-fabric): remove references to old Fabric v1.4.x tests
+[180](https://github.com/hyperledger/identus-apollo/pull/180) fix: wrong repository urls
 
-[3093](https://github.com/hyperledger/aries-cloudagent-python/pull/3093) Draft: Add DIF presentation exchange context and cache document
+[2601](https://github.com/hyperledger/bevel/pull/2601) [fabric] Update ansible playbooks add-peer and add-cli
 
-[1261](https://github.com/hyperledger/aries-vcx/pull/1261) removed TryGetIndex trait and suppressed errors/warnings
+[620](https://github.com/hyperledger-labs/fabric-smart-client/pull/620) Added traces
 
-[300](https://github.com/hyperledger/governance/pull/300) update besu groups
+[134](https://github.com/hyperledger/identus-docs/pull/134) feat: set identus token
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

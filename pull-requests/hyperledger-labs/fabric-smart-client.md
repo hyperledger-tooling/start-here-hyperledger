@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/620" class=".btn">#620</a>
+            </td>
+            <td>
+                <b>
+                    Added traces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 10:58:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/619" class=".btn">#619</a>
             </td>
             <td>
@@ -319,58 +345,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2024-07-02 13:11:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/607" class=".btn">#607</a>
-            </td>
-            <td>
-                <b>
-                    Support for Orion deployment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-02 11:23:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/606" class=".btn">#606</a>
-            </td>
-            <td>
-                <b>
-                    check if grpc server is nil before accessing it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                caused panic if `grpc.enabled: false`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-02 10:21:34 +0000 UTC
     </div>
 </div>
 

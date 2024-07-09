@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3391" class=".btn">#3391</a>
+            </td>
+            <td>
+                <b>
+                    chore(cleanup): deleted deprecated files and folders
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Deleted 'docs-cactus' and 'weaver/docs' folders.
+- Ensured that the latest contents in the above are reflected in the 'docs' folder.
+- Updated MAINTAINERS.md file with contents from 'weaver/MAINTAINERS.md'.
+- Deleted unnecessary 'MAINTAINERS.md' and 'CONTRIBUTING.md' in the 'weaver' folder.
+- Fixed indentations and removed dead code in source files. Modified GitHub action to test docs build upon change
+
+**Pull Request Requirements**
+- [ ] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [ ] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [ ] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [ ] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [ ] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 11:55:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3390" class=".btn">#3390</a>
+            </td>
+            <td>
+                <b>
+                    refactor(connector-quorum): retire Quorum connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+
+**Pull Request Requirements**
+- [x] Rebased onto `upstream/main` branch and squashed into single commit to help maintainers review it more efficient and to avoid spaghetti git commit graphs that obfuscate which commit did exactly what change, when and, why.
+- [x] Have git sign off at the end of commit message to avoid being marked red. You can add `-s` flag when using `git commit` command. You may refer to this [link](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) for more information.
+- [x] Follow the Commit Linting specification. You may refer to this [link](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) for more information. 
+
+**Character Limit**
+- [x] Pull Request Title and Commit Subject must not exceed 72 characters (including spaces and special characters).
+- [x] Commit Message per line must not exceed 80 characters (including spaces and special characters).
+
+**A Must Read for Beginners**
+For rebasing and squashing, here's a [must read guide](https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing) for beginners.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 07:12:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/3389" class=".btn">#3389</a>
             </td>
             <td>
