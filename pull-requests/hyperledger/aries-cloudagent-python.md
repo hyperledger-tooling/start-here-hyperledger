@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3092" class=".btn">#3092</a>
+            </td>
+            <td>
+                <b>
+                    1.0.0rc4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The release is (I think) ready to go.  Please review the changelog entry and propose any changes to it -- items that should be highlighted, and breaking changes.
+
+I noticed that a number of the dockerfiles reference a container image for what I assume is the latest release -- `3.9-01.12.1`.  When do those get updated following a release?  I assume they don't happen as part of a release -- or do they?  Should I update those in this PR?
+
+Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 21:33:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3090" class=".btn">#3090</a>
             </td>
             <td>

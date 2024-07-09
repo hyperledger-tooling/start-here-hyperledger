@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/267" class=".btn">#267</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/268" class=".btn">#268</a>
             </td>
             <td>
                 <b>
-                    Besu q2 report
+                    2024-07-11 Meeting (plus minor updates)
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">quarterly-report</span>
+                <span class="chip">quarterly-report</span><span class="chip">meeting-minutes</span>
             </td>
             <td>
-                Besu Q2 Report 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-27 17:45:29 +0000 UTC
+        Created At 2024-07-08 20:41:09 +0000 UTC
     </div>
 </div>
 

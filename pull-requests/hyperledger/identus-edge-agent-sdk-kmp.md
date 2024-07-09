@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/identus-edge-agent-sdk-kmp
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-kmp/pull/172" class=".btn">#172</a>
+            </td>
+            <td>
+                <b>
+                    fix: backup/restore duplicates didpeers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Cristian G <cristian.castro@iohk.io>
+
+### Description: 
+This PR fixes an issue with the backup and restore process. It duplicates peer dids and does not fill properly the DIDKeyLink table.
+
+### Checklist: 
+- [x] My PR follows the [contribution guidelines](https://github.com/input-output-hk/atala-prism-wallet-sdk-kmm/blob/main/CONTRIBUTING.md) of this project
+- [x] My PR is free of third-party dependencies that don't comply with the [Allowlist](https://toc.hyperledger.org/governing-documents/allowed-third-party-license-policy.html#approved-licenses-for-allowlist)
+- [x] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [x] I have checked the PR title to follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-08 21:15:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/identus-edge-agent-sdk-kmp/pull/171" class=".btn">#171</a>
             </td>
             <td>
