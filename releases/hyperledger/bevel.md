@@ -123,3 +123,143 @@ permalink: /releases/hyperledger/bevel
     </span>
 </div>
 
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    fabric-cli-1.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    fabric-cli-1.1.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Fabric: Deploys Fabric CLI
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/fabric-cli-1.1.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-07-04 09:14:50 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    fabric-channel-join-1.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    fabric-channel-join-1.1.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Fabric: Joins the peer to the channel.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/fabric-channel-join-1.1.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-07-04 09:14:50 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    fabric-channel-create-1.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    fabric-channel-create-1.1.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Fabric: Creates channel
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/fabric-channel-create-1.1.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-07-04 09:14:50 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    fabric-catools-1.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    fabric-catools-1.1.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Fabric: Generates Fabric Certificates and Keys
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/fabric-catools-1.1.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-07-04 09:14:50 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    fabric-ca-server-1.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    fabric-ca-server-1.1.0
+                </span>
+            </td>
+            <td>
+                Hyperledger Fabric: Deploys Fabric CA server
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/bevel/releases/tag/fabric-ca-server-1.1.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-07-04 09:14:50 +0000 UTC
+    </span>
+</div>
+
