@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1260" class=".btn">#1260</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/1261" class=".btn">#1261</a>
             </td>
             <td>
                 <b>
-                    Suppressed warnings and removed unused code
+                    removed TryGetIndex trait and suppressed errors/warnings
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                added #[allow(dead_code)]. on a few files to avoid building errors.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-09 00:59:22 +0000 UTC
+        Created At 2024-07-09 01:32:24 +0000 UTC
     </div>
 </div>
 

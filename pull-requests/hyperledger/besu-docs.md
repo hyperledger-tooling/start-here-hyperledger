@@ -58,7 +58,7 @@ Fixes #1637
             </td>
             <td>
                 <b>
-                    adds nat-restrict to cli options
+                    adds net-restrict to cli options
                 </b>
             </td>
         </tr>
