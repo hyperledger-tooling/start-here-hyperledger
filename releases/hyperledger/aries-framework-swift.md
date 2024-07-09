@@ -15,29 +15,28 @@ permalink: /releases/hyperledger/aries-framework-swift
         <tr>
             <td colspan="2">
                 <b>
-                    v2.4.0
+                    v2.5.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.4.0
+                    v2.5.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Support connection-less credential exchange and proof exchange. by @kukgini in https://github.com/hyperledger/aries-framework-swift/pull/112
+* Support Bluetooth by @conanoc in https://github.com/hyperledger/aries-framework-swift/pull/118
 
-**Full Changelog**: https://github.com/hyperledger/aries-framework-swift/compare/v2.3.0...v2.4.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.4.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-06-19 04:41:34 +0000 UTC
+        Created At 2024-07-09 08:39:32 +0000 UTC
     </span>
 </div>
 

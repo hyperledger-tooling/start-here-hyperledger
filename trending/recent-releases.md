@@ -1,13 +1,13 @@
 
+[1.0.0rc4](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/1.0.0rc4) 1.0.0rc4
+
+[v2.5.0](https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.5.0) v2.5.0
+
 [v2.0.0-rc.2](https://github.com/hyperledger/cacti/releases/tag/v2.0.0-rc.2) v2.0.0-rc.2
 
-[v1.1.0](https://github.com/hyperledger/bevel/releases/tag/v1.1.0) Bevel Release 1.1.0
+[fabric-channel-join-1.1.0](https://github.com/hyperledger/bevel/releases/tag/fabric-channel-join-1.1.0) fabric-channel-join-1.1.0
 
-[weaver/sdks/fabric/go-sdk/v2.0.0-rc.2](https://github.com/hyperledger/cacti/releases/tag/weaver/sdks/fabric/go-sdk/v2.0.0-rc.2) v2.0.0-rc.2 - GO Fabric Weaver SDK - Jul 04, 2024
-
-[weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-rc.2](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-rc.2) v2.0.0-rc.2 - GO Fabric Utils Library for Interoperation - Jul 04, 2024
-
-[weaver/core/network/fabric-interop-cc/libs/assetexchange/v2.0.0-rc.2](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/libs/assetexchange/v2.0.0-rc.2) v2.0.0-rc.2 - GO Fabric Library for Asset Exchange - Jul 04, 2024
+[fabric-channel-create-1.1.0](https://github.com/hyperledger/bevel/releases/tag/fabric-channel-create-1.1.0) fabric-channel-create-1.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
