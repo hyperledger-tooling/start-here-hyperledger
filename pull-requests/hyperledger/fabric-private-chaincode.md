@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/766" class=".btn">#766</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/767" class=".btn">#767</a>
             </td>
             <td>
                 <b>
-                    Feature/solution skvs
+                    Upgrade ego to version 1.5.3
                 </b>
             </td>
         </tr>
@@ -27,28 +27,43 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                **What this PR does / why we need it**:
+                <!--  Thanks for sending a pull request!  Here are some tips for you:
 
-Implement a Rollback attack protection solution for FPC: SKVS.
+1. If this is your first time, please read our code of conduct and contributor guidelines: 
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CODE_OF_CONDUCT.md
+   In particular pay attention to the git workflows
+      https://docs.google.com/document/d/1sR7YV3pSYN3NEFiW-2fUqtpsJeJrpC0EWUVtEm0Blcg/edit#heading=h.kwcug3pkefak
+2. Fill out below sections.
+3. Label the PR with the label of any component this PR touches.
+4. ALso don't forget to sign your comments before submitting. 
+   Github will complain if there is no DCO but it's easier if we don't have to hunt you down to fix that :-)
 
-Single Key-Value Storage (SKVS) is a naive approach for rollback attacks. All key-value pairs are encapsulated and stored in this approach with a single call to put_state(). During execution, the enclave must load the entire state before accessing individual key-value pairs. While this approach prevents the rollback attack, applications with large states and multiple writers will experience bad performance, as the use of a single key-value pair will cause transactions to fail due to concurrent write issues.
+-->
 
-A user can use it by changing the chain code to SVKS chaincode
-ex: `skvsChaincode := fpc.NewSkvsChaincode(secretChaincode)`
-
+**What this PR does / why we need it**:
 
 **Which issue(s) this PR fixes**:
-Fixes #484 
+<!--
+  list existing bug, feature and/or work-item which this PR addresses.
+  You might also consider creating an issue first for the PR.
+-->
+Fixes #
 
 **Special notes for your reviewer**:
-Loom demonstration video: [Watch here](https://www.loom.com/share/4790cd0cba9e4433879083b41158d42d?sid=a0f367e7-dc49-4065-926d-df7b2fbf55a1)
 
+**Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
+<!--
+  If no, you can delete this section
+  If yes, describe what changes and/or what breaks ..
+-->
+```
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-11 12:56:04 +0000 UTC
+        Created At 2024-07-10 17:59:53 +0000 UTC
     </div>
 </div>
 

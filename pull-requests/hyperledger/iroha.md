@@ -14,6 +14,172 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4833" class=".btn">#4833</a>
+            </td>
+            <td>
+                <b>
+                    refactor: query filters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                # Description
+
+This PR introduces a lot of changes to the query subsystem. I tried to make the changes gradually in smaller PRs, but it ended up being very intertwined =(
+
+## Summary of changes
+- Queries are now split into two categories: iterable queries which return sequences of results and singular queries that return a single value. They are now fully disjoint traits stored in different Box enums, as they require very different handling.
+- Query filters (aka predicates) are now typed depending on the type of the iterable query they are applied to (#4569). Instead of a single `PredicateBox` there is a predicate type for each queryable type (like `AccountPredicateBox`), with `CompountPredicate<T>` providing the logical operations on top.
+- A new rust DSL to construct the predicates is introduced. It is designed to look very close to how one would write an `Iterator::filter` closure (`|obj| obj.field.inner_field.starts_with("hello")`) and is inspired by diesel's DSL.
+- HTTP clients and wasm code (smart contracts, triggers and executor) are now using a common query builder struct, generic over a new `QueryExecutor` trait
+- The HTTP API is majorly revamped to pass all of the params as scale-encoded values. This simplifies the torii handler, makes it more type-safe (can't add pagination to singular query) and allows sharing more code with wasm
+- All of the queries that can be implemented as filtered versions of other queries are now removed. Here's a rough google table I made to keep track of all of them: https://docs.google.com/spreadsheets/d/1Cx9cU4wLk1ZyIa3Igx0NN9azl9dfqcXXMJMLKTMxes4/edit?usp=sharing
+
+### The primary key question
+
+Currently we have a bunch of queries that give you an object using its Primary Key (like `FindAccountById`). They can be implemented by filtering a basis query that returns all objects of such type (like `FindAllAccounts`). However, with naïve implementation (which this PR currently does) this would result in `O(n)` complexity instead of `O(log n)` that we currently have.
+
+There is a way to do these lookups fast: just pattern-match the filter on the shape `|obj| obj.id.eq(expected_id)` and use the primary key index instead of linear scan. We can even use a similar approach to speed up other types of queries, if deemed necessary.
+
+However, merging it as-is would mean that the primary queries would be slow. I can probably add the PK queries back for now, if that's unacceptable.
+
+## Future work
+
+These are improvements I see that can be made to this PR, but I would prefer them to be implemented in separate PRs. I'll convent them to issues when this PR gets closer to getting merged.
+
+Perf:
+- the Primary Key optimization (see above)
+- make queries truly lazy (put them into the query store without collecting them all in a vec); Needs investigation whether that'll actually be beneficial and some clever implementation (need to store an iterator with lifetime tied to iroha state snapshot).
+
+Ergonomics:
+- `client::account::all()` is unfortunate, seeing as how most of the queries would be "all" with filters now
+- provide helpers like `client::domain::by_id`, with them still relying on filtered queries
+- `impl Into<String>` for ids (#4832)
+
+Misc:
+- `Display` representations for queries & filters (right now printing them with `Debug`)
+- check that the iterable query continuation is executed by the same authority as the one that started it
+
+## Linked issue
+
+Closes #4569, #4720, #3720, #3671.
+
+## Checklist
+
+I still have a lot of doc strings, an overview of the predicate DSL implementation and some tests to write, hence marking this PR as a draft.
+
+- [ ] add more docs and remove all the `#[warn(missing_docs)]`
+- [ ] add more tests of the DSL
+- [ ] add a test checking the validation performed on `SignedQueryCandidate`
+- [ ] make CI pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-10 17:29:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4831" class=".btn">#4831</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump tomlkit from 0.12.5 to 0.13.0 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [tomlkit](https://github.com/sdispater/tomlkit) from 0.12.5 to 0.13.0.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/python-poetry/tomlkit/blob/master/CHANGELOG.md">tomlkit's changelog</a>.</em></p>
+<blockquote>
+<h2>[0.13.0] - 2024-07-10</h2>
+<h3>Changed</h3>
+<ul>
+<li>Expect a tomlkit-specific error instead of <code>TypeError</code> from a custom encoder. (<a href="https://redirect.github.com/python-poetry/tomlkit/issues/355">#355</a>)</li>
+<li>Drop support for Python older than 3.8. Remove 3.7 from the CI matrix.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fix the incompatiblity with 3.13 because of the <code>datetime.replace()</code> change. (<a href="https://redirect.github.com/python-poetry/tomlkit/issues/333">#333</a>)</li>
+<li>Revert the change of parsing out-of-order tables. (<a href="https://redirect.github.com/python-poetry/tomlkit/issues/347">#347</a>)</li>
+<li>Keep the nested out-of-order table. (<a href="https://redirect.github.com/python-poetry/tomlkit/issues/361">#361</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/4d06dff4bc4a1cc16e0f600f71df8f41724efcec"><code>4d06dff</code></a> chore: bump version to 0.13.0</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/85aaf7a9231030fc3455048d78bfdabfe0a0a937"><code>85aaf7a</code></a> fix: keep the nested out of order table (<a href="https://redirect.github.com/sdispater/tomlkit/issues/366">#366</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/f12ece324fc376d0f863717005ba6acc5f9d8933"><code>f12ece3</code></a> chore(deps-dev): bump zipp from 3.15.0 to 3.19.1 (<a href="https://redirect.github.com/sdispater/tomlkit/issues/365">#365</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/f4b2f74d2a4e19ee8bebd94b874c8c47699a169f"><code>f4b2f74</code></a> chore(deps-dev): bump requests from 2.31.0 to 2.32.2 (<a href="https://redirect.github.com/sdispater/tomlkit/issues/364">#364</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/0747884431425b45071b696fd6ffe806d59304bb"><code>0747884</code></a> chore(deps-dev): bump urllib3 from 2.0.7 to 2.2.2 (<a href="https://redirect.github.com/sdispater/tomlkit/issues/363">#363</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/d55d837d0b139bd48567ac90204baccb8ce0cbd9"><code>d55d837</code></a> fix: Remove 3.7 from the CI matrix</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/49daa69df84db37ab3e9ec365c3a9590d5455646"><code>49daa69</code></a> chore(deps-dev): bump certifi from 2024.2.2 to 2024.7.4 (<a href="https://redirect.github.com/sdispater/tomlkit/issues/362">#362</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/cce567ca4c1455d948d68c0fa32f7eb9196b9be3"><code>cce567c</code></a> [pre-commit.ci] pre-commit autoupdate (<a href="https://redirect.github.com/sdispater/tomlkit/issues/359">#359</a>)</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/400057ba17dbf562fa4fe01fc26b40d7112690e4"><code>400057b</code></a> fix: <code>tomlkit</code> 0.12.5 : Encoder contract interferes with external <code>TypeError</code>...</li>
+<li><a href="https://github.com/python-poetry/tomlkit/commit/22676f9a79228df216d79ba98209b98c2313c31c"><code>22676f9</code></a> Update tests action (<a href="https://redirect.github.com/sdispater/tomlkit/issues/357">#357</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/sdispater/tomlkit/compare/0.12.5...0.13.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tomlkit&package-manager=pip&previous-version=0.12.5&new-version=0.13.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-10 16:39:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4828" class=".btn">#4828</a>
             </td>
             <td>
