@@ -14,6 +14,478 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4828" class=".btn">#4828</a>
+            </td>
+            <td>
+                <b>
+                    fix: Keep voting block if possible
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Implements idea from https://github.com/hyperledger/iroha/pull/4518#discussion_r1612185825:
+
+> Maybe we can be smarter about when to reject incoming block? Like checking signatures, height, hashes this checks doesn’t need ability to modify state.
+
+This is relatively small change which I think will keep voting block in most cases (however not in all).
+
+---
+
+Alternative approach might be to change our state block to accumulate changes localy and take write lock just before applying changes. However it will require large refactoring and might affect performance.
+
+### Linked issue
+
+Closes #4643
+
+### Benefits
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 17:53:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4826" class=".btn">#4826</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump clap from 4.5.8 to 4.5.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [clap](https://github.com/clap-rs/clap) from 4.5.8 to 4.5.9.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+<blockquote>
+<h2>v4.5.9</h2>
+<h2>[4.5.9] - 2024-07-09</h2>
+<h3>Fixes</h3>
+<ul>
+<li><em>(error)</em> When defining a custom help flag, be sure to suggest it like we do the built-in one</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's changelog</a>.</em></p>
+<blockquote>
+<h2>[4.5.9] - 2024-07-09</h2>
+<h3>Fixes</h3>
+<ul>
+<li><em>(error)</em> When defining a custom help flag, be sure to suggest it like we do the built-in one</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/clap-rs/clap/commit/43e73682835653ac48f32cc786514553d697c693"><code>43e7368</code></a> chore: Release</li>
+<li><a href="https://github.com/clap-rs/clap/commit/f00dafa690479e562ef22c3ed82f17726213ee32"><code>f00dafa</code></a> docs: Update changelog</li>
+<li><a href="https://github.com/clap-rs/clap/commit/da1093a4f4cd1abba7de0b86f39319ab86913420"><code>da1093a</code></a> Merge pull request <a href="https://redirect.github.com/clap-rs/clap/issues/5574">#5574</a> from zanieb/zb/try-help-custom</li>
+<li><a href="https://github.com/clap-rs/clap/commit/2eb842cc3bc1fb5f04156efa816003ef803d5254"><code>2eb842c</code></a> feat: Show user defined help flags in hints</li>
+<li><a href="https://github.com/clap-rs/clap/commit/b24deb101f7e12660b8b19d6b3979df87ffe065d"><code>b24deb1</code></a> test: Add coverage for help flag hints</li>
+<li><a href="https://github.com/clap-rs/clap/commit/866d7d14d33a3ef1f010222f004815b5cd8c15ef"><code>866d7d1</code></a> chore(deps): Update compatible (dev) (<a href="https://redirect.github.com/clap-rs/clap/issues/5560">#5560</a>)</li>
+<li><a href="https://github.com/clap-rs/clap/commit/d14bbc95317eb87a115f56c455bdab6ba19342ff"><code>d14bbc9</code></a> Merge pull request <a href="https://redirect.github.com/clap-rs/clap/issues/5567">#5567</a> from epage/c</li>
+<li><a href="https://github.com/clap-rs/clap/commit/5448020b188899601d641a2684833073aba0a669"><code>5448020</code></a> fix: Install shells for CI</li>
+<li><a href="https://github.com/clap-rs/clap/commit/1c5a625ad0303e2407c8ab83ea7d37795e69a3a5"><code>1c5a625</code></a> fix: Fix wrong <code>cfg(linux)</code></li>
+<li><a href="https://github.com/clap-rs/clap/commit/2d2d1f498731d2ab70e8f15fed3765a856d52732"><code>2d2d1f4</code></a> chore: Bump completest</li>
+<li>Additional commits viewable in <a href="https://github.com/clap-rs/clap/compare/v4.5.8...v4.5.9">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=clap&package-manager=cargo&previous-version=4.5.8&new-version=4.5.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 16:58:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4825" class=".btn">#4825</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump syn from 2.0.69 to 2.0.70
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.69 to 2.0.70.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/syn/releases">syn's releases</a>.</em></p>
+<blockquote>
+<h2>2.0.70</h2>
+<ul>
+<li>Improve parenthesization of closures, jumps, ranges, chained comparisons, and let (<a href="https://redirect.github.com/dtolnay/syn/issues/1694">#1694</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1695">#1695</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1698">#1698</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1699">#1699</a>, <a href="https://redirect.github.com/dtolnay/syn/issues/1700">#1700</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/syn/commit/5c67e2689791db44258d99402ae6d05b1898d9a3"><code>5c67e26</code></a> Release 2.0.70</li>
+<li><a href="https://github.com/dtolnay/syn/commit/935c1e1817d411a02d09d2315ed533df12f70ace"><code>935c1e1</code></a> Configure out more full-only expression kinds in print_expr</li>
+<li><a href="https://github.com/dtolnay/syn/commit/e664375b4981637a490f1f30dd252536371ef2cc"><code>e664375</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1704">#1704</a> from dtolnay/fixup</li>
+<li><a href="https://github.com/dtolnay/syn/commit/f1daf234e942ffda27ed45ec67aa6cd984081c2a"><code>f1daf23</code></a> Enable expression fixups in 'derive' mode</li>
+<li><a href="https://github.com/dtolnay/syn/commit/678dbc2e50904de7b80f10f4d355be5536a8bceb"><code>678dbc2</code></a> Update test suite to nightly-2024-07-08</li>
+<li><a href="https://github.com/dtolnay/syn/commit/628e2f7003d17ae0c02d0da076577001e62015a3"><code>628e2f7</code></a> Ignore needless_update clippy lint</li>
+<li><a href="https://github.com/dtolnay/syn/commit/c3e378cdda142d83f14055661001d39533199f3f"><code>c3e378c</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1703">#1703</a> from dtolnay/cast</li>
+<li><a href="https://github.com/dtolnay/syn/commit/d47e532913bb9138cc47a6a3756aeead9ad2d08a"><code>d47e532</code></a> Rearrange logic of FixupContext precedence methods</li>
+<li><a href="https://github.com/dtolnay/syn/commit/9809f716e3aa0b3223489860f29385afcd04b5f8"><code>9809f71</code></a> Incorporate parenthesization of casts into FixupContext</li>
+<li><a href="https://github.com/dtolnay/syn/commit/ff022f529241e536c75ecd79ee155518723c1460"><code>ff022f5</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1702">#1702</a> from dtolnay/preclet</li>
+<li>Additional commits viewable in <a href="https://github.com/dtolnay/syn/compare/2.0.69...2.0.70">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.69&new-version=2.0.70)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 16:57:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4824" class=".btn">#4824</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump uuid from 1.9.1 to 1.10.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [uuid](https://github.com/uuid-rs/uuid) from 1.9.1 to 1.10.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/uuid-rs/uuid/releases">uuid's releases</a>.</em></p>
+<blockquote>
+<h2>1.10.0</h2>
+<h2>Deprecations</h2>
+<p>This release deprecates and renames the following functions:</p>
+<ul>
+<li><code>Builder::from_rfc4122_timestamp</code> -&gt; <code>Builder::from_gregorian_timestamp</code></li>
+<li><code>Builder::from_sorted_rfc4122_timestamp</code> -&gt; <code>Builder::from_sorted_gregorian_timestamp</code></li>
+<li><code>Timestamp::from_rfc4122</code> -&gt; <code>Timestamp::from_gregorian</code></li>
+<li><code>Timestamp::to_rfc4122</code> -&gt; <code>Timestamp::to_gregorian</code></li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>Use const identifier in uuid macro by <a href="https://github.com/Vrajs16"><code>@​Vrajs16</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/764">uuid-rs/uuid#764</a></li>
+<li>Rename most methods referring to RFC4122 by <a href="https://github.com/Mikopet"><code>@​Mikopet</code></a> / <a href="https://github.com/KodrAus"><code>@​KodrAus</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/765">uuid-rs/uuid#765</a></li>
+<li>prepare for 1.10.0 release by <a href="https://github.com/KodrAus"><code>@​KodrAus</code></a> in <a href="https://redirect.github.com/uuid-rs/uuid/pull/766">uuid-rs/uuid#766</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/Vrajs16"><code>@​Vrajs16</code></a> made their first contribution in <a href="https://redirect.github.com/uuid-rs/uuid/pull/764">uuid-rs/uuid#764</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/uuid-rs/uuid/compare/1.9.1...1.10.0">https://github.com/uuid-rs/uuid/compare/1.9.1...1.10.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/uuid-rs/uuid/commit/4b4c590ae323b683a7ba80f05c83d3002ddc2fc5"><code>4b4c590</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/766">#766</a> from uuid-rs/cargo/1.10.0</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/68eff326408ea269253aa0ba8f6cb3ac4099f894"><code>68eff32</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/765">#765</a> from uuid-rs/chore/time-fn-deprecations</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/3d5384da4bfb2f35ad4426440d285e4a13c8c011"><code>3d5384d</code></a> update docs and deprecation messages for timestamp fns</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/de50f2091f05a973b4e8ca2f7eddd03459b1b680"><code>de50f20</code></a> renaming rfc4122 functions</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/4a8841792a8bb7007d23a54fa866adc5cec79425"><code>4a88417</code></a> prepare for 1.10.0 release</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/66b4fcef14862bc5d8d45acb9f6683a37fa5ecb4"><code>66b4fce</code></a> Merge pull request <a href="https://redirect.github.com/uuid-rs/uuid/issues/764">#764</a> from Vrajs16/main</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/8896e26c421a8b9a7a935acf83d291df40256de9"><code>8896e26</code></a> Use expr instead of ident</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/09973d6aff62b61ec35f577a757148007deb5f05"><code>09973d6</code></a> Added changes</li>
+<li><a href="https://github.com/uuid-rs/uuid/commit/6edf3e8cd59351589622daf1f2634870d90896e3"><code>6edf3e8</code></a> Use const identifer in uuid macro</li>
+<li>See full diff in <a href="https://github.com/uuid-rs/uuid/compare/1.9.1...1.10.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=uuid&package-manager=cargo&previous-version=1.9.1&new-version=1.10.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 16:55:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4823" class=".btn">#4823</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump darling from 0.20.9 to 0.20.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [darling](https://github.com/TedDriggs/darling) from 0.20.9 to 0.20.10.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/TedDriggs/darling/releases">darling's releases</a>.</em></p>
+<blockquote>
+<h2>v0.20.10</h2>
+<ul>
+<li>Add <code>#[allow(clippy::manual_unwrap_or_default)]</code> to all generated impls to avoid causing clippy fails in crates using <code>darling</code> <a href="https://redirect.github.com/TedDriggs/darling/pull/296">#296</a></li>
+<li>Properly initialize <code>attrs</code> magic field in derived <code>FromAttributes</code> impls <a href="https://redirect.github.com/TedDriggs/darling/pull/297">#297</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/TedDriggs/darling/blob/master/CHANGELOG.md">darling's changelog</a>.</em></p>
+<blockquote>
+<h2>v0.20.10 (July 9, 2024)</h2>
+<ul>
+<li>Add <code>#[allow(clippy::manual_unwrap_or_default)]</code> to all generated impls to avoid causing clippy fails in crates using <code>darling</code> <a href="https://redirect.github.com/TedDriggs/darling/pull/296">#296</a></li>
+<li>Properly initialize <code>attrs</code> magic field in derived <code>FromAttributes</code> impls <a href="https://redirect.github.com/TedDriggs/darling/pull/297">#297</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/TedDriggs/darling/commits/v0.20.10">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=darling&package-manager=cargo&previous-version=0.20.9&new-version=0.20.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 16:54:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4822" class=".btn">#4822</a>
+            </td>
+            <td>
+                <b>
+                    fix(docker): propagate SIGTERM to irohad
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4783 
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-09 15:18:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4819" class=".btn">#4819</a>
             </td>
             <td>

@@ -88,36 +88,3 @@ permalink: /pull-requests/hyperledger-labs/cc-tools-demo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cc-tools-demo/pull/66" class=".btn">#66</a>
-            </td>
-            <td>
-                <b>
-                    CC-Tools 1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Changes
-- Bump CC-Tools version to 1.0
-- Bump Go version from both chaincode and API to 1.21
-- Update project dependencies
-- Refactor godog tests to use the library instead of the binaries
-- Generate collection files on startDev
-- Use new callers format on transactions
-- Automatic fabric binaries download if non-existent on the system
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-02 12:51:58 +0000 UTC
-    </div>
-</div>
-
