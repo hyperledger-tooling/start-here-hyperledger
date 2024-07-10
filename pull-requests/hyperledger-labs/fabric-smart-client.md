@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/622" class=".btn">#622</a>
+            </td>
+            <td>
+                <b>
+                    orion v0.2.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-10 13:09:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/621" class=".btn">#621</a>
             </td>
             <td>
@@ -217,32 +243,6 @@ This PR makes it so that if you want to use pkcs11, you have to build the binary
     </table>
     <div class="right-align">
         Created At 2024-07-04 13:45:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/613" class=".btn">#613</a>
-            </td>
-            <td>
-                <b>
-                    Fixes for orion deployment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-03 18:16:13 +0000 UTC
     </div>
 </div>
 

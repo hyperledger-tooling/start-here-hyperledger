@@ -1,13 +1,13 @@
 
-[211](https://github.com/hyperledger/iroha-python/pull/211) fix: types in asset transfer
+[767](https://github.com/hyperledger/fabric-private-chaincode/pull/767) Upgrade ego to version 1.5.3
 
-[2076](https://github.com/hyperledger/web3j/pull/2076) Updated TypeReference and TypeDecoder to support decoding of dynamic structs and dynamic struct arrays without a priori Class definitions.
+[4833](https://github.com/hyperledger/iroha/pull/4833) refactor: query filters
 
-[14](https://github.com/hyperledger-labs/bdls/pull/14) update contributor meeting 
+[686](https://github.com/hyperledger-labs/fabric-token-sdk/pull/686) orion update
 
-[81](https://github.com/hyperledger-labs/governance/pull/81) Add IyNew-Letni
+[4831](https://github.com/hyperledger/iroha/pull/4831) chore(deps): bump tomlkit from 0.12.5 to 0.13.0 in /client_cli/pytests
 
-[283](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/283) Introduce slither
+[622](https://github.com/hyperledger-labs/fabric-smart-client/pull/622) orion v0.2.10
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
