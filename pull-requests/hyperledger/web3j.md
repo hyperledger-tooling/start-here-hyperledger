@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j/pull/2072" class=".btn">#2072</a>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2076" class=".btn">#2076</a>
             </td>
             <td>
                 <b>
-                    Document the minimum required Java version for the target project to use Web3j as a dependency
+                    Updated TypeReference and TypeDecoder to support decoding of dynamic structs and dynamic struct arrays without a priori Class definitions.
                 </b>
             </td>
         </tr>
@@ -27,34 +27,39 @@ permalink: /pull-requests/hyperledger/web3j
                 
             </td>
             <td>
-                ### What does this PR do?
-This PR documents the minimum required Java version for the target project to use Web3j as a dependency
+                - **Updated TypeReference object to support nested types to support truly dynamic stucts.**
+- **Support decoding of DynamicArray of DynamicStruct (with corresponding unit test). Change visibility of TypeReference's innerTypes and getSubTypeReference() to protected/public to allow for overriding in anonymous classes. Redo naming of some innerType-specific functions in TypeDecoder to minimize code diffs.**
+
+### What does this PR do?
+This PR builds off of the PR originally created by calmacfadden at https://github.com/hyperledger/web3j/pull/2023.
 
 ### Where should the reviewer start?
-Relevant to the PR:
+* Look in TypeDecoder.java, with attention to the decodeDynamicParameterFromStructWithTypeReference() and
+decodeDynamicStructElementsFromInnerTypes(). Note that the Ctor() version of functions from PR 2023 have been
+renamed to omit the Ctor so as to match the name in the main branch and reduce code diffs.
 
-the current java version that is used for compilation:
+* The unit test testArrayOfDynamicStruct() provides an example of decoding an array of dynamic structs (uint256,bool,string)[]
+based on a transaction from the Treasure Ruby testnet.
 
-https://github.com/hyperledger/web3j/blob/main/gradle/java/build.gradle
-Somewhat relevant issue: https://github.com/hyperledger/web3j/issues/2069
+* I've taken some stylistic liberty by renaming TypeReference.innerTypeReferences() to TypeReferences.innerTypes().
+
+* I've changed the scope of some fields in TypeReference from private to protected/public to allow for creating the
+anonymous DynamicArray class seen in testArrayOfDynamicStruct().
 
 ### Why is it needed?
-
-Users might encounter errors because Web3j doesn't compile with their project before they realize that the required version should be at least Java 17.
-
-I think it will be beneficial for users to see the required Java version in the README, so they don't spend time digging into the Gradle parameters or troubleshooting issues while building their projects.
-
+As with PR 2023, it would be useful to decode dynamic structs without having to explicitly define a corresponding class.
 
 ## Checklist
 
 - [x] I've read the contribution guidelines.
-- not applicable: I've added tests (if applicable).
-- IMO a too smal change for a changelog entry. I've added a changelog entry if necessary.
+- [x] I've added tests (if applicable).
+- [ ] I've added a changelog entry if necessary.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-27 20:30:27 +0000 UTC
+        Created At 2024-07-10 08:16:51 +0000 UTC
     </div>
 </div>
 

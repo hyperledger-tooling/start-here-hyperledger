@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 <b>
-                    Mitigate reentrancy
+                    Introduce slither
                 </b>
             </td>
         </tr>
