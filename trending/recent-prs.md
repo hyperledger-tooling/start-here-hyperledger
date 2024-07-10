@@ -1,13 +1,13 @@
 
-[3391](https://github.com/hyperledger/cacti/pull/3391) chore(cleanup): deleted deprecated files and folders
+[471](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/471) chore(release): v1.6.1 (last release)
 
-[180](https://github.com/hyperledger/identus-apollo/pull/180) fix: wrong repository urls
+[685](https://github.com/hyperledger-labs/fabric-token-sdk/pull/685) Bump google.golang.org/grpc from 1.64.0 to 1.64.1
 
-[2601](https://github.com/hyperledger/bevel/pull/2601) [fabric] Update ansible playbooks add-peer and add-cli
+[428](https://github.com/hyperledger/fabric-ca/pull/428) Bump google.golang.org/grpc from 1.64.0 to 1.64.1 in the go_modules group
 
-[620](https://github.com/hyperledger-labs/fabric-smart-client/pull/620) Added traces
+[1870](https://github.com/hyperledger/indy-node/pull/1870) Feature/ubuntu22 04
 
-[134](https://github.com/hyperledger/identus-docs/pull/134) feat: set identus token
+[4924](https://github.com/hyperledger/fabric/pull/4924) Bump zipp from 3.15.0 to 3.19.1 in /docs in the pip group across 1 directory
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
