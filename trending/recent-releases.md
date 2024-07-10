@@ -1,13 +1,13 @@
 
-[1.0.0rc4](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/1.0.0rc4) 1.0.0rc4
+[common/protos-go/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.6.1) v1.6.1 - GO Weaver Protos - Jul 10, 2024
 
-[v2.5.0](https://github.com/hyperledger/aries-framework-swift/releases/tag/v2.5.0) v2.5.0
+[core/network/fabric-interop-cc/contracts/interop/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.6.1) v1.6.1 - GO Fabric Interop Chaincode - Jul 10, 2024
 
-[v.1.3.6](https://github.com/hyperledger/identus-apollo/releases/tag/v.1.3.6) v.1.3.6
+[core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.1) v1.6.1 - GO Fabric Asset Management Interface - Jul 10, 2024
 
-[v2.0.0-rc.2](https://github.com/hyperledger/cacti/releases/tag/v2.0.0-rc.2) v2.0.0-rc.2
+[core/network/fabric-interop-cc/libs/assetexchange/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/v1.6.1) v1.6.1 - GO Fabric Library for Asset Exchange - Jul 10, 2024
 
-[fabric-channel-create-1.1.0](https://github.com/hyperledger/bevel/releases/tag/fabric-channel-create-1.1.0) fabric-channel-create-1.1.0
+[core/network/fabric-interop-cc/libs/utils/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/v1.6.1) v1.6.1 - GO Fabric Utils Library for Interoperation - Jul 10, 2024
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
