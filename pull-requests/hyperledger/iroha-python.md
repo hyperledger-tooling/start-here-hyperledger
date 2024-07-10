@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/209" class=".btn">#209</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/211" class=".btn">#211</a>
             </td>
             <td>
                 <b>
-                    [fix] #198: Role manipulation
+                    fix: types in asset transfer
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-27 22:39:28 +0000 UTC
+        Created At 2024-07-10 11:42:20 +0000 UTC
     </div>
 </div>
 
