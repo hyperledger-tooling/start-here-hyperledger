@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/zeto
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/zeto/pull/13" class=".btn">#13</a>
+            </td>
+            <td>
+                <b>
+                    Pass in proving_keys_root instead of reading environment variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-11 18:19:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/zeto/pull/12" class=".btn">#12</a>
             </td>
             <td>
