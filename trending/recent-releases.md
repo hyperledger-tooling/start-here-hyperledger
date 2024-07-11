@@ -5,9 +5,9 @@
 
 [v1.3.7](https://github.com/hyperledger/identus-apollo/releases/tag/v1.3.7) v1.3.7
 
-[core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.1) v1.6.1 - GO Fabric Asset Management Interface - Jul 10, 2024
+[sdks/fabric/go-sdk/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/sdks/fabric/go-sdk/v1.6.1) v1.6.1 - GO Fabric Weaver SDK - Jul 10, 2024
 
-[core/network/fabric-interop-cc/libs/assetexchange/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/v1.6.1) v1.6.1 - GO Fabric Library for Asset Exchange - Jul 10, 2024
+[core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.6.1) v1.6.1 - GO Fabric Asset Management Interface - Jul 10, 2024
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
