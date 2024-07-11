@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/68" class=".btn">#68</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    Update fabproxy removal example documentation
+                    Fab Proxy Doc Changes
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                - Provide updates to documentation
-- Copy fabproxy-removal to the docker image
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-05 12:44:02 +0000 UTC
+        Created At 2024-07-11 06:35:21 +0000 UTC
     </div>
 </div>
 
