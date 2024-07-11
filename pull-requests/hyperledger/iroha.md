@@ -75,6 +75,8 @@ I still have a lot of doc strings, an overview of the predicate DSL implementati
 - [ ] add more docs and remove all the `#[warn(missing_docs)]`
 - [ ] add more tests of the DSL
 - [ ] add a test checking the validation performed on `SignedQueryCandidate`
+- [ ] fix client cli tests
+- [ ] fix ui tests
 - [ ] make CI pass
 
             </td>

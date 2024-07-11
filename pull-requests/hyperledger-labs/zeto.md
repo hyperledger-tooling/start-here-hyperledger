@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/zeto
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/zeto/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/zeto/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Add missing copyright headers
+                    Add Makefile to generate all proving keys
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/zeto
                 
             </td>
             <td>
-                <nil>
+                Run "make keys" in zkp folder.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-03 16:16:25 +0000 UTC
+        Created At 2024-07-10 19:59:15 +0000 UTC
     </div>
 </div>
 
