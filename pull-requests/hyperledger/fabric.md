@@ -382,34 +382,3 @@ Updated existing tests and added new tests to cover the new feature and edge cas
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4917" class=".btn">#4917</a>
-            </td>
-            <td>
-                <b>
-                    bump golang.org/x/crypto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix:
-
-Vulnerability found in dependency:
-CVE-2023-42818
-9.8
-Improper Restriction of Excessive Authentication Attempts vulnerability with High severity found
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-04 09:18:22 +0000 UTC
-    </div>
-</div>
-
