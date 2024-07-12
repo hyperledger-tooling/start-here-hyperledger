@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/687" class=".btn">#687</a>
+            </td>
+            <td>
+                <b>
+                    fix data race in local membership
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prevent some data race for the function `GetDefaultIdentifier` (reading list of resolvers) when called from `mapStringToID`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-12 13:49:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/686" class=".btn">#686</a>
             </td>
             <td>
@@ -192,32 +218,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-07-06 14:41:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/680" class=".btn">#680</a>
-            </td>
-            <td>
-                <b>
-                    Removed SP from token drivers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-05 15:11:41 +0000 UTC
     </div>
 </div>
 

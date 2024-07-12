@@ -14,6 +14,162 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4844" class=".btn">#4844</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump syn from 2.0.70 to 2.0.71
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.70 to 2.0.71.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/syn/releases">syn's releases</a>.</em></p>
+<blockquote>
+<h2>2.0.71</h2>
+<ul>
+<li>Do not require mutable borrow in Punctuated::get() (<a href="https://redirect.github.com/dtolnay/syn/issues/1706">#1706</a>, thanks <a href="https://github.com/lemunozm"><code>@​lemunozm</code></a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/syn/commit/f34dc7bb53185a11f3aa45fc691488547c8c76ee"><code>f34dc7b</code></a> Release 2.0.71</li>
+<li><a href="https://github.com/dtolnay/syn/commit/896d58bdb2508a089100247f01f7271222c518df"><code>896d58b</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1706">#1706</a> from lemunozm/patch-1</li>
+<li><a href="https://github.com/dtolnay/syn/commit/dd7e269f577dc33bcf92bec2583f7e53609081fb"><code>dd7e269</code></a> Remove mut from Puntuated::get()</li>
+<li>See full diff in <a href="https://github.com/dtolnay/syn/compare/2.0.70...2.0.71">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.70&new-version=2.0.71)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-12 16:15:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4843" class=".btn">#4843</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump thiserror from 1.0.61 to 1.0.62
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [thiserror](https://github.com/dtolnay/thiserror) from 1.0.61 to 1.0.62.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.62</h2>
+<ul>
+<li>Support referring to nested tuple struct fields inside <code>#[error(&quot;…&quot;, …)]</code> attribute (<a href="https://redirect.github.com/dtolnay/thiserror/issues/309">#309</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/thiserror/commit/0bf6e3dd781409b62cbcf0816ffa1bb970d24833"><code>0bf6e3d</code></a> Release 1.0.62</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/497793283934d9e514d903a14278af6babbfbb65"><code>4977932</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/thiserror/issues/310">#310</a> from dtolnay/nestedtuple</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/40a7779b1793f2dce5f85abe8c03486cdb5eb640"><code>40a7779</code></a> Support .0.0 nested tuple index</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/f1ca210cc4772f198af91886e3849dac68114f97"><code>f1ca210</code></a> Add regression test for issue 309</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/479744ec288f9183b8849f013dcee226ac6588ee"><code>479744e</code></a> No need for dead code if struct fields are public</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/4db08b10a39cfd189a36a88dee0fad578ac11cbe"><code>4db08b1</code></a> Ignore warning on unused struct in test</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/f2824ae379ac2edee1fd687b9e56f18c048086cd"><code>f2824ae</code></a> Fill in ignore reasons in all #[ignore] attributes</li>
+<li>See full diff in <a href="https://github.com/dtolnay/thiserror/compare/1.0.61...1.0.62">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=thiserror&package-manager=cargo&previous-version=1.0.61&new-version=1.0.62)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-12 16:14:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4841" class=".btn">#4841</a>
             </td>
             <td>
@@ -1333,130 +1489,6 @@ If we don't it is implied that we use wasm, so no harm done there
     </table>
     <div class="right-align">
         Created At 2024-07-08 08:50:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4808" class=".btn">#4808</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump serde_with from 3.8.2 to 3.8.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [serde_with](https://github.com/jonasbb/serde_with) from 3.8.2 to 3.8.3.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/jonasbb/serde_with/releases">serde_with's releases</a>.</em></p>
-<blockquote>
-<h2>serde_with v3.8.3</h2>
-<h3>Fixed</h3>
-<ul>
-<li>Fix compile issues when dependency <code>schemars_0_8</code> is used with the <code>preserve_order</code> features (<a href="https://redirect.github.com/jonasbb/serde_with/issues/762">#762</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/jonasbb/serde_with/commit/1c4b022e6018fbf1f9cb2e897bae519f91ed6908"><code>1c4b022</code></a> Bump version to v3.8.3 (<a href="https://redirect.github.com/jonasbb/serde_with/issues/765">#765</a>)</li>
-<li><a href="https://github.com/jonasbb/serde_with/commit/7de983895c0dcbf8598676f52b987a0026f7d816"><code>7de9838</code></a> Bump version to v3.8.3</li>
-<li><a href="https://github.com/jonasbb/serde_with/commit/19bfe182439616416f0fc17b1fac134e1b29e537"><code>19bfe18</code></a> Make code compile with <code>schemars_0_8/preserve_order</code> enabled (<a href="https://redirect.github.com/jonasbb/serde_with/issues/764">#764</a>)</li>
-<li><a href="https://github.com/jonasbb/serde_with/commit/4c8c2db1105da0408c89330e0bcfc7ac4818975c"><code>4c8c2db</code></a> Make code compile with <code>schemars_0_8/preserve_order</code> enabled</li>
-<li>See full diff in <a href="https://github.com/jonasbb/serde_with/compare/v3.8.2...v3.8.3">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=serde_with&package-manager=cargo&previous-version=3.8.2&new-version=3.8.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-05 16:29:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4807" class=".btn">#4807</a>
-            </td>
-            <td>
-                <b>
-                    fix: Check that authority owns domain to transfer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-When transfer `domain` from `source` account:
-* Fixed check in executor that `authority` owns `domain` (previously it checked that `source` owns `domain`, but it is not needed since it is checked in iroha_core)
-* Improved error message for check that `source` owns `domain` in iroha_core
-
-### Linked issue
-
-Closes #4751
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-05 14:53:30 +0000 UTC
     </div>
 </div>
 
