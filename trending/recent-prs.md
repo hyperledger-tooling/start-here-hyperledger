@@ -1,13 +1,13 @@
 
-[4841](https://github.com/hyperledger/iroha/pull/4841) fix: replace `Duration` with `u64` in schema
+[4844](https://github.com/hyperledger/iroha/pull/4844) chore(deps): bump syn from 2.0.70 to 2.0.71
 
-[767](https://github.com/hyperledger-labs/fabric-operations-console/pull/767) Update ubi8 to nodejs20
+[4843](https://github.com/hyperledger/iroha/pull/4843) chore(deps): bump thiserror from 1.0.61 to 1.0.62
 
-[428](https://github.com/hyperledger/iroha-java/pull/428) Bump com.github.docker-java:docker-java from 3.3.0 to 3.4.0
+[623](https://github.com/hyperledger-labs/fabric-smart-client/pull/623) dispose sessions and contexts
 
-[284](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/284) Add ERC-165 to IIBCModule
+[14](https://github.com/hyperledger-labs/zeto/pull/14) Bump golang.org/x/crypto from 0.7.0 to 0.17.0 in /zkp/golang
 
-[694](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/694) first draft full repo readme via ai
+[687](https://github.com/hyperledger-labs/fabric-token-sdk/pull/687) fix data race in local membership
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
