@@ -165,6 +165,9 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             <td>
                 ## Description
 
+- move clippy and coverage tests jobs to PR workflow trigger
+- add workflow_run.id and trigger on completed for pushing artifacts produced in previous workflow 
+
 <!-- Just describe what you did. -->
 
 <!-- Skip if the title of the PR is self-explanatory -->
@@ -177,6 +180,9 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
+
+- clippy and coverage tests will be made in one workflow with other tests
+- artifacts can be pushed from separate workflow, making it possible to push test artifacts from forks
 
 <!-- EXAMPLE: users can't revoke their own right to revoke rights -->
 
