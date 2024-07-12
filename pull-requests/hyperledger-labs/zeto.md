@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/zeto
             </td>
             <td>
                 <b>
-                    Pass in proving_keys_root instead of reading environment variable
+                    zeto-js should make no assumptions about environment variables
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/zeto
                 
             </td>
             <td>
-                <nil>
+                Exported functions in this library should only expose the pre-compiled WASM circuits that ship with the library. Because key generation is done separately, key loading should be handled by the client and not by the library.
             </td>
         </tr>
     </table>
