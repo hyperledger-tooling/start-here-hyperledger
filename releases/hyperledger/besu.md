@@ -15,90 +15,61 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    24.5.4
+                    24.7.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    24.5.4
+                    24.7.0
                 </span>
             </td>
             <td>
-                The same as [24.5.2](https://github.com/hyperledger/besu/releases/tag/24.5.2) with the only change being to fix the inability to build from source.
-
-### Bug fixes
-- Rectify build from source failure with updated 0.8.4 artifacts from besu-native [#7210](https://github.com/hyperledger/besu/pull/7210) 
-2d2082bd2ebebdc24a45007dd3c9c45ea9b430ef8a4b6025be4ef3376317f5d7  besu-24.5.4.tar.gz
-9d8774a69f90986477aabd2d7713ed22df1e2f29ed6b62a1889ac21675026f83  besu-24.5.4.zip
-
-`docker pull docker.io/hyperledger/besu:24.5.4`
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/24.5.4" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2024-06-12 06:07:06 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    24.6.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    24.6.0
-                </span>
-            </td>
-            <td>
-                ### Breaking Changes
-- Java 21 has been enforced as minimum version to build and run Besu.
-- With --bonsai-limit-trie-logs-enabled by default in this release, historic trie log data will be removed from the database unless sync-mode=FULL. It respects the --bonsai-historical-block-limit setting so shouldn't break any RPCs, but may be breaking if you are accessing this data from the database directly. Can be disabled with --bonsai-limit-trie-logs-enabled=false
-- In profile=ENTERPRISE, use sync-mode=FULL (instead of FAST) and data-storage-format=FOREST (instead of BONSAI) [#7186](https://github.com/hyperledger/besu/pull/7186)
-  - If this breaks your node, you can reset sync-mode=FAST and data-storage-format=BONSAI
+                ## 24.7.0
 
 ### Upcoming Breaking Changes
 - Receipt compaction will be enabled by default in a future version of Besu. After this change it will not be possible to downgrade to the previous Besu version.
 - PKI-backed QBFT will be removed in a future version of Besu. Other forms of QBFT will remain unchanged.
-- --Xbonsai-limit-trie-logs-enabled (and --Xbonsai-trie-log-pruning-enabled) is deprecated, use --bonsai-limit-trie-logs-enabled instead
+- --Xbonsai-limit-trie-logs-enabled is deprecated, use --bonsai-limit-trie-logs-enabled instead
 - --Xbonsai-trie-logs-pruning-window-size is deprecated, use --bonsai-trie-logs-pruning-window-size instead
-- Receipt compaction will be enabled by default in a future version of Besu. After this change it will not be possible to downgrade to the previous Besu version.
+- `besu storage x-trie-log` subcommand is deprecated, use `besu storage trie-log` instead
+
+### Breaking Changes
+- `Xp2p-peer-lower-bound` has been removed. [#7247](https://github.com/hyperledger/besu/pull/7247)
 
 ### Additions and Improvements
-- Add two counters to DefaultBlockchain in order to be able to calculate TPS and Mgas/s [#7105](https://github.com/hyperledger/besu/pull/7105)
-- Enable --Xbonsai-limit-trie-logs-enabled by default, unless sync-mode=FULL [#7181](https://github.com/hyperledger/besu/pull/7181)
-- Promote experimental --Xbonsai-limit-trie-logs-enabled to production-ready, --bonsai-limit-trie-logs-enabled [#7192](https://github.com/hyperledger/besu/pull/7192)
-- Promote experimental --Xbonsai-trie-logs-pruning-window-size to production-ready, --bonsai-trie-logs-pruning-window-size [#7192](https://github.com/hyperledger/besu/pull/7192)
-- `admin_nodeInfo` JSON/RPC call returns the currently active EVM version [#7127](https://github.com/hyperledger/besu/pull/7127)
-- Improve the selection of the most profitable built block [#7174](https://github.com/hyperledger/besu/pull/7174)
+- Support for eth_maxPriorityFeePerGas [#5658](https://github.com/hyperledger/besu/pull/7194)
+- Improve genesis state performance at startup [#6977](https://github.com/hyperledger/besu/pull/6977)
+- Enable continuous profiling with default setting [#7006](https://github.com/hyperledger/besu/pull/7006)
+- A full and up to date implementation of EOF for Prague [#7169](https://github.com/hyperledger/besu/pull/7169)
+- Add Subnet-Based Peer Permissions.  [#7168](https://github.com/hyperledger/besu/pull/7168)
+- Reduce lock contention on transaction pool when building a block [#7180](https://github.com/hyperledger/besu/pull/7180)
+- Update Docker base image to Ubuntu 24.04 [#7251](https://github.com/hyperledger/besu/pull/7251)
+- Add LUKSO as predefined network name [#7223](https://github.com/hyperledger/besu/pull/7223)
+- Refactored how code, initcode, and max stack size are configured in forks. [#7245](https://github.com/hyperledger/besu/pull/7245)
+- Nodes in a permissioned chain maintain (and retry) connections to bootnodes [#7257](https://github.com/hyperledger/besu/pull/7257)
+- Promote experimental `besu storage x-trie-log` subcommand to production-ready [#7278](https://github.com/hyperledger/besu/pull/7278)
+- Enhanced BFT round-change diagnostics [#7271](https://github.com/hyperledger/besu/pull/7271)
 
 ### Bug fixes
-- Make `eth_gasPrice` aware of the base fee market [#7102](https://github.com/hyperledger/besu/pull/7102)
+- Validation errors ignored in accounts-allowlist and empty list [#7138](https://github.com/hyperledger/besu/issues/7138)
+- Fix "Invalid block detected" for BFT chains using Bonsai DB [#7204](https://github.com/hyperledger/besu/pull/7204)
+- Chain download halt fix(https://github.com/hyperledger/besu/pull/7162), fixes related issues: [#7109](https://github.com/hyperledger/besu/issues/7109)  [#6884](https://github.com/hyperledger/besu/issues/6884)
 
-fa86e5c6873718cd568e3326151ce06957a5e7546b52df79a831ea9e39b857ab  besu-24.6.0.tar.gz
-8b2d3a674cd7ead68b9ca68fea21e46d5ec9b278bbadc73f8c13c6a1e1bc0e4d  besu-24.6.0.zip
+96cf47defd1d8c10bfc22634e53e3d640eaa81ef58cb0808e5f4265998979530  besu-24.7.0.tar.gz
+7e92e2eb469be197af8c8ca7ac494e7a2e7ee91cbdb02d99ff87fb5209e0c2a0  besu-24.7.0.zip
 
-`docker pull docker.io/hyperledger/besu:24.6.0`
+`docker pull docker.io/hyperledger/besu:24.7.0`
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/24.6.0" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/24.7.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-06-11 03:45:07 +0000 UTC
+        Created At 2024-07-01 23:06:55 +0000 UTC
     </span>
 </div>
 
