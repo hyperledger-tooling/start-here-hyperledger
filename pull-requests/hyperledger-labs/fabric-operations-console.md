@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/766" class=".btn">#766</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/767" class=".btn">#767</a>
             </td>
             <td>
                 <b>
-                    renamed the misc cases file
+                    Update ubi8 to nodejs20
                 </b>
             </td>
         </tr>
@@ -27,19 +27,21 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                renamed the misc cases file as file name was having space in word and failing in firefox
+                Update ubi8 to nodejs20
+registry.access.redhat.com/ubi8/nodejs-20
 
 #### Type of change
-- Test update
+nodejs 20 update
 
 #### Description
-renamed the misc cases file as file name was having space in word
+Update ubi8 to nodejs20
+registry.access.redhat.com/ubi8/nodejs-20
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-01 05:11:11 +0000 UTC
+        Created At 2024-07-12 06:49:00 +0000 UTC
     </div>
 </div>
 
