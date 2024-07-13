@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/623" class=".btn">#623</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/624" class=".btn">#624</a>
             </td>
             <td>
                 <b>
-                    dispose sessions and contexts
+                    Multiplex websockets
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-12 15:25:33 +0000 UTC
+        Created At 2024-07-12 22:09:20 +0000 UTC
     </div>
 </div>
 

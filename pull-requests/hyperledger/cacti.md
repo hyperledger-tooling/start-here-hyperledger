@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/3384" class=".btn">#3384</a>
+                PR <a href="https://github.com/hyperledger/cacti/pull/3385" class=".btn">#3385</a>
             </td>
             <td>
                 <b>
-                    feat(connector-corda): add vaultQueryV1 REST API operation + endpoint
+                    build: bump uuid@10.0.0 fs-extra@11.2.0 @bufbuild/protobuf@1.10.0
                 </b>
             </td>
         </tr>
@@ -27,22 +27,26 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                Primary change(s):
------------------
+                BREAKING CHANGE: Renamed classes to fix typos in their name: `PluginFactoryPersistanceFabric`
+This is being done in this pull request because for some reason (that I still don't understand)
+the spell checker started failing on these only in the context of this pull request.
+The typos were present on the main branch already somehow having passed spellchecking earlier
+and every other time since then.
 
-1. Adds a (for now) simplistic endpoint to query ledger state which allows
-us to retrieve identifiers needed to construct flow requests in certain
-use-cases.
-2. This expands the number of supported use-cases for the Corda v4 (JVM)
-connector.
+And also
+- prom-clien@15.1.3
+- del-cli@5.1.0
+- cspell@8.10.4
+- del-cli@5.1.0
 
-Notes:
--------
-Automated testing is work in progress, but it depends on a few other
-big(er) changes so in an effort to limit the size of this pull request
-I'm only submitting the steps for manual testing as documented in the
-package's README.md file. These are steps which I have executed myself
-and can vouch that they work as expected.
+Quality of life improvements and also hoping to get rid of a few of the
+vulnerable dependency versions we have in the codebase according to
+dependabot.
+
+More similar changes are coming in with further upgrades but I want to
+avoid making bigger changes in one go so that it's easier to hunt down
+bugs later if something only gets discovered after we've merged a bunch
+of these.
 
 Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
 
@@ -61,7 +65,7 @@ For rebasing and squashing, here's a [must read guide](https://github.com/servo/
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-06 01:01:03 +0000 UTC
+        Created At 2024-07-06 04:09:08 +0000 UTC
     </div>
 </div>
 
