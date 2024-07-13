@@ -1,13 +1,13 @@
 
-[4844](https://github.com/hyperledger/iroha/pull/4844) chore(deps): bump syn from 2.0.70 to 2.0.71
+[627](https://github.com/hyperledger/cello/pull/627) update glob(npm) for dashboard
 
-[4843](https://github.com/hyperledger/iroha/pull/4843) chore(deps): bump thiserror from 1.0.61 to 1.0.62
+[82](https://github.com/hyperledger-labs/governance/pull/82) Add Vadneyk
 
-[623](https://github.com/hyperledger-labs/fabric-smart-client/pull/623) dispose sessions and contexts
+[624](https://github.com/hyperledger-labs/fabric-smart-client/pull/624) Multiplex websockets
 
-[14](https://github.com/hyperledger-labs/zeto/pull/14) Bump golang.org/x/crypto from 0.7.0 to 0.17.0 in /zkp/golang
+[689](https://github.com/hyperledger-labs/fabric-token-sdk/pull/689) Added traces for DB operations
 
-[687](https://github.com/hyperledger-labs/fabric-token-sdk/pull/687) fix data race in local membership
+[688](https://github.com/hyperledger-labs/fabric-token-sdk/pull/688) Fix duration metrics
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
