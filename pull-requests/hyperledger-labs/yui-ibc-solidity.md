@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/285" class=".btn">#285</a>
+            </td>
+            <td>
+                <b>
+                    Fix to use nanosecond unit as 04-upgrade timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This also fixes the following:
+* add hostTimestamp to IBCHost
+* fix overflow check for host timestamp
+* fix 09-localhost's getTimestampAtHeight to return timestamp as nanoseconds
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-13 02:21:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/284" class=".btn">#284</a>
             </td>
             <td>
