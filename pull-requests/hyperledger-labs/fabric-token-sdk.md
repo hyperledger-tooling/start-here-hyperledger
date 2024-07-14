@@ -219,31 +219,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/682" class=".btn">#682</a>
-            </td>
-            <td>
-                <b>
-                    stress test update + bug fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does the following:
-- Update the stress test
-- Bug fixes identified after the execution of the stress test
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-07 07:01:00 +0000 UTC
-    </div>
-</div>
-
