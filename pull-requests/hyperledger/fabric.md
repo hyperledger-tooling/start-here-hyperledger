@@ -121,29 +121,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4923" class=".btn">#4923</a>
-            </td>
-            <td>
-                <b>
-                    [WIP]: Remove legacy lscc chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-06 19:17:05 +0000 UTC
-    </div>
-</div>
-

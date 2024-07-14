@@ -168,29 +168,3 @@ This PR makes it so that if you want to use pkcs11, you have to build the binary
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/618" class=".btn">#618</a>
-            </td>
-            <td>
-                <b>
-                    Fix data race errors 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-06 19:32:35 +0000 UTC
-    </div>
-</div>
-
