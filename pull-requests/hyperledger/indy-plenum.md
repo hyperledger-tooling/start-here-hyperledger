@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1674" class=".btn">#1674</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1675" class=".btn">#1675</a>
             </td>
             <td>
                 <b>
-                    Bump gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-07-02-14-18-47
+                    Bump gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-07-14-17-19-51
                 </b>
             </td>
         </tr>
@@ -27,10 +27,10 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 <span class="chip">dependencies</span><span class="chip">docker</span>
             </td>
             <td>
-                Bumps gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-07-02-14-18-47.
+                Bumps gitpod/workspace-base from 2022-12-09-04-00-52 to 2024-07-14-17-19-51.
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gitpod/workspace-base&package-manager=docker&previous-version=2022-12-09-04-00-52&new-version=2024-07-02-14-18-47)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gitpod/workspace-base&package-manager=docker&previous-version=2022-12-09-04-00-52&new-version=2024-07-14-17-19-51)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -62,7 +62,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-08 11:39:56 +0000 UTC
+        Created At 2024-07-15 11:41:39 +0000 UTC
     </div>
 </div>
 
