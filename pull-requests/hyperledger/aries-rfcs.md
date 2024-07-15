@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/845" class=".btn">#845</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/846" class=".btn">#846</a>
             </td>
             <td>
                 <b>
-                    Bump mkdocs-material from 9.5.27 to 9.5.28
+                    Bump mkdocs-material from 9.5.27 to 9.5.29
                 </b>
             </td>
         </tr>
@@ -27,11 +27,17 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 <span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.5.27 to 9.5.28.
+                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.5.27 to 9.5.29.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/releases">mkdocs-material's releases</a>.</em></p>
 <blockquote>
+<h2>mkdocs-material-9.5.29</h2>
+<ul>
+<li>Updated Galician translations</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7362">#7362</a>: Annotations in figure captions rendering incorrectly</li>
+</ul>
+<p>Thanks go to <a href="https://github.com/mmontes11"><code>@​mmontes11</code></a> for their contributions</p>
 <h2>mkdocs-material-9.5.28</h2>
 <ul>
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7313">#7313</a>: Improved tooltips mounted in sidebar when feature is disabled</li>
@@ -42,6 +48,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/blob/master/CHANGELOG">mkdocs-material's changelog</a>.</em></p>
 <blockquote>
+<p>mkdocs-material-9.5.29 (2024-07-14)</p>
+<ul>
+<li>Updated Galician translations</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7362">#7362</a>: Annotations in figure captions rendering incorrectly</li>
+</ul>
 <p>mkdocs-material-9.5.28 (2024-07-02)</p>
 <ul>
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7313">#7313</a>: Improved tooltips mounted in sidebar when feature is disabled</li>
@@ -87,11 +98,6 @@ permalink: /pull-requests/hyperledger/aries-rfcs
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7160">#7160</a>: Version switching doesn't stay on page (9.5.5 regression)</li>
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5619">#5619</a>: Links in Mermaid.js diagrams not discernible</li>
 </ul>
-<p>mkdocs-material-9.5.21 (2024-05-03)</p>
-<ul>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7133">#7133</a>: Ensure latest version of Mermaid.js is used</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7125">#7125</a>: Added warning for dotfiles in info plugin</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -99,23 +105,23 @@ permalink: /pull-requests/hyperledger/aries-rfcs
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/4f8081c268d31bf74d546e600cadd0cff7dc89e8"><code>4f8081c</code></a> Prepare 9.5.29 release</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/33452c92eaa8f6b9d0ea0cdde08c7539d559db1c"><code>33452c9</code></a> Fixed annotations in figure captions</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/672c40333b576d9529bf7911e522f40c38df8cca"><code>672c403</code></a> Documentation (<a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7361">#7361</a>)</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/c7c8fcb3af8390e15fc1de4cdf24bd28bf989f19"><code>c7c8fcb</code></a> Updated Galician translations</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/5d1f77cc3a0fccbd63ffea36fed2c1cc134976bb"><code>5d1f77c</code></a> Documentation</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f5fea7c526b2362587ebeaa32127be1028b2d996"><code>f5fea7c</code></a> Updated dependencies</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/be7ab8a58f9152e42f1d56f9663569473c19aefe"><code>be7ab8a</code></a> Added <code>npm run fix</code> to fix ESLint errors (<a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/7337">#7337</a>)</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/36e5263c00fdaf147e37ad4aa65f0277e06d9fdc"><code>36e5263</code></a> Documentation</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/73d50aab6a81887e430e014d85ad4ca7ed35cb8c"><code>73d50aa</code></a> Updated premium sponsors</li>
 <li><a href="https://github.com/squidfunk/mkdocs-material/commit/1b78c2c5cc1c430c4923d43d5a5c27c9efffc1b4"><code>1b78c2c</code></a> Prepare 9.5.28 release</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/c5fd98c94e6e6eea3d3db88832827729b10a564f"><code>c5fd98c</code></a> Fixed links in sponsors section</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/fa04d0ca6324282ff11e1033c0743e76ae7f3af4"><code>fa04d0c</code></a> Updated dependencies</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/845fc610b0b65842538997eac8d1c3eb05ac82f7"><code>845fc61</code></a> Fixed improved tooltips mounted when disabled</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/12a8e82837fe400dd1f123e41d75b32987a11744"><code>12a8e82</code></a> Removed all references to polyfill.io</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/436860fe1725b22659aa00e1839763ba220c140b"><code>436860f</code></a> Bump docker/build-push-action from 5 to 6</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/b0484699f7b860751b7926de95e2d30d781b847d"><code>b048469</code></a> Switched to ES2018 target</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/eff555a669d420318151befc4a79bd9f747687da"><code>eff555a</code></a> Updated dependencies</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/610be26e6c9b902c465c313709de7ae9498795f5"><code>610be26</code></a> Updated README</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f1ffead06ae6858584969462563bb09ab918041f"><code>f1ffead</code></a> Documentation</li>
-<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.5.27...9.5.28">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.5.27...9.5.29">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.5.27&new-version=9.5.28)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.5.27&new-version=9.5.29)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -147,7 +153,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-08 11:53:41 +0000 UTC
+        Created At 2024-07-15 11:17:32 +0000 UTC
     </div>
 </div>
 

@@ -754,33 +754,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/733" class=".btn">#733</a>
-            </td>
-            <td>
-                <b>
-                    General library upgrades
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                General weekly library upgrades. All looked safe to me.
-
-- ruff
-- aries-askar
-- certifi
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-08 15:46:13 +0000 UTC
-    </div>
-</div>
-
