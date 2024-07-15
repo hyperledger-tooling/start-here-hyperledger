@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/460" class=".btn">#460</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/461" class=".btn">#461</a>
             </td>
             <td>
                 <b>
-                    chore: Refactor extendChaincodesConfig.ts to allow private data in chaincode
+                    added the error message
                 </b>
             </td>
         </tr>
@@ -27,35 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                #### References
-- Original Issue: #415
-
-#### Issue Details
-
-The default configuration for `requiredPeerCount` causes the following error:
-```
-error in simulation: failed to distribute private collection, txID 123, channel 123: could not build private data dissemination plan for chaincode 123 and collection 123: required to disseminate to at least 1 peers, but know of only 0 eligible peers.
-```
-
-#### Solution
-
-The solution is to allow `requiredPeerCount` to be set to 0. This can be achieved by modifying the logic in the code that generates this property. Specifically, removing the `|| 1` part from the following lines of code:
-```javascript
-const anchorPeerCountsInChannel = channel.orgs.map((o) => (o.anchorPeers || []).length);
-const maxPeerCount = anchorPeerCountsInChannel.reduce((a, b) => a + b, 0);
-const requiredPeerCount = anchorPeerCountsInChannel.reduce((a, b) => Math.min(a, b), maxPeerCount) || 1;
-```
-
-#### Changes Made
-
-- Removed the `|| 1` from the calculation of `requiredPeerCount` to allow it to be set to 0 if necessary.
-
-
+                fixes #454 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-01 01:40:25 +0000 UTC
+        Created At 2024-07-15 15:17:45 +0000 UTC
     </div>
 </div>
 
