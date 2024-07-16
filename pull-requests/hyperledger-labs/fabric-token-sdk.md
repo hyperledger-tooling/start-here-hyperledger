@@ -79,7 +79,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">improvements</span>
             </td>
             <td>
-                <nil>
+                * Added different implementations to fetch the tokens. Behind these implementations we implement optimizations on how to fetch the tokens. The lazy one queries the database every time. The eager one polls the database and returns the cached result. The mixed one first serves the cached result and then the lazy one. Further strategies can be implemented as: a. Return the cached result if it is fresh enough. b. Listen for DB inserts in the token table and update the cache.
+* Minimized the information we fetched from the database to avoid spooling big byte arrays
+* Permutating the tokens every selector takes to avoid racing for the same tokens in the same order
             </td>
         </tr>
     </table>
