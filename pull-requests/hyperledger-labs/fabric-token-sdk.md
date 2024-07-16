@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/696" class=".btn">#696</a>
+            </td>
+            <td>
+                <b>
+                    Updated FSC version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-16 11:23:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/695" class=".btn">#695</a>
+            </td>
+            <td>
+                <b>
+                    Added traces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-16 08:20:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/694" class=".btn">#694</a>
+            </td>
+            <td>
+                <b>
+                    optimized balance with 64 precision
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-16 06:35:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/693" class=".btn">#693</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/83" class=".btn">#83</a>
+            </td>
+            <td>
+                <b>
+                    Vadneyk -> VadneyK
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-16 07:40:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/governance/pull/82" class=".btn">#82</a>
             </td>
             <td>
