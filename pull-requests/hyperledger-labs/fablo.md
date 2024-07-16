@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
             </td>
             <td>
                 <b>
-                    added the error message
+                    Emit error when Fabric version is lower than 2.0.0
                 </b>
             </td>
         </tr>
