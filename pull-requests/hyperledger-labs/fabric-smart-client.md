@@ -66,32 +66,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/625" class=".btn">#625</a>
-            </td>
-            <td>
-                <b>
-                    dispose context and sessions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-13 05:10:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/624" class=".btn">#624</a>
             </td>
             <td>
