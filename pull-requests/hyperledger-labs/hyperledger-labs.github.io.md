@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/275" class=".btn">#275</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/276" class=".btn">#276</a>
             </td>
             <td>
                 <b>
-                    Zeto
+                    Archive Trusted Compute Framework
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Zeto is a UTXO based privacy-preserving token toolkit for EVM using Zero Knowledge Proofs.
-
-
+                I guess this can be archived. Seems to be a relict from pre-avalon ages. There is no corresponding repo. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-03 17:52:05 +0000 UTC
+        Created At 2024-07-16 16:17:50 +0000 UTC
     </div>
 </div>
 
