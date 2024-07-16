@@ -14,21 +14,23 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7324" class=".btn">#7324</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/7327" class=".btn">#7327</a>
             </td>
             <td>
                 <b>
-                    disable flaky test
+                    exclude permissioning test from default ATs run on PRs
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">testing</span><span class="chip">flake</span>
             </td>
             <td>
                 ## PR description
-disable flaky permissioning test - example https://github.com/hyperledger/besu/actions/runs/9936399295/job/27444542474?pr=7266
+Rather than disabling permissioning tests one by one as they flake, exclude them from being run on PRs.
+
+Could run the permissioning suite on a nightly/weekly cadence instead
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -54,7 +56,7 @@ disable flaky permissioning test - example https://github.com/hyperledger/besu/a
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-15 09:54:22 +0000 UTC
+        Created At 2024-07-16 02:13:54 +0000 UTC
     </div>
 </div>
 
