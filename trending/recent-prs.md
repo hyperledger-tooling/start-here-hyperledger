@@ -1,13 +1,13 @@
 
-[7337](https://github.com/hyperledger/besu/pull/7337) Make TrieLogPruner.preload async
+[4926](https://github.com/hyperledger/fabric/pull/4926) crypto/elliptic Marshal/Unmarshal deprecated functions replaced
 
-[7336](https://github.com/hyperledger/besu/pull/7336) Refactor - eliminate non-constant string concatenation from debug and trace
+[700](https://github.com/hyperledger-labs/fabric-token-sdk/pull/700) TokensDB: Support for update
 
-[7333](https://github.com/hyperledger/besu/pull/7333) Refactor - replace uses of QbftContext with BftContext
+[634](https://github.com/hyperledger-labs/fabric-smart-client/pull/634) Added traces and metrics
 
-[697](https://github.com/hyperledger-labs/fabric-token-sdk/pull/697) Next commits
+[4856](https://github.com/hyperledger/iroha/pull/4856) feat!: remove public key from ed25519 private key
 
-[631](https://github.com/hyperledger-labs/fabric-smart-client/pull/631) Next commits
+[633](https://github.com/hyperledger-labs/fabric-smart-client/pull/633) Injectable network config
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7339" class=".btn">#7339</a>
+            </td>
+            <td>
+                <b>
+                    [minor] Remove redundant info from plugin summary
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">plugins</span><span class="chip">ux</span>
+            </td>
+            <td>
+                ## PR description
+Some minor improvements to plugin summary:
+- remove `Detected but not registered`
+- remove the `Version` and duplicated v
+
+Before:
+
+```
+# Plugin Registration Summary:                                                                     #
+# Registered Plugins:                                                                              #
+#  - ZkTrieLogPlugin (Version: besu-shomei-plugin/vv0.3.1)                                         #
+# Skipped Plugins:                                                                                 #
+#  - LineaExtraDataPlugin (Detected but not registered)                                            #
+#  - LineaEndpointServicePlugin (Detected but not registered)                                      #
+#  - LineaTransactionPoolValidatorPlugin (Detected but not registered)                             #
+#  - LineaTransactionSelectorPlugin (Detected but not registered)                                  #
+#  - BesuShomeiRpcPlugin (Detected but not registered)                                             #
+#  - ContinuousTracingPlugin (Detected but not registered)                                         #
+#  - CaptureEndpointServicePlugin (Detected but not registered)                                    #
+#  - CountersEndpointServicePlugin (Detected but not registered)                                   #
+#  - TracesEndpointServicePlugin (Detected but not registered)                                     #
+# TOTAL = 1 of 10 plugins successfully registered.   
+
+```
+After
+
+```
+# Plugin Registration Summary:                                                                     #
+# Registered Plugins:                                                                              #
+#  - ZkTrieLogPlugin (besu-shomei-plugin/v0.3.1)                                                   #
+# Detected but not registered:                                                                     #
+#  - LineaExtraDataPlugin (linea-sequencer/v0.1.5-rc2)                                             #
+#  - LineaEndpointServicePlugin (linea-sequencer/v0.1.5-rc2)                                       #
+#  - LineaTransactionPoolValidatorPlugin (linea-sequencer/v0.1.5-rc2)                              #
+#  - LineaTransactionSelectorPlugin (linea-sequencer/v0.1.5-rc2)                                   #
+#  - BesuShomeiRpcPlugin (besu-shomei-plugin/v0.3.1)                                               #
+#  - ContinuousTracingPlugin (linea-arithmetization/v0.1.5-rc6)                                    #
+#  - CaptureEndpointServicePlugin (linea-arithmetization/v0.1.5-rc6)                               #
+#  - CountersEndpointServicePlugin (linea-arithmetization/v0.1.5-rc6)                              #
+#  - TracesEndpointServicePlugin (linea-arithmetization/v0.1.5-rc6)  
+```
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-17 09:31:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7337" class=".btn">#7337</a>
             </td>
             <td>
@@ -175,6 +243,7 @@ Disabled block creation unit tests have been updated and fixed and re-enabled, t
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
+fixes #6850
 
 ### Thanks for sending a pull request! Have you done the following?
 
