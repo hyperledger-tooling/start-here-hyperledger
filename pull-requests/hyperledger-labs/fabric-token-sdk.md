@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/700" class=".btn">#700</a>
+            </td>
+            <td>
+                <b>
+                    TokensDB: Support for update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit does the following: When deleting a token, if the token does not exists, an entry in the tokens table is added and marked as deleted. When the token is later added, the entry is updated
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-17 12:10:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/699" class=".btn">#699</a>
+            </td>
+            <td>
+                <b>
+                    hide pkcs11 behind a build tag so that token sdk is pure go by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Companion PR to https://github.com/hyperledger-labs/fabric-smart-client/pull/621.
+
+Goal is to make HSM support 'opt-in' by using a build tag: `CGO_ENABLED=1 go build -tags pkcs11`. If you don't supply the tag, it will not require CGO. This makes it easier to have cross-platform builds or to use alpine containers, for instance.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-17 09:34:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/697" class=".btn">#697</a>
             </td>
             <td>
