@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7341" class=".btn">#7341</a>
+            </td>
+            <td>
+                <b>
+                    Dagger controller tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Demonstrates how to use Dagger to compose BesuControllers for use in privacy tests.
+
+- Separate out flex group privacy test since it requires differently configured dependencies.
+- test specific, inline module/component definitions
+- reusable module for providing mockable enclaves, besu commands, and genesis
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-17 14:44:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7340" class=".btn">#7340</a>
+            </td>
+            <td>
+                <b>
+                    Use besu-untuned to execute the acceptance tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Use besu-untuned to execute different tests that need to run a besu node in a different process.
+Also, there is no need to apply the JVM tuning related to GC and continuous profiling to this kind of tests.
+
+<img width="1699" alt="image" src="https://github.com/user-attachments/assets/177d58c0-1a10-43e5-8ef0-2a1b29822ee7">
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-17 14:04:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7339" class=".btn">#7339</a>
             </td>
             <td>
