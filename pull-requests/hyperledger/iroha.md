@@ -912,7 +912,7 @@ Closes #4569, #4720, #3720, #3671.
 
 I still have a lot of doc strings, an overview of the predicate DSL implementation and some tests to write, hence marking this PR as a draft.
 
-- [ ] add more docs and remove all the `#[warn(missing_docs)]`
+- [x] add more docs and remove all the `#[warn(missing_docs)]`
 - [ ] add more tests of the DSL
 - [ ] add a test checking the validation performed on `SignedQueryCandidate`
 - [ ] fix client cli tests
