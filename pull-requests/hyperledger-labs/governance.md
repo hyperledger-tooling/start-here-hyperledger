@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/governance
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/81" class=".btn">#81</a>
-            </td>
-            <td>
-                <b>
-                    Add IyNew-Letni
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #80
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-10 03:52:13 +0000 UTC
-    </div>
-</div>
-
