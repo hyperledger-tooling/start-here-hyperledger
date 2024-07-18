@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Fix the error that is getting raised in AATH
+                Fix the error that is getting raised in AATH.  (Double checked and the AATH tests will now pass.)
+
             </td>
         </tr>
     </table>
@@ -94,37 +95,6 @@ Upgrades ruff, pytest-ruff, portalocer and mkdocs-material
     </table>
     <div class="right-align">
         Created At 2024-07-15 16:24:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3097" class=".btn">#3097</a>
-            </td>
-            <td>
-                <b>
-                    Update the docs for latest release and improve the publish flow and documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses issue: #3096 
-
-Cleans up a couple of documents, moves a "feature" document to be in the "deploying" section, updates the mkdocs.yml.
-
-Also updates the PUBLISHING.md to remind publishers that the docs need to be checked on every release, and slight improvements in the script to test the mkdocs generation testing.  Also fixes a mistake in the script to convert MD to published site links.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-10 20:12:45 +0000 UTC
     </div>
 </div>
 
