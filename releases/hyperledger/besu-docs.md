@@ -56,7 +56,6 @@ permalink: /releases/hyperledger/besu-docs
 - Validation errors ignored in accounts-allowlist and empty list [#7138](https://github.com/hyperledger/besu/issues/7138)
 - Fix "Invalid block detected" for BFT chains using Bonsai DB [#7204](https://github.com/hyperledger/besu/pull/7204)
 - Chain download halt fix(https://github.com/hyperledger/besu/pull/7162), fixes related issues: [#7109](https://github.com/hyperledger/besu/issues/7109)  [#6884](https://github.com/hyperledger/besu/issues/6884)
-
             </td>
         </tr>
     </table>
