@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7349" class=".btn">#7349</a>
+            </td>
+            <td>
+                <b>
+                    f --compatibility-eth64-forkid-enabled is set to true and there are no forks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This fixes an NPR that was thrown when no forks are configured and --compatibility-eth64-forkid-enabled is set to true.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-18 04:16:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7341" class=".btn">#7341</a>
             </td>
             <td>
@@ -1119,42 +1146,6 @@ https://github.com/hyperledger/besu/issues/6612
     </table>
     <div class="right-align">
         Created At 2024-07-12 04:12:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7307" class=".btn">#7307</a>
-            </td>
-            <td>
-                <b>
-                    Make the retrying snap tasks switching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Convert snap tasks from retrying (same peer) to retrying switching (different peer per retry).
-
-This PR was compared to release 24.6.0 with the following result:
-To retrieve 1.96 billion nodes to sync the world state it took 5 nodes  
-    - 24.6.0:        2356 minutes (on average 471.2 minutes)
-    - this PR:       2164 minutes (on average 432.8 minutes)
-
-or on average the nodes from this PR were 38.4 minutes faster.
- 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-11 02:35:45 +0000 UTC
     </div>
 </div>
 

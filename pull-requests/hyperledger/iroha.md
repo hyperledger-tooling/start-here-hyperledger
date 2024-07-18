@@ -549,20 +549,11 @@ This fixes the error with `cargo install`:
 package `.../client/tests/integration/smartcontracts/executor_custom_data_model/Cargo.toml` is a member of the wrong workspace
 ```
 
-I'm not sure what exactly fixed it. It wasn't enough to just exclude it from the main `Cargo.toml`, maybe the additional unnesting did it.
-
 - move all binary crates to `/bins`
 - move all library crates to `/libs`
 - move executors, smart contracts and triggers to `/samples`
 - unnest `iroha_executor` and `iroha_trigger` from `iroha_smart_contract`
 - rename crate directories to match their actual names (except nested utility crates)
-- rename `configs` to `defaults`, remove `swarm` directory
-
-### Linked issue
-
-Closes #4293, #4320
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
 
 ### Benefits
 
