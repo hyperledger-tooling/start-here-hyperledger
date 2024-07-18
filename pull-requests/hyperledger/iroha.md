@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4864" class=".btn">#4864</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump thiserror from 1.0.62 to 1.0.63
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [thiserror](https://github.com/dtolnay/thiserror) from 1.0.62 to 1.0.63.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
+<blockquote>
+<h2>1.0.63</h2>
+<ul>
+<li>Documentation improvements</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/dtolnay/thiserror/commit/915c75e8a3b679588e6eac03dccbba5d38c764a8"><code>915c75e</code></a> Release 1.0.63</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/3d5ec25464d2d71f09f480666e240d3446a44a19"><code>3d5ec25</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/thiserror/issues/312">#312</a> from dtolnay/backtracedoc</li>
+<li><a href="https://github.com/dtolnay/thiserror/commit/de8a1e54d420514250d9d4081d41723192cf0dfa"><code>de8a1e5</code></a> Update documentation of #[from] and #[backtrace] attributes</li>
+<li>See full diff in <a href="https://github.com/dtolnay/thiserror/compare/1.0.62...1.0.63">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=thiserror&package-manager=cargo&previous-version=1.0.62&new-version=1.0.63)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-18 16:57:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4863" class=".btn">#4863</a>
             </td>
             <td>
@@ -1084,206 +1160,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-07-12 11:16:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4837" class=".btn">#4837</a>
-            </td>
-            <td>
-                <b>
-                    feat(logger): use RUST_LOG-like EnvFilter for logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">config-changes</span>
-            </td>
-            <td>
-                ## Description
-
-Replace level filter with `EnvFilter` which support setting specific log level for different iroha modules.
-
-## Examples
-
-The same can be done through configuration in config.toml.
-
-```bash
-# set global logging level to debug
-LOG_LEVEL="debug" ./scripts/test_env.py setup
-# set global logging level to error and info for iroha_core
-LOG_LEVEL="error,iroha_core=info" ./scripts/test_env.py setup
-# receive only logs from sumerag with trace level or heigher
-LOG_LEVEL="iroha_core::sumeragi" ./scripts/test_env.py setup
-# receive all logs at trace level, except axum for which use error
-LOG_LEVEL="trace,axum=error" ./scripts/test_env.py setup
-```
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4829 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-More granular control over logging.
-
-### Downsides
-
-It's harder to check correctness for example if someone would write `LOG_LEVEL=infa` iroha won't return any error because this would be parsed as accept logs from module `infa` at `trace` level.
-
-I believe we can mitigate this, by custom parsing, but it would make our type more strict than orginal `EnvFilter`.
-It's smt i would prefer to leave for separate PR.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-11 14:34:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4836" class=".btn">#4836</a>
-            </td>
-            <td>
-                <b>
-                    fix(tests): correctly list asset definitions in CLI tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-* fix client cli pytests
-* rename `--asset-id` to `--id` in client CLI
-* add `asset definition` subparameter in CLI
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-11 13:31:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4835" class=".btn">#4835</a>
-            </td>
-            <td>
-                <b>
-                    ci: Move clippy and coverage tests jobs to PR workflow trigger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-- move clippy and coverage tests jobs to PR workflow trigger
-- add workflow_run.id and trigger on completed for pushing artifacts produced in previous workflow 
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-- clippy and coverage tests will be made in one workflow with other tests
-- artifacts can be pushed from separate workflow, making it possible to push test artifacts from forks
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-11 13:04:44 +0000 UTC
     </div>
 </div>
 

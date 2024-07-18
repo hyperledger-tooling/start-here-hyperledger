@@ -1,13 +1,13 @@
 
+[3107](https://github.com/hyperledger/aries-cloudagent-python/pull/3107) Fix publishing multiple rev reg defs with endorsement
+
+[88](https://github.com/hyperledger/web3j-gradle-plugin/pull/88) feat: Add generate both flag
+
+[4864](https://github.com/hyperledger/iroha/pull/4864) chore(deps): bump thiserror from 1.0.62 to 1.0.63
+
+[4928](https://github.com/hyperledger/fabric/pull/4928) chore: fix some comments for struct field
+
 [144](https://github.com/hyperledger-labs/yui-relayer/pull/144) fix slog source attribute
-
-[4863](https://github.com/hyperledger/iroha/pull/4863) fix: unnest wasm samples from `client`, exclude it from workspace
-
-[4862](https://github.com/hyperledger/iroha/pull/4862) refactor: rename `configs` to `defaults`, remove `swarm`
-
-[709](https://github.com/hyperledger-labs/fabric-token-sdk/pull/709) FSC: 418accb17b68969bf3bfa946567ec48070dd3f9c
-
-[286](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/286) Fix to ensure `proposedConnectionHops` of MsgChannelUpgradeTry matches existing upgrade's one
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

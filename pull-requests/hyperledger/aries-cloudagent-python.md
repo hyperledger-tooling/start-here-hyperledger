@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3107" class=".btn">#3107</a>
+            </td>
+            <td>
+                <b>
+                    Fix publishing multiple rev reg defs with endorsement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes a bug/mistake when publishing revocations from multiple rev_reg_defs with endorsement. The endorsement process was occurring outside the manager and only considering the last rev_reg_def pre-endorsement result.
+
+***WIP:*** I want to refactor this code a bit. Not readable.
+
+***Note:*** This would be considered a breaking change if a controller was reading and processing the response. It is now an array instead of an object. This should have been the response from the beginning as you can request a list, you should return a list. Could be a nested object instead if that's preferable.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-18 18:00:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3106" class=".btn">#3106</a>
             </td>
             <td>

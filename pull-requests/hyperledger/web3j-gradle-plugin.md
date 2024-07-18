@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j-gradle-plugin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j-gradle-plugin/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger/web3j-gradle-plugin/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    release 4.12.0
+                    feat: Add generate both flag
                 </b>
             </td>
         </tr>
@@ -28,24 +28,25 @@ permalink: /pull-requests/hyperledger/web3j-gradle-plugin
             </td>
             <td>
                 ### What does this PR do?
-*required*
+This PR adds a **generateBoth** flag to the plugin. 
+GenerateContractWrapper.java forwards parameters to SolidityFunctionWrapperGenerator in codegen which has an optional parameter **generateBoth**. This parameter is currently not exposed in the plugin so this pr aims to expose it.
 
 ### Where should the reviewer start?
-*required*
+`GenerateContractWrapper.java`
 
 ### Why is it needed?
-*required*
+We want to integrate the web3j-plugin in hedera-mirror-node integration tests and this flag will really help.
 
 ## Checklist
 
-- [ ] I've read the contribution guidelines.
-- [ ] I've added tests (if applicable).
-- [ ] I've added a changelog entry if necessary.
+- [x] I've read the contribution guidelines.
+- [x] I've added tests (if applicable).
+- [x] I've added a changelog entry if necessary.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-24 05:05:36 +0000 UTC
+        Created At 2024-07-18 17:40:39 +0000 UTC
     </div>
 </div>
 
