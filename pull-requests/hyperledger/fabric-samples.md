@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1238" class=".btn">#1238</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1239" class=".btn">#1239</a>
             </td>
             <td>
                 <b>
-                    Add document about how to benchmark the performance using Hyperledger Caliper
+                    Configure dependabot updates to GitHub Actions
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                To correspond to issue [#1236](https://github.com/hyperledger/fabric-samples/issues/1236) (Documentation of test-network-k8s+caliper environment setup procedure"), add new README page to explain how to benchmark the performance of the Kubernetes test network using Hyperledger Caliper and Asset Transfer Basic chaincode.
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-05 09:08:43 +0000 UTC
+        Created At 2024-07-19 10:49:44 +0000 UTC
     </div>
 </div>
 
