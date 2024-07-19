@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    FSC: 418accb17b68969bf3bfa946567ec48070dd3f9c
+                    FSC dep update
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                Commit: `afa2ab0cec4ae3a8acc1a46b6f3119b54cac7560`
             </td>
         </tr>
     </table>

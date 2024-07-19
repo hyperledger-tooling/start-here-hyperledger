@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7354" class=".btn">#7354</a>
+            </td>
+            <td>
+                <b>
+                    Use getDefaultSyncModeIfNotSet during bonsai-limit-trie-log-enabled validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Private networks in certain configurations can yield sync-mode=null and were skipping the validation.
+
+e.g. if you use a custom genesis-file but don't specify data-storage-format=FOREST or sync-mode=<something other than FULL>
+
+The impact is since 24.6.0, bonsai-limit-trie-log-enabled has defaulted to true for these networks and possibly pruned some data.
+
+This is the original PR that enabled the feature by default and introduced the validation https://github.com/hyperledger/besu/pull/7181
+
+The way syncMode is handled means it can be null in certain cases, which I missed in #7181 
+
+Also moved the validation later in the startup code to ensure customs defaults had been properly set.
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-19 08:11:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7353" class=".btn">#7353</a>
             </td>
             <td>
@@ -1124,52 +1178,6 @@ and to achieve that it was clearer to extract the blob tx selection login in its
     </table>
     <div class="right-align">
         Created At 2024-07-12 15:45:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7310" class=".btn">#7310</a>
-            </td>
-            <td>
-                <b>
-                    removed PKI backed QBFT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-fixes #7163
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [x] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-12 06:57:14 +0000 UTC
     </div>
 </div>
 
