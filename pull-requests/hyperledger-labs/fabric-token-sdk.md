@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/710" class=".btn">#710</a>
+            </td>
+            <td>
+                <b>
+                    Added traces for views
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-19 14:50:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/709" class=".btn">#709</a>
             </td>
             <td>
@@ -348,32 +374,6 @@ Goal is to make HSM support 'opt-in' by using a build tag: `CGO_ENABLED=1 go bui
     </table>
     <div class="right-align">
         Created At 2024-07-15 15:19:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/687" class=".btn">#687</a>
-            </td>
-            <td>
-                <b>
-                    fix data race in local membership
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prevent some data race for the function `GetDefaultIdentifier` (reading list of resolvers) when called from `mapStringToID`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-12 13:49:20 +0000 UTC
     </div>
 </div>
 

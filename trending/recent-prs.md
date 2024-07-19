@@ -1,13 +1,13 @@
 
-[1239](https://github.com/hyperledger/fabric-samples/pull/1239) Configure dependabot updates to GitHub Actions
+[4931](https://github.com/hyperledger/fabric/pull/4931) Update SDK documentation links for Fabric v3 (backport #4929)
 
-[4929](https://github.com/hyperledger/fabric/pull/4929) Update SDK documentation links for Fabric v3
+[4868](https://github.com/hyperledger/iroha/pull/4868) fix(snapshot): verify all blocks while reading snapshot
 
-[7354](https://github.com/hyperledger/besu/pull/7354) Use getDefaultSyncModeIfNotSet during bonsai-limit-trie-log-enabled validation
+[710](https://github.com/hyperledger-labs/fabric-token-sdk/pull/710) Added traces for views
 
-[7353](https://github.com/hyperledger/besu/pull/7353) 7732: Remove datagas related stuff in favour of blobgas
+[4867](https://github.com/hyperledger/iroha/pull/4867) fix(state): use rw lock to prevent inconsitent state view
 
-[3109](https://github.com/hyperledger/aries-cloudagent-python/pull/3109) Add descriptive error for issuance without RevRegRecord
+[4866](https://github.com/hyperledger/iroha/pull/4866) refactor: remove `TriggeringEventFilterBox`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

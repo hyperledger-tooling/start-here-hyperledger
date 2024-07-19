@@ -14,6 +14,185 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4868" class=".btn">#4868</a>
+            </td>
+            <td>
+                <b>
+                    fix(snapshot): verify all blocks while reading snapshot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span>
+            </td>
+            <td>
+                ## Description
+
+Changes:
+- relative path to snapshot folder is resolved in the same way as for `kura`
+- last block hash check of snapshot was missed before:
+    - not it is checked
+    - if check fail last changes to the state are discarded without losing the whole snapshot
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+- Behavior of configuration is consistent 
+- All blocks are checked
+
+### How to test
+
+1. Run iroha
+2. Wait until iroha create snapshot
+3. Stop iroha
+4. Modify last hash in `block_hashes`.`blocks` (any character except for last one)
+5. Load iroha
+6. Verify that iroha is loaded from snapshot
+7. Check that last block was discarded (in logs)
+8. Check that iroha can continue to commit new blocks
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-19 15:23:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4867" class=".btn">#4867</a>
+            </td>
+            <td>
+                <b>
+                    fix(state): use rw lock to prevent inconsitent state view
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span>
+            </td>
+            <td>
+                ## Description
+
+While restarting iroha i've noticed that snapshot is inconsistent.
+After some investigation i've noticed that assumption i had about the State was wrong (check this [issue](https://github.com/kanidm/concread/issues/97)).
+This PR fix this inconsistency by introducing lock which is used to guard block commit and prevent creation of inconsistent views of  the State.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Views are consistent.
+
+### Downsides
+
+Rwlock has problems with writer starvation.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-19 14:37:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4866" class=".btn">#4866</a>
+            </td>
+            <td>
+                <b>
+                    refactor: remove `TriggeringEventFilterBox`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+I love static typing. It prevents many errors.
+But there is a tradeoff between static typing and an API that is easy to use.
+Sometimes too much static typing is difficult for end users
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4376
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-19 14:15:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4864" class=".btn">#4864</a>
             </td>
             <td>
@@ -946,162 +1125,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2024-07-15 16:20:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4844" class=".btn">#4844</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump syn from 2.0.70 to 2.0.71
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.70 to 2.0.71.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dtolnay/syn/releases">syn's releases</a>.</em></p>
-<blockquote>
-<h2>2.0.71</h2>
-<ul>
-<li>Do not require mutable borrow in Punctuated::get() (<a href="https://redirect.github.com/dtolnay/syn/issues/1706">#1706</a>, thanks <a href="https://github.com/lemunozm"><code>@​lemunozm</code></a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dtolnay/syn/commit/f34dc7bb53185a11f3aa45fc691488547c8c76ee"><code>f34dc7b</code></a> Release 2.0.71</li>
-<li><a href="https://github.com/dtolnay/syn/commit/896d58bdb2508a089100247f01f7271222c518df"><code>896d58b</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/syn/issues/1706">#1706</a> from lemunozm/patch-1</li>
-<li><a href="https://github.com/dtolnay/syn/commit/dd7e269f577dc33bcf92bec2583f7e53609081fb"><code>dd7e269</code></a> Remove mut from Puntuated::get()</li>
-<li>See full diff in <a href="https://github.com/dtolnay/syn/compare/2.0.70...2.0.71">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.70&new-version=2.0.71)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-12 16:15:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4843" class=".btn">#4843</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump thiserror from 1.0.61 to 1.0.62
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [thiserror](https://github.com/dtolnay/thiserror) from 1.0.61 to 1.0.62.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
-<blockquote>
-<h2>1.0.62</h2>
-<ul>
-<li>Support referring to nested tuple struct fields inside <code>#[error(&quot;…&quot;, …)]</code> attribute (<a href="https://redirect.github.com/dtolnay/thiserror/issues/309">#309</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dtolnay/thiserror/commit/0bf6e3dd781409b62cbcf0816ffa1bb970d24833"><code>0bf6e3d</code></a> Release 1.0.62</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/497793283934d9e514d903a14278af6babbfbb65"><code>4977932</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/thiserror/issues/310">#310</a> from dtolnay/nestedtuple</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/40a7779b1793f2dce5f85abe8c03486cdb5eb640"><code>40a7779</code></a> Support .0.0 nested tuple index</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/f1ca210cc4772f198af91886e3849dac68114f97"><code>f1ca210</code></a> Add regression test for issue 309</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/479744ec288f9183b8849f013dcee226ac6588ee"><code>479744e</code></a> No need for dead code if struct fields are public</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/4db08b10a39cfd189a36a88dee0fad578ac11cbe"><code>4db08b1</code></a> Ignore warning on unused struct in test</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/f2824ae379ac2edee1fd687b9e56f18c048086cd"><code>f2824ae</code></a> Fill in ignore reasons in all #[ignore] attributes</li>
-<li>See full diff in <a href="https://github.com/dtolnay/thiserror/compare/1.0.61...1.0.62">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=thiserror&package-manager=cargo&previous-version=1.0.61&new-version=1.0.62)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-12 16:14:11 +0000 UTC
     </div>
 </div>
 
