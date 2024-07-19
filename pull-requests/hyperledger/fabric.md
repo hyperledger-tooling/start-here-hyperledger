@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4931" class=".btn">#4931</a>
+            </td>
+            <td>
+                <b>
+                    Update SDK documentation links for Fabric v3 (backport #4929)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Remove unsupported / deprecated client application SDKs for v2.2 and earlier.
+- Remove Python SDK since it targets Fabric v1.4 and does not support BFT.
+<hr>This is an automatic backport of pull request #4929 done by [Mergify](https://mergify.com).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-19 17:32:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4929" class=".btn">#4929</a>
             </td>
             <td>
