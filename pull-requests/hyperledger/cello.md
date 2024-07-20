@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/627" class=".btn">#627</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/628" class=".btn">#628</a>
             </td>
             <td>
                 <b>
-                    update glob(npm) for dashboard
+                    update node version to 20.15
                 </b>
             </td>
         </tr>
@@ -27,23 +27,17 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                ## Problem:
-When I run the project, the following errors occur.
+                When I upgraded node to 20.15 only, the following error is reported:
 
-31.71 warning netlify-lambda > globby > glob@7.2.3: Glob versions prior to v9 are no longer supported
-40.63 warning netlify-lambda > webpack > terser-webpack-plugin > cacache > glob@7.2.3: Glob versions prior to v9 are no longer supported
-......
-204.5 error glob@11.0.0: The engine "node" is incompatible with this module. Expected version "20 || >=22". Got "14.18.3"
-204.5 info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this ⌘.
-204.5 error Found incompatible module
-
-## Reason:
-The original version of glob@7.2.3 is no longer supported. Manual update to version 9.0.0 required.
+node:internal/crypto/hash:79
+  this[kHandle] = new _Hash(algorithm, xofLen, algorithmId, getHashCache());
+                  ^
+The environment variable NODE_OPTIONS needs to be set manually to force Node.js to use OpenSSL's older APIs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-13 00:48:53 +0000 UTC
+        Created At 2024-07-20 00:51:37 +0000 UTC
     </div>
 </div>
 
