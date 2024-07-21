@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/211" class=".btn">#211</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/212" class=".btn">#212</a>
             </td>
             <td>
                 <b>
-                    fix: types in asset transfer
+                    fix: Update SDK to work with MVP version of iroha
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-10 11:42:20 +0000 UTC
+        Created At 2024-07-21 11:59:57 +0000 UTC
     </div>
 </div>
 
