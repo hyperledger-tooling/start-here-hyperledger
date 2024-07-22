@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Commit: `afa2ab0cec4ae3a8acc1a46b6f3119b54cac7560`
+                This PR updates the FSC version to https://github.com/hyperledger-labs/fabric-smart-client/pull/635
             </td>
         </tr>
     </table>
