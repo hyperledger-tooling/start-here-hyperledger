@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3112" class=".btn">#3112</a>
+            </td>
+            <td>
+                <b>
+                    fix: multiuse invites with did peer 4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This corrects an issue where did:peer:4 connection records were failing to be resolved on inbound message, resulting in the multiuse invitation that created the connection being resolved instead.
+
+Fixes #3111.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-21 19:51:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/3110" class=".btn">#3110</a>
             </td>
             <td>
