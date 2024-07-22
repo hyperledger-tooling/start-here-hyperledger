@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7357" class=".btn">#7357</a>
+            </td>
+            <td>
+                <b>
+                    Disable bonsai-limit-trie-logs-enabled if sync-mode=FULL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since [bonsai-limit-trie-logs-enabled has been defaulted to true](https://github.com/hyperledger/besu/pull/7181), instead of preventing startup, implicitly set `bonsai-limit-trie-logs-enabled=false` and warn...
+
+```
+besu --sync-mode=FULL
+...
+2024-07-22 13:34:52.764+10:00 | main | WARN  | Besu | Cannot enable --bonsai-limit-trie-logs-enabled with --sync-mode FULL and --data-storage-format BONSAI. --bonsai-limit-trie-logs-enabled has been automatically disabled.
+```
+
+However, if you explicitly try to set it to true, you get a startup error...
+
+```
+besu --sync-mode=FULL --bonsai-limit-trie-logs-enabled=true
+...
+2024-07-22 14:56:11.189+10:00 | main | ERROR | Besu | Failed to start Besu
+picocli.CommandLine$ParameterException: Cannot enable --bonsai-limit-trie-logs-enabled with --sync-mode FULL and --data-storage-format=BONSAI. You must set --bonsai-limit-trie-logs-enabled=false or use a different sync-mode
+```
+
+```
+BESU_SYNC_MODE=FULL BESU_BONSAI_LIMIT_TRIE_LOGS_ENABLED=TRUE besu
+...
+2024-07-22 15:32:09.687+10:00 | main | ERROR | Besu | Failed to start Besu
+picocli.CommandLine$ParameterException: Cannot enable --bonsai-limit-trie-logs-enabled with --sync-mode=FULL and --data-storage-format=BONSAI. You must set --bonsai-limit-trie-logs-enabled=false or use a different sync-mode
+```
+
+This also avoids a scenario where private networks can end up starting with sync-mode=FULL and bonsai-limit-trie-logs-enabled=true.
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-22 03:42:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7356" class=".btn">#7356</a>
             </td>
             <td>
@@ -54,60 +120,6 @@ https://github.com/hyperledger/besu/issues/7288
     </table>
     <div class="right-align">
         Created At 2024-07-22 00:18:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7354" class=".btn">#7354</a>
-            </td>
-            <td>
-                <b>
-                    Use getDefaultSyncModeIfNotSet during bonsai-limit-trie-log-enabled validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Private networks in certain configurations can yield sync-mode=null and were skipping the validation.
-
-e.g. if you use a custom genesis-file but don't specify data-storage-format=FOREST or sync-mode=<something other than FULL>
-
-The impact is since 24.6.0, bonsai-limit-trie-log-enabled has defaulted to true for these networks and possibly pruned some data.
-
-This is the original PR that enabled the feature by default and introduced the validation https://github.com/hyperledger/besu/pull/7181
-
-The way syncMode is handled means it can be null in certain cases, which I missed in #7181 
-
-Also moved the validation later in the startup code to ensure customs defaults had been properly set.
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [x] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-19 08:11:41 +0000 UTC
     </div>
 </div>
 
@@ -809,53 +821,6 @@ fixes https://github.com/hyperledger/besu/issues/7294
     </table>
     <div class="right-align">
         Created At 2024-07-15 09:16:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7321" class=".btn">#7321</a>
-            </td>
-            <td>
-                <b>
-                    Reduce trie log pruning window size and add startup log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-15 03:38:44 +0000 UTC
     </div>
 </div>
 
