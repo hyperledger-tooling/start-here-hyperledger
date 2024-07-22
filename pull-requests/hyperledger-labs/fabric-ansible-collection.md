@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
-                    Fab Proxy Doc Changes
+                    Update fabproxy doc
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-11 06:35:21 +0000 UTC
+        Created At 2024-07-22 07:21:15 +0000 UTC
     </div>
 </div>
 

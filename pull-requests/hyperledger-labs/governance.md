@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/governance
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/governance/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    add swaptr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #86 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-19 07:31:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/governance/pull/85" class=".btn">#85</a>
             </td>
             <td>
@@ -59,32 +85,6 @@ permalink: /pull-requests/hyperledger-labs/governance
     </table>
     <div class="right-align">
         Created At 2024-07-16 07:40:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/governance/pull/82" class=".btn">#82</a>
-            </td>
-            <td>
-                <b>
-                    Add Vadneyk
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes https://github.com/hyperledger/governance/issues/305
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-12 23:50:14 +0000 UTC
     </div>
 </div>
 

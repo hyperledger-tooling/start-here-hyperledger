@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/splice
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/splice/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/splice/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    Open source scan txlog script
+                    Changes from release 0.1.16
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/splice
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-11 14:25:48 +0000 UTC
+        Created At 2024-07-19 12:14:33 +0000 UTC
     </div>
 </div>
 
