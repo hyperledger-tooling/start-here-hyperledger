@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/140" class=".btn">#140</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/142" class=".btn">#142</a>
             </td>
             <td>
                 <b>
-                    Use full go version in go.mod
+                    Move v2 implementation to repository root
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                From Go 1.21, in the absence of a toolchain line in the go.mod file, the go line is used as the minimum toolchain version. Toolchain versions must be a full Go version, including patch level.
+                If any further v1 releases are required, they will be made from a maintenance branch taken from the previous commit.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-06-29 12:03:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/139" class=".btn">#139</a>
-            </td>
-            <td>
-                <b>
-                    Scan both v1 and v2 for vulnerabilities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-06-29 11:39:38 +0000 UTC
+        Created At 2024-07-20 17:53:48 +0000 UTC
     </div>
 </div>
 

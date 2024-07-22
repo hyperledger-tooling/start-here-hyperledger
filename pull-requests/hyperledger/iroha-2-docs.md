@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/502" class=".btn">#502</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/504" class=".btn">#504</a>
             </td>
             <td>
                 <b>
-                    Comment PR
+                    Getting started update and overhaul
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                PR to hopefully use for comments. Do not merge this.
+                Changed Getting Started structure for better accessibility and updated to support the latest changes to Iroha
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-03 09:35:41 +0000 UTC
+        Created At 2024-07-17 17:56:00 +0000 UTC
     </div>
 </div>
 

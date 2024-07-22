@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/313" class=".btn">#313</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/315" class=".btn">#315</a>
             </td>
             <td>
                 <b>
-                    Fix doc link
+                    fix tessera for ARM64
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                <nil>
+                There are no official images for Tessera that can run in ARM64 so we need to use the `--platform` flag to emulate them using the `AMD64` images
+
+It also fixed startup problems with dependency from Quorum to Tessera
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-05 11:05:09 +0000 UTC
+        Created At 2024-07-16 11:14:13 +0000 UTC
     </div>
 </div>
 
