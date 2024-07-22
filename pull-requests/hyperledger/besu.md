@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7356" class=".btn">#7356</a>
+            </td>
+            <td>
+                <b>
+                    7288: include WithdrawalRequestPredeployAddress in genesis configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Allow configuration of WithdrawalRequestPredeployAddress in genesis configuration
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+https://github.com/hyperledger/besu/issues/7288
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-22 00:18:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7354" class=".btn">#7354</a>
             </td>
             <td>
@@ -187,7 +234,7 @@ Ultimately need another PR that used a reasonable timeout for this load+prune op
             </td>
             <td>
                 <b>
-                    f --compatibility-eth64-forkid-enabled is set to true and there are no forks
+                    Fix NPE for legacy ForkId with no forks
                 </b>
             </td>
         </tr>
@@ -809,38 +856,6 @@ fixes https://github.com/hyperledger/besu/issues/7294
     </table>
     <div class="right-align">
         Created At 2024-07-15 03:38:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7320" class=".btn">#7320</a>
-            </td>
-            <td>
-                <b>
-                    6612 update changelog with removed syncmodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Update changelog as requested in https://github.com/hyperledger/besu/pull/7309
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-https://github.com/hyperledger/besu/issues/6612
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-14 23:07:09 +0000 UTC
     </div>
 </div>
 
