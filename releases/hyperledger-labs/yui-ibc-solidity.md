@@ -15,31 +15,34 @@ permalink: /releases/hyperledger-labs/yui-ibc-solidity
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.32
+                    v0.3.33
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.32
+                    v0.3.33
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Introduce slither by @bluele in https://github.com/hyperledger-labs/yui-ibc-solidity/pull/283
-* Fix to use nanosecond unit as 04-upgrade timeout by @bluele in https://github.com/hyperledger-labs/yui-ibc-solidity/pull/285
+* Fix to ensure `proposedConnectionHops` of MsgChannelUpgradeTry matches existing upgrade's one by @bluele in https://github.com/hyperledger-labs/yui-ibc-solidity/pull/286
+* Add ERC-165 to IIBCModule by @bluele in https://github.com/hyperledger-labs/yui-ibc-solidity/pull/284
 
+## For IBC Module Developers
 
-**Full Changelog**: https://github.com/hyperledger-labs/yui-ibc-solidity/compare/v0.3.31...v0.3.32
+After #284, the module developers must either inherit `IBCAppBase` or implement ERC-165 to support `IIBCModule` interface explicitly in their modules.
+
+**Full Changelog**: https://github.com/hyperledger-labs/yui-ibc-solidity/compare/v0.3.32...v0.3.33
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/releases/tag/v0.3.32" class=".btn">
+    <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/releases/tag/v0.3.33" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-07-13 04:08:43 +0000 UTC
+        Created At 2024-07-22 01:10:58 +0000 UTC
     </span>
 </div>
 
