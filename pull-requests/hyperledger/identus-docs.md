@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/identus-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-docs/pull/117" class=".btn">#117</a>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/141" class=".btn">#141</a>
             </td>
             <td>
                 <b>
-                    ci: fix release flow
+                    feat: gh-pages
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/identus-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-04 14:45:54 +0000 UTC
+        Created At 2024-07-17 11:57:22 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/identus-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/identus-docs/pull/116" class=".btn">#116</a>
+                PR <a href="https://github.com/hyperledger/identus-docs/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    ci: fix deployment.yml
+                    docs: add oid4vci glossary and supported spec list
                 </b>
             </td>
         </tr>
@@ -58,114 +58,7 @@ permalink: /pull-requests/hyperledger/identus-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-04 14:41:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-docs/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    ci: use PAT for commit the changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-04 14:36:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-docs/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    ci: fix autocommit action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-04 14:26:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-docs/pull/113" class=".btn">#113</a>
-            </td>
-            <td>
-                <b>
-                    ci: fix gpg github action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-04 14:19:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/identus-docs/pull/112" class=".btn">#112</a>
-            </td>
-            <td>
-                <b>
-                    chore: reinit submodules from atala to identus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-- removed atala repositories submodules
-- added identus repositories submodules
-- fixed the paths in the CI
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-04 13:03:33 +0000 UTC
+        Created At 2024-07-17 05:55:32 +0000 UTC
     </div>
 </div>
 

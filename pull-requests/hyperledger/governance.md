@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/300" class=".btn">#300</a>
+                PR <a href="https://github.com/hyperledger/governance/pull/307" class=".btn">#307</a>
             </td>
             <td>
                 <b>
-                    update besu groups
+                    Remove ibrahimq21
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/governance
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-09 01:09:01 +0000 UTC
+        Created At 2024-07-19 21:23:46 +0000 UTC
     </div>
 </div>
 
@@ -40,37 +40,11 @@ permalink: /pull-requests/hyperledger/governance
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/298" class=".btn">#298</a>
+                PR <a href="https://github.com/hyperledger/governance/pull/306" class=".btn">#306</a>
             </td>
             <td>
                 <b>
-                    Add womfoo to the identus-admins team
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                womfoo is a platform engineer who maintains self-hosted runners of the identus-cloud-agent and should have the access to the Runners tab in the repository setting.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-04 08:11:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    Add the Identus repositories
+                    add ConsensysOps to read-only group so this user can run github actions
                 </b>
             </td>
         </tr>
@@ -84,60 +58,7 @@ permalink: /pull-requests/hyperledger/governance
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-03 16:29:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/296" class=".btn">#296</a>
-            </td>
-            <td>
-                <b>
-                    Adding new user Tim Wells
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Project to be added to: Identus
-* Team to be added to: Identus-maintainers
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-03 14:06:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/governance/pull/295" class=".btn">#295</a>
-            </td>
-            <td>
-                <b>
-                    Add AlexStroke to iroha-javascript team & remove some outdated access for users
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-03 09:25:43 +0000 UTC
+        Created At 2024-07-18 04:15:30 +0000 UTC
     </div>
 </div>
 

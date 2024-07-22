@@ -1,13 +1,13 @@
 
-[429](https://github.com/hyperledger/iroha-java/pull/429) Bump gradle/gradle-build-action from 2.3.3 to 3.5.0
+[117](https://github.com/hyperledger/aries-endorser-service/pull/117) Bump ruff from 0.4.4 to 0.5.4
 
-[7357](https://github.com/hyperledger/besu/pull/7357) Disable bonsai-limit-trie-logs-enabled if sync-mode=FULL
+[116](https://github.com/hyperledger/aries-endorser-service/pull/116) Bump sqlmodel from 0.0.18 to 0.0.21
 
-[7356](https://github.com/hyperledger/besu/pull/7356) 7288: include WithdrawalRequestPredeployAddress in genesis configuration
+[115](https://github.com/hyperledger/aries-endorser-service/pull/115) Bump pytest from 8.2.1 to 8.3.1
 
-[3112](https://github.com/hyperledger/aries-cloudagent-python/pull/3112) fix: multiuse invites with did peer 4
+[825](https://github.com/hyperledger/aries-acapy-plugins/pull/825) build(deps): bump react-router-dom from 6.24.0 to 6.25.1 in /oid4vci/demo/frontend
 
-[212](https://github.com/hyperledger/iroha-python/pull/212) fix: Update SDK to work with MVP version of iroha
+[824](https://github.com/hyperledger/aries-acapy-plugins/pull/824) build(deps-dev): bump ruff from 0.5.2 to 0.5.4 in /rpc
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
