@@ -377,29 +377,3 @@ Goal is to make HSM support 'opt-in' by using a build tag: `CGO_ENABLED=1 go bui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/692" class=".btn">#692</a>
-            </td>
-            <td>
-                <b>
-                    add config flag for retries for selectors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-15 15:19:38 +0000 UTC
-    </div>
-</div>
-

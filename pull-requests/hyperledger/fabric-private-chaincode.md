@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/767" class=".btn">#767</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/770" class=".btn">#770</a>
             </td>
             <td>
                 <b>
-                    Upgrade ego to version 1.5.3
+                    Upgrade test network fabric version
                 </b>
             </td>
         </tr>
@@ -42,13 +42,13 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 -->
 
 **What this PR does / why we need it**:
-
+It updates the fabric version used in the test-network samples directory to align with the docker versions
 **Which issue(s) this PR fixes**:
 <!--
   list existing bug, feature and/or work-item which this PR addresses.
   You might also consider creating an issue first for the PR.
 -->
-Fixes #
+Fixes #768 
 
 **Special notes for your reviewer**:
 
@@ -63,7 +63,7 @@ Fixes #
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-10 17:59:53 +0000 UTC
+        Created At 2024-07-22 15:01:30 +0000 UTC
     </div>
 </div>
 

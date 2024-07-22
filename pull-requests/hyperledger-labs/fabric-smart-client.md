@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/636" class=".btn">#636</a>
+            </td>
+            <td>
+                <b>
+                    Multiplexer fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-22 10:11:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/635" class=".btn">#635</a>
+            </td>
+            <td>
+                <b>
+                    dispose context and close sessions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvement</span>
+            </td>
+            <td>
+                This PR cleanups the contexts, sessions, and streams management by closing and releasing resources when needed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-18 03:27:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/634" class=".btn">#634</a>
             </td>
             <td>
@@ -189,32 +241,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2024-07-15 23:03:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/624" class=".btn">#624</a>
-            </td>
-            <td>
-                <b>
-                    Multiplex websockets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-12 22:09:20 +0000 UTC
     </div>
 </div>
 
