@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/289" class=".btn">#289</a>
+            </td>
+            <td>
+                <b>
+                    Improve benchmark accuracy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ```
+IBCBenchmarks:testAcknowledgePacket() (gas: 100109)
+IBCBenchmarks:testCreateMockClient() (gas: 216843)
+IBCBenchmarks:testRecvPacket() (gas: 158121)
+IBCBenchmarks:testSendPacket() (gas: 96524)
+IBCBenchmarks:testUpdateMockClientDirectly() (gas: 64815)
+IBCBenchmarks:testUpdateMockClientViaHandler() (gas: 150703)
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-23 12:53:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/288" class=".btn">#288</a>
             </td>
             <td>

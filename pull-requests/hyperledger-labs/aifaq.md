@@ -34,8 +34,7 @@ Due to hardware limitations, testing the connection between the frontend and bac
 
 ### Current Progress
 The image below demonstrates the current progress
-<img width="1054" alt="Screenshot 2024-07-21 at 10 33 05 PM" src="https://github.com/user-attachments/assets/2487336e-7f44-4649-b315-93dd187cc344">
-
+<img width="1499" alt="Screenshot 2024-07-23 at 9 32 51 PM" src="https://github.com/user-attachments/assets/3606e96f-202a-4c71-9244-1d6aecf10ed9">
             </td>
         </tr>
     </table>
@@ -181,84 +180,6 @@ https://github.com/user-attachments/assets/46846a0a-b654-4dd7-95db-6d89ac83ded9
     </table>
     <div class="right-align">
         Created At 2024-07-18 17:15:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/22" class=".btn">#22</a>
-            </td>
-            <td>
-                <b>
-                    improved prompt and fixed internal server error bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                improved prompt and fixed internal server error bug
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-16 16:27:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    UI init
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-16 14:12:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Correcting typo in README file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Correcting typo in README file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-16 13:55:00 +0000 UTC
     </div>
 </div>
 
