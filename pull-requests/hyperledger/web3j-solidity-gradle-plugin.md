@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/72" class=".btn">#72</a>
+                PR <a href="https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    release 0.5.0
+                    Make the 'prettyJson' option work
                 </b>
             </td>
         </tr>
@@ -28,52 +28,19 @@ permalink: /pull-requests/hyperledger/web3j-solidity-gradle-plugin
             </td>
             <td>
                 ### What does this PR do?
-*required*
+
+`options.add(options.add("--$OutputComponent.ASM_JSON"))` contained a duplicated `options.add`, which added `true` to the command line (the return value of `options.add()`). The command fails with: _unrecognized "true"_.
+
+This PR proposes to fix this issue by not implicitly adding the additional `ASM_JSON` output. As  `prettyJson = true` also makes sense in combination with other outputs such as `ABI`.
 
 ### Where should the reviewer start?
-*required*
+
+n/a
 
 ### Why is it needed?
-*required*
 
-## Checklist
+`prettyJson = true` is currently not working. It always leads to a broken compiler call.
 
-- [ ] I've read the contribution guidelines.
-- [ ] I've added tests (if applicable).
-- [ ] I've added a changelog entry if necessary.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-05-23 09:29:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/web3j-solidity-gradle-plugin/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    added CANCUN update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### What does this PR do?
-added CANCUN update version
-
-### Where should the reviewer start?
-*required*
-
-### Why is it needed?
-added CANCUN update version
 
 ## Checklist
 
@@ -84,7 +51,7 @@ added CANCUN update version
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-05-23 08:24:46 +0000 UTC
+        Created At 2024-07-23 11:56:38 +0000 UTC
     </div>
 </div>
 
