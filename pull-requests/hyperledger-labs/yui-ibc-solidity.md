@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/288" class=".btn">#288</a>
+            </td>
+            <td>
+                <b>
+                    Fix port identifier validation and add tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix #287 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-23 01:52:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/286" class=".btn">#286</a>
             </td>
             <td>

@@ -158,7 +158,18 @@ You can trigger Dependabot actions by commenting on this PR:
                 <span class="chip">dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Bumps [mypy](https://github.com/python/mypy) from 1.10.1 to 1.11.0.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [mypy](https://github.com/python/mypy) from 1.10.1 to 1.11.0.
 <details>
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/python/mypy/blob/master/CHANGELOG.md">mypy's changelog</a>.</em></p>
@@ -533,7 +544,18 @@ You can trigger Dependabot actions by commenting on this PR:
                 <span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
-                Bumps [syn](https://github.com/dtolnay/syn) from 2.0.71 to 2.0.72.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [syn](https://github.com/dtolnay/syn) from 2.0.71 to 2.0.72.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/dtolnay/syn/releases">syn's releases</a>.</em></p>
