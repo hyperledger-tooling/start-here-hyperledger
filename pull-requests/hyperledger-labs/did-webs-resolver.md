@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger-labs/did-webs-resolver/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    fix: #72 fixed with datetime.timezone.utc
+                    update unit tests per keripy updates. credential tests still fail
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/did-webs-resolver
                 
             </td>
             <td>
-                This one line fix resolves the error mentioned in #72 . The UTC property is not exposed on the `datetime` module and using `datetime.timezone.utc` works for me.
+                update unit tests per keripy updates. credential related tests still fail
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-05 20:41:14 +0000 UTC
+        Created At 2024-07-22 19:53:18 +0000 UTC
     </div>
 </div>
 
