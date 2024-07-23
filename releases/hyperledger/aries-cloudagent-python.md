@@ -15,20 +15,18 @@ permalink: /releases/hyperledger/aries-cloudagent-python
         <tr>
             <td colspan="2">
                 <b>
-                    1.0.0rc4
+                    1.0.0rc5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.0.0rc4
+                    1.0.0rc5
                 </span>
             </td>
             <td>
-                This time we mean it! Release 1.0.0rc4 is, despite the non-zero RC number, the first Release Candidate for what will soon be the official ACA-Py 1.0.0. We started to do a 1.0.0 sequence (releasing several RCs) a long time ago, and decided to gate the transition on some requirements that were not as important as we thought at the time. Now we are **really** ready to publish ACA-Py Release 1.0.0. This release is again pulling from the `main` branch. The previous 1.0.0 RC, `rc3`, was approximately equal to [ACA_Py Release 0.8.2](#082). As such, this RC is a **MAJOR** change from that last one.
-
-Release 1.0.0rc4 includes just over 100 PRs merged since [Release 0.12.1](#0121). The vast majority of that work was in hardening the product in preparation for this 1.0.0 release. While there are a number of new features, the majority of the focus has been on eliminating technical debt and improving the underlying implementation. The full list of PRs in this release can be [found below](#100rc4-categorized-list-of-pull-requests). here are the highlights of the release:
+                Release 1.0.0rc5 includes well over 100 PRs merged since [Release 0.12.1](#0121). The vast majority of that work was in hardening the product in preparation for this 1.0.0 release. While there are a number of new features, the majority of the focus has been on eliminating technical debt and improving the underlying implementation. The full list of PRs in this release can be [found below](#100rc5-categorized-list-of-pull-requests). here are the highlights of the release:
 
 - The default underlying Python version has been upgraded to 3.12. Happily, there were minimal code changes to enable the upgrade to 3.12 from the previous Python 3.9.
 - Pagination support has been added to a number of Admin API queries for object lists, enabling the development of better user interfaces for large deployments.
@@ -41,15 +39,16 @@ Release 1.0.0rc4 includes just over 100 PRs merged since [Release 0.12.1](#0121)
 - The start of a [DIDComm v2](https://identity.foundation/didcomm-messaging/spec/) implementation in ACA-Py. The work is not complete, as we are taking an incremental approach to adding DIDComm v2 support.
 - A decorator has been added for enabling direct support for Admin API authentication. Previously, the only option to enable (the necessary) Admin API was to put the API behind a proxy that could manage authentication. With this update, ACA-Py deployments can handle authentication directly, without a proxy.
 - We have dropped support for the old, archived [Indy SDK]. If you have not migrated your deployment off of the Indy SDK, you must do so now. See this [Indy SDK to Askar migration documentation](#https://aca-py.org/latest/deploying/IndySDKtoAskarMigration/) for guidance.
-- Support added for using AnonCreds in [W3C VCDM](https://www.w3.org/TR/vc-data-model-1.1/) format. The support is not fully completed, but on the way.
+- Support added for using AnonCreds in [W3C VCDM](https://www.w3.org/TR/vc-data-model-1.1/) format.
  
-### 1.0.0rc4 Breaking Changes
+### 1.0.0rc5 Breaking Changes
 
 With the focus of the pull requests for this release on stabilizing the implementation, there were a few breaking changes:
 
 - The default underlying Python version has been upgraded to 3.12.
 - Support for the Indy SDK has been dropped. It had been previously deprecated. See this [Indy SDK to Askar migration documentation](#https://aca-py.org/latest/deploying/IndySDKtoAskarMigration/) for guidance.
-- The webhook sent after receipt of presentation by a verifier has been updated to include all of the information needed by the verifier so that the controller does not have to call the "Verify Presentation" endpoint. The issue with calling that endpoint after the presentation has been received is that there is a race condition between the controller and the ACA-Py cleanup process deleting completed Present Proof protocol instances. See [\##3081](https://github.com/hyperledger/aries-cloudagent-python/pull/#3081) for additional details.
+- The webhook sent after receipt of presentation by a verifier has been updated to include all of the information needed by the verifier so that the controller does not have to call the "Verify Presentation" endpoint. The issue with calling that endpoint after the presentation has been received is that there is a race condition between the controller and the ACA-Py cleanup process deleting completed Present Proof protocol instances. See [\#3081](https://github.com/hyperledger/aries-cloudagent-python/pull/3081) for additional details.
+- A fix to an obscure bug includes a change to the data sent to the controller after publishing multiple, endorsed credential definition revocation registries in a single call. The bug fix was to properly process the publishing. The breaking change is that when the process (now successfully) completes, the controller is sent the list of published credential definitions. Previously only a single value was being sent. See PR [\#3107](https://github.com/hyperledger/aries-cloudagent-python/pull/3107) for additional details.
 
 ## What's Changed
 * Update README.md by @KPCOFGS in https://github.com/hyperledger/aries-cloudagent-python/pull/2927
@@ -139,22 +138,38 @@ With the focus of the pull requests for this release on stabilizing the implemen
 * chore(deps): Bump aries-askar from 0.3.1 to 0.3.2 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/3088
 * chore(deps): Bump certifi from 2024.6.2 to 2024.7.4 in /demo/playground/examples in the pip group by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/3084
 * 1.0.0rc4 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/3092
+* Update the docs for latest release and improve the publish flow and documentation by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/3097
+* Add DIF presentation exchange context and cache document by @gmulhearn in https://github.com/hyperledger/aries-cloudagent-python/pull/3093
+* VC DI proof request by @sarthakvijayvergiya in https://github.com/hyperledger/aries-cloudagent-python/pull/2960
+* Library update 15/07/24 / Fix unit test typing by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/3103
+* Check connection is ready in all connection required handlers by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/3095
+* Fix the check for vc_di proof by @ianco in https://github.com/hyperledger/aries-cloudagent-python/pull/3106
+* Make single wallet config more explicit by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/3105
+* Breaking: Fix publishing multiple rev reg defs with endorsement by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/3107
+* Add descriptive error for issuance without RevRegRecord by @jamshale in https://github.com/hyperledger/aries-cloudagent-python/pull/3109
+* chore(deps-dev): Bump pytest from 8.2.2 to 8.3.1 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/3115
+* chore(deps-dev): Bump pytest-ruff from 0.4.0 to 0.4.1 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/3113
+* chore(deps): Bump pytest-asyncio from 0.23.7 to 0.23.8 in /demo/playground/examples by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/3117
+* chore(deps-dev): Bump ruff from 0.5.2 to 0.5.4 by @dependabot in https://github.com/hyperledger/aries-cloudagent-python/pull/3114
+* fix: multiuse invites with did peer 4 by @dbluhm in https://github.com/hyperledger/aries-cloudagent-python/pull/3112
+* 1.0.0rc5 by @swcurran in https://github.com/hyperledger/aries-cloudagent-python/pull/3118
 
 ## New Contributors
 * @KPCOFGS made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2927
 * @rajpalc7 made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2945
 * @EmadAnwer made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/2967
 * @Executioner1939 made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/3028
+* @gmulhearn made their first contribution in https://github.com/hyperledger/aries-cloudagent-python/pull/3093
 
-**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.12.1...1.0.0rc4
+**Full Changelog**: https://github.com/hyperledger/aries-cloudagent-python/compare/0.12.1...1.0.0rc5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/1.0.0rc4" class=".btn">
+    <a href="https://github.com/hyperledger/aries-cloudagent-python/releases/tag/1.0.0rc5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-07-09 13:04:55 +0000 UTC
+        Created At 2024-07-23 19:11:27 +0000 UTC
     </span>
 </div>
 
