@@ -1,13 +1,13 @@
 
-[0.65.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.65.0) Release 0.65.0
+[besu-cacti-connector-1.1.0](https://github.com/hyperledger/bevel/releases/tag/besu-cacti-connector-1.1.0) besu-cacti-connector-1.1.0
 
-[v0.5.5](https://github.com/hyperledger-labs/yui-relayer/releases/tag/v0.5.5) v0.5.5
+[besu-tlscert-gen-1.1.0](https://github.com/hyperledger/bevel/releases/tag/besu-tlscert-gen-1.1.0) besu-tlscert-gen-1.1.0
 
-[v0.3.33](https://github.com/hyperledger-labs/yui-ibc-solidity/releases/tag/v0.3.33) v0.3.33
+[besu-tessera-node-1.1.0](https://github.com/hyperledger/bevel/releases/tag/besu-tessera-node-1.1.0) besu-tessera-node-1.1.0
 
-[v6.0.0](https://github.com/hyperledger/identus-edge-agent-sdk-ts/releases/tag/v6.0.0) v6.0.0
+[besu-propose-validator-1.1.0](https://github.com/hyperledger/bevel/releases/tag/besu-propose-validator-1.1.0) besu-propose-validator-1.1.0
 
-[v1.3.1-rc1](https://github.com/hyperledger/firefly/releases/tag/v1.3.1-rc1) v1.3.1-rc1
+[besu-node-1.1.0](https://github.com/hyperledger/bevel/releases/tag/besu-node-1.1.0) besu-node-1.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
