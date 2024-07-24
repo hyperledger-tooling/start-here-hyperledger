@@ -15,38 +15,32 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v1.3.1-rc1
+                    v1.3.1-rc2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.3.1-rc1
+                    v1.3.1-rc2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Prioritise docker compose v2 by @EnriqueL8 in https://github.com/hyperledger/firefly-cli/pull/307
-* fix: no such volume error by @EnriqueL8 in https://github.com/hyperledger/firefly-cli/pull/308
-* Fix doc link by @alex-semenyuk in https://github.com/hyperledger/firefly-cli/pull/313
-* Add environment vars cli flag to stack init by @rodion-lim-partior in https://github.com/hyperledger/firefly-cli/pull/303
-* Support quorum tessera blockchain node by @rodion-lim-partior in https://github.com/hyperledger/firefly-cli/pull/310
-* Update MAINTAINERS.md by @EnriqueL8 in https://github.com/hyperledger/firefly-cli/pull/314
-* fix tessera for ARM64 by @EnriqueL8 in https://github.com/hyperledger/firefly-cli/pull/315
+* Add healthcheck for firefly and extra log info for image by @EnriqueL8 in https://github.com/hyperledger/firefly-cli/pull/317
+* Cleanup code masking useful error message by @peterbroadhurst in https://github.com/hyperledger/firefly-cli/pull/318
+* Add --nodiscover to Quorum command line by @peterbroadhurst in https://github.com/hyperledger/firefly-cli/pull/319
 
-## New Contributors
-* @rodion-lim-partior made their first contribution in https://github.com/hyperledger/firefly-cli/pull/303
 
-**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.3.0...v1.3.1-rc1
+**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.3.1-rc1...v1.3.1-rc2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.3.1-rc1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.3.1-rc2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-07-16 12:32:36 +0000 UTC
+        Created At 2024-07-24 10:23:45 +0000 UTC
     </span>
 </div>
 
