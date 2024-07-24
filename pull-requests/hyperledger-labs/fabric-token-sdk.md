@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/716" class=".btn">#716</a>
+            </td>
+            <td>
+                <b>
+                    Test fix-p2p
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-24 12:55:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/715" class=".btn">#715</a>
             </td>
             <td>
@@ -85,32 +111,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-07-23 04:28:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/711" class=".btn">#711</a>
-            </td>
-            <td>
-                <b>
-                    fixup! Updated FSC version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-22 10:16:44 +0000 UTC
     </div>
 </div>
 
@@ -319,32 +319,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2024-07-17 23:17:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/701" class=".btn">#701</a>
-            </td>
-            <td>
-                <b>
-                    Update FSC version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 12:52:23 +0000 UTC
     </div>
 </div>
 

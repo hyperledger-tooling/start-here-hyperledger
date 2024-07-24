@@ -90,29 +90,3 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugins
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/770" class=".btn">#770</a>
-            </td>
-            <td>
-                <b>
-                    fix: debug value in cred id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a quick fix for a debug value mistakenly committed in #768.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 17:47:45 +0000 UTC
-    </div>
-</div>
-

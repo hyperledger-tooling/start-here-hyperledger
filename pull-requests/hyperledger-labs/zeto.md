@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/zeto
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/zeto/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Initial sparse merkle tree impl; missing proof generation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 17:49:25 +0000 UTC
-    </div>
-</div>
-
