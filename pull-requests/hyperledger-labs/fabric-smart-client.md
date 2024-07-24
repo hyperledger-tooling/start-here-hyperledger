@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/638" class=".btn">#638</a>
+            </td>
+            <td>
+                <b>
+                    Responder views inherit span of initiator. Span names are prefixed wi…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …th the node name. Added further spans/events.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-24 11:38:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/637" class=".btn">#637</a>
             </td>
             <td>
@@ -85,84 +111,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2024-07-18 03:27:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/634" class=".btn">#634</a>
-            </td>
-            <td>
-                <b>
-                    Added traces and metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 11:50:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/633" class=".btn">#633</a>
-            </td>
-            <td>
-                <b>
-                    Injectable network config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 09:55:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/632" class=".btn">#632</a>
-            </td>
-            <td>
-                <b>
-                    add closing state to prevent send on closed channel panic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                With multiple subscribers and events, we encountered a race condition where the OnReceive would still try to send when CloseChaincodeEvents had already closed the channel (which causes a panic). This PR adds a unit- and integration test to reproduce it, and a `closing` boolean behind a mutex to prevent it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 08:50:23 +0000 UTC
     </div>
 </div>
 

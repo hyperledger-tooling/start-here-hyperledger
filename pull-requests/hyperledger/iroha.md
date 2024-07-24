@@ -14,11 +14,66 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4889" class=".btn">#4889</a>
+            </td>
+            <td>
+                <b>
+                    refactor(p2p): remove `garbage`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+Remove adding garbage to p2p handshake.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4888 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+No redundant code.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-24 10:18:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4886" class=".btn">#4886</a>
             </td>
             <td>
                 <b>
-                    fix(schema): make `Role` transparent in schema
+                    fix(schema): make `Role` transparent
                 </b>
             </td>
         </tr>
@@ -1232,7 +1287,7 @@ To check this issues `create_blocks` test was added.
             </td>
             <td>
                 <b>
-                    fix(snapshot): verify all blocks while reading snapshot
+                    fix(snapshot): allow last block mismatch; relative store path
                 </b>
             </td>
         </tr>
@@ -1861,128 +1916,6 @@ Closes #4781 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-07-17 13:47:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4856" class=".btn">#4856</a>
-            </td>
-            <td>
-                <b>
-                    feat!: remove public key from ed25519 private key
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-Before ed25519 private key was represented as concatenation of private key and private key.
-After the changes introduced in this PR it is just private key.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4838 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-Private keys are more compact and doesn't contain unnecessary information.
-
-### Downsides
-
-Iroha environments have to be updated.
-
-### For reviewers
-
-All actual changes are in:
-- [crypto/src/lib.rs](https://github.com/hyperledger/iroha/compare/main...Erigara:iroha:ed25519_private_key?expand=1#diff-b74424815b07b472bd526064fdd81233b3404546012d1c628228dc8ce5710100) serialization
-- [crypto/src/signature/ed25519.rs](https://github.com/hyperledger/iroha/compare/main...Erigara:iroha:ed25519_private_key?expand=1#diff-8e5f1e972915bcea433b1892a54e9a4fce390aafcbedae989e9ccd9ad5f2f130) deserialization
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 11:11:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4855" class=".btn">#4855</a>
-            </td>
-            <td>
-                <b>
-                    fix(schema): rename `type_` to `type` in schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-* add support for handling `serde(rename)` attributes with `IntoSchema`
-* attach `serde(rename = "type")` to `type_` fields in data model
-
-### Linked issue
-
-Closes #4770
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 09:13:15 +0000 UTC
     </div>
 </div>
 

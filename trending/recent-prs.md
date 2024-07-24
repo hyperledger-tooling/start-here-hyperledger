@@ -1,13 +1,13 @@
 
-[4886](https://github.com/hyperledger/iroha/pull/4886) fix(schema): make `Role` transparent in schema
+[715](https://github.com/hyperledger-labs/fabric-token-sdk/pull/715) Test fsc
 
-[4885](https://github.com/hyperledger/iroha/pull/4885) chore(deps): bump tokio from 1.38.1 to 1.39.1
+[638](https://github.com/hyperledger-labs/fabric-smart-client/pull/638) Responder views inherit span of initiator. Span names are prefixed wi…
 
-[4884](https://github.com/hyperledger/iroha/pull/4884) chore(deps): bump clap from 4.5.9 to 4.5.10
+[4889](https://github.com/hyperledger/iroha/pull/4889) refactor(p2p): remove `garbage`
 
-[713](https://github.com/hyperledger-labs/fabric-token-sdk/pull/713) Added parallel finality listener manager
+[290](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/290) Fix to emit a `ChannelUpgradeOpen` event if transit to `OPEN` state in `channelUpgradeConfirm`
 
-[637](https://github.com/hyperledger-labs/fabric-smart-client/pull/637) Extracted finality listener to a separate injectable service
+[4886](https://github.com/hyperledger/iroha/pull/4886) fix(schema): make `Role` transparent
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
