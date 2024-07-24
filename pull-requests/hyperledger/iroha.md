@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4890" class=".btn">#4890</a>
+            </td>
+            <td>
+                <b>
+                    refactor: derive block hash from header
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Refactor</span>
+            </td>
+            <td>
+                ## Description
+
+Derive block hash from the header only.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #4641 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+- block hash is the same for the whole lifetime of the block
+- block hash is less expensive as only header is used
+- light client is able to verify block chain by only headers and corresponding signatures (without obligation to load the whole block)
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-24 13:10:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4889" class=".btn">#4889</a>
             </td>
             <td>
@@ -1707,215 +1764,6 @@ fixes this sonar_dojo [workflow](https://github.com/hyperledger/iroha/actions/ru
     </table>
     <div class="right-align">
         Created At 2024-07-17 19:36:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4859" class=".btn">#4859</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump toml from 0.8.14 to 0.8.15
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [toml](https://github.com/toml-rs/toml) from 0.8.14 to 0.8.15.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/toml-rs/toml/commit/9217e44287880ce07777ae48fb8884a184957ae2"><code>9217e44</code></a> chore: Release</li>
-<li><a href="https://github.com/toml-rs/toml/commit/003ce94f4c554e50cf81e4877874e699c7cf58c5"><code>003ce94</code></a> docs: Update changelog</li>
-<li><a href="https://github.com/toml-rs/toml/commit/b463f3d7098d3680eec40e8c28d407d86b73d114"><code>b463f3d</code></a> Merge pull request <a href="https://redirect.github.com/toml-rs/toml/issues/757">#757</a> from epage/key</li>
-<li><a href="https://github.com/toml-rs/toml/commit/3d8852b385576578a7462591f32250a919af31d0"><code>3d8852b</code></a> fix(encode): Be extra sure it can be a literal</li>
-<li><a href="https://github.com/toml-rs/toml/commit/e1bc1c3861f208283c13410848dc34d73c1b0df4"><code>e1bc1c3</code></a> refactor(encode): Pull out literal inference</li>
-<li><a href="https://github.com/toml-rs/toml/commit/fbb0ac28b5ddba66db2aef192ec6b269ea42079d"><code>fbb0ac2</code></a> test(encode): Add property-based tests for keys/strings</li>
-<li><a href="https://github.com/toml-rs/toml/commit/0b268f20c11003de0fe2a886d15816fba41f4ed3"><code>0b268f2</code></a> fix(encode): Correct encoding for key with mixed quotes</li>
-<li><a href="https://github.com/toml-rs/toml/commit/82c019557d77d4764f1128602d1b14d876d2e094"><code>82c0195</code></a> refactor(encode): Make str repr inferring clearer</li>
-<li><a href="https://github.com/toml-rs/toml/commit/330b590968e00c94a6a9d4ee3cbb1f8615cf693c"><code>330b590</code></a> refactor(encode): Extract all str repr inferring</li>
-<li><a href="https://github.com/toml-rs/toml/commit/00fb5eee54e9c8ee44860bc983753ff97e86a0da"><code>00fb5ee</code></a> test(edit): Add more roundtrip testing</li>
-<li>Additional commits viewable in <a href="https://github.com/toml-rs/toml/compare/toml-v0.8.14...toml-v0.8.15">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=toml&package-manager=cargo&previous-version=0.8.14&new-version=0.8.15)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 16:59:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4858" class=".btn">#4858</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump tokio from 1.38.0 to 1.38.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [tokio](https://github.com/tokio-rs/tokio) from 1.38.0 to 1.38.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/tokio-rs/tokio/releases">tokio's releases</a>.</em></p>
-<blockquote>
-<h2>Tokio v1.38.1</h2>
-<h1>1.38.1 (July 16th, 2024)</h1>
-<p>This release fixes the bug identified as (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6682">#6682</a>), which caused timers not
-to fire when they should.</p>
-<h3>Fixed</h3>
-<ul>
-<li>time: update <code>wake_up</code> while holding all the locks of sharded time wheels (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6683">#6683</a>)</li>
-</ul>
-<p><a href="https://redirect.github.com/tokio-rs/tokio/issues/6682">#6682</a>: <a href="https://redirect.github.com/tokio-rs/tokio/pull/6682">tokio-rs/tokio#6682</a>
-<a href="https://redirect.github.com/tokio-rs/tokio/issues/6683">#6683</a>: <a href="https://redirect.github.com/tokio-rs/tokio/pull/6683">tokio-rs/tokio#6683</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/tokio-rs/tokio/commit/14b9f7115728b77c82db8d21b6d768d16dc472a6"><code>14b9f71</code></a> chore: release Tokio v1.38.1 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6688">#6688</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/24344dfe4b69931bfe9fe686d2424c9f626dc75b"><code>24344df</code></a> time: fix race condition leading to lost timers (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6683">#6683</a>)</li>
-<li>See full diff in <a href="https://github.com/tokio-rs/tokio/compare/tokio-1.38.0...tokio-1.38.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tokio&package-manager=cargo&previous-version=1.38.0&new-version=1.38.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 16:40:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4857" class=".btn">#4857</a>
-            </td>
-            <td>
-                <b>
-                    refactor: replace `lol_alloc` with `dlmalloc`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Replaces `lol_alloc` with `dlmalloc`.
-Check linked issue for more details.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4781 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-`dlmalloc` is used as default allocator for wasm in rust std lib, so we can expect it to be more stable
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 13:47:41 +0000 UTC
     </div>
 </div>
 
