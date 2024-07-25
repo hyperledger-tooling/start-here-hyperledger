@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/web3j
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/web3j/pull/2079" class=".btn">#2079</a>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2084" class=".btn">#2084</a>
             </td>
             <td>
                 <b>
-                    Make getABI_* calls in wrapper should be static
+                    Bug fix for FastRawTransactionManager.resetNonce
                 </b>
             </td>
         </tr>
@@ -28,24 +28,120 @@ permalink: /pull-requests/hyperledger/web3j
             </td>
             <td>
                 ### What does this PR do?
-getABI_* call in wrapper should be static method. we do not need an instance of wrapper to encode function
+Make `FastRawTransactionManager.resetNonce()` reset the nonce
 
 ### Where should the reviewer start?
-All files
+#2002
 
 ### Why is it needed?
-we do not need an instance of wrapper to encode function
+#### AS-IS
+```java
+    public synchronized void resetNonce() throws IOException {
+        nonce = super.getNonce();
+    }
+```
+#### TO-BE
+```java
+    public synchronized void resetNonce() throws IOException {
+        nonce = BigInteger.valueOf(-1);
+    }
+```
+
+While the **AS-IS** reset nonce with the current nonce, if `getNonce()` is called, it will return `currentNonce + 1`.
+
+```java
+    @Override
+    protected synchronized BigInteger getNonce() throws IOException {
+        if (nonce.signum() == -1) {
+            // obtain lock
+            nonce = super.getNonce();
+        } else {
+            nonce = nonce.add(BigInteger.ONE); // this line will be called
+        }
+        return nonce;
+    }
+```
 
 ## Checklist
 
 - [x] I've read the contribution guidelines.
-- [x] I've added tests (if applicable).
+- [ ] I've added tests (if applicable).
 - [ ] I've added a changelog entry if necessary.
+
+fix #2002
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-16 03:32:17 +0000 UTC
+        Created At 2024-07-25 00:44:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/web3j/pull/2083" class=".btn">#2083</a>
+            </td>
+            <td>
+                <b>
+                    Bug fix for BytesType.bytes32PaddedLength
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What does this PR do?
+Bug fix for BytesType.bytes32PaddedLength
+
+### Where should the reviewer start?
+#2080 
+
+### Why is it needed?
+`BytesType.bytes32PaddedLength()` returns incorrect value for lengths greater than 32 and multiples of 32.
+
+[BytesType::bytes32PaddedLength‎](https://github.com/hyperledger/web3j/blob/main/abi/src/main/java/org/web3j/abi/datatypes/BytesType.java#L29)
+```java
+    @Override
+    public int bytes32PaddedLength() {
+        return value.length <= 32
+                ? MAX_BYTE_LENGTH
+                : (value.length / MAX_BYTE_LENGTH + 1) * MAX_BYTE_LENGTH;
+    }
+```
+In case of the `value.length` is 64, 96, 128, ...
+It should return 64, 96, 128, ...
+However, the results are 96, 128, 160, ...
+
+The corrected code is as follows:
+```java
+    @Override
+    public int bytes32PaddedLength() {
+        if (value.length < MAX_BYTE_LENGTH) {
+            return MAX_BYTE_LENGTH;
+        } else if (value.length % MAX_BYTE_LENGTH == 0) {
+            return value.length;
+        } else {
+            return (value.length / MAX_BYTE_LENGTH + 1) * MAX_BYTE_LENGTH;
+        }
+    }
+```
+
+## Checklist
+
+- [x] I've read the contribution guidelines.
+- [ ] I've added tests (if applicable).
+- [ ] I've added a changelog entry if necessary.
+
+fix #2080 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-25 00:18:24 +0000 UTC
     </div>
 </div>
 
