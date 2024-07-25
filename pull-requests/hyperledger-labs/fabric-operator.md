@@ -95,30 +95,3 @@ The controller-gen update in turn improves formatting of the generated CRD yaml 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/198" class=".btn">#198</a>
-            </td>
-            <td>
-                <b>
-                    Use ubi-minimal image instead of ubi go-toolset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                go-toolset doesn't have the latest versions of Go.
-Therefore use the ubi minimal image and install our preferred version of Go when building operator.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-18 03:40:52 +0000 UTC
-    </div>
-</div>
-
