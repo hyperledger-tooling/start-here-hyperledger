@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/709" class=".btn">#709</a>
-            </td>
-            <td>
-                <b>
-                    FSC Update: Comm Layer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvements</span>
-            </td>
-            <td>
-                This PR updates the FSC version to https://github.com/hyperledger-labs/fabric-smart-client/pull/635
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-18 06:08:41 +0000 UTC
-    </div>
-</div>
-

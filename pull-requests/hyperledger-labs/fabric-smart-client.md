@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/635" class=".btn">#635</a>
-            </td>
-            <td>
-                <b>
-                    dispose context and close sessions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">improvement</span>
-            </td>
-            <td>
-                This PR cleanups the contexts, sessions, and streams management by closing and releasing resources when needed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-18 03:27:33 +0000 UTC
-    </div>
-</div>
-
