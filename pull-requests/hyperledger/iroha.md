@@ -14,6 +14,340 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4899" class=".btn">#4899</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump pytest from 8.3.1 to 8.3.2 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.3.1 to 8.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest's releases</a>.</em></p>
+<blockquote>
+<h2>8.3.2</h2>
+<h1>pytest 8.3.2 (2024-07-24)</h1>
+<h2>Bug fixes</h2>
+<ul>
+<li>
+<p><a href="https://redirect.github.com/pytest-dev/pytest/issues/12652">#12652</a>: Resolve regression [conda]{.title-ref} environments where no longer being automatically detected.</p>
+<p>-- by <code>RonnyPfannschmidt</code>{.interpreted-text role=&quot;user&quot;}</p>
+</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/pytest-dev/pytest/commit/bbcec9c46509c417ef58e4849847b4aa43f4591e"><code>bbcec9c</code></a> Prepare release version 8.3.2</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/78fe8b61fa716cd9775f1e37b395bab7679734a6"><code>78fe8b6</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12657">#12657</a> from pytest-dev/patchback/backports/8.3.x/6c806b499...</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/238bad2d2a1f1dbb47d740c84b5b4f5224f8a965"><code>238bad2</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12656">#12656</a> from RonnyPfannschmidt/fix-12652-detect-conda-env</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/ae6034a781a50b572fa700911e5d8e0eb074ca17"><code>ae6034a</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12641">#12641</a> from pytest-dev/patchback/backports/8.3.x/c03989cee...</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/31337aba02a7698a87a6792eacf887fceff08af2"><code>31337ab</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12640">#12640</a> from pytest-dev/update-user</li>
+<li><a href="https://github.com/pytest-dev/pytest/commit/ca3070b1356e5edf43f085d8c4ec1b34627061dd"><code>ca3070b</code></a> Merge pull request <a href="https://redirect.github.com/pytest-dev/pytest/issues/12637">#12637</a> from pytest-dev/release-8.3.1</li>
+<li>See full diff in <a href="https://github.com/pytest-dev/pytest/compare/8.3.1...8.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=pytest&package-manager=pip&previous-version=8.3.1&new-version=8.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-25 17:06:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4897" class=".btn">#4897</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump clap from 4.5.10 to 4.5.11
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [clap](https://github.com/clap-rs/clap) from 4.5.10 to 4.5.11.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's changelog</a>.</em></p>
+<blockquote>
+<h2>[4.5.11] - 2024-07-25</h2>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/clap-rs/clap/compare/clap_complete-v4.5.10...v4.5.11">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=clap&package-manager=cargo&previous-version=4.5.10&new-version=4.5.11)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-25 16:09:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4896" class=".btn">#4896</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump toml from 0.8.15 to 0.8.16
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [toml](https://github.com/toml-rs/toml) from 0.8.15 to 0.8.16.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/toml-rs/toml/commit/4ac61f76176cb028207096cbc6dd7263e6f120b1"><code>4ac61f7</code></a> chore: Release</li>
+<li><a href="https://github.com/toml-rs/toml/commit/a5eb1ac08508b7a0b771b01231356b1591a27c1b"><code>a5eb1ac</code></a> chore: Disable serde_toml releasing for now</li>
+<li>See full diff in <a href="https://github.com/toml-rs/toml/compare/toml-v0.8.15...toml-v0.8.16">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=toml&package-manager=cargo&previous-version=0.8.15&new-version=0.8.16)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-25 16:07:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4894" class=".btn">#4894</a>
+            </td>
+            <td>
+                <b>
+                    refactor: remove dependency on iroha_wasm_builder from iroha cli and client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+## Description
+
+We had some unnecessary dependencies on `iroha_wasm_builder`, blocking the build of iroha cli and client. This PR removes those and makes it so only the `iroha_wasm_builder` cli and integration tests actually depend on the crate.
+
+As a part of this change, `construct_executor` utility function is moved from `iroha_cli` to `test_network`, as it only gets used in tests. Not _entirely_ happy with its new location, but `iroha_cli` is definitely a worse place for this.
+
+### Linked issue
+
+Closes #4882
+
+### Benefits
+
+Hopefully, faster incremental builds in cases when integration tests are not being built.
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-25 15:59:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4893" class=".btn">#4893</a>
+            </td>
+            <td>
+                <b>
+                    fix: Add limits to LiveQueryStore to prevent high memory usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">api-changes</span><span class="chip">config-changes</span>
+            </td>
+            <td>
+                ## Description
+
+Added two new config parameters which limits number of live queries (global and per-user). Default value for both is 128. This is needed to prevent high memory usage in cases when client sends a lot of queries with large output, but do not fully consume those queries (that is obtain only first batch and doesn't send requests for the next batches). Normally clients should not do this, but malicious third-party can send such requests to DDOS iroha peer. In case limits are exceeded, iroha peer will return error "429 too many requests" for the query request.
+
+* Names of parameters:
+```toml
+[torii]
+query_store_capacity = 128
+query_store_capacity_per_user = 128
+```
+
+Also:
+* Changed default value of query idle time from 30s to 10s (for the same reason to decrease potential peak memory usage)
+* Changed default value of fetch size from 10 to 100 (I think it is strange that when query output has e.g. 1000 items, client currently has to send 100 requests to get full query result)
+
+Some notes about implementation:
+* Currently when adding new query, the message is send to `mpsc::channel`, and `LiveQueryStore` thread does the addition. I changed it to perform addition directly without `mpsc::channel` since we now need to check capacity and return error to client if it exceeds.
+
+### Linked issue
+
+Closes #4830
+
+### Benefits
+
+Add limit to number of live queries to prevent high memory usage in cases when client don't fully consume query output.
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-25 15:43:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4891" class=".btn">#4891</a>
             </td>
             <td>
@@ -1571,82 +1905,6 @@ Closes #4376
     </table>
     <div class="right-align">
         Created At 2024-07-19 14:15:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4864" class=".btn">#4864</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump thiserror from 1.0.62 to 1.0.63
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [thiserror](https://github.com/dtolnay/thiserror) from 1.0.62 to 1.0.63.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
-<blockquote>
-<h2>1.0.63</h2>
-<ul>
-<li>Documentation improvements</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dtolnay/thiserror/commit/915c75e8a3b679588e6eac03dccbba5d38c764a8"><code>915c75e</code></a> Release 1.0.63</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/3d5ec25464d2d71f09f480666e240d3446a44a19"><code>3d5ec25</code></a> Merge pull request <a href="https://redirect.github.com/dtolnay/thiserror/issues/312">#312</a> from dtolnay/backtracedoc</li>
-<li><a href="https://github.com/dtolnay/thiserror/commit/de8a1e54d420514250d9d4081d41723192cf0dfa"><code>de8a1e5</code></a> Update documentation of #[from] and #[backtrace] attributes</li>
-<li>See full diff in <a href="https://github.com/dtolnay/thiserror/compare/1.0.62...1.0.63">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=thiserror&package-manager=cargo&previous-version=1.0.62&new-version=1.0.63)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-18 16:57:06 +0000 UTC
     </div>
 </div>
 
