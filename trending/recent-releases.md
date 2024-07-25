@@ -1,13 +1,13 @@
 
-[v0.2.4](https://github.com/hyperledger/firefly-tezosconnect/releases/tag/v0.2.4) v0.2.4
+[v0.11.2](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.11.2) v0.11.2
 
-[v2.0.0-rc.3](https://github.com/hyperledger/cacti/releases/tag/v2.0.0-rc.3) v2.0.0-rc.3
+[v0.11.1](https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.11.1) v0.11.1
 
-[weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-rc.3](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-rc.3) v2.0.0-rc.3 - GO Fabric Utils Library for Interoperation - Jul 24, 2024
+[0.12.2rc1](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.12.2rc1) 0.12.2rc1
 
-[weaver/sdks/fabric/go-sdk/v2.0.0-rc.3](https://github.com/hyperledger/cacti/releases/tag/weaver/sdks/fabric/go-sdk/v2.0.0-rc.3) v2.0.0-rc.3 - GO Fabric Weaver SDK - Jul 24, 2024
+[0.11.2](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.11.2) 0.11.2
 
-[weaver/common/protos-go/v2.0.0-rc.3](https://github.com/hyperledger/cacti/releases/tag/weaver/common/protos-go/v2.0.0-rc.3) v2.0.0-rc.3 - GO Weaver Protos - Jul 24, 2024
+[v1.3.1-rc2](https://github.com/hyperledger/firefly/releases/tag/v1.3.1-rc2) v1.3.1-rc2
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)

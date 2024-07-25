@@ -15,26 +15,54 @@ permalink: /releases/hyperledger/aries-acapy-docs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.0rc4
+                    v0.11.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.0rc4
+                    v0.11.2
                 </span>
             </td>
             <td>
-                Documentation for Release 1.0.0rc4 of Aries Cloud Agent Python.
+                Documentation for Release 0.11.2 of Aries Cloud Agent Python.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v1.0.0rc4" class=".btn">
+    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.11.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-07-10 19:09:00 +0000 UTC
+        Created At 2024-07-25 20:06:51 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v0.11.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.11.1
+                </span>
+            </td>
+            <td>
+                Documentation for Release 0.11.1 of Aries Cloud Agent Python.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.11.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-07-25 19:59:47 +0000 UTC
     </span>
 </div>
 
