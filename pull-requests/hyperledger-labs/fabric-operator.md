@@ -122,30 +122,3 @@ Therefore use the ubi minimal image and install our preferred version of Go when
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/197" class=".btn">#197</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.21.11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.21.11.
-Note that starting with Go 1.21, the version in go.mod should be 3 digits.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-17 19:17:21 +0000 UTC
-    </div>
-</div>
-
