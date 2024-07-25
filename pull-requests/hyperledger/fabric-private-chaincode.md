@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
                 <!--  Thanks for sending a pull request!  Here are some tips for you:

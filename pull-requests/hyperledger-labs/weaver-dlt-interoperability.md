@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/471" class=".btn">#471</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/472" class=".btn">#472</a>
             </td>
             <td>
                 <b>
-                    chore(release): v1.6.1 (last release)
+                    Fixed build errors, added protos-rs publish action, updated tutorial instructions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                <nil>
+                - Fabric Interop CC Docker image building errors were fixed.
+- Interop CorDapp and sample CorDapp dependencies were updated.
+- Updated Golang dependency for building and testing from v16 to v20.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-09 22:03:21 +0000 UTC
+        Created At 2024-07-25 12:45:11 +0000 UTC
     </div>
 </div>
 

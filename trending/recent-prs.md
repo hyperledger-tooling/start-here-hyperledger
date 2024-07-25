@@ -1,13 +1,13 @@
 
-[717](https://github.com/hyperledger-labs/fabric-token-sdk/pull/717) Add traces
+[4899](https://github.com/hyperledger/iroha/pull/4899) chore(deps-dev): bump pytest from 8.3.1 to 8.3.2 in /client_cli/pytests
 
-[4891](https://github.com/hyperledger/iroha/pull/4891) chore: version bump to RC22
+[4897](https://github.com/hyperledger/iroha/pull/4897) chore(deps): bump clap from 4.5.10 to 4.5.11
 
-[2084](https://github.com/hyperledger/web3j/pull/2084) Bug fix for FastRawTransactionManager.resetNonce
+[4896](https://github.com/hyperledger/iroha/pull/4896) chore(deps): bump toml from 0.8.15 to 0.8.16
 
-[2083](https://github.com/hyperledger/web3j/pull/2083) Bug fix for BytesType.bytes32PaddedLength
+[4894](https://github.com/hyperledger/iroha/pull/4894) refactor: remove dependency on iroha_wasm_builder from iroha cli and client
 
-[4932](https://github.com/hyperledger/fabric/pull/4932) Added a check to make sure that chaincode is actually running.
+[4893](https://github.com/hyperledger/iroha/pull/4893) fix: Add limits to LiveQueryStore to prevent high memory usage
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
