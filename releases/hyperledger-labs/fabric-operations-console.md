@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/fabric-operations-console
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.9-23
+                    v1.0.9-24
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.9-23
+                    v1.0.9-24
                 </span>
             </td>
             <td>
@@ -31,11 +31,11 @@ Node version updated to 20.15.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-operations-console/releases/tag/v1.0.9-23" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-operations-console/releases/tag/v1.0.9-24" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2024-07-12 07:14:18 +0000 UTC
+        Created At 2024-07-26 08:06:06 +0000 UTC
     </span>
 </div>
 
