@@ -69,7 +69,8 @@ Due to hardware limitations, testing the connection between the frontend and bac
 
 ### Current Progress
 The image below demonstrates the current progress
-<img width="1499" alt="Screenshot 2024-07-23 at 9 32 51 PM" src="https://github.com/user-attachments/assets/3606e96f-202a-4c71-9244-1d6aecf10ed9">
+<img width="1507" alt="Screenshot 2024-07-26 at 3 56 39 PM" src="https://github.com/user-attachments/assets/6ccebc1e-5d44-4216-88e4-56079480377e">
+
             </td>
         </tr>
     </table>

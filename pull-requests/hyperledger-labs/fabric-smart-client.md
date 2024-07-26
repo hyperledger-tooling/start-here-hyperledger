@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/640" class=".btn">#640</a>
+            </td>
+            <td>
+                <b>
+                    Removed unnecessary spans. Their lifetime exceed the lifespan of the …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …request and it makes traces harder to read.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-26 08:24:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/639" class=".btn">#639</a>
             </td>
             <td>
