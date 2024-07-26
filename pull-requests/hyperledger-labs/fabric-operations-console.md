@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/767" class=".btn">#767</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/769" class=".btn">#769</a>
             </td>
             <td>
                 <b>
-                    Update ubi8 to nodejs20
+                    bump up release notes
                 </b>
             </td>
         </tr>
@@ -27,21 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Update ubi8 to nodejs20
-registry.access.redhat.com/ubi8/nodejs-20
-
-#### Type of change
-nodejs 20 update
-
-#### Description
-Update ubi8 to nodejs20
-registry.access.redhat.com/ubi8/nodejs-20
+                #### Type of change
+bump up release notes
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-12 06:49:00 +0000 UTC
+        Created At 2024-07-26 07:59:18 +0000 UTC
     </div>
 </div>
 

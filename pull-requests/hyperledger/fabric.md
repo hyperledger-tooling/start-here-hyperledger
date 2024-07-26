@@ -69,31 +69,3 @@ I corrected the situation by checking the Handler state as well.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4929" class=".btn">#4929</a>
-            </td>
-            <td>
-                <b>
-                    Update SDK documentation links for Fabric v3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove unsupported / deprecated client application SDKs for v2.2 and earlier.
-- Remove Python SDK since it targets Fabric v1.4 and does not support BFT.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-19 08:43:15 +0000 UTC
-    </div>
-</div>
-
