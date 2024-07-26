@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/zeto
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/zeto/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    Split between internal and pkg with a clear API package for external usage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-19 03:29:08 +0000 UTC
-    </div>
-</div>
-
