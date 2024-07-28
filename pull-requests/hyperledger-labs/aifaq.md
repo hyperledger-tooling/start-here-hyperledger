@@ -79,29 +79,3 @@ The image below demonstrates the current progress
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/28" class=".btn">#28</a>
-            </td>
-            <td>
-                <b>
-                    Configure formatting and continuous integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This PR aims to improve the general repository structure with respect to CI workflows, formatting and linting and standard repository templates.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-21 07:10:35 +0000 UTC
-    </div>
-</div>
-
