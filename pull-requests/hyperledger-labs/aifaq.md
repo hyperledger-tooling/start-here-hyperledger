@@ -105,35 +105,3 @@ The image below demonstrates the current progress
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    Automated the dowloading of ReadFromDocs procedure and Dockerized the current backend.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Key changes:
-- Added the file fetchAndOrganizeData.py. This file collects data from all the links provided in config.yaml. The collected data is then organized in a dedicated folder containing all the HTML files gathered.
-- In ingest.py, we've added some debugging code to print the total number of chunks. Additionally, the creation of the chromadb folder is now automated.
-- I've also included a Dockerfile and added usage commands for both Docker and non-Docker environments.
-
-@gcapuzzi @swaptr Can you please review this?
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-20 19:07:52 +0000 UTC
-    </div>
-</div>
-

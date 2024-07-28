@@ -66,7 +66,7 @@ While the **AS-IS** reset nonce with the current nonce, if `getNonce()` is calle
 
 - [x] I've read the contribution guidelines.
 - [ ] I've added tests (if applicable).
-- [ ] I've added a changelog entry if necessary.
+- [x] I've added a changelog entry if necessary.
 
 fix #2002
             </td>
