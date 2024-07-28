@@ -45,37 +45,3 @@ permalink: /pull-requests/hyperledger-labs/aifaq
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/aifaq/pull/29" class=".btn">#29</a>
-            </td>
-            <td>
-                <b>
-                    Issue #20: Connect API to the frontend of the application
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description
-This PR addresses Issue #20 . Users can now interact directly with the frontend, receiving their typed messages in the chatbox.
-
-Due to hardware limitations, testing the connection between the frontend and backend hasn't been performed. The relevant code is written but currently commented out.
-
-### Current Progress
-The image below demonstrates the current progress
-<img width="1507" alt="Screenshot 2024-07-26 at 3 56 39 PM" src="https://github.com/user-attachments/assets/6ccebc1e-5d44-4216-88e4-56079480377e">
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-21 14:34:32 +0000 UTC
-    </div>
-</div>
-
