@@ -1,13 +1,13 @@
 
+[831](https://github.com/hyperledger/aries-acapy-plugins/pull/831) build(deps-dev): bump pytest from 8.3.1 to 8.3.2 in /firebase_push_notifications
+
+[830](https://github.com/hyperledger/aries-acapy-plugins/pull/830) build(deps): bump pytest from 8.3.1 to 8.3.2 in /basicmessage_storage/integration
+
+[829](https://github.com/hyperledger/aries-acapy-plugins/pull/829) build(deps): bump bcrypt from 4.1.3 to 4.2.0 in /multitenant_provider/integration
+
+[828](https://github.com/hyperledger/aries-acapy-plugins/pull/828) build(deps): bump pytest from 8.3.1 to 8.3.2 in /multitenant_provider/integration
+
 [4933](https://github.com/hyperledger/fabric/pull/4933) chore: fix some comments
-
-[4909](https://github.com/hyperledger/iroha/pull/4909) fix: prevent redundant blocksync block messages
-
-[719](https://github.com/hyperledger-labs/fabric-token-sdk/pull/719) F cleanup
-
-[4908](https://github.com/hyperledger/iroha/pull/4908) chore(deps): bump iroha_p2p from 2.0.0-pre-rc.21 to 2.0.0-pre-rc.22.0
-
-[4907](https://github.com/hyperledger/iroha/pull/4907) chore(deps): bump irohad from 2.0.0-pre-rc.21 to 2.0.0-pre-rc.22.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/636" class=".btn">#636</a>
-            </td>
-            <td>
-                <b>
-                    Multiplexer fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-22 10:11:47 +0000 UTC
-    </div>
-</div>
-
