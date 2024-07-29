@@ -361,29 +361,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/826" class=".btn">#826</a>
-            </td>
-            <td>
-                <b>
-                    Weekly library upgrades
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Weekly library upgrades. Mostly dev dependencies.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-22 16:32:58 +0000 UTC
-    </div>
-</div>
-
