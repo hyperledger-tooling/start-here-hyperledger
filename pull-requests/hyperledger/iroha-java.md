@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    Update to rc21
+                    Update to rc22
                 </b>
             </td>
         </tr>
