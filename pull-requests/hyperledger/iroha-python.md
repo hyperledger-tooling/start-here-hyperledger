@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/212" class=".btn">#212</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/213" class=".btn">#213</a>
             </td>
             <td>
                 <b>
-                    fix: Update SDK to work with MVP version of iroha
+                    fix: update to exact MVP commit
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-21 11:59:57 +0000 UTC
+        Created At 2024-07-29 18:54:07 +0000 UTC
     </div>
 </div>
 
