@@ -1,13 +1,13 @@
 
-[4913](https://github.com/hyperledger/iroha/pull/4913) chore(deps): bump trybuild from 1.0.97 to 1.0.98
+[149](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/149) Bump golangci/golangci-lint-action from 6.0.1 to 6.1.0
 
-[4912](https://github.com/hyperledger/iroha/pull/4912) chore(deps): bump serde_json from 1.0.120 to 1.0.121
+[148](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/148) Bump github.com/onsi/gomega from 1.33.1 to 1.34.1
 
-[4911](https://github.com/hyperledger/iroha/pull/4911) chore(deps): bump tokio from 1.39.1 to 1.39.2
+[147](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/147) Bump github.com/onsi/ginkgo/v2 from 2.19.0 to 2.19.1
 
-[831](https://github.com/hyperledger/aries-acapy-plugins/pull/831) build(deps-dev): bump pytest from 8.3.1 to 8.3.2 in /firebase_push_notifications
+[1677](https://github.com/hyperledger/indy-plenum/pull/1677) Fix CI Docker Build Task
 
-[830](https://github.com/hyperledger/aries-acapy-plugins/pull/830) build(deps): bump pytest from 8.3.1 to 8.3.2 in /basicmessage_storage/integration
+[213](https://github.com/hyperledger/iroha-python/pull/213) fix: update to exact MVP commit
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
