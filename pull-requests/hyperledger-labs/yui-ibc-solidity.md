@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/291" class=".btn">#291</a>
+            </td>
+            <td>
+                <b>
+                    Rename to IBCChannelUpgradeConfirmOpenTimeoutCancel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 09:04:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/290" class=".btn">#290</a>
             </td>
             <td>
