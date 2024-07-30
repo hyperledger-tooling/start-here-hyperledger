@@ -1,13 +1,13 @@
 
-[2086](https://github.com/hyperledger/web3j/pull/2086) Fixing URLs and branches
+[4920](https://github.com/hyperledger/iroha/pull/4920) chore: version bump to mvp.1.0
 
-[4916](https://github.com/hyperledger/iroha/pull/4916) ci: containerised testing
+[4919](https://github.com/hyperledger/iroha/pull/4919) ci: Add jq tool to iroha2 profiler image
 
-[720](https://github.com/hyperledger-labs/fabric-token-sdk/pull/720) Bump github.com/docker/docker from 26.1.0+incompatible to 26.1.4+incompatible
+[4918](https://github.com/hyperledger/iroha/pull/4918) ci: conterized testing
 
-[770](https://github.com/hyperledger-labs/fabric-operations-console/pull/770) Bump github.com/docker/docker from 25.0.5+incompatible to 26.1.4+incompatible in /packages/fabric-deployer
+[4917](https://github.com/hyperledger/iroha/pull/4917) fix: delete exited colleges
 
-[291](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/291) Rename to IBCChannelUpgradeConfirmOpenTimeoutCancel
+[641](https://github.com/hyperledger-labs/fabric-smart-client/pull/641) comm: quiter logs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

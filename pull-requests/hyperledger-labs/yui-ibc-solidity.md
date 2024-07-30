@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/292" class=".btn">#292</a>
+            </td>
+            <td>
+                <b>
+                    Fix https://github.com/cosmos/ibc/pull/1127
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix to check upgrade compatibility in chanUpgradeConfirm
+- https://github.com/cosmos/ibc/pull/1127
+- https://github.com/cosmos/ibc-go/releases/tag/v8.4.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 13:02:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/291" class=".btn">#291</a>
             </td>
             <td>
@@ -59,39 +87,6 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </table>
     <div class="right-align">
         Created At 2024-07-24 06:53:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/289" class=".btn">#289</a>
-            </td>
-            <td>
-                <b>
-                    Improve benchmark accuracy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ```
-IBCBenchmarks:testAcknowledgePacket() (gas: 100109)
-IBCBenchmarks:testCreateMockClient() (gas: 216843)
-IBCBenchmarks:testRecvPacket() (gas: 158121)
-IBCBenchmarks:testSendPacket() (gas: 96524)
-IBCBenchmarks:testUpdateMockClientDirectly() (gas: 64815)
-IBCBenchmarks:testUpdateMockClientViaHandler() (gas: 150703)
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-23 12:53:23 +0000 UTC
     </div>
 </div>
 
