@@ -15,6 +15,37 @@ permalink: /releases/hyperledger/iroha
         <tr>
             <td colspan="2">
                 <b>
+                    2.0.0-pre-rc.22.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v2.0.0-pre-rc.22.1
+                </span>
+            </td>
+            <td>
+                ### Fixed
+
+- added `jq` to the docker image
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/iroha/releases/tag/v2.0.0-pre-rc.22.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2024-07-30 15:38:11 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     2.0.0-pre-rc.22.0
                 </b>
             </td>
