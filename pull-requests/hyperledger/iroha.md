@@ -14,11 +14,95 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4916" class=".btn">#4916</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4920" class=".btn">#4920</a>
             </td>
             <td>
                 <b>
-                    ci: containerised testing
+                    chore: version bump to mvp.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Current version should be whatever we're currently working on. 
+In this case it should be `mvp.1` and not `rc.22` which we have already released
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 16:50:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4919" class=".btn">#4919</a>
+            </td>
+            <td>
+                <b>
+                    ci: Add jq tool to iroha2 profiler image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 15:15:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4918" class=".btn">#4918</a>
+            </td>
+            <td>
+                <b>
+                    ci: conterized testing
                 </b>
             </td>
         </tr>
@@ -65,7 +149,66 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-30 10:28:06 +0000 UTC
+        Created At 2024-07-30 14:56:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4917" class=".btn">#4917</a>
+            </td>
+            <td>
+                <b>
+                    fix: delete exited colleges
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 14:46:32 +0000 UTC
     </div>
 </div>
 
@@ -970,308 +1113,6 @@ No redundant code.
     </table>
     <div class="right-align">
         Created At 2024-07-24 10:18:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4886" class=".btn">#4886</a>
-            </td>
-            <td>
-                <b>
-                    fix(schema): make `Role` transparent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">api-changes</span>
-            </td>
-            <td>
-                ## Description
-
-* make `Role` transparent in schema
-* rename `NewXXX` to `XXX` when serializing as json
-
-This is how schema looked like:
-```json
-"NewRole": {
-  "Struct": [
-    {
-      "name": "inner",
-      "type": "Role"
-    }
-  ]
-},
-```
-
-but in genesis it was:
-```json
-{
-  "Register": {
-    "Role": {
-      "id": "ALICE_METADATA_ACCESS",
-      "permissions": [
-        {
-          "name": "CanRemoveKeyValueInAccount",
-          "payload": {
-            "account": "ed0120CE7FA46C9DCE7EA4B125E2E36BDB63EA33073E7590AC92816AE1E861B7048B03@wonderland"
-          }
-        },
-        {
-          "name": "CanSetKeyValueInAccount",
-          "payload": {
-            "account": "ed0120CE7FA46C9DCE7EA4B125E2E36BDB63EA33073E7590AC92816AE1E861B7048B03@wonderland"
-          }
-        }
-      ]
-    }
-  }
-},
-```
-
-which is the consequence of the fact that we have no way of representing transparency in schema
-
-### Linked issue
-
-Related to #1660 
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-23 17:41:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4885" class=".btn">#4885</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump tokio from 1.38.1 to 1.39.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [tokio](https://github.com/tokio-rs/tokio) from 1.38.1 to 1.39.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/tokio-rs/tokio/releases">tokio's releases</a>.</em></p>
-<blockquote>
-<h2>Tokio v1.39.1</h2>
-<h1>1.39.1 (July 23rd, 2024)</h1>
-<p>This release reverts &quot;time: avoid traversing entries in the time wheel twice&quot; because it contains a bug. (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6715">#6715</a>)</p>
-<p><a href="https://redirect.github.com/tokio-rs/tokio/issues/6715">#6715</a>: <a href="https://redirect.github.com/tokio-rs/tokio/pull/6715">tokio-rs/tokio#6715</a></p>
-<h2>Tokio v1.39.0</h2>
-<h1>1.39.0 (July 23rd, 2024)</h1>
-<ul>
-<li>This release bumps the MSRV to 1.70. (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6645">#6645</a>)</li>
-<li>This release upgrades to mio v1. (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6635">#6635</a>)</li>
-<li>This release upgrades to windows-sys v0.52 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6154">#6154</a>)</li>
-</ul>
-<h3>Added</h3>
-<ul>
-<li>io: implement <code>AsyncSeek</code> for <code>Empty</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6663">#6663</a>)</li>
-<li>metrics: stabilize <code>num_alive_tasks</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6619">#6619</a>, <a href="https://redirect.github.com/tokio-rs/tokio/issues/6667">#6667</a>)</li>
-<li>process: add <code>Command::as_std_mut</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6608">#6608</a>)</li>
-<li>sync: add <code>watch::Sender::same_channel</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6637">#6637</a>)</li>
-<li>sync: add <code>{Receiver,UnboundedReceiver}::{sender_strong_count,sender_weak_count}</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6661">#6661</a>)</li>
-<li>sync: implement <code>Default</code> for <code>watch::Sender</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6626">#6626</a>)</li>
-<li>task: implement <code>Clone</code> for <code>AbortHandle</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6621">#6621</a>)</li>
-<li>task: stabilize <code>consume_budget</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6622">#6622</a>)</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li>io: improve panic message of <code>ReadBuf::put_slice()</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6629">#6629</a>)</li>
-<li>io: read during write in <code>copy_bidirectional</code> and <code>copy</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6532">#6532</a>)</li>
-<li>runtime: replace <code>num_cpus</code> with <code>available_parallelism</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6709">#6709</a>)</li>
-<li>task: avoid stack overflow when passing large future to <code>block_on</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6692">#6692</a>)</li>
-<li>time: avoid traversing entries in the time wheel twice (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6584">#6584</a>)</li>
-<li>time: support <code>IntoFuture</code> with <code>timeout</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6666">#6666</a>)</li>
-<li>macros: support <code>IntoFuture</code> with <code>join!</code> and <code>select!</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6710">#6710</a>)</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>docs: fix docsrs builds with the fs feature enabled (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6585">#6585</a>)</li>
-<li>io: only use short-read optimization on known-to-be-compatible platforms (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6668">#6668</a>)</li>
-<li>time: fix overflow panic when using large durations with <code>Interval</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6612">#6612</a>)</li>
-</ul>
-<h3>Added (unstable)</h3>
-<ul>
-<li>macros: allow <code>unhandled_panic</code> behavior for <code>#[tokio::main]</code> and <code>#[tokio::test]</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6593">#6593</a>)</li>
-<li>metrics: add <code>spawned_tasks_count</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6114">#6114</a>)</li>
-<li>metrics: add <code>worker_park_unpark_count</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6696">#6696</a>)</li>
-<li>metrics: add worker thread id (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6695">#6695</a>)</li>
-</ul>
-<h3>Documented</h3>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/tokio-rs/tokio/commit/f8fe0ffb23c2279708cb5dada7c88defdae60845"><code>f8fe0ff</code></a> chore: prepare Tokio v1.39.1 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6716">#6716</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/47210a8e6eeb82b51aa778074fdc4d757b953b8c"><code>47210a8</code></a> time: revert &quot;avoid traversing entries in the time wheel twice&quot; (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6715">#6715</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/29545d90370d925a7264ff8636013ee6bf1760e6"><code>29545d9</code></a> runtime: ignore many_oneshot_futures test for alt scheduler (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6712">#6712</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/48e35c11d924ffa3a009b89fbb6d36e57b835da4"><code>48e35c1</code></a> chore: release Tokio v1.39.0 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6711">#6711</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/dd1d37167d1f4008ca5d3df500e86826112a8cad"><code>dd1d371</code></a> macros: accept <code>IntoFuture</code> args for macros (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6710">#6710</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/6a1a7b15912d1a86ab4c0d09e1a8f0a221dbfeee"><code>6a1a7b1</code></a> chore: prepare tokio-macros v2.4.0 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6707">#6707</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/51b03f0334a79298c942c123eb99ebf8daac0352"><code>51b03f0</code></a> deps: update to windows-sys v0.52 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6154">#6154</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/754a1fb03c7456682a652f66eba6d76cfa1c6ad8"><code>754a1fb</code></a> deps: update to Mio v1 (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6635">#6635</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/90b23a9584db99ae81fffee38a89a09d2eca1834"><code>90b23a9</code></a> metrics: add worker thread id (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6695">#6695</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/b69f16aa219818bc75e7ae6a22631d4e574efd39"><code>b69f16a</code></a> metrics: add <code>worker_park_unpark_count</code> (<a href="https://redirect.github.com/tokio-rs/tokio/issues/6696">#6696</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/tokio-rs/tokio/compare/tokio-1.38.1...tokio-1.39.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tokio&package-manager=cargo&previous-version=1.38.1&new-version=1.39.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-23 16:31:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4884" class=".btn">#4884</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump clap from 4.5.9 to 4.5.10
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [clap](https://github.com/clap-rs/clap) from 4.5.9 to 4.5.10.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
-<blockquote>
-<h2>v4.5.10</h2>
-<h2>[4.5.10] - 2024-07-23</h2>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's changelog</a>.</em></p>
-<blockquote>
-<h2>[4.5.10] - 2024-07-23</h2>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/clap-rs/clap/commit/6243d6546301855c6fc71680e2bf6976f064aee1"><code>6243d65</code></a> fix: Only generate stubs if has subcommands</li>
-<li><a href="https://github.com/clap-rs/clap/commit/f5965e586292d31b2a2cbd83f19d145180471012"><code>f5965e5</code></a> chore: Update dependencies</li>
-<li>See full diff in <a href="https://github.com/clap-rs/clap/compare/clap_complete-v4.5.9...v4.5.10">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=clap&package-manager=cargo&previous-version=4.5.9&new-version=4.5.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-23 16:29:30 +0000 UTC
     </div>
 </div>
 

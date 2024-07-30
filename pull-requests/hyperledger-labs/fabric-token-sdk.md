@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/721" class=".btn">#721</a>
+            </td>
+            <td>
+                <b>
+                    for testing only - pkcs11 on both fsc and fts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This branch is https://github.com/hyperledger-labs/fabric-token-sdk/pull/699
+on top of https://github.com/hyperledger-labs/fabric-smart-client/pull/621 so that we can test both changes together.
+
+It is not meant to be merged as is, because the Token SDK should rely on `main` commits on Fabric Smart Client only.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 12:45:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/720" class=".btn">#720</a>
             </td>
             <td>
@@ -212,32 +243,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2024-07-25 09:39:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/713" class=".btn">#713</a>
-            </td>
-            <td>
-                <b>
-                    Added parallel finality listener manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-23 13:17:57 +0000 UTC
     </div>
 </div>
 

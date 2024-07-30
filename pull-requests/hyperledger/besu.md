@@ -30,12 +30,47 @@ permalink: /pull-requests/hyperledger/besu
                 ## PR description
 This PR aims to enhance block processing testing, inspired by [this comment](https://github.com/hyperledger/besu/pull/7296#discussion_r1683570569) from @garyschulte regarding test coverage. The goal is to develop unit tests that focus on executing block transactions without concerning header and body validations. For each scenario specified by @matkt, we test both sequential and parallel processing to ensure state changes remain consistent.
 
-The tested cases include:
+The tested cases are:
 
-- Conflicting transactions from the same sender
-- Conflicting transactions involving coinbase interactions
-- Conflicting account modifications
-- Conflicting state modifications
+- Test 1
+  - Trx1: Transfer from a to b
+  - Trx2: Transfer from a to c
+
+- Test 2
+  - Trx1: Transfer from a to b
+  - Trx2: Transfer from b to c
+
+- Test 3
+  - Trx1: Transfer from a to b
+  - Trx2: Transfer from c to d
+
+- Test 4
+  - Trx1: Transfer from a to b
+  - Trx2: Transfer from c to coinbase
+
+- Test 5
+  - Trx1: Contract with read from account A
+  - Trx2: Contract with update to account A
+
+- Test 6
+  - Trx1: Contract with update to account A
+  - Trx2: Contract with read from account A
+  
+- Test 7
+  - Trx1: Contract with update to account A
+  - Trx2: Contract with read from account B
+
+- Test 8 (Slots)
+  - Trx1: Contract with read from slot S1
+  - Trx2: Contract with update to slot S1
+  
+- Test 9 (Slots)
+  - Trx1: Contract with update to slot S1
+  - Trx2: Contract with read from slot S1
+  
+- Test 10 (Slots)
+  - Trx1: Contract with update to slot S1
+  - Trx2: Contract with read from slot S2
 
 The Solidity contract file has been added for reference. It represents the smart contract that the bytecode is included in the genesis file. Including this file in the PR helps in understanding the tests.
 

@@ -39,9 +39,9 @@ branch name and repository owner changed
 
 ## Checklist
 
-- [ ] I've read the contribution guidelines.
-- [ ] I've added tests (if applicable).
-- [ ] I've added a changelog entry if necessary.
+- [x] I've read the contribution guidelines.
+- [x] I've added tests (if applicable).
+- [x] I've added a changelog entry if necessary.
             </td>
         </tr>
     </table>

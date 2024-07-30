@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/zeto
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/zeto/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    Add circuits for KYC enforcement with anonymity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A sample solution that enforces KYC on the sender and receiver Babyjubjub keys, by using a merkle tree in the smart contract to capture the registered identities, so that the transactions can prove against the current merkle tree root.
+
+> Note that the merkle tree implementation in Solidity currently only supports appending.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 13:07:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/zeto/pull/24" class=".btn">#24</a>
             </td>
             <td>
