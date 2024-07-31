@@ -14,6 +14,129 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4924" class=".btn">#4924</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps-dev): bump mypy from 1.11.0 to 1.11.1 in /client_cli/pytests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">python</span>
+            </td>
+            <td>
+                Bumps [mypy](https://github.com/python/mypy) from 1.11.0 to 1.11.1.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/python/mypy/commit/570b90a7a368f04c64f60af339d0ac1808c49c15"><code>570b90a</code></a> Bump version to 1.11</li>
+<li><a href="https://github.com/python/mypy/commit/b3a102ef31f63a8a8ba32c8dbe160ddef3c43054"><code>b3a102e</code></a> Fix <code>RawExpressionType.accept</code> crash with <code>--cache-fine-grained</code> (<a href="https://redirect.github.com/python/mypy/issues/17588">#17588</a>)</li>
+<li><a href="https://github.com/python/mypy/commit/aec04c74488d46a81a95ed3553b8e953a6ec59a7"><code>aec04c7</code></a> Fix PEP 604 isinstance caching (<a href="https://redirect.github.com/python/mypy/issues/17563">#17563</a>)</li>
+<li><a href="https://github.com/python/mypy/commit/cb44e4d8f18b9bc874f1076b33eec7ad67de165c"><code>cb44e4d</code></a> Fix <code>typing.TypeAliasType</code> being undefined on python &lt; 3.12 (<a href="https://redirect.github.com/python/mypy/issues/17558">#17558</a>)</li>
+<li><a href="https://github.com/python/mypy/commit/6cf9180e1411dab2ee91b57374f696d391eb24f4"><code>6cf9180</code></a> Fix types.GenericAlias lookup crash (<a href="https://redirect.github.com/python/mypy/issues/17543">#17543</a>)</li>
+<li><a href="https://github.com/python/mypy/commit/64c1ebf7cff51c13b1771174e3bb6bce9fe0d5dc"><code>64c1ebf</code></a> Bump version to 1.11.1+dev</li>
+<li>See full diff in <a href="https://github.com/python/mypy/compare/v1.11...v1.11.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mypy&package-manager=pip&previous-version=1.11.0&new-version=1.11.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-31 16:31:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4923" class=".btn">#4923</a>
+            </td>
+            <td>
+                <b>
+                    fix(p2p): prevent deadlock on simulatnios sending large message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span>
+            </td>
+            <td>
+                ## Description
+
+When 2 peers try to send each other huge messages they end up deadlocked.
+I suspect that this happen when message is large enough that it's not possible to fully put it in the OS buffer.
+
+Here is minimal [example](https://github.com/Erigara/tcp_deadlock) i was able to came up with which suffers from the same issue.
+
+Solution was to lift sending data up to the `select!` statement so peer can either read or write data simultaneously. 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+No deadlock.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-31 14:49:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4922" class=".btn">#4922</a>
             </td>
             <td>
@@ -129,7 +252,7 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             </td>
             <td>
                 <b>
-                    chore: version bump to mvp.1.0
+                    chore: version bump to rc.1.0
                 </b>
             </td>
         </tr>
@@ -1035,63 +1158,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-07-25 07:56:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4890" class=".btn">#4890</a>
-            </td>
-            <td>
-                <b>
-                    refactor: derive block hash from header
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Derive block hash from the header only.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4641 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-- block hash is the same for the whole lifetime of the block
-- block hash is less expensive as only header is used
-- light client is able to verify block chain by only headers and corresponding signatures (without obligation to load the whole block)
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-24 13:10:59 +0000 UTC
     </div>
 </div>
 
