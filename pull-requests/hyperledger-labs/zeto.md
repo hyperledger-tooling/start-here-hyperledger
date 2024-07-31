@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/zeto
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/zeto/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    Add Key mgmt library and create a top-level sparse-merkle-tree library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - moved the sparse merkle tree implementation code to a top-level package `sparse-merkle-tree`
+- started a new top-level package `keys` to demonstrate usage of existing encrypted keys capabilities for the Babyjubjub curve
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-31 12:55:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/zeto/pull/25" class=".btn">#25</a>
             </td>
             <td>
