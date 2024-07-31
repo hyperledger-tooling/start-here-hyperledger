@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7386" class=".btn">#7386</a>
+            </td>
+            <td>
+                <b>
+                    Add world state to traceEndblock
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Adds the world state to `traceEndBlock` in order to be able the state of the accounts after the whole block has been processed
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-26 15:01:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7385" class=".btn">#7385</a>
+            </td>
+            <td>
+                <b>
+                    Rotate changelog for 24.7.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of https://github.com/hyperledger/besu/issues/7384
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-26 06:36:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7382" class=".btn">#7382</a>
+            </td>
+            <td>
+                <b>
+                    feat: Expose set finalized/safe block in plugin api BlockchainService
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+feat: Expose set finalized/safe block in plugin api BlockchainService. This method can be used by plugins to set finalized/safe block for a POA network (such as QBFT, IBFT and Clique).
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [x] acceptance tests: `./gradlew acceptanceTest`
+- [x] integration tests: `./gradlew integrationTest`
+- [x] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-26 01:49:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7380" class=".btn">#7380</a>
+            </td>
+            <td>
+                <b>
+                    Bump execution-spec-tests to 3.0.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Bumps the main execution-spec-tests artifact to [3.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/v3.0.0)
+
+Note: this PR uses the `_stable` build artifact and does not account for release artifacts from active branches, e.g. `fixtures_eip7692.tar.gz`.   
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-25 20:43:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7378" class=".btn">#7378</a>
             </td>
             <td>

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    comm: quiter logs
+                    improvements
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                db+kvs: unversioned transactional persistance
+                - Communication layer: quieter logs;
+- KVS: support for concurrent puts
+- DB: memory driver replaced by sqlite in memory
             </td>
         </tr>
     </table>
