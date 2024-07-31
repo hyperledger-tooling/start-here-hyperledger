@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4935" class=".btn">#4935</a>
+            </td>
+            <td>
+                <b>
+                    Retire Senthilnathan Natarajan from fabric maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Policy from the contribution guide:
+Maintainers may be removed for prolonged inactivity (e.g. 3 or more months with no review comments).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-30 20:51:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4933" class=".btn">#4933</a>
             </td>
             <td>
