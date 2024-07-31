@@ -90,29 +90,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/638" class=".btn">#638</a>
-            </td>
-            <td>
-                <b>
-                    Responder views inherit span of initiator. Span names are prefixed wi…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …th the node name. Added further spans/events.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-24 11:38:11 +0000 UTC
-    </div>
-</div>
-
