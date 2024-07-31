@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/4922" class=".btn">#4922</a>
+            </td>
+            <td>
+                <b>
+                    fix(sumeragi): remove expired transaction from cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span>
+            </td>
+            <td>
+                ## Description
+
+- fix a bug in retain that actually non expired transactions were removed
+- qol improvment to print transactions by hash in the logs
+    - i find it really hard to debug iroha on TRACE level in presence of heavy transactions because all logs are polluted by tx printing 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+- fewer bugs
+- more clear logs
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-31 07:18:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/4921" class=".btn">#4921</a>
             </td>
             <td>
@@ -1040,61 +1092,6 @@ Closes #4641 <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2024-07-24 13:10:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/4889" class=".btn">#4889</a>
-            </td>
-            <td>
-                <b>
-                    refactor(p2p): remove `garbage`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Refactor</span>
-            </td>
-            <td>
-                ## Description
-
-Remove adding garbage to p2p handshake.
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #4888 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-No redundant code.
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-24 10:18:23 +0000 UTC
     </div>
 </div>
 

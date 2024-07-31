@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1239" class=".btn">#1239</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1241" class=".btn">#1241</a>
             </td>
             <td>
                 <b>
-                    Configure dependabot updates to GitHub Actions
+                    test-network-k8s: Improve prereqs logic
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                <nil>
+                It seems that PR #1205 has stalled, so I have created a new PR that builds upon the considerations from that one while addressing the issues raised. 
+
+This PR resolves issue #1204 and also addresses the concerns mentioned in PR #1205. Specifically, it:
+- Uses the newer install script instead of bootstrap.sh.
+- Downloads binaries corresponding to the image versions, supporting both two-digit and three-digit Fabric version specifications.
+
+Related issue:
+Resolves #1204
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2024-07-19 10:49:44 +0000 UTC
+        Created At 2024-07-31 09:42:15 +0000 UTC
     </div>
 </div>
 
