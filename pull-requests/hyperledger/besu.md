@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7394" class=".btn">#7394</a>
+            </td>
+            <td>
+                <b>
+                    7702 bugfixes for devnet-1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Process the authority list before increasing the sender nonce, make sure that the updated balance of the sender is calculated correctly if they sign an authorization as well
+
+## Fixed Issue(s)
+fixes #7391 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-29 13:50:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7393" class=".btn">#7393</a>
             </td>
             <td>
@@ -324,98 +355,6 @@ Note: this PR uses the `_stable` build artifact and does not account for release
     </table>
     <div class="right-align">
         Created At 2024-07-25 20:43:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7378" class=".btn">#7378</a>
-            </td>
-            <td>
-                <b>
-                    Add integration tests on block processing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR aims to enhance block processing testing, inspired by [this comment](https://github.com/hyperledger/besu/pull/7296#discussion_r1683570569) from @garyschulte regarding test coverage. The goal is to develop unit tests that focus on executing block transactions without concerning header and body validations. For each scenario specified by @matkt, we test both sequential and parallel processing to ensure state changes remain consistent.
-
-The tested cases are:
-
-- Test 1
-  - Trx1: Transfer from a to b
-  - Trx2: Transfer from a to c
-
-- Test 2
-  - Trx1: Transfer from a to b
-  - Trx2: Transfer from b to c
-
-- Test 3
-  - Trx1: Transfer from a to b
-  - Trx2: Transfer from c to d
-
-- Test 4
-  - Trx1: Transfer from a to b
-  - Trx2: Transfer from c to coinbase
-
-- Test 5
-  - Trx1: Contract with read from account A
-  - Trx2: Contract with update to account A
-
-- Test 6
-  - Trx1: Contract with update to account A
-  - Trx2: Contract with read from account A
-  
-- Test 7
-  - Trx1: Contract with update to account A
-  - Trx2: Contract with read from account B
-
-- Test 8 (Slots)
-  - Trx1: Contract with read from slot S1
-  - Trx2: Contract with update to slot S1
-  
-- Test 9 (Slots)
-  - Trx1: Contract with update to slot S1
-  - Trx2: Contract with read from slot S1
-  
-- Test 10 (Slots)
-  - Trx1: Contract with update to slot S1
-  - Trx2: Contract with read from slot S2
-
-The Solidity contract file has been added for reference. It represents the smart contract that the bytecode is included in the genesis file. Including this file in the PR helps in understanding the tests.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-
-### Thanks for sending a pull request! Have you done the following?
-
-- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
-- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
-
-### Locally, you can run these tests to catch failures early:
-
-- [ ] unit tests: `./gradlew build`
-- [ ] acceptance tests: `./gradlew acceptanceTest`
-- [ ] integration tests: `./gradlew integrationTest`
-- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-25 14:07:37 +0000 UTC
     </div>
 </div>
 
