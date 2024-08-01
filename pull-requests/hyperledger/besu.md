@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7393" class=".btn">#7393</a>
+            </td>
+            <td>
+                <b>
+                    Refactor TrieLogPruner preload timeout to be more testable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An improved version of https://github.com/hyperledger/besu/pull/7365
+
+Example of INFO level logging during timeout...
+```
+{"@timestamp":"2024-07-29T11:58:49,398","level":"INFO","thread":"main","class":"TrieLogPruner","message":"Trie log pruner queue preload starting...","throwable":""}
+{"@timestamp":"2024-07-29T11:58:49,399","level":"INFO","thread":"main","class":"TrieLogPruner","message":"Attempting to load first 5000 trie logs from database...","throwable":""}
+{"@timestamp":"2024-07-29T11:58:49,400","level":"INFO","thread":"main","class":"TrieLogPruner","message":"Trie log pruning will timeout after 30 seconds. If this is timing out, consider using `besu storage trie-log prune` subcommand, see https://besu.hyperledger.org/public-networks/how-to/bonsai-limit-trie-logs","throwable":""}
+{"@timestamp":"2024-07-29T11:59:19,401","level":"WARN","thread":"main","class":"TrieLogPruner","message":"Timeout occurred while loading and processing 5000 trie logs from database","throwable":""}
+{"@timestamp":"2024-07-29T11:59:19,437","level":"INFO","thread":"pool-8-thread-1","class":"TrieLogPruner","message":"Operation interrupted, but will attempt to prune what's in the queue so far...","throwable":""}
+{"@timestamp":"2024-07-29T11:59:19,452","level":"INFO","thread":"pool-8-thread-1","class":"TrieLogPruner","message":"...pruned 412 trie logs","throwable":""}
+{"@timestamp":"2024-07-29T11:59:19,452","level":"INFO","thread":"main","class":"TrieLogPruner","message":"Trie log pruner queue preload complete.","throwable":""}
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [x] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [x] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [x] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-29 12:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7392" class=".btn">#7392</a>
             </td>
             <td>
