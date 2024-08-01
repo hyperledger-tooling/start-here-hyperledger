@@ -87,7 +87,7 @@ You can trigger Dependabot actions by commenting on this PR:
             </td>
             <td>
                 <b>
-                    fix(p2p): prevent deadlock on simulatnios sending large message
+                    fix(p2p): prevent deadlock on simultaneous sending large message
                 </b>
             </td>
         </tr>

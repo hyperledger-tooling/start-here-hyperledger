@@ -138,29 +138,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugins/pull/827" class=".btn">#827</a>
-            </td>
-            <td>
-                <b>
-                    Fix readme formatting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Just noticed the readme formatting got messed up when I added that new section for lite-plugins.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-24 20:40:35 +0000 UTC
-    </div>
-</div>
-
