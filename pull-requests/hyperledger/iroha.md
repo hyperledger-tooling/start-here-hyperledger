@@ -432,9 +432,9 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             <td>
                 ## Description
 
-<!-- Just describe what you did. -->
+This PR implements the ability to run Docker Compose tests within the context of pull requests (PR) instead of after merging. 
 
-<!-- Skip if the title of the PR is self-explanatory -->
+We have also developed a CI process that executes Torii API and Client CLI tests on real containers rather than on bare metal. This has reduced the job execution time by 30% thanks to the optimization of the testing process using Torii API and Client CLI tests.
 
 ### Linked issue
 
@@ -446,13 +446,14 @@ Closes #4925 <!-- Replace with an actual number,  -->
 
 ### Benefits
 
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+Docker Compose tests are now run within the context of PRs, allowing us to identify and fix errors before merging.
+Optimization of the testing process using real containers has reduced job execution time by 30%, speeding up the CI process.
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
