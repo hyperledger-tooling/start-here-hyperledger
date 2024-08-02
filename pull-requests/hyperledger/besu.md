@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/7395" class=".btn">#7395</a>
+            </td>
+            <td>
+                <b>
+                    In process RPC service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Expose a way to call RPC method in process, so they can be invoked by plugins without the overhead of the network (or native socket) and the json (de)serialization.
+
+The interface is still fragile, because RPC method inputs and outputs are not typed, but just Object, so a next step will be to make them typed so plugins will discover at compile time that something is broken, but that will be address in another PR.
+
+Do not be scared by the amount of file changed since many are due to the move of some classes in the plugin-api module.
+
+This feature is disabled by default and can be enabled setting the new experimental flag `Xin-process-rpc-enabled=true`, and to enabled specific RPC namespaces use the new experimental option `Xin-process-rpc-apis` with a comma separated list of namespaces.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+### Thanks for sending a pull request! Have you done the following?
+
+- [ ] Checked out our [contribution guidelines](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md)?
+- [ ] Considered documentation and added the `doc-change-required` label to this PR [if updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] Considered the changelog and included an [update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] For database changes (e.g. KeyValueSegmentIdentifier) considered compatibility and performed forwards and backwards compatibility tests
+
+### Locally, you can run these tests to catch failures early:
+
+- [ ] unit tests: `./gradlew build`
+- [ ] acceptance tests: `./gradlew acceptanceTest`
+- [ ] integration tests: `./gradlew integrationTest`
+- [ ] reference tests: `./gradlew ethereum:referenceTests:referenceTests`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2024-07-29 16:48:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/7394" class=".btn">#7394</a>
             </td>
             <td>
@@ -325,36 +380,6 @@ feat: Expose set finalized/safe block in plugin api BlockchainService. This meth
     </table>
     <div class="right-align">
         Created At 2024-07-26 01:49:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/7380" class=".btn">#7380</a>
-            </td>
-            <td>
-                <b>
-                    Bump execution-spec-tests to 3.0.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Bumps the main execution-spec-tests artifact to [3.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/v3.0.0)
-
-Note: this PR uses the `_stable` build artifact and does not account for release artifacts from active branches, e.g. `fixtures_eip7692.tar.gz`.   
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2024-07-25 20:43:53 +0000 UTC
     </div>
 </div>
 
